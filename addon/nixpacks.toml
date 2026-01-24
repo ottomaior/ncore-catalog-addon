@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["nodejs_18", "python311"]
+
+[phases.install]
+cmds = ["npm ci"]
+
+[start]
+cmd = "node index.js"
