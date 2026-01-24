@@ -1,0 +1,32 @@
+# Environment variables (NEVER commit!)
+config/config.env
+*.env
+!config.example.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# VSCode
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Testing
+test_*.py
