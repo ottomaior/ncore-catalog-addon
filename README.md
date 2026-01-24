@@ -27,5 +27,5 @@ Automated script to sync Hungarian HD movies from nCore RSS feeds to Trakt lists
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ncore-catalog-addon.git
+git clone https://github.com/ottomaior/ncore-catalog-addon.git
 cd ncore-catalog-addon
