@@ -10,7 +10,7 @@ const MOVIE_LIST_SLUG = process.env.TRAKT_LIST_SLUG;
 // Addon manifest
 const manifest = {
     id: 'com.ncore.hungarian.addon',
-    version: '1.0.0',
+    version: '1.1.0',
     name: 'nCore – Legfrissebb Feltöltések (HU)',
     description: 'Utoljára feltöltött magyar nyelvű filmek és sorozatok az nCore trackerről',
     resources: ['catalog', 'meta'],
