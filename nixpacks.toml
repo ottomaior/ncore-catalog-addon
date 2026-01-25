@@ -1,11 +1,15 @@
 [phases.setup]
-nixPkgs = ["nodejs_20", "python311", "python311Packages.pip"]
+nixPkgs = ["nodejs_20", "python311", "python311Packages.pip", "python311Packages.virtualenv"]
 
 [phases.install]
 cmds = [
     "npm install",
-    "pip install -r python-requirements.txt"
+    "python -m venv /opt/venv",
+    ". /opt/venv/bin/activate && pip install -r python-requirements.txt"
 ]
 
+[phases.build]
+cmds = ["npm install"]
+
 [start]
-cmd = "node index.js & node cron.js"
+cmd = ". /opt/venv/bin/activate && node index.js"
