@@ -277,10 +277,6 @@ setInterval(() => {
 const PORT = process.env.ADDON_PORT || 7000;
 serveHTTP(builder.getInterface(), { port: PORT });
 
-// Start server
-const PORT = process.env.ADDON_PORT || 7000;
-serveHTTP(builder.getInterface(), { port: PORT });
-
 console.log(`\n${'='.repeat(60)}`);
 console.log(`🎬 nCore Stremio Addon Fut`);
 console.log(`${'='.repeat(60)}`);
@@ -317,7 +313,7 @@ cron.schedule('0 */3 * * *', () => {
 // Run series scraper every 3 hours (offset by 30 minutes)
 cron.schedule('30 */3 * * *', () => {
     console.log('⏰ Running series scraper...');
-    exec('cd scripts && python sync_series_rss_to_trakt.py', (error, stdout, stderr) => {
+    exec('. /opt/venv/bin/activate && cd scripts && python sync_series_rss_to_trakt.py', (error, stdout, stderr) => {
         if (error) {
             console.error(`Series scraper error: ${error.message}`);
             return;
@@ -334,11 +330,3 @@ console.log('📋 Scheduled tasks:');
 console.log('  - Movies: Every 3 hours (00:00, 03:00, 06:00, ...)');
 console.log('  - Series: Every 3 hours (00:30, 03:30, 06:30, ...)\n');
 
-console.log(`\n${'='.repeat(60)}`);
-console.log(`🎬 nCore Stremio Addon Fut`);
-console.log(`${'='.repeat(60)}`);
-console.log(`\n📍 Helyi: http://localhost:${PORT}/manifest.json`);
-console.log(`🌐 Telepítés: http://localhost:${PORT}/manifest.json`);
-console.log(`📋 Filmek: http://localhost:${PORT}/catalog/movie/ncore-hd-movies.json`);
-console.log(`📺 Sorozatok: http://localhost:${PORT}/catalog/series/ncore-hd-series.json\n`);
-console.log(`${'='.repeat(60)}\n`);
