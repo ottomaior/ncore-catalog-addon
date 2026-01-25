@@ -1,16 +1,46 @@
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 const axios = require('axios');
 require('dotenv').config({ path: './config/config.env' });
+const fs = require('fs');
+const path = require('path');
 
 // Trakt API configuration
 const TRAKT_CLIENT_ID = process.env.TRAKT_CLIENT_ID;
 const TRAKT_USERNAME = process.env.TRAKT_USERNAME;
 const MOVIE_LIST_SLUG = process.env.TRAKT_LIST_SLUG;
 
+// Path to episode tracker
+const EPISODE_TRACKER_PATH = path.join(__dirname, 'scripts', 'series_episodes_seen.json');
+
+// Load episode information from tracker
+function loadEpisodeTracker() {
+    try {
+        if (fs.existsSync(EPISODE_TRACKER_PATH)) {
+            const data = fs.readFileSync(EPISODE_TRACKER_PATH, 'utf-8');
+            return JSON.parse(data);
+        }
+    } catch (error) {
+        console.error('Hiba az epizód tracker betöltésekor:', error.message);
+    }
+    return {};
+}
+
+// Get episode info for a Trakt ID
+function getEpisodeInfo(traktId) {
+    const tracker = loadEpisodeTracker();
+    const info = tracker[traktId.toString()];
+    
+    if (info && info.latest_season && info.latest_episode) {
+        return `S${String(info.latest_season).padStart(2, '0')}E${String(info.latest_episode).padStart(2, '0')}`;
+    }
+    return null;
+}
+
+
 // Addon manifest
 const manifest = {
     id: 'com.ncore.hungarian.addon',
-    version: '1.1.0',
+    version: '1.2.0',
     name: 'nCore – Legfrissebb Feltöltések (HU)',
     description: 'Utoljára feltöltött magyar nyelvű filmek és sorozatok az nCore trackerről',
     resources: ['catalog', 'meta'],
@@ -139,10 +169,16 @@ async function fetchTraktSeriesList() {
                 let imdbId = show.ids.imdb.toString();
                 imdbId = imdbId.replace(/^tt/, '');
 
+                 // Get episode info from tracker
+                const traktId = show.ids.trakt;
+                const episodeInfo = getEpisodeInfo(traktId);
+                const displayName = episodeInfo ? `${show.title} (${episodeInfo} HUN)` : show.title;
+
+
                 return {
                     id: `tt${imdbId}`,
                     type: 'series',
-                    name: show.title,
+                    name: displayName,
                     poster: `https://images.metahub.space/poster/small/tt${imdbId}/img`,
                     posterShape: 'poster',
                     year: show.year,

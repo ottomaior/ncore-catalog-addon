@@ -7,8 +7,10 @@ import os
 from dotenv import load_dotenv
 import unicodedata
 
+
 # Load environment variables from config.env
 load_dotenv('../config/config.env')
+
 
 # Configuration from environment
 TRAKT_USERNAME = os.getenv('TRAKT_USERNAME')
@@ -16,15 +18,18 @@ LIST_SLUG = os.getenv('TRAKT_SERIES_LIST_SLUG')
 CLIENT_ID = os.getenv('TRAKT_CLIENT_ID')
 ACCESS_TOKEN = os.getenv('TRAKT_ACCESS_TOKEN')
 
+
 # RSS Feeds for series
 RSS_FEEDS = [
     'http://finderss.it.cx/?&s=S0%25E0%25.720p&cat=Sorozat%20(HUN%20HD),',
     'http://finderss.it.cx/?&s=S0%25E0%25.1080p&cat=Sorozat%20(HUN%20HD),',
 ]
 
+
 # Episode tracking file
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 EPISODE_TRACKER_FILE = os.path.join(SCRIPT_DIR, 'series_episodes_seen.json')
+
 
 headers = {
     'Content-Type': 'application/json',
@@ -33,11 +38,13 @@ headers = {
     'Authorization': f'Bearer {ACCESS_TOKEN}'
 }
 
+
 def normalize_unicode(text):
     """Normalize Unicode characters to ASCII equivalents"""
     nfd = unicodedata.normalize('NFD', text)
     ascii_text = ''.join(char for char in nfd if unicodedata.category(char) != 'Mn')
     return ascii_text
+
 
 def load_episode_tracker():
     """Load previously seen episodes"""
@@ -46,10 +53,12 @@ def load_episode_tracker():
             return json.load(f)
     return {}
 
+
 def save_episode_tracker(tracker):
     """Save seen episodes to file"""
     with open(EPISODE_TRACKER_FILE, 'w', encoding='utf-8') as f:
         json.dump(tracker, f, indent=2, ensure_ascii=False)
+
 
 def extract_episode_info(title):
     """Extract season and episode from title (e.g., S02E04 or S01 for full season)"""
@@ -69,12 +78,14 @@ def extract_episode_info(title):
     
     return None, None, False
 
+
 def extract_year_from_title(title):
     """Extract year from title if present"""
     year_match = re.search(r'\.(\d{4})\.', title)
     if year_match:
         return int(year_match.group(1))
     return None
+
 
 def is_likely_series(title):
     """Filter out sports from series - Accept S##E## or S## pattern"""
@@ -96,6 +107,7 @@ def is_likely_series(title):
             return False
     
     return True
+
 
 def search_series_on_trakt(clean_title, year_hint=None):
     """Search for series on Trakt with exact match priority and year filtering"""
@@ -250,6 +262,7 @@ def search_series_on_trakt(clean_title, year_hint=None):
     print(f"    ✗ No acceptable match found for '{clean_title}'")
     return None, None, None
 
+
 def get_list_items():
     """Get all items currently in the list"""
     list_url = f'https://api.trakt.tv/users/{TRAKT_USERNAME}/lists/{LIST_SLUG}/items/shows'
@@ -269,6 +282,7 @@ def get_list_items():
     except Exception as e:
         print(f"Warning: {e}")
         return {}
+
 
 def remove_from_list(trakt_ids):
     """Remove shows from list"""
@@ -291,8 +305,10 @@ def remove_from_list(trakt_ids):
         print(f"  Error: {e}")
         return False
 
+
 # Load episode tracker
 episode_tracker = load_episode_tracker()
+
 
 print("=" * 60)
 print("SERIES RSS TO TRAKT SYNC")
@@ -304,7 +320,9 @@ print(f"  Client ID: {CLIENT_ID[:20]}...")
 print(f"  Token: {ACCESS_TOKEN[:20]}...")
 print(f"\nFetching series RSS feeds...\n")
 
+
 all_entries = []
+
 
 for rss_url in RSS_FEEDS:
     print(f"Fetching: {rss_url}")
@@ -320,16 +338,20 @@ for rss_url in RSS_FEEDS:
     series_count = len([e for e in feed.entries if is_likely_series(e.title)])
     print(f"  Found {series_count} series items ({filtered_count} filtered out)")
 
+
 print(f"\nTotal series items: {len(all_entries)}\n")
+
 
 # Get existing list items
 print("Fetching current list items...")
 existing_items = get_list_items()
 print(f"Found {len(existing_items)} shows already in list\n")
 
+
 shows_to_add = []
 shows_to_reorder = []
 new_episodes_list = []
+
 
 for entry in all_entries:
     title = entry.title
@@ -377,7 +399,10 @@ for entry in all_entries:
             
             episode_tracker[tracker_key] = {
                 'show_name': show_name,
-                'last_episode': episode_num
+                'last_episode': episode_num,
+                'latest_season': season,
+                'latest_episode': episode,
+                'imdb_id': show['ids'].get('imdb', '')
             }
             
             new_episodes_list.append({
@@ -397,8 +422,19 @@ for entry in all_entries:
             if trakt_id not in existing_items:
                 print(f"  → Adding to list (first time)")
                 shows_to_add.append({'ids': {'trakt': trakt_id}})
+            
+            # Update tracker with episode info even for existing episodes
+            if tracker_key not in episode_tracker or episode_num > episode_tracker.get(tracker_key, {}).get('last_episode', 0):
+                episode_tracker[tracker_key] = {
+                    'show_name': show_name,
+                    'last_episode': episode_num,
+                    'latest_season': season,
+                    'latest_episode': episode,
+                    'imdb_id': show['ids'].get('imdb', '')
+                }
     else:
         print(f"  ✗ Not found on Trakt")
+
 
 # Save updated episode tracker
 print(f"\n{'=' * 60}")
@@ -408,8 +444,10 @@ print(f"Tracker has {len(episode_tracker)} entries:")
 for key, value in episode_tracker.items():
     print(f"  - Trakt ID {key}: {value['show_name']} - S{value['last_episode'] // 100:02d}E{value['last_episode'] % 100:02d}")
 
+
 save_episode_tracker(episode_tracker)
 print(f"\n✓ Episode tracker saved to: {EPISODE_TRACKER_FILE}")
+
 
 # Verify it was saved
 if os.path.exists(EPISODE_TRACKER_FILE):
@@ -419,13 +457,16 @@ if os.path.exists(EPISODE_TRACKER_FILE):
 else:
     print(f"✗ ERROR: File was NOT created!")
 
+
 print(f"{'=' * 60}\n")
+
 
 # Remove shows that need reordering
 if shows_to_reorder:
     print(f"\nReordering {len(shows_to_reorder)} shows (moving to top)...")
     remove_from_list(shows_to_reorder)
     time.sleep(1)
+
 
 # Add shows
 if shows_to_add:
@@ -465,6 +506,7 @@ else:
     print(f"\n{'=' * 60}")
     print("No new shows to add")
     print(f"{'=' * 60}")
+
 
 print(f"\n{'=' * 60}")
 print("SYNC COMPLETE!")
