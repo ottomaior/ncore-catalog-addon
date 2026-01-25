@@ -1,13 +1,19 @@
 {
   "name": "ncore-stremio-addon",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "nCore Hungarian HD Stremio Addon",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "cron": "node cron.js"
   },
-  "keywords": ["stremio", "addon", "ncore", "hungarian"],
+  "keywords": [
+    "stremio",
+    "addon",
+    "ncore",
+    "hungarian"
+  ],
   "author": "ottomaior",
   "license": "MIT",
   "dependencies": {
