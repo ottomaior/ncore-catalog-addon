@@ -1,6 +1,6 @@
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 const axios = require('axios');
-require('dotenv').config({ path: '../config/config.env' });
+require('dotenv').config({ path: './config/config.env' });
 
 // Trakt API configuration
 const TRAKT_CLIENT_ID = process.env.TRAKT_CLIENT_ID;
@@ -11,16 +11,32 @@ const MOVIE_LIST_SLUG = process.env.TRAKT_LIST_SLUG;
 const manifest = {
     id: 'com.ncore.hungarian.addon',
     version: '1.0.0',
-    name: 'nCore Hungarian HD',
-    description: 'Hungarian HD Movies from nCore tracker synced via Trakt',
+    name: 'nCore – Legfrissebb Feltöltések (HU)',
+    description: 'Utoljára feltöltött magyar nyelvű filmek és sorozatok az nCore trackerről',
     resources: ['catalog', 'meta'],
-    types: ['movie'],
+    types: ["movie", "series"],
     catalogs: [
         {
-            type: 'movie',
-            id: 'ncore-hun-movies',
-            name: 'nCore HUN Movies',
-            extra: [{ name: 'skip', isRequired: false }]
+            id: "ncore-hd-movies",
+            type: "movie",
+            name: "nCore – Utoljára feltöltött",
+            extra: [
+                {
+                    name: "skip",
+                    isRequired: false
+                }
+            ]
+        },
+        {
+            id: "ncore-hd-series",
+            type: "series",
+            name: "nCore – Utoljára feltöltött",
+            extra: [
+                {
+                    name: "skip",
+                    isRequired: false
+                }
+            ]
         }
     ],
     idPrefixes: ['tt']
@@ -30,13 +46,15 @@ const builder = new addonBuilder(manifest);
 
 // Cache for catalog data
 let movieCache = [];
-let lastUpdate = null;
+let seriesCache = [];
+let lastMovieUpdate = null;
+let lastSeriesUpdate = null;
 const CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 
 // Fetch movies from Trakt list
 async function fetchTraktList() {
     try {
-        console.log('Fetching Trakt list...');
+        console.log('Filmek betöltése a Trakt listáról...');
         const response = await axios.get(
             `https://api.trakt.tv/users/${TRAKT_USERNAME}/lists/${MOVIE_LIST_SLUG}/items/movies`,
             {
@@ -56,9 +74,8 @@ async function fetchTraktList() {
             .map(item => {
                 const movie = item.movie;
                 let imdbId = movie.ids.imdb.toString();
-                // Remove 'tt' prefix if it exists, then add it back once
                 imdbId = imdbId.replace(/^tt/, '');
-                
+
                 return {
                     id: `tt${imdbId}`,
                     type: 'movie',
@@ -66,7 +83,7 @@ async function fetchTraktList() {
                     poster: `https://images.metahub.space/poster/small/tt${imdbId}/img`,
                     posterShape: 'poster',
                     year: movie.year,
-                    description: movie.overview || 'Hungarian HD release from nCore',
+                    description: movie.overview || 'Magyar HD feltöltés az nCore trackerről',
                     imdbRating: movie.rating ? movie.rating.toFixed(1) : null,
                     releaseInfo: movie.year ? movie.year.toString() : null,
                     genres: movie.genres || []
@@ -74,70 +91,161 @@ async function fetchTraktList() {
             });
 
         movieCache = movies;
-        lastUpdate = Date.now();
-        console.log(`✓ Cached ${movies.length} movies from Trakt list (with valid IMDB IDs)`);
-        
+        lastMovieUpdate = Date.now();
+        console.log(`✓ ${movies.length} film gyorsítótárazva`);
+
         const totalItems = response.data.length;
         const filtered = totalItems - movies.length;
         if (filtered > 0) {
-            console.log(`⚠ Filtered out ${filtered} movies without IMDB IDs`);
+            console.log(`⚠ ${filtered} film kiszűrve (nincs IMDB ID)`);
         }
-        
+
         return movies;
 
     } catch (error) {
-        console.error('Error fetching Trakt list:', error.message);
+        console.error('Hiba a Trakt filmlista lekérésekor:', error.message);
         if (error.response) {
-            console.error('Response status:', error.response.status);
-            console.error('Response data:', error.response.data);
+            console.error('Válasz státusz:', error.response.status);
+            console.error('Válasz adat:', error.response.data);
         }
         return movieCache;
     }
 }
 
-// Catalog handler
-builder.defineCatalogHandler(async (args) => {
-    console.log(`Catalog request: ${args.type}/${args.id}`);
+// Fetch series from Trakt list
+async function fetchTraktSeriesList() {
+    try {
+        console.log('Sorozatok betöltése a Trakt listáról...');
+        const SERIES_LIST_SLUG = process.env.TRAKT_SERIES_LIST_SLUG || 'legujabb-sorozatok-ncore';
 
-    // Check if cache needs refresh
-    if (!lastUpdate || (Date.now() - lastUpdate > CACHE_TTL)) {
-        await fetchTraktList();
+        const response = await axios.get(
+            `https://api.trakt.tv/users/${TRAKT_USERNAME}/lists/${SERIES_LIST_SLUG}/items/shows`,
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'trakt-api-version': '2',
+                    'trakt-api-key': TRAKT_CLIENT_ID
+                },
+                params: {
+                    extended: 'full'
+                }
+            }
+        );
+
+        const series = response.data
+            .filter(item => item.show.ids.imdb)
+            .map(item => {
+                const show = item.show;
+                let imdbId = show.ids.imdb.toString();
+                imdbId = imdbId.replace(/^tt/, '');
+
+                return {
+                    id: `tt${imdbId}`,
+                    type: 'series',
+                    name: show.title,
+                    poster: `https://images.metahub.space/poster/small/tt${imdbId}/img`,
+                    posterShape: 'poster',
+                    year: show.year,
+                    description: show.overview || 'Magyar HD sorozat az nCore trackerről',
+                    imdbRating: show.rating ? show.rating.toFixed(1) : null,
+                    releaseInfo: show.year ? show.year.toString() : null,
+                    genres: show.genres || []
+                };
+            });
+
+        seriesCache = series;
+        lastSeriesUpdate = Date.now();
+        console.log(`✓ ${series.length} sorozat gyorsítótárazva`);
+
+        const totalItems = response.data.length;
+        const filtered = totalItems - series.length;
+        if (filtered > 0) {
+            console.log(`⚠ ${filtered} sorozat kiszűrve (nincs IMDB ID)`);
+        }
+
+        return series;
+
+    } catch (error) {
+        console.error('Hiba a Trakt sorozatlista lekérésekor:', error.message);
+        if (error.response) {
+            console.error('Válasz státusz:', error.response.status);
+            console.error('Válasz adat:', error.response.data);
+        }
+        return seriesCache;
+    }
+}
+
+// Catalog handler for both movies and series
+builder.defineCatalogHandler(async (args) => {
+    console.log(`Katalógus kérés: ${args.type}/${args.id}`);
+
+    // Handle movie catalog
+    if (args.type === 'movie' && args.id === 'ncore-hd-movies') {
+        if (!lastMovieUpdate || (Date.now() - lastMovieUpdate > CACHE_TTL)) {
+            await fetchTraktList();
+        }
+
+        const skip = parseInt(args.extra?.skip) || 0;
+        const metas = movieCache.slice(skip, skip + 100);
+
+        return Promise.resolve({ metas });
     }
 
-    // Apply pagination
-    const skip = parseInt(args.extra?.skip) || 0;
-    const metas = movieCache.slice(skip, skip + 100);
+    // Handle series catalog
+    if (args.type === 'series' && args.id === 'ncore-hd-series') {
+        if (!lastSeriesUpdate || (Date.now() - lastSeriesUpdate > CACHE_TTL)) {
+            await fetchTraktSeriesList();
+        }
 
-    return Promise.resolve({ metas });
+        const skip = parseInt(args.extra?.skip) || 0;
+        const metas = seriesCache.slice(skip, skip + 100);
+
+        return Promise.resolve({ metas });
+    }
+
+    return Promise.resolve({ metas: [] });
 });
 
-// Meta handler (for individual movie details)
+// Meta handler for both movies and series
 builder.defineMetaHandler(async (args) => {
-    console.log(`Meta request: ${args.type}/${args.id}`);
+    console.log(`Meta kérés: ${args.type}/${args.id}`);
 
-    const movie = movieCache.find(m => m.id === args.id);
-    
-    if (movie) {
-        return Promise.resolve({ meta: movie });
+    if (args.type === 'movie') {
+        const movie = movieCache.find(m => m.id === args.id);
+        if (movie) {
+            return Promise.resolve({ meta: movie });
+        }
+    }
+
+    if (args.type === 'series') {
+        const series = seriesCache.find(s => s.id === args.id);
+        if (series) {
+            return Promise.resolve({ meta: series });
+        }
     }
 
     return Promise.resolve({ meta: null });
 });
 
-// Initialize cache on startup
+// Initialize both caches on startup
 fetchTraktList();
+fetchTraktSeriesList();
 
 // Auto-refresh every 3 hours
-setInterval(fetchTraktList, CACHE_TTL);
+setInterval(() => {
+    fetchTraktList();
+    fetchTraktSeriesList();
+}, CACHE_TTL);
 
 // Start server
 const PORT = process.env.ADDON_PORT || 7000;
 serveHTTP(builder.getInterface(), { port: PORT });
 
 console.log(`\n${'='.repeat(60)}`);
-console.log(`🎬 nCore Stremio Addon Running`);
+console.log(`🎬 nCore Stremio Addon Fut`);
 console.log(`${'='.repeat(60)}`);
-console.log(`\n📍 Local: http://localhost:${PORT}/manifest.json`);
-console.log(`🌐 Install: http://localhost:${PORT}/manifest.json`);
-console.log(`📋 Catalog: http://localhost:${PORT}/catalog/movie/ncore-hun-movies.json\n`);
+console.log(`\n📍 Helyi: http://localhost:${PORT}/manifest.json`);
+console.log(`🌐 Telepítés: http://localhost:${PORT}/manifest.json`);
+console.log(`📋 Filmek: http://localhost:${PORT}/catalog/movie/ncore-hd-movies.json`);
+console.log(`📺 Sorozatok: http://localhost:${PORT}/catalog/series/ncore-hd-series.json\n`);
 console.log(`${'='.repeat(60)}\n`);
