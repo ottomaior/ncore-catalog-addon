@@ -9,6 +9,10 @@ const TRAKT_CLIENT_ID = process.env.TRAKT_CLIENT_ID;
 const TRAKT_USERNAME = process.env.TRAKT_USERNAME;
 const MOVIE_LIST_SLUG = process.env.TRAKT_LIST_SLUG;
 
+// TMDB API configuration
+const TMDB_API_KEY = process.env.TMDB_API_KEY;
+const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
+
 // Path to episode tracker
 const EPISODE_TRACKER_PATH = path.join(__dirname, 'scripts', 'series_episodes_seen.json');
 
@@ -36,6 +40,37 @@ function getEpisodeInfo(traktId) {
     return null;
 }
 
+// Fetch Hungarian title from TMDB
+async function getHungarianTitle(imdbId, type = 'movie') {
+    try {
+        const tmdbType = type === 'series' ? 'tv' : 'movie';
+        const response = await axios.get(
+            `${TMDB_BASE_URL}/find/${imdbId}`,
+            {
+                params: {
+                    api_key: TMDB_API_KEY,
+                    external_source: 'imdb_id',
+                    language: 'hu-HU'  // Request Hungarian translations
+                }
+            }
+        );
+
+        const results = tmdbType === 'tv' ? response.data.tv_results : response.data.movie_results;
+        
+        if (results && results.length > 0) {
+            const title = tmdbType === 'tv' ? results[0].name : results[0].title;
+            const originalTitle = tmdbType === 'tv' ? results[0].original_name : results[0].original_title;
+            
+            // Return Hungarian title if different from original, otherwise return original
+            return title || originalTitle;
+        }
+        
+        return null;
+    } catch (error) {
+        console.error(`TMDB hiba (${imdbId}):`, error.message);
+        return null;
+    }
+}
 
 // Addon manifest
 const manifest = {
@@ -82,6 +117,7 @@ let lastSeriesUpdate = null;
 const CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 
 // Fetch movies from Trakt list
+// Fetch movies from Trakt list
 async function fetchTraktList() {
     try {
         console.log('Filmek betöltése a Trakt listáról...');
@@ -99,30 +135,38 @@ async function fetchTraktList() {
             }
         );
 
-        const movies = response.data
-            .filter(item => item.movie.ids.imdb)
-            .map(item => {
-                const movie = item.movie;
-                let imdbId = movie.ids.imdb.toString();
-                imdbId = imdbId.replace(/^tt/, '');
+        // Process movies with Hungarian titles
+        const movies = await Promise.all(
+            response.data
+                .filter(item => item.movie.ids.imdb)
+                .map(async item => {
+                    const movie = item.movie;
+                    let imdbId = movie.ids.imdb.toString();
+                    
+                    // Get Hungarian title from TMDB
+                    const hungarianTitle = await getHungarianTitle(imdbId, 'movie');
+                    const displayTitle = hungarianTitle || movie.title;
 
-                return {
-                    id: `tt${imdbId}`,
-                    type: 'movie',
-                    name: movie.title,
-                    poster: `https://images.metahub.space/poster/small/tt${imdbId}/img`,
-                    posterShape: 'poster',
-                    year: movie.year,
-                    description: movie.overview || 'Magyar HD feltöltés az nCore trackerről',
-                    imdbRating: movie.rating ? movie.rating.toFixed(1) : null,
-                    releaseInfo: movie.year ? movie.year.toString() : null,
-                    genres: movie.genres || []
-                };
-            });
+                    imdbId = imdbId.replace(/^tt/, '');
+
+                    return {
+                        id: `tt${imdbId}`,
+                        type: 'movie',
+                        name: displayTitle,  // Use Hungarian title
+                        poster: `https://images.metahub.space/poster/small/tt${imdbId}/img`,
+                        posterShape: 'poster',
+                        year: movie.year,
+                        description: movie.overview || 'Magyar HD feltöltés az nCore trackerről',
+                        imdbRating: movie.rating ? movie.rating.toFixed(1) : null,
+                        releaseInfo: movie.year ? movie.year.toString() : null,
+                        genres: movie.genres || []
+                    };
+                })
+        );
 
         movieCache = movies;
         lastMovieUpdate = Date.now();
-        console.log(`✓ ${movies.length} film gyorsítótárazva`);
+        console.log(`✓ ${movies.length} film gyorsítótárazva (magyar címekkel)`);
 
         const totalItems = response.data.length;
         const filtered = totalItems - movies.length;
@@ -141,6 +185,7 @@ async function fetchTraktList() {
         return movieCache;
     }
 }
+
 
 // Fetch series from Trakt list
 async function fetchTraktSeriesList() {
@@ -162,36 +207,44 @@ async function fetchTraktSeriesList() {
             }
         );
 
-        const series = response.data
-            .filter(item => item.show.ids.imdb)
-            .map(item => {
-                const show = item.show;
-                let imdbId = show.ids.imdb.toString();
-                imdbId = imdbId.replace(/^tt/, '');
+        // Process series with Hungarian titles
+        const series = await Promise.all(
+            response.data
+                .filter(item => item.show.ids.imdb)
+                .map(async item => {
+                    const show = item.show;
+                    let imdbId = show.ids.imdb.toString();
+                    
+                    // Get Hungarian title from TMDB
+                    const hungarianTitle = await getHungarianTitle(imdbId, 'series');
+                    const baseTitle = hungarianTitle || show.title;
 
-                 // Get episode info from tracker
-                const traktId = show.ids.trakt;
-                const episodeInfo = getEpisodeInfo(traktId);
-                const displayName = episodeInfo ? `${show.title} (${episodeInfo} HUN)` : show.title;
+                    imdbId = imdbId.replace(/^tt/, '');
 
+                    // Get episode info from tracker
+                    const traktId = show.ids.trakt;
+                    const episodeInfo = getEpisodeInfo(traktId);
+                    const displayName = episodeInfo ? `${baseTitle} (${episodeInfo} HUN)` : baseTitle;
 
-                return {
-                    id: `tt${imdbId}`,
-                    type: 'series',
-                    name: displayName,
-                    poster: `https://images.metahub.space/poster/small/tt${imdbId}/img`,
-                    posterShape: 'poster',
-                    year: show.year,
-                    description: show.overview || 'Magyar HD sorozat az nCore trackerről',
-                    imdbRating: show.rating ? show.rating.toFixed(1) : null,
-                    releaseInfo: show.year ? show.year.toString() : null,
-                    genres: show.genres || []
-                };
-            });
+                    return {
+                        id: `tt${imdbId}`,
+                        type: 'series',
+                        name: displayName,  // Use Hungarian title with episode info
+                        poster: `https://images.metahub.space/poster/small/tt${imdbId}/img`,
+                        posterShape: 'poster',
+                        year: show.year,
+                        description: show.overview || 'Magyar HD sorozat az nCore trackerről',
+                        imdbRating: show.rating ? show.rating.toFixed(1) : null,
+                        releaseInfo: show.year ? show.year.toString() : null,
+                        genres: show.genres || []
+                    };
+                })
+        );
 
-        seriesCache = series;
+        const reversedSeries = series.reverse();
+        seriesCache = reversedSeries;
         lastSeriesUpdate = Date.now();
-        console.log(`✓ ${series.length} sorozat gyorsítótárazva`);
+        console.log(`✓ ${series.length} sorozat gyorsítótárazva (magyar címekkel)`);
 
         const totalItems = response.data.length;
         const filtered = totalItems - series.length;
@@ -199,7 +252,7 @@ async function fetchTraktSeriesList() {
             console.log(`⚠ ${filtered} sorozat kiszűrve (nincs IMDB ID)`);
         }
 
-        return series;
+        return reversedSeries;
 
     } catch (error) {
         console.error('Hiba a Trakt sorozatlista lekérésekor:', error.message);

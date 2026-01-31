@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "types": ["node", "@playwright/test"]
+  },
+  "include": ["tests/**/*.ts", "pages/**/*.ts", "helpers/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

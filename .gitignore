@@ -35,5 +35,21 @@ logs/
 Thumbs.db
 *.swp
 
-# Testing
-test_*.py
+# Testing & Auth Scripts (ADD THESE!)
+scripts/test_*.py
+scripts/fresh_auth.py
+scripts/get_token.py
+scripts/refresh_token.py
+
+# Generated data (ADD THIS!)
+scripts/series_episodes_seen.json
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Railway (ADD THIS!)
+.railway/
