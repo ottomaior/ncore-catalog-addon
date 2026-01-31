@@ -41,9 +41,6 @@ scripts/fresh_auth.py
 scripts/get_token.py
 scripts/refresh_token.py
 
-# Generated data (ADD THIS!)
-scripts/series_episodes_seen.json
-
 # Playwright
 /test-results/
 /playwright-report/

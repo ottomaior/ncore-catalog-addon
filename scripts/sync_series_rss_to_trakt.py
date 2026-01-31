@@ -6,6 +6,7 @@ import json
 import os
 from dotenv import load_dotenv
 import unicodedata
+from datetime import datetime
 
 
 # Load environment variables from config.env
@@ -402,7 +403,8 @@ for entry in all_entries:
                 'last_episode': episode_num,
                 'latest_season': season,
                 'latest_episode': episode,
-                'imdb_id': show['ids'].get('imdb', '')
+                'imdb_id': show['ids'].get('imdb', ''),
+                'added_at': datetime.now().isoformat()
             }
             
             new_episodes_list.append({
@@ -430,7 +432,8 @@ for entry in all_entries:
                     'last_episode': episode_num,
                     'latest_season': season,
                     'latest_episode': episode,
-                    'imdb_id': show['ids'].get('imdb', '')
+                    'imdb_id': show['ids'].get('imdb', ''),
+                    'added_at': datetime.now().isoformat()  # ✅ Add this line
                 }
     else:
         print(f"  ✗ Not found on Trakt")
