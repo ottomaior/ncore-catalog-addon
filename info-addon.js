@@ -88,11 +88,18 @@ builder.defineStreamHandler(async (args) => {
     return Promise.resolve({ streams: [] });
 });
 
-const PORT = process.env.INFO_ADDON_PORT || 7001;
-serveHTTP(builder.getInterface(), { port: PORT });
+// Export the builder instead of starting server
+module.exports = builder;
 
-console.log(`\n${'='.repeat(60)}`);
-console.log(`🇭🇺 nCore Episode Info Addon`);
-console.log(`${'='.repeat(60)}`);
-console.log(`\n📍 Install: http://localhost:${PORT}/manifest.json\n`);
-console.log(`${'='.repeat(60)}\n`);
+// Only start standalone server if run directly (for local testing)
+if (require.main === module) {
+    const { serveHTTP } = require('stremio-addon-sdk');
+    const PORT = process.env.INFO_ADDON_PORT || 7001;
+    serveHTTP(builder.getInterface(), { port: PORT });
+    
+    console.log(`\n${'='.repeat(60)}`);
+    console.log(`🇭🇺 nCore Episode Info Addon`);
+    console.log(`${'='.repeat(60)}`);
+    console.log(`\n📍 Install: http://localhost:${PORT}/manifest.json\n`);
+    console.log(`${'='.repeat(60)}\n`);
+}
