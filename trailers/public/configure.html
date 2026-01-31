@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magyar Előzetesek - Beállítások</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 { 
+            color: #333; 
+            margin-bottom: 10px; 
+            font-size: 28px; 
+            text-align: center;
+        }
+        .subtitle { 
+            color: #666; 
+            margin-bottom: 30px; 
+            font-size: 14px; 
+            text-align: center;
+        }
+        .option {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+        .option:hover { 
+            border-color: #667eea; 
+            background: #f0f0ff; 
+        }
+        label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            font-size: 16px;
+            color: #333;
+        }
+        input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            cursor: pointer;
+        }
+        .description {
+            margin-top: 8px;
+            margin-left: 32px;
+            font-size: 13px;
+            color: #666;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102,126,234,0.4);
+        }
+        .info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e3f2fd;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #1976d2;
+        }
+        .manual-install {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff3cd;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #856404;
+        }
+        .url-box {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-family: monospace;
+            word-break: break-all;
+            font-size: 12px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Magyar Előzetesek</h1>
+        <p class="subtitle">Hungarian Trailers Addon</p>
+        
+        <div class="option">
+            <label>
+                <input type="checkbox" id="externalLink" checked>
+                <span>Külső Link / External Link</span>
+            </label>
+            <div class="description">
+                Az előzetesek YouTube alkalmazásban nyílnak meg<br>
+                <strong>✓ Ajánlott:</strong> Elkerüli a beágyazási korlátozásokat
+            </div>
+        </div>
+
+        <button onclick="installAddon()">🚀 Addon Telepítése</button>
+
+        <div class="manual-install">
+            <strong>📋 Kézi telepítés:</strong><br>
+            Ha az automatikus telepítés nem működik, másold be ezt az URL-t a Stremio-ba:
+            <div class="url-box" id="manifestUrl">Betöltés...</div>
+        </div>
+
+        <div class="info">
+            <strong>🔍 Keresési sorrend:</strong><br>
+            1. 🇭🇺 TMDB magyar<br>
+            2. 🇭🇺 YouTube magyar<br>
+            3. 🇬🇧 TMDB angol<br>
+            4. 🇬🇧 YouTube angol
+        </div>
+    </div>
+
+    <script>
+        // Get the base URL from current location
+        const protocol = window.location.protocol;
+        const host = window.location.host;
+        const baseUrl = `${protocol}//${host}`;
+
+        function getManifestUrl(useExternalLink) {
+            const config = { externalLink: useExternalLink };
+            const configEncoded = btoa(JSON.stringify(config));
+            return `${baseUrl}/trailers/${configEncoded}/manifest.json`;
+        }
+
+        function updateManualUrl() {
+            const externalLink = document.getElementById('externalLink').checked;
+            const manifestUrl = getManifestUrl(externalLink);
+            document.getElementById('manifestUrl').textContent = manifestUrl;
+        }
+
+        function installAddon() {
+            const externalLink = document.getElementById('externalLink').checked;
+            const config = { externalLink };
+            const configEncoded = btoa(JSON.stringify(config));
+            
+            // Build the stremio:// URL
+            const stremioUrl = `stremio://${host}/trailers/${configEncoded}/manifest.json`;
+            
+            console.log('Installing addon with config:', config);
+            console.log('Stremio URL:', stremioUrl);
+            
+            // Try to open with stremio:// protocol
+            window.location.href = stremioUrl;
+        }
+
+        // Update checkbox handler
+        document.getElementById('externalLink').addEventListener('change', updateManualUrl);
+
+        // Initialize manual URL on page load
+        updateManualUrl();
+    </script>
+</body>
+</html>

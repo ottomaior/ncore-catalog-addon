@@ -1,21 +1,20 @@
 const express = require('express');
 const { getRouter } = require('stremio-addon-sdk');
+const path = require('path');
 
-
-// Import both addon builders
+// Import all three addon builders
 const catalogBuilder = require('./index.js');
 const infoBuilder = require('./info-addon.js');
-
+const trailerBuilder = require('./trailers/addon.js');
 
 const app = express();
 
-
-// Get routers from both addons
+// Get routers from all addons
 const catalogRouter = getRouter(catalogBuilder.getInterface());
 const infoRouter = getRouter(infoBuilder.getInterface());
+const trailerRouter = getRouter(trailerBuilder);
 
-
-// Homepage with both install links (MUST BE FIRST)
+// Homepage with all three install links (MUST BE FIRST)
 app.get('/', (req, res) => {
     const protocol = req.get('x-forwarded-proto') || (req.secure ? 'https' : 'http');
     const host = req.get('host') || 'localhost:7000';
@@ -106,6 +105,16 @@ app.get('/', (req, res) => {
                     margin: 10px 0;
                     padding-left: 20px;
                 }
+                .badge {
+                    display: inline-block;
+                    background: #e74c3c;
+                    color: white;
+                    padding: 3px 8px;
+                    border-radius: 3px;
+                    font-size: 11px;
+                    font-weight: bold;
+                    margin-left: 8px;
+                }
                 .footer {
                     text-align: center;
                     margin-top: 40px;
@@ -158,9 +167,34 @@ app.get('/', (req, res) => {
                 </div>
             </div>
 
+            <div class="addon">
+                <h2>🎬 Magyar Előzetesek <span class="badge">ÚJ</span></h2>
+                <p>Magyar szinkronos/feliratos előzetesek angol tartalékkal. Intelligens keresés TMDB és YouTube alapján.</p>
+                <p><strong>🔍 Keresési stratégia:</strong> TMDB magyar → YouTube magyar → TMDB angol → YouTube angol</p>
+                <div class="url-container">
+                    <div class="install-url" id="trailer-url">${baseUrl}/trailers/manifest.json</div>
+                    <button class="copy-btn" onclick="copyUrl('trailer-url', this)">📋 Másol</button>
+                </div>
+                <div class="instructions">
+                    <strong>📥 Telepítés:</strong>
+                    <ol>
+                        <li>Nyisd meg a Stremio alkalmazást</li>
+                        <li>Kattints az Addons ikonra (puzzle)</li>
+                        <li>Kattints a "+ Add addon" gombra</li>
+                        <li>Másold be a fenti URL-t</li>
+                        <li>Kattints az "Add" gombra</li>
+                        <li>Kattints az Install gombra</li>
+                    </ol>
+                </div>
+            </div>
 
             <div class="footer">
-                <p>Powered by Stremio Addon SDK</p>
+                <p>Made with ❤️ by Stremio Hungarian Community</p>
+                <p style="margin-top: 10px; font-size: 12px;">
+                    Catalog: ${baseUrl}/manifest.json<br>
+                    Episode Info: ${baseUrl}/info/manifest.json<br>
+                    Trailers: ${baseUrl}/trailers/manifest.json
+                </p>
             </div>
 
             <script>
@@ -188,15 +222,14 @@ app.get('/', (req, res) => {
     `);
 });
 
-
+// Serve trailer addon at /trailers
+app.use('/trailers', trailerRouter);
 
 // Serve info addon at /info
 app.use('/info', infoRouter);
 
-
 // Serve catalog addon at root (handles /manifest.json, /catalog/*, /meta/*)
 app.use('/', catalogRouter);
-
 
 const PORT = process.env.PORT || 7000;
 app.listen(PORT, () => {
@@ -205,6 +238,7 @@ app.listen(PORT, () => {
     console.log(`${'='.repeat(60)}`);
     console.log(`\n📍 Homepage: http://localhost:${PORT}`);
     console.log(`📍 Catalog: http://localhost:${PORT}/manifest.json`);
-    console.log(`📍 Info: http://localhost:${PORT}/info/manifest.json\n`);
+    console.log(`📍 Info: http://localhost:${PORT}/info/manifest.json`);
+    console.log(`📍 Trailers: http://localhost:${PORT}/trailers/manifest.json\n`);
     console.log(`${'='.repeat(60)}\n`);
 });
