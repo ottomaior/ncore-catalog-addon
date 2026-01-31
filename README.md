@@ -5,6 +5,8 @@ Automated Hungarian content catalog sync from nCore RSS feeds to Stremio via Tra
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Node.js](https://img.shields.io/badge/node.js-18+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Railway-blueviolet)](https://ncore-catalog-addon-production.up.railway.app/)
+
 
 ## 🎬 Two Addons in One Server
 
@@ -29,7 +31,13 @@ This project serves **two separate Stremio addons** from a single deployment:
 
 ## 🌐 Live Demo
 
-Visit your deployment to see the homepage with install instructions: **[Your Railway URL]**
+**🚀 [https://ncore-catalog-addon-production.up.railway.app/](https://ncore-catalog-addon-production.up.railway.app/)**
+
+Visit the deployment to see the homepage with install instructions for both addons.
+
+### Quick Install URLs:
+- 📺 **Catalog:** `https://ncore-catalog-addon-production.up.railway.app/manifest.json`
+- ℹ️ **Episode Info:** `https://ncore-catalog-addon-production.up.railway.app/info/manifest.json`
 
 ## 🚀 Features
 
