@@ -33,38 +33,70 @@ function loadEpisodeTracker() {
 function getEpisodeInfo(traktId) {
     const tracker = loadEpisodeTracker();
     const info = tracker[traktId.toString()];
-    
+
     if (info && info.latest_season && info.latest_episode) {
         return `S${String(info.latest_season).padStart(2, '0')}E${String(info.latest_episode).padStart(2, '0')}`;
     }
     return null;
 }
 
-// Fetch Hungarian title from TMDB
-async function getHungarianTitle(imdbId, type = 'movie') {
+// Fetch Hungarian title and poster from TMDB
+async function getHungarianMetadata(imdbId, type = 'movie') {
     try {
         const tmdbType = type === 'series' ? 'tv' : 'movie';
-        const response = await axios.get(
+
+        // First, find the TMDB ID using IMDB ID
+        const findResponse = await axios.get(
             `${TMDB_BASE_URL}/find/${imdbId}`,
             {
                 params: {
                     api_key: TMDB_API_KEY,
                     external_source: 'imdb_id',
-                    language: 'hu-HU'  // Request Hungarian translations
+                    language: 'hu-HU'
                 }
             }
         );
 
-        const results = tmdbType === 'tv' ? response.data.tv_results : response.data.movie_results;
-        
+        const results = tmdbType === 'tv' ? findResponse.data.tv_results : findResponse.data.movie_results;
+
         if (results && results.length > 0) {
-            const title = tmdbType === 'tv' ? results[0].name : results[0].title;
-            const originalTitle = tmdbType === 'tv' ? results[0].original_name : results[0].original_title;
-            
-            // Return Hungarian title if different from original, otherwise return original
-            return title || originalTitle;
+            const item = results[0];
+            const tmdbId = item.id;
+            const title = tmdbType === 'tv' ? item.name : item.title;
+            const originalTitle = tmdbType === 'tv' ? item.original_name : item.original_title;
+            const defaultPoster = item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : null;
+
+            // Try to get Hungarian poster
+            let hungarianPoster = defaultPoster;
+            try {
+                const imagesResponse = await axios.get(
+                    `${TMDB_BASE_URL}/${tmdbType}/${tmdbId}/images`,
+                    {
+                        params: {
+                            api_key: TMDB_API_KEY,
+                            include_image_language: 'hu,null'  // Get Hungarian and original posters
+                        }
+                    }
+                );
+
+                // Look for Hungarian poster first
+                const posters = imagesResponse.data.posters || [];
+                const hungarianPosterObj = posters.find(p => p.iso_639_1 === 'hu');
+
+                if (hungarianPosterObj) {
+                    hungarianPoster = `https://image.tmdb.org/t/p/w500${hungarianPosterObj.file_path}`;
+                    console.log(`✓ Magyar poszter találva: ${title}`);
+                }
+            } catch (err) {
+                console.log(`⚠ Nincs magyar poszter: ${title}`);
+            }
+
+            return {
+                title: title || originalTitle,
+                poster: hungarianPoster || defaultPoster
+            };
         }
-        
+
         return null;
     } catch (error) {
         console.error(`TMDB hiba (${imdbId}):`, error.message);
@@ -117,7 +149,6 @@ let lastSeriesUpdate = null;
 const CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 
 // Fetch movies from Trakt list
-// Fetch movies from Trakt list
 async function fetchTraktList() {
     try {
         console.log('Filmek betöltése a Trakt listáról...');
@@ -135,25 +166,27 @@ async function fetchTraktList() {
             }
         );
 
-        // Process movies with Hungarian titles
+        // Process movies with Hungarian titles and posters
         const movies = await Promise.all(
             response.data
                 .filter(item => item.movie.ids.imdb)
                 .map(async item => {
                     const movie = item.movie;
                     let imdbId = movie.ids.imdb.toString();
-                    
-                    // Get Hungarian title from TMDB
-                    const hungarianTitle = await getHungarianTitle(imdbId, 'movie');
-                    const displayTitle = hungarianTitle || movie.title;
+
+                    // Get Hungarian metadata (title + poster) from TMDB
+                    const metadata = await getHungarianMetadata(imdbId, 'movie');
+
+                    const displayTitle = metadata?.title || movie.title;
+                    const displayPoster = metadata?.poster || `https://images.metahub.space/poster/small/tt${imdbId.replace(/^tt/, '')}/img`;
 
                     imdbId = imdbId.replace(/^tt/, '');
 
                     return {
                         id: `tt${imdbId}`,
                         type: 'movie',
-                        name: displayTitle,  // Use Hungarian title
-                        poster: `https://images.metahub.space/poster/small/tt${imdbId}/img`,
+                        name: displayTitle,
+                        poster: displayPoster,  // Use Hungarian poster
                         posterShape: 'poster',
                         year: movie.year,
                         description: movie.overview || 'Magyar HD feltöltés az nCore trackerről',
@@ -166,7 +199,7 @@ async function fetchTraktList() {
 
         movieCache = movies;
         lastMovieUpdate = Date.now();
-        console.log(`✓ ${movies.length} film gyorsítótárazva (magyar címekkel)`);
+        console.log(`✓ ${movies.length} film gyorsítótárazva (magyar címekkel és poszterekkel)`);
 
         const totalItems = response.data.length;
         const filtered = totalItems - movies.length;
@@ -185,7 +218,6 @@ async function fetchTraktList() {
         return movieCache;
     }
 }
-
 
 // Fetch series from Trakt list
 async function fetchTraktSeriesList() {
@@ -207,44 +239,59 @@ async function fetchTraktSeriesList() {
             }
         );
 
-        // Process series with Hungarian titles
+        // Process series with Hungarian titles and posters
         const series = await Promise.all(
             response.data
                 .filter(item => item.show.ids.imdb)
                 .map(async item => {
                     const show = item.show;
                     let imdbId = show.ids.imdb.toString();
-                    
-                    // Get Hungarian title from TMDB
-                    const hungarianTitle = await getHungarianTitle(imdbId, 'series');
-                    const baseTitle = hungarianTitle || show.title;
+
+                    // Get Hungarian metadata (title + poster) from TMDB
+                    const metadata = await getHungarianMetadata(imdbId, 'series');
+
+                    const baseTitle = metadata?.title || show.title;
+                    const displayPoster = metadata?.poster || `https://images.metahub.space/poster/small/tt${imdbId.replace(/^tt/, '')}/img`;
 
                     imdbId = imdbId.replace(/^tt/, '');
 
                     // Get episode info from tracker
                     const traktId = show.ids.trakt;
                     const episodeInfo = getEpisodeInfo(traktId);
-                    const displayName = episodeInfo ? `${baseTitle} (${episodeInfo} HUN)` : baseTitle;
+
+                    // Keep episode info in title for catalog browsing
+                    const displayName = episodeInfo ? `${baseTitle} (${episodeInfo})` : baseTitle;
+
+                    // Also add to description and releaseInfo
+                    const baseDescription = show.overview || 'Magyar HD sorozat az nCore trackerről';
+                    const displayDescription = episodeInfo
+                        ? `🇭🇺 Legújabb magyar epizód: ${episodeInfo}\n\n${baseDescription}`
+                        : baseDescription;
+
+                    const displayReleaseInfo = episodeInfo
+                        ? `${show.year || ''} • Magyar: ${episodeInfo}`.trim()
+                        : (show.year ? show.year.toString() : null);
 
                     return {
                         id: `tt${imdbId}`,
                         type: 'series',
-                        name: displayName,  // Use Hungarian title with episode info
-                        poster: `https://images.metahub.space/poster/small/tt${imdbId}/img`,
+                        name: displayName,  // Episode info in title for catalog
+                        poster: displayPoster,
                         posterShape: 'poster',
                         year: show.year,
-                        description: show.overview || 'Magyar HD sorozat az nCore trackerről',
+                        description: displayDescription,
                         imdbRating: show.rating ? show.rating.toFixed(1) : null,
-                        releaseInfo: show.year ? show.year.toString() : null,
+                        releaseInfo: displayReleaseInfo,
                         genres: show.genres || []
                     };
+
                 })
         );
 
         const reversedSeries = series.reverse();
         seriesCache = reversedSeries;
         lastSeriesUpdate = Date.now();
-        console.log(`✓ ${series.length} sorozat gyorsítótárazva (magyar címekkel)`);
+        console.log(`✓ ${series.length} sorozat gyorsítótárazva (magyar címekkel és poszterekkel)`);
 
         const totalItems = response.data.length;
         const filtered = totalItems - series.length;
