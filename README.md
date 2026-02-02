@@ -7,10 +7,9 @@ Automated Hungarian content catalog sync from nCore RSS feeds to Stremio via Tra
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Railway-blueviolet)](https://ncore-catalog-addon-production.up.railway.app/)
 
+## 🎬 Three Addons in One Server
 
-## 🎬 Two Addons in One Server
-
-This project serves **two separate Stremio addons** from a single deployment:
+This project serves **three separate Stremio addons** from a single deployment:
 
 ### 📺 nCore Katalógus
 **Catalog addon** that displays Hungarian movies and series from nCore tracker.
@@ -26,18 +25,29 @@ This project serves **two separate Stremio addons** from a single deployment:
 - ✅ Displays episode number and upload date
 - ✅ Only shows for series in the nCore Katalógus list
 - ✅ ⚠️ **Not a streaming addon** - information only!
-- ✅ Use with Hungarian content specified addon for playback
+- ✅ Use with Hungarian torrent addon for playback
 - ✅ Installation: `https://your-deployment-url/info/manifest.json`
+
+### 🎬 Magyar Előzetesek (Hungarian Trailers) ⭐ NEW
+**Trailer addon** that provides Hungarian and English trailers for movies and series.
+
+- ✅ **4-stage fallback search**: TMDB hu-HU → YouTube HU → TMDB en-US → YouTube EN
+- ✅ Hungarian-first priority (dubbed/subtitled)
+- ✅ Season-specific trailers for series
+- ✅ Smart YouTube scraping when TMDB has no trailers
+- ✅ Works with both movies and TV shows
+- ✅ Installation: `https://your-deployment-url/trailers/manifest.json`
 
 ## 🌐 Live Demo
 
 **🚀 [https://ncore-catalog-addon-production.up.railway.app/](https://ncore-catalog-addon-production.up.railway.app/)**
 
-Visit the deployment to see the homepage with install instructions for both addons.
+Visit the deployment to see the homepage with install instructions for all three addons.
 
 ### Quick Install URLs:
 - 📺 **Catalog:** `https://ncore-catalog-addon-production.up.railway.app/manifest.json`
 - ℹ️ **Episode Info:** `https://ncore-catalog-addon-production.up.railway.app/info/manifest.json`
+- 🎬 **Trailers:** `https://ncore-catalog-addon-production.up.railway.app/trailers/manifest.json`
 
 ## 🚀 Features
 
@@ -50,10 +60,11 @@ Visit the deployment to see the homepage with install instructions for both addo
 - 📝 **Episode Tracking** - Monitors latest series uploads with dates
 
 ### Stremio Integration
-- 📺 **Dual Addons** - Catalog and info addons on one server
+- 📺 **Triple Addons** - Catalog, info, and trailer addons on one server
 - 🎨 **TMDB Metadata** - High-quality posters and descriptions
 - 🇭🇺 **Hungarian Language** - Titles, descriptions, and posters in Hungarian
 - 🔗 **Trakt Integration** - Pulls content from your Trakt lists
+- 🎬 **Intelligent Trailer Search** - Multi-stage Hungarian/English fallback
 
 ## 📋 Prerequisites
 
