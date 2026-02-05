@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nCore Stremio Addons – Magyar tartalom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d0d14;
+            --surface: rgba(22, 33, 62, 0.7);
+            --surface-hover: rgba(30, 45, 80, 0.9);
+            --border: rgba(123, 92, 250, 0.4);
+            --accent: #8b5cf6;
+            --accent-light: #a78bfa;
+            --text: #e2e8f0;
+            --text-muted: #94a3b8;
+            --success: #22c55e;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Outfit', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(123, 92, 250, 0.15), transparent),
+                radial-gradient(ellipse 60% 40% at 100% 100%, rgba(139, 92, 246, 0.08), transparent);
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #fff 0%, var(--accent-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+        
+        .status-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            padding: 0.5rem 1rem;
+            background: var(--surface);
+            border-radius: 999px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--success);
+            animation: pulse 2s infinite;
+        }
+        .status-dot.off { background: #64748b; animation: none; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        
+        .addon-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem 1.75rem;
+            margin-bottom: 1.25rem;
+            transition: all 0.2s ease;
+        }
+        .addon-card:hover {
+            background: var(--surface-hover);
+            border-color: rgba(123, 92, 250, 0.6);
+        }
+        .addon-card h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .addon-card .desc {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .addon-card .tag {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent), #6366f1);
+            color: white;
+            font-size: 0.65rem;
+            font-weight: 600;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            margin-left: 0.25rem;
+        }
+        .btn-row {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1.2rem;
+            border-radius: 10px;
+            font-family: inherit;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            border: none;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent), #6366f1);
+            color: white;
+        }
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(123, 92, 250, 0.4);
+        }
+        .btn-secondary {
+            background: rgba(255,255,255,0.08);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.12);
+        }
+        .btn.copied {
+            background: var(--success) !important;
+        }
+        .url-box {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            background: rgba(0,0,0,0.3);
+            padding: 0.6rem 0.8rem;
+            border-radius: 8px;
+            margin-top: 0.75rem;
+            color: var(--text-muted);
+            word-break: break-all;
+        }
+        .instructions {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+        .instructions summary {
+            cursor: pointer;
+            font-size: 0.85rem;
+            color: var(--accent-light);
+        }
+        .instructions ol {
+            margin: 0.75rem 0 0 1.25rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.06);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        footer a {
+            color: var(--accent-light);
+            text-decoration: none;
+        }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>nCore Stremio Addons</h1>
+            <p>Magyar filmek és sorozatok az nCore trackerről – katalógus, epizód infó, előzetesek</p>
+        </header>
+        
+        <div class="status-bar" id="statusBar">
+            <span class="status-dot"></span>
+            <span id="statusText">Ellenőrzés...</span>
+        </div>
+        
+        <div class="addon-card">
+            <h2>Katalógus <span class="tag">FILMEK + SOROZATOK</span></h2>
+            <p class="desc">Magyar nyelvű filmek és sorozatok katalógusa. Legfrissebb feltöltések Trakt listából, magyar címekkel és poszterekkel.</p>
+            <div class="btn-row">
+                <a class="btn btn-primary" href="#" data-stremio="catalog" onclick="installAddon(event, 'catalog')">Telepítés Stremioval</a>
+                <button class="btn btn-secondary" onclick="copyUrl('catalog-url', this)">URL másolása</button>
+            </div>
+            <div class="url-box" id="catalog-url"></div>
+            <details class="instructions">
+                <summary>Telepítési lépések</summary>
+                <ol>
+                    <li>Nyisd meg a Stremio alkalmazást</li>
+                    <li>Addons ikon → "+ Add addon"</li>
+                    <li>Illeszd be a fenti URL-t</li>
+                </ol>
+            </details>
+        </div>
+        
+        <div class="addon-card">
+            <h2>Epizód Infó <span class="tag">INFO</span></h2>
+            <p class="desc">Mutatja a legutóbb feltöltött magyar epizódot a sorozatoknál (pl. S01E05 • nov 15). <strong>Nem streaming addon</strong> – a lejátszáshoz StremHU Source kell.</p>
+            <div class="btn-row">
+                <a class="btn btn-primary" href="#" data-stremio="info" onclick="installAddon(event, 'info')">Telepítés Stremioval</a>
+                <button class="btn btn-secondary" onclick="copyUrl('info-url', this)">URL másolása</button>
+            </div>
+            <div class="url-box" id="info-url"></div>
+        </div>
+        
+        <div class="addon-card">
+            <h2>Magyar Előzetesek <span class="tag">ÚJ</span></h2>
+            <p class="desc">Magyar szinkronos/feliratos előzetesek angol tartalékkal. TMDB magyar → YouTube magyar → TMDB angol → YouTube angol keresés.</p>
+            <div class="btn-row">
+                <a class="btn btn-primary" href="#" data-stremio="trailers" onclick="installAddon(event, 'trailers')">Telepítés Stremioval</a>
+                <a class="btn btn-secondary" href="#" id="configure-link">Beállítások</a>
+                <button class="btn btn-secondary" onclick="copyUrl('trailer-url', this)">URL másolása</button>
+            </div>
+            <div class="url-box" id="trailer-url"></div>
+        </div>
+        
+        <footer>
+            <p>Stremio Hungarian Community · <a href="/health" target="_blank">/health</a></p>
+        </footer>
+    </div>
+
+    <script>
+        const protocol = window.location.protocol;
+        const host = window.location.host;
+        const baseUrl = `${protocol}//${host}`;
+        const urls = {
+            catalog: `${baseUrl}/manifest.json`,
+            info: `${baseUrl}/info/manifest.json`,
+            trailers: `${baseUrl}/trailers/manifest.json`
+        };
+        
+        document.getElementById('catalog-url').textContent = urls.catalog;
+        document.getElementById('info-url').textContent = urls.info;
+        document.getElementById('trailer-url').textContent = urls.trailers;
+        document.getElementById('configure-link').href = `${baseUrl}/trailers/configure`;
+        
+        function installAddon(e, key) {
+            e.preventDefault();
+            const url = urls[key];
+            window.location.href = `stremio://${host}${url.replace(baseUrl, '')}`;
+        }
+        
+        function copyUrl(boxId, btn) {
+            const url = document.getElementById(boxId).textContent;
+            navigator.clipboard.writeText(url).then(() => {
+                const orig = btn.textContent;
+                btn.textContent = '✓ Másolva!';
+                btn.classList.add('copied');
+                setTimeout(() => { btn.textContent = orig; btn.classList.remove('copied'); }, 2000);
+            }).catch(() => alert('Másold ki: ' + url));
+        }
+        
+        fetch('/health').then(r => r.json()).then(d => {
+            const dot = document.querySelector('.status-dot');
+            const txt = document.getElementById('statusText');
+            txt.textContent = `OK · ${d.movieCount || 0} film · ${d.seriesCount || 0} sorozat`;
+        }).catch(() => {
+            document.querySelector('.status-dot').classList.add('off');
+            document.getElementById('statusText').textContent = 'Offline';
+        });
+    </script>
+</body>
+</html>

@@ -3,143 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magyar Előzetesek - Beállítások</title>
+    <title>Magyar Előzetesek – Beállítások</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --bg: #0d0d14;
+            --surface: rgba(22, 33, 62, 0.9);
+            --border: rgba(123, 92, 250, 0.4);
+            --accent: #8b5cf6;
+            --text: #e2e8f0;
+            --text-muted: #94a3b8;
+        }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Outfit', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 20px;
+            background-image: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(123, 92, 250, 0.12), transparent);
         }
         .container {
-            background: white;
+            background: var(--surface);
+            border: 1px solid var(--border);
             border-radius: 20px;
-            padding: 40px;
-            max-width: 500px;
+            padding: 2.5rem;
+            max-width: 460px;
             width: 100%;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
         }
         h1 { 
-            color: #333; 
-            margin-bottom: 10px; 
-            font-size: 28px; 
+            font-size: 1.5rem; 
+            font-weight: 600;
+            margin-bottom: 0.25rem; 
             text-align: center;
         }
         .subtitle { 
-            color: #666; 
-            margin-bottom: 30px; 
-            font-size: 14px; 
+            color: var(--text-muted); 
+            margin-bottom: 1.75rem; 
+            font-size: 0.9rem; 
             text-align: center;
         }
         .option {
-            margin-bottom: 25px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 10px;
-            border: 2px solid transparent;
-            transition: all 0.3s;
+            margin-bottom: 1.25rem;
+            padding: 1.25rem;
+            background: rgba(0,0,0,0.25);
+            border-radius: 12px;
+            border: 1px solid transparent;
+            transition: all 0.2s;
         }
-        .option:hover { 
-            border-color: #667eea; 
-            background: #f0f0ff; 
-        }
+        .option:hover { border-color: var(--border); }
         label {
             display: flex;
             align-items: center;
             cursor: pointer;
-            font-size: 16px;
-            color: #333;
+            font-size: 0.95rem;
         }
         input[type="checkbox"] {
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
             margin-right: 12px;
             cursor: pointer;
+            accent-color: var(--accent);
         }
         .description {
-            margin-top: 8px;
-            margin-left: 32px;
-            font-size: 13px;
-            color: #666;
+            margin-top: 0.5rem;
+            margin-left: 30px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
         }
-        button {
+        .btn {
             width: 100%;
-            padding: 15px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1rem;
+            background: linear-gradient(135deg, var(--accent), #6366f1);
             color: white;
             border: none;
-            border-radius: 10px;
-            font-size: 16px;
-            font-weight: bold;
+            border-radius: 12px;
+            font-family: inherit;
+            font-size: 1rem;
+            font-weight: 500;
             cursor: pointer;
-            transition: transform 0.2s;
+            transition: all 0.2s;
         }
-        button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(102,126,234,0.4);
-        }
-        .info {
-            margin-top: 20px;
-            padding: 15px;
-            background: #e3f2fd;
-            border-radius: 8px;
-            font-size: 13px;
-            color: #1976d2;
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 24px rgba(123, 92, 250, 0.4);
         }
         .manual-install {
-            margin-top: 20px;
-            padding: 15px;
-            background: #fff3cd;
-            border-radius: 8px;
-            font-size: 13px;
-            color: #856404;
+            margin-top: 1.25rem;
+            padding: 1rem;
+            background: rgba(234, 179, 8, 0.1);
+            border: 1px solid rgba(234, 179, 8, 0.3);
+            border-radius: 10px;
+            font-size: 0.85rem;
+            color: #fbbf24;
         }
         .url-box {
-            background: white;
-            padding: 10px;
-            border-radius: 5px;
-            margin-top: 10px;
-            font-family: monospace;
+            font-family: 'JetBrains Mono', monospace;
+            background: rgba(0,0,0,0.3);
+            padding: 0.6rem 0.8rem;
+            border-radius: 8px;
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
             word-break: break-all;
-            font-size: 12px;
-            color: #333;
         }
+        .info {
+            margin-top: 1.25rem;
+            padding: 1rem;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.25);
+            border-radius: 10px;
+            font-size: 0.8rem;
+            color: #93c5fd;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+        .back-link:hover { color: var(--accent); }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🎬 Magyar Előzetesek</h1>
+        <a href="/" class="back-link">← Vissza a főoldalra</a>
+        <h1>Magyar Előzetesek</h1>
         <p class="subtitle">Hungarian Trailers Addon</p>
         
         <div class="option">
             <label>
                 <input type="checkbox" id="externalLink" checked>
-                <span>Külső Link / External Link</span>
+                <span>Külső link (YouTube app)</span>
             </label>
             <div class="description">
-                Az előzetesek YouTube alkalmazásban nyílnak meg<br>
-                <strong>✓ Ajánlott:</strong> Elkerüli a beágyazási korlátozásokat
+                Előzetesek a YouTube alkalmazásban nyílnak meg – elkerüli a beágyazási korlátozásokat.
             </div>
         </div>
 
-        <button onclick="installAddon()">🚀 Addon Telepítése</button>
+        <button class="btn" onclick="installAddon()">Addon telepítése</button>
 
         <div class="manual-install">
-            <strong>📋 Kézi telepítés:</strong><br>
-            Ha az automatikus telepítés nem működik, másold be ezt az URL-t a Stremio-ba:
+            <strong>Kézi telepítés:</strong> Ha az automatikus nem működik, másold be az URL-t a Stremio-ba:
             <div class="url-box" id="manifestUrl">Betöltés...</div>
         </div>
 
         <div class="info">
-            <strong>🔍 Keresési sorrend:</strong><br>
-            1. 🇭🇺 TMDB magyar<br>
-            2. 🇭🇺 YouTube magyar<br>
-            3. 🇬🇧 TMDB angol<br>
-            4. 🇬🇧 YouTube angol
+            <strong>Keresési sorrend:</strong><br>
+            TMDB magyar → YouTube magyar → TMDB angol → YouTube angol
         </div>
     </div>
 

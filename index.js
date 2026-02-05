@@ -373,7 +373,13 @@ setInterval(() => {
     fetchTraktSeriesList();
 }, CACHE_TTL);
 
-// Export the builder instead of starting server
+// Export the builder and stats for health endpoint
+builder.getStats = () => ({
+    lastMovieUpdate: lastMovieUpdate ? new Date(lastMovieUpdate).toISOString() : null,
+    lastSeriesUpdate: lastSeriesUpdate ? new Date(lastSeriesUpdate).toISOString() : null,
+    movieCount: movieCache.length,
+    seriesCount: seriesCache.length
+});
 module.exports = builder;
 
 // Only start standalone server if run directly (for local testing)

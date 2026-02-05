@@ -12,4 +12,4 @@ cmds = [
 cmds = ["npm install"]
 
 [start]
-cmd = ". /opt/venv/bin/activate && node index.js"
+cmd = ". /opt/venv/bin/activate && node server.js"

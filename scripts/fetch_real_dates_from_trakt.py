@@ -2,16 +2,18 @@ import json
 import requests
 import time
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv('../config/config.env')
+_script_dir = Path(__file__).parent.resolve()
+load_dotenv(_script_dir.parent / 'config' / 'config.env')
 
 TRAKT_USERNAME = os.getenv('TRAKT_USERNAME')
 LIST_SLUG = os.getenv('TRAKT_SERIES_LIST_SLUG')
 CLIENT_ID = os.getenv('TRAKT_CLIENT_ID')
 ACCESS_TOKEN = os.getenv('TRAKT_ACCESS_TOKEN')
 
-EPISODE_TRACKER_FILE = 'series_episodes_seen.json'
+EPISODE_TRACKER_FILE = _script_dir / 'series_episodes_seen.json'
 
 headers = {
     'Content-Type': 'application/json',

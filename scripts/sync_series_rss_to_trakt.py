@@ -4,13 +4,15 @@ import re
 import time
 import json
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 import unicodedata
 from datetime import datetime
 
-
-# Load environment variables from config.env
-load_dotenv('../config/config.env')
+# Load config from project root
+_script_dir = Path(__file__).parent.resolve()
+_config_file = _script_dir.parent / 'config' / 'config.env'
+load_dotenv(_config_file)
 
 
 # Configuration from environment
@@ -28,8 +30,7 @@ RSS_FEEDS = [
 
 
 # Episode tracking file
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-EPISODE_TRACKER_FILE = os.path.join(SCRIPT_DIR, 'series_episodes_seen.json')
+EPISODE_TRACKER_FILE = _script_dir / 'series_episodes_seen.json'
 
 
 headers = {
