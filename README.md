@@ -25,7 +25,7 @@ This project serves **three separate Stremio addons** from a single deployment:
 - ✅ Displays episode number and upload date
 - ✅ Only shows for series in the nCore Katalógus list
 - ✅ ⚠️ **Not a streaming addon** - information only!
-- ✅ Use with Hungarian torrent addon for playback
+- ✅ Use with a Hungarian streaming addon for playback
 - ✅ Installation: `https://your-deployment-url/info/manifest.json`
 
 ### 🎬 Magyar Előzetesek (Hungarian Trailers) ⭐ NEW
