@@ -23,9 +23,13 @@ ACCESS_TOKEN = os.getenv('TRAKT_ACCESS_TOKEN')
 
 
 # RSS Feeds for series
+# S0%E0% = single episodes (S01E05); S0% = also full season packs (S01)
 RSS_FEEDS = [
     'http://finderss.it.cx/?&s=S0%25E0%25.720p&cat=Sorozat%20(HUN%20HD),',
     'http://finderss.it.cx/?&s=S0%25E0%25.1080p&cat=Sorozat%20(HUN%20HD),',
+    # Season packs (whole season uploaded as one release, e.g. Show.S01.1080p...)
+    'http://finderss.it.cx/?&s=S0%25.720p&cat=Sorozat%20(HUN%20HD),',
+    'http://finderss.it.cx/?&s=S0%25.1080p&cat=Sorozat%20(HUN%20HD),',
 ]
 
 
