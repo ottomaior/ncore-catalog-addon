@@ -26,30 +26,29 @@ TRAKT_REFRESH_TOKEN = os.getenv('TRAKT_REFRESH_TOKEN')
 TRAKT_LIST_SLUG = os.getenv('TRAKT_LIST_SLUG')
 TRAKT_USERNAME = os.getenv('TRAKT_USERNAME')
 
-# Get RSS feeds (support multiple feeds with _1, _2, etc.)
+# Get RSS feeds – MOVIES ONLY. Prefer explicit movie feeds to avoid using series URLs.
 RSS_FEEDS = []
 i = 1
 while True:
-    feed_url = os.getenv(f'RSS_FEED_{i}')
+    feed_url = os.getenv(f'RSS_FEED_MOVIES_{i}') or os.getenv(f'RSS_FEED_{i}')
     if feed_url:
         RSS_FEEDS.append(feed_url)
         i += 1
     else:
         break
-
-# Fallback to single RSS_URL if no RSS_FEED_X found
+if not RSS_FEEDS and os.getenv('RSS_URL'):
+    RSS_FEEDS = [os.getenv('RSS_URL')]
+# Default: Film (HUN HD) feeds only – never use Sorozat/series feeds here
 if not RSS_FEEDS:
-    rss_url = os.getenv('RSS_URL')
-    if rss_url:
-        RSS_FEEDS = [rss_url]
+    RSS_FEEDS = [
+        'http://finderss.it.cx/?&s=2025.720p&cat=Film%20(HUN%20HD),',
+        'http://finderss.it.cx/?&s=2026.720p&cat=Film%20(HUN%20HD),',
+    ]
+    print("✓ Using default Film (movie) RSS feeds (set RSS_FEED_MOVIES_1, RSS_FEED_MOVIES_2 to override)")
 
 # Validate all required variables are set
 if not TRAKT_CLIENT_ID or not TRAKT_ACCESS_TOKEN or not TRAKT_LIST_SLUG or not TRAKT_USERNAME:
     print("✗ Missing required Trakt credentials")
-    exit(1)
-
-if not RSS_FEEDS:
-    print("✗ No RSS feeds configured (use RSS_FEED_1, RSS_FEED_2, etc.)")
     exit(1)
 
 print(f"✓ Configuration loaded: {len(RSS_FEEDS)} RSS feed(s)\n")
@@ -169,6 +168,14 @@ def search_movie_on_trakt(clean_title, year):
     return None, None, None
 
 
+def is_likely_series(title):
+    """Skip series (S##E## or S##) – this script is for movies only."""
+    if not title:
+        return False
+    # Match S01E05, S01E125, S02 (season pack), etc. – case insensitive (episode can be 3+ digits)
+    return bool(re.search(r'\bS\d{1,2}(?:E\d{1,4})?\b', title, re.IGNORECASE))
+
+
 # Fetch RSS feeds
 print(f"Fetching {len(RSS_FEEDS)} RSS feed(s)...")
 all_entries = []
@@ -179,7 +186,13 @@ for i, rss_url in enumerate(RSS_FEEDS, 1):
     print(f"  Found {len(feed.entries)} items")
     all_entries.extend(feed.entries)
 
-print(f"\nTotal items from all feeds: {len(all_entries)}\n")
+# Movie sync only: drop any entry that looks like a series (S01E05, S02, etc.)
+raw_count = len(all_entries)
+all_entries = [e for e in all_entries if not is_likely_series(e.title)]
+skipped = raw_count - len(all_entries)
+if skipped:
+    print(f"  (Skipped {skipped} series – movie sync only)")
+print(f"\nTotal movie items to process: {len(all_entries)}\n")
 
 
 # Process each entry
