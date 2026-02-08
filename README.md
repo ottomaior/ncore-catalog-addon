@@ -55,7 +55,7 @@ Visit the deployment to see the homepage with install instructions for all three
 - 🔄 **RSS Feed Scraping** - Parses nCore RSS feeds via finderss.it.cx
 - 🎯 **Smart Title Matching** - Year extraction, title cleaning, multiple variations
 - 📊 **Trakt Sync** - Automatically adds new content to Trakt lists
-- ⏰ **Scheduled Updates** - Every 3 hours via node-cron
+- ⏰ **Scheduled Updates** - Every 3 hours (in-app node-cron on Railway, or optional GitHub Actions webhook)
 - 🔒 **Duplicate Prevention** - Won't add content already in lists
 - 📝 **Episode Tracking** - Monitors latest series uploads with dates
 
@@ -65,6 +65,21 @@ Visit the deployment to see the homepage with install instructions for all three
 - 🇭🇺 **Hungarian Language** - Titles, descriptions, and posters in Hungarian
 - 🔗 **Trakt Integration** - Pulls content from your Trakt lists
 - 🎬 **Intelligent Trailer Search** - Multi-stage Hungarian/English fallback
+
+### ⏰ Scheduled sync (every 3 hours)
+
+On **Railway** (or any Linux deployment), the server runs both sync scripts in-process:
+
+- **Movies:** `sync_rss_to_trakt.py` at :00 every 3 hours  
+- **Series:** `sync_series_rss_to_trakt.py` at :30 every 3 hours  
+
+**Optional – GitHub Actions:** To trigger sync from GitHub instead (or as a backup), use the cron webhook:
+
+1. In **Railway**: add variable `CRON_SECRET` (e.g. a random string).
+2. In **GitHub** → repo **Settings → Secrets and variables → Actions**, add:
+   - `CRON_SECRET` — same value as on Railway  
+   - `RAILWAY_APP_URL` — your app URL, e.g. `https://your-app.railway.app`
+3. The workflow `.github/workflows/cron-sync.yml` runs every 3 hours and calls `POST /cron/sync` on your app. Secrets stay on Railway; only the trigger runs in GitHub.
 
 ## 📋 Prerequisites
 

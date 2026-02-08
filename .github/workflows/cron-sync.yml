@@ -1,0 +1,28 @@
+# Trigger RSS→Trakt sync on Railway every 3 hours (movies + series).
+# Requires GitHub Secrets: CRON_SECRET, RAILWAY_APP_URL (e.g. https://your-app.railway.app)
+name: Cron sync RSS to Trakt
+on:
+  schedule:
+    - cron: '0 */3 * * *'   # Every 3 hours at :00
+  workflow_dispatch:        # Allow manual run from Actions tab
+jobs:
+  trigger-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger sync on Railway
+        run: |
+          if [ -z "${{ secrets.CRON_SECRET }}" ] || [ -z "${{ secrets.RAILWAY_APP_URL }}" ]; then
+            echo "::warning::CRON_SECRET and RAILWAY_APP_URL must be set in repo Secrets to enable cron sync."
+            exit 0
+          fi
+          url="${{ secrets.RAILWAY_APP_URL }}/cron/sync"
+          status=$(curl -s -o /tmp/out -w "%{http_code}" -X POST "$url" -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}")
+          cat /tmp/out
+          if [ "$status" = "202" ]; then
+            echo "Sync triggered successfully (202)."
+          elif [ "$status" = "401" ]; then
+            echo "::error::Cron endpoint returned 401. Check CRON_SECRET matches Railway CRON_SECRET."
+            exit 1
+          else
+            echo "::warning::Cron endpoint returned $status."
+          fi
