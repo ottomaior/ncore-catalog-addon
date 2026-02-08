@@ -363,9 +363,8 @@ builder.defineMetaHandler(async (args) => {
     return Promise.resolve({ meta: null });
 });
 
-// Initialize both caches on startup
-fetchTraktList();
-fetchTraktSeriesList();
+// Cache is filled on first catalog request (see defineCatalogHandler). No startup fetch
+// so the server can listen immediately and avoid 502 on Railway (proxy timeout).
 
 // Auto-refresh every 3 hours
 setInterval(() => {
