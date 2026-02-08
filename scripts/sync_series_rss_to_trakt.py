@@ -20,6 +20,8 @@ TRAKT_USERNAME = os.getenv('TRAKT_USERNAME')
 LIST_SLUG = os.getenv('TRAKT_SERIES_LIST_SLUG')
 CLIENT_ID = os.getenv('TRAKT_CLIENT_ID')
 ACCESS_TOKEN = os.getenv('TRAKT_ACCESS_TOKEN')
+TRAKT_CLIENT_SECRET = os.getenv('TRAKT_CLIENT_SECRET')
+TRAKT_REFRESH_TOKEN = os.getenv('TRAKT_REFRESH_TOKEN')
 
 
 # RSS Feeds for series
@@ -43,6 +45,27 @@ headers = {
     'trakt-api-key': CLIENT_ID,
     'Authorization': f'Bearer {ACCESS_TOKEN}'
 }
+
+
+def _refresh_trakt_and_reload():
+    """On 401: refresh tokens, update config.env, reload env. Returns True if new token is set."""
+    from trakt_auth import refresh_trakt_tokens, update_config_tokens
+    client_secret = os.getenv('TRAKT_CLIENT_SECRET')
+    refresh_token = os.getenv('TRAKT_REFRESH_TOKEN')
+    if not client_secret or not refresh_token:
+        return False
+    pair = refresh_trakt_tokens(CLIENT_ID, client_secret, refresh_token)
+    if not pair:
+        return False
+    access_token, new_refresh_token = pair
+    if update_config_tokens(_config_file, access_token, new_refresh_token):
+        load_dotenv(_config_file)
+        os.environ['TRAKT_ACCESS_TOKEN'] = access_token
+        os.environ['TRAKT_REFRESH_TOKEN'] = new_refresh_token
+        headers['Authorization'] = f'Bearer {access_token}'
+        print(f"    ✓ Trakt token refreshed and config updated.")
+        return True
+    return False
 
 
 def normalize_unicode(text):
@@ -151,7 +174,8 @@ def search_series_on_trakt(clean_title, year_hint=None):
         try:
             time.sleep(0.5)
             search_response = requests.get(search_url, headers=headers)
-            
+            if search_response.status_code == 401 and _refresh_trakt_and_reload():
+                search_response = requests.get(search_url, headers=headers)
             if search_response.status_code == 200 and search_response.json():
                 results = search_response.json()
                 
@@ -276,6 +300,8 @@ def get_list_items():
     try:
         time.sleep(0.5)
         response = requests.get(list_url, headers=headers)
+        if response.status_code == 401 and _refresh_trakt_and_reload():
+            response = requests.get(list_url, headers=headers)
         if response.status_code == 200:
             items = response.json()
             return {item['show']['ids']['trakt']: item for item in items}
@@ -299,6 +325,8 @@ def remove_from_list(trakt_ids):
     
     try:
         response = requests.post(remove_url, json=payload, headers=headers)
+        if response.status_code == 401 and _refresh_trakt_and_reload():
+            response = requests.post(remove_url, json=payload, headers=headers)
         if response.status_code == 200:
             result = response.json()
             deleted = result['deleted']['shows']
@@ -487,7 +515,8 @@ if shows_to_add:
     
     try:
         response = requests.post(add_url, json=payload, headers=headers)
-        
+        if response.status_code == 401 and _refresh_trakt_and_reload():
+            response = requests.post(add_url, json=payload, headers=headers)
         if response.status_code == 201:
             result = response.json()
             added = result['added']['shows']

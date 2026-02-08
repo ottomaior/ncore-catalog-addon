@@ -21,6 +21,8 @@ else:
 # Get credentials from environment
 TRAKT_CLIENT_ID = os.getenv('TRAKT_CLIENT_ID')
 TRAKT_ACCESS_TOKEN = os.getenv('TRAKT_ACCESS_TOKEN')
+TRAKT_CLIENT_SECRET = os.getenv('TRAKT_CLIENT_SECRET')
+TRAKT_REFRESH_TOKEN = os.getenv('TRAKT_REFRESH_TOKEN')
 TRAKT_LIST_SLUG = os.getenv('TRAKT_LIST_SLUG')
 TRAKT_USERNAME = os.getenv('TRAKT_USERNAME')
 
@@ -52,13 +54,40 @@ if not RSS_FEEDS:
 
 print(f"✓ Configuration loaded: {len(RSS_FEEDS)} RSS feed(s)\n")
 
-# Headers for Trakt API
-headers = {
-    'Content-Type': 'application/json',
-    'trakt-api-version': '2',
-    'trakt-api-key': TRAKT_CLIENT_ID,
-    'Authorization': f'Bearer {TRAKT_ACCESS_TOKEN}'
-}
+# Headers for Trakt API (updated when token is refreshed)
+def _trakt_headers():
+    return {
+        'Content-Type': 'application/json',
+        'trakt-api-version': '2',
+        'trakt-api-key': TRAKT_CLIENT_ID,
+        'Authorization': f'Bearer {os.getenv("TRAKT_ACCESS_TOKEN", TRAKT_ACCESS_TOKEN)}'
+    }
+
+
+headers = _trakt_headers()
+
+
+def _refresh_trakt_and_reload():
+    """On 401: refresh tokens, update config.env, reload env. Returns True if new token is set."""
+    from trakt_auth import refresh_trakt_tokens, update_config_tokens
+    client_id = os.getenv('TRAKT_CLIENT_ID')
+    client_secret = os.getenv('TRAKT_CLIENT_SECRET')
+    refresh_token = os.getenv('TRAKT_REFRESH_TOKEN')
+    if not client_secret or not refresh_token:
+        return False
+    pair = refresh_trakt_tokens(client_id, client_secret, refresh_token)
+    if not pair:
+        return False
+    access_token, new_refresh_token = pair
+    if update_config_tokens(config_file, access_token, new_refresh_token):
+        load_dotenv(config_file)
+        os.environ['TRAKT_ACCESS_TOKEN'] = access_token
+        os.environ['TRAKT_REFRESH_TOKEN'] = new_refresh_token
+        global headers
+        headers = _trakt_headers()
+        print(f"    ✓ Trakt token refreshed and config updated.")
+        return True
+    return False
 
 
 def search_movie_on_trakt(clean_title, year):
@@ -83,26 +112,55 @@ def search_movie_on_trakt(clean_title, year):
             time.sleep(0.5)  # Rate limiting
             search_response = requests.get(search_url, headers=headers)
             
-            if search_response.status_code == 200 and search_response.json():
-                results = search_response.json()
+            # On 401: try to refresh token and retry once
+            if search_response.status_code == 401:
+                if _refresh_trakt_and_reload():
+                    search_response = requests.get(search_url, headers=headers)
+                else:
+                    print(f"    ✗ Trakt auth failed (401). Add TRAKT_CLIENT_SECRET and TRAKT_REFRESH_TOKEN to config, or run fresh_auth.py.")
+                    return None, None, None
+            if search_response.status_code == 401:
+                return None, None, None
+            if search_response.status_code == 403:
+                print(f"    ✗ Trakt access denied (403). Check API key and token.")
+                return None, None, None
+            if search_response.status_code != 200:
+                print(f"    ✗ Trakt API error: {search_response.status_code}")
+                continue
+            
+            data = search_response.json()
+            if not data:
+                continue
+            # API can return error object instead of list (e.g. auth failure with 200 in some cases)
+            if not isinstance(data, list):
+                print(f"    ✗ Unexpected Trakt response (not a list). Check token.")
+                continue
+            results = data
+            
+            for result in results:
+                movie = result.get('movie')
+                if not movie:
+                    continue
+                movie_year = str(movie['year']) if movie.get('year') else ''
+                movie_title_lower = movie['title'].lower()
+                variation_lower = variation.lower()
+                is_first = results.index(result) == 0
+                title_match = (
+                    movie_title_lower in variation_lower or
+                    variation_lower in movie_title_lower or
+                    variation_lower.replace(' ', '') in movie_title_lower.replace(' ', '')
+                )
                 
-                # Filter results to match the year exactly
-                for result in results:
-                    movie = result['movie']
-                    movie_year = str(movie['year'])
-                    
-                    # Check if year matches exactly
-                    if year and movie_year == year:
-                        # Additional check: title similarity
-                        movie_title_lower = movie['title'].lower()
-                        variation_lower = variation.lower()
-                        
-                        # Accept if titles are very similar
-                        if (movie_title_lower in variation_lower or 
-                            variation_lower in movie_title_lower or
-                            results.index(result) == 0):
-                            
-                            return movie, result, results
+                # When year is in title: require year match and title similarity
+                if year:
+                    if movie_year != year:
+                        continue
+                    if title_match or is_first:
+                        return movie, result, results
+                else:
+                    # No year in RSS title: accept by title match, prefer first result
+                    if title_match or is_first:
+                        return movie, result, results
                 
         except Exception as e:
             print(f"    Error searching variation '{variation}': {e}")
@@ -158,7 +216,7 @@ for entry in all_entries:
             'ids': {'trakt': movie['ids']['trakt']}
         })
     else:
-        print(f"  ✗ No exact match found for year {year}")
+        print(f"  ✗ No match found" + (f" for year {year}" if year else ""))
         # Show alternatives if available
         if all_results:
             for i, res in enumerate(all_results[:3]):
@@ -174,7 +232,8 @@ if movies_to_add:
     
     try:
         response = requests.post(add_url, json=payload, headers=headers)
-        
+        if response.status_code == 401 and _refresh_trakt_and_reload():
+            response = requests.post(add_url, json=payload, headers=headers)
         if response.status_code == 201:
             result = response.json()
             added = result['added']['movies']
