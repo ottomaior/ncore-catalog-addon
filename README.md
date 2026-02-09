@@ -68,18 +68,26 @@ Visit the deployment to see the homepage with install instructions for all three
 
 ### ⏰ Scheduled sync (every 3 hours)
 
-On **Railway** (or any Linux deployment), the server runs both sync scripts in-process:
+**GitHub Actions** runs both sync scripts every 3 hours (workflow: `Cron sync RSS to Trakt`). You only need to add the secrets below.
 
-- **Movies:** `sync_rss_to_trakt.py` at :00 every 3 hours  
-- **Series:** `sync_series_rss_to_trakt.py` at :30 every 3 hours  
+On **Railway**, the server can also run the scripts in-process (node-cron); the Actions cron runs regardless so your lists stay in sync even if the app is asleep.
 
-**Optional – GitHub Actions:** To trigger sync from GitHub instead (or as a backup), use the cron webhook:
+---
 
-1. In **Railway**: add variable `CRON_SECRET` (e.g. a random string).
-2. In **GitHub** → repo **Settings → Secrets and variables → Actions**, add:
-   - `CRON_SECRET` — same value as on Railway  
-   - `RAILWAY_APP_URL` — your app URL, e.g. `https://your-app.railway.app`
-3. The workflow `.github/workflows/cron-sync.yml` runs every 3 hours and calls `POST /cron/sync` on your app. Secrets stay on Railway; only the trigger runs in GitHub.
+**Add these GitHub Secrets** (repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**):
+
+| Secret | Required | Where to get it |
+|--------|----------|-----------------|
+| `TRAKT_CLIENT_ID` | Yes | [Trakt API](https://trakt.tv/oauth/applications) |
+| `TRAKT_ACCESS_TOKEN` | Yes | From `config.env` or [auth flow](https://trakt.tv/oauth/applications) |
+| `TRAKT_CLIENT_SECRET` | Yes | Trakt API application |
+| `TRAKT_REFRESH_TOKEN` | Yes | From `config.env` / auth flow |
+| `TRAKT_LIST_SLUG` | Yes | Your Trakt list slug (movies) |
+| `TRAKT_SERIES_LIST_SLUG` | Yes | Your Trakt list slug (series) |
+| `TRAKT_USERNAME` | Yes | Your Trakt username |
+| `RSS_FEED_MOVIES_1`, `RSS_FEED_MOVIES_2` | No | Custom movie RSS URLs (optional; scripts use defaults if missing) |
+
+After adding the 7 required secrets, the workflow will run every 3 hours and on **Run workflow** from the Actions tab.
 
 ## 📋 Prerequisites
 
