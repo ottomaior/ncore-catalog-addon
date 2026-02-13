@@ -12,7 +12,13 @@ from datetime import datetime
 # Load config from project root
 _script_dir = Path(__file__).parent.resolve()
 _config_file = _script_dir.parent / 'config' / 'config.env'
-load_dotenv(_config_file)
+
+# Load environment variables (config file optional in CI)
+if _config_file.exists():
+    load_dotenv(_config_file)
+    print(f"✓ Loaded config from: {_config_file}")
+else:
+    print(f"ℹ Config file not found (using environment variables from GitHub Actions)")
 
 
 # Configuration from environment

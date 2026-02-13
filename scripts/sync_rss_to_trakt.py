@@ -11,12 +11,13 @@ script_dir = Path(__file__).parent.resolve()
 project_root = script_dir.parent
 config_file = project_root / 'config' / 'config.env'
 
-# Load environment variables
+# Load environment variables (config file optional in CI)
 if config_file.exists():
     load_dotenv(config_file)
+    print(f"✓ Loaded config from: {config_file}")
 else:
-    print(f"✗ Config file not found: {config_file}")
-    exit(1)
+    print(f"ℹ Config file not found (using environment variables from GitHub Actions)")
+
 
 # Get credentials from environment
 TRAKT_CLIENT_ID = os.getenv('TRAKT_CLIENT_ID')
