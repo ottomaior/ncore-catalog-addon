@@ -52,5 +52,3 @@ scripts/refresh_token.py
 # Railway (ADD THIS!)
 .railway/
 
-# Generated catalog data (built every 3 days by build_most_seeded_movies_catalog.py)
-data/*.json
