@@ -11,9 +11,19 @@ const trailerBuilder = require('./trailers/addon.js');
 
 const app = express();
 
+// CORS: allow Stremio (and any client) to fetch manifest and addon resources from another origin
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    if (req.method === 'OPTIONS') {
+        res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+        return res.sendStatus(204);
+    }
+    next();
+});
+
 // Cron: run Python sync scripts every 3 hours (production)
 const isUnix = process.platform !== 'win32';
-const runScript = (scriptName, label) => {
+const runScript = (scriptName, label, onDone) => {
     const scriptPath = path.join(__dirname, 'scripts', scriptName);
     const cmd = isUnix
         ? `. /opt/venv/bin/activate && python "${scriptPath}"`
@@ -23,12 +33,20 @@ const runScript = (scriptName, label) => {
         if (error) console.error(`[Cron] ${label} error:`, error.message);
         if (stderr) console.error(`[Cron] ${label} stderr:`, stderr);
         if (stdout) console.log(`[Cron] ${label} output:`, stdout.slice(0, 500));
+        if (typeof onDone === 'function') onDone();
     });
 };
 if (isUnix) {
     cron.schedule('0 */3 * * *', () => { console.log('[Cron] Running movie sync...'); runScript('sync_rss_to_trakt.py', 'Movies'); });
     cron.schedule('30 */3 * * *', () => { console.log('[Cron] Running series sync...'); runScript('sync_series_rss_to_trakt.py', 'Series'); });
-    console.log('[Cron] Scheduler started – movies: every 3h :00, series: every 3h :30');
+    cron.schedule('0 3 * * 0', () => {
+        console.log('[Cron] Building top-seeded-by-genre catalog...');
+        runScript('build_most_seeded_movies_catalog.py', 'TopSeededCatalog', () => {
+            console.log('[Cron] Filtering Hungarian productions...');
+            runScript('filter_hungarian_productions.py', 'HungarianProductions');
+        });
+    });
+    console.log('[Cron] Scheduler – movies/series: every 3h; top-seeded + Magyar filmek: weekly Sunday 03:00');
 }
 
 // Get routers from all addons
@@ -56,6 +74,29 @@ app.get('/trailers/configure', (req, res) => {
 // Homepage (static HTML with dynamic baseUrl via client JS)
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+// Catalog options for configure UI (which catalogs to enable before install)
+app.get('/api/catalog-options', (req, res) => {
+    try {
+        const options = catalogBuilder.getCatalogOptions ? catalogBuilder.getCatalogOptions() : [];
+        res.json(options);
+    } catch (e) {
+        res.status(500).json({ error: String(e.message) });
+    }
+});
+
+// Dynamic manifest: ?catalogs=id1,id2,... returns manifest with only those catalogs
+app.get('/manifest.json', (req, res, next) => {
+    const catalogsParam = req.query.catalogs;
+    if (catalogsParam && typeof catalogsParam === 'string') {
+        const ids = catalogsParam.split(',').map(s => s.trim()).filter(Boolean);
+        if (ids.length > 0 && catalogBuilder.getManifestForCatalogs) {
+            const manifest = catalogBuilder.getManifestForCatalogs(ids);
+            return res.json(manifest);
+        }
+    }
+    next();
 });
 
 // Secured cron webhook: POST /cron/sync with Authorization: Bearer <CRON_SECRET>

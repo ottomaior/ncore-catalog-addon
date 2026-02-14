@@ -171,6 +171,34 @@
             color: var(--text-muted);
             line-height: 1.8;
         }
+        .catalog-config {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+        .catalog-config summary {
+            cursor: pointer;
+            font-size: 0.85rem;
+            color: var(--accent-light);
+            margin-bottom: 0.5rem;
+        }
+        .catalog-config .checkboxes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.35rem 1rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            max-height: 12rem;
+            overflow-y: auto;
+        }
+        .catalog-config label {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            cursor: pointer;
+        }
+        .catalog-config label:hover { color: var(--text); }
+        .catalog-config input[type="checkbox"] { accent-color: var(--accent); }
         
         footer {
             text-align: center;
@@ -202,9 +230,13 @@
         <div class="addon-card">
             <h2>Katalógus <span class="tag">FILMEK + SOROZATOK</span></h2>
             <p class="desc">Magyar nyelvű filmek és sorozatok katalógusa. Legfrissebb feltöltések Trakt listából, magyar címekkel és poszterekkel.</p>
+            <details class="catalog-config">
+                <summary>Katalógusok kiválasztása (telepítés előtt)</summary>
+                <div class="checkboxes" id="catalog-checkboxes">Betöltés…</div>
+            </details>
             <div class="btn-row">
                 <a class="btn btn-primary" href="#" data-stremio="catalog" onclick="installAddon(event, 'catalog')">Telepítés Stremioval</a>
-                <button class="btn btn-secondary" onclick="copyUrl('catalog-url', this)">URL másolása</button>
+                <button class="btn btn-secondary" onclick="copyCatalogUrl(this)">URL másolása</button>
             </div>
             <div class="url-box" id="catalog-url"></div>
             <details class="instructions">
@@ -212,7 +244,7 @@
                 <ol>
                     <li>Nyisd meg a Stremio alkalmazást</li>
                     <li>Addons ikon → "+ Add addon"</li>
-                    <li>Illeszd be a fenti URL-t</li>
+                    <li>Illeszd be a fenti URL-t (vagy válaszd ki a katalógusokat, majd Telepítés)</li>
                 </ol>
             </details>
         </div>
@@ -248,20 +280,59 @@
         const host = window.location.host;
         const baseUrl = `${protocol}//${host}`;
         const urls = {
-            catalog: `${baseUrl}/manifest.json`,
             info: `${baseUrl}/info/manifest.json`,
             trailers: `${baseUrl}/trailers/manifest.json`
         };
+        let catalogOptions = [];
         
-        document.getElementById('catalog-url').textContent = urls.catalog;
+        function getCatalogInstallUrl() {
+            const enabled = catalogOptions.filter(o => document.getElementById('cat-' + o.id)?.checked).map(o => o.id);
+            if (enabled.length === 0 || enabled.length === catalogOptions.length)
+                return baseUrl + '/manifest.json';
+            return baseUrl + '/manifest.json?catalogs=' + encodeURIComponent(enabled.join(','));
+        }
+        
+        function updateCatalogUrl() {
+            document.getElementById('catalog-url').textContent = getCatalogInstallUrl();
+        }
+        
+        fetch('/api/catalog-options')
+            .then(r => r.json())
+            .then(opts => {
+                catalogOptions = opts;
+                const box = document.getElementById('catalog-checkboxes');
+                box.innerHTML = opts.map(c => 
+                    '<label><input type="checkbox" id="cat-' + c.id + '" checked> ' + (c.name || c.id) + '</label>'
+                ).join('');
+                opts.forEach(c => {
+                    document.getElementById('cat-' + c.id).addEventListener('change', updateCatalogUrl);
+                });
+                updateCatalogUrl();
+            })
+            .catch(() => {
+                document.getElementById('catalog-checkboxes').textContent = 'Nem sikerült betölteni.';
+                document.getElementById('catalog-url').textContent = baseUrl + '/manifest.json';
+            });
+        
         document.getElementById('info-url').textContent = urls.info;
         document.getElementById('trailer-url').textContent = urls.trailers;
         document.getElementById('configure-link').href = `${baseUrl}/trailers/configure`;
         
         function installAddon(e, key) {
             e.preventDefault();
-            const url = urls[key];
-            window.location.href = `stremio://${host}${url.replace(baseUrl, '')}`;
+            const url = key === 'catalog' ? getCatalogInstallUrl() : urls[key];
+            const path = url.replace(baseUrl, '');
+            window.location.href = 'stremio://' + host + path;
+        }
+        
+        function copyCatalogUrl(btn) {
+            const url = getCatalogInstallUrl();
+            navigator.clipboard.writeText(url).then(() => {
+                const orig = btn.textContent;
+                btn.textContent = '✓ Másolva!';
+                btn.classList.add('copied');
+                setTimeout(() => { btn.textContent = orig; btn.classList.remove('copied'); }, 2000);
+            }).catch(() => alert('Másold ki: ' + url));
         }
         
         function copyUrl(boxId, btn) {

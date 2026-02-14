@@ -9,6 +9,7 @@ yarn-error.log*
 config/config.env
 *.env
 !config.example.env
+# config.env holds NCORE_USER, NCORE_PASS, Trakt tokens – keep it local only
 
 # Python
 __pycache__/
@@ -50,3 +51,6 @@ scripts/refresh_token.py
 
 # Railway (ADD THIS!)
 .railway/
+
+# Generated catalog data (built every 3 days by build_most_seeded_movies_catalog.py)
+data/*.json

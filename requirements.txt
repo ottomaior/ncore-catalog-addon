@@ -1,0 +1,5 @@
+# Used by sync scripts (RSS + nCore most-seeded)
+requests>=2.28.0
+feedparser>=6.0.0
+python-dotenv>=1.0.0
+ncoreparser>=4.5.0

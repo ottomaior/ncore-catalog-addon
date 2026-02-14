@@ -15,6 +15,36 @@ const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 
 // Path to episode tracker
 const EPISODE_TRACKER_PATH = path.join(__dirname, 'scripts', 'series_episodes_seen.json');
+// Path to most-seeded movies catalog (built weekly; script extends existing file incrementally)
+const MOST_SEEDED_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'most_seeded_movies.json');
+// Path to most-seeded Hungarian productions (movies made in Hungary)
+const MOST_SEEDED_HUNGARIAN_PRODUCTIONS_PATH = path.join(__dirname, 'data', 'most_seeded_hungarian_productions_movies.json');
+
+// Genres that get their own "Top seeded" catalog (slug -> display label)
+const TOP_SEEDED_GENRE_CATALOGS = [
+    'comedy', 'action', 'war', 'drama', 'thriller', 'horror', 'romance',
+    'science-fiction', 'animation', 'crime', 'documentary', 'adventure', 'fantasy', 'mystery'
+];
+// Hungarian display names for Top Seed catalogs
+const GENRE_LABEL_HU = {
+    'comedy': 'Vígjáték',
+    'action': 'Akció',
+    'war': 'Háború',
+    'drama': 'Dráma',
+    'thriller': 'Thriller',
+    'horror': 'Horror',
+    'romance': 'Romantika',
+    'science-fiction': 'Sci-fi',
+    'animation': 'Animáció',
+    'crime': 'Bűnügy',
+    'documentary': 'Dokumentumfilm',
+    'adventure': 'Kaland',
+    'fantasy': 'Fantasy',
+    'mystery': 'Rejtély'
+};
+function topSeedGenreLabel(slug) {
+    return GENRE_LABEL_HU[slug] || slug.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1).toLowerCase()).join(' ');
+}
 
 // Load episode information from tracker
 function loadEpisodeTracker() {
@@ -116,7 +146,7 @@ const manifest = {
         {
             id: "ncore-hd-movies",
             type: "movie",
-            name: "nCore – Utoljára feltöltött",
+            name: "nCore – Utoljára feltöltött (filmek)",
             extra: [
                 {
                     name: "skip",
@@ -127,14 +157,32 @@ const manifest = {
         {
             id: "ncore-hd-series",
             type: "series",
-            name: "nCore – Utoljára feltöltött",
+            name: "nCore – Utoljára feltöltött (sorozatok)",
             extra: [
                 {
                     name: "skip",
                     isRequired: false
                 }
             ]
-        }
+        },
+        {
+            id: "ncore-movies-top-seeded-all",
+            type: "movie",
+            name: "nCore – Top Seed – Összes",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        {
+            id: "ncore-movies-top-seeded-magyar-filmek",
+            type: "movie",
+            name: "nCore – Top Seed – Magyar filmek",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        ...TOP_SEEDED_GENRE_CATALOGS.map(slug => ({
+            id: `ncore-movies-top-seeded-${slug}`,
+            type: "movie",
+            name: `nCore – Top Seed – ${topSeedGenreLabel(slug)}`,
+            extra: [{ name: "skip", isRequired: false }]
+        }))
     ],
     idPrefixes: ['tt']
 };
@@ -146,7 +194,73 @@ let movieCache = [];
 let seriesCache = [];
 let lastMovieUpdate = null;
 let lastSeriesUpdate = null;
+// Top-seeded-by-genre catalog: loaded from data/most_seeded_movies.json (built every 3 days)
+let topSeededByGenreList = [];
+let topSeededByGenreLoadedAt = null;
+let topSeededHungarianProductionsList = [];
+let topSeededHungarianProductionsLoadedAt = null;
 const CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
+const TOP_SEEDED_CATALOG_TTL = 3 * 24 * 60 * 60 * 1000; // 3 days
+
+function loadTopSeededMoviesFromFile() {
+    try {
+        if (!fs.existsSync(MOST_SEEDED_MOVIES_DATA_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(MOST_SEEDED_MOVIES_DATA_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a most_seeded_movies.json betöltésekor:', err.message);
+        return topSeededByGenreList;
+    }
+}
+
+function getTopSeededMoviesList() {
+    if (!topSeededByGenreLoadedAt || (Date.now() - topSeededByGenreLoadedAt > TOP_SEEDED_CATALOG_TTL)) {
+        topSeededByGenreList = loadTopSeededMoviesFromFile();
+        topSeededByGenreLoadedAt = Date.now();
+        if (topSeededByGenreList.length) {
+            console.log(`✓ ${topSeededByGenreList.length} legnagyobb seed film (kategóriák) betöltve`);
+        }
+    }
+    return topSeededByGenreList;
+}
+
+function filterTopSeededByGenre(genreSlug) {
+    const list = getTopSeededMoviesList();
+    if (!genreSlug) return list;
+    const match = genreSlug.toLowerCase().replace(/-/g, ' ');
+    return list.filter(meta => {
+        const genres = meta.genres || [];
+        return genres.some(g => String(g).toLowerCase().replace(/\s+/g, ' ') === match);
+    });
+}
+
+function loadTopSeededHungarianProductionsFromFile() {
+    try {
+        if (!fs.existsSync(MOST_SEEDED_HUNGARIAN_PRODUCTIONS_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(MOST_SEEDED_HUNGARIAN_PRODUCTIONS_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a most_seeded_hungarian_productions_movies.json betöltésekor:', err.message);
+        return topSeededHungarianProductionsList;
+    }
+}
+
+function getTopSeededHungarianProductionsList() {
+    if (!topSeededHungarianProductionsLoadedAt || (Date.now() - topSeededHungarianProductionsLoadedAt > TOP_SEEDED_CATALOG_TTL)) {
+        topSeededHungarianProductionsList = loadTopSeededHungarianProductionsFromFile();
+        topSeededHungarianProductionsLoadedAt = Date.now();
+        if (topSeededHungarianProductionsList.length) {
+            console.log(`✓ ${topSeededHungarianProductionsList.length} magyar film (Magyarországon készült) betöltve`);
+        }
+    }
+    return topSeededHungarianProductionsList;
+}
 
 // Fetch movies from Trakt list
 async function fetchTraktList() {
@@ -339,15 +453,41 @@ builder.defineCatalogHandler(async (args) => {
         return Promise.resolve({ metas });
     }
 
+    // Top seeded (all) from JSON – no extra Trakt list
+    if (args.type === 'movie' && args.id === 'ncore-movies-top-seeded-all') {
+        const list = getTopSeededMoviesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+
+    // Top seeded Hungarian productions (movies made in Hungary)
+    if (args.type === 'movie' && args.id === 'ncore-movies-top-seeded-magyar-filmek') {
+        const list = getTopSeededHungarianProductionsList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+
+    // Top seeded by genre (e.g. ncore-movies-top-seeded-comedy)
+    if (args.type === 'movie' && args.id.startsWith('ncore-movies-top-seeded-')) {
+        const slug = args.id.replace('ncore-movies-top-seeded-', '');
+        if (TOP_SEEDED_GENRE_CATALOGS.includes(slug)) {
+            const list = filterTopSeededByGenre(slug);
+            const skip = parseInt(args.extra?.skip) || 0;
+            return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        }
+    }
+
     return Promise.resolve({ metas: [] });
 });
 
-// Meta handler for both movies and series
+// Meta handler for both movies and series (includes most-seeded caches)
 builder.defineMetaHandler(async (args) => {
     console.log(`Meta kérés: ${args.type}/${args.id}`);
 
     if (args.type === 'movie') {
-        const movie = movieCache.find(m => m.id === args.id);
+        const movie = movieCache.find(m => m.id === args.id)
+            || getTopSeededMoviesList().find(m => m.id === args.id)
+            || getTopSeededHungarianProductionsList().find(m => m.id === args.id);
         if (movie) {
             return Promise.resolve({ meta: movie });
         }
@@ -377,9 +517,32 @@ builder.getStats = () => ({
     lastMovieUpdate: lastMovieUpdate ? new Date(lastMovieUpdate).toISOString() : null,
     lastSeriesUpdate: lastSeriesUpdate ? new Date(lastSeriesUpdate).toISOString() : null,
     movieCount: movieCache.length,
-    seriesCount: seriesCache.length
+    seriesCount: seriesCache.length,
+    topSeededByGenreCount: getTopSeededMoviesList().length,
+    topSeededHungarianProductionsCount: getTopSeededHungarianProductionsList().length
 });
+/**
+ * Return manifest with only the given catalog ids (for configure-before-install).
+ * @param {string[]} enabledIds - Catalog ids to include. If empty/null, returns full manifest.
+ */
+function getManifestForCatalogs(enabledIds) {
+    if (!enabledIds || !Array.isArray(enabledIds) || enabledIds.length === 0) {
+        return manifest;
+    }
+    const set = new Set(enabledIds.map(id => String(id).trim()).filter(Boolean));
+    const catalogs = manifest.catalogs.filter(c => set.has(c.id));
+    return { ...manifest, catalogs };
+}
+
+/** Return list of { id, name, type } for each catalog (for configure UI). */
+function getCatalogOptions() {
+    return manifest.catalogs.map(c => ({ id: c.id, name: c.name, type: c.type }));
+}
+
 module.exports = builder;
+module.exports.getManifestForCatalogs = getManifestForCatalogs;
+module.exports.getCatalogOptions = getCatalogOptions;
+module.exports.manifest = manifest;
 
 // Only start standalone server if run directly (for local testing)
 if (require.main === module) {

@@ -15,7 +15,7 @@ This project serves **three separate Stremio addons** from a single deployment:
 **Catalog addon** that displays Hungarian movies and series from nCore tracker.
 
 - ✅ Synced from Trakt lists every 3 hours
-- ✅ Movies and series catalogs
+- ✅ **Catalogs:** Utoljára feltöltött (movies + series), **Legnagyobb seed (összes)** + by genre (Comedy, Action, War, …)
 - ✅ TMDB metadata with Hungarian titles and posters
 - ✅ Installation: `https://your-deployment-url/manifest.json`
 
@@ -86,8 +86,23 @@ On **Railway**, the server can also run the scripts in-process (node-cron); the 
 | `TRAKT_SERIES_LIST_SLUG` | Yes | Your Trakt list slug (series) |
 | `TRAKT_USERNAME` | Yes | Your Trakt username |
 | `RSS_FEED_MOVIES_1`, `RSS_FEED_MOVIES_2` | No | Custom movie RSS URLs (optional; scripts use defaults if missing) |
+| `NCORE_USER`, `NCORE_PASS` | For top-seeded catalog | nCore.pro login (for **Legnagyobb seed** film catalogs built from JSON) |
 
 After adding the 7 required secrets, the workflow will run every 3 hours and on **Run workflow** from the Actions tab.
+
+### nCore Movies: Latest + Top seeded (all + by genre)
+
+In Stremio Discover, under **nCore – Movies** you get:
+
+- **Utoljára feltöltött** – Latest uploads (from Trakt list, updated every 3 h).
+- **Legnagyobb seed (összes)** – All top-seeded HD-HUN movies from one JSON file (no extra Trakt list).
+- **Legnagyobb seed – Comedy / Action / War / Drama / …** – Same list filtered by genre.
+
+The big list is built **weekly** (Sunday 03:00) so nCore is not hit too often. A script fetches HD-HUN movies from nCore (aiming for 4000), matches to Trakt/TMDB (with genres), and writes `data/most_seeded_movies.json`. The addon reads that file and serves "Top Seed – Összes" and "Top Seed – {genre}" from it.
+
+- **Script:** `python scripts/build_most_seeded_movies_catalog.py` (run once manually or let the 3-day cron do it).
+- **Output:** `data/most_seeded_movies.json` (gitignored). Needs `NCORE_USER`, `NCORE_PASS`, Trakt and TMDB keys in config.
+- **Note:** ncoreparser may return one batch per run (~25–50). For 1000+ items you may need pagination support in the library or run the script with different strategies when available.
 
 ## 📋 Prerequisites
 
