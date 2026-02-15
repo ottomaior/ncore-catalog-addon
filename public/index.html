@@ -178,27 +178,102 @@
         }
         .catalog-config summary {
             cursor: pointer;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             color: var(--accent-light);
+            margin-bottom: 0.75rem;
+        }
+        .catalog-presets {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+        .catalog-presets .btn {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.8rem;
+        }
+        .catalog-count {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+        .catalog-count strong { color: var(--text); }
+        .catalog-group {
+            margin-bottom: 1.25rem;
+        }
+        .catalog-group:last-child { margin-bottom: 0; }
+        .group-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.5rem;
             margin-bottom: 0.5rem;
         }
-        .catalog-config .checkboxes {
+        .group-label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+        .group-actions {
+            font-size: 0.75rem;
+        }
+        .group-actions button {
+            background: none;
+            border: none;
+            color: var(--accent-light);
+            cursor: pointer;
+            padding: 0.15rem 0.35rem;
+            font-family: inherit;
+        }
+        .group-actions button:hover { text-decoration: underline; }
+        .group-actions span { color: var(--text-muted); margin: 0 0.25rem; }
+        .catalog-group .group-checkboxes {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.35rem 1rem;
-            font-size: 0.8rem;
+            grid-template-columns: 1fr;
+            gap: 0.4rem;
+            font-size: 0.85rem;
             color: var(--text-muted);
-            max-height: 12rem;
-            overflow-y: auto;
         }
         .catalog-config label {
             display: flex;
             align-items: center;
-            gap: 0.4rem;
+            gap: 0.5rem;
+            cursor: grab;
+            padding: 0.25rem 0.5rem;
+            min-height: 1.75rem;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        .catalog-config label:hover { 
+            color: var(--text); 
+            background-color: rgba(255,255,255,0.03);
+        }
+        .catalog-config label.dragging {
+            opacity: 0.5;
+            cursor: grabbing;
+        }
+        .catalog-config label.drag-over {
+            background-color: rgba(139, 92, 246, 0.2);
+            border-top: 2px solid var(--accent);
+        }
+        .catalog-config input[type="checkbox"] { 
+            accent-color: var(--accent); 
+            flex-shrink: 0; 
             cursor: pointer;
         }
-        .catalog-config label:hover { color: var(--text); }
-        .catalog-config input[type="checkbox"] { accent-color: var(--accent); }
+        .drag-handle {
+            color: var(--text-muted);
+            font-size: 1rem;
+            cursor: grab;
+            user-select: none;
+            margin-right: 0.25rem;
+        }
+        .drag-handle:active { cursor: grabbing; }
+        .catalog-name {
+            flex: 1;
+            user-select: none;
+        }
         
         footer {
             text-align: center;
@@ -230,9 +305,16 @@
         <div class="addon-card">
             <h2>Katalógus <span class="tag">FILMEK + SOROZATOK</span></h2>
             <p class="desc">Magyar nyelvű filmek és sorozatok katalógusa. Legfrissebb feltöltések Trakt listából, magyar címekkel és poszterekkel.</p>
-            <details class="catalog-config">
+            <details class="catalog-config" open>
                 <summary>Katalógusok kiválasztása (telepítés előtt)</summary>
-                <div class="checkboxes" id="catalog-checkboxes">Betöltés…</div>
+                <div class="catalog-presets">
+                    <button type="button" class="btn btn-secondary" onclick="setPreset('all')">Mind</button>
+                    <button type="button" class="btn btn-secondary" onclick="setPreset('none')">Egyik sem</button>
+                    <button type="button" class="btn btn-secondary" onclick="setPreset('latest')">Csak legfrissebb</button>
+                </div>
+                <p class="catalog-count" id="catalog-count">Betöltés…</p>
+                <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0.5rem 0;">💡 Tipp: Húzd át a katalógusokat (⋮⋮) a kívánt sorrendbe!</p>
+                <div id="catalog-checkboxes">Betöltés…</div>
             </details>
             <div class="btn-row">
                 <a class="btn btn-primary" href="#" data-stremio="catalog" onclick="installAddon(event, 'catalog')">Telepítés Stremioval</a>
@@ -284,33 +366,187 @@
             trailers: `${baseUrl}/trailers/manifest.json`
         };
         let catalogOptions = [];
-        
-        function getCatalogInstallUrl() {
-            const enabled = catalogOptions.filter(o => document.getElementById('cat-' + o.id)?.checked).map(o => o.id);
-            if (enabled.length === 0 || enabled.length === catalogOptions.length)
-                return baseUrl + '/manifest.json';
-            return baseUrl + '/manifest.json?catalogs=' + encodeURIComponent(enabled.join(','));
+        const CATALOG_GROUPS = [
+            { key: 'top', label: 'Legnagyobb seed – Filmek', ids: ['ncore-movies-top-seeded-all', 'ncore-movies-top-seeded-magyar-filmek'] },
+            { key: 'seriesTop', label: 'Legnagyobb seed – Sorozatok', ids: ['ncore-series-top-seeded-all', 'ncore-series-top-seeded-magyar-sorozatok'] },
+            { key: 'latest', label: 'Legfrissebb', ids: ['ncore-hd-movies', 'ncore-hd-series'] }
+        ];
+
+        function groupCatalogs(opts) {
+            return CATALOG_GROUPS.map(g => ({
+                ...g,
+                catalogs: opts.filter(c => g.ids.includes(c.id))
+            })).filter(g => g.catalogs.length > 0);
         }
-        
+
+        function getEnabledIds() {
+            return catalogOptions.filter(o => document.getElementById('cat-' + o.id)?.checked).map(o => o.id);
+        }
+
+        function getCatalogInstallUrl() {
+            const enabled = getEnabledIds();
+            const orderedIds = catalogOptions.map(c => c.id);
+            
+            // If all catalogs enabled and order matches original, use simple URL
+            if (enabled.length === catalogOptions.length) {
+                const originalOrder = catalogOptions.map(c => c.id).join(',');
+                const currentOrder = orderedIds.join(',');
+                if (originalOrder === currentOrder) {
+                    return baseUrl + '/manifest.json';
+                }
+            }
+            
+            // Otherwise include selected catalogs in current order
+            const orderedEnabled = orderedIds.filter(id => enabled.includes(id));
+            if (orderedEnabled.length === 0) return baseUrl + '/manifest.json';
+            return baseUrl + '/manifest.json?catalogs=' + encodeURIComponent(orderedEnabled.join(','));
+        }
+
+        function updateCount() {
+            const enabled = getEnabledIds().length;
+            const total = catalogOptions.length;
+            const el = document.getElementById('catalog-count');
+            if (total === 0) el.textContent = '';
+            else if (enabled === total) el.innerHTML = '<strong>Mind a ' + total + ' katalógus</strong> kiválasztva.';
+            else el.innerHTML = '<strong>' + enabled + '</strong> katalógus kiválasztva a ' + total + '-ból.';
+        }
+
         function updateCatalogUrl() {
             document.getElementById('catalog-url').textContent = getCatalogInstallUrl();
+            updateCount();
         }
-        
+
+        function setPreset(preset) {
+            const ids = catalogOptions.map(c => c.id);
+            const latestIds = ['ncore-hd-movies', 'ncore-hd-series'];
+            let toCheck = [];
+            if (preset === 'all') toCheck = ids;
+            else if (preset === 'none') toCheck = [];
+            else if (preset === 'latest') toCheck = latestIds;
+            catalogOptions.forEach(c => {
+                const cb = document.getElementById('cat-' + c.id);
+                if (cb) cb.checked = toCheck.includes(c.id);
+            });
+            updateCatalogUrl();
+        }
+
+        function setGroup(groupKey, checked) {
+            const group = CATALOG_GROUPS.find(g => g.key === groupKey);
+            if (!group) return;
+            group.ids.forEach(id => {
+                const cb = document.getElementById('cat-' + id);
+                if (cb) cb.checked = checked;
+            });
+            updateCatalogUrl();
+        }
+
+        let draggedElement = null;
+
+        function initDragAndDrop() {
+            const labels = document.querySelectorAll('.catalog-config label[draggable="true"]');
+            
+            labels.forEach(label => {
+                label.addEventListener('dragstart', (e) => {
+                    draggedElement = label;
+                    label.classList.add('dragging');
+                    e.dataTransfer.effectAllowed = 'move';
+                    e.dataTransfer.setData('text/html', label.innerHTML);
+                });
+
+                label.addEventListener('dragend', (e) => {
+                    label.classList.remove('dragging');
+                    document.querySelectorAll('.catalog-config label').forEach(l => {
+                        l.classList.remove('drag-over');
+                    });
+                    draggedElement = null;
+                });
+
+                label.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    e.dataTransfer.dropEffect = 'move';
+                    
+                    if (label !== draggedElement) {
+                        label.classList.add('drag-over');
+                    }
+                    return false;
+                });
+
+                label.addEventListener('dragleave', (e) => {
+                    label.classList.remove('drag-over');
+                });
+
+                label.addEventListener('drop', (e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    
+                    if (draggedElement && draggedElement !== label) {
+                        // Reorder in DOM
+                        const parent = label.parentNode;
+                        const draggedId = draggedElement.dataset.catalogId;
+                        const targetId = label.dataset.catalogId;
+                        
+                        // Update catalogOptions array order
+                        const draggedIndex = catalogOptions.findIndex(c => c.id === draggedId);
+                        const targetIndex = catalogOptions.findIndex(c => c.id === targetId);
+                        
+                        if (draggedIndex !== -1 && targetIndex !== -1) {
+                            const [removed] = catalogOptions.splice(draggedIndex, 1);
+                            catalogOptions.splice(targetIndex, 0, removed);
+                        }
+                        
+                        // Move element in DOM
+                        parent.insertBefore(draggedElement, label);
+                        
+                        updateCatalogUrl();
+                    }
+                    
+                    label.classList.remove('drag-over');
+                    return false;
+                });
+            });
+        }
+
         fetch('/api/catalog-options')
             .then(r => r.json())
             .then(opts => {
                 catalogOptions = opts;
+                const groups = groupCatalogs(opts);
                 const box = document.getElementById('catalog-checkboxes');
-                box.innerHTML = opts.map(c => 
-                    '<label><input type="checkbox" id="cat-' + c.id + '" checked> ' + (c.name || c.id) + '</label>'
-                ).join('');
-                opts.forEach(c => {
-                    document.getElementById('cat-' + c.id).addEventListener('change', updateCatalogUrl);
+                box.innerHTML = groups.map(g => {
+                    const checkboxes = g.catalogs.map(c =>
+                        '<label draggable="true" data-catalog-id="' + c.id + '">' +
+                        '<span class="drag-handle">⋮⋮</span>' +
+                        '<input type="checkbox" id="cat-' + c.id + '" checked> ' +
+                        '<span class="catalog-name">' + (c.name || c.id) + '</span>' +
+                        '</label>'
+                    ).join('');
+                    return '<div class="catalog-group">' +
+                        '<div class="group-header">' +
+                        '<span class="group-label">' + g.label + '</span>' +
+                        '<span class="group-actions">' +
+                        '<button type="button" onclick="setGroup(\'' + g.key + '\', true)">Összes</button><span>·</span>' +
+                        '<button type="button" onclick="setGroup(\'' + g.key + '\', false)">Egyik sem</button>' +
+                        '</span></div>' +
+                        '<div class="group-checkboxes">' + checkboxes + '</div></div>';
+                }).join('');
+                
+                // Add event listeners for checkboxes
+                catalogOptions.forEach(c => {
+                    const el = document.getElementById('cat-' + c.id);
+                    if (el) {
+                        el.addEventListener('change', updateCatalogUrl);
+                        // Prevent checkbox click from starting drag
+                        el.addEventListener('mousedown', (e) => e.stopPropagation());
+                    }
                 });
+                
+                // Add drag and drop event listeners
+                initDragAndDrop();
                 updateCatalogUrl();
             })
             .catch(() => {
                 document.getElementById('catalog-checkboxes').textContent = 'Nem sikerült betölteni.';
+                document.getElementById('catalog-count').textContent = '';
                 document.getElementById('catalog-url').textContent = baseUrl + '/manifest.json';
             });
         

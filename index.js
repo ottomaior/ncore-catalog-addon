@@ -19,6 +19,10 @@ const EPISODE_TRACKER_PATH = path.join(__dirname, 'scripts', 'series_episodes_se
 const MOST_SEEDED_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'most_seeded_movies.json');
 // Path to most-seeded Hungarian productions (movies made in Hungary)
 const MOST_SEEDED_HUNGARIAN_PRODUCTIONS_PATH = path.join(__dirname, 'data', 'most_seeded_hungarian_productions_movies.json');
+// Path to most-seeded series catalog (Sorozat HD/HU)
+const MOST_SEEDED_SERIES_DATA_PATH = path.join(__dirname, 'data', 'most_seeded_series.json');
+// Path to most-seeded Hungarian productions (series made in Hungary)
+const MOST_SEEDED_HUNGARIAN_PRODUCTIONS_SERIES_PATH = path.join(__dirname, 'data', 'most_seeded_hungarian_productions_series.json');
 
 // Genres that get their own "Top seeded" catalog (slug -> display label)
 const TOP_SEEDED_GENRE_CATALOGS = [
@@ -144,6 +148,24 @@ const manifest = {
     types: ["movie", "series"],
     catalogs: [
         {
+            id: "ncore-movies-top-seeded-all",
+            type: "movie",
+            name: "nCore – Top Seed – Filmek",
+            extra: [
+                { name: "skip", isRequired: false },
+                { name: "genre", isRequired: false, options: ["Comedy", "Action", "War", "Drama", "Thriller", "Horror", "Romance", "Science Fiction", "Animation", "Crime", "Documentary", "Adventure", "Fantasy", "Mystery"] }
+            ]
+        },
+        {
+            id: "ncore-series-top-seeded-all",
+            type: "series",
+            name: "nCore – Top Seed – Sorozatok",
+            extra: [
+                { name: "skip", isRequired: false },
+                { name: "genre", isRequired: false, options: ["Comedy", "Action", "War", "Drama", "Thriller", "Horror", "Romance", "Science Fiction", "Animation", "Crime", "Documentary", "Adventure", "Fantasy", "Mystery"] }
+            ]
+        },
+        {
             id: "ncore-hd-movies",
             type: "movie",
             name: "nCore – Utoljára feltöltött (filmek)",
@@ -166,23 +188,17 @@ const manifest = {
             ]
         },
         {
-            id: "ncore-movies-top-seeded-all",
-            type: "movie",
-            name: "nCore – Top Seed – Összes",
-            extra: [{ name: "skip", isRequired: false }]
-        },
-        {
             id: "ncore-movies-top-seeded-magyar-filmek",
             type: "movie",
             name: "nCore – Top Seed – Magyar filmek",
             extra: [{ name: "skip", isRequired: false }]
         },
-        ...TOP_SEEDED_GENRE_CATALOGS.map(slug => ({
-            id: `ncore-movies-top-seeded-${slug}`,
-            type: "movie",
-            name: `nCore – Top Seed – ${topSeedGenreLabel(slug)}`,
+        {
+            id: "ncore-series-top-seeded-magyar-sorozatok",
+            type: "series",
+            name: "nCore – Top Seed – Magyar sorozatok",
             extra: [{ name: "skip", isRequired: false }]
-        }))
+        }
     ],
     idPrefixes: ['tt']
 };
@@ -199,6 +215,10 @@ let topSeededByGenreList = [];
 let topSeededByGenreLoadedAt = null;
 let topSeededHungarianProductionsList = [];
 let topSeededHungarianProductionsLoadedAt = null;
+let topSeededSeriesList = [];
+let topSeededSeriesLoadedAt = null;
+let topSeededHungarianProductionsSeriesList = [];
+let topSeededHungarianProductionsSeriesLoadedAt = null;
 const CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 const TOP_SEEDED_CATALOG_TTL = 3 * 24 * 60 * 60 * 1000; // 3 days
 
@@ -260,6 +280,66 @@ function getTopSeededHungarianProductionsList() {
         }
     }
     return topSeededHungarianProductionsList;
+}
+
+function loadTopSeededSeriesFromFile() {
+    try {
+        if (!fs.existsSync(MOST_SEEDED_SERIES_DATA_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(MOST_SEEDED_SERIES_DATA_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a most_seeded_series.json betöltésekor:', err.message);
+        return topSeededSeriesList;
+    }
+}
+
+function getTopSeededSeriesList() {
+    if (!topSeededSeriesLoadedAt || (Date.now() - topSeededSeriesLoadedAt > TOP_SEEDED_CATALOG_TTL)) {
+        topSeededSeriesList = loadTopSeededSeriesFromFile();
+        topSeededSeriesLoadedAt = Date.now();
+        if (topSeededSeriesList.length) {
+            console.log(`✓ ${topSeededSeriesList.length} legnagyobb seed sorozat betöltve`);
+        }
+    }
+    return topSeededSeriesList;
+}
+
+function filterTopSeededSeriesByGenre(genreSlug) {
+    const list = getTopSeededSeriesList();
+    if (!genreSlug) return list;
+    const match = genreSlug.toLowerCase().replace(/-/g, ' ');
+    return list.filter(meta => {
+        const genres = meta.genres || [];
+        return genres.some(g => String(g).toLowerCase().replace(/\s+/g, ' ') === match);
+    });
+}
+
+function loadTopSeededHungarianProductionsSeriesFromFile() {
+    try {
+        if (!fs.existsSync(MOST_SEEDED_HUNGARIAN_PRODUCTIONS_SERIES_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(MOST_SEEDED_HUNGARIAN_PRODUCTIONS_SERIES_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a most_seeded_hungarian_productions_series.json betöltésekor:', err.message);
+        return topSeededHungarianProductionsSeriesList;
+    }
+}
+
+function getTopSeededHungarianProductionsSeriesList() {
+    if (!topSeededHungarianProductionsSeriesLoadedAt || (Date.now() - topSeededHungarianProductionsSeriesLoadedAt > TOP_SEEDED_CATALOG_TTL)) {
+        topSeededHungarianProductionsSeriesList = loadTopSeededHungarianProductionsSeriesFromFile();
+        topSeededHungarianProductionsSeriesLoadedAt = Date.now();
+        if (topSeededHungarianProductionsSeriesList.length) {
+            console.log(`✓ ${topSeededHungarianProductionsSeriesList.length} magyar sorozat (Magyarországon készült) betöltve`);
+        }
+    }
+    return topSeededHungarianProductionsSeriesList;
 }
 
 // Fetch movies from Trakt list
@@ -453,9 +533,31 @@ builder.defineCatalogHandler(async (args) => {
         return Promise.resolve({ metas });
     }
 
-    // Top seeded (all) from JSON – no extra Trakt list
+    // Top seeded series from JSON – filter by genre if extra provided
+    if (args.type === 'series' && args.id === 'ncore-series-top-seeded-all') {
+        let list = getTopSeededSeriesList();
+        if (args.extra?.genre) {
+            const genreSlug = args.extra.genre.toLowerCase().replace(/\s+/g, '-');
+            list = filterTopSeededSeriesByGenre(genreSlug);
+        }
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+
+    // Top seeded Hungarian productions (series made in Hungary)
+    if (args.type === 'series' && args.id === 'ncore-series-top-seeded-magyar-sorozatok') {
+        const list = getTopSeededHungarianProductionsSeriesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+
+    // Top seeded movies from JSON – filter by genre if extra provided
     if (args.type === 'movie' && args.id === 'ncore-movies-top-seeded-all') {
-        const list = getTopSeededMoviesList();
+        let list = getTopSeededMoviesList();
+        if (args.extra?.genre) {
+            const genreSlug = args.extra.genre.toLowerCase().replace(/\s+/g, '-');
+            list = filterTopSeededByGenre(genreSlug);
+        }
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: list.slice(skip, skip + 100) });
     }
@@ -465,16 +567,6 @@ builder.defineCatalogHandler(async (args) => {
         const list = getTopSeededHungarianProductionsList();
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: list.slice(skip, skip + 100) });
-    }
-
-    // Top seeded by genre (e.g. ncore-movies-top-seeded-comedy)
-    if (args.type === 'movie' && args.id.startsWith('ncore-movies-top-seeded-')) {
-        const slug = args.id.replace('ncore-movies-top-seeded-', '');
-        if (TOP_SEEDED_GENRE_CATALOGS.includes(slug)) {
-            const list = filterTopSeededByGenre(slug);
-            const skip = parseInt(args.extra?.skip) || 0;
-            return Promise.resolve({ metas: list.slice(skip, skip + 100) });
-        }
     }
 
     return Promise.resolve({ metas: [] });
@@ -494,7 +586,9 @@ builder.defineMetaHandler(async (args) => {
     }
 
     if (args.type === 'series') {
-        const series = seriesCache.find(s => s.id === args.id);
+        const series = seriesCache.find(s => s.id === args.id)
+            || getTopSeededSeriesList().find(s => s.id === args.id)
+            || getTopSeededHungarianProductionsSeriesList().find(s => s.id === args.id);
         if (series) {
             return Promise.resolve({ meta: series });
         }
@@ -519,7 +613,9 @@ builder.getStats = () => ({
     movieCount: movieCache.length,
     seriesCount: seriesCache.length,
     topSeededByGenreCount: getTopSeededMoviesList().length,
-    topSeededHungarianProductionsCount: getTopSeededHungarianProductionsList().length
+    topSeededHungarianProductionsCount: getTopSeededHungarianProductionsList().length,
+    topSeededSeriesCount: getTopSeededSeriesList().length,
+    topSeededHungarianProductionsSeriesCount: getTopSeededHungarianProductionsSeriesList().length
 });
 /**
  * Return manifest with only the given catalog ids (for configure-before-install).
@@ -529,8 +625,13 @@ function getManifestForCatalogs(enabledIds) {
     if (!enabledIds || !Array.isArray(enabledIds) || enabledIds.length === 0) {
         return manifest;
     }
-    const set = new Set(enabledIds.map(id => String(id).trim()).filter(Boolean));
-    const catalogs = manifest.catalogs.filter(c => set.has(c.id));
+    // Preserve the order from enabledIds
+    const catalogMap = new Map(manifest.catalogs.map(c => [c.id, c]));
+    const catalogs = enabledIds
+        .map(id => String(id).trim())
+        .filter(Boolean)
+        .map(id => catalogMap.get(id))
+        .filter(Boolean);
     return { ...manifest, catalogs };
 }
 

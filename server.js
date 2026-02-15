@@ -40,13 +40,19 @@ if (isUnix) {
     cron.schedule('0 */3 * * *', () => { console.log('[Cron] Running movie sync...'); runScript('sync_rss_to_trakt.py', 'Movies'); });
     cron.schedule('30 */3 * * *', () => { console.log('[Cron] Running series sync...'); runScript('sync_series_rss_to_trakt.py', 'Series'); });
     cron.schedule('0 3 * * 0', () => {
-        console.log('[Cron] Building top-seeded-by-genre catalog...');
-        runScript('build_most_seeded_movies_catalog.py', 'TopSeededCatalog', () => {
-            console.log('[Cron] Filtering Hungarian productions...');
-            runScript('filter_hungarian_productions.py', 'HungarianProductions');
+        console.log('[Cron] Building top-seeded movies catalog...');
+        runScript('build_most_seeded_movies_catalog.py', 'TopSeededMovies', () => {
+            console.log('[Cron] Filtering Hungarian productions (movies)...');
+            runScript('filter_hungarian_productions.py', 'HungarianProductionsMovies', () => {
+                console.log('[Cron] Building top-seeded series catalog...');
+                runScript('build_most_seeded_series_catalog.py', 'TopSeededSeries', () => {
+                    console.log('[Cron] Filtering Hungarian productions (series)...');
+                    runScript('filter_hungarian_productions_series.py', 'HungarianProductionsSeries');
+                });
+            });
         });
     });
-    console.log('[Cron] Scheduler – movies/series: every 3h; top-seeded + Magyar filmek: weekly Sunday 03:00');
+    console.log('[Cron] Scheduler – movies/series sync: every 3h; top-seeded (movies + series + Magyar): weekly Sunday 03:00');
 }
 
 // Get routers from all addons
