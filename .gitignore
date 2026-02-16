@@ -9,7 +9,7 @@ yarn-error.log*
 config/config.env
 *.env
 !config.example.env
-# config.env holds NCORE_USER, NCORE_PASS, Trakt tokens – keep it local only
+# config.env holds NCORE_USER, NCORE_PASS, TMDB_API_KEY – keep it local only
 
 # Python
 __pycache__/

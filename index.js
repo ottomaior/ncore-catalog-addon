@@ -4,11 +4,6 @@ require('dotenv').config({ path: './config/config.env' });
 const fs = require('fs');
 const path = require('path');
 
-// Trakt API configuration
-const TRAKT_CLIENT_ID = process.env.TRAKT_CLIENT_ID;
-const TRAKT_USERNAME = process.env.TRAKT_USERNAME;
-const MOVIE_LIST_SLUG = process.env.TRAKT_LIST_SLUG;
-
 // TMDB API configuration
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
@@ -23,6 +18,22 @@ const MOST_SEEDED_HUNGARIAN_PRODUCTIONS_PATH = path.join(__dirname, 'data', 'mos
 const MOST_SEEDED_SERIES_DATA_PATH = path.join(__dirname, 'data', 'most_seeded_series.json');
 // Path to most-seeded Hungarian productions (series made in Hungary)
 const MOST_SEEDED_HUNGARIAN_PRODUCTIONS_SERIES_PATH = path.join(__dirname, 'data', 'most_seeded_hungarian_productions_series.json');
+// Path to Netflix movies catalog
+const NETFLIX_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'netflix_movies.json');
+// Path to Netflix series catalog
+const NETFLIX_SERIES_DATA_PATH = path.join(__dirname, 'data', 'netflix_series.json');
+// Path to HBO Max movies catalog
+const HBOMAX_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'hbomax_movies.json');
+// Path to HBO Max series catalog
+const HBOMAX_SERIES_DATA_PATH = path.join(__dirname, 'data', 'hbomax_series.json');
+// Path to Prime Video movies catalog
+const PRIMEVIDEO_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'primevideo_movies.json');
+// Path to Prime Video series catalog
+const PRIMEVIDEO_SERIES_DATA_PATH = path.join(__dirname, 'data', 'primevideo_series.json');
+// Path to latest HD movies catalog
+const HD_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'hd_movies.json');
+// Path to latest HD series catalog
+const HD_SERIES_DATA_PATH = path.join(__dirname, 'data', 'hd_series.json');
 
 // Genres that get their own "Top seeded" catalog (slug -> display label)
 const TOP_SEEDED_GENRE_CATALOGS = [
@@ -63,16 +74,6 @@ function loadEpisodeTracker() {
     return {};
 }
 
-// Get episode info for a Trakt ID
-function getEpisodeInfo(traktId) {
-    const tracker = loadEpisodeTracker();
-    const info = tracker[traktId.toString()];
-
-    if (info && info.latest_season && info.latest_episode) {
-        return `S${String(info.latest_season).padStart(2, '0')}E${String(info.latest_episode).padStart(2, '0')}`;
-    }
-    return null;
-}
 
 // Fetch Hungarian title and poster from TMDB
 async function getHungarianMetadata(imdbId, type = 'movie') {
@@ -150,7 +151,7 @@ const manifest = {
         {
             id: "ncore-movies-top-seeded-all",
             type: "movie",
-            name: "nCore – Top Seed – Filmek",
+            name: "🏆 Filmek",
             extra: [
                 { name: "skip", isRequired: false },
                 { name: "genre", isRequired: false, options: ["Comedy", "Action", "War", "Drama", "Thriller", "Horror", "Romance", "Science Fiction", "Animation", "Crime", "Documentary", "Adventure", "Fantasy", "Mystery"] }
@@ -159,7 +160,7 @@ const manifest = {
         {
             id: "ncore-series-top-seeded-all",
             type: "series",
-            name: "nCore – Top Seed – Sorozatok",
+            name: "🏆 Sorozatok",
             extra: [
                 { name: "skip", isRequired: false },
                 { name: "genre", isRequired: false, options: ["Comedy", "Action", "War", "Drama", "Thriller", "Horror", "Romance", "Science Fiction", "Animation", "Crime", "Documentary", "Adventure", "Fantasy", "Mystery"] }
@@ -168,7 +169,7 @@ const manifest = {
         {
             id: "ncore-hd-movies",
             type: "movie",
-            name: "nCore – Utoljára feltöltött (filmek)",
+            name: "⏰ Filmek",
             extra: [
                 {
                     name: "skip",
@@ -179,7 +180,7 @@ const manifest = {
         {
             id: "ncore-hd-series",
             type: "series",
-            name: "nCore – Utoljára feltöltött (sorozatok)",
+            name: "⏰ Sorozatok",
             extra: [
                 {
                     name: "skip",
@@ -188,15 +189,51 @@ const manifest = {
             ]
         },
         {
+            id: "ncore-netflix-movies",
+            type: "movie",
+            name: "⏰ Netflix filmek",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        {
+            id: "ncore-netflix-series",
+            type: "series",
+            name: "⏰ Netflix sorozatok",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        {
+            id: "ncore-hbomax-movies",
+            type: "movie",
+            name: "⏰ HBO Max filmek",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        {
+            id: "ncore-hbomax-series",
+            type: "series",
+            name: "⏰ HBO Max sorozatok",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        {
+            id: "ncore-primevideo-movies",
+            type: "movie",
+            name: "⏰ Prime Video filmek",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        {
+            id: "ncore-primevideo-series",
+            type: "series",
+            name: "⏰ Prime Video sorozatok",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        {
             id: "ncore-movies-top-seeded-magyar-filmek",
             type: "movie",
-            name: "nCore – Top Seed – Magyar filmek",
+            name: "🏆 Magyar filmek",
             extra: [{ name: "skip", isRequired: false }]
         },
         {
             id: "ncore-series-top-seeded-magyar-sorozatok",
             type: "series",
-            name: "nCore – Top Seed – Magyar sorozatok",
+            name: "🏆 Magyar sorozatok",
             extra: [{ name: "skip", isRequired: false }]
         }
     ],
@@ -206,10 +243,10 @@ const manifest = {
 const builder = new addonBuilder(manifest);
 
 // Cache for catalog data
-let movieCache = [];
-let seriesCache = [];
-let lastMovieUpdate = null;
-let lastSeriesUpdate = null;
+let hdMoviesList = [];
+let hdMoviesLoadedAt = null;
+let hdSeriesList = [];
+let hdSeriesLoadedAt = null;
 // Top-seeded-by-genre catalog: loaded from data/most_seeded_movies.json (built every 3 days)
 let topSeededByGenreList = [];
 let topSeededByGenreLoadedAt = null;
@@ -219,8 +256,73 @@ let topSeededSeriesList = [];
 let topSeededSeriesLoadedAt = null;
 let topSeededHungarianProductionsSeriesList = [];
 let topSeededHungarianProductionsSeriesLoadedAt = null;
+let netflixMoviesList = [];
+let netflixMoviesLoadedAt = null;
+let netflixSeriesList = [];
+let netflixSeriesLoadedAt = null;
+let hbomaxMoviesList = [];
+let hbomaxMoviesLoadedAt = null;
+let hbomaxSeriesList = [];
+let hbomaxSeriesLoadedAt = null;
+let primevideoMoviesList = [];
+let primevideoMoviesLoadedAt = null;
+let primevideoSeriesList = [];
+let primevideoSeriesLoadedAt = null;
 const CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 const TOP_SEEDED_CATALOG_TTL = 3 * 24 * 60 * 60 * 1000; // 3 days
+const NETFLIX_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
+const HBOMAX_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
+const PRIMEVIDEO_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
+
+function loadHDMoviesFromFile() {
+    try {
+        if (!fs.existsSync(HD_MOVIES_DATA_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(HD_MOVIES_DATA_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a hd_movies.json betöltésekor:', err.message);
+        return hdMoviesList;
+    }
+}
+
+function getHDMoviesList() {
+    if (!hdMoviesLoadedAt || (Date.now() - hdMoviesLoadedAt > CACHE_TTL)) {
+        hdMoviesList = loadHDMoviesFromFile();
+        hdMoviesLoadedAt = Date.now();
+        if (hdMoviesList.length) {
+            console.log(`✓ ${hdMoviesList.length} legfrissebb HD film betöltve`);
+        }
+    }
+    return hdMoviesList;
+}
+
+function loadHDSeriesFromFile() {
+    try {
+        if (!fs.existsSync(HD_SERIES_DATA_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(HD_SERIES_DATA_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a hd_series.json betöltésekor:', err.message);
+        return hdSeriesList;
+    }
+}
+
+function getHDSeriesList() {
+    if (!hdSeriesLoadedAt || (Date.now() - hdSeriesLoadedAt > CACHE_TTL)) {
+        hdSeriesList = loadHDSeriesFromFile();
+        hdSeriesLoadedAt = Date.now();
+        if (hdSeriesList.length) {
+            console.log(`✓ ${hdSeriesList.length} legfrissebb HD sorozat betöltve`);
+        }
+    }
+    return hdSeriesList;
+}
 
 function loadTopSeededMoviesFromFile() {
     try {
@@ -342,195 +444,172 @@ function getTopSeededHungarianProductionsSeriesList() {
     return topSeededHungarianProductionsSeriesList;
 }
 
-// Fetch movies from Trakt list
-async function fetchTraktList() {
+function loadNetflixMoviesFromFile() {
     try {
-        console.log('Filmek betöltése a Trakt listáról...');
-        const response = await axios.get(
-            `https://api.trakt.tv/users/${TRAKT_USERNAME}/lists/${MOVIE_LIST_SLUG}/items/movies`,
-            {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'trakt-api-version': '2',
-                    'trakt-api-key': TRAKT_CLIENT_ID
-                },
-                params: {
-                    extended: 'full'
-                }
-            }
-        );
-
-        // Process movies with Hungarian titles and posters
-        const movies = await Promise.all(
-            response.data
-                .filter(item => item.movie.ids.imdb)
-                .map(async item => {
-                    const movie = item.movie;
-                    let imdbId = movie.ids.imdb.toString();
-
-                    // Get Hungarian metadata (title + poster) from TMDB
-                    const metadata = await getHungarianMetadata(imdbId, 'movie');
-
-                    const displayTitle = metadata?.title || movie.title;
-                    const displayPoster = metadata?.poster || `https://images.metahub.space/poster/small/tt${imdbId.replace(/^tt/, '')}/img`;
-
-                    imdbId = imdbId.replace(/^tt/, '');
-
-                    return {
-                        id: `tt${imdbId}`,
-                        type: 'movie',
-                        name: displayTitle,
-                        poster: displayPoster,  // Use Hungarian poster
-                        posterShape: 'poster',
-                        year: movie.year,
-                        description: movie.overview || 'Magyar HD feltöltés az nCore trackerről',
-                        imdbRating: movie.rating ? movie.rating.toFixed(1) : null,
-                        releaseInfo: movie.year ? movie.year.toString() : null,
-                        genres: movie.genres || []
-                    };
-                })
-        );
-
-        movieCache = movies;
-        lastMovieUpdate = Date.now();
-        console.log(`✓ ${movies.length} film gyorsítótárazva (magyar címekkel és poszterekkel)`);
-
-        const totalItems = response.data.length;
-        const filtered = totalItems - movies.length;
-        if (filtered > 0) {
-            console.log(`⚠ ${filtered} film kiszűrve (nincs IMDB ID)`);
+        if (!fs.existsSync(NETFLIX_MOVIES_DATA_PATH)) {
+            return [];
         }
-
-        return movies;
-
-    } catch (error) {
-        console.error('Hiba a Trakt filmlista lekérésekor:', error.message);
-        if (error.response) {
-            console.error('Válasz státusz:', error.response.status);
-            console.error('Válasz adat:', error.response.data);
-        }
-        return movieCache;
+        const raw = fs.readFileSync(NETFLIX_MOVIES_DATA_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a netflix_movies.json betöltésekor:', err.message);
+        return netflixMoviesList;
     }
 }
 
-// Fetch series from Trakt list
-async function fetchTraktSeriesList() {
-    try {
-        console.log('Sorozatok betöltése a Trakt listáról...');
-        const SERIES_LIST_SLUG = process.env.TRAKT_SERIES_LIST_SLUG || 'legujabb-sorozatok-ncore';
-
-        const response = await axios.get(
-            `https://api.trakt.tv/users/${TRAKT_USERNAME}/lists/${SERIES_LIST_SLUG}/items/shows`,
-            {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'trakt-api-version': '2',
-                    'trakt-api-key': TRAKT_CLIENT_ID
-                },
-                params: {
-                    extended: 'full'
-                }
-            }
-        );
-
-        // Process series with Hungarian titles and posters
-        const series = await Promise.all(
-            response.data
-                .filter(item => item.show.ids.imdb)
-                .map(async item => {
-                    const show = item.show;
-                    let imdbId = show.ids.imdb.toString();
-
-                    // Get Hungarian metadata (title + poster) from TMDB
-                    const metadata = await getHungarianMetadata(imdbId, 'series');
-
-                    const baseTitle = metadata?.title || show.title;
-                    const displayPoster = metadata?.poster || `https://images.metahub.space/poster/small/tt${imdbId.replace(/^tt/, '')}/img`;
-
-                    imdbId = imdbId.replace(/^tt/, '');
-
-                    // Get episode info from tracker
-                    const traktId = show.ids.trakt;
-                    const episodeInfo = getEpisodeInfo(traktId);
-
-                    // Keep episode info in title for catalog browsing
-                    const displayName = episodeInfo ? `${baseTitle} (${episodeInfo})` : baseTitle;
-
-                    // Also add to description and releaseInfo
-                    const baseDescription = show.overview || 'Magyar HD sorozat az nCore trackerről';
-                    const displayDescription = episodeInfo
-                        ? `🇭🇺 Legújabb magyar epizód: ${episodeInfo}\n\n${baseDescription}`
-                        : baseDescription;
-
-                    const displayReleaseInfo = episodeInfo
-                        ? `${show.year || ''} • Magyar: ${episodeInfo}`.trim()
-                        : (show.year ? show.year.toString() : null);
-
-                    return {
-                        id: `tt${imdbId}`,
-                        type: 'series',
-                        name: displayName,  // Episode info in title for catalog
-                        poster: displayPoster,
-                        posterShape: 'poster',
-                        year: show.year,
-                        description: displayDescription,
-                        imdbRating: show.rating ? show.rating.toFixed(1) : null,
-                        releaseInfo: displayReleaseInfo,
-                        genres: show.genres || []
-                    };
-
-                })
-        );
-
-        const reversedSeries = series.reverse();
-        seriesCache = reversedSeries;
-        lastSeriesUpdate = Date.now();
-        console.log(`✓ ${series.length} sorozat gyorsítótárazva (magyar címekkel és poszterekkel)`);
-
-        const totalItems = response.data.length;
-        const filtered = totalItems - series.length;
-        if (filtered > 0) {
-            console.log(`⚠ ${filtered} sorozat kiszűrve (nincs IMDB ID)`);
+function getNetflixMoviesList() {
+    if (!netflixMoviesLoadedAt || (Date.now() - netflixMoviesLoadedAt > NETFLIX_CATALOG_TTL)) {
+        netflixMoviesList = loadNetflixMoviesFromFile();
+        netflixMoviesLoadedAt = Date.now();
+        if (netflixMoviesList.length) {
+            console.log(`✓ ${netflixMoviesList.length} Netflix film betöltve`);
         }
-
-        return reversedSeries;
-
-    } catch (error) {
-        console.error('Hiba a Trakt sorozatlista lekérésekor:', error.message);
-        if (error.response) {
-            console.error('Válasz státusz:', error.response.status);
-            console.error('Válasz adat:', error.response.data);
-        }
-        return seriesCache;
     }
+    return netflixMoviesList;
+}
+
+function loadNetflixSeriesFromFile() {
+    try {
+        if (!fs.existsSync(NETFLIX_SERIES_DATA_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(NETFLIX_SERIES_DATA_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a netflix_series.json betöltésekor:', err.message);
+        return netflixSeriesList;
+    }
+}
+
+function getNetflixSeriesList() {
+    if (!netflixSeriesLoadedAt || (Date.now() - netflixSeriesLoadedAt > NETFLIX_CATALOG_TTL)) {
+        netflixSeriesList = loadNetflixSeriesFromFile();
+        netflixSeriesLoadedAt = Date.now();
+        if (netflixSeriesList.length) {
+            console.log(`✓ ${netflixSeriesList.length} Netflix sorozat betöltve`);
+        }
+    }
+    return netflixSeriesList;
+}
+
+function loadHBOMaxMoviesFromFile() {
+    try {
+        if (!fs.existsSync(HBOMAX_MOVIES_DATA_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(HBOMAX_MOVIES_DATA_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a hbomax_movies.json betöltésekor:', err.message);
+        return hbomaxMoviesList;
+    }
+}
+
+function getHBOMaxMoviesList() {
+    if (!hbomaxMoviesLoadedAt || (Date.now() - hbomaxMoviesLoadedAt > HBOMAX_CATALOG_TTL)) {
+        hbomaxMoviesList = loadHBOMaxMoviesFromFile();
+        hbomaxMoviesLoadedAt = Date.now();
+        if (hbomaxMoviesList.length) {
+            console.log(`✓ ${hbomaxMoviesList.length} HBO Max film betöltve`);
+        }
+    }
+    return hbomaxMoviesList;
+}
+
+function loadHBOMaxSeriesFromFile() {
+    try {
+        if (!fs.existsSync(HBOMAX_SERIES_DATA_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(HBOMAX_SERIES_DATA_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a hbomax_series.json betöltésekor:', err.message);
+        return hbomaxSeriesList;
+    }
+}
+
+function getHBOMaxSeriesList() {
+    if (!hbomaxSeriesLoadedAt || (Date.now() - hbomaxSeriesLoadedAt > HBOMAX_CATALOG_TTL)) {
+        hbomaxSeriesList = loadHBOMaxSeriesFromFile();
+        hbomaxSeriesLoadedAt = Date.now();
+        if (hbomaxSeriesList.length) {
+            console.log(`✓ ${hbomaxSeriesList.length} HBO Max sorozat betöltve`);
+        }
+    }
+    return hbomaxSeriesList;
+}
+
+function loadPrimeVideoMoviesFromFile() {
+    try {
+        if (!fs.existsSync(PRIMEVIDEO_MOVIES_DATA_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(PRIMEVIDEO_MOVIES_DATA_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a primevideo_movies.json betöltésekor:', err.message);
+        return primevideoMoviesList;
+    }
+}
+
+function getPrimeVideoMoviesList() {
+    if (!primevideoMoviesLoadedAt || (Date.now() - primevideoMoviesLoadedAt > PRIMEVIDEO_CATALOG_TTL)) {
+        primevideoMoviesList = loadPrimeVideoMoviesFromFile();
+        primevideoMoviesLoadedAt = Date.now();
+        if (primevideoMoviesList.length) {
+            console.log(`✓ ${primevideoMoviesList.length} Prime Video film betöltve`);
+        }
+    }
+    return primevideoMoviesList;
+}
+
+function loadPrimeVideoSeriesFromFile() {
+    try {
+        if (!fs.existsSync(PRIMEVIDEO_SERIES_DATA_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(PRIMEVIDEO_SERIES_DATA_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a primevideo_series.json betöltésekor:', err.message);
+        return primevideoSeriesList;
+    }
+}
+
+function getPrimeVideoSeriesList() {
+    if (!primevideoSeriesLoadedAt || (Date.now() - primevideoSeriesLoadedAt > PRIMEVIDEO_CATALOG_TTL)) {
+        primevideoSeriesList = loadPrimeVideoSeriesFromFile();
+        primevideoSeriesLoadedAt = Date.now();
+        if (primevideoSeriesList.length) {
+            console.log(`✓ ${primevideoSeriesList.length} Prime Video sorozat betöltve`);
+        }
+    }
+    return primevideoSeriesList;
 }
 
 // Catalog handler for both movies and series
 builder.defineCatalogHandler(async (args) => {
     console.log(`Katalógus kérés: ${args.type}/${args.id}`);
 
-    // Handle movie catalog
+    // Handle movie catalog - Latest HD movies
     if (args.type === 'movie' && args.id === 'ncore-hd-movies') {
-        if (!lastMovieUpdate || (Date.now() - lastMovieUpdate > CACHE_TTL)) {
-            await fetchTraktList();
-        }
-
+        const list = getHDMoviesList();
         const skip = parseInt(args.extra?.skip) || 0;
-        const metas = movieCache.slice(skip, skip + 100);
-
-        return Promise.resolve({ metas });
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
     }
 
-    // Handle series catalog
+    // Handle series catalog - Latest HD series
     if (args.type === 'series' && args.id === 'ncore-hd-series') {
-        if (!lastSeriesUpdate || (Date.now() - lastSeriesUpdate > CACHE_TTL)) {
-            await fetchTraktSeriesList();
-        }
-
+        const list = getHDSeriesList();
         const skip = parseInt(args.extra?.skip) || 0;
-        const metas = seriesCache.slice(skip, skip + 100);
-
-        return Promise.resolve({ metas });
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
     }
 
     // Top seeded series from JSON – filter by genre if extra provided
@@ -569,6 +648,48 @@ builder.defineCatalogHandler(async (args) => {
         return Promise.resolve({ metas: list.slice(skip, skip + 100) });
     }
 
+    // Netflix movies
+    if (args.type === 'movie' && args.id === 'ncore-netflix-movies') {
+        const list = getNetflixMoviesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+
+    // Netflix series
+    if (args.type === 'series' && args.id === 'ncore-netflix-series') {
+        const list = getNetflixSeriesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+
+    // HBO Max movies
+    if (args.type === 'movie' && args.id === 'ncore-hbomax-movies') {
+        const list = getHBOMaxMoviesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+
+    // HBO Max series
+    if (args.type === 'series' && args.id === 'ncore-hbomax-series') {
+        const list = getHBOMaxSeriesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+
+    // Prime Video movies
+    if (args.type === 'movie' && args.id === 'ncore-primevideo-movies') {
+        const list = getPrimeVideoMoviesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+
+    // Prime Video series
+    if (args.type === 'series' && args.id === 'ncore-primevideo-series') {
+        const list = getPrimeVideoSeriesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+
     return Promise.resolve({ metas: [] });
 });
 
@@ -577,18 +698,20 @@ builder.defineMetaHandler(async (args) => {
     console.log(`Meta kérés: ${args.type}/${args.id}`);
 
     if (args.type === 'movie') {
-        const movie = movieCache.find(m => m.id === args.id)
+        const movie = getHDMoviesList().find(m => m.id === args.id)
             || getTopSeededMoviesList().find(m => m.id === args.id)
-            || getTopSeededHungarianProductionsList().find(m => m.id === args.id);
+            || getTopSeededHungarianProductionsList().find(m => m.id === args.id)
+            || getNetflixMoviesList().find(m => m.id === args.id);
         if (movie) {
             return Promise.resolve({ meta: movie });
         }
     }
 
     if (args.type === 'series') {
-        const series = seriesCache.find(s => s.id === args.id)
+        const series = getHDSeriesList().find(s => s.id === args.id)
             || getTopSeededSeriesList().find(s => s.id === args.id)
-            || getTopSeededHungarianProductionsSeriesList().find(s => s.id === args.id);
+            || getTopSeededHungarianProductionsSeriesList().find(s => s.id === args.id)
+            || getNetflixSeriesList().find(s => s.id === args.id);
         if (series) {
             return Promise.resolve({ meta: series });
         }
@@ -597,25 +720,20 @@ builder.defineMetaHandler(async (args) => {
     return Promise.resolve({ meta: null });
 });
 
-// Cache is filled on first catalog request (see defineCatalogHandler). No startup fetch
-// so the server can listen immediately and avoid 502 on Railway (proxy timeout).
-
-// Auto-refresh every 3 hours
-setInterval(() => {
-    fetchTraktList();
-    fetchTraktSeriesList();
-}, CACHE_TTL);
-
 // Export the builder and stats for health endpoint
 builder.getStats = () => ({
-    lastMovieUpdate: lastMovieUpdate ? new Date(lastMovieUpdate).toISOString() : null,
-    lastSeriesUpdate: lastSeriesUpdate ? new Date(lastSeriesUpdate).toISOString() : null,
-    movieCount: movieCache.length,
-    seriesCount: seriesCache.length,
+    hdMoviesCount: getHDMoviesList().length,
+    hdSeriesCount: getHDSeriesList().length,
     topSeededByGenreCount: getTopSeededMoviesList().length,
     topSeededHungarianProductionsCount: getTopSeededHungarianProductionsList().length,
     topSeededSeriesCount: getTopSeededSeriesList().length,
-    topSeededHungarianProductionsSeriesCount: getTopSeededHungarianProductionsSeriesList().length
+    topSeededHungarianProductionsSeriesCount: getTopSeededHungarianProductionsSeriesList().length,
+    netflixMoviesCount: getNetflixMoviesList().length,
+    netflixSeriesCount: getNetflixSeriesList().length,
+    hbomaxMoviesCount: getHBOMaxMoviesList().length,
+    hbomaxSeriesCount: getHBOMaxSeriesList().length,
+    primevideoMoviesCount: getPrimeVideoMoviesList().length,
+    primevideoSeriesCount: getPrimeVideoSeriesList().length
 });
 /**
  * Return manifest with only the given catalog ids (for configure-before-install).

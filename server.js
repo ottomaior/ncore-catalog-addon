@@ -37,8 +37,13 @@ const runScript = (scriptName, label, onDone) => {
     });
 };
 if (isUnix) {
-    cron.schedule('0 */3 * * *', () => { console.log('[Cron] Running movie sync...'); runScript('sync_rss_to_trakt.py', 'Movies'); });
-    cron.schedule('30 */3 * * *', () => { console.log('[Cron] Running series sync...'); runScript('sync_series_rss_to_trakt.py', 'Series'); });
+    cron.schedule('0 */3 * * *', () => { console.log('[Cron] Building latest movie/series catalogs...'); runScript('build_latest_catalog.py', 'LatestCatalog'); });
+    cron.schedule('0 */6 * * *', () => { 
+        console.log('[Cron] Building streaming provider catalogs...'); 
+        runScript('build_netflix_catalog.py', 'Netflix'); 
+        runScript('build_hbomax_catalog.py', 'HBOMax');
+        runScript('build_primevideo_catalog.py', 'PrimeVideo');
+    });
     cron.schedule('0 3 * * 0', () => {
         console.log('[Cron] Building top-seeded movies catalog...');
         runScript('build_most_seeded_movies_catalog.py', 'TopSeededMovies', () => {
@@ -52,7 +57,7 @@ if (isUnix) {
             });
         });
     });
-    console.log('[Cron] Scheduler – movies/series sync: every 3h; top-seeded (movies + series + Magyar): weekly Sunday 03:00');
+    console.log('[Cron] Scheduler – latest catalogs: every 3h; streaming providers (Netflix+HBO Max+Prime Video): every 6h; top-seeded (movies + series + Magyar): weekly Sunday 03:00');
 }
 
 // Get routers from all addons
@@ -105,9 +110,9 @@ app.get('/manifest.json', (req, res, next) => {
     next();
 });
 
-// Secured cron webhook: POST /cron/sync with Authorization: Bearer <CRON_SECRET>
-// Used by GitHub Actions (or any external scheduler) to trigger RSS→Trakt sync every 3h.
-app.post('/cron/sync', (req, res) => {
+// Secured cron webhook: POST /cron/build with Authorization: Bearer <CRON_SECRET>
+// Used by external schedulers to trigger catalog build scripts.
+app.post('/cron/build', (req, res) => {
     const secret = process.env.CRON_SECRET;
     const auth = req.headers.authorization;
     const token = auth && auth.startsWith('Bearer ') ? auth.slice(7) : '';
@@ -115,10 +120,12 @@ app.post('/cron/sync', (req, res) => {
         res.status(401).json({ ok: false, error: 'Unauthorized' });
         return;
     }
-    res.status(202).json({ ok: true, message: 'Sync started' });
-    console.log('[Cron] Webhook: running movie then series sync');
-    runScript('sync_rss_to_trakt.py', 'Movies');
-    runScript('sync_series_rss_to_trakt.py', 'Series');
+    res.status(202).json({ ok: true, message: 'Catalog build started' });
+    console.log('[Cron] Webhook: building catalogs');
+    runScript('build_latest_catalog.py', 'LatestCatalog');
+    runScript('build_netflix_catalog.py', 'Netflix');
+    runScript('build_hbomax_catalog.py', 'HBOMax');
+    runScript('build_primevideo_catalog.py', 'PrimeVideo');
 });
 
 // Serve trailer addon at /trailers

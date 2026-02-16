@@ -18,6 +18,11 @@
             --text: #e2e8f0;
             --text-muted: #94a3b8;
             --success: #22c55e;
+            --netflix: #E50914;
+            --hbo: #B07CFF;
+            --amazon: #00A8E1;
+            --topseed: #f59e0b;
+            --latest: #22c55e;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -171,6 +176,8 @@
             color: var(--text-muted);
             line-height: 1.8;
         }
+
+        /* ── Catalog Config ────────────────────────── */
         .catalog-config {
             margin-top: 1rem;
             padding-top: 1rem;
@@ -195,86 +202,232 @@
         .catalog-count {
             font-size: 0.85rem;
             color: var(--text-muted);
-            margin-bottom: 0.75rem;
+            margin-bottom: 1rem;
         }
         .catalog-count strong { color: var(--text); }
-        .catalog-group {
-            margin-bottom: 1.25rem;
+
+        /* ── Category Panels ────────────────────────── */
+        .category-panel {
+            background: rgba(0,0,0,0.2);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            margin-bottom: 0.75rem;
+            overflow: hidden;
+            transition: border-color 0.3s ease;
         }
-        .catalog-group:last-child { margin-bottom: 0; }
-        .group-header {
+        .category-panel:hover {
+            border-color: rgba(255,255,255,0.12);
+        }
+        .category-header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .group-label {
-            font-size: 0.85rem;
-            font-weight: 600;
-            color: var(--text);
-        }
-        .group-actions {
-            font-size: 0.75rem;
-        }
-        .group-actions button {
-            background: none;
-            border: none;
-            color: var(--accent-light);
+            padding: 0.75rem 1rem;
             cursor: pointer;
-            padding: 0.15rem 0.35rem;
-            font-family: inherit;
+            user-select: none;
+            transition: background 0.2s;
         }
-        .group-actions button:hover { text-decoration: underline; }
-        .group-actions span { color: var(--text-muted); margin: 0 0.25rem; }
-        .catalog-group .group-checkboxes {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 0.4rem;
-            font-size: 0.85rem;
-            color: var(--text-muted);
+        .category-header:hover {
+            background: rgba(255,255,255,0.03);
         }
-        .catalog-config label {
+        .category-header-left {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.6rem;
+        }
+        .category-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+        .category-icon.topseed { background: rgba(245,158,11,0.15); }
+        .category-icon.latest { background: rgba(34,197,94,0.15); }
+        .category-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+        .category-badge {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            background: rgba(255,255,255,0.06);
+            padding: 0.15rem 0.5rem;
+            border-radius: 99px;
+        }
+        .category-chevron {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            transition: transform 0.3s ease;
+        }
+        .category-panel.open .category-chevron {
+            transform: rotate(180deg);
+        }
+        .category-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.35s ease, padding 0.35s ease;
+            padding: 0 1rem;
+        }
+        .category-panel.open .category-body {
+            max-height: 600px;
+            padding: 0 1rem 1rem;
+        }
+
+        /* ── Toggle Switch ────────────────────────── */
+        .toggle-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 0.5rem;
+            border-radius: 8px;
             cursor: grab;
-            padding: 0.25rem 0.5rem;
-            min-height: 1.75rem;
-            border-radius: 4px;
-            transition: background-color 0.2s;
+            transition: background 0.2s;
         }
-        .catalog-config label:hover { 
-            color: var(--text); 
-            background-color: rgba(255,255,255,0.03);
+        .toggle-row:hover {
+            background: rgba(255,255,255,0.04);
         }
-        .catalog-config label.dragging {
+        .toggle-row.dragging {
             opacity: 0.5;
             cursor: grabbing;
         }
-        .catalog-config label.drag-over {
-            background-color: rgba(139, 92, 246, 0.2);
+        .toggle-row.drag-over {
+            background: rgba(139, 92, 246, 0.15);
             border-top: 2px solid var(--accent);
         }
-        .catalog-config input[type="checkbox"] { 
-            accent-color: var(--accent); 
-            flex-shrink: 0; 
-            cursor: pointer;
+        .toggle-left {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
         }
-        .drag-handle {
-            color: var(--text-muted);
-            font-size: 1rem;
+        .toggle-left .drag-handle {
+            color: rgba(255,255,255,0.2);
+            font-size: 0.85rem;
             cursor: grab;
             user-select: none;
-            margin-right: 0.25rem;
         }
-        .drag-handle:active { cursor: grabbing; }
-        .catalog-name {
+        .toggle-left .drag-handle:active { cursor: grabbing; }
+        .toggle-left .item-icon {
+            font-size: 0.85rem;
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 40px;
+            height: 22px;
+            flex-shrink: 0;
+        }
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(255,255,255,0.1);
+            border-radius: 22px;
+            transition: all 0.3s ease;
+        }
+        .toggle-slider:before {
+            content: "";
+            position: absolute;
+            height: 16px;
+            width: 16px;
+            left: 3px;
+            bottom: 3px;
+            background: white;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+        .toggle-switch input:checked + .toggle-slider {
+            background: var(--accent);
+        }
+        .toggle-switch input:checked + .toggle-slider:before {
+            transform: translateX(18px);
+        }
+
+        /* ── Provider Cards (Legfrissebb) ────────────── */
+        .provider-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
+        @media (max-width: 480px) {
+            .provider-grid { grid-template-columns: 1fr; }
+        }
+        .provider-card {
+            background: rgba(0,0,0,0.25);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 10px;
+            padding: 0.75rem;
+            transition: all 0.25s ease;
+        }
+        .provider-card:hover {
+            border-color: rgba(255,255,255,0.15);
+            transform: translateY(-1px);
+        }
+        .provider-card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.6rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .provider-logo {
+            width: 24px;
+            height: 24px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: white;
+            flex-shrink: 0;
+        }
+        .provider-logo.netflix { background: var(--netflix); }
+        .provider-logo.hbo { background: var(--hbo); }
+        .provider-logo.amazon { background: var(--amazon); }
+        .provider-name {
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .provider-toggle-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.25rem 0;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* ── Separator ────────────────────────── */
+        .section-separator {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin: 0.75rem 0;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .section-separator::before,
+        .section-separator::after {
+            content: "";
             flex: 1;
-            user-select: none;
+            height: 1px;
+            background: rgba(255,255,255,0.06);
         }
-        
+
         footer {
             text-align: center;
             margin-top: 3rem;
@@ -294,7 +447,7 @@
     <div class="container">
         <header>
             <h1>nCore Stremio Addons</h1>
-            <p>Magyar filmek és sorozatok az nCore trackerről – katalógus, epizód infó, előzetesek</p>
+            <p>Magyar filmek és sorozatok az nCore trackerről – katalógus, előzetesek</p>
         </header>
         
         <div class="status-bar" id="statusBar">
@@ -304,17 +457,17 @@
         
         <div class="addon-card">
             <h2>Katalógus <span class="tag">FILMEK + SOROZATOK</span></h2>
-            <p class="desc">Magyar nyelvű filmek és sorozatok katalógusa. Legfrissebb feltöltések Trakt listából, magyar címekkel és poszterekkel.</p>
+            <p class="desc">Magyar nyelvű filmek és sorozatok katalógusa nCore-ról, magyar címekkel és poszterekkel TMDB metaadatokkal.</p>
             <details class="catalog-config" open>
                 <summary>Katalógusok kiválasztása (telepítés előtt)</summary>
                 <div class="catalog-presets">
                     <button type="button" class="btn btn-secondary" onclick="setPreset('all')">Mind</button>
                     <button type="button" class="btn btn-secondary" onclick="setPreset('none')">Egyik sem</button>
+                    <button type="button" class="btn btn-secondary" onclick="setPreset('topseed')">Csak Top Seed</button>
                     <button type="button" class="btn btn-secondary" onclick="setPreset('latest')">Csak legfrissebb</button>
                 </div>
-                <p class="catalog-count" id="catalog-count">Betöltés…</p>
-                <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0.5rem 0;">💡 Tipp: Húzd át a katalógusokat (⋮⋮) a kívánt sorrendbe!</p>
-                <div id="catalog-checkboxes">Betöltés…</div>
+                <p class="catalog-count" id="catalog-count">Betöltés...</p>
+                <div id="catalog-panels">Betöltés...</div>
             </details>
             <div class="btn-row">
                 <a class="btn btn-primary" href="#" data-stremio="catalog" onclick="installAddon(event, 'catalog')">Telepítés Stremioval</a>
@@ -329,16 +482,6 @@
                     <li>Illeszd be a fenti URL-t (vagy válaszd ki a katalógusokat, majd Telepítés)</li>
                 </ol>
             </details>
-        </div>
-        
-        <div class="addon-card">
-            <h2>Epizód Infó <span class="tag">INFO</span></h2>
-            <p class="desc">Mutatja a legutóbb feltöltött magyar epizódot a sorozatoknál (pl. S01E05 • nov 15). <strong>Nem streaming addon</strong> – a lejátszáshoz StremHU Source kell.</p>
-            <div class="btn-row">
-                <a class="btn btn-primary" href="#" data-stremio="info" onclick="installAddon(event, 'info')">Telepítés Stremioval</a>
-                <button class="btn btn-secondary" onclick="copyUrl('info-url', this)">URL másolása</button>
-            </div>
-            <div class="url-box" id="info-url"></div>
         </div>
         
         <div class="addon-card">
@@ -366,17 +509,76 @@
             trailers: `${baseUrl}/trailers/manifest.json`
         };
         let catalogOptions = [];
-        const CATALOG_GROUPS = [
-            { key: 'top', label: 'Legnagyobb seed – Filmek', ids: ['ncore-movies-top-seeded-all', 'ncore-movies-top-seeded-magyar-filmek'] },
-            { key: 'seriesTop', label: 'Legnagyobb seed – Sorozatok', ids: ['ncore-series-top-seeded-all', 'ncore-series-top-seeded-magyar-sorozatok'] },
-            { key: 'latest', label: 'Legfrissebb', ids: ['ncore-hd-movies', 'ncore-hd-series'] }
+
+        /* ── Category definitions ────────────────────── */
+        const CATEGORIES = [
+            {
+                key: 'topseed',
+                icon: '🏆',
+                iconClass: 'topseed',
+                title: 'Top Seed',
+                subtitle: 'Legtöbb seederrel rendelkező tartalmak',
+                items: [
+                    { id: 'ncore-movies-top-seeded-all', icon: '🎬', label: 'Filmek' },
+                    { id: 'ncore-series-top-seeded-all', icon: '📺', label: 'Sorozatok' },
+                    { id: 'ncore-movies-top-seeded-magyar-filmek', icon: '🇭🇺', label: 'Magyar filmek' },
+                    { id: 'ncore-series-top-seeded-magyar-sorozatok', icon: '🇭🇺', label: 'Magyar sorozatok' }
+                ]
+            },
+            {
+                key: 'latest',
+                icon: '🆕',
+                iconClass: 'latest',
+                title: 'Legfrissebb',
+                subtitle: 'Legutóbb feltöltött tartalmak',
+                items: [
+                    { id: 'ncore-hd-movies', icon: '🎬', label: 'Filmek' },
+                    { id: 'ncore-hd-series', icon: '📺', label: 'Sorozatok' }
+                ],
+                providers: [
+                    {
+                        key: 'netflix',
+                        name: 'Netflix',
+                        logoClass: 'netflix',
+                        logoText: 'N',
+                        items: [
+                            { id: 'ncore-netflix-movies', icon: '🎬', label: 'Filmek' },
+                            { id: 'ncore-netflix-series', icon: '📺', label: 'Sorozatok' }
+                        ]
+                    },
+                    {
+                        key: 'hbomax',
+                        name: 'HBO Max',
+                        logoClass: 'hbo',
+                        logoText: 'H',
+                        items: [
+                            { id: 'ncore-hbomax-movies', icon: '🎬', label: 'Filmek' },
+                            { id: 'ncore-hbomax-series', icon: '📺', label: 'Sorozatok' }
+                        ]
+                    },
+                    {
+                        key: 'primevideo',
+                        name: 'Prime Video',
+                        logoClass: 'amazon',
+                        logoText: 'P',
+                        items: [
+                            { id: 'ncore-primevideo-movies', icon: '🎬', label: 'Filmek' },
+                            { id: 'ncore-primevideo-series', icon: '📺', label: 'Sorozatok' }
+                        ]
+                    }
+                ]
+            }
         ];
 
-        function groupCatalogs(opts) {
-            return CATALOG_GROUPS.map(g => ({
-                ...g,
-                catalogs: opts.filter(c => g.ids.includes(c.id))
-            })).filter(g => g.catalogs.length > 0);
+        function getAllCategoryIds() {
+            const ids = [];
+            CATEGORIES.forEach(cat => {
+                cat.items.forEach(item => ids.push(item.id));
+                if (cat.providers) {
+                    cat.providers.forEach(p => p.items.forEach(item => ids.push(item.id)));
+                }
+            });
+            return ids;
         }
 
         function getEnabledIds() {
@@ -386,17 +588,9 @@
         function getCatalogInstallUrl() {
             const enabled = getEnabledIds();
             const orderedIds = catalogOptions.map(c => c.id);
-            
-            // If all catalogs enabled and order matches original, use simple URL
             if (enabled.length === catalogOptions.length) {
-                const originalOrder = catalogOptions.map(c => c.id).join(',');
-                const currentOrder = orderedIds.join(',');
-                if (originalOrder === currentOrder) {
-                    return baseUrl + '/manifest.json';
-                }
+                return baseUrl + '/manifest.json';
             }
-            
-            // Otherwise include selected catalogs in current order
             const orderedEnabled = orderedIds.filter(id => enabled.includes(id));
             if (orderedEnabled.length === 0) return baseUrl + '/manifest.json';
             return baseUrl + '/manifest.json?catalogs=' + encodeURIComponent(orderedEnabled.join(','));
@@ -408,7 +602,7 @@
             const el = document.getElementById('catalog-count');
             if (total === 0) el.textContent = '';
             else if (enabled === total) el.innerHTML = '<strong>Mind a ' + total + ' katalógus</strong> kiválasztva.';
-            else el.innerHTML = '<strong>' + enabled + '</strong> katalógus kiválasztva a ' + total + '-ból.';
+            else el.innerHTML = '<strong>' + enabled + '</strong> / ' + total + ' katalógus kiválasztva.';
         }
 
         function updateCatalogUrl() {
@@ -417,12 +611,15 @@
         }
 
         function setPreset(preset) {
-            const ids = catalogOptions.map(c => c.id);
-            const latestIds = ['ncore-hd-movies', 'ncore-hd-series'];
+            const allIds = catalogOptions.map(c => c.id);
+            const latestIds = ['ncore-hd-movies', 'ncore-hd-series', 'ncore-netflix-movies', 'ncore-netflix-series', 'ncore-hbomax-movies', 'ncore-hbomax-series', 'ncore-primevideo-movies', 'ncore-primevideo-series'];
+            const topseedIds = ['ncore-movies-top-seeded-all', 'ncore-series-top-seeded-all',
+                                'ncore-movies-top-seeded-magyar-filmek', 'ncore-series-top-seeded-magyar-sorozatok'];
             let toCheck = [];
-            if (preset === 'all') toCheck = ids;
+            if (preset === 'all') toCheck = allIds;
             else if (preset === 'none') toCheck = [];
             else if (preset === 'latest') toCheck = latestIds;
+            else if (preset === 'topseed') toCheck = topseedIds;
             catalogOptions.forEach(c => {
                 const cb = document.getElementById('cat-' + c.id);
                 if (cb) cb.checked = toCheck.includes(c.id);
@@ -430,122 +627,156 @@
             updateCatalogUrl();
         }
 
-        function setGroup(groupKey, checked) {
-            const group = CATALOG_GROUPS.find(g => g.key === groupKey);
-            if (!group) return;
-            group.ids.forEach(id => {
-                const cb = document.getElementById('cat-' + id);
+        function setCategoryAll(catKey, checked) {
+            const cat = CATEGORIES.find(c => c.key === catKey);
+            if (!cat) return;
+            cat.items.forEach(item => {
+                const cb = document.getElementById('cat-' + item.id);
                 if (cb) cb.checked = checked;
             });
+            if (cat.providers) {
+                cat.providers.forEach(p => {
+                    p.items.forEach(item => {
+                        const cb = document.getElementById('cat-' + item.id);
+                        if (cb) cb.checked = checked;
+                    });
+                });
+            }
             updateCatalogUrl();
         }
 
-        let draggedElement = null;
+        function toggleCategory(catKey) {
+            const panel = document.getElementById('panel-' + catKey);
+            if (panel) panel.classList.toggle('open');
+        }
+
+        /* ── Drag and Drop ────────────────────── */
+        let draggedRow = null;
 
         function initDragAndDrop() {
-            const labels = document.querySelectorAll('.catalog-config label[draggable="true"]');
-            
-            labels.forEach(label => {
-                label.addEventListener('dragstart', (e) => {
-                    draggedElement = label;
-                    label.classList.add('dragging');
+            const rows = document.querySelectorAll('.toggle-row[draggable="true"]');
+            rows.forEach(row => {
+                row.addEventListener('dragstart', (e) => {
+                    draggedRow = row;
+                    row.classList.add('dragging');
                     e.dataTransfer.effectAllowed = 'move';
-                    e.dataTransfer.setData('text/html', label.innerHTML);
+                    e.dataTransfer.setData('text/plain', row.dataset.catalogId);
                 });
-
-                label.addEventListener('dragend', (e) => {
-                    label.classList.remove('dragging');
-                    document.querySelectorAll('.catalog-config label').forEach(l => {
-                        l.classList.remove('drag-over');
-                    });
-                    draggedElement = null;
+                row.addEventListener('dragend', () => {
+                    row.classList.remove('dragging');
+                    document.querySelectorAll('.toggle-row').forEach(r => r.classList.remove('drag-over'));
+                    draggedRow = null;
                 });
-
-                label.addEventListener('dragover', (e) => {
+                row.addEventListener('dragover', (e) => {
                     e.preventDefault();
                     e.dataTransfer.dropEffect = 'move';
-                    
-                    if (label !== draggedElement) {
-                        label.classList.add('drag-over');
-                    }
-                    return false;
+                    if (row !== draggedRow) row.classList.add('drag-over');
                 });
-
-                label.addEventListener('dragleave', (e) => {
-                    label.classList.remove('drag-over');
-                });
-
-                label.addEventListener('drop', (e) => {
+                row.addEventListener('dragleave', () => row.classList.remove('drag-over'));
+                row.addEventListener('drop', (e) => {
                     e.stopPropagation();
                     e.preventDefault();
-                    
-                    if (draggedElement && draggedElement !== label) {
-                        // Reorder in DOM
-                        const parent = label.parentNode;
-                        const draggedId = draggedElement.dataset.catalogId;
-                        const targetId = label.dataset.catalogId;
-                        
-                        // Update catalogOptions array order
-                        const draggedIndex = catalogOptions.findIndex(c => c.id === draggedId);
-                        const targetIndex = catalogOptions.findIndex(c => c.id === targetId);
-                        
-                        if (draggedIndex !== -1 && targetIndex !== -1) {
-                            const [removed] = catalogOptions.splice(draggedIndex, 1);
-                            catalogOptions.splice(targetIndex, 0, removed);
+                    if (draggedRow && draggedRow !== row) {
+                        const parent = row.parentNode;
+                        const dragId = draggedRow.dataset.catalogId;
+                        const targetId = row.dataset.catalogId;
+                        const di = catalogOptions.findIndex(c => c.id === dragId);
+                        const ti = catalogOptions.findIndex(c => c.id === targetId);
+                        if (di !== -1 && ti !== -1) {
+                            const [removed] = catalogOptions.splice(di, 1);
+                            catalogOptions.splice(ti, 0, removed);
                         }
-                        
-                        // Move element in DOM
-                        parent.insertBefore(draggedElement, label);
-                        
+                        parent.insertBefore(draggedRow, row);
                         updateCatalogUrl();
                     }
-                    
-                    label.classList.remove('drag-over');
-                    return false;
+                    row.classList.remove('drag-over');
                 });
             });
         }
 
+        /* ── Render UI ────────────────────── */
+        function renderToggleRow(item) {
+            return '<div class="toggle-row" draggable="true" data-catalog-id="' + item.id + '">' +
+                '<div class="toggle-left">' +
+                    '<span class="drag-handle">⋮⋮</span>' +
+                    '<span class="item-icon">' + item.icon + '</span>' +
+                    '<span>' + item.label + '</span>' +
+                '</div>' +
+                '<label class="toggle-switch" onclick="event.stopPropagation()">' +
+                    '<input type="checkbox" id="cat-' + item.id + '" checked onchange="updateCatalogUrl()">' +
+                    '<span class="toggle-slider"></span>' +
+                '</label>' +
+            '</div>';
+        }
+
+        function renderProviderCard(provider) {
+            const toggles = provider.items.map(item =>
+                '<div class="provider-toggle-row">' +
+                    '<span>' + item.icon + ' ' + item.label + '</span>' +
+                    '<label class="toggle-switch" onclick="event.stopPropagation()">' +
+                        '<input type="checkbox" id="cat-' + item.id + '" checked onchange="updateCatalogUrl()">' +
+                        '<span class="toggle-slider"></span>' +
+                    '</label>' +
+                '</div>'
+            ).join('');
+            return '<div class="provider-card">' +
+                '<div class="provider-card-header">' +
+                    '<span class="provider-logo ' + provider.logoClass + '">' + provider.logoText + '</span>' +
+                    '<span class="provider-name">' + provider.name + '</span>' +
+                '</div>' +
+                toggles +
+            '</div>';
+        }
+
+        function renderCategory(cat) {
+            const itemCount = cat.items.length + (cat.providers ? cat.providers.reduce((n, p) => n + p.items.length, 0) : 0);
+            const rows = cat.items.map(renderToggleRow).join('');
+            
+            let providerSection = '';
+            if (cat.providers && cat.providers.length > 0) {
+                providerSection = '<div class="section-separator">Streaming</div>' +
+                    '<div class="provider-grid">' +
+                    cat.providers.map(renderProviderCard).join('') +
+                    '</div>';
+            }
+
+            return '<div class="category-panel open" id="panel-' + cat.key + '">' +
+                '<div class="category-header" onclick="toggleCategory(\'' + cat.key + '\')">' +
+                    '<div class="category-header-left">' +
+                        '<div class="category-icon ' + cat.iconClass + '">' + cat.icon + '</div>' +
+                        '<div>' +
+                            '<div class="category-title">' + cat.title + '</div>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div style="display:flex;align-items:center;gap:0.75rem">' +
+                        '<span class="category-badge">' + itemCount + ' katalógus</span>' +
+                        '<span class="category-chevron">▼</span>' +
+                    '</div>' +
+                '</div>' +
+                '<div class="category-body">' +
+                    '<div style="display:flex;justify-content:flex-end;gap:0.5rem;margin-bottom:0.25rem;font-size:0.75rem;">' +
+                        '<button type="button" style="background:none;border:none;color:var(--accent-light);cursor:pointer;font-family:inherit;padding:0.15rem 0.35rem;" onclick="event.stopPropagation();setCategoryAll(\'' + cat.key + '\',true)">Összes</button>' +
+                        '<span style="color:var(--text-muted)">·</span>' +
+                        '<button type="button" style="background:none;border:none;color:var(--accent-light);cursor:pointer;font-family:inherit;padding:0.15rem 0.35rem;" onclick="event.stopPropagation();setCategoryAll(\'' + cat.key + '\',false)">Egyik sem</button>' +
+                    '</div>' +
+                    rows +
+                    providerSection +
+                '</div>' +
+            '</div>';
+        }
+
+        /* ── Init ────────────────────── */
         fetch('/api/catalog-options')
             .then(r => r.json())
             .then(opts => {
                 catalogOptions = opts;
-                const groups = groupCatalogs(opts);
-                const box = document.getElementById('catalog-checkboxes');
-                box.innerHTML = groups.map(g => {
-                    const checkboxes = g.catalogs.map(c =>
-                        '<label draggable="true" data-catalog-id="' + c.id + '">' +
-                        '<span class="drag-handle">⋮⋮</span>' +
-                        '<input type="checkbox" id="cat-' + c.id + '" checked> ' +
-                        '<span class="catalog-name">' + (c.name || c.id) + '</span>' +
-                        '</label>'
-                    ).join('');
-                    return '<div class="catalog-group">' +
-                        '<div class="group-header">' +
-                        '<span class="group-label">' + g.label + '</span>' +
-                        '<span class="group-actions">' +
-                        '<button type="button" onclick="setGroup(\'' + g.key + '\', true)">Összes</button><span>·</span>' +
-                        '<button type="button" onclick="setGroup(\'' + g.key + '\', false)">Egyik sem</button>' +
-                        '</span></div>' +
-                        '<div class="group-checkboxes">' + checkboxes + '</div></div>';
-                }).join('');
-                
-                // Add event listeners for checkboxes
-                catalogOptions.forEach(c => {
-                    const el = document.getElementById('cat-' + c.id);
-                    if (el) {
-                        el.addEventListener('change', updateCatalogUrl);
-                        // Prevent checkbox click from starting drag
-                        el.addEventListener('mousedown', (e) => e.stopPropagation());
-                    }
-                });
-                
-                // Add drag and drop event listeners
+                const box = document.getElementById('catalog-panels');
+                box.innerHTML = CATEGORIES.map(renderCategory).join('');
                 initDragAndDrop();
                 updateCatalogUrl();
             })
             .catch(() => {
-                document.getElementById('catalog-checkboxes').textContent = 'Nem sikerült betölteni.';
+                document.getElementById('catalog-panels').textContent = 'Nem sikerült betölteni.';
                 document.getElementById('catalog-count').textContent = '';
                 document.getElementById('catalog-url').textContent = baseUrl + '/manifest.json';
             });
@@ -582,9 +813,9 @@
         }
         
         fetch('/health').then(r => r.json()).then(d => {
-            const dot = document.querySelector('.status-dot');
             const txt = document.getElementById('statusText');
-            txt.textContent = `OK · ${d.movieCount || 0} film · ${d.seriesCount || 0} sorozat`;
+            const total = (d.hdMoviesCount || 0) + (d.hdSeriesCount || 0) + (d.topSeededByGenreCount || 0) + (d.topSeededSeriesCount || 0) + (d.netflixMoviesCount || 0) + (d.netflixSeriesCount || 0) + (d.hbomaxMoviesCount || 0) + (d.hbomaxSeriesCount || 0) + (d.primevideoMoviesCount || 0) + (d.primevideoSeriesCount || 0);
+            txt.textContent = 'OK · ' + total + ' elem a katalógusokban';
         }).catch(() => {
             document.querySelector('.status-dot').classList.add('off');
             document.getElementById('statusText').textContent = 'Offline';

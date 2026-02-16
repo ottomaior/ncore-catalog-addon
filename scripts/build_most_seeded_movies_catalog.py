@@ -1,6 +1,6 @@
 """
 Build data/most_seeded_movies.json for the Stremio catalog (top seeded by genre).
-Fetches HD-HUN movies from nCore, matches to Trakt + TMDB, gets genres, writes one JSON.
+Fetches HD-HUN movies from nCore, matches to TMDB only (no Trakt), gets genres, writes one JSON.
 - If the file already exists: fetches only NCORE_PAGES_PER_RUN pages, merges by movie id,
   sorts by seed rank, trims to TARGET_COUNT (incremental, faster runs).
 - If no file: full fetch until TARGET_COUNT or no more pages.
@@ -33,10 +33,6 @@ if config_file.exists():
 else:
     load_dotenv()
 
-TRAKT_CLIENT_ID = os.getenv('TRAKT_CLIENT_ID')
-TRAKT_ACCESS_TOKEN = os.getenv('TRAKT_ACCESS_TOKEN')
-TRAKT_CLIENT_SECRET = os.getenv('TRAKT_CLIENT_SECRET')
-TRAKT_REFRESH_TOKEN = os.getenv('TRAKT_REFRESH_TOKEN')
 TMDB_API_KEY = os.getenv('TMDB_API_KEY')
 NCORE_USER = os.getenv('NCORE_USER', '').strip()
 NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
@@ -45,72 +41,68 @@ NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_MOVIES', '4000'))
 # When extending existing file: fetch only this many nCore pages per run (faster incremental updates).
 NCORE_PAGES_PER_RUN = int(os.getenv('NCORE_PAGES_PER_RUN', '15'))
+TMDB_DELAY = 0.4  # Delay between TMDB API calls
 
 
-def _trakt_headers():
-    return {
-        'Content-Type': 'application/json',
-        'trakt-api-version': '2',
-        'trakt-api-key': TRAKT_CLIENT_ID,
-        'Authorization': f'Bearer {os.getenv("TRAKT_ACCESS_TOKEN", TRAKT_ACCESS_TOKEN)}',
-    }
-
-
-headers = _trakt_headers()
-
-
-def _refresh_trakt():
-    try:
-        from trakt_auth import refresh_trakt_tokens, update_config_tokens
-        pair = refresh_trakt_tokens(
-            os.getenv('TRAKT_CLIENT_ID'),
-            os.getenv('TRAKT_CLIENT_SECRET'),
-            os.getenv('TRAKT_REFRESH_TOKEN'),
-        )
-        if not pair:
-            return False
-        access_token, new_refresh_token = pair
-        if update_config_tokens(config_file, access_token, new_refresh_token):
-            load_dotenv(config_file)
-            os.environ['TRAKT_ACCESS_TOKEN'] = access_token
-            os.environ['TRAKT_REFRESH_TOKEN'] = new_refresh_token
-            global headers
-            headers = _trakt_headers()
-            return True
-    except Exception:
-        pass
-    return False
-
-
-def search_movie_on_trakt(clean_title, year):
-    variations = [clean_title, clean_title.replace(' and ', ' & '), clean_title.replace(' & ', ' and ')]
-    variations = list(dict.fromkeys(variations))
+def search_movie_on_tmdb(clean_title, year, tmdb_key):
+    """
+    Search for movie on TMDB and return full metadata including IMDB ID.
+    Returns dict with all needed fields or None.
+    """
+    if not tmdb_key:
+        return None
+    
+    # Try multiple title variations
+    variations = [
+        clean_title,
+        clean_title.replace(' and ', ' & '),
+        clean_title.replace(' & ', ' and '),
+    ]
+    
     for variation in variations:
         try:
-            time.sleep(0.5)
-            url = f'https://api.trakt.tv/search/movie?query={variation}&extended=full'
+            time.sleep(TMDB_DELAY)
+            # Search for movie
+            search_url = f'https://api.themoviedb.org/3/search/movie?api_key={tmdb_key}&query={variation}&language=hu-HU'
             if year:
-                url += f'&years={year}'
-            r = requests.get(url, headers=headers)
-            if r.status_code == 401 and _refresh_trakt():
-                r = requests.get(url, headers=headers)
-            if r.status_code != 200 or not isinstance(r.json(), list):
+                search_url += f'&year={year}'
+            
+            r = requests.get(search_url, timeout=10)
+            if r.status_code != 200:
                 continue
-            for result in r.json():
-                movie = result.get('movie')
-                if not movie or not movie.get('ids', {}).get('trakt'):
-                    continue
-                movie_year = str(movie.get('year', ''))
-                variation_lower = variation.lower()
-                title_lower = (movie.get('title') or '').lower()
-                match = (title_lower in variation_lower or variation_lower in title_lower or
-                        variation_lower.replace(' ', '') in title_lower.replace(' ', ''))
-                if year and movie_year != str(year):
-                    continue
-                if match or result == r.json()[0]:
-                    return movie
-        except Exception:
+            
+            results = r.json().get('results', [])
+            if not results:
+                continue
+            
+            # Get first result's full details
+            tmdb_id = results[0]['id']
+            
+            time.sleep(TMDB_DELAY)
+            details_url = f'https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={tmdb_key}&language=hu-HU'
+            r2 = requests.get(details_url, timeout=10)
+            if r2.status_code != 200:
+                continue
+            
+            movie_data = r2.json()
+            imdb_id = movie_data.get('imdb_id')  # ← IMDB ID here!
+            
+            if not imdb_id:
+                continue
+            
+            # Return all data in one go
+            return {
+                'imdb_id': imdb_id,
+                'title': movie_data.get('title'),
+                'poster_path': movie_data.get('poster_path'),
+                'genres': [g['name'] for g in movie_data.get('genres', [])],
+                'description': movie_data.get('overview', ''),
+                'year': int(movie_data.get('release_date', '')[:4]) if movie_data.get('release_date') else None,
+                'rating': movie_data.get('vote_average')
+            }
+        except Exception as e:
             continue
+    
     return None
 
 
@@ -129,29 +121,6 @@ def is_likely_series(title):
     return bool(re.search(r's\d{1,2}(?:e\d{1,2})?', title, re.IGNORECASE))
 
 
-def get_tmdb_metadata(imdb_id, tmdb_key):
-    if not tmdb_key or not imdb_id:
-        return None, None
-    imdb_id = imdb_id.replace('tt', '')
-    try:
-        r = requests.get(
-            'https://api.themoviedb.org/3/find/tt' + imdb_id,
-            params={'api_key': tmdb_key, 'external_source': 'imdb_id', 'language': 'hu-HU'},
-            timeout=10,
-        )
-        if r.status_code != 200:
-            return None, None
-        data = r.json()
-        results = data.get('movie_results') or []
-        if not results:
-            return None, None
-        item = results[0]
-        title = item.get('title') or item.get('original_title') or ''
-        poster = item.get('poster_path')
-        poster_url = f'https://image.tmdb.org/t/p/w500{poster}' if poster else None
-        return title, poster_url
-    except Exception:
-        return None, None
 
 
 # Delay between nCore page requests (seconds) – gentler pacing for 4000+ items
@@ -241,8 +210,8 @@ def main():
     if not NCORE_USER or not NCORE_PASS:
         print('\n✗ NCORE_USER / NCORE_PASS hiányzik a config.env-ból.')
         exit(1)
-    if not all([TRAKT_CLIENT_ID, TRAKT_ACCESS_TOKEN]):
-        print('\n✗ Trakt hitelesítés hiányzik.')
+    if not TMDB_API_KEY:
+        print('\n✗ TMDB_API_KEY hiányzik.')
         exit(1)
     if not Client or not SearchParamType:
         print('\n✗ pip install ncoreparser')
@@ -296,40 +265,29 @@ def main():
         if not title or is_likely_series(title):
             continue
         clean, year = parse_movie_title(title)
-        movie = search_movie_on_trakt(clean, year)
-        if not movie:
+        
+        # Search on TMDB (gets IMDB ID + all metadata in one go)
+        metadata = search_movie_on_tmdb(clean, year, TMDB_API_KEY)
+        if not metadata:
             continue
-        imdb = (movie.get('ids') or {}).get('imdb')
+        
+        imdb = metadata['imdb_id']
         if not imdb:
             continue
         imdb = imdb if str(imdb).startswith('tt') else 'tt' + str(imdb)
         if imdb in seen_imdb:
             continue
         seen_imdb.add(imdb)
-        genres = movie.get('genres') or []
-        if isinstance(genres, list) and genres and isinstance(genres[0], dict):
-            genres = [g.get('name') or g.get('slug', '') for g in genres]
-        if not genres and movie.get('ids', {}).get('trakt'):
-            try:
-                time.sleep(0.4)
-                tr = requests.get(
-                    f"https://api.trakt.tv/movies/{movie['ids']['trakt']}",
-                    headers=headers,
-                    params={'extended': 'full'},
-                    timeout=10,
-                )
-                if tr.status_code == 200:
-                    j = tr.json()
-                    genres = j.get('genres') or []
-                    if genres and isinstance(genres[0], dict):
-                        genres = [g.get('name') or g.get('slug', '') for g in genres]
-            except Exception:
-                pass
-        genres = [str(g).strip() for g in genres if g]
-
-        tmdb_title, tmdb_poster = get_tmdb_metadata(imdb, TMDB_API_KEY)
-        name = tmdb_title or movie.get('title') or ''
-        poster = tmdb_poster or f'https://images.metahub.space/poster/small/{imdb}/img'
+        
+        # Get data from TMDB metadata
+        name = metadata['title'] or clean
+        poster_path = metadata['poster_path']
+        poster = f'https://image.tmdb.org/t/p/w500{poster_path}' if poster_path else f'https://images.metahub.space/poster/small/{imdb}/img'
+        genres = metadata['genres']
+        description = metadata['description'] or 'Magyar HD – nCore legnagyobb seed.'
+        year_val = metadata['year']
+        rating = metadata['rating']
+        
         imdb_clean = imdb.replace('tt', '')
         seeders = _seeders_from_torrent(t)
         # If nCore didn't expose seeders, use descending rank by fetch order so top-seeded order is preserved
@@ -342,10 +300,10 @@ def main():
             'name': name,
             'poster': poster,
             'posterShape': 'poster',
-            'year': movie.get('year'),
-            'description': movie.get('overview') or 'Magyar HD – nCore legnagyobb seed.',
-            'imdbRating': str(round(movie['rating'], 1)) if isinstance(movie.get('rating'), (int, float)) else None,
-            'releaseInfo': str(movie.get('year')) if movie.get('year') else None,
+            'year': year_val,
+            'description': description,
+            'imdbRating': str(round(rating, 1)) if isinstance(rating, (int, float)) else None,
+            'releaseInfo': str(year_val) if year_val else None,
             'genres': genres,
             'seeders': seeders,
         }
