@@ -43,7 +43,7 @@ NCORE_PAGE_RETRIES = 3
 TMDB_DELAY = 0.4  # Delay between TMDB API calls
 
 # Incremental mode: only fetch this many new torrents when catalog already exists (faster updates)
-INCREMENTAL_TORRENT_COUNT = 50
+INCREMENTAL_TORRENT_COUNT = 25
 
 
 def load_existing_movies():
