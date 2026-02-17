@@ -1,0 +1,52 @@
+# Top-seeded + Magyar – weekly Sunday 03:00 UTC. Pushes data to repo → Railway auto-deploys.
+name: Catalog – Top-seeded + Magyar (weekly)
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-topseeded:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install ncoreparser requests python-dotenv
+
+      - name: Build top-seeded and Magyar catalogs
+        env:
+          NCORE_USER: ${{ secrets.NCORE_USER }}
+          NCORE_PASS: ${{ secrets.NCORE_PASS }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          python scripts/build_most_seeded_movies_catalog.py
+          python scripts/filter_hungarian_productions.py
+          python scripts/build_most_seeded_series_catalog.py
+          python scripts/filter_hungarian_productions_series.py
+
+      - name: Commit and push data
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/most_seeded_movies.json data/most_seeded_series.json \
+                  data/most_seeded_hungarian_productions_movies.json \
+                  data/most_seeded_hungarian_productions_series.json 2>/dev/null || true
+          git status
+          if ! git diff --staged --quiet 2>/dev/null; then
+            git commit -m "chore(data): update top-seeded and Magyar catalogs"
+            git push
+          fi

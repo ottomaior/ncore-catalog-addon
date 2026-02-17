@@ -1,0 +1,46 @@
+# Latest movies/series – every 3 hours. Pushes data to repo → Railway auto-deploys.
+name: Catalog – Latest (3h)
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install ncoreparser requests python-dotenv
+
+      - name: Run build_latest_catalog.py
+        env:
+          NCORE_USER: ${{ secrets.NCORE_USER }}
+          NCORE_PASS: ${{ secrets.NCORE_PASS }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python scripts/build_latest_catalog.py
+
+      - name: Commit and push data
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/hd_movies.json data/hd_series.json 2>/dev/null || true
+          git status
+          if ! git diff --staged --quiet 2>/dev/null; then
+            git commit -m "chore(data): update latest catalog (hd_movies, hd_series)"
+            git push
+          fi
