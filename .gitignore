@@ -42,13 +42,6 @@ scripts/fresh_auth.py
 scripts/get_token.py
 scripts/refresh_token.py
 
-# Playwright
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
-
 # Railway (ADD THIS!)
 .railway/
 
