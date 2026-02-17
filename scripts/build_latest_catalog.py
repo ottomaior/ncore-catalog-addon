@@ -473,10 +473,13 @@ def main():
             print(f"  ⊘ Nem 2025/2026-os film, kihagyva (év: {year})")
             continue
         
-        # If already exists, remove from existing list (will be re-added at top)
+        # If already in catalog (from file or already added this run), move to top but do not duplicate
         if imdb_id in existing_movie_ids:
-            print(f"  ↻ Már létezik, frissítés és áthelyezés a tetejére: {imdb_id}")
-            # Remove from existing list so it moves to top
+            # Already added this run (duplicate torrent for same movie) → skip
+            if any(m['id'] == imdb_id for m in new_movie_metas):
+                print(f"  ⊘ Duplikátum torrent ugyanarra a filmre, kihagyva: {imdb_id}")
+                continue
+            print(f"  ↻ Már létezik, áthelyezés a tetejére: {imdb_id}")
             existing_movies = [m for m in existing_movies if m['id'] != imdb_id]
         
         display_title = metadata['title'] or clean_title
