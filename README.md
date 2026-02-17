@@ -7,19 +7,20 @@ Automated Hungarian content catalogs from nCore tracker for Stremio using TMDB m
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Railway-blueviolet)](https://ncore-catalog-addon-production.up.railway.app/)
 
-## 🎬 Three Addons in One Server
+## 🎬 Two Addons in One Server
 
-This project serves **three separate Stremio addons** from a single deployment:
+This project serves **two separate Stremio addons** from a single deployment:
 
 ### 📺 nCore Katalógus
 **Catalog addon** that displays Hungarian movies and series from nCore tracker.
 
-- ✅ **Catalogs:** Legfrissebb (latest movies + series), Legfrissebb Netflix (latest Netflix releases), **Legnagyobb seed (top-seeded movies + series)** + genre filtering
-- ✅ TMDB metadata with Hungarian titles and posters
-- ✅ Direct nCore → TMDB matching (no Trakt dependency)
+- ✅ **Catalogs:** 🏆 Top Seed (filmek, sorozatok, magyar filmek, magyar sorozatok) + genre filtering; ⏰ Legfrissebb (filmek 2025–2026, sorozatok); ⏰ Streaming: Netflix, HBO Max, Prime Video (legfrissebb filmek/sorozatok)
+- ✅ TMDB metadata with Hungarian titles and posters (TMDB only, no Trakt)
+- ✅ Direct nCore → TMDB matching
+- ✅ Customizable catalog selection and order on the homepage before install
 - ✅ Installation: `https://your-deployment-url/manifest.json`
 
-### 🎬 Magyar Előzetesek (Hungarian Trailers) ⭐ NEW
+### 🎬 Magyar Előzetesek (Hungarian Trailers)
 **Trailer addon** that provides Hungarian and English trailers for movies and series.
 
 - ✅ **4-stage fallback search**: TMDB hu-HU → YouTube HU → TMDB en-US → YouTube EN
@@ -59,36 +60,39 @@ Visit the deployment to see the homepage with install instructions for all three
 
 ### ⏰ Scheduled Catalog Updates
 
-The server runs catalog build scripts automatically using node-cron:
+The server runs catalog build scripts automatically using node-cron (Unix only; on Windows run scripts manually or use a scheduler):
 
-- **Latest Movies/Series**: Every 3 hours (incremental updates)
-- **Netflix Movies/Series**: Every 6 hours (incremental updates)
-- **Top-Seeded Movies/Series**: Weekly on Sunday at 03:00 (incremental updates)
+- **⏰ Latest movies/series:** Every 3 hours — `build_latest_catalog.py` (2025/2026 movies, all HD series; sports filter + episode tracking for series)
+- **⏰ Streaming (Netflix, HBO Max, Prime Video):** Every 6 hours — `build_netflix_catalog.py`, `build_hbomax_catalog.py`, `build_primevideo_catalog.py`
+- **🏆 Top-seeded + Magyar:** Weekly Sunday 03:00 — `build_most_seeded_movies_catalog.py` → `filter_hungarian_productions.py` → `build_most_seeded_series_catalog.py` → `filter_hungarian_productions_series.py`
 
-All scripts use **incremental mode** - they only fetch new torrents and merge with existing catalogs, making updates fast and efficient.
+All scripts use **incremental mode**: they fetch only new torrents and merge with existing JSON catalogs.
 
 ### Available Catalogs
 
-In Stremio Discover, you get:
+In Stremio Discover, catalog names appear as:
 
-**Movies:**
-- **nCore – Legtöbb seed – Filmek** – Top-seeded HD-HUN movies (filterable by genre in Stremio)
-- **nCore – Legfrissebb filmek (összes)** – Latest movie uploads (only 2025/2026 releases)
-- **nCore – Legfrissebb Netflix Filmek** – Latest Netflix movie releases
-- **nCore – Legtöbb seed – Magyar filmek** – Top-seeded Hungarian-produced movies
+**🏆 Top Seed**
+- 🏆 Filmek – Top-seeded HD-HUN movies (filterable by genre in Stremio)
+- 🏆 Sorozatok – Top-seeded series (filterable by genre)
+- 🏆 Magyar filmek – Top-seeded Hungarian-produced movies
+- 🏆 Magyar sorozatok – Top-seeded Hungarian-produced series
 
-**Series:**
-- **nCore – Legtöbb seed – Sorozatok** – Top-seeded series (filterable by genre in Stremio)
-- **nCore – Legfrissebb sorozatok** – Latest series uploads (all HD series)
-- **nCore – Legfrissebb Netflix Sorozatok** – Latest Netflix series releases
-- **nCore – Legtöbb seed – Magyar sorozatok** – Top-seeded Hungarian-produced series
+**⏰ Legfrissebb**
+- ⏰ Filmek – Latest movie uploads (2025/2026 only)
+- ⏰ Sorozatok – Latest series uploads (HD, sports filtered, episode tracking)
+
+**⏰ Streaming**
+- ⏰ Netflix filmek / ⏰ Netflix sorozatok – Latest .nf.1080 releases
+- ⏰ HBO Max filmek / ⏰ HBO Max sorozatok – Latest .hmax.1080 releases
+- ⏰ Prime Video filmek / ⏰ Prime Video sorozatok – Latest .amzn.1080 releases
 
 ### How it works
 
-- **Scripts:** `build_most_seeded_movies_catalog.py`, `build_most_seeded_series_catalog.py`, `build_netflix_catalog.py`
-- **Process:** Fetch torrents from nCore → Match to TMDB (get IMDB ID + metadata) → Write JSON catalogs
-- **Incremental updates:** Only fetch new items, merge with existing, keep catalogs fast and efficient
-- **Requirements:** `NCORE_USER`, `NCORE_PASS`, and `TMDB_API_KEY` in config
+- **Scripts:** `build_latest_catalog.py`, `build_netflix_catalog.py`, `build_hbomax_catalog.py`, `build_primevideo_catalog.py`, `build_most_seeded_movies_catalog.py`, `build_most_seeded_series_catalog.py`, `filter_hungarian_productions.py`, `filter_hungarian_productions_series.py`
+- **Process:** Fetch torrents from nCore (by pattern: e.g. `.nf.1080`, `.hmax.1080`, `.amzn.1080` or top-seeded) → Parse title/year → Match to TMDB (search + details → IMDB ID + metadata) → Write/merge JSON in `data/`
+- **Incremental updates:** Scripts load existing JSON, fetch only recent torrents, add new matches, merge and trim to target size
+- **Requirements:** `NCORE_USER`, `NCORE_PASS`, and `TMDB_API_KEY` in `config/config.env` (see `config/config.example.env`)
 
 ## 📋 Prerequisites
 
