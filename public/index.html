@@ -19,8 +19,8 @@
             --text-muted: #94a3b8;
             --success: #22c55e;
             --netflix: #E50914;
-            --hbo: #B07CFF;
-            --amazon: #00A8E1;
+            --max: #002BE7;
+            --disney: #113CCF;
             --topseed: #f59e0b;
             --latest: #22c55e;
         }
@@ -394,8 +394,8 @@
             flex-shrink: 0;
         }
         .provider-logo.netflix { background: var(--netflix); }
-        .provider-logo.hbo { background: var(--hbo); }
-        .provider-logo.amazon { background: var(--amazon); }
+        .provider-logo.max { background: var(--max); }
+        .provider-logo.disney { background: var(--disney); }
         .provider-name {
             font-size: 0.85rem;
             font-weight: 600;
@@ -526,6 +526,17 @@
                 ]
             },
             {
+                key: 'trending',
+                icon: '🔥',
+                iconClass: 'latest',
+                title: 'Trendi',
+                subtitle: 'Legtöbb seed az utolsó 200 feltöltésből (1080p)',
+                items: [
+                    { id: 'ncore-trending-movies', icon: '🎬', label: 'Filmek' },
+                    { id: 'ncore-trending-series', icon: '📺', label: 'Sorozatok' }
+                ]
+            },
+            {
                 key: 'latest',
                 icon: '🆕',
                 iconClass: 'latest',
@@ -547,23 +558,23 @@
                         ]
                     },
                     {
-                        key: 'hbomax',
-                        name: 'HBO Max',
-                        logoClass: 'hbo',
-                        logoText: 'H',
+                        key: 'max',
+                        name: 'Max',
+                        logoClass: 'max',
+                        logoText: 'M',
                         items: [
-                            { id: 'ncore-hbomax-movies', icon: '🎬', label: 'Filmek' },
-                            { id: 'ncore-hbomax-series', icon: '📺', label: 'Sorozatok' }
+                            { id: 'ncore-max-movies', icon: '🎬', label: 'Filmek' },
+                            { id: 'ncore-max-series', icon: '📺', label: 'Sorozatok' }
                         ]
                     },
                     {
-                        key: 'primevideo',
-                        name: 'Prime Video',
-                        logoClass: 'amazon',
-                        logoText: 'P',
+                        key: 'disneyplus',
+                        name: 'Disney+',
+                        logoClass: 'disney',
+                        logoText: 'D',
                         items: [
-                            { id: 'ncore-primevideo-movies', icon: '🎬', label: 'Filmek' },
-                            { id: 'ncore-primevideo-series', icon: '📺', label: 'Sorozatok' }
+                            { id: 'ncore-disneyplus-movies', icon: '🎬', label: 'Filmek' },
+                            { id: 'ncore-disneyplus-series', icon: '📺', label: 'Sorozatok' }
                         ]
                     }
                 ]
@@ -612,7 +623,7 @@
 
         function setPreset(preset) {
             const allIds = catalogOptions.map(c => c.id);
-            const latestIds = ['ncore-hd-movies', 'ncore-hd-series', 'ncore-netflix-movies', 'ncore-netflix-series', 'ncore-hbomax-movies', 'ncore-hbomax-series', 'ncore-primevideo-movies', 'ncore-primevideo-series'];
+            const latestIds = ['ncore-hd-movies', 'ncore-hd-series', 'ncore-netflix-movies', 'ncore-netflix-series', 'ncore-max-movies', 'ncore-max-series', 'ncore-disneyplus-movies', 'ncore-disneyplus-series'];
             const topseedIds = ['ncore-movies-top-seeded-all', 'ncore-series-top-seeded-all',
                                 'ncore-movies-top-seeded-magyar-filmek', 'ncore-series-top-seeded-magyar-sorozatok'];
             let toCheck = [];
@@ -814,7 +825,7 @@
         
         fetch('/health').then(r => r.json()).then(d => {
             const txt = document.getElementById('statusText');
-            const total = (d.hdMoviesCount || 0) + (d.hdSeriesCount || 0) + (d.topSeededByGenreCount || 0) + (d.topSeededSeriesCount || 0) + (d.netflixMoviesCount || 0) + (d.netflixSeriesCount || 0) + (d.hbomaxMoviesCount || 0) + (d.hbomaxSeriesCount || 0) + (d.primevideoMoviesCount || 0) + (d.primevideoSeriesCount || 0);
+            const total = (d.hdMoviesCount || 0) + (d.hdSeriesCount || 0) + (d.topSeededByGenreCount || 0) + (d.topSeededSeriesCount || 0) + (d.trendingMoviesCount || 0) + (d.trendingSeriesCount || 0) + (d.netflixMoviesCount || 0) + (d.netflixSeriesCount || 0) + (d.maxMoviesCount || 0) + (d.maxSeriesCount || 0) + (d.disneyplusMoviesCount || 0) + (d.disneyplusSeriesCount || 0);
             txt.textContent = 'OK · ' + total + ' elem a katalógusokban';
         }).catch(() => {
             document.querySelector('.status-dot').classList.add('off');

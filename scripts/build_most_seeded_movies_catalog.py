@@ -38,7 +38,7 @@ NCORE_USER = os.getenv('NCORE_USER', '').strip()
 NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 
 # Aim for this many torrents total; script paginates until TARGET_COUNT or no more pages.
-TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_MOVIES', '4000'))
+TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_MOVIES', '1000'))
 # When extending existing file: fetch only this many nCore pages per run (faster incremental updates).
 NCORE_PAGES_PER_RUN = int(os.getenv('NCORE_PAGES_PER_RUN', '15'))
 TMDB_DELAY = 0.4  # Delay between TMDB API calls

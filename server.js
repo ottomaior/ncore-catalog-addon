@@ -36,29 +36,37 @@ const runScript = (scriptName, label, onDone) => {
         if (typeof onDone === 'function') onDone();
     });
 };
-if (isUnix) {
-    cron.schedule('0 */3 * * *', () => { console.log('[Cron] Building latest movie/series catalogs...'); runScript('build_latest_catalog.py', 'LatestCatalog'); });
-    cron.schedule('0 */6 * * *', () => { 
-        console.log('[Cron] Building streaming provider catalogs...'); 
-        runScript('build_netflix_catalog.py', 'Netflix'); 
-        runScript('build_hbomax_catalog.py', 'HBOMax');
-        runScript('build_primevideo_catalog.py', 'PrimeVideo');
-    });
-    cron.schedule('0 3 * * 0', () => {
-        console.log('[Cron] Building top-seeded movies catalog...');
-        runScript('build_most_seeded_movies_catalog.py', 'TopSeededMovies', () => {
-            console.log('[Cron] Filtering Hungarian productions (movies)...');
-            runScript('filter_hungarian_productions.py', 'HungarianProductionsMovies', () => {
-                console.log('[Cron] Building top-seeded series catalog...');
-                runScript('build_most_seeded_series_catalog.py', 'TopSeededSeries', () => {
-                    console.log('[Cron] Filtering Hungarian productions (series)...');
-                    runScript('filter_hungarian_productions_series.py', 'HungarianProductionsSeries');
-                });
-            });
-        });
-    });
-    console.log('[Cron] Scheduler – latest catalogs: every 3h; streaming providers (Netflix+HBO Max+Prime Video): every 6h; top-seeded (movies + series + Magyar): weekly Sunday 03:00');
-}
+// Disabled: catalog builds run only via GitHub Actions. Uncomment to run schedules from this server.
+// if (isUnix) {
+//     cron.schedule('0 */3 * * *', () => {
+//         console.log('[Cron] Building latest movie/series catalogs...');
+//         runScript('build_latest_catalog.py', 'LatestCatalog', () => {
+//             console.log('[Cron] Splitting streaming catalogs by TMDB watch providers...');
+//             runScript('split_catalogs_by_provider.py', 'SplitByProvider');
+//         });
+//     });
+//     cron.schedule('0 3 * * 0', () => {
+//         console.log('[Cron] Building top-seeded movies catalog...');
+//         runScript('build_most_seeded_movies_catalog.py', 'TopSeededMovies', () => {
+//             console.log('[Cron] Filtering Hungarian productions (movies)...');
+//             runScript('filter_hungarian_productions.py', 'HungarianProductionsMovies', () => {
+//                 console.log('[Cron] Building top-seeded series catalog...');
+//                 runScript('build_most_seeded_series_catalog.py', 'TopSeededSeries', () => {
+//                     console.log('[Cron] Filtering Hungarian productions (series)...');
+//                     runScript('filter_hungarian_productions_series.py', 'HungarianProductionsSeries', () => {
+//                         console.log('[Cron] Splitting streaming catalogs by TMDB watch providers...');
+//                         runScript('split_catalogs_by_provider.py', 'SplitByProvider');
+//                     });
+//                 });
+//             });
+//         });
+//     });
+//     cron.schedule('0 */6 * * *', () => {
+//         console.log('[Cron] Building trending catalogs (HD 1080p, top seeded in last N pages)...');
+//         runScript('build_trending_catalog.py', 'TrendingCatalog');
+//     });
+//     console.log('[Cron] Scheduler – latest + split: every 3h; trending: every 6h; top-seeded + Magyar + split: weekly Sunday 03:00');
+// }
 
 // Get routers from all addons
 const catalogRouter = getRouter(catalogBuilder.getInterface());
@@ -121,11 +129,12 @@ app.post('/cron/build', (req, res) => {
         return;
     }
     res.status(202).json({ ok: true, message: 'Catalog build started' });
-    console.log('[Cron] Webhook: building catalogs');
-    runScript('build_latest_catalog.py', 'LatestCatalog');
-    runScript('build_netflix_catalog.py', 'Netflix');
-    runScript('build_hbomax_catalog.py', 'HBOMax');
-    runScript('build_primevideo_catalog.py', 'PrimeVideo');
+    console.log('[Cron] Webhook: building catalogs (latest → split by provider, then trending)');
+    runScript('build_latest_catalog.py', 'LatestCatalog', () => {
+        runScript('split_catalogs_by_provider.py', 'SplitByProvider', () => {
+            runScript('build_trending_catalog.py', 'TrendingCatalog');
+        });
+    });
 });
 
 // Serve trailer addon at /trailers

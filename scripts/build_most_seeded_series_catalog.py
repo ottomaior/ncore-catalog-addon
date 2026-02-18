@@ -1,6 +1,7 @@
 """
-Build data/most_seeded_series.json for the Stremio catalog (top seeded series by genre).
-Fetches Sorozat HD/HU (HDSER_HUN) from nCore, matches to TMDB only (no Trakt), gets genres, writes one JSON.
+Build data/most_seeded_series.json for the Stremio catalog (top seeded series).
+Fetches Sorozat HD/HU 1080p (HDSER_HUN, search "1080p" in title) from nCore, sorted by seeders,
+matches to TVDB (same parse_series_title as build_latest_catalog so TVDB gets clean show names), writes one JSON.
 - If the file already exists: fetches only NCORE_PAGES_PER_RUN pages, merges by series id,
   sorts by seed rank, trims to TARGET_COUNT (incremental, faster runs).
 - If no file: full fetch until TARGET_COUNT or no more pages.
@@ -9,6 +10,7 @@ Usage: python scripts/build_most_seeded_series_catalog.py
 Output: data/most_seeded_series.json
 """
 import re
+import sys
 import time
 import os
 import json
@@ -16,13 +18,17 @@ from pathlib import Path
 from dotenv import load_dotenv
 import requests
 
+script_dir = Path(__file__).parent.resolve()
+if str(script_dir) not in sys.path:
+    sys.path.insert(0, str(script_dir))
+from tvdb_client import search_show_on_tvdb
+
 try:
     from ncoreparser import Client, SearchParamType, ParamSort, ParamSeq
 except ImportError:
     Client = None
     SearchParamType = ParamSort = ParamSeq = None
 
-script_dir = Path(__file__).parent.resolve()
 project_root = script_dir.parent
 config_file = project_root / 'config' / 'config.env'
 data_dir = project_root / 'data'
@@ -34,105 +40,42 @@ else:
     load_dotenv()
 
 TMDB_API_KEY = os.getenv('TMDB_API_KEY')
+TVDB_API_KEY = os.getenv('TVDB_API_KEY')
+TVDB_PIN = os.getenv('TVDB_PIN', '').strip() or None
 NCORE_USER = os.getenv('NCORE_USER', '').strip()
 NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 
-TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_SERIES', '2000'))
+TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_SERIES', '1000'))
 NCORE_PAGES_PER_RUN = int(os.getenv('NCORE_PAGES_PER_RUN', '15'))
+
+# 1080p in title (Címben) – matches site: Sorozat + HD/HU + search "1080p", sort by seeders
+PATTERN_1080 = '.1080'
 
 NCORE_PAGE_DELAY = float(os.getenv('NCORE_PAGE_DELAY', '3.0'))
 NCORE_PAGE_RETRIES = int(os.getenv('NCORE_PAGE_RETRIES', '4'))
 NCORE_RETRY_WAIT = float(os.getenv('NCORE_RETRY_WAIT', '35.0'))
-TMDB_DELAY = 0.4  # Delay between TMDB API calls
-
-
-def search_show_on_tmdb(clean_title, year, tmdb_key):
-    """
-    Search for TV show on TMDB and return full metadata including IMDB ID.
-    Returns dict with all needed fields or None.
-    """
-    if not tmdb_key:
-        return None
-    
-    # Try multiple title variations
-    variations = [
-        clean_title,
-        clean_title.replace(' and ', ' & '),
-        clean_title.replace(' & ', ' and '),
-    ]
-    
-    for variation in variations:
-        try:
-            time.sleep(TMDB_DELAY)
-            # Search for TV show
-            search_url = f'https://api.themoviedb.org/3/search/tv?api_key={tmdb_key}&query={variation}&language=hu-HU'
-            if year:
-                search_url += f'&first_air_date_year={year}'
-            
-            r = requests.get(search_url, timeout=10)
-            if r.status_code != 200:
-                continue
-            
-            results = r.json().get('results', [])
-            if not results:
-                continue
-            
-            # Get first result's full details
-            tmdb_id = results[0]['id']
-            
-            time.sleep(TMDB_DELAY)
-            details_url = f'https://api.themoviedb.org/3/tv/{tmdb_id}?api_key={tmdb_key}&language=hu-HU'
-            r2 = requests.get(details_url, timeout=10)
-            if r2.status_code != 200:
-                continue
-            
-            tv_data = r2.json()
-            
-            # Get IMDB ID from external_ids endpoint
-            time.sleep(TMDB_DELAY)
-            external_url = f'https://api.themoviedb.org/3/tv/{tmdb_id}/external_ids?api_key={tmdb_key}'
-            r3 = requests.get(external_url, timeout=10)
-            if r3.status_code != 200:
-                continue
-            
-            external_data = r3.json()
-            imdb_id = external_data.get('imdb_id')  # ← IMDB ID here!
-            
-            if not imdb_id:
-                continue
-            
-            # Return all data in one go
-            return {
-                'imdb_id': imdb_id,
-                'title': tv_data.get('name'),
-                'poster_path': tv_data.get('poster_path'),
-                'genres': [g['name'] for g in tv_data.get('genres', [])],
-                'description': tv_data.get('overview', ''),
-                'year': int(tv_data.get('first_air_date', '')[:4]) if tv_data.get('first_air_date') else None,
-                'rating': tv_data.get('vote_average')
-            }
-        except Exception as e:
-            continue
-    
-    return None
 
 
 def parse_series_title(title):
-    """Extract clean show name and optional year from nCore torrent title (e.g. Show.Name.S01E05.720p...)."""
+    """
+    Same as build_latest_catalog: extract clean show name and year by cutting at
+    first year, or first S01/E01/1080p/WEB-DL/etc. So TVDB gets "Fallout" not "Fallout S02 AMZN WEB DL".
+    """
     title = (title or '').strip()
-    # Remove S01E05-style and quality/resolution
-    t = re.sub(r'[.\s-]s\d{1,2}e\d{1,2}.*$', '', title, flags=re.IGNORECASE)
-    t = re.sub(r'[.\s-]s\d{1,2}[\s.]*$', '', t, flags=re.IGNORECASE)
-    t = re.sub(r'\d{3,4}p|\d{3,4}x\d{3,4}|bluray|web-?dl|hdtv|hdrip', '', t, flags=re.IGNORECASE)
-    year_match = re.search(r'\.(\d{4})\.', t)
+    year_match = re.search(r'\.(\d{4})\.', title)
     year = year_match.group(1) if year_match else None
-    clean = t[:year_match.start()] if year_match else t
+    if year_match:
+        clean = title[:year_match.start()]
+    else:
+        cut_pattern = re.search(
+            r'[\s.](S\d+|E\d+|\d{3,4}[pi]|WEB-?DL|HDTV|BluRay|BRRip|DVDRip|PROPER|REPACK|AAC|DD\+?|DV|HDR|H\.26[45])',
+            title,
+            re.IGNORECASE,
+        )
+        clean = title[:cut_pattern.start()] if cut_pattern else title
     clean = clean.replace('.', ' ').strip()
     clean = ' '.join(clean.split())
-    if not clean:
-        clean = t.replace('.', ' ').strip()
-        clean = ' '.join(clean.split())
-    return clean or t, year
+    return clean or title, year
 
 
 
@@ -154,7 +97,7 @@ def load_existing_metas():
 
 
 def fetch_all_hd_hun_series(client, max_pages=None):
-    """Fetch Sorozat HD/HU (HDSER_HUN) from nCore, sorted by seeders."""
+    """Fetch Sorozat HD/HU 1080p (HDSER_HUN, pattern 1080p) from nCore, sorted by seeders."""
     if not hasattr(SearchParamType, 'HDSER_HUN'):
         return []
     all_torrents = []
@@ -167,7 +110,7 @@ def fetch_all_hd_hun_series(client, max_pages=None):
         for attempt in range(1, NCORE_PAGE_RETRIES + 1):
             try:
                 result = client.search(
-                    pattern='',
+                    pattern=PATTERN_1080,
                     type=SearchParamType.HDSER_HUN,
                     sort_by=ParamSort.SEEDERS,
                     sort_order=ParamSeq.DECREASING,
@@ -217,6 +160,9 @@ def main():
     if not TMDB_API_KEY:
         print('\n✗ TMDB_API_KEY hiányzik.')
         exit(1)
+    if not TVDB_API_KEY:
+        print('\n✗ TVDB_API_KEY hiányzik (TVDB a sorozatokhoz).')
+        exit(1)
     if not Client or not SearchParamType:
         print('\n✗ pip install ncoreparser')
         exit(1)
@@ -239,11 +185,11 @@ def main():
     incremental = len(existing_list) > 0
     max_pages = NCORE_PAGES_PER_RUN if incremental else None
 
-    print('Sorozat HD/HU lekérése (seed szerint)...')
+    print('Sorozat HD/HU 1080p lekérése (seed szerint)...')
     if incremental:
         print(f'  Növekményes frissítés: max {NCORE_PAGES_PER_RUN} oldal, majd egyesítés a meglévő {len(existing_list)} elemmel.')
     else:
-        print(f'  Cél: {TARGET_COUNT} torrent, oldalak között {NCORE_PAGE_DELAY}s várakozás.')
+        print(f'  Cél: {TARGET_COUNT} torrent (1080p címben), oldalak között {NCORE_PAGE_DELAY}s várakozás.')
     torrents = fetch_all_hd_hun_series(client, max_pages=max_pages)
     client.logout()
     print(f'  {len(torrents)} torrent')
@@ -251,14 +197,25 @@ def main():
     def _seeders_from_torrent(t):
         try:
             if isinstance(t, dict):
-                return int(t.get('seeders') or t.get('seed_count') or 0)
-            return int(getattr(t, 'seeders', None) or getattr(t, 'seed_count', None) or 0)
+                return int(t.get('seeders') or t.get('seed_count') or t.get('seed') or 0)
+            return int(
+                getattr(t, 'seeders', None)
+                or getattr(t, 'seed_count', None)
+                or getattr(t, 'seed', None)
+                or 0
+            )
         except (TypeError, ValueError):
             return 0
 
     new_metas = []
     seen_imdb = set()
+    # Cache TVDB lookups by (clean_title, year) – many torrents are same show, different episodes
+    tvdb_cache = {}
+    total = len(torrents)
     for i, t in enumerate(torrents):
+        # Progress every 25 torrents so user sees we're not stuck
+        if (i + 1) % 25 == 0 or i == 0:
+            print(f'  Torrent {i + 1}/{total} … ({len(new_metas)} sorozat eddig)')
         try:
             if isinstance(t, dict):
                 title = (t.get('title') or '').strip()
@@ -269,9 +226,12 @@ def main():
         if not title:
             continue
         clean, year = parse_series_title(title)
-        
-        # Search on TMDB (gets IMDB ID + all metadata in one go)
-        metadata = search_show_on_tmdb(clean, year, TMDB_API_KEY)
+        cache_key = (clean.strip().lower(), year)
+        if cache_key in tvdb_cache:
+            metadata = tvdb_cache[cache_key]
+        else:
+            metadata = search_show_on_tvdb(clean, year, TVDB_API_KEY, TVDB_PIN, TMDB_API_KEY)
+            tvdb_cache[cache_key] = metadata
         if not metadata:
             continue
         
@@ -283,14 +243,17 @@ def main():
             continue
         seen_imdb.add(imdb)
         
-        # Get data from TMDB metadata
-        name = metadata['title'] or clean
-        poster_path = metadata['poster_path']
-        poster = f'https://image.tmdb.org/t/p/w500{poster_path}' if poster_path else f'https://images.metahub.space/poster/small/{imdb}/img'
-        genres = metadata['genres']
-        description = metadata['description'] or 'Magyar HD sorozat – nCore legnagyobb seed.'
-        year_val = metadata['year']
-        rating = metadata['rating']
+        # Get data from TVDB metadata (same shape as build_latest_catalog)
+        name = metadata.get('title') or clean
+        poster_path = metadata.get('poster_path')
+        if poster_path and poster_path.startswith('http'):
+            poster = poster_path
+        else:
+            poster = f'https://image.tmdb.org/t/p/w500{poster_path}' if poster_path else f'https://images.metahub.space/poster/small/{imdb}/img'
+        genres = metadata.get('genres') or []
+        description = metadata.get('description') or 'Magyar HD sorozat – nCore legnagyobb seed.'
+        year_val = metadata.get('year')
+        rating = metadata.get('rating')
         
         imdb_clean = imdb.replace('tt', '')
         seeders = _seeders_from_torrent(t)

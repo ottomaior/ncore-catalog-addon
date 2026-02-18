@@ -8,6 +8,7 @@ Usage: python scripts/build_latest_catalog.py
 Output: data/hd_movies.json, data/hd_series.json
 """
 import re
+import sys
 import time
 import os
 import json
@@ -15,13 +16,17 @@ from pathlib import Path
 from dotenv import load_dotenv
 import requests
 
+script_dir = Path(__file__).parent.resolve()
+if str(script_dir) not in sys.path:
+    sys.path.insert(0, str(script_dir))
+from tvdb_client import search_show_on_tvdb
+
 try:
     from ncoreparser import Client, SearchParamType, ParamSort, ParamSeq
 except ImportError:
     Client = None
     SearchParamType = ParamSort = ParamSeq = None
 
-script_dir = Path(__file__).parent.resolve()
 project_root = script_dir.parent
 config_file = project_root / 'config' / 'config.env'
 data_dir = project_root / 'data'
@@ -34,18 +39,20 @@ else:
     load_dotenv()
 
 TMDB_API_KEY = os.getenv('TMDB_API_KEY')
+TVDB_API_KEY = os.getenv('TVDB_API_KEY')
+TVDB_PIN = os.getenv('TVDB_PIN', '').strip() or None
 NCORE_USER = os.getenv('NCORE_USER', '').strip()
 NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 
-# Fetch 100 latest HD items
-TARGET_COUNT = 100
+# Big catalog size (Legfrissebb); streaming catalogs are split from this via split_catalogs_by_provider.py
+TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_LATEST', '2000'))
 NCORE_PAGE_DELAY = 2.0
 NCORE_RETRY_WAIT = 10.0
 NCORE_PAGE_RETRIES = 3
 TMDB_DELAY = 0.4  # Delay between TMDB API calls
 
 # Incremental mode: only fetch this many new torrents when catalog already exists (faster updates)
-INCREMENTAL_TORRENT_COUNT = 50
+INCREMENTAL_TORRENT_COUNT = int(os.getenv('NCORE_INCREMENTAL_TORRENT_COUNT', '100'))
 
 
 def load_existing_movies():
@@ -129,77 +136,6 @@ def search_movie_on_tmdb(clean_title, year, tmdb_key):
                 'description': movie_data.get('overview', ''),
                 'year': int(movie_data.get('release_date', '')[:4]) if movie_data.get('release_date') else None,
                 'rating': movie_data.get('vote_average')
-            }
-        except Exception as e:
-            continue
-    
-    return None
-
-
-def search_show_on_tmdb(clean_title, year, tmdb_key):
-    """
-    Search for TV show on TMDB and return full metadata including IMDB ID.
-    Returns dict with all needed fields or None.
-    """
-    if not tmdb_key:
-        return None
-    
-    # Try multiple title variations
-    variations = [
-        clean_title,
-        clean_title.replace(' and ', ' & '),
-        clean_title.replace(' & ', ' and '),
-    ]
-    
-    for variation in variations:
-        try:
-            time.sleep(TMDB_DELAY)
-            # Search for TV show
-            search_url = f'https://api.themoviedb.org/3/search/tv?api_key={tmdb_key}&query={variation}&language=hu-HU'
-            if year:
-                search_url += f'&first_air_date_year={year}'
-            
-            r = requests.get(search_url, timeout=10)
-            if r.status_code != 200:
-                continue
-            
-            results = r.json().get('results', [])
-            if not results:
-                continue
-            
-            # Get first result's full details
-            tmdb_id = results[0]['id']
-            
-            time.sleep(TMDB_DELAY)
-            details_url = f'https://api.themoviedb.org/3/tv/{tmdb_id}?api_key={tmdb_key}&language=hu-HU'
-            r2 = requests.get(details_url, timeout=10)
-            if r2.status_code != 200:
-                continue
-            
-            tv_data = r2.json()
-            
-            # Get IMDB ID from external_ids endpoint
-            time.sleep(TMDB_DELAY)
-            external_url = f'https://api.themoviedb.org/3/tv/{tmdb_id}/external_ids?api_key={tmdb_key}'
-            r3 = requests.get(external_url, timeout=10)
-            if r3.status_code != 200:
-                continue
-            
-            external_data = r3.json()
-            imdb_id = external_data.get('imdb_id')  # ← IMDB ID here!
-            
-            if not imdb_id:
-                continue
-            
-            # Return all data in one go
-            return {
-                'imdb_id': imdb_id,
-                'title': tv_data.get('name'),
-                'poster_path': tv_data.get('poster_path'),
-                'genres': [g['name'] for g in tv_data.get('genres', [])],
-                'description': tv_data.get('overview', ''),
-                'year': int(tv_data.get('first_air_date', '')[:4]) if tv_data.get('first_air_date') else None,
-                'rating': tv_data.get('vote_average')
             }
         except Exception as e:
             continue
@@ -561,10 +497,10 @@ def main():
         new_season, new_episode, episode_string = extract_episode_info(title)
         print(f"  → Clean: {clean_title}, Episode: {episode_string or 'N/A'}, Year: {year}")
         
-        # Search on TMDB (gets IMDB ID + all metadata in one go)
-        metadata = search_show_on_tmdb(clean_title, year, TMDB_API_KEY)
+        # Search on TVDB for series (gets IMDB ID + all metadata)
+        metadata = search_show_on_tvdb(clean_title, year, TVDB_API_KEY, TVDB_PIN, TMDB_API_KEY)
         if not metadata:
-            print("  ⚠ Nincs TMDB találat, kihagyva")
+            print("  ⚠ Nincs TVDB találat, kihagyva")
             continue
         
         imdb_id = metadata['imdb_id']
@@ -608,7 +544,10 @@ def main():
             display_title = f"{display_title} ({episode_string})"
         
         poster_path = metadata['poster_path']
-        display_poster = f'https://image.tmdb.org/t/p/w500{poster_path}' if poster_path else f"https://images.metahub.space/poster/small/{imdb_id}/img"
+        if poster_path and poster_path.startswith('http'):
+            display_poster = poster_path
+        else:
+            display_poster = f'https://image.tmdb.org/t/p/w500{poster_path}' if poster_path else f"https://images.metahub.space/poster/small/{imdb_id}/img"
         genres_list = metadata['genres']
         description = metadata['description'] or 'Magyar HD sorozat – nCore legfrissebb feltöltés.'
         
@@ -619,7 +558,7 @@ def main():
         year_val = metadata['year']
         rating = metadata['rating']
         
-        print(f"  ✓ TMDB: {display_title} ({year_val}) - {imdb_id}")
+        print(f"  ✓ TVDB: {display_title} ({year_val}) - {imdb_id}")
 
         new_series_metas.append({
             'id': imdb_id,

@@ -1,6 +1,6 @@
 # 🇭🇺 nCore Stremio Addons
 
-Automated Hungarian content catalogs from nCore tracker for Stremio using TMDB metadata.
+Automated Hungarian content catalogs from nCore tracker for Stremio. **Series** use TVDB metadata; **movies** and Hungarian filters use TMDB.
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Node.js](https://img.shields.io/badge/node.js-18+-green.svg)
@@ -14,9 +14,9 @@ This project serves **two separate Stremio addons** from a single deployment:
 ### 📺 nCore Katalógus
 **Catalog addon** that displays Hungarian movies and series from nCore tracker.
 
-- ✅ **Catalogs:** 🏆 Top Seed (filmek, sorozatok, magyar filmek, magyar sorozatok) + genre filtering; ⏰ Legfrissebb (filmek 2025–2026, sorozatok); ⏰ Streaming: Netflix, HBO Max, Prime Video (legfrissebb filmek/sorozatok)
-- ✅ TMDB metadata with Hungarian titles and posters (TMDB only, no Trakt)
-- ✅ Direct nCore → TMDB matching
+- ✅ **Catalogs:** 🏆 Top Seed (filmek, sorozatok, magyar filmek, magyar sorozatok) + genre filtering; ⏰ Legfrissebb (filmek 2025–2026, sorozatok); ⏰ Streaming: Netflix, Max, Disney+ (legfrissebb filmek/sorozatok)
+- ✅ TVDB for series, TMDB for movies (no Trakt)
+- ✅ Direct nCore → TVDB/TMDB matching
 - ✅ Customizable catalog selection and order on the homepage before install
 - ✅ Installation: `https://your-deployment-url/manifest.json`
 
@@ -46,7 +46,7 @@ Visit the deployment to see the homepage with install instructions for all three
 ### Backend Automation
 - 🔄 **nCore Direct Scraping** - Fetches content directly from nCore tracker using ncoreparser
 - 🎯 **Smart Title Matching** - Year extraction, title cleaning, multiple variations
-- 📊 **TMDB Metadata** - Direct TMDB API integration for accurate metadata and genres
+- 📊 **TVDB/TMDB Metadata** - Series: TVDB API; movies and Hungarian filter: TMDB API
 - ⏰ **Scheduled Updates** - Automated catalog building with incremental updates
 - 🔒 **Duplicate Prevention** - Efficient incremental updates avoid re-processing existing items
 - 📝 **Episode Tracking** - Monitors latest series uploads with dates
@@ -62,11 +62,10 @@ Visit the deployment to see the homepage with install instructions for all three
 
 The server runs catalog build scripts automatically using node-cron (Unix only; on Windows run scripts manually or use a scheduler):
 
-- **⏰ Latest movies/series:** Every 3 hours — `build_latest_catalog.py` (2025/2026 movies, all HD series; sports filter + episode tracking for series)
-- **⏰ Streaming (Netflix, HBO Max, Prime Video):** Every 6 hours — `build_netflix_catalog.py`, `build_hbomax_catalog.py`, `build_primevideo_catalog.py`
-- **🏆 Top-seeded + Magyar:** Weekly Sunday 03:00 — `build_most_seeded_movies_catalog.py` → `filter_hungarian_productions.py` → `build_most_seeded_series_catalog.py` → `filter_hungarian_productions_series.py`
+- **⏰ Latest + streaming split:** Every 3 hours — `build_latest_catalog.py` (big HD movies/series, ~2000 items) then `split_catalogs_by_provider.py` (splits into Netflix, Max, Disney+ JSONs using TMDB watch providers for Hungary).
+- **🏆 Top-seeded + Magyar + streaming split:** Weekly Sunday 03:00 — `build_most_seeded_movies_catalog.py` → `filter_hungarian_productions.py` → `build_most_seeded_series_catalog.py` → `filter_hungarian_productions_series.py` → `split_catalogs_by_provider.py`.
 
-All scripts use **incremental mode**: they fetch only new torrents and merge with existing JSON catalogs.
+Streaming catalogs (Netflix, Max, Disney+) are **not** built from nCore tags; they are derived from the big catalogs by TMDB “where to watch” (JustWatch) so only titles that are actually on that provider in HU appear.
 
 ### Available Catalogs
 
@@ -83,23 +82,24 @@ In Stremio Discover, catalog names appear as:
 - ⏰ Sorozatok – Latest series uploads (HD, sports filtered, episode tracking)
 
 **⏰ Streaming**
-- ⏰ Netflix filmek / ⏰ Netflix sorozatok – Latest .nf.1080 releases
-- ⏰ HBO Max filmek / ⏰ HBO Max sorozatok – Latest .hmax.1080 releases
-- ⏰ Prime Video filmek / ⏰ Prime Video sorozatok – Latest .amzn.1080 releases
+- ⏰ Netflix filmek / ⏰ Netflix sorozatok – Titles on Netflix in Hungary (from TMDB watch providers)
+- ⏰ Max filmek / ⏰ Max sorozatok – Titles on Max in Hungary (TMDB provider Max)
+- ⏰ Disney+ filmek / ⏰ Disney+ sorozatok – Titles on Disney+ in Hungary
 
 ### How it works
 
-- **Scripts:** `build_latest_catalog.py`, `build_netflix_catalog.py`, `build_hbomax_catalog.py`, `build_primevideo_catalog.py`, `build_most_seeded_movies_catalog.py`, `build_most_seeded_series_catalog.py`, `filter_hungarian_productions.py`, `filter_hungarian_productions_series.py`
-- **Process:** Fetch torrents from nCore (by pattern: e.g. `.nf.1080`, `.hmax.1080`, `.amzn.1080` or top-seeded) → Parse title/year → Match to TMDB (search + details → IMDB ID + metadata) → Write/merge JSON in `data/`
-- **Incremental updates:** Scripts load existing JSON, fetch only recent torrents, add new matches, merge and trim to target size
-- **Requirements:** `NCORE_USER`, `NCORE_PASS`, and `TMDB_API_KEY` in `config/config.env` (see `config/config.example.env`)
+- **Big catalogs:** `build_latest_catalog.py` (hd_movies, hd_series, ~2000 each), `build_most_seeded_movies_catalog.py`, `build_most_seeded_series_catalog.py` (top-seeded). **Series:** match to TVDB → IMDB + metadata; **Movies:** match to TMDB. Hungarian filter scripts produce Magyar filmek/sorozatok from most_seeded.
+- **Streaming split:** `split_catalogs_by_provider.py` reads hd_* JSONs, calls TMDB watch/providers (HU) per title, and writes netflix_*, max_*, disneyplus_* so only titles that are on that provider in Hungary appear. Data source: JustWatch (attribution required).
+- **Incremental:** build_latest and most_seeded load existing JSON, fetch new torrents, merge and trim.
+- **Requirements:** `NCORE_USER`, `NCORE_PASS`, `TMDB_API_KEY`, and `TVDB_API_KEY` in `config/config.env` (see `config/config.example.env`). Optional: `TVDB_PIN` for user-supported TVDB keys.
 
 ## 📋 Prerequisites
 
 - Python 3.8+
 - Node.js 18+
 - nCore.pro account
-- TMDB API key ([Get here](https://www.themoviedb.org/settings/api))
+- TMDB API key ([Get here](https://www.themoviedb.org/settings/api)) — for movies and Hungarian filter
+- TVDB API key ([Get here](https://thetvdb.com/dashboard)) — for series catalogs (optional PIN if user-supported key)
 
 ## 🛠️ Installation
 

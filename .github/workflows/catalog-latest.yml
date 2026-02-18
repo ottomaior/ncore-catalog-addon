@@ -31,6 +31,8 @@ jobs:
           NCORE_USER: ${{ secrets.NCORE_USER }}
           NCORE_PASS: ${{ secrets.NCORE_PASS }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TVDB_API_KEY: ${{ secrets.TVDB_API_KEY }}
+          TVDB_PIN: ${{ secrets.TVDB_PIN }}
         run: python scripts/build_latest_catalog.py
 
       - name: Commit and push data

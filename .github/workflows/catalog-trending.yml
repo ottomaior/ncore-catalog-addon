@@ -1,17 +1,16 @@
-# Streaming provider catalogs (split from hd_movies/hd_series) – every 6 hours.
-# Requires: hd_movies.json, hd_series.json (from Catalog – Latest workflow). Pushes data → Railway auto-deploys.
-name: Catalog – Streaming (6h)
+# Trending (top 30 by seeders from latest 200 uploads) – every 6 hours. Pushes data → Railway auto-deploys.
+name: Catalog – Trending (6h)
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '30 */6 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build-streaming:
+  build-trending:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,23 +24,25 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests python-dotenv
+        run: pip install ncoreparser requests python-dotenv
 
-      - name: Run split_catalogs_by_provider.py
+      - name: Run build_trending_catalog.py
         env:
+          NCORE_USER: ${{ secrets.NCORE_USER }}
+          NCORE_PASS: ${{ secrets.NCORE_PASS }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: python scripts/split_catalogs_by_provider.py
+          TVDB_API_KEY: ${{ secrets.TVDB_API_KEY }}
+          TVDB_PIN: ${{ secrets.TVDB_PIN }}
+        run: python scripts/build_trending_catalog.py
 
       - name: Commit and push data
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/netflix_movies.json data/netflix_series.json \
-                  data/max_movies.json data/max_series.json \
-                  data/disneyplus_movies.json data/disneyplus_series.json 2>/dev/null || true
+          git add data/trending_movies.json data/trending_series.json 2>/dev/null || true
           git status
           if ! git diff --staged --quiet 2>/dev/null; then
-            git commit -m "chore(data): update streaming catalogs (Netflix, Max, Disney+)"
+            git commit -m "chore(data): update trending catalog (top 30 from latest 200)"
             git push
           fi

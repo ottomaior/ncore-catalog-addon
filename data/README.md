@@ -1,39 +1,41 @@
 # Catalog data (generated)
 
-This folder holds JSON files built by scheduled scripts. All scripts use **TMDB** for metadata (no Trakt).
+This folder holds JSON files built by scheduled scripts. **Series** use **TVDB** for metadata; **movies** and Hungarian filter use **TMDB**. **Streaming** catalogs (Netflix, HBO Max, Prime Video) are split from the big catalogs using **TMDB watch providers** (JustWatch data, Hungary).
 
-**Movies**
-- **`hd_movies.json`** – Built **every 3 hours** by `build_latest_catalog.py`. Latest HD movies from nCore, **only 2025/2026 releases** (incremental updates).
-- **`most_seeded_movies.json`** – Built **weekly** (Sunday 03:00) by `build_most_seeded_movies_catalog.py`. Top-seeded HD movies with genre filtering.
-- **`most_seeded_hungarian_productions_movies.json`** – Built **weekly** by `filter_hungarian_productions.py` (filters movies produced in Hungary).
-- **`netflix_movies.json`** – Built **every 6 hours** by `build_netflix_catalog.py`. Latest 100 Netflix movies (.nf.1080) from nCore (incremental updates).
-- **`hbomax_movies.json`** – Built **every 6 hours** by `build_hbomax_catalog.py`. Latest 100 HBO Max movies (.hmax.1080) from nCore (incremental updates).
-- **`primevideo_movies.json`** – Built **every 6 hours** by `build_primevideo_catalog.py`. Latest 100 Prime Video movies (.amzn.1080) from nCore (incremental updates).
+**Structure (matches Stremio catalog types)**
 
-**Series**
-- **`hd_series.json`** – Built **every 3 hours** by `build_latest_catalog.py`. Latest HD series from nCore, all uploads (incremental updates).
-- **`most_seeded_series.json`** – Built **weekly** (Sunday 03:00) by `build_most_seeded_series_catalog.py`. Top-seeded HD series with genre filtering.
-- **`most_seeded_hungarian_productions_series.json`** – Built **weekly** by `filter_hungarian_productions_series.py` (filters series produced in Hungary).
-- **`netflix_series.json`** – Built **every 6 hours** by `build_netflix_catalog.py`. Latest 100 Netflix series (.nf.1080) from nCore (incremental updates).
-- **`hbomax_series.json`** – Built **every 6 hours** by `build_hbomax_catalog.py`. Latest 100 HBO Max series (.hmax.1080) from nCore (incremental updates).
-- **`primevideo_series.json`** – Built **every 6 hours** by `build_primevideo_catalog.py`. Latest 100 Prime Video series (.amzn.1080) from nCore (incremental updates).
+**🏆 Top Seed**
+- **`most_seeded_movies.json`** – Built weekly by `build_most_seeded_movies_catalog.py`. Top-seeded HD movies (genre filter).
+- **`most_seeded_series.json`** – Built weekly by `build_most_seeded_series_catalog.py`. Top-seeded HD/HU 1080p series (HDSER_HUN, search 1080p in title, sort by seeders).
+- **`most_seeded_hungarian_productions_movies.json`** – Built weekly by `filter_hungarian_productions.py` (Hungarian-produced movies).
+- **`most_seeded_hungarian_productions_series.json`** – Built weekly by `filter_hungarian_productions_series.py` (Hungarian-produced series).
 
-Run manually:
+**🔥 Trendi (top seeded from last 200 uploads, 1080p)**
+- **`trending_movies.json`** – Built every 6 hours by `build_trending_catalog.py`. Last 200 HD_HUN 1080p by upload, then top 30 by seeders (proper order).
+- **`trending_series.json`** – Same, HDSER_HUN 1080p, top 30 series.
+
+**⏰ Legfrissebb**
+- **`hd_movies.json`** – Built every 3 hours by `build_latest_catalog.py`. Latest HD movies (2025/2026), big catalog (~2000).
+- **`hd_series.json`** – Built every 3 hours by `build_latest_catalog.py`. Latest HD series, big catalog (~2000).
+
+**⏰ STREAMING (split by TMDB watch providers, HU; only latest uploads)**
+- **`netflix_movies.json`**, **`netflix_series.json`** – Filled by `split_catalogs_by_provider.py` from `hd_movies.json` + `hd_series.json` (only items where TMDB says Netflix in Hungary).
+- **`max_movies.json`**, **`max_series.json`** – Same, TMDB Max (provider 387) in HU.
+- **`disneyplus_movies.json`**, **`disneyplus_series.json`** – Same, TMDB Disney+ in HU.
+
+Run manually (regenerate all):
 
 ```bash
-# Latest HD catalogs (every 3 hours)
+# 1. Big catalogs (Legfrissebb + Top Seed sources)
+python scripts/build_trending_catalog.py   # optional: trending (50 movies + 50 series)
 python scripts/build_latest_catalog.py
-
-# Top seeded catalogs (weekly)
 python scripts/build_most_seeded_movies_catalog.py
 python scripts/filter_hungarian_productions.py
 python scripts/build_most_seeded_series_catalog.py
 python scripts/filter_hungarian_productions_series.py
 
-# Streaming provider catalogs (every 6 hours)
-python scripts/build_netflix_catalog.py
-python scripts/build_hbomax_catalog.py
-python scripts/build_primevideo_catalog.py
+# 2. Split into streaming provider JSONs (TMDB watch providers)
+python scripts/split_catalogs_by_provider.py
 ```
 
-Files are not committed (see `.gitignore`). On first run or after deploy, run the scripts once or wait for the scheduled cron.
+Files are not committed (see `.gitignore`). On first run or after deploy, run the scripts in order or wait for cron.

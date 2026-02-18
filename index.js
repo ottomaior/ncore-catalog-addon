@@ -8,6 +8,9 @@ const path = require('path');
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 
+// Delay (ms) before answering series meta so our response can arrive after Cinemeta (best effort)
+const SERIES_META_DELAY_MS = 2500;
+
 // Path to episode tracker
 const EPISODE_TRACKER_PATH = path.join(__dirname, 'scripts', 'series_episodes_seen.json');
 // Path to most-seeded movies catalog (built weekly; script extends existing file incrementally)
@@ -22,18 +25,20 @@ const MOST_SEEDED_HUNGARIAN_PRODUCTIONS_SERIES_PATH = path.join(__dirname, 'data
 const NETFLIX_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'netflix_movies.json');
 // Path to Netflix series catalog
 const NETFLIX_SERIES_DATA_PATH = path.join(__dirname, 'data', 'netflix_series.json');
-// Path to HBO Max movies catalog
-const HBOMAX_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'hbomax_movies.json');
-// Path to HBO Max series catalog
-const HBOMAX_SERIES_DATA_PATH = path.join(__dirname, 'data', 'hbomax_series.json');
-// Path to Prime Video movies catalog
-const PRIMEVIDEO_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'primevideo_movies.json');
-// Path to Prime Video series catalog
-const PRIMEVIDEO_SERIES_DATA_PATH = path.join(__dirname, 'data', 'primevideo_series.json');
+// Path to Max movies/series (split by provider; TMDB provider "Max" 387)
+const MAX_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'max_movies.json');
+const MAX_SERIES_DATA_PATH = path.join(__dirname, 'data', 'max_series.json');
+// Path to Disney+ movies/series (split by provider)
+const DISNEYPLUS_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'disneyplus_movies.json');
+const DISNEYPLUS_SERIES_DATA_PATH = path.join(__dirname, 'data', 'disneyplus_series.json');
 // Path to latest HD movies catalog
 const HD_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'hd_movies.json');
 // Path to latest HD series catalog
 const HD_SERIES_DATA_PATH = path.join(__dirname, 'data', 'hd_series.json');
+// Path to trending movies (most seeded in last N pages, 1080p HD_HUN)
+const TRENDING_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'trending_movies.json');
+// Path to trending series (most seeded in last N pages, 1080p HDSER_HUN)
+const TRENDING_SERIES_DATA_PATH = path.join(__dirname, 'data', 'trending_series.json');
 
 // Genres that get their own "Top seeded" catalog (slug -> display label)
 const TOP_SEEDED_GENRE_CATALOGS = [
@@ -145,7 +150,10 @@ const manifest = {
     version: '1.2.0',
     name: 'nCore – Legfrissebb Feltöltések (HU)',
     description: 'Utoljára feltöltött magyar nyelvű filmek és sorozatok az nCore trackerről',
-    resources: ['catalog', 'meta'],
+    resources: [
+        'catalog',
+        { name: 'meta', types: ['movie', 'series'], idPrefixes: ['tt'] }
+    ],
     types: ["movie", "series"],
     catalogs: [
         {
@@ -165,6 +173,18 @@ const manifest = {
                 { name: "skip", isRequired: false },
                 { name: "genre", isRequired: false, options: ["Comedy", "Action", "War", "Drama", "Thriller", "Horror", "Romance", "Science Fiction", "Animation", "Crime", "Documentary", "Adventure", "Fantasy", "Mystery"] }
             ]
+        },
+        {
+            id: "ncore-trending-movies",
+            type: "movie",
+            name: "🔥 Filmek",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        {
+            id: "ncore-trending-series",
+            type: "series",
+            name: "🔥 Sorozatok",
+            extra: [{ name: "skip", isRequired: false }]
         },
         {
             id: "ncore-hd-movies",
@@ -201,27 +221,27 @@ const manifest = {
             extra: [{ name: "skip", isRequired: false }]
         },
         {
-            id: "ncore-hbomax-movies",
+            id: "ncore-max-movies",
             type: "movie",
-            name: "⏰ HBO Max filmek",
+            name: "⏰ Max filmek",
             extra: [{ name: "skip", isRequired: false }]
         },
         {
-            id: "ncore-hbomax-series",
+            id: "ncore-max-series",
             type: "series",
-            name: "⏰ HBO Max sorozatok",
+            name: "⏰ Max sorozatok",
             extra: [{ name: "skip", isRequired: false }]
         },
         {
-            id: "ncore-primevideo-movies",
+            id: "ncore-disneyplus-movies",
             type: "movie",
-            name: "⏰ Prime Video filmek",
+            name: "⏰ Disney+ filmek",
             extra: [{ name: "skip", isRequired: false }]
         },
         {
-            id: "ncore-primevideo-series",
+            id: "ncore-disneyplus-series",
             type: "series",
-            name: "⏰ Prime Video sorozatok",
+            name: "⏰ Disney+ sorozatok",
             extra: [{ name: "skip", isRequired: false }]
         },
         {
@@ -260,19 +280,71 @@ let netflixMoviesList = [];
 let netflixMoviesLoadedAt = null;
 let netflixSeriesList = [];
 let netflixSeriesLoadedAt = null;
-let hbomaxMoviesList = [];
-let hbomaxMoviesLoadedAt = null;
-let hbomaxSeriesList = [];
-let hbomaxSeriesLoadedAt = null;
-let primevideoMoviesList = [];
-let primevideoMoviesLoadedAt = null;
-let primevideoSeriesList = [];
-let primevideoSeriesLoadedAt = null;
+let maxMoviesList = [];
+let maxMoviesLoadedAt = null;
+let maxSeriesList = [];
+let maxSeriesLoadedAt = null;
+let disneyplusMoviesList = [];
+let disneyplusMoviesLoadedAt = null;
+let disneyplusSeriesList = [];
+let disneyplusSeriesLoadedAt = null;
+let trendingMoviesList = [];
+let trendingMoviesLoadedAt = null;
+let trendingSeriesList = [];
+let trendingSeriesLoadedAt = null;
 const CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 const TOP_SEEDED_CATALOG_TTL = 3 * 24 * 60 * 60 * 1000; // 3 days
 const NETFLIX_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
-const HBOMAX_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
-const PRIMEVIDEO_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
+const MAX_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
+const STREAMING_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours (Disney+)
+
+// Cache for series episode list (videos) from TMDB – so Stremio shows season/episode picker
+const SERIES_VIDEOS_CACHE = new Map();
+const SERIES_VIDEOS_CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
+
+async function getSeriesVideosFromTMDB(imdbId) {
+    if (!TMDB_API_KEY || !imdbId) return null;
+    const idNorm = String(imdbId).trim();
+    const cached = SERIES_VIDEOS_CACHE.get(idNorm);
+    if (cached && Date.now() - cached.at < SERIES_VIDEOS_CACHE_TTL) return cached.videos;
+    try {
+        const findRes = await axios.get(`${TMDB_BASE_URL}/find/${idNorm}`, {
+            params: { api_key: TMDB_API_KEY, external_source: 'imdb_id' },
+            timeout: 10000
+        });
+        const tvResults = findRes.data.tv_results || [];
+        if (tvResults.length === 0) return null;
+        const tmdbId = tvResults[0].id;
+        const tvRes = await axios.get(`${TMDB_BASE_URL}/tv/${tmdbId}`, {
+            params: { api_key: TMDB_API_KEY, language: 'hu-HU' },
+            timeout: 10000
+        });
+        const numSeasons = Math.max(0, parseInt(tvRes.data.number_of_seasons, 10) || 0);
+        const videos = [];
+        for (let s = 1; s <= numSeasons; s++) {
+            const seasonRes = await axios.get(`${TMDB_BASE_URL}/tv/${tmdbId}/season/${s}`, {
+                params: { api_key: TMDB_API_KEY, language: 'hu-HU' },
+                timeout: 10000
+            });
+            const episodes = seasonRes.data.episodes || [];
+            for (const ep of episodes) {
+                const epNum = parseInt(ep.episode_number, 10);
+                if (!Number.isFinite(epNum)) continue;
+                videos.push({
+                    id: `${idNorm}:${s}:${epNum}`,
+                    title: ep.name || `Episode ${epNum}`,
+                    season: s,
+                    episode: epNum,
+                    released: ep.air_date || undefined
+                });
+            }
+        }
+        SERIES_VIDEOS_CACHE.set(idNorm, { videos, at: Date.now() });
+        return videos;
+    } catch (err) {
+        return null;
+    }
+}
 
 function loadHDMoviesFromFile() {
     try {
@@ -494,109 +566,140 @@ function getNetflixSeriesList() {
     return netflixSeriesList;
 }
 
-function loadHBOMaxMoviesFromFile() {
+function loadMaxMoviesFromFile() {
     try {
-        if (!fs.existsSync(HBOMAX_MOVIES_DATA_PATH)) {
-            return [];
-        }
-        const raw = fs.readFileSync(HBOMAX_MOVIES_DATA_PATH, 'utf-8');
+        if (!fs.existsSync(MAX_MOVIES_DATA_PATH)) return [];
+        const raw = fs.readFileSync(MAX_MOVIES_DATA_PATH, 'utf-8');
         const data = JSON.parse(raw);
         return Array.isArray(data) ? data : [];
     } catch (err) {
-        console.error('Hiba a hbomax_movies.json betöltésekor:', err.message);
-        return hbomaxMoviesList;
+        console.error('Hiba a max_movies.json betöltésekor:', err.message);
+        return maxMoviesList;
     }
 }
 
-function getHBOMaxMoviesList() {
-    if (!hbomaxMoviesLoadedAt || (Date.now() - hbomaxMoviesLoadedAt > HBOMAX_CATALOG_TTL)) {
-        hbomaxMoviesList = loadHBOMaxMoviesFromFile();
-        hbomaxMoviesLoadedAt = Date.now();
-        if (hbomaxMoviesList.length) {
-            console.log(`✓ ${hbomaxMoviesList.length} HBO Max film betöltve`);
-        }
+function getMaxMoviesList() {
+    if (!maxMoviesLoadedAt || (Date.now() - maxMoviesLoadedAt > MAX_CATALOG_TTL)) {
+        maxMoviesList = loadMaxMoviesFromFile();
+        maxMoviesLoadedAt = Date.now();
+        if (maxMoviesList.length) console.log(`✓ ${maxMoviesList.length} Max film betöltve`);
     }
-    return hbomaxMoviesList;
+    return maxMoviesList;
 }
 
-function loadHBOMaxSeriesFromFile() {
+function loadMaxSeriesFromFile() {
     try {
-        if (!fs.existsSync(HBOMAX_SERIES_DATA_PATH)) {
-            return [];
-        }
-        const raw = fs.readFileSync(HBOMAX_SERIES_DATA_PATH, 'utf-8');
+        if (!fs.existsSync(MAX_SERIES_DATA_PATH)) return [];
+        const raw = fs.readFileSync(MAX_SERIES_DATA_PATH, 'utf-8');
         const data = JSON.parse(raw);
         return Array.isArray(data) ? data : [];
     } catch (err) {
-        console.error('Hiba a hbomax_series.json betöltésekor:', err.message);
-        return hbomaxSeriesList;
+        console.error('Hiba a max_series.json betöltésekor:', err.message);
+        return maxSeriesList;
     }
 }
 
-function getHBOMaxSeriesList() {
-    if (!hbomaxSeriesLoadedAt || (Date.now() - hbomaxSeriesLoadedAt > HBOMAX_CATALOG_TTL)) {
-        hbomaxSeriesList = loadHBOMaxSeriesFromFile();
-        hbomaxSeriesLoadedAt = Date.now();
-        if (hbomaxSeriesList.length) {
-            console.log(`✓ ${hbomaxSeriesList.length} HBO Max sorozat betöltve`);
-        }
+function getMaxSeriesList() {
+    if (!maxSeriesLoadedAt || (Date.now() - maxSeriesLoadedAt > MAX_CATALOG_TTL)) {
+        maxSeriesList = loadMaxSeriesFromFile();
+        maxSeriesLoadedAt = Date.now();
+        if (maxSeriesList.length) console.log(`✓ ${maxSeriesList.length} Max sorozat betöltve`);
     }
-    return hbomaxSeriesList;
+    return maxSeriesList;
 }
 
-function loadPrimeVideoMoviesFromFile() {
+function loadDisneyPlusMoviesFromFile() {
     try {
-        if (!fs.existsSync(PRIMEVIDEO_MOVIES_DATA_PATH)) {
-            return [];
-        }
-        const raw = fs.readFileSync(PRIMEVIDEO_MOVIES_DATA_PATH, 'utf-8');
+        if (!fs.existsSync(DISNEYPLUS_MOVIES_DATA_PATH)) return [];
+        const raw = fs.readFileSync(DISNEYPLUS_MOVIES_DATA_PATH, 'utf-8');
+        return Array.isArray(JSON.parse(raw)) ? JSON.parse(raw) : [];
+    } catch (err) {
+        console.error('Hiba a disneyplus_movies.json betöltésekor:', err.message);
+        return disneyplusMoviesList;
+    }
+}
+function getDisneyPlusMoviesList() {
+    if (!disneyplusMoviesLoadedAt || (Date.now() - disneyplusMoviesLoadedAt > STREAMING_CATALOG_TTL)) {
+        disneyplusMoviesList = loadDisneyPlusMoviesFromFile();
+        disneyplusMoviesLoadedAt = Date.now();
+        if (disneyplusMoviesList.length) console.log(`✓ ${disneyplusMoviesList.length} Disney+ film betöltve`);
+    }
+    return disneyplusMoviesList;
+}
+function loadDisneyPlusSeriesFromFile() {
+    try {
+        if (!fs.existsSync(DISNEYPLUS_SERIES_DATA_PATH)) return [];
+        const raw = fs.readFileSync(DISNEYPLUS_SERIES_DATA_PATH, 'utf-8');
+        return Array.isArray(JSON.parse(raw)) ? JSON.parse(raw) : [];
+    } catch (err) {
+        console.error('Hiba a disneyplus_series.json betöltésekor:', err.message);
+        return disneyplusSeriesList;
+    }
+}
+function getDisneyPlusSeriesList() {
+    if (!disneyplusSeriesLoadedAt || (Date.now() - disneyplusSeriesLoadedAt > STREAMING_CATALOG_TTL)) {
+        disneyplusSeriesList = loadDisneyPlusSeriesFromFile();
+        disneyplusSeriesLoadedAt = Date.now();
+        if (disneyplusSeriesList.length) console.log(`✓ ${disneyplusSeriesList.length} Disney+ sorozat betöltve`);
+    }
+    return disneyplusSeriesList;
+}
+const TRENDING_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
+function loadTrendingMoviesFromFile() {
+    try {
+        if (!fs.existsSync(TRENDING_MOVIES_DATA_PATH)) return [];
+        const raw = fs.readFileSync(TRENDING_MOVIES_DATA_PATH, 'utf-8');
         const data = JSON.parse(raw);
         return Array.isArray(data) ? data : [];
     } catch (err) {
-        console.error('Hiba a primevideo_movies.json betöltésekor:', err.message);
-        return primevideoMoviesList;
+        console.error('Hiba a trending_movies.json betöltésekor:', err.message);
+        return trendingMoviesList;
     }
 }
-
-function getPrimeVideoMoviesList() {
-    if (!primevideoMoviesLoadedAt || (Date.now() - primevideoMoviesLoadedAt > PRIMEVIDEO_CATALOG_TTL)) {
-        primevideoMoviesList = loadPrimeVideoMoviesFromFile();
-        primevideoMoviesLoadedAt = Date.now();
-        if (primevideoMoviesList.length) {
-            console.log(`✓ ${primevideoMoviesList.length} Prime Video film betöltve`);
-        }
+function getTrendingMoviesList() {
+    if (!trendingMoviesLoadedAt || (Date.now() - trendingMoviesLoadedAt > TRENDING_CATALOG_TTL)) {
+        trendingMoviesList = loadTrendingMoviesFromFile();
+        trendingMoviesLoadedAt = Date.now();
+        if (trendingMoviesList.length) console.log(`✓ ${trendingMoviesList.length} trendi film betöltve`);
     }
-    return primevideoMoviesList;
+    return trendingMoviesList;
 }
-
-function loadPrimeVideoSeriesFromFile() {
+function loadTrendingSeriesFromFile() {
     try {
-        if (!fs.existsSync(PRIMEVIDEO_SERIES_DATA_PATH)) {
-            return [];
-        }
-        const raw = fs.readFileSync(PRIMEVIDEO_SERIES_DATA_PATH, 'utf-8');
+        if (!fs.existsSync(TRENDING_SERIES_DATA_PATH)) return [];
+        const raw = fs.readFileSync(TRENDING_SERIES_DATA_PATH, 'utf-8');
         const data = JSON.parse(raw);
         return Array.isArray(data) ? data : [];
     } catch (err) {
-        console.error('Hiba a primevideo_series.json betöltésekor:', err.message);
-        return primevideoSeriesList;
+        console.error('Hiba a trending_series.json betöltésekor:', err.message);
+        return trendingSeriesList;
     }
 }
-
-function getPrimeVideoSeriesList() {
-    if (!primevideoSeriesLoadedAt || (Date.now() - primevideoSeriesLoadedAt > PRIMEVIDEO_CATALOG_TTL)) {
-        primevideoSeriesList = loadPrimeVideoSeriesFromFile();
-        primevideoSeriesLoadedAt = Date.now();
-        if (primevideoSeriesList.length) {
-            console.log(`✓ ${primevideoSeriesList.length} Prime Video sorozat betöltve`);
-        }
+function getTrendingSeriesList() {
+    if (!trendingSeriesLoadedAt || (Date.now() - trendingSeriesLoadedAt > TRENDING_CATALOG_TTL)) {
+        trendingSeriesList = loadTrendingSeriesFromFile();
+        trendingSeriesLoadedAt = Date.now();
+        if (trendingSeriesList.length) console.log(`✓ ${trendingSeriesList.length} trendi sorozat betöltve`);
     }
-    return primevideoSeriesList;
+    return trendingSeriesList;
 }
 
 // Catalog handler for both movies and series
 builder.defineCatalogHandler(async (args) => {
     console.log(`Katalógus kérés: ${args.type}/${args.id}`);
+
+    // Trending movies (most seeded in last N pages, 1080p HD_HUN)
+    if (args.type === 'movie' && args.id === 'ncore-trending-movies') {
+        const list = getTrendingMoviesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+    // Trending series (most seeded in last N pages, 1080p HDSER_HUN)
+    if (args.type === 'series' && args.id === 'ncore-trending-series') {
+        const list = getTrendingSeriesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
 
     // Handle movie catalog - Latest HD movies
     if (args.type === 'movie' && args.id === 'ncore-hd-movies') {
@@ -605,7 +708,7 @@ builder.defineCatalogHandler(async (args) => {
         return Promise.resolve({ metas: list.slice(skip, skip + 100) });
     }
 
-    // Handle series catalog - Latest HD series
+    // Handle series catalog – plain tt ids so Stremio displays our meta (response id must match request)
     if (args.type === 'series' && args.id === 'ncore-hd-series') {
         const list = getHDSeriesList();
         const skip = parseInt(args.extra?.skip) || 0;
@@ -662,30 +765,26 @@ builder.defineCatalogHandler(async (args) => {
         return Promise.resolve({ metas: list.slice(skip, skip + 100) });
     }
 
-    // HBO Max movies
-    if (args.type === 'movie' && args.id === 'ncore-hbomax-movies') {
-        const list = getHBOMaxMoviesList();
+    // Max movies / series
+    if (args.type === 'movie' && args.id === 'ncore-max-movies') {
+        const list = getMaxMoviesList();
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+    }
+    if (args.type === 'series' && args.id === 'ncore-max-series') {
+        const list = getMaxSeriesList();
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: list.slice(skip, skip + 100) });
     }
 
-    // HBO Max series
-    if (args.type === 'series' && args.id === 'ncore-hbomax-series') {
-        const list = getHBOMaxSeriesList();
+    // Disney+ movies / series
+    if (args.type === 'movie' && args.id === 'ncore-disneyplus-movies') {
+        const list = getDisneyPlusMoviesList();
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: list.slice(skip, skip + 100) });
     }
-
-    // Prime Video movies
-    if (args.type === 'movie' && args.id === 'ncore-primevideo-movies') {
-        const list = getPrimeVideoMoviesList();
-        const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
-    }
-
-    // Prime Video series
-    if (args.type === 'series' && args.id === 'ncore-primevideo-series') {
-        const list = getPrimeVideoSeriesList();
+    if (args.type === 'series' && args.id === 'ncore-disneyplus-series') {
+        const list = getDisneyPlusSeriesList();
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: list.slice(skip, skip + 100) });
     }
@@ -693,30 +792,108 @@ builder.defineCatalogHandler(async (args) => {
     return Promise.resolve({ metas: [] });
 });
 
-// Meta handler for both movies and series (includes most-seeded caches)
+// Normalize IMDB id for comparison (tt123 vs 123); canonical form tt + 7 digits so tt175058 === tt0175058
+function normalizeId(id) {
+    if (!id || typeof id !== 'string') return '';
+    const s = String(id).trim();
+    const withTt = s.startsWith('tt') ? s : 'tt' + s;
+    const num = withTt.replace(/^tt/, '');
+    const digits = num.replace(/\D/g, '') || '0';
+    const padded = digits.padStart(7, '0');
+    return 'tt' + padded;
+}
+
+// Ensure meta has a background URL for the Stremio detail page (all catalogs)
+function ensureBackground(meta) {
+    if (!meta || meta.background) return meta;
+    const id = meta.id && String(meta.id).trim();
+    if (!id) return meta;
+    const metaOut = { ...meta };
+    metaOut.background = `https://images.metahub.space/background/medium/${id}/img`;
+    return metaOut;
+}
+
+// Meta handler for both movies and series (all catalogs so detail view keeps our metadata)
 builder.defineMetaHandler(async (args) => {
-    console.log(`Meta kérés: ${args.type}/${args.id}`);
+    const requestId = args.id && String(args.id).trim();
+    console.log(`Meta kérés: ${args.type}/${requestId}`);
+    if (!requestId) return Promise.resolve({ meta: null });
 
-    if (args.type === 'movie') {
-        const movie = getHDMoviesList().find(m => m.id === args.id)
-            || getTopSeededMoviesList().find(m => m.id === args.id)
-            || getTopSeededHungarianProductionsList().find(m => m.id === args.id)
-            || getNetflixMoviesList().find(m => m.id === args.id);
-        if (movie) {
-            return Promise.resolve({ meta: movie });
+    try {
+        // Series can be tt12345 or tt12345:1:1; extract series id for lookup
+        let idForLookup = requestId;
+        if (args.type === 'series' && requestId.indexOf(':') >= 0) {
+            idForLookup = requestId.split(':')[0];
+        } else if (args.type === 'movie' && requestId.indexOf(':') >= 0) {
+            idForLookup = requestId.split(':')[0];
         }
-    }
+        const idNorm = normalizeId(idForLookup);
 
-    if (args.type === 'series') {
-        const series = getHDSeriesList().find(s => s.id === args.id)
-            || getTopSeededSeriesList().find(s => s.id === args.id)
-            || getTopSeededHungarianProductionsSeriesList().find(s => s.id === args.id)
-            || getNetflixSeriesList().find(s => s.id === args.id);
-        if (series) {
-            return Promise.resolve({ meta: series });
+        if (args.type === 'movie') {
+            const matchId = (m) => normalizeId(m.id) === idNorm;
+            const movie = getTrendingMoviesList().find(matchId)
+                || getHDMoviesList().find(matchId)
+                || getTopSeededMoviesList().find(matchId)
+                || getTopSeededHungarianProductionsList().find(matchId)
+                || getNetflixMoviesList().find(matchId)
+                || getMaxMoviesList().find(matchId)
+                || getDisneyPlusMoviesList().find(matchId);
+            if (movie) {
+                const meta = ensureBackground({ ...movie, id: requestId });
+                return Promise.resolve({ meta });
+            }
         }
-    }
 
+        if (args.type === 'series') {
+            if (SERIES_META_DELAY_MS > 0) {
+                await new Promise((r) => setTimeout(r, SERIES_META_DELAY_MS));
+            }
+            const seriesId = (s) => normalizeId(s.id || s.imdb_id || '') === idNorm;
+            const trending = getTrendingSeriesList().find(seriesId);
+            const hd = getHDSeriesList().find(seriesId);
+            const top = getTopSeededSeriesList().find(seriesId);
+            const topHu = getTopSeededHungarianProductionsSeriesList().find(seriesId);
+            const netflix = getNetflixSeriesList().find(seriesId);
+            const max = getMaxSeriesList().find(seriesId);
+            const disneyplus = getDisneyPlusSeriesList().find(seriesId);
+            const series = trending || hd || top || topHu || netflix || max || disneyplus;
+            if (series) {
+                const sid = series.id || series.imdb_id;
+                if (!sid) {
+                    console.log(`Series meta: nincs id, kihagyva: ${requestId}`);
+                    return Promise.resolve({ meta: null });
+                }
+                const withBackground = ensureBackground(series);
+                let videos = (series.videos && series.videos.length) ? series.videos : null;
+                if (!videos || videos.length === 0) {
+                    try {
+                        videos = await getSeriesVideosFromTMDB(sid);
+                    } catch (err) {
+                        console.error('getSeriesVideosFromTMDB hiba:', err.message);
+                    }
+                }
+                const metaOut = {
+                    id: requestId,
+                    type: 'series',
+                    name: series.name || '',
+                    poster: series.poster || '',
+                    posterShape: series.posterShape || 'poster',
+                    year: series.year,
+                    description: series.description || '',
+                    imdbRating: series.imdbRating,
+                    releaseInfo: series.releaseInfo,
+                    genres: Array.isArray(series.genres) ? series.genres : [],
+                    background: withBackground.background || '',
+                    videos: Array.isArray(videos) && videos.length > 0 ? videos : []
+                };
+                console.log(`Series meta küldve: ${metaOut.name} (${requestId})`);
+                return Promise.resolve({ meta: metaOut });
+            }
+            console.log(`Series nem található katalógusban: idNorm=${idNorm}, requestId=${requestId}`);
+        }
+    } catch (err) {
+        console.error('Meta handler hiba:', err.message);
+    }
     return Promise.resolve({ meta: null });
 });
 
@@ -730,10 +907,12 @@ builder.getStats = () => ({
     topSeededHungarianProductionsSeriesCount: getTopSeededHungarianProductionsSeriesList().length,
     netflixMoviesCount: getNetflixMoviesList().length,
     netflixSeriesCount: getNetflixSeriesList().length,
-    hbomaxMoviesCount: getHBOMaxMoviesList().length,
-    hbomaxSeriesCount: getHBOMaxSeriesList().length,
-    primevideoMoviesCount: getPrimeVideoMoviesList().length,
-    primevideoSeriesCount: getPrimeVideoSeriesList().length
+    maxMoviesCount: getMaxMoviesList().length,
+    maxSeriesCount: getMaxSeriesList().length,
+    disneyplusMoviesCount: getDisneyPlusMoviesList().length,
+    disneyplusSeriesCount: getDisneyPlusSeriesList().length,
+    trendingMoviesCount: getTrendingMoviesList().length,
+    trendingSeriesCount: getTrendingSeriesList().length
 });
 /**
  * Return manifest with only the given catalog ids (for configure-before-install).
