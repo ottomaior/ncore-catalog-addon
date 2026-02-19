@@ -1,7 +1,7 @@
 """
 Split big catalogs into streaming-provider JSONs using TMDB watch providers (JustWatch data).
 Reads: data/hd_movies.json, data/hd_series.json (from build_latest_catalog only – latest uploads).
-Writes: netflix, max, disneyplus (each: _movies.json, _series.json).
+Writes: netflix, disneyplus, hbomax, prime (each: _movies.json, _series.json).
 Only includes items where TMDB reports that provider for Hungary (HU). Streaming catalogs = latest items only, not most-seeded.
 
 Usage: python scripts/split_catalogs_by_provider.py
@@ -33,13 +33,15 @@ WATCH_REGION = 'HU'
 
 # TMDB watch provider IDs (flatrate / subscription) – check /watch/providers with watch_region=HU if needed
 PROVIDER_NETFLIX = 8
-PROVIDER_MAX = 387   # Max (streaming service; rebranded HBO Max in many regions)
 PROVIDER_DISNEY_PLUS = 337
+PROVIDER_HBO_MAX = 1899
+PROVIDER_PRIME = 119
 
 OUTPUTS = {
     'netflix': (data_dir / 'netflix_movies.json', data_dir / 'netflix_series.json', PROVIDER_NETFLIX),
-    'max': (data_dir / 'max_movies.json', data_dir / 'max_series.json', PROVIDER_MAX),
     'disneyplus': (data_dir / 'disneyplus_movies.json', data_dir / 'disneyplus_series.json', PROVIDER_DISNEY_PLUS),
+    'hbomax': (data_dir / 'hbomax_movies.json', data_dir / 'hbomax_series.json', PROVIDER_HBO_MAX),
+    'prime': (data_dir / 'prime_movies.json', data_dir / 'prime_series.json', PROVIDER_PRIME),
 }
 
 

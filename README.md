@@ -14,7 +14,7 @@ This project serves **two separate Stremio addons** from a single deployment:
 ### 📺 nCore Katalógus
 **Catalog addon** that displays Hungarian movies and series from nCore tracker.
 
-- ✅ **Catalogs:** 🏆 Top Seed (filmek, sorozatok, magyar filmek, magyar sorozatok) + genre filtering; ⏰ Legfrissebb (filmek 2025–2026, sorozatok); ⏰ Streaming: Netflix, Max, Disney+ (legfrissebb filmek/sorozatok)
+- ✅ **Catalogs:** 🏆 Top Seed (filmek, sorozatok, magyar filmek, magyar sorozatok) + genre filtering; ⏰ Legfrissebb (filmek 2025–2026, sorozatok); ⏰ Streaming: Netflix, Disney+, HBO Max, Prime (legfrissebb filmek/sorozatok)
 - ✅ TVDB for series, TMDB for movies (no Trakt)
 - ✅ Direct nCore → TVDB/TMDB matching
 - ✅ Customizable catalog selection and order on the homepage before install
@@ -62,10 +62,10 @@ Visit the deployment to see the homepage with install instructions for all three
 
 The server runs catalog build scripts automatically using node-cron (Unix only; on Windows run scripts manually or use a scheduler):
 
-- **⏰ Latest + streaming split:** Every 3 hours — `build_latest_catalog.py` (big HD movies/series, ~2000 items) then `split_catalogs_by_provider.py` (splits into Netflix, Max, Disney+ JSONs using TMDB watch providers for Hungary).
+- **⏰ Latest + streaming split:** Every 3 hours — `build_latest_catalog.py` (big HD movies/series, ~2000 items) then `split_catalogs_by_provider.py` (splits into Netflix, Disney+, HBO Max, Prime JSONs using TMDB watch providers for Hungary).
 - **🏆 Top-seeded + Magyar + streaming split:** Weekly Sunday 03:00 — `build_most_seeded_movies_catalog.py` → `filter_hungarian_productions.py` → `build_most_seeded_series_catalog.py` → `filter_hungarian_productions_series.py` → `split_catalogs_by_provider.py`.
 
-Streaming catalogs (Netflix, Max, Disney+) are **not** built from nCore tags; they are derived from the big catalogs by TMDB “where to watch” (JustWatch) so only titles that are actually on that provider in HU appear.
+Streaming catalogs (Netflix, Disney+, HBO Max, Prime) are **not** built from nCore tags; they are derived from the big catalogs by TMDB “where to watch” (JustWatch) so only titles that are actually on that provider in HU appear.
 
 ### Available Catalogs
 
@@ -83,13 +83,14 @@ In Stremio Discover, catalog names appear as:
 
 **⏰ Streaming**
 - ⏰ Netflix filmek / ⏰ Netflix sorozatok – Titles on Netflix in Hungary (from TMDB watch providers)
-- ⏰ Max filmek / ⏰ Max sorozatok – Titles on Max in Hungary (TMDB provider Max)
 - ⏰ Disney+ filmek / ⏰ Disney+ sorozatok – Titles on Disney+ in Hungary
+- ⏰ HBO Max filmek / ⏰ HBO Max sorozatok – Titles on HBO Max in Hungary (TMDB provider 1899)
+- ⏰ Prime Video filmek / ⏰ Prime Video sorozatok – Titles on Prime Video in Hungary (TMDB provider 119)
 
 ### How it works
 
 - **Big catalogs:** `build_latest_catalog.py` (hd_movies, hd_series, ~2000 each), `build_most_seeded_movies_catalog.py`, `build_most_seeded_series_catalog.py` (top-seeded). **Series:** match to TVDB → IMDB + metadata; **Movies:** match to TMDB. Hungarian filter scripts produce Magyar filmek/sorozatok from most_seeded.
-- **Streaming split:** `split_catalogs_by_provider.py` reads hd_* JSONs, calls TMDB watch/providers (HU) per title, and writes netflix_*, max_*, disneyplus_* so only titles that are on that provider in Hungary appear. Data source: JustWatch (attribution required).
+- **Streaming split:** `split_catalogs_by_provider.py` reads hd_* JSONs, calls TMDB watch/providers (HU) per title, and writes netflix_*, disneyplus_*, hbomax_*, prime_* so only titles that are on that provider in Hungary appear. Data source: JustWatch (attribution required).
 - **Incremental:** build_latest and most_seeded load existing JSON, fetch new torrents, merge and trim.
 - **Requirements:** `NCORE_USER`, `NCORE_PASS`, `TMDB_API_KEY`, and `TVDB_API_KEY` in `config/config.env` (see `config/config.example.env`). Optional: `TVDB_PIN` for user-supported TVDB keys.
 

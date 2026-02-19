@@ -20,8 +20,9 @@ This folder holds JSON files built by scheduled scripts. **Series** use **TVDB**
 
 **⏰ STREAMING (split by TMDB watch providers, HU; only latest uploads)**
 - **`netflix_movies.json`**, **`netflix_series.json`** – Filled by `split_catalogs_by_provider.py` from `hd_movies.json` + `hd_series.json` (only items where TMDB says Netflix in Hungary).
-- **`max_movies.json`**, **`max_series.json`** – Same, TMDB Max (provider 387) in HU.
 - **`disneyplus_movies.json`**, **`disneyplus_series.json`** – Same, TMDB Disney+ in HU.
+- **`hbomax_movies.json`**, **`hbomax_series.json`** – Same, TMDB HBO Max (provider 1899) in HU.
+- **`prime_movies.json`**, **`prime_series.json`** – Same, TMDB Prime Video (provider 119) in HU.
 
 Run manually (regenerate all):
 
