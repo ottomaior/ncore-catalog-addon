@@ -452,6 +452,14 @@ function normalizeGenreForMatch(s) {
     return String(s).toLowerCase().replace(/\s+/g, ' ').trim();
 }
 
+/** Normalize a genre item to a string (handles TMDB-style { name: "Comedy" } or plain "Comedy"). */
+function genreToMatchString(g) {
+    if (g == null) return '';
+    if (typeof g === 'string') return g;
+    if (typeof g === 'object' && g && typeof g.name === 'string') return g.name;
+    return String(g);
+}
+
 /** Shared genre filter for any catalog (movies or series). Matches English + Hungarian + movie aliases + series (TVDB) aliases. */
 function filterMetasByGenre(list, genreSlug) {
     if (!list || !genreSlug) return list || [];
@@ -464,7 +472,7 @@ function filterMetasByGenre(list, genreSlug) {
     const accepted = new Set([matchEnglish, slug.replace(/-/g, ' ')].concat(matchHu ? [matchHu] : []).concat(huAliases).concat(seriesAliases));
     return list.filter(meta => {
         const genres = meta.genres || [];
-        return genres.some(g => accepted.has(normalizeGenreForMatch(g)));
+        return genres.some(g => accepted.has(normalizeGenreForMatch(genreToMatchString(g))));
     });
 }
 
