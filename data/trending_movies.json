@@ -14,7 +14,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2943
+    "seeders": 1920
+  },
+  {
+    "id": "tt27817389",
+    "type": "movie",
+    "name": "Az utolsó viking",
+    "poster": "https://image.tmdb.org/t/p/w500/9GGW2S52zooDTxVmJ6iS6Zn4iU3.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Anker 15 év után szabadul a börtönből, ahol rablásért ült. A pénzt annak idején a testvére, Manfred ásta el, és egyedül ő tudja, hol van. De Manfred azóta egy olyan mentális betegséggel küzd, ami miatt mindent elfelejtett, azt is, hova rejtette el a zsákmányt. És ha mindez nem lenne elég gond, Manfred meg van róla győződve, hogy ő valójában John Lennon a Beatlesből. A testvérek visszatérnek gyermekkoruk lakóhelyére, hogy megtalálják a rablásból származó pénzt. Manfred emlékeinek visszaszerzéséhez pedig megpróbálják összehozni a Beatlest és két olyan embert találnak, akik azt hiszik magukról, hogy ők Paul McCartney és Ringo Starr.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 916
   },
   {
     "id": "tt33028778",
@@ -30,7 +47,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 978
+    "seeders": 561
   },
   {
     "id": "tt29780866",
@@ -47,7 +64,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 735
+    "seeders": 500
   },
   {
     "id": "tt4712810",
@@ -64,7 +81,22 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 713
+    "seeders": 487
+  },
+  {
+    "id": "tt39162904",
+    "type": "movie",
+    "name": "A sakk királynője",
+    "poster": "https://image.tmdb.org/t/p/w500/17p1nxoZBqbLnBycv43N20GPamk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A portréfilm minden idők legerősebb női sakkozója, Polgár Judit életútját és pályafutását mutatja be, érintve a férfiak uralta sakkvilágban elért sikereit és a Garri Kaszparov elleni küzdelmeit.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 426
   },
   {
     "id": "tt2396431",
@@ -80,7 +112,39 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 385
+    "seeders": 262
+  },
+  {
+    "id": "tt33247023",
+    "type": "movie",
+    "name": "Páratlan párosok",
+    "poster": "https://image.tmdb.org/t/p/w500/w7KrIFEg7IKfN84cOocidiznpJJ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Carey (Kyle Marvin) kedves, jóhiszemű férj. Váratlanul hagyja el felesége, Ashley (Adria Arjona), aki bejelenti, hogy válni szeretne, és megcsalta őt. Carey zavarodottan felkeresi barátait, Julie-t (Dakota Johnson) és Pault (Michael Angelo Covino), akik nyitott házasságban élnek.\r Carey számára ez a kapcsolat először felszabadítónak tűnik, ám amikor túl messzire megy, Carey és Julie egymásba keverednek, az ő kapcsolataik és barátságaik is kaotikus katasztrófa felé sodródnak.  (Csillag Lajos)",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 213
+  },
+  {
+    "id": "tt32843325",
+    "type": "movie",
+    "name": "Az Istenek felemelkedése II. - Démoni erő",
+    "poster": "https://image.tmdb.org/t/p/w500/5bBgvH3hTxlANUsLP1ov0lEKmJp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Taishi Wen Zhong vezette a Shang-dinasztia seregét, beleértve Deng Chanyut és a Mo család négy tábornokát Xiqi-be. Jiang Ziya és Ji Fa, a Kunlun halhatatlanok segítségével Ji Fa vezette Xiqi seregét és polgárait, hogy megvédjék hazájukat.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Háborús"
+    ],
+    "seeders": 198
   },
   {
     "id": "tt11950888",
@@ -96,7 +160,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 302
+    "seeders": 190
   },
   {
     "id": "tt0083774",
@@ -112,7 +176,58 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 270
+    "seeders": 188
+  },
+  {
+    "id": "tt7181546",
+    "type": "movie",
+    "name": "Balerina",
+    "poster": "https://image.tmdb.org/t/p/w500/5o8TlwE4cSZTbukQxWwq4PaB8l9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A fiatal táncosnő, Eve Macarro gyermekként végignézi, ahogy apját, Javiert ismeretlenek meggyilkolják az úgynevezett „kancellár” parancsára. A támadók megpróbálják elrabolni, de Eve-nek sikerül elmenekülnie, és később Winston Scott, a New York-i Continental tulajdonosa fogadja be. Átadja a lányt a Ruska Roma nevű bűnszervezetnek, ahol Eve-et nemcsak klasszikus balettre, hanem közelharcra is tanítják, végül profi bérgyilkost képeznek belőle. Tizenkét év után készen áll arra, hogy belépjen a bűnözés világába, és sikeresen teljesíti első megbízásait a Ruska Roma számára. Az új ügynök jelenléte hamarosan felkelti az apja haláláért felelős szervezet figyelmét, miután Eve elhatározza, bosszút áll apja haláláért.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 188
+  },
+  {
+    "id": "tt27775403",
+    "type": "movie",
+    "name": "Gyagyás bagázs",
+    "poster": "https://image.tmdb.org/t/p/w500/cLUm4WOWeK1DUcCFLOcjqa6c3Hj.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy nyugdíjas bérgyilkos élete fenekestül felfordul, amikor exfelesége és fia bejelentés nélkül megérkeznek az ünnepekre, mert menekülnek a férfi egykori maffiatársai elől.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 184
+  },
+  {
+    "id": "tt32897929",
+    "type": "movie",
+    "name": "Egérfutam",
+    "poster": "https://image.tmdb.org/t/p/w500/hOYJVHdC9tsG8WgHHw0SmErTIH9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A fiatal egér, Edda állandóan versenyautókról álmodik. Amikor közeledik az Európa Nagydíj, megragadja a lehetőséget, hogy részt vegyen a versenyen, találkozzon bálványaival, dacoljon az esélyekkel, s megvalósítsa álmát, ugyanakkor segítsen családja küzdelmes vásári vállalkozásának a jövőjét bebiztosítani.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 165
   },
   {
     "id": "tt34581826",
@@ -128,7 +243,24 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 237
+    "seeders": 164
+  },
+  {
+    "id": "tt31227572",
+    "type": "movie",
+    "name": "Predator: Halálbolygó",
+    "poster": "https://image.tmdb.org/t/p/w500/y56DUYma05u4AMRxWAfWIqbvnep.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A jövőben, egy távoli bolygón tartózkodó fiatal Ragadozót, Deket száműznek klánjából, mivel túl gyengének tartják. Útja során találkozik egy Thia nevű androiddal, aki a Weyland-Yutani társaság kreálmánya. Szövetséget kötnek és különböző kalandokba keverednek, miközben Dek egy különösen félelmetes lényt üldöz. Izgalmas, újragondolt fejezet a franchise történetében, ami egy jövőbeli, különösen halálos bolygóra, Genna-ra kalauzol minket.  A film legnagyobb ereje a merőben újító szemszögében rejlik, amelyben egy kitaszított Ragadozó kényszerű szövetséget köt egy Weyland szintetikussal. A történet feszes tempójú, ahol egyetlen felesleges perc sincs, garantálva a folyamatos feszültséget. És még a kevésbé akciódús képkockák is hozzáadnak a kerek egészhez.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 159
   },
   {
     "id": "tt0102940",
@@ -143,7 +275,40 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 198
+    "seeders": 132
+  },
+  {
+    "id": "tt33603921",
+    "type": "movie",
+    "name": "Joe és B.J. nagy utazása",
+    "poster": "https://image.tmdb.org/t/p/w500/aZQT6Shq0cUxzpwzIhcB0OcqAR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Madea mocskos szájú testvére, Joe őrült országjárásra viszi az egyetemre készülő, burokban nevelkedett unokáját, hogy megismertesse a való világot a tinivel.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 125
+  },
+  {
+    "id": "tt13176330",
+    "type": "movie",
+    "name": "Elefántos kaland",
+    "poster": "https://image.tmdb.org/t/p/w500/f0rK7yPMXouiZsu9SvltMhuzMRR.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Röff Ász utolérhetetlen fejvadász, aki képes előkeríteni bármilyen eltűnt állatot. Fő feladata, hogy az elveszett háziállatokat visszajuttassa a gazdáiknak. A malac nyomozó egy nap különleges megbízatást kap: egy elefántot kell felkutatnia. Röff Ász hamarosan rá is talál a szabadelvű elefántra, s kezdetét veszi kettejük világkörüli kalandja, amely során a páratlan páros életre szóló barátságot köt.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2024",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Kaland",
+      "Családi"
+    ],
+    "seeders": 124
   },
   {
     "id": "tt36331860",
@@ -159,22 +324,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 183
-  },
-  {
-    "id": "tt33603921",
-    "type": "movie",
-    "name": "Joe és B.J. nagy utazása",
-    "poster": "https://image.tmdb.org/t/p/w500/aZQT6Shq0cUxzpwzIhcB0OcqAR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Madea mocskos szájú testvére, Joe őrült országjárásra viszi az egyetemre készülő, burokban nevelkedett unokáját, hogy megismertesse a való világot a tinivel.",
-    "imdbRating": 5.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 176
+    "seeders": 118
   },
   {
     "id": "tt0081006",
@@ -190,7 +340,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 159
+    "seeders": 111
   },
   {
     "id": "tt39369643",
@@ -208,7 +358,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 143
+    "seeders": 103
   },
   {
     "id": "tt11291274",
@@ -225,23 +375,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 141
-  },
-  {
-    "id": "tt0243133",
-    "type": "movie",
-    "name": "Az ember, aki ott se volt",
-    "poster": "https://image.tmdb.org/t/p/w500/ejMhbi4Fgo2FeLVAPihuuyz8CU4.jpg",
-    "posterShape": "poster",
-    "year": 2001,
-    "description": "Santa Rosa, Észak-Kalifornia, 1949 nyara. Ed Crane - sógorával, Frankkel együtt - egy álmos kaliforniai kisváros borbélyüzletében dolgozik. Okkal gyanítja, hogy feleségének, Dorisnak viszonya van munkahelyi főnökével, Big Dave-vel. Mivel amúgy is elégedetlen az életével, ez jó ürügy arra, hogy egy kedvezőnek tűnő befektetés érdekében névtelenül megzsarolja a férfit. Az ki is fizeti a kért összeget, de iszonyúan felbőszül, amikor megtudja az igazságot. Akaratlan halálesetek és szándékos gyilkosságok követik egymást, s az út a tárgyalóteremig és a siralomházig vezet.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2001",
-    "genres": [
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 129
+    "seeders": 97
   },
   {
     "id": "tt13020386",
@@ -257,24 +391,56 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 118
+    "seeders": 93
   },
   {
-    "id": "tt29414852",
+    "id": "tt20215234",
     "type": "movie",
-    "name": "Az orgyilkosok céhe",
-    "poster": "https://image.tmdb.org/t/p/w500/R7jogUvv3EYNCEVIzZx4x04GEW.jpg",
+    "name": "Konklávé",
+    "poster": "https://image.tmdb.org/t/p/w500/1UtjGyQSOaBBKmk21qbeJXSru29.jpg",
     "posterShape": "poster",
     "year": 2024,
-    "description": "A pusztító Sellő Háború után a megosztott, de egykor nagyszerű Iliad városát sötét erők ostromolják. A hírhedt Goblin Vadász és az elit bérgyilkos, Atticus, mind az élő, mind a halott ellenségekkel megküzd egy kétségbeesett utolsó kísérlet során, hogy helyreállítsák a békét.",
-    "imdbRating": 4.3,
+    "description": "Egy bíboros, akit az új pápa megválasztásának lebonyolításával bíznak meg, egy összeesküvés középpontjában találja magát, és olyan titokra bukkan, amely alapjaiban rengetheti meg az egyházat.",
+    "imdbRating": 7.2,
     "releaseInfo": "2024",
     "genres": [
-      "Fantasy",
-      "Akció",
-      "Kaland"
+      "Dráma",
+      "Thriller"
     ],
-    "seeders": 115
+    "seeders": 92
+  },
+  {
+    "id": "tt22185974",
+    "type": "movie",
+    "name": "A Bilbao-Berlin járat",
+    "poster": "https://image.tmdb.org/t/p/w500/RoT56HuDx3ib1Gdoo0SY4QSW7h.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy csoport bilbaói tornászlány a berlini bajnokságra készül, ahová elidegenedett apjaik kísérik el őket éppen akkor, mikor a berlini fal leomlik.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 89
+  },
+  {
+    "id": "tt37969426",
+    "type": "movie",
+    "name": "Muppet Show",
+    "poster": "https://image.tmdb.org/t/p/w500/i35ao38zGnkJoepNiIibtGrhBYI.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Itt A Muppet Show! Breki, Miss Röfi és a közkedvelt Muppet-csapat egy vadonatúj különkiadással térnek vissza. Zene, humor és egy jó adag káosz garantált, amikor a Muppetek ismét birtokba veszik az eredeti Muppet Színház színpadát, különleges vendégük, Sabrina Carpenter oldalán!",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi",
+      "Zenei",
+      "TV film"
+    ],
+    "seeders": 89
   },
   {
     "id": "tt10272386",
@@ -289,202 +455,39 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 114
+    "seeders": 88
   },
   {
-    "id": "tt31844586",
+    "id": "tt0243133",
     "type": "movie",
-    "name": "Sisu - A bosszú útja",
-    "poster": "https://image.tmdb.org/t/p/w500/5ynGHD2QczfpZz7lfoWKaPc1Neo.jpg",
+    "name": "Az ember, aki ott se volt",
+    "poster": "https://image.tmdb.org/t/p/w500/ejMhbi4Fgo2FeLVAPihuuyz8CU4.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Olyan, mintha vége volna a világnak, és az utolsó túlélők küzdenének egymással. 1946 van, és Finnország felől a Szovjetunióba érkezik egy magányos, hallgatag ember. Valaha ezen a kietlen tájon élt. Az egész családját meggyilkolták, és ő most azért érkezik, amije maradt: a kis faházért, amit darabokra bont, teherautóra pakol, és elindul Finnország felé: olyan helyen akarja újra felépíteni, ahol békében, meggyilkolt szeretteire emlékezve élhet. De a Szovjetunióból nem lehet csak úgy kiautózni. A titkosszolgálat egy magasrangú tisztje a hallgatag férfi után küldi az egyik legjobb emberét. Ő a felelős a jövevény családjának elpusztításáért is. Egy magányos férfi meg a kutyája szembeszáll egy hadsereggel: és hiába próbálnak százféleképpen, kegyetlenül végezni vele, nem hajlandó meghalni.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Háborús"
-    ],
-    "seeders": 108
-  },
-  {
-    "id": "tt22185974",
-    "type": "movie",
-    "name": "Los aitas",
-    "poster": "https://image.tmdb.org/t/p/w500/RoT56HuDx3ib1Gdoo0SY4QSW7h.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 107
-  },
-  {
-    "id": "tt32204303",
-    "type": "movie",
-    "name": "Az utolsó lélek az ördögé",
-    "poster": "https://image.tmdb.org/t/p/w500/6xFVki8YvIaS3eNiKgeOC4SNdL5.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 104
-  },
-  {
-    "id": "tt14614892",
-    "type": "movie",
-    "name": "Dragon Ball Super Mozifilm - Szuperhős",
-    "poster": "https://image.tmdb.org/t/p/w500/x3O5ffxIyHcknIbYEsH01n0AZX7.jpg",
-    "posterShape": "poster",
-    "year": 2022,
-    "description": "A gonosz Red Ribbon Hadsereg amelyet Goku elpusztított most újjá alakult. Újabb, erősebb androidokat, Gamma 1-et és Gamma 2-t építettek és bosszút forralnak Goku és családja ellen.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2022",
-    "genres": [
-      "Animációs",
-      "Sci-Fi",
-      "Akció"
-    ],
-    "seeders": 83
-  },
-  {
-    "id": "tt0373926",
-    "type": "movie",
-    "name": "A tolmács",
-    "poster": "https://image.tmdb.org/t/p/w500/enYRAZ7iioEfv0Jjsz9Pi5SAPpB.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "Silvia Broome a szavak embere. Az afrikai születésű tolmácsnő az ENSZ-nek dolgozik, és véletlenül fültanúja lesz egy halálos beszélgetésnek: valakik merényletet terveznek egy afrikai államfő ellen, aki beszédet készül tartani az ENSZ gyűlésén. Silvia rájön, hogy ő maga is a merénylők célpontja lett, és kétségbeesetten próbálja megakadályozni az összeesküvést, de ez csak akkor sikerülhet, ha időben talál valakit, aki hisz is neki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2005",
+    "year": 2001,
+    "description": "Santa Rosa, Észak-Kalifornia, 1949 nyara. Ed Crane - sógorával, Frankkel együtt - egy álmos kaliforniai kisváros borbélyüzletében dolgozik. Okkal gyanítja, hogy feleségének, Dorisnak viszonya van munkahelyi főnökével, Big Dave-vel. Mivel amúgy is elégedetlen az életével, ez jó ürügy arra, hogy egy kedvezőnek tűnő befektetés érdekében névtelenül megzsarolja a férfit. Az ki is fizeti a kért összeget, de iszonyúan felbőszül, amikor megtudja az igazságot. Akaratlan halálesetek és szándékos gyilkosságok követik egymást, s az út a tárgyalóteremig és a siralomházig vezet.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2001",
     "genres": [
       "Bűnügyi",
-      "Thriller"
+      "Dráma"
     ],
-    "seeders": 80
+    "seeders": 87
   },
   {
-    "id": "tt0087892",
+    "id": "tt33505728",
     "type": "movie",
-    "name": "Út Indiába",
-    "poster": "https://image.tmdb.org/t/p/w500/rvBWlGRKte2U6qElHV13h6JvmSe.jpg",
-    "posterShape": "poster",
-    "year": 1984,
-    "description": "Adela Quested 1924-ben megérkezik Indiába, ahol vőlegénye dolgozik. A nő meg akarja ismerni az \"igazi Indiát\". Hamarosan bemutatják doktor Aziznak, a fiatal indiai orvosnak, aki a faji előítéletek ellenére szabadon mozog a brit arisztokrácia köreiben. Adela összebarátkozik az orvossal, aki igyekszik csökkenteni a lány negatív hozzáállását az idegen kultúrákhoz. Az egyik kirándulás után Angela megvádolja Azizt, hogy megerőszakolta őt. Az indai férfi élete romba dől: letartóztatják, a hatalmat bitorló angol társadalom pedig már a bírósági tárgyalás előtt elítéli őt.",
-    "imdbRating": 6.8,
-    "releaseInfo": "1984",
-    "genres": [
-      "Dráma",
-      "Kaland",
-      "Történelmi"
-    ],
-    "seeders": 69
-  },
-  {
-    "id": "tt0770828",
-    "type": "movie",
-    "name": "Az Acélember",
-    "poster": "https://image.tmdb.org/t/p/w500/uN1neeJVd8KuXpnOkXcmPIi36XR.jpg",
-    "posterShape": "poster",
-    "year": 2013,
-    "description": "Clark Kent a Kripton bolygó szülöttje, és még gyerekként érkezett a Földre, egy meteor becsapódásakor. Martha és Jonathan Kent veszik maguk mellé, és felnevelik őt. Clarknak azonban különleges képességei vannak, melyet szeretne valami jóra használni, így egyenes az út a hőssé válás felé.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2013",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 67
-  },
-  {
-    "id": "tt0052365",
-    "type": "movie",
-    "name": "Vikingek",
-    "poster": "https://image.tmdb.org/t/p/w500/56nZrWxiMu1Ue8iFAOpDIbmH1O0.jpg",
-    "posterShape": "poster",
-    "year": 1958,
-    "description": "Ez a rendkívül szép kiállítású, nagy szakértelemmel rendezett, fordulatos történelmi kalandfilm 900 körül játszódik a festőien komor Észak-Angliában. Kirk Douglas jól kamatoztatja fizikai adottságait és temperamentumát Ragnar viking király robbanékony, erőszakos fia, Einar szerepében, aki a szerelemben és a hatalmi harcban is méltó vetélytársra talál Ericben, Northumberland meggyilkolt királyának rabszolgasorsra kárhoztatott utódában. Einar csak a végső leszámolás előtt tudja meg, mily közeli rokonság kapcsolja össze ellenfelével...",
-    "imdbRating": 7.0,
-    "releaseInfo": "1958",
-    "genres": [
-      "Kaland",
-      "Történelmi",
-      "Akció"
-    ],
-    "seeders": 65
-  },
-  {
-    "id": "tt0052618",
-    "type": "movie",
-    "name": "Ben Hur",
-    "poster": "https://image.tmdb.org/t/p/w500/onddsgIqsLK40zgkmeDTpFg2q70.jpg",
-    "posterShape": "poster",
-    "year": 1959,
-    "description": "A jeruzsálemi Ben Hur, egy gazdag zsidó család fia, újra találkozik gyerekkori barátjával, a római légió parancsnokával, Messalával, aki szerint az új tanok, melyeket Krisztus hirdet, felforgathatják az egész Római birodalmat. Ben Hur meghallgatja a hegyibeszédet, ott van a kálváriánál, méghozzá nem is egyedül, hanem egy szépséges rabszolgalány, Esther társaságában. Korábbi élete gyökeresen megváltozik, amikor tévesen megvádolják azzal, hogy megpróbálta megölni Messalát. Száműzik családját, őt pedig rabszolgasorba döntik. Egy tengeri csata során megmenti a parancsnok, Quintus Arrius életét, aki ezért cserébe fiává fogadja. Rómába indul, hogy részt vegyen egy kocsiversenyen. Legnagyobb ellenfele régi barátja, Messala. Kettejük versenyfutásának egy ütközés vet véget, melyet Ben Hur éppen csak túlél, ám eldönti, hogy a kardját felcseréli Krisztus tanaival. Annak a Krisztusnak a tanaival, aki még halálában is képes arra, hogy az egész birodalmat a feje tetejére állítsa.",
-    "imdbRating": 7.9,
-    "releaseInfo": "1959",
-    "genres": [
-      "Történelmi",
-      "Dráma",
-      "Kaland"
-    ],
-    "seeders": 65
-  },
-  {
-    "id": "tt30274401",
-    "type": "movie",
-    "name": "Öt éjjel Freddy Pizzázójában 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/pkTZWcZcuxOUMJM5eXMpNYcRyp8.jpg",
+    "name": "Lelkek hegye",
+    "poster": "https://image.tmdb.org/t/p/w500/dMdB58yXQjQOd4eWXiLUbunYfB4.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy év telt el a Freddy Fazbear’s Pizza falai között történt természetfeletti rémálom óta. Az ott történtek története mára eltúlzott, tábori hangulatú helyi legendává torzult, ami ihletet adott a város első Fazfestjének. Mivel előle eltitkolták az igazságot, Abby kiszökik otthonról, hogy újra találkozzon Freddyvel, Bonnie-val, Chicával és Foxyval. Ezzel azonban egy félelmetes eseménysorozatot indít el, amely sötét titkokat tár fel Freddy’s valódi eredetéről, és szabadjára enged egy évtizedek óta elrejtett, rég elfeledett borzalmat.",
-    "imdbRating": 6.7,
+    "description": "Pernambuco-ban egy ékszerrablás összehozza egy régi, kívülálló barátokból álló csoportot, katasztrofális következményekkel. A múlt szellemei által figyelve mindegyiküknek meg kell találnia a saját útját a szabadsághoz.",
+    "imdbRating": 4.2,
     "releaseInfo": "2025",
     "genres": [
-      "Horror",
-      "Thriller"
+      "Dráma",
+      "Akció",
+      "Bűnügyi"
     ],
-    "seeders": 64
-  },
-  {
-    "id": "tt1666801",
-    "type": "movie",
-    "name": "The DUFF",
-    "poster": "https://image.tmdb.org/t/p/w500/aHzdMSKwq9ucnP2yXl5zYIfKgGl.jpg",
-    "posterShape": "poster",
-    "year": 2015,
-    "description": "Egy középiskolai rangidős felbujt egy társadalmi megcsípő rendelésforradalmat miután rájött, hogy őt címkézték, a DUFF (Designated Ugly Fat Friend) a csinosabb népszerűbb barátainak.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2015",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 62
-  },
-  {
-    "id": "tt0102426",
-    "type": "movie",
-    "name": "Mediterraneo",
-    "poster": "https://image.tmdb.org/t/p/w500/gcHlVwHAVtINFoJrKoKtR39WU8R.jpg",
-    "posterShape": "poster",
-    "year": 1991,
-    "description": "Mi kell a háborúhoz? Persze hogy pénz, de méginkább ellenség! Az egyetlen dolog, ami hiányzik e bájos alkotásból, éppen a nélkülözhetetlen ellenség. Maroknyi olasz katonát raknak ki egy görög szigeten a második világháború vége felé. Figyelniük kell az ellenséges hajómozgást és veszély esetén meg kell védeniük a szigetet. A lakók - főleg nők és gyerekek - lassan előjönnek rejtekhelyeikről, hiszen a jövevények hasonlítanak ártalmatlan férfiaikra. A katonai rádió elnémul, fegyvereik eltűnnek, így hát lassan megkedvelik a helyi életformát. Nem nehéz, hiszen adott minden, ami a forró déli táj sajátja: nap, tenger, bor, nők.",
-    "imdbRating": 7.6,
-    "releaseInfo": "1991",
-    "genres": [
-      "Vígjáték",
-      "Romantikus",
-      "Háborús"
-    ],
-    "seeders": 61
+    "seeders": 83
   }
 ]
