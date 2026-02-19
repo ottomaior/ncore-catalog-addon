@@ -14,7 +14,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 148
+    "seeders": 225
   },
   {
     "id": "tt31050594",
@@ -31,22 +31,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2445
-  },
-  {
-    "id": "tt6040662",
-    "type": "movie",
-    "name": "A törvény szíve",
-    "poster": "https://image.tmdb.org/t/p/w500/uWwmYzdLReu3Yn4YKuX9idDReaz.jpg",
-    "posterShape": "poster",
-    "year": 2018,
-    "description": "A családi ügyekben jártas és bölcs bírónő, Fiona Maye házassága lassan tönkremegy munkája miatt, ő pedig egy új ügy miatt kénytelen szembenézni saját magával és az elveivel, amikor megismer egy fiatal fiút.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2018",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 57
+    "seeders": 2676
   },
   {
     "id": "tt29780866",
@@ -63,7 +48,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 587
+    "seeders": 612
+  },
+  {
+    "id": "tt6040662",
+    "type": "movie",
+    "name": "A törvény szíve",
+    "poster": "https://image.tmdb.org/t/p/w500/uWwmYzdLReu3Yn4YKuX9idDReaz.jpg",
+    "posterShape": "poster",
+    "year": 2018,
+    "description": "A családi ügyekben jártas és bölcs bírónő, Fiona Maye házassága lassan tönkremegy munkája miatt, ő pedig egy új ügy miatt kénytelen szembenézni saját magával és az elveivel, amikor megismer egy fiatal fiút.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2018",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 60
   },
   {
     "id": "tt13020386",
@@ -79,7 +79,40 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 124
+    "seeders": 123
+  },
+  {
+    "id": "tt4712810",
+    "type": "movie",
+    "name": "Szemfényvesztők 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "seeders": 621
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 736
   },
   {
     "id": "tt22185974",
@@ -97,37 +130,20 @@
     "seeders": 113
   },
   {
-    "id": "tt4712810",
+    "id": "tt2396431",
     "type": "movie",
-    "name": "Szemfényvesztők 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
+    "name": "Kedves Télapó",
+    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
+    "year": 2024,
+    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2024",
     "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Rejtély"
+      "Vígjáték",
+      "Fantasy"
     ],
-    "seeders": 589
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 717
+    "seeders": 316
   },
   {
     "id": "tt0049233",
@@ -143,7 +159,7 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 46
+    "seeders": 47
   },
   {
     "id": "tt0120381",
@@ -161,23 +177,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 45
-  },
-  {
-    "id": "tt2396431",
-    "type": "movie",
-    "name": "Kedves Télapó",
-    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 295
+    "seeders": 46
   },
   {
     "id": "tt0455957",
@@ -193,7 +193,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 41
+    "seeders": 42
   },
   {
     "id": "tt0073559",
@@ -208,7 +208,7 @@
     "genres": [
       "Western"
     ],
-    "seeders": 48
+    "seeders": 52
   },
   {
     "id": "tt0243133",
@@ -224,7 +224,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 105
+    "seeders": 108
   },
   {
     "id": "tt0145529",
@@ -241,7 +241,22 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 48
+    "seeders": 50
+  },
+  {
+    "id": "tt39162904",
+    "type": "movie",
+    "name": "A sakk királynője",
+    "poster": "https://image.tmdb.org/t/p/w500/17p1nxoZBqbLnBycv43N20GPamk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A portréfilm minden idők legerősebb női sakkozója, Polgár Judit életútját és pályafutását mutatja be, érintve a férfiak uralta sakkvilágban elért sikereit és a Garri Kaszparov elleni küzdelmeit.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 615
   },
   {
     "id": "tt0081006",
@@ -257,7 +272,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 127
+    "seeders": 126
   },
   {
     "id": "tt0102940",
@@ -272,38 +287,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 164
-  },
-  {
-    "id": "tt39162904",
-    "type": "movie",
-    "name": "A sakk királynője",
-    "poster": "https://image.tmdb.org/t/p/w500/17p1nxoZBqbLnBycv43N20GPamk.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A portréfilm minden idők legerősebb női sakkozója, Polgár Judit életútját és pályafutását mutatja be, érintve a férfiak uralta sakkvilágban elért sikereit és a Garri Kaszparov elleni küzdelmeit.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 582
-  },
-  {
-    "id": "tt0061537",
-    "type": "movie",
-    "name": "Csillagosok, Katonák",
-    "poster": "https://image.tmdb.org/t/p/w500/g7Gjcmw73XtGV8AYPhCDqucuLQd.jpg",
-    "posterShape": "poster",
-    "year": 1967,
-    "description": "Az 1917-es forradalmat követő oroszországi polgárháborúban vörös egységek, köztük egy volt magyar hadifoglyokból is álló internacionalista század kerül a fehérek gyűrűjébe. A kegyetlen megtorlások elől menekülő harcosok egy kis folyóparti katonai kórházban találnak menedéket. Itt várják a felmentő seregeket… De alighanem a történet árulja el a legkevesebbet az 1960-as évek megújuló európai filmművészetének remekéről, amelyet sokan a Szegénylegények mellé sorolnak Jancsó Miklós életművében. Az első szovjet–magyar koprodukció eredeti szemléletmódja, merészen formabontó szerkezete a szovjet kultúrpolitikát azonban óvatosságra intette, ezért a film lerövidített, átvágott változatban került az ottani közönség elé.",
-    "imdbRating": 7.0,
-    "releaseInfo": "1967",
-    "genres": [
-      "Háborús",
-      "Dráma"
-    ],
-    "seeders": 48
+    "seeders": 169
   },
   {
     "id": "tt11950888",
@@ -319,7 +303,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 231
+    "seeders": 245
+  },
+  {
+    "id": "tt0061537",
+    "type": "movie",
+    "name": "Csillagosok, Katonák",
+    "poster": "https://image.tmdb.org/t/p/w500/g7Gjcmw73XtGV8AYPhCDqucuLQd.jpg",
+    "posterShape": "poster",
+    "year": 1967,
+    "description": "Az 1917-es forradalmat követő oroszországi polgárháborúban vörös egységek, köztük egy volt magyar hadifoglyokból is álló internacionalista század kerül a fehérek gyűrűjébe. A kegyetlen megtorlások elől menekülő harcosok egy kis folyóparti katonai kórházban találnak menedéket. Itt várják a felmentő seregeket… De alighanem a történet árulja el a legkevesebbet az 1960-as évek megújuló európai filmművészetének remekéről, amelyet sokan a Szegénylegények mellé sorolnak Jancsó Miklós életművében. Az első szovjet–magyar koprodukció eredeti szemléletmódja, merészen formabontó szerkezete a szovjet kultúrpolitikát azonban óvatosságra intette, ezért a film lerövidített, átvágott változatban került az ottani közönség elé.",
+    "imdbRating": 7.0,
+    "releaseInfo": "1967",
+    "genres": [
+      "Háborús",
+      "Dráma"
+    ],
+    "seeders": 50
   },
   {
     "id": "tt0052365",
@@ -336,7 +336,7 @@
       "Történelmi",
       "Akció"
     ],
-    "seeders": 61
+    "seeders": 64
   },
   {
     "id": "tt34581826",
@@ -368,22 +368,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 54
-  },
-  {
-    "id": "tt0103825",
-    "type": "movie",
-    "name": "Fekete öv",
-    "poster": "https://image.tmdb.org/t/p/w500/aVemGDBzH422zc2pdFfHDsUfBlu.jpg",
-    "posterShape": "poster",
-    "year": 1992,
-    "description": "Két férfi elhatározza, hogy megöli Shanát, a rocksztárt. Az egyik a menedzsere, a másik egy idegen férfi, aki otthon van a harcművészetekben és úgy hiszi, hogy az énekesnő kitöltheti az ő meghalt anyjának hiányát. Miután Shana tudtára jut a terv, védelmet kér egy volt zsarutól, aki szintén jártas a harcban.",
-    "imdbRating": 5.1,
-    "releaseInfo": "1992",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 26
+    "seeders": 57
   },
   {
     "id": "tt0083774",
@@ -399,7 +384,22 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 213
+    "seeders": 215
+  },
+  {
+    "id": "tt0103825",
+    "type": "movie",
+    "name": "Fekete öv",
+    "poster": "https://image.tmdb.org/t/p/w500/aVemGDBzH422zc2pdFfHDsUfBlu.jpg",
+    "posterShape": "poster",
+    "year": 1992,
+    "description": "Két férfi elhatározza, hogy megöli Shanát, a rocksztárt. Az egyik a menedzsere, a másik egy idegen férfi, aki otthon van a harcművészetekben és úgy hiszi, hogy az énekesnő kitöltheti az ő meghalt anyjának hiányát. Miután Shana tudtára jut a terv, védelmet kér egy volt zsarutól, aki szintén jártas a harcban.",
+    "imdbRating": 5.1,
+    "releaseInfo": "1992",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 27
   },
   {
     "id": "tt0066831",
@@ -414,7 +414,7 @@
     "genres": [
       "Western"
     ],
-    "seeders": 48
+    "seeders": 49
   },
   {
     "id": "tt0373926",
@@ -430,7 +430,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 66
+    "seeders": 69
   },
   {
     "id": "tt36331860",
@@ -440,13 +440,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A bátyja halála után June Milánóba költözik, új életet kezd, és vigaszra talál Willben, az új nemzetközi iskolájának eminens tanulójában. De amikor Will problémás barátja, James - aki veszélyes életet él, és titkos MMA-harcokban vesz részt - rivalizálást szít, amely gyorsan ellenállhatatlan vonzalommá alakul, June-nak választania kell a biztonság és a szerelem között, amely felforgatja terveit.",
-    "imdbRating": 5.9,
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 146
+    "seeders": 155
+  },
+  {
+    "id": "tt33603921",
+    "type": "movie",
+    "name": "Joe és B.J. nagy utazása",
+    "poster": "https://image.tmdb.org/t/p/w500/aZQT6Shq0cUxzpwzIhcB0OcqAR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Madea mocskos szájú testvére, Joe őrült országjárásra viszi az egyetemre készülő, burokban nevelkedett unokáját, hogy megismertesse a való világot a tinivel.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 141
   },
   {
     "id": "tt0059712",
@@ -462,21 +477,6 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 37
-  },
-  {
-    "id": "tt33603921",
-    "type": "movie",
-    "name": "Joe és B.J. nagy utazása",
-    "poster": "https://image.tmdb.org/t/p/w500/aZQT6Shq0cUxzpwzIhcB0OcqAR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Madea mocskos szájú testvére, Joe őrült országjárásra viszi az egyetemre készülő, burokban nevelkedett unokáját, hogy megismertesse a való világot a tinivel.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 135
+    "seeders": 36
   }
 ]
