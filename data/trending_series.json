@@ -16,7 +16,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 5,
-    "seeders": 2116
+    "seeders": 1193
   },
   {
     "id": "tt24577940",
@@ -33,7 +33,7 @@
     ],
     "latest_season": 3,
     "latest_episode": 8,
-    "seeders": 653
+    "seeders": 480
   },
   {
     "id": "tt12211774",
@@ -52,7 +52,7 @@
     ],
     "latest_season": 9,
     "latest_episode": 7,
-    "seeders": 593
+    "seeders": 404
   },
   {
     "id": "tt31938062",
@@ -69,7 +69,7 @@
     ],
     "latest_season": 2,
     "latest_episode": 6,
-    "seeders": 424
+    "seeders": 284
   },
   {
     "id": "tt35114768",
@@ -86,7 +86,7 @@
     ],
     "latest_season": 2,
     "latest_episode": 41,
-    "seeders": 337
+    "seeders": 254
   },
   {
     "id": "tt8622160",
@@ -96,7 +96,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "🆕 Legújabb epizód: S01E03\n\nAz egymással barátkozó, rivalizáló és romantikázó fiatal kadétok a Csillagflotta tisztjeinek készülnek, mindeközben pedig egy, az Akadémiát és a Föderációt is fenyegető ellenséggel is szembe kell nézniük.",
-    "imdbRating": 4.7,
+    "imdbRating": 4.8,
     "releaseInfo": "2026",
     "genres": [
       "Sci-Fi & Fantasy",
@@ -104,7 +104,26 @@
     ],
     "latest_season": 1,
     "latest_episode": 3,
-    "seeders": 309
+    "seeders": 229
+  },
+  {
+    "id": "tt30412869",
+    "type": "series",
+    "name": "56 nap",
+    "poster": "https://image.tmdb.org/t/p/w500/nYrp4RbRuGfecm1HGjUb5TSLHox.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor Oliver Kennedy és a barátnője, Ciara Wyse luxuslakásában azonosítatlan holttestre bukkannak, Lee Reardon és Karl Connolly nyomozók rekonstruálják a pár halálos románcának első 56 napját.",
+    "imdbRating": 3.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma",
+      "Rejtély"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 184
   },
   {
     "id": "tt29921437",
@@ -122,59 +141,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 1,
-    "seeders": 257
-  },
-  {
-    "id": "tt5645432",
-    "type": "series",
-    "name": "A nagy öreg (S04E14)",
-    "poster": "https://image.tmdb.org/t/p/w500/yIXjKILfArrgfRjwCpJceuLz7rp.jpg",
-    "posterShape": "poster",
-    "year": 2022,
-    "description": "🆕 Legújabb epizód: S04E14\n\nDan Chase évtizedekkel ezelőtt kereket oldott a CIA elől, és azóta a civilizációtól elszigetelten él. Amikor egy bérgyilkos érkezik, hogy kiiktassa őt, az öreg ügynöknek rá kell jönnie, hogy a jövője biztosításához el kell rendeznie a múltját.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2022",
-    "genres": [
-      "Action & Adventure",
-      "Dráma"
-    ],
-    "latest_season": 4,
-    "latest_episode": 14,
-    "seeders": 233
-  },
-  {
-    "id": "tt3346438",
-    "type": "series",
-    "name": "A Nagy Duett (S08E01)",
-    "poster": "https://artworks.thetvdb.com/banners/images/missing/series.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S08E01\n\nA Nagy Duett a TV2 zenés show-műsora, amelyben profi énekesek és magyar hírességek párokat alkotva versenyeznek \"Az év duettpárja\" címért. Minden páros egy zenei tehetségből és egy ismert személyiségből áll, akik hétről hétre lépnek színpadra közös produkciókkal.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [],
-    "latest_season": 8,
-    "latest_episode": 1,
-    "seeders": 223
-  },
-  {
-    "id": "tt30412869",
-    "type": "series",
-    "name": "56 nap",
-    "poster": "https://image.tmdb.org/t/p/w500/nYrp4RbRuGfecm1HGjUb5TSLHox.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor Oliver Kennedy és a barátnője, Ciara Wyse luxuslakásában azonosítatlan holttestre bukkannak, Lee Reardon és Karl Connolly nyomozók rekonstruálják a pár halálos románcának első 56 napját.",
-    "imdbRating": 2.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Dráma",
-      "Rejtély"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 214
+    "seeders": 176
   },
   {
     "id": "tt23897504",
@@ -194,7 +161,40 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 207
+    "seeders": 167
+  },
+  {
+    "id": "tt5645432",
+    "type": "series",
+    "name": "A nagy öreg (S04E14)",
+    "poster": "https://image.tmdb.org/t/p/w500/yIXjKILfArrgfRjwCpJceuLz7rp.jpg",
+    "posterShape": "poster",
+    "year": 2022,
+    "description": "🆕 Legújabb epizód: S04E14\n\nDan Chase évtizedekkel ezelőtt kereket oldott a CIA elől, és azóta a civilizációtól elszigetelten él. Amikor egy bérgyilkos érkezik, hogy kiiktassa őt, az öreg ügynöknek rá kell jönnie, hogy a jövője biztosításához el kell rendeznie a múltját.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2022",
+    "genres": [
+      "Action & Adventure",
+      "Dráma"
+    ],
+    "latest_season": 4,
+    "latest_episode": 14,
+    "seeders": 157
+  },
+  {
+    "id": "tt3346438",
+    "type": "series",
+    "name": "A Nagy Duett (S08E01)",
+    "poster": "https://artworks.thetvdb.com/banners/images/missing/series.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S08E01\n\nA Nagy Duett a TV2 zenés show-műsora, amelyben profi énekesek és magyar hírességek párokat alkotva versenyeznek \"Az év duettpárja\" címért. Minden páros egy zenei tehetségből és egy ismert személyiségből áll, akik hétről hétre lépnek színpadra közös produkciókkal.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [],
+    "latest_season": 8,
+    "latest_episode": 1,
+    "seeders": 156
   },
   {
     "id": "tt31314791",
@@ -213,7 +213,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 5,
-    "seeders": 199
+    "seeders": 155
   },
   {
     "id": "tt33270420",
@@ -231,7 +231,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 4,
-    "seeders": 184
+    "seeders": 132
   },
   {
     "id": "tt31812476",
@@ -248,24 +248,7 @@
     ],
     "latest_season": 2,
     "latest_episode": 9,
-    "seeders": 150
-  },
-  {
-    "id": "tt1800864",
-    "type": "series",
-    "name": "Aranyláz Alaszkában (S16E11)",
-    "poster": "https://image.tmdb.org/t/p/w500/3nvwfYxjX0IHDbT5IYOmfxSBWR1.jpg",
-    "posterShape": "poster",
-    "year": 2010,
-    "description": "🆕 Legújabb epizód: S16E11\n\nA gazdasági válsággal szembesülő Hoffman család saját kezébe veszi a sorsát, és új lehetőségek után néz. Az \"Aranyláz Alaszkában\" a nagyratörő Todd Hoffman és családja sorsát követi nyomon, akik mindenüket kockára téve hátat fordítanak korábbi életüknek, és elindulnak aranyat keresni az alaszkai vadonban. \n\nMiután megvásárolnak egy 200 holdas területet Észak-Alaszkában, a nagy vagyon reményében lelkesen kutatnak a megálmodott ököl nagyságú aranyrögök után. Számos kihívással kell azonban szembenézniük: éjjel-nappal keményen kell dolgozniuk, hogy gépeik működőképesek maradjanak. Miközben a Hoffman család próbálja kialakítani új életformáját, a sikerük vagy bukásuk jórészt azon múlik, sikerül-e a közösségben baráti kapcsolatokat kiépíteniük, enélkül esélyük sincs arra, hogy megleljék az aranyat.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2010",
-    "genres": [
-      "Reality"
-    ],
-    "latest_season": 16,
-    "latest_episode": 11,
-    "seeders": 132
+    "seeders": 108
   },
   {
     "id": "tt11794812",
@@ -284,7 +267,24 @@
     ],
     "latest_season": 2,
     "latest_episode": 4,
-    "seeders": 109
+    "seeders": 94
+  },
+  {
+    "id": "tt1800864",
+    "type": "series",
+    "name": "Aranyláz Alaszkában (S16E11)",
+    "poster": "https://image.tmdb.org/t/p/w500/3nvwfYxjX0IHDbT5IYOmfxSBWR1.jpg",
+    "posterShape": "poster",
+    "year": 2010,
+    "description": "🆕 Legújabb epizód: S16E11\n\nA gazdasági válsággal szembesülő Hoffman család saját kezébe veszi a sorsát, és új lehetőségek után néz. Az \"Aranyláz Alaszkában\" a nagyratörő Todd Hoffman és családja sorsát követi nyomon, akik mindenüket kockára téve hátat fordítanak korábbi életüknek, és elindulnak aranyat keresni az alaszkai vadonban. \n\nMiután megvásárolnak egy 200 holdas területet Észak-Alaszkában, a nagy vagyon reményében lelkesen kutatnak a megálmodott ököl nagyságú aranyrögök után. Számos kihívással kell azonban szembenézniük: éjjel-nappal keményen kell dolgozniuk, hogy gépeik működőképesek maradjanak. Miközben a Hoffman család próbálja kialakítani új életformáját, a sikerük vagy bukásuk jórészt azon múlik, sikerül-e a közösségben baráti kapcsolatokat kiépíteniük, enélkül esélyük sincs arra, hogy megleljék az aranyat.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2010",
+    "genres": [
+      "Reality"
+    ],
+    "latest_season": 16,
+    "latest_episode": 11,
+    "seeders": 81
   },
   {
     "id": "tt33246591",
@@ -303,7 +303,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 4,
-    "seeders": 103
+    "seeders": 78
   },
   {
     "id": "tt21064598",
@@ -320,7 +320,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 89
+    "seeders": 68
   },
   {
     "id": "tt19323668",
@@ -339,7 +339,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 14,
-    "seeders": 81
+    "seeders": 63
   },
   {
     "id": "tt33241079",
@@ -349,67 +349,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ez a „mindent bele” dokumentumfilm-sorozat bepillantást enged a sztárséf Gordon Ramsay családi életének, cégbirodalmának és pályafutása legnagyobb dobásának kulisszái mögé.",
-    "imdbRating": null,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 75
-  },
-  {
-    "id": "tt35495073",
-    "type": "series",
-    "name": "Heated Rivalry (S01E01)",
-    "poster": "https://image.tmdb.org/t/p/w500/epgr7n61vVIniyAghz2GYj22DkC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "🆕 Legújabb epizód: S01E01\n\nKét jégkorongozó éveken át tartó titkos románcba bonyolódik, miközben a dicsőséget hajszolják a jégen, és egymással – és az érzéseikkel – is küzdenek.",
-    "imdbRating": 8.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": 1,
-    "latest_episode": 1,
-    "seeders": 71
-  },
-  {
-    "id": "tt35149250",
-    "type": "series",
-    "name": "A sokoldalú Sarah Kim",
-    "poster": "https://image.tmdb.org/t/p/w500/12T4H3UcmU64VY0JoLDHlzffW6I.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy holttest a város közepén. Egy feltörekvő luxusmárka. Egy nyomozó minden apró részletét megvizsgálja egy nő folyamatosan változó történetének. Mi történt valójában?",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Rejtély",
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
     "seeders": 59
-  },
-  {
-    "id": "tt7671070",
-    "type": "series",
-    "name": "Ipar (S04E06)",
-    "poster": "https://image.tmdb.org/t/p/w500/4Np6r9oYSaCp6DEECTaoe7j9yr5.jpg",
-    "posterShape": "poster",
-    "year": 2020,
-    "description": "🆕 Legújabb epizód: S04E06\n\nAmbíciózus ifjak küzdenek a pozíciókért egy londoni befektetési banknál. A munkatársak, barátok és ellenségek közötti határvonalak elmosódnak, amikor bekerülnek a vállalati kultúrába, melyben mindent a pénz, szex, drog és ego határoz meg.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2020",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": 4,
-    "latest_episode": 6,
-    "seeders": 58
   },
   {
     "id": "tt11859542",
@@ -427,7 +374,95 @@
     ],
     "latest_season": 1,
     "latest_episode": 1,
-    "seeders": 58
+    "seeders": 47
+  },
+  {
+    "id": "tt26748321",
+    "type": "series",
+    "name": "Doki (S02E07)",
+    "poster": "https://image.tmdb.org/t/p/w500/peMG1zrjpXxqmyxrNJcmFpsYHHf.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "🆕 Legújabb epizód: S02E07\n\nA történet Dr. Amy Larsenről szól, aki egy autóbaleset során elveszíti az emlékeit. Vissza kell térnie gyakornokként a kórházba, és valahogyan újjá kell építenie az életét a megmaradt darabokból.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": 2,
+    "latest_episode": 7,
+    "seeders": 47
+  },
+  {
+    "id": "tt7671070",
+    "type": "series",
+    "name": "Ipar (S04E06)",
+    "poster": "https://image.tmdb.org/t/p/w500/4Np6r9oYSaCp6DEECTaoe7j9yr5.jpg",
+    "posterShape": "poster",
+    "year": 2020,
+    "description": "🆕 Legújabb epizód: S04E06\n\nAmbíciózus ifjak küzdenek a pozíciókért egy londoni befektetési banknál. A munkatársak, barátok és ellenségek közötti határvonalak elmosódnak, amikor bekerülnek a vállalati kultúrába, melyben mindent a pénz, szex, drog és ego határoz meg.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2020",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": 4,
+    "latest_episode": 6,
+    "seeders": 46
+  },
+  {
+    "id": "tt35149250",
+    "type": "series",
+    "name": "A sokoldalú Sarah Kim",
+    "poster": "https://image.tmdb.org/t/p/w500/12T4H3UcmU64VY0JoLDHlzffW6I.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy holttest a város közepén. Egy feltörekvő luxusmárka. Egy nyomozó minden apró részletét megvizsgálja egy nő folyamatosan változó történetének. Mi történt valójában?",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Rejtély",
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 46
+  },
+  {
+    "id": "tt35495073",
+    "type": "series",
+    "name": "Heated Rivalry (S01E04)",
+    "poster": "https://image.tmdb.org/t/p/w500/epgr7n61vVIniyAghz2GYj22DkC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "🆕 Legújabb epizód: S01E04\n\nKét jégkorongozó éveken át tartó titkos románcba bonyolódik, miközben a dicsőséget hajszolják a jégen, és egymással – és az érzéseikkel – is küzdenek.",
+    "imdbRating": 8.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 4,
+    "seeders": 46
+  },
+  {
+    "id": "tt0243722",
+    "type": "series",
+    "name": "Pohádky z mechu a kapradí (S02E05)",
+    "poster": "https://image.tmdb.org/t/p/w500/l3QRPB6cHpWbxO39gH8YJxcAB9z.jpg",
+    "posterShape": "poster",
+    "year": 1968,
+    "description": "🆕 Legújabb epizód: S02E05\n\nAnimovaná kreslená půvabná pohádka o dvou malých skřítcích Křemílkovi a Vochomůrkovi z pařezové chaloupky ukryté v mechu a kapradí.",
+    "imdbRating": 7.0,
+    "releaseInfo": "1968",
+    "genres": [
+      "Kids",
+      "Animációs"
+    ],
+    "latest_season": 2,
+    "latest_episode": 5,
+    "seeders": 43
   },
   {
     "id": "tt0214382",
@@ -445,24 +480,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 56
-  },
-  {
-    "id": "tt26748321",
-    "type": "series",
-    "name": "Doki (S02E07)",
-    "poster": "https://image.tmdb.org/t/p/w500/peMG1zrjpXxqmyxrNJcmFpsYHHf.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "🆕 Legújabb epizód: S02E07\n\nA történet Dr. Amy Larsenről szól, aki egy autóbaleset során elveszíti az emlékeit. Vissza kell térnie gyakornokként a kórházba, és valahogyan újjá kell építenie az életét a megmaradt darabokból.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": 2,
-    "latest_episode": 7,
-    "seeders": 56
+    "seeders": 42
   },
   {
     "id": "tt31709373",
@@ -481,25 +499,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 52
-  },
-  {
-    "id": "tt0243722",
-    "type": "series",
-    "name": "Pohádky z mechu a kapradí (S02E05)",
-    "poster": "https://image.tmdb.org/t/p/w500/l3QRPB6cHpWbxO39gH8YJxcAB9z.jpg",
-    "posterShape": "poster",
-    "year": 1968,
-    "description": "🆕 Legújabb epizód: S02E05\n\nAnimovaná kreslená půvabná pohádka o dvou malých skřítcích Křemílkovi a Vochomůrkovi z pařezové chaloupky ukryté v mechu a kapradí.",
-    "imdbRating": 7.0,
-    "releaseInfo": "1968",
-    "genres": [
-      "Kids",
-      "Animációs"
-    ],
-    "latest_season": 2,
-    "latest_episode": 5,
-    "seeders": 51
+    "seeders": 41
   },
   {
     "id": "tt5151816",
@@ -516,23 +516,26 @@
     ],
     "latest_season": 4,
     "latest_episode": 3,
-    "seeders": 38
+    "seeders": 37
   },
   {
-    "id": "tt39398591",
+    "id": "tt3455408",
     "type": "series",
-    "name": "Reality Check: Inside America's Next Top Model",
-    "poster": "https://image.tmdb.org/t/p/w500/lxlsvsgvEYlf2wrSV9qUipHRAuk.jpg",
+    "name": "Oak Island átka (S13E05)",
+    "poster": "https://image.tmdb.org/t/p/w500/mHygRGbsYAGayqQwTiiePflhgnU.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumsorozat, melyben modellek, zsűritagok és bennfentesek – köztük Tyra Banks – idézik fel a valóságshow ellentmondásos örökségét.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
+    "year": 2014,
+    "description": "🆕 Legújabb epizód: S13E05\n\nNova Scotia partjainál fekszik egy rejtélyekkel teli, kis sziget. Az 1700-as években az emberek különös fényeket láttak itt, és eltűnt az a személy, akit ezek felderítésére ideküldtek. Végül egy csapat gyerek, akik áthajóztak a szigetre, furcsa bemetszéseket találtak a földön. A mai napig tart a felfedezés nyomán indult kutatás, amelyben mindenki részt vett; Franklin D Roosevelttől John Wayne-ig. Mi rejlik Oak Island mélyén? Kalózkincsek vagy viking seregek? Egy ókori Fort Knox vagy egy elveszett bibliai relikvia? Mondjuk a frigyláda? Senki sem tudja, és aki megpróbálta kideríteni, az kellemetlen meglepetésekkel szembesült - csapdákkal. Valaki nagyon gondosan rejtett el a szigeten valamit, mert aki itt egy kicsit is mélyebbre ás, annak a gödrét azonnal elárasztja a titkos csatornákon ideömlő tengervíz.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2014",
     "genres": [
+      "Rejtély",
+      "Action & Adventure",
+      "Reality",
       "Dokumentum"
     ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 37
+    "latest_season": 13,
+    "latest_episode": 5,
+    "seeders": 34
   }
 ]
