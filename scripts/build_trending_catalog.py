@@ -1,9 +1,9 @@
 """
-Build trending catalogs: top seeded HD 1080p items from the most recent uploads.
+Build trending catalogs: "hot" HD 1080p items from the most recent uploads (seed velocity).
 - Fetches the last TORRENT_POOL (200) torrents per category, sorted by upload (newest first).
 - Filters to HD_HUN (movies) / HDSER_HUN (series), pattern .1080 (1080p).
-- Sorts that pool by seeders descending, dedupes by IMDB id, takes top TRENDING_COUNT (30) in order.
-Output: data/trending_movies.json, data/trending_series.json (proper order = by seeders).
+- Sorts by seed velocity (seeders / days_since_upload); min TRENDING_MIN_SEEDERS; dedupes by IMDB, top TRENDING_COUNT.
+Output: data/trending_movies.json, data/trending_series.json.
 
 Usage: python scripts/build_trending_catalog.py
 """
@@ -12,6 +12,7 @@ import sys
 import time
 import os
 import json
+from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
 import requests
@@ -44,9 +45,10 @@ TVDB_PIN = os.getenv('TVDB_PIN', '').strip() or None
 NCORE_USER = os.getenv('NCORE_USER', '').strip()
 NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 
-# Pool = only consider this many most recent uploads; then take top TRENDING_COUNT by seeders
+# Pool = only consider this many most recent uploads; then rank by velocity, take top TRENDING_COUNT
 TORRENT_POOL = int(os.getenv('NCORE_TRENDING_POOL', '200'))
 TRENDING_COUNT = int(os.getenv('NCORE_TRENDING_COUNT', '30'))
+TRENDING_MIN_SEEDERS = int(os.getenv('NCORE_TRENDING_MIN_SEEDERS', '5'))  # skip torrents with fewer seeds
 NCORE_PAGE_DELAY = float(os.getenv('NCORE_PAGE_DELAY', '2.0'))
 NCORE_PAGE_RETRIES = int(os.getenv('NCORE_PAGE_RETRIES', '3'))
 NCORE_RETRY_WAIT = float(os.getenv('NCORE_RETRY_WAIT', '10.0'))
@@ -158,6 +160,30 @@ def _seeders_from_torrent(t):
         return 0
 
 
+def _days_since_upload(t):
+    """Return days since torrent upload; ncoreparser stores t['date'] as datetime. None if missing."""
+    try:
+        d = t.get('date') if isinstance(t, dict) else t['date']
+        if d is None:
+            return None
+        if isinstance(d, datetime):
+            now = datetime.now(d.tzinfo) if d.tzinfo else datetime.now()
+            delta = now - d
+            return max(delta.total_seconds() / 86400, 0.01)
+        return None
+    except (KeyError, TypeError, AttributeError):
+        return None
+
+
+def _velocity(t):
+    """Seeds per day (seed velocity). Fallback to raw seeders if date missing."""
+    seeders = _seeders_from_torrent(t)
+    days = _days_since_upload(t)
+    if days is None or days <= 0:
+        return float(seeders)
+    return seeders / days
+
+
 def fetch_trending_movies(client):
     """Fetch the last TORRENT_POOL (200) HD_HUN 1080p movies by upload (newest first)."""
     if not hasattr(SearchParamType, 'HD_HUN'):
@@ -262,17 +288,18 @@ def main():
         return 1
 
     # ---------- MOVIES ----------
-    print("🎬 Trendi filmek (HD_HUN 1080p, legtöbb seed az utolsó feltöltésekből)")
+    print("🎬 Trendi filmek (HD_HUN 1080p, seed velocity = seed/nap)")
     movie_torrents = fetch_trending_movies(client)
     print(f"  Összesen {len(movie_torrents)} torrent")
-    # Sort by seeders desc; ncoreparser may use 'seed' or 'seeders'
-    movie_torrents.sort(key=lambda t: _seeders_from_torrent(t), reverse=True)
+    movie_torrents.sort(key=lambda t: _velocity(t), reverse=True)
 
     seen_imdb = set()
     movie_metas = []
     for t in movie_torrents:
         if len(movie_metas) >= TRENDING_COUNT:
             break
+        if _seeders_from_torrent(t) < TRENDING_MIN_SEEDERS:
+            continue
         try:
             title = (t['title'] or '').strip()
         except Exception:
@@ -316,16 +343,18 @@ def main():
     print(f"✓ {len(movie_metas)} trendi film → {out_file_movies.name}\n")
 
     # ---------- SERIES ----------
-    print("📺 Trendi sorozatok (HDSER_HUN 1080p, legtöbb seed az utolsó feltöltésekből)")
+    print("📺 Trendi sorozatok (HDSER_HUN 1080p, seed velocity = seed/nap)")
     series_torrents = fetch_trending_series(client)
     print(f"  Összesen {len(series_torrents)} torrent")
-    series_torrents.sort(key=lambda t: _seeders_from_torrent(t), reverse=True)
+    series_torrents.sort(key=lambda t: _velocity(t), reverse=True)
 
     seen_imdb_series = set()
     series_metas = []
     for t in series_torrents:
         if len(series_metas) >= TRENDING_COUNT:
             break
+        if _seeders_from_torrent(t) < TRENDING_MIN_SEEDERS:
+            continue
         try:
             title = (t['title'] or '').strip()
         except Exception:

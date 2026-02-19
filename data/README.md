@@ -10,8 +10,8 @@ This folder holds JSON files built by scheduled scripts. **Series** use **TVDB**
 - **`most_seeded_hungarian_productions_movies.json`** – Built weekly by `filter_hungarian_productions.py` (Hungarian-produced movies).
 - **`most_seeded_hungarian_productions_series.json`** – Built weekly by `filter_hungarian_productions_series.py` (Hungarian-produced series).
 
-**🔥 Trendi (top seeded from last 200 uploads, 1080p)**
-- **`trending_movies.json`** – Built every 6 hours by `build_trending_catalog.py`. Last 200 HD_HUN 1080p by upload, then top 30 by seeders (proper order).
+**🔥 Trendi (seed velocity from last 200 uploads, 1080p)**
+- **`trending_movies.json`** – Built every 6 hours by `build_trending_catalog.py`. Last 200 HD_HUN 1080p by upload, then ranked by seed velocity (seeders/days since upload), min 5 seeders, top 30.
 - **`trending_series.json`** – Same, HDSER_HUN 1080p, top 30 series.
 
 **⏰ Legfrissebb**
