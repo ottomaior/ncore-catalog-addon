@@ -217,6 +217,36 @@ def is_newer_episode(new_season, new_episode, old_season, old_episode):
     return False
 
 
+def _episode_sort_key(entry):
+    """Key for comparing series entries: (season, episode); higher = newer."""
+    s = entry.get('latest_season')
+    e = entry.get('latest_episode')
+    return (s if s is not None else 0, e if e is not None else 0)
+
+
+def dedupe_series_keep_newest(series_list):
+    """Keep one entry per series id (id); keep the one with newest latest_season/latest_episode. Order preserved by first occurrence of each id."""
+    by_id = {}
+    for s in series_list:
+        if not s or not isinstance(s, dict):
+            continue
+        sid = s.get('id')
+        if not sid:
+            continue
+        if sid not in by_id or _episode_sort_key(s) > _episode_sort_key(by_id[sid]):
+            by_id[sid] = s
+    # Preserve order: first occurrence of each id in original list
+    seen = set()
+    out = []
+    for s in series_list:
+        sid = s.get('id') if isinstance(s, dict) else None
+        if not sid or sid in seen:
+            continue
+        seen.add(sid)
+        out.append(by_id[sid])
+    return out
+
+
 def parse_series_title(title):
     """
     Extract clean show name and year from nCore series torrent title.
@@ -505,11 +535,13 @@ def main():
         
         imdb_id = metadata['imdb_id']
         
-        # Check if already exists and compare episodes
+        # Check if already exists (in this run or in loaded file) and compare episodes – keep only newest
         should_update = False
         if imdb_id in existing_series_ids:
-            # Find existing entry to check episode
-            existing_entry = next((s for s in existing_series if s['id'] == imdb_id), None)
+            # Prefer entry from this run (new_series_metas), then from loaded file (existing_series)
+            existing_entry = next((s for s in new_series_metas if s['id'] == imdb_id), None)
+            if existing_entry is None:
+                existing_entry = next((s for s in existing_series if s['id'] == imdb_id), None)
             if existing_entry:
                 old_season = existing_entry.get('latest_season')
                 old_episode = existing_entry.get('latest_episode')
@@ -520,7 +552,8 @@ def main():
                         print(f"  ⬆ Újabb epizód! Régi: S{old_season:02d}E{old_episode:02d} → Új: {episode_string}")
                     else:
                         print(f"  ⬆ Epizód info hozzáadva: {episode_string}")
-                    # Remove from existing list so it moves to top
+                    # Remove old from whichever list it's in
+                    new_series_metas = [s for s in new_series_metas if s['id'] != imdb_id]
                     existing_series = [s for s in existing_series if s['id'] != imdb_id]
                     should_update = True
                 else:
@@ -577,8 +610,8 @@ def main():
         print(f"  ✓ Hozzáadva: {display_title} ({year_val})")
         existing_series_ids.add(imdb_id)
 
-    # Merge: new items first (newest uploads), then existing, trim to TARGET_COUNT
-    merged_series = (new_series_metas + existing_series)[:TARGET_COUNT]
+    # Merge: new items first (newest uploads), then existing; dedupe by id (keep newest episode), then trim
+    merged_series = dedupe_series_keep_newest(new_series_metas + existing_series)[:TARGET_COUNT]
 
     # Write series JSON
     with open(out_file_series, 'w', encoding='utf-8') as f:

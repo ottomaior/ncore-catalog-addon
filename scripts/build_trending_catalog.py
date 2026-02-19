@@ -348,8 +348,14 @@ def main():
     print(f"  Összesen {len(series_torrents)} torrent")
     series_torrents.sort(key=lambda t: _velocity(t), reverse=True)
 
-    seen_imdb_series = set()
-    series_metas = []
+    def _is_newer_episode(ns, ne, os, oe):
+        if ns is None or ne is None:
+            return False
+        if os is None or oe is None:
+            return True
+        return ns > os or (ns == os and ne > oe)
+
+    series_metas = []  # list to preserve velocity order; one entry per series id (newest episode)
     for t in series_torrents:
         if len(series_metas) >= TRENDING_COUNT:
             break
@@ -367,9 +373,6 @@ def main():
         if not metadata or not metadata.get('imdb_id'):
             continue
         imdb_id = metadata['imdb_id']
-        if imdb_id in seen_imdb_series:
-            continue
-        seen_imdb_series.add(imdb_id)
         seeders = _seeders_from_torrent(t)
         display_title = metadata['title'] or clean_title
         if episode_string:
@@ -385,7 +388,7 @@ def main():
         description = metadata.get('description') or 'Trendi magyar HD 1080p sorozat – nCore.'
         if episode_string:
             description = f"🆕 Legújabb epizód: {episode_string}\n\n{description}"
-        series_metas.append({
+        meta = {
             'id': imdb_id,
             'type': 'series',
             'name': display_title,
@@ -399,7 +402,13 @@ def main():
             'latest_season': new_season,
             'latest_episode': new_episode,
             'seeders': seeders,
-        })
+        }
+        idx = next((i for i, s in enumerate(series_metas) if s.get('id') == imdb_id), None)
+        if idx is not None:
+            if _is_newer_episode(new_season, new_episode, series_metas[idx].get('latest_season'), series_metas[idx].get('latest_episode')):
+                series_metas[idx] = meta
+            continue
+        series_metas.append(meta)
         if len(series_metas) % 10 == 0:
             print(f"  Sorozat: {len(series_metas)}/{TRENDING_COUNT}")
 

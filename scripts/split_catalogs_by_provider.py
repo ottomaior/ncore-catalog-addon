@@ -177,6 +177,35 @@ def merge_dedup_by_id(*lists):
     return out
 
 
+def _series_episode_key(item):
+    """Sort key for series: (season, episode); higher = newer."""
+    s = item.get('latest_season')
+    e = item.get('latest_episode')
+    return (s if s is not None else 0, e if e is not None else 0)
+
+
+def merge_dedup_series_keep_newest(series_list):
+    """Dedupe series by id; keep the entry with newest latest_season/latest_episode. Order by first occurrence."""
+    by_id = {}
+    for s in series_list:
+        if not s or not isinstance(s, dict):
+            continue
+        sid = s.get('id')
+        if not sid:
+            continue
+        if sid not in by_id or _series_episode_key(s) > _series_episode_key(by_id[sid]):
+            by_id[sid] = s
+    seen = set()
+    out = []
+    for s in series_list:
+        sid = s.get('id') if isinstance(s, dict) else None
+        if not sid or sid in seen:
+            continue
+        seen.add(sid)
+        out.append(by_id[sid])
+    return out
+
+
 def main():
     if not TMDB_API_KEY:
         print('❌ TMDB_API_KEY hiányzik (config/config.env).')
@@ -188,7 +217,7 @@ def main():
     hd_movies = load_json(data_dir / 'hd_movies.json')
     hd_series = load_json(data_dir / 'hd_series.json')
     all_movies = merge_dedup_by_id(hd_movies)
-    all_series = merge_dedup_by_id(hd_series)
+    all_series = merge_dedup_series_keep_newest(hd_series)
 
     print(f'📦 Betöltve (csak legfrissebb): {len(all_movies)} film, {len(all_series)} sorozat')
     if not all_movies and not all_series:

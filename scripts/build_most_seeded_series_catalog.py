@@ -78,6 +78,28 @@ def parse_series_title(title):
     return clean or title, year
 
 
+def extract_episode_info(title):
+    """Extract S##E## from title; return (season, episode, 'S01E02' string) or (None, None, None)."""
+    ep = re.search(r'S(\d{1,2})E(\d{1,2})', (title or ''), re.IGNORECASE)
+    if ep:
+        s, e = int(ep.group(1)), int(ep.group(2))
+        return s, e, f"S{s:02d}E{e:02d}"
+    return None, None, None
+
+
+def is_newer_episode(new_s, new_e, old_s, old_e):
+    """True if (new_s, new_e) is strictly newer than (old_s, old_e)."""
+    if new_s is None or new_e is None:
+        return False
+    if old_s is None or old_e is None:
+        return True
+    if new_s > old_s:
+        return True
+    if new_s == old_s and new_e > old_e:
+        return True
+    return False
+
+
 
 
 def load_existing_metas():
@@ -207,15 +229,14 @@ def main():
         except (TypeError, ValueError):
             return 0
 
-    new_metas = []
-    seen_imdb = set()
+    new_by_id = {}  # id -> meta; keep newest episode per series
     # Cache TVDB lookups by (clean_title, year) – many torrents are same show, different episodes
     tvdb_cache = {}
     total = len(torrents)
     for i, t in enumerate(torrents):
         # Progress every 25 torrents so user sees we're not stuck
         if (i + 1) % 25 == 0 or i == 0:
-            print(f'  Torrent {i + 1}/{total} … ({len(new_metas)} sorozat eddig)')
+            print(f'  Torrent {i + 1}/{total} … ({len(new_by_id)} sorozat eddig)')
         try:
             if isinstance(t, dict):
                 title = (t.get('title') or '').strip()
@@ -226,6 +247,7 @@ def main():
         if not title:
             continue
         clean, year = parse_series_title(title)
+        new_season, new_episode, episode_string = extract_episode_info(title)
         cache_key = (clean.strip().lower(), year)
         if cache_key in tvdb_cache:
             metadata = tvdb_cache[cache_key]
@@ -239,12 +261,19 @@ def main():
         if not imdb:
             continue
         imdb = imdb if str(imdb).startswith('tt') else 'tt' + str(imdb)
-        if imdb in seen_imdb:
-            continue
-        seen_imdb.add(imdb)
+        # Keep only newest episode per series
+        seeders_new = _seeders_from_torrent(t)
+        if seeders_new == 0:
+            seeders_new = 1_000_000 - len(new_by_id)
+        if imdb in new_by_id:
+            old = new_by_id[imdb]
+            if not is_newer_episode(new_season, new_episode, old.get('latest_season'), old.get('latest_episode')):
+                continue
         
         # Get data from TVDB metadata (same shape as build_latest_catalog)
         name = metadata.get('title') or clean
+        if episode_string:
+            name = f"{name} ({episode_string})"
         poster_path = metadata.get('poster_path')
         if poster_path and poster_path.startswith('http'):
             poster = poster_path
@@ -252,14 +281,12 @@ def main():
             poster = f'https://image.tmdb.org/t/p/w500{poster_path}' if poster_path else f'https://images.metahub.space/poster/small/{imdb}/img'
         genres = metadata.get('genres') or []
         description = metadata.get('description') or 'Magyar HD sorozat – nCore legnagyobb seed.'
+        if episode_string:
+            description = f"🆕 Legújabb epizód: {episode_string}\n\n{description}"
         year_val = metadata.get('year')
         rating = metadata.get('rating')
         
         imdb_clean = imdb.replace('tt', '')
-        seeders = _seeders_from_torrent(t)
-        if seeders == 0:
-            seeders = 1_000_000 - len(new_metas)
-
         meta = {
             'id': f'tt{imdb_clean}',
             'type': 'series',
@@ -271,16 +298,36 @@ def main():
             'imdbRating': str(round(rating, 1)) if isinstance(rating, (int, float)) else None,
             'releaseInfo': str(year_val) if year_val else None,
             'genres': genres,
-            'seeders': seeders,
+            'seeders': seeders_new,
+            'latest_season': new_season,
+            'latest_episode': new_episode,
         }
-        new_metas.append(meta)
-        if (len(new_metas)) % 50 == 0:
-            print(f'  Feldolgozva: {len(new_metas)} sorozat')
+        new_by_id[imdb] = meta
+        if len(new_by_id) % 50 == 0:
+            print(f'  Feldolgozva: {len(new_by_id)} sorozat')
 
-    for m in new_metas:
-        existing_by_id[m['id']] = m
+    new_metas = list(new_by_id.values())
+
+    def _episode_key(m):
+        return (m.get('latest_season') or 0, m.get('latest_episode') or 0)
+
+    existing_by_id = {}  # id -> meta; keep newest episode when merging
     for m in existing_list:
         m.setdefault('seeders', 0)
+        m.setdefault('latest_season', None)
+        m.setdefault('latest_episode', None)
+        eid = m.get('id')
+        if not eid:
+            continue
+        if eid not in existing_by_id or _episode_key(m) > _episode_key(existing_by_id[eid]):
+            existing_by_id[eid] = m
+    for m in new_metas:
+        eid = m.get('id')
+        if eid not in existing_by_id or is_newer_episode(
+            m.get('latest_season'), m.get('latest_episode'),
+            existing_by_id[eid].get('latest_season'), existing_by_id[eid].get('latest_episode')
+        ):
+            existing_by_id[eid] = m
 
     merged = sorted(existing_by_id.values(), key=lambda m: m.get('seeders', 0), reverse=True)
     merged = merged[:TARGET_COUNT]
