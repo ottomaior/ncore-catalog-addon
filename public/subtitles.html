@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliratok feltöltése – nCore Stremio Addons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d0d14;
+            --surface: rgba(22, 33, 62, 0.7);
+            --surface-hover: rgba(30, 45, 80, 0.9);
+            --border: rgba(123, 92, 250, 0.4);
+            --accent: #8b5cf6;
+            --accent-light: #a78bfa;
+            --text: #e2e8f0;
+            --text-muted: #94a3b8;
+            --success: #22c55e;
+            --error: #ef4444;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Outfit', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            background-image:
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(123, 92, 250, 0.15), transparent),
+                radial-gradient(ellipse 60% 40% at 100% 100%, rgba(139, 92, 246, 0.08), transparent);
+        }
+        .container { max-width: 560px; margin: 0 auto; padding: 2rem 1.5rem; }
+        header { text-align: center; margin-bottom: 2rem; }
+        header h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #fff 0%, var(--accent-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+        header p { color: var(--text-muted); font-size: 0.95rem; }
+        .addon-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem 1.75rem;
+            margin-bottom: 1.25rem;
+        }
+        .addon-card h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; }
+        .form-group { margin-bottom: 1rem; }
+        .form-group label {
+            display: block;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 0.35rem;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="file"],
+        .form-group select {
+            width: 100%;
+            padding: 0.6rem 0.8rem;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            background: rgba(0,0,0,0.25);
+            color: var(--text);
+            font-family: inherit;
+            font-size: 0.95rem;
+        }
+        .form-group input::file-selector-button {
+            padding: 0.35rem 0.6rem;
+            margin-right: 0.75rem;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: rgba(255,255,255,0.08);
+            color: var(--text);
+            font-family: inherit;
+            cursor: pointer;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.65rem 1.25rem;
+            border-radius: 10px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            border: none;
+            background: linear-gradient(135deg, var(--accent), #6366f1);
+            color: white;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(123, 92, 250, 0.4);
+        }
+        .btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+        .message {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 10px;
+            font-size: 0.9rem;
+        }
+        .message.success { background: rgba(34, 197, 94, 0.15); border: 1px solid rgba(34, 197, 94, 0.4); color: #86efac; }
+        .message.error { background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.4); color: #fca5a5; }
+        .message a { color: var(--accent-light); }
+        .url-box {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            background: rgba(0,0,0,0.3);
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            margin-top: 0.5rem;
+            word-break: break-all;
+            color: var(--text-muted);
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255,255,255,0.06);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        footer a { color: var(--accent-light); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Feliratok feltöltése</h1>
+            <p>nCore kommentekből letöltött .srt vagy .vtt feltöltése IMDB ID alapján – megjelenik Stremioban.</p>
+        </header>
+        <div class="addon-card">
+            <h2>Feltöltés</h2>
+            <form id="upload-form" action="/subtitles/upload" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="imdb_id">IMDB ID <span style="color:var(--text-muted)">(pl. tt1234567)</span></label>
+                    <input type="text" id="imdb_id" name="imdb_id" placeholder="tt1234567" required>
+                </div>
+                <div class="form-group">
+                    <label for="title_search">Cím alapján keresés <span style="color:var(--text-muted)">(opcionális – kitölti az IMDB ID-t)</span></label>
+                    <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+                        <input type="text" id="title_search" placeholder="Film címe" style="flex:1;min-width:120px;">
+                        <input type="text" id="title_year" placeholder="Év (pl. 2024)" style="width:5rem;">
+                        <button type="button" class="btn" id="resolve-btn" style="padding:0.5rem 0.75rem;">IMDB ID megkeresése</button>
+                    </div>
+                    <span id="resolve-status" style="font-size:0.85rem;color:var(--text-muted);display:block;margin-top:0.35rem;"></span>
+                </div>
+                <div class="form-group">
+                    <label for="subtitle">Felirat fájl (.srt vagy .vtt)</label>
+                    <input type="file" id="subtitle" name="subtitle" accept=".srt,.vtt" required>
+                </div>
+                <div class="form-group">
+                    <label for="lang">Nyelv</label>
+                    <select id="lang" name="lang" required>
+                        <option value="hun">Magyar</option>
+                        <option value="eng">English</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="note">Forrás / megjegyzés <span style="color:var(--text-muted)">(opcionális)</span></label>
+                    <input type="text" id="note" name="note" placeholder="pl. nCore komment">
+                </div>
+                <button type="submit" class="btn" id="submit-btn">Feltöltés</button>
+            </form>
+            <div id="message" class="message" style="display: none;"></div>
+        </div>
+        <footer>
+            <p><a href="/">Vissza a főoldalra</a></p>
+        </footer>
+    </div>
+    <script>
+        const form = document.getElementById('upload-form');
+        const messageEl = document.getElementById('message');
+        const submitBtn = document.getElementById('submit-btn');
+        const baseUrl = window.location.protocol + '//' + window.location.host;
+
+        document.getElementById('resolve-btn').addEventListener('click', async () => {
+            const q = document.getElementById('title_search').value.trim();
+            const year = document.getElementById('title_year').value.trim();
+            const statusEl = document.getElementById('resolve-status');
+            statusEl.textContent = '';
+            if (!q) { statusEl.textContent = 'Add meg a film címét.'; return; }
+            try {
+                let url = '/api/subtitles/resolve-imdb?q=' + encodeURIComponent(q);
+                if (year) url += '&year=' + encodeURIComponent(year);
+                const res = await fetch(url);
+                const data = await res.json().catch(() => ({}));
+                if (res.ok && data.imdb_id) {
+                    document.getElementById('imdb_id').value = data.imdb_id;
+                    statusEl.textContent = 'Megtalálva: ' + (data.title || '') + (data.year ? ' (' + data.year + ')' : '') + ' → ' + data.imdb_id;
+                } else {
+                    statusEl.textContent = data.error || 'Nem található.';
+                }
+            } catch (err) {
+                statusEl.textContent = 'Hiba: ' + (err.message || '');
+            }
+        });
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            messageEl.style.display = 'none';
+            messageEl.className = 'message';
+            submitBtn.disabled = true;
+            const formData = new FormData(form);
+            try {
+                const res = await fetch('/subtitles/upload', { method: 'POST', body: formData });
+                const data = await res.json().catch(() => ({}));
+                messageEl.style.display = 'block';
+                if (res.ok) {
+                    messageEl.className = 'message success';
+                    if (data.duplicate) {
+                        messageEl.innerHTML = 'Ez a felirat már fent van (duplikátum). <strong>' + (data.imdb_id || '') + '</strong>';
+                    } else {
+                        messageEl.innerHTML = 'Feltöltve: <strong>' + (data.filename || '') + '</strong><br>' +
+                            'Stremio addon telepítése: <a href="stremio://' + window.location.host + '/subtitles/manifest.json">Telepítés Stremioval</a><br>' +
+                            '<span class="url-box">' + baseUrl + '/subtitles/manifest.json</span>';
+                    }
+                } else {
+                    messageEl.className = 'message error';
+                    messageEl.textContent = data.error || 'Feltöltés sikertelen.';
+                }
+            } catch (err) {
+                messageEl.style.display = 'block';
+                messageEl.className = 'message error';
+                messageEl.textContent = 'Hiba: ' + (err.message || 'Nincs kapcsolat.');
+            }
+            submitBtn.disabled = false;
+        });
+    </script>
+</body>
+</html>

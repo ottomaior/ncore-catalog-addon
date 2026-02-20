@@ -1,13 +1,17 @@
+require('dotenv').config({ path: require('path').join(__dirname, 'config', 'config.env') });
 const express = require('express');
 const { getRouter } = require('stremio-addon-sdk');
 const path = require('path');
 const { exec } = require('child_process');
 const cron = require('node-cron');
+const multer = require('multer');
 
-// Import all three addon builders
+// Import all addon builders
 const catalogBuilder = require('./index.js');
 const infoBuilder = require('./info-addon.js');
 const trailerBuilder = require('./trailers/addon.js');
+const subtitleBuilder = require('./subtitles/addon.js');
+const subtitlesService = require('./subtitles/upload-service.js');
 
 const app = express();
 
@@ -15,7 +19,7 @@ const app = express();
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     if (req.method === 'OPTIONS') {
-        res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
         return res.sendStatus(204);
     }
     next();
@@ -23,6 +27,11 @@ app.use((req, res, next) => {
 
 // Static assets (e.g. logo.png for addon manifest)
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Subtitles: ensure data dir and load index (must run before subtitle routes).
+// For persistence on Railway: add a Volume, mount it at /data, set env SUBTITLES_DATA_DIR=/data/subtitles.
+subtitlesService.ensureDir();
+subtitlesService.loadIndex();
 
 // Cron: run Python sync scripts every 3 hours (production)
 const isUnix = process.platform !== 'win32';
@@ -75,6 +84,7 @@ const runScript = (scriptName, label, onDone) => {
 const catalogRouter = getRouter(catalogBuilder.getInterface());
 const infoRouter = getRouter(infoBuilder.getInterface());
 const trailerRouter = getRouter(trailerBuilder);
+const subtitleRouter = getRouter(subtitleBuilder);
 
 // Health / status endpoint
 app.get('/health', (req, res) => {
@@ -82,7 +92,7 @@ app.get('/health', (req, res) => {
     const stats = catalog.getStats ? catalog.getStats() : {};
     res.json({
         status: 'ok',
-        addons: { catalog: '3.2.2', info: '3.2.2', trailers: '3.2.2' },
+        addons: { catalog: '3.2.2', info: '3.2.2', trailers: '3.2.2', subtitles: '3.2.2' },
         cron: isUnix ? 'active' : 'disabled',
         ...stats
     });
@@ -96,6 +106,23 @@ app.get('/trailers/configure', (req, res) => {
 // Homepage (static HTML with dynamic baseUrl via client JS)
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+// Resolve movie title to IMDB ID (for subtitle upload page)
+app.get('/api/subtitles/resolve-imdb', async (req, res) => {
+    try {
+        const q = (req.query.q || '').trim();
+        const year = (req.query.year || '').trim() || undefined;
+        if (!q) return res.status(400).json({ error: 'Missing q' });
+        if (/^tt\d+$/i.test(q)) return res.json({ imdb_id: q.toLowerCase() });
+        const { resolveImdbFromTitle } = require('./subtitles/tmdb-resolve.js');
+        const result = await resolveImdbFromTitle(q, year);
+        if (!result) return res.status(404).json({ error: 'Not found' });
+        res.json(result);
+    } catch (e) {
+        console.error('[Subtitles] resolve-imdb error:', e);
+        res.status(500).json({ error: e.message || 'Resolve failed' });
+    }
 });
 
 // Catalog options for configure UI (which catalogs to enable before install)
@@ -140,6 +167,54 @@ app.post('/cron/build', (req, res) => {
     });
 });
 
+// Subtitles: upload and file serving (before /subtitles addon router)
+const uploadSub = multer({
+    storage: multer.memoryStorage(),
+    limits: { fileSize: 5 * 1024 * 1024 },
+    fileFilter: (req, file, cb) => {
+        const ext = (file.originalname || '').toLowerCase().slice(-4);
+        if (ext === '.srt' || ext === '.vtt') return cb(null, true);
+        cb(new Error('Only .srt and .vtt files are allowed'));
+    }
+});
+
+app.post('/subtitles/upload', uploadSub.single('subtitle'), (req, res) => {
+    try {
+        if (!req.file) {
+            return res.status(400).json({ error: 'No subtitle file uploaded' });
+        }
+        const imdbId = (req.body && req.body.imdb_id) ? String(req.body.imdb_id).trim() : '';
+        const lang = (req.body && req.body.lang) ? String(req.body.lang).trim().toLowerCase() : '';
+        const note = (req.body && req.body.note) ? String(req.body.note).trim() : '';
+        if (!imdbId) return res.status(400).json({ error: 'imdb_id is required' });
+        if (!lang) return res.status(400).json({ error: 'lang is required' });
+        if (!['hun', 'eng'].includes(lang)) return res.status(400).json({ error: 'lang must be hun or eng' });
+        const ext = (req.file.originalname || '').toLowerCase().endsWith('.vtt') ? 'vtt' : 'srt';
+        const buffer = subtitlesService.normalizeToUtf8(req.file.buffer);
+        const result = subtitlesService.addEntry(imdbId, lang, buffer, note, ext);
+        if (result.error) return res.status(400).json({ error: result.error });
+        if (result.duplicate) return res.status(200).json({ ok: true, duplicate: true, imdb_id: result.imdb_id });
+        res.status(200).json({ ok: true, filename: result.filename, imdb_id: result.imdb_id, lang: result.lang });
+    } catch (e) {
+        console.error('[Subtitles] Upload error:', e);
+        res.status(500).json({ error: e.message || 'Upload failed' });
+    }
+});
+
+app.get('/subtitles/files/:filename', (req, res) => {
+    const filePath = subtitlesService.getFilePath(req.params.filename);
+    if (!filePath) return res.status(404).json({ error: 'Not found' });
+    const fs = require('fs');
+    if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Not found' });
+    const ext = path.extname(filePath).toLowerCase();
+    const contentType = ext === '.vtt' ? 'text/vtt' : 'application/x-subrip';
+    res.setHeader('Content-Type', contentType);
+    res.setHeader('Content-Disposition', 'inline');
+    res.sendFile(path.resolve(filePath));
+});
+
+app.use('/subtitles', subtitleRouter);
+
 // Serve trailer addon at /trailers
 app.use('/trailers', trailerRouter);
 
@@ -159,6 +234,8 @@ app.listen(PORT, () => {
     console.log(`📍 Catalog:    http://localhost:${PORT}/manifest.json`);
     console.log(`📍 Info:       http://localhost:${PORT}/info/manifest.json`);
     console.log(`📍 Trailers:   http://localhost:${PORT}/trailers/manifest.json`);
-    console.log(`📍 Configure:  http://localhost:${PORT}/trailers/configure\n`);
+    console.log(`📍 Configure:  http://localhost:${PORT}/trailers/configure`);
+    console.log(`📍 Subtitles:  http://localhost:${PORT}/subtitles/manifest.json`);
+    console.log(`📍 Feliratok:  http://localhost:${PORT}/subtitles.html\n`);
     console.log(`${'='.repeat(60)}\n`);
 });

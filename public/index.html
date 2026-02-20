@@ -517,6 +517,25 @@
             </details>
         </div>
         
+        <div class="addon-card">
+            <h2>Magyar feliratok <span class="tag">FELIRATOK</span></h2>
+            <p class="desc">Feliratok feltöltése IMDB ID alapján – nCore kommentekből letöltött .srt/.vtt feltöltése, megjelennek Stremioban a lejátszáskor.</p>
+            <div class="btn-row">
+                <a class="btn btn-primary" href="#" data-stremio="subtitles" onclick="installAddon(event, 'subtitles')">Telepítés Stremioval</a>
+                <a class="btn btn-secondary" href="/subtitles.html">Feliratok feltöltése</a>
+                <button class="btn btn-secondary" onclick="copyUrl('subtitle-url', this)">URL másolása</button>
+            </div>
+            <div class="url-box" id="subtitle-url"></div>
+            <details class="instructions" open>
+                <summary>Telepítési lépések</summary>
+                <ol>
+                    <li>Először tölts fel feliratot a <a href="/subtitles.html">Feliratok feltöltése</a> oldalon (IMDB ID + .srt fájl)</li>
+                    <li>Stremio → Addons → "+ Add addon" → illeszd be a fenti URL-t</li>
+                    <li>Lejátszáskor a felirat megjelenik a felirat választóban</li>
+                </ol>
+            </details>
+        </div>
+        
         <footer>
             <p>Stremio Hungarian Community · <a href="/health" target="_blank">/health</a></p>
         </footer>
@@ -528,7 +547,8 @@
         const baseUrl = `${protocol}//${host}`;
         const urls = {
             info: `${baseUrl}/info/manifest.json`,
-            trailers: `${baseUrl}/trailers/manifest.json`
+            trailers: `${baseUrl}/trailers/manifest.json`,
+            subtitles: `${baseUrl}/subtitles/manifest.json`
         };
         let catalogOptions = [];
 
@@ -828,6 +848,7 @@
         if (infoEl) infoEl.textContent = urls.info;
         document.getElementById('trailer-url').textContent = urls.trailers;
         document.getElementById('configure-link').href = `${baseUrl}/trailers/configure`;
+        document.getElementById('subtitle-url').textContent = urls.subtitles;
         
         function installAddon(e, key) {
             e.preventDefault();
