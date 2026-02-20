@@ -5,7 +5,10 @@ const { getIndex } = require('./upload-service');
 const builder = new addonBuilder(manifest);
 
 function getBaseUrl() {
-    return process.env.BASE_URL || `http://localhost:${process.env.PORT || 7000}`;
+    if (process.env.BASE_URL) return process.env.BASE_URL.replace(/\/$/, '');
+    const domain = process.env.RAILWAY_PUBLIC_DOMAIN;
+    if (domain) return `https://${domain}`;
+    return `http://localhost:${process.env.PORT || 7000}`;
 }
 
 builder.defineSubtitlesHandler(async ({ type, id }) => {

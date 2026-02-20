@@ -188,7 +188,7 @@
             statusEl.textContent = '';
             if (!q) { statusEl.textContent = 'Add meg a film címét.'; return; }
             try {
-                let url = '/api/subtitles/resolve-imdb?q=' + encodeURIComponent(q);
+                let url = baseUrl + '/api/subtitles/resolve-imdb?q=' + encodeURIComponent(q);
                 if (year) url += '&year=' + encodeURIComponent(year);
                 const res = await fetch(url);
                 const data = await res.json().catch(() => ({}));
@@ -210,7 +210,7 @@
             submitBtn.disabled = true;
             const formData = new FormData(form);
             try {
-                const res = await fetch('/subtitles/upload', { method: 'POST', body: formData });
+                const res = await fetch(baseUrl + '/subtitles/upload', { method: 'POST', body: formData });
                 const data = await res.json().catch(() => ({}));
                 messageEl.style.display = 'block';
                 if (res.ok) {
@@ -229,7 +229,8 @@
             } catch (err) {
                 messageEl.style.display = 'block';
                 messageEl.className = 'message error';
-                messageEl.textContent = 'Hiba: ' + (err.message || 'Nincs kapcsolat.');
+                const msg = err.message || 'Nincs kapcsolat.';
+                messageEl.innerHTML = 'Hiba: ' + msg + '<br><small>Ellenőrizd, hogy ugyanazon a címen vagy-e (pl. ' + baseUrl + '), és hogy a szerver fut-e.</small>';
             }
             submitBtn.disabled = false;
         });

@@ -48,7 +48,7 @@ function getIndex() {
 
 function normalizeImdbId(imdbId) {
     if (!imdbId || typeof imdbId !== 'string') return null;
-    const s = imdbId.trim();
+    const s = imdbId.trim().replace(/^#/, '');
     if (/^tt\d+$/i.test(s)) return s.toLowerCase();
     if (/^\d+$/.test(s)) return 'tt' + s;
     return null;

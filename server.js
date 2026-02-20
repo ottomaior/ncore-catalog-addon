@@ -178,7 +178,17 @@ const uploadSub = multer({
     }
 });
 
-app.post('/subtitles/upload', uploadSub.single('subtitle'), (req, res) => {
+app.post('/subtitles/upload', (req, res, next) => {
+    uploadSub.single('subtitle')(req, res, (err) => {
+        if (err) {
+            if (err.code === 'LIMIT_FILE_SIZE') return res.status(400).json({ error: 'File too large (max 5 MB)' });
+            if (err.message && err.message.includes('.srt')) return res.status(400).json({ error: 'Only .srt and .vtt files are allowed' });
+            console.error('[Subtitles] Multer error:', err);
+            return res.status(400).json({ error: err.message || 'Upload rejected' });
+        }
+        next();
+    });
+}, (req, res) => {
     try {
         if (!req.file) {
             return res.status(400).json({ error: 'No subtitle file uploaded' });
