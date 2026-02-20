@@ -103,9 +103,19 @@ app.get('/trailers/configure', (req, res) => {
     res.sendFile(path.join(__dirname, 'trailers', 'public', 'configure.html'));
 });
 
-// Homepage (static HTML with dynamic baseUrl via client JS)
+// Homepage (hub)
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+// Addon pages (clean URLs)
+app.get('/catalog', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'catalog.html'));
+});
+app.get('/trailers', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'trailers.html'));
+});
+app.get('/subtitles', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'subtitles-addon.html'));
 });
 
 // Resolve movie title to IMDB ID (for subtitle upload page)
@@ -239,7 +249,10 @@ app.listen(PORT, () => {
     console.log(`\n${'='.repeat(60)}`);
     console.log(`🇭🇺 nCore Stremio Addons Server`);
     console.log(`${'='.repeat(60)}`);
-    console.log(`\n📍 Homepage:   http://localhost:${PORT}`);
+    console.log(`\n📍 Hub:        http://localhost:${PORT}/`);
+    console.log(`📍 Catalog:    http://localhost:${PORT}/catalog`);
+    console.log(`📍 Trailers:   http://localhost:${PORT}/trailers`);
+    console.log(`📍 Subtitles:  http://localhost:${PORT}/subtitles`);
     console.log(`📍 Health:     http://localhost:${PORT}/health`);
     console.log(`📍 Catalog:    http://localhost:${PORT}/manifest.json`);
     console.log(`📍 Info:       http://localhost:${PORT}/info/manifest.json`);

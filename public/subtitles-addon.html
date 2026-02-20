@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magyar feliratok – nCore Stremio Addons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d0d14;
+            --surface: rgba(22, 33, 62, 0.7);
+            --surface-hover: rgba(30, 45, 80, 0.9);
+            --border: rgba(123, 92, 250, 0.4);
+            --accent: #8b5cf6;
+            --accent-light: #a78bfa;
+            --text: #e2e8f0;
+            --text-muted: #94a3b8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Outfit', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            background-image:
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(123, 92, 250, 0.15), transparent),
+                radial-gradient(ellipse 60% 40% at 100% 100%, rgba(139, 92, 246, 0.08), transparent);
+        }
+        .container { max-width: 560px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+        .back-link:hover { color: var(--accent-light); }
+        header { margin-bottom: 1.5rem; }
+        header h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #fff 0%, var(--accent-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.35rem;
+        }
+        header p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; }
+        .addon-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem 1.75rem;
+            margin-bottom: 1.25rem;
+        }
+        .addon-card .desc { color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem; }
+        .btn-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.65rem 1.25rem;
+            border-radius: 10px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            border: none;
+            transition: all 0.2s;
+        }
+        .btn-primary { background: linear-gradient(135deg, var(--accent), #6366f1); color: white; }
+        .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 4px 20px rgba(123, 92, 250, 0.4); }
+        .btn-secondary { background: rgba(255,255,255,0.08); color: var(--text); border: 1px solid var(--border); }
+        .btn-secondary:hover { background: rgba(255,255,255,0.12); }
+        .btn.copied { background: #22c55e !important; }
+        .url-box {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            background: rgba(0,0,0,0.3);
+            padding: 0.6rem 0.8rem;
+            border-radius: 8px;
+            margin-top: 0.75rem;
+            color: var(--text-muted);
+            word-break: break-all;
+        }
+        .instructions { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.06); }
+        .instructions summary { cursor: pointer; font-size: 0.85rem; color: var(--accent-light); }
+        .instructions ol { margin: 0.75rem 0 0 1.25rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.8; }
+        .step-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+            margin-bottom: 0.75rem;
+        }
+        .upload-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem 1.75rem;
+            margin-bottom: 1.25rem;
+            border-left: 4px solid var(--accent);
+        }
+        .upload-card .upload-desc { color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem; }
+        .btn-upload {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.85rem 1.5rem;
+            border-radius: 12px;
+            font-family: inherit;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            border: none;
+            background: linear-gradient(135deg, var(--accent), #6366f1);
+            color: white;
+            transition: all 0.2s;
+        }
+        .btn-upload:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(123, 92, 250, 0.45); }
+        .instructions { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.06); }
+        .instructions summary { cursor: pointer; font-size: 0.85rem; color: var(--accent-light); }
+        .instructions ol { margin: 0.75rem 0 0 1.25rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Vissza a főoldalra</a>
+        <header>
+            <h1>Magyar feliratok</h1>
+            <p>Először tölts fel feliratot (IMDB ID + .srt/.vtt), majd telepítsd az addont – lejátszáskor megjelenik a felirat választóban.</p>
+        </header>
+
+        <div class="upload-card">
+            <span class="step-badge">1. Lépés</span>
+            <h2 style="font-size:1.15rem;font-weight:600;margin-bottom:0.5rem;">Felirat feltöltése</h2>
+            <p class="upload-desc">nCore kommentekből letöltött .srt vagy .vtt feltöltése IMDB ID alapján. Egy filmhez/sorozathoz több felirat is feltölthető (pl. magyar, angol).</p>
+            <a href="/subtitles.html" class="btn-upload">↑ Feliratok feltöltése (IMDB ID + .srt/.vtt)</a>
+        </div>
+
+        <div class="addon-card">
+            <span class="step-badge">2. Lépés</span>
+            <h2 style="font-size:1.15rem;font-weight:600;margin-bottom:0.5rem;">Addon telepítése</h2>
+            <p class="desc">A feltöltött feliratok az addonon keresztül érkeznek Stremioba. Telepítsd az addont, majd lejátszáskor válaszd ki a feliratot.</p>
+            <div class="btn-row">
+                <a class="btn btn-primary" href="#" id="install-btn" onclick="installAddon(event)">Telepítés Stremioval</a>
+                <button class="btn btn-secondary" onclick="copyUrl(this)">URL másolása</button>
+            </div>
+            <div class="url-box" id="subtitle-url"></div>
+            <details class="instructions">
+                <summary>Telepítési lépések</summary>
+                <ol>
+                    <li>Először tölts fel feliratot a <a href="/subtitles.html">Feliratok feltöltése</a> oldalon (IMDB ID + .srt fájl)</li>
+                    <li>Stremio → Addons → "+ Add addon" → illeszd be a fenti URL-t</li>
+                    <li>Lejátszáskor a felirat megjelenik a felirat választóban</li>
+                </ol>
+            </details>
+        </div>
+    </div>
+    <script>
+        const protocol = window.location.protocol;
+        const host = window.location.host;
+        const baseUrl = `${protocol}//${host}`;
+        const manifestUrl = baseUrl + '/subtitles/manifest.json';
+        document.getElementById('subtitle-url').textContent = manifestUrl;
+        document.getElementById('install-btn').href = 'stremio://' + host + '/subtitles/manifest.json';
+        function installAddon(e) {
+            e.preventDefault();
+            window.location.href = 'stremio://' + host + '/subtitles/manifest.json';
+        }
+        function copyUrl(btn) {
+            navigator.clipboard.writeText(manifestUrl).then(() => {
+                const orig = btn.textContent;
+                btn.textContent = '✓ Másolva!';
+                btn.classList.add('copied');
+                setTimeout(() => { btn.textContent = orig; btn.classList.remove('copied'); }, 2000);
+            }).catch(() => alert('Másold ki: ' + manifestUrl));
+        }
+    </script>
+</body>
+</html>

@@ -18,34 +18,21 @@
             --text: #e2e8f0;
             --text-muted: #94a3b8;
             --success: #22c55e;
-            --netflix: #E50914;
-            --disney: #113CCF;
-            --hbomax: #B026FF;
-            --prime: #00A8E1;
-            --topseed: #f59e0b;
-            --latest: #22c55e;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html {
-            overflow-y: scroll;
-            -webkit-overflow-scrolling: touch;
-        }
+        html { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
         body {
             font-family: 'Outfit', system-ui, sans-serif;
             background: var(--bg);
             color: var(--text);
             min-height: 100vh;
             overflow-x: hidden;
-            background-image: 
+            background-image:
                 radial-gradient(ellipse 80% 50% at 50% -20%, rgba(123, 92, 250, 0.15), transparent),
                 radial-gradient(ellipse 60% 40% at 100% 100%, rgba(139, 92, 246, 0.08), transparent);
         }
-        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
-        
-        header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
+        .container { max-width: 640px; margin: 0 auto; padding: 2rem 1.5rem; }
+        header { text-align: center; margin-bottom: 2rem; }
         header h1 {
             font-size: 2rem;
             font-weight: 700;
@@ -55,11 +42,7 @@
             background-clip: text;
             margin-bottom: 0.5rem;
         }
-        header p {
-            color: var(--text-muted);
-            font-size: 1rem;
-        }
-        
+        header p { color: var(--text-muted); font-size: 1rem; }
         .status-bar {
             display: flex;
             align-items: center;
@@ -73,387 +56,78 @@
             color: var(--text-muted);
         }
         .status-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
+            width: 8px; height: 8px; border-radius: 50%;
             background: var(--success);
             animation: pulse 2s infinite;
         }
         .status-dot.off { background: #64748b; animation: none; }
         @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-        
-        .addon-card {
+        .hub-cards { display: flex; flex-direction: column; gap: 1rem; }
+        .hub-card {
+            display: block;
             background: var(--surface);
             border: 1px solid var(--border);
             border-radius: 16px;
-            padding: 1.5rem 1.75rem;
-            margin-bottom: 1.25rem;
+            padding: 1.25rem 1.5rem;
+            text-decoration: none;
+            color: inherit;
             transition: all 0.2s ease;
         }
-        .addon-card:hover {
+        .hub-card:hover {
             background: var(--surface-hover);
             border-color: rgba(123, 92, 250, 0.6);
+            transform: translateY(-2px);
         }
-        .addon-card h2 {
-            font-size: 1.15rem;
+        .hub-card-inner { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+        .hub-card-icon {
+            width: 48px; height: 48px;
+            border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+            background: rgba(123, 92, 250, 0.2);
+        }
+        .hub-card-text { flex: 1; min-width: 0; }
+        .hub-card h2 {
+            font-size: 1.1rem;
             font-weight: 600;
-            margin-bottom: 0.4rem;
+            margin-bottom: 0.25rem;
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.35rem;
         }
-        .addon-card .desc {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            line-height: 1.6;
-            margin-bottom: 1rem;
-        }
-        .addon-card .tag {
+        .hub-card .tag {
             display: inline-block;
             background: linear-gradient(135deg, var(--accent), #6366f1);
             color: white;
-            font-size: 0.65rem;
+            font-size: 0.6rem;
             font-weight: 600;
-            padding: 0.2rem 0.5rem;
+            padding: 0.15rem 0.4rem;
             border-radius: 4px;
-            margin-left: 0.25rem;
         }
-        .btn-row {
-            display: flex;
-            gap: 0.75rem;
-            flex-wrap: wrap;
-        }
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.6rem 1.2rem;
+        .hub-card .desc { color: var(--text-muted); font-size: 0.9rem; line-height: 1.5; }
+        .hub-card .cta {
+            flex-shrink: 0;
+            padding: 0.5rem 1rem;
             border-radius: 10px;
-            font-family: inherit;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             font-weight: 500;
-            cursor: pointer;
-            text-decoration: none;
-            border: none;
-            transition: all 0.2s;
-        }
-        .btn-primary {
             background: linear-gradient(135deg, var(--accent), #6366f1);
             color: white;
+            transition: all 0.2s;
         }
-        .btn-primary:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 4px 20px rgba(123, 92, 250, 0.4);
+        .hub-card:hover .cta {
+            box-shadow: 0 4px 16px rgba(123, 92, 250, 0.4);
         }
-        .btn-secondary {
-            background: rgba(255,255,255,0.08);
-            color: var(--text);
-            border: 1px solid var(--border);
-        }
-        .btn-secondary:hover {
-            background: rgba(255,255,255,0.12);
-        }
-        .btn.copied {
-            background: var(--success) !important;
-        }
-        .url-box {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            background: rgba(0,0,0,0.3);
-            padding: 0.6rem 0.8rem;
-            border-radius: 8px;
-            margin-top: 0.75rem;
-            color: var(--text-muted);
-            word-break: break-all;
-        }
-        .instructions {
-            margin-top: 1rem;
-            padding-top: 1rem;
-            border-top: 1px solid rgba(255,255,255,0.06);
-        }
-        .instructions summary {
-            cursor: pointer;
-            font-size: 0.85rem;
-            color: var(--accent-light);
-        }
-        .instructions ol {
-            margin: 0.75rem 0 0 1.25rem;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            line-height: 1.8;
-        }
-
-        /* ── Catalog Config ────────────────────────── */
-        .catalog-config {
-            margin-top: 1rem;
-            padding-top: 1rem;
-            border-top: 1px solid rgba(255,255,255,0.06);
-        }
-        .catalog-config summary {
-            cursor: pointer;
-            font-size: 0.9rem;
-            color: var(--accent-light);
-            margin-bottom: 0.75rem;
-        }
-        .catalog-presets {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 1rem;
-        }
-        .catalog-presets .btn {
-            padding: 0.4rem 0.8rem;
-            font-size: 0.8rem;
-        }
-        .catalog-count {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            margin-bottom: 1rem;
-        }
-        .catalog-count strong { color: var(--text); }
-
-        /* ── Category Panels ────────────────────────── */
-        .category-panel {
-            background: rgba(0,0,0,0.2);
-            border: 1px solid rgba(255,255,255,0.06);
-            border-radius: 12px;
-            margin-bottom: 0.75rem;
-            overflow: hidden;
-            transition: border-color 0.3s ease;
-        }
-        .category-panel:hover {
-            border-color: rgba(255,255,255,0.12);
-        }
-        .category-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0.75rem 1rem;
-            cursor: pointer;
-            user-select: none;
-            transition: background 0.2s;
-        }
-        .category-header:hover {
-            background: rgba(255,255,255,0.03);
-        }
-        .category-header-left {
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-        }
-        .category-icon {
-            width: 32px;
-            height: 32px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1rem;
-            flex-shrink: 0;
-        }
-        .category-icon.topseed { background: rgba(245,158,11,0.15); }
-        .category-icon.latest { background: rgba(34,197,94,0.15); }
-        .category-title {
-            font-size: 0.95rem;
-            font-weight: 600;
-        }
-        .category-badge {
-            font-size: 0.7rem;
-            color: var(--text-muted);
-            background: rgba(255,255,255,0.06);
-            padding: 0.15rem 0.5rem;
-            border-radius: 99px;
-        }
-        .category-chevron {
-            font-size: 0.7rem;
-            color: var(--text-muted);
-            transition: transform 0.3s ease;
-        }
-        .category-panel.open .category-chevron {
-            transform: rotate(180deg);
-        }
-        .category-body {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.35s ease, padding 0.35s ease;
-            padding: 0 1rem;
-        }
-        .category-panel.open .category-body {
-            max-height: 2000px;
-            padding: 0 1rem 1rem;
-        }
-        @media (max-width: 768px) {
-            .category-panel.open .category-body {
-                max-height: 2800px;
-                overflow-y: auto;
-                -webkit-overflow-scrolling: touch;
-            }
-        }
-
-        /* ── Toggle Switch ────────────────────────── */
-        .toggle-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0.5rem 0.5rem;
-            border-radius: 8px;
-            cursor: grab;
-            transition: background 0.2s;
-        }
-        .toggle-row:hover {
-            background: rgba(255,255,255,0.04);
-        }
-        .toggle-row.dragging {
-            opacity: 0.5;
-            cursor: grabbing;
-        }
-        .toggle-row.drag-over {
-            background: rgba(139, 92, 246, 0.15);
-            border-top: 2px solid var(--accent);
-        }
-        .toggle-left {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 0.85rem;
-        }
-        .toggle-left .drag-handle {
-            color: rgba(255,255,255,0.2);
-            font-size: 0.85rem;
-            cursor: grab;
-            user-select: none;
-        }
-        .toggle-left .drag-handle:active { cursor: grabbing; }
-        .toggle-left .item-icon {
-            font-size: 0.85rem;
-        }
-
-        .toggle-switch {
-            position: relative;
-            width: 40px;
-            height: 22px;
-            flex-shrink: 0;
-        }
-        .toggle-switch input {
-            opacity: 0;
-            width: 0;
-            height: 0;
-        }
-        .toggle-slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(255,255,255,0.1);
-            border-radius: 22px;
-            transition: all 0.3s ease;
-        }
-        .toggle-slider:before {
-            content: "";
-            position: absolute;
-            height: 16px;
-            width: 16px;
-            left: 3px;
-            bottom: 3px;
-            background: white;
-            border-radius: 50%;
-            transition: all 0.3s ease;
-        }
-        .toggle-switch input:checked + .toggle-slider {
-            background: var(--accent);
-        }
-        .toggle-switch input:checked + .toggle-slider:before {
-            transform: translateX(18px);
-        }
-
-        /* ── Provider Cards (Legfrissebb) ────────────── */
-        .provider-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.5rem;
-            margin-top: 0.75rem;
-        }
-        @media (max-width: 480px) {
-            .provider-grid { grid-template-columns: 1fr; }
-        }
-        .provider-card {
-            background: rgba(0,0,0,0.25);
-            border: 1px solid rgba(255,255,255,0.06);
-            border-radius: 10px;
-            padding: 0.75rem;
-            transition: all 0.25s ease;
-        }
-        .provider-card:hover {
-            border-color: rgba(255,255,255,0.15);
-            transform: translateY(-1px);
-        }
-        .provider-card-header {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            margin-bottom: 0.6rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 1px solid rgba(255,255,255,0.06);
-        }
-        .provider-logo {
-            width: 24px;
-            height: 24px;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.75rem;
-            font-weight: 700;
-            color: white;
-            flex-shrink: 0;
-        }
-        .provider-logo.netflix { background: var(--netflix); }
-        .provider-logo.disney { background: var(--disney); }
-        .provider-logo.hbomax { background: var(--hbomax); }
-        .provider-logo.prime { background: var(--prime); }
-        .provider-name {
-            font-size: 0.85rem;
-            font-weight: 600;
-        }
-        .provider-toggle-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0.25rem 0;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-
-        /* ── Separator ────────────────────────── */
-        .section-separator {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            margin: 0.75rem 0;
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-        .section-separator::before,
-        .section-separator::after {
-            content: "";
-            flex: 1;
-            height: 1px;
-            background: rgba(255,255,255,0.06);
-        }
-
         footer {
             text-align: center;
-            margin-top: 3rem;
-            padding-top: 2rem;
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
             border-top: 1px solid rgba(255,255,255,0.06);
             color: var(--text-muted);
             font-size: 0.85rem;
         }
-        footer a {
-            color: var(--accent-light);
-            text-decoration: none;
-        }
+        footer a { color: var(--accent-light); text-decoration: none; }
         footer a:hover { text-decoration: underline; }
     </style>
 </head>
@@ -461,430 +135,59 @@
     <div class="container">
         <header>
             <h1>nCore Stremio Addons</h1>
-            <p>Magyar filmek és sorozatok az nCore trackerről – katalógus, előzetesek</p>
+            <p>Magyar filmek és sorozatok az nCore trackerről – katalógus, előzetesek, feliratok</p>
         </header>
-        
         <div class="status-bar" id="statusBar">
             <span class="status-dot"></span>
             <span id="statusText">Ellenőrzés...</span>
         </div>
-        
-        <div class="addon-card">
-            <h2>Katalógus <span class="tag">FILMEK + SOROZATOK</span></h2>
-            <p class="desc">Magyar nyelvű filmek és sorozatok katalógusa nCore-ról, magyar címekkel és poszterekkel TMDB metaadatokkal.</p>
-            <details class="catalog-config" open>
-                <summary>Katalógusok kiválasztása (telepítés előtt)</summary>
-                <div class="catalog-presets">
-                    <button type="button" class="btn btn-secondary" onclick="setPreset('all')">Mind</button>
-                    <button type="button" class="btn btn-secondary" onclick="setPreset('none')">Egyik sem</button>
-                    <button type="button" class="btn btn-secondary" onclick="setPreset('topseed')">Csak Top Seed</button>
-                    <button type="button" class="btn btn-secondary" onclick="setPreset('latest')">Csak legfrissebb</button>
+        <div class="hub-cards">
+            <a href="/catalog" class="hub-card">
+                <div class="hub-card-inner">
+                    <div class="hub-card-icon">📂</div>
+                    <div class="hub-card-text">
+                        <h2>Katalógus <span class="tag">FILMEK + SOROZATOK</span></h2>
+                        <p class="desc">Magyar nyelvű filmek és sorozatok nCore-ról, TMDB metaadatokkal. Válaszd ki a katalógusokat, majd telepítsd.</p>
+                    </div>
+                    <span class="cta">Részletek &amp; telepítés</span>
                 </div>
-                <p class="catalog-count" id="catalog-count">Betöltés...</p>
-                <div id="catalog-panels">Betöltés...</div>
-            </details>
-            <div class="btn-row">
-                <a class="btn btn-primary" href="#" data-stremio="catalog" onclick="installAddon(event, 'catalog')">Telepítés Stremioval</a>
-                <button class="btn btn-secondary" onclick="copyCatalogUrl(this)">URL másolása</button>
-            </div>
-            <div class="url-box" id="catalog-url"></div>
-            <details class="instructions" open>
-                <summary>Telepítési lépések</summary>
-                <ol>
-                    <li>Nyisd meg a Stremio alkalmazást</li>
-                    <li>Addons ikon → "+ Add addon"</li>
-                    <li>Illeszd be a fenti URL-t (vagy válaszd ki a katalógusokat, majd Telepítés)</li>
-                </ol>
-            </details>
+            </a>
+            <a href="/trailers" class="hub-card">
+                <div class="hub-card-inner">
+                    <div class="hub-card-icon">🎬</div>
+                    <div class="hub-card-text">
+                        <h2>Magyar Előzetesek</h2>
+                        <p class="desc">Magyar szinkronos/feliratos előzetesek angol tartalékkal. YouTube magyar → angol keresés.</p>
+                    </div>
+                    <span class="cta">Részletek &amp; telepítés</span>
+                </div>
+            </a>
+            <a href="/subtitles" class="hub-card">
+                <div class="hub-card-inner">
+                    <div class="hub-card-icon">💬</div>
+                    <div class="hub-card-text">
+                        <h2>Magyar feliratok <span class="tag">FELIRATOK</span></h2>
+                        <p class="desc">Feliratok feltöltése IMDB ID alapján – .srt/.vtt megjelenik Stremioban lejátszáskor.</p>
+                    </div>
+                    <span class="cta">Részletek &amp; telepítés</span>
+                </div>
+            </a>
         </div>
-        
-        <div class="addon-card">
-            <h2>Magyar Előzetesek <span class="tag">ÚJ</span></h2>
-            <p class="desc">Magyar szinkronos/feliratos előzetesek angol tartalékkal. TMDB magyar → YouTube magyar → TMDB angol → YouTube angol keresés.</p>
-            <div class="btn-row">
-                <a class="btn btn-primary" href="#" data-stremio="trailers" onclick="installAddon(event, 'trailers')">Telepítés Stremioval</a>
-                <a class="btn btn-secondary" href="#" id="configure-link">Beállítások</a>
-                <button class="btn btn-secondary" onclick="copyUrl('trailer-url', this)">URL másolása</button>
-            </div>
-            <div class="url-box" id="trailer-url"></div>
-            <details class="instructions" open>
-                <summary>Telepítési lépések</summary>
-                <ol>
-                    <li>Nyisd meg a Stremio alkalmazást</li>
-                    <li>Addons ikon → "+ Add addon"</li>
-                    <li>Illeszd be a fenti URL-t (vagy kattints a Telepítés gombra)</li>
-                </ol>
-            </details>
-        </div>
-        
-        <div class="addon-card">
-            <h2>Magyar feliratok <span class="tag">FELIRATOK</span></h2>
-            <p class="desc">Feliratok feltöltése IMDB ID alapján – nCore kommentekből letöltött .srt/.vtt feltöltése, megjelennek Stremioban a lejátszáskor.</p>
-            <div class="btn-row">
-                <a class="btn btn-primary" href="#" data-stremio="subtitles" onclick="installAddon(event, 'subtitles')">Telepítés Stremioval</a>
-                <a class="btn btn-secondary" href="/subtitles.html">Feliratok feltöltése</a>
-                <button class="btn btn-secondary" onclick="copyUrl('subtitle-url', this)">URL másolása</button>
-            </div>
-            <div class="url-box" id="subtitle-url"></div>
-            <details class="instructions" open>
-                <summary>Telepítési lépések</summary>
-                <ol>
-                    <li>Először tölts fel feliratot a <a href="/subtitles.html">Feliratok feltöltése</a> oldalon (IMDB ID + .srt fájl)</li>
-                    <li>Stremio → Addons → "+ Add addon" → illeszd be a fenti URL-t</li>
-                    <li>Lejátszáskor a felirat megjelenik a felirat választóban</li>
-                </ol>
-            </details>
-        </div>
-        
         <footer>
             <p>Stremio Hungarian Community · <a href="/health" target="_blank">/health</a></p>
         </footer>
     </div>
-
     <script>
-        const protocol = window.location.protocol;
-        const host = window.location.host;
-        const baseUrl = `${protocol}//${host}`;
-        const urls = {
-            info: `${baseUrl}/info/manifest.json`,
-            trailers: `${baseUrl}/trailers/manifest.json`,
-            subtitles: `${baseUrl}/subtitles/manifest.json`
-        };
-        let catalogOptions = [];
-
-        /* ── Category definitions ────────────────────── */
-        const CATEGORIES = [
-            {
-                key: 'topseed',
-                icon: '🏆',
-                iconClass: 'topseed',
-                title: 'Top Seed',
-                subtitle: 'Legtöbb seederrel rendelkező tartalmak',
-                items: [
-                    { id: 'ncore-movies-top-seeded-all', icon: '🎬', label: 'Filmek' },
-                    { id: 'ncore-series-top-seeded-all', icon: '📺', label: 'Sorozatok' },
-                    { id: 'ncore-movies-top-seeded-magyar-filmek', icon: '🇭🇺', label: 'Magyar filmek' },
-                    { id: 'ncore-series-top-seeded-magyar-sorozatok', icon: '🇭🇺', label: 'Magyar sorozatok' }
-                ]
-            },
-            {
-                key: 'trending',
-                icon: '🔥',
-                iconClass: 'latest',
-                title: 'Trendi',
-                subtitle: 'Legtöbb seed az utolsó 200 feltöltésből (1080p)',
-                items: [
-                    { id: 'ncore-trending-movies', icon: '🎬', label: 'Filmek' },
-                    { id: 'ncore-trending-series', icon: '📺', label: 'Sorozatok' }
-                ]
-            },
-            {
-                key: 'latest',
-                icon: '🆕',
-                iconClass: 'latest',
-                title: 'Legfrissebb',
-                subtitle: 'Legutóbb feltöltött tartalmak',
-                items: [
-                    { id: 'ncore-hd-movies', icon: '🎬', label: 'Filmek' },
-                    { id: 'ncore-hd-series', icon: '📺', label: 'Sorozatok' }
-                ],
-                providers: [
-                    {
-                        key: 'netflix',
-                        name: 'Netflix',
-                        logoClass: 'netflix',
-                        logoText: 'N',
-                        items: [
-                            { id: 'ncore-netflix-movies', icon: '🎬', label: 'Filmek' },
-                            { id: 'ncore-netflix-series', icon: '📺', label: 'Sorozatok' }
-                        ]
-                    },
-                    {
-                        key: 'disneyplus',
-                        name: 'Disney+',
-                        logoClass: 'disney',
-                        logoText: 'D',
-                        items: [
-                            { id: 'ncore-disneyplus-movies', icon: '🎬', label: 'Filmek' },
-                            { id: 'ncore-disneyplus-series', icon: '📺', label: 'Sorozatok' }
-                        ]
-                    },
-                    {
-                        key: 'hbomax',
-                        name: 'HBO Max',
-                        logoClass: 'hbomax',
-                        logoText: 'H',
-                        items: [
-                            { id: 'ncore-hbomax-movies', icon: '🎬', label: 'Filmek' },
-                            { id: 'ncore-hbomax-series', icon: '📺', label: 'Sorozatok' }
-                        ]
-                    },
-                    {
-                        key: 'prime',
-                        name: 'Prime Video',
-                        logoClass: 'prime',
-                        logoText: 'P',
-                        items: [
-                            { id: 'ncore-prime-movies', icon: '🎬', label: 'Filmek' },
-                            { id: 'ncore-prime-series', icon: '📺', label: 'Sorozatok' }
-                        ]
-                    }
-                ]
-            }
-        ];
-
-        function getAllCategoryIds() {
-            const ids = [];
-            CATEGORIES.forEach(cat => {
-                cat.items.forEach(item => ids.push(item.id));
-                if (cat.providers) {
-                    cat.providers.forEach(p => p.items.forEach(item => ids.push(item.id)));
-                }
-            });
-            return ids;
-        }
-
-        function getEnabledIds() {
-            return catalogOptions.filter(o => document.getElementById('cat-' + o.id)?.checked).map(o => o.id);
-        }
-
-        function getCatalogInstallUrl() {
-            const enabled = getEnabledIds();
-            const orderedIds = catalogOptions.map(c => c.id);
-            if (enabled.length === catalogOptions.length) {
-                return baseUrl + '/manifest.json';
-            }
-            const orderedEnabled = orderedIds.filter(id => enabled.includes(id));
-            if (orderedEnabled.length === 0) return baseUrl + '/manifest.json';
-            return baseUrl + '/manifest.json?catalogs=' + encodeURIComponent(orderedEnabled.join(','));
-        }
-
-        function updateCount() {
-            const enabled = getEnabledIds().length;
-            const total = catalogOptions.length;
-            const el = document.getElementById('catalog-count');
-            if (total === 0) el.textContent = '';
-            else if (enabled === total) el.innerHTML = '<strong>Mind a ' + total + ' katalógus</strong> kiválasztva.';
-            else el.innerHTML = '<strong>' + enabled + '</strong> / ' + total + ' katalógus kiválasztva.';
-        }
-
-        function updateCatalogUrl() {
-            document.getElementById('catalog-url').textContent = getCatalogInstallUrl();
-            updateCount();
-        }
-
-        function setPreset(preset) {
-            const allIds = catalogOptions.map(c => c.id);
-            const latestIds = ['ncore-hd-movies', 'ncore-hd-series', 'ncore-netflix-movies', 'ncore-netflix-series', 'ncore-disneyplus-movies', 'ncore-disneyplus-series', 'ncore-hbomax-movies', 'ncore-hbomax-series', 'ncore-prime-movies', 'ncore-prime-series'];
-            const topseedIds = ['ncore-movies-top-seeded-all', 'ncore-series-top-seeded-all',
-                                'ncore-movies-top-seeded-magyar-filmek', 'ncore-series-top-seeded-magyar-sorozatok'];
-            let toCheck = [];
-            if (preset === 'all') toCheck = allIds;
-            else if (preset === 'none') toCheck = [];
-            else if (preset === 'latest') toCheck = latestIds;
-            else if (preset === 'topseed') toCheck = topseedIds;
-            catalogOptions.forEach(c => {
-                const cb = document.getElementById('cat-' + c.id);
-                if (cb) cb.checked = toCheck.includes(c.id);
-            });
-            updateCatalogUrl();
-        }
-
-        function setCategoryAll(catKey, checked) {
-            const cat = CATEGORIES.find(c => c.key === catKey);
-            if (!cat) return;
-            cat.items.forEach(item => {
-                const cb = document.getElementById('cat-' + item.id);
-                if (cb) cb.checked = checked;
-            });
-            if (cat.providers) {
-                cat.providers.forEach(p => {
-                    p.items.forEach(item => {
-                        const cb = document.getElementById('cat-' + item.id);
-                        if (cb) cb.checked = checked;
-                    });
-                });
-            }
-            updateCatalogUrl();
-        }
-
-        function toggleCategory(catKey) {
-            const panel = document.getElementById('panel-' + catKey);
-            if (panel) panel.classList.toggle('open');
-        }
-
-        /* ── Drag and Drop ────────────────────── */
-        let draggedRow = null;
-
-        function initDragAndDrop() {
-            const rows = document.querySelectorAll('.toggle-row[draggable="true"]');
-            rows.forEach(row => {
-                row.addEventListener('dragstart', (e) => {
-                    draggedRow = row;
-                    row.classList.add('dragging');
-                    e.dataTransfer.effectAllowed = 'move';
-                    e.dataTransfer.setData('text/plain', row.dataset.catalogId);
-                });
-                row.addEventListener('dragend', () => {
-                    row.classList.remove('dragging');
-                    document.querySelectorAll('.toggle-row').forEach(r => r.classList.remove('drag-over'));
-                    draggedRow = null;
-                });
-                row.addEventListener('dragover', (e) => {
-                    e.preventDefault();
-                    e.dataTransfer.dropEffect = 'move';
-                    if (row !== draggedRow) row.classList.add('drag-over');
-                });
-                row.addEventListener('dragleave', () => row.classList.remove('drag-over'));
-                row.addEventListener('drop', (e) => {
-                    e.stopPropagation();
-                    e.preventDefault();
-                    if (draggedRow && draggedRow !== row) {
-                        const parent = row.parentNode;
-                        const dragId = draggedRow.dataset.catalogId;
-                        const targetId = row.dataset.catalogId;
-                        const di = catalogOptions.findIndex(c => c.id === dragId);
-                        const ti = catalogOptions.findIndex(c => c.id === targetId);
-                        if (di !== -1 && ti !== -1) {
-                            const [removed] = catalogOptions.splice(di, 1);
-                            catalogOptions.splice(ti, 0, removed);
-                        }
-                        parent.insertBefore(draggedRow, row);
-                        updateCatalogUrl();
-                    }
-                    row.classList.remove('drag-over');
-                });
-            });
-        }
-
-        /* ── Render UI ────────────────────── */
-        function renderToggleRow(item) {
-            return '<div class="toggle-row" draggable="true" data-catalog-id="' + item.id + '">' +
-                '<div class="toggle-left">' +
-                    '<span class="drag-handle">⋮⋮</span>' +
-                    '<span class="item-icon">' + item.icon + '</span>' +
-                    '<span>' + item.label + '</span>' +
-                '</div>' +
-                '<label class="toggle-switch" onclick="event.stopPropagation()">' +
-                    '<input type="checkbox" id="cat-' + item.id + '" checked onchange="updateCatalogUrl()">' +
-                    '<span class="toggle-slider"></span>' +
-                '</label>' +
-            '</div>';
-        }
-
-        function renderProviderCard(provider) {
-            const toggles = provider.items.map(item =>
-                '<div class="provider-toggle-row">' +
-                    '<span>' + item.icon + ' ' + item.label + '</span>' +
-                    '<label class="toggle-switch" onclick="event.stopPropagation()">' +
-                        '<input type="checkbox" id="cat-' + item.id + '" checked onchange="updateCatalogUrl()">' +
-                        '<span class="toggle-slider"></span>' +
-                    '</label>' +
-                '</div>'
-            ).join('');
-            return '<div class="provider-card">' +
-                '<div class="provider-card-header">' +
-                    '<span class="provider-logo ' + provider.logoClass + '">' + provider.logoText + '</span>' +
-                    '<span class="provider-name">' + provider.name + '</span>' +
-                '</div>' +
-                toggles +
-            '</div>';
-        }
-
-        function renderCategory(cat) {
-            const itemCount = cat.items.length + (cat.providers ? cat.providers.reduce((n, p) => n + p.items.length, 0) : 0);
-            const rows = cat.items.map(renderToggleRow).join('');
-            
-            let providerSection = '';
-            if (cat.providers && cat.providers.length > 0) {
-                providerSection = '<div class="section-separator">Streaming</div>' +
-                    '<div class="provider-grid">' +
-                    cat.providers.map(renderProviderCard).join('') +
-                    '</div>';
-            }
-
-            return '<div class="category-panel open" id="panel-' + cat.key + '">' +
-                '<div class="category-header" onclick="toggleCategory(\'' + cat.key + '\')">' +
-                    '<div class="category-header-left">' +
-                        '<div class="category-icon ' + cat.iconClass + '">' + cat.icon + '</div>' +
-                        '<div>' +
-                            '<div class="category-title">' + cat.title + '</div>' +
-                        '</div>' +
-                    '</div>' +
-                    '<div style="display:flex;align-items:center;gap:0.75rem">' +
-                        '<span class="category-badge">' + itemCount + ' katalógus</span>' +
-                        '<span class="category-chevron">▼</span>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="category-body">' +
-                    '<div style="display:flex;justify-content:flex-end;gap:0.5rem;margin-bottom:0.25rem;font-size:0.75rem;">' +
-                        '<button type="button" style="background:none;border:none;color:var(--accent-light);cursor:pointer;font-family:inherit;padding:0.15rem 0.35rem;" onclick="event.stopPropagation();setCategoryAll(\'' + cat.key + '\',true)">Összes</button>' +
-                        '<span style="color:var(--text-muted)">·</span>' +
-                        '<button type="button" style="background:none;border:none;color:var(--accent-light);cursor:pointer;font-family:inherit;padding:0.15rem 0.35rem;" onclick="event.stopPropagation();setCategoryAll(\'' + cat.key + '\',false)">Egyik sem</button>' +
-                    '</div>' +
-                    rows +
-                    providerSection +
-                '</div>' +
-            '</div>';
-        }
-
-        /* ── Init ────────────────────── */
-        fetch('/api/catalog-options')
+        fetch('/health')
             .then(r => r.json())
-            .then(opts => {
-                catalogOptions = opts;
-                const box = document.getElementById('catalog-panels');
-                box.innerHTML = CATEGORIES.map(renderCategory).join('');
-                initDragAndDrop();
-                updateCatalogUrl();
+            .then(d => {
+                const total = (d.hdMoviesCount || 0) + (d.hdSeriesCount || 0) + (d.topSeededByGenreCount || 0) + (d.topSeededSeriesCount || 0) + (d.trendingMoviesCount || 0) + (d.trendingSeriesCount || 0) + (d.netflixMoviesCount || 0) + (d.netflixSeriesCount || 0) + (d.disneyplusMoviesCount || 0) + (d.disneyplusSeriesCount || 0) + (d.hbomaxMoviesCount || 0) + (d.hbomaxSeriesCount || 0) + (d.primeMoviesCount || 0) + (d.primeSeriesCount || 0);
+                document.getElementById('statusText').textContent = 'OK · ' + total + ' elem a katalógusokban';
             })
             .catch(() => {
-                document.getElementById('catalog-panels').textContent = 'Nem sikerült betölteni.';
-                document.getElementById('catalog-count').textContent = '';
-                document.getElementById('catalog-url').textContent = baseUrl + '/manifest.json';
+                document.querySelector('.status-dot').classList.add('off');
+                document.getElementById('statusText').textContent = 'Offline';
             });
-        
-        const infoEl = document.getElementById('info-url');
-        if (infoEl) infoEl.textContent = urls.info;
-        document.getElementById('trailer-url').textContent = urls.trailers;
-        document.getElementById('configure-link').href = `${baseUrl}/trailers/configure`;
-        document.getElementById('subtitle-url').textContent = urls.subtitles;
-        
-        function installAddon(e, key) {
-            e.preventDefault();
-            const url = key === 'catalog' ? getCatalogInstallUrl() : urls[key];
-            const path = url.replace(baseUrl, '');
-            window.location.href = 'stremio://' + host + path;
-        }
-        
-        function copyCatalogUrl(btn) {
-            const url = getCatalogInstallUrl();
-            navigator.clipboard.writeText(url).then(() => {
-                const orig = btn.textContent;
-                btn.textContent = '✓ Másolva!';
-                btn.classList.add('copied');
-                setTimeout(() => { btn.textContent = orig; btn.classList.remove('copied'); }, 2000);
-            }).catch(() => alert('Másold ki: ' + url));
-        }
-        
-        function copyUrl(boxId, btn) {
-            const url = document.getElementById(boxId).textContent;
-            navigator.clipboard.writeText(url).then(() => {
-                const orig = btn.textContent;
-                btn.textContent = '✓ Másolva!';
-                btn.classList.add('copied');
-                setTimeout(() => { btn.textContent = orig; btn.classList.remove('copied'); }, 2000);
-            }).catch(() => alert('Másold ki: ' + url));
-        }
-        
-        fetch('/health').then(r => r.json()).then(d => {
-            const txt = document.getElementById('statusText');
-            const total = (d.hdMoviesCount || 0) + (d.hdSeriesCount || 0) + (d.topSeededByGenreCount || 0) + (d.topSeededSeriesCount || 0) + (d.trendingMoviesCount || 0) + (d.trendingSeriesCount || 0) + (d.netflixMoviesCount || 0) + (d.netflixSeriesCount || 0) + (d.disneyplusMoviesCount || 0) + (d.disneyplusSeriesCount || 0) + (d.hbomaxMoviesCount || 0) + (d.hbomaxSeriesCount || 0) + (d.primeMoviesCount || 0) + (d.primeSeriesCount || 0);
-            txt.textContent = 'OK · ' + total + ' elem a katalógusokban';
-        }).catch(() => {
-            document.querySelector('.status-dot').classList.add('off');
-            document.getElementById('statusText').textContent = 'Offline';
-        });
     </script>
 </body>
 </html>
