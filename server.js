@@ -79,7 +79,7 @@ app.get('/health', (req, res) => {
     const stats = catalog.getStats ? catalog.getStats() : {};
     res.json({
         status: 'ok',
-        addons: { catalog: '1.2.0', info: '1.0.5', trailers: '1.1.0' },
+        addons: { catalog: '3.2.1', info: '1.0.5', trailers: '1.1.0' },
         cron: isUnix ? 'active' : 'disabled',
         ...stats
     });

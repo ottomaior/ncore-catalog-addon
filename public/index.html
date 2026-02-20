@@ -26,11 +26,16 @@
             --latest: #22c55e;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        html {
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
         body {
             font-family: 'Outfit', system-ui, sans-serif;
             background: var(--bg);
             color: var(--text);
             min-height: 100vh;
+            overflow-x: hidden;
             background-image: 
                 radial-gradient(ellipse 80% 50% at 50% -20%, rgba(123, 92, 250, 0.15), transparent),
                 radial-gradient(ellipse 60% 40% at 100% 100%, rgba(139, 92, 246, 0.08), transparent);
@@ -274,8 +279,15 @@
             padding: 0 1rem;
         }
         .category-panel.open .category-body {
-            max-height: 600px;
+            max-height: 2000px;
             padding: 0 1rem 1rem;
+        }
+        @media (max-width: 768px) {
+            .category-panel.open .category-body {
+                max-height: 2800px;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+            }
         }
 
         /* ── Toggle Switch ────────────────────────── */
@@ -476,7 +488,7 @@
                 <button class="btn btn-secondary" onclick="copyCatalogUrl(this)">URL másolása</button>
             </div>
             <div class="url-box" id="catalog-url"></div>
-            <details class="instructions">
+            <details class="instructions" open>
                 <summary>Telepítési lépések</summary>
                 <ol>
                     <li>Nyisd meg a Stremio alkalmazást</li>
@@ -495,6 +507,14 @@
                 <button class="btn btn-secondary" onclick="copyUrl('trailer-url', this)">URL másolása</button>
             </div>
             <div class="url-box" id="trailer-url"></div>
+            <details class="instructions" open>
+                <summary>Telepítési lépések</summary>
+                <ol>
+                    <li>Nyisd meg a Stremio alkalmazást</li>
+                    <li>Addons ikon → "+ Add addon"</li>
+                    <li>Illeszd be a fenti URL-t (vagy kattints a Telepítés gombra)</li>
+                </ol>
+            </details>
         </div>
         
         <footer>
@@ -804,7 +824,8 @@
                 document.getElementById('catalog-url').textContent = baseUrl + '/manifest.json';
             });
         
-        document.getElementById('info-url').textContent = urls.info;
+        const infoEl = document.getElementById('info-url');
+        if (infoEl) infoEl.textContent = urls.info;
         document.getElementById('trailer-url').textContent = urls.trailers;
         document.getElementById('configure-link').href = `${baseUrl}/trailers/configure`;
         
