@@ -3,7 +3,7 @@ module.exports = {
     version: '1.1.0',
     name: '🎬 Magyar Előzetesek',
     description: 'Magyar szinkronos/feliratos előzetesek angol tartalékkal.',
-    logo: 'https://ncore.pro/static/images/logo.png',
+    logo: 'https://ncore-catalog-addon-production.up.railway.app/logo.png',
     resources: ['stream'],
     types: ['movie', 'series'],
     idPrefixes: ['tt', 'tmdb:'],
