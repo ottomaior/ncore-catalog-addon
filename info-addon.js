@@ -34,7 +34,7 @@ function createImdbToTraktMap() {
 
 const manifest = {
     id: 'com.ncore.episode.info',
-    version: '1.0.5',
+    version: '3.2.2',
     name: '🇭🇺 nCore Episode Info',
     description: 'Megmutatja a legutóbb feltöltött magyar epizódot az nCore trackerről',
     resources: ['stream'],

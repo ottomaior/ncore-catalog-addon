@@ -169,7 +169,7 @@ async function getHungarianMetadata(imdbId, type = 'movie') {
 // Addon manifest
 const manifest = {
     id: 'com.ncore.hungarian.addon',
-    version: '3.2.1',
+    version: '3.2.2',
     name: 'nCore Katalógus',
     description: 'Magyar nyelvű filmek és sorozatok nCore-ról – katalógusok: Top Seed, Trending, New, Streaming.',
     logo: 'https://ncore-catalog-addon-production.up.railway.app/logo.png',
