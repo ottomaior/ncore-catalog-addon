@@ -1,5 +1,39 @@
 [
   {
+    "id": "tt31050594",
+    "type": "movie",
+    "name": "Mesterséges kegyelem",
+    "poster": "https://image.tmdb.org/t/p/w500/phDpZWaD6bGTwgQ1GOkH5MJzVKC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 2489
+  },
+  {
+    "id": "tt28793125",
+    "type": "movie",
+    "name": "A svéd kapcsolat",
+    "poster": "https://image.tmdb.org/t/p/w500/jYJc4JS24dOv6BJ5cDWvvpDCUsh.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Háborús"
+    ],
+    "seeders": 371
+  },
+  {
     "id": "tt30343021",
     "type": "movie",
     "name": "Song Sung Blue",
@@ -14,7 +48,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 37
+    "seeders": 95
   },
   {
     "id": "tt24082864",
@@ -30,41 +64,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 45
-  },
-  {
-    "id": "tt31050594",
-    "type": "movie",
-    "name": "Mesterséges kegyelem",
-    "poster": "https://image.tmdb.org/t/p/w500/phDpZWaD6bGTwgQ1GOkH5MJzVKC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 2167
-  },
-  {
-    "id": "tt28793125",
-    "type": "movie",
-    "name": "A svéd kapcsolat",
-    "poster": "https://image.tmdb.org/t/p/w500/jYJc4JS24dOv6BJ5cDWvvpDCUsh.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
-    "imdbRating": 8.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
-    ],
-    "seeders": 300
+    "seeders": 60
   },
   {
     "id": "tt26593219",
@@ -81,7 +81,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 113
+    "seeders": 128
   },
   {
     "id": "tt0273435",
@@ -98,7 +98,7 @@
       "Háborús",
       "Történelmi"
     ],
-    "seeders": 42
+    "seeders": 54
   },
   {
     "id": "tt0062512",
@@ -115,72 +115,7 @@
       "Thriller",
       "Kaland"
     ],
-    "seeders": 40
-  },
-  {
-    "id": "tt0267287",
-    "type": "movie",
-    "name": "Avalon - Virtuális csapda",
-    "poster": "https://image.tmdb.org/t/p/w500/sjrp1ptJ2GB171i5T9UcKX6sINk.jpg",
-    "posterShape": "poster",
-    "year": 2001,
-    "description": "Egy képzeletbeli közép-európai városban erős függőséget okozó komputerjáték hódít: az Avalon egyszerre bőséges anyagi haszonnal kecsegtet és csábító (bár veszélyes) kiutat kínál a szürke hétköznapokból. Ash módfelett tehetséges profi vadász, aki könnyedén jár át a valódi és a virtuális világok között. Egy nap volt társától tudomást szerez egy új ellenfélről. Ghost, az Avalon egyik karaktere, különösen komoly kihívást jelent a játékosoknak: a vele való találkozás a leggyakorlottabb profiknak - köztük Ash volt szerelmének, Murphynek - is csaknem az életébe került. Ők az Elveszettek: öntudatlanul, sorvadásra kárhoztatva fekszenek egy szanatóriumban. A lány megesküszik rá, hogy üldözőbe veszi a halálos Ghostot, ami az Avalon titokzatos legfelsőbb szintjét őrzi.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2001",
-    "genres": [
-      "Akció",
-      "Sci-Fi"
-    ],
-    "seeders": 38
-  },
-  {
-    "id": "tt0086510",
-    "type": "movie",
-    "name": "Tűzvonalban",
-    "poster": "https://image.tmdb.org/t/p/w500/iZQO904jyfeGyn0z1Js6VIJstEm.jpg",
-    "posterShape": "poster",
-    "year": 1983,
-    "description": "A világ forrongó részein készíti fényképeit Russell Price fotóriporter. Csak a pénz érdekli, politikával, erkölcsi kérdésekkel nem foglalkozik. Most éppen a közép-amerikai Nicaraguában dolgozik, ahol utolsó óráit éli a Somoza-féle diktatúra. Itt találkozik az elkötelezett riporternővel, akinek hatására rádöbben a sandinista forradalom lényegére, jogosságára. Kutatni kezd a fölkelők vezére, Rafael után. Interjút szeretne készíteni vele. Amikor végre találkozik vele, élete legnagyobb kihívása elé kerül.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1983",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 37
-  },
-  {
-    "id": "tt0059800",
-    "type": "movie",
-    "name": "Tűzgolyó",
-    "poster": "https://image.tmdb.org/t/p/w500/xrN5grfrbLGXUd3OtpVnP7ZdjGN.jpg",
-    "posterShape": "poster",
-    "year": 1965,
-    "description": "Az alvilági szuperbűnözőket tömörítő szervezet, a S.P.E.C.T.R.E. ismét egy világbékét fenyegető ördögi tervet eszelt ki. Elrabolják a NATO egyik atomrakétákkal felszerelt gépét és a bombákat az óceán mélyén rejtik el. Azzal fenyegetőznek, hogy felrobbantják őket, ha nem kapnak a nagyhatalmaktól százmillió font váltságdíjat. A nagyszabású terv ötlete a gátlástalan Emilio Largo fejéből pattant ki. Largo titkos főhadiszállása valahol a Bahamákon található - onnan irányítja az akciót. A 007-es ügynöknek nincs könnyű dolga: nem csak a szárazföldön és a levegőben, de ezúttal a tenger mélyén is meg kell küzdenie a S.P.E.C.T.R.E. gyilkos zsoldosaival és a cápákkal. Largo ugyanis előszeretettel eteti kedvenc háziállatait ellenségeivel.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1965",
-    "genres": [
-      "Kaland",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 43
-  },
-  {
-    "id": "tt0063035",
-    "type": "movie",
-    "name": "A zöldsapkások",
-    "poster": "https://image.tmdb.org/t/p/w500/e3y5qhIPg7uFEoVRvx2GvOc4UMg.jpg",
-    "posterShape": "poster",
-    "year": 1968,
-    "description": "Észak-Karolina, az USA hadseregének különleges kiképzőközpontja. A Zöldsapkások, vagyis azok a tapasztalt, rendkívüli katonák, akiket speciálisan a vietnámi konfliktus megoldására képeztek ki, a sajtó nyilvánossága előtt beszélnek az elkövetkező akciójukról. A küldetés: egy tábor felállítása Dél-Vietnámban, és egy helyi vezető elfogása. Az újságírók közül sokan, akárcsak a lakosság nagy része, megkérdőjelezik az Egyesült Államok szerepvállalásának szükségességét a vietnámi konfliktusban.",
-    "imdbRating": 5.7,
-    "releaseInfo": "1968",
-    "genres": [
-      "Háborús",
-      "Dráma"
-    ],
-    "seeders": 32
+    "seeders": 41
   },
   {
     "id": "tt29780866",
@@ -197,7 +132,56 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 461
+    "seeders": 532
+  },
+  {
+    "id": "tt0267287",
+    "type": "movie",
+    "name": "Avalon - Virtuális csapda",
+    "poster": "https://image.tmdb.org/t/p/w500/sjrp1ptJ2GB171i5T9UcKX6sINk.jpg",
+    "posterShape": "poster",
+    "year": 2001,
+    "description": "Egy képzeletbeli közép-európai városban erős függőséget okozó komputerjáték hódít: az Avalon egyszerre bőséges anyagi haszonnal kecsegtet és csábító (bár veszélyes) kiutat kínál a szürke hétköznapokból. Ash módfelett tehetséges profi vadász, aki könnyedén jár át a valódi és a virtuális világok között. Egy nap volt társától tudomást szerez egy új ellenfélről. Ghost, az Avalon egyik karaktere, különösen komoly kihívást jelent a játékosoknak: a vele való találkozás a leggyakorlottabb profiknak - köztük Ash volt szerelmének, Murphynek - is csaknem az életébe került. Ők az Elveszettek: öntudatlanul, sorvadásra kárhoztatva fekszenek egy szanatóriumban. A lány megesküszik rá, hogy üldözőbe veszi a halálos Ghostot, ami az Avalon titokzatos legfelsőbb szintjét őrzi.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2001",
+    "genres": [
+      "Akció",
+      "Sci-Fi"
+    ],
+    "seeders": 37
+  },
+  {
+    "id": "tt0086510",
+    "type": "movie",
+    "name": "Tűzvonalban",
+    "poster": "https://image.tmdb.org/t/p/w500/iZQO904jyfeGyn0z1Js6VIJstEm.jpg",
+    "posterShape": "poster",
+    "year": 1983,
+    "description": "A világ forrongó részein készíti fényképeit Russell Price fotóriporter. Csak a pénz érdekli, politikával, erkölcsi kérdésekkel nem foglalkozik. Most éppen a közép-amerikai Nicaraguában dolgozik, ahol utolsó óráit éli a Somoza-féle diktatúra. Itt találkozik az elkötelezett riporternővel, akinek hatására rádöbben a sandinista forradalom lényegére, jogosságára. Kutatni kezd a fölkelők vezére, Rafael után. Interjút szeretne készíteni vele. Amikor végre találkozik vele, élete legnagyobb kihívása elé kerül.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1983",
+    "genres": [
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 38
+  },
+  {
+    "id": "tt0059800",
+    "type": "movie",
+    "name": "Tűzgolyó",
+    "poster": "https://image.tmdb.org/t/p/w500/xrN5grfrbLGXUd3OtpVnP7ZdjGN.jpg",
+    "posterShape": "poster",
+    "year": 1965,
+    "description": "Az alvilági szuperbűnözőket tömörítő szervezet, a S.P.E.C.T.R.E. ismét egy világbékét fenyegető ördögi tervet eszelt ki. Elrabolják a NATO egyik atomrakétákkal felszerelt gépét és a bombákat az óceán mélyén rejtik el. Azzal fenyegetőznek, hogy felrobbantják őket, ha nem kapnak a nagyhatalmaktól százmillió font váltságdíjat. A nagyszabású terv ötlete a gátlástalan Emilio Largo fejéből pattant ki. Largo titkos főhadiszállása valahol a Bahamákon található - onnan irányítja az akciót. A 007-es ügynöknek nincs könnyű dolga: nem csak a szárazföldön és a levegőben, de ezúttal a tenger mélyén is meg kell küzdenie a S.P.E.C.T.R.E. gyilkos zsoldosaival és a cápákkal. Largo ugyanis előszeretettel eteti kedvenc háziállatait ellenségeivel.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1965",
+    "genres": [
+      "Kaland",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 42
   },
   {
     "id": "tt4712810",
@@ -214,7 +198,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 503
+    "seeders": 564
   },
   {
     "id": "tt33028778",
@@ -230,7 +214,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 545
+    "seeders": 624
   },
   {
     "id": "tt32604920",
@@ -245,7 +229,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 110
+    "seeders": 119
   },
   {
     "id": "tt22185974",
@@ -260,22 +244,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 105
+    "seeders": 112
   },
   {
-    "id": "tt6040662",
+    "id": "tt0063035",
     "type": "movie",
-    "name": "A törvény szíve",
-    "poster": "https://image.tmdb.org/t/p/w500/uWwmYzdLReu3Yn4YKuX9idDReaz.jpg",
+    "name": "A zöldsapkások",
+    "poster": "https://image.tmdb.org/t/p/w500/e3y5qhIPg7uFEoVRvx2GvOc4UMg.jpg",
     "posterShape": "poster",
-    "year": 2018,
-    "description": "A családi ügyekben jártas és bölcs bírónő, Fiona Maye házassága lassan tönkremegy munkája miatt, ő pedig egy új ügy miatt kénytelen szembenézni saját magával és az elveivel, amikor megismer egy fiatal fiút.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2018",
+    "year": 1968,
+    "description": "Észak-Karolina, az USA hadseregének különleges kiképzőközpontja. A Zöldsapkások, vagyis azok a tapasztalt, rendkívüli katonák, akiket speciálisan a vietnámi konfliktus megoldására képeztek ki, a sajtó nyilvánossága előtt beszélnek az elkövetkező akciójukról. A küldetés: egy tábor felállítása Dél-Vietnámban, és egy helyi vezető elfogása. Az újságírók közül sokan, akárcsak a lakosság nagy része, megkérdőjelezik az Egyesült Államok szerepvállalásának szükségességét a vietnámi konfliktusban.",
+    "imdbRating": 5.7,
+    "releaseInfo": "1968",
     "genres": [
+      "Háborús",
       "Dráma"
     ],
-    "seeders": 60
+    "seeders": 28
   },
   {
     "id": "tt2396431",
@@ -291,23 +276,37 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 249
+    "seeders": 267
   },
   {
-    "id": "tt0049233",
+    "id": "tt6040662",
     "type": "movie",
-    "name": "Szemben az erőszakkal",
-    "poster": "https://image.tmdb.org/t/p/w500/1q9ABQUsGg2rKcRn1JFvkEsy0VO.jpg",
+    "name": "A törvény szíve",
+    "poster": "https://image.tmdb.org/t/p/w500/uWwmYzdLReu3Yn4YKuX9idDReaz.jpg",
     "posterShape": "poster",
-    "year": 1956,
-    "description": "A Birdwell család a minden erőszakkal szemben elkötelezett kvéker felekezethez tartozik, amelynek tagjai a polgárháború éveiben sem hajlandóak fegyvert fogni. A front azonban egyre közeledik indianai otthonukhoz, és a déliek fosztogatásairól nyugtalanító hírek érkeznek. Míg a szülők, Jess (Gary Cooper) és Eliza (Dorothy McGuire) kitartanak a teljes erőszakmentesség mellett, nagyobbik fiuk, Joshua (Anthony Perkins) csatlakozik a fegyveres önkéntesekhez, hogy útját állja a közeledő déli seregnek. Amikor Joshua lova gazdátlanul tér vissza a farmra, Jess előveszi rég letett puskáját, és elindul, hogy felkutassa fiát a harctéren.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1956",
+    "year": 2018,
+    "description": "A családi ügyekben jártas és bölcs bírónő, Fiona Maye házassága lassan tönkremegy munkája miatt, ő pedig egy új ügy miatt kénytelen szembenézni saját magával és az elveivel, amikor megismer egy fiatal fiút.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2018",
     "genres": [
-      "Dráma",
-      "Háborús"
+      "Dráma"
     ],
-    "seeders": 45
+    "seeders": 67
+  },
+  {
+    "id": "tt39162904",
+    "type": "movie",
+    "name": "A sakk királynője",
+    "poster": "https://image.tmdb.org/t/p/w500/17p1nxoZBqbLnBycv43N20GPamk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A portréfilm minden idők legerősebb női sakkozója, Polgár Judit életútját és pályafutását mutatja be, érintve a férfiak uralta sakkvilágban elért sikereit és a Garri Kaszparov elleni küzdelmeit.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 517
   },
   {
     "id": "tt0120381",
@@ -325,7 +324,85 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 45
+    "seeders": 54
+  },
+  {
+    "id": "tt0049233",
+    "type": "movie",
+    "name": "Szemben az erőszakkal",
+    "poster": "https://image.tmdb.org/t/p/w500/1q9ABQUsGg2rKcRn1JFvkEsy0VO.jpg",
+    "posterShape": "poster",
+    "year": 1956,
+    "description": "A Birdwell család a minden erőszakkal szemben elkötelezett kvéker felekezethez tartozik, amelynek tagjai a polgárháború éveiben sem hajlandóak fegyvert fogni. A front azonban egyre közeledik indianai otthonukhoz, és a déliek fosztogatásairól nyugtalanító hírek érkeznek. Míg a szülők, Jess (Gary Cooper) és Eliza (Dorothy McGuire) kitartanak a teljes erőszakmentesség mellett, nagyobbik fiuk, Joshua (Anthony Perkins) csatlakozik a fegyveres önkéntesekhez, hogy útját állja a közeledő déli seregnek. Amikor Joshua lova gazdátlanul tér vissza a farmra, Jess előveszi rég letett puskáját, és elindul, hogy felkutassa fiát a harctéren.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1956",
+    "genres": [
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 52
+  },
+  {
+    "id": "tt0243133",
+    "type": "movie",
+    "name": "Az ember, aki ott se volt",
+    "poster": "https://image.tmdb.org/t/p/w500/ejMhbi4Fgo2FeLVAPihuuyz8CU4.jpg",
+    "posterShape": "poster",
+    "year": 2001,
+    "description": "Santa Rosa, Észak-Kalifornia, 1949 nyara. Ed Crane - sógorával, Frankkel együtt - egy álmos kaliforniai kisváros borbélyüzletében dolgozik. Okkal gyanítja, hogy feleségének, Dorisnak viszonya van munkahelyi főnökével, Big Dave-vel. Mivel amúgy is elégedetlen az életével, ez jó ürügy arra, hogy egy kedvezőnek tűnő befektetés érdekében névtelenül megzsarolja a férfit. Az ki is fizeti a kért összeget, de iszonyúan felbőszül, amikor megtudja az igazságot. Akaratlan halálesetek és szándékos gyilkosságok követik egymást, s az út a tárgyalóteremig és a siralomházig vezet.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2001",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 98
+  },
+  {
+    "id": "tt0081006",
+    "type": "movie",
+    "name": "Kojak Budapesten",
+    "poster": "https://image.tmdb.org/t/p/w500/cvgU4ZZNPlBqKhuTu335tYZgVUj.jpg",
+    "posterShape": "poster",
+    "year": 1980,
+    "description": "Hatalmas a szenzáció, ugyanis Budapestre érkezik a Krimi-írók Nemzetközi Konferenciájára a híres amerikai detektív, Kojak! A repülőtéren sikerül lelépnie a riporterek hada elől, de a szállodában már egy csinos szőke nő kémleli érkezését. Nem sokkal ezután pedig egy különös bűntény történik: egy geológus-professzort holtan találnak a lakásán. Beindul hát a nyomozás, amibe a világhírű nyomozó, Kojak is besegít.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1980",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi"
+    ],
+    "seeders": 113
+  },
+  {
+    "id": "tt0073559",
+    "type": "movie",
+    "name": "Lázadás a prérin",
+    "poster": "https://image.tmdb.org/t/p/w500/vFfzmPDeqRj3v8SnFPp9nIWeN3C.jpg",
+    "posterShape": "poster",
+    "year": 1975,
+    "description": "Egy kemény rendőrbíró, tele politikai ambíciókkal egy elit csapatot vezetve sikeresen csapdába csal egy hírdedt bűnöző, de a közvélemény teljesen ellene fordul...",
+    "imdbRating": 6.0,
+    "releaseInfo": "1975",
+    "genres": [
+      "Western"
+    ],
+    "seeders": 53
+  },
+  {
+    "id": "tt0102940",
+    "type": "movie",
+    "name": "Síakadémia",
+    "poster": "https://image.tmdb.org/t/p/w500/tRgkoCVw7W1e1ghMEtDlguzrSsa.jpg",
+    "posterShape": "poster",
+    "year": 1991,
+    "description": "A Síakadémián nappal vérfagyasztó akrobatamutatványok sokkolják az idegeket, éjszaka pedig buja lányok gondoskodnak a forró hangulatról. Dave és barátai alig bírnak a sok gyönyörű nővel, az év eseménye érdektelen számukra, míg meg nem jelenik Johnny, aki motivációt lehel a társaságba. A züllött csapat az élvonalba kerül, amivel végképp kivívják a helyi sztár haragját. Hamarosan pattanásig fokozódik a helyzet, ahol a tét az abszolút győzelem: a pályán és a lányok körében.",
+    "imdbRating": 5.1,
+    "releaseInfo": "1991",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 140
   },
   {
     "id": "tt0145529",
@@ -342,85 +419,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt0073559",
-    "type": "movie",
-    "name": "Lázadás a prérin",
-    "poster": "https://image.tmdb.org/t/p/w500/vFfzmPDeqRj3v8SnFPp9nIWeN3C.jpg",
-    "posterShape": "poster",
-    "year": 1975,
-    "description": "Egy kemény rendőrbíró, tele politikai ambíciókkal egy elit csapatot vezetve sikeresen csapdába csal egy hírdedt bűnöző, de a közvélemény teljesen ellene fordul...",
-    "imdbRating": 6.0,
-    "releaseInfo": "1975",
-    "genres": [
-      "Western"
-    ],
-    "seeders": 47
-  },
-  {
-    "id": "tt0243133",
-    "type": "movie",
-    "name": "Az ember, aki ott se volt",
-    "poster": "https://image.tmdb.org/t/p/w500/ejMhbi4Fgo2FeLVAPihuuyz8CU4.jpg",
-    "posterShape": "poster",
-    "year": 2001,
-    "description": "Santa Rosa, Észak-Kalifornia, 1949 nyara. Ed Crane - sógorával, Frankkel együtt - egy álmos kaliforniai kisváros borbélyüzletében dolgozik. Okkal gyanítja, hogy feleségének, Dorisnak viszonya van munkahelyi főnökével, Big Dave-vel. Mivel amúgy is elégedetlen az életével, ez jó ürügy arra, hogy egy kedvezőnek tűnő befektetés érdekében névtelenül megzsarolja a férfit. Az ki is fizeti a kért összeget, de iszonyúan felbőszül, amikor megtudja az igazságot. Akaratlan halálesetek és szándékos gyilkosságok követik egymást, s az út a tárgyalóteremig és a siralomházig vezet.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2001",
-    "genres": [
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 83
-  },
-  {
-    "id": "tt39162904",
-    "type": "movie",
-    "name": "A sakk királynője",
-    "poster": "https://image.tmdb.org/t/p/w500/17p1nxoZBqbLnBycv43N20GPamk.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A portréfilm minden idők legerősebb női sakkozója, Polgár Judit életútját és pályafutását mutatja be, érintve a férfiak uralta sakkvilágban elért sikereit és a Garri Kaszparov elleni küzdelmeit.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 429
-  },
-  {
-    "id": "tt0081006",
-    "type": "movie",
-    "name": "Kojak Budapesten",
-    "poster": "https://image.tmdb.org/t/p/w500/cvgU4ZZNPlBqKhuTu335tYZgVUj.jpg",
-    "posterShape": "poster",
-    "year": 1980,
-    "description": "Hatalmas a szenzáció, ugyanis Budapestre érkezik a Krimi-írók Nemzetközi Konferenciájára a híres amerikai detektív, Kojak! A repülőtéren sikerül lelépnie a riporterek hada elől, de a szállodában már egy csinos szőke nő kémleli érkezését. Nem sokkal ezután pedig egy különös bűntény történik: egy geológus-professzort holtan találnak a lakásán. Beindul hát a nyomozás, amibe a világhírű nyomozó, Kojak is besegít.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1980",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi"
-    ],
-    "seeders": 101
-  },
-  {
-    "id": "tt0455957",
-    "type": "movie",
-    "name": "Goya kísértetei",
-    "poster": "https://image.tmdb.org/t/p/w500/bbUkzRiA9zWKpzmavRTOgGfJA5.jpg",
-    "posterShape": "poster",
-    "year": 2006,
-    "description": "1792, Spanyolország. A kor leghíresebb portréfestőjének gyönyörű és ártatlan modelljét, Inest beidézi az inkvizíció. A lányt eretneknek bélyegzik, és börtönbe vetik, Fransisco Goya pedig minden befolyását bevetve próbál segíteni múzsáján.\r Lorenzo atya az inkvizítorok belső köréhez tartozó, hataloméhes szerzetes könyörtelenül üldözi a hit ellenségeit, ám amikor beleszeret Inesbe, minden megváltozik...",
-    "imdbRating": 6.6,
-    "releaseInfo": "2006",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 37
+    "seeders": 50
   },
   {
     "id": "tt11950888",
@@ -436,38 +435,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 182
+    "seeders": 188
   },
   {
-    "id": "tt0102940",
+    "id": "tt0083774",
     "type": "movie",
-    "name": "Síakadémia",
-    "poster": "https://image.tmdb.org/t/p/w500/tRgkoCVw7W1e1ghMEtDlguzrSsa.jpg",
+    "name": "Csak semmi pánik...",
+    "poster": "https://image.tmdb.org/t/p/w500/k3DH3TwNzCMwvcMijaJIQUxfjsw.jpg",
     "posterShape": "poster",
-    "year": 1991,
-    "description": "A Síakadémián nappal vérfagyasztó akrobatamutatványok sokkolják az idegeket, éjszaka pedig buja lányok gondoskodnak a forró hangulatról. Dave és barátai alig bírnak a sok gyönyörű nővel, az év eseménye érdektelen számukra, míg meg nem jelenik Johnny, aki motivációt lehel a társaságba. A züllött csapat az élvonalba kerül, amivel végképp kivívják a helyi sztár haragját. Hamarosan pattanásig fokozódik a helyzet, ahol a tét az abszolút győzelem: a pályán és a lányok körében.",
-    "imdbRating": 5.1,
-    "releaseInfo": "1991",
+    "year": 1982,
+    "description": "Ötvös Csöpi, a legendás nyomozó két ügyben utazik a Balatonhoz. Egyrészt, hogy a bűnbanda elől megszerezze a második világháborúban lelőtt repülőgép vízbe zuhant értékes rakományát, másrészt, hogy megnyerje a Kék szalag vitorlásversenyt. Mindkét ügyben rosszul áll a szénája, főnöke, a mindenre alkalmatlan Kardos doki ugyanis ahelyett, hogy segítené, inkább akadályozza, már pedig az idő rohamosan fogy.",
+    "imdbRating": 6.6,
+    "releaseInfo": "1982",
     "genres": [
-      "Vígjáték"
+      "Vígjáték",
+      "Bűnügyi"
     ],
-    "seeders": 117
-  },
-  {
-    "id": "tt0061537",
-    "type": "movie",
-    "name": "Csillagosok, Katonák",
-    "poster": "https://image.tmdb.org/t/p/w500/g7Gjcmw73XtGV8AYPhCDqucuLQd.jpg",
-    "posterShape": "poster",
-    "year": 1967,
-    "description": "Az 1917-es forradalmat követő oroszországi polgárháborúban vörös egységek, köztük egy volt magyar hadifoglyokból is álló internacionalista század kerül a fehérek gyűrűjébe. A kegyetlen megtorlások elől menekülő harcosok egy kis folyóparti katonai kórházban találnak menedéket. Itt várják a felmentő seregeket… De alighanem a történet árulja el a legkevesebbet az 1960-as évek megújuló európai filmművészetének remekéről, amelyet sokan a Szegénylegények mellé sorolnak Jancsó Miklós életművében. Az első szovjet–magyar koprodukció eredeti szemléletmódja, merészen formabontó szerkezete a szovjet kultúrpolitikát azonban óvatosságra intette, ezért a film lerövidített, átvágott változatban került az ottani közönség elé.",
-    "imdbRating": 7.0,
-    "releaseInfo": "1967",
-    "genres": [
-      "Háborús",
-      "Dráma"
-    ],
-    "seeders": 47
+    "seeders": 196
   },
   {
     "id": "tt34581826",
@@ -483,6 +467,22 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 159
+    "seeders": 167
+  },
+  {
+    "id": "tt0061537",
+    "type": "movie",
+    "name": "Csillagosok, Katonák",
+    "poster": "https://image.tmdb.org/t/p/w500/g7Gjcmw73XtGV8AYPhCDqucuLQd.jpg",
+    "posterShape": "poster",
+    "year": 1967,
+    "description": "Az 1917-es forradalmat követő oroszországi polgárháborúban vörös egységek, köztük egy volt magyar hadifoglyokból is álló internacionalista század kerül a fehérek gyűrűjébe. A kegyetlen megtorlások elől menekülő harcosok egy kis folyóparti katonai kórházban találnak menedéket. Itt várják a felmentő seregeket… De alighanem a történet árulja el a legkevesebbet az 1960-as évek megújuló európai filmművészetének remekéről, amelyet sokan a Szegénylegények mellé sorolnak Jancsó Miklós életművében. Az első szovjet–magyar koprodukció eredeti szemléletmódja, merészen formabontó szerkezete a szovjet kultúrpolitikát azonban óvatosságra intette, ezért a film lerövidített, átvágott változatban került az ottani közönség elé.",
+    "imdbRating": 7.0,
+    "releaseInfo": "1967",
+    "genres": [
+      "Háborús",
+      "Dráma"
+    ],
+    "seeders": 49
   }
 ]
