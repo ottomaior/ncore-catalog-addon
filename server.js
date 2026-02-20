@@ -21,6 +21,9 @@ app.use((req, res, next) => {
     next();
 });
 
+// Static assets (e.g. logo.png for addon manifest)
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Cron: run Python sync scripts every 3 hours (production)
 const isUnix = process.platform !== 'win32';
 const runScript = (scriptName, label, onDone) => {

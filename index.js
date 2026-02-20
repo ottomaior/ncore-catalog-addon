@@ -172,6 +172,7 @@ const manifest = {
     version: '3.2.1',
     name: 'nCore Katalógus',
     description: 'Magyar nyelvű filmek és sorozatok nCore-ról – katalógusok: Top Seed, Trending, New, Streaming.',
+    logo: 'https://ncore-catalog-addon-production.up.railway.app/logo.png',
     resources: [
         'catalog',
         { name: 'meta', types: ['movie', 'series'], idPrefixes: ['tt'] }
