@@ -2,7 +2,7 @@
 Split big catalogs into streaming-provider JSONs using TMDB watch providers (JustWatch data).
 Reads: data/hd_movies.json, data/hd_series.json (from build_latest_catalog only – latest uploads).
 Writes: netflix, disneyplus, hbomax, prime (each: _movies.json, _series.json).
-Only includes items where TMDB reports that provider for Hungary (HU). Streaming catalogs = latest items only, not most-seeded.
+Only includes items where TMDB reports that provider for the watch region (US = broad/global Netflix coverage). Streaming catalogs = latest items only, not most-seeded.
 
 Usage: python scripts/split_catalogs_by_provider.py
 Requires: TMDB_API_KEY in config. Run after build_latest_catalog.py.
@@ -29,9 +29,9 @@ else:
 TMDB_API_KEY = os.getenv('TMDB_API_KEY', '').strip()
 TMDB_BASE = 'https://api.themoviedb.org/3'
 TMDB_DELAY = 0.35
-WATCH_REGION = 'HU'
+WATCH_REGION = 'US'  # US = broad Netflix/streaming coverage; TMDB data more complete than smaller regions
 
-# TMDB watch provider IDs (flatrate / subscription) – check /watch/providers with watch_region=HU if needed
+# TMDB watch provider IDs (flatrate / subscription) – check /watch/providers with watch_region=US if needed
 PROVIDER_NETFLIX = 8
 PROVIDER_DISNEY_PLUS = 337
 PROVIDER_HBO_MAX = 1899
@@ -263,7 +263,7 @@ def main():
             json.dump(provider_series[name], f, ensure_ascii=False, indent=2)
         print(f'✓ {name}: {len(provider_movies[name])} film, {len(provider_series[name])} sorozat → {out_movies_path.name}, {out_series_path.name}')
 
-    print('\n✅ Streaming katalógusok frissítve (TMDB watch providers, HU). Adatforrás: JustWatch.')
+    print('\n✅ Streaming katalógusok frissítve (TMDB watch providers, US). Adatforrás: JustWatch.')
     return 0
 
 

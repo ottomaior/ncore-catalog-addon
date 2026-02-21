@@ -1,6 +1,6 @@
 # Catalog data (generated)
 
-This folder holds JSON files built by scheduled scripts. **Series** use **TVDB** for metadata; **movies** and Hungarian filter use **TMDB**. **Streaming** catalogs (Netflix, HBO Max, Prime Video) are split from the big catalogs using **TMDB watch providers** (JustWatch data, Hungary).
+This folder holds JSON files built by scheduled scripts. **Series** use **TVDB** for metadata; **movies** and Hungarian filter use **TMDB**. **Streaming** catalogs (Netflix, HBO Max, Prime Video) are split from the big catalogs using **TMDB watch providers** (JustWatch data, US region for broad coverage).
 
 **Structure (matches Stremio catalog types)**
 
@@ -18,11 +18,11 @@ This folder holds JSON files built by scheduled scripts. **Series** use **TVDB**
 - **`hd_movies.json`** – Built every 3 hours by `build_latest_catalog.py`. Latest HD movies (2025/2026), big catalog (~2000).
 - **`hd_series.json`** – Built every 3 hours by `build_latest_catalog.py`. Latest HD series, big catalog (~2000).
 
-**⏰ STREAMING (split by TMDB watch providers, HU; only latest uploads)**
-- **`netflix_movies.json`**, **`netflix_series.json`** – Filled by `split_catalogs_by_provider.py` from `hd_movies.json` + `hd_series.json` (only items where TMDB says Netflix in Hungary).
+**⏰ STREAMING (split by TMDB watch providers, US; only latest uploads)**
+- **`netflix_movies.json`**, **`netflix_series.json`** – Filled by `split_catalogs_by_provider.py` from `hd_movies.json` + `hd_series.json` (only items where TMDB says Netflix in US / broad coverage).
 - **`disneyplus_movies.json`**, **`disneyplus_series.json`** – Same, TMDB Disney+ in HU.
-- **`hbomax_movies.json`**, **`hbomax_series.json`** – Same, TMDB HBO Max (provider 1899) in HU.
-- **`prime_movies.json`**, **`prime_series.json`** – Same, TMDB Prime Video (provider 119) in HU.
+- **`hbomax_movies.json`**, **`hbomax_series.json`** – Same, TMDB HBO Max (provider 1899) in US.
+- **`prime_movies.json`**, **`prime_series.json`** – Same, TMDB Prime Video (provider 119) in US.
 
 Run manually (regenerate all):
 
