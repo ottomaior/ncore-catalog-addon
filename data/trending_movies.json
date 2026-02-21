@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt1976989",
+    "type": "movie",
+    "name": "Szerelem és becsület",
+    "poster": "https://image.tmdb.org/t/p/w500/we2H718jXVsUSGisoJG4R4mk9hD.jpg",
+    "posterShape": "poster",
+    "year": 2013,
+    "description": "A hatvanas évek, a Holdraszállás idején. A Vietnamban szolgáló Dalton megtudja, hogy a barátnője szakított vele. A fiú nem hajlandó lemondani róla, megfogadja, ha törik, ha szakad kivesz egy hét \"szabadságot\", és hazautazik, hogy visszahódítsa. A legjobb barátja, Mickey mindent megtesz, hogy segítsen neki. Mindössze hét nap kell, hogy hazajussanak, meggyőzzék Jane-t, majd visszamenjenek a háborúba, anélkül, hogy felfedeznék szökésüket. Ám a lányt a háborúellen mozgalom közepén találják az aktivista barátjával.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2013",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 38
+  },
+  {
     "id": "tt31050594",
     "type": "movie",
     "name": "Mesterséges kegyelem",
@@ -14,7 +30,41 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2843
+    "seeders": 3989
+  },
+  {
+    "id": "tt27721490",
+    "type": "movie",
+    "name": "Tornado",
+    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Akció",
+      "Western"
+    ],
+    "seeders": 292
+  },
+  {
+    "id": "tt28793125",
+    "type": "movie",
+    "name": "A svéd kapcsolat",
+    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Háborús"
+    ],
+    "seeders": 523
   },
   {
     "id": "tt0291265",
@@ -32,41 +82,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 28
-  },
-  {
-    "id": "tt27721490",
-    "type": "movie",
-    "name": "Tornado",
-    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Akció",
-      "Western"
-    ],
-    "seeders": 219
-  },
-  {
-    "id": "tt28793125",
-    "type": "movie",
-    "name": "A svéd kapcsolat",
-    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
-    ],
-    "seeders": 423
+    "seeders": 33
   },
   {
     "id": "tt33474179",
@@ -82,7 +98,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 180
+    "seeders": 230
   },
   {
     "id": "tt30343021",
@@ -99,7 +115,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 218
+    "seeders": 273
   },
   {
     "id": "tt26593219",
@@ -116,7 +132,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 153
+    "seeders": 181
   },
   {
     "id": "tt0053143",
@@ -133,55 +149,24 @@
       "Háborús",
       "Romantikus"
     ],
-    "seeders": 42
+    "seeders": 64
   },
   {
-    "id": "tt0066995",
+    "id": "tt4712810",
     "type": "movie",
-    "name": "Gyémántok az örökkévalóságnak",
-    "poster": "https://image.tmdb.org/t/p/w500/pH2dRtc3PjQKqMzbeT8yrpLjzi7.jpg",
+    "name": "Szemfényvesztők 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
     "posterShape": "poster",
-    "year": 1971,
-    "description": "Az angol titkosszolgálat ásza, James Bond most a legnagyobb maffiaszervezetek által kézben tartott gyémántcsempész-hálózatot próbálja felgöngyölíteni, de úgy látszik, ezzel az üggyel alaposan meggyűlik a baja. Rájön, hogy a gyémántok holttestek belsejében érkeznek az országba, és egy krematóriumban kerülnek elő a hamvakból. Bond is \"beszáll az üzletbe\". Éppen az egyik csempész koporsója mellett \"gyászol\", és várja, hogy előkerüljenek a drágakövek. De amikor átvenné az urnát, valaki hátulról leüti. Szűk faládában tér magához. Kinyitja a szemét, hallja, hogy mögötte becsukódik egy nehéz vasajtó és megérzi az égett fa szagát. Vajon tényleg így végezné egy szuperkém?",
-    "imdbRating": 6.4,
-    "releaseInfo": "1971",
+    "year": 2025,
+    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Thriller",
+      "Bűnügyi",
+      "Rejtély"
     ],
-    "seeders": 45
-  },
-  {
-    "id": "tt39387657",
-    "type": "movie",
-    "name": "Pavane",
-    "poster": "https://image.tmdb.org/t/p/w500/22RlxpIT4u4psfIx9tmtbPvgAbm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Három magányos idegen áruházi munkája során egymás társaságában talál vigaszt, miközben felfedezik a kapcsolatok és a szerelem természetét.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 74
-  },
-  {
-    "id": "tt24082864",
-    "type": "movie",
-    "name": "I'll Be Right There",
-    "poster": "https://image.tmdb.org/t/p/w500/jHbn6gQqEGFZXExp7oxuA84JsRe.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 96
+    "seeders": 812
   },
   {
     "id": "tt29780866",
@@ -198,7 +183,71 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 557
+    "seeders": 675
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 865
+  },
+  {
+    "id": "tt24082864",
+    "type": "movie",
+    "name": "I'll Be Right There",
+    "poster": "https://image.tmdb.org/t/p/w500/jHbn6gQqEGFZXExp7oxuA84JsRe.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2024",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 106
+  },
+  {
+    "id": "tt39387657",
+    "type": "movie",
+    "name": "Pavane",
+    "poster": "https://image.tmdb.org/t/p/w500/22RlxpIT4u4psfIx9tmtbPvgAbm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Három magányos idegen áruházi munkája során egymás társaságában talál vigaszt, miközben felfedezik a kapcsolatok és a szerelem természetét.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 81
+  },
+  {
+    "id": "tt0066995",
+    "type": "movie",
+    "name": "Gyémántok az örökkévalóságnak",
+    "poster": "https://image.tmdb.org/t/p/w500/pH2dRtc3PjQKqMzbeT8yrpLjzi7.jpg",
+    "posterShape": "poster",
+    "year": 1971,
+    "description": "Az angol titkosszolgálat ásza, James Bond most a legnagyobb maffiaszervezetek által kézben tartott gyémántcsempész-hálózatot próbálja felgöngyölíteni, de úgy látszik, ezzel az üggyel alaposan meggyűlik a baja. Rájön, hogy a gyémántok holttestek belsejében érkeznek az országba, és egy krematóriumban kerülnek elő a hamvakból. Bond is \"beszáll az üzletbe\". Éppen az egyik csempész koporsója mellett \"gyászol\", és várja, hogy előkerüljenek a drágakövek. De amikor átvenné az urnát, valaki hátulról leüti. Szűk faládában tér magához. Kinyitja a szemét, hallja, hogy mögötte becsukódik egy nehéz vasajtó és megérzi az égett fa szagát. Vajon tényleg így végezné egy szuperkém?",
+    "imdbRating": 6.4,
+    "releaseInfo": "1971",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 48
   },
   {
     "id": "tt1571243",
@@ -216,56 +265,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 34
+    "seeders": 42
   },
   {
-    "id": "tt4712810",
+    "id": "tt2396431",
     "type": "movie",
-    "name": "Szemfényvesztők 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
+    "name": "Kedves Télapó",
+    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
+    "year": 2024,
+    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2024",
     "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Rejtély"
+      "Vígjáték",
+      "Fantasy"
     ],
-    "seeders": 630
-  },
-  {
-    "id": "tt0049233",
-    "type": "movie",
-    "name": "Szemben az erőszakkal",
-    "poster": "https://image.tmdb.org/t/p/w500/1q9ABQUsGg2rKcRn1JFvkEsy0VO.jpg",
-    "posterShape": "poster",
-    "year": 1956,
-    "description": "A Birdwell család a minden erőszakkal szemben elkötelezett kvéker felekezethez tartozik, amelynek tagjai a polgárháború éveiben sem hajlandóak fegyvert fogni. A front azonban egyre közeledik indianai otthonukhoz, és a déliek fosztogatásairól nyugtalanító hírek érkeznek. Míg a szülők, Jess (Gary Cooper) és Eliza (Dorothy McGuire) kitartanak a teljes erőszakmentesség mellett, nagyobbik fiuk, Joshua (Anthony Perkins) csatlakozik a fegyveres önkéntesekhez, hogy útját állja a közeledő déli seregnek. Amikor Joshua lova gazdátlanul tér vissza a farmra, Jess előveszi rég letett puskáját, és elindul, hogy felkutassa fiát a harctéren.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1956",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 31
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 642
+    "seeders": 341
   },
   {
     "id": "tt0273435",
@@ -282,38 +298,7 @@
       "Háborús",
       "Történelmi"
     ],
-    "seeders": 68
-  },
-  {
-    "id": "tt2396431",
-    "type": "movie",
-    "name": "Kedves Télapó",
-    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 275
-  },
-  {
-    "id": "tt32604920",
-    "type": "movie",
-    "name": "Love Letters",
-    "poster": "https://image.tmdb.org/t/p/w500/1eC49McS56Yd4P7HeKKvxepRBda.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 120
+    "seeders": 72
   },
   {
     "id": "tt39162904",
@@ -328,7 +313,115 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 505
+    "seeders": 655
+  },
+  {
+    "id": "tt0049233",
+    "type": "movie",
+    "name": "Szemben az erőszakkal",
+    "poster": "https://image.tmdb.org/t/p/w500/1q9ABQUsGg2rKcRn1JFvkEsy0VO.jpg",
+    "posterShape": "poster",
+    "year": 1956,
+    "description": "A Birdwell család a minden erőszakkal szemben elkötelezett kvéker felekezethez tartozik, amelynek tagjai a polgárháború éveiben sem hajlandóak fegyvert fogni. A front azonban egyre közeledik indianai otthonukhoz, és a déliek fosztogatásairól nyugtalanító hírek érkeznek. Míg a szülők, Jess (Gary Cooper) és Eliza (Dorothy McGuire) kitartanak a teljes erőszakmentesség mellett, nagyobbik fiuk, Joshua (Anthony Perkins) csatlakozik a fegyveres önkéntesekhez, hogy útját állja a közeledő déli seregnek. Amikor Joshua lova gazdátlanul tér vissza a farmra, Jess előveszi rég letett puskáját, és elindul, hogy felkutassa fiát a harctéren.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1956",
+    "genres": [
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 32
+  },
+  {
+    "id": "tt32604920",
+    "type": "movie",
+    "name": "Love Letters",
+    "poster": "https://image.tmdb.org/t/p/w500/1eC49McS56Yd4P7HeKKvxepRBda.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 132
+  },
+  {
+    "id": "tt0267287",
+    "type": "movie",
+    "name": "Avalon - Virtuális csapda",
+    "poster": "https://image.tmdb.org/t/p/w500/sjrp1ptJ2GB171i5T9UcKX6sINk.jpg",
+    "posterShape": "poster",
+    "year": 2001,
+    "description": "Egy képzeletbeli közép-európai városban erős függőséget okozó komputerjáték hódít: az Avalon egyszerre bőséges anyagi haszonnal kecsegtet és csábító (bár veszélyes) kiutat kínál a szürke hétköznapokból. Ash módfelett tehetséges profi vadász, aki könnyedén jár át a valódi és a virtuális világok között. Egy nap volt társától tudomást szerez egy új ellenfélről. Ghost, az Avalon egyik karaktere, különösen komoly kihívást jelent a játékosoknak: a vele való találkozás a leggyakorlottabb profiknak - köztük Ash volt szerelmének, Murphynek - is csaknem az életébe került. Ők az Elveszettek: öntudatlanul, sorvadásra kárhoztatva fekszenek egy szanatóriumban. A lány megesküszik rá, hogy üldözőbe veszi a halálos Ghostot, ami az Avalon titokzatos legfelsőbb szintjét őrzi.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2001",
+    "genres": [
+      "Akció",
+      "Sci-Fi"
+    ],
+    "seeders": 57
+  },
+  {
+    "id": "tt22185974",
+    "type": "movie",
+    "name": "A Bilbao-Berlin járat",
+    "poster": "https://image.tmdb.org/t/p/w500/RoT56HuDx3ib1Gdoo0SY4QSW7h.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy csoport bilbaói tornászlány a berlini bajnokságra készül, ahová elidegenedett apjaik kísérik el őket éppen akkor, mikor a berlini fal leomlik.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 112
+  },
+  {
+    "id": "tt11950888",
+    "type": "movie",
+    "name": "Ne menj le!",
+    "poster": "https://image.tmdb.org/t/p/w500/2vLClta7jBInmvfKahFkK5sGDph.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Egy pár, aki új életet szeretne kezdeni egy vetélés után, megkapja álmai házát, egyetlen feltétellel: soha nem nyithatják ki a pince ajtaját. Képesek-e anélkül élni, hogy tudnák, mi van odabent? A következmények sokkolóak lesznek.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2024",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 257
+  },
+  {
+    "id": "tt0102940",
+    "type": "movie",
+    "name": "Síakadémia",
+    "poster": "https://image.tmdb.org/t/p/w500/tRgkoCVw7W1e1ghMEtDlguzrSsa.jpg",
+    "posterShape": "poster",
+    "year": 1991,
+    "description": "A Síakadémián nappal vérfagyasztó akrobatamutatványok sokkolják az idegeket, éjszaka pedig buja lányok gondoskodnak a forró hangulatról. Dave és barátai alig bírnak a sok gyönyörű nővel, az év eseménye érdektelen számukra, míg meg nem jelenik Johnny, aki motivációt lehel a társaságba. A züllött csapat az élvonalba kerül, amivel végképp kivívják a helyi sztár haragját. Hamarosan pattanásig fokozódik a helyzet, ahol a tét az abszolút győzelem: a pályán és a lányok körében.",
+    "imdbRating": 5.1,
+    "releaseInfo": "1991",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 163
+  },
+  {
+    "id": "tt6040662",
+    "type": "movie",
+    "name": "A törvény szíve",
+    "poster": "https://image.tmdb.org/t/p/w500/uWwmYzdLReu3Yn4YKuX9idDReaz.jpg",
+    "posterShape": "poster",
+    "year": 2018,
+    "description": "A családi ügyekben jártas és bölcs bírónő, Fiona Maye házassága lassan tönkremegy munkája miatt, ő pedig egy új ügy miatt kénytelen szembenézni saját magával és az elveivel, amikor megismer egy fiatal fiút.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2018",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 74
   },
   {
     "id": "tt0062512",
@@ -345,102 +438,7 @@
       "Thriller",
       "Kaland"
     ],
-    "seeders": 47
-  },
-  {
-    "id": "tt22185974",
-    "type": "movie",
-    "name": "A Bilbao-Berlin járat",
-    "poster": "https://image.tmdb.org/t/p/w500/RoT56HuDx3ib1Gdoo0SY4QSW7h.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy csoport bilbaói tornászlány a berlini bajnokságra készül, ahová elidegenedett apjaik kísérik el őket éppen akkor, mikor a berlini fal leomlik.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 104
-  },
-  {
-    "id": "tt0086510",
-    "type": "movie",
-    "name": "Tűzvonalban",
-    "poster": "https://image.tmdb.org/t/p/w500/iZQO904jyfeGyn0z1Js6VIJstEm.jpg",
-    "posterShape": "poster",
-    "year": 1983,
-    "description": "A világ forrongó részein készíti fényképeit Russell Price fotóriporter. Csak a pénz érdekli, politikával, erkölcsi kérdésekkel nem foglalkozik. Most éppen a közép-amerikai Nicaraguában dolgozik, ahol utolsó óráit éli a Somoza-féle diktatúra. Itt találkozik az elkötelezett riporternővel, akinek hatására rádöbben a sandinista forradalom lényegére, jogosságára. Kutatni kezd a fölkelők vezére, Rafael után. Interjút szeretne készíteni vele. Amikor végre találkozik vele, élete legnagyobb kihívása elé kerül.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1983",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 45
-  },
-  {
-    "id": "tt0267287",
-    "type": "movie",
-    "name": "Avalon - Virtuális csapda",
-    "poster": "https://image.tmdb.org/t/p/w500/sjrp1ptJ2GB171i5T9UcKX6sINk.jpg",
-    "posterShape": "poster",
-    "year": 2001,
-    "description": "Egy képzeletbeli közép-európai városban erős függőséget okozó komputerjáték hódít: az Avalon egyszerre bőséges anyagi haszonnal kecsegtet és csábító (bár veszélyes) kiutat kínál a szürke hétköznapokból. Ash módfelett tehetséges profi vadász, aki könnyedén jár át a valódi és a virtuális világok között. Egy nap volt társától tudomást szerez egy új ellenfélről. Ghost, az Avalon egyik karaktere, különösen komoly kihívást jelent a játékosoknak: a vele való találkozás a leggyakorlottabb profiknak - köztük Ash volt szerelmének, Murphynek - is csaknem az életébe került. Ők az Elveszettek: öntudatlanul, sorvadásra kárhoztatva fekszenek egy szanatóriumban. A lány megesküszik rá, hogy üldözőbe veszi a halálos Ghostot, ami az Avalon titokzatos legfelsőbb szintjét őrzi.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2001",
-    "genres": [
-      "Akció",
-      "Sci-Fi"
-    ],
-    "seeders": 43
-  },
-  {
-    "id": "tt0059800",
-    "type": "movie",
-    "name": "Tűzgolyó",
-    "poster": "https://image.tmdb.org/t/p/w500/xrN5grfrbLGXUd3OtpVnP7ZdjGN.jpg",
-    "posterShape": "poster",
-    "year": 1965,
-    "description": "Az alvilági szuperbűnözőket tömörítő szervezet, a S.P.E.C.T.R.E. ismét egy világbékét fenyegető ördögi tervet eszelt ki. Elrabolják a NATO egyik atomrakétákkal felszerelt gépét és a bombákat az óceán mélyén rejtik el. Azzal fenyegetőznek, hogy felrobbantják őket, ha nem kapnak a nagyhatalmaktól százmillió font váltságdíjat. A nagyszabású terv ötlete a gátlástalan Emilio Largo fejéből pattant ki. Largo titkos főhadiszállása valahol a Bahamákon található - onnan irányítja az akciót. A 007-es ügynöknek nincs könnyű dolga: nem csak a szárazföldön és a levegőben, de ezúttal a tenger mélyén is meg kell küzdenie a S.P.E.C.T.R.E. gyilkos zsoldosaival és a cápákkal. Largo ugyanis előszeretettel eteti kedvenc háziállatait ellenségeivel.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1965",
-    "genres": [
-      "Kaland",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 45
-  },
-  {
-    "id": "tt6040662",
-    "type": "movie",
-    "name": "A törvény szíve",
-    "poster": "https://image.tmdb.org/t/p/w500/uWwmYzdLReu3Yn4YKuX9idDReaz.jpg",
-    "posterShape": "poster",
-    "year": 2018,
-    "description": "A családi ügyekben jártas és bölcs bírónő, Fiona Maye házassága lassan tönkremegy munkája miatt, ő pedig egy új ügy miatt kénytelen szembenézni saját magával és az elveivel, amikor megismer egy fiatal fiút.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2018",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 65
-  },
-  {
-    "id": "tt11950888",
-    "type": "movie",
-    "name": "Ne menj le!",
-    "poster": "https://image.tmdb.org/t/p/w500/2vLClta7jBInmvfKahFkK5sGDph.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Egy pár, aki új életet szeretne kezdeni egy vetélés után, megkapja álmai házát, egyetlen feltétellel: soha nem nyithatják ki a pince ajtaját. Képesek-e anélkül élni, hogy tudnák, mi van odabent? A következmények sokkolóak lesznek.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2024",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 206
+    "seeders": 46
   },
   {
     "id": "tt0081006",
@@ -456,7 +454,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 116
+    "seeders": 129
   },
   {
     "id": "tt34581826",
@@ -472,22 +470,22 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 188
+    "seeders": 211
   },
   {
-    "id": "tt0243133",
+    "id": "tt0083774",
     "type": "movie",
-    "name": "Az ember, aki ott se volt",
-    "poster": "https://image.tmdb.org/t/p/w500/ejMhbi4Fgo2FeLVAPihuuyz8CU4.jpg",
+    "name": "Csak semmi pánik...",
+    "poster": "https://image.tmdb.org/t/p/w500/k3DH3TwNzCMwvcMijaJIQUxfjsw.jpg",
     "posterShape": "poster",
-    "year": 2001,
-    "description": "Santa Rosa, Észak-Kalifornia, 1949 nyara. Ed Crane - sógorával, Frankkel együtt - egy álmos kaliforniai kisváros borbélyüzletében dolgozik. Okkal gyanítja, hogy feleségének, Dorisnak viszonya van munkahelyi főnökével, Big Dave-vel. Mivel amúgy is elégedetlen az életével, ez jó ürügy arra, hogy egy kedvezőnek tűnő befektetés érdekében névtelenül megzsarolja a férfit. Az ki is fizeti a kért összeget, de iszonyúan felbőszül, amikor megtudja az igazságot. Akaratlan halálesetek és szándékos gyilkosságok követik egymást, s az út a tárgyalóteremig és a siralomházig vezet.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2001",
+    "year": 1982,
+    "description": "Ötvös Csöpi, a legendás nyomozó két ügyben utazik a Balatonhoz. Egyrészt, hogy a bűnbanda elől megszerezze a második világháborúban lelőtt repülőgép vízbe zuhant értékes rakományát, másrészt, hogy megnyerje a Kék szalag vitorlásversenyt. Mindkét ügyben rosszul áll a szénája, főnöke, a mindenre alkalmatlan Kardos doki ugyanis ahelyett, hogy segítené, inkább akadályozza, már pedig az idő rohamosan fogy.",
+    "imdbRating": 6.6,
+    "releaseInfo": "1982",
     "genres": [
-      "Bűnügyi",
-      "Dráma"
+      "Vígjáték",
+      "Bűnügyi"
     ],
-    "seeders": 91
+    "seeders": 238
   }
 ]
