@@ -2,7 +2,7 @@
 Split big catalogs into streaming-provider JSONs using TMDB watch providers (JustWatch data).
 Reads: data/hd_movies.json, data/hd_series.json (from build_latest_catalog only – latest uploads).
 Writes: netflix, disneyplus, hbomax, prime (each: _movies.json, _series.json).
-Only includes items where TMDB reports that provider for the watch region (US = broad/global Netflix coverage). Streaming catalogs = latest items only, not most-seeded.
+Uses per-provider regions: Netflix = US (broad coverage), Disney+/HBO Max/Prime = HU (matches nCore HU catalog). Only includes items where TMDB reports that provider for that region. Streaming catalogs = latest items only, not most-seeded.
 
 Usage: python scripts/split_catalogs_by_provider.py
 Requires: TMDB_API_KEY in config. Run after build_latest_catalog.py.
@@ -29,9 +29,17 @@ else:
 TMDB_API_KEY = os.getenv('TMDB_API_KEY', '').strip()
 TMDB_BASE = 'https://api.themoviedb.org/3'
 TMDB_DELAY = 0.35
-WATCH_REGION = 'US'  # US = broad Netflix/streaming coverage; TMDB data more complete than smaller regions
 
-# TMDB watch provider IDs (flatrate / subscription) – check /watch/providers with watch_region=US if needed
+# Per-provider watch region: Netflix uses US (broad), others use HU (matches nCore HU catalog)
+PROVIDER_REGION = {
+    'netflix': 'US',
+    'disneyplus': 'HU',
+    'hbomax': 'HU',
+    'prime': 'HU',
+}
+REGIONS_NEEDED = ('US', 'HU')  # We fetch both from one API response
+
+# TMDB watch provider IDs (flatrate / subscription)
 PROVIDER_NETFLIX = 8
 PROVIDER_DISNEY_PLUS = 337
 PROVIDER_HBO_MAX = 1899
@@ -57,7 +65,7 @@ def load_json(path):
         return []
 
 
-# Cache: imdb_id -> tmdb_id and tmdb_id -> set(provider_id) to avoid repeated TMDB calls
+# Cache: imdb_id -> tmdb_id; tmdb_id -> { region: set(provider_id) } to avoid repeated TMDB calls
 _movie_tmdb_cache = {}
 _tv_tmdb_cache = {}
 _movie_providers_cache = {}
@@ -113,8 +121,9 @@ def get_tmdb_tv_id(imdb_id, api_key):
 
 
 def get_movie_provider_ids(tmdb_id, api_key):
+    """Return dict region -> set(provider_id) for US and HU (one API call)."""
     if not api_key or not tmdb_id:
-        return set()
+        return {r: set() for r in REGIONS_NEEDED}
     if tmdb_id in _movie_providers_cache:
         return _movie_providers_cache[tmdb_id]
     try:
@@ -125,21 +134,27 @@ def get_movie_provider_ids(tmdb_id, api_key):
             timeout=10,
         )
         if r.status_code != 200:
-            _movie_providers_cache[tmdb_id] = set()
-            return set()
-        hu = (r.json().get('results') or {}).get(WATCH_REGION) or {}
-        flat = hu.get('flatrate') or []
-        ids = {p.get('provider_id') for p in flat if p.get('provider_id')}
-        _movie_providers_cache[tmdb_id] = ids
-        return ids
+            empty = {region: set() for region in REGIONS_NEEDED}
+            _movie_providers_cache[tmdb_id] = empty
+            return empty
+        results = r.json().get('results') or {}
+        by_region = {}
+        for region in REGIONS_NEEDED:
+            region_data = results.get(region) or {}
+            flat = region_data.get('flatrate') or []
+            by_region[region] = {p.get('provider_id') for p in flat if p.get('provider_id')}
+        _movie_providers_cache[tmdb_id] = by_region
+        return by_region
     except Exception:
-        _movie_providers_cache[tmdb_id] = set()
-        return set()
+        empty = {region: set() for region in REGIONS_NEEDED}
+        _movie_providers_cache[tmdb_id] = empty
+        return empty
 
 
 def get_tv_provider_ids(tmdb_id, api_key):
+    """Return dict region -> set(provider_id) for US and HU (one API call)."""
     if not api_key or not tmdb_id:
-        return set()
+        return {r: set() for r in REGIONS_NEEDED}
     if tmdb_id in _tv_providers_cache:
         return _tv_providers_cache[tmdb_id]
     try:
@@ -150,16 +165,21 @@ def get_tv_provider_ids(tmdb_id, api_key):
             timeout=10,
         )
         if r.status_code != 200:
-            _tv_providers_cache[tmdb_id] = set()
-            return set()
-        hu = (r.json().get('results') or {}).get(WATCH_REGION) or {}
-        flat = hu.get('flatrate') or []
-        ids = {p.get('provider_id') for p in flat if p.get('provider_id')}
-        _tv_providers_cache[tmdb_id] = ids
-        return ids
+            empty = {region: set() for region in REGIONS_NEEDED}
+            _tv_providers_cache[tmdb_id] = empty
+            return empty
+        results = r.json().get('results') or {}
+        by_region = {}
+        for region in REGIONS_NEEDED:
+            region_data = results.get(region) or {}
+            flat = region_data.get('flatrate') or []
+            by_region[region] = {p.get('provider_id') for p in flat if p.get('provider_id')}
+        _tv_providers_cache[tmdb_id] = by_region
+        return by_region
     except Exception:
-        _tv_providers_cache[tmdb_id] = set()
-        return set()
+        empty = {region: set() for region in REGIONS_NEEDED}
+        _tv_providers_cache[tmdb_id] = empty
+        return empty
 
 
 def merge_dedup_by_id(*lists):
@@ -235,8 +255,10 @@ def main():
         tmdb_id = get_tmdb_movie_id(imdb_id, TMDB_API_KEY)
         if not tmdb_id:
             continue
-        ids = get_movie_provider_ids(tmdb_id, TMDB_API_KEY)
+        by_region = get_movie_provider_ids(tmdb_id, TMDB_API_KEY)
         for name, (_, _, provider_id) in OUTPUTS.items():
+            region = PROVIDER_REGION[name]
+            ids = by_region.get(region) or set()
             if provider_id in ids:
                 provider_movies[name].append(item)
         if (i + 1) % 100 == 0 or i + 1 == len(all_movies):
@@ -249,8 +271,10 @@ def main():
         tmdb_id = get_tmdb_tv_id(imdb_id, TMDB_API_KEY)
         if not tmdb_id:
             continue
-        ids = get_tv_provider_ids(tmdb_id, TMDB_API_KEY)
+        by_region = get_tv_provider_ids(tmdb_id, TMDB_API_KEY)
         for name, (_, _, provider_id) in OUTPUTS.items():
+            region = PROVIDER_REGION[name]
+            ids = by_region.get(region) or set()
             if provider_id in ids:
                 provider_series[name].append(item)
         if (i + 1) % 100 == 0 or i + 1 == len(all_series):
@@ -263,7 +287,7 @@ def main():
             json.dump(provider_series[name], f, ensure_ascii=False, indent=2)
         print(f'✓ {name}: {len(provider_movies[name])} film, {len(provider_series[name])} sorozat → {out_movies_path.name}, {out_series_path.name}')
 
-    print('\n✅ Streaming katalógusok frissítve (TMDB watch providers, US). Adatforrás: JustWatch.')
+    print('\n✅ Streaming katalógusok frissítve (Netflix=US, Disney+/HBO Max/Prime=HU). Adatforrás: JustWatch.')
     return 0
 
 

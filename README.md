@@ -62,7 +62,7 @@ Visit the deployment to see the homepage with install instructions for all three
 
 The server runs catalog build scripts automatically using node-cron (Unix only; on Windows run scripts manually or use a scheduler):
 
-- **⏰ Latest + streaming split:** Every 3 hours — `build_latest_catalog.py` (big HD movies/series, ~2000 items) then `split_catalogs_by_provider.py` (splits into Netflix, Disney+, HBO Max, Prime JSONs using TMDB watch providers for US / broad coverage).
+- **⏰ Latest + streaming split:** Every 3 hours — `build_latest_catalog.py` (big HD movies/series, ~2000 items) then `split_catalogs_by_provider.py` (splits into Netflix, Disney+, HBO Max, Prime using TMDB watch providers: Netflix=US, Disney+/HBO Max/Prime=HU).
 - **🏆 Top-seeded + Magyar + streaming split:** Weekly Sunday 03:00 — `build_most_seeded_movies_catalog.py` → `filter_hungarian_productions.py` → `build_most_seeded_series_catalog.py` → `filter_hungarian_productions_series.py` → `split_catalogs_by_provider.py`.
 
 Streaming catalogs (Netflix, Disney+, HBO Max, Prime) are **not** built from nCore tags; they are derived from the big catalogs by TMDB “where to watch” (JustWatch) so only titles that are on that provider in the watch region (US) appear.
@@ -82,15 +82,15 @@ In Stremio Discover, catalog names appear as:
 - ⏰ Sorozatok – Latest series uploads (HD, sports filtered, episode tracking)
 
 **⏰ Streaming**
-- ⏰ Netflix filmek / ⏰ Netflix sorozatok – Titles on Netflix (TMDB watch providers, US)
-- ⏰ Disney+ filmek / ⏰ Disney+ sorozatok – Titles on Disney+ (TMDB, US)
-- ⏰ HBO Max filmek / ⏰ HBO Max sorozatok – Titles on HBO Max (TMDB provider 1899, US)
-- ⏰ Prime Video filmek / ⏰ Prime Video sorozatok – Titles on Prime Video (TMDB provider 119, US)
+- ⏰ Netflix filmek / ⏰ Netflix sorozatok – Titles on Netflix (TMDB, US)
+- ⏰ Disney+ filmek / ⏰ Disney+ sorozatok – Titles on Disney+ (TMDB, HU)
+- ⏰ HBO Max filmek / ⏰ HBO Max sorozatok – Titles on HBO Max (TMDB 1899, HU)
+- ⏰ Prime Video filmek / ⏰ Prime Video sorozatok – Titles on Prime Video (TMDB 119, HU)
 
 ### How it works
 
 - **Big catalogs:** `build_latest_catalog.py` (hd_movies, hd_series, ~2000 each), `build_most_seeded_movies_catalog.py`, `build_most_seeded_series_catalog.py` (top-seeded). **Series:** match to TVDB → IMDB + metadata; **Movies:** match to TMDB. Hungarian filter scripts produce Magyar filmek/sorozatok from most_seeded.
-- **Streaming split:** `split_catalogs_by_provider.py` reads hd_* JSONs, calls TMDB watch/providers (US) per title, and writes netflix_*, disneyplus_*, hbomax_*, prime_* so only titles that are on that provider in the watch region appear. Data source: JustWatch (attribution required).
+- **Streaming split:** `split_catalogs_by_provider.py` reads hd_* JSONs, calls TMDB watch/providers per title (Netflix=US, Disney+/HBO Max/Prime=HU), and writes netflix_*, disneyplus_*, hbomax_*, prime_*. Data source: JustWatch (attribution required).
 - **Incremental:** build_latest and most_seeded load existing JSON, fetch new torrents, merge and trim.
 - **Requirements:** `NCORE_USER`, `NCORE_PASS`, `TMDB_API_KEY`, and `TVDB_API_KEY` in `config/config.env` (see `config/config.example.env`). Optional: `TVDB_PIN` for user-supported TVDB keys.
 
