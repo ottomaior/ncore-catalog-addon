@@ -2,10 +2,11 @@
 Split big catalogs into streaming-provider JSONs using TMDB watch providers (JustWatch data).
 Reads: data/hd_movies.json, data/hd_series.json (from build_latest_catalog only – latest uploads).
 Writes: netflix, disneyplus, hbomax, prime (each: _movies.json, _series.json).
-Uses per-provider regions: Netflix = US (broad coverage), Disney+/HBO Max/Prime = HU (matches nCore HU catalog). Only includes items where TMDB reports that provider for that region. Streaming catalogs = latest items only, not most-seeded.
+Uses per-provider regions: Netflix = US (broad coverage), Disney+/HBO Max/Prime = HU (matches nCore HU catalog). Only includes items where TMDB reports that provider for that region. For Netflix series only: if TMDB watch providers have no data, TVDB network/company is used as fallback (Netflix as network). Streaming catalogs = latest items only, not most-seeded.
 
 Usage: python scripts/split_catalogs_by_provider.py
 Requires: TMDB_API_KEY in config. Run after build_latest_catalog.py.
+Optional: TVDB_API_KEY (and TVDB_PIN) for Netflix series fallback when TMDB watch providers have no data.
 """
 import json
 import os
@@ -15,6 +16,13 @@ from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
+
+if str(Path(__file__).resolve().parent) not in sys.path:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+try:
+    from tvdb_client import is_netflix_series_by_imdb
+except ImportError:
+    is_netflix_series_by_imdb = None
 
 script_dir = Path(__file__).parent.resolve()
 project_root = script_dir.parent
@@ -27,6 +35,8 @@ else:
     load_dotenv()
 
 TMDB_API_KEY = os.getenv('TMDB_API_KEY', '').strip()
+TVDB_API_KEY = os.getenv('TVDB_API_KEY', '').strip()
+TVDB_PIN = os.getenv('TVDB_PIN', '').strip() or None
 TMDB_BASE = 'https://api.themoviedb.org/3'
 TMDB_DELAY = 0.35
 
@@ -270,6 +280,8 @@ def main():
             continue
         tmdb_id = get_tmdb_tv_id(imdb_id, TMDB_API_KEY)
         if not tmdb_id:
+            if is_netflix_series_by_imdb and TVDB_API_KEY and is_netflix_series_by_imdb(imdb_id, TVDB_API_KEY, TVDB_PIN):
+                provider_series['netflix'].append(item)
             continue
         by_region = get_tv_provider_ids(tmdb_id, TMDB_API_KEY)
         for name, (_, _, provider_id) in OUTPUTS.items():
@@ -277,6 +289,9 @@ def main():
             ids = by_region.get(region) or set()
             if provider_id in ids:
                 provider_series[name].append(item)
+            elif name == 'netflix' and is_netflix_series_by_imdb and TVDB_API_KEY:
+                if is_netflix_series_by_imdb(imdb_id, TVDB_API_KEY, TVDB_PIN):
+                    provider_series['netflix'].append(item)
         if (i + 1) % 100 == 0 or i + 1 == len(all_series):
             print(f'  Sorozatok: {i + 1}/{len(all_series)}')
 

@@ -293,3 +293,65 @@ def search_show_on_tvdb(clean_title, year, apikey, pin=None, tmdb_api_key=None):
         except Exception:
             continue
     return None
+
+
+def is_netflix_series_by_imdb(imdb_id, apikey, pin=None):
+    """
+    Return True if TVDB lists Netflix as network/company for this series (by IMDB id).
+    Used as fallback when TMDB watch/providers have no data yet (e.g. brand-new shows).
+    """
+    if not imdb_id or not apikey or not str(imdb_id).strip().lower().startswith("tt"):
+        return False
+    token = _ensure_token(apikey, pin)
+    if not token:
+        return False
+    headers = {"Authorization": f"Bearer {token}"}
+    try:
+        time.sleep(TVDB_DELAY)
+        r = requests.get(
+            f"{BASE_URL}/search/remoteid/{imdb_id.strip()}",
+            headers=headers,
+            timeout=10,
+        )
+        if r.status_code != 200:
+            return False
+        raw = r.json().get("data")
+        if not raw:
+            return False
+        # API can return single object or list of results
+        items = raw if isinstance(raw, list) else [raw]
+        series_id = None
+        for it in items:
+            s = it.get("series") if isinstance(it, dict) else None
+            if s and (s.get("id") or s.get("tvdb_id")):
+                series_id = s.get("id") or s.get("tvdb_id")
+                break
+        if not series_id:
+            return False
+        time.sleep(TVDB_DELAY)
+        r2 = requests.get(
+            f"{BASE_URL}/series/{series_id}/extended",
+            headers=headers,
+            params={"short": "true"},
+            timeout=10,
+        )
+        if r2.status_code != 200:
+            return False
+        ext = r2.json().get("data") or {}
+        names = []
+        for comp in (ext.get("originalNetwork"), ext.get("latestNetwork")):
+            if isinstance(comp, dict) and comp.get("name"):
+                names.append((comp.get("name") or "").lower())
+        companies = ext.get("companies") or {}
+        if isinstance(companies, dict):
+            for key in ("studio", "network", "production", "distributor", "special_effects"):
+                for c in (companies.get(key) or []):
+                    if isinstance(c, dict) and c.get("name"):
+                        names.append((c.get("name") or "").lower())
+        elif isinstance(companies, list):
+            for c in companies:
+                if isinstance(c, dict) and c.get("name"):
+                    names.append((c.get("name") or "").lower())
+        return any("netflix" in n for n in names if n)
+    except Exception:
+        return False
