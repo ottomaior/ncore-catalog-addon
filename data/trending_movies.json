@@ -14,7 +14,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3332
+    "seeders": 4753
+  },
+  {
+    "id": "tt0094738",
+    "type": "movie",
+    "name": "The Big Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/rzt0fIh8uDs2CHl72veOFAd6NGV.jpg",
+    "posterShape": "poster",
+    "year": 1988,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "1988",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 44
   },
   {
     "id": "tt27721490",
@@ -31,7 +47,7 @@
       "Akció",
       "Western"
     ],
-    "seeders": 276
+    "seeders": 355
   },
   {
     "id": "tt28793125",
@@ -48,7 +64,40 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 475
+    "seeders": 587
+  },
+  {
+    "id": "tt30343021",
+    "type": "movie",
+    "name": "Song Sung Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 325
+  },
+  {
+    "id": "tt33474179",
+    "type": "movie",
+    "name": "Lángok közt",
+    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 242
   },
   {
     "id": "tt30813817",
@@ -63,7 +112,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 90
+    "seeders": 100
   },
   {
     "id": "tt0445620",
@@ -81,24 +130,7 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 60
-  },
-  {
-    "id": "tt30343021",
-    "type": "movie",
-    "name": "Song Sung Blue",
-    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Zenei",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 266
+    "seeders": 68
   },
   {
     "id": "tt0110882",
@@ -114,23 +146,57 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 42
+    "seeders": 60
   },
   {
-    "id": "tt33474179",
+    "id": "tt4712810",
     "type": "movie",
-    "name": "Lángok közt",
-    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
+    "name": "Szemfényvesztők 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
     "genres": [
       "Thriller",
-      "Dráma"
+      "Bűnügyi",
+      "Rejtély"
     ],
-    "seeders": 202
+    "seeders": 949
+  },
+  {
+    "id": "tt29780866",
+    "type": "movie",
+    "name": "Icefall – Tűz a jégen",
+    "poster": "https://image.tmdb.org/t/p/w500/wRGkBjN3ICFHAiIqEQpse2PNxVN.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Harlan (Joel Kinnaman), egy leszerelt deszantos, a modern világtól való teljes elzárkózásban talál menedéket: a hideg, végtelen pusztaság magányába vonul vissza Amerika északi részén, egy indián rezervátum elhagyatott tájain. Nem akar emberekkel találkozni, senkire sem támaszkodni – talán épp a múltja árnyai elől menekül. A világ azonban hamar utoléri. Egy nap rejtélyes módon lezuhant repülőgépre bukkan, tele milliókkal. A kísértésnek nehéz ellenállni – még nehezebb megtartani. Harlant elkapják, amikor Ani, a park fegyveres őreként szolgáló őslakos nő ráakad, és letartóztatja. Éppen bevinni készül a központba, amikor megjelenik a gép tulajdonosait képviselő csempészbanda – évek óta híján voltak a pénznek, és most követelik. Ani és Harlan kénytelenek félretenni a köztük lévő ellentétet. Összefognak, hogy túléljék a kegyetlen, fagyos tájat – és hogy megszerezzék a lezuhant vagyont önmaguknak.  (Csillag Lajos)",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 705
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 926
   },
   {
     "id": "tt0384819",
@@ -149,41 +215,41 @@
       "Thriller",
       "Romantikus"
     ],
-    "seeders": 47
+    "seeders": 57
   },
   {
-    "id": "tt4712810",
+    "id": "tt26593219",
     "type": "movie",
-    "name": "Szemfényvesztők 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
+    "name": "Fotó a múltból",
+    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
+    "year": 2023,
+    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
     "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Rejtély"
+      "TV film",
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 722
+    "seeders": 176
   },
   {
-    "id": "tt29780866",
+    "id": "tt0053143",
     "type": "movie",
-    "name": "Icefall – Tűz a jégen",
-    "poster": "https://image.tmdb.org/t/p/w500/wRGkBjN3ICFHAiIqEQpse2PNxVN.jpg",
+    "name": "Fehérnemű hadművelet",
+    "poster": "https://image.tmdb.org/t/p/w500/3DwrOWQr3ganF1Amw8WHWRpesDk.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Harlan (Joel Kinnaman), egy leszerelt deszantos, a modern világtól való teljes elzárkózásban talál menedéket: a hideg, végtelen pusztaság magányába vonul vissza Amerika északi részén, egy indián rezervátum elhagyatott tájain. Nem akar emberekkel találkozni, senkire sem támaszkodni – talán épp a múltja árnyai elől menekül. A világ azonban hamar utoléri. Egy nap rejtélyes módon lezuhant repülőgépre bukkan, tele milliókkal. A kísértésnek nehéz ellenállni – még nehezebb megtartani. Harlant elkapják, amikor Ani, a park fegyveres őreként szolgáló őslakos nő ráakad, és letartóztatja. Éppen bevinni készül a központba, amikor megjelenik a gép tulajdonosait képviselő csempészbanda – évek óta híján voltak a pénznek, és most követelik. Ani és Harlan kénytelenek félretenni a köztük lévő ellentétet. Összefognak, hogy túléljék a kegyetlen, fagyos tájat – és hogy megszerezzék a lezuhant vagyont önmaguknak.  (Csillag Lajos)",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
+    "year": 1959,
+    "description": "Egy tengeralattjáró kapitánya és hadtáp tisztje mindent megtesz, hogy hajójuk a szárazdokkból visszakerüljön a második világháborús csatákba. Megjelenik azonban a színen - azaz a hajón - egy csapat gyönyörű ápolónő, új életet hoznak a rózsaszín tengeralattjáró szűk falai közé. A hirtelen haragú kapitány és az agyafúrt beosztott, Grant és Curtis csodálatos párosa, igazi klasszikussá tette ezt a filmet.",
+    "imdbRating": 7.2,
+    "releaseInfo": "1959",
     "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
+      "Vígjáték",
+      "Háborús",
+      "Romantikus"
     ],
-    "seeders": 566
+    "seeders": 85
   },
   {
     "id": "tt0266452",
@@ -201,105 +267,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 33
-  },
-  {
-    "id": "tt26593219",
-    "type": "movie",
-    "name": "Fotó a múltból",
-    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
-    "genres": [
-      "TV film",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 145
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 648
-  },
-  {
-    "id": "tt1976989",
-    "type": "movie",
-    "name": "Szerelem és becsület",
-    "poster": "https://image.tmdb.org/t/p/w500/we2H718jXVsUSGisoJG4R4mk9hD.jpg",
-    "posterShape": "poster",
-    "year": 2013,
-    "description": "A hatvanas évek, a Holdraszállás idején. A Vietnamban szolgáló Dalton megtudja, hogy a barátnője szakított vele. A fiú nem hajlandó lemondani róla, megfogadja, ha törik, ha szakad kivesz egy hét \"szabadságot\", és hazautazik, hogy visszahódítsa. A legjobb barátja, Mickey mindent megtesz, hogy segítsen neki. Mindössze hét nap kell, hogy hazajussanak, meggyőzzék Jane-t, majd visszamenjenek a háborúba, anélkül, hogy felfedeznék szökésüket. Ám a lányt a háborúellen mozgalom közepén találják az aktivista barátjával.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2013",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
     "seeders": 39
-  },
-  {
-    "id": "tt0053143",
-    "type": "movie",
-    "name": "Fehérnemű hadművelet",
-    "poster": "https://image.tmdb.org/t/p/w500/3DwrOWQr3ganF1Amw8WHWRpesDk.jpg",
-    "posterShape": "poster",
-    "year": 1959,
-    "description": "Egy tengeralattjáró kapitánya és hadtáp tisztje mindent megtesz, hogy hajójuk a szárazdokkból visszakerüljön a második világháborús csatákba. Megjelenik azonban a színen - azaz a hajón - egy csapat gyönyörű ápolónő, új életet hoznak a rózsaszín tengeralattjáró szűk falai közé. A hirtelen haragú kapitány és az agyafúrt beosztott, Grant és Curtis csodálatos párosa, igazi klasszikussá tette ezt a filmet.",
-    "imdbRating": 7.2,
-    "releaseInfo": "1959",
-    "genres": [
-      "Vígjáték",
-      "Háborús",
-      "Romantikus"
-    ],
-    "seeders": 69
-  },
-  {
-    "id": "tt0067277",
-    "type": "movie",
-    "name": "Johnny háborúba megy",
-    "poster": "https://image.tmdb.org/t/p/w500/wjyXznmGSmcsYuGHMzQLpPdyPPh.jpg",
-    "posterShape": "poster",
-    "year": 1971,
-    "description": "Johnny, annyi kortársához hasonlóan, önkéntesként jelentkezik a Nagy Háborúba. És a harcmezőn, mint megannyi sorstársa, az ellenséges tűzben borzalmasan megsebesül. Szerencse, vagy inkább balszerencse, hogy életben marad, holott keze-lába és arca nagy része odaveszett. Így egy külön kórteremben, vakon-némán-süketen tengeti napjait. Az orvosok meggyőződése, hogy nincs magánál, így az emberi test működését illusztráló, amolyan bemutató \"mintadarabként\" tartják mesterségesen életben. Johnny azonban öntudatra ébred, s végletesen korlátozott eszközeivel, kétségbeesetten próbál kapcsolatba lépni a külvilággal, miközben agyában újra és újra, egyre vadabb fordulatokkal tarkítva, leperegnek életének eseményei.",
-    "imdbRating": 7.5,
-    "releaseInfo": "1971",
-    "genres": [
-      "Háborús",
-      "Dráma"
-    ],
-    "seeders": 33
-  },
-  {
-    "id": "tt24082864",
-    "type": "movie",
-    "name": "Mindjárt ott vagyok",
-    "poster": "https://image.tmdb.org/t/p/w500/jHbn6gQqEGFZXExp7oxuA84JsRe.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Wanda Miles rengeteg családi teendője és ügyes-bajos elintéznivalója közepette próbálja megszervezni nyolc hónapos terhes lányának az esküvőjét. Kényszeresen hazudozó fia, beteg és szerencsejáték-függő anyja és okoskodó exférje sem segít a helyzetén.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 93
   },
   {
     "id": "tt2396431",
@@ -315,7 +283,133 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 284
+    "seeders": 355
+  },
+  {
+    "id": "tt0067277",
+    "type": "movie",
+    "name": "Johnny háborúba megy",
+    "poster": "https://image.tmdb.org/t/p/w500/wjyXznmGSmcsYuGHMzQLpPdyPPh.jpg",
+    "posterShape": "poster",
+    "year": 1971,
+    "description": "Johnny, annyi kortársához hasonlóan, önkéntesként jelentkezik a Nagy Háborúba. És a harcmezőn, mint megannyi sorstársa, az ellenséges tűzben borzalmasan megsebesül. Szerencse, vagy inkább balszerencse, hogy életben marad, holott keze-lába és arca nagy része odaveszett. Így egy külön kórteremben, vakon-némán-süketen tengeti napjait. Az orvosok meggyőződése, hogy nincs magánál, így az emberi test működését illusztráló, amolyan bemutató \"mintadarabként\" tartják mesterségesen életben. Johnny azonban öntudatra ébred, s végletesen korlátozott eszközeivel, kétségbeesetten próbál kapcsolatba lépni a külvilággal, miközben agyában újra és újra, egyre vadabb fordulatokkal tarkítva, leperegnek életének eseményei.",
+    "imdbRating": 7.5,
+    "releaseInfo": "1971",
+    "genres": [
+      "Háborús",
+      "Dráma"
+    ],
+    "seeders": 42
+  },
+  {
+    "id": "tt1976989",
+    "type": "movie",
+    "name": "Szerelem és becsület",
+    "poster": "https://image.tmdb.org/t/p/w500/we2H718jXVsUSGisoJG4R4mk9hD.jpg",
+    "posterShape": "poster",
+    "year": 2013,
+    "description": "A hatvanas évek, a Holdraszállás idején. A Vietnamban szolgáló Dalton megtudja, hogy a barátnője szakított vele. A fiú nem hajlandó lemondani róla, megfogadja, ha törik, ha szakad kivesz egy hét \"szabadságot\", és hazautazik, hogy visszahódítsa. A legjobb barátja, Mickey mindent megtesz, hogy segítsen neki. Mindössze hét nap kell, hogy hazajussanak, meggyőzzék Jane-t, majd visszamenjenek a háborúba, anélkül, hogy felfedeznék szökésüket. Ám a lányt a háborúellen mozgalom közepén találják az aktivista barátjával.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2013",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 42
+  },
+  {
+    "id": "tt39162904",
+    "type": "movie",
+    "name": "A sakk királynője",
+    "poster": "https://image.tmdb.org/t/p/w500/17p1nxoZBqbLnBycv43N20GPamk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A portréfilm minden idők legerősebb női sakkozója, Polgár Judit életútját és pályafutását mutatja be, érintve a férfiak uralta sakkvilágban elért sikereit és a Garri Kaszparov elleni küzdelmeit.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 665
+  },
+  {
+    "id": "tt24082864",
+    "type": "movie",
+    "name": "Mindjárt ott vagyok",
+    "poster": "https://image.tmdb.org/t/p/w500/jHbn6gQqEGFZXExp7oxuA84JsRe.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Wanda Miles rengeteg családi teendője és ügyes-bajos elintéznivalója közepette próbálja megszervezni nyolc hónapos terhes lányának az esküvőjét. Kényszeresen hazudozó fia, beteg és szerencsejáték-függő anyja és okoskodó exférje sem segít a helyzetén.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2024",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 101
+  },
+  {
+    "id": "tt39387657",
+    "type": "movie",
+    "name": "Pavane",
+    "poster": "https://image.tmdb.org/t/p/w500/22RlxpIT4u4psfIx9tmtbPvgAbm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Három magányos idegen áruházi munkája során egymás társaságában talál vigaszt, miközben felfedezik a kapcsolatok és a szerelem természetét.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 74
+  },
+  {
+    "id": "tt0107962",
+    "type": "movie",
+    "name": "Lángoló Ring 2",
+    "poster": "https://image.tmdb.org/t/p/w500/rU3BdfmatHPsKBTHVGyuMxcqcQx.jpg",
+    "posterShape": "poster",
+    "year": 1993,
+    "description": "Johnny Woo, aki a legjobb harcművészek egyike, ezúttal nem kedvtelésből, vagy a verseny kedvéértküzd, hanem hogy megmentse a barátnőjét egy gyilkos banda tagjaitól.",
+    "imdbRating": 4.5,
+    "releaseInfo": "1993",
+    "genres": [
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 29
+  },
+  {
+    "id": "tt11950888",
+    "type": "movie",
+    "name": "Ne menj le!",
+    "poster": "https://image.tmdb.org/t/p/w500/2vLClta7jBInmvfKahFkK5sGDph.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Egy pár, aki új életet szeretne kezdeni egy vetélés után, megkapja álmai házát, egyetlen feltétellel: soha nem nyithatják ki a pince ajtaját. Képesek-e anélkül élni, hogy tudnák, mi van odabent? A következmények sokkolóak lesznek.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2024",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 261
+  },
+  {
+    "id": "tt32604920",
+    "type": "movie",
+    "name": "Love Letters",
+    "poster": "https://image.tmdb.org/t/p/w500/1eC49McS56Yd4P7HeKKvxepRBda.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 128
   },
   {
     "id": "tt0084310",
@@ -332,55 +426,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 22
-  },
-  {
-    "id": "tt39387657",
-    "type": "movie",
-    "name": "Pavane",
-    "poster": "https://image.tmdb.org/t/p/w500/22RlxpIT4u4psfIx9tmtbPvgAbm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Három magányos idegen áruházi munkája során egymás társaságában talál vigaszt, miközben felfedezik a kapcsolatok és a szerelem természetét.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 72
-  },
-  {
-    "id": "tt0107962",
-    "type": "movie",
-    "name": "Lángoló Ring 2",
-    "poster": "https://image.tmdb.org/t/p/w500/rU3BdfmatHPsKBTHVGyuMxcqcQx.jpg",
-    "posterShape": "poster",
-    "year": 1993,
-    "description": "Johnny Woo, aki a legjobb harcművészek egyike, ezúttal nem kedvtelésből, vagy a verseny kedvéértküzd, hanem hogy megmentse a barátnőjét egy gyilkos banda tagjaitól.",
-    "imdbRating": 4.5,
-    "releaseInfo": "1993",
-    "genres": [
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 25
-  },
-  {
-    "id": "tt0066995",
-    "type": "movie",
-    "name": "Gyémántok az örökkévalóságnak",
-    "poster": "https://image.tmdb.org/t/p/w500/pH2dRtc3PjQKqMzbeT8yrpLjzi7.jpg",
-    "posterShape": "poster",
-    "year": 1971,
-    "description": "Az angol titkosszolgálat ásza, James Bond most a legnagyobb maffiaszervezetek által kézben tartott gyémántcsempész-hálózatot próbálja felgöngyölíteni, de úgy látszik, ezzel az üggyel alaposan meggyűlik a baja. Rájön, hogy a gyémántok holttestek belsejében érkeznek az országba, és egy krematóriumban kerülnek elő a hamvakból. Bond is \"beszáll az üzletbe\". Éppen az egyik csempész koporsója mellett \"gyászol\", és várja, hogy előkerüljenek a drágakövek. De amikor átvenné az urnát, valaki hátulról leüti. Szűk faládában tér magához. Kinyitja a szemét, hallja, hogy mögötte becsukódik egy nehéz vasajtó és megérzi az égett fa szagát. Vajon tényleg így végezné egy szuperkém?",
-    "imdbRating": 6.4,
-    "releaseInfo": "1971",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 50
+    "seeders": 24
   },
   {
     "id": "tt0062790",
@@ -397,22 +443,23 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 25
+    "seeders": 29
   },
   {
-    "id": "tt39162904",
+    "id": "tt0066995",
     "type": "movie",
-    "name": "A sakk királynője",
-    "poster": "https://image.tmdb.org/t/p/w500/17p1nxoZBqbLnBycv43N20GPamk.jpg",
+    "name": "Gyémántok az örökkévalóságnak",
+    "poster": "https://image.tmdb.org/t/p/w500/pH2dRtc3PjQKqMzbeT8yrpLjzi7.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A portréfilm minden idők legerősebb női sakkozója, Polgár Judit életútját és pályafutását mutatja be, érintve a férfiak uralta sakkvilágban elért sikereit és a Garri Kaszparov elleni küzdelmeit.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
+    "year": 1971,
+    "description": "Az angol titkosszolgálat ásza, James Bond most a legnagyobb maffiaszervezetek által kézben tartott gyémántcsempész-hálózatot próbálja felgöngyölíteni, de úgy látszik, ezzel az üggyel alaposan meggyűlik a baja. Rájön, hogy a gyémántok holttestek belsejében érkeznek az országba, és egy krematóriumban kerülnek elő a hamvakból. Bond is \"beszáll az üzletbe\". Éppen az egyik csempész koporsója mellett \"gyászol\", és várja, hogy előkerüljenek a drágakövek. De amikor átvenné az urnát, valaki hátulról leüti. Szűk faládában tér magához. Kinyitja a szemét, hallja, hogy mögötte becsukódik egy nehéz vasajtó és megérzi az égett fa szagát. Vajon tényleg így végezné egy szuperkém?",
+    "imdbRating": 6.4,
+    "releaseInfo": "1971",
     "genres": [
-      "Dokumentum"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 506
+    "seeders": 48
   },
   {
     "id": "tt1571243",
@@ -430,25 +477,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 42
-  },
-  {
-    "id": "tt0291265",
-    "type": "movie",
-    "name": "Gyilkos ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/lddbF4qq55kjTGCKRJAiYiEteQa.jpg",
-    "posterShape": "poster",
-    "year": 2001,
-    "description": "Jim és Tess tökéletes házaspár. Legalábbis Tess így gondolta, míg egy nap rá nem döbbent, hogy férje 9 nő meggyilkolásáért felelős. Vallomása rács mögé juttatja a gyilkost, aki vérbosszút esküszik és lehetetlennek tűnő helyzetben életét kockáztatva megszökik, hogy bosszúját beteljesítse. Tess elhatározza, hogy visszavág és egy katonai kommandó vezetőjének segítségét kéri: képezze ki minden lehetséges támadás ellen.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2001",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 24
+    "seeders": 46
   },
   {
     "id": "tt0273435",
@@ -465,37 +494,6 @@
       "Háborús",
       "Történelmi"
     ],
-    "seeders": 64
-  },
-  {
-    "id": "tt32604920",
-    "type": "movie",
-    "name": "Love Letters",
-    "poster": "https://image.tmdb.org/t/p/w500/1eC49McS56Yd4P7HeKKvxepRBda.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 108
-  },
-  {
-    "id": "tt11950888",
-    "type": "movie",
-    "name": "Ne menj le!",
-    "poster": "https://image.tmdb.org/t/p/w500/2vLClta7jBInmvfKahFkK5sGDph.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Egy pár, aki új életet szeretne kezdeni egy vetélés után, megkapja álmai házát, egyetlen feltétellel: soha nem nyithatják ki a pince ajtaját. Képesek-e anélkül élni, hogy tudnák, mi van odabent? A következmények sokkolóak lesznek.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2024",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 210
+    "seeders": 69
   }
 ]
