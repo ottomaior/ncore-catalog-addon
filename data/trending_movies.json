@@ -1,5 +1,36 @@
 [
   {
+    "id": "tt0428856",
+    "type": "movie",
+    "name": "A bajusz",
+    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
+    "posterShape": "poster",
+    "year": 2005,
+    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2005",
+    "genres": [
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 36
+  },
+  {
+    "id": "tt0078763",
+    "type": "movie",
+    "name": "Amatőr",
+    "poster": "https://image.tmdb.org/t/p/w500/pDh0YMJQqVV1nuBRnkQbIg911Xw.jpg",
+    "posterShape": "poster",
+    "year": 1979,
+    "description": "Filip életében végre bekövetkezik a régen várt nagy esemény: kislánya születik. Az újdonsült apa vásárol egy szuper 8-as filmfelvevő kamerát, ezzel szeretné megörökíteni a kislány életének kedves pillanatait. Mikor filmezési hobbija közismertté válik, azt a feladatot kapja igazgatójától, hogy készítsen filmfelvételt a vállalat jubileumi ünnepségéről. A botcsinálta operatőr először tétován fogadja a megbízást, majd percről percre egyre inkább szenvedélyévé válik a filmezés, az események rögzítése. Ez aztán addigi életét teljesen megváltoztatja. A felvett anyagot azonban az igazgató utasítására meg kell vágni... (port.hu)",
+    "imdbRating": 7.5,
+    "releaseInfo": "1979",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 27
+  },
+  {
     "id": "tt31050594",
     "type": "movie",
     "name": "Mesterséges kegyelem",
@@ -14,7 +45,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3404
+    "seeders": 3986
   },
   {
     "id": "tt28793125",
@@ -31,24 +62,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 492
-  },
-  {
-    "id": "tt2005151",
-    "type": "movie",
-    "name": "Haverok fegyverben",
-    "poster": "https://image.tmdb.org/t/p/w500/3AiFSy3lbcxxhzShaLzHF3SLotd.jpg",
-    "posterShape": "poster",
-    "year": 2016,
-    "description": "Ne légy szerény! Ez az üzleti világ alapszabálya. Efraim Diveroli és David Packouz ugyan semmit nem tud sem szabályokról sem az üzleti világról – lepukkant kis szobában élnek Miamiban, és napjuk nagy részét különféle füvek szívásával töltik –, de amikor meghökkentő módon az ölükbe pottyan a szerencse, nem mondanak nemet: és hamarosan aláírnak egy háromszáz millió dolláros szerződést a Védelmi Minisztériummal. Vállalják, hogy fegyvert és muníciót szállítsanak Afganisztánba az USA szövetségeseinek. Nem csináltak még ilyet soha, ennyi pénzről még csak álmodni sem mertek, de igent mondanak – és igyekeznek a lehető legtöbbet kihozni a helyzetből, amivel elképesztő bonyodalmakba keverik magukat. Orosz fegyverkereskedők, albán gengszterek, washingtoni politikusok, egy svájci külkereskedő keringenek körülöttük… Miami Beachtől az iraki-afgán határig ver hullámokat ez a szélhámosság.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2016",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 58
+    "seeders": 550
   },
   {
     "id": "tt27721490",
@@ -65,7 +79,121 @@
       "Akció",
       "Western"
     ],
-    "seeders": 284
+    "seeders": 310
+  },
+  {
+    "id": "tt30343021",
+    "type": "movie",
+    "name": "Song Sung Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 318
+  },
+  {
+    "id": "tt2005151",
+    "type": "movie",
+    "name": "Haverok fegyverben",
+    "poster": "https://image.tmdb.org/t/p/w500/3AiFSy3lbcxxhzShaLzHF3SLotd.jpg",
+    "posterShape": "poster",
+    "year": 2016,
+    "description": "Ne légy szerény! Ez az üzleti világ alapszabálya. Efraim Diveroli és David Packouz ugyan semmit nem tud sem szabályokról sem az üzleti világról – lepukkant kis szobában élnek Miamiban, és napjuk nagy részét különféle füvek szívásával töltik –, de amikor meghökkentő módon az ölükbe pottyan a szerencse, nem mondanak nemet: és hamarosan aláírnak egy háromszáz millió dolláros szerződést a Védelmi Minisztériummal. Vállalják, hogy fegyvert és muníciót szállítsanak Afganisztánba az USA szövetségeseinek. Nem csináltak még ilyet soha, ennyi pénzről még csak álmodni sem mertek, de igent mondanak – és igyekeznek a lehető legtöbbet kihozni a helyzetből, amivel elképesztő bonyodalmakba keverik magukat. Orosz fegyverkereskedők, albán gengszterek, washingtoni politikusok, egy svájci külkereskedő keringenek körülöttük… Miami Beachtől az iraki-afgán határig ver hullámokat ez a szélhámosság.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2016",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 68
+  },
+  {
+    "id": "tt4712810",
+    "type": "movie",
+    "name": "Szemfényvesztők 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "seeders": 859
+  },
+  {
+    "id": "tt0892255",
+    "type": "movie",
+    "name": "Che - Az argentin",
+    "poster": "https://image.tmdb.org/t/p/w500/zLD6pav23TElrZEXK0iQ90VYnVj.jpg",
+    "posterShape": "poster",
+    "year": 2008,
+    "description": "Che Guevara neve negyven évvel halála után is élénken él a köztudatban, talán összes kortársánál pontosabban személyesíti meg a hatvanas évek forradalmi hangulatát. Világméretű márkanév lett, arcképe ott figyel minden sarkon: fiatal, jóképű és idealista, az elnyomottak bajnoka - egyfajta ikon, sokak álmainak, reményeinek megtestesítője. Életrajzi filmje két részből épül fel, egymásra vetítve Che pályafutásának két szakaszát: az első rész az 1955 és 1962 közötti eseményeket eleveníti fel, a küzdelmet Batista diktatúrája ellen, aprólékos részletességgel bemutatva azt a kimerítő gerillaháborút, amit Castro és Che Guevara a kubai vidéken folytatott, mielőtt dicsőségesen bevonultak Havannába.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2008",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Háborús"
+    ],
+    "seeders": 67
+  },
+  {
+    "id": "tt33474179",
+    "type": "movie",
+    "name": "Lángok közt",
+    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 214
+  },
+  {
+    "id": "tt0065138",
+    "type": "movie",
+    "name": "Sirokkó",
+    "poster": "https://image.tmdb.org/t/p/w500/pz3HpalL7x4SYSVGpwkoUNHwQXH.jpg",
+    "posterShape": "poster",
+    "year": 1969,
+    "description": "1930 eleje. Horvátországban szervezkednek a nacionalisták. Merényleteket követnek el szerb politikusok ellen, hazájuk szabadságáért küzdenek. Egy ilyen politikai gyilkosság után \"nemzeti hősüket\", Marko Lazart Magyarországra szöktetik...",
+    "imdbRating": 7.1,
+    "releaseInfo": "1969",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 61
+  },
+  {
+    "id": "tt2180499",
+    "type": "movie",
+    "name": "Vérbosszú",
+    "poster": "https://image.tmdb.org/t/p/w500/b9jUVOQsy0xVxbWyQUOC1X9g1vF.jpg",
+    "posterShape": "poster",
+    "year": 1990,
+    "description": "Egy hongkongi maffiafőnököt megöl egy rivális banda, így az üzletet a lánya veszi át. Amikor a banda az esküvője napján újabb vérengzést követ el, a lány bosszút esküszik.",
+    "imdbRating": 6.6,
+    "releaseInfo": "1990",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 55
   },
   {
     "id": "tt2267968",
@@ -84,104 +212,55 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 54
+    "seeders": 50
   },
   {
-    "id": "tt30343021",
+    "id": "tt29780866",
     "type": "movie",
-    "name": "Song Sung Blue",
-    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
+    "name": "Icefall – Tűz a jégen",
+    "poster": "https://image.tmdb.org/t/p/w500/wRGkBjN3ICFHAiIqEQpse2PNxVN.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
-    "imdbRating": 7.4,
+    "description": "Harlan (Joel Kinnaman), egy leszerelt deszantos, a modern világtól való teljes elzárkózásban talál menedéket: a hideg, végtelen pusztaság magányába vonul vissza Amerika északi részén, egy indián rezervátum elhagyatott tájain. Nem akar emberekkel találkozni, senkire sem támaszkodni – talán épp a múltja árnyai elől menekül. A világ azonban hamar utoléri. Egy nap rejtélyes módon lezuhant repülőgépre bukkan, tele milliókkal. A kísértésnek nehéz ellenállni – még nehezebb megtartani. Harlant elkapják, amikor Ani, a park fegyveres őreként szolgáló őslakos nő ráakad, és letartóztatja. Éppen bevinni készül a központba, amikor megjelenik a gép tulajdonosait képviselő csempészbanda – évek óta híján voltak a pénznek, és most követelik. Ani és Harlan kénytelenek félretenni a köztük lévő ellentétet. Összefognak, hogy túléljék a kegyetlen, fagyos tájat – és hogy megszerezzék a lezuhant vagyont önmaguknak.  (Csillag Lajos)",
+    "imdbRating": 6.4,
     "releaseInfo": "2025",
     "genres": [
-      "Zenei",
-      "Romantikus",
-      "Dráma"
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
     ],
-    "seeders": 288
+    "seeders": 598
   },
   {
-    "id": "tt0065138",
+    "id": "tt30813817",
     "type": "movie",
-    "name": "Sirokkó",
-    "poster": "https://image.tmdb.org/t/p/w500/pz3HpalL7x4SYSVGpwkoUNHwQXH.jpg",
+    "name": "We Were Dangerous",
+    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
     "posterShape": "poster",
-    "year": 1969,
-    "description": "1930 eleje. Horvátországban szervezkednek a nacionalisták. Merényleteket követnek el szerb politikusok ellen, hazájuk szabadságáért küzdenek. Egy ilyen politikai gyilkosság után \"nemzeti hősüket\", Marko Lazart Magyarországra szöktetik...",
+    "year": 2024,
+    "description": "Trendi magyar HD 1080p – nCore.",
     "imdbRating": 7.1,
-    "releaseInfo": "1969",
+    "releaseInfo": "2024",
     "genres": [
       "Dráma"
     ],
-    "seeders": 58
+    "seeders": 109
   },
   {
-    "id": "tt0892255",
+    "id": "tt33028778",
     "type": "movie",
-    "name": "Che - Az argentin",
-    "poster": "https://image.tmdb.org/t/p/w500/zLD6pav23TElrZEXK0iQ90VYnVj.jpg",
-    "posterShape": "poster",
-    "year": 2008,
-    "description": "Che Guevara neve negyven évvel halála után is élénken él a köztudatban, talán összes kortársánál pontosabban személyesíti meg a hatvanas évek forradalmi hangulatát. Világméretű márkanév lett, arcképe ott figyel minden sarkon: fiatal, jóképű és idealista, az elnyomottak bajnoka - egyfajta ikon, sokak álmainak, reményeinek megtestesítője. Életrajzi filmje két részből épül fel, egymásra vetítve Che pályafutásának két szakaszát: az első rész az 1955 és 1962 közötti eseményeket eleveníti fel, a küzdelmet Batista diktatúrája ellen, aprólékos részletességgel bemutatva azt a kimerítő gerillaháborút, amit Castro és Che Guevara a kubai vidéken folytatott, mielőtt dicsőségesen bevonultak Havannába.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2008",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
-    ],
-    "seeders": 57
-  },
-  {
-    "id": "tt2180499",
-    "type": "movie",
-    "name": "Vérbosszú",
-    "poster": "https://image.tmdb.org/t/p/w500/b9jUVOQsy0xVxbWyQUOC1X9g1vF.jpg",
-    "posterShape": "poster",
-    "year": 1990,
-    "description": "Egy hongkongi maffiafőnököt megöl egy rivális banda, így az üzletet a lánya veszi át. Amikor a banda az esküvője napján újabb vérengzést követ el, a lány bosszút esküszik.",
-    "imdbRating": 6.6,
-    "releaseInfo": "1990",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 46
-  },
-  {
-    "id": "tt33474179",
-    "type": "movie",
-    "name": "Lángok közt",
-    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
-    "imdbRating": 6.1,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
-      "Thriller",
-      "Dráma"
+      "Horror",
+      "Thriller"
     ],
-    "seeders": 197
-  },
-  {
-    "id": "tt4712810",
-    "type": "movie",
-    "name": "Szemfényvesztők 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Rejtély"
-    ],
-    "seeders": 745
+    "seeders": 718
   },
   {
     "id": "tt0115822",
@@ -197,22 +276,25 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 44
+    "seeders": 48
   },
   {
-    "id": "tt30813817",
+    "id": "tt0445620",
     "type": "movie",
-    "name": "We Were Dangerous",
-    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
+    "name": "Mennyország most",
+    "poster": "https://image.tmdb.org/t/p/w500/SiOidMq2oyXcjrHCaH60PlzieH.jpg",
     "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2024",
+    "year": 2005,
+    "description": "A film nem igyekszik sem hősként, sem terroristaként ábrázolni az Izraelben ártatlan polgárokkal együtt saját magukat is felrobbantó palesztin fiatalokat. Célja, hogy minél autentikusabb környezetben mutassa be két öngyilkos merényletre készülő fiatal utolsó napját, hogy feltárja milyen egyedi, emberi indíttatás rejlik egy merényletre készülő palesztin döntése mögött. A film két gyerekkori jó barátról, Kaledról és Szaidról szól, akiknek reménytelen hétköznapjai egy merényletre való készülődéssel nyernek új értelmet. A palesztin fiatalok bombatámadásra készülnek az izraeli katonák ellen, ám végül is különböző módon döntenek a Tel-Avivba szánt bombákról...",
+    "imdbRating": 6.9,
+    "releaseInfo": "2005",
     "genres": [
-      "Dráma"
+      "Bűnügyi",
+      "Thriller",
+      "Dráma",
+      "Háborús"
     ],
-    "seeders": 102
+    "seeders": 78
   },
   {
     "id": "tt0094738",
@@ -231,73 +313,6 @@
     "seeders": 50
   },
   {
-    "id": "tt29780866",
-    "type": "movie",
-    "name": "Icefall – Tűz a jégen",
-    "poster": "https://image.tmdb.org/t/p/w500/wRGkBjN3ICFHAiIqEQpse2PNxVN.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Harlan (Joel Kinnaman), egy leszerelt deszantos, a modern világtól való teljes elzárkózásban talál menedéket: a hideg, végtelen pusztaság magányába vonul vissza Amerika északi részén, egy indián rezervátum elhagyatott tájain. Nem akar emberekkel találkozni, senkire sem támaszkodni – talán épp a múltja árnyai elől menekül. A világ azonban hamar utoléri. Egy nap rejtélyes módon lezuhant repülőgépre bukkan, tele milliókkal. A kísértésnek nehéz ellenállni – még nehezebb megtartani. Harlant elkapják, amikor Ani, a park fegyveres őreként szolgáló őslakos nő ráakad, és letartóztatja. Éppen bevinni készül a központba, amikor megjelenik a gép tulajdonosait képviselő csempészbanda – évek óta híján voltak a pénznek, és most követelik. Ani és Harlan kénytelenek félretenni a köztük lévő ellentétet. Összefognak, hogy túléljék a kegyetlen, fagyos tájat – és hogy megszerezzék a lezuhant vagyont önmaguknak.  (Csillag Lajos)",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 529
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 598
-  },
-  {
-    "id": "tt0445620",
-    "type": "movie",
-    "name": "Mennyország most",
-    "poster": "https://image.tmdb.org/t/p/w500/SiOidMq2oyXcjrHCaH60PlzieH.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "A film nem igyekszik sem hősként, sem terroristaként ábrázolni az Izraelben ártatlan polgárokkal együtt saját magukat is felrobbantó palesztin fiatalokat. Célja, hogy minél autentikusabb környezetben mutassa be két öngyilkos merényletre készülő fiatal utolsó napját, hogy feltárja milyen egyedi, emberi indíttatás rejlik egy merényletre készülő palesztin döntése mögött. A film két gyerekkori jó barátról, Kaledról és Szaidról szól, akiknek reménytelen hétköznapjai egy merényletre való készülődéssel nyernek új értelmet. A palesztin fiatalok bombatámadásra készülnek az izraeli katonák ellen, ám végül is különböző módon döntenek a Tel-Avivba szánt bombákról...",
-    "imdbRating": 6.9,
-    "releaseInfo": "2005",
-    "genres": [
-      "Bűnügyi",
-      "Thriller",
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 67
-  },
-  {
-    "id": "tt0060637",
-    "type": "movie",
-    "name": "Elveszett dicsőség",
-    "poster": "https://image.tmdb.org/t/p/w500/tQbHvVEYBztTpxg6juPspxJEMFN.jpg",
-    "posterShape": "poster",
-    "year": 1966,
-    "description": "Raspeguy alezredest parancsmegtagadással és csempészéssel vádolják felettesei, ám befolyásos szerelme közbenjárásának köszönhetően kap még egy lehetőséget: ejtőernyősökből álló ezrede élén a függetlenségéért harcoló Algériába vezénylik. A kibontakozó algériai fegyveres ellenállás azonban, ha lehet, minden eddiginél nagyobb próbatétel elé állítja katonáit...",
-    "imdbRating": 6.1,
-    "releaseInfo": "1966",
-    "genres": [
-      "Akció",
-      "Háborús"
-    ],
-    "seeders": 32
-  },
-  {
     "id": "tt26593219",
     "type": "movie",
     "name": "Fotó a múltból",
@@ -312,23 +327,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 137
-  },
-  {
-    "id": "tt0110882",
-    "type": "movie",
-    "name": "Eső előtt",
-    "poster": "https://image.tmdb.org/t/p/w500/mh2CazlmBITtnkLzFj6wCMIRHMM.jpg",
-    "posterShape": "poster",
-    "year": 1994,
-    "description": "A film a balkáni etnikai-vallási konfliktusok drámai erejű, balladai szépségű ábrázolása. Jelen esetben a macedónok és a Macedóniában élő albánok közötti évszázados ellentétekről van szó. A film három, egymással összefüggő történetből áll.",
-    "imdbRating": 7.4,
-    "releaseInfo": "1994",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 51
+    "seeders": 141
   },
   {
     "id": "tt2396431",
@@ -344,7 +343,54 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 275
+    "seeders": 302
+  },
+  {
+    "id": "tt39162904",
+    "type": "movie",
+    "name": "A sakk királynője",
+    "poster": "https://image.tmdb.org/t/p/w500/17p1nxoZBqbLnBycv43N20GPamk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A portréfilm minden idők legerősebb női sakkozója, Polgár Judit életútját és pályafutását mutatja be, érintve a férfiak uralta sakkvilágban elért sikereit és a Garri Kaszparov elleni küzdelmeit.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 579
+  },
+  {
+    "id": "tt0060637",
+    "type": "movie",
+    "name": "Elveszett dicsőség",
+    "poster": "https://image.tmdb.org/t/p/w500/tQbHvVEYBztTpxg6juPspxJEMFN.jpg",
+    "posterShape": "poster",
+    "year": 1966,
+    "description": "Raspeguy alezredest parancsmegtagadással és csempészéssel vádolják felettesei, ám befolyásos szerelme közbenjárásának köszönhetően kap még egy lehetőséget: ejtőernyősökből álló ezrede élén a függetlenségéért harcoló Algériába vezénylik. A kibontakozó algériai fegyveres ellenállás azonban, ha lehet, minden eddiginél nagyobb próbatétel elé állítja katonáit...",
+    "imdbRating": 6.1,
+    "releaseInfo": "1966",
+    "genres": [
+      "Akció",
+      "Háborús"
+    ],
+    "seeders": 33
+  },
+  {
+    "id": "tt0110882",
+    "type": "movie",
+    "name": "Eső előtt",
+    "poster": "https://image.tmdb.org/t/p/w500/mh2CazlmBITtnkLzFj6wCMIRHMM.jpg",
+    "posterShape": "poster",
+    "year": 1994,
+    "description": "A film a balkáni etnikai-vallási konfliktusok drámai erejű, balladai szépségű ábrázolása. Jelen esetben a macedónok és a Macedóniában élő albánok közötti évszázados ellentétekről van szó. A film három, egymással összefüggő történetből áll.",
+    "imdbRating": 7.4,
+    "releaseInfo": "1994",
+    "genres": [
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 54
   },
   {
     "id": "tt0384819",
@@ -363,22 +409,7 @@
       "Thriller",
       "Romantikus"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt39162904",
-    "type": "movie",
-    "name": "A sakk királynője",
-    "poster": "https://image.tmdb.org/t/p/w500/17p1nxoZBqbLnBycv43N20GPamk.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A portréfilm minden idők legerősebb női sakkozója, Polgár Judit életútját és pályafutását mutatja be, érintve a férfiak uralta sakkvilágban elért sikereit és a Garri Kaszparov elleni küzdelmeit.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 504
+    "seeders": 55
   },
   {
     "id": "tt0053143",
@@ -395,7 +426,7 @@
       "Háborús",
       "Romantikus"
     ],
-    "seeders": 64
+    "seeders": 68
   },
   {
     "id": "tt24082864",
@@ -411,7 +442,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 81
+    "seeders": 84
   },
   {
     "id": "tt39387657",
@@ -427,25 +458,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 70
-  },
-  {
-    "id": "tt0266452",
-    "type": "movie",
-    "name": "Dögölj meg, Smaci!",
-    "poster": "https://image.tmdb.org/t/p/w500/8Oza1rUgz1AgeqfSJ0pPpXw35mu.jpg",
-    "posterShape": "poster",
-    "year": 2002,
-    "description": "Randolph Smileyt (Robin Williams), egy népszerű gyerekműsor örökké mosolygó házigazdáját egyik napról a másikra kirúgják, miután kínos vesztegetési botrányba keveredett. A vezetőségnek sürgősen új tehetségre van szüksége, így kerül a képbe a támadhatatlan erkölcsű Sheldon és az általa kitalált karakter, Smaci. A jámbor orrszarvú és Sheldon hamar óriási népszerűségre tesz szert, amely egyben felébreszti Randolph féltékenységét és bosszúvágyát is. A feldühített ex-showman minden eszközt bevet, hogy ellensége, a hatalmas, bordó plüss orrszarvú mihamarabb képernyőn kívülre kerüljön.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2002",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 33
+    "seeders": 68
   },
   {
     "id": "tt32604920",
@@ -460,39 +473,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 107
+    "seeders": 113
   },
   {
-    "id": "tt1976989",
+    "id": "tt11950888",
     "type": "movie",
-    "name": "Szerelem és becsület",
-    "poster": "https://image.tmdb.org/t/p/w500/we2H718jXVsUSGisoJG4R4mk9hD.jpg",
+    "name": "Ne menj le!",
+    "poster": "https://image.tmdb.org/t/p/w500/2vLClta7jBInmvfKahFkK5sGDph.jpg",
     "posterShape": "poster",
-    "year": 2013,
-    "description": "A hatvanas évek, a Holdraszállás idején. A Vietnamban szolgáló Dalton megtudja, hogy a barátnője szakított vele. A fiú nem hajlandó lemondani róla, megfogadja, ha törik, ha szakad kivesz egy hét \"szabadságot\", és hazautazik, hogy visszahódítsa. A legjobb barátja, Mickey mindent megtesz, hogy segítsen neki. Mindössze hét nap kell, hogy hazajussanak, meggyőzzék Jane-t, majd visszamenjenek a háborúba, anélkül, hogy felfedeznék szökésüket. Ám a lányt a háborúellen mozgalom közepén találják az aktivista barátjával.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2013",
+    "year": 2024,
+    "description": "Egy pár, aki új életet szeretne kezdeni egy vetélés után, megkapja álmai házát, egyetlen feltétellel: soha nem nyithatják ki a pince ajtaját. Képesek-e anélkül élni, hogy tudnák, mi van odabent? A következmények sokkolóak lesznek.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2024",
     "genres": [
-      "Dráma",
-      "Romantikus"
+      "Horror",
+      "Thriller"
     ],
-    "seeders": 36
-  },
-  {
-    "id": "tt0273435",
-    "type": "movie",
-    "name": "Ararát",
-    "poster": "https://image.tmdb.org/t/p/w500/wTBFcCR4pGE6TnGbQZcqqBFDKVJ.jpg",
-    "posterShape": "poster",
-    "year": 2002,
-    "description": "Az Ararát történetében két család históriája keresztezi egymást. A két főszereplő a felnőttkor küszöbén toporgó Raffi és a nyugdíj előtt álló David. Raffi 35 mm-es filmtekercsekkel, DV-kazettákkal és egy rejtéllyel megrakodva érkezik vissza Kanadába. Vámvizsgálatra küldik. David, a vámtiszt, akinek Raffi az utolsó esete nyugdíjba vonulása előtt, azt gyanítja, hogy valamit rejteget a fiú. Raffi azt állítja, hogy a csomagban egy Torontóban leforgatandó film kiegészítő felvételei vannak. David azonban kideríti, hogy a film már elkészült: az 1915-ös örményországi mészárlásokról szól, és egy híres örmény rendező az alkotója. Akkor miért döntött úgy Raffi, hogy saját szakállára elutazik ősei hazájába? Kettejük találkozása kihallgatásnak indul, az igazság utáni kutatóút azonban a hazugságok, megcsalások, tagadások, tények és félelmek birodalmán, évtizedes emlékeken keresztül vezet.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2002",
-    "genres": [
-      "Dráma",
-      "Háborús",
-      "Történelmi"
-    ],
-    "seeders": 69
+    "seeders": 202
   }
 ]
