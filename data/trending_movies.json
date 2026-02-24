@@ -1,5 +1,37 @@
 [
   {
+    "id": "tt32332404",
+    "type": "movie",
+    "name": "Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/mbGHijUc0C3fcM12l6ro6FgxIvg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 201
+  },
+  {
+    "id": "tt20990442",
+    "type": "movie",
+    "name": "HIM",
+    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 191
+  },
+  {
     "id": "tt31050594",
     "type": "movie",
     "name": "Mesterséges kegyelem",
@@ -14,7 +46,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3884
+    "seeders": 5049
   },
   {
     "id": "tt33057274",
@@ -29,23 +61,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 114
-  },
-  {
-    "id": "tt0091495",
-    "type": "movie",
-    "name": "Matador",
-    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
-    "posterShape": "poster",
-    "year": 1986,
-    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1986",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 97
+    "seeders": 150
   },
   {
     "id": "tt28793125",
@@ -62,7 +78,23 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 522
+    "seeders": 627
+  },
+  {
+    "id": "tt0091495",
+    "type": "movie",
+    "name": "Matador",
+    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
+    "posterShape": "poster",
+    "year": 1986,
+    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1986",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 113
   },
   {
     "id": "tt0428856",
@@ -78,24 +110,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 96
-  },
-  {
-    "id": "tt0073169",
-    "type": "movie",
-    "name": "Piszkoskezű Ártatlanok",
-    "poster": "https://image.tmdb.org/t/p/w500/p9fhSuSfr7ZF7MsvdL7gLHdkDTX.jpg",
-    "posterShape": "poster",
-    "year": 1975,
-    "description": "Saint Tropez, 1975. Julie Wormser és a szeretője, az író elhatározzák, hogy meggyilkolják az asszony impotens, ámde nagyon gazdag férjét. Az asszony leüti a férfit, majd elmegy hazulról, a terv többi részét szeretőjére, Jeff Marle-ra bízza. Másnap, amikor visszatér otthonukba, az asszony sem a férjét, sem a szeretőjét nem találja. Fogalma sincs, mi történt távozása után, de a környezet szemében egyre gyanúsabbá válik. Ráadásul a bankban felvilágosítják, hogy az incidens előtti napon a férje az összes pénzüket és valamennyi értéküket magához vette.",
-    "imdbRating": 6.2,
-    "releaseInfo": "1975",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 90
+    "seeders": 118
   },
   {
     "id": "tt27721490",
@@ -112,24 +127,24 @@
       "Akció",
       "Western"
     ],
-    "seeders": 317
+    "seeders": 349
   },
   {
-    "id": "tt30343021",
+    "id": "tt0073169",
     "type": "movie",
-    "name": "Song Sung Blue",
-    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
+    "name": "Piszkoskezű Ártatlanok",
+    "poster": "https://image.tmdb.org/t/p/w500/p9fhSuSfr7ZF7MsvdL7gLHdkDTX.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
+    "year": 1975,
+    "description": "Saint Tropez, 1975. Julie Wormser és a szeretője, az író elhatározzák, hogy meggyilkolják az asszony impotens, ámde nagyon gazdag férjét. Az asszony leüti a férfit, majd elmegy hazulról, a terv többi részét szeretőjére, Jeff Marle-ra bízza. Másnap, amikor visszatér otthonukba, az asszony sem a férjét, sem a szeretőjét nem találja. Fogalma sincs, mi történt távozása után, de a környezet szemében egyre gyanúsabbá válik. Ráadásul a bankban felvilágosítják, hogy az incidens előtti napon a férje az összes pénzüket és valamennyi értéküket magához vette.",
+    "imdbRating": 6.2,
+    "releaseInfo": "1975",
     "genres": [
-      "Zenei",
-      "Romantikus",
+      "Thriller",
+      "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 307
+    "seeders": 100
   },
   {
     "id": "tt4712810",
@@ -146,7 +161,24 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 827
+    "seeders": 997
+  },
+  {
+    "id": "tt30343021",
+    "type": "movie",
+    "name": "Song Sung Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 364
   },
   {
     "id": "tt0051964",
@@ -161,55 +193,23 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 58
+    "seeders": 76
   },
   {
-    "id": "tt0090180",
+    "id": "tt33028778",
     "type": "movie",
-    "name": "Élni és meghalni Los Angelesben",
-    "poster": "https://image.tmdb.org/t/p/w500/gPoCCBHtkQ8kD8LSYOsTayWNjE1.jpg",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
     "posterShape": "poster",
-    "year": 1985,
-    "description": "Rick, azaz \"becsületes\" nevén Eric Masters a pénzhamisítás fortélyainak zsenije, aki már jó ideje űzi sötét mesterségét. Ráadásul a busás haszon reményében attól sem riad vissza, hogy gyilkoljon, legyen szó akár ellenfeleiről, akár bűntársairól. A bűnöző, aki már jó ideje folytat macska-egér játékot a törvénnyel, és eddig mindig sikerült kereket oldania, most embereire akad. Két mindenre elszánt üldöző: Chance és Vukovich szövetségi ügynök liheg vérebként a nyomában, s kezdetét veszi a halálos fogócska a velejéig romlott hamisító és a két bosszúra szomjas nyomozó között.",
-    "imdbRating": 7.1,
-    "releaseInfo": "1985",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
     "genres": [
-      "Bűnügyi",
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 40
-  },
-  {
-    "id": "tt0059825",
-    "type": "movie",
-    "name": "A vonat",
-    "poster": "https://image.tmdb.org/t/p/w500/Y6IZkSl08B9Am1sMQ9pnMIj013.jpg",
-    "posterShape": "poster",
-    "year": 1964,
-    "description": "A megtörtént eseményeken alapuló film 1944-ben játszódik Franciaországban. A szövetségesek partraszállása után a németek Párizs evakuálására készülnek. A művészetrajongó Von Waldheim ezredes Németországba akarja szállítani a francia impresszionisták remekműveit is. A Jeu de Pomme múzeum kurátora kétségbeesésében a francia antifasiszta ellenállók segítségét kéri a felbecsülhetetlen értékű műkincsek megmentéséhez. Könyörög, hogy a szövetségesek megérkezéséig próbálják késleltetni a rakomány útnak indítását. De a \"franciák büszkeségeit\" szállító vonat, ha némi késedelemmel is, elindul Németország felé.",
-    "imdbRating": 7.6,
-    "releaseInfo": "1964",
-    "genres": [
-      "Háborús",
+      "Horror",
       "Thriller"
     ],
-    "seeders": 35
-  },
-  {
-    "id": "tt0078763",
-    "type": "movie",
-    "name": "Amatőr",
-    "poster": "https://image.tmdb.org/t/p/w500/pDh0YMJQqVV1nuBRnkQbIg911Xw.jpg",
-    "posterShape": "poster",
-    "year": 1979,
-    "description": "Filip életében végre bekövetkezik a régen várt nagy esemény: kislánya születik. Az újdonsült apa vásárol egy szuper 8-as filmfelvevő kamerát, ezzel szeretné megörökíteni a kislány életének kedves pillanatait. Mikor filmezési hobbija közismertté válik, azt a feladatot kapja igazgatójától, hogy készítsen filmfelvételt a vállalat jubileumi ünnepségéről. A botcsinálta operatőr először tétován fogadja a megbízást, majd percről percre egyre inkább szenvedélyévé válik a filmezés, az események rögzítése. Ez aztán addigi életét teljesen megváltoztatja. A felvett anyagot azonban az igazgató utasítására meg kell vágni... (port.hu)",
-    "imdbRating": 7.5,
-    "releaseInfo": "1979",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 52
+    "seeders": 867
   },
   {
     "id": "tt29780866",
@@ -226,7 +226,55 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 571
+    "seeders": 660
+  },
+  {
+    "id": "tt33474179",
+    "type": "movie",
+    "name": "Lángok közt",
+    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 223
+  },
+  {
+    "id": "tt0078763",
+    "type": "movie",
+    "name": "Amatőr",
+    "poster": "https://image.tmdb.org/t/p/w500/pDh0YMJQqVV1nuBRnkQbIg911Xw.jpg",
+    "posterShape": "poster",
+    "year": 1979,
+    "description": "Filip életében végre bekövetkezik a régen várt nagy esemény: kislánya születik. Az újdonsült apa vásárol egy szuper 8-as filmfelvevő kamerát, ezzel szeretné megörökíteni a kislány életének kedves pillanatait. Mikor filmezési hobbija közismertté válik, azt a feladatot kapja igazgatójától, hogy készítsen filmfelvételt a vállalat jubileumi ünnepségéről. A botcsinálta operatőr először tétován fogadja a megbízást, majd percről percre egyre inkább szenvedélyévé válik a filmezés, az események rögzítése. Ez aztán addigi életét teljesen megváltoztatja. A felvett anyagot azonban az igazgató utasítására meg kell vágni... (port.hu)",
+    "imdbRating": 7.5,
+    "releaseInfo": "1979",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 61
+  },
+  {
+    "id": "tt0090180",
+    "type": "movie",
+    "name": "Élni és meghalni Los Angelesben",
+    "poster": "https://image.tmdb.org/t/p/w500/gPoCCBHtkQ8kD8LSYOsTayWNjE1.jpg",
+    "posterShape": "poster",
+    "year": 1985,
+    "description": "Rick, azaz \"becsületes\" nevén Eric Masters a pénzhamisítás fortélyainak zsenije, aki már jó ideje űzi sötét mesterségét. Ráadásul a busás haszon reményében attól sem riad vissza, hogy gyilkoljon, legyen szó akár ellenfeleiről, akár bűntársairól. A bűnöző, aki már jó ideje folytat macska-egér játékot a törvénnyel, és eddig mindig sikerült kereket oldania, most embereire akad. Két mindenre elszánt üldöző: Chance és Vukovich szövetségi ügynök liheg vérebként a nyomában, s kezdetét veszi a halálos fogócska a velejéig romlott hamisító és a két bosszúra szomjas nyomozó között.",
+    "imdbRating": 7.1,
+    "releaseInfo": "1985",
+    "genres": [
+      "Bűnügyi",
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 41
   },
   {
     "id": "tt1008017",
@@ -241,23 +289,23 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 50
+    "seeders": 53
   },
   {
-    "id": "tt33028778",
+    "id": "tt0059825",
     "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+    "name": "A vonat",
+    "poster": "https://image.tmdb.org/t/p/w500/Y6IZkSl08B9Am1sMQ9pnMIj013.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
+    "year": 1964,
+    "description": "A megtörtént eseményeken alapuló film 1944-ben játszódik Franciaországban. A szövetségesek partraszállása után a németek Párizs evakuálására készülnek. A művészetrajongó Von Waldheim ezredes Németországba akarja szállítani a francia impresszionisták remekműveit is. A Jeu de Pomme múzeum kurátora kétségbeesésében a francia antifasiszta ellenállók segítségét kéri a felbecsülhetetlen értékű műkincsek megmentéséhez. Könyörög, hogy a szövetségesek megérkezéséig próbálják késleltetni a rakomány útnak indítását. De a \"franciák büszkeségeit\" szállító vonat, ha némi késedelemmel is, elindul Németország felé.",
+    "imdbRating": 7.6,
+    "releaseInfo": "1964",
     "genres": [
-      "Horror",
+      "Háborús",
       "Thriller"
     ],
-    "seeders": 697
+    "seeders": 39
   },
   {
     "id": "tt2005151",
@@ -274,23 +322,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 80
-  },
-  {
-    "id": "tt33474179",
-    "type": "movie",
-    "name": "Lángok közt",
-    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 191
+    "seeders": 82
   },
   {
     "id": "tt0047024",
@@ -307,7 +339,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 43
+    "seeders": 47
   },
   {
     "id": "tt0108167",
@@ -324,7 +356,38 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 38
+    "seeders": 41
+  },
+  {
+    "id": "tt2396431",
+    "type": "movie",
+    "name": "Kedves Télapó",
+    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2024",
+    "genres": [
+      "Vígjáték",
+      "Fantasy"
+    ],
+    "seeders": 330
+  },
+  {
+    "id": "tt30813817",
+    "type": "movie",
+    "name": "We Were Dangerous",
+    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 106
   },
   {
     "id": "tt0081055",
@@ -339,7 +402,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 35
+    "seeders": 37
   },
   {
     "id": "tt0892255",
@@ -356,68 +419,24 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 68
+    "seeders": 65
   },
   {
-    "id": "tt30813817",
+    "id": "tt26593219",
     "type": "movie",
-    "name": "We Were Dangerous",
-    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
+    "name": "Fotó a múltból",
+    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
     "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2024",
+    "year": 2023,
+    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
     "genres": [
+      "TV film",
+      "Romantikus",
       "Dráma"
     ],
-    "seeders": 101
-  },
-  {
-    "id": "tt0065138",
-    "type": "movie",
-    "name": "Sirokkó",
-    "poster": "https://image.tmdb.org/t/p/w500/pz3HpalL7x4SYSVGpwkoUNHwQXH.jpg",
-    "posterShape": "poster",
-    "year": 1969,
-    "description": "1930 eleje. Horvátországban szervezkednek a nacionalisták. Merényleteket követnek el szerb politikusok ellen, hazájuk szabadságáért küzdenek. Egy ilyen politikai gyilkosság után \"nemzeti hősüket\", Marko Lazart Magyarországra szöktetik...",
-    "imdbRating": 7.1,
-    "releaseInfo": "1969",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 64
-  },
-  {
-    "id": "tt2396431",
-    "type": "movie",
-    "name": "Kedves Télapó",
-    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 286
-  },
-  {
-    "id": "tt2180499",
-    "type": "movie",
-    "name": "Vérbosszú",
-    "poster": "https://image.tmdb.org/t/p/w500/b9jUVOQsy0xVxbWyQUOC1X9g1vF.jpg",
-    "posterShape": "poster",
-    "year": 1990,
-    "description": "Egy hongkongi maffiafőnököt megöl egy rivális banda, így az üzletet a lánya veszi át. Amikor a banda az esküvője napján újabb vérengzést követ el, a lány bosszút esküszik.",
-    "imdbRating": 6.6,
-    "releaseInfo": "1990",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 54
+    "seeders": 145
   },
   {
     "id": "tt2267968",
@@ -436,42 +455,22 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 52
+    "seeders": 56
   },
   {
-    "id": "tt26593219",
+    "id": "tt0065138",
     "type": "movie",
-    "name": "Fotó a múltból",
-    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
+    "name": "Sirokkó",
+    "poster": "https://image.tmdb.org/t/p/w500/pz3HpalL7x4SYSVGpwkoUNHwQXH.jpg",
     "posterShape": "poster",
-    "year": 2023,
-    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
+    "year": 1969,
+    "description": "1930 eleje. Horvátországban szervezkednek a nacionalisták. Merényleteket követnek el szerb politikusok ellen, hazájuk szabadságáért küzdenek. Egy ilyen politikai gyilkosság után \"nemzeti hősüket\", Marko Lazart Magyarországra szöktetik...",
+    "imdbRating": 7.1,
+    "releaseInfo": "1969",
     "genres": [
-      "TV film",
-      "Romantikus",
       "Dráma"
     ],
-    "seeders": 138
-  },
-  {
-    "id": "tt0445620",
-    "type": "movie",
-    "name": "Mennyország most",
-    "poster": "https://image.tmdb.org/t/p/w500/SiOidMq2oyXcjrHCaH60PlzieH.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "A film nem igyekszik sem hősként, sem terroristaként ábrázolni az Izraelben ártatlan polgárokkal együtt saját magukat is felrobbantó palesztin fiatalokat. Célja, hogy minél autentikusabb környezetben mutassa be két öngyilkos merényletre készülő fiatal utolsó napját, hogy feltárja milyen egyedi, emberi indíttatás rejlik egy merényletre készülő palesztin döntése mögött. A film két gyerekkori jó barátról, Kaledról és Szaidról szól, akiknek reménytelen hétköznapjai egy merényletre való készülődéssel nyernek új értelmet. A palesztin fiatalok bombatámadásra készülnek az izraeli katonák ellen, ám végül is különböző módon döntenek a Tel-Avivba szánt bombákról...",
-    "imdbRating": 6.9,
-    "releaseInfo": "2005",
-    "genres": [
-      "Bűnügyi",
-      "Thriller",
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 71
+    "seeders": 57
   },
   {
     "id": "tt0115822",
@@ -487,6 +486,6 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 50
+    "seeders": 55
   }
 ]
