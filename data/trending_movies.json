@@ -1,18 +1,35 @@
 [
   {
+    "id": "tt31050594",
+    "type": "movie",
+    "name": "Mesterséges kegyelem",
+    "poster": "https://image.tmdb.org/t/p/w500/yF5Gye414DGecECQr6rKRFD3gYz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 3035
+  },
+  {
     "id": "tt33057274",
     "type": "movie",
-    "name": "The Magic of Lemon Drops",
+    "name": "Egy citromcseppnyi varázslat",
     "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
     "posterShape": "poster",
     "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
     "imdbRating": 7.0,
     "releaseInfo": "2024",
     "genres": [
       "Romantikus"
     ],
-    "seeders": 109
+    "seeders": 86
   },
   {
     "id": "tt0091495",
@@ -28,24 +45,56 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 69
+    "seeders": 68
   },
   {
-    "id": "tt31050594",
+    "id": "tt0090180",
     "type": "movie",
-    "name": "Mesterséges kegyelem",
-    "poster": "https://image.tmdb.org/t/p/w500/yF5Gye414DGecECQr6rKRFD3gYz.jpg",
+    "name": "Élni és meghalni Los Angelesben",
+    "poster": "https://image.tmdb.org/t/p/w500/gPoCCBHtkQ8kD8LSYOsTayWNjE1.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
+    "year": 1985,
+    "description": "Rick, azaz \"becsületes\" nevén Eric Masters a pénzhamisítás fortélyainak zsenije, aki már jó ideje űzi sötét mesterségét. Ráadásul a busás haszon reményében attól sem riad vissza, hogy gyilkoljon, legyen szó akár ellenfeleiről, akár bűntársairól. A bűnöző, aki már jó ideje folytat macska-egér játékot a törvénnyel, és eddig mindig sikerült kereket oldania, most embereire akad. Két mindenre elszánt üldöző: Chance és Vukovich szövetségi ügynök liheg vérebként a nyomában, s kezdetét veszi a halálos fogócska a velejéig romlott hamisító és a két bosszúra szomjas nyomozó között.",
     "imdbRating": 7.1,
-    "releaseInfo": "2026",
+    "releaseInfo": "1985",
     "genres": [
-      "Sci-Fi",
-      "Akció",
+      "Bűnügyi",
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 33
+  },
+  {
+    "id": "tt0059825",
+    "type": "movie",
+    "name": "A vonat",
+    "poster": "https://image.tmdb.org/t/p/w500/Y6IZkSl08B9Am1sMQ9pnMIj013.jpg",
+    "posterShape": "poster",
+    "year": 1964,
+    "description": "A megtörtént eseményeken alapuló film 1944-ben játszódik Franciaországban. A szövetségesek partraszállása után a németek Párizs evakuálására készülnek. A művészetrajongó Von Waldheim ezredes Németországba akarja szállítani a francia impresszionisták remekműveit is. A Jeu de Pomme múzeum kurátora kétségbeesésében a francia antifasiszta ellenállók segítségét kéri a felbecsülhetetlen értékű műkincsek megmentéséhez. Könyörög, hogy a szövetségesek megérkezéséig próbálják késleltetni a rakomány útnak indítását. De a \"franciák büszkeségeit\" szállító vonat, ha némi késedelemmel is, elindul Németország felé.",
+    "imdbRating": 7.6,
+    "releaseInfo": "1964",
+    "genres": [
+      "Háborús",
       "Thriller"
     ],
-    "seeders": 5107
+    "seeders": 28
+  },
+  {
+    "id": "tt0428856",
+    "type": "movie",
+    "name": "A bajusz",
+    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
+    "posterShape": "poster",
+    "year": 2005,
+    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2005",
+    "genres": [
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt0073169",
@@ -62,23 +111,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 75
-  },
-  {
-    "id": "tt0428856",
-    "type": "movie",
-    "name": "A bajusz",
-    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2005",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 86
+    "seeders": 61
   },
   {
     "id": "tt0051964",
@@ -93,22 +126,24 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 56
+    "seeders": 51
   },
   {
-    "id": "tt1008017",
+    "id": "tt28793125",
     "type": "movie",
-    "name": "Halál Palermóban",
-    "poster": "https://image.tmdb.org/t/p/w500/6iT1P0lpEaH3DdYujH8vJDhQbPw.jpg",
+    "name": "A svéd kapcsolat",
+    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
     "posterShape": "poster",
-    "year": 2008,
-    "description": "Finn, a menő fotós zaklatott életet él Düsseldorfban, a Rajna-menti nagyvárosban. Az éjszakái nyugtalanul telnek, a mobilja sosincs kikapcsolva, a fejhallgatójából állandóan bömböl a zene. Azután egy napon, divatfotózás során olyan esemény történik, ami arra készteti, hogy átgondolja, átértékelje egész addigi életét. Olaszországba, Palermóba utazik, hogy elszakadjon régi önmagától és végleg lezárja a múltját. A városban találkozik egy lánnyal, Flaviával és ez a találkozás új reményt, új életet jelent számára. Előtte azonban még szembe kell néznie a halállal.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2008",
+    "year": 2026,
+    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Dráma",
+      "Történelmi",
+      "Háborús"
     ],
-    "seeders": 45
+    "seeders": 439
   },
   {
     "id": "tt0078763",
@@ -123,16 +158,31 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 46
+    "seeders": 45
+  },
+  {
+    "id": "tt1008017",
+    "type": "movie",
+    "name": "Halál Palermóban",
+    "poster": "https://image.tmdb.org/t/p/w500/6iT1P0lpEaH3DdYujH8vJDhQbPw.jpg",
+    "posterShape": "poster",
+    "year": 2008,
+    "description": "Finn, a menő fotós zaklatott életet él Düsseldorfban, a Rajna-menti nagyvárosban. Az éjszakái nyugtalanul telnek, a mobilja sosincs kikapcsolva, a fejhallgatójából állandóan bömböl a zene. Azután egy napon, divatfotózás során olyan esemény történik, ami arra készteti, hogy átgondolja, átértékelje egész addigi életét. Olaszországba, Palermóba utazik, hogy elszakadjon régi önmagától és végleg lezárja a múltját. A városban találkozik egy lánnyal, Flaviával és ez a találkozás új reményt, új életet jelent számára. Előtte azonban még szembe kell néznie a halállal.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2008",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 42
   },
   {
     "id": "tt0047024",
     "type": "movie",
-    "name": "Giorni d'amore",
+    "name": "A szerelem napjai",
     "poster": "https://image.tmdb.org/t/p/w500/apB97497fIw6HBFaSZmF0WOoxW4.jpg",
     "posterShape": "poster",
     "year": 1954,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy pár szeretne összeházasodni, de nincs elég pénzük a hagyományos nagy lagzira, ezért azt tervezik, hogy vidékre mennek és \"bűnben élik\" az életüket.",
     "imdbRating": 6.5,
     "releaseInfo": "1954",
     "genres": [
@@ -140,24 +190,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 44
-  },
-  {
-    "id": "tt28793125",
-    "type": "movie",
-    "name": "A svéd kapcsolat",
-    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
-    ],
-    "seeders": 622
+    "seeders": 43
   },
   {
     "id": "tt27721490",
@@ -174,7 +207,39 @@
       "Akció",
       "Western"
     ],
-    "seeders": 367
+    "seeders": 261
+  },
+  {
+    "id": "tt0108167",
+    "type": "movie",
+    "name": "Dohányzó / Nem dohányzó",
+    "poster": "https://image.tmdb.org/t/p/w500/ubJEj8iiitB9MFC5ZDOqIsu3vrf.jpg",
+    "posterShape": "poster",
+    "year": 1993,
+    "description": "Egy átlagos angliai faluban vagyunk. Megismerjük a helyi iskola igazgatóját és helyettesét, a feleségét és annak apját, valamint legjobb barátját és annak feleségét, aki imád squashozni. Mindenki ezen a furcsa szokáson ámul a faluban. Az igazgató felesége talál egy doboz cigit. Vajon ellen tud állni a kísértésnek?",
+    "imdbRating": 6.5,
+    "releaseInfo": "1993",
+    "genres": [
+      "Dráma",
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 38
+  },
+  {
+    "id": "tt0081055",
+    "type": "movie",
+    "name": "Villanás a víz felett",
+    "poster": "https://image.tmdb.org/t/p/w500/dFIaPUhcHCx51kEHfwWoBBgtLg0.jpg",
+    "posterShape": "poster",
+    "year": 1980,
+    "description": "Wim Wendersnek ez a különös és megrázó portréfilmje közeli barátjának, a nagy magányos amerikai rendező-színésznek, Nicholas Ray-nek állít emléket. Barátságuk az \"Amerikai barát\" forgatásához köthető. A \"Villanás a víz felett\" készítésekor Nicholas Ray már súlyos beteg volt, s Wenders eredetileg csak a film befejezésében akart segíteni barátjának. A betegség előrehaladottsága miatt azonban ehelyett Nicholas Ray halálát \"dokumentálta\".Egyfajta furcsa cinema veritét láthatunk, mely megmutatat egy rákbeteg embert, aki a \"szemünk láttára\" hal meg.",
+    "imdbRating": 6.6,
+    "releaseInfo": "1980",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 33
   },
   {
     "id": "tt30343021",
@@ -191,7 +256,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 360
+    "seeders": 254
   },
   {
     "id": "tt4712810",
@@ -208,7 +273,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1005
+    "seeders": 671
   },
   {
     "id": "tt2005151",
@@ -225,7 +290,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 76
+    "seeders": 61
   },
   {
     "id": "tt33474179",
@@ -235,13 +300,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
-    "imdbRating": 6.1,
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Dráma"
     ],
-    "seeders": 251
+    "seeders": 164
   },
   {
     "id": "tt29780866",
@@ -258,7 +323,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 695
+    "seeders": 448
+  },
+  {
+    "id": "tt30813817",
+    "type": "movie",
+    "name": "We Were Dangerous",
+    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 96
   },
   {
     "id": "tt33028778",
@@ -268,45 +348,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.7,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "seeders": 902
-  },
-  {
-    "id": "tt0892255",
-    "type": "movie",
-    "name": "Che - Az argentin",
-    "poster": "https://image.tmdb.org/t/p/w500/zLD6pav23TElrZEXK0iQ90VYnVj.jpg",
-    "posterShape": "poster",
-    "year": 2008,
-    "description": "Che Guevara neve negyven évvel halála után is élénken él a köztudatban, talán összes kortársánál pontosabban személyesíti meg a hatvanas évek forradalmi hangulatát. Világméretű márkanév lett, arcképe ott figyel minden sarkon: fiatal, jóképű és idealista, az elnyomottak bajnoka - egyfajta ikon, sokak álmainak, reményeinek megtestesítője. Életrajzi filmje két részből épül fel, egymásra vetítve Che pályafutásának két szakaszát: az első rész az 1955 és 1962 közötti eseményeket eleveníti fel, a küzdelmet Batista diktatúrája ellen, aprólékos részletességgel bemutatva azt a kimerítő gerillaháborút, amit Castro és Che Guevara a kubai vidéken folytatott, mielőtt dicsőségesen bevonultak Havannába.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2008",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
-    ],
-    "seeders": 77
-  },
-  {
-    "id": "tt0065138",
-    "type": "movie",
-    "name": "Sirokkó",
-    "poster": "https://image.tmdb.org/t/p/w500/pz3HpalL7x4SYSVGpwkoUNHwQXH.jpg",
-    "posterShape": "poster",
-    "year": 1969,
-    "description": "1930 eleje. Horvátországban szervezkednek a nacionalisták. Merényleteket követnek el szerb politikusok ellen, hazájuk szabadságáért küzdenek. Egy ilyen politikai gyilkosság után \"nemzeti hősüket\", Marko Lazart Magyarországra szöktetik...",
-    "imdbRating": 7.1,
-    "releaseInfo": "1969",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 67
+    "seeders": 520
   },
   {
     "id": "tt2267968",
@@ -325,7 +373,39 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 58
+    "seeders": 49
+  },
+  {
+    "id": "tt0892255",
+    "type": "movie",
+    "name": "Che - Az argentin",
+    "poster": "https://image.tmdb.org/t/p/w500/zLD6pav23TElrZEXK0iQ90VYnVj.jpg",
+    "posterShape": "poster",
+    "year": 2008,
+    "description": "Che Guevara neve negyven évvel halála után is élénken él a köztudatban, talán összes kortársánál pontosabban személyesíti meg a hatvanas évek forradalmi hangulatát. Világméretű márkanév lett, arcképe ott figyel minden sarkon: fiatal, jóképű és idealista, az elnyomottak bajnoka - egyfajta ikon, sokak álmainak, reményeinek megtestesítője. Életrajzi filmje két részből épül fel, egymásra vetítve Che pályafutásának két szakaszát: az első rész az 1955 és 1962 közötti eseményeket eleveníti fel, a küzdelmet Batista diktatúrája ellen, aprólékos részletességgel bemutatva azt a kimerítő gerillaháborút, amit Castro és Che Guevara a kubai vidéken folytatott, mielőtt dicsőségesen bevonultak Havannába.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2008",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Háborús"
+    ],
+    "seeders": 53
+  },
+  {
+    "id": "tt0065138",
+    "type": "movie",
+    "name": "Sirokkó",
+    "poster": "https://image.tmdb.org/t/p/w500/pz3HpalL7x4SYSVGpwkoUNHwQXH.jpg",
+    "posterShape": "poster",
+    "year": 1969,
+    "description": "1930 eleje. Horvátországban szervezkednek a nacionalisták. Merényleteket követnek el szerb politikusok ellen, hazájuk szabadságáért küzdenek. Egy ilyen politikai gyilkosság után \"nemzeti hősüket\", Marko Lazart Magyarországra szöktetik...",
+    "imdbRating": 7.1,
+    "releaseInfo": "1969",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 50
   },
   {
     "id": "tt2180499",
@@ -340,22 +420,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 58
-  },
-  {
-    "id": "tt30813817",
-    "type": "movie",
-    "name": "We Were Dangerous",
-    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 112
+    "seeders": 41
   },
   {
     "id": "tt0115822",
@@ -371,7 +436,23 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 54
+    "seeders": 41
+  },
+  {
+    "id": "tt0094738",
+    "type": "movie",
+    "name": "The Big Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/rzt0fIh8uDs2CHl72veOFAd6NGV.jpg",
+    "posterShape": "poster",
+    "year": 1988,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "1988",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 45
   },
   {
     "id": "tt0445620",
@@ -389,39 +470,7 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 84
-  },
-  {
-    "id": "tt2396431",
-    "type": "movie",
-    "name": "Kedves Télapó",
-    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 366
-  },
-  {
-    "id": "tt0094738",
-    "type": "movie",
-    "name": "The Big Blue",
-    "poster": "https://image.tmdb.org/t/p/w500/rzt0fIh8uDs2CHl72veOFAd6NGV.jpg",
-    "posterShape": "poster",
-    "year": 1988,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "1988",
-    "genres": [
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 55
+    "seeders": 61
   },
   {
     "id": "tt26593219",
@@ -438,57 +487,6 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 159
-  },
-  {
-    "id": "tt0060637",
-    "type": "movie",
-    "name": "Elveszett dicsőség",
-    "poster": "https://image.tmdb.org/t/p/w500/tQbHvVEYBztTpxg6juPspxJEMFN.jpg",
-    "posterShape": "poster",
-    "year": 1966,
-    "description": "Raspeguy alezredest parancsmegtagadással és csempészéssel vádolják felettesei, ám befolyásos szerelme közbenjárásának köszönhetően kap még egy lehetőséget: ejtőernyősökből álló ezrede élén a függetlenségéért harcoló Algériába vezénylik. A kibontakozó algériai fegyveres ellenállás azonban, ha lehet, minden eddiginél nagyobb próbatétel elé állítja katonáit...",
-    "imdbRating": 6.1,
-    "releaseInfo": "1966",
-    "genres": [
-      "Akció",
-      "Háborús"
-    ],
-    "seeders": 38
-  },
-  {
-    "id": "tt0110882",
-    "type": "movie",
-    "name": "Eső előtt",
-    "poster": "https://image.tmdb.org/t/p/w500/mh2CazlmBITtnkLzFj6wCMIRHMM.jpg",
-    "posterShape": "poster",
-    "year": 1994,
-    "description": "A film a balkáni etnikai-vallási konfliktusok drámai erejű, balladai szépségű ábrázolása. Jelen esetben a macedónok és a Macedóniában élő albánok közötti évszázados ellentétekről van szó. A film három, egymással összefüggő történetből áll.",
-    "imdbRating": 7.4,
-    "releaseInfo": "1994",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 57
-  },
-  {
-    "id": "tt0384819",
-    "type": "movie",
-    "name": "Azumi",
-    "poster": "https://image.tmdb.org/t/p/w500/iSdq4sYxN7B8nD41VIhADlhJ5z0.jpg",
-    "posterShape": "poster",
-    "year": 2003,
-    "description": "Azumi kislánykorába jutott árvaságra. Egy különös mester fogadta magához, a keze alatt lévő tíz gyereket orgyilkosokká képezte ki. Közülük Azumi és Nachi volt a legtehetségesebb, a végső próbát is teljesítették. A tanulás végeztével tudományukat bérbe adják annak, aki a legtöbbet fizet. Hadurakat, befolyásos személyeket ölnek, mikor mire bérelik fel őket. Munkájuk során számos nehézséggel kell szembenézniük, egyik társukat halálra sebzi egy nindzsa mérgezett pengéje, egy másik szerelmes lesz egy cirkuszi előadóba. Az egyik hadúr pedig le akar számolni a csapattal.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2003",
-    "genres": [
-      "Kaland",
-      "Dráma",
-      "Akció",
-      "Thriller",
-      "Romantikus"
-    ],
-    "seeders": 61
+    "seeders": 116
   }
 ]
