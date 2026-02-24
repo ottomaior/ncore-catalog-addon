@@ -14,7 +14,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3332
+    "seeders": 3884
   },
   {
     "id": "tt33057274",
@@ -29,7 +29,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 91
+    "seeders": 114
   },
   {
     "id": "tt0091495",
@@ -45,40 +45,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt0428856",
-    "type": "movie",
-    "name": "A bajusz",
-    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2005",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 80
-  },
-  {
-    "id": "tt0073169",
-    "type": "movie",
-    "name": "Piszkoskezű Ártatlanok",
-    "poster": "https://image.tmdb.org/t/p/w500/p9fhSuSfr7ZF7MsvdL7gLHdkDTX.jpg",
-    "posterShape": "poster",
-    "year": 1975,
-    "description": "Saint Tropez, 1975. Julie Wormser és a szeretője, az író elhatározzák, hogy meggyilkolják az asszony impotens, ámde nagyon gazdag férjét. Az asszony leüti a férfit, majd elmegy hazulról, a terv többi részét szeretőjére, Jeff Marle-ra bízza. Másnap, amikor visszatér otthonukba, az asszony sem a férjét, sem a szeretőjét nem találja. Fogalma sincs, mi történt távozása után, de a környezet szemében egyre gyanúsabbá válik. Ráadásul a bankban felvilágosítják, hogy az incidens előtti napon a férje az összes pénzüket és valamennyi értéküket magához vette.",
-    "imdbRating": 6.2,
-    "releaseInfo": "1975",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 69
+    "seeders": 97
   },
   {
     "id": "tt28793125",
@@ -95,40 +62,40 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 483
+    "seeders": 522
   },
   {
-    "id": "tt0090180",
+    "id": "tt0428856",
     "type": "movie",
-    "name": "Élni és meghalni Los Angelesben",
-    "poster": "https://image.tmdb.org/t/p/w500/gPoCCBHtkQ8kD8LSYOsTayWNjE1.jpg",
+    "name": "A bajusz",
+    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
     "posterShape": "poster",
-    "year": 1985,
-    "description": "Rick, azaz \"becsületes\" nevén Eric Masters a pénzhamisítás fortélyainak zsenije, aki már jó ideje űzi sötét mesterségét. Ráadásul a busás haszon reményében attól sem riad vissza, hogy gyilkoljon, legyen szó akár ellenfeleiről, akár bűntársairól. A bűnöző, aki már jó ideje folytat macska-egér játékot a törvénnyel, és eddig mindig sikerült kereket oldania, most embereire akad. Két mindenre elszánt üldöző: Chance és Vukovich szövetségi ügynök liheg vérebként a nyomában, s kezdetét veszi a halálos fogócska a velejéig romlott hamisító és a két bosszúra szomjas nyomozó között.",
-    "imdbRating": 7.1,
-    "releaseInfo": "1985",
+    "year": 2005,
+    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2005",
     "genres": [
-      "Bűnügyi",
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 96
+  },
+  {
+    "id": "tt0073169",
+    "type": "movie",
+    "name": "Piszkoskezű Ártatlanok",
+    "poster": "https://image.tmdb.org/t/p/w500/p9fhSuSfr7ZF7MsvdL7gLHdkDTX.jpg",
+    "posterShape": "poster",
+    "year": 1975,
+    "description": "Saint Tropez, 1975. Julie Wormser és a szeretője, az író elhatározzák, hogy meggyilkolják az asszony impotens, ámde nagyon gazdag férjét. Az asszony leüti a férfit, majd elmegy hazulról, a terv többi részét szeretőjére, Jeff Marle-ra bízza. Másnap, amikor visszatér otthonukba, az asszony sem a férjét, sem a szeretőjét nem találja. Fogalma sincs, mi történt távozása után, de a környezet szemében egyre gyanúsabbá válik. Ráadásul a bankban felvilágosítják, hogy az incidens előtti napon a férje az összes pénzüket és valamennyi értéküket magához vette.",
+    "imdbRating": 6.2,
+    "releaseInfo": "1975",
+    "genres": [
       "Thriller",
-      "Akció"
+      "Bűnügyi",
+      "Dráma"
     ],
-    "seeders": 36
-  },
-  {
-    "id": "tt0059825",
-    "type": "movie",
-    "name": "A vonat",
-    "poster": "https://image.tmdb.org/t/p/w500/Y6IZkSl08B9Am1sMQ9pnMIj013.jpg",
-    "posterShape": "poster",
-    "year": 1964,
-    "description": "A megtörtént eseményeken alapuló film 1944-ben játszódik Franciaországban. A szövetségesek partraszállása után a németek Párizs evakuálására készülnek. A művészetrajongó Von Waldheim ezredes Németországba akarja szállítani a francia impresszionisták remekműveit is. A Jeu de Pomme múzeum kurátora kétségbeesésében a francia antifasiszta ellenállók segítségét kéri a felbecsülhetetlen értékű műkincsek megmentéséhez. Könyörög, hogy a szövetségesek megérkezéséig próbálják késleltetni a rakomány útnak indítását. De a \"franciák büszkeségeit\" szállító vonat, ha némi késedelemmel is, elindul Németország felé.",
-    "imdbRating": 7.6,
-    "releaseInfo": "1964",
-    "genres": [
-      "Háborús",
-      "Thriller"
-    ],
-    "seeders": 32
+    "seeders": 90
   },
   {
     "id": "tt27721490",
@@ -145,22 +112,7 @@
       "Akció",
       "Western"
     ],
-    "seeders": 281
-  },
-  {
-    "id": "tt0051964",
-    "type": "movie",
-    "name": "Lányok egyenruhában",
-    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
-    "posterShape": "poster",
-    "year": 1958,
-    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
-    "imdbRating": 6.1,
-    "releaseInfo": "1958",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 53
+    "seeders": 317
   },
   {
     "id": "tt30343021",
@@ -170,44 +122,14 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
-    "imdbRating": 7.5,
+    "imdbRating": 7.4,
     "releaseInfo": "2025",
     "genres": [
       "Zenei",
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 285
-  },
-  {
-    "id": "tt1008017",
-    "type": "movie",
-    "name": "Halál Palermóban",
-    "poster": "https://image.tmdb.org/t/p/w500/6iT1P0lpEaH3DdYujH8vJDhQbPw.jpg",
-    "posterShape": "poster",
-    "year": 2008,
-    "description": "Finn, a menő fotós zaklatott életet él Düsseldorfban, a Rajna-menti nagyvárosban. Az éjszakái nyugtalanul telnek, a mobilja sosincs kikapcsolva, a fejhallgatójából állandóan bömböl a zene. Azután egy napon, divatfotózás során olyan esemény történik, ami arra készteti, hogy átgondolja, átértékelje egész addigi életét. Olaszországba, Palermóba utazik, hogy elszakadjon régi önmagától és végleg lezárja a múltját. A városban találkozik egy lánnyal, Flaviával és ez a találkozás új reményt, új életet jelent számára. Előtte azonban még szembe kell néznie a halállal.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2008",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 45
-  },
-  {
-    "id": "tt0078763",
-    "type": "movie",
-    "name": "Amatőr",
-    "poster": "https://image.tmdb.org/t/p/w500/pDh0YMJQqVV1nuBRnkQbIg911Xw.jpg",
-    "posterShape": "poster",
-    "year": 1979,
-    "description": "Filip életében végre bekövetkezik a régen várt nagy esemény: kislánya születik. Az újdonsült apa vásárol egy szuper 8-as filmfelvevő kamerát, ezzel szeretné megörökíteni a kislány életének kedves pillanatait. Mikor filmezési hobbija közismertté válik, azt a feladatot kapja igazgatójától, hogy készítsen filmfelvételt a vállalat jubileumi ünnepségéről. A botcsinálta operatőr először tétován fogadja a megbízást, majd percről percre egyre inkább szenvedélyévé válik a filmezés, az események rögzítése. Ez aztán addigi életét teljesen megváltoztatja. A felvett anyagot azonban az igazgató utasítására meg kell vágni... (port.hu)",
-    "imdbRating": 7.5,
-    "releaseInfo": "1979",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 44
+    "seeders": 307
   },
   {
     "id": "tt4712810",
@@ -224,7 +146,151 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 723
+    "seeders": 827
+  },
+  {
+    "id": "tt0051964",
+    "type": "movie",
+    "name": "Lányok egyenruhában",
+    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
+    "posterShape": "poster",
+    "year": 1958,
+    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
+    "imdbRating": 6.1,
+    "releaseInfo": "1958",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 58
+  },
+  {
+    "id": "tt0090180",
+    "type": "movie",
+    "name": "Élni és meghalni Los Angelesben",
+    "poster": "https://image.tmdb.org/t/p/w500/gPoCCBHtkQ8kD8LSYOsTayWNjE1.jpg",
+    "posterShape": "poster",
+    "year": 1985,
+    "description": "Rick, azaz \"becsületes\" nevén Eric Masters a pénzhamisítás fortélyainak zsenije, aki már jó ideje űzi sötét mesterségét. Ráadásul a busás haszon reményében attól sem riad vissza, hogy gyilkoljon, legyen szó akár ellenfeleiről, akár bűntársairól. A bűnöző, aki már jó ideje folytat macska-egér játékot a törvénnyel, és eddig mindig sikerült kereket oldania, most embereire akad. Két mindenre elszánt üldöző: Chance és Vukovich szövetségi ügynök liheg vérebként a nyomában, s kezdetét veszi a halálos fogócska a velejéig romlott hamisító és a két bosszúra szomjas nyomozó között.",
+    "imdbRating": 7.1,
+    "releaseInfo": "1985",
+    "genres": [
+      "Bűnügyi",
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 40
+  },
+  {
+    "id": "tt0059825",
+    "type": "movie",
+    "name": "A vonat",
+    "poster": "https://image.tmdb.org/t/p/w500/Y6IZkSl08B9Am1sMQ9pnMIj013.jpg",
+    "posterShape": "poster",
+    "year": 1964,
+    "description": "A megtörtént eseményeken alapuló film 1944-ben játszódik Franciaországban. A szövetségesek partraszállása után a németek Párizs evakuálására készülnek. A művészetrajongó Von Waldheim ezredes Németországba akarja szállítani a francia impresszionisták remekműveit is. A Jeu de Pomme múzeum kurátora kétségbeesésében a francia antifasiszta ellenállók segítségét kéri a felbecsülhetetlen értékű műkincsek megmentéséhez. Könyörög, hogy a szövetségesek megérkezéséig próbálják késleltetni a rakomány útnak indítását. De a \"franciák büszkeségeit\" szállító vonat, ha némi késedelemmel is, elindul Németország felé.",
+    "imdbRating": 7.6,
+    "releaseInfo": "1964",
+    "genres": [
+      "Háborús",
+      "Thriller"
+    ],
+    "seeders": 35
+  },
+  {
+    "id": "tt0078763",
+    "type": "movie",
+    "name": "Amatőr",
+    "poster": "https://image.tmdb.org/t/p/w500/pDh0YMJQqVV1nuBRnkQbIg911Xw.jpg",
+    "posterShape": "poster",
+    "year": 1979,
+    "description": "Filip életében végre bekövetkezik a régen várt nagy esemény: kislánya születik. Az újdonsült apa vásárol egy szuper 8-as filmfelvevő kamerát, ezzel szeretné megörökíteni a kislány életének kedves pillanatait. Mikor filmezési hobbija közismertté válik, azt a feladatot kapja igazgatójától, hogy készítsen filmfelvételt a vállalat jubileumi ünnepségéről. A botcsinálta operatőr először tétován fogadja a megbízást, majd percről percre egyre inkább szenvedélyévé válik a filmezés, az események rögzítése. Ez aztán addigi életét teljesen megváltoztatja. A felvett anyagot azonban az igazgató utasítására meg kell vágni... (port.hu)",
+    "imdbRating": 7.5,
+    "releaseInfo": "1979",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 52
+  },
+  {
+    "id": "tt29780866",
+    "type": "movie",
+    "name": "Icefall – Tűz a jégen",
+    "poster": "https://image.tmdb.org/t/p/w500/wRGkBjN3ICFHAiIqEQpse2PNxVN.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Harlan (Joel Kinnaman), egy leszerelt deszantos, a modern világtól való teljes elzárkózásban talál menedéket: a hideg, végtelen pusztaság magányába vonul vissza Amerika északi részén, egy indián rezervátum elhagyatott tájain. Nem akar emberekkel találkozni, senkire sem támaszkodni – talán épp a múltja árnyai elől menekül. A világ azonban hamar utoléri. Egy nap rejtélyes módon lezuhant repülőgépre bukkan, tele milliókkal. A kísértésnek nehéz ellenállni – még nehezebb megtartani. Harlant elkapják, amikor Ani, a park fegyveres őreként szolgáló őslakos nő ráakad, és letartóztatja. Éppen bevinni készül a központba, amikor megjelenik a gép tulajdonosait képviselő csempészbanda – évek óta híján voltak a pénznek, és most követelik. Ani és Harlan kénytelenek félretenni a köztük lévő ellentétet. Összefognak, hogy túléljék a kegyetlen, fagyos tájat – és hogy megszerezzék a lezuhant vagyont önmaguknak.  (Csillag Lajos)",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 571
+  },
+  {
+    "id": "tt1008017",
+    "type": "movie",
+    "name": "Halál Palermóban",
+    "poster": "https://image.tmdb.org/t/p/w500/6iT1P0lpEaH3DdYujH8vJDhQbPw.jpg",
+    "posterShape": "poster",
+    "year": 2008,
+    "description": "Finn, a menő fotós zaklatott életet él Düsseldorfban, a Rajna-menti nagyvárosban. Az éjszakái nyugtalanul telnek, a mobilja sosincs kikapcsolva, a fejhallgatójából állandóan bömböl a zene. Azután egy napon, divatfotózás során olyan esemény történik, ami arra készteti, hogy átgondolja, átértékelje egész addigi életét. Olaszországba, Palermóba utazik, hogy elszakadjon régi önmagától és végleg lezárja a múltját. A városban találkozik egy lánnyal, Flaviával és ez a találkozás új reményt, új életet jelent számára. Előtte azonban még szembe kell néznie a halállal.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2008",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 50
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 697
+  },
+  {
+    "id": "tt2005151",
+    "type": "movie",
+    "name": "Haverok fegyverben",
+    "poster": "https://image.tmdb.org/t/p/w500/3AiFSy3lbcxxhzShaLzHF3SLotd.jpg",
+    "posterShape": "poster",
+    "year": 2016,
+    "description": "Ne légy szerény! Ez az üzleti világ alapszabálya. Efraim Diveroli és David Packouz ugyan semmit nem tud sem szabályokról sem az üzleti világról – lepukkant kis szobában élnek Miamiban, és napjuk nagy részét különféle füvek szívásával töltik –, de amikor meghökkentő módon az ölükbe pottyan a szerencse, nem mondanak nemet: és hamarosan aláírnak egy háromszáz millió dolláros szerződést a Védelmi Minisztériummal. Vállalják, hogy fegyvert és muníciót szállítsanak Afganisztánba az USA szövetségeseinek. Nem csináltak még ilyet soha, ennyi pénzről még csak álmodni sem mertek, de igent mondanak – és igyekeznek a lehető legtöbbet kihozni a helyzetből, amivel elképesztő bonyodalmakba keverik magukat. Orosz fegyverkereskedők, albán gengszterek, washingtoni politikusok, egy svájci külkereskedő keringenek körülöttük… Miami Beachtől az iraki-afgán határig ver hullámokat ez a szélhámosság.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2016",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 80
+  },
+  {
+    "id": "tt33474179",
+    "type": "movie",
+    "name": "Lángok közt",
+    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 191
   },
   {
     "id": "tt0047024",
@@ -241,7 +307,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 40
+    "seeders": 43
   },
   {
     "id": "tt0108167",
@@ -273,73 +339,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 34
-  },
-  {
-    "id": "tt29780866",
-    "type": "movie",
-    "name": "Icefall – Tűz a jégen",
-    "poster": "https://image.tmdb.org/t/p/w500/wRGkBjN3ICFHAiIqEQpse2PNxVN.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Harlan (Joel Kinnaman), egy leszerelt deszantos, a modern világtól való teljes elzárkózásban talál menedéket: a hideg, végtelen pusztaság magányába vonul vissza Amerika északi részén, egy indián rezervátum elhagyatott tájain. Nem akar emberekkel találkozni, senkire sem támaszkodni – talán épp a múltja árnyai elől menekül. A világ azonban hamar utoléri. Egy nap rejtélyes módon lezuhant repülőgépre bukkan, tele milliókkal. A kísértésnek nehéz ellenállni – még nehezebb megtartani. Harlant elkapják, amikor Ani, a park fegyveres őreként szolgáló őslakos nő ráakad, és letartóztatja. Éppen bevinni készül a központba, amikor megjelenik a gép tulajdonosait képviselő csempészbanda – évek óta híján voltak a pénznek, és most követelik. Ani és Harlan kénytelenek félretenni a köztük lévő ellentétet. Összefognak, hogy túléljék a kegyetlen, fagyos tájat – és hogy megszerezzék a lezuhant vagyont önmaguknak.  (Csillag Lajos)",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 518
-  },
-  {
-    "id": "tt33474179",
-    "type": "movie",
-    "name": "Lángok közt",
-    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 187
-  },
-  {
-    "id": "tt2005151",
-    "type": "movie",
-    "name": "Haverok fegyverben",
-    "poster": "https://image.tmdb.org/t/p/w500/3AiFSy3lbcxxhzShaLzHF3SLotd.jpg",
-    "posterShape": "poster",
-    "year": 2016,
-    "description": "Ne légy szerény! Ez az üzleti világ alapszabálya. Efraim Diveroli és David Packouz ugyan semmit nem tud sem szabályokról sem az üzleti világról – lepukkant kis szobában élnek Miamiban, és napjuk nagy részét különféle füvek szívásával töltik –, de amikor meghökkentő módon az ölükbe pottyan a szerencse, nem mondanak nemet: és hamarosan aláírnak egy háromszáz millió dolláros szerződést a Védelmi Minisztériummal. Vállalják, hogy fegyvert és muníciót szállítsanak Afganisztánba az USA szövetségeseinek. Nem csináltak még ilyet soha, ennyi pénzről még csak álmodni sem mertek, de igent mondanak – és igyekeznek a lehető legtöbbet kihozni a helyzetből, amivel elképesztő bonyodalmakba keverik magukat. Orosz fegyverkereskedők, albán gengszterek, washingtoni politikusok, egy svájci külkereskedő keringenek körülöttük… Miami Beachtől az iraki-afgán határig ver hullámokat ez a szélhámosság.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2016",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 70
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 598
+    "seeders": 35
   },
   {
     "id": "tt0892255",
@@ -356,7 +356,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 67
+    "seeders": 68
   },
   {
     "id": "tt30813817",
@@ -371,7 +371,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 98
+    "seeders": 101
   },
   {
     "id": "tt0065138",
@@ -386,7 +386,38 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 57
+    "seeders": 64
+  },
+  {
+    "id": "tt2396431",
+    "type": "movie",
+    "name": "Kedves Télapó",
+    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2024",
+    "genres": [
+      "Vígjáték",
+      "Fantasy"
+    ],
+    "seeders": 286
+  },
+  {
+    "id": "tt2180499",
+    "type": "movie",
+    "name": "Vérbosszú",
+    "poster": "https://image.tmdb.org/t/p/w500/b9jUVOQsy0xVxbWyQUOC1X9g1vF.jpg",
+    "posterShape": "poster",
+    "year": 1990,
+    "description": "Egy hongkongi maffiafőnököt megöl egy rivális banda, így az üzletet a lánya veszi át. Amikor a banda az esküvője napján újabb vérengzést követ el, a lány bosszút esküszik.",
+    "imdbRating": 6.6,
+    "releaseInfo": "1990",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 54
   },
   {
     "id": "tt2267968",
@@ -405,23 +436,24 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 49
+    "seeders": 52
   },
   {
-    "id": "tt0115822",
+    "id": "tt26593219",
     "type": "movie",
-    "name": "Conan kapitány",
-    "poster": "https://image.tmdb.org/t/p/w500/neS5iGkytFcFtH2cTCyg9AC9NG1.jpg",
+    "name": "Fotó a múltból",
+    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
     "posterShape": "poster",
-    "year": 1996,
-    "description": "1918 végén a háború a végéhez közeledik, ám a Balkánon Conan kapitány különleges egysége még mindig teljes harckészültségben áll. A bátor, de kegyetlen Conanra a háború nincs különösebb hatással. A vérontást a harc természetes velejárójának tekinti. Beosztottjai egytől egyig brutális, harcedzett katonák. A semmittevésbe beleunt szakasz szórakozás gyanánt kirabol egy bukaresti klubot, két ember halálát okozva ezzel. A beköszönő béke időszakában ezt már nem úszhatják meg komoly következmények nélkül: Conan ellen eljárás indul, melyet barátja, Norbert hadnagy vezet.",
-    "imdbRating": 6.6,
-    "releaseInfo": "1996",
+    "year": 2023,
+    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
     "genres": [
-      "Dráma",
-      "Háborús"
+      "TV film",
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 48
+    "seeders": 138
   },
   {
     "id": "tt0445620",
@@ -439,54 +471,22 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 69
+    "seeders": 71
   },
   {
-    "id": "tt2180499",
+    "id": "tt0115822",
     "type": "movie",
-    "name": "Vérbosszú",
-    "poster": "https://image.tmdb.org/t/p/w500/b9jUVOQsy0xVxbWyQUOC1X9g1vF.jpg",
+    "name": "Conan kapitány",
+    "poster": "https://image.tmdb.org/t/p/w500/neS5iGkytFcFtH2cTCyg9AC9NG1.jpg",
     "posterShape": "poster",
-    "year": 1990,
-    "description": "Egy hongkongi maffiafőnököt megöl egy rivális banda, így az üzletet a lánya veszi át. Amikor a banda az esküvője napján újabb vérengzést követ el, a lány bosszút esküszik.",
+    "year": 1996,
+    "description": "1918 végén a háború a végéhez közeledik, ám a Balkánon Conan kapitány különleges egysége még mindig teljes harckészültségben áll. A bátor, de kegyetlen Conanra a háború nincs különösebb hatással. A vérontást a harc természetes velejárójának tekinti. Beosztottjai egytől egyig brutális, harcedzett katonák. A semmittevésbe beleunt szakasz szórakozás gyanánt kirabol egy bukaresti klubot, két ember halálát okozva ezzel. A beköszönő béke időszakában ezt már nem úszhatják meg komoly következmények nélkül: Conan ellen eljárás indul, melyet barátja, Norbert hadnagy vezet.",
     "imdbRating": 6.6,
-    "releaseInfo": "1990",
+    "releaseInfo": "1996",
     "genres": [
-      "Akció"
+      "Dráma",
+      "Háborús"
     ],
-    "seeders": 44
-  },
-  {
-    "id": "tt2396431",
-    "type": "movie",
-    "name": "Kedves Télapó",
-    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 254
-  },
-  {
-    "id": "tt26593219",
-    "type": "movie",
-    "name": "Fotó a múltból",
-    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
-    "genres": [
-      "TV film",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 124
+    "seeders": 50
   }
 ]
