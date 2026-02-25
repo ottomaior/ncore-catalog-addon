@@ -1,35 +1,19 @@
 [
   {
-    "id": "tt32332404",
-    "type": "movie",
-    "name": "Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/mbGHijUc0C3fcM12l6ro6FgxIvg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 201
-  },
-  {
     "id": "tt20990442",
     "type": "movie",
-    "name": "HIM",
+    "name": "Csúcs",
     "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.8,
+    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
+    "imdbRating": 5.7,
     "releaseInfo": "2025",
     "genres": [
       "Horror",
       "Rejtély"
     ],
-    "seeders": 191
+    "seeders": 178
   },
   {
     "id": "tt31050594",
@@ -46,7 +30,40 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 5049
+    "seeders": 2944
+  },
+  {
+    "id": "tt32332404",
+    "type": "movie",
+    "name": "Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/mbGHijUc0C3fcM12l6ro6FgxIvg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 161
+  },
+  {
+    "id": "tt0046359",
+    "type": "movie",
+    "name": "A 17-es fogolytábor",
+    "poster": "https://image.tmdb.org/t/p/w500/kwRBd6P8ubynU1p1eHGIcGb2557.jpg",
+    "posterShape": "poster",
+    "year": 1953,
+    "description": "A második világháború alatt egy csapat amerikai katona kerül össze a hírhedt német 17-es fogolytáborban, a Stalag 17-ben. Többnyire azzal töltik az idejüket, hogy azon mesterkednek, hogyan segíthetnének egymásnak megszökni. De amikor két rabot megölnek egy szökési kísérlet közben, nyilvánvalóvá válik, hogy spicli van közöttük.  William Holden Oscar-díjat kapott a cinikus, éles nyelvű katona alakításáért, aki azzal tölti az idejét, hogy svindliket eszel ki, és különleges előjogokért seftel a németekkel.",
+    "imdbRating": 7.7,
+    "releaseInfo": "1953",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 29
   },
   {
     "id": "tt33057274",
@@ -61,7 +78,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 150
+    "seeders": 128
   },
   {
     "id": "tt28793125",
@@ -71,14 +88,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
-    "imdbRating": 8.0,
+    "imdbRating": 7.9,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 627
+    "seeders": 427
   },
   {
     "id": "tt0091495",
@@ -94,23 +111,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 113
-  },
-  {
-    "id": "tt0428856",
-    "type": "movie",
-    "name": "A bajusz",
-    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2005",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 118
+    "seeders": 81
   },
   {
     "id": "tt27721490",
@@ -127,41 +128,23 @@
       "Akció",
       "Western"
     ],
-    "seeders": 349
+    "seeders": 242
   },
   {
-    "id": "tt0073169",
+    "id": "tt0428856",
     "type": "movie",
-    "name": "Piszkoskezű Ártatlanok",
-    "poster": "https://image.tmdb.org/t/p/w500/p9fhSuSfr7ZF7MsvdL7gLHdkDTX.jpg",
+    "name": "A bajusz",
+    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
     "posterShape": "poster",
-    "year": 1975,
-    "description": "Saint Tropez, 1975. Julie Wormser és a szeretője, az író elhatározzák, hogy meggyilkolják az asszony impotens, ámde nagyon gazdag férjét. Az asszony leüti a férfit, majd elmegy hazulról, a terv többi részét szeretőjére, Jeff Marle-ra bízza. Másnap, amikor visszatér otthonukba, az asszony sem a férjét, sem a szeretőjét nem találja. Fogalma sincs, mi történt távozása után, de a környezet szemében egyre gyanúsabbá válik. Ráadásul a bankban felvilágosítják, hogy az incidens előtti napon a férje az összes pénzüket és valamennyi értéküket magához vette.",
-    "imdbRating": 6.2,
-    "releaseInfo": "1975",
+    "year": 2005,
+    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2005",
     "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 100
-  },
-  {
-    "id": "tt4712810",
-    "type": "movie",
-    "name": "Szemfényvesztők 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
+      "Dráma",
       "Rejtély"
     ],
-    "seeders": 997
+    "seeders": 85
   },
   {
     "id": "tt30343021",
@@ -178,38 +161,41 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 364
+    "seeders": 263
   },
   {
-    "id": "tt0051964",
+    "id": "tt4712810",
     "type": "movie",
-    "name": "Lányok egyenruhában",
-    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
+    "name": "Szemfényvesztők 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
     "posterShape": "poster",
-    "year": 1958,
-    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
-    "imdbRating": 6.1,
-    "releaseInfo": "1958",
+    "year": 2025,
+    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
     "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "seeders": 634
+  },
+  {
+    "id": "tt0073169",
+    "type": "movie",
+    "name": "Piszkoskezű Ártatlanok",
+    "poster": "https://image.tmdb.org/t/p/w500/p9fhSuSfr7ZF7MsvdL7gLHdkDTX.jpg",
+    "posterShape": "poster",
+    "year": 1975,
+    "description": "Saint Tropez, 1975. Julie Wormser és a szeretője, az író elhatározzák, hogy meggyilkolják az asszony impotens, ámde nagyon gazdag férjét. Az asszony leüti a férfit, majd elmegy hazulról, a terv többi részét szeretőjére, Jeff Marle-ra bízza. Másnap, amikor visszatér otthonukba, az asszony sem a férjét, sem a szeretőjét nem találja. Fogalma sincs, mi történt távozása után, de a környezet szemében egyre gyanúsabbá válik. Ráadásul a bankban felvilágosítják, hogy az incidens előtti napon a férje az összes pénzüket és valamennyi értéküket magához vette.",
+    "imdbRating": 6.2,
+    "releaseInfo": "1975",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 76
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 867
+    "seeders": 67
   },
   {
     "id": "tt29780866",
@@ -226,7 +212,38 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 660
+    "seeders": 431
+  },
+  {
+    "id": "tt0051964",
+    "type": "movie",
+    "name": "Lányok egyenruhában",
+    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
+    "posterShape": "poster",
+    "year": 1958,
+    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
+    "imdbRating": 6.1,
+    "releaseInfo": "1958",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 55
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 517
   },
   {
     "id": "tt33474179",
@@ -242,7 +259,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 223
+    "seeders": 154
   },
   {
     "id": "tt0078763",
@@ -257,39 +274,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 61
-  },
-  {
-    "id": "tt0090180",
-    "type": "movie",
-    "name": "Élni és meghalni Los Angelesben",
-    "poster": "https://image.tmdb.org/t/p/w500/gPoCCBHtkQ8kD8LSYOsTayWNjE1.jpg",
-    "posterShape": "poster",
-    "year": 1985,
-    "description": "Rick, azaz \"becsületes\" nevén Eric Masters a pénzhamisítás fortélyainak zsenije, aki már jó ideje űzi sötét mesterségét. Ráadásul a busás haszon reményében attól sem riad vissza, hogy gyilkoljon, legyen szó akár ellenfeleiről, akár bűntársairól. A bűnöző, aki már jó ideje folytat macska-egér játékot a törvénnyel, és eddig mindig sikerült kereket oldania, most embereire akad. Két mindenre elszánt üldöző: Chance és Vukovich szövetségi ügynök liheg vérebként a nyomában, s kezdetét veszi a halálos fogócska a velejéig romlott hamisító és a két bosszúra szomjas nyomozó között.",
-    "imdbRating": 7.1,
-    "releaseInfo": "1985",
-    "genres": [
-      "Bűnügyi",
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 41
-  },
-  {
-    "id": "tt1008017",
-    "type": "movie",
-    "name": "Halál Palermóban",
-    "poster": "https://image.tmdb.org/t/p/w500/6iT1P0lpEaH3DdYujH8vJDhQbPw.jpg",
-    "posterShape": "poster",
-    "year": 2008,
-    "description": "Finn, a menő fotós zaklatott életet él Düsseldorfban, a Rajna-menti nagyvárosban. Az éjszakái nyugtalanul telnek, a mobilja sosincs kikapcsolva, a fejhallgatójából állandóan bömböl a zene. Azután egy napon, divatfotózás során olyan esemény történik, ami arra készteti, hogy átgondolja, átértékelje egész addigi életét. Olaszországba, Palermóba utazik, hogy elszakadjon régi önmagától és végleg lezárja a múltját. A városban találkozik egy lánnyal, Flaviával és ez a találkozás új reményt, új életet jelent számára. Előtte azonban még szembe kell néznie a halállal.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2008",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 53
+    "seeders": 50
   },
   {
     "id": "tt0059825",
@@ -305,24 +290,22 @@
       "Háborús",
       "Thriller"
     ],
-    "seeders": 39
+    "seeders": 36
   },
   {
-    "id": "tt2005151",
+    "id": "tt1008017",
     "type": "movie",
-    "name": "Haverok fegyverben",
-    "poster": "https://image.tmdb.org/t/p/w500/3AiFSy3lbcxxhzShaLzHF3SLotd.jpg",
+    "name": "Halál Palermóban",
+    "poster": "https://image.tmdb.org/t/p/w500/6iT1P0lpEaH3DdYujH8vJDhQbPw.jpg",
     "posterShape": "poster",
-    "year": 2016,
-    "description": "Ne légy szerény! Ez az üzleti világ alapszabálya. Efraim Diveroli és David Packouz ugyan semmit nem tud sem szabályokról sem az üzleti világról – lepukkant kis szobában élnek Miamiban, és napjuk nagy részét különféle füvek szívásával töltik –, de amikor meghökkentő módon az ölükbe pottyan a szerencse, nem mondanak nemet: és hamarosan aláírnak egy háromszáz millió dolláros szerződést a Védelmi Minisztériummal. Vállalják, hogy fegyvert és muníciót szállítsanak Afganisztánba az USA szövetségeseinek. Nem csináltak még ilyet soha, ennyi pénzről még csak álmodni sem mertek, de igent mondanak – és igyekeznek a lehető legtöbbet kihozni a helyzetből, amivel elképesztő bonyodalmakba keverik magukat. Orosz fegyverkereskedők, albán gengszterek, washingtoni politikusok, egy svájci külkereskedő keringenek körülöttük… Miami Beachtől az iraki-afgán határig ver hullámokat ez a szélhámosság.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2016",
+    "year": 2008,
+    "description": "Finn, a menő fotós zaklatott életet él Düsseldorfban, a Rajna-menti nagyvárosban. Az éjszakái nyugtalanul telnek, a mobilja sosincs kikapcsolva, a fejhallgatójából állandóan bömböl a zene. Azután egy napon, divatfotózás során olyan esemény történik, ami arra készteti, hogy átgondolja, átértékelje egész addigi életét. Olaszországba, Palermóba utazik, hogy elszakadjon régi önmagától és végleg lezárja a múltját. A városban találkozik egy lánnyal, Flaviával és ez a találkozás új reményt, új életet jelent számára. Előtte azonban még szembe kell néznie a halállal.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2008",
     "genres": [
-      "Vígjáték",
-      "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 82
+    "seeders": 44
   },
   {
     "id": "tt0047024",
@@ -339,7 +322,56 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 47
+    "seeders": 44
+  },
+  {
+    "id": "tt0090180",
+    "type": "movie",
+    "name": "Élni és meghalni Los Angelesben",
+    "poster": "https://image.tmdb.org/t/p/w500/gPoCCBHtkQ8kD8LSYOsTayWNjE1.jpg",
+    "posterShape": "poster",
+    "year": 1985,
+    "description": "Rick, azaz \"becsületes\" nevén Eric Masters a pénzhamisítás fortélyainak zsenije, aki már jó ideje űzi sötét mesterségét. Ráadásul a busás haszon reményében attól sem riad vissza, hogy gyilkoljon, legyen szó akár ellenfeleiről, akár bűntársairól. A bűnöző, aki már jó ideje folytat macska-egér játékot a törvénnyel, és eddig mindig sikerült kereket oldania, most embereire akad. Két mindenre elszánt üldöző: Chance és Vukovich szövetségi ügynök liheg vérebként a nyomában, s kezdetét veszi a halálos fogócska a velejéig romlott hamisító és a két bosszúra szomjas nyomozó között.",
+    "imdbRating": 7.1,
+    "releaseInfo": "1985",
+    "genres": [
+      "Bűnügyi",
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 33
+  },
+  {
+    "id": "tt30813817",
+    "type": "movie",
+    "name": "We Were Dangerous",
+    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 94
+  },
+  {
+    "id": "tt2005151",
+    "type": "movie",
+    "name": "Haverok fegyverben",
+    "poster": "https://image.tmdb.org/t/p/w500/3AiFSy3lbcxxhzShaLzHF3SLotd.jpg",
+    "posterShape": "poster",
+    "year": 2016,
+    "description": "Ne légy szerény! Ez az üzleti világ alapszabálya. Efraim Diveroli és David Packouz ugyan semmit nem tud sem szabályokról sem az üzleti világról – lepukkant kis szobában élnek Miamiban, és napjuk nagy részét különféle füvek szívásával töltik –, de amikor meghökkentő módon az ölükbe pottyan a szerencse, nem mondanak nemet: és hamarosan aláírnak egy háromszáz millió dolláros szerződést a Védelmi Minisztériummal. Vállalják, hogy fegyvert és muníciót szállítsanak Afganisztánba az USA szövetségeseinek. Nem csináltak még ilyet soha, ennyi pénzről még csak álmodni sem mertek, de igent mondanak – és igyekeznek a lehető legtöbbet kihozni a helyzetből, amivel elképesztő bonyodalmakba keverik magukat. Orosz fegyverkereskedők, albán gengszterek, washingtoni politikusok, egy svájci külkereskedő keringenek körülöttük… Miami Beachtől az iraki-afgán határig ver hullámokat ez a szélhámosság.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2016",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt0108167",
@@ -356,7 +388,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 41
+    "seeders": 36
   },
   {
     "id": "tt2396431",
@@ -372,37 +404,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 330
-  },
-  {
-    "id": "tt30813817",
-    "type": "movie",
-    "name": "We Were Dangerous",
-    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 106
-  },
-  {
-    "id": "tt0081055",
-    "type": "movie",
-    "name": "Villanás a víz felett",
-    "poster": "https://image.tmdb.org/t/p/w500/dFIaPUhcHCx51kEHfwWoBBgtLg0.jpg",
-    "posterShape": "poster",
-    "year": 1980,
-    "description": "Wim Wendersnek ez a különös és megrázó portréfilmje közeli barátjának, a nagy magányos amerikai rendező-színésznek, Nicholas Ray-nek állít emléket. Barátságuk az \"Amerikai barát\" forgatásához köthető. A \"Villanás a víz felett\" készítésekor Nicholas Ray már súlyos beteg volt, s Wenders eredetileg csak a film befejezésében akart segíteni barátjának. A betegség előrehaladottsága miatt azonban ehelyett Nicholas Ray halálát \"dokumentálta\".Egyfajta furcsa cinema veritét láthatunk, mely megmutatat egy rákbeteg embert, aki a \"szemünk láttára\" hal meg.",
-    "imdbRating": 6.6,
-    "releaseInfo": "1980",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 37
+    "seeders": 231
   },
   {
     "id": "tt0892255",
@@ -419,24 +421,22 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 65
+    "seeders": 55
   },
   {
-    "id": "tt26593219",
+    "id": "tt0081055",
     "type": "movie",
-    "name": "Fotó a múltból",
-    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
+    "name": "Villanás a víz felett",
+    "poster": "https://image.tmdb.org/t/p/w500/dFIaPUhcHCx51kEHfwWoBBgtLg0.jpg",
     "posterShape": "poster",
-    "year": 2023,
-    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
+    "year": 1980,
+    "description": "Wim Wendersnek ez a különös és megrázó portréfilmje közeli barátjának, a nagy magányos amerikai rendező-színésznek, Nicholas Ray-nek állít emléket. Barátságuk az \"Amerikai barát\" forgatásához köthető. A \"Villanás a víz felett\" készítésekor Nicholas Ray már súlyos beteg volt, s Wenders eredetileg csak a film befejezésében akart segíteni barátjának. A betegség előrehaladottsága miatt azonban ehelyett Nicholas Ray halálát \"dokumentálta\".Egyfajta furcsa cinema veritét láthatunk, mely megmutatat egy rákbeteg embert, aki a \"szemünk láttára\" hal meg.",
+    "imdbRating": 6.6,
+    "releaseInfo": "1980",
     "genres": [
-      "TV film",
-      "Romantikus",
-      "Dráma"
+      "Dokumentum"
     ],
-    "seeders": 145
+    "seeders": 33
   },
   {
     "id": "tt2267968",
@@ -455,7 +455,24 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 56
+    "seeders": 48
+  },
+  {
+    "id": "tt26593219",
+    "type": "movie",
+    "name": "Fotó a múltból",
+    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
+    "genres": [
+      "TV film",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 107
   },
   {
     "id": "tt0065138",
@@ -470,22 +487,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 57
-  },
-  {
-    "id": "tt0115822",
-    "type": "movie",
-    "name": "Conan kapitány",
-    "poster": "https://image.tmdb.org/t/p/w500/neS5iGkytFcFtH2cTCyg9AC9NG1.jpg",
-    "posterShape": "poster",
-    "year": 1996,
-    "description": "1918 végén a háború a végéhez közeledik, ám a Balkánon Conan kapitány különleges egysége még mindig teljes harckészültségben áll. A bátor, de kegyetlen Conanra a háború nincs különösebb hatással. A vérontást a harc természetes velejárójának tekinti. Beosztottjai egytől egyig brutális, harcedzett katonák. A semmittevésbe beleunt szakasz szórakozás gyanánt kirabol egy bukaresti klubot, két ember halálát okozva ezzel. A beköszönő béke időszakában ezt már nem úszhatják meg komoly következmények nélkül: Conan ellen eljárás indul, melyet barátja, Norbert hadnagy vezet.",
-    "imdbRating": 6.6,
-    "releaseInfo": "1996",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 55
+    "seeders": 46
   }
 ]
