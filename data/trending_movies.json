@@ -1,5 +1,36 @@
 [
   {
+    "id": "tt26270862",
+    "type": "movie",
+    "name": "Szex",
+    "poster": "https://image.tmdb.org/t/p/w500/wyMYbI1LomZZ27uhfCp5vvz5Zco.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Két monogám, heteroszexuális házasságban élő kéményseprő olyan helyzetekbe kerül, amelyek megkérdőjelezik a szexualitásról és a nemi szerepekről alkotott véleményüket. Az egyikük váratlan ismertséget köt egy férfival. A másiknak zavarbaejtő álmai lesznek, aminek hatására elkezd azon töprengeni, hogy mások tekintete mennyire formálja a személyiségét, és vannak-e a jellemének olyan aspektusai, amelyeket elnyomott, ezáltal korlátozva önmagát.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 53
+  },
+  {
+    "id": "tt0046521",
+    "type": "movie",
+    "name": "A bikaborjak",
+    "poster": "https://image.tmdb.org/t/p/w500/kl2KAv0WGJjRAZeiMLHqNtsG9AC.jpg",
+    "posterShape": "poster",
+    "year": 1953,
+    "description": "Moraldo, Fausto, Leopoldo, és Alberto egy álmos kisváros aranyifjai, akik sehogy sem akarnak belenőni a felnőtt életbe. Szüleik világát szűknek és unalmasnak érzik, nagy tervekről, izgalmas életpályáról álmodoznak, de erejükből legfeljebb némi botránykeltésre futja. Menekülni szeretnének, de csak Moraldónak van annyi ereje, hogy felszálljon a Róma felé tartó vonatra. Az erőteljesen önéletrajzi ihletésű film elkészítésének idején Fellini még maga is pályakezdőnek számított csakúgy, mint fiatal színészei, akik közül a saját nevét is vállaló Alberto Sordi igazi világsztár lett.",
+    "imdbRating": 7.6,
+    "releaseInfo": "1953",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 27
+  },
+  {
     "id": "tt14181714",
     "type": "movie",
     "name": "The Bluff",
@@ -13,22 +44,24 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 357
+    "seeders": 691
   },
   {
-    "id": "tt31065630",
+    "id": "tt0032138",
     "type": "movie",
-    "name": "Árva",
-    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
+    "name": "Óz, a csodák csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/bMyqunH8uFMWbdL484x5WT7Xwgo.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
-    "imdbRating": null,
-    "releaseInfo": "2025",
+    "year": 1939,
+    "description": "Kansason félelmetes erejű tornádó söpör végig. A kis Dorothy nem tud elmenekülni, balesetet szenved. Ájult állapotban kis kutyájával, Totóval csodálatos helyre, Óz birodalmába kerül. Útja során barátokat szerez az Oroszlán, a Madárijesztő és a Bádogember személyében, ám egy kegyetlen ellenséggel, a Boszorkánnyal is szembe kerül. Noha itt minden színes és szép, Dorothy legfőbb vágya, hogy visszajusson az ő fekete-fehér, mégis úgy szeretett otthonába...",
+    "imdbRating": 7.6,
+    "releaseInfo": "1939",
     "genres": [
-      "Dráma"
+      "Kaland",
+      "Fantasy",
+      "Családi"
     ],
-    "seeders": 134
+    "seeders": 35
   },
   {
     "id": "tt31050594",
@@ -45,7 +78,88 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3854
+    "seeders": 4978
+  },
+  {
+    "id": "tt2552296",
+    "type": "movie",
+    "name": "Ghadi - A család angyala",
+    "poster": "https://image.tmdb.org/t/p/w500/kaaqclIPfrElvHrH3q5q0Hmi7QQ.jpg",
+    "posterShape": "poster",
+    "year": 2013,
+    "description": "Leba, a libanoni tengerparti kisváros zenetanára feleségül veszi gyermekkori szerelmét. A két lányuk után fiúk születik. Kiderül, hogy Ghadi speciális gondoskodást igényel. Ahogy cseperedik, egyre több időt tölt az ablakban, az apja énekhangját próbálja utánozni. Ám többnyire érthetetlen hangokat ad ki, amelyek zavarják a szomszédokat, akik démonizálják Ghadit, és petíciót indítanak a család kilakoltatására. Leba és barátai azon törik fejüket, hogyan téríthetnék jobb belátásra az embereket.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2013",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Családi"
+    ],
+    "seeders": 48
+  },
+  {
+    "id": "tt31065630",
+    "type": "movie",
+    "name": "Árva",
+    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 202
+  },
+  {
+    "id": "tt0091495",
+    "type": "movie",
+    "name": "Matador",
+    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
+    "posterShape": "poster",
+    "year": 1986,
+    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1986",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 27
+  },
+  {
+    "id": "tt0044876",
+    "type": "movie",
+    "name": "A fehér öltönyös férfi",
+    "poster": "https://image.tmdb.org/t/p/w500/j0WiFteVTYrAADY4wsUulR5Mj7y.jpg",
+    "posterShape": "poster",
+    "year": 1951,
+    "description": "Sidney Stratton kémikus csodálatos felfedezést tesz. Olyan textilszálat fejleszt ki, amely elpusztíthatatlan, és ráadásul a szennyet is taszítja. Fölöttébb örül a felfedezésének, de lelkesedésében nem osztozik vele senki: ahelyett, hogy ünnepelnék, a fiatalember mindenütt visszautasításba ütközik. A textilipar vezetõi is, a szakszervezetek is inkább azzal próbálkoznak, hogy gátolják õt az anyag népszerûsítésében. Ha ugyanis ez a textilszál általános elterjedne, egész iparáguk összeomlana.",
+    "imdbRating": 6.9,
+    "releaseInfo": "1951",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi"
+    ],
+    "seeders": 38
+  },
+  {
+    "id": "tt0144214",
+    "type": "movie",
+    "name": "A tábornok lánya",
+    "poster": "https://image.tmdb.org/t/p/w500/n3st3mtnH9OcY9Wl3wt4pLSZFiI.jpg",
+    "posterShape": "poster",
+    "year": 1999,
+    "description": "\"Lehet valamit jól csinálni, rosszul csinálni, meg úgy, ahogy a hadsereg csinálja.\" De az nem lehet, hogy Paul Brenner (John Travolta) katonai nyomozó részt vegyen egy ügy eltussolásában. Amikor a pályája csúcsán lévő és közmegbecsülésnek örvendő Campbell tábornok gyönyörű lánya - maga is hivatásos katona - kéjgyilkosság áldozata lesz, az állományba egy lebuktatási manőver miatt korábban rangrejtve beépült nyomozó nekilát, hogy lerántsa a leplet a tragédia mögött rejlő homályos ügyletekről. A gyanúsítottak között főtisztek vannak, s kezdetét veszi a végzetes macska-egér játék, amely lebilincseli a néző figyelmét egészen a megdöbbentő végkifejletig.",
+    "imdbRating": 6.4,
+    "releaseInfo": "1999",
+    "genres": [
+      "Thriller",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 47
   },
   {
     "id": "tt20990442",
@@ -61,7 +175,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 246
+    "seeders": 304
   },
   {
     "id": "tt32332404",
@@ -77,7 +191,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 219
+    "seeders": 247
   },
   {
     "id": "tt28793125",
@@ -94,7 +208,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 524
+    "seeders": 624
   },
   {
     "id": "tt33057274",
@@ -109,41 +223,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 147
-  },
-  {
-    "id": "tt27721490",
-    "type": "movie",
-    "name": "Tornado",
-    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Akció",
-      "Western"
-    ],
-    "seeders": 295
-  },
-  {
-    "id": "tt30343021",
-    "type": "movie",
-    "name": "Song Sung Blue",
-    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Zenei",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 324
+    "seeders": 164
   },
   {
     "id": "tt4712810",
@@ -160,39 +240,41 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 777
+    "seeders": 934
   },
   {
-    "id": "tt0091495",
+    "id": "tt27721490",
     "type": "movie",
-    "name": "Matador",
-    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
+    "name": "Tornado",
+    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
     "posterShape": "poster",
-    "year": 1986,
-    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1986",
+    "year": 2025,
+    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
     "genres": [
       "Dráma",
-      "Thriller"
+      "Akció",
+      "Western"
     ],
-    "seeders": 100
+    "seeders": 331
   },
   {
-    "id": "tt0428856",
+    "id": "tt30343021",
     "type": "movie",
-    "name": "A bajusz",
-    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
+    "name": "Song Sung Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
     "posterShape": "poster",
-    "year": 2005,
-    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2005",
+    "year": 2025,
+    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Rejtély"
+      "Zenei",
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 106
+    "seeders": 369
   },
   {
     "id": "tt33028778",
@@ -208,7 +290,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 692
+    "seeders": 857
   },
   {
     "id": "tt29780866",
@@ -225,24 +307,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 541
+    "seeders": 653
   },
   {
-    "id": "tt0046359",
+    "id": "tt0428856",
     "type": "movie",
-    "name": "A 17-es fogolytábor",
-    "poster": "https://image.tmdb.org/t/p/w500/kwRBd6P8ubynU1p1eHGIcGb2557.jpg",
+    "name": "A bajusz",
+    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
     "posterShape": "poster",
-    "year": 1953,
-    "description": "A második világháború alatt egy csapat amerikai katona kerül össze a hírhedt német 17-es fogolytáborban, a Stalag 17-ben. Többnyire azzal töltik az idejüket, hogy azon mesterkednek, hogyan segíthetnének egymásnak megszökni. De amikor két rabot megölnek egy szökési kísérlet közben, nyilvánvalóvá válik, hogy spicli van közöttük.  William Holden Oscar-díjat kapott a cinikus, éles nyelvű katona alakításáért, aki azzal tölti az idejét, hogy svindliket eszel ki, és különleges előjogokért seftel a németekkel.",
-    "imdbRating": 7.7,
-    "releaseInfo": "1953",
+    "year": 2005,
+    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2005",
     "genres": [
-      "Vígjáték",
       "Dráma",
-      "Háborús"
+      "Rejtély"
     ],
-    "seeders": 32
+    "seeders": 120
   },
   {
     "id": "tt0073169",
@@ -259,7 +340,24 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 91
+  },
+  {
+    "id": "tt0046359",
+    "type": "movie",
+    "name": "A 17-es fogolytábor",
+    "poster": "https://image.tmdb.org/t/p/w500/kwRBd6P8ubynU1p1eHGIcGb2557.jpg",
+    "posterShape": "poster",
+    "year": 1953,
+    "description": "A második világháború alatt egy csapat amerikai katona kerül össze a hírhedt német 17-es fogolytáborban, a Stalag 17-ben. Többnyire azzal töltik az idejüket, hogy azon mesterkednek, hogyan segíthetnének egymásnak megszökni. De amikor két rabot megölnek egy szökési kísérlet közben, nyilvánvalóvá válik, hogy spicli van közöttük.  William Holden Oscar-díjat kapott a cinikus, éles nyelvű katona alakításáért, aki azzal tölti az idejét, hogy svindliket eszel ki, és különleges előjogokért seftel a németekkel.",
+    "imdbRating": 7.7,
+    "releaseInfo": "1953",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 39
   },
   {
     "id": "tt33474179",
@@ -275,7 +373,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 184
+    "seeders": 207
   },
   {
     "id": "tt0051964",
@@ -290,7 +388,23 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 68
+    "seeders": 75
+  },
+  {
+    "id": "tt2396431",
+    "type": "movie",
+    "name": "Kedves Télapó",
+    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2024",
+    "genres": [
+      "Vígjáték",
+      "Fantasy"
+    ],
+    "seeders": 328
   },
   {
     "id": "tt0078763",
@@ -308,6 +422,21 @@
     "seeders": 58
   },
   {
+    "id": "tt1008017",
+    "type": "movie",
+    "name": "Halál Palermóban",
+    "poster": "https://image.tmdb.org/t/p/w500/6iT1P0lpEaH3DdYujH8vJDhQbPw.jpg",
+    "posterShape": "poster",
+    "year": 2008,
+    "description": "Finn, a menő fotós zaklatott életet él Düsseldorfban, a Rajna-menti nagyvárosban. Az éjszakái nyugtalanul telnek, a mobilja sosincs kikapcsolva, a fejhallgatójából állandóan bömböl a zene. Azután egy napon, divatfotózás során olyan esemény történik, ami arra készteti, hogy átgondolja, átértékelje egész addigi életét. Olaszországba, Palermóba utazik, hogy elszakadjon régi önmagától és végleg lezárja a múltját. A városban találkozik egy lánnyal, Flaviával és ez a találkozás új reményt, új életet jelent számára. Előtte azonban még szembe kell néznie a halállal.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2008",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 54
+  },
+  {
     "id": "tt2005151",
     "type": "movie",
     "name": "Haverok fegyverben",
@@ -322,70 +451,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 74
-  },
-  {
-    "id": "tt2396431",
-    "type": "movie",
-    "name": "Kedves Télapó",
-    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 281
-  },
-  {
-    "id": "tt1008017",
-    "type": "movie",
-    "name": "Halál Palermóban",
-    "poster": "https://image.tmdb.org/t/p/w500/6iT1P0lpEaH3DdYujH8vJDhQbPw.jpg",
-    "posterShape": "poster",
-    "year": 2008,
-    "description": "Finn, a menő fotós zaklatott életet él Düsseldorfban, a Rajna-menti nagyvárosban. Az éjszakái nyugtalanul telnek, a mobilja sosincs kikapcsolva, a fejhallgatójából állandóan bömböl a zene. Azután egy napon, divatfotózás során olyan esemény történik, ami arra készteti, hogy átgondolja, átértékelje egész addigi életét. Olaszországba, Palermóba utazik, hogy elszakadjon régi önmagától és végleg lezárja a múltját. A városban találkozik egy lánnyal, Flaviával és ez a találkozás új reményt, új életet jelent számára. Előtte azonban még szembe kell néznie a halállal.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2008",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 50
-  },
-  {
-    "id": "tt0090180",
-    "type": "movie",
-    "name": "Élni és meghalni Los Angelesben",
-    "poster": "https://image.tmdb.org/t/p/w500/gPoCCBHtkQ8kD8LSYOsTayWNjE1.jpg",
-    "posterShape": "poster",
-    "year": 1985,
-    "description": "Rick, azaz \"becsületes\" nevén Eric Masters a pénzhamisítás fortélyainak zsenije, aki már jó ideje űzi sötét mesterségét. Ráadásul a busás haszon reményében attól sem riad vissza, hogy gyilkoljon, legyen szó akár ellenfeleiről, akár bűntársairól. A bűnöző, aki már jó ideje folytat macska-egér játékot a törvénnyel, és eddig mindig sikerült kereket oldania, most embereire akad. Két mindenre elszánt üldöző: Chance és Vukovich szövetségi ügynök liheg vérebként a nyomában, s kezdetét veszi a halálos fogócska a velejéig romlott hamisító és a két bosszúra szomjas nyomozó között.",
-    "imdbRating": 7.1,
-    "releaseInfo": "1985",
-    "genres": [
-      "Bűnügyi",
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 42
-  },
-  {
-    "id": "tt30813817",
-    "type": "movie",
-    "name": "We Were Dangerous",
-    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 96
+    "seeders": 73
   },
   {
     "id": "tt0059825",
@@ -400,23 +466,6 @@
     "genres": [
       "Háborús",
       "Thriller"
-    ],
-    "seeders": 39
-  },
-  {
-    "id": "tt0047024",
-    "type": "movie",
-    "name": "A szerelem napjai",
-    "poster": "https://image.tmdb.org/t/p/w500/apB97497fIw6HBFaSZmF0WOoxW4.jpg",
-    "posterShape": "poster",
-    "year": 1954,
-    "description": "Egy pár szeretne összeházasodni, de nincs elég pénzük a hagyományos nagy lagzira, ezért azt tervezik, hogy vidékre mennek és \"bűnben élik\" az életüket.",
-    "imdbRating": 6.5,
-    "releaseInfo": "1954",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
-      "Dráma"
     ],
     "seeders": 46
   },
@@ -435,58 +484,6 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt0892255",
-    "type": "movie",
-    "name": "Che - Az argentin",
-    "poster": "https://image.tmdb.org/t/p/w500/zLD6pav23TElrZEXK0iQ90VYnVj.jpg",
-    "posterShape": "poster",
-    "year": 2008,
-    "description": "Che Guevara neve negyven évvel halála után is élénken él a köztudatban, talán összes kortársánál pontosabban személyesíti meg a hatvanas évek forradalmi hangulatát. Világméretű márkanév lett, arcképe ott figyel minden sarkon: fiatal, jóképű és idealista, az elnyomottak bajnoka - egyfajta ikon, sokak álmainak, reményeinek megtestesítője. Életrajzi filmje két részből épül fel, egymásra vetítve Che pályafutásának két szakaszát: az első rész az 1955 és 1962 közötti eseményeket eleveníti fel, a küzdelmet Batista diktatúrája ellen, aprólékos részletességgel bemutatva azt a kimerítő gerillaháborút, amit Castro és Che Guevara a kubai vidéken folytatott, mielőtt dicsőségesen bevonultak Havannába.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2008",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
-    ],
-    "seeders": 62
-  },
-  {
-    "id": "tt0108167",
-    "type": "movie",
-    "name": "Dohányzó / Nem dohányzó",
-    "poster": "https://image.tmdb.org/t/p/w500/ubJEj8iiitB9MFC5ZDOqIsu3vrf.jpg",
-    "posterShape": "poster",
-    "year": 1993,
-    "description": "Egy átlagos angliai faluban vagyunk. Megismerjük a helyi iskola igazgatóját és helyettesét, a feleségét és annak apját, valamint legjobb barátját és annak feleségét, aki imád squashozni. Mindenki ezen a furcsa szokáson ámul a faluban. Az igazgató felesége talál egy doboz cigit. Vajon ellen tud állni a kísértésnek?",
-    "imdbRating": 6.5,
-    "releaseInfo": "1993",
-    "genres": [
-      "Dráma",
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 39
-  },
-  {
-    "id": "tt0445620",
-    "type": "movie",
-    "name": "Mennyország most",
-    "poster": "https://image.tmdb.org/t/p/w500/SiOidMq2oyXcjrHCaH60PlzieH.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "A film nem igyekszik sem hősként, sem terroristaként ábrázolni az Izraelben ártatlan polgárokkal együtt saját magukat is felrobbantó palesztin fiatalokat. Célja, hogy minél autentikusabb környezetben mutassa be két öngyilkos merényletre készülő fiatal utolsó napját, hogy feltárja milyen egyedi, emberi indíttatás rejlik egy merényletre készülő palesztin döntése mögött. A film két gyerekkori jó barátról, Kaledról és Szaidról szól, akiknek reménytelen hétköznapjai egy merényletre való készülődéssel nyernek új értelmet. A palesztin fiatalok bombatámadásra készülnek az izraeli katonák ellen, ám végül is különböző módon döntenek a Tel-Avivba szánt bombákról...",
-    "imdbRating": 6.9,
-    "releaseInfo": "2005",
-    "genres": [
-      "Bűnügyi",
-      "Thriller",
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 70
+    "seeders": 149
   }
 ]
