@@ -1,21 +1,5 @@
 [
   {
-    "id": "tt20990442",
-    "type": "movie",
-    "name": "Csúcs",
-    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 178
-  },
-  {
     "id": "tt31050594",
     "type": "movie",
     "name": "Mesterséges kegyelem",
@@ -30,7 +14,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2944
+    "seeders": 3322
+  },
+  {
+    "id": "tt20990442",
+    "type": "movie",
+    "name": "Csúcs",
+    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 199
   },
   {
     "id": "tt32332404",
@@ -46,39 +46,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 161
-  },
-  {
-    "id": "tt0046359",
-    "type": "movie",
-    "name": "A 17-es fogolytábor",
-    "poster": "https://image.tmdb.org/t/p/w500/kwRBd6P8ubynU1p1eHGIcGb2557.jpg",
-    "posterShape": "poster",
-    "year": 1953,
-    "description": "A második világháború alatt egy csapat amerikai katona kerül össze a hírhedt német 17-es fogolytáborban, a Stalag 17-ben. Többnyire azzal töltik az idejüket, hogy azon mesterkednek, hogyan segíthetnének egymásnak megszökni. De amikor két rabot megölnek egy szökési kísérlet közben, nyilvánvalóvá válik, hogy spicli van közöttük.  William Holden Oscar-díjat kapott a cinikus, éles nyelvű katona alakításáért, aki azzal tölti az idejét, hogy svindliket eszel ki, és különleges előjogokért seftel a németekkel.",
-    "imdbRating": 7.7,
-    "releaseInfo": "1953",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 29
-  },
-  {
-    "id": "tt33057274",
-    "type": "movie",
-    "name": "Egy citromcseppnyi varázslat",
-    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2024",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 128
+    "seeders": 190
   },
   {
     "id": "tt28793125",
@@ -95,7 +63,55 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 427
+    "seeders": 485
+  },
+  {
+    "id": "tt33057274",
+    "type": "movie",
+    "name": "Egy citromcseppnyi varázslat",
+    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 127
+  },
+  {
+    "id": "tt0046359",
+    "type": "movie",
+    "name": "A 17-es fogolytábor",
+    "poster": "https://image.tmdb.org/t/p/w500/kwRBd6P8ubynU1p1eHGIcGb2557.jpg",
+    "posterShape": "poster",
+    "year": 1953,
+    "description": "A második világháború alatt egy csapat amerikai katona kerül össze a hírhedt német 17-es fogolytáborban, a Stalag 17-ben. Többnyire azzal töltik az idejüket, hogy azon mesterkednek, hogyan segíthetnének egymásnak megszökni. De amikor két rabot megölnek egy szökési kísérlet közben, nyilvánvalóvá válik, hogy spicli van közöttük.  William Holden Oscar-díjat kapott a cinikus, éles nyelvű katona alakításáért, aki azzal tölti az idejét, hogy svindliket eszel ki, és különleges előjogokért seftel a németekkel.",
+    "imdbRating": 7.7,
+    "releaseInfo": "1953",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 31
+  },
+  {
+    "id": "tt0428856",
+    "type": "movie",
+    "name": "A bajusz",
+    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
+    "posterShape": "poster",
+    "year": 2005,
+    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2005",
+    "genres": [
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 105
   },
   {
     "id": "tt0091495",
@@ -111,7 +127,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 81
+    "seeders": 95
   },
   {
     "id": "tt27721490",
@@ -128,23 +144,7 @@
       "Akció",
       "Western"
     ],
-    "seeders": 242
-  },
-  {
-    "id": "tt0428856",
-    "type": "movie",
-    "name": "A bajusz",
-    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2005",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 85
+    "seeders": 272
   },
   {
     "id": "tt30343021",
@@ -161,7 +161,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 263
+    "seeders": 284
   },
   {
     "id": "tt4712810",
@@ -178,7 +178,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 634
+    "seeders": 689
   },
   {
     "id": "tt0073169",
@@ -195,7 +195,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 67
+    "seeders": 82
   },
   {
     "id": "tt29780866",
@@ -212,22 +212,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 431
-  },
-  {
-    "id": "tt0051964",
-    "type": "movie",
-    "name": "Lányok egyenruhában",
-    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
-    "posterShape": "poster",
-    "year": 1958,
-    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
-    "imdbRating": 6.1,
-    "releaseInfo": "1958",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 55
+    "seeders": 493
   },
   {
     "id": "tt33028778",
@@ -243,7 +228,22 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 517
+    "seeders": 578
+  },
+  {
+    "id": "tt0051964",
+    "type": "movie",
+    "name": "Lányok egyenruhában",
+    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
+    "posterShape": "poster",
+    "year": 1958,
+    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
+    "imdbRating": 6.1,
+    "releaseInfo": "1958",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 64
   },
   {
     "id": "tt33474179",
@@ -259,7 +259,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 154
+    "seeders": 168
   },
   {
     "id": "tt0078763",
@@ -274,55 +274,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 50
-  },
-  {
-    "id": "tt0059825",
-    "type": "movie",
-    "name": "A vonat",
-    "poster": "https://image.tmdb.org/t/p/w500/Y6IZkSl08B9Am1sMQ9pnMIj013.jpg",
-    "posterShape": "poster",
-    "year": 1964,
-    "description": "A megtörtént eseményeken alapuló film 1944-ben játszódik Franciaországban. A szövetségesek partraszállása után a németek Párizs evakuálására készülnek. A művészetrajongó Von Waldheim ezredes Németországba akarja szállítani a francia impresszionisták remekműveit is. A Jeu de Pomme múzeum kurátora kétségbeesésében a francia antifasiszta ellenállók segítségét kéri a felbecsülhetetlen értékű műkincsek megmentéséhez. Könyörög, hogy a szövetségesek megérkezéséig próbálják késleltetni a rakomány útnak indítását. De a \"franciák büszkeségeit\" szállító vonat, ha némi késedelemmel is, elindul Németország felé.",
-    "imdbRating": 7.6,
-    "releaseInfo": "1964",
-    "genres": [
-      "Háborús",
-      "Thriller"
-    ],
-    "seeders": 36
-  },
-  {
-    "id": "tt1008017",
-    "type": "movie",
-    "name": "Halál Palermóban",
-    "poster": "https://image.tmdb.org/t/p/w500/6iT1P0lpEaH3DdYujH8vJDhQbPw.jpg",
-    "posterShape": "poster",
-    "year": 2008,
-    "description": "Finn, a menő fotós zaklatott életet él Düsseldorfban, a Rajna-menti nagyvárosban. Az éjszakái nyugtalanul telnek, a mobilja sosincs kikapcsolva, a fejhallgatójából állandóan bömböl a zene. Azután egy napon, divatfotózás során olyan esemény történik, ami arra készteti, hogy átgondolja, átértékelje egész addigi életét. Olaszországba, Palermóba utazik, hogy elszakadjon régi önmagától és végleg lezárja a múltját. A városban találkozik egy lánnyal, Flaviával és ez a találkozás új reményt, új életet jelent számára. Előtte azonban még szembe kell néznie a halállal.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2008",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 44
-  },
-  {
-    "id": "tt0047024",
-    "type": "movie",
-    "name": "A szerelem napjai",
-    "poster": "https://image.tmdb.org/t/p/w500/apB97497fIw6HBFaSZmF0WOoxW4.jpg",
-    "posterShape": "poster",
-    "year": 1954,
-    "description": "Egy pár szeretne összeházasodni, de nincs elég pénzük a hagyományos nagy lagzira, ezért azt tervezik, hogy vidékre mennek és \"bűnben élik\" az életüket.",
-    "imdbRating": 6.5,
-    "releaseInfo": "1954",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 44
+    "seeders": 55
   },
   {
     "id": "tt0090180",
@@ -339,22 +291,55 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 33
+    "seeders": 39
   },
   {
-    "id": "tt30813817",
+    "id": "tt1008017",
     "type": "movie",
-    "name": "We Were Dangerous",
-    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
+    "name": "Halál Palermóban",
+    "poster": "https://image.tmdb.org/t/p/w500/6iT1P0lpEaH3DdYujH8vJDhQbPw.jpg",
     "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2024",
+    "year": 2008,
+    "description": "Finn, a menő fotós zaklatott életet él Düsseldorfban, a Rajna-menti nagyvárosban. Az éjszakái nyugtalanul telnek, a mobilja sosincs kikapcsolva, a fejhallgatójából állandóan bömböl a zene. Azután egy napon, divatfotózás során olyan esemény történik, ami arra készteti, hogy átgondolja, átértékelje egész addigi életét. Olaszországba, Palermóba utazik, hogy elszakadjon régi önmagától és végleg lezárja a múltját. A városban találkozik egy lánnyal, Flaviával és ez a találkozás új reményt, új életet jelent számára. Előtte azonban még szembe kell néznie a halállal.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2008",
     "genres": [
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 47
+  },
+  {
+    "id": "tt0059825",
+    "type": "movie",
+    "name": "A vonat",
+    "poster": "https://image.tmdb.org/t/p/w500/Y6IZkSl08B9Am1sMQ9pnMIj013.jpg",
+    "posterShape": "poster",
+    "year": 1964,
+    "description": "A megtörtént eseményeken alapuló film 1944-ben játszódik Franciaországban. A szövetségesek partraszállása után a németek Párizs evakuálására készülnek. A művészetrajongó Von Waldheim ezredes Németországba akarja szállítani a francia impresszionisták remekműveit is. A Jeu de Pomme múzeum kurátora kétségbeesésében a francia antifasiszta ellenállók segítségét kéri a felbecsülhetetlen értékű műkincsek megmentéséhez. Könyörög, hogy a szövetségesek megérkezéséig próbálják késleltetni a rakomány útnak indítását. De a \"franciák büszkeségeit\" szállító vonat, ha némi késedelemmel is, elindul Németország felé.",
+    "imdbRating": 7.6,
+    "releaseInfo": "1964",
+    "genres": [
+      "Háborús",
+      "Thriller"
+    ],
+    "seeders": 37
+  },
+  {
+    "id": "tt0047024",
+    "type": "movie",
+    "name": "A szerelem napjai",
+    "poster": "https://image.tmdb.org/t/p/w500/apB97497fIw6HBFaSZmF0WOoxW4.jpg",
+    "posterShape": "poster",
+    "year": 1954,
+    "description": "Egy pár szeretne összeházasodni, de nincs elég pénzük a hagyományos nagy lagzira, ezért azt tervezik, hogy vidékre mennek és \"bűnben élik\" az életüket.",
+    "imdbRating": 6.5,
+    "releaseInfo": "1954",
+    "genres": [
+      "Romantikus",
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 45
   },
   {
     "id": "tt2005151",
@@ -371,40 +356,22 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 59
+    "seeders": 64
   },
   {
-    "id": "tt0108167",
+    "id": "tt30813817",
     "type": "movie",
-    "name": "Dohányzó / Nem dohányzó",
-    "poster": "https://image.tmdb.org/t/p/w500/ubJEj8iiitB9MFC5ZDOqIsu3vrf.jpg",
-    "posterShape": "poster",
-    "year": 1993,
-    "description": "Egy átlagos angliai faluban vagyunk. Megismerjük a helyi iskola igazgatóját és helyettesét, a feleségét és annak apját, valamint legjobb barátját és annak feleségét, aki imád squashozni. Mindenki ezen a furcsa szokáson ámul a faluban. Az igazgató felesége talál egy doboz cigit. Vajon ellen tud állni a kísértésnek?",
-    "imdbRating": 6.5,
-    "releaseInfo": "1993",
-    "genres": [
-      "Dráma",
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 36
-  },
-  {
-    "id": "tt2396431",
-    "type": "movie",
-    "name": "Kedves Télapó",
-    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
+    "name": "We Were Dangerous",
+    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
     "posterShape": "poster",
     "year": 2024,
-    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
-    "imdbRating": 6.2,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.1,
     "releaseInfo": "2024",
     "genres": [
-      "Vígjáték",
-      "Fantasy"
+      "Dráma"
     ],
-    "seeders": 231
+    "seeders": 95
   },
   {
     "id": "tt0892255",
@@ -421,7 +388,55 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 55
+    "seeders": 65
+  },
+  {
+    "id": "tt0108167",
+    "type": "movie",
+    "name": "Dohányzó / Nem dohányzó",
+    "poster": "https://image.tmdb.org/t/p/w500/ubJEj8iiitB9MFC5ZDOqIsu3vrf.jpg",
+    "posterShape": "poster",
+    "year": 1993,
+    "description": "Egy átlagos angliai faluban vagyunk. Megismerjük a helyi iskola igazgatóját és helyettesét, a feleségét és annak apját, valamint legjobb barátját és annak feleségét, aki imád squashozni. Mindenki ezen a furcsa szokáson ámul a faluban. Az igazgató felesége talál egy doboz cigit. Vajon ellen tud állni a kísértésnek?",
+    "imdbRating": 6.5,
+    "releaseInfo": "1993",
+    "genres": [
+      "Dráma",
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 39
+  },
+  {
+    "id": "tt2396431",
+    "type": "movie",
+    "name": "Kedves Télapó",
+    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2024",
+    "genres": [
+      "Vígjáték",
+      "Fantasy"
+    ],
+    "seeders": 233
+  },
+  {
+    "id": "tt0065138",
+    "type": "movie",
+    "name": "Sirokkó",
+    "poster": "https://image.tmdb.org/t/p/w500/pz3HpalL7x4SYSVGpwkoUNHwQXH.jpg",
+    "posterShape": "poster",
+    "year": 1969,
+    "description": "1930 eleje. Horvátországban szervezkednek a nacionalisták. Merényleteket követnek el szerb politikusok ellen, hazájuk szabadságáért küzdenek. Egy ilyen politikai gyilkosság után \"nemzeti hősüket\", Marko Lazart Magyarországra szöktetik...",
+    "imdbRating": 7.1,
+    "releaseInfo": "1969",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 58
   },
   {
     "id": "tt0081055",
@@ -436,7 +451,24 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 33
+    "seeders": 36
+  },
+  {
+    "id": "tt26593219",
+    "type": "movie",
+    "name": "Fotó a múltból",
+    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
+    "genres": [
+      "TV film",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 119
   },
   {
     "id": "tt2267968",
@@ -455,38 +487,6 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 48
-  },
-  {
-    "id": "tt26593219",
-    "type": "movie",
-    "name": "Fotó a múltból",
-    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
-    "genres": [
-      "TV film",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 107
-  },
-  {
-    "id": "tt0065138",
-    "type": "movie",
-    "name": "Sirokkó",
-    "poster": "https://image.tmdb.org/t/p/w500/pz3HpalL7x4SYSVGpwkoUNHwQXH.jpg",
-    "posterShape": "poster",
-    "year": 1969,
-    "description": "1930 eleje. Horvátországban szervezkednek a nacionalisták. Merényleteket követnek el szerb politikusok ellen, hazájuk szabadságáért küzdenek. Egy ilyen politikai gyilkosság után \"nemzeti hősüket\", Marko Lazart Magyarországra szöktetik...",
-    "imdbRating": 7.1,
-    "releaseInfo": "1969",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 46
+    "seeders": 53
   }
 ]
