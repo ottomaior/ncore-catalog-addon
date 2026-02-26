@@ -7,56 +7,56 @@ Automated Hungarian content catalogs from nCore tracker for Stremio. **Series** 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Railway-blueviolet)](https://ncore-catalog-addon-production.up.railway.app/)
 
-## 🎬 Two Addons in One Server
+##  Two Addons in One Server
 
 This project serves **two separate Stremio addons** from a single deployment:
 
-### 📺 nCore Katalógus
+###  nCore Katalógus
 **Catalog addon** that displays Hungarian movies and series from nCore tracker.
 
-- ✅ **Catalogs:** 🏆 Top Seed (filmek, sorozatok, magyar filmek, magyar sorozatok) + genre filtering; ⏰ Legfrissebb (filmek 2025–2026, sorozatok); ⏰ Streaming: Netflix, Disney+, HBO Max, Prime (legfrissebb filmek/sorozatok)
-- ✅ TVDB for series, TMDB for movies (no Trakt)
-- ✅ Direct nCore → TVDB/TMDB matching
-- ✅ Customizable catalog selection and order on the homepage before install
-- ✅ Installation: `https://your-deployment-url/manifest.json`
+-  **Catalogs:** 🏆 Top Seed (filmek, sorozatok, magyar filmek, magyar sorozatok) + genre filtering; ⏰ Legfrissebb (filmek 2025–2026, sorozatok); ⏰ Streaming: Netflix, Disney+, HBO Max, Prime (legfrissebb filmek/sorozatok)
+-  TVDB for series, TMDB for movies (no Trakt)
+-  Direct nCore → TVDB/TMDB matching
+-  Customizable catalog selection and order on the homepage before install
+-  Installation: `https://your-deployment-url/manifest.json`
 
-### 🎬 Magyar Előzetesek (Hungarian Trailers)
+###  Magyar Előzetesek (Hungarian Trailers)
 **Trailer addon** that provides Hungarian and English trailers for movies and series.
 
-- ✅ **4-stage fallback search**: TMDB hu-HU → YouTube HU → TMDB en-US → YouTube EN
-- ✅ Hungarian-first priority (dubbed/subtitled)
-- ✅ Season-specific trailers for series
-- ✅ Smart YouTube scraping when TMDB has no trailers
-- ✅ Works with both movies and TV shows
-- ✅ Installation: `https://your-deployment-url/trailers/manifest.json`
+-  **4-stage fallback search**: TMDB hu-HU → YouTube HU → TMDB en-US → YouTube EN
+-  Hungarian-first priority (dubbed/subtitled)
+-  Season-specific trailers for series
+-  Smart YouTube scraping when TMDB has no trailers
+-  Works with both movies and TV shows
+-  Installation: `https://your-deployment-url/trailers/manifest.json`
 
 ## 🌐 Live Demo
 
-**🚀 [https://ncore-catalog-addon-production.up.railway.app/](https://ncore-catalog-addon-production.up.railway.app/)**
+** [https://www.stremioaddonok.hu/](https://www.stremioaddonok.hu/)**
 
 Visit the deployment to see the homepage with install instructions for all three addons.
 
 ### Quick Install URLs:
-- 📺 **Catalog:** `https://ncore-catalog-addon-production.up.railway.app/manifest.json`
-- ℹ️ **Episode Info:** `https://ncore-catalog-addon-production.up.railway.app/info/manifest.json`
-- 🎬 **Trailers:** `https://ncore-catalog-addon-production.up.railway.app/trailers/manifest.json`
+-  **Catalog:** `https://ncore-catalog-addon-production.up.railway.app/manifest.json`
+-  **Episode Info:** `https://ncore-catalog-addon-production.up.railway.app/info/manifest.json`
+-  **Trailers:** `https://ncore-catalog-addon-production.up.railway.app/trailers/manifest.json`
 
-## 🚀 Features
+##  Features
 
 ### Backend Automation
-- 🔄 **nCore Direct Scraping** - Fetches content directly from nCore tracker using ncoreparser
-- 🎯 **Smart Title Matching** - Year extraction, title cleaning, multiple variations
-- 📊 **TVDB/TMDB Metadata** - Series: TVDB API; movies and Hungarian filter: TMDB API
-- ⏰ **Scheduled Updates** - Automated catalog building with incremental updates
-- 🔒 **Duplicate Prevention** - Efficient incremental updates avoid re-processing existing items
-- 📝 **Episode Tracking** - Monitors latest series uploads with dates
+-  **nCore Direct Scraping** - Fetches content directly from nCore tracker using ncoreparser
+-  **Smart Title Matching** - Year extraction, title cleaning, multiple variations
+-  **TVDB/TMDB Metadata** - Series: TVDB API; movies and Hungarian filter: TMDB API
+-  **Scheduled Updates** - Automated catalog building with incremental updates
+-  **Duplicate Prevention** - Efficient incremental updates avoid re-processing existing items
+-  **Episode Tracking** - Monitors latest series uploads with dates
 
 ### Stremio Integration
-- 📺 **Triple Addons** - Catalog, info, and trailer addons on one server
-- 🎨 **TMDB Metadata** - High-quality posters and descriptions
-- 🇭🇺 **Hungarian Language** - Titles, descriptions, and posters in Hungarian
-- 🔗 **Direct TMDB Integration** - Fast and accurate metadata resolution
-- 🎬 **Intelligent Trailer Search** - Multi-stage Hungarian/English fallback
+-  **Triple Addons** - Catalog, info, and trailer addons on one server
+-  **TMDB Metadata** - High-quality posters and descriptions
+-  **Hungarian Language** - Titles, descriptions, and posters in Hungarian
+-  **Direct TMDB Integration** - Fast and accurate metadata resolution
+-  **Intelligent Trailer Search** - Multi-stage Hungarian/English fallback
 
 ### ⏰ Scheduled Catalog Updates
 
@@ -94,7 +94,7 @@ In Stremio Discover, catalog names appear as:
 - **Incremental:** build_latest and most_seeded load existing JSON, fetch new torrents, merge and trim.
 - **Requirements:** `NCORE_USER`, `NCORE_PASS`, `TMDB_API_KEY`, and `TVDB_API_KEY` in `config/config.env` (see `config/config.example.env`). Optional: `TVDB_PIN` for user-supported TVDB keys.
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.8+
 - Node.js 18+
@@ -102,7 +102,7 @@ In Stremio Discover, catalog names appear as:
 - TMDB API key ([Get here](https://www.themoviedb.org/settings/api)) — for movies and Hungarian filter
 - TVDB API key ([Get here](https://thetvdb.com/dashboard)) — for series catalogs (optional PIN if user-supported key)
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone Repository
 ```bash
