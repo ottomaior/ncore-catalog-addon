@@ -6,8 +6,8 @@
     "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy valamikori női kalóz életét, akinek szembe kell néznie véres múltjával, és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 6.3,
+    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
@@ -64,21 +64,6 @@
     "seeders": 294
   },
   {
-    "id": "tt26270862",
-    "type": "movie",
-    "name": "Szex",
-    "poster": "https://image.tmdb.org/t/p/w500/wyMYbI1LomZZ27uhfCp5vvz5Zco.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Két monogám, heteroszexuális házasságban élő kéményseprő olyan helyzetekbe kerül, amelyek megkérdőjelezik a szexualitásról és a nemi szerepekről alkotott véleményüket. Az egyikük váratlan ismertséget köt egy férfival. A másiknak zavarbaejtő álmai lesznek, aminek hatására elkezd azon töprengeni, hogy mások tekintete mennyire formálja a személyiségét, és vannak-e a jellemének olyan aspektusai, amelyeket elnyomott, ezáltal korlátozva önmagát.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 66
-  },
-  {
     "id": "tt32332404",
     "type": "movie",
     "name": "Mindörökké",
@@ -95,21 +80,19 @@
     "seeders": 242
   },
   {
-    "id": "tt0032138",
+    "id": "tt26270862",
     "type": "movie",
-    "name": "Óz, a csodák csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/bMyqunH8uFMWbdL484x5WT7Xwgo.jpg",
+    "name": "Szex",
+    "poster": "https://image.tmdb.org/t/p/w500/wyMYbI1LomZZ27uhfCp5vvz5Zco.jpg",
     "posterShape": "poster",
-    "year": 1939,
-    "description": "Kansason félelmetes erejű tornádó söpör végig. A kis Dorothy nem tud elmenekülni, balesetet szenved. Ájult állapotban kis kutyájával, Totóval csodálatos helyre, Óz birodalmába kerül. Útja során barátokat szerez az Oroszlán, a Madárijesztő és a Bádogember személyében, ám egy kegyetlen ellenséggel, a Boszorkánnyal is szembe kerül. Noha itt minden színes és szép, Dorothy legfőbb vágya, hogy visszajusson az ő fekete-fehér, mégis úgy szeretett otthonába...",
-    "imdbRating": 7.6,
-    "releaseInfo": "1939",
+    "year": 2024,
+    "description": "Két monogám, heteroszexuális házasságban élő kéményseprő olyan helyzetekbe kerül, amelyek megkérdőjelezik a szexualitásról és a nemi szerepekről alkotott véleményüket. Az egyikük váratlan ismertséget köt egy férfival. A másiknak zavarbaejtő álmai lesznek, aminek hatására elkezd azon töprengeni, hogy mások tekintete mennyire formálja a személyiségét, és vannak-e a jellemének olyan aspektusai, amelyeket elnyomott, ezáltal korlátozva önmagát.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2024",
     "genres": [
-      "Kaland",
-      "Fantasy",
-      "Családi"
+      "Dráma"
     ],
-    "seeders": 43
+    "seeders": 66
   },
   {
     "id": "tt2552296",
@@ -127,6 +110,40 @@
       "Családi"
     ],
     "seeders": 49
+  },
+  {
+    "id": "tt28793125",
+    "type": "movie",
+    "name": "A svéd kapcsolat",
+    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Háborús"
+    ],
+    "seeders": 565
+  },
+  {
+    "id": "tt0032138",
+    "type": "movie",
+    "name": "Óz, a csodák csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/bMyqunH8uFMWbdL484x5WT7Xwgo.jpg",
+    "posterShape": "poster",
+    "year": 1939,
+    "description": "Kansason félelmetes erejű tornádó söpör végig. A kis Dorothy nem tud elmenekülni, balesetet szenved. Ájult állapotban kis kutyájával, Totóval csodálatos helyre, Óz birodalmába kerül. Útja során barátokat szerez az Oroszlán, a Madárijesztő és a Bádogember személyében, ám egy kegyetlen ellenséggel, a Boszorkánnyal is szembe kerül. Noha itt minden színes és szép, Dorothy legfőbb vágya, hogy visszajusson az ő fekete-fehér, mégis úgy szeretett otthonába...",
+    "imdbRating": 7.6,
+    "releaseInfo": "1939",
+    "genres": [
+      "Kaland",
+      "Fantasy",
+      "Családi"
+    ],
+    "seeders": 43
   },
   {
     "id": "tt0264472",
@@ -177,6 +194,23 @@
     "seeders": 39
   },
   {
+    "id": "tt4712810",
+    "type": "movie",
+    "name": "Szemfényvesztők 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "seeders": 877
+  },
+  {
     "id": "tt0144214",
     "type": "movie",
     "name": "A tábornok lánya",
@@ -194,39 +228,6 @@
     "seeders": 40
   },
   {
-    "id": "tt28793125",
-    "type": "movie",
-    "name": "A svéd kapcsolat",
-    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
-    ],
-    "seeders": 565
-  },
-  {
-    "id": "tt0091495",
-    "type": "movie",
-    "name": "Matador",
-    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
-    "posterShape": "poster",
-    "year": 1986,
-    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1986",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 28
-  },
-  {
     "id": "tt33057274",
     "type": "movie",
     "name": "Egy citromcseppnyi varázslat",
@@ -240,23 +241,6 @@
       "Romantikus"
     ],
     "seeders": 157
-  },
-  {
-    "id": "tt4712810",
-    "type": "movie",
-    "name": "Szemfényvesztők 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Rejtély"
-    ],
-    "seeders": 877
   },
   {
     "id": "tt30343021",
@@ -291,6 +275,22 @@
       "Western"
     ],
     "seeders": 300
+  },
+  {
+    "id": "tt0091495",
+    "type": "movie",
+    "name": "Matador",
+    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
+    "posterShape": "poster",
+    "year": 1986,
+    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1986",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 28
   },
   {
     "id": "tt33028778",
@@ -440,6 +440,23 @@
     "seeders": 73
   },
   {
+    "id": "tt26593219",
+    "type": "movie",
+    "name": "Fotó a múltból",
+    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
+    "genres": [
+      "TV film",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 136
+  },
+  {
     "id": "tt30813817",
     "type": "movie",
     "name": "We Were Dangerous",
@@ -468,22 +485,5 @@
       "Dráma"
     ],
     "seeders": 54
-  },
-  {
-    "id": "tt26593219",
-    "type": "movie",
-    "name": "Fotó a múltból",
-    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
-    "genres": [
-      "TV film",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 136
   }
 ]
