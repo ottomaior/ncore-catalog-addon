@@ -7,13 +7,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 6.5,
+    "imdbRating": 5.8,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
-      "Kaland"
+      "Thriller"
     ],
-    "seeders": 667
+    "seeders": 509
   },
   {
     "id": "tt31050594",
@@ -30,7 +30,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 4490
+    "seeders": 3024
   },
   {
     "id": "tt31065630",
@@ -45,7 +45,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 196
+    "seeders": 167
   },
   {
     "id": "tt20990442",
@@ -61,7 +61,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 294
+    "seeders": 225
   },
   {
     "id": "tt32332404",
@@ -77,7 +77,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 242
+    "seeders": 189
   },
   {
     "id": "tt26270862",
@@ -92,7 +92,58 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 66
+    "seeders": 72
+  },
+  {
+    "id": "tt28793125",
+    "type": "movie",
+    "name": "A svéd kapcsolat",
+    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Háborús"
+    ],
+    "seeders": 440
+  },
+  {
+    "id": "tt0044487",
+    "type": "movie",
+    "name": "Az aranyhintó",
+    "poster": "https://image.tmdb.org/t/p/w500/cDlxLnLMboEfdDcPelodOs71GVs.jpg",
+    "posterShape": "poster",
+    "year": 1952,
+    "description": "Peru alkirálya beleszeret az átutazó szinésznőbe, Camillába. A színésznő szerelme bizonyítékául egy aranyhintót kér. Az alkirály, ha vonakodva is, teljesíti kérését, ami viszont féltékennyé teszi Camilla szeretőjét. Mivel a színésznő kegyeiért egy torreádor is verseng, immár teljes a zűrzavar. Camilla végül megsokallja az egészet, s a vitatott hintót átengedi a püspöknek, ő pedig visszatér igazi szerelméhez, a színházhoz.",
+    "imdbRating": 7.1,
+    "releaseInfo": "1952",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 32
+  },
+  {
+    "id": "tt0064952",
+    "type": "movie",
+    "name": "Santa Vittoria titka",
+    "poster": "https://image.tmdb.org/t/p/w500/hW64HmSU2iXHIJ3GkNPDKDjlOhG.jpg",
+    "posterShape": "poster",
+    "year": 1970,
+    "description": "Fabio della Romagna óriási hírrel rohan haza, Santa Vittoria városkájába. A főtéren kihirdeti, hogy Benito Mussolininak, a zsarnoknak vége. Nem igen értik ezt Santa Vittoria együgyű és bohókás lakói, mint a birkák, hallgatnak. Bombolini, a helybéli korcsmáros, ennek örömére, s no persze, annak örömére is, hogy a félkegyelműek hirtelen megválasztják polgármesternek, meghívja a népét egy pohár borra. Rosa, a felesége, temperamentumos nagyasszony, ízig-vérig olasz, kiveri részeg férjét és a csőcseléket a házából. Santa Vittoria szabad városkáját azonban beárnyékolja a következő hír, miszerint hamarosan jönnek a németek. Bombolini rendkívüli városgyűlést hív össze, újra választja hirtelen a városi tanácsot, s arról tanácskoznak, vaj'miért jönnek a németek. Hát a borért. Santa Vittoria jó kis vörös, testes boráért. No, erre összefutott Bombolini faluja apraja-nagyja, hogy közösséggé formálódjanak, s elrejtsék Santa Vittoria titkát...",
+    "imdbRating": 6.9,
+    "releaseInfo": "1970",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 30
   },
   {
     "id": "tt2552296",
@@ -109,24 +160,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 49
-  },
-  {
-    "id": "tt28793125",
-    "type": "movie",
-    "name": "A svéd kapcsolat",
-    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
-    ],
-    "seeders": 565
+    "seeders": 40
   },
   {
     "id": "tt0032138",
@@ -143,7 +177,7 @@
       "Fantasy",
       "Családi"
     ],
-    "seeders": 43
+    "seeders": 37
   },
   {
     "id": "tt0264472",
@@ -159,39 +193,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 31
-  },
-  {
-    "id": "tt0046521",
-    "type": "movie",
-    "name": "A bikaborjak",
-    "poster": "https://image.tmdb.org/t/p/w500/kl2KAv0WGJjRAZeiMLHqNtsG9AC.jpg",
-    "posterShape": "poster",
-    "year": 1953,
-    "description": "Moraldo, Fausto, Leopoldo, és Alberto egy álmos kisváros aranyifjai, akik sehogy sem akarnak belenőni a felnőtt életbe. Szüleik világát szűknek és unalmasnak érzik, nagy tervekről, izgalmas életpályáról álmodoznak, de erejükből legfeljebb némi botránykeltésre futja. Menekülni szeretnének, de csak Moraldónak van annyi ereje, hogy felszálljon a Róma felé tartó vonatra. Az erőteljesen önéletrajzi ihletésű film elkészítésének idején Fellini még maga is pályakezdőnek számított csakúgy, mint fiatal színészei, akik közül a saját nevét is vállaló Alberto Sordi igazi világsztár lett.",
-    "imdbRating": 7.6,
-    "releaseInfo": "1953",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
     "seeders": 33
-  },
-  {
-    "id": "tt0044876",
-    "type": "movie",
-    "name": "A fehér öltönyös férfi",
-    "poster": "https://image.tmdb.org/t/p/w500/j0WiFteVTYrAADY4wsUulR5Mj7y.jpg",
-    "posterShape": "poster",
-    "year": 1951,
-    "description": "Sidney Stratton kémikus csodálatos felfedezést tesz. Olyan textilszálat fejleszt ki, amely elpusztíthatatlan, és ráadásul a szennyet is taszítja. Fölöttébb örül a felfedezésének, de lelkesedésében nem osztozik vele senki: ahelyett, hogy ünnepelnék, a fiatalember mindenütt visszautasításba ütközik. A textilipar vezetõi is, a szakszervezetek is inkább azzal próbálkoznak, hogy gátolják õt az anyag népszerûsítésében. Ha ugyanis ez a textilszál általános elterjedne, egész iparáguk összeomlana.",
-    "imdbRating": 6.9,
-    "releaseInfo": "1951",
-    "genres": [
-      "Vígjáték",
-      "Sci-Fi"
-    ],
-    "seeders": 39
   },
   {
     "id": "tt4712810",
@@ -208,7 +210,22 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 877
+    "seeders": 646
+  },
+  {
+    "id": "tt33057274",
+    "type": "movie",
+    "name": "Egy citromcseppnyi varázslat",
+    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 128
   },
   {
     "id": "tt0144214",
@@ -225,39 +242,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 40
-  },
-  {
-    "id": "tt33057274",
-    "type": "movie",
-    "name": "Egy citromcseppnyi varázslat",
-    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2024",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 157
-  },
-  {
-    "id": "tt30343021",
-    "type": "movie",
-    "name": "Song Sung Blue",
-    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Zenei",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 341
+    "seeders": 38
   },
   {
     "id": "tt27721490",
@@ -274,39 +259,56 @@
       "Akció",
       "Western"
     ],
-    "seeders": 300
+    "seeders": 239
   },
   {
-    "id": "tt0091495",
+    "id": "tt30343021",
     "type": "movie",
-    "name": "Matador",
-    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
+    "name": "Song Sung Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
     "posterShape": "poster",
-    "year": 1986,
-    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1986",
+    "year": 2025,
+    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Thriller"
+      "Zenei",
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 28
+    "seeders": 261
   },
   {
-    "id": "tt33028778",
+    "id": "tt0046521",
     "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+    "name": "A bikaborjak",
+    "poster": "https://image.tmdb.org/t/p/w500/kl2KAv0WGJjRAZeiMLHqNtsG9AC.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
+    "year": 1953,
+    "description": "Moraldo, Fausto, Leopoldo, és Alberto egy álmos kisváros aranyifjai, akik sehogy sem akarnak belenőni a felnőtt életbe. Szüleik világát szűknek és unalmasnak érzik, nagy tervekről, izgalmas életpályáról álmodoznak, de erejükből legfeljebb némi botránykeltésre futja. Menekülni szeretnének, de csak Moraldónak van annyi ereje, hogy felszálljon a Róma felé tartó vonatra. Az erőteljesen önéletrajzi ihletésű film elkészítésének idején Fellini még maga is pályakezdőnek számított csakúgy, mint fiatal színészei, akik közül a saját nevét is vállaló Alberto Sordi igazi világsztár lett.",
+    "imdbRating": 7.6,
+    "releaseInfo": "1953",
     "genres": [
-      "Horror",
-      "Thriller"
+      "Vígjáték",
+      "Dráma"
     ],
-    "seeders": 779
+    "seeders": 29
+  },
+  {
+    "id": "tt0044876",
+    "type": "movie",
+    "name": "A fehér öltönyös férfi",
+    "poster": "https://image.tmdb.org/t/p/w500/j0WiFteVTYrAADY4wsUulR5Mj7y.jpg",
+    "posterShape": "poster",
+    "year": 1951,
+    "description": "Sidney Stratton kémikus csodálatos felfedezést tesz. Olyan textilszálat fejleszt ki, amely elpusztíthatatlan, és ráadásul a szennyet is taszítja. Fölöttébb örül a felfedezésének, de lelkesedésében nem osztozik vele senki: ahelyett, hogy ünnepelnék, a fiatalember mindenütt visszautasításba ütközik. A textilipar vezetõi is, a szakszervezetek is inkább azzal próbálkoznak, hogy gátolják õt az anyag népszerûsítésében. Ha ugyanis ez a textilszál általános elterjedne, egész iparáguk összeomlana.",
+    "imdbRating": 6.9,
+    "releaseInfo": "1951",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi"
+    ],
+    "seeders": 32
   },
   {
     "id": "tt29780866",
@@ -323,7 +325,39 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 593
+    "seeders": 439
+  },
+  {
+    "id": "tt0091495",
+    "type": "movie",
+    "name": "Matador",
+    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
+    "posterShape": "poster",
+    "year": 1986,
+    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1986",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 27
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 520
   },
   {
     "id": "tt0428856",
@@ -339,23 +373,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 105
-  },
-  {
-    "id": "tt33474179",
-    "type": "movie",
-    "name": "Lángok közt",
-    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 187
+    "seeders": 83
   },
   {
     "id": "tt0073169",
@@ -372,7 +390,23 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 77
+    "seeders": 70
+  },
+  {
+    "id": "tt33474179",
+    "type": "movie",
+    "name": "Lángok közt",
+    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 146
   },
   {
     "id": "tt0051964",
@@ -387,7 +421,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 71
+    "seeders": 59
   },
   {
     "id": "tt2396431",
@@ -403,7 +437,22 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 294
+    "seeders": 227
+  },
+  {
+    "id": "tt30813817",
+    "type": "movie",
+    "name": "We Were Dangerous",
+    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 92
   },
   {
     "id": "tt0046359",
@@ -420,24 +469,7 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 33
-  },
-  {
-    "id": "tt2005151",
-    "type": "movie",
-    "name": "Haverok fegyverben",
-    "poster": "https://image.tmdb.org/t/p/w500/3AiFSy3lbcxxhzShaLzHF3SLotd.jpg",
-    "posterShape": "poster",
-    "year": 2016,
-    "description": "Ne légy szerény! Ez az üzleti világ alapszabálya. Efraim Diveroli és David Packouz ugyan semmit nem tud sem szabályokról sem az üzleti világról – lepukkant kis szobában élnek Miamiban, és napjuk nagy részét különféle füvek szívásával töltik –, de amikor meghökkentő módon az ölükbe pottyan a szerencse, nem mondanak nemet: és hamarosan aláírnak egy háromszáz millió dolláros szerződést a Védelmi Minisztériummal. Vállalják, hogy fegyvert és muníciót szállítsanak Afganisztánba az USA szövetségeseinek. Nem csináltak még ilyet soha, ennyi pénzről még csak álmodni sem mertek, de igent mondanak – és igyekeznek a lehető legtöbbet kihozni a helyzetből, amivel elképesztő bonyodalmakba keverik magukat. Orosz fegyverkereskedők, albán gengszterek, washingtoni politikusok, egy svájci külkereskedő keringenek körülöttük… Miami Beachtől az iraki-afgán határig ver hullámokat ez a szélhámosság.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2016",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 73
+    "seeders": 29
   },
   {
     "id": "tt26593219",
@@ -454,36 +486,6 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 136
-  },
-  {
-    "id": "tt30813817",
-    "type": "movie",
-    "name": "We Were Dangerous",
-    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 96
-  },
-  {
-    "id": "tt0078763",
-    "type": "movie",
-    "name": "Amatőr",
-    "poster": "https://image.tmdb.org/t/p/w500/pDh0YMJQqVV1nuBRnkQbIg911Xw.jpg",
-    "posterShape": "poster",
-    "year": 1979,
-    "description": "Filip életében végre bekövetkezik a régen várt nagy esemény: kislánya születik. Az újdonsült apa vásárol egy szuper 8-as filmfelvevő kamerát, ezzel szeretné megörökíteni a kislány életének kedves pillanatait. Mikor filmezési hobbija közismertté válik, azt a feladatot kapja igazgatójától, hogy készítsen filmfelvételt a vállalat jubileumi ünnepségéről. A botcsinálta operatőr először tétován fogadja a megbízást, majd percről percre egyre inkább szenvedélyévé válik a filmezés, az események rögzítése. Ez aztán addigi életét teljesen megváltoztatja. A felvett anyagot azonban az igazgató utasítására meg kell vágni... (port.hu)",
-    "imdbRating": 7.5,
-    "releaseInfo": "1979",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 54
+    "seeders": 110
   }
 ]
