@@ -1,5 +1,38 @@
 [
   {
+    "id": "tt4530422",
+    "type": "movie",
+    "name": "Overlord",
+    "poster": "https://image.tmdb.org/t/p/w500/kLgExxVDrOhXteIi85lENK166Xp.jpg",
+    "posterShape": "poster",
+    "year": 2018,
+    "description": "Adva van egy csapatnyi amerikai katona, akik a II. világháború partraszállását megelőző estéjén, előőrsként kívánnak behatolni az ellenséges vonalak mögé, hogy megsemmisítsék a németek egy rádióállomását, ezzel elvágva a kommunikációs útvonalat. Csakhogy a gépet lelövik, az osztagnak csupán egy kis része éli túl az egészet, mindennek tetejébe pedig olyan szörnyűségekre bukkannak, ami felülírja az addigiakat.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2018",
+    "genres": [
+      "Horror",
+      "Háborús",
+      "Sci-Fi"
+    ],
+    "seeders": 46
+  },
+  {
+    "id": "tt0076208",
+    "type": "movie",
+    "name": "Iphigenia",
+    "poster": "https://image.tmdb.org/t/p/w500/gpSh51zNDfvbPFg4lInWlMOmYdc.jpg",
+    "posterShape": "poster",
+    "year": 1977,
+    "description": "Euripidész ókori görög drámáját, közös európai kultúránk egyik alapművét idézi meg Michael Cacoyannis görög rendező filmje. A történet a trójai mondakör egyik fontos epizódját dolgozza fel. A görög városállamok vezéreinek szövetsége a kisázsiai Trója alá indul, hogy visszaszerezze Menelaosz elrabolt hitvesét, Helenát, és hogy megtorolja a sérelmet a trójaiakon. A sereg Aulisz kikötőjében vesztegel, a továbbjutást akadályozza Artemisz istennő, akinek szent állatát lelőtte egy görög harcos. A kiengeszteléséhez és egyben a továbbjutáshoz a fővezér, Agamennon lányának, az ártatlan Iphigeneiának feláldozását kérik az istenek. Agamennon vívódik a népe iránti kötelessége és a szülői szeretet között...",
+    "imdbRating": 6.9,
+    "releaseInfo": "1977",
+    "genres": [
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 31
+  },
+  {
     "id": "tt14181714",
     "type": "movie",
     "name": "A szikla",
@@ -7,13 +40,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 5.8,
+    "imdbRating": 5.4,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 509
+    "seeders": 984
   },
   {
     "id": "tt31050594",
@@ -30,7 +63,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3024
+    "seeders": 4956
+  },
+  {
+    "id": "tt0055805",
+    "type": "movie",
+    "name": "Doktor Antonio megkísértése",
+    "poster": "https://image.tmdb.org/t/p/w500/q9m555oEiqZo5nWBvQuh9XtLaTJ.jpg",
+    "posterShape": "poster",
+    "year": 1962,
+    "description": "A Dekameron mintájára megalkotott négy vidám szerelmi történetben a 60-as évek legnagyobb olasz mesterei mondanak véleményt erkölcseink akkori állapotáról.  Renzo és Luciana vállalják a házasság minden örömét és nehézségét. Például azt is, hogy a főnök határozott tilalma ellenére házasodtak össze.  Dr. Antonio esténként az utcákat rója, csókolózó szerelmeseket részesít erkölcsi oktatásban, hiányos öltözetű táncosnőket igyekszik jobb belátásra bírni. Egészen addig, amíg egy óriásplakátról le nem száll hozzá álmai asszonya.  Ottavio gróf semmirekellő fiatalember, lényegében az apósa tartja el. Kicsapongó életmódjáról még az újságok is cikkeznek. Fiatal felesége, Pupe elhatározza, hogy kilép a megcsalt asszony szerepköréből, és szolgáltatásaiért ezentúl ő is pénzt kér tőle. A dolog játéknak indul, de csakhamar komollyá válik. A romagnai kis faluban a marhakereskedők nagy tombolát rendeznek, melynek első díja a gyönyörű Zoe szerelme. Zoé azonban kibabrál a férfiakkal.",
+    "imdbRating": 6.9,
+    "releaseInfo": "1962",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 43
   },
   {
     "id": "tt31065630",
@@ -45,7 +94,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 167
+    "seeders": 232
   },
   {
     "id": "tt20990442",
@@ -61,7 +110,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 225
+    "seeders": 332
   },
   {
     "id": "tt32332404",
@@ -77,7 +126,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 189
+    "seeders": 270
   },
   {
     "id": "tt26270862",
@@ -92,7 +141,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 72
+    "seeders": 110
   },
   {
     "id": "tt28793125",
@@ -109,7 +158,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 440
+    "seeders": 612
   },
   {
     "id": "tt0044487",
@@ -126,74 +175,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 32
-  },
-  {
-    "id": "tt0064952",
-    "type": "movie",
-    "name": "Santa Vittoria titka",
-    "poster": "https://image.tmdb.org/t/p/w500/hW64HmSU2iXHIJ3GkNPDKDjlOhG.jpg",
-    "posterShape": "poster",
-    "year": 1970,
-    "description": "Fabio della Romagna óriási hírrel rohan haza, Santa Vittoria városkájába. A főtéren kihirdeti, hogy Benito Mussolininak, a zsarnoknak vége. Nem igen értik ezt Santa Vittoria együgyű és bohókás lakói, mint a birkák, hallgatnak. Bombolini, a helybéli korcsmáros, ennek örömére, s no persze, annak örömére is, hogy a félkegyelműek hirtelen megválasztják polgármesternek, meghívja a népét egy pohár borra. Rosa, a felesége, temperamentumos nagyasszony, ízig-vérig olasz, kiveri részeg férjét és a csőcseléket a házából. Santa Vittoria szabad városkáját azonban beárnyékolja a következő hír, miszerint hamarosan jönnek a németek. Bombolini rendkívüli városgyűlést hív össze, újra választja hirtelen a városi tanácsot, s arról tanácskoznak, vaj'miért jönnek a németek. Hát a borért. Santa Vittoria jó kis vörös, testes boráért. No, erre összefutott Bombolini faluja apraja-nagyja, hogy közösséggé formálódjanak, s elrejtsék Santa Vittoria titkát...",
-    "imdbRating": 6.9,
-    "releaseInfo": "1970",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 30
-  },
-  {
-    "id": "tt2552296",
-    "type": "movie",
-    "name": "Ghadi - A család angyala",
-    "poster": "https://image.tmdb.org/t/p/w500/kaaqclIPfrElvHrH3q5q0Hmi7QQ.jpg",
-    "posterShape": "poster",
-    "year": 2013,
-    "description": "Leba, a libanoni tengerparti kisváros zenetanára feleségül veszi gyermekkori szerelmét. A két lányuk után fiúk születik. Kiderül, hogy Ghadi speciális gondoskodást igényel. Ahogy cseperedik, egyre több időt tölt az ablakban, az apja énekhangját próbálja utánozni. Ám többnyire érthetetlen hangokat ad ki, amelyek zavarják a szomszédokat, akik démonizálják Ghadit, és petíciót indítanak a család kilakoltatására. Leba és barátai azon törik fejüket, hogyan téríthetnék jobb belátásra az embereket.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2013",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Családi"
-    ],
-    "seeders": 40
-  },
-  {
-    "id": "tt0032138",
-    "type": "movie",
-    "name": "Óz, a csodák csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/bMyqunH8uFMWbdL484x5WT7Xwgo.jpg",
-    "posterShape": "poster",
-    "year": 1939,
-    "description": "Kansason félelmetes erejű tornádó söpör végig. A kis Dorothy nem tud elmenekülni, balesetet szenved. Ájult állapotban kis kutyájával, Totóval csodálatos helyre, Óz birodalmába kerül. Útja során barátokat szerez az Oroszlán, a Madárijesztő és a Bádogember személyében, ám egy kegyetlen ellenséggel, a Boszorkánnyal is szembe kerül. Noha itt minden színes és szép, Dorothy legfőbb vágya, hogy visszajusson az ő fekete-fehér, mégis úgy szeretett otthonába...",
-    "imdbRating": 7.6,
-    "releaseInfo": "1939",
-    "genres": [
-      "Kaland",
-      "Fantasy",
-      "Családi"
-    ],
-    "seeders": 37
-  },
-  {
-    "id": "tt0264472",
-    "type": "movie",
-    "name": "Ütközéspont",
-    "poster": "https://image.tmdb.org/t/p/w500/fw0bqZs4C7VhMsOaU5v5umd0VID.jpg",
-    "posterShape": "poster",
-    "year": 2002,
-    "description": "A menő ügyvéd, Gavin Banek (Ben Affleck) késésben van a bíróságról, és igyekszik átverekedni magát a csúcsforgalmon. Egy másik sávban Doyle Gipson (Samuel L. Jackson) szintén a bíróságra tart, ahol eldől, láthatja-e gyermekeit, és a bírónak tele a napi ügylajstroma, nincs ideje várni. A felszínen Banek és Gipson nagyon különböznek: egyikük a pályája csúcsára igyekszik, míg a másik kétségbeesetten próbál felkapaszkodni a mélypontról. Ám egy apró karambol az önpusztítás szélére sodorja ezt a két idegent, és bebizonyítja, hogy a düh minden előnyt kiegyenlít, ha az ember fenevaddá válik.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2002",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 33
+    "seeders": 59
   },
   {
     "id": "tt4712810",
@@ -210,7 +192,40 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 646
+    "seeders": 975
+  },
+  {
+    "id": "tt0264472",
+    "type": "movie",
+    "name": "Ütközéspont",
+    "poster": "https://image.tmdb.org/t/p/w500/fw0bqZs4C7VhMsOaU5v5umd0VID.jpg",
+    "posterShape": "poster",
+    "year": 2002,
+    "description": "A menő ügyvéd, Gavin Banek (Ben Affleck) késésben van a bíróságról, és igyekszik átverekedni magát a csúcsforgalmon. Egy másik sávban Doyle Gipson (Samuel L. Jackson) szintén a bíróságra tart, ahol eldől, láthatja-e gyermekeit, és a bírónak tele a napi ügylajstroma, nincs ideje várni. A felszínen Banek és Gipson nagyon különböznek: egyikük a pályája csúcsára igyekszik, míg a másik kétségbeesetten próbál felkapaszkodni a mélypontról. Ám egy apró karambol az önpusztítás szélére sodorja ezt a két idegent, és bebizonyítja, hogy a düh minden előnyt kiegyenlít, ha az ember fenevaddá válik.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2002",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 58
+  },
+  {
+    "id": "tt2552296",
+    "type": "movie",
+    "name": "Ghadi - A család angyala",
+    "poster": "https://image.tmdb.org/t/p/w500/kaaqclIPfrElvHrH3q5q0Hmi7QQ.jpg",
+    "posterShape": "poster",
+    "year": 2013,
+    "description": "Leba, a libanoni tengerparti kisváros zenetanára feleségül veszi gyermekkori szerelmét. A két lányuk után fiúk születik. Kiderül, hogy Ghadi speciális gondoskodást igényel. Ahogy cseperedik, egyre több időt tölt az ablakban, az apja énekhangját próbálja utánozni. Ám többnyire érthetetlen hangokat ad ki, amelyek zavarják a szomszédokat, akik démonizálják Ghadit, és petíciót indítanak a család kilakoltatására. Leba és barátai azon törik fejüket, hogyan téríthetnék jobb belátásra az embereket.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2013",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Családi"
+    ],
+    "seeders": 61
   },
   {
     "id": "tt33057274",
@@ -225,41 +240,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 128
-  },
-  {
-    "id": "tt0144214",
-    "type": "movie",
-    "name": "A tábornok lánya",
-    "poster": "https://image.tmdb.org/t/p/w500/n3st3mtnH9OcY9Wl3wt4pLSZFiI.jpg",
-    "posterShape": "poster",
-    "year": 1999,
-    "description": "\"Lehet valamit jól csinálni, rosszul csinálni, meg úgy, ahogy a hadsereg csinálja.\" De az nem lehet, hogy Paul Brenner (John Travolta) katonai nyomozó részt vegyen egy ügy eltussolásában. Amikor a pályája csúcsán lévő és közmegbecsülésnek örvendő Campbell tábornok gyönyörű lánya - maga is hivatásos katona - kéjgyilkosság áldozata lesz, az állományba egy lebuktatási manőver miatt korábban rangrejtve beépült nyomozó nekilát, hogy lerántsa a leplet a tragédia mögött rejlő homályos ügyletekről. A gyanúsítottak között főtisztek vannak, s kezdetét veszi a végzetes macska-egér játék, amely lebilincseli a néző figyelmét egészen a megdöbbentő végkifejletig.",
-    "imdbRating": 6.4,
-    "releaseInfo": "1999",
-    "genres": [
-      "Thriller",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 38
-  },
-  {
-    "id": "tt27721490",
-    "type": "movie",
-    "name": "Tornado",
-    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Akció",
-      "Western"
-    ],
-    "seeders": 239
+    "seeders": 162
   },
   {
     "id": "tt30343021",
@@ -276,39 +257,74 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 261
+    "seeders": 351
   },
   {
-    "id": "tt0046521",
+    "id": "tt27721490",
     "type": "movie",
-    "name": "A bikaborjak",
-    "poster": "https://image.tmdb.org/t/p/w500/kl2KAv0WGJjRAZeiMLHqNtsG9AC.jpg",
+    "name": "Tornado",
+    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
     "posterShape": "poster",
-    "year": 1953,
-    "description": "Moraldo, Fausto, Leopoldo, és Alberto egy álmos kisváros aranyifjai, akik sehogy sem akarnak belenőni a felnőtt életbe. Szüleik világát szűknek és unalmasnak érzik, nagy tervekről, izgalmas életpályáról álmodoznak, de erejükből legfeljebb némi botránykeltésre futja. Menekülni szeretnének, de csak Moraldónak van annyi ereje, hogy felszálljon a Róma felé tartó vonatra. Az erőteljesen önéletrajzi ihletésű film elkészítésének idején Fellini még maga is pályakezdőnek számított csakúgy, mint fiatal színészei, akik közül a saját nevét is vállaló Alberto Sordi igazi világsztár lett.",
-    "imdbRating": 7.6,
-    "releaseInfo": "1953",
+    "year": 2025,
+    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Dráma"
+      "Dráma",
+      "Akció",
+      "Western"
     ],
-    "seeders": 29
+    "seeders": 313
   },
   {
-    "id": "tt0044876",
+    "id": "tt33028778",
     "type": "movie",
-    "name": "A fehér öltönyös férfi",
-    "poster": "https://image.tmdb.org/t/p/w500/j0WiFteVTYrAADY4wsUulR5Mj7y.jpg",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
     "posterShape": "poster",
-    "year": 1951,
-    "description": "Sidney Stratton kémikus csodálatos felfedezést tesz. Olyan textilszálat fejleszt ki, amely elpusztíthatatlan, és ráadásul a szennyet is taszítja. Fölöttébb örül a felfedezésének, de lelkesedésében nem osztozik vele senki: ahelyett, hogy ünnepelnék, a fiatalember mindenütt visszautasításba ütközik. A textilipar vezetõi is, a szakszervezetek is inkább azzal próbálkoznak, hogy gátolják õt az anyag népszerûsítésében. Ha ugyanis ez a textilszál általános elterjedne, egész iparáguk összeomlana.",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 839
+  },
+  {
+    "id": "tt0064952",
+    "type": "movie",
+    "name": "Santa Vittoria titka",
+    "poster": "https://image.tmdb.org/t/p/w500/hW64HmSU2iXHIJ3GkNPDKDjlOhG.jpg",
+    "posterShape": "poster",
+    "year": 1970,
+    "description": "Fabio della Romagna óriási hírrel rohan haza, Santa Vittoria városkájába. A főtéren kihirdeti, hogy Benito Mussolininak, a zsarnoknak vége. Nem igen értik ezt Santa Vittoria együgyű és bohókás lakói, mint a birkák, hallgatnak. Bombolini, a helybéli korcsmáros, ennek örömére, s no persze, annak örömére is, hogy a félkegyelműek hirtelen megválasztják polgármesternek, meghívja a népét egy pohár borra. Rosa, a felesége, temperamentumos nagyasszony, ízig-vérig olasz, kiveri részeg férjét és a csőcseléket a házából. Santa Vittoria szabad városkáját azonban beárnyékolja a következő hír, miszerint hamarosan jönnek a németek. Bombolini rendkívüli városgyűlést hív össze, újra választja hirtelen a városi tanácsot, s arról tanácskoznak, vaj'miért jönnek a németek. Hát a borért. Santa Vittoria jó kis vörös, testes boráért. No, erre összefutott Bombolini faluja apraja-nagyja, hogy közösséggé formálódjanak, s elrejtsék Santa Vittoria titkát...",
     "imdbRating": 6.9,
-    "releaseInfo": "1951",
+    "releaseInfo": "1970",
     "genres": [
       "Vígjáték",
-      "Sci-Fi"
+      "Dráma",
+      "Háborús"
     ],
-    "seeders": 32
+    "seeders": 44
+  },
+  {
+    "id": "tt0032138",
+    "type": "movie",
+    "name": "Óz, a csodák csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/bMyqunH8uFMWbdL484x5WT7Xwgo.jpg",
+    "posterShape": "poster",
+    "year": 1939,
+    "description": "Kansason félelmetes erejű tornádó söpör végig. A kis Dorothy nem tud elmenekülni, balesetet szenved. Ájult állapotban kis kutyájával, Totóval csodálatos helyre, Óz birodalmába kerül. Útja során barátokat szerez az Oroszlán, a Madárijesztő és a Bádogember személyében, ám egy kegyetlen ellenséggel, a Boszorkánnyal is szembe kerül. Noha itt minden színes és szép, Dorothy legfőbb vágya, hogy visszajusson az ő fekete-fehér, mégis úgy szeretett otthonába...",
+    "imdbRating": 7.6,
+    "releaseInfo": "1939",
+    "genres": [
+      "Kaland",
+      "Fantasy",
+      "Családi"
+    ],
+    "seeders": 50
   },
   {
     "id": "tt29780866",
@@ -325,7 +341,56 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 439
+    "seeders": 625
+  },
+  {
+    "id": "tt0144214",
+    "type": "movie",
+    "name": "A tábornok lánya",
+    "poster": "https://image.tmdb.org/t/p/w500/n3st3mtnH9OcY9Wl3wt4pLSZFiI.jpg",
+    "posterShape": "poster",
+    "year": 1999,
+    "description": "\"Lehet valamit jól csinálni, rosszul csinálni, meg úgy, ahogy a hadsereg csinálja.\" De az nem lehet, hogy Paul Brenner (John Travolta) katonai nyomozó részt vegyen egy ügy eltussolásában. Amikor a pályája csúcsán lévő és közmegbecsülésnek örvendő Campbell tábornok gyönyörű lánya - maga is hivatásos katona - kéjgyilkosság áldozata lesz, az állományba egy lebuktatási manőver miatt korábban rangrejtve beépült nyomozó nekilát, hogy lerántsa a leplet a tragédia mögött rejlő homályos ügyletekről. A gyanúsítottak között főtisztek vannak, s kezdetét veszi a végzetes macska-egér játék, amely lebilincseli a néző figyelmét egészen a megdöbbentő végkifejletig.",
+    "imdbRating": 6.4,
+    "releaseInfo": "1999",
+    "genres": [
+      "Thriller",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 42
+  },
+  {
+    "id": "tt0044876",
+    "type": "movie",
+    "name": "A fehér öltönyös férfi",
+    "poster": "https://image.tmdb.org/t/p/w500/j0WiFteVTYrAADY4wsUulR5Mj7y.jpg",
+    "posterShape": "poster",
+    "year": 1951,
+    "description": "Sidney Stratton kémikus csodálatos felfedezést tesz. Olyan textilszálat fejleszt ki, amely elpusztíthatatlan, és ráadásul a szennyet is taszítja. Fölöttébb örül a felfedezésének, de lelkesedésében nem osztozik vele senki: ahelyett, hogy ünnepelnék, a fiatalember mindenütt visszautasításba ütközik. A textilipar vezetõi is, a szakszervezetek is inkább azzal próbálkoznak, hogy gátolják õt az anyag népszerûsítésében. Ha ugyanis ez a textilszál általános elterjedne, egész iparáguk összeomlana.",
+    "imdbRating": 6.9,
+    "releaseInfo": "1951",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi"
+    ],
+    "seeders": 39
+  },
+  {
+    "id": "tt0046521",
+    "type": "movie",
+    "name": "A bikaborjak",
+    "poster": "https://image.tmdb.org/t/p/w500/kl2KAv0WGJjRAZeiMLHqNtsG9AC.jpg",
+    "posterShape": "poster",
+    "year": 1953,
+    "description": "Moraldo, Fausto, Leopoldo, és Alberto egy álmos kisváros aranyifjai, akik sehogy sem akarnak belenőni a felnőtt életbe. Szüleik világát szűknek és unalmasnak érzik, nagy tervekről, izgalmas életpályáról álmodoznak, de erejükből legfeljebb némi botránykeltésre futja. Menekülni szeretnének, de csak Moraldónak van annyi ereje, hogy felszálljon a Róma felé tartó vonatra. Az erőteljesen önéletrajzi ihletésű film elkészítésének idején Fellini még maga is pályakezdőnek számított csakúgy, mint fiatal színészei, akik közül a saját nevét is vállaló Alberto Sordi igazi világsztár lett.",
+    "imdbRating": 7.6,
+    "releaseInfo": "1953",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 35
   },
   {
     "id": "tt0091495",
@@ -341,23 +406,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 27
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 520
+    "seeders": 34
   },
   {
     "id": "tt0428856",
@@ -373,7 +422,23 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 83
+    "seeders": 104
+  },
+  {
+    "id": "tt33474179",
+    "type": "movie",
+    "name": "Lángok közt",
+    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 201
   },
   {
     "id": "tt0073169",
@@ -390,38 +455,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 70
-  },
-  {
-    "id": "tt33474179",
-    "type": "movie",
-    "name": "Lángok közt",
-    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 146
-  },
-  {
-    "id": "tt0051964",
-    "type": "movie",
-    "name": "Lányok egyenruhában",
-    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
-    "posterShape": "poster",
-    "year": 1958,
-    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
-    "imdbRating": 6.1,
-    "releaseInfo": "1958",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 59
+    "seeders": 92
   },
   {
     "id": "tt2396431",
@@ -437,55 +471,21 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 227
+    "seeders": 326
   },
   {
-    "id": "tt30813817",
+    "id": "tt0051964",
     "type": "movie",
-    "name": "We Were Dangerous",
-    "poster": "https://image.tmdb.org/t/p/w500/iJLF8swW5PhWkWHwb82SPmQcCQO.jpg",
+    "name": "Lányok egyenruhában",
+    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
     "posterShape": "poster",
-    "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2024",
+    "year": 1958,
+    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
+    "imdbRating": 6.1,
+    "releaseInfo": "1958",
     "genres": [
       "Dráma"
     ],
-    "seeders": 92
-  },
-  {
-    "id": "tt0046359",
-    "type": "movie",
-    "name": "A 17-es fogolytábor",
-    "poster": "https://image.tmdb.org/t/p/w500/kwRBd6P8ubynU1p1eHGIcGb2557.jpg",
-    "posterShape": "poster",
-    "year": 1953,
-    "description": "A második világháború alatt egy csapat amerikai katona kerül össze a hírhedt német 17-es fogolytáborban, a Stalag 17-ben. Többnyire azzal töltik az idejüket, hogy azon mesterkednek, hogyan segíthetnének egymásnak megszökni. De amikor két rabot megölnek egy szökési kísérlet közben, nyilvánvalóvá válik, hogy spicli van közöttük.  William Holden Oscar-díjat kapott a cinikus, éles nyelvű katona alakításáért, aki azzal tölti az idejét, hogy svindliket eszel ki, és különleges előjogokért seftel a németekkel.",
-    "imdbRating": 7.7,
-    "releaseInfo": "1953",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 29
-  },
-  {
-    "id": "tt26593219",
-    "type": "movie",
-    "name": "Fotó a múltból",
-    "poster": "https://image.tmdb.org/t/p/w500/iviFpnmCu0qs6VzH9H0WlhX4aja.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Beth egy csendes-óceáni halászfaluból Los Angelesbe költözik, ahol egy róla készült fotó híressé teszi, és elvezeti a fotóshoz, aki beleszeret. Ám amikor kiderül az igazság, a megbántott Beth visszahúzódik a csigaházába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
-    "genres": [
-      "TV film",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 110
+    "seeders": 71
   }
 ]
