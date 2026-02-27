@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt20112600",
+    "type": "movie",
+    "name": "Verseny a győzelemért",
+    "poster": "https://image.tmdb.org/t/p/w500/qLVQZMGxJk3dEBkQwqx7Y66V5oG.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Minden idők egyik legnagyobb sportrivalizálása zajlott a nyolcvanas években a német Audi és az olasz Lancia között. A két autógyártó legnagyobb összecsapása az 1983-as rali-világbajnokságon játszódott le. Dávid és Góliát küzdelmében a toronymagas esélyes az Audi volt. A Lancia az innováció és merészség kombinációjával szállt szembe vele. Autó és autó, versenyző és versenyző, mérnökök és mérnökök feszültek egymásnak egy olyan korban, amikor egy autóverseny eredménye közvetlenül befolyásolta az autóértékesítéseket. Az autentikus utazás a nyolcvanas évekbe és a látványos autóversenyek egyedülálló élményt kínálnak nemcsak a sportautók kedvelőinek.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 173
+  },
+  {
     "id": "tt17279496",
     "type": "movie",
     "name": "Polgárháború",
@@ -14,7 +30,41 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 56
+    "seeders": 249
+  },
+  {
+    "id": "tt0093881",
+    "type": "movie",
+    "name": "A rózsafüzér-gyilkosságok",
+    "poster": "https://image.tmdb.org/t/p/w500/sPbLmYHV2We8QxMwwIyVzQiso79.jpg",
+    "posterShape": "poster",
+    "year": 1987,
+    "description": "Egy sorozatgyilkos szedi áldozatait apácák és papok közül válogat. Mindegyikük kezében egy-egy rózsafüzért hagy. A gyilkos egy apa, aki saját lánya évekkel ezelőtti haláláért okolja áldozatait, közben ő maga idézi elő az eseményt.",
+    "imdbRating": 5.5,
+    "releaseInfo": "1987",
+    "genres": [
+      "Bűnügyi",
+      "Rejtély",
+      "Thriller",
+      "Horror"
+    ],
+    "seeders": 48
+  },
+  {
+    "id": "tt14181714",
+    "type": "movie",
+    "name": "A szikla",
+    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 1143
   },
   {
     "id": "tt32332404",
@@ -30,7 +80,24 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 62
+    "seeders": 96
+  },
+  {
+    "id": "tt15783426",
+    "type": "movie",
+    "name": "Egy napra oroszlán",
+    "poster": "https://image.tmdb.org/t/p/w500/cxSKca4dNlk7O7PMiEYT203vlIw.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Jackie Powers semmitől sem riad vissza, hogy megakadályozza, hogy a fia kövesse őt a bűnözésbe, kétségbeesetten próbálja megszerezni az óvadékot jogtalanul elítélt fia szabadulására, még a leghírhedtebb bérgyilkosokkal is összeáll. Ám egy nő hatására új tervet sző, hogy kikerülve a maffiát mégis megmentse fiát. Miközben maffiózó megbízója üldözi, egy véletlen találkozás egy út menti büfében új utat nyit számára.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2023",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 152
   },
   {
     "id": "tt2137286",
@@ -46,40 +113,23 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 43
+    "seeders": 47
   },
   {
-    "id": "tt14181714",
+    "id": "tt26443107",
     "type": "movie",
-    "name": "A szikla",
-    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 908
-  },
-  {
-    "id": "tt15783426",
-    "type": "movie",
-    "name": "Egy napra oroszlán",
-    "poster": "https://image.tmdb.org/t/p/w500/cxSKca4dNlk7O7PMiEYT203vlIw.jpg",
+    "name": "Felnőttek",
+    "poster": "https://image.tmdb.org/t/p/w500/i4vkr30zcBnVH2XCXUxyuFTX5JR.jpg",
     "posterShape": "poster",
     "year": 2023,
-    "description": "Jackie Powers semmitől sem riad vissza, hogy megakadályozza, hogy a fia kövesse őt a bűnözésbe. Miközben maffiózó megbízója üldözi, egy véletlen találkozás egy út menti büfében új utat nyit számára.",
-    "imdbRating": 5.7,
+    "description": "Eric úgy tervezi, hogy csak egy rövid látogatásra tér haza, de a nővéreivel, valamint a régi pókeres csoportjával való találkozás hatására ez felborul. Ahogy a tartózkodása kitolódik, Eric egyre nehezebben tudja elkerülni a konfrontációkat és a felfedezéseket, ahogy a gondosan felépített felnőttkori énképe utat enged a régi gyerekkori konfliktusoknak. Miközben Maggie megpróbálja újrateremteni azt a meghitt világot, amelyet egykor hármójukkal közösen éltek meg, Eric és Rachel szembesül a gyermekkori és a mostani felnőtt énjük közötti szakadékkal.",
+    "imdbRating": 6.3,
     "releaseInfo": "2023",
     "genres": [
-      "Akció",
-      "Thriller",
-      "Bűnügyi"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 106
+    "seeders": 81
   },
   {
     "id": "tt0105402",
@@ -97,39 +147,23 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 35
+    "seeders": 43
   },
   {
-    "id": "tt26443107",
+    "id": "tt20990442",
     "type": "movie",
-    "name": "Felnőttek",
-    "poster": "https://image.tmdb.org/t/p/w500/i4vkr30zcBnVH2XCXUxyuFTX5JR.jpg",
+    "name": "Csúcs",
+    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
     "posterShape": "poster",
-    "year": 2023,
-    "description": "Eric úgy tervezi, hogy csak egy rövid látogatásra tér haza, de a nővéreivel, valamint a régi pókeres csoportjával való találkozás hatására ez felborul. Ahogy a tartózkodása kitolódik, Eric egyre nehezebben tudja elkerülni a konfrontációkat és a felfedezéseket, ahogy a gondosan felépített felnőttkori énképe utat enged a régi gyerekkori konfliktusoknak. Miközben Maggie megpróbálja újrateremteni azt a meghitt világot, amelyet egykor hármójukkal közösen éltek meg, Eric és Rachel szembesül a gyermekkori és a mostani felnőtt énjük közötti szakadékkal.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2023",
+    "year": 2025,
+    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Horror",
+      "Rejtély"
     ],
-    "seeders": 69
-  },
-  {
-    "id": "tt1424310",
-    "type": "movie",
-    "name": "Istenek fegyverzete 3. - Műkincs hajsza",
-    "poster": "https://image.tmdb.org/t/p/w500/537CFH4qqv1e3BrulnI3jwCDhyK.jpg",
-    "posterShape": "poster",
-    "year": 2012,
-    "description": "Az \"Ázsiai Sólyom\", a rettenthetetlen szerencsevadász csapata élén felkerekedik, hogy visszaszerezze azt a tucatnyi, felbecsülhetetlen értékű fejszobrot, melyeket a kínai zodiákus 12 állatáról mintázták, és melyeket az 1800-as években loptak el a pekingi Nyári Palotából. A szédületes hajsza során Condor és csapata a világ majd minden szögletébe eljut Franciaország gyönyörű borvidékeitől kezdve egy aktív vulkán tűzforró oldaláig, és semmi sem állíthatja meg őket abban, hogy teljesítsék feladatukat.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2012",
-    "genres": [
-      "Akció",
-      "Kaland"
-    ],
-    "seeders": 34
+    "seeders": 332
   },
   {
     "id": "tt4530422",
@@ -146,7 +180,7 @@
       "Háborús",
       "Sci-Fi"
     ],
-    "seeders": 78
+    "seeders": 98
   },
   {
     "id": "tt31065630",
@@ -161,23 +195,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 219
-  },
-  {
-    "id": "tt20990442",
-    "type": "movie",
-    "name": "Csúcs",
-    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 281
+    "seeders": 232
   },
   {
     "id": "tt0807054",
@@ -192,7 +210,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 61
+    "seeders": 68
   },
   {
     "id": "tt0076208",
@@ -208,7 +226,23 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 56
+    "seeders": 66
+  },
+  {
+    "id": "tt1424310",
+    "type": "movie",
+    "name": "Istenek fegyverzete 3. - Műkincs hajsza",
+    "poster": "https://image.tmdb.org/t/p/w500/537CFH4qqv1e3BrulnI3jwCDhyK.jpg",
+    "posterShape": "poster",
+    "year": 2012,
+    "description": "Az \"Ázsiai Sólyom\", a rettenthetetlen szerencsevadász csapata élén felkerekedik, hogy visszaszerezze azt a tucatnyi, felbecsülhetetlen értékű fejszobrot, melyeket a kínai zodiákus 12 állatáról mintázták, és melyeket az 1800-as években loptak el a pekingi Nyári Palotából. A szédületes hajsza során Condor és csapata a világ majd minden szögletébe eljut Franciaország gyönyörű borvidékeitől kezdve egy aktív vulkán tűzforró oldaláig, és semmi sem állíthatja meg őket abban, hogy teljesítsék feladatukat.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2012",
+    "genres": [
+      "Akció",
+      "Kaland"
+    ],
+    "seeders": 33
   },
   {
     "id": "tt26270862",
@@ -223,7 +257,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 100
+    "seeders": 117
+  },
+  {
+    "id": "tt33057274",
+    "type": "movie",
+    "name": "Egy citromcseppnyi varázslat",
+    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 161
   },
   {
     "id": "tt0055805",
@@ -239,22 +288,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 44
-  },
-  {
-    "id": "tt33057274",
-    "type": "movie",
-    "name": "Egy citromcseppnyi varázslat",
-    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2024",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 149
+    "seeders": 43
   },
   {
     "id": "tt0264472",
@@ -270,24 +304,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 59
-  },
-  {
-    "id": "tt0044487",
-    "type": "movie",
-    "name": "Az aranyhintó",
-    "poster": "https://image.tmdb.org/t/p/w500/cDlxLnLMboEfdDcPelodOs71GVs.jpg",
-    "posterShape": "poster",
-    "year": 1952,
-    "description": "Peru alkirálya beleszeret az átutazó szinésznőbe, Camillába. A színésznő szerelme bizonyítékául egy aranyhintót kér. Az alkirály, ha vonakodva is, teljesíti kérését, ami viszont féltékennyé teszi Camilla szeretőjét. Mivel a színésznő kegyeiért egy torreádor is verseng, immár teljes a zűrzavar. Camilla végül megsokallja az egészet, s a vitatott hintót átengedi a püspöknek, ő pedig visszatér igazi szerelméhez, a színházhoz.",
-    "imdbRating": 7.1,
-    "releaseInfo": "1952",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 48
+    "seeders": 71
   },
   {
     "id": "tt2552296",
@@ -304,7 +321,40 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 47
+    "seeders": 63
+  },
+  {
+    "id": "tt0044487",
+    "type": "movie",
+    "name": "Az aranyhintó",
+    "poster": "https://image.tmdb.org/t/p/w500/cDlxLnLMboEfdDcPelodOs71GVs.jpg",
+    "posterShape": "poster",
+    "year": 1952,
+    "description": "Peru alkirálya beleszeret az átutazó szinésznőbe, Camillába. A színésznő szerelme bizonyítékául egy aranyhintót kér. Az alkirály, ha vonakodva is, teljesíti kérését, ami viszont féltékennyé teszi Camilla szeretőjét. Mivel a színésznő kegyeiért egy torreádor is verseng, immár teljes a zűrzavar. Camilla végül megsokallja az egészet, s a vitatott hintót átengedi a püspöknek, ő pedig visszatér igazi szerelméhez, a színházhoz.",
+    "imdbRating": 7.1,
+    "releaseInfo": "1952",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 56
+  },
+  {
+    "id": "tt0091495",
+    "type": "movie",
+    "name": "Matador",
+    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
+    "posterShape": "poster",
+    "year": 1986,
+    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1986",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 94
   },
   {
     "id": "tt0144214",
@@ -321,73 +371,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 47
-  },
-  {
-    "id": "tt0032138",
-    "type": "movie",
-    "name": "Óz, a csodák csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/bMyqunH8uFMWbdL484x5WT7Xwgo.jpg",
-    "posterShape": "poster",
-    "year": 1939,
-    "description": "Kansason félelmetes erejű tornádó söpör végig. A kis Dorothy nem tud elmenekülni, balesetet szenved. Ájult állapotban kis kutyájával, Totóval csodálatos helyre, Óz birodalmába kerül. Útja során barátokat szerez az Oroszlán, a Madárijesztő és a Bádogember személyében, ám egy kegyetlen ellenséggel, a Boszorkánnyal is szembe kerül. Noha itt minden színes és szép, Dorothy legfőbb vágya, hogy visszajusson az ő fekete-fehér, mégis úgy szeretett otthonába...",
-    "imdbRating": 7.6,
-    "releaseInfo": "1939",
-    "genres": [
-      "Kaland",
-      "Fantasy",
-      "Családi"
-    ],
-    "seeders": 43
-  },
-  {
-    "id": "tt0428856",
-    "type": "movie",
-    "name": "A bajusz",
-    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2005",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 95
-  },
-  {
-    "id": "tt0064952",
-    "type": "movie",
-    "name": "Santa Vittoria titka",
-    "poster": "https://image.tmdb.org/t/p/w500/hW64HmSU2iXHIJ3GkNPDKDjlOhG.jpg",
-    "posterShape": "poster",
-    "year": 1970,
-    "description": "Fabio della Romagna óriási hírrel rohan haza, Santa Vittoria városkájába. A főtéren kihirdeti, hogy Benito Mussolininak, a zsarnoknak vége. Nem igen értik ezt Santa Vittoria együgyű és bohókás lakói, mint a birkák, hallgatnak. Bombolini, a helybéli korcsmáros, ennek örömére, s no persze, annak örömére is, hogy a félkegyelműek hirtelen megválasztják polgármesternek, meghívja a népét egy pohár borra. Rosa, a felesége, temperamentumos nagyasszony, ízig-vérig olasz, kiveri részeg férjét és a csőcseléket a házából. Santa Vittoria szabad városkáját azonban beárnyékolja a következő hír, miszerint hamarosan jönnek a németek. Bombolini rendkívüli városgyűlést hív össze, újra választja hirtelen a városi tanácsot, s arról tanácskoznak, vaj'miért jönnek a németek. Hát a borért. Santa Vittoria jó kis vörös, testes boráért. No, erre összefutott Bombolini faluja apraja-nagyja, hogy közösséggé formálódjanak, s elrejtsék Santa Vittoria titkát...",
-    "imdbRating": 6.9,
-    "releaseInfo": "1970",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 37
-  },
-  {
-    "id": "tt0091495",
-    "type": "movie",
-    "name": "Matador",
-    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
-    "posterShape": "poster",
-    "year": 1986,
-    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1986",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 85
+    "seeders": 49
   },
   {
     "id": "tt0073169",
@@ -404,7 +388,41 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 82
+    "seeders": 92
+  },
+  {
+    "id": "tt0064952",
+    "type": "movie",
+    "name": "Santa Vittoria titka",
+    "poster": "https://image.tmdb.org/t/p/w500/hW64HmSU2iXHIJ3GkNPDKDjlOhG.jpg",
+    "posterShape": "poster",
+    "year": 1970,
+    "description": "Fabio della Romagna óriási hírrel rohan haza, Santa Vittoria városkájába. A főtéren kihirdeti, hogy Benito Mussolininak, a zsarnoknak vége. Nem igen értik ezt Santa Vittoria együgyű és bohókás lakói, mint a birkák, hallgatnak. Bombolini, a helybéli korcsmáros, ennek örömére, s no persze, annak örömére is, hogy a félkegyelműek hirtelen megválasztják polgármesternek, meghívja a népét egy pohár borra. Rosa, a felesége, temperamentumos nagyasszony, ízig-vérig olasz, kiveri részeg férjét és a csőcseléket a házából. Santa Vittoria szabad városkáját azonban beárnyékolja a következő hír, miszerint hamarosan jönnek a németek. Bombolini rendkívüli városgyűlést hív össze, újra választja hirtelen a városi tanácsot, s arról tanácskoznak, vaj'miért jönnek a németek. Hát a borért. Santa Vittoria jó kis vörös, testes boráért. No, erre összefutott Bombolini faluja apraja-nagyja, hogy közösséggé formálódjanak, s elrejtsék Santa Vittoria titkát...",
+    "imdbRating": 6.9,
+    "releaseInfo": "1970",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 40
+  },
+  {
+    "id": "tt0032138",
+    "type": "movie",
+    "name": "Óz, a csodák csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/bMyqunH8uFMWbdL484x5WT7Xwgo.jpg",
+    "posterShape": "poster",
+    "year": 1939,
+    "description": "Kansason félelmetes erejű tornádó söpör végig. A kis Dorothy nem tud elmenekülni, balesetet szenved. Ájult állapotban kis kutyájával, Totóval csodálatos helyre, Óz birodalmába kerül. Útja során barátokat szerez az Oroszlán, a Madárijesztő és a Bádogember személyében, ám egy kegyetlen ellenséggel, a Boszorkánnyal is szembe kerül. Noha itt minden színes és szép, Dorothy legfőbb vágya, hogy visszajusson az ő fekete-fehér, mégis úgy szeretett otthonába...",
+    "imdbRating": 7.6,
+    "releaseInfo": "1939",
+    "genres": [
+      "Kaland",
+      "Fantasy",
+      "Családi"
+    ],
+    "seeders": 42
   },
   {
     "id": "tt0046521",
@@ -423,6 +441,21 @@
     "seeders": 36
   },
   {
+    "id": "tt0051964",
+    "type": "movie",
+    "name": "Lányok egyenruhában",
+    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
+    "posterShape": "poster",
+    "year": 1958,
+    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
+    "imdbRating": 6.1,
+    "releaseInfo": "1958",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 71
+  },
+  {
     "id": "tt0044876",
     "type": "movie",
     "name": "A fehér öltönyös férfi",
@@ -439,21 +472,6 @@
     "seeders": 35
   },
   {
-    "id": "tt0051964",
-    "type": "movie",
-    "name": "Lányok egyenruhában",
-    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
-    "posterShape": "poster",
-    "year": 1958,
-    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
-    "imdbRating": 6.1,
-    "releaseInfo": "1958",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 60
-  },
-  {
     "id": "tt0078763",
     "type": "movie",
     "name": "Amatőr",
@@ -466,23 +484,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 46
-  },
-  {
-    "id": "tt0046359",
-    "type": "movie",
-    "name": "A 17-es fogolytábor",
-    "poster": "https://image.tmdb.org/t/p/w500/kwRBd6P8ubynU1p1eHGIcGb2557.jpg",
-    "posterShape": "poster",
-    "year": 1953,
-    "description": "A második világháború alatt egy csapat amerikai katona kerül össze a hírhedt német 17-es fogolytáborban, a Stalag 17-ben. Többnyire azzal töltik az idejüket, hogy azon mesterkednek, hogyan segíthetnének egymásnak megszökni. De amikor két rabot megölnek egy szökési kísérlet közben, nyilvánvalóvá válik, hogy spicli van közöttük.  William Holden Oscar-díjat kapott a cinikus, éles nyelvű katona alakításáért, aki azzal tölti az idejét, hogy svindliket eszel ki, és különleges előjogokért seftel a németekkel.",
-    "imdbRating": 7.7,
-    "releaseInfo": "1953",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 28
+    "seeders": 53
   }
 ]
