@@ -1,19 +1,19 @@
 [
   {
-    "id": "tt26443107",
+    "id": "tt14181714",
     "type": "movie",
-    "name": "The Adults",
-    "poster": "https://image.tmdb.org/t/p/w500/i4vkr30zcBnVH2XCXUxyuFTX5JR.jpg",
+    "name": "A szikla",
+    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
     "posterShape": "poster",
-    "year": 2023,
-    "description": "Eric úgy tervezi, hogy csak egy rövid látogatásra tér haza, de a nővéreivel, valamint a régi pókeres csoportjával való találkozás hatására ez felborul. Ahogy a tartózkodása kitolódik, Eric egyre nehezebben tudja elkerülni a konfrontációkat és a felfedezéseket, ahogy a gondosan felépített felnőttkori énképe utat enged a régi gyerekkori konfliktusoknak. Miközben Maggie megpróbálja újrateremteni azt a meghitt világot, amelyet egykor hármójukkal közösen éltek meg, Eric és Rachel szembesül a gyermekkori és a mostani felnőtt énjük közötti szakadékkal.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2023",
+    "year": 2026,
+    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 42
+    "seeders": 762
   },
   {
     "id": "tt15783426",
@@ -30,23 +30,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 47
-  },
-  {
-    "id": "tt14181714",
-    "type": "movie",
-    "name": "A szikla",
-    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 662
+    "seeders": 74
   },
   {
     "id": "tt31050594",
@@ -63,7 +47,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2973
+    "seeders": 3347
+  },
+  {
+    "id": "tt26443107",
+    "type": "movie",
+    "name": "The Adults",
+    "poster": "https://image.tmdb.org/t/p/w500/i4vkr30zcBnVH2XCXUxyuFTX5JR.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Eric úgy tervezi, hogy csak egy rövid látogatásra tér haza, de a nővéreivel, valamint a régi pókeres csoportjával való találkozás hatására ez felborul. Ahogy a tartózkodása kitolódik, Eric egyre nehezebben tudja elkerülni a konfrontációkat és a felfedezéseket, ahogy a gondosan felépített felnőttkori énképe utat enged a régi gyerekkori konfliktusoknak. Miközben Maggie megpróbálja újrateremteni azt a meghitt világot, amelyet egykor hármójukkal közösen éltek meg, Eric és Rachel szembesül a gyermekkori és a mostani felnőtt énjük közötti szakadékkal.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2023",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 51
   },
   {
     "id": "tt0807054",
@@ -78,7 +78,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 37
+    "seeders": 55
   },
   {
     "id": "tt4530422",
@@ -95,7 +95,7 @@
       "Háborús",
       "Sci-Fi"
     ],
-    "seeders": 53
+    "seeders": 67
   },
   {
     "id": "tt0076208",
@@ -111,7 +111,22 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 44
+    "seeders": 49
+  },
+  {
+    "id": "tt31065630",
+    "type": "movie",
+    "name": "Árva",
+    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 191
   },
   {
     "id": "tt20990442",
@@ -127,38 +142,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 242
-  },
-  {
-    "id": "tt31065630",
-    "type": "movie",
-    "name": "Árva",
-    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 174
-  },
-  {
-    "id": "tt0055805",
-    "type": "movie",
-    "name": "Doktor Antonio megkísértése",
-    "poster": "https://image.tmdb.org/t/p/w500/q9m555oEiqZo5nWBvQuh9XtLaTJ.jpg",
-    "posterShape": "poster",
-    "year": 1962,
-    "description": "A Dekameron mintájára megalkotott négy vidám szerelmi történetben a 60-as évek legnagyobb olasz mesterei mondanak véleményt erkölcseink akkori állapotáról.  Renzo és Luciana vállalják a házasság minden örömét és nehézségét. Például azt is, hogy a főnök határozott tilalma ellenére házasodtak össze.  Dr. Antonio esténként az utcákat rója, csókolózó szerelmeseket részesít erkölcsi oktatásban, hiányos öltözetű táncosnőket igyekszik jobb belátásra bírni. Egészen addig, amíg egy óriásplakátról le nem száll hozzá álmai asszonya.  Ottavio gróf semmirekellő fiatalember, lényegében az apósa tartja el. Kicsapongó életmódjáról még az újságok is cikkeznek. Fiatal felesége, Pupe elhatározza, hogy kilép a megcsalt asszony szerepköréből, és szolgáltatásaiért ezentúl ő is pénzt kér tőle. A dolog játéknak indul, de csakhamar komollyá válik. A romagnai kis faluban a marhakereskedők nagy tombolát rendeznek, melynek első díja a gyönyörű Zoe szerelme. Zoé azonban kibabrál a férfiakkal.",
-    "imdbRating": 6.9,
-    "releaseInfo": "1962",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 42
+    "seeders": 255
   },
   {
     "id": "tt32332404",
@@ -174,7 +158,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 174
+    "seeders": 199
   },
   {
     "id": "tt26270862",
@@ -189,7 +173,23 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 93
+    "seeders": 103
+  },
+  {
+    "id": "tt0055805",
+    "type": "movie",
+    "name": "Doktor Antonio megkísértése",
+    "poster": "https://image.tmdb.org/t/p/w500/q9m555oEiqZo5nWBvQuh9XtLaTJ.jpg",
+    "posterShape": "poster",
+    "year": 1962,
+    "description": "A Dekameron mintájára megalkotott négy vidám szerelmi történetben a 60-as évek legnagyobb olasz mesterei mondanak véleményt erkölcseink akkori állapotáról.  Renzo és Luciana vállalják a házasság minden örömét és nehézségét. Például azt is, hogy a főnök határozott tilalma ellenére házasodtak össze.  Dr. Antonio esténként az utcákat rója, csókolózó szerelmeseket részesít erkölcsi oktatásban, hiányos öltözetű táncosnőket igyekszik jobb belátásra bírni. Egészen addig, amíg egy óriásplakátról le nem száll hozzá álmai asszonya.  Ottavio gróf semmirekellő fiatalember, lényegében az apósa tartja el. Kicsapongó életmódjáról még az újságok is cikkeznek. Fiatal felesége, Pupe elhatározza, hogy kilép a megcsalt asszony szerepköréből, és szolgáltatásaiért ezentúl ő is pénzt kér tőle. A dolog játéknak indul, de csakhamar komollyá válik. A romagnai kis faluban a marhakereskedők nagy tombolát rendeznek, melynek első díja a gyönyörű Zoe szerelme. Zoé azonban kibabrál a férfiakkal.",
+    "imdbRating": 6.9,
+    "releaseInfo": "1962",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 41
   },
   {
     "id": "tt28793125",
@@ -206,7 +206,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 455
+    "seeders": 480
   },
   {
     "id": "tt4712810",
@@ -223,7 +223,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 647
+    "seeders": 707
   },
   {
     "id": "tt0264472",
@@ -239,39 +239,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt0044487",
-    "type": "movie",
-    "name": "Az aranyhintó",
-    "poster": "https://image.tmdb.org/t/p/w500/cDlxLnLMboEfdDcPelodOs71GVs.jpg",
-    "posterShape": "poster",
-    "year": 1952,
-    "description": "Peru alkirálya beleszeret az átutazó szinésznőbe, Camillába. A színésznő szerelme bizonyítékául egy aranyhintót kér. Az alkirály, ha vonakodva is, teljesíti kérését, ami viszont féltékennyé teszi Camilla szeretőjét. Mivel a színésznő kegyeiért egy torreádor is verseng, immár teljes a zűrzavar. Camilla végül megsokallja az egészet, s a vitatott hintót átengedi a püspöknek, ő pedig visszatér igazi szerelméhez, a színházhoz.",
-    "imdbRating": 7.1,
-    "releaseInfo": "1952",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 45
-  },
-  {
-    "id": "tt33057274",
-    "type": "movie",
-    "name": "Egy citromcseppnyi varázslat",
-    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2024",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 128
+    "seeders": 55
   },
   {
     "id": "tt27721490",
@@ -288,7 +256,7 @@
       "Akció",
       "Western"
     ],
-    "seeders": 229
+    "seeders": 250
   },
   {
     "id": "tt30343021",
@@ -305,41 +273,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 250
+    "seeders": 272
   },
   {
-    "id": "tt2552296",
+    "id": "tt33057274",
     "type": "movie",
-    "name": "Ghadi - A család angyala",
-    "poster": "https://image.tmdb.org/t/p/w500/kaaqclIPfrElvHrH3q5q0Hmi7QQ.jpg",
+    "name": "Egy citromcseppnyi varázslat",
+    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
     "posterShape": "poster",
-    "year": 2013,
-    "description": "Leba, a libanoni tengerparti kisváros zenetanára feleségül veszi gyermekkori szerelmét. A két lányuk után fiúk születik. Kiderül, hogy Ghadi speciális gondoskodást igényel. Ahogy cseperedik, egyre több időt tölt az ablakban, az apja énekhangját próbálja utánozni. Ám többnyire érthetetlen hangokat ad ki, amelyek zavarják a szomszédokat, akik démonizálják Ghadit, és petíciót indítanak a család kilakoltatására. Leba és barátai azon törik fejüket, hogyan téríthetnék jobb belátásra az embereket.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2013",
+    "year": 2024,
+    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2024",
     "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Családi"
+      "Romantikus"
     ],
-    "seeders": 50
-  },
-  {
-    "id": "tt0032138",
-    "type": "movie",
-    "name": "Óz, a csodák csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/bMyqunH8uFMWbdL484x5WT7Xwgo.jpg",
-    "posterShape": "poster",
-    "year": 1939,
-    "description": "Kansason félelmetes erejű tornádó söpör végig. A kis Dorothy nem tud elmenekülni, balesetet szenved. Ájult állapotban kis kutyájával, Totóval csodálatos helyre, Óz birodalmába kerül. Útja során barátokat szerez az Oroszlán, a Madárijesztő és a Bádogember személyében, ám egy kegyetlen ellenséggel, a Boszorkánnyal is szembe kerül. Noha itt minden színes és szép, Dorothy legfőbb vágya, hogy visszajusson az ő fekete-fehér, mégis úgy szeretett otthonába...",
-    "imdbRating": 7.6,
-    "releaseInfo": "1939",
-    "genres": [
-      "Kaland",
-      "Fantasy",
-      "Családi"
-    ],
-    "seeders": 43
+    "seeders": 130
   },
   {
     "id": "tt29780866",
@@ -356,7 +305,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 415
+    "seeders": 480
   },
   {
     "id": "tt33028778",
@@ -372,7 +321,91 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 493
+    "seeders": 562
+  },
+  {
+    "id": "tt0044487",
+    "type": "movie",
+    "name": "Az aranyhintó",
+    "poster": "https://image.tmdb.org/t/p/w500/cDlxLnLMboEfdDcPelodOs71GVs.jpg",
+    "posterShape": "poster",
+    "year": 1952,
+    "description": "Peru alkirálya beleszeret az átutazó szinésznőbe, Camillába. A színésznő szerelme bizonyítékául egy aranyhintót kér. Az alkirály, ha vonakodva is, teljesíti kérését, ami viszont féltékennyé teszi Camilla szeretőjét. Mivel a színésznő kegyeiért egy torreádor is verseng, immár teljes a zűrzavar. Camilla végül megsokallja az egészet, s a vitatott hintót átengedi a püspöknek, ő pedig visszatér igazi szerelméhez, a színházhoz.",
+    "imdbRating": 7.1,
+    "releaseInfo": "1952",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 44
+  },
+  {
+    "id": "tt2552296",
+    "type": "movie",
+    "name": "Ghadi - A család angyala",
+    "poster": "https://image.tmdb.org/t/p/w500/kaaqclIPfrElvHrH3q5q0Hmi7QQ.jpg",
+    "posterShape": "poster",
+    "year": 2013,
+    "description": "Leba, a libanoni tengerparti kisváros zenetanára feleségül veszi gyermekkori szerelmét. A két lányuk után fiúk születik. Kiderül, hogy Ghadi speciális gondoskodást igényel. Ahogy cseperedik, egyre több időt tölt az ablakban, az apja énekhangját próbálja utánozni. Ám többnyire érthetetlen hangokat ad ki, amelyek zavarják a szomszédokat, akik démonizálják Ghadit, és petíciót indítanak a család kilakoltatására. Leba és barátai azon törik fejüket, hogyan téríthetnék jobb belátásra az embereket.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2013",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Családi"
+    ],
+    "seeders": 51
+  },
+  {
+    "id": "tt0032138",
+    "type": "movie",
+    "name": "Óz, a csodák csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/bMyqunH8uFMWbdL484x5WT7Xwgo.jpg",
+    "posterShape": "poster",
+    "year": 1939,
+    "description": "Kansason félelmetes erejű tornádó söpör végig. A kis Dorothy nem tud elmenekülni, balesetet szenved. Ájult állapotban kis kutyájával, Totóval csodálatos helyre, Óz birodalmába kerül. Útja során barátokat szerez az Oroszlán, a Madárijesztő és a Bádogember személyében, ám egy kegyetlen ellenséggel, a Boszorkánnyal is szembe kerül. Noha itt minden színes és szép, Dorothy legfőbb vágya, hogy visszajusson az ő fekete-fehér, mégis úgy szeretett otthonába...",
+    "imdbRating": 7.6,
+    "releaseInfo": "1939",
+    "genres": [
+      "Kaland",
+      "Fantasy",
+      "Családi"
+    ],
+    "seeders": 41
+  },
+  {
+    "id": "tt0144214",
+    "type": "movie",
+    "name": "A tábornok lánya",
+    "poster": "https://image.tmdb.org/t/p/w500/n3st3mtnH9OcY9Wl3wt4pLSZFiI.jpg",
+    "posterShape": "poster",
+    "year": 1999,
+    "description": "\"Lehet valamit jól csinálni, rosszul csinálni, meg úgy, ahogy a hadsereg csinálja.\" De az nem lehet, hogy Paul Brenner (John Travolta) katonai nyomozó részt vegyen egy ügy eltussolásában. Amikor a pályája csúcsán lévő és közmegbecsülésnek örvendő Campbell tábornok gyönyörű lánya - maga is hivatásos katona - kéjgyilkosság áldozata lesz, az állományba egy lebuktatási manőver miatt korábban rangrejtve beépült nyomozó nekilát, hogy lerántsa a leplet a tragédia mögött rejlő homályos ügyletekről. A gyanúsítottak között főtisztek vannak, s kezdetét veszi a végzetes macska-egér játék, amely lebilincseli a néző figyelmét egészen a megdöbbentő végkifejletig.",
+    "imdbRating": 6.4,
+    "releaseInfo": "1999",
+    "genres": [
+      "Thriller",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 44
+  },
+  {
+    "id": "tt0428856",
+    "type": "movie",
+    "name": "A bajusz",
+    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
+    "posterShape": "poster",
+    "year": 2005,
+    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2005",
+    "genres": [
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 95
   },
   {
     "id": "tt0064952",
@@ -392,39 +425,6 @@
     "seeders": 34
   },
   {
-    "id": "tt0144214",
-    "type": "movie",
-    "name": "A tábornok lánya",
-    "poster": "https://image.tmdb.org/t/p/w500/n3st3mtnH9OcY9Wl3wt4pLSZFiI.jpg",
-    "posterShape": "poster",
-    "year": 1999,
-    "description": "\"Lehet valamit jól csinálni, rosszul csinálni, meg úgy, ahogy a hadsereg csinálja.\" De az nem lehet, hogy Paul Brenner (John Travolta) katonai nyomozó részt vegyen egy ügy eltussolásában. Amikor a pályája csúcsán lévő és közmegbecsülésnek örvendő Campbell tábornok gyönyörű lánya - maga is hivatásos katona - kéjgyilkosság áldozata lesz, az állományba egy lebuktatási manőver miatt korábban rangrejtve beépült nyomozó nekilát, hogy lerántsa a leplet a tragédia mögött rejlő homályos ügyletekről. A gyanúsítottak között főtisztek vannak, s kezdetét veszi a végzetes macska-egér játék, amely lebilincseli a néző figyelmét egészen a megdöbbentő végkifejletig.",
-    "imdbRating": 6.4,
-    "releaseInfo": "1999",
-    "genres": [
-      "Thriller",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 40
-  },
-  {
-    "id": "tt0046521",
-    "type": "movie",
-    "name": "A bikaborjak",
-    "poster": "https://image.tmdb.org/t/p/w500/kl2KAv0WGJjRAZeiMLHqNtsG9AC.jpg",
-    "posterShape": "poster",
-    "year": 1953,
-    "description": "Moraldo, Fausto, Leopoldo, és Alberto egy álmos kisváros aranyifjai, akik sehogy sem akarnak belenőni a felnőtt életbe. Szüleik világát szűknek és unalmasnak érzik, nagy tervekről, izgalmas életpályáról álmodoznak, de erejükből legfeljebb némi botránykeltésre futja. Menekülni szeretnének, de csak Moraldónak van annyi ereje, hogy felszálljon a Róma felé tartó vonatra. Az erőteljesen önéletrajzi ihletésű film elkészítésének idején Fellini még maga is pályakezdőnek számított csakúgy, mint fiatal színészei, akik közül a saját nevét is vállaló Alberto Sordi igazi világsztár lett.",
-    "imdbRating": 7.6,
-    "releaseInfo": "1953",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 33
-  },
-  {
     "id": "tt0044876",
     "type": "movie",
     "name": "A fehér öltönyös férfi",
@@ -438,39 +438,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 35
-  },
-  {
-    "id": "tt0428856",
-    "type": "movie",
-    "name": "A bajusz",
-    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2005",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 76
-  },
-  {
-    "id": "tt0091495",
-    "type": "movie",
-    "name": "Matador",
-    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
-    "posterShape": "poster",
-    "year": 1986,
-    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1986",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 29
+    "seeders": 37
   },
   {
     "id": "tt33474179",
@@ -486,6 +454,38 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 139
+    "seeders": 153
+  },
+  {
+    "id": "tt0046521",
+    "type": "movie",
+    "name": "A bikaborjak",
+    "poster": "https://image.tmdb.org/t/p/w500/kl2KAv0WGJjRAZeiMLHqNtsG9AC.jpg",
+    "posterShape": "poster",
+    "year": 1953,
+    "description": "Moraldo, Fausto, Leopoldo, és Alberto egy álmos kisváros aranyifjai, akik sehogy sem akarnak belenőni a felnőtt életbe. Szüleik világát szűknek és unalmasnak érzik, nagy tervekről, izgalmas életpályáról álmodoznak, de erejükből legfeljebb némi botránykeltésre futja. Menekülni szeretnének, de csak Moraldónak van annyi ereje, hogy felszálljon a Róma felé tartó vonatra. Az erőteljesen önéletrajzi ihletésű film elkészítésének idején Fellini még maga is pályakezdőnek számított csakúgy, mint fiatal színészei, akik közül a saját nevét is vállaló Alberto Sordi igazi világsztár lett.",
+    "imdbRating": 7.6,
+    "releaseInfo": "1953",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 32
+  },
+  {
+    "id": "tt0091495",
+    "type": "movie",
+    "name": "Matador",
+    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
+    "posterShape": "poster",
+    "year": 1986,
+    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1986",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 32
   }
 ]
