@@ -1,5 +1,37 @@
 [
   {
+    "id": "tt0140888",
+    "type": "movie",
+    "name": "Központi pályaudvar",
+    "poster": "https://image.tmdb.org/t/p/w500/8Uwh9dYMZnWUFBqoBplEb4bgxH8.jpg",
+    "posterShape": "poster",
+    "year": 1998,
+    "description": "Dora, az egykori tanárnő a forgalmas pályaudvaron üldögél asztala mögött. Analfabéták helyett ír levelet, ezzel tartja el magát. Egy nap egyik ügyfelét halálos baleset éri, akinek fia, Josué magára marad. Dora úgy érzi, hogy segítenie kell a gyermeken, de nem vállalkozik rá, hogy magához vegye. Inkább útnak indul a kisfiúval, hogy megkeressék az apját.",
+    "imdbRating": 8.1,
+    "releaseInfo": "1998",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 34
+  },
+  {
+    "id": "tt0076752",
+    "type": "movie",
+    "name": "A kém, aki szeretett engem",
+    "poster": "https://image.tmdb.org/t/p/w500/vy3K9StfXTmol21MaRQpuiJebmx.jpg",
+    "posterShape": "poster",
+    "year": 1977,
+    "description": "Amerikai és szovjet atom-tengeralattjárók sorra tűnnek el a nemzetközi vizeken. Az események hátterében az ördögien gonosz milliárdos, Mr. Stromberg áll, akinek végső célja, hogy a tengeralattjárókon lévő nukleáris robbanófejeket felhasználva - egy hatalmas, a tenger mélye alatt fekvő katonai bázisról - kirobbantsa a harmadik világháborút. A britek James Bondot, a szovjetek Anja Amaszova titkos ügynököt bízzák meg azzal, hogy megoldja a helyzetet. A két kém egymással szövetkezve lát neki a feladatnak és eleinte sikeresen is veszik az akadályokat, sőt idővel úgy tűnik, többről is szó lehet köztük a közönséges munkakapcsolatnál. De aztán kiderül, hogy Anja korábbi szerelmét James Bond ölte meg egyik korábbi megbízatása során.",
+    "imdbRating": 6.8,
+    "releaseInfo": "1977",
+    "genres": [
+      "Kaland",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 29
+  },
+  {
     "id": "tt31050594",
     "type": "movie",
     "name": "Mesterséges kegyelem",
@@ -14,7 +46,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3587
+    "seeders": 4550
+  },
+  {
+    "id": "tt14181714",
+    "type": "movie",
+    "name": "A szikla",
+    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 1085
   },
   {
     "id": "tt17279496",
@@ -31,23 +79,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 223
-  },
-  {
-    "id": "tt14181714",
-    "type": "movie",
-    "name": "A szikla",
-    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 893
+    "seeders": 317
   },
   {
     "id": "tt20112600",
@@ -63,7 +95,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 179
+    "seeders": 223
   },
   {
     "id": "tt15783426",
@@ -80,7 +112,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 133
+    "seeders": 155
   },
   {
     "id": "tt32332404",
@@ -96,7 +128,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 84
+    "seeders": 105
+  },
+  {
+    "id": "tt20990442",
+    "type": "movie",
+    "name": "Csúcs",
+    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 307
   },
   {
     "id": "tt0093881",
@@ -114,23 +162,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt20990442",
-    "type": "movie",
-    "name": "Csúcs",
-    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 266
+    "seeders": 58
   },
   {
     "id": "tt31065630",
@@ -145,40 +177,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 182
-  },
-  {
-    "id": "tt26443107",
-    "type": "movie",
-    "name": "Felnőttek",
-    "poster": "https://image.tmdb.org/t/p/w500/i4vkr30zcBnVH2XCXUxyuFTX5JR.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Eric úgy tervezi, hogy csak egy rövid látogatásra tér haza, de a nővéreivel, valamint a régi pókeres csoportjával való találkozás hatására ez felborul. Ahogy a tartózkodása kitolódik, Eric egyre nehezebben tudja elkerülni a konfrontációkat és a felfedezéseket, ahogy a gondosan felépített felnőttkori énképe utat enged a régi gyerekkori konfliktusoknak. Miközben Maggie megpróbálja újrateremteni azt a meghitt világot, amelyet egykor hármójukkal közösen éltek meg, Eric és Rachel szembesül a gyermekkori és a mostani felnőtt énjük közötti szakadékkal.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2023",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 73
-  },
-  {
-    "id": "tt4530422",
-    "type": "movie",
-    "name": "Overlord",
-    "poster": "https://image.tmdb.org/t/p/w500/kLgExxVDrOhXteIi85lENK166Xp.jpg",
-    "posterShape": "poster",
-    "year": 2018,
-    "description": "Adva van egy csapatnyi amerikai katona, akik a II. világháború partraszállását megelőző estéjén, előőrsként kívánnak behatolni az ellenséges vonalak mögé, hogy megsemmisítsék a németek egy rádióállomását, ezzel elvágva a kommunikációs útvonalat. Csakhogy a gépet lelövik, az osztagnak csupán egy kis része éli túl az egészet, mindennek tetejébe pedig olyan szörnyűségekre bukkannak, ami felülírja az addigiakat.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2018",
-    "genres": [
-      "Horror",
-      "Háborús",
-      "Sci-Fi"
-    ],
-    "seeders": 82
+    "seeders": 208
   },
   {
     "id": "tt28793125",
@@ -195,38 +194,23 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 490
+    "seeders": 553
   },
   {
-    "id": "tt2137286",
+    "id": "tt26443107",
     "type": "movie",
-    "name": "Szófia hercegnő: Egyszer volt egy hercegnő",
-    "poster": "https://image.tmdb.org/t/p/w500/5MGUoGtlOK646iHo8sJLyDSrpDC.jpg",
+    "name": "Felnőttek",
+    "poster": "https://image.tmdb.org/t/p/w500/i4vkr30zcBnVH2XCXUxyuFTX5JR.jpg",
     "posterShape": "poster",
-    "year": 2012,
-    "description": "Szófia átlagos lányként éli mindennapjait Bűbáj Birodalomban egészen addig, amíg édesanyja férjhez nem megy a királyhoz. Szófia egy csapásra a királyi kastélyban találja magát a mérhetetlen pompa és mostoha testvérei, Amber és James társaságában. Az átlagos kislánynak meg kell tanulnia hercegnőként viselkedni, és hamarosan a Királyi Előkészítő Akadémia diákja lesz, ahol Flóra, Fauna és Fiona, a Csipkerózsikából ismert jó tündérek veszik szárnyaik alá.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2012",
+    "year": 2023,
+    "description": "Eric úgy tervezi, hogy csak egy rövid látogatásra tér haza, de a nővéreivel, valamint a régi pókeres csoportjával való találkozás hatására ez felborul. Ahogy a tartózkodása kitolódik, Eric egyre nehezebben tudja elkerülni a konfrontációkat és a felfedezéseket, ahogy a gondosan felépített felnőttkori énképe utat enged a régi gyerekkori konfliktusoknak. Miközben Maggie megpróbálja újrateremteni azt a meghitt világot, amelyet egykor hármójukkal közösen éltek meg, Eric és Rachel szembesül a gyermekkori és a mostani felnőtt énjük közötti szakadékkal.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2023",
     "genres": [
-      "Animációs",
-      "Családi"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 42
-  },
-  {
-    "id": "tt0807054",
-    "type": "movie",
-    "name": "Szabad világ",
-    "poster": "https://image.tmdb.org/t/p/w500/pkhIW2JdLMJVn6w1Dh0o5PSO4NA.jpg",
-    "posterShape": "poster",
-    "year": 2007,
-    "description": "A szabad szájú, vagány Angie-t elbocsátják az állásából, ám ő az a fajta lány, aki a jég hátán is megél. Barátnőjével, Rose-zal elhatározzák, hogy saját munkaközvetítő ügynökséget alapítanak, ahol senki nem parancsol nekik. Csakhogy nem szokványos vállalkozásba fognak: bevándorlókat segítenek hamis papírokhoz és munkához jutni. Az üzlet rövidesen jövedelmezően bizonyul, és a két lány hamarosan ráérez a siker ízére. Azonban egy olyan világban, ahol a kiszolgáltatott munkaerőt aprópénzzel fizetik ki, és a törvények azért vannak, hogy megszegjék őket, Angie és Rose hamarosan rádöbben, hogy a gyors meggazdagodásért talán túlságosan nagy árat kell fizetni?Az Arany Pálma-díjas Ken Loach rendező filmjének főszerepében Kierston Wareing lehengerlően erőteljes alakítással mutatkozik be.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2007",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 62
+    "seeders": 82
   },
   {
     "id": "tt4712810",
@@ -243,7 +227,137 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 721
+    "seeders": 903
+  },
+  {
+    "id": "tt4530422",
+    "type": "movie",
+    "name": "Overlord",
+    "poster": "https://image.tmdb.org/t/p/w500/kLgExxVDrOhXteIi85lENK166Xp.jpg",
+    "posterShape": "poster",
+    "year": 2018,
+    "description": "Adva van egy csapatnyi amerikai katona, akik a II. világháború partraszállását megelőző estéjén, előőrsként kívánnak behatolni az ellenséges vonalak mögé, hogy megsemmisítsék a németek egy rádióállomását, ezzel elvágva a kommunikációs útvonalat. Csakhogy a gépet lelövik, az osztagnak csupán egy kis része éli túl az egészet, mindennek tetejébe pedig olyan szörnyűségekre bukkannak, ami felülírja az addigiakat.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2018",
+    "genres": [
+      "Horror",
+      "Háborús",
+      "Sci-Fi"
+    ],
+    "seeders": 84
+  },
+  {
+    "id": "tt2137286",
+    "type": "movie",
+    "name": "Szófia hercegnő: Egyszer volt egy hercegnő",
+    "poster": "https://image.tmdb.org/t/p/w500/5MGUoGtlOK646iHo8sJLyDSrpDC.jpg",
+    "posterShape": "poster",
+    "year": 2012,
+    "description": "Szófia átlagos lányként éli mindennapjait Bűbáj Birodalomban egészen addig, amíg édesanyja férjhez nem megy a királyhoz. Szófia egy csapásra a királyi kastélyban találja magát a mérhetetlen pompa és mostoha testvérei, Amber és James társaságában. Az átlagos kislánynak meg kell tanulnia hercegnőként viselkedni, és hamarosan a Királyi Előkészítő Akadémia diákja lesz, ahol Flóra, Fauna és Fiona, a Csipkerózsikából ismert jó tündérek veszik szárnyaik alá.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2012",
+    "genres": [
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 50
+  },
+  {
+    "id": "tt0807054",
+    "type": "movie",
+    "name": "Szabad világ",
+    "poster": "https://image.tmdb.org/t/p/w500/pkhIW2JdLMJVn6w1Dh0o5PSO4NA.jpg",
+    "posterShape": "poster",
+    "year": 2007,
+    "description": "A szabad szájú, vagány Angie-t elbocsátják az állásából, ám ő az a fajta lány, aki a jég hátán is megél. Barátnőjével, Rose-zal elhatározzák, hogy saját munkaközvetítő ügynökséget alapítanak, ahol senki nem parancsol nekik. Csakhogy nem szokványos vállalkozásba fognak: bevándorlókat segítenek hamis papírokhoz és munkához jutni. Az üzlet rövidesen jövedelmezően bizonyul, és a két lány hamarosan ráérez a siker ízére. Azonban egy olyan világban, ahol a kiszolgáltatott munkaerőt aprópénzzel fizetik ki, és a törvények azért vannak, hogy megszegjék őket, Angie és Rose hamarosan rádöbben, hogy a gyors meggazdagodásért talán túlságosan nagy árat kell fizetni?Az Arany Pálma-díjas Ken Loach rendező filmjének főszerepében Kierston Wareing lehengerlően erőteljes alakítással mutatkozik be.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2007",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 67
+  },
+  {
+    "id": "tt26270862",
+    "type": "movie",
+    "name": "Szex",
+    "poster": "https://image.tmdb.org/t/p/w500/wyMYbI1LomZZ27uhfCp5vvz5Zco.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Két monogám, heteroszexuális házasságban élő kéményseprő olyan helyzetekbe kerül, amelyek megkérdőjelezik a szexualitásról és a nemi szerepekről alkotott véleményüket. Az egyikük váratlan ismertséget köt egy férfival. A másiknak zavarbaejtő álmai lesznek, aminek hatására elkezd azon töprengeni, hogy mások tekintete mennyire formálja a személyiségét, és vannak-e a jellemének olyan aspektusai, amelyeket elnyomott, ezáltal korlátozva önmagát.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 109
+  },
+  {
+    "id": "tt27721490",
+    "type": "movie",
+    "name": "Tornado",
+    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Akció",
+      "Western"
+    ],
+    "seeders": 310
+  },
+  {
+    "id": "tt30343021",
+    "type": "movie",
+    "name": "Song Sung Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 332
+  },
+  {
+    "id": "tt29780866",
+    "type": "movie",
+    "name": "Icefall – Tűz a jégen",
+    "poster": "https://image.tmdb.org/t/p/w500/wRGkBjN3ICFHAiIqEQpse2PNxVN.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Harlan (Joel Kinnaman), egy leszerelt deszantos, a modern világtól való teljes elzárkózásban talál menedéket: a hideg, végtelen pusztaság magányába vonul vissza Amerika északi részén, egy indián rezervátum elhagyatott tájain. Nem akar emberekkel találkozni, senkire sem támaszkodni – talán épp a múltja árnyai elől menekül. A világ azonban hamar utoléri. Egy nap rejtélyes módon lezuhant repülőgépre bukkan, tele milliókkal. A kísértésnek nehéz ellenállni – még nehezebb megtartani. Harlant elkapják, amikor Ani, a park fegyveres őreként szolgáló őslakos nő ráakad, és letartóztatja. Éppen bevinni készül a központba, amikor megjelenik a gép tulajdonosait képviselő csempészbanda – évek óta híján voltak a pénznek, és most követelik. Ani és Harlan kénytelenek félretenni a köztük lévő ellentétet. Összefognak, hogy túléljék a kegyetlen, fagyos tájat – és hogy megszerezzék a lezuhant vagyont önmaguknak.  (Csillag Lajos)",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 575
+  },
+  {
+    "id": "tt0076208",
+    "type": "movie",
+    "name": "Iphigenia",
+    "poster": "https://image.tmdb.org/t/p/w500/gpSh51zNDfvbPFg4lInWlMOmYdc.jpg",
+    "posterShape": "poster",
+    "year": 1977,
+    "description": "Euripidész ókori görög drámáját, közös európai kultúránk egyik alapművét idézi meg Michael Cacoyannis görög rendező filmje. A történet a trójai mondakör egyik fontos epizódját dolgozza fel. A görög városállamok vezéreinek szövetsége a kisázsiai Trója alá indul, hogy visszaszerezze Menelaosz elrabolt hitvesét, Helenát, és hogy megtorolja a sérelmet a trójaiakon. A sereg Aulisz kikötőjében vesztegel, a továbbjutást akadályozza Artemisz istennő, akinek szent állatát lelőtte egy görög harcos. A kiengeszteléséhez és egyben a továbbjutáshoz a fővezér, Agamennon lányának, az ártatlan Iphigeneiának feláldozását kérik az istenek. Agamennon vívódik a népe iránti kötelessége és a szülői szeretet között...",
+    "imdbRating": 6.9,
+    "releaseInfo": "1977",
+    "genres": [
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 64
   },
   {
     "id": "tt0105402",
@@ -261,105 +375,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 39
-  },
-  {
-    "id": "tt26270862",
-    "type": "movie",
-    "name": "Szex",
-    "poster": "https://image.tmdb.org/t/p/w500/wyMYbI1LomZZ27uhfCp5vvz5Zco.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Két monogám, heteroszexuális házasságban élő kéményseprő olyan helyzetekbe kerül, amelyek megkérdőjelezik a szexualitásról és a nemi szerepekről alkotott véleményüket. Az egyikük váratlan ismertséget köt egy férfival. A másiknak zavarbaejtő álmai lesznek, aminek hatására elkezd azon töprengeni, hogy mások tekintete mennyire formálja a személyiségét, és vannak-e a jellemének olyan aspektusai, amelyeket elnyomott, ezáltal korlátozva önmagát.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 99
-  },
-  {
-    "id": "tt0076208",
-    "type": "movie",
-    "name": "Iphigenia",
-    "poster": "https://image.tmdb.org/t/p/w500/gpSh51zNDfvbPFg4lInWlMOmYdc.jpg",
-    "posterShape": "poster",
-    "year": 1977,
-    "description": "Euripidész ókori görög drámáját, közös európai kultúránk egyik alapművét idézi meg Michael Cacoyannis görög rendező filmje. A történet a trójai mondakör egyik fontos epizódját dolgozza fel. A görög városállamok vezéreinek szövetsége a kisázsiai Trója alá indul, hogy visszaszerezze Menelaosz elrabolt hitvesét, Helenát, és hogy megtorolja a sérelmet a trójaiakon. A sereg Aulisz kikötőjében vesztegel, a továbbjutást akadályozza Artemisz istennő, akinek szent állatát lelőtte egy görög harcos. A kiengeszteléséhez és egyben a továbbjutáshoz a fővezér, Agamennon lányának, az ártatlan Iphigeneiának feláldozását kérik az istenek. Agamennon vívódik a népe iránti kötelessége és a szülői szeretet között...",
-    "imdbRating": 6.9,
-    "releaseInfo": "1977",
-    "genres": [
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 57
-  },
-  {
-    "id": "tt27721490",
-    "type": "movie",
-    "name": "Tornado",
-    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Akció",
-      "Western"
-    ],
-    "seeders": 271
-  },
-  {
-    "id": "tt30343021",
-    "type": "movie",
-    "name": "Song Sung Blue",
-    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Zenei",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 294
-  },
-  {
-    "id": "tt29780866",
-    "type": "movie",
-    "name": "Icefall – Tűz a jégen",
-    "poster": "https://image.tmdb.org/t/p/w500/wRGkBjN3ICFHAiIqEQpse2PNxVN.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Harlan (Joel Kinnaman), egy leszerelt deszantos, a modern világtól való teljes elzárkózásban talál menedéket: a hideg, végtelen pusztaság magányába vonul vissza Amerika északi részén, egy indián rezervátum elhagyatott tájain. Nem akar emberekkel találkozni, senkire sem támaszkodni – talán épp a múltja árnyai elől menekül. A világ azonban hamar utoléri. Egy nap rejtélyes módon lezuhant repülőgépre bukkan, tele milliókkal. A kísértésnek nehéz ellenállni – még nehezebb megtartani. Harlant elkapják, amikor Ani, a park fegyveres őreként szolgáló őslakos nő ráakad, és letartóztatja. Éppen bevinni készül a központba, amikor megjelenik a gép tulajdonosait képviselő csempészbanda – évek óta híján voltak a pénznek, és most követelik. Ani és Harlan kénytelenek félretenni a köztük lévő ellentétet. Összefognak, hogy túléljék a kegyetlen, fagyos tájat – és hogy megszerezzék a lezuhant vagyont önmaguknak.  (Csillag Lajos)",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 508
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/57cyAMc9c8iveudogTRuDOQjujn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 576
+    "seeders": 42
   },
   {
     "id": "tt33057274",
@@ -374,7 +390,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 133
+    "seeders": 148
   },
   {
     "id": "tt0264472",
@@ -390,7 +406,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 60
+    "seeders": 67
   },
   {
     "id": "tt0055805",
@@ -406,7 +422,55 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 37
+    "seeders": 43
+  },
+  {
+    "id": "tt2396431",
+    "type": "movie",
+    "name": "Kedves Télapó",
+    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2024",
+    "genres": [
+      "Vígjáték",
+      "Fantasy"
+    ],
+    "seeders": 304
+  },
+  {
+    "id": "tt33474179",
+    "type": "movie",
+    "name": "Lángok közt",
+    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 182
+  },
+  {
+    "id": "tt1424310",
+    "type": "movie",
+    "name": "Istenek fegyverzete 3. - Műkincs hajsza",
+    "poster": "https://image.tmdb.org/t/p/w500/537CFH4qqv1e3BrulnI3jwCDhyK.jpg",
+    "posterShape": "poster",
+    "year": 2012,
+    "description": "Az \"Ázsiai Sólyom\", a rettenthetetlen szerencsevadász csapata élén felkerekedik, hogy visszaszerezze azt a tucatnyi, felbecsülhetetlen értékű fejszobrot, melyeket a kínai zodiákus 12 állatáról mintázták, és melyeket az 1800-as években loptak el a pekingi Nyári Palotából. A szédületes hajsza során Condor és csapata a világ majd minden szögletébe eljut Franciaország gyönyörű borvidékeitől kezdve egy aktív vulkán tűzforró oldaláig, és semmi sem állíthatja meg őket abban, hogy teljesítsék feladatukat.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2012",
+    "genres": [
+      "Akció",
+      "Kaland"
+    ],
+    "seeders": 28
   },
   {
     "id": "tt2552296",
@@ -423,70 +487,6 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 57
-  },
-  {
-    "id": "tt1424310",
-    "type": "movie",
-    "name": "Istenek fegyverzete 3. - Műkincs hajsza",
-    "poster": "https://image.tmdb.org/t/p/w500/537CFH4qqv1e3BrulnI3jwCDhyK.jpg",
-    "posterShape": "poster",
-    "year": 2012,
-    "description": "Az \"Ázsiai Sólyom\", a rettenthetetlen szerencsevadász csapata élén felkerekedik, hogy visszaszerezze azt a tucatnyi, felbecsülhetetlen értékű fejszobrot, melyeket a kínai zodiákus 12 állatáról mintázták, és melyeket az 1800-as években loptak el a pekingi Nyári Palotából. A szédületes hajsza során Condor és csapata a világ majd minden szögletébe eljut Franciaország gyönyörű borvidékeitől kezdve egy aktív vulkán tűzforró oldaláig, és semmi sem állíthatja meg őket abban, hogy teljesítsék feladatukat.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2012",
-    "genres": [
-      "Akció",
-      "Kaland"
-    ],
-    "seeders": 23
-  },
-  {
-    "id": "tt33474179",
-    "type": "movie",
-    "name": "Lángok közt",
-    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 157
-  },
-  {
-    "id": "tt2396431",
-    "type": "movie",
-    "name": "Kedves Télapó",
-    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 252
-  },
-  {
-    "id": "tt0428856",
-    "type": "movie",
-    "name": "A bajusz",
-    "poster": "https://image.tmdb.org/t/p/w500/vAyLAVVqJxEyRiKQ5B1W8gzWXMS.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "Marc hirtelen szeszélytől vezérelve leborotválja a bajuszát, de hazatérő felesége nem vesz észre rajta semmilyen változást. A dolog egyre különösebbé válik, amikor sem a barátai, sem a kollegái nem veszik észre, hogy nincsen többé bajusza. Marc úgy érzi, hogy jó viccből is megárt a sok, és arra kéri Agnest, hogy hagyja abba a játékot. Ám Agnesnek a leghalványabb fogalma sincs arról, hogy Marc mire gondol. Amikor a sértett férj kimondja, hogy leborotvált bajuszáról van szó, a feleség kétségbeesetten bizonygatja, hogy Marc-nak sohasem volt bajusza. A férfi kétségek között vergődik: kezd megőrülni vagy egy összeesküvés áldozata, amelyet a saját felesége irányít a háttérből? Valóság és képzelet egyensúlya megbillen, és Marc elindul, hogy bizonyítékot keressen az igazára.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2005",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 88
+    "seeders": 54
   }
 ]
