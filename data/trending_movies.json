@@ -1,35 +1,20 @@
 [
   {
-    "id": "tt0140888",
+    "id": "tt14107334",
     "type": "movie",
-    "name": "Központi pályaudvar",
-    "poster": "https://image.tmdb.org/t/p/w500/8Uwh9dYMZnWUFBqoBplEb4bgxH8.jpg",
+    "name": "Menekülő ember",
+    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
     "posterShape": "poster",
-    "year": 1998,
-    "description": "Dora, az egykori tanárnő a forgalmas pályaudvaron üldögél asztala mögött. Analfabéták helyett ír levelet, ezzel tartja el magát. Egy nap egyik ügyfelét halálos baleset éri, akinek fia, Josué magára marad. Dora úgy érzi, hogy segítenie kell a gyermeken, de nem vállalkozik rá, hogy magához vegye. Inkább útnak indul a kisfiúval, hogy megkeressék az apját.",
-    "imdbRating": 8.1,
-    "releaseInfo": "1998",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 34
-  },
-  {
-    "id": "tt0076752",
-    "type": "movie",
-    "name": "A kém, aki szeretett engem",
-    "poster": "https://image.tmdb.org/t/p/w500/vy3K9StfXTmol21MaRQpuiJebmx.jpg",
-    "posterShape": "poster",
-    "year": 1977,
-    "description": "Amerikai és szovjet atom-tengeralattjárók sorra tűnnek el a nemzetközi vizeken. Az események hátterében az ördögien gonosz milliárdos, Mr. Stromberg áll, akinek végső célja, hogy a tengeralattjárókon lévő nukleáris robbanófejeket felhasználva - egy hatalmas, a tenger mélye alatt fekvő katonai bázisról - kirobbantsa a harmadik világháborút. A britek James Bondot, a szovjetek Anja Amaszova titkos ügynököt bízzák meg azzal, hogy megoldja a helyzetet. A két kém egymással szövetkezve lát neki a feladatnak és eleinte sikeresen is veszik az akadályokat, sőt idővel úgy tűnik, többről is szó lehet köztük a közönséges munkakapcsolatnál. De aztán kiderül, hogy Anja korábbi szerelmét James Bond ölte meg egyik korábbi megbízatása során.",
+    "year": 2025,
+    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
     "imdbRating": 6.8,
-    "releaseInfo": "1977",
+    "releaseInfo": "2025",
     "genres": [
-      "Kaland",
       "Akció",
-      "Thriller"
+      "Thriller",
+      "Sci-Fi"
     ],
-    "seeders": 29
+    "seeders": 94
   },
   {
     "id": "tt31050594",
@@ -46,7 +31,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 4550
+    "seeders": 5222
   },
   {
     "id": "tt14181714",
@@ -56,13 +41,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 6.1,
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 1085
+    "seeders": 1285
   },
   {
     "id": "tt17279496",
@@ -79,7 +64,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 317
+    "seeders": 392
   },
   {
     "id": "tt20112600",
@@ -95,7 +80,55 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 223
+    "seeders": 285
+  },
+  {
+    "id": "tt0140888",
+    "type": "movie",
+    "name": "Központi pályaudvar",
+    "poster": "https://image.tmdb.org/t/p/w500/8Uwh9dYMZnWUFBqoBplEb4bgxH8.jpg",
+    "posterShape": "poster",
+    "year": 1998,
+    "description": "Dora, az egykori tanárnő a forgalmas pályaudvaron üldögél asztala mögött. Analfabéták helyett ír levelet, ezzel tartja el magát. Egy nap egyik ügyfelét halálos baleset éri, akinek fia, Josué magára marad. Dora úgy érzi, hogy segítenie kell a gyermeken, de nem vállalkozik rá, hogy magához vegye. Inkább útnak indul a kisfiúval, hogy megkeressék az apját.",
+    "imdbRating": 8.1,
+    "releaseInfo": "1998",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 61
+  },
+  {
+    "id": "tt0076752",
+    "type": "movie",
+    "name": "A kém, aki szeretett engem",
+    "poster": "https://image.tmdb.org/t/p/w500/vy3K9StfXTmol21MaRQpuiJebmx.jpg",
+    "posterShape": "poster",
+    "year": 1977,
+    "description": "Amerikai és szovjet atom-tengeralattjárók sorra tűnnek el a nemzetközi vizeken. Az események hátterében az ördögien gonosz milliárdos, Mr. Stromberg áll, akinek végső célja, hogy a tengeralattjárókon lévő nukleáris robbanófejeket felhasználva - egy hatalmas, a tenger mélye alatt fekvő katonai bázisról - kirobbantsa a harmadik világháborút. A britek James Bondot, a szovjetek Anja Amaszova titkos ügynököt bízzák meg azzal, hogy megoldja a helyzetet. A két kém egymással szövetkezve lát neki a feladatnak és eleinte sikeresen is veszik az akadályokat, sőt idővel úgy tűnik, többről is szó lehet köztük a közönséges munkakapcsolatnál. De aztán kiderül, hogy Anja korábbi szerelmét James Bond ölte meg egyik korábbi megbízatása során.",
+    "imdbRating": 6.8,
+    "releaseInfo": "1977",
+    "genres": [
+      "Kaland",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 44
+  },
+  {
+    "id": "tt32332404",
+    "type": "movie",
+    "name": "Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/mbGHijUc0C3fcM12l6ro6FgxIvg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 133
   },
   {
     "id": "tt15783426",
@@ -112,23 +145,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 155
-  },
-  {
-    "id": "tt32332404",
-    "type": "movie",
-    "name": "Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/mbGHijUc0C3fcM12l6ro6FgxIvg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 105
+    "seeders": 166
   },
   {
     "id": "tt20990442",
@@ -144,7 +161,39 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 307
+    "seeders": 338
+  },
+  {
+    "id": "tt31065630",
+    "type": "movie",
+    "name": "Árva",
+    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 230
+  },
+  {
+    "id": "tt28793125",
+    "type": "movie",
+    "name": "A svéd kapcsolat",
+    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Háborús"
+    ],
+    "seeders": 594
   },
   {
     "id": "tt0093881",
@@ -162,55 +211,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 58
-  },
-  {
-    "id": "tt31065630",
-    "type": "movie",
-    "name": "Árva",
-    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 208
-  },
-  {
-    "id": "tt28793125",
-    "type": "movie",
-    "name": "A svéd kapcsolat",
-    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
-    ],
-    "seeders": 553
-  },
-  {
-    "id": "tt26443107",
-    "type": "movie",
-    "name": "Felnőttek",
-    "poster": "https://image.tmdb.org/t/p/w500/i4vkr30zcBnVH2XCXUxyuFTX5JR.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Eric úgy tervezi, hogy csak egy rövid látogatásra tér haza, de a nővéreivel, valamint a régi pókeres csoportjával való találkozás hatására ez felborul. Ahogy a tartózkodása kitolódik, Eric egyre nehezebben tudja elkerülni a konfrontációkat és a felfedezéseket, ahogy a gondosan felépített felnőttkori énképe utat enged a régi gyerekkori konfliktusoknak. Miközben Maggie megpróbálja újrateremteni azt a meghitt világot, amelyet egykor hármójukkal közösen éltek meg, Eric és Rachel szembesül a gyermekkori és a mostani felnőtt énjük közötti szakadékkal.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2023",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 82
+    "seeders": 66
   },
   {
     "id": "tt4712810",
@@ -227,7 +228,23 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 903
+    "seeders": 1001
+  },
+  {
+    "id": "tt26443107",
+    "type": "movie",
+    "name": "Felnőttek",
+    "poster": "https://image.tmdb.org/t/p/w500/i4vkr30zcBnVH2XCXUxyuFTX5JR.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Eric úgy tervezi, hogy csak egy rövid látogatásra tér haza, de a nővéreivel, valamint a régi pókeres csoportjával való találkozás hatására ez felborul. Ahogy a tartózkodása kitolódik, Eric egyre nehezebben tudja elkerülni a konfrontációkat és a felfedezéseket, ahogy a gondosan felépített felnőttkori énképe utat enged a régi gyerekkori konfliktusoknak. Miközben Maggie megpróbálja újrateremteni azt a meghitt világot, amelyet egykor hármójukkal közösen éltek meg, Eric és Rachel szembesül a gyermekkori és a mostani felnőtt énjük közötti szakadékkal.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2023",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt4530422",
@@ -244,70 +261,7 @@
       "Háborús",
       "Sci-Fi"
     ],
-    "seeders": 84
-  },
-  {
-    "id": "tt2137286",
-    "type": "movie",
-    "name": "Szófia hercegnő: Egyszer volt egy hercegnő",
-    "poster": "https://image.tmdb.org/t/p/w500/5MGUoGtlOK646iHo8sJLyDSrpDC.jpg",
-    "posterShape": "poster",
-    "year": 2012,
-    "description": "Szófia átlagos lányként éli mindennapjait Bűbáj Birodalomban egészen addig, amíg édesanyja férjhez nem megy a királyhoz. Szófia egy csapásra a királyi kastélyban találja magát a mérhetetlen pompa és mostoha testvérei, Amber és James társaságában. Az átlagos kislánynak meg kell tanulnia hercegnőként viselkedni, és hamarosan a Királyi Előkészítő Akadémia diákja lesz, ahol Flóra, Fauna és Fiona, a Csipkerózsikából ismert jó tündérek veszik szárnyaik alá.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2012",
-    "genres": [
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 50
-  },
-  {
-    "id": "tt0807054",
-    "type": "movie",
-    "name": "Szabad világ",
-    "poster": "https://image.tmdb.org/t/p/w500/pkhIW2JdLMJVn6w1Dh0o5PSO4NA.jpg",
-    "posterShape": "poster",
-    "year": 2007,
-    "description": "A szabad szájú, vagány Angie-t elbocsátják az állásából, ám ő az a fajta lány, aki a jég hátán is megél. Barátnőjével, Rose-zal elhatározzák, hogy saját munkaközvetítő ügynökséget alapítanak, ahol senki nem parancsol nekik. Csakhogy nem szokványos vállalkozásba fognak: bevándorlókat segítenek hamis papírokhoz és munkához jutni. Az üzlet rövidesen jövedelmezően bizonyul, és a két lány hamarosan ráérez a siker ízére. Azonban egy olyan világban, ahol a kiszolgáltatott munkaerőt aprópénzzel fizetik ki, és a törvények azért vannak, hogy megszegjék őket, Angie és Rose hamarosan rádöbben, hogy a gyors meggazdagodásért talán túlságosan nagy árat kell fizetni?Az Arany Pálma-díjas Ken Loach rendező filmjének főszerepében Kierston Wareing lehengerlően erőteljes alakítással mutatkozik be.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2007",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 67
-  },
-  {
-    "id": "tt26270862",
-    "type": "movie",
-    "name": "Szex",
-    "poster": "https://image.tmdb.org/t/p/w500/wyMYbI1LomZZ27uhfCp5vvz5Zco.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Két monogám, heteroszexuális házasságban élő kéményseprő olyan helyzetekbe kerül, amelyek megkérdőjelezik a szexualitásról és a nemi szerepekről alkotott véleményüket. Az egyikük váratlan ismertséget köt egy férfival. A másiknak zavarbaejtő álmai lesznek, aminek hatására elkezd azon töprengeni, hogy mások tekintete mennyire formálja a személyiségét, és vannak-e a jellemének olyan aspektusai, amelyeket elnyomott, ezáltal korlátozva önmagát.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 109
-  },
-  {
-    "id": "tt27721490",
-    "type": "movie",
-    "name": "Tornado",
-    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Akció",
-      "Western"
-    ],
-    "seeders": 310
+    "seeders": 96
   },
   {
     "id": "tt30343021",
@@ -324,7 +278,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 332
+    "seeders": 362
   },
   {
     "id": "tt29780866",
@@ -341,7 +295,40 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 575
+    "seeders": 624
+  },
+  {
+    "id": "tt27721490",
+    "type": "movie",
+    "name": "Tornado",
+    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Akció",
+      "Western"
+    ],
+    "seeders": 324
+  },
+  {
+    "id": "tt2137286",
+    "type": "movie",
+    "name": "Szófia hercegnő: Egyszer volt egy hercegnő",
+    "poster": "https://image.tmdb.org/t/p/w500/5MGUoGtlOK646iHo8sJLyDSrpDC.jpg",
+    "posterShape": "poster",
+    "year": 2012,
+    "description": "Szófia átlagos lányként éli mindennapjait Bűbáj Birodalomban egészen addig, amíg édesanyja férjhez nem megy a királyhoz. Szófia egy csapásra a királyi kastélyban találja magát a mérhetetlen pompa és mostoha testvérei, Amber és James társaságában. Az átlagos kislánynak meg kell tanulnia hercegnőként viselkedni, és hamarosan a Királyi Előkészítő Akadémia diákja lesz, ahol Flóra, Fauna és Fiona, a Csipkerózsikából ismert jó tündérek veszik szárnyaik alá.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2012",
+    "genres": [
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 49
   },
   {
     "id": "tt0076208",
@@ -357,7 +344,52 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 64
+    "seeders": 71
+  },
+  {
+    "id": "tt0807054",
+    "type": "movie",
+    "name": "Szabad világ",
+    "poster": "https://image.tmdb.org/t/p/w500/pkhIW2JdLMJVn6w1Dh0o5PSO4NA.jpg",
+    "posterShape": "poster",
+    "year": 2007,
+    "description": "A szabad szájú, vagány Angie-t elbocsátják az állásából, ám ő az a fajta lány, aki a jég hátán is megél. Barátnőjével, Rose-zal elhatározzák, hogy saját munkaközvetítő ügynökséget alapítanak, ahol senki nem parancsol nekik. Csakhogy nem szokványos vállalkozásba fognak: bevándorlókat segítenek hamis papírokhoz és munkához jutni. Az üzlet rövidesen jövedelmezően bizonyul, és a két lány hamarosan ráérez a siker ízére. Azonban egy olyan világban, ahol a kiszolgáltatott munkaerőt aprópénzzel fizetik ki, és a törvények azért vannak, hogy megszegjék őket, Angie és Rose hamarosan rádöbben, hogy a gyors meggazdagodásért talán túlságosan nagy árat kell fizetni?Az Arany Pálma-díjas Ken Loach rendező filmjének főszerepében Kierston Wareing lehengerlően erőteljes alakítással mutatkozik be.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2007",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 65
+  },
+  {
+    "id": "tt26270862",
+    "type": "movie",
+    "name": "Szex",
+    "poster": "https://image.tmdb.org/t/p/w500/wyMYbI1LomZZ27uhfCp5vvz5Zco.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Két monogám, heteroszexuális házasságban élő kéményseprő olyan helyzetekbe kerül, amelyek megkérdőjelezik a szexualitásról és a nemi szerepekről alkotott véleményüket. Az egyikük váratlan ismertséget köt egy férfival. A másiknak zavarbaejtő álmai lesznek, aminek hatására elkezd azon töprengeni, hogy mások tekintete mennyire formálja a személyiségét, és vannak-e a jellemének olyan aspektusai, amelyeket elnyomott, ezáltal korlátozva önmagát.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 103
+  },
+  {
+    "id": "tt33057274",
+    "type": "movie",
+    "name": "Egy citromcseppnyi varázslat",
+    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 156
   },
   {
     "id": "tt0105402",
@@ -378,21 +410,6 @@
     "seeders": 42
   },
   {
-    "id": "tt33057274",
-    "type": "movie",
-    "name": "Egy citromcseppnyi varázslat",
-    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2024",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 148
-  },
-  {
     "id": "tt0264472",
     "type": "movie",
     "name": "Ütközéspont",
@@ -406,23 +423,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 67
-  },
-  {
-    "id": "tt0055805",
-    "type": "movie",
-    "name": "Doktor Antonio megkísértése",
-    "poster": "https://image.tmdb.org/t/p/w500/q9m555oEiqZo5nWBvQuh9XtLaTJ.jpg",
-    "posterShape": "poster",
-    "year": 1962,
-    "description": "A Dekameron mintájára megalkotott négy vidám szerelmi történetben a 60-as évek legnagyobb olasz mesterei mondanak véleményt erkölcseink akkori állapotáról.  Renzo és Luciana vállalják a házasság minden örömét és nehézségét. Például azt is, hogy a főnök határozott tilalma ellenére házasodtak össze.  Dr. Antonio esténként az utcákat rója, csókolózó szerelmeseket részesít erkölcsi oktatásban, hiányos öltözetű táncosnőket igyekszik jobb belátásra bírni. Egészen addig, amíg egy óriásplakátról le nem száll hozzá álmai asszonya.  Ottavio gróf semmirekellő fiatalember, lényegében az apósa tartja el. Kicsapongó életmódjáról még az újságok is cikkeznek. Fiatal felesége, Pupe elhatározza, hogy kilép a megcsalt asszony szerepköréből, és szolgáltatásaiért ezentúl ő is pénzt kér tőle. A dolog játéknak indul, de csakhamar komollyá válik. A romagnai kis faluban a marhakereskedők nagy tombolát rendeznek, melynek első díja a gyönyörű Zoe szerelme. Zoé azonban kibabrál a férfiakkal.",
-    "imdbRating": 6.9,
-    "releaseInfo": "1962",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 43
+    "seeders": 68
   },
   {
     "id": "tt2396431",
@@ -438,7 +439,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 304
+    "seeders": 317
   },
   {
     "id": "tt33474179",
@@ -454,23 +455,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 182
+    "seeders": 189
   },
   {
-    "id": "tt1424310",
+    "id": "tt0055805",
     "type": "movie",
-    "name": "Istenek fegyverzete 3. - Műkincs hajsza",
-    "poster": "https://image.tmdb.org/t/p/w500/537CFH4qqv1e3BrulnI3jwCDhyK.jpg",
+    "name": "Doktor Antonio megkísértése",
+    "poster": "https://image.tmdb.org/t/p/w500/q9m555oEiqZo5nWBvQuh9XtLaTJ.jpg",
     "posterShape": "poster",
-    "year": 2012,
-    "description": "Az \"Ázsiai Sólyom\", a rettenthetetlen szerencsevadász csapata élén felkerekedik, hogy visszaszerezze azt a tucatnyi, felbecsülhetetlen értékű fejszobrot, melyeket a kínai zodiákus 12 állatáról mintázták, és melyeket az 1800-as években loptak el a pekingi Nyári Palotából. A szédületes hajsza során Condor és csapata a világ majd minden szögletébe eljut Franciaország gyönyörű borvidékeitől kezdve egy aktív vulkán tűzforró oldaláig, és semmi sem állíthatja meg őket abban, hogy teljesítsék feladatukat.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2012",
+    "year": 1962,
+    "description": "A Dekameron mintájára megalkotott négy vidám szerelmi történetben a 60-as évek legnagyobb olasz mesterei mondanak véleményt erkölcseink akkori állapotáról.  Renzo és Luciana vállalják a házasság minden örömét és nehézségét. Például azt is, hogy a főnök határozott tilalma ellenére házasodtak össze.  Dr. Antonio esténként az utcákat rója, csókolózó szerelmeseket részesít erkölcsi oktatásban, hiányos öltözetű táncosnőket igyekszik jobb belátásra bírni. Egészen addig, amíg egy óriásplakátról le nem száll hozzá álmai asszonya.  Ottavio gróf semmirekellő fiatalember, lényegében az apósa tartja el. Kicsapongó életmódjáról még az újságok is cikkeznek. Fiatal felesége, Pupe elhatározza, hogy kilép a megcsalt asszony szerepköréből, és szolgáltatásaiért ezentúl ő is pénzt kér tőle. A dolog játéknak indul, de csakhamar komollyá válik. A romagnai kis faluban a marhakereskedők nagy tombolát rendeznek, melynek első díja a gyönyörű Zoe szerelme. Zoé azonban kibabrál a férfiakkal.",
+    "imdbRating": 6.9,
+    "releaseInfo": "1962",
     "genres": [
-      "Akció",
-      "Kaland"
+      "Vígjáték",
+      "Romantikus"
     ],
-    "seeders": 28
+    "seeders": 42
   },
   {
     "id": "tt2552296",
@@ -487,6 +488,6 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 54
+    "seeders": 61
   }
 ]
