@@ -1,21 +1,5 @@
 [
   {
-    "id": "tt20112600",
-    "type": "movie",
-    "name": "Verseny a győzelemért",
-    "poster": "https://image.tmdb.org/t/p/w500/qLVQZMGxJk3dEBkQwqx7Y66V5oG.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Minden idők egyik legnagyobb sportrivalizálása zajlott a nyolcvanas években a német Audi és az olasz Lancia között. A két autógyártó legnagyobb összecsapása az 1983-as rali-világbajnokságon játszódott le. Dávid és Góliát küzdelmében a toronymagas esélyes az Audi volt. A Lancia az innováció és merészség kombinációjával szállt szembe vele. Autó és autó, versenyző és versenyző, mérnökök és mérnökök feszültek egymásnak egy olyan korban, amikor egy autóverseny eredménye közvetlenül befolyásolta az autóértékesítéseket. Az autentikus utazás a nyolcvanas évekbe és a látványos autóversenyek egyedülálló élményt kínálnak nemcsak a sportautók kedvelőinek.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 173
-  },
-  {
     "id": "tt17279496",
     "type": "movie",
     "name": "Polgárháború",
@@ -30,7 +14,56 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 249
+    "seeders": 195
+  },
+  {
+    "id": "tt20112600",
+    "type": "movie",
+    "name": "Verseny a győzelemért",
+    "poster": "https://image.tmdb.org/t/p/w500/qLVQZMGxJk3dEBkQwqx7Y66V5oG.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Minden idők egyik legnagyobb sportrivalizálása zajlott a nyolcvanas években a német Audi és az olasz Lancia között. A két autógyártó legnagyobb összecsapása az 1983-as rali-világbajnokságon játszódott le. Dávid és Góliát küzdelmében a toronymagas esélyes az Audi volt. A Lancia az innováció és merészség kombinációjával szállt szembe vele. Autó és autó, versenyző és versenyző, mérnökök és mérnökök feszültek egymásnak egy olyan korban, amikor egy autóverseny eredménye közvetlenül befolyásolta az autóértékesítéseket. Az autentikus utazás a nyolcvanas évekbe és a látványos autóversenyek egyedülálló élményt kínálnak nemcsak a sportautók kedvelőinek.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 158
+  },
+  {
+    "id": "tt31050594",
+    "type": "movie",
+    "name": "Mesterséges kegyelem",
+    "poster": "https://image.tmdb.org/t/p/w500/yF5Gye414DGecECQr6rKRFD3gYz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 3145
+  },
+  {
+    "id": "tt14181714",
+    "type": "movie",
+    "name": "A szikla",
+    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 784
   },
   {
     "id": "tt0093881",
@@ -48,23 +81,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 48
-  },
-  {
-    "id": "tt14181714",
-    "type": "movie",
-    "name": "A szikla",
-    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 1143
+    "seeders": 47
   },
   {
     "id": "tt32332404",
@@ -80,7 +97,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 96
+    "seeders": 78
   },
   {
     "id": "tt15783426",
@@ -97,23 +114,23 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 152
+    "seeders": 125
   },
   {
-    "id": "tt2137286",
+    "id": "tt20990442",
     "type": "movie",
-    "name": "Szófia hercegnő: Egyszer volt egy hercegnő",
-    "poster": "https://image.tmdb.org/t/p/w500/5MGUoGtlOK646iHo8sJLyDSrpDC.jpg",
+    "name": "Csúcs",
+    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
     "posterShape": "poster",
-    "year": 2012,
-    "description": "Szófia átlagos lányként éli mindennapjait Bűbáj Birodalomban egészen addig, amíg édesanyja férjhez nem megy a királyhoz. Szófia egy csapásra a királyi kastélyban találja magát a mérhetetlen pompa és mostoha testvérei, Amber és James társaságában. Az átlagos kislánynak meg kell tanulnia hercegnőként viselkedni, és hamarosan a Királyi Előkészítő Akadémia diákja lesz, ahol Flóra, Fauna és Fiona, a Csipkerózsikából ismert jó tündérek veszik szárnyaik alá.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2012",
+    "year": 2025,
+    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
     "genres": [
-      "Animációs",
-      "Családi"
+      "Horror",
+      "Rejtély"
     ],
-    "seeders": 47
+    "seeders": 241
   },
   {
     "id": "tt26443107",
@@ -129,7 +146,55 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 81
+    "seeders": 69
+  },
+  {
+    "id": "tt2137286",
+    "type": "movie",
+    "name": "Szófia hercegnő: Egyszer volt egy hercegnő",
+    "poster": "https://image.tmdb.org/t/p/w500/5MGUoGtlOK646iHo8sJLyDSrpDC.jpg",
+    "posterShape": "poster",
+    "year": 2012,
+    "description": "Szófia átlagos lányként éli mindennapjait Bűbáj Birodalomban egészen addig, amíg édesanyja férjhez nem megy a királyhoz. Szófia egy csapásra a királyi kastélyban találja magát a mérhetetlen pompa és mostoha testvérei, Amber és James társaságában. Az átlagos kislánynak meg kell tanulnia hercegnőként viselkedni, és hamarosan a Királyi Előkészítő Akadémia diákja lesz, ahol Flóra, Fauna és Fiona, a Csipkerózsikából ismert jó tündérek veszik szárnyaik alá.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2012",
+    "genres": [
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 42
+  },
+  {
+    "id": "tt31065630",
+    "type": "movie",
+    "name": "Árva",
+    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 169
+  },
+  {
+    "id": "tt4530422",
+    "type": "movie",
+    "name": "Overlord",
+    "poster": "https://image.tmdb.org/t/p/w500/kLgExxVDrOhXteIi85lENK166Xp.jpg",
+    "posterShape": "poster",
+    "year": 2018,
+    "description": "Adva van egy csapatnyi amerikai katona, akik a II. világháború partraszállását megelőző estéjén, előőrsként kívánnak behatolni az ellenséges vonalak mögé, hogy megsemmisítsék a németek egy rádióállomását, ezzel elvágva a kommunikációs útvonalat. Csakhogy a gépet lelövik, az osztagnak csupán egy kis része éli túl az egészet, mindennek tetejébe pedig olyan szörnyűségekre bukkannak, ami felülírja az addigiakat.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2018",
+    "genres": [
+      "Horror",
+      "Háborús",
+      "Sci-Fi"
+    ],
+    "seeders": 76
   },
   {
     "id": "tt0105402",
@@ -147,55 +212,24 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 43
+    "seeders": 38
   },
   {
-    "id": "tt20990442",
+    "id": "tt28793125",
     "type": "movie",
-    "name": "Csúcs",
-    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
+    "name": "A svéd kapcsolat",
+    "poster": "https://image.tmdb.org/t/p/w500/wUfdjrCGdXDUWnAzvruLj7BlUUB.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Ebben a kevéssé ismert, igaz történetben egy svéd hivatalnok háborús hőssé válik, miközben a II. világháború legsötétebb napjaiban zsidó életeket próbál megmenteni.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Rejtély"
+      "Dráma",
+      "Történelmi",
+      "Háborús"
     ],
-    "seeders": 332
-  },
-  {
-    "id": "tt4530422",
-    "type": "movie",
-    "name": "Overlord",
-    "poster": "https://image.tmdb.org/t/p/w500/kLgExxVDrOhXteIi85lENK166Xp.jpg",
-    "posterShape": "poster",
-    "year": 2018,
-    "description": "Adva van egy csapatnyi amerikai katona, akik a II. világháború partraszállását megelőző estéjén, előőrsként kívánnak behatolni az ellenséges vonalak mögé, hogy megsemmisítsék a németek egy rádióállomását, ezzel elvágva a kommunikációs útvonalat. Csakhogy a gépet lelövik, az osztagnak csupán egy kis része éli túl az egészet, mindennek tetejébe pedig olyan szörnyűségekre bukkannak, ami felülírja az addigiakat.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2018",
-    "genres": [
-      "Horror",
-      "Háborús",
-      "Sci-Fi"
-    ],
-    "seeders": 98
-  },
-  {
-    "id": "tt31065630",
-    "type": "movie",
-    "name": "Árva",
-    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 232
+    "seeders": 446
   },
   {
     "id": "tt0807054",
@@ -210,7 +244,39 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 68
+    "seeders": 55
+  },
+  {
+    "id": "tt4712810",
+    "type": "movie",
+    "name": "Szemfényvesztők 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/pIKgyhilrW4VoelRhfkuz7TlS4B.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Hosszú évek után a visszavonult zseniális illuzionisták, a Lovasok, most újra összejönnek, hogy csapatukat új, mesteri mágusokkal bővítsék. A világ egyik legértékesebb gyémántját lovasítják meg eddig soha nem látott, szemkápráztató mutatványokkal, amivel a világ legveszélyesebb bűnözőhálózatát haragítják magukra",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "seeders": 691
+  },
+  {
+    "id": "tt26270862",
+    "type": "movie",
+    "name": "Szex",
+    "poster": "https://image.tmdb.org/t/p/w500/wyMYbI1LomZZ27uhfCp5vvz5Zco.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Két monogám, heteroszexuális házasságban élő kéményseprő olyan helyzetekbe kerül, amelyek megkérdőjelezik a szexualitásról és a nemi szerepekről alkotott véleményüket. Az egyikük váratlan ismertséget köt egy férfival. A másiknak zavarbaejtő álmai lesznek, aminek hatására elkezd azon töprengeni, hogy mások tekintete mennyire formálja a személyiségét, és vannak-e a jellemének olyan aspektusai, amelyeket elnyomott, ezáltal korlátozva önmagát.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt0076208",
@@ -226,7 +292,89 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 66
+    "seeders": 49
+  },
+  {
+    "id": "tt30343021",
+    "type": "movie",
+    "name": "Song Sung Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/kQzDdxI0F5z16qo2vzDoqdVMl4O.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 262
+  },
+  {
+    "id": "tt29780866",
+    "type": "movie",
+    "name": "Icefall – Tűz a jégen",
+    "poster": "https://image.tmdb.org/t/p/w500/wRGkBjN3ICFHAiIqEQpse2PNxVN.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Harlan (Joel Kinnaman), egy leszerelt deszantos, a modern világtól való teljes elzárkózásban talál menedéket: a hideg, végtelen pusztaság magányába vonul vissza Amerika északi részén, egy indián rezervátum elhagyatott tájain. Nem akar emberekkel találkozni, senkire sem támaszkodni – talán épp a múltja árnyai elől menekül. A világ azonban hamar utoléri. Egy nap rejtélyes módon lezuhant repülőgépre bukkan, tele milliókkal. A kísértésnek nehéz ellenállni – még nehezebb megtartani. Harlant elkapják, amikor Ani, a park fegyveres őreként szolgáló őslakos nő ráakad, és letartóztatja. Éppen bevinni készül a központba, amikor megjelenik a gép tulajdonosait képviselő csempészbanda – évek óta híján voltak a pénznek, és most követelik. Ani és Harlan kénytelenek félretenni a köztük lévő ellentétet. Összefognak, hogy túléljék a kegyetlen, fagyos tájat – és hogy megszerezzék a lezuhant vagyont önmaguknak.  (Csillag Lajos)",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 452
+  },
+  {
+    "id": "tt27721490",
+    "type": "movie",
+    "name": "Tornado",
+    "poster": "https://image.tmdb.org/t/p/w500/iow3KuKBJN2Hfqi7i7Tq3pZUbAa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy japán bábszínész lánya bűnözők közé keveredik, amikor műsoruk keresztezi egy bűnbanda útját, amelyet Sugarman és fia, Little Sugar vezet. Apja báb-szamuráj-előadását ez a hírhedt banda támadja meg, Tornado bosszút esküszik, elhatározza, hogy saját kezébe veszi a sorsát, és ellopja a banda tisztességtelenül szerzett aranyát.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Akció",
+      "Western"
+    ],
+    "seeders": 225
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/57cyAMc9c8iveudogTRuDOQjujn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 505
+  },
+  {
+    "id": "tt33057274",
+    "type": "movie",
+    "name": "Egy citromcseppnyi varázslat",
+    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 120
   },
   {
     "id": "tt1424310",
@@ -242,37 +390,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 33
-  },
-  {
-    "id": "tt26270862",
-    "type": "movie",
-    "name": "Szex",
-    "poster": "https://image.tmdb.org/t/p/w500/wyMYbI1LomZZ27uhfCp5vvz5Zco.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Két monogám, heteroszexuális házasságban élő kéményseprő olyan helyzetekbe kerül, amelyek megkérdőjelezik a szexualitásról és a nemi szerepekről alkotott véleményüket. Az egyikük váratlan ismertséget köt egy férfival. A másiknak zavarbaejtő álmai lesznek, aminek hatására elkezd azon töprengeni, hogy mások tekintete mennyire formálja a személyiségét, és vannak-e a jellemének olyan aspektusai, amelyeket elnyomott, ezáltal korlátozva önmagát.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 117
-  },
-  {
-    "id": "tt33057274",
-    "type": "movie",
-    "name": "Egy citromcseppnyi varázslat",
-    "poster": "https://image.tmdb.org/t/p/w500/k7raFB0uQgA2u5ilv4PAuWrJs5M.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Lolly pincérnő jobb életre és korábbi szomszédjával, Roryval való újraegyesülésre vágyik. Gert néni varázslatos édességei egy másik életet mutatnak meg Lollynak.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2024",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 161
+    "seeders": 23
   },
   {
     "id": "tt0055805",
@@ -288,7 +406,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 43
+    "seeders": 36
   },
   {
     "id": "tt0264472",
@@ -304,7 +422,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 71
+    "seeders": 56
   },
   {
     "id": "tt2552296",
@@ -321,7 +439,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 63
+    "seeders": 49
   },
   {
     "id": "tt0044487",
@@ -338,152 +456,38 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 56
+    "seeders": 41
   },
   {
-    "id": "tt0091495",
+    "id": "tt33474179",
     "type": "movie",
-    "name": "Matador",
-    "poster": "https://image.tmdb.org/t/p/w500/tRO0AY8RVQep0iJPqmJISvJDZVz.jpg",
+    "name": "Lángok közt",
+    "poster": "https://image.tmdb.org/t/p/w500/gqzIKAeBKkiwj5qz2oZCOuZKHPA.jpg",
     "posterShape": "poster",
-    "year": 1986,
-    "description": "A Matador című Almodóvar-filmben a szerelem és a halál végzetes kapcsolata elevenedik meg a néző szeme előtt. Diego Montez és Maria Cardenal a bikaviadalok kegyetlen világában találkozik egymással. A két ember perverz szexuális játékoknak hódol, melyekre eddig csak partnereik meggyilkolása révén tudtak szert tenni. Most elérkezett a várt beteljesülés: együtt halhatnak meg a szenvedély oltárán.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1986",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 94
-  },
-  {
-    "id": "tt0144214",
-    "type": "movie",
-    "name": "A tábornok lánya",
-    "poster": "https://image.tmdb.org/t/p/w500/n3st3mtnH9OcY9Wl3wt4pLSZFiI.jpg",
-    "posterShape": "poster",
-    "year": 1999,
-    "description": "\"Lehet valamit jól csinálni, rosszul csinálni, meg úgy, ahogy a hadsereg csinálja.\" De az nem lehet, hogy Paul Brenner (John Travolta) katonai nyomozó részt vegyen egy ügy eltussolásában. Amikor a pályája csúcsán lévő és közmegbecsülésnek örvendő Campbell tábornok gyönyörű lánya - maga is hivatásos katona - kéjgyilkosság áldozata lesz, az állományba egy lebuktatási manőver miatt korábban rangrejtve beépült nyomozó nekilát, hogy lerántsa a leplet a tragédia mögött rejlő homályos ügyletekről. A gyanúsítottak között főtisztek vannak, s kezdetét veszi a végzetes macska-egér játék, amely lebilincseli a néző figyelmét egészen a megdöbbentő végkifejletig.",
-    "imdbRating": 6.4,
-    "releaseInfo": "1999",
+    "year": 2026,
+    "description": "A kis Lide eltűnik az erdőben, miközben a család kirámolja a vidéki házukat. Egy tűz kitörését követően az anyja igyekszik rátalálni, mielőtt utolérik a lángok.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
     "genres": [
       "Thriller",
-      "Rejtély",
-      "Bűnügyi"
+      "Dráma"
     ],
-    "seeders": 49
+    "seeders": 143
   },
   {
-    "id": "tt0073169",
+    "id": "tt2396431",
     "type": "movie",
-    "name": "Piszkoskezű Ártatlanok",
-    "poster": "https://image.tmdb.org/t/p/w500/p9fhSuSfr7ZF7MsvdL7gLHdkDTX.jpg",
+    "name": "Kedves Télapó",
+    "poster": "https://image.tmdb.org/t/p/w500/oMIfPLDPvrStVBjR1P73UKOYmNm.jpg",
     "posterShape": "poster",
-    "year": 1975,
-    "description": "Saint Tropez, 1975. Julie Wormser és a szeretője, az író elhatározzák, hogy meggyilkolják az asszony impotens, ámde nagyon gazdag férjét. Az asszony leüti a férfit, majd elmegy hazulról, a terv többi részét szeretőjére, Jeff Marle-ra bízza. Másnap, amikor visszatér otthonukba, az asszony sem a férjét, sem a szeretőjét nem találja. Fogalma sincs, mi történt távozása után, de a környezet szemében egyre gyanúsabbá válik. Ráadásul a bankban felvilágosítják, hogy az incidens előtti napon a férje az összes pénzüket és valamennyi értéküket magához vette.",
+    "year": 2024,
+    "description": "Egy kisfiú elküldi karácsonyi kívánságlistáját a Télapónak, de a levél egy sorsdöntő elírást tartalmaz, aminek következtében az ajándékok helyett maga az ördög jelenik meg, hogy tönkretegye az ünnepeket.",
     "imdbRating": 6.2,
-    "releaseInfo": "1975",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 92
-  },
-  {
-    "id": "tt0064952",
-    "type": "movie",
-    "name": "Santa Vittoria titka",
-    "poster": "https://image.tmdb.org/t/p/w500/hW64HmSU2iXHIJ3GkNPDKDjlOhG.jpg",
-    "posterShape": "poster",
-    "year": 1970,
-    "description": "Fabio della Romagna óriási hírrel rohan haza, Santa Vittoria városkájába. A főtéren kihirdeti, hogy Benito Mussolininak, a zsarnoknak vége. Nem igen értik ezt Santa Vittoria együgyű és bohókás lakói, mint a birkák, hallgatnak. Bombolini, a helybéli korcsmáros, ennek örömére, s no persze, annak örömére is, hogy a félkegyelműek hirtelen megválasztják polgármesternek, meghívja a népét egy pohár borra. Rosa, a felesége, temperamentumos nagyasszony, ízig-vérig olasz, kiveri részeg férjét és a csőcseléket a házából. Santa Vittoria szabad városkáját azonban beárnyékolja a következő hír, miszerint hamarosan jönnek a németek. Bombolini rendkívüli városgyűlést hív össze, újra választja hirtelen a városi tanácsot, s arról tanácskoznak, vaj'miért jönnek a németek. Hát a borért. Santa Vittoria jó kis vörös, testes boráért. No, erre összefutott Bombolini faluja apraja-nagyja, hogy közösséggé formálódjanak, s elrejtsék Santa Vittoria titkát...",
-    "imdbRating": 6.9,
-    "releaseInfo": "1970",
+    "releaseInfo": "2024",
     "genres": [
       "Vígjáték",
-      "Dráma",
-      "Háborús"
+      "Fantasy"
     ],
-    "seeders": 40
-  },
-  {
-    "id": "tt0032138",
-    "type": "movie",
-    "name": "Óz, a csodák csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/bMyqunH8uFMWbdL484x5WT7Xwgo.jpg",
-    "posterShape": "poster",
-    "year": 1939,
-    "description": "Kansason félelmetes erejű tornádó söpör végig. A kis Dorothy nem tud elmenekülni, balesetet szenved. Ájult állapotban kis kutyájával, Totóval csodálatos helyre, Óz birodalmába kerül. Útja során barátokat szerez az Oroszlán, a Madárijesztő és a Bádogember személyében, ám egy kegyetlen ellenséggel, a Boszorkánnyal is szembe kerül. Noha itt minden színes és szép, Dorothy legfőbb vágya, hogy visszajusson az ő fekete-fehér, mégis úgy szeretett otthonába...",
-    "imdbRating": 7.6,
-    "releaseInfo": "1939",
-    "genres": [
-      "Kaland",
-      "Fantasy",
-      "Családi"
-    ],
-    "seeders": 42
-  },
-  {
-    "id": "tt0046521",
-    "type": "movie",
-    "name": "A bikaborjak",
-    "poster": "https://image.tmdb.org/t/p/w500/kl2KAv0WGJjRAZeiMLHqNtsG9AC.jpg",
-    "posterShape": "poster",
-    "year": 1953,
-    "description": "Moraldo, Fausto, Leopoldo, és Alberto egy álmos kisváros aranyifjai, akik sehogy sem akarnak belenőni a felnőtt életbe. Szüleik világát szűknek és unalmasnak érzik, nagy tervekről, izgalmas életpályáról álmodoznak, de erejükből legfeljebb némi botránykeltésre futja. Menekülni szeretnének, de csak Moraldónak van annyi ereje, hogy felszálljon a Róma felé tartó vonatra. Az erőteljesen önéletrajzi ihletésű film elkészítésének idején Fellini még maga is pályakezdőnek számított csakúgy, mint fiatal színészei, akik közül a saját nevét is vállaló Alberto Sordi igazi világsztár lett.",
-    "imdbRating": 7.6,
-    "releaseInfo": "1953",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 36
-  },
-  {
-    "id": "tt0051964",
-    "type": "movie",
-    "name": "Lányok egyenruhában",
-    "poster": "https://image.tmdb.org/t/p/w500/aKwqF1UimCGl6xqG9chQ66nSXcp.jpg",
-    "posterShape": "poster",
-    "year": 1958,
-    "description": "Postdam, 1910: a kis Manuela anyja halála után egy nemesi nevelőintézetbe kerül, ahol katonai fegyelemmel és vasszigorral találja szembe magát. Vonzódni kezd Von Bernburg kisasszony, a rokonszenves tanárnő iránt, s hamarosan valósággal rajong már érte. Egy iskolai ünnepségen Manuela tisztelete kimutatásában olyan messire megy, hogy sokan megbotránkoznak rajta: viselkedéséért bezárják. Mivel azt hiszi, hogy imádott tanárnője is cserbenhagyta, véget akar vetni életének. Ám az utolsó pillanatban sikerül megmenteni.",
-    "imdbRating": 6.1,
-    "releaseInfo": "1958",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 71
-  },
-  {
-    "id": "tt0044876",
-    "type": "movie",
-    "name": "A fehér öltönyös férfi",
-    "poster": "https://image.tmdb.org/t/p/w500/j0WiFteVTYrAADY4wsUulR5Mj7y.jpg",
-    "posterShape": "poster",
-    "year": 1951,
-    "description": "Sidney Stratton kémikus csodálatos felfedezést tesz. Olyan textilszálat fejleszt ki, amely elpusztíthatatlan, és ráadásul a szennyet is taszítja. Fölöttébb örül a felfedezésének, de lelkesedésében nem osztozik vele senki: ahelyett, hogy ünnepelnék, a fiatalember mindenütt visszautasításba ütközik. A textilipar vezetõi is, a szakszervezetek is inkább azzal próbálkoznak, hogy gátolják õt az anyag népszerûsítésében. Ha ugyanis ez a textilszál általános elterjedne, egész iparáguk összeomlana.",
-    "imdbRating": 6.9,
-    "releaseInfo": "1951",
-    "genres": [
-      "Vígjáték",
-      "Sci-Fi"
-    ],
-    "seeders": 35
-  },
-  {
-    "id": "tt0078763",
-    "type": "movie",
-    "name": "Amatőr",
-    "poster": "https://image.tmdb.org/t/p/w500/pDh0YMJQqVV1nuBRnkQbIg911Xw.jpg",
-    "posterShape": "poster",
-    "year": 1979,
-    "description": "Filip életében végre bekövetkezik a régen várt nagy esemény: kislánya születik. Az újdonsült apa vásárol egy szuper 8-as filmfelvevő kamerát, ezzel szeretné megörökíteni a kislány életének kedves pillanatait. Mikor filmezési hobbija közismertté válik, azt a feladatot kapja igazgatójától, hogy készítsen filmfelvételt a vállalat jubileumi ünnepségéről. A botcsinálta operatőr először tétován fogadja a megbízást, majd percről percre egyre inkább szenvedélyévé válik a filmezés, az események rögzítése. Ez aztán addigi életét teljesen megváltoztatja. A felvett anyagot azonban az igazgató utasítására meg kell vágni... (port.hu)",
-    "imdbRating": 7.5,
-    "releaseInfo": "1979",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 53
+    "seeders": 219
   }
 ]
