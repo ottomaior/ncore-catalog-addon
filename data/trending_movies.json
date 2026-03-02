@@ -1,5 +1,37 @@
 [
   {
+    "id": "tt0072446",
+    "type": "movie",
+    "name": "Az ígéret földje",
+    "poster": "https://image.tmdb.org/t/p/w500/uwMs9axSBS0opiO7Ih2J3AjUvMv.jpg",
+    "posterShape": "poster",
+    "year": 1975,
+    "description": "Lódzban vagyunk a századfordulón, a korai kapitalizmus kibontakozása idején. A textiliparáról híres városban, Karol Borowiecki , a nemesi származású lengyel fiatalember és két barátja, a német Maks Baum és a zsidó Moryc Welt elhatározzák, hogy önálló vállalkozásba fognak, textilgyárat alapítanak... A világhírű, Nobel-díjas Wladyslaw Reymont regényéből készült film sokrétű jelentéstartamából most csak egy gondolatot idéznénk az idős nemes, Borowiecki úr szavaival: \"Ti persze mind csak nevettek a múlton, a tradíciót hullának nevezítek, a nemességet előítéletnek, az erényt babonának, eladtátok a lelketeket, eladtátok az aranyborjúnak... \"",
+    "imdbRating": 7.3,
+    "releaseInfo": "1975",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 26
+  },
+  {
+    "id": "tt0388285",
+    "type": "movie",
+    "name": "Hé, haver, nyomd a verdát!",
+    "poster": "https://image.tmdb.org/t/p/w500/bOIpjeoFETwAIPYsTlT57BWT2tl.jpg",
+    "posterShape": "poster",
+    "year": 2004,
+    "description": "Nick-et váratlanul faképnél hagyja szerelme, Trish, aki egy feltörekvő producer oldalán hagyja el a szigetet, hogy karriert csináljon. Hippi szülei közreműködésének köszönhetően megtudja, hogy a lányt becsapják, a gyakornoki állás helyett egész más oktatásban fog részesülni. Nick azonnal elindul Torontóba, hogy visszaszerezze a szerelmét. Barátai, Tyler és Dime biztosítják a díszkíséretet a lánykéréshez, amit két szexi stoppos, Sasha és Jill tesznek még kalandosabbá.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2004",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 43
+  },
+  {
     "id": "tt23172090",
     "type": "movie",
     "name": "Porszörny",
@@ -14,7 +46,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 409
+    "seeders": 468
   },
   {
     "id": "tt31050594",
@@ -31,7 +63,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3506
+    "seeders": 4021
   },
   {
     "id": "tt7149730",
@@ -48,23 +80,7 @@
       "Akció",
       "Bűnügyi"
     ],
-    "seeders": 94
-  },
-  {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura : A Cicciolina sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 130
+    "seeders": 150
   },
   {
     "id": "tt14181714",
@@ -80,7 +96,39 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 978
+    "seeders": 1085
+  },
+  {
+    "id": "tt31105878",
+    "type": "movie",
+    "name": "Diva Futura : A Cicciolina sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 157
+  },
+  {
+    "id": "tt0109515",
+    "type": "movie",
+    "name": "A menekülés",
+    "poster": "https://image.tmdb.org/t/p/w500/nFRhXWT46YGY8OLO31sJEHClcOg.jpg",
+    "posterShape": "poster",
+    "year": 1994,
+    "description": "Eric, a titkosügynök, éppen Dilly szenátor testőreként dolgozik, aki pártfogója a frissen fejlesztett rendőr-robotoknak. Az ártatlanságukról és alkalmasságukról szóló sajtótájékoztatón, egy a közönség soraiból orvul pisztollyal támadó tiltakozástól éppencsak, hogy sikerül megmentenie védence életét. Csak később támad fel a gyanúja, hogy a szenátor sötét játékot űz, s az androidokat valójában gyilkolásra tervezték.",
+    "imdbRating": 3.9,
+    "releaseInfo": "1994",
+    "genres": [
+      "Akció",
+      "Sci-Fi"
+    ],
+    "seeders": 40
   },
   {
     "id": "tt17279496",
@@ -96,6 +144,22 @@
       "Háborús",
       "Akció",
       "Dráma"
+    ],
+    "seeders": 346
+  },
+  {
+    "id": "tt28336131",
+    "type": "movie",
+    "name": "Elyas",
+    "poster": "https://image.tmdb.org/t/p/w500/zuwf11mv6ju9Kf8PtlUjB0OzrBg.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Elyas, a különleges erők egykori katonája, aki egy afganisztáni misszió óta paranoiás lett. Felkérést kap, hogy biztosítsa Amina és 13 éves lánya, Nour biztonságát, akik mindketten a Közel-Keletről érkeztek az ünnepekre. Amikor Elyas megkezdi munkáját, úgy érzi, hogy valami nagyon nem stimmel.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2024",
+    "genres": [
+      "Akció",
+      "Thriller"
     ],
     "seeders": 140
   },
@@ -115,40 +179,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 53
-  },
-  {
-    "id": "tt28336131",
-    "type": "movie",
-    "name": "Elyas",
-    "poster": "https://image.tmdb.org/t/p/w500/zuwf11mv6ju9Kf8PtlUjB0OzrBg.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Elyas, a különleges erők egykori katonája, aki egy afganisztáni misszió óta paranoiás lett. Felkérést kap, hogy biztosítsa Amina és 13 éves lánya, Nour biztonságát, akik mindketten a Közel-Keletről érkeztek az ünnepekre. Amikor Elyas megkezdi munkáját, úgy érzi, hogy valami nagyon nem stimmel.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2024",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 134
-  },
-  {
-    "id": "tt22889928",
-    "type": "movie",
-    "name": "A Radley család",
-    "poster": "https://image.tmdb.org/t/p/w500/6KqQ1rm5CS59VPaHU12vNi79ksi.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Egy látszólag átlagos családnak sötét titka van: vámpírok. Természetes vágyaik ellenére úgy döntenek, hogy nem isznak vért, de egy nap kiderül az igazság.",
-    "imdbRating": 5.1,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték",
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 113
+    "seeders": 60
   },
   {
     "id": "tt22530226",
@@ -165,39 +196,24 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 122
+    "seeders": 136
   },
   {
-    "id": "tt0116126",
+    "id": "tt22889928",
     "type": "movie",
-    "name": "Ne légy barom, míg iszod a dzsúszod a gettóban",
-    "poster": "https://image.tmdb.org/t/p/w500/9jNlxaeUR1gopN2vIzzSEe49fS1.jpg",
+    "name": "A Radley család",
+    "poster": "https://image.tmdb.org/t/p/w500/6KqQ1rm5CS59VPaHU12vNi79ksi.jpg",
     "posterShape": "poster",
-    "year": 1996,
-    "description": "A Los Angeles-i néger gettó vidám oldala. - A \"Ne légy barom!\" nem más, mint az úgynevezett afro-amerikai filmek fergeteges paródiája. A forgatókönyvíró-rendező Wayans fivérek népszerű komikusok az USA-ban, legutóbbi munkájuk a Scary Movie ( Horrorra akadva, avagy tudom kit ettél tavaly nyárson ) már nemzetközi sikereket ért el. A \"Ne légy barom!\" főhőse Ashtray, aki évek múltán tér haza szülőföldjére, hogy meglátogassa a nála fiatalabb (!) szüleit. Ám a rég nem látott haverok újra kalandra csábítják. Irány a tengerpart!",
-    "imdbRating": 7.0,
-    "releaseInfo": "1996",
+    "year": 2024,
+    "description": "Egy látszólag átlagos családnak sötét titka van: vámpírok. Természetes vágyaik ellenére úgy döntenek, hogy nem isznak vért, de egy nap kiderül az igazság.",
+    "imdbRating": 5.1,
+    "releaseInfo": "2024",
     "genres": [
       "Vígjáték",
-      "Bűnügyi"
+      "Horror",
+      "Thriller"
     ],
-    "seeders": 74
-  },
-  {
-    "id": "tt37820061",
-    "type": "movie",
-    "name": "Távol",
-    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 99
+    "seeders": 114
   },
   {
     "id": "tt20112600",
@@ -213,7 +229,23 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 201
+    "seeders": 222
+  },
+  {
+    "id": "tt37820061",
+    "type": "movie",
+    "name": "Távol",
+    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 113
   },
   {
     "id": "tt14107334",
@@ -230,7 +262,54 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 119
+    "seeders": 131
+  },
+  {
+    "id": "tt0116126",
+    "type": "movie",
+    "name": "Ne légy barom, míg iszod a dzsúszod a gettóban",
+    "poster": "https://image.tmdb.org/t/p/w500/9jNlxaeUR1gopN2vIzzSEe49fS1.jpg",
+    "posterShape": "poster",
+    "year": 1996,
+    "description": "A Los Angeles-i néger gettó vidám oldala. - A \"Ne légy barom!\" nem más, mint az úgynevezett afro-amerikai filmek fergeteges paródiája. A forgatókönyvíró-rendező Wayans fivérek népszerű komikusok az USA-ban, legutóbbi munkájuk a Scary Movie ( Horrorra akadva, avagy tudom kit ettél tavaly nyárson ) már nemzetközi sikereket ért el. A \"Ne légy barom!\" főhőse Ashtray, aki évek múltán tér haza szülőföldjére, hogy meglátogassa a nála fiatalabb (!) szüleit. Ám a rég nem látott haverok újra kalandra csábítják. Irány a tengerpart!",
+    "imdbRating": 7.0,
+    "releaseInfo": "1996",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi"
+    ],
+    "seeders": 77
+  },
+  {
+    "id": "tt27614382",
+    "type": "movie",
+    "name": "U.S. Palmese",
+    "poster": "https://image.tmdb.org/t/p/w500/j6BbHw9Vu5HBafi39mI7SmwxLa6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy kalábriai kisvárosban egy briliáns, de különc nyugdíjas vad ötlettel áll elő, hogy felélessze a helyi futballcsapatot: rendhagyó közösségi adománygyűjtést indít, hogy megszerezzen egy kegyvesztett sztárfutballista játékost.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 89
+  },
+  {
+    "id": "tt14260836",
+    "type": "movie",
+    "name": "Better Man: Robbie Williams",
+    "poster": "https://image.tmdb.org/t/p/w500/2hUQERs4iyvPlxMo0m6YleA7fFS.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "A BETTER MAN: ROBBIE WILLIAMS a brit popsztár, Robbie Williams üstökösszerű berobbanásának, drámai bukásának és figyelemreméltó visszatérésének igaz története. Robbie szemszögéből láthatjuk a rá jellemző szellemességgel és fékezhetetlen lelkesedéssel, amint gyermekből a slágerlistákat ostromló fiatal lesz a Take That fiúbanda legifjabb tagjaként, majd példátlan sikereket ér el és rekordokat dönt egyéni előadóként – s mindeközben megküzd megannyi kihívással, ami a világra szóló hírnévvel és gazdagsággal jár.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2024",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 74
   },
   {
     "id": "tt10427010",
@@ -249,70 +328,6 @@
     "seeders": 47
   },
   {
-    "id": "tt14260836",
-    "type": "movie",
-    "name": "Better Man: Robbie Williams",
-    "poster": "https://image.tmdb.org/t/p/w500/2hUQERs4iyvPlxMo0m6YleA7fFS.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "A BETTER MAN: ROBBIE WILLIAMS a brit popsztár, Robbie Williams üstökösszerű berobbanásának, drámai bukásának és figyelemreméltó visszatérésének igaz története. Robbie szemszögéből láthatjuk a rá jellemző szellemességgel és fékezhetetlen lelkesedéssel, amint gyermekből a slágerlistákat ostromló fiatal lesz a Take That fiúbanda legifjabb tagjaként, majd példátlan sikereket ér el és rekordokat dönt egyéni előadóként – s mindeközben megküzd megannyi kihívással, ami a világra szóló hírnévvel és gazdagsággal jár.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2024",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 72
-  },
-  {
-    "id": "tt27614382",
-    "type": "movie",
-    "name": "U.S. Palmese",
-    "poster": "https://image.tmdb.org/t/p/w500/j6BbHw9Vu5HBafi39mI7SmwxLa6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy kalábriai kisvárosban egy briliáns, de különc nyugdíjas vad ötlettel áll elő, hogy felélessze a helyi futballcsapatot: rendhagyó közösségi adománygyűjtést indít, hogy megszerezzen egy kegyvesztett sztárfutballista játékost.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 81
-  },
-  {
-    "id": "tt0104692",
-    "type": "movie",
-    "name": "A fűnyíró ember",
-    "poster": "https://image.tmdb.org/t/p/w500/lFvAzUo6VuitoQy8iWufRjuPPQf.jpg",
-    "posterShape": "poster",
-    "year": 1992,
-    "description": "A szellemileg visszamaradott Jobe Smith-t (Jeff Fahey) \"fűnyíróembernek\" hívják a városban. A húszéves fiatalember értelmi és érzelmi fejlődése egy ötéves gyermek szintjén rekedt meg. Angelo doktor (Pierce Brosnan), aki csimpánzokon végez kísérleteket az intelligenciaszint növelésére, megsajnálja Jobe-ot, majd veszélyes kísérletsorozatának alanyává teszi. Az eredmény megdöbbentő: Jobe intelligenciája ugrásszerűen fejlődik. Értelmi képességeinek növekedésével azonban felerősödnek agresszív ösztönei is.",
-    "imdbRating": 5.6,
-    "releaseInfo": "1992",
-    "genres": [
-      "Sci-Fi",
-      "Horror"
-    ],
-    "seeders": 33
-  },
-  {
-    "id": "tt0128378",
-    "type": "movie",
-    "name": "Tűzzel-vassal",
-    "poster": "https://image.tmdb.org/t/p/w500/qgXpIwtzvQlnJBYK42ZClKIHPhK.jpg",
-    "posterShape": "poster",
-    "year": 1999,
-    "description": "1647. Különös jelek gyülekeznek a végtelen sztyeppe fölött: háború lesz, olyan hatalmas és olyan kegyetlen, melyet nem látott még a világ. Kozákok, tatárok és lázadó lengyel nemesek a Hetman vezérlete alatt támadnak a civilizált Európára. Egyedül a büszke lengyel lovagok állíthatják meg őket: de nekik sem sikerülne az önfeláldozó haditett, ha néhány jóbarát különös kalandjai során nem döntene úgy, hogy ők is beavatkoznak a háborúba.\r A film főhősét személyes ok is vezeti: beleszeretett egy nemesasszony lányába, akit pedig már Bohunnak, a kozák hercegnek ígértek. Márpedig a készülő háborúban ő kozákok ellen harcol - és a szerelemért...",
-    "imdbRating": 6.9,
-    "releaseInfo": "1999",
-    "genres": [
-      "Háborús",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 29
-  },
-  {
     "id": "tt0055031",
     "type": "movie",
     "name": "Ítélet Nürnbergben",
@@ -326,39 +341,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 32
-  },
-  {
-    "id": "tt0118670",
-    "type": "movie",
-    "name": "Nyomás alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/dELSaEQcNd2A5aKpuip9IETKTmx.jpg",
-    "posterShape": "poster",
-    "year": 1997,
-    "description": "Néha a legbékésebb környéken lappang az igazi terror és néha a legváratlanabb oldalról les ránk a veszély. Például egy békés, nyugodt külvárosban, ahol keresztnevükön szólítják egymást a szomszédok és ahol nyugodtan kiengedhetjük gyermekeinket játszani az utcára. De most ebben az idilli környezetben elszabadul a pokol: egy védtelen asszonyt és gyermekeit a szomszéd férfi - egy tűzoltó - terrorizálni kezdi. A horror azonban csak akkor veszi igazán kezdetét, amikor az asszony feljelentést tesz a rendőrségen. A rendőrök ugyanis nem hisznek a nőnek, hiszen a férfit jól ismerik - egy hős, aki egyszer saját élete kockáztatásával mentett ki egy gyereket a tűzből. A nő magára marad, az ajtóban pedig ott áll a pszichopata szomszéd.",
-    "imdbRating": 5.4,
-    "releaseInfo": "1997",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 25
-  },
-  {
-    "id": "tt0109515",
-    "type": "movie",
-    "name": "A menekülés",
-    "poster": "https://image.tmdb.org/t/p/w500/nFRhXWT46YGY8OLO31sJEHClcOg.jpg",
-    "posterShape": "poster",
-    "year": 1994,
-    "description": "Eric, a titkosügynök, éppen Dilly szenátor testőreként dolgozik, aki pártfogója a frissen fejlesztett rendőr-robotoknak. Az ártatlanságukról és alkalmasságukról szóló sajtótájékoztatón, egy a közönség soraiból orvul pisztollyal támadó tiltakozástól éppencsak, hogy sikerül megmentenie védence életét. Csak később támad fel a gyanúja, hogy a szenátor sötét játékot űz, s az androidokat valójában gyilkolásra tervezték.",
-    "imdbRating": 3.9,
-    "releaseInfo": "1994",
-    "genres": [
-      "Akció",
-      "Sci-Fi"
-    ],
-    "seeders": 22
+    "seeders": 37
   },
   {
     "id": "tt20990442",
@@ -374,7 +357,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 234
+    "seeders": 253
   },
   {
     "id": "tt28793125",
@@ -391,7 +374,40 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 447
+    "seeders": 468
+  },
+  {
+    "id": "tt0104692",
+    "type": "movie",
+    "name": "A fűnyíró ember",
+    "poster": "https://image.tmdb.org/t/p/w500/lFvAzUo6VuitoQy8iWufRjuPPQf.jpg",
+    "posterShape": "poster",
+    "year": 1992,
+    "description": "A szellemileg visszamaradott Jobe Smith-t (Jeff Fahey) \"fűnyíróembernek\" hívják a városban. A húszéves fiatalember értelmi és érzelmi fejlődése egy ötéves gyermek szintjén rekedt meg. Angelo doktor (Pierce Brosnan), aki csimpánzokon végez kísérleteket az intelligenciaszint növelésére, megsajnálja Jobe-ot, majd veszélyes kísérletsorozatának alanyává teszi. Az eredmény megdöbbentő: Jobe intelligenciája ugrásszerűen fejlődik. Értelmi képességeinek növekedésével azonban felerősödnek agresszív ösztönei is.",
+    "imdbRating": 5.6,
+    "releaseInfo": "1992",
+    "genres": [
+      "Sci-Fi",
+      "Horror"
+    ],
+    "seeders": 32
+  },
+  {
+    "id": "tt0128378",
+    "type": "movie",
+    "name": "Tűzzel-vassal",
+    "poster": "https://image.tmdb.org/t/p/w500/qgXpIwtzvQlnJBYK42ZClKIHPhK.jpg",
+    "posterShape": "poster",
+    "year": 1999,
+    "description": "1647. Különös jelek gyülekeznek a végtelen sztyeppe fölött: háború lesz, olyan hatalmas és olyan kegyetlen, melyet nem látott még a világ. Kozákok, tatárok és lázadó lengyel nemesek a Hetman vezérlete alatt támadnak a civilizált Európára. Egyedül a büszke lengyel lovagok állíthatják meg őket: de nekik sem sikerülne az önfeláldozó haditett, ha néhány jóbarát különös kalandjai során nem döntene úgy, hogy ők is beavatkoznak a háborúba.\r A film főhősét személyes ok is vezeti: beleszeretett egy nemesasszony lányába, akit pedig már Bohunnak, a kozák hercegnek ígértek. Márpedig a készülő háborúban ő kozákok ellen harcol - és a szerelemért...",
+    "imdbRating": 6.9,
+    "releaseInfo": "1999",
+    "genres": [
+      "Háborús",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 31
   },
   {
     "id": "tt15783426",
@@ -408,7 +424,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 128
+    "seeders": 140
   },
   {
     "id": "tt32332404",
@@ -424,7 +440,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 100
+    "seeders": 121
+  },
+  {
+    "id": "tt0118670",
+    "type": "movie",
+    "name": "Nyomás alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/dELSaEQcNd2A5aKpuip9IETKTmx.jpg",
+    "posterShape": "poster",
+    "year": 1997,
+    "description": "Néha a legbékésebb környéken lappang az igazi terror és néha a legváratlanabb oldalról les ránk a veszély. Például egy békés, nyugodt külvárosban, ahol keresztnevükön szólítják egymást a szomszédok és ahol nyugodtan kiengedhetjük gyermekeinket játszani az utcára. De most ebben az idilli környezetben elszabadul a pokol: egy védtelen asszonyt és gyermekeit a szomszéd férfi - egy tűzoltó - terrorizálni kezdi. A horror azonban csak akkor veszi igazán kezdetét, amikor az asszony feljelentést tesz a rendőrségen. A rendőrök ugyanis nem hisznek a nőnek, hiszen a férfit jól ismerik - egy hős, aki egyszer saját élete kockáztatásával mentett ki egy gyereket a tűzből. A nő magára marad, az ajtóban pedig ott áll a pszichopata szomszéd.",
+    "imdbRating": 5.4,
+    "releaseInfo": "1997",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 30
   },
   {
     "id": "tt31065630",
@@ -439,39 +471,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 168
-  },
-  {
-    "id": "tt0140888",
-    "type": "movie",
-    "name": "Központi pályaudvar",
-    "poster": "https://image.tmdb.org/t/p/w500/8Uwh9dYMZnWUFBqoBplEb4bgxH8.jpg",
-    "posterShape": "poster",
-    "year": 1998,
-    "description": "Dora, az egykori tanárnő a forgalmas pályaudvaron üldögél asztala mögött. Analfabéták helyett ír levelet, ezzel tartja el magát. Egy nap egyik ügyfelét halálos baleset éri, akinek fia, Josué magára marad. Dora úgy érzi, hogy segítenie kell a gyermeken, de nem vállalkozik rá, hogy magához vegye. Inkább útnak indul a kisfiúval, hogy megkeressék az apját.",
-    "imdbRating": 8.1,
-    "releaseInfo": "1998",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 55
-  },
-  {
-    "id": "tt0086006",
-    "type": "movie",
-    "name": "Soha ne mondd, hogy soha",
-    "poster": "https://image.tmdb.org/t/p/w500/vuwEpmE6TcPtcCoKCo0uh7dIeA3.jpg",
-    "posterShape": "poster",
-    "year": 1983,
-    "description": "Amikor a nukleáris terrorizmus veszélye fenyegeti a világot, ki más háríthatná el a veszedelmet, mint a 007-es szuperügynök? James Bond Angliából a Bahamákra repül, onnan pedig Dél-Franciaországba, s közben mindenhová követi a gyönyörű, ám de életveszélyes Fatima Blush, aki mindenre képes, hogy végezzen kitűzött célpontjával.",
-    "imdbRating": 6.1,
-    "releaseInfo": "1983",
-    "genres": [
-      "Kaland",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 29
+    "seeders": 189
   },
   {
     "id": "tt29780866",
@@ -488,6 +488,6 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 442
+    "seeders": 495
   }
 ]
