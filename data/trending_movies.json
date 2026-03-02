@@ -14,24 +14,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 366
-  },
-  {
-    "id": "tt7149730",
-    "type": "movie",
-    "name": "Néma csend",
-    "poster": "https://image.tmdb.org/t/p/w500/jh6KaG2kujIQDyeyJMzVLYfKUmb.jpg",
-    "posterShape": "poster",
-    "year": 2020,
-    "description": "A természetvédelmi területen élő vadász halálos macska-egér játék része lesz, miután a helyi seriffel egy gyilkos nyomába ered, aki évekkel korábban elrabolta a lányát.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2020",
-    "genres": [
-      "Thriller",
-      "Akció",
-      "Bűnügyi"
-    ],
-    "seeders": 55
+    "seeders": 409
   },
   {
     "id": "tt31050594",
@@ -48,7 +31,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3164
+    "seeders": 3506
+  },
+  {
+    "id": "tt7149730",
+    "type": "movie",
+    "name": "Néma csend",
+    "poster": "https://image.tmdb.org/t/p/w500/jh6KaG2kujIQDyeyJMzVLYfKUmb.jpg",
+    "posterShape": "poster",
+    "year": 2020,
+    "description": "A természetvédelmi területen élő vadász halálos macska-egér játék része lesz, miután a helyi seriffel egy gyilkos nyomába ered, aki évekkel korábban elrabolta a lányát.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2020",
+    "genres": [
+      "Thriller",
+      "Akció",
+      "Bűnügyi"
+    ],
+    "seeders": 94
   },
   {
     "id": "tt31105878",
@@ -64,7 +64,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 108
+    "seeders": 130
   },
   {
     "id": "tt14181714",
@@ -74,13 +74,30 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 6.0,
+    "imdbRating": 5.9,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 855
+    "seeders": 978
+  },
+  {
+    "id": "tt17279496",
+    "type": "movie",
+    "name": "Polgárháború",
+    "poster": "https://image.tmdb.org/t/p/w500/oCzzgAJcl52ntF0RZrW6hvPk93d.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "A közeljövőben, a polgárháború által feldúlt Egyesült Államokban, háborús újságírók egy csoportja próbál túlélni miközben beszámol az igazságról.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2024",
+    "genres": [
+      "Háborús",
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 140
   },
   {
     "id": "tt1641841",
@@ -98,24 +115,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 47
-  },
-  {
-    "id": "tt17279496",
-    "type": "movie",
-    "name": "Polgárháború",
-    "poster": "https://image.tmdb.org/t/p/w500/oCzzgAJcl52ntF0RZrW6hvPk93d.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "A közeljövőben, a polgárháború által feldúlt Egyesült Államokban, háborús újságírók egy csoportja próbál túlélni miközben beszámol az igazságról.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2024",
-    "genres": [
-      "Háborús",
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 114
+    "seeders": 53
   },
   {
     "id": "tt28336131",
@@ -131,7 +131,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 119
+    "seeders": 134
   },
   {
     "id": "tt22889928",
@@ -148,7 +148,24 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 105
+    "seeders": 113
+  },
+  {
+    "id": "tt22530226",
+    "type": "movie",
+    "name": "Jóravaló kísértet",
+    "poster": "https://image.tmdb.org/t/p/w500/8xbfTDgOtiFXDjTttbORoT93nIT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nat, a nemrég elhunyt thai háziasszony porallergiás özvegye miatt aggódva szellemként tér vissza egy porszívó formájában, hogy kitakarítsa a házat és megvédje családját a házban kószáló egyéb bosszúálló kísértettől. Ahhoz, hogy hasznos szellemmé váljon, meg kell szabadulnia a haszontalanoktól.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Fantasy"
+    ],
+    "seeders": 122
   },
   {
     "id": "tt0116126",
@@ -164,58 +181,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 69
-  },
-  {
-    "id": "tt22530226",
-    "type": "movie",
-    "name": "Jóravaló kísértet",
-    "poster": "https://image.tmdb.org/t/p/w500/8xbfTDgOtiFXDjTttbORoT93nIT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nat, a nemrég elhunyt thai háziasszony porallergiás özvegye miatt aggódva szellemként tér vissza egy porszívó formájában, hogy kitakarítsa a házat és megvédje családját a házban kószáló egyéb bosszúálló kísértettől. Ahhoz, hogy hasznos szellemmé váljon, meg kell szabadulnia a haszontalanoktól.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Fantasy",
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 114
-  },
-  {
-    "id": "tt0104692",
-    "type": "movie",
-    "name": "A fűnyíró ember",
-    "poster": "https://image.tmdb.org/t/p/w500/lFvAzUo6VuitoQy8iWufRjuPPQf.jpg",
-    "posterShape": "poster",
-    "year": 1992,
-    "description": "A szellemileg visszamaradott Jobe Smith-t (Jeff Fahey) \"fűnyíróembernek\" hívják a városban. A húszéves fiatalember értelmi és érzelmi fejlődése egy ötéves gyermek szintjén rekedt meg. Angelo doktor (Pierce Brosnan), aki csimpánzokon végez kísérleteket az intelligenciaszint növelésére, megsajnálja Jobe-ot, majd veszélyes kísérletsorozatának alanyává teszi. Az eredmény megdöbbentő: Jobe intelligenciája ugrásszerűen fejlődik. Értelmi képességeinek növekedésével azonban felerősödnek agresszív ösztönei is.",
-    "imdbRating": 5.6,
-    "releaseInfo": "1992",
-    "genres": [
-      "Sci-Fi",
-      "Horror"
-    ],
-    "seeders": 31
-  },
-  {
-    "id": "tt10427010",
-    "type": "movie",
-    "name": "A végső csapás",
-    "poster": "https://image.tmdb.org/t/p/w500/8lGFVecQmk8XYuL1McuU5EDwsNY.jpg",
-    "posterShape": "poster",
-    "year": 2019,
-    "description": "Wu rendőrként beépül egy kábítószer-kereskedő bandába, de mielőtt felszámolhatná azt, egy balul elsült üzletelés közben egy másik rendfenntartó szerv megöli a banda fejét. Wu és szokatlan szövetségese, Párduc, összefog a szervezettel, hogy elkapják a nyílt tengeren azt a csempészt, aki az egész akció mögött áll.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2019",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 41
+    "seeders": 74
   },
   {
     "id": "tt37820061",
@@ -231,24 +197,7 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 93
-  },
-  {
-    "id": "tt0128378",
-    "type": "movie",
-    "name": "Tűzzel-vassal",
-    "poster": "https://image.tmdb.org/t/p/w500/qgXpIwtzvQlnJBYK42ZClKIHPhK.jpg",
-    "posterShape": "poster",
-    "year": 1999,
-    "description": "1647. Különös jelek gyülekeznek a végtelen sztyeppe fölött: háború lesz, olyan hatalmas és olyan kegyetlen, melyet nem látott még a világ. Kozákok, tatárok és lázadó lengyel nemesek a Hetman vezérlete alatt támadnak a civilizált Európára. Egyedül a büszke lengyel lovagok állíthatják meg őket: de nekik sem sikerülne az önfeláldozó haditett, ha néhány jóbarát különös kalandjai során nem döntene úgy, hogy ők is beavatkoznak a háborúba.\r A film főhősét személyes ok is vezeti: beleszeretett egy nemesasszony lányába, akit pedig már Bohunnak, a kozák hercegnek ígértek. Márpedig a készülő háborúban ő kozákok ellen harcol - és a szerelemért...",
-    "imdbRating": 6.9,
-    "releaseInfo": "1999",
-    "genres": [
-      "Háborús",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 26
+    "seeders": 99
   },
   {
     "id": "tt20112600",
@@ -264,7 +213,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 192
+    "seeders": 201
   },
   {
     "id": "tt14107334",
@@ -281,7 +230,87 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 111
+    "seeders": 119
+  },
+  {
+    "id": "tt10427010",
+    "type": "movie",
+    "name": "A végső csapás",
+    "poster": "https://image.tmdb.org/t/p/w500/8lGFVecQmk8XYuL1McuU5EDwsNY.jpg",
+    "posterShape": "poster",
+    "year": 2019,
+    "description": "Wu rendőrként beépül egy kábítószer-kereskedő bandába, de mielőtt felszámolhatná azt, egy balul elsült üzletelés közben egy másik rendfenntartó szerv megöli a banda fejét. Wu és szokatlan szövetségese, Párduc, összefog a szervezettel, hogy elkapják a nyílt tengeren azt a csempészt, aki az egész akció mögött áll.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2019",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 47
+  },
+  {
+    "id": "tt14260836",
+    "type": "movie",
+    "name": "Better Man: Robbie Williams",
+    "poster": "https://image.tmdb.org/t/p/w500/2hUQERs4iyvPlxMo0m6YleA7fFS.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "A BETTER MAN: ROBBIE WILLIAMS a brit popsztár, Robbie Williams üstökösszerű berobbanásának, drámai bukásának és figyelemreméltó visszatérésének igaz története. Robbie szemszögéből láthatjuk a rá jellemző szellemességgel és fékezhetetlen lelkesedéssel, amint gyermekből a slágerlistákat ostromló fiatal lesz a Take That fiúbanda legifjabb tagjaként, majd példátlan sikereket ér el és rekordokat dönt egyéni előadóként – s mindeközben megküzd megannyi kihívással, ami a világra szóló hírnévvel és gazdagsággal jár.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2024",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 72
+  },
+  {
+    "id": "tt27614382",
+    "type": "movie",
+    "name": "U.S. Palmese",
+    "poster": "https://image.tmdb.org/t/p/w500/j6BbHw9Vu5HBafi39mI7SmwxLa6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy kalábriai kisvárosban egy briliáns, de különc nyugdíjas vad ötlettel áll elő, hogy felélessze a helyi futballcsapatot: rendhagyó közösségi adománygyűjtést indít, hogy megszerezzen egy kegyvesztett sztárfutballista játékost.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 81
+  },
+  {
+    "id": "tt0104692",
+    "type": "movie",
+    "name": "A fűnyíró ember",
+    "poster": "https://image.tmdb.org/t/p/w500/lFvAzUo6VuitoQy8iWufRjuPPQf.jpg",
+    "posterShape": "poster",
+    "year": 1992,
+    "description": "A szellemileg visszamaradott Jobe Smith-t (Jeff Fahey) \"fűnyíróembernek\" hívják a városban. A húszéves fiatalember értelmi és érzelmi fejlődése egy ötéves gyermek szintjén rekedt meg. Angelo doktor (Pierce Brosnan), aki csimpánzokon végez kísérleteket az intelligenciaszint növelésére, megsajnálja Jobe-ot, majd veszélyes kísérletsorozatának alanyává teszi. Az eredmény megdöbbentő: Jobe intelligenciája ugrásszerűen fejlődik. Értelmi képességeinek növekedésével azonban felerősödnek agresszív ösztönei is.",
+    "imdbRating": 5.6,
+    "releaseInfo": "1992",
+    "genres": [
+      "Sci-Fi",
+      "Horror"
+    ],
+    "seeders": 33
+  },
+  {
+    "id": "tt0128378",
+    "type": "movie",
+    "name": "Tűzzel-vassal",
+    "poster": "https://image.tmdb.org/t/p/w500/qgXpIwtzvQlnJBYK42ZClKIHPhK.jpg",
+    "posterShape": "poster",
+    "year": 1999,
+    "description": "1647. Különös jelek gyülekeznek a végtelen sztyeppe fölött: háború lesz, olyan hatalmas és olyan kegyetlen, melyet nem látott még a világ. Kozákok, tatárok és lázadó lengyel nemesek a Hetman vezérlete alatt támadnak a civilizált Európára. Egyedül a büszke lengyel lovagok állíthatják meg őket: de nekik sem sikerülne az önfeláldozó haditett, ha néhány jóbarát különös kalandjai során nem döntene úgy, hogy ők is beavatkoznak a háborúba.\r A film főhősét személyes ok is vezeti: beleszeretett egy nemesasszony lányába, akit pedig már Bohunnak, a kozák hercegnek ígértek. Márpedig a készülő háborúban ő kozákok ellen harcol - és a szerelemért...",
+    "imdbRating": 6.9,
+    "releaseInfo": "1999",
+    "genres": [
+      "Háborús",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 29
   },
   {
     "id": "tt0055031",
@@ -300,35 +329,20 @@
     "seeders": 32
   },
   {
-    "id": "tt14260836",
+    "id": "tt0118670",
     "type": "movie",
-    "name": "Better Man: Robbie Williams",
-    "poster": "https://image.tmdb.org/t/p/w500/2hUQERs4iyvPlxMo0m6YleA7fFS.jpg",
+    "name": "Nyomás alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/dELSaEQcNd2A5aKpuip9IETKTmx.jpg",
     "posterShape": "poster",
-    "year": 2024,
-    "description": "A BETTER MAN: ROBBIE WILLIAMS a brit popsztár, Robbie Williams üstökösszerű berobbanásának, drámai bukásának és figyelemreméltó visszatérésének igaz története. Robbie szemszögéből láthatjuk a rá jellemző szellemességgel és fékezhetetlen lelkesedéssel, amint gyermekből a slágerlistákat ostromló fiatal lesz a Take That fiúbanda legifjabb tagjaként, majd példátlan sikereket ér el és rekordokat dönt egyéni előadóként – s mindeközben megküzd megannyi kihívással, ami a világra szóló hírnévvel és gazdagsággal jár.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2024",
+    "year": 1997,
+    "description": "Néha a legbékésebb környéken lappang az igazi terror és néha a legváratlanabb oldalról les ránk a veszély. Például egy békés, nyugodt külvárosban, ahol keresztnevükön szólítják egymást a szomszédok és ahol nyugodtan kiengedhetjük gyermekeinket játszani az utcára. De most ebben az idilli környezetben elszabadul a pokol: egy védtelen asszonyt és gyermekeit a szomszéd férfi - egy tűzoltó - terrorizálni kezdi. A horror azonban csak akkor veszi igazán kezdetét, amikor az asszony feljelentést tesz a rendőrségen. A rendőrök ugyanis nem hisznek a nőnek, hiszen a férfit jól ismerik - egy hős, aki egyszer saját élete kockáztatásával mentett ki egy gyereket a tűzből. A nő magára marad, az ajtóban pedig ott áll a pszichopata szomszéd.",
+    "imdbRating": 5.4,
+    "releaseInfo": "1997",
     "genres": [
-      "Zenei",
-      "Dráma"
+      "Dráma",
+      "Thriller"
     ],
-    "seeders": 65
-  },
-  {
-    "id": "tt27614382",
-    "type": "movie",
-    "name": "U.S. Palmese",
-    "poster": "https://image.tmdb.org/t/p/w500/j6BbHw9Vu5HBafi39mI7SmwxLa6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy kalábriai kisvárosban egy briliáns, de különc nyugdíjas vad ötlettel áll elő, hogy felélessze a helyi futballcsapatot: rendhagyó közösségi adománygyűjtést indít, hogy megszerezzen egy kegyvesztett sztárfutballista játékost.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 74
+    "seeders": 25
   },
   {
     "id": "tt0109515",
@@ -344,23 +358,7 @@
       "Akció",
       "Sci-Fi"
     ],
-    "seeders": 23
-  },
-  {
-    "id": "tt0118670",
-    "type": "movie",
-    "name": "Nyomás alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/dELSaEQcNd2A5aKpuip9IETKTmx.jpg",
-    "posterShape": "poster",
-    "year": 1997,
-    "description": "Néha a legbékésebb környéken lappang az igazi terror és néha a legváratlanabb oldalról les ránk a veszély. Például egy békés, nyugodt külvárosban, ahol keresztnevükön szólítják egymást a szomszédok és ahol nyugodtan kiengedhetjük gyermekeinket játszani az utcára. De most ebben az idilli környezetben elszabadul a pokol: egy védtelen asszonyt és gyermekeit a szomszéd férfi - egy tűzoltó - terrorizálni kezdi. A horror azonban csak akkor veszi igazán kezdetét, amikor az asszony feljelentést tesz a rendőrségen. A rendőrök ugyanis nem hisznek a nőnek, hiszen a férfit jól ismerik - egy hős, aki egyszer saját élete kockáztatásával mentett ki egy gyereket a tűzből. A nő magára marad, az ajtóban pedig ott áll a pszichopata szomszéd.",
-    "imdbRating": 5.4,
-    "releaseInfo": "1997",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 23
+    "seeders": 22
   },
   {
     "id": "tt20990442",
@@ -376,23 +374,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 225
-  },
-  {
-    "id": "tt32332404",
-    "type": "movie",
-    "name": "Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/mbGHijUc0C3fcM12l6ro6FgxIvg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 103
+    "seeders": 234
   },
   {
     "id": "tt28793125",
@@ -409,7 +391,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 401
+    "seeders": 447
   },
   {
     "id": "tt15783426",
@@ -426,7 +408,53 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 112
+    "seeders": 128
+  },
+  {
+    "id": "tt32332404",
+    "type": "movie",
+    "name": "Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/mbGHijUc0C3fcM12l6ro6FgxIvg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 100
+  },
+  {
+    "id": "tt31065630",
+    "type": "movie",
+    "name": "Árva",
+    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 168
+  },
+  {
+    "id": "tt0140888",
+    "type": "movie",
+    "name": "Központi pályaudvar",
+    "poster": "https://image.tmdb.org/t/p/w500/8Uwh9dYMZnWUFBqoBplEb4bgxH8.jpg",
+    "posterShape": "poster",
+    "year": 1998,
+    "description": "Dora, az egykori tanárnő a forgalmas pályaudvaron üldögél asztala mögött. Analfabéták helyett ír levelet, ezzel tartja el magát. Egy nap egyik ügyfelét halálos baleset éri, akinek fia, Josué magára marad. Dora úgy érzi, hogy segítenie kell a gyermeken, de nem vállalkozik rá, hogy magához vegye. Inkább útnak indul a kisfiúval, hogy megkeressék az apját.",
+    "imdbRating": 8.1,
+    "releaseInfo": "1998",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 55
   },
   {
     "id": "tt0086006",
@@ -443,37 +471,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 28
-  },
-  {
-    "id": "tt31065630",
-    "type": "movie",
-    "name": "Árva",
-    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 154
-  },
-  {
-    "id": "tt0140888",
-    "type": "movie",
-    "name": "Központi pályaudvar",
-    "poster": "https://image.tmdb.org/t/p/w500/8Uwh9dYMZnWUFBqoBplEb4bgxH8.jpg",
-    "posterShape": "poster",
-    "year": 1998,
-    "description": "Dora, az egykori tanárnő a forgalmas pályaudvaron üldögél asztala mögött. Analfabéták helyett ír levelet, ezzel tartja el magát. Egy nap egyik ügyfelét halálos baleset éri, akinek fia, Josué magára marad. Dora úgy érzi, hogy segítenie kell a gyermeken, de nem vállalkozik rá, hogy magához vegye. Inkább útnak indul a kisfiúval, hogy megkeressék az apját.",
-    "imdbRating": 8.1,
-    "releaseInfo": "1998",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 45
+    "seeders": 29
   },
   {
     "id": "tt29780866",
@@ -490,6 +488,6 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 403
+    "seeders": 442
   }
 ]
