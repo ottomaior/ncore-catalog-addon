@@ -1,5 +1,38 @@
 [
   {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat, és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké – és egyben pusztítóbb is.  (Csillag Lajos)",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 158
+  },
+  {
+    "id": "tt0763840",
+    "type": "movie",
+    "name": "A bátrak hazája",
+    "poster": "https://image.tmdb.org/t/p/w500/vbWNuAtHuTVKTh1enQchmproVB7.jpg",
+    "posterShape": "poster",
+    "year": 2006,
+    "description": "Az iraki háború legforróbb napjait éljük. Egy csapat amerikai katona kelepcébe kerül egy iraki városban, közvetlenül az után, hogy megtudták, hogy két héten belül hazamehetnek. Négyük sorsát követjük nyomon, akiknek valóban sikerül hazajutniuk. Az egyikük elvesztette a kezét az akcióban, a másiknak a legjobb barátja a karjai között halt meg, a harmadik tévedésbõl megölt egy civil asszonyt, míg a negyedik sebészként minden borzalomnak a szemtanúja volt. A háború befészkelte magát az agyuk minden szegletébe. Meglelheti-e vajon a katona odahaza a békét?",
+    "imdbRating": 5.5,
+    "releaseInfo": "2006",
+    "genres": [
+      "Háborús",
+      "Dráma"
+    ],
+    "seeders": 33
+  },
+  {
     "id": "tt0085327",
     "type": "movie",
     "name": "Kincs, ami nincs",
@@ -14,7 +47,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 58
+    "seeders": 102
   },
   {
     "id": "tt15782690",
@@ -31,7 +64,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 306
+    "seeders": 395
   },
   {
     "id": "tt31050594",
@@ -48,41 +81,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3886
-  },
-  {
-    "id": "tt0118971",
-    "type": "movie",
-    "name": "Az ördög ügyvédje",
-    "poster": "https://image.tmdb.org/t/p/w500/9mgKBhdi93L5pL4okDMnrSapiCl.jpg",
-    "posterShape": "poster",
-    "year": 1997,
-    "description": "Démoni hatású, egyedi filmcsemege. Az utolsó pillanatokig meglepetésekkel szolgál az utóbbi évek egyik műfajteremtő filmje. Kevin Lomax, a sikeres védőügyvéd egyetlen pert sem veszített még életében, mert szinte hipnotikus erővel bírja rá az esküdteket, hogy mentsék fel ügyfeleit. De nemcsak a tárgyalóteremben, hanem a magánéletében is szerencsés, elbűvölő feleségével, Mary Annel az oldalán. De semmi sem tarthat örökké. Egy napon betoppan hozzá egy tekintélyes New York-i jogi cég megbízottja és közli vele, hogy felettesei felfigyeltek hihetetlen teljesítményére és szeretnék a cég munkatársai között látni. Feleségével New Yorkba utazik, ahol hamarosan megismerkedik a cég titokzatos vezetőjével, John Miltonnal is. A nagyravágyó Kevin nem bír ellenállni a kísértésnek és elfogadja Milton ragyogó ajánlatát...",
-    "imdbRating": 7.5,
-    "releaseInfo": "1997",
-    "genres": [
-      "Horror",
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 67
-  },
-  {
-    "id": "tt15767808",
-    "type": "movie",
-    "name": "A hét király halála",
-    "poster": "https://image.tmdb.org/t/p/w500/blvyc8dFjT2yzV6Pg0wTP03Qhqb.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Edward király halála után betolakodók és rivális örökösök harcolnak a koronáért, és Uthrednek ismét kalandoznia kell bajtársaival, miközben megpróbálják egyesíteni Angliát.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2023",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Háborús"
-    ],
-    "seeders": 72
+    "seeders": 5011
   },
   {
     "id": "tt23172090",
@@ -99,7 +98,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 474
+    "seeders": 584
   },
   {
     "id": "tt14181714",
@@ -115,7 +114,41 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1029
+    "seeders": 1265
+  },
+  {
+    "id": "tt0118971",
+    "type": "movie",
+    "name": "Az ördög ügyvédje",
+    "poster": "https://image.tmdb.org/t/p/w500/9mgKBhdi93L5pL4okDMnrSapiCl.jpg",
+    "posterShape": "poster",
+    "year": 1997,
+    "description": "Démoni hatású, egyedi filmcsemege. Az utolsó pillanatokig meglepetésekkel szolgál az utóbbi évek egyik műfajteremtő filmje. Kevin Lomax, a sikeres védőügyvéd egyetlen pert sem veszített még életében, mert szinte hipnotikus erővel bírja rá az esküdteket, hogy mentsék fel ügyfeleit. De nemcsak a tárgyalóteremben, hanem a magánéletében is szerencsés, elbűvölő feleségével, Mary Annel az oldalán. De semmi sem tarthat örökké. Egy napon betoppan hozzá egy tekintélyes New York-i jogi cég megbízottja és közli vele, hogy felettesei felfigyeltek hihetetlen teljesítményére és szeretnék a cég munkatársai között látni. Feleségével New Yorkba utazik, ahol hamarosan megismerkedik a cég titokzatos vezetőjével, John Miltonnal is. A nagyravágyó Kevin nem bír ellenállni a kísértésnek és elfogadja Milton ragyogó ajánlatát...",
+    "imdbRating": 7.5,
+    "releaseInfo": "1997",
+    "genres": [
+      "Horror",
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 93
+  },
+  {
+    "id": "tt15767808",
+    "type": "movie",
+    "name": "A hét király halála",
+    "poster": "https://image.tmdb.org/t/p/w500/blvyc8dFjT2yzV6Pg0wTP03Qhqb.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Edward király halála után betolakodók és rivális örökösök harcolnak a koronáért, és Uthrednek ismét kalandoznia kell bajtársaival, miközben megpróbálják egyesíteni Angliát.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2023",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Háborús"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt20414360",
@@ -132,7 +165,24 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 88
+    "seeders": 117
+  },
+  {
+    "id": "tt7149730",
+    "type": "movie",
+    "name": "Néma csend",
+    "poster": "https://image.tmdb.org/t/p/w500/jh6KaG2kujIQDyeyJMzVLYfKUmb.jpg",
+    "posterShape": "poster",
+    "year": 2020,
+    "description": "A természetvédelmi területen élő vadász halálos macska-egér játék része lesz, miután a helyi seriffel egy gyilkos nyomába ered, aki évekkel korábban elrabolta a lányát.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2020",
+    "genres": [
+      "Thriller",
+      "Akció",
+      "Bűnügyi"
+    ],
+    "seeders": 233
   },
   {
     "id": "tt39012071",
@@ -151,55 +201,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 87
-  },
-  {
-    "id": "tt7149730",
-    "type": "movie",
-    "name": "Néma csend",
-    "poster": "https://image.tmdb.org/t/p/w500/jh6KaG2kujIQDyeyJMzVLYfKUmb.jpg",
-    "posterShape": "poster",
-    "year": 2020,
-    "description": "A természetvédelmi területen élő vadász halálos macska-egér játék része lesz, miután a helyi seriffel egy gyilkos nyomába ered, aki évekkel korábban elrabolta a lányát.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2020",
-    "genres": [
-      "Thriller",
-      "Akció",
-      "Bűnügyi"
-    ],
-    "seeders": 188
-  },
-  {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura : A Cicciolina sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 177
-  },
-  {
-    "id": "tt0074958",
-    "type": "movie",
-    "name": "Hálózat",
-    "poster": "https://image.tmdb.org/t/p/w500/3dWRUpvmi91BLbtqXH6b50aDpIG.jpg",
-    "posterShape": "poster",
-    "year": 1976,
-    "description": "A film egy amerikai tévécsatorna életébe nyújt bepillantást. Az egyik legnépszerűbb kommentátort, Howard Beale-t el akarják távolítani, mert esni kezdett a nézettsége. A kétségbeesett férfi élő adásban jelenti be, hogy öngyilkos lesz. Mivel ettől a nézettség látványosan megugrik, a csatorna vezetői elhatározzák, hogy kihasználják Beale hirtelen jött népszerűségét, és egy saját műsort adnak neki, amelyben szabadon átkozhatja a médiát.",
-    "imdbRating": 7.8,
-    "releaseInfo": "1976",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 40
+    "seeders": 108
   },
   {
     "id": "tt17279496",
@@ -216,39 +218,38 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 339
+    "seeders": 398
   },
   {
-    "id": "tt0057239",
+    "id": "tt31105878",
     "type": "movie",
-    "name": "Kiadó szoba",
-    "poster": "https://image.tmdb.org/t/p/w500/ie8EArW3CjO2gLMYtJEMLU4CAQN.jpg",
+    "name": "Diva Futura : A Cicciolina sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
     "posterShape": "poster",
-    "year": 1962,
-    "description": "Jane, a fiatal egyedülálló francia nő elhagyja szülei házát, hogy távol otthonától hozza világra gyermekét. London külvárosának egyik kopottas panziójában talál menedéket, ahol megannyi érdekes emberrel hozza össze a sors. Közelebbi kapcsolatba kerül Toby-val, az első emeleten lakó fiatal íróval, aki a megélhetéséért küzd. A férfi ugyan beleszeret a nőbe, mégsem kíván a születendő gyermek apja lenni. Jane-nek választani kell Toby és a gyermek között.",
-    "imdbRating": 6.8,
-    "releaseInfo": "1962",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
     "genres": [
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 30
+    "seeders": 199
   },
   {
-    "id": "tt28336131",
+    "id": "tt0074958",
     "type": "movie",
-    "name": "Elyas",
-    "poster": "https://image.tmdb.org/t/p/w500/zuwf11mv6ju9Kf8PtlUjB0OzrBg.jpg",
+    "name": "Hálózat",
+    "poster": "https://image.tmdb.org/t/p/w500/3dWRUpvmi91BLbtqXH6b50aDpIG.jpg",
     "posterShape": "poster",
-    "year": 2024,
-    "description": "Elyas, a különleges erők egykori katonája, aki egy afganisztáni misszió óta paranoiás lett. Felkérést kap, hogy biztosítsa Amina és 13 éves lánya, Nour biztonságát, akik mindketten a Közel-Keletről érkeztek az ünnepekre. Amikor Elyas megkezdi munkáját, úgy érzi, hogy valami nagyon nem stimmel.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2024",
+    "year": 1976,
+    "description": "A film egy amerikai tévécsatorna életébe nyújt bepillantást. Az egyik legnépszerűbb kommentátort, Howard Beale-t el akarják távolítani, mert esni kezdett a nézettsége. A kétségbeesett férfi élő adásban jelenti be, hogy öngyilkos lesz. Mivel ettől a nézettség látványosan megugrik, a csatorna vezetői elhatározzák, hogy kihasználják Beale hirtelen jött népszerűségét, és egy saját műsort adnak neki, amelyben szabadon átkozhatja a médiát.",
+    "imdbRating": 7.8,
+    "releaseInfo": "1976",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Dráma"
     ],
-    "seeders": 135
+    "seeders": 48
   },
   {
     "id": "tt20112600",
@@ -264,7 +265,23 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 200
+    "seeders": 241
+  },
+  {
+    "id": "tt28336131",
+    "type": "movie",
+    "name": "Elyas",
+    "poster": "https://image.tmdb.org/t/p/w500/zuwf11mv6ju9Kf8PtlUjB0OzrBg.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Elyas, a különleges erők egykori katonája, aki egy afganisztáni misszió óta paranoiás lett. Felkérést kap, hogy biztosítsa Amina és 13 éves lánya, Nour biztonságát, akik mindketten a Közel-Keletről érkeztek az ünnepekre. Amikor Elyas megkezdi munkáját, úgy érzi, hogy valami nagyon nem stimmel.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2024",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 160
   },
   {
     "id": "tt0058898",
@@ -281,7 +298,7 @@
       "Sci-Fi",
       "Rejtély"
     ],
-    "seeders": 49
+    "seeders": 66
   },
   {
     "id": "tt22530226",
@@ -298,24 +315,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 137
-  },
-  {
-    "id": "tt1568911",
-    "type": "movie",
-    "name": "Hadak útján",
-    "poster": "https://image.tmdb.org/t/p/w500/x3I5dUPBjg9vgk8I6fje4SGeJ05.jpg",
-    "posterShape": "poster",
-    "year": 2011,
-    "description": "Nehéz idők járnak, nemsokára kitör az I. világháború. Albert édesapja eladja Joey-t a brit lovasságnak, akik rögtön be is vetik őt a frontvonalakon túl - így megkezdődik Joey kalandos utazása, háttérben az első világháborúval. A temérdek akadály ellenére Joey mindig bátran szembenéz a veszéllyel, megérinti az embereket, és megváltoztatja mindenkinek az életét, akivel útközben találkozik. Albert azonban képtelen elfelejteni hű hátasát és egyben legjobb barátját, így hátrahagyva otthonát, a francia harcmezőket veszi célba, hogy megtalálja, és hazavigye az ő csatalovát.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2011",
-    "genres": [
-      "Háborús",
-      "Történelmi",
-      "Kaland"
-    ],
-    "seeders": 34
+    "seeders": 154
   },
   {
     "id": "tt22889928",
@@ -332,7 +332,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 116
+    "seeders": 134
   },
   {
     "id": "tt14107334",
@@ -349,23 +349,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 130
-  },
-  {
-    "id": "tt0388285",
-    "type": "movie",
-    "name": "Hé, haver, nyomd a verdát!",
-    "poster": "https://image.tmdb.org/t/p/w500/bOIpjeoFETwAIPYsTlT57BWT2tl.jpg",
-    "posterShape": "poster",
-    "year": 2004,
-    "description": "Nick-et váratlanul faképnél hagyja szerelme, Trish, aki egy feltörekvő producer oldalán hagyja el a szigetet, hogy karriert csináljon. Hippi szülei közreműködésének köszönhetően megtudja, hogy a lányt becsapják, a gyakornoki állás helyett egész más oktatásban fog részesülni. Nick azonnal elindul Torontóba, hogy visszaszerezze a szerelmét. Barátai, Tyler és Dime biztosítják a díszkíséretet a lánykéréshez, amit két szexi stoppos, Sasha és Jill tesznek még kalandosabbá.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2004",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 44
+    "seeders": 146
   },
   {
     "id": "tt37820061",
@@ -381,7 +365,40 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 108
+    "seeders": 128
+  },
+  {
+    "id": "tt1568911",
+    "type": "movie",
+    "name": "Hadak útján",
+    "poster": "https://image.tmdb.org/t/p/w500/x3I5dUPBjg9vgk8I6fje4SGeJ05.jpg",
+    "posterShape": "poster",
+    "year": 2011,
+    "description": "Nehéz idők járnak, nemsokára kitör az I. világháború. Albert édesapja eladja Joey-t a brit lovasságnak, akik rögtön be is vetik őt a frontvonalakon túl - így megkezdődik Joey kalandos utazása, háttérben az első világháborúval. A temérdek akadály ellenére Joey mindig bátran szembenéz a veszéllyel, megérinti az embereket, és megváltoztatja mindenkinek az életét, akivel útközben találkozik. Albert azonban képtelen elfelejteni hű hátasát és egyben legjobb barátját, így hátrahagyva otthonát, a francia harcmezőket veszi célba, hogy megtalálja, és hazavigye az ő csatalovát.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2011",
+    "genres": [
+      "Háborús",
+      "Történelmi",
+      "Kaland"
+    ],
+    "seeders": 43
+  },
+  {
+    "id": "tt0057239",
+    "type": "movie",
+    "name": "Kiadó szoba",
+    "poster": "https://image.tmdb.org/t/p/w500/ie8EArW3CjO2gLMYtJEMLU4CAQN.jpg",
+    "posterShape": "poster",
+    "year": 1962,
+    "description": "Jane, a fiatal egyedülálló francia nő elhagyja szülei házát, hogy távol otthonától hozza világra gyermekét. London külvárosának egyik kopottas panziójában talál menedéket, ahol megannyi érdekes emberrel hozza össze a sors. Közelebbi kapcsolatba kerül Toby-val, az első emeleten lakó fiatal íróval, aki a megélhetéséért küzd. A férfi ugyan beleszeret a nőbe, mégsem kíván a születendő gyermek apja lenni. Jane-nek választani kell Toby és a gyermek között.",
+    "imdbRating": 6.8,
+    "releaseInfo": "1962",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 35
   },
   {
     "id": "tt1641841",
@@ -399,22 +416,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 70
-  },
-  {
-    "id": "tt0216625",
-    "type": "movie",
-    "name": "Az ismeretlen kód",
-    "poster": "https://image.tmdb.org/t/p/w500/82dqaccSO4hpFPq80USkT6HS9Mz.jpg",
-    "posterShape": "poster",
-    "year": 2000,
-    "description": "A színésznő Anne fotóriporter barátja épp Koszovóban dolgozik. Közben a férfi öccse, Jean, aki torkig van a vidéki élettel beköltözik Anne párizsi lakásába. Jean egy nap megvetően odadob egy összegyűrt papírfecnit az utcán kolduló román bevándorlónak, Marianak. Ez a jelenet annyira felháborít egy véletlenül arra járó fekete bőrű tanárt, hogy leszidja Jeant, és megpróbálja rávenni, kérjen elnézést a nőtől. A két férfi végül összeverekszik, és a kiérkező rendőrök letartóztatják az afrikait, Mariat pedig visszatoloncolják Romániába. Hazaérkezése után Marianak el kell számolnia férjével, miért nem küldte haza az összekoldult pénzt.\r A film a szereplők sorsát követi felváltva, mozaikszerűen. Egy történet a véletlenről, mely emberek egész életét megváltoztathatja.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2000",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 30
+    "seeders": 85
   },
   {
     "id": "tt28793125",
@@ -431,23 +433,23 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 457
+    "seeders": 532
   },
   {
-    "id": "tt0116126",
+    "id": "tt0388285",
     "type": "movie",
-    "name": "Ne légy barom, míg iszod a dzsúszod a gettóban",
-    "poster": "https://image.tmdb.org/t/p/w500/9jNlxaeUR1gopN2vIzzSEe49fS1.jpg",
+    "name": "Hé, haver, nyomd a verdát!",
+    "poster": "https://image.tmdb.org/t/p/w500/bOIpjeoFETwAIPYsTlT57BWT2tl.jpg",
     "posterShape": "poster",
-    "year": 1996,
-    "description": "A Los Angeles-i néger gettó vidám oldala. - A \"Ne légy barom!\" nem más, mint az úgynevezett afro-amerikai filmek fergeteges paródiája. A forgatókönyvíró-rendező Wayans fivérek népszerű komikusok az USA-ban, legutóbbi munkájuk a Scary Movie ( Horrorra akadva, avagy tudom kit ettél tavaly nyárson ) már nemzetközi sikereket ért el. A \"Ne légy barom!\" főhőse Ashtray, aki évek múltán tér haza szülőföldjére, hogy meglátogassa a nála fiatalabb (!) szüleit. Ám a rég nem látott haverok újra kalandra csábítják. Irány a tengerpart!",
-    "imdbRating": 7.0,
-    "releaseInfo": "1996",
+    "year": 2004,
+    "description": "Nick-et váratlanul faképnél hagyja szerelme, Trish, aki egy feltörekvő producer oldalán hagyja el a szigetet, hogy karriert csináljon. Hippi szülei közreműködésének köszönhetően megtudja, hogy a lányt becsapják, a gyakornoki állás helyett egész más oktatásban fog részesülni. Nick azonnal elindul Torontóba, hogy visszaszerezze a szerelmét. Barátai, Tyler és Dime biztosítják a díszkíséretet a lánykéréshez, amit két szexi stoppos, Sasha és Jill tesznek még kalandosabbá.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2004",
     "genres": [
       "Vígjáték",
-      "Bűnügyi"
+      "Romantikus"
     ],
-    "seeders": 79
+    "seeders": 50
   },
   {
     "id": "tt20990442",
@@ -463,37 +465,38 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 236
+    "seeders": 276
   },
   {
-    "id": "tt0109515",
+    "id": "tt0116126",
     "type": "movie",
-    "name": "A menekülés",
-    "poster": "https://image.tmdb.org/t/p/w500/nFRhXWT46YGY8OLO31sJEHClcOg.jpg",
+    "name": "Ne légy barom, míg iszod a dzsúszod a gettóban",
+    "poster": "https://image.tmdb.org/t/p/w500/9jNlxaeUR1gopN2vIzzSEe49fS1.jpg",
     "posterShape": "poster",
-    "year": 1994,
-    "description": "Eric, a titkosügynök, éppen Dilly szenátor testőreként dolgozik, aki pártfogója a frissen fejlesztett rendőr-robotoknak. Az ártatlanságukról és alkalmasságukról szóló sajtótájékoztatón, egy a közönség soraiból orvul pisztollyal támadó tiltakozástól éppencsak, hogy sikerül megmentenie védence életét. Csak később támad fel a gyanúja, hogy a szenátor sötét játékot űz, s az androidokat valójában gyilkolásra tervezték.",
-    "imdbRating": 3.9,
-    "releaseInfo": "1994",
+    "year": 1996,
+    "description": "A Los Angeles-i néger gettó vidám oldala. - A \"Ne légy barom!\" nem más, mint az úgynevezett afro-amerikai filmek fergeteges paródiája. A forgatókönyvíró-rendező Wayans fivérek népszerű komikusok az USA-ban, legutóbbi munkájuk a Scary Movie ( Horrorra akadva, avagy tudom kit ettél tavaly nyárson ) már nemzetközi sikereket ért el. A \"Ne légy barom!\" főhőse Ashtray, aki évek múltán tér haza szülőföldjére, hogy meglátogassa a nála fiatalabb (!) szüleit. Ám a rég nem látott haverok újra kalandra csábítják. Irány a tengerpart!",
+    "imdbRating": 7.0,
+    "releaseInfo": "1996",
     "genres": [
-      "Akció",
-      "Sci-Fi"
+      "Vígjáték",
+      "Bűnügyi"
     ],
-    "seeders": 37
+    "seeders": 83
   },
   {
-    "id": "tt27614382",
+    "id": "tt32332404",
     "type": "movie",
-    "name": "U.S. Palmese",
-    "poster": "https://image.tmdb.org/t/p/w500/j6BbHw9Vu5HBafi39mI7SmwxLa6.jpg",
+    "name": "Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/mbGHijUc0C3fcM12l6ro6FgxIvg.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy kalábriai kisvárosban egy briliáns, de különc nyugdíjas vad ötlettel áll elő, hogy felélessze a helyi futballcsapatot: rendhagyó közösségi adománygyűjtést indít, hogy megszerezzen egy kegyvesztett sztárfutballista játékost.",
-    "imdbRating": 5.9,
+    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
+    "imdbRating": 5.5,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték"
+      "Horror",
+      "Rejtély"
     ],
-    "seeders": 74
+    "seeders": 140
   }
 ]
