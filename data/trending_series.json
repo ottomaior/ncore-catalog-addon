@@ -14,7 +14,7 @@
     ],
     "latest_season": 2,
     "latest_episode": 51,
-    "seeders": 170
+    "seeders": 204
   },
   {
     "id": "tt36849871",
@@ -32,7 +32,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 1,
-    "seeders": 244
+    "seeders": 282
   },
   {
     "id": "tt12211774",
@@ -51,7 +51,26 @@
     ],
     "latest_season": 9,
     "latest_episode": 9,
-    "seeders": 355
+    "seeders": 372
+  },
+  {
+    "id": "tt1621350",
+    "type": "series",
+    "name": "Sün Alfréd forró nyomon",
+    "poster": "https://image.tmdb.org/t/p/w500/c8XPhCFlAj16iid3Rm2DzYAV3nJ.jpg",
+    "posterShape": "poster",
+    "year": 2010,
+    "description": "Nyomtalanul eltűnt halak, fantom lábnyomai a kövezeten, ok nélküli áradás, lázadás egy iskolában, csupa rejtély és titok vár megoldásra, és senki nem tudja megfejteni őket. Senki, Alfred Hedgehogon, a kilenc éves detektíven kívül, aki minden titkot kiszimatol. Persze nem egyedül, hiszen barátai, Camille és Milo segítenek neki. A triumvirátus mindig a tett helyszínére siet, és rövid idő alatt megtalálják a meglepő megoldását az összes rejtélynek.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2010",
+    "genres": [
+      "Animációs",
+      "Rejtély",
+      "Kids"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 19
   },
   {
     "id": "tt33246591",
@@ -70,7 +89,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 115
+    "seeders": 124
   },
   {
     "id": "tt31314791",
@@ -89,7 +108,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 7,
-    "seeders": 120
+    "seeders": 125
   },
   {
     "id": "tt8289930",
@@ -106,24 +125,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 456
-  },
-  {
-    "id": "tt7671070",
-    "type": "series",
-    "name": "Ipar",
-    "poster": "https://image.tmdb.org/t/p/w500/4Np6r9oYSaCp6DEECTaoe7j9yr5.jpg",
-    "posterShape": "poster",
-    "year": 2020,
-    "description": "Ambíciózus ifjak küzdenek a pozíciókért egy londoni befektetési banknál. A munkatársak, barátok és ellenségek közötti határvonalak elmosódnak, amikor bekerülnek a vállalati kultúrába, melyben mindent a pénz, szex, drog és ego határoz meg.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2020",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 51
+    "seeders": 499
   },
   {
     "id": "tt8740790",
@@ -140,7 +142,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 427
+    "seeders": 460
   },
   {
     "id": "tt24577940",
@@ -157,25 +159,24 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 201
+    "seeders": 216
   },
   {
-    "id": "tt34385331",
+    "id": "tt7671070",
     "type": "series",
-    "name": "DTF St. Louis (S01E01)",
-    "poster": "https://image.tmdb.org/t/p/w500/xHfafw9UmomDc7jO25s9MpiL4Zs.jpg",
+    "name": "Ipar",
+    "poster": "https://image.tmdb.org/t/p/w500/4Np6r9oYSaCp6DEECTaoe7j9yr5.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E01\n\nSötét komédiába illő történet három középkorú emberről, akik szerelmi háromszögbe keverednek, ami az egyikük korai halálához vezet.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
+    "year": 2020,
+    "description": "Ambíciózus ifjak küzdenek a pozíciókért egy londoni befektetési banknál. A munkatársak, barátok és ellenségek közötti határvonalak elmosódnak, amikor bekerülnek a vállalati kultúrába, melyben mindent a pénz, szex, drog és ego határoz meg.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2020",
     "genres": [
-      "Bűnügyi",
       "Dráma"
     ],
-    "latest_season": 1,
-    "latest_episode": 1,
-    "seeders": 62
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 52
   },
   {
     "id": "tt31938062",
@@ -192,7 +193,42 @@
     ],
     "latest_season": 2,
     "latest_episode": 8,
-    "seeders": 305
+    "seeders": 323
+  },
+  {
+    "id": "tt34385331",
+    "type": "series",
+    "name": "DTF St. Louis (S01E01)",
+    "poster": "https://image.tmdb.org/t/p/w500/xHfafw9UmomDc7jO25s9MpiL4Zs.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E01\n\nSötét komédiába illő történet három középkorú emberről, akik szerelmi háromszögbe keverednek, ami az egyikük korai halálához vezet.",
+    "imdbRating": 3.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 1,
+    "seeders": 62
+  },
+  {
+    "id": "tt11056626",
+    "type": "series",
+    "name": "Séfek séfe (S07E09)",
+    "poster": "https://image.tmdb.org/t/p/w500/eiLkMhKIYUSb0ta0Bcbdnpe6jbQ.jpg",
+    "posterShape": "poster",
+    "year": 2017,
+    "description": "🆕 Legújabb epizód: S07E09\n\nA formátum eredetije a Game of Chefs, amely a TV2 képernyőjén Séfek séfe címmel kerül adásba, Liptai Claudia műsorvezetésével. A gasztro-tehetségkutatóban amatőr és profi szakácsok próbálják meggyőzni a műsor három profi séfjét, Wolf Andrást, Vomberg Frigyest és Krausz Gábort. Bárki jelentkezhetett, aki elmúlt 16 éves. Amatőrök és szakmabeliek egyaránt lehetőséget kaptak arra, hogy megmérettessék magukat a konyhában.\n\nA jelentkezők munkáját három szakmailag elismert, neves séf értékeli, majd a legjobb 18 versenyző kiválasztása után csapatokba rendeződve mentorálják újdonsült tanítványaikat. Amellett pedig, hogy a konyhaművészet minden fortélyát igyekeznek megtanítani mentoráltjaiknak, azért is küzdenek, hogy az ő csapatukból kerüljön ki a győztes, a Séfek Séfe.",
+    "imdbRating": null,
+    "releaseInfo": "2017",
+    "genres": [
+      "Reality"
+    ],
+    "latest_season": 7,
+    "latest_episode": 9,
+    "seeders": 49
   },
   {
     "id": "tt5151816",
@@ -212,25 +248,6 @@
     "seeders": 28
   },
   {
-    "id": "tt9165438",
-    "type": "series",
-    "name": "Gabi babaháza",
-    "poster": "https://image.tmdb.org/t/p/w500/fQqFcEeqK0HkNTuuqPt9V22jgbp.jpg",
-    "posterShape": "poster",
-    "year": 2021,
-    "description": "Ez a színes sorozat szobáról szobára kalauzolja az óvodásokat egy fantasztikus babaházban, amely elbűvölő világokat és ellenállhatatlan cicákat és karaktereket tartalmaz.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2021",
-    "genres": [
-      "Kids",
-      "Vígjáték",
-      "Animációs"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 39
-  },
-  {
     "id": "tt8270592",
     "type": "series",
     "name": "Scarlet kisasszony és a Herceg (S06E04)",
@@ -247,24 +264,60 @@
     ],
     "latest_season": 6,
     "latest_episode": 4,
+    "seeders": 42
+  },
+  {
+    "id": "tt24133138",
+    "type": "series",
+    "name": "Hajsza a vonaton",
+    "poster": "https://image.tmdb.org/t/p/w500/2BU8iXss8jxMmePNtvYUVV4Wvb6.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Katasztrófa felé száguld a Glasgow-ból Londonba tartó vonat, amely felett átveszi az irányítást egy radikális szervezet. Joe, a vonaton utazó exzsaru és Abby, a fiatal kibernetikai vezető összefognak, hogy megmentsék az utasokat.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 127
+  },
+  {
+    "id": "tt9165438",
+    "type": "series",
+    "name": "Gabi babaháza",
+    "poster": "https://image.tmdb.org/t/p/w500/fQqFcEeqK0HkNTuuqPt9V22jgbp.jpg",
+    "posterShape": "poster",
+    "year": 2021,
+    "description": "Ez a színes sorozat szobáról szobára kalauzolja az óvodásokat egy fantasztikus babaházban, amely elbűvölő világokat és ellenállhatatlan cicákat és karaktereket tartalmaz.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2021",
+    "genres": [
+      "Kids",
+      "Vígjáték",
+      "Animációs"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
     "seeders": 37
   },
   {
-    "id": "tt11056626",
+    "id": "tt27921612",
     "type": "series",
-    "name": "Séfek séfe (S07E09)",
-    "poster": "https://image.tmdb.org/t/p/w500/eiLkMhKIYUSb0ta0Bcbdnpe6jbQ.jpg",
+    "name": "Tapie, a csodaember",
+    "poster": "https://image.tmdb.org/t/p/w500/yyUZTC6jDdaOUjwEfPUa55vSNku.jpg",
     "posterShape": "poster",
-    "year": 2017,
-    "description": "🆕 Legújabb epizód: S07E09\n\nA formátum eredetije a Game of Chefs, amely a TV2 képernyőjén Séfek séfe címmel kerül adásba, Liptai Claudia műsorvezetésével. A gasztro-tehetségkutatóban amatőr és profi szakácsok próbálják meggyőzni a műsor három profi séfjét, Wolf Andrást, Vomberg Frigyest és Krausz Gábort. Bárki jelentkezhetett, aki elmúlt 16 éves. Amatőrök és szakmabeliek egyaránt lehetőséget kaptak arra, hogy megmérettessék magukat a konyhában.\n\nA jelentkezők munkáját három szakmailag elismert, neves séf értékeli, majd a legjobb 18 versenyző kiválasztása után csapatokba rendeződve mentorálják újdonsült tanítványaikat. Amellett pedig, hogy a konyhaművészet minden fortélyát igyekeznek megtanítani mentoráltjaiknak, azért is küzdenek, hogy az ő csapatukból kerüljön ki a győztes, a Séfek Séfe.",
-    "imdbRating": null,
-    "releaseInfo": "2017",
+    "year": 2023,
+    "description": "A Bernard Tapie-ról szóló fiktív életrajzi minisorozatban egy könyörtelenül ambiciózus munkásember Franciaország egyik legvitatottabb közéleti személyiségévé válik.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2023",
     "genres": [
-      "Reality"
+      "Dráma"
     ],
-    "latest_season": 7,
-    "latest_episode": 9,
-    "seeders": 42
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 32
   },
   {
     "id": "tt26346233",
@@ -286,40 +339,6 @@
     "seeders": 31
   },
   {
-    "id": "tt24133138",
-    "type": "series",
-    "name": "Hajsza a vonaton",
-    "poster": "https://image.tmdb.org/t/p/w500/2BU8iXss8jxMmePNtvYUVV4Wvb6.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Katasztrófa felé száguld a Glasgow-ból Londonba tartó vonat, amely felett átveszi az irányítást egy radikális szervezet. Joe, a vonaton utazó exzsaru és Abby, a fiatal kibernetikai vezető összefognak, hogy megmentsék az utasokat.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 118
-  },
-  {
-    "id": "tt27921612",
-    "type": "series",
-    "name": "Tapie, a csodaember",
-    "poster": "https://image.tmdb.org/t/p/w500/yyUZTC6jDdaOUjwEfPUa55vSNku.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "A Bernard Tapie-ról szóló fiktív életrajzi minisorozatban egy könyörtelenül ambiciózus munkásember Franciaország egyik legvitatottabb közéleti személyiségévé válik.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2023",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 29
-  },
-  {
     "id": "tt33270420",
     "type": "series",
     "name": "PONIES (S01E06)",
@@ -335,7 +354,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 6,
-    "seeders": 126
+    "seeders": 146
   },
   {
     "id": "tt8622160",
@@ -353,7 +372,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 5,
-    "seeders": 172
+    "seeders": 188
   },
   {
     "id": "tt29921437",
@@ -371,7 +390,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 3,
-    "seeders": 140
+    "seeders": 149
   },
   {
     "id": "tt11917456",
@@ -388,7 +407,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 46
+    "seeders": 49
   },
   {
     "id": "tt1800864",
@@ -405,7 +424,24 @@
     ],
     "latest_season": 16,
     "latest_episode": 14,
-    "seeders": 86
+    "seeders": 85
+  },
+  {
+    "id": "tt21828974",
+    "type": "series",
+    "name": "Terror az Olimpián – A mücheni mészárlás",
+    "poster": "https://image.tmdb.org/t/p/w500/jXaJj0puKCsN2xNpf3U9DGFLGAg.jpg",
+    "posterShape": "poster",
+    "year": 2022,
+    "description": "1972. szeptember 5-én a müncheni olimpián történt támadással a terrorizmus megérkezett a modern korba. Ötven évvel később e dokumentumfilm-sorozat eddig soha nem látott módon vizsgálja az eseményeket, minden nézőpontot bemutatva, izraeli túlélők, német tisztek és - a képernyőn először - a palesztin kommandó még élő két tagjának személyes történetein keresztül.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2022",
+    "genres": [
+      "Dokumentum"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 50
   },
   {
     "id": "tt11859542",
@@ -423,59 +459,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 3,
-    "seeders": 31
-  },
-  {
-    "id": "tt21828974",
-    "type": "series",
-    "name": "Terror az Olimpián – A mücheni mészárlás",
-    "poster": "https://image.tmdb.org/t/p/w500/jXaJj0puKCsN2xNpf3U9DGFLGAg.jpg",
-    "posterShape": "poster",
-    "year": 2022,
-    "description": "1972. szeptember 5-én a müncheni olimpián történt támadással a terrorizmus megérkezett a modern korba. Ötven évvel később e dokumentumfilm-sorozat eddig soha nem látott módon vizsgálja az eseményeket, minden nézőpontot bemutatva, izraeli túlélők, német tisztek és - a képernyőn először - a palesztin kommandó még élő két tagjának személyes történetein keresztül.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2022",
-    "genres": [
-      "Dokumentum"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 42
-  },
-  {
-    "id": "tt26748321",
-    "type": "series",
-    "name": "Doc - Doki (S02E09)",
-    "poster": "https://image.tmdb.org/t/p/w500/peMG1zrjpXxqmyxrNJcmFpsYHHf.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "🆕 Legújabb epizód: S02E09\n\nA történet Dr. Amy Larsenről szól, aki egy autóbaleset során elveszíti az emlékeit. Vissza kell térnie gyakornokként a kórházba, és valahogyan újjá kell építenie az életét a megmaradt darabokból.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": 2,
-    "latest_episode": 9,
-    "seeders": 52
-  },
-  {
-    "id": "tt38201910",
-    "type": "series",
-    "name": "Baki kalandjai: A legyőzhetetlen szamuráj",
-    "poster": "https://image.tmdb.org/t/p/w500/qC4JawqYlUS9fwvAzGfY5lSz5uB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Baki és az illegális harcművészeti aréna legerősebb harcosai történelmi fenyegetéssel néznek szembe: a feltámasztott Musashi Miyamotóval, Japán legnagyobb szamurájával.",
-    "imdbRating": 8.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Action & Adventure"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 51
+    "seeders": 33
   },
   {
     "id": "tt11794812",
@@ -494,41 +478,58 @@
     ],
     "latest_season": 2,
     "latest_episode": 5,
-    "seeders": 61
+    "seeders": 76
   },
   {
-    "id": "tt0852863",
+    "id": "tt38201910",
     "type": "series",
-    "name": "Phineas és Ferb",
-    "poster": "https://image.tmdb.org/t/p/w500/fylBfCcR9W60KzoZ3FLCoSgR4q.jpg",
+    "name": "Baki kalandjai: A legyőzhetetlen szamuráj",
+    "poster": "https://image.tmdb.org/t/p/w500/qC4JawqYlUS9fwvAzGfY5lSz5uB.jpg",
     "posterShape": "poster",
-    "year": 2007,
-    "description": "A két kreatív feltaláló, Phineas és Ferb, minden nap más és más tervekkel állnak elő, miközben nővérük, Candace próbálja őket leleplezni anyjuk előtt. Közben párhuzamosan Perry, Phineas és Ferb kacsacsőrűje titkosügynökként kémked Dr. Heinz Doofenshmirtz gonosz zseni után. Vajon sikerül-e Candace-nek leleplezni az öcséit? Vajon Perry meg tudja állítani Doofenshmirtz dokit?",
-    "imdbRating": 7.9,
-    "releaseInfo": "2007",
+    "year": 2026,
+    "description": "Baki és az illegális harcművészeti aréna legerősebb harcosai történelmi fenyegetéssel néznek szembe: a feltámasztott Musashi Miyamotóval, Japán legnagyobb szamurájával.",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
     "genres": [
       "Animációs",
-      "Vígjáték",
-      "Családi",
-      "Sci-Fi & Fantasy"
+      "Action & Adventure"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 22
+    "seeders": 59
   },
   {
-    "id": "tt39695940",
+    "id": "tt26748321",
     "type": "series",
-    "name": "درش",
-    "poster": "https://artworks.thetvdb.com/banners/v4/series/471430/posters/6986572b52f35.jpg",
+    "name": "Doc - Doki (S02E09)",
+    "poster": "https://image.tmdb.org/t/p/w500/peMG1zrjpXxqmyxrNJcmFpsYHHf.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "يعود \"درش\"، عامل العطارة البسيط، إلى حارته الشعبية بعد غياب سنين، لكن حادثاً غامضاً يفقده الذاكرة ويجعل عودته لغزاً محيراً. مع توالي الأحداث، يكتشف الجميع أن درش ليس مجرد عامل عادي، بل رجل عاش حيوات مزدوجة وتاريخاً سرياً يظهر ويختفي معه. بين ماضٍ غامض وحاضر مشتت، تنكشف طبقات حياته الخفية، ليجد نفسه في مواجهة شرسة مع أشباح الماضي وأعداء يكتشفون وجهه المجهول لأول مرة.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [],
+    "year": 2025,
+    "description": "🆕 Legújabb epizód: S02E09\n\nA történet Dr. Amy Larsenről szól, aki egy autóbaleset során elveszíti az emlékeit. Vissza kell térnie gyakornokként a kórházba, és valahogyan újjá kell építenie az életét a megmaradt darabokból.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": 2,
+    "latest_episode": 9,
+    "seeders": 55
+  },
+  {
+    "id": "tt31812476",
+    "type": "series",
+    "name": "Beast Games",
+    "poster": "https://image.tmdb.org/t/p/w500/scLhTKkb8ah6LwdUkHenSxryH4U.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "MrBeast úttörő elméjéből pattant ki egy új, rekordokat döntögető sorozat, a Beast-bajnokság. Az 1000 versenyző izgalmas fizikai és elméleti kihívásokban küzd meg egymással a hatalmas, ötmillió dolláros fődíjért. A versenyzők hétről-hétre az erejük és eszük segítségével próbálnak bent maradni a játékban, abban a reményben, hogy multimilliomosként távoznak.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2024",
+    "genres": [
+      "Reality"
+    ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 23
+    "seeders": 54
   }
 ]

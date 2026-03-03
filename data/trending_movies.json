@@ -1,35 +1,37 @@
 [
   {
-    "id": "tt0074958",
+    "id": "tt0118971",
     "type": "movie",
-    "name": "Hálózat",
-    "poster": "https://image.tmdb.org/t/p/w500/3dWRUpvmi91BLbtqXH6b50aDpIG.jpg",
+    "name": "Az ördög ügyvédje",
+    "poster": "https://image.tmdb.org/t/p/w500/9mgKBhdi93L5pL4okDMnrSapiCl.jpg",
     "posterShape": "poster",
-    "year": 1976,
-    "description": "A film egy amerikai tévécsatorna életébe nyújt bepillantást. Az egyik legnépszerűbb kommentátort, Howard Beale-t el akarják távolítani, mert esni kezdett a nézettsége. A kétségbeesett férfi élő adásban jelenti be, hogy öngyilkos lesz. Mivel ettől a nézettség látványosan megugrik, a csatorna vezetői elhatározzák, hogy kihasználják Beale hirtelen jött népszerűségét, és egy saját műsort adnak neki, amelyben szabadon átkozhatja a médiát.",
-    "imdbRating": 7.8,
-    "releaseInfo": "1976",
+    "year": 1997,
+    "description": "Démoni hatású, egyedi filmcsemege. Az utolsó pillanatokig meglepetésekkel szolgál az utóbbi évek egyik műfajteremtő filmje. Kevin Lomax, a sikeres védőügyvéd egyetlen pert sem veszített még életében, mert szinte hipnotikus erővel bírja rá az esküdteket, hogy mentsék fel ügyfeleit. De nemcsak a tárgyalóteremben, hanem a magánéletében is szerencsés, elbűvölő feleségével, Mary Annel az oldalán. De semmi sem tarthat örökké. Egy napon betoppan hozzá egy tekintélyes New York-i jogi cég megbízottja és közli vele, hogy felettesei felfigyeltek hihetetlen teljesítményére és szeretnék a cég munkatársai között látni. Feleségével New Yorkba utazik, ahol hamarosan megismerkedik a cég titokzatos vezetőjével, John Miltonnal is. A nagyravágyó Kevin nem bír ellenállni a kísértésnek és elfogadja Milton ragyogó ajánlatát...",
+    "imdbRating": 7.5,
+    "releaseInfo": "1997",
     "genres": [
-      "Dráma"
+      "Horror",
+      "Dráma",
+      "Rejtély"
     ],
-    "seeders": 25
+    "seeders": 43
   },
   {
-    "id": "tt20414360",
+    "id": "tt15767808",
     "type": "movie",
-    "name": "Köln 75",
-    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
+    "name": "A hét király halála",
+    "poster": "https://image.tmdb.org/t/p/w500/blvyc8dFjT2yzV6Pg0wTP03Qhqb.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "year": 2023,
+    "description": "Edward király halála után betolakodók és rivális örökösök harcolnak a koronáért, és Uthrednek ismét kalandoznia kell bajtársaival, miközben megpróbálják egyesíteni Angliát.",
     "imdbRating": 7.2,
-    "releaseInfo": "2025",
+    "releaseInfo": "2023",
     "genres": [
-      "Dráma",
-      "Történelmi",
-      "Zenei"
+      "Akció",
+      "Kaland",
+      "Háborús"
     ],
-    "seeders": 33
+    "seeders": 45
   },
   {
     "id": "tt15782690",
@@ -46,42 +48,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 219
-  },
-  {
-    "id": "tt39012071",
-    "type": "movie",
-    "name": "Miraculous World : Tokyo, Stellar Force",
-    "poster": "https://image.tmdb.org/t/p/w500/vFaopnGXRXxRf4z2Z3IgA1QtOyV.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Akció",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 73
-  },
-  {
-    "id": "tt0057239",
-    "type": "movie",
-    "name": "Kiadó szoba",
-    "poster": "https://image.tmdb.org/t/p/w500/ie8EArW3CjO2gLMYtJEMLU4CAQN.jpg",
-    "posterShape": "poster",
-    "year": 1962,
-    "description": "Jane, a fiatal egyedülálló francia nő elhagyja szülei házát, hogy távol otthonától hozza világra gyermekét. London külvárosának egyik kopottas panziójában talál menedéket, ahol megannyi érdekes emberrel hozza össze a sors. Közelebbi kapcsolatba kerül Toby-val, az első emeleten lakó fiatal íróval, aki a megélhetéséért küzd. A férfi ugyan beleszeret a nőbe, mégsem kíván a születendő gyermek apja lenni. Jane-nek választani kell Toby és a gyermek között.",
-    "imdbRating": 6.8,
-    "releaseInfo": "1962",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 28
+    "seeders": 258
   },
   {
     "id": "tt31050594",
@@ -98,7 +65,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3093
+    "seeders": 3385
+  },
+  {
+    "id": "tt0074958",
+    "type": "movie",
+    "name": "Hálózat",
+    "poster": "https://image.tmdb.org/t/p/w500/3dWRUpvmi91BLbtqXH6b50aDpIG.jpg",
+    "posterShape": "poster",
+    "year": 1976,
+    "description": "A film egy amerikai tévécsatorna életébe nyújt bepillantást. Az egyik legnépszerűbb kommentátort, Howard Beale-t el akarják távolítani, mert esni kezdett a nézettsége. A kétségbeesett férfi élő adásban jelenti be, hogy öngyilkos lesz. Mivel ettől a nézettség látványosan megugrik, a csatorna vezetői elhatározzák, hogy kihasználják Beale hirtelen jött népszerűségét, és egy saját műsort adnak neki, amelyben szabadon átkozhatja a médiát.",
+    "imdbRating": 7.8,
+    "releaseInfo": "1976",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 33
   },
   {
     "id": "tt23172090",
@@ -115,7 +97,43 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 400
+    "seeders": 419
+  },
+  {
+    "id": "tt39012071",
+    "type": "movie",
+    "name": "Miraculous World : Tokyo, Stellar Force",
+    "poster": "https://image.tmdb.org/t/p/w500/vFaopnGXRXxRf4z2Z3IgA1QtOyV.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Marinette és Kagami Tokióban egyesítik erőiket egy gonosztevő ellen, aki civileket kaijukká változtat. Ladybugnak össze kell gyűjtenie a japán hősöket, hogy megalakítsák a Tokyo Stellar Force-t, egy csapatot, amelynek tagjai csillagok erejével, csillagruhákkal és összeolvadó hajókkal rendelkeznek.",
+    "imdbRating": 8.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Akció",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 76
+  },
+  {
+    "id": "tt20414360",
+    "type": "movie",
+    "name": "Köln 75",
+    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Zenei"
+    ],
+    "seeders": 69
   },
   {
     "id": "tt14181714",
@@ -131,24 +149,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 805
-  },
-  {
-    "id": "tt1568911",
-    "type": "movie",
-    "name": "Hadak útján",
-    "poster": "https://image.tmdb.org/t/p/w500/x3I5dUPBjg9vgk8I6fje4SGeJ05.jpg",
-    "posterShape": "poster",
-    "year": 2011,
-    "description": "Nehéz idők járnak, nemsokára kitör az I. világháború. Albert édesapja eladja Joey-t a brit lovasságnak, akik rögtön be is vetik őt a frontvonalakon túl - így megkezdődik Joey kalandos utazása, háttérben az első világháborúval. A temérdek akadály ellenére Joey mindig bátran szembenéz a veszéllyel, megérinti az embereket, és megváltoztatja mindenkinek az életét, akivel útközben találkozik. Albert azonban képtelen elfelejteni hű hátasát és egyben legjobb barátját, így hátrahagyva otthonát, a francia harcmezőket veszi célba, hogy megtalálja, és hazavigye az ő csatalovát.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2011",
-    "genres": [
-      "Háborús",
-      "Történelmi",
-      "Kaland"
-    ],
-    "seeders": 32
+    "seeders": 917
   },
   {
     "id": "tt7149730",
@@ -165,7 +166,23 @@
       "Akció",
       "Bűnügyi"
     ],
-    "seeders": 135
+    "seeders": 153
+  },
+  {
+    "id": "tt0057239",
+    "type": "movie",
+    "name": "Kiadó szoba",
+    "poster": "https://image.tmdb.org/t/p/w500/ie8EArW3CjO2gLMYtJEMLU4CAQN.jpg",
+    "posterShape": "poster",
+    "year": 1962,
+    "description": "Jane, a fiatal egyedülálló francia nő elhagyja szülei házát, hogy távol otthonától hozza világra gyermekét. London külvárosának egyik kopottas panziójában talál menedéket, ahol megannyi érdekes emberrel hozza össze a sors. Közelebbi kapcsolatba kerül Toby-val, az első emeleten lakó fiatal íróval, aki a megélhetéséért küzd. A férfi ugyan beleszeret a nőbe, mégsem kíván a születendő gyermek apja lenni. Jane-nek választani kell Toby és a gyermek között.",
+    "imdbRating": 6.8,
+    "releaseInfo": "1962",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 29
   },
   {
     "id": "tt31105878",
@@ -181,22 +198,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 134
-  },
-  {
-    "id": "tt0216625",
-    "type": "movie",
-    "name": "Az ismeretlen kód",
-    "poster": "https://image.tmdb.org/t/p/w500/82dqaccSO4hpFPq80USkT6HS9Mz.jpg",
-    "posterShape": "poster",
-    "year": 2000,
-    "description": "A színésznő Anne fotóriporter barátja épp Koszovóban dolgozik. Közben a férfi öccse, Jean, aki torkig van a vidéki élettel beköltözik Anne párizsi lakásába. Jean egy nap megvetően odadob egy összegyűrt papírfecnit az utcán kolduló román bevándorlónak, Marianak. Ez a jelenet annyira felháborít egy véletlenül arra járó fekete bőrű tanárt, hogy leszidja Jeant, és megpróbálja rávenni, kérjen elnézést a nőtől. A két férfi végül összeverekszik, és a kiérkező rendőrök letartóztatják az afrikait, Mariat pedig visszatoloncolják Romániába. Hazaérkezése után Marianak el kell számolnia férjével, miért nem küldte haza az összekoldult pénzt.\r A film a szereplők sorsát követi felváltva, mozaikszerűen. Egy történet a véletlenről, mely emberek egész életét megváltoztathatja.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2000",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 27
+    "seeders": 157
   },
   {
     "id": "tt17279496",
@@ -213,7 +215,24 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 269
+    "seeders": 306
+  },
+  {
+    "id": "tt1568911",
+    "type": "movie",
+    "name": "Hadak útján",
+    "poster": "https://image.tmdb.org/t/p/w500/x3I5dUPBjg9vgk8I6fje4SGeJ05.jpg",
+    "posterShape": "poster",
+    "year": 2011,
+    "description": "Nehéz idők járnak, nemsokára kitör az I. világháború. Albert édesapja eladja Joey-t a brit lovasságnak, akik rögtön be is vetik őt a frontvonalakon túl - így megkezdődik Joey kalandos utazása, háttérben az első világháborúval. A temérdek akadály ellenére Joey mindig bátran szembenéz a veszéllyel, megérinti az embereket, és megváltoztatja mindenkinek az életét, akivel útközben találkozik. Albert azonban képtelen elfelejteni hű hátasát és egyben legjobb barátját, így hátrahagyva otthonát, a francia harcmezőket veszi célba, hogy megtalálja, és hazavigye az ő csatalovát.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2011",
+    "genres": [
+      "Háborús",
+      "Történelmi",
+      "Kaland"
+    ],
+    "seeders": 33
   },
   {
     "id": "tt0058898",
@@ -230,23 +249,22 @@
       "Sci-Fi",
       "Rejtély"
     ],
-    "seeders": 40
+    "seeders": 45
   },
   {
-    "id": "tt0388285",
+    "id": "tt0216625",
     "type": "movie",
-    "name": "Hé, haver, nyomd a verdát!",
-    "poster": "https://image.tmdb.org/t/p/w500/bOIpjeoFETwAIPYsTlT57BWT2tl.jpg",
+    "name": "Az ismeretlen kód",
+    "poster": "https://image.tmdb.org/t/p/w500/82dqaccSO4hpFPq80USkT6HS9Mz.jpg",
     "posterShape": "poster",
-    "year": 2004,
-    "description": "Nick-et váratlanul faképnél hagyja szerelme, Trish, aki egy feltörekvő producer oldalán hagyja el a szigetet, hogy karriert csináljon. Hippi szülei közreműködésének köszönhetően megtudja, hogy a lányt becsapják, a gyakornoki állás helyett egész más oktatásban fog részesülni. Nick azonnal elindul Torontóba, hogy visszaszerezze a szerelmét. Barátai, Tyler és Dime biztosítják a díszkíséretet a lánykéréshez, amit két szexi stoppos, Sasha és Jill tesznek még kalandosabbá.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2004",
+    "year": 2000,
+    "description": "A színésznő Anne fotóriporter barátja épp Koszovóban dolgozik. Közben a férfi öccse, Jean, aki torkig van a vidéki élettel beköltözik Anne párizsi lakásába. Jean egy nap megvetően odadob egy összegyűrt papírfecnit az utcán kolduló román bevándorlónak, Marianak. Ez a jelenet annyira felháborít egy véletlenül arra járó fekete bőrű tanárt, hogy leszidja Jeant, és megpróbálja rávenni, kérjen elnézést a nőtől. A két férfi végül összeverekszik, és a kiérkező rendőrök letartóztatják az afrikait, Mariat pedig visszatoloncolják Romániába. Hazaérkezése után Marianak el kell számolnia férjével, miért nem küldte haza az összekoldult pénzt.\r A film a szereplők sorsát követi felváltva, mozaikszerűen. Egy történet a véletlenről, mely emberek egész életét megváltoztathatja.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2000",
     "genres": [
-      "Vígjáték",
-      "Romantikus"
+      "Dráma"
     ],
-    "seeders": 39
+    "seeders": 29
   },
   {
     "id": "tt28336131",
@@ -262,7 +280,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 116
+    "seeders": 131
   },
   {
     "id": "tt22530226",
@@ -279,7 +297,23 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 123
+    "seeders": 135
+  },
+  {
+    "id": "tt0388285",
+    "type": "movie",
+    "name": "Hé, haver, nyomd a verdát!",
+    "poster": "https://image.tmdb.org/t/p/w500/bOIpjeoFETwAIPYsTlT57BWT2tl.jpg",
+    "posterShape": "poster",
+    "year": 2004,
+    "description": "Nick-et váratlanul faképnél hagyja szerelme, Trish, aki egy feltörekvő producer oldalán hagyja el a szigetet, hogy karriert csináljon. Hippi szülei közreműködésének köszönhetően megtudja, hogy a lányt becsapják, a gyakornoki állás helyett egész más oktatásban fog részesülni. Nick azonnal elindul Torontóba, hogy visszaszerezze a szerelmét. Barátai, Tyler és Dime biztosítják a díszkíséretet a lánykéréshez, amit két szexi stoppos, Sasha és Jill tesznek még kalandosabbá.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2004",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 41
   },
   {
     "id": "tt22889928",
@@ -296,7 +330,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 108
+    "seeders": 112
   },
   {
     "id": "tt20112600",
@@ -312,23 +346,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 172
-  },
-  {
-    "id": "tt37820061",
-    "type": "movie",
-    "name": "Távol",
-    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 104
+    "seeders": 185
   },
   {
     "id": "tt14107334",
@@ -345,23 +363,23 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 115
+    "seeders": 125
   },
   {
-    "id": "tt0072446",
+    "id": "tt37820061",
     "type": "movie",
-    "name": "Az ígéret földje",
-    "poster": "https://image.tmdb.org/t/p/w500/uwMs9axSBS0opiO7Ih2J3AjUvMv.jpg",
+    "name": "Távol",
+    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
     "posterShape": "poster",
-    "year": 1975,
-    "description": "Lódzban vagyunk a századfordulón, a korai kapitalizmus kibontakozása idején. A textiliparáról híres városban, Karol Borowiecki , a nemesi származású lengyel fiatalember és két barátja, a német Maks Baum és a zsidó Moryc Welt elhatározzák, hogy önálló vállalkozásba fognak, textilgyárat alapítanak... A világhírű, Nobel-díjas Wladyslaw Reymont regényéből készült film sokrétű jelentéstartamából most csak egy gondolatot idéznénk az idős nemes, Borowiecki úr szavaival: \"Ti persze mind csak nevettek a múlton, a tradíciót hullának nevezítek, a nemességet előítéletnek, az erényt babonának, eladtátok a lelketeket, eladtátok az aranyborjúnak... \"",
-    "imdbRating": 7.3,
-    "releaseInfo": "1975",
+    "year": 2026,
+    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
     "genres": [
       "Dráma",
-      "Történelmi"
+      "Háborús"
     ],
-    "seeders": 26
+    "seeders": 102
   },
   {
     "id": "tt1641841",
@@ -379,7 +397,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 59
+    "seeders": 65
   },
   {
     "id": "tt0116126",
@@ -395,54 +413,23 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 73
+    "seeders": 75
   },
   {
-    "id": "tt0109515",
+    "id": "tt0072446",
     "type": "movie",
-    "name": "A menekülés",
-    "poster": "https://image.tmdb.org/t/p/w500/nFRhXWT46YGY8OLO31sJEHClcOg.jpg",
+    "name": "Az ígéret földje",
+    "poster": "https://image.tmdb.org/t/p/w500/uwMs9axSBS0opiO7Ih2J3AjUvMv.jpg",
     "posterShape": "poster",
-    "year": 1994,
-    "description": "Eric, a titkosügynök, éppen Dilly szenátor testőreként dolgozik, aki pártfogója a frissen fejlesztett rendőr-robotoknak. Az ártatlanságukról és alkalmasságukról szóló sajtótájékoztatón, egy a közönség soraiból orvul pisztollyal támadó tiltakozástól éppencsak, hogy sikerül megmentenie védence életét. Csak később támad fel a gyanúja, hogy a szenátor sötét játékot űz, s az androidokat valójában gyilkolásra tervezték.",
-    "imdbRating": 3.9,
-    "releaseInfo": "1994",
+    "year": 1975,
+    "description": "Lódzban vagyunk a századfordulón, a korai kapitalizmus kibontakozása idején. A textiliparáról híres városban, Karol Borowiecki , a nemesi származású lengyel fiatalember és két barátja, a német Maks Baum és a zsidó Moryc Welt elhatározzák, hogy önálló vállalkozásba fognak, textilgyárat alapítanak... A világhírű, Nobel-díjas Wladyslaw Reymont regényéből készült film sokrétű jelentéstartamából most csak egy gondolatot idéznénk az idős nemes, Borowiecki úr szavaival: \"Ti persze mind csak nevettek a múlton, a tradíciót hullának nevezítek, a nemességet előítéletnek, az erényt babonának, eladtátok a lelketeket, eladtátok az aranyborjúnak... \"",
+    "imdbRating": 7.3,
+    "releaseInfo": "1975",
     "genres": [
-      "Akció",
-      "Sci-Fi"
+      "Dráma",
+      "Történelmi"
     ],
-    "seeders": 29
-  },
-  {
-    "id": "tt20990442",
-    "type": "movie",
-    "name": "Csúcs",
-    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 213
-  },
-  {
-    "id": "tt27614382",
-    "type": "movie",
-    "name": "U.S. Palmese",
-    "poster": "https://image.tmdb.org/t/p/w500/j6BbHw9Vu5HBafi39mI7SmwxLa6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy kalábriai kisvárosban egy briliáns, de különc nyugdíjas vad ötlettel áll elő, hogy felélessze a helyi futballcsapatot: rendhagyó közösségi adománygyűjtést indít, hogy megszerezzen egy kegyvesztett sztárfutballista játékost.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 69
+    "seeders": 27
   },
   {
     "id": "tt28793125",
@@ -459,38 +446,53 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 383
+    "seeders": 427
   },
   {
-    "id": "tt10427010",
+    "id": "tt20990442",
     "type": "movie",
-    "name": "A végső csapás",
-    "poster": "https://image.tmdb.org/t/p/w500/8lGFVecQmk8XYuL1McuU5EDwsNY.jpg",
+    "name": "Csúcs",
+    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
     "posterShape": "poster",
-    "year": 2019,
-    "description": "Wu rendőrként beépül egy kábítószer-kereskedő bandába, de mielőtt felszámolhatná azt, egy balul elsült üzletelés közben egy másik rendfenntartó szerv megöli a banda fejét. Wu és szokatlan szövetségese, Párduc, összefog a szervezettel, hogy elkapják a nyílt tengeren azt a csempészt, aki az egész akció mögött áll.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2019",
+    "year": 2025,
+    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 224
+  },
+  {
+    "id": "tt0109515",
+    "type": "movie",
+    "name": "A menekülés",
+    "poster": "https://image.tmdb.org/t/p/w500/nFRhXWT46YGY8OLO31sJEHClcOg.jpg",
+    "posterShape": "poster",
+    "year": 1994,
+    "description": "Eric, a titkosügynök, éppen Dilly szenátor testőreként dolgozik, aki pártfogója a frissen fejlesztett rendőr-robotoknak. Az ártatlanságukról és alkalmasságukról szóló sajtótájékoztatón, egy a közönség soraiból orvul pisztollyal támadó tiltakozástól éppencsak, hogy sikerül megmentenie védence életét. Csak később támad fel a gyanúja, hogy a szenátor sötét játékot űz, s az androidokat valójában gyilkolásra tervezték.",
+    "imdbRating": 3.9,
+    "releaseInfo": "1994",
     "genres": [
       "Akció",
-      "Thriller"
+      "Sci-Fi"
     ],
-    "seeders": 44
+    "seeders": 33
   },
   {
-    "id": "tt14260836",
+    "id": "tt27614382",
     "type": "movie",
-    "name": "Better Man: Robbie Williams",
-    "poster": "https://image.tmdb.org/t/p/w500/2hUQERs4iyvPlxMo0m6YleA7fFS.jpg",
+    "name": "U.S. Palmese",
+    "poster": "https://image.tmdb.org/t/p/w500/j6BbHw9Vu5HBafi39mI7SmwxLa6.jpg",
     "posterShape": "poster",
-    "year": 2024,
-    "description": "A BETTER MAN: ROBBIE WILLIAMS a brit popsztár, Robbie Williams üstökösszerű berobbanásának, drámai bukásának és figyelemreméltó visszatérésének igaz története. Robbie szemszögéből láthatjuk a rá jellemző szellemességgel és fékezhetetlen lelkesedéssel, amint gyermekből a slágerlistákat ostromló fiatal lesz a Take That fiúbanda legifjabb tagjaként, majd példátlan sikereket ér el és rekordokat dönt egyéni előadóként – s mindeközben megküzd megannyi kihívással, ami a világra szóló hírnévvel és gazdagsággal jár.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2024",
+    "year": 2025,
+    "description": "Egy kalábriai kisvárosban egy briliáns, de különc nyugdíjas vad ötlettel áll elő, hogy felélessze a helyi futballcsapatot: rendhagyó közösségi adománygyűjtést indít, hogy megszerezzen egy kegyvesztett sztárfutballista játékost.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
     "genres": [
-      "Zenei",
-      "Dráma"
+      "Vígjáték"
     ],
-    "seeders": 55
+    "seeders": 74
   }
 ]
