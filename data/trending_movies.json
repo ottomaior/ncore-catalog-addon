@@ -14,106 +14,38 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 313
-  },
-  {
-    "id": "tt15799524",
-    "type": "movie",
-    "name": "The History of Sound",
-    "poster": "https://image.tmdb.org/t/p/w500/55of0Vy7m32hSRZKsCyyDjZn4AC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus",
-      "Zenei"
-    ],
-    "seeders": 50
+    "seeders": 390
   },
   {
     "id": "tt32151255",
     "type": "movie",
-    "name": "The Weekend",
+    "name": "Családi hétvége",
     "poster": "https://image.tmdb.org/t/p/w500/hmJdK14WJFyCHym8mHHhaXl1tOj.jpg",
     "posterShape": "poster",
     "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Ez a sodró lendületű nigériai thriller az utolsó pillanatig találgatásra késztet, miközben sajátos nézőpontból járja körül az örök kérdést: mi a baj az anyósékkal?",
     "imdbRating": 7.0,
     "releaseInfo": "2024",
     "genres": [
       "Dráma",
       "Thriller"
     ],
-    "seeders": 47
+    "seeders": 69
   },
   {
     "id": "tt29497429",
     "type": "movie",
-    "name": "Ljósvíkingar",
+    "name": "Fura hal",
     "poster": "https://image.tmdb.org/t/p/w500/AkU0yPyfMZUj0YNtjDPSMFeQ83o.jpg",
     "posterShape": "poster",
     "year": 2024,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Amikor két gyerekkori barát váratlan lehetőséget kap arra, hogy egész évben nyitva tartsák haléttermüket, egyikük transz nőként bújik elő a szekrényből, ami megterheli barátságukat, és új megvilágításba helyezi az életüket.",
     "imdbRating": 7.8,
     "releaseInfo": "2024",
     "genres": [
       "Dráma"
     ],
-    "seeders": 50
-  },
-  {
-    "id": "tt35727399",
-    "type": "movie",
-    "name": "Karácsonyi egércsata",
-    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Animációs",
-      "Vígjáték"
-    ],
-    "seeders": 39
-  },
-  {
-    "id": "tt5742374",
-    "type": "movie",
-    "name": "Sosem voltál itt",
-    "poster": "https://image.tmdb.org/t/p/w500/tTBSqqDjHSN0HQVlxVLYkF6nEFK.jpg",
-    "posterShape": "poster",
-    "year": 2017,
-    "description": "Joe háborús veterán, és egykori FBI-ügynök. Karrierje során olyan dolgokat látott és tett, amik lényegében tönkretették az életét. Amikor épp nem az öngyilkosság gondolata marcangolja, különböző megbízásoknak tesz eleget, otthonról megszökött, eltűnt vagy emberkereskedők kezére jutott lányokat szabadít ki. Egy napon azonban olyan megbízást kap, mely sokkal veszélyesebb, mint bármi, amivel eddig szembe kellett néznie.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2017",
-    "genres": [
-      "Bűnügyi",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 57
-  },
-  {
-    "id": "tt15782690",
-    "type": "movie",
-    "name": "A szentek és bűnösök földjén",
-    "poster": "https://image.tmdb.org/t/p/w500/o8lEZGeT6qskEVuUchnzQbCF6rO.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Finbar Murphy, a második világháborús veterán és özvegy, egy kis ír faluban él, csendes de életet. Mert egy alvilági főnöknek dolgozó bérgyilkos. Azonban az írországi „zavarok” elérték a faluját, és visszarántják őt a polgárőrök igazságszolgáltatásának világába. Csak hogy a szentek és bűnösök földjén néhány bűnt nem lehet eltemetni.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2023",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 294
+    "seeders": 70
   },
   {
     "id": "tt31050594",
@@ -130,41 +62,75 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 3019
+    "seeders": 3378
   },
   {
-    "id": "tt0082432",
+    "id": "tt15799524",
     "type": "movie",
-    "name": "Gallipoli",
-    "poster": "https://image.tmdb.org/t/p/w500/fjiFMeWXBwFzHusiDXfN2Fcsyrq.jpg",
+    "name": "A hang története",
+    "poster": "https://image.tmdb.org/t/p/w500/55of0Vy7m32hSRZKsCyyDjZn4AC.jpg",
     "posterShape": "poster",
-    "year": 1981,
-    "description": "Mel Gibson lehengerlő alakítást nyújt Peter Weir rendező lenyűgöző történetében, mely két ausztrál katona barátságáról és kalandjairól szól 1915-ben. Kontinenseken és óceánokon kelnek át, piramisokat másznak meg és gyalog szelik át Egyiptom ősi sivatagát, hogy csatlakozzanak regimentjükhöz a végzetes gallipoli csatában. A történelem visszhangjai keverednek a barátok lebilincselő sorsával, amint részévé válnak az I. világháború legendás ütközetének Ausztrália és a Németországgal szövetkező törökök között. Ez a csata olyan az ausztráloknak, mint Alamo az amerikaiaknak...",
-    "imdbRating": 7.1,
-    "releaseInfo": "1981",
+    "year": 2025,
+    "description": "Lionel, a tehetséges énekes 1917-ben elhagyja a családi gazdaságot, hogy a Boston Music Conservatoryba járjon. Ott találkozik Daviddel, a sármos zeneszerző hallgatóval, akit hamarosan behívnak a hadseregbe. 1920-ban a téli hónapokat Maine erdeiben és szigetein töltik, ahol népdalokat gyűjtenek, hogy megőrizzék azokat a következő generációknak. Lionel ezután Európába vándorol, ahol siker és új szerelem várja. A Daviddel töltött idők emléke azonban folyton visszatér és Lionel igyekszik megérteni mi is történt köztük.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
     "genres": [
-      "Háborús",
-      "Történelmi",
-      "Dráma"
+      "Dráma",
+      "Romantikus",
+      "Zenei"
     ],
-    "seeders": 35
+    "seeders": 61
   },
   {
-    "id": "tt0085327",
+    "id": "tt15782690",
     "type": "movie",
-    "name": "Kincs, ami nincs",
-    "poster": "https://image.tmdb.org/t/p/w500/5lpz1QKDLiXxKaDZZjKfF0rsad9.jpg",
+    "name": "A szentek és bűnösök földjén",
+    "poster": "https://image.tmdb.org/t/p/w500/o8lEZGeT6qskEVuUchnzQbCF6rO.jpg",
     "posterShape": "poster",
-    "year": 1981,
-    "description": "Alan (Terence Hill) kincset akar, mégpedig mindenáron. Óriási szerencséjére talál egy térképet, amely egy közeli szigeten kincset jelöl. De hogyan jusson oda? Elrejtőzik Charlie (Bud Spencer), a kalandor hajóján és becsapva az iránytűt, a sziget felé irányítja a hajót. Charlie-nak persze az egyszemélyes hajón nem nehéz megtalálni a potyautast, ám hamarosan mindketten a vízben kötnek ki. Charlie legnagyobb bánatára kénytelenek kiúszni a szigetre, ahol összebarátkoznak a sziget lakóival, a barátságos és vidám királynővel és csinos lányaival, akik elvezetik őket a térképen jelzett helyre. A baj csak az, hogy \"a mesés kincset\" Kamasuka (John Fujioka), a második világháború óta ottfelejtett szamuráj őrzi.",
-    "imdbRating": 6.9,
-    "releaseInfo": "1981",
+    "year": 2023,
+    "description": "Finbar Murphy, a második világháborús veterán és özvegy, egy kis ír faluban él, csendes de életet. Mert egy alvilági főnöknek dolgozó bérgyilkos. Azonban az írországi „zavarok” elérték a faluját, és visszarántják őt a polgárőrök igazságszolgáltatásának világába. Csak hogy a szentek és bűnösök földjén néhány bűnt nem lehet eltemetni.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2023",
     "genres": [
       "Akció",
-      "Kaland",
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 326
+  },
+  {
+    "id": "tt5742374",
+    "type": "movie",
+    "name": "Sosem voltál itt",
+    "poster": "https://image.tmdb.org/t/p/w500/tTBSqqDjHSN0HQVlxVLYkF6nEFK.jpg",
+    "posterShape": "poster",
+    "year": 2017,
+    "description": "Joe háborús veterán, és egykori FBI-ügynök. Karrierje során olyan dolgokat látott és tett, amik lényegében tönkretették az életét. Amikor épp nem az öngyilkosság gondolata marcangolja, különböző megbízásoknak tesz eleget, otthonról megszökött, eltűnt vagy emberkereskedők kezére jutott lányokat szabadít ki. Egy napon azonban olyan megbízást kap, mely sokkal veszélyesebb, mint bármi, amivel eddig szembe kellett néznie.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2017",
+    "genres": [
+      "Bűnügyi",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 71
+  },
+  {
+    "id": "tt35727399",
+    "type": "movie",
+    "name": "Karácsonyi egércsata",
+    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Animációs",
       "Vígjáték"
     ],
-    "seeders": 94
+    "seeders": 60
   },
   {
     "id": "tt23172090",
@@ -181,7 +147,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 388
+    "seeders": 429
+  },
+  {
+    "id": "tt0085327",
+    "type": "movie",
+    "name": "Kincs, ami nincs",
+    "poster": "https://image.tmdb.org/t/p/w500/5lpz1QKDLiXxKaDZZjKfF0rsad9.jpg",
+    "posterShape": "poster",
+    "year": 1981,
+    "description": "Alan (Terence Hill) kincset akar, mégpedig mindenáron. Óriási szerencséjére talál egy térképet, amely egy közeli szigeten kincset jelöl. De hogyan jusson oda? Elrejtőzik Charlie (Bud Spencer), a kalandor hajóján és becsapva az iránytűt, a sziget felé irányítja a hajót. Charlie-nak persze az egyszemélyes hajón nem nehéz megtalálni a potyautast, ám hamarosan mindketten a vízben kötnek ki. Charlie legnagyobb bánatára kénytelenek kiúszni a szigetre, ahol összebarátkoznak a sziget lakóival, a barátságos és vidám királynővel és csinos lányaival, akik elvezetik őket a térképen jelzett helyre. A baj csak az, hogy \"a mesés kincset\" Kamasuka (John Fujioka), a második világháború óta ottfelejtett szamuráj őrzi.",
+    "imdbRating": 6.9,
+    "releaseInfo": "1981",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt14181714",
@@ -191,29 +174,30 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 6.1,
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 785
+    "seeders": 907
   },
   {
-    "id": "tt0763840",
+    "id": "tt0082432",
     "type": "movie",
-    "name": "A bátrak hazája",
-    "poster": "https://image.tmdb.org/t/p/w500/vbWNuAtHuTVKTh1enQchmproVB7.jpg",
+    "name": "Gallipoli",
+    "poster": "https://image.tmdb.org/t/p/w500/fjiFMeWXBwFzHusiDXfN2Fcsyrq.jpg",
     "posterShape": "poster",
-    "year": 2006,
-    "description": "Az iraki háború legforróbb napjait éljük. Egy csapat amerikai katona kelepcébe kerül egy iraki városban, közvetlenül az után, hogy megtudták, hogy két héten belül hazamehetnek. Négyük sorsát követjük nyomon, akiknek valóban sikerül hazajutniuk. Az egyikük elvesztette a kezét az akcióban, a másiknak a legjobb barátja a karjai között halt meg, a harmadik tévedésbõl megölt egy civil asszonyt, míg a negyedik sebészként minden borzalomnak a szemtanúja volt. A háború befészkelte magát az agyuk minden szegletébe. Meglelheti-e vajon a katona odahaza a békét?",
-    "imdbRating": 5.5,
-    "releaseInfo": "2006",
+    "year": 1981,
+    "description": "Mel Gibson lehengerlő alakítást nyújt Peter Weir rendező lenyűgöző történetében, mely két ausztrál katona barátságáról és kalandjairól szól 1915-ben. Kontinenseken és óceánokon kelnek át, piramisokat másznak meg és gyalog szelik át Egyiptom ősi sivatagát, hogy csatlakozzanak regimentjükhöz a végzetes gallipoli csatában. A történelem visszhangjai keverednek a barátok lebilincselő sorsával, amint részévé válnak az I. világháború legendás ütközetének Ausztrália és a Németországgal szövetkező törökök között. Ez a csata olyan az ausztráloknak, mint Alamo az amerikaiaknak...",
+    "imdbRating": 7.1,
+    "releaseInfo": "1981",
     "genres": [
       "Háborús",
+      "Történelmi",
       "Dráma"
     ],
-    "seeders": 37
+    "seeders": 43
   },
   {
     "id": "tt0118971",
@@ -230,7 +214,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 87
+    "seeders": 88
   },
   {
     "id": "tt20414360",
@@ -247,7 +231,40 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 104
+    "seeders": 112
+  },
+  {
+    "id": "tt0763840",
+    "type": "movie",
+    "name": "A bátrak hazája",
+    "poster": "https://image.tmdb.org/t/p/w500/vbWNuAtHuTVKTh1enQchmproVB7.jpg",
+    "posterShape": "poster",
+    "year": 2006,
+    "description": "Az iraki háború legforróbb napjait éljük. Egy csapat amerikai katona kelepcébe kerül egy iraki városban, közvetlenül az után, hogy megtudták, hogy két héten belül hazamehetnek. Négyük sorsát követjük nyomon, akiknek valóban sikerül hazajutniuk. Az egyikük elvesztette a kezét az akcióban, a másiknak a legjobb barátja a karjai között halt meg, a harmadik tévedésbõl megölt egy civil asszonyt, míg a negyedik sebészként minden borzalomnak a szemtanúja volt. A háború befészkelte magát az agyuk minden szegletébe. Meglelheti-e vajon a katona odahaza a békét?",
+    "imdbRating": 5.5,
+    "releaseInfo": "2006",
+    "genres": [
+      "Háborús",
+      "Dráma"
+    ],
+    "seeders": 38
+  },
+  {
+    "id": "tt7149730",
+    "type": "movie",
+    "name": "Néma csend",
+    "poster": "https://image.tmdb.org/t/p/w500/jh6KaG2kujIQDyeyJMzVLYfKUmb.jpg",
+    "posterShape": "poster",
+    "year": 2020,
+    "description": "A természetvédelmi területen élő vadász halálos macska-egér játék része lesz, miután a helyi seriffel egy gyilkos nyomába ered, aki évekkel korábban elrabolta a lányát.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2020",
+    "genres": [
+      "Thriller",
+      "Akció",
+      "Bűnügyi"
+    ],
+    "seeders": 175
   },
   {
     "id": "tt39012071",
@@ -266,7 +283,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 97
+    "seeders": 102
   },
   {
     "id": "tt15767808",
@@ -283,24 +300,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 66
-  },
-  {
-    "id": "tt7149730",
-    "type": "movie",
-    "name": "Néma csend",
-    "poster": "https://image.tmdb.org/t/p/w500/jh6KaG2kujIQDyeyJMzVLYfKUmb.jpg",
-    "posterShape": "poster",
-    "year": 2020,
-    "description": "A természetvédelmi területen élő vadász halálos macska-egér játék része lesz, miután a helyi seriffel egy gyilkos nyomába ered, aki évekkel korábban elrabolta a lányát.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2020",
-    "genres": [
-      "Thriller",
-      "Akció",
-      "Bűnügyi"
-    ],
-    "seeders": 144
+    "seeders": 73
   },
   {
     "id": "tt17279496",
@@ -317,7 +317,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 260
+    "seeders": 299
   },
   {
     "id": "tt31105878",
@@ -333,7 +333,24 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 126
+    "seeders": 142
+  },
+  {
+    "id": "tt22530226",
+    "type": "movie",
+    "name": "Jóravaló kísértet",
+    "poster": "https://image.tmdb.org/t/p/w500/8xbfTDgOtiFXDjTttbORoT93nIT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nat, a nemrég elhunyt thai háziasszony porallergiás özvegye miatt aggódva szellemként tér vissza egy porszívó formájában, hogy kitakarítsa a házat és megvédje családját a házban kószáló egyéb bosszúálló kísértettől. Ahhoz, hogy hasznos szellemmé váljon, meg kell szabadulnia a haszontalanoktól.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Fantasy"
+    ],
+    "seeders": 134
   },
   {
     "id": "tt0074958",
@@ -351,23 +368,6 @@
     "seeders": 45
   },
   {
-    "id": "tt22530226",
-    "type": "movie",
-    "name": "Jóravaló kísértet",
-    "poster": "https://image.tmdb.org/t/p/w500/8xbfTDgOtiFXDjTttbORoT93nIT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nat, a nemrég elhunyt thai háziasszony porallergiás özvegye miatt aggódva szellemként tér vissza egy porszívó formájában, hogy kitakarítsa a házat és megvédje családját a házban kószáló egyéb bosszúálló kísértettől. Ahhoz, hogy hasznos szellemmé váljon, meg kell szabadulnia a haszontalanoktól.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Fantasy"
-    ],
-    "seeders": 125
-  },
-  {
     "id": "tt20112600",
     "type": "movie",
     "name": "Verseny a győzelemért",
@@ -381,24 +381,23 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 164
+    "seeders": 178
   },
   {
-    "id": "tt22889928",
+    "id": "tt28336131",
     "type": "movie",
-    "name": "A Radley család",
-    "poster": "https://image.tmdb.org/t/p/w500/6KqQ1rm5CS59VPaHU12vNi79ksi.jpg",
+    "name": "Elyas",
+    "poster": "https://image.tmdb.org/t/p/w500/zuwf11mv6ju9Kf8PtlUjB0OzrBg.jpg",
     "posterShape": "poster",
     "year": 2024,
-    "description": "Egy látszólag átlagos családnak sötét titka van: vámpírok. Természetes vágyaik ellenére úgy döntenek, hogy nem isznak vért, de egy nap kiderül az igazság.",
-    "imdbRating": 5.1,
+    "description": "Elyas, a különleges erők egykori katonája, aki egy afganisztáni misszió óta paranoiás lett. Felkérést kap, hogy biztosítsa Amina és 13 éves lánya, Nour biztonságát, akik mindketten a Közel-Keletről érkeztek az ünnepekre. Amikor Elyas megkezdi munkáját, úgy érzi, hogy valami nagyon nem stimmel.",
+    "imdbRating": 6.2,
     "releaseInfo": "2024",
     "genres": [
-      "Vígjáték",
-      "Horror",
+      "Akció",
       "Thriller"
     ],
-    "seeders": 105
+    "seeders": 118
   },
   {
     "id": "tt14107334",
@@ -415,56 +414,24 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 114
+    "seeders": 119
   },
   {
-    "id": "tt0058898",
+    "id": "tt22889928",
     "type": "movie",
-    "name": "Alphaville",
-    "poster": "https://image.tmdb.org/t/p/w500/4DsQE7XH0Jw6fm5o4tTPGHbt6eh.jpg",
-    "posterShape": "poster",
-    "year": 1965,
-    "description": "Alphaville egy több millió fényévnyi távolságban lévő galaxis fővárosa. Ide érkezik Lemmy Caution a \"Figaro-Pravda\" újság tudósítójaként. Valójában Lemmy egy titkosügynök, akinek kapcsolatba kell lépnie von Braun professzorral. Von Braun, akit kiutasítottak az óvilágból, létrehozta Alphaville-ben az Alpha 60 nevű elektronikus agyat. A mesterséges intelligencia egyeduralmi rendszert vezetett be a városban. Alphaville-ben minden érzés be lett tiltva, a \"zene\", a \"költészet\", a \"szerelem\" szavakat pedig kitörölték a nyelvből... Lemmy tisztában van azzal, hogy az előző ügynökök mind nyomtalanul eltűntek. Megismeri a város brutális valóságát és ebben tolmácsa, Natasa segíti, aki von Braun lánya. Lemmynek végül sikerül megölnie a professzort és elpusztítania Alpha 60-at. Miközben menekül a káosz uralta Alphaville-ből, kiderül, hogy Natasából még nem veszett ki minden emberi érzés.",
-    "imdbRating": 6.9,
-    "releaseInfo": "1965",
-    "genres": [
-      "Dráma",
-      "Sci-Fi",
-      "Rejtély"
-    ],
-    "seeders": 50
-  },
-  {
-    "id": "tt28336131",
-    "type": "movie",
-    "name": "Elyas",
-    "poster": "https://image.tmdb.org/t/p/w500/zuwf11mv6ju9Kf8PtlUjB0OzrBg.jpg",
+    "name": "A Radley család",
+    "poster": "https://image.tmdb.org/t/p/w500/6KqQ1rm5CS59VPaHU12vNi79ksi.jpg",
     "posterShape": "poster",
     "year": 2024,
-    "description": "Elyas, a különleges erők egykori katonája, aki egy afganisztáni misszió óta paranoiás lett. Felkérést kap, hogy biztosítsa Amina és 13 éves lánya, Nour biztonságát, akik mindketten a Közel-Keletről érkeztek az ünnepekre. Amikor Elyas megkezdi munkáját, úgy érzi, hogy valami nagyon nem stimmel.",
-    "imdbRating": 6.2,
+    "description": "Egy látszólag átlagos családnak sötét titka van: vámpírok. Természetes vágyaik ellenére úgy döntenek, hogy nem isznak vért, de egy nap kiderül az igazság.",
+    "imdbRating": 5.1,
     "releaseInfo": "2024",
     "genres": [
-      "Akció",
+      "Vígjáték",
+      "Horror",
       "Thriller"
     ],
-    "seeders": 99
-  },
-  {
-    "id": "tt37820061",
-    "type": "movie",
-    "name": "Távol",
-    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 92
+    "seeders": 103
   },
   {
     "id": "tt28793125",
@@ -481,23 +448,55 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 371
+    "seeders": 417
   },
   {
-    "id": "tt1568911",
+    "id": "tt37820061",
     "type": "movie",
-    "name": "Hadak útján",
-    "poster": "https://image.tmdb.org/t/p/w500/x3I5dUPBjg9vgk8I6fje4SGeJ05.jpg",
+    "name": "Távol",
+    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
     "posterShape": "poster",
-    "year": 2011,
-    "description": "Nehéz idők járnak, nemsokára kitör az I. világháború. Albert édesapja eladja Joey-t a brit lovasságnak, akik rögtön be is vetik őt a frontvonalakon túl - így megkezdődik Joey kalandos utazása, háttérben az első világháborúval. A temérdek akadály ellenére Joey mindig bátran szembenéz a veszéllyel, megérinti az embereket, és megváltoztatja mindenkinek az életét, akivel útközben találkozik. Albert azonban képtelen elfelejteni hű hátasát és egyben legjobb barátját, így hátrahagyva otthonát, a francia harcmezőket veszi célba, hogy megtalálja, és hazavigye az ő csatalovát.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2011",
+    "year": 2026,
+    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
     "genres": [
-      "Háborús",
-      "Történelmi",
-      "Kaland"
+      "Dráma",
+      "Háborús"
     ],
-    "seeders": 36
+    "seeders": 95
+  },
+  {
+    "id": "tt0058898",
+    "type": "movie",
+    "name": "Alphaville",
+    "poster": "https://image.tmdb.org/t/p/w500/4DsQE7XH0Jw6fm5o4tTPGHbt6eh.jpg",
+    "posterShape": "poster",
+    "year": 1965,
+    "description": "Alphaville egy több millió fényévnyi távolságban lévő galaxis fővárosa. Ide érkezik Lemmy Caution a \"Figaro-Pravda\" újság tudósítójaként. Valójában Lemmy egy titkosügynök, akinek kapcsolatba kell lépnie von Braun professzorral. Von Braun, akit kiutasítottak az óvilágból, létrehozta Alphaville-ben az Alpha 60 nevű elektronikus agyat. A mesterséges intelligencia egyeduralmi rendszert vezetett be a városban. Alphaville-ben minden érzés be lett tiltva, a \"zene\", a \"költészet\", a \"szerelem\" szavakat pedig kitörölték a nyelvből... Lemmy tisztában van azzal, hogy az előző ügynökök mind nyomtalanul eltűntek. Megismeri a város brutális valóságát és ebben tolmácsa, Natasa segíti, aki von Braun lánya. Lemmynek végül sikerül megölnie a professzort és elpusztítania Alpha 60-at. Miközben menekül a káosz uralta Alphaville-ből, kiderül, hogy Natasából még nem veszett ki minden emberi érzés.",
+    "imdbRating": 6.9,
+    "releaseInfo": "1965",
+    "genres": [
+      "Dráma",
+      "Sci-Fi",
+      "Rejtély"
+    ],
+    "seeders": 49
+  },
+  {
+    "id": "tt20990442",
+    "type": "movie",
+    "name": "Csúcs",
+    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 211
   }
 ]
