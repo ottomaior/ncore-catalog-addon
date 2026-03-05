@@ -14,7 +14,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 635
+    "seeders": 853
   },
   {
     "id": "tt32439773",
@@ -30,7 +30,23 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 88
+    "seeders": 145
+  },
+  {
+    "id": "tt14181714",
+    "type": "movie",
+    "name": "A szikla",
+    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 1187
   },
   {
     "id": "tt15782690",
@@ -47,23 +63,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 362
-  },
-  {
-    "id": "tt14181714",
-    "type": "movie",
-    "name": "A szikla",
-    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 991
+    "seeders": 411
   },
   {
     "id": "tt23172090",
@@ -80,7 +80,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 468
+    "seeders": 556
   },
   {
     "id": "tt0099810",
@@ -96,7 +96,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 79
+    "seeders": 107
   },
   {
     "id": "tt0176666",
@@ -112,7 +112,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 85
+    "seeders": 109
   },
   {
     "id": "tt10303332",
@@ -129,7 +129,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 109
   },
   {
     "id": "tt32151255",
@@ -145,38 +145,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 132
-  },
-  {
-    "id": "tt3811986",
-    "type": "movie",
-    "name": "Kölcsön család",
-    "poster": "https://image.tmdb.org/t/p/w500/wVcM3eBWQQngGZxexCjrtyHZ4Cb.jpg",
-    "posterShape": "poster",
-    "year": 2015,
-    "description": "Paul-André félénk és introvertált negyvenes. Gazdag, de magányos, és mivel elege van az életből, úgy dönt, hogy családra van szüksége. Violette szintén a negyvenes éveiben jár, és tele van élettel, de anyagi gondjai miatt elveszítheti az otthonát, sőt a családját is. Ezért Paul-André őrült ajánlatot tesz neki: bérbe veszi Violette családját, cserébe pedig kifizeti az adósságait. Végre kipróbálhatja a családi élet igazi örömét... jóban-rosszban!",
-    "imdbRating": 5.2,
-    "releaseInfo": "2015",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 58
-  },
-  {
-    "id": "tt37800570",
-    "type": "movie",
-    "name": "Banlieusards 3",
-    "poster": "https://image.tmdb.org/t/p/w500/chivRgMyevpLUDfLIokY9aTomRu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 4.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 85
+    "seeders": 146
   },
   {
     "id": "tt5742374",
@@ -193,7 +162,38 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 122
+    "seeders": 142
+  },
+  {
+    "id": "tt37800570",
+    "type": "movie",
+    "name": "Külvárosi utak 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/chivRgMyevpLUDfLIokY9aTomRu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Traoré fivérek igyekeznek jobb útra térni a trilógia utolsó részében.  (Bolla Eszter)",
+    "imdbRating": 3.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 98
+  },
+  {
+    "id": "tt3811986",
+    "type": "movie",
+    "name": "Kölcsön család",
+    "poster": "https://image.tmdb.org/t/p/w500/wVcM3eBWQQngGZxexCjrtyHZ4Cb.jpg",
+    "posterShape": "poster",
+    "year": 2015,
+    "description": "Paul-André félénk és introvertált negyvenes. Gazdag, de magányos, és mivel elege van az életből, úgy dönt, hogy családra van szüksége. Violette szintén a negyvenes éveiben jár, és tele van élettel, de anyagi gondjai miatt elveszítheti az otthonát, sőt a családját is. Ezért Paul-André őrült ajánlatot tesz neki: bérbe veszi Violette családját, cserébe pedig kifizeti az adósságait. Végre kipróbálhatja a családi élet igazi örömét... jóban-rosszban!",
+    "imdbRating": 5.2,
+    "releaseInfo": "2015",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt29497429",
@@ -208,7 +208,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 111
+    "seeders": 120
   },
   {
     "id": "tt16532314",
@@ -223,41 +223,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 67
-  },
-  {
-    "id": "tt0085327",
-    "type": "movie",
-    "name": "Kincs, ami nincs",
-    "poster": "https://image.tmdb.org/t/p/w500/5lpz1QKDLiXxKaDZZjKfF0rsad9.jpg",
-    "posterShape": "poster",
-    "year": 1981,
-    "description": "Alan (Terence Hill) kincset akar, mégpedig mindenáron. Óriási szerencséjére talál egy térképet, amely egy közeli szigeten kincset jelöl. De hogyan jusson oda? Elrejtőzik Charlie (Bud Spencer), a kalandor hajóján és becsapva az iránytűt, a sziget felé irányítja a hajót. Charlie-nak persze az egyszemélyes hajón nem nehéz megtalálni a potyautast, ám hamarosan mindketten a vízben kötnek ki. Charlie legnagyobb bánatára kénytelenek kiúszni a szigetre, ahol összebarátkoznak a sziget lakóival, a barátságos és vidám királynővel és csinos lányaival, akik elvezetik őket a térképen jelzett helyre. A baj csak az, hogy \"a mesés kincset\" Kamasuka (John Fujioka), a második világháború óta ottfelejtett szamuráj őrzi.",
-    "imdbRating": 6.9,
-    "releaseInfo": "1981",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Vígjáték"
-    ],
-    "seeders": 114
-  },
-  {
-    "id": "tt7149730",
-    "type": "movie",
-    "name": "Néma csend",
-    "poster": "https://image.tmdb.org/t/p/w500/jh6KaG2kujIQDyeyJMzVLYfKUmb.jpg",
-    "posterShape": "poster",
-    "year": 2020,
-    "description": "A természetvédelmi területen élő vadász halálos macska-egér játék része lesz, miután a helyi seriffel egy gyilkos nyomába ered, aki évekkel korábban elrabolta a lányát.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2020",
-    "genres": [
-      "Thriller",
-      "Akció",
-      "Bűnügyi"
-    ],
-    "seeders": 198
+    "seeders": 73
   },
   {
     "id": "tt35727399",
@@ -274,40 +240,24 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 92
+    "seeders": 110
   },
   {
-    "id": "tt15799524",
+    "id": "tt0085327",
     "type": "movie",
-    "name": "A hang története",
-    "poster": "https://image.tmdb.org/t/p/w500/55of0Vy7m32hSRZKsCyyDjZn4AC.jpg",
+    "name": "Kincs, ami nincs",
+    "poster": "https://image.tmdb.org/t/p/w500/5lpz1QKDLiXxKaDZZjKfF0rsad9.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Lionel, a tehetséges énekes 1917-ben elhagyja a családi gazdaságot, hogy a Boston Music Conservatoryba járjon. Ott találkozik Daviddel, a sármos zeneszerző hallgatóval, akit hamarosan behívnak a hadseregbe. 1920-ban a téli hónapokat Maine erdeiben és szigetein töltik, ahol népdalokat gyűjtenek, hogy megőrizzék azokat a következő generációknak. Lionel ezután Európába vándorol, ahol siker és új szerelem várja. A Daviddel töltött idők emléke azonban folyton visszatér és Lionel igyekszik megérteni mi is történt köztük.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
+    "year": 1981,
+    "description": "Alan (Terence Hill) kincset akar, mégpedig mindenáron. Óriási szerencséjére talál egy térképet, amely egy közeli szigeten kincset jelöl. De hogyan jusson oda? Elrejtőzik Charlie (Bud Spencer), a kalandor hajóján és becsapva az iránytűt, a sziget felé irányítja a hajót. Charlie-nak persze az egyszemélyes hajón nem nehéz megtalálni a potyautast, ám hamarosan mindketten a vízben kötnek ki. Charlie legnagyobb bánatára kénytelenek kiúszni a szigetre, ahol összebarátkoznak a sziget lakóival, a barátságos és vidám királynővel és csinos lányaival, akik elvezetik őket a térképen jelzett helyre. A baj csak az, hogy \"a mesés kincset\" Kamasuka (John Fujioka), a második világháború óta ottfelejtett szamuráj őrzi.",
+    "imdbRating": 6.9,
+    "releaseInfo": "1981",
     "genres": [
-      "Dráma",
-      "Romantikus",
-      "Zenei"
+      "Akció",
+      "Kaland",
+      "Vígjáték"
     ],
-    "seeders": 75
-  },
-  {
-    "id": "tt0166943",
-    "type": "movie",
-    "name": "A szív dallamai",
-    "poster": "https://image.tmdb.org/t/p/w500/gUnwbhZwWp2vFKGoLo1vIlApWde.jpg",
-    "posterShape": "poster",
-    "year": 1999,
-    "description": "Roberta Guaspari világa összeomlik, mikor a férje otthagyja őt és két kisgyermekét. A válás után megesküszik, hogy életét ezután saját szabályai szerint fogja élni. A biztonságos kisvárosból Amerika egyik legkeményebb környékére, Kelet-Harlembe költözik. Végre meg akarja valósítani álmát: hegedülést akar tanítani. Nincs túl sok tapasztalata a gyerekekkel, de van tehetsége, eltökéltsége - és vannak hegedűi. A gyerekek, a szülők és az iskolaigazgató eleinte szkeptikusak, de Roberta olyan szenvedéllyel tanít, ami ragályos, és a kis hegedűsök hamarosan hihetetlen eredményeket produkálnak.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1999",
-    "genres": [
-      "Dráma",
-      "Zenei"
-    ],
-    "seeders": 35
+    "seeders": 126
   },
   {
     "id": "tt17279496",
@@ -324,24 +274,41 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 285
+    "seeders": 344
   },
   {
-    "id": "tt0118971",
+    "id": "tt7149730",
     "type": "movie",
-    "name": "Az ördög ügyvédje",
-    "poster": "https://image.tmdb.org/t/p/w500/9mgKBhdi93L5pL4okDMnrSapiCl.jpg",
+    "name": "Néma csend",
+    "poster": "https://image.tmdb.org/t/p/w500/jh6KaG2kujIQDyeyJMzVLYfKUmb.jpg",
     "posterShape": "poster",
-    "year": 1997,
-    "description": "Démoni hatású, egyedi filmcsemege. Az utolsó pillanatokig meglepetésekkel szolgál az utóbbi évek egyik műfajteremtő filmje. Kevin Lomax, a sikeres védőügyvéd egyetlen pert sem veszített még életében, mert szinte hipnotikus erővel bírja rá az esküdteket, hogy mentsék fel ügyfeleit. De nemcsak a tárgyalóteremben, hanem a magánéletében is szerencsés, elbűvölő feleségével, Mary Annel az oldalán. De semmi sem tarthat örökké. Egy napon betoppan hozzá egy tekintélyes New York-i jogi cég megbízottja és közli vele, hogy felettesei felfigyeltek hihetetlen teljesítményére és szeretnék a cég munkatársai között látni. Feleségével New Yorkba utazik, ahol hamarosan megismerkedik a cég titokzatos vezetőjével, John Miltonnal is. A nagyravágyó Kevin nem bír ellenállni a kísértésnek és elfogadja Milton ragyogó ajánlatát...",
-    "imdbRating": 7.5,
-    "releaseInfo": "1997",
+    "year": 2020,
+    "description": "A természetvédelmi területen élő vadász halálos macska-egér játék része lesz, miután a helyi seriffel egy gyilkos nyomába ered, aki évekkel korábban elrabolta a lányát.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2020",
     "genres": [
-      "Horror",
-      "Dráma",
-      "Rejtély"
+      "Thriller",
+      "Akció",
+      "Bűnügyi"
     ],
-    "seeders": 106
+    "seeders": 214
+  },
+  {
+    "id": "tt15799524",
+    "type": "movie",
+    "name": "A hang története",
+    "poster": "https://image.tmdb.org/t/p/w500/55of0Vy7m32hSRZKsCyyDjZn4AC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Lionel, a tehetséges énekes 1917-ben elhagyja a családi gazdaságot, hogy a Boston Music Conservatoryba járjon. Ott találkozik Daviddel, a sármos zeneszerző hallgatóval, akit hamarosan behívnak a hadseregbe. 1920-ban a téli hónapokat Maine erdeiben és szigetein töltik, ahol népdalokat gyűjtenek, hogy megőrizzék azokat a következő generációknak. Lionel ezután Európába vándorol, ahol siker és új szerelem várja. A Daviddel töltött idők emléke azonban folyton visszatér és Lionel igyekszik megérteni mi is történt köztük.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus",
+      "Zenei"
+    ],
+    "seeders": 82
   },
   {
     "id": "tt39012071",
@@ -360,24 +327,24 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 118
+    "seeders": 132
   },
   {
-    "id": "tt0068732",
+    "id": "tt0118971",
     "type": "movie",
-    "name": "Végzetes képzelgések",
-    "poster": "https://image.tmdb.org/t/p/w500/aTezEYoe3hKPGva8yY4M7b24F3D.jpg",
+    "name": "Az ördög ügyvédje",
+    "poster": "https://image.tmdb.org/t/p/w500/9mgKBhdi93L5pL4okDMnrSapiCl.jpg",
     "posterShape": "poster",
-    "year": 1972,
-    "description": "Cathryn, a gyermekkönyveket író asszony fotóművész férjével a távoli Írországban kibérel egy vidéki házat, hogy kapcsolatukat újragondolják és megtalálják ismét a az egymáshoz vezető utat. A közös kikapcsolódásnak induló utazás azonban nem úgy alakul, mint azt eltervezték. Az asszony férjét inkább saját kedvtelései kötik le, mintsem foglalkozna felesége egyre jobban elhatalmasodó képzelgéseinek kezelésével. A démonjaival küzdő, magára hagyott asszony elméjéből az elszigeteltség olyan látomásokat csal elő, amelyek nemcsak a jelenét, hanem a jövőjét is alapjaiban változtatják meg, az események pedig megállíthatatlanul vezetnek a tragikus végkifejlet felé.",
-    "imdbRating": 6.8,
-    "releaseInfo": "1972",
+    "year": 1997,
+    "description": "Démoni hatású, egyedi filmcsemege. Az utolsó pillanatokig meglepetésekkel szolgál az utóbbi évek egyik műfajteremtő filmje. Kevin Lomax, a sikeres védőügyvéd egyetlen pert sem veszített még életében, mert szinte hipnotikus erővel bírja rá az esküdteket, hogy mentsék fel ügyfeleit. De nemcsak a tárgyalóteremben, hanem a magánéletében is szerencsés, elbűvölő feleségével, Mary Annel az oldalán. De semmi sem tarthat örökké. Egy napon betoppan hozzá egy tekintélyes New York-i jogi cég megbízottja és közli vele, hogy felettesei felfigyeltek hihetetlen teljesítményére és szeretnék a cég munkatársai között látni. Feleségével New Yorkba utazik, ahol hamarosan megismerkedik a cég titokzatos vezetőjével, John Miltonnal is. A nagyravágyó Kevin nem bír ellenállni a kísértésnek és elfogadja Milton ragyogó ajánlatát...",
+    "imdbRating": 7.5,
+    "releaseInfo": "1997",
     "genres": [
-      "Thriller",
-      "Rejtély",
-      "Horror"
+      "Horror",
+      "Dráma",
+      "Rejtély"
     ],
-    "seeders": 41
+    "seeders": 111
   },
   {
     "id": "tt20414360",
@@ -394,38 +361,23 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 112
+    "seeders": 125
   },
   {
-    "id": "tt0051365",
+    "id": "tt0166943",
     "type": "movie",
-    "name": "Arc",
-    "poster": "https://image.tmdb.org/t/p/w500/z7NRRQjxFhOqsF1ADz4Ko20PCe4.jpg",
+    "name": "A szív dallamai",
+    "poster": "https://image.tmdb.org/t/p/w500/gUnwbhZwWp2vFKGoLo1vIlApWde.jpg",
     "posterShape": "poster",
-    "year": 1958,
-    "description": "1846-ban egy mágiával és hipnotizálással foglalkozó mutatványostrupp közeledik Stockholm felé egy batáron. A csapatban főleg a hipnotizőr Vogler számít hatalmas attrakciónak. Stockholm kapujában fel is tartóztatják a batárt, és utasait egy palotába kísérik. Itt a konzul fogadja őket, aki lelkesedik a mágiáért, és szeretné jobban megismerni a művészetüket. Arra kérik Voglert és csapatát, hogy mielőtt engedélyezik nyilvános szereplésüket, mutassák be tudományukat a város vezetőinek. A hatalmasok között persze többen is akadnak, akik felettébb kétkednek a mutatványosok módszereiben, azonban az előadáson megdöbbentő dolgok történnek. (port.hu)",
-    "imdbRating": 7.4,
-    "releaseInfo": "1958",
+    "year": 1999,
+    "description": "Roberta Guaspari világa összeomlik, mikor a férje otthagyja őt és két kisgyermekét. A válás után megesküszik, hogy életét ezután saját szabályai szerint fogja élni. A biztonságos kisvárosból Amerika egyik legkeményebb környékére, Kelet-Harlembe költözik. Végre meg akarja valósítani álmát: hegedülést akar tanítani. Nincs túl sok tapasztalata a gyerekekkel, de van tehetsége, eltökéltsége - és vannak hegedűi. A gyerekek, a szülők és az iskolaigazgató eleinte szkeptikusak, de Roberta olyan szenvedéllyel tanít, ami ragályos, és a kis hegedűsök hamarosan hihetetlen eredményeket produkálnak.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1999",
     "genres": [
-      "Dráma"
+      "Dráma",
+      "Zenei"
     ],
     "seeders": 41
-  },
-  {
-    "id": "tt9682428",
-    "type": "movie",
-    "name": "Éjszakai merülés",
-    "poster": "https://image.tmdb.org/t/p/w500/1fJCRJ7iDQO5P2xlf4Yah4XrFhC.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Ray Wallert egy degeneratív betegség korai visszavonulásra kényszeríti, és új házba költözik aggódó feleségével, Eve-vel, tinédzser lányával, Izzyvel és kisfiával, Elliottal. Ray titokban abban reménykedik, hogy visszatérhet a profi ligába, és meggyőzi Eve-et, hogy a kertben lévő, csillogó vízű úszómedence jó buli lesz a gyerekeknek, neki pedig jó fizikoterápia. Ám a ház múltjának sötét titka egy baljós erőt szabadít rájuk, ami a kikerülhetetlen borzalmak mélyére húzza az egész családot...",
-    "imdbRating": 5.5,
-    "releaseInfo": "2024",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 47
   },
   {
     "id": "tt31105878",
@@ -441,7 +393,39 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 146
+    "seeders": 167
+  },
+  {
+    "id": "tt0051365",
+    "type": "movie",
+    "name": "Arc",
+    "poster": "https://image.tmdb.org/t/p/w500/z7NRRQjxFhOqsF1ADz4Ko20PCe4.jpg",
+    "posterShape": "poster",
+    "year": 1958,
+    "description": "1846-ban egy mágiával és hipnotizálással foglalkozó mutatványostrupp közeledik Stockholm felé egy batáron. A csapatban főleg a hipnotizőr Vogler számít hatalmas attrakciónak. Stockholm kapujában fel is tartóztatják a batárt, és utasait egy palotába kísérik. Itt a konzul fogadja őket, aki lelkesedik a mágiáért, és szeretné jobban megismerni a művészetüket. Arra kérik Voglert és csapatát, hogy mielőtt engedélyezik nyilvános szereplésüket, mutassák be tudományukat a város vezetőinek. A hatalmasok között persze többen is akadnak, akik felettébb kétkednek a mutatványosok módszereiben, azonban az előadáson megdöbbentő dolgok történnek. (port.hu)",
+    "imdbRating": 7.4,
+    "releaseInfo": "1958",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 47
+  },
+  {
+    "id": "tt0068732",
+    "type": "movie",
+    "name": "Végzetes képzelgések",
+    "poster": "https://image.tmdb.org/t/p/w500/aTezEYoe3hKPGva8yY4M7b24F3D.jpg",
+    "posterShape": "poster",
+    "year": 1972,
+    "description": "Cathryn, a gyermekkönyveket író asszony fotóművész férjével a távoli Írországban kibérel egy vidéki házat, hogy kapcsolatukat újragondolják és megtalálják ismét a az egymáshoz vezető utat. A közös kikapcsolódásnak induló utazás azonban nem úgy alakul, mint azt eltervezték. Az asszony férjét inkább saját kedvtelései kötik le, mintsem foglalkozna felesége egyre jobban elhatalmasodó képzelgéseinek kezelésével. A démonjaival küzdő, magára hagyott asszony elméjéből az elszigeteltség olyan látomásokat csal elő, amelyek nemcsak a jelenét, hanem a jövőjét is alapjaiban változtatják meg, az események pedig megállíthatatlanul vezetnek a tragikus végkifejlet felé.",
+    "imdbRating": 6.8,
+    "releaseInfo": "1972",
+    "genres": [
+      "Thriller",
+      "Rejtély",
+      "Horror"
+    ],
+    "seeders": 45
   },
   {
     "id": "tt0082432",
@@ -458,24 +442,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 59
-  },
-  {
-    "id": "tt15767808",
-    "type": "movie",
-    "name": "A hét király halála",
-    "poster": "https://image.tmdb.org/t/p/w500/blvyc8dFjT2yzV6Pg0wTP03Qhqb.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Edward király halála után betolakodók és rivális örökösök harcolnak a koronáért, és Uthrednek ismét kalandoznia kell bajtársaival, miközben megpróbálják egyesíteni Angliát.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2023",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Háborús"
-    ],
-    "seeders": 79
+    "seeders": 68
   },
   {
     "id": "tt28793125",
@@ -492,6 +459,39 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 422
+    "seeders": 500
+  },
+  {
+    "id": "tt20112600",
+    "type": "movie",
+    "name": "Verseny a győzelemért",
+    "poster": "https://image.tmdb.org/t/p/w500/qLVQZMGxJk3dEBkQwqx7Y66V5oG.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Minden idők egyik legnagyobb sportrivalizálása zajlott a nyolcvanas években a német Audi és az olasz Lancia között. A két autógyártó legnagyobb összecsapása az 1983-as rali-világbajnokságon játszódott le. Dávid és Góliát küzdelmében a toronymagas esélyes az Audi volt. A Lancia az innováció és merészség kombinációjával szállt szembe vele. Autó és autó, versenyző és versenyző, mérnökök és mérnökök feszültek egymásnak egy olyan korban, amikor egy autóverseny eredménye közvetlenül befolyásolta az autóértékesítéseket. Az autentikus utazás a nyolcvanas évekbe és a látványos autóversenyek egyedülálló élményt kínálnak nemcsak a sportautók kedvelőinek.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 206
+  },
+  {
+    "id": "tt15767808",
+    "type": "movie",
+    "name": "A hét király halála",
+    "poster": "https://image.tmdb.org/t/p/w500/blvyc8dFjT2yzV6Pg0wTP03Qhqb.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Edward király halála után betolakodók és rivális örökösök harcolnak a koronáért, és Uthrednek ismét kalandoznia kell bajtársaival, miközben megpróbálják egyesíteni Angliát.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2023",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Háborús"
+    ],
+    "seeders": 83
   }
 ]
