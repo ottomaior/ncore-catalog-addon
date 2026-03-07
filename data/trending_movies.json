@@ -14,23 +14,41 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2323
+    "seeders": 3000
   },
   {
-    "id": "tt0082045",
+    "id": "tt7288408",
     "type": "movie",
-    "name": "Banános Joe",
-    "poster": "https://image.tmdb.org/t/p/w500/1WmUC60XB1FGD2twZju26mOLimZ.jpg",
+    "name": "Radioflash",
+    "poster": "https://image.tmdb.org/t/p/w500/z7RNOII2gXkZugOf7TjsISoLYRl.jpg",
     "posterShape": "poster",
-    "year": 1982,
-    "description": "Banános Joe balszerencséjére a helyi maffia ráteszi a kezét a banánkereskedelemre. Joe nem hagyja magát, és úgy dönt, üzletéhez megszerzi az összes hivatalos papírt. Ám a városban szerelmes lesz egy énekesnőbe, besorozzák a hadseregbe, ráadásul hiába szerzi meg az áhított engedélyt, börtönbe csukják. Amikor hazatér, döbbenten tapasztalja, hogy otthonából modern, korrupt maffiaközpont lett. Joe a sarkára áll, és alaposan móresre tanítja a bűnözőket.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1982",
+    "year": 2019,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.1,
+    "releaseInfo": "2019",
     "genres": [
-      "Akció",
-      "Vígjáték"
+      "Thriller",
+      "Dráma"
     ],
-    "seeders": 58
+    "seeders": 127
+  },
+  {
+    "id": "tt27757752",
+    "type": "movie",
+    "name": "L'Olívia i el terratrèmol invisible",
+    "poster": "https://image.tmdb.org/t/p/w500/znGw5e1eA0SPRWxUziG9igMR0gS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Dráma",
+      "Családi"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt32141377",
@@ -47,24 +65,41 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 834
+    "seeders": 958
   },
   {
-    "id": "tt0095250",
+    "id": "tt0116839",
     "type": "movie",
-    "name": "A nagy kékség",
-    "poster": "https://image.tmdb.org/t/p/w500/6KTURqWkmPlAzweW3truMrYh1vC.jpg",
+    "name": "A fűnyíró ember 2: Jobe háborúja",
+    "poster": "https://image.tmdb.org/t/p/w500/zK3YcsuE1Kf5KFLUFUGjR5eMHr6.jpg",
     "posterShape": "poster",
-    "year": 1988,
-    "description": "Jacques rendkívüli rokonságban van az óceánnal, szokatlanul hosszú ideig képes lélegzet nélkül a víz alatt tartózkodni. Gyermekkori barátja és vetélytársa, Enzo, aki már a szabad merülés világbajnoka, versenyre hívja. Küzdelmük, vonzódásuk visszahívó erejű vágyakozásuk tárgya mindig ugyanaz: A  Nagy Kékség.",
-    "imdbRating": 7.4,
-    "releaseInfo": "1988",
+    "year": 1996,
+    "description": "Jonathan Walker, a Virtual nevű cég vezetője újra életre kelti Jobe-ot, az együgyű kertészből lett zsenit, azzal a céllal, hogy készítsen egy különleges chipet, ami a világ összes számítógépét összeköti, és a virtuális világon keresztül átvehetné a hatalmat. Walker nem tudja, hogy egy csapat fiatal hacker a nyomában van és meg akarja akadályozni a gonosz terv megvalósulását. Peternek és társainak azonban Jobe-bal is szembe kell szállniuk, ugyanis a krion-chip segítségével olyan hatalomra tehet szert, amivel a virtuális valóságon keresztül irányíthatja a világot.",
+    "imdbRating": 3.3,
+    "releaseInfo": "1996",
     "genres": [
-      "Romantikus",
-      "Kaland",
-      "Dráma"
+      "Sci-Fi",
+      "Horror",
+      "Akció",
+      "Thriller"
     ],
     "seeders": 37
+  },
+  {
+    "id": "tt0082045",
+    "type": "movie",
+    "name": "Banános Joe",
+    "poster": "https://image.tmdb.org/t/p/w500/1WmUC60XB1FGD2twZju26mOLimZ.jpg",
+    "posterShape": "poster",
+    "year": 1982,
+    "description": "Banános Joe balszerencséjére a helyi maffia ráteszi a kezét a banánkereskedelemre. Joe nem hagyja magát, és úgy dönt, üzletéhez megszerzi az összes hivatalos papírt. Ám a városban szerelmes lesz egy énekesnőbe, besorozzák a hadseregbe, ráadásul hiába szerzi meg az áhított engedélyt, börtönbe csukják. Amikor hazatér, döbbenten tapasztalja, hogy otthonából modern, korrupt maffiaközpont lett. Joe a sarkára áll, és alaposan móresre tanítja a bűnözőket.",
+    "imdbRating": 6.7,
+    "releaseInfo": "1982",
+    "genres": [
+      "Akció",
+      "Vígjáték"
+    ],
+    "seeders": 73
   },
   {
     "id": "tt36589671",
@@ -79,7 +114,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 229
+    "seeders": 243
   },
   {
     "id": "tt0321440",
@@ -94,7 +129,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 125
+    "seeders": 144
   },
   {
     "id": "tt4627382",
@@ -111,7 +146,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 186
+    "seeders": 232
   },
   {
     "id": "tt14181714",
@@ -127,22 +162,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1091
+    "seeders": 1225
   },
   {
-    "id": "tt1931602",
+    "id": "tt0095250",
     "type": "movie",
-    "name": "Nagyon jó lányok",
-    "poster": "https://image.tmdb.org/t/p/w500/c0wwOVRxAUFJa070P5dnTppjmn0.jpg",
+    "name": "A nagy kékség",
+    "poster": "https://image.tmdb.org/t/p/w500/6KTURqWkmPlAzweW3truMrYh1vC.jpg",
     "posterShape": "poster",
-    "year": 2013,
-    "description": "Két New York-i barátnő megegyeznek, hogy a soron következő nyár során mindketten elvesztik a szüzességüket. Odáig el is jutnak, hogy szerelembe esnek, csakhogy mindketten ugyanabba a srácba. Barátságuk most először igazán nagy veszélybe kerül.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2013",
+    "year": 1988,
+    "description": "Jacques rendkívüli rokonságban van az óceánnal, szokatlanul hosszú ideig képes lélegzet nélkül a víz alatt tartózkodni. Gyermekkori barátja és vetélytársa, Enzo, aki már a szabad merülés világbajnoka, versenyre hívja. Küzdelmük, vonzódásuk visszahívó erejű vágyakozásuk tárgya mindig ugyanaz: A  Nagy Kékség.",
+    "imdbRating": 7.4,
+    "releaseInfo": "1988",
     "genres": [
+      "Romantikus",
+      "Kaland",
       "Dráma"
     ],
-    "seeders": 66
+    "seeders": 40
   },
   {
     "id": "tt23172090",
@@ -159,24 +196,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 534
-  },
-  {
-    "id": "tt14813150",
-    "type": "movie",
-    "name": "Manodrome",
-    "poster": "https://image.tmdb.org/t/p/w500/nSAqIzuCqCQAt3HFsHwiffFSj96.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Ralphie fiatal és egészséges, és van egy barátnője, akivel éppen babát várnak. Mégis úgy tűnik, valami nem stimmel nála. Uber-sofőr munkája nem elégíti ki, anyagilag sem áll biztos lábakon, és a saját testéhez való viszonya is furcsa. Amikor találkozik egy titokzatos libertárius férficsoport karizmatikus vezetőjével, felszínre törnek a benne felgyülemlett feszültségek. Ralphie kezdi elveszíteni kapcsolatát a valósággal...",
-    "imdbRating": 4.9,
-    "releaseInfo": "2023",
-    "genres": [
-      "Rejtély",
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 117
+    "seeders": 585
   },
   {
     "id": "tt15782690",
@@ -193,7 +213,72 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 379
+    "seeders": 416
+  },
+  {
+    "id": "tt1931602",
+    "type": "movie",
+    "name": "Nagyon jó lányok",
+    "poster": "https://image.tmdb.org/t/p/w500/c0wwOVRxAUFJa070P5dnTppjmn0.jpg",
+    "posterShape": "poster",
+    "year": 2013,
+    "description": "Két New York-i barátnő megegyeznek, hogy a soron következő nyár során mindketten elvesztik a szüzességüket. Odáig el is jutnak, hogy szerelembe esnek, csakhogy mindketten ugyanabba a srácba. Barátságuk most először igazán nagy veszélybe kerül.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2013",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 71
+  },
+  {
+    "id": "tt14813150",
+    "type": "movie",
+    "name": "Manodrome",
+    "poster": "https://image.tmdb.org/t/p/w500/nSAqIzuCqCQAt3HFsHwiffFSj96.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Ralphie fiatal és egészséges, és van egy barátnője, akivel éppen babát várnak. Mégis úgy tűnik, valami nem stimmel nála. Uber-sofőr munkája nem elégíti ki, anyagilag sem áll biztos lábakon, és a saját testéhez való viszonya is furcsa. Amikor találkozik egy titokzatos libertárius férficsoport karizmatikus vezetőjével, felszínre törnek a benne felgyülemlett feszültségek. Ralphie kezdi elveszíteni kapcsolatát a valósággal...",
+    "imdbRating": 4.9,
+    "releaseInfo": "2023",
+    "genres": [
+      "Rejtély",
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 128
+  },
+  {
+    "id": "tt32439773",
+    "type": "movie",
+    "name": "El secreto del orfebre",
+    "poster": "https://image.tmdb.org/t/p/w500/sPW9fszYL0EG7YJW4NwvnAZbfuq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 182
+  },
+  {
+    "id": "tt0085601",
+    "type": "movie",
+    "name": "Nyomás utána!",
+    "poster": "https://image.tmdb.org/t/p/w500/cSs4XOShMcqJS9cDnFtYcci2QKh.jpg",
+    "posterShape": "poster",
+    "year": 1983,
+    "description": "A humorral és izgalommal átszőtt film az immár klasszikusnak számító páros, Bud Spencer és Terence Hill stílusában készült. Rosco, a jóképű, munkanélküli vagány alkalomadtán hasbeszéléssel szórakoztatja önmagát és környezetét. Éppen stoppol az út mentén, amikor kis híján elgázolja egy kamion. Sürgősen felkeresi a legközelebbi kocsmát, ahol vélhetőleg a kamionos megpihent. Itt iszogat éppen Doug, a megtermett kalandor, aki nem ijed meg sem a saját árnyékától, sem egy kis verekedéstől. Nem kell sokat várni, hamarosan elcsattannak az első pofonok.",
+    "imdbRating": 7.0,
+    "releaseInfo": "1983",
+    "genres": [
+      "Kaland",
+      "Akció",
+      "Vígjáték"
+    ],
+    "seeders": 88
   },
   {
     "id": "tt1772230",
@@ -215,39 +300,6 @@
     "seeders": 48
   },
   {
-    "id": "tt32439773",
-    "type": "movie",
-    "name": "El secreto del orfebre",
-    "poster": "https://image.tmdb.org/t/p/w500/sPW9fszYL0EG7YJW4NwvnAZbfuq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 165
-  },
-  {
-    "id": "tt0085601",
-    "type": "movie",
-    "name": "Nyomás utána!",
-    "poster": "https://image.tmdb.org/t/p/w500/cSs4XOShMcqJS9cDnFtYcci2QKh.jpg",
-    "posterShape": "poster",
-    "year": 1983,
-    "description": "A humorral és izgalommal átszőtt film az immár klasszikusnak számító páros, Bud Spencer és Terence Hill stílusában készült. Rosco, a jóképű, munkanélküli vagány alkalomadtán hasbeszéléssel szórakoztatja önmagát és környezetét. Éppen stoppol az út mentén, amikor kis híján elgázolja egy kamion. Sürgősen felkeresi a legközelebbi kocsmát, ahol vélhetőleg a kamionos megpihent. Itt iszogat éppen Doug, a megtermett kalandor, aki nem ijed meg sem a saját árnyékától, sem egy kis verekedéstől. Nem kell sokat várni, hamarosan elcsattannak az első pofonok.",
-    "imdbRating": 7.0,
-    "releaseInfo": "1983",
-    "genres": [
-      "Kaland",
-      "Akció",
-      "Vígjáték"
-    ],
-    "seeders": 81
-  },
-  {
     "id": "tt17279496",
     "type": "movie",
     "name": "Polgárháború",
@@ -262,7 +314,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 298
+    "seeders": 340
   },
   {
     "id": "tt32151255",
@@ -278,23 +330,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 132
-  },
-  {
-    "id": "tt0099810",
-    "type": "movie",
-    "name": "Vadászat a Vörös Októberre",
-    "poster": "https://image.tmdb.org/t/p/w500/4GxzSYL7Ajk5VjicJ2tp6RtKYS0.jpg",
-    "posterShape": "poster",
-    "year": 1990,
-    "description": "A Vörös Október, a legújabb, szupertechnikával felszerelt szovjet atomtengeralattjáró az Egyesült Államok partjai felé tart. Az amerikai kormány attól fél, hogy akcióra készül. Egyedül Jack Ryan, a CIA szakértője gondolja, hogy az atom-tengeralattjáró litván parancsnoka dezertálni akar. A valóság még cifrább: Ramius kapitány át akarja játszani a modern hadieszközt az amerikaiaknak, hogy a szovjetek ne kerüljenek egyoldalú fölénybe. Az USA hírszerzése támadásként értelmezi a gépóriás mozgását, s beindítja ellene hadigépezetét, miközben a szökést sejtő oroszok is üldözőbe veszik a tengeralattjárót. A parancsnoknak minden leleményességét össze kell szednie, hogy kivághassa magát a kettős szorításból...",
-    "imdbRating": 7.4,
-    "releaseInfo": "1990",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 95
+    "seeders": 137
   },
   {
     "id": "tt7149730",
@@ -311,55 +347,7 @@
       "Akció",
       "Bűnügyi"
     ],
-    "seeders": 189
-  },
-  {
-    "id": "tt0176666",
-    "type": "movie",
-    "name": "Az 51-es dosszié",
-    "poster": "https://image.tmdb.org/t/p/w500/9Gzv3s2heDvwESo8oYQSm0w3V3.jpg",
-    "posterShape": "poster",
-    "year": 1978,
-    "description": "1969-ben jelent meg Gilles Perrault regénye, amelynek filmadaptációját kilenc év múlva Michel Deville készítette el. A titkosszolgálatok technikai eszközei a regény megírása óta bámulatosan módon fejlődtek, de a módszer ugyanolyan embertelen, mondhatni viviszekcióra emlékeztet. Nehéz lehetett a filmet elkészíteni, mert a regény minden oldala egy-egy ügynöki jelentés, ennek ellenére sikerült a könyv mondanivalóját maradéktalanul visszaidézni. Dominique Auphal, francia diplomata valahol Afrikában teljesít szolgálatot. Ügynökök veszik körül, egy titokzatos kémszervezet tagjai, akik a megfigyelt személyt az 51-es számmal jelölik. Céljuk az, hogy megtudják, miképpen lehet behálózni és „használhatóvá” tenni.",
-    "imdbRating": 6.4,
-    "releaseInfo": "1978",
-    "genres": [
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 96
-  },
-  {
-    "id": "tt29497429",
-    "type": "movie",
-    "name": "Fura hal",
-    "poster": "https://image.tmdb.org/t/p/w500/AkU0yPyfMZUj0YNtjDPSMFeQ83o.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Amikor két gyerekkori barát váratlan lehetőséget kap arra, hogy egész évben nyitva tartsák haléttermüket, egyikük transz nőként bújik elő a szekrényből, ami megterheli barátságukat, és új megvilágításba helyezi az életüket.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 117
-  },
-  {
-    "id": "tt10303332",
-    "type": "movie",
-    "name": "Szimbiózis",
-    "poster": "https://image.tmdb.org/t/p/w500/3joTybZwdKAMjWavjzVWUumBBio.jpg",
-    "posterShape": "poster",
-    "year": 2019,
-    "description": "Andrasev Nadja rendezőnő egyszerre kifinomult és húsba maróan őszinte önéletrajzi ihletésű történetének a főhőse egy megcsalt nő, aki nyomozni kezd férje szeretői után, azonban a féltékenységet felváltja a kíváncsiság, és különös kapcsolatot épít ki hűtlen társa szeretőivel.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2019",
-    "genres": [
-      "Animációs",
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 92
+    "seeders": 207
   },
   {
     "id": "tt5742374",
@@ -376,7 +364,71 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 113
+    "seeders": 134
+  },
+  {
+    "id": "tt0099810",
+    "type": "movie",
+    "name": "Vadászat a Vörös Októberre",
+    "poster": "https://image.tmdb.org/t/p/w500/4GxzSYL7Ajk5VjicJ2tp6RtKYS0.jpg",
+    "posterShape": "poster",
+    "year": 1990,
+    "description": "A Vörös Október, a legújabb, szupertechnikával felszerelt szovjet atomtengeralattjáró az Egyesült Államok partjai felé tart. Az amerikai kormány attól fél, hogy akcióra készül. Egyedül Jack Ryan, a CIA szakértője gondolja, hogy az atom-tengeralattjáró litván parancsnoka dezertálni akar. A valóság még cifrább: Ramius kapitány át akarja játszani a modern hadieszközt az amerikaiaknak, hogy a szovjetek ne kerüljenek egyoldalú fölénybe. Az USA hírszerzése támadásként értelmezi a gépóriás mozgását, s beindítja ellene hadigépezetét, miközben a szökést sejtő oroszok is üldözőbe veszik a tengeralattjárót. A parancsnoknak minden leleményességét össze kell szednie, hogy kivághassa magát a kettős szorításból...",
+    "imdbRating": 7.4,
+    "releaseInfo": "1990",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 100
+  },
+  {
+    "id": "tt29497429",
+    "type": "movie",
+    "name": "Fura hal",
+    "poster": "https://image.tmdb.org/t/p/w500/AkU0yPyfMZUj0YNtjDPSMFeQ83o.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Amikor két gyerekkori barát váratlan lehetőséget kap arra, hogy egész évben nyitva tartsák haléttermüket, egyikük transz nőként bújik elő a szekrényből, ami megterheli barátságukat, és új megvilágításba helyezi az életüket.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 124
+  },
+  {
+    "id": "tt0176666",
+    "type": "movie",
+    "name": "Az 51-es dosszié",
+    "poster": "https://image.tmdb.org/t/p/w500/9Gzv3s2heDvwESo8oYQSm0w3V3.jpg",
+    "posterShape": "poster",
+    "year": 1978,
+    "description": "1969-ben jelent meg Gilles Perrault regénye, amelynek filmadaptációját kilenc év múlva Michel Deville készítette el. A titkosszolgálatok technikai eszközei a regény megírása óta bámulatosan módon fejlődtek, de a módszer ugyanolyan embertelen, mondhatni viviszekcióra emlékeztet. Nehéz lehetett a filmet elkészíteni, mert a regény minden oldala egy-egy ügynöki jelentés, ennek ellenére sikerült a könyv mondanivalóját maradéktalanul visszaidézni. Dominique Auphal, francia diplomata valahol Afrikában teljesít szolgálatot. Ügynökök veszik körül, egy titokzatos kémszervezet tagjai, akik a megfigyelt személyt az 51-es számmal jelölik. Céljuk az, hogy megtudják, miképpen lehet behálózni és „használhatóvá” tenni.",
+    "imdbRating": 6.4,
+    "releaseInfo": "1978",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 101
+  },
+  {
+    "id": "tt10303332",
+    "type": "movie",
+    "name": "Szimbiózis",
+    "poster": "https://image.tmdb.org/t/p/w500/3joTybZwdKAMjWavjzVWUumBBio.jpg",
+    "posterShape": "poster",
+    "year": 2019,
+    "description": "Andrasev Nadja rendezőnő egyszerre kifinomult és húsba maróan őszinte önéletrajzi ihletésű történetének a főhőse egy megcsalt nő, aki nyomozni kezd férje szeretői után, azonban a féltékenységet felváltja a kíváncsiság, és különös kapcsolatot épít ki hűtlen társa szeretőivel.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2019",
+    "genres": [
+      "Animációs",
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt28793125",
@@ -393,7 +445,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 471
+    "seeders": 501
   },
   {
     "id": "tt0085327",
@@ -410,38 +462,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 112
-  },
-  {
-    "id": "tt3811986",
-    "type": "movie",
-    "name": "Kölcsön család",
-    "poster": "https://image.tmdb.org/t/p/w500/wVcM3eBWQQngGZxexCjrtyHZ4Cb.jpg",
-    "posterShape": "poster",
-    "year": 2015,
-    "description": "Paul-André félénk és introvertált negyvenes. Gazdag, de magányos, és mivel elege van az életből, úgy dönt, hogy családra van szüksége. Violette szintén a negyvenes éveiben jár, és tele van élettel, de anyagi gondjai miatt elveszítheti az otthonát, sőt a családját is. Ezért Paul-André őrült ajánlatot tesz neki: bérbe veszi Violette családját, cserébe pedig kifizeti az adósságait. Végre kipróbálhatja a családi élet igazi örömét... jóban-rosszban!",
-    "imdbRating": 5.2,
-    "releaseInfo": "2015",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 75
-  },
-  {
-    "id": "tt37800570",
-    "type": "movie",
-    "name": "Külvárosi utak 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/chivRgMyevpLUDfLIokY9aTomRu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután szembenéztek bűneik következményeivel, a Traoré fivérek kapnak még egy utolsó esélyt, hogy jobb útra térjenek a trilógia zárófejezetében.",
-    "imdbRating": 4.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 86
+    "seeders": 118
   },
   {
     "id": "tt35727399",
@@ -458,24 +479,7 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 98
-  },
-  {
-    "id": "tt20414360",
-    "type": "movie",
-    "name": "Köln 75",
-    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Zenei"
-    ],
-    "seeders": 119
+    "seeders": 108
   },
   {
     "id": "tt20112600",
@@ -491,6 +495,6 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 200
+    "seeders": 213
   }
 ]
