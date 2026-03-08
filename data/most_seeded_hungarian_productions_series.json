@@ -12,24 +12,27 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999991
+"seeders": 999991,
+"latest_season": null,
+"latest_episode": null
 },
 {
-"id": "tt12211774",
+"id": "tt6445410",
 "type": "series",
-"name": "Cápák között",
-"poster": "https://image.tmdb.org/t/p/w500/3dvTrpnVx2KxrJHw2y6C0Jrfikh.jpg",
+"name": "A mi kis falunk (S10E01)",
+"poster": "https://image.tmdb.org/t/p/w500/dR3Op6l0SyBb6XthoOZGmzbus0S.jpg",
 "posterShape": "poster",
-"year": 2019,
-"description": "Igazi világsiker az RTL Klubon! Olyan műsor hazai változata kerül képernyőre, mely az elmúlt másfél évtizedben már meghódította Angliát, Amerikát, Ausztráliát és Kanadát…\n\nAz izgalmas show-műsor 5 főszereplője - Tomán Szabina, Balogh Levente, Balogh Péter, Fehér Gyula, Moldován András - a Cápák, akik a pénzügyi világ valódi sztárjai. Elképesztően gazdag és sikeres üzletemberek, kíméletlen döntéshozók, akik egy tévéműsorban is kizárólag a legígéretesebb befektetésekbe szállnak be.",
-"imdbRating": "8.0",
-"releaseInfo": "2019",
+"year": 2017,
+"description": "🆕 Legújabb epizód: S10E01\n\nA sorozat egy kis falu mulatságos hétköznapjait mutatja be olyan karakterek segítségével, akikkel csak és kizárólag itt találkozhatunk: egy ügyeskedő polgármester és kultúrharcos asszisztense, egy testépítő pap, egy szexi kocsmáros, egy féleszű rendőr, egy rezignált körzeti orvos és egy playboy foci edző.",
+"imdbRating": "8.6",
+"releaseInfo": "2017",
 "genres": [
-"Reality",
-"Talk",
-"Dráma"
+"Családi",
+"Vígjáték"
 ],
-"seeders": 999990
+"seeders": 999990,
+"latest_season": 10,
+"latest_episode": 1
 },
 {
 "id": "tt35666801",
@@ -45,7 +48,28 @@
 "Dráma",
 "Dokumentum"
 ],
-"seeders": 999989
+"seeders": 999989,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt12211774",
+"type": "series",
+"name": "Cápák között (S09E09)",
+"poster": "https://image.tmdb.org/t/p/w500/3dvTrpnVx2KxrJHw2y6C0Jrfikh.jpg",
+"posterShape": "poster",
+"year": 2019,
+"description": "🆕 Legújabb epizód: S09E09\n\nIgazi világsiker az RTL Klubon! Olyan műsor hazai változata kerül képernyőre, mely az elmúlt másfél évtizedben már meghódította Angliát, Amerikát, Ausztráliát és Kanadát…\n\nAz izgalmas show-műsor 5 főszereplője - Tomán Szabina, Balogh Levente, Balogh Péter, Fehér Gyula, Moldován András - a Cápák, akik a pénzügyi világ valódi sztárjai. Elképesztően gazdag és sikeres üzletemberek, kíméletlen döntéshozók, akik egy tévéműsorban is kizárólag a legígéretesebb befektetésekbe szállnak be.",
+"imdbRating": "8.0",
+"releaseInfo": "2019",
+"genres": [
+"Reality",
+"Talk",
+"Dráma"
+],
+"seeders": 999978,
+"latest_season": 9,
+"latest_episode": 9
 },
 {
 "id": "tt38915987",
@@ -60,22 +84,9 @@
 "genres": [
 "Reality"
 ],
-"seeders": 999976
-},
-{
-"id": "tt35114768",
-"type": "series",
-"name": "Pokoli rokonok",
-"poster": "https://image.tmdb.org/t/p/w500/hBruwZpLN9rcYCMvmmYbgHwWHwi.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "A milliomos Guba Antal és családja egy rosszul sikerült üzlet miatt kénytelenek elköltözni egy eldugott, Pantallós nevű településre. Itt beköltöznek Antal szüleinek romos lakatlan házába és belecsöppennek a község rivális családjai hatalmi játszmáiba.",
-"imdbRating": "8.5",
-"releaseInfo": "2025",
-"genres": [
-"Dráma"
-],
-"seeders": 999973
+"seeders": 999976,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt23752726",
@@ -92,7 +103,26 @@
 "Dokumentum",
 "Bűnügyi"
 ],
-"seeders": 999966
+"seeders": 999966,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt35114768",
+"type": "series",
+"name": "Pokoli rokonok (S02E55)",
+"poster": "https://image.tmdb.org/t/p/w500/hBruwZpLN9rcYCMvmmYbgHwWHwi.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "🆕 Legújabb epizód: S02E55\n\nA milliomos Guba Antal és családja egy rosszul sikerült üzlet miatt kénytelenek elköltözni egy eldugott, Pantallós nevű településre. Itt beköltöznek Antal szüleinek romos lakatlan házába és belecsöppennek a község rivális családjai hatalmi játszmáiba.",
+"imdbRating": "8.5",
+"releaseInfo": "2025",
+"genres": [
+"Dráma"
+],
+"seeders": 999953,
+"latest_season": 2,
+"latest_episode": 55
 },
 {
 "id": "tt5099020",
@@ -108,23 +138,26 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999953
+"seeders": 999953,
+"latest_season": null,
+"latest_episode": null
 },
 {
-"id": "tt6445410",
+"id": "tt11056626",
 "type": "series",
-"name": "A mi kis falunk",
-"poster": "https://image.tmdb.org/t/p/w500/dR3Op6l0SyBb6XthoOZGmzbus0S.jpg",
+"name": "Séfek séfe (S07E08)",
+"poster": "https://image.tmdb.org/t/p/w500/eiLkMhKIYUSb0ta0Bcbdnpe6jbQ.jpg",
 "posterShape": "poster",
 "year": 2017,
-"description": "A sorozat egy kis falu mulatságos hétköznapjait mutatja be olyan karakterek segítségével, akikkel csak és kizárólag itt találkozhatunk: egy ügyeskedő polgármester és kultúrharcos asszisztense, egy testépítő pap, egy szexi kocsmáros, egy féleszű rendőr, egy rezignált körzeti orvos és egy playboy foci edző.",
-"imdbRating": "8.6",
+"description": "🆕 Legújabb epizód: S07E08\n\nA formátum eredetije a Game of Chefs, amely a TV2 képernyőjén Séfek séfe címmel kerül adásba, Liptai Claudia műsorvezetésével. A gasztro-tehetségkutatóban amatőr és profi szakácsok próbálják meggyőzni a műsor három profi séfjét, Wolf Andrást, Vomberg Frigyest és Krausz Gábort. Bárki jelentkezhetett, aki elmúlt 16 éves. Amatőrök és szakmabeliek egyaránt lehetőséget kaptak arra, hogy megmérettessék magukat a konyhában.\n\nA jelentkezők munkáját három szakmailag elismert, neves séf értékeli, majd a legjobb 18 versenyző kiválasztása után csapatokba rendeződve mentorálják újdonsült tanítványaikat. Amellett pedig, hogy a konyhaművészet minden fortélyát igyekeznek megtanítani mentoráltjaiknak, azért is küzdenek, hogy az ő csapatukból kerüljön ki a győztes, a Séfek Séfe.",
+"imdbRating": "0.0",
 "releaseInfo": "2017",
 "genres": [
-"Családi",
-"Vígjáték"
+"Reality"
 ],
-"seeders": 999947
+"seeders": 999947,
+"latest_season": 7,
+"latest_episode": 8
 },
 {
 "id": "tt11993736",
@@ -140,7 +173,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999942
+"seeders": 999942,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt38794569",
@@ -155,7 +190,9 @@
 "genres": [
 "Reality"
 ],
-"seeders": 999928
+"seeders": 999928,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt36936691",
@@ -168,7 +205,9 @@
 "imdbRating": "0.0",
 "releaseInfo": "2026",
 "genres": [],
-"seeders": 999914
+"seeders": 999914,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0159924",
@@ -184,7 +223,9 @@
 "Családi",
 "Action & Adventure"
 ],
-"seeders": 999907
+"seeders": 999907,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0129719",
@@ -200,7 +241,9 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999897
+"seeders": 999897,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0134203",
@@ -215,7 +258,9 @@
 "genres": [
 "Animációs"
 ],
-"seeders": 999867
+"seeders": 999867,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0133312",
@@ -230,7 +275,9 @@
 "genres": [
 "Animációs"
 ],
-"seeders": 999855
+"seeders": 999855,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2257665",
@@ -245,7 +292,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999850
+"seeders": 999850,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0149410",
@@ -261,7 +310,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999841
+"seeders": 999841,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2152566",
@@ -276,7 +327,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999818
+"seeders": 999818,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt19177348",
@@ -291,7 +344,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999746
+"seeders": 999746,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8108134",
@@ -307,7 +362,9 @@
 "Vígjáték",
 "Dráma"
 ],
-"seeders": 999716
+"seeders": 999716,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt12430156",
@@ -322,7 +379,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999706
+"seeders": 999706,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt27663673",
@@ -337,7 +396,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999696
+"seeders": 999696,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10644236",
@@ -350,6 +411,8 @@
 "imdbRating": "1.0",
 "releaseInfo": "2007",
 "genres": [],
-"seeders": 999688
+"seeders": 999688,
+"latest_season": null,
+"latest_episode": null
 }
 ]

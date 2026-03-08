@@ -13,7 +13,9 @@
 "Action & Adventure",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 1000000
+"seeders": 1000000,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt27497448",
@@ -30,7 +32,9 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999999
+"seeders": 999999,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13623632",
@@ -46,7 +50,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999998
+"seeders": 999998,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt14186672",
@@ -61,7 +67,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999997
+"seeders": 999997,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt4574334",
@@ -78,7 +86,9 @@
 "Rejtély",
 "Action & Adventure"
 ],
-"seeders": 999996
+"seeders": 999996,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt31510819",
@@ -94,7 +104,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999995
+"seeders": 999995,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2861424",
@@ -112,7 +124,9 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999994
+"seeders": 999994,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13016388",
@@ -129,7 +143,9 @@
 "Rejtély",
 "Dráma"
 ],
-"seeders": 999993
+"seeders": 999993,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt16358384",
@@ -146,7 +162,9 @@
 "Dráma",
 "Vígjáték"
 ],
-"seeders": 999992
+"seeders": 999992,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt24577940",
@@ -161,24 +179,27 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999991
+"seeders": 999991,
+"latest_season": null,
+"latest_episode": null
 },
 {
-"id": "tt12211774",
+"id": "tt6445410",
 "type": "series",
-"name": "Cápák között",
-"poster": "https://image.tmdb.org/t/p/w500/3dvTrpnVx2KxrJHw2y6C0Jrfikh.jpg",
+"name": "A mi kis falunk (S10E01)",
+"poster": "https://image.tmdb.org/t/p/w500/dR3Op6l0SyBb6XthoOZGmzbus0S.jpg",
 "posterShape": "poster",
-"year": 2019,
-"description": "Igazi világsiker az RTL Klubon! Olyan műsor hazai változata kerül képernyőre, mely az elmúlt másfél évtizedben már meghódította Angliát, Amerikát, Ausztráliát és Kanadát…\n\nAz izgalmas show-műsor 5 főszereplője - Tomán Szabina, Balogh Levente, Balogh Péter, Fehér Gyula, Moldován András - a Cápák, akik a pénzügyi világ valódi sztárjai. Elképesztően gazdag és sikeres üzletemberek, kíméletlen döntéshozók, akik egy tévéműsorban is kizárólag a legígéretesebb befektetésekbe szállnak be.",
-"imdbRating": "8.0",
-"releaseInfo": "2019",
+"year": 2017,
+"description": "🆕 Legújabb epizód: S10E01\n\nA sorozat egy kis falu mulatságos hétköznapjait mutatja be olyan karakterek segítségével, akikkel csak és kizárólag itt találkozhatunk: egy ügyeskedő polgármester és kultúrharcos asszisztense, egy testépítő pap, egy szexi kocsmáros, egy féleszű rendőr, egy rezignált körzeti orvos és egy playboy foci edző.",
+"imdbRating": "8.6",
+"releaseInfo": "2017",
 "genres": [
-"Reality",
-"Talk",
-"Dráma"
+"Családi",
+"Vígjáték"
 ],
-"seeders": 999990
+"seeders": 999990,
+"latest_season": 10,
+"latest_episode": 1
 },
 {
 "id": "tt35666801",
@@ -194,7 +215,9 @@
 "Dráma",
 "Dokumentum"
 ],
-"seeders": 999989
+"seeders": 999989,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13443470",
@@ -211,7 +234,9 @@
 "Rejtély",
 "Vígjáték"
 ],
-"seeders": 999988
+"seeders": 999988,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8740790",
@@ -226,7 +251,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999987
+"seeders": 999987,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt21066182",
@@ -242,7 +269,9 @@
 "Vígjáték",
 "Dráma"
 ],
-"seeders": 999986
+"seeders": 999986,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8111088",
@@ -258,7 +287,27 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999985
+"seeders": 999985,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt36849871",
+"type": "series",
+"name": "Marshals: Egy Yellowstone történet (S01E01)",
+"poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "🆕 Legújabb epizód: S01E01\n\nMiután maga mögött hagyta a Yellowstone Ranchot, Kayce Dutton az Egyesült Államok Marsallszolgálatának elit alakulatához csatlakozik, hogy cowboyként és a haditengerészet különleges egységének tagjaként szerzett képességeit egyesítve szolgáltasson igazságot Montanában.",
+"imdbRating": "8.0",
+"releaseInfo": "2026",
+"genres": [
+"Dráma",
+"Western"
+],
+"seeders": 999985,
+"latest_season": 1,
+"latest_episode": 1
 },
 {
 "id": "tt19244304",
@@ -274,7 +323,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999984
+"seeders": 999984,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt28104766",
@@ -289,7 +340,9 @@
 "genres": [
 "Reality"
 ],
-"seeders": 999983
+"seeders": 999983,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5180504",
@@ -305,7 +358,9 @@
 "Dráma",
 "Action & Adventure"
 ],
-"seeders": 999982
+"seeders": 999982,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9288030",
@@ -322,7 +377,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999981
+"seeders": 999981,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13622776",
@@ -339,7 +396,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999980
+"seeders": 999980,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt7631058",
@@ -356,7 +415,28 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999979
+"seeders": 999979,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt12211774",
+"type": "series",
+"name": "Cápák között (S09E09)",
+"poster": "https://image.tmdb.org/t/p/w500/3dvTrpnVx2KxrJHw2y6C0Jrfikh.jpg",
+"posterShape": "poster",
+"year": 2019,
+"description": "🆕 Legújabb epizód: S09E09\n\nIgazi világsiker az RTL Klubon! Olyan műsor hazai változata kerül képernyőre, mely az elmúlt másfél évtizedben már meghódította Angliát, Amerikát, Ausztráliát és Kanadát…\n\nAz izgalmas show-műsor 5 főszereplője - Tomán Szabina, Balogh Levente, Balogh Péter, Fehér Gyula, Moldován András - a Cápák, akik a pénzügyi világ valódi sztárjai. Elképesztően gazdag és sikeres üzletemberek, kíméletlen döntéshozók, akik egy tévéműsorban is kizárólag a legígéretesebb befektetésekbe szállnak be.",
+"imdbRating": "8.0",
+"releaseInfo": "2019",
+"genres": [
+"Reality",
+"Talk",
+"Dráma"
+],
+"seeders": 999978,
+"latest_season": 9,
+"latest_episode": 9
 },
 {
 "id": "tt3581920",
@@ -371,7 +451,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999978
+"seeders": 999978,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2085059",
@@ -388,7 +470,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999977
+"seeders": 999977,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt38915987",
@@ -403,7 +487,9 @@
 "genres": [
 "Reality"
 ],
-"seeders": 999976
+"seeders": 999976,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt7678620",
@@ -420,37 +506,9 @@
 "Vígjáték",
 "Kids"
 ],
-"seeders": 999975
-},
-{
-"id": "tt31938062",
-"type": "series",
-"name": "Vészhelyzet Pittsburghben",
-"poster": "https://image.tmdb.org/t/p/w500/bZF8YGo3MfxFwYAhpwfPjXegGoJ.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "A pittsburghi Trauma Medical Centerben éjjel-nappal azon dolgoznak, hogy életeket mentsenek a túlzsúfolt és alulfinanszírozott sürgősségi osztályon.",
-"imdbRating": "8.7",
-"releaseInfo": "2025",
-"genres": [
-"Dráma"
-],
-"seeders": 999974
-},
-{
-"id": "tt35114768",
-"type": "series",
-"name": "Pokoli rokonok",
-"poster": "https://image.tmdb.org/t/p/w500/hBruwZpLN9rcYCMvmmYbgHwWHwi.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "A milliomos Guba Antal és családja egy rosszul sikerült üzlet miatt kénytelenek elköltözni egy eldugott, Pantallós nevű településre. Itt beköltöznek Antal szüleinek romos lakatlan házába és belecsöppennek a község rivális családjai hatalmi játszmáiba.",
-"imdbRating": "8.5",
-"releaseInfo": "2025",
-"genres": [
-"Dráma"
-],
-"seeders": 999973
+"seeders": 999975,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11126994",
@@ -466,7 +524,9 @@
 "Animációs",
 "Action & Adventure"
 ],
-"seeders": 999972
+"seeders": 999972,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9561862",
@@ -482,7 +542,27 @@
 "Animációs",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999971
+"seeders": 999971,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt8599532",
+"type": "series",
+"name": "Az ifjú Sherlock",
+"poster": "https://image.tmdb.org/t/p/w500/sRCURI82D3TVQg16OMXS7z4TpE7.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Ismerje meg a legendás Sherlock Holmes első kalandjait Guy Ritchie könnyed, mégis akciódús sorozatában, amely az ikonikus nyomozó korai éveit mutatja be!",
+"imdbRating": "8.6",
+"releaseInfo": "2026",
+"genres": [
+"Action & Adventure",
+"Rejtély"
+],
+"seeders": 999971,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt7366338",
@@ -497,7 +577,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999970
+"seeders": 999970,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11198330",
@@ -514,7 +596,9 @@
 "Dráma",
 "Action & Adventure"
 ],
-"seeders": 999969
+"seeders": 999969,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10466872",
@@ -531,23 +615,9 @@
 "Dráma",
 "Action & Adventure"
 ],
-"seeders": 999968
-},
-{
-"id": "tt0121955",
-"type": "series",
-"name": "South Park",
-"poster": "https://image.tmdb.org/t/p/w500/yhHU8YLHHls2MUFRjpZ6yREmL6D.jpg",
-"posterShape": "poster",
-"year": 1997,
-"description": "Három évvel amerikai bemutatása után hazánkba is eljut a televíziózás történetének legfelforgatóbb rajzfilmje. Már az elején érdemes használati utasításként leszögezni a figyelemre méltó lényeget, amit a rajzfilm egyik alkotója megfogalmazott: \"A South Park világa annyira nyakatekert és szürreális, amennyire egy kilencéves iskolás gondolatvilága.\" A sorozat a felnőttek körében aratta legnagyobb sikereit. A történet szerint a coloradói sziklás hegységekben, a flúgos South Parkban élnek az első látásra ártatlan lurkók: Kyle, Kenny, Stan és Cartman. Stan a csapat vezére, őt ritkán merik megtréfálni társaik. A South Park vitákat generált a világon mindenütt, ahol bemutatták. Pedig csak egy rajzfilm. Igaz, kicsit másmilyen, mint amit megszoktunk.",
-"imdbRating": "8.3",
-"releaseInfo": "1997",
-"genres": [
-"Animációs",
-"Vígjáték"
-],
-"seeders": 999967
+"seeders": 999968,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt23752726",
@@ -564,39 +634,9 @@
 "Dokumentum",
 "Bűnügyi"
 ],
-"seeders": 999966
-},
-{
-"id": "tt8622160",
-"type": "series",
-"name": "Star Trek: Csillagflotta Akadémia",
-"poster": "https://image.tmdb.org/t/p/w500/zdRa9dcuPKij6kiDZDh3IJqEFQD.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "Az egymással barátkozó, rivalizáló és romantikázó fiatal kadétok a Csillagflotta tisztjeinek készülnek, mindeközben pedig egy, az Akadémiát és a Föderációt is fenyegető ellenséggel is szembe kell nézniük.",
-"imdbRating": "4.7",
-"releaseInfo": "2026",
-"genres": [
-"Sci-Fi & Fantasy",
-"Action & Adventure"
-],
-"seeders": 999965
-},
-{
-"id": "tt5645432",
-"type": "series",
-"name": "A nagy öreg",
-"poster": "https://image.tmdb.org/t/p/w500/yIXjKILfArrgfRjwCpJceuLz7rp.jpg",
-"posterShape": "poster",
-"year": 2022,
-"description": "Dan Chase évtizedekkel ezelőtt kereket oldott a CIA elől, és azóta a civilizációtól elszigetelten él. Amikor egy bérgyilkos érkezik, hogy kiiktassa őt, az öreg ügynöknek rá kell jönnie, hogy a jövője biztosításához el kell rendeznie a múltját.",
-"imdbRating": "7.2",
-"releaseInfo": "2022",
-"genres": [
-"Action & Adventure",
-"Dráma"
-],
-"seeders": 999964
+"seeders": 999966,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9253284",
@@ -613,7 +653,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999963
+"seeders": 999963,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1190634",
@@ -629,7 +671,9 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999962
+"seeders": 999962,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt7587890",
@@ -646,7 +690,26 @@
 "Dráma",
 "Vígjáték"
 ],
-"seeders": 999961
+"seeders": 999961,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt31938062",
+"type": "series",
+"name": "Vészhelyzet Pittsburghben (S02E09)",
+"poster": "https://image.tmdb.org/t/p/w500/bZF8YGo3MfxFwYAhpwfPjXegGoJ.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "🆕 Legújabb epizód: S02E09\n\nA pittsburghi Trauma Medical Centerben éjjel-nappal azon dolgoznak, hogy életeket mentsenek a túlzsúfolt és alulfinanszírozott sürgősségi osztályon.",
+"imdbRating": "8.7",
+"releaseInfo": "2025",
+"genres": [
+"Dráma"
+],
+"seeders": 999960,
+"latest_season": 2,
+"latest_episode": 9
 },
 {
 "id": "tt13210838",
@@ -663,7 +726,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999960
+"seeders": 999960,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0182576",
@@ -679,7 +744,9 @@
 "Animációs",
 "Vígjáték"
 ],
-"seeders": 999959
+"seeders": 999959,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2442560",
@@ -695,7 +762,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999958
+"seeders": 999958,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt24053860",
@@ -712,23 +781,26 @@
 "Action & Adventure",
 "Rejtély"
 ],
-"seeders": 999957
+"seeders": 999957,
+"latest_season": null,
+"latest_episode": null
 },
 {
-"id": "tt29921437",
+"id": "tt32493765",
 "type": "series",
-"name": "Spartacus: Ashur háza",
-"poster": "https://image.tmdb.org/t/p/w500/m0kHEs3PDU9JkHthYio0DTcQ9KJ.jpg",
+"name": "Dinoszauruszok",
+"poster": "https://image.tmdb.org/t/p/w500/x37IK9WWhuzi7tgyMT4ff3kiT5X.jpg",
 "posterShape": "poster",
-"year": 2025,
-"description": "A Spartacus franchise új fejezete azzal a kérdéssel foglalkozik: mi lett volna, ha Ashur nem hal meg a Vezúvnál? Mi történt volna, ha jutalmul megkapja Batiatus régi gladiátoriskoláját azért, mert segített a rómaiaknak Spartacus megölésében és a rabszolgafelkelés leverésében?",
-"imdbRating": "6.8",
-"releaseInfo": "2025",
+"year": 2026,
+"description": "Lenyűgöző dokumentumsorozat az első dinoszaurusztól az utolsóig eltelt 165 millió évről, valamint az evolúciójukat alakító erőkről.",
+"imdbRating": "7.6",
+"releaseInfo": "2026",
 "genres": [
-"Dráma",
-"Action & Adventure"
+"Dokumentum"
 ],
-"seeders": 999956
+"seeders": 999957,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt6741278",
@@ -746,7 +818,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999955
+"seeders": 999955,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt20600980",
@@ -763,7 +837,26 @@
 "Sci-Fi & Fantasy",
 "Családi"
 ],
-"seeders": 999954
+"seeders": 999954,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt35114768",
+"type": "series",
+"name": "Pokoli rokonok (S02E55)",
+"poster": "https://image.tmdb.org/t/p/w500/hBruwZpLN9rcYCMvmmYbgHwWHwi.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "🆕 Legújabb epizód: S02E55\n\nA milliomos Guba Antal és családja egy rosszul sikerült üzlet miatt kénytelenek elköltözni egy eldugott, Pantallós nevű településre. Itt beköltöznek Antal szüleinek romos lakatlan házába és belecsöppennek a község rivális családjai hatalmi játszmáiba.",
+"imdbRating": "8.5",
+"releaseInfo": "2025",
+"genres": [
+"Dráma"
+],
+"seeders": 999953,
+"latest_season": 2,
+"latest_episode": 55
 },
 {
 "id": "tt5099020",
@@ -779,7 +872,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999953
+"seeders": 999953,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0460649",
@@ -794,7 +889,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999952
+"seeders": 999952,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt3346438",
@@ -807,7 +904,9 @@
 "imdbRating": null,
 "releaseInfo": "2026",
 "genres": [],
-"seeders": 999951
+"seeders": 999951,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13833978",
@@ -823,7 +922,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999950
+"seeders": 999950,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt33043892",
@@ -840,7 +941,27 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999949
+"seeders": 999949,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt8622160",
+"type": "series",
+"name": "Star Trek: Csillagflotta Akadémia (S01E06)",
+"poster": "https://image.tmdb.org/t/p/w500/zdRa9dcuPKij6kiDZDh3IJqEFQD.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "🆕 Legújabb epizód: S01E06\n\nAz egymással barátkozó, rivalizáló és romantikázó fiatal kadétok a Csillagflotta tisztjeinek készülnek, mindeközben pedig egy, az Akadémiát és a Föderációt is fenyegető ellenséggel is szembe kell nézniük.",
+"imdbRating": "4.8",
+"releaseInfo": "2026",
+"genres": [
+"Sci-Fi & Fantasy",
+"Action & Adventure"
+],
+"seeders": 999948,
+"latest_season": 1,
+"latest_episode": 6
 },
 {
 "id": "tt9813792",
@@ -857,23 +978,26 @@
 "Dráma",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999948
+"seeders": 999948,
+"latest_season": null,
+"latest_episode": null
 },
 {
-"id": "tt6445410",
+"id": "tt11056626",
 "type": "series",
-"name": "A mi kis falunk",
-"poster": "https://image.tmdb.org/t/p/w500/dR3Op6l0SyBb6XthoOZGmzbus0S.jpg",
+"name": "Séfek séfe (S07E08)",
+"poster": "https://image.tmdb.org/t/p/w500/eiLkMhKIYUSb0ta0Bcbdnpe6jbQ.jpg",
 "posterShape": "poster",
 "year": 2017,
-"description": "A sorozat egy kis falu mulatságos hétköznapjait mutatja be olyan karakterek segítségével, akikkel csak és kizárólag itt találkozhatunk: egy ügyeskedő polgármester és kultúrharcos asszisztense, egy testépítő pap, egy szexi kocsmáros, egy féleszű rendőr, egy rezignált körzeti orvos és egy playboy foci edző.",
-"imdbRating": "8.6",
+"description": "🆕 Legújabb epizód: S07E08\n\nA formátum eredetije a Game of Chefs, amely a TV2 képernyőjén Séfek séfe címmel kerül adásba, Liptai Claudia műsorvezetésével. A gasztro-tehetségkutatóban amatőr és profi szakácsok próbálják meggyőzni a műsor három profi séfjét, Wolf Andrást, Vomberg Frigyest és Krausz Gábort. Bárki jelentkezhetett, aki elmúlt 16 éves. Amatőrök és szakmabeliek egyaránt lehetőséget kaptak arra, hogy megmérettessék magukat a konyhában.\n\nA jelentkezők munkáját három szakmailag elismert, neves séf értékeli, majd a legjobb 18 versenyző kiválasztása után csapatokba rendeződve mentorálják újdonsült tanítványaikat. Amellett pedig, hogy a konyhaművészet minden fortélyát igyekeznek megtanítani mentoráltjaiknak, azért is küzdenek, hogy az ő csapatukból kerüljön ki a győztes, a Séfek Séfe.",
+"imdbRating": "0.0",
 "releaseInfo": "2017",
 "genres": [
-"Családi",
-"Vígjáték"
+"Reality"
 ],
-"seeders": 999947
+"seeders": 999947,
+"latest_season": 7,
+"latest_episode": 8
 },
 {
 "id": "tt9140554",
@@ -889,7 +1013,9 @@
 "Dráma",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999946
+"seeders": 999946,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt12327578",
@@ -905,7 +1031,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999945
+"seeders": 999945,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0903747",
@@ -921,7 +1049,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999944
+"seeders": 999944,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13406094",
@@ -938,7 +1068,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999943
+"seeders": 999943,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11993736",
@@ -954,24 +1086,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999942
-},
-{
-"id": "tt31314791",
-"type": "series",
-"name": "The Copenhagen Test",
-"poster": "https://image.tmdb.org/t/p/w500/9NjLaKL5pa2m4whf4cHAgfhyIzc.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "Egy első generációs elemző rájön, hogy az agyát feltörték, és így hozzáférhet az érzékeihez. Az ügynökség és a hackerek közé szorulva normálisan viselkedik, hogy felfedje a tetteseket.",
-"imdbRating": "6.4",
-"releaseInfo": "2025",
-"genres": [
-"Action & Adventure",
-"Sci-Fi & Fantasy",
-"Rejtély"
-],
-"seeders": 999941
+"seeders": 999942,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt23897504",
@@ -989,7 +1106,9 @@
 "Bűnügyi",
 "Rejtély"
 ],
-"seeders": 999940
+"seeders": 999940,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt30412869",
@@ -1006,7 +1125,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999939
+"seeders": 999939,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt36674331",
@@ -1021,7 +1142,9 @@
 "genres": [
 "Dokumentum"
 ],
-"seeders": 999938
+"seeders": 999938,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13159924",
@@ -1038,7 +1161,9 @@
 "Dráma",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999937
+"seeders": 999937,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt31806037",
@@ -1054,7 +1179,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999936
+"seeders": 999936,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt33035373",
@@ -1071,7 +1198,9 @@
 "Bűnügyi",
 "Rejtély"
 ],
-"seeders": 999935
+"seeders": 999935,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8466564",
@@ -1088,7 +1217,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999934
+"seeders": 999934,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1399664",
@@ -1105,7 +1236,9 @@
 "Rejtély",
 "Bűnügyi"
 ],
-"seeders": 999933
+"seeders": 999933,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt18335752",
@@ -1121,23 +1254,9 @@
 "Dráma",
 "Western"
 ],
-"seeders": 999932
-},
-{
-"id": "tt33270420",
-"type": "series",
-"name": "PONIES",
-"poster": "https://image.tmdb.org/t/p/w500/rwKS6rSAqMGnXwBVteYkHxeDLWX.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "Moszkva, 1977. Két „PÓNI” (a hírszerzés számára érdektelen civil személy) névtelen titkárnőként dolgozik az amerikai nagykövetségen. Egészen addig, amíg férjeiket rejtélyes körülmények között megölik a Szovjetunióban. Ekkor a két nő CIA-ügynöknek áll. Bea szovjet bevándorlók túlképzett, oroszul beszélő gyermeke. Társa, Twila egy kisvárosi lány, aki éppoly nyers, mint amilyen rettenthetetlen. Együtt munkálkodnak egy hatalmas hidegháborús összeesküvés leleplezésén és férjeik meggyilkolásának megoldatlan rejtélyén.",
-"imdbRating": "7.0",
-"releaseInfo": "2026",
-"genres": [
-"Dráma",
-"Rejtély"
-],
-"seeders": 999931
+"seeders": 999932,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt37024136",
@@ -1154,7 +1273,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999930
+"seeders": 999930,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt12590266",
@@ -1172,7 +1293,9 @@
 "Dráma",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999929
+"seeders": 999929,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt38794569",
@@ -1187,7 +1310,9 @@
 "genres": [
 "Reality"
 ],
-"seeders": 999928
+"seeders": 999928,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13146488",
@@ -1204,7 +1329,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999927
+"seeders": 999927,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt4236770",
@@ -1220,7 +1347,9 @@
 "Western",
 "Dráma"
 ],
-"seeders": 999926
+"seeders": 999926,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt14164730",
@@ -1236,7 +1365,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999925
+"seeders": 999925,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt3230854",
@@ -1253,7 +1384,9 @@
 "Rejtély",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999924
+"seeders": 999924,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0898266",
@@ -1268,7 +1401,27 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999923
+"seeders": 999923,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt29921437",
+"type": "series",
+"name": "Spartacus: Ashur háza (S01E04)",
+"poster": "https://image.tmdb.org/t/p/w500/4MShux9ylNVUtd4NjYm57C4NqOF.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "🆕 Legújabb epizód: S01E04\n\nA Spartacus franchise új fejezete azzal a kérdéssel foglalkozik: mi lett volna, ha Ashur nem hal meg a Vezúvnál? Mi történt volna, ha jutalmul megkapja Batiatus régi gladiátoriskoláját azért, mert segített a rómaiaknak Spartacus megölésében és a rabszolgafelkelés leverésében?",
+"imdbRating": "6.8",
+"releaseInfo": "2025",
+"genres": [
+"Dráma",
+"Action & Adventure"
+],
+"seeders": 999922,
+"latest_season": 1,
+"latest_episode": 4
 },
 {
 "id": "tt6468322",
@@ -1284,7 +1437,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999922
+"seeders": 999922,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13111078",
@@ -1300,7 +1455,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999921
+"seeders": 999921,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt28013708",
@@ -1316,7 +1473,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999920
+"seeders": 999920,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0417299",
@@ -1333,7 +1492,9 @@
 "Action & Adventure",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999919
+"seeders": 999919,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt31314751",
@@ -1349,7 +1510,9 @@
 "Rejtély",
 "Bűnügyi"
 ],
-"seeders": 999918
+"seeders": 999918,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt3789822",
@@ -1366,7 +1529,9 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999917
+"seeders": 999917,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt4158110",
@@ -1382,7 +1547,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999916
+"seeders": 999916,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0773262",
@@ -1399,7 +1566,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999915
+"seeders": 999915,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt36936691",
@@ -1412,7 +1581,9 @@
 "imdbRating": "0.0",
 "releaseInfo": "2026",
 "genres": [],
-"seeders": 999914
+"seeders": 999914,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt12324366",
@@ -1430,7 +1601,9 @@
 "Dráma",
 "Családi"
 ],
-"seeders": 999913
+"seeders": 999913,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt18546730",
@@ -1447,7 +1620,9 @@
 "Dráma",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999912
+"seeders": 999912,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8962124",
@@ -1463,7 +1638,9 @@
 "Dráma",
 "Vígjáték"
 ],
-"seeders": 999911
+"seeders": 999911,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt32252772",
@@ -1480,7 +1657,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999910
+"seeders": 999910,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10946316",
@@ -1496,7 +1675,9 @@
 "Rejtély",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999909
+"seeders": 999909,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0188323",
@@ -1509,7 +1690,9 @@
 "imdbRating": "0.0",
 "releaseInfo": "1956",
 "genres": [],
-"seeders": 999908
+"seeders": 999908,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0159924",
@@ -1525,7 +1708,9 @@
 "Családi",
 "Action & Adventure"
 ],
-"seeders": 999907
+"seeders": 999907,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt18923754",
@@ -1541,7 +1726,27 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999906
+"seeders": 999906,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt0121955",
+"type": "series",
+"name": "South Park (S24E02)",
+"poster": "https://image.tmdb.org/t/p/w500/yhHU8YLHHls2MUFRjpZ6yREmL6D.jpg",
+"posterShape": "poster",
+"year": 1997,
+"description": "🆕 Legújabb epizód: S24E02\n\nHárom évvel amerikai bemutatása után hazánkba is eljut a televíziózás történetének legfelforgatóbb rajzfilmje. Már az elején érdemes használati utasításként leszögezni a figyelemre méltó lényeget, amit a rajzfilm egyik alkotója megfogalmazott: \"A South Park világa annyira nyakatekert és szürreális, amennyire egy kilencéves iskolás gondolatvilága.\" A sorozat a felnőttek körében aratta legnagyobb sikereit. A történet szerint a coloradói sziklás hegységekben, a flúgos South Parkban élnek az első látásra ártatlan lurkók: Kyle, Kenny, Stan és Cartman. Stan a csapat vezére, őt ritkán merik megtréfálni társaik. A South Park vitákat generált a világon mindenütt, ahol bemutatták. Pedig csak egy rajzfilm. Igaz, kicsit másmilyen, mint amit megszoktunk.",
+"imdbRating": "8.3",
+"releaseInfo": "1997",
+"genres": [
+"Animációs",
+"Vígjáték"
+],
+"seeders": 999905,
+"latest_season": 24,
+"latest_episode": 2
 },
 {
 "id": "tt27792190",
@@ -1556,7 +1761,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999905
+"seeders": 999905,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2356777",
@@ -1572,7 +1779,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999904
+"seeders": 999904,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2934286",
@@ -1588,7 +1797,9 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999903
+"seeders": 999903,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1726846",
@@ -1601,7 +1812,9 @@
 "imdbRating": null,
 "releaseInfo": "2010",
 "genres": [],
-"seeders": 999902
+"seeders": 999902,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13062500",
@@ -1618,7 +1831,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999901
+"seeders": 999901,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9859436",
@@ -1634,7 +1849,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999900
+"seeders": 999900,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt21064598",
@@ -1649,7 +1866,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999899
+"seeders": 999899,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13668894",
@@ -1665,7 +1884,9 @@
 "Action & Adventure",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999898
+"seeders": 999898,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0129719",
@@ -1681,7 +1902,27 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999897
+"seeders": 999897,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt33270420",
+"type": "series",
+"name": "PONIES (S01E07)",
+"poster": "https://image.tmdb.org/t/p/w500/rwKS6rSAqMGnXwBVteYkHxeDLWX.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "🆕 Legújabb epizód: S01E07\n\nMoszkva, 1977. Két „PÓNI” (a hírszerzés számára érdektelen civil személy) névtelen titkárnőként dolgozik az amerikai nagykövetségen. Egészen addig, amíg férjeiket rejtélyes körülmények között megölik a Szovjetunióban. Ekkor a két nő CIA-ügynöknek áll. Bea szovjet bevándorlók túlképzett, oroszul beszélő gyermeke. Társa, Twila egy kisvárosi lány, aki éppoly nyers, mint amilyen rettenthetetlen. Együtt munkálkodnak egy hatalmas hidegháborús összeesküvés leleplezésén és férjeik meggyilkolásának megoldatlan rejtélyén.",
+"imdbRating": "7.1",
+"releaseInfo": "2026",
+"genres": [
+"Dráma",
+"Bűnügyi"
+],
+"seeders": 999896,
+"latest_season": 1,
+"latest_episode": 7
 },
 {
 "id": "tt0284735",
@@ -1699,7 +1940,9 @@
 "Dokumentum",
 "Családi"
 ],
-"seeders": 999896
+"seeders": 999896,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2467372",
@@ -1715,7 +1958,9 @@
 "Vígjáték",
 "Bűnügyi"
 ],
-"seeders": 999895
+"seeders": 999895,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt31812476",
@@ -1730,7 +1975,9 @@
 "genres": [
 "Reality"
 ],
-"seeders": 999894
+"seeders": 999894,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt4052886",
@@ -1746,7 +1993,9 @@
 "Bűnügyi",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999893
+"seeders": 999893,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt15451622",
@@ -1759,7 +2008,9 @@
 "imdbRating": null,
 "releaseInfo": "2018",
 "genres": [],
-"seeders": 999892
+"seeders": 999892,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt14452776",
@@ -1775,7 +2026,9 @@
 "Dráma",
 "Vígjáték"
 ],
-"seeders": 999891
+"seeders": 999891,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10094546",
@@ -1791,7 +2044,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999890
+"seeders": 999890,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2741602",
@@ -1808,7 +2063,9 @@
 "Bűnügyi",
 "Rejtély"
 ],
-"seeders": 999889
+"seeders": 999889,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11712058",
@@ -1824,7 +2081,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999888
+"seeders": 999888,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5290382",
@@ -1840,7 +2099,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999887
+"seeders": 999887,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2022713",
@@ -1856,7 +2117,9 @@
 "Vígjáték",
 "Animációs"
 ],
-"seeders": 999886
+"seeders": 999886,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1800864",
@@ -1871,7 +2134,9 @@
 "genres": [
 "Reality"
 ],
-"seeders": 999885
+"seeders": 999885,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt36414431",
@@ -1889,7 +2154,9 @@
 "Bűnügyi",
 "Action & Adventure"
 ],
-"seeders": 999884
+"seeders": 999884,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt15435876",
@@ -1905,7 +2172,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999883
+"seeders": 999883,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0944947",
@@ -1922,7 +2191,9 @@
 "Dráma",
 "Action & Adventure"
 ],
-"seeders": 999882
+"seeders": 999882,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11794812",
@@ -1939,7 +2210,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999881
+"seeders": 999881,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt16027014",
@@ -1956,7 +2229,28 @@
 "Animációs",
 "Action & Adventure"
 ],
-"seeders": 999880
+"seeders": 999880,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt31314791",
+"type": "series",
+"name": "The Copenhagen Test (S01E07)",
+"poster": "https://image.tmdb.org/t/p/w500/9NjLaKL5pa2m4whf4cHAgfhyIzc.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "🆕 Legújabb epizód: S01E07\n\nEgy első generációs elemző rájön, hogy az agyát feltörték, és így hozzáférhet az érzékeihez. Az ügynökség és a hackerek közé szorulva normálisan viselkedik, hogy felfedje a tetteseket.",
+"imdbRating": "6.4",
+"releaseInfo": "2025",
+"genres": [
+"Action & Adventure",
+"Sci-Fi & Fantasy",
+"Rejtély"
+],
+"seeders": 999879,
+"latest_season": 1,
+"latest_episode": 7
 },
 {
 "id": "tt18482892",
@@ -1971,7 +2265,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999879
+"seeders": 999879,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt14261112",
@@ -1987,7 +2283,9 @@
 "Action & Adventure",
 "Vígjáték"
 ],
-"seeders": 999878
+"seeders": 999878,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5712554",
@@ -2004,7 +2302,9 @@
 "Vígjáték",
 "Talk"
 ],
-"seeders": 999877
+"seeders": 999877,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt12262202",
@@ -2021,7 +2321,9 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999876
+"seeders": 999876,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13991232",
@@ -2037,7 +2339,9 @@
 "Dráma",
 "Western"
 ],
-"seeders": 999875
+"seeders": 999875,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt27740241",
@@ -2054,7 +2358,27 @@
 "Action & Adventure",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999874
+"seeders": 999874,
+"latest_season": null,
+"latest_episode": null
+},
+{
+"id": "tt5645432",
+"type": "series",
+"name": "A nagy öreg (S04E09)",
+"poster": "https://image.tmdb.org/t/p/w500/yIXjKILfArrgfRjwCpJceuLz7rp.jpg",
+"posterShape": "poster",
+"year": 2022,
+"description": "🆕 Legújabb epizód: S04E09\n\nDan Chase évtizedekkel ezelőtt kereket oldott a CIA elől, és azóta a civilizációtól elszigetelten él. Amikor egy bérgyilkos érkezik, hogy kiiktassa őt, az öreg ügynöknek rá kell jönnie, hogy a jövője biztosításához el kell rendeznie a múltját.",
+"imdbRating": "7.2",
+"releaseInfo": "2022",
+"genres": [
+"Action & Adventure",
+"Dráma"
+],
+"seeders": 999873,
+"latest_season": 4,
+"latest_episode": 9
 },
 {
 "id": "tt10405370",
@@ -2071,7 +2395,9 @@
 "War & Politics",
 "Action & Adventure"
 ],
-"seeders": 999873
+"seeders": 999873,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0185906",
@@ -2087,7 +2413,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999872
+"seeders": 999872,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10795658",
@@ -2104,7 +2432,9 @@
 "Dráma",
 "Action & Adventure"
 ],
-"seeders": 999871
+"seeders": 999871,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0374455",
@@ -2121,7 +2451,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999870
+"seeders": 999870,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9018736",
@@ -2139,7 +2471,9 @@
 "Családi",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999869
+"seeders": 999869,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2575988",
@@ -2154,7 +2488,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999868
+"seeders": 999868,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0134203",
@@ -2169,7 +2505,9 @@
 "genres": [
 "Animációs"
 ],
-"seeders": 999867
+"seeders": 999867,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0106179",
@@ -2186,7 +2524,9 @@
 "Sci-Fi & Fantasy",
 "Bűnügyi"
 ],
-"seeders": 999866
+"seeders": 999866,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt35047134",
@@ -2202,7 +2542,9 @@
 "Vígjáték",
 "Családi"
 ],
-"seeders": 999865
+"seeders": 999865,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt26576161",
@@ -2218,7 +2560,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999864
+"seeders": 999864,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1486217",
@@ -2235,7 +2579,9 @@
 "Action & Adventure",
 "Animációs"
 ],
-"seeders": 999863
+"seeders": 999863,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0475784",
@@ -2251,7 +2597,9 @@
 "Sci-Fi & Fantasy",
 "Western"
 ],
-"seeders": 999862
+"seeders": 999862,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1751634",
@@ -2268,7 +2616,9 @@
 "Dráma",
 "Action & Adventure"
 ],
-"seeders": 999861
+"seeders": 999861,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt33246591",
@@ -2285,7 +2635,9 @@
 "Bűnügyi",
 "Rejtély"
 ],
-"seeders": 999860
+"seeders": 999860,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13207736",
@@ -2298,7 +2650,9 @@
 "imdbRating": null,
 "releaseInfo": "2022",
 "genres": [],
-"seeders": 999859
+"seeders": 999859,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13622982",
@@ -2315,7 +2669,9 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999858
+"seeders": 999858,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt27995114",
@@ -2332,7 +2688,9 @@
 "Bűnügyi",
 "Rejtély"
 ],
-"seeders": 999857
+"seeders": 999857,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt31974367",
@@ -2348,7 +2706,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999856
+"seeders": 999856,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0133312",
@@ -2363,7 +2723,9 @@
 "genres": [
 "Animációs"
 ],
-"seeders": 999855
+"seeders": 999855,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt32019314",
@@ -2380,7 +2742,9 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999854
+"seeders": 999854,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt3647998",
@@ -2396,7 +2760,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999853
+"seeders": 999853,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt3006802",
@@ -2412,7 +2778,9 @@
 "Dráma",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999852
+"seeders": 999852,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11691774",
@@ -2429,7 +2797,9 @@
 "Rejtély",
 "Bűnügyi"
 ],
-"seeders": 999851
+"seeders": 999851,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2257665",
@@ -2444,7 +2814,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999850
+"seeders": 999850,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt19323668",
@@ -2461,7 +2833,9 @@
 "Dráma",
 "Kids"
 ],
-"seeders": 999849
+"seeders": 999849,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8291284",
@@ -2477,7 +2851,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999848
+"seeders": 999848,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0264244",
@@ -2494,7 +2870,9 @@
 "Dráma",
 "Családi"
 ],
-"seeders": 999847
+"seeders": 999847,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt31974288",
@@ -2510,7 +2888,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999846
+"seeders": 999846,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2279853",
@@ -2527,7 +2907,9 @@
 "Vígjáték",
 "Családi"
 ],
-"seeders": 999845
+"seeders": 999845,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt31710822",
@@ -2543,7 +2925,9 @@
 "Rejtély",
 "Dráma"
 ],
-"seeders": 999844
+"seeders": 999844,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2531336",
@@ -2560,7 +2944,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999843
+"seeders": 999843,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11743610",
@@ -2576,7 +2962,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999842
+"seeders": 999842,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0149410",
@@ -2592,7 +2980,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999841
+"seeders": 999841,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13649112",
@@ -2607,7 +2997,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999840
+"seeders": 999840,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8772296",
@@ -2622,7 +3014,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999839
+"seeders": 999839,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt31173096",
@@ -2639,7 +3033,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999838
+"seeders": 999838,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt3032476",
@@ -2655,7 +3051,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999837
+"seeders": 999837,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5691552",
@@ -2672,7 +3070,9 @@
 "Vígjáték",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999836
+"seeders": 999836,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt7462410",
@@ -2688,7 +3088,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999835
+"seeders": 999835,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8421350",
@@ -2705,7 +3107,9 @@
 "Rejtély",
 "Dráma"
 ],
-"seeders": 999834
+"seeders": 999834,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0108778",
@@ -2720,7 +3124,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999833
+"seeders": 999833,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11514868",
@@ -2737,7 +3143,9 @@
 "Rejtély",
 "Bűnügyi"
 ],
-"seeders": 999832
+"seeders": 999832,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9169516",
@@ -2753,7 +3161,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999831
+"seeders": 999831,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0206512",
@@ -2770,7 +3180,9 @@
 "Vígjáték",
 "Családi"
 ],
-"seeders": 999830
+"seeders": 999830,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11016042",
@@ -2785,7 +3197,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999829
+"seeders": 999829,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0082732",
@@ -2803,7 +3217,9 @@
 "Animációs",
 "Vígjáték"
 ],
-"seeders": 999828
+"seeders": 999828,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9145758",
@@ -2818,7 +3234,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999827
+"seeders": 999827,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5348176",
@@ -2835,7 +3253,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999826
+"seeders": 999826,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13157618",
@@ -2852,7 +3272,9 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999825
+"seeders": 999825,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5057054",
@@ -2868,7 +3290,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999824
+"seeders": 999824,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1462059",
@@ -2885,7 +3309,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999823
+"seeders": 999823,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0094525",
@@ -2902,7 +3328,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999822
+"seeders": 999822,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0072500",
@@ -2917,7 +3345,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999821
+"seeders": 999821,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt6226232",
@@ -2934,7 +3364,9 @@
 "Családi",
 "Dráma"
 ],
-"seeders": 999820
+"seeders": 999820,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt34139155",
@@ -2951,7 +3383,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999819
+"seeders": 999819,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2152566",
@@ -2966,7 +3400,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999818
+"seeders": 999818,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13623126",
@@ -2983,7 +3419,9 @@
 "Bűnügyi",
 "Action & Adventure"
 ],
-"seeders": 999817
+"seeders": 999817,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0098936",
@@ -2999,7 +3437,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999816
+"seeders": 999816,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5171438",
@@ -3016,7 +3456,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999815
+"seeders": 999815,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0285403",
@@ -3031,7 +3473,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999814
+"seeders": 999814,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0053502",
@@ -3048,7 +3492,9 @@
 "Animációs",
 "Vígjáték"
 ],
-"seeders": 999813
+"seeders": 999813,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10710138",
@@ -3061,7 +3507,9 @@
 "imdbRating": null,
 "releaseInfo": "2008",
 "genres": [],
-"seeders": 999812
+"seeders": 999812,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0892700",
@@ -3079,7 +3527,9 @@
 "Családi",
 "Kids"
 ],
-"seeders": 999811
+"seeders": 999811,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt33241079",
@@ -3094,7 +3544,9 @@
 "genres": [
 "Dokumentum"
 ],
-"seeders": 999810
+"seeders": 999810,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt20723374",
@@ -3111,7 +3563,9 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999809
+"seeders": 999809,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt7660850",
@@ -3127,7 +3581,9 @@
 "Dráma",
 "Vígjáték"
 ],
-"seeders": 999808
+"seeders": 999808,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0458290",
@@ -3144,7 +3600,9 @@
 "Sci-Fi & Fantasy",
 "Animációs"
 ],
-"seeders": 999807
+"seeders": 999807,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt24069848",
@@ -3161,7 +3619,9 @@
 "Dráma",
 "Action & Adventure"
 ],
-"seeders": 999806
+"seeders": 999806,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1305826",
@@ -3178,7 +3638,9 @@
 "Vígjáték",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999805
+"seeders": 999805,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0795176",
@@ -3193,7 +3655,9 @@
 "genres": [
 "Dokumentum"
 ],
-"seeders": 999804
+"seeders": 999804,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5834204",
@@ -3210,7 +3674,9 @@
 "Sci-Fi & Fantasy",
 "Action & Adventure"
 ],
-"seeders": 999803
+"seeders": 999803,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt23872886",
@@ -3226,7 +3692,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999802
+"seeders": 999802,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2565520",
@@ -3239,7 +3707,9 @@
 "imdbRating": "10.0",
 "releaseInfo": "2012",
 "genres": [],
-"seeders": 999801
+"seeders": 999801,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0139774",
@@ -3256,7 +3726,9 @@
 "Action & Adventure",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999800
+"seeders": 999800,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0412142",
@@ -3271,7 +3743,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999799
+"seeders": 999799,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2707408",
@@ -3287,7 +3761,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999798
+"seeders": 999798,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1875337",
@@ -3305,7 +3781,9 @@
 "Animációs",
 "Kids"
 ],
-"seeders": 999797
+"seeders": 999797,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10574236",
@@ -3322,7 +3800,9 @@
 "Sci-Fi & Fantasy",
 "Rejtély"
 ],
-"seeders": 999796
+"seeders": 999796,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt15571732",
@@ -3338,7 +3818,9 @@
 "Sci-Fi & Fantasy",
 "Rejtély"
 ],
-"seeders": 999795
+"seeders": 999795,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1553656",
@@ -3355,7 +3837,9 @@
 "Rejtély",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999794
+"seeders": 999794,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt14016500",
@@ -3370,7 +3854,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999793
+"seeders": 999793,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0096557",
@@ -3389,7 +3875,9 @@
 "Családi",
 "Action & Adventure"
 ],
-"seeders": 999792
+"seeders": 999792,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0426769",
@@ -3405,7 +3893,9 @@
 "Animációs",
 "Kids"
 ],
-"seeders": 999791
+"seeders": 999791,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2177461",
@@ -3421,7 +3911,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999790
+"seeders": 999790,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt35495073",
@@ -3436,7 +3928,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999789
+"seeders": 999789,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9022422",
@@ -3452,7 +3946,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999788
+"seeders": 999788,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10168312",
@@ -3469,7 +3965,9 @@
 "Action & Adventure",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999787
+"seeders": 999787,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1832668",
@@ -3484,7 +3982,9 @@
 "genres": [
 "Dokumentum"
 ],
-"seeders": 999786
+"seeders": 999786,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2879552",
@@ -3500,7 +4000,9 @@
 "Dráma",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999785
+"seeders": 999785,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9059760",
@@ -3515,7 +4017,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999784
+"seeders": 999784,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2802850",
@@ -3531,7 +4035,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999783
+"seeders": 999783,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt26656917",
@@ -3547,7 +4053,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999782
+"seeders": 999782,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1475582",
@@ -3564,7 +4072,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999781
+"seeders": 999781,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2306299",
@@ -3581,7 +4091,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999780
+"seeders": 999780,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5607976",
@@ -3597,7 +4109,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999779
+"seeders": 999779,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0083437",
@@ -3615,7 +4129,9 @@
 "Sci-Fi & Fantasy",
 "Bűnügyi"
 ],
-"seeders": 999778
+"seeders": 999778,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt26748321",
@@ -3630,7 +4146,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999777
+"seeders": 999777,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt33293130",
@@ -3646,7 +4164,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999776
+"seeders": 999776,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2395695",
@@ -3661,7 +4181,9 @@
 "genres": [
 "Dokumentum"
 ],
-"seeders": 999775
+"seeders": 999775,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt15716776",
@@ -3678,7 +4200,9 @@
 "Action & Adventure",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999774
+"seeders": 999774,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt21263178",
@@ -3693,7 +4217,9 @@
 "genres": [
 "Bűnügyi"
 ],
-"seeders": 999773
+"seeders": 999773,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1266020",
@@ -3708,7 +4234,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999772
+"seeders": 999772,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt18952858",
@@ -3724,7 +4252,9 @@
 "Családi",
 "Vígjáték"
 ],
-"seeders": 999771
+"seeders": 999771,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0149460",
@@ -3741,7 +4271,9 @@
 "Vígjáték",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999770
+"seeders": 999770,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11859542",
@@ -3757,7 +4289,9 @@
 "Dráma",
 "Action & Adventure"
 ],
-"seeders": 999769
+"seeders": 999769,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt12074628",
@@ -3774,7 +4308,9 @@
 "Vígjáték",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999768
+"seeders": 999768,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0386676",
@@ -3789,7 +4325,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999767
+"seeders": 999767,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5622316",
@@ -3806,7 +4344,9 @@
 "Családi",
 "Action & Adventure"
 ],
-"seeders": 999766
+"seeders": 999766,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt32237534",
@@ -3822,7 +4362,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999765
+"seeders": 999765,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt28256288",
@@ -3839,7 +4381,9 @@
 "Sci-Fi & Fantasy",
 "Vígjáték"
 ],
-"seeders": 999764
+"seeders": 999764,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt14269590",
@@ -3855,7 +4399,9 @@
 "Bűnügyi",
 "Rejtély"
 ],
-"seeders": 999763
+"seeders": 999763,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt15128088",
@@ -3872,7 +4418,9 @@
 "Rejtély",
 "Bűnügyi"
 ],
-"seeders": 999762
+"seeders": 999762,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt7335184",
@@ -3889,7 +4437,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999761
+"seeders": 999761,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13918776",
@@ -3906,7 +4456,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999760
+"seeders": 999760,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1869454",
@@ -3923,7 +4475,9 @@
 "Vígjáték",
 "Dráma"
 ],
-"seeders": 999759
+"seeders": 999759,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0369179",
@@ -3938,7 +4492,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999758
+"seeders": 999758,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11737520",
@@ -3954,7 +4510,9 @@
 "Action & Adventure",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999757
+"seeders": 999757,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2661044",
@@ -3972,7 +4530,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999756
+"seeders": 999756,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt14899624",
@@ -3987,7 +4547,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999755
+"seeders": 999755,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8134186",
@@ -4004,7 +4566,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999754
+"seeders": 999754,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt3600266",
@@ -4020,7 +4584,9 @@
 "Animációs",
 "Kids"
 ],
-"seeders": 999753
+"seeders": 999753,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0460681",
@@ -4037,7 +4603,9 @@
 "Rejtély",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999752
+"seeders": 999752,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10234724",
@@ -4054,7 +4622,9 @@
 "Rejtély",
 "Action & Adventure"
 ],
-"seeders": 999751
+"seeders": 999751,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt35149250",
@@ -4071,7 +4641,9 @@
 "Rejtély",
 "Dráma"
 ],
-"seeders": 999750
+"seeders": 999750,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9170108",
@@ -4087,7 +4659,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999749
+"seeders": 999749,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0214382",
@@ -4103,7 +4677,9 @@
 "Dokumentum",
 "Animációs"
 ],
-"seeders": 999748
+"seeders": 999748,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt18069218",
@@ -4118,7 +4694,9 @@
 "genres": [
 "Dokumentum"
 ],
-"seeders": 999747
+"seeders": 999747,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt19177348",
@@ -4133,7 +4711,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999746
+"seeders": 999746,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0280277",
@@ -4151,7 +4731,9 @@
 "Vígjáték",
 "Családi"
 ],
-"seeders": 999745
+"seeders": 999745,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13542714",
@@ -4166,7 +4748,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999744
+"seeders": 999744,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0329829",
@@ -4184,7 +4768,9 @@
 "Vígjáték",
 "Családi"
 ],
-"seeders": 999743
+"seeders": 999743,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1196946",
@@ -4201,7 +4787,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999742
+"seeders": 999742,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1632701",
@@ -4216,7 +4804,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999741
+"seeders": 999741,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt3232262",
@@ -4235,7 +4825,9 @@
 "Sci-Fi & Fantasy",
 "Családi"
 ],
-"seeders": 999740
+"seeders": 999740,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt3121722",
@@ -4251,7 +4843,9 @@
 "Animációs",
 "Kids"
 ],
-"seeders": 999739
+"seeders": 999739,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt7671070",
@@ -4266,7 +4860,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999738
+"seeders": 999738,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt31709373",
@@ -4283,7 +4879,9 @@
 "Vígjáték",
 "Dráma"
 ],
-"seeders": 999737
+"seeders": 999737,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt11680642",
@@ -4299,7 +4897,9 @@
 "Animációs",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999736
+"seeders": 999736,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1442449",
@@ -4314,7 +4914,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999735
+"seeders": 999735,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt17491088",
@@ -4330,7 +4932,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999734
+"seeders": 999734,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt6763664",
@@ -4346,7 +4950,9 @@
 "Rejtély",
 "Dráma"
 ],
-"seeders": 999733
+"seeders": 999733,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt6470478",
@@ -4361,7 +4967,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999732
+"seeders": 999732,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt32916421",
@@ -4376,7 +4984,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999731
+"seeders": 999731,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0112130",
@@ -4391,7 +5001,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999730
+"seeders": 999730,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt23221806",
@@ -4407,7 +5019,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999729
+"seeders": 999729,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9892936",
@@ -4423,7 +5037,9 @@
 "Dráma",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999728
+"seeders": 999728,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt7826376",
@@ -4440,7 +5056,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999727
+"seeders": 999727,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt21874396",
@@ -4457,7 +5075,9 @@
 "Action & Adventure",
 "Dráma"
 ],
-"seeders": 999726
+"seeders": 999726,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0374463",
@@ -4474,7 +5094,9 @@
 "Action & Adventure",
 "War & Politics"
 ],
-"seeders": 999725
+"seeders": 999725,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1695360",
@@ -4492,7 +5114,9 @@
 "Sci-Fi & Fantasy",
 "Családi"
 ],
-"seeders": 999724
+"seeders": 999724,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1796960",
@@ -4509,7 +5133,9 @@
 "War & Politics",
 "Bűnügyi"
 ],
-"seeders": 999723
+"seeders": 999723,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1606375",
@@ -4524,7 +5150,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999722
+"seeders": 999722,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt18347622",
@@ -4542,7 +5170,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999721
+"seeders": 999721,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0096697",
@@ -4559,7 +5189,9 @@
 "Animációs",
 "Vígjáték"
 ],
-"seeders": 999720
+"seeders": 999720,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt33322230",
@@ -4575,7 +5207,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999719
+"seeders": 999719,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt3581932",
@@ -4591,7 +5225,9 @@
 "Rejtély",
 "Dráma"
 ],
-"seeders": 999718
+"seeders": 999718,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1520211",
@@ -4608,7 +5244,9 @@
 "Dráma",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999717
+"seeders": 999717,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8108134",
@@ -4624,7 +5262,9 @@
 "Vígjáték",
 "Dráma"
 ],
-"seeders": 999716
+"seeders": 999716,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt8289930",
@@ -4639,7 +5279,9 @@
 "genres": [
 "Dokumentum"
 ],
-"seeders": 999715
+"seeders": 999715,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt35316779",
@@ -4655,7 +5297,9 @@
 "Dráma",
 "Rejtély"
 ],
-"seeders": 999714
+"seeders": 999714,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt4270492",
@@ -4670,7 +5314,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999713
+"seeders": 999713,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2017109",
@@ -4686,7 +5332,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999712
+"seeders": 999712,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt4786824",
@@ -4701,7 +5349,9 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999711
+"seeders": 999711,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13930822",
@@ -4717,7 +5367,9 @@
 "Action & Adventure",
 "Animációs"
 ],
-"seeders": 999710
+"seeders": 999710,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2375692",
@@ -4733,7 +5385,9 @@
 "Dráma",
 "Action & Adventure"
 ],
-"seeders": 999709
+"seeders": 999709,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9319668",
@@ -4749,7 +5403,9 @@
 "Rejtély",
 "Dráma"
 ],
-"seeders": 999708
+"seeders": 999708,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0364774",
@@ -4769,7 +5425,9 @@
 "Sci-Fi & Fantasy",
 "Kids"
 ],
-"seeders": 999707
+"seeders": 999707,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt12430156",
@@ -4784,7 +5442,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999706
+"seeders": 999706,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0243722",
@@ -4800,7 +5460,9 @@
 "Kids",
 "Animációs"
 ],
-"seeders": 999705
+"seeders": 999705,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1267295",
@@ -4817,7 +5479,9 @@
 "Action & Adventure",
 "Bűnügyi"
 ],
-"seeders": 999704
+"seeders": 999704,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt28093628",
@@ -4835,7 +5499,9 @@
 "Vígjáték",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999703
+"seeders": 999703,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1865718",
@@ -4855,7 +5521,9 @@
 "Sci-Fi & Fantasy",
 "Családi"
 ],
-"seeders": 999702
+"seeders": 999702,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2887954",
@@ -4871,7 +5539,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999701
+"seeders": 999701,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10231312",
@@ -4887,7 +5557,9 @@
 "Vígjáték",
 "Animációs"
 ],
-"seeders": 999700
+"seeders": 999700,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt31589662",
@@ -4902,7 +5574,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999699
+"seeders": 999699,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13064902",
@@ -4919,7 +5593,9 @@
 "Dráma",
 "Vígjáték"
 ],
-"seeders": 999698
+"seeders": 999698,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1312171",
@@ -4936,7 +5612,9 @@
 "Sci-Fi & Fantasy",
 "Dráma"
 ],
-"seeders": 999697
+"seeders": 999697,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt27663673",
@@ -4951,7 +5629,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999696
+"seeders": 999696,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt37898320",
@@ -4966,7 +5646,9 @@
 "genres": [
 "Dokumentum"
 ],
-"seeders": 999695
+"seeders": 999695,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2930604",
@@ -4983,7 +5665,9 @@
 "Animációs",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999694
+"seeders": 999694,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt6473344",
@@ -5000,7 +5684,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999693
+"seeders": 999693,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt5056196",
@@ -5017,7 +5703,9 @@
 "Dráma",
 "War & Politics"
 ],
-"seeders": 999692
+"seeders": 999692,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9140560",
@@ -5034,7 +5722,9 @@
 "Rejtély",
 "Dráma"
 ],
-"seeders": 999691
+"seeders": 999691,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt9208876",
@@ -5051,7 +5741,9 @@
 "Dráma",
 "Sci-Fi & Fantasy"
 ],
-"seeders": 999690
+"seeders": 999690,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt13309742",
@@ -5067,7 +5759,9 @@
 "Action & Adventure",
 "Animációs"
 ],
-"seeders": 999689
+"seeders": 999689,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt10644236",
@@ -5080,7 +5774,9 @@
 "imdbRating": "1.0",
 "releaseInfo": "2007",
 "genres": [],
-"seeders": 999688
+"seeders": 999688,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt14824792",
@@ -5095,7 +5791,9 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999687
+"seeders": 999687,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt16288804",
@@ -5112,7 +5810,9 @@
 "Action & Adventure",
 "Bűnügyi"
 ],
-"seeders": 999686
+"seeders": 999686,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt7767422",
@@ -5128,7 +5828,9 @@
 "Vígjáték",
 "Dráma"
 ],
-"seeders": 999685
+"seeders": 999685,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt2243973",
@@ -5144,7 +5846,9 @@
 "Dráma",
 "Bűnügyi"
 ],
-"seeders": 999684
+"seeders": 999684,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt0455275",
@@ -5161,7 +5865,9 @@
 "Bűnügyi",
 "Dráma"
 ],
-"seeders": 999683
+"seeders": 999683,
+"latest_season": null,
+"latest_episode": null
 },
 {
 "id": "tt1856010",
@@ -5176,6 +5882,8 @@
 "genres": [
 "Dráma"
 ],
-"seeders": 999682
+"seeders": 999682,
+"latest_season": null,
+"latest_episode": null
 }
 ]

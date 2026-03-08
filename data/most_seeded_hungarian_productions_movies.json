@@ -1,5 +1,21 @@
 [
 {
+"id": "tt14466284",
+"type": "movie",
+"name": "Futni mentem",
+"poster": "https://image.tmdb.org/t/p/w500/cSs0BYbP37e7LIUaQ0JjXeaPp0k.jpg",
+"posterShape": "poster",
+"year": 2024,
+"description": "A film főszereplője egy anya (Udvaros Dorottya), aki férje halála után elhatározza, hogy teljesíti annak utolsó kívánságát, és lányaival (Lovas Rozi, Tenki Réka, Trill Beatrix) váltóban lefutja a maratont. Apró probléma, hogy egyikük sincs fizikálisan és mentálisan felkészülve a futásra. Az anya és lányai mellett ráadásul a rokonokat és barátokat is váratlanul éri a nők lehetetlennek tűnő vállalkozása.",
+"imdbRating": "7.4",
+"releaseInfo": "2024",
+"genres": [
+"Romantikus",
+"Vígjáték"
+],
+"seeders": 999994
+},
+{
 "id": "tt29344974",
 "type": "movie",
 "name": "Hogyan tudnék élni nélküled?",
@@ -13,22 +29,6 @@
 "Vígjáték",
 "Zenei",
 "Romantikus"
-],
-"seeders": 999994
-},
-{
-"id": "tt14466284",
-"type": "movie",
-"name": "Futni mentem",
-"poster": "https://image.tmdb.org/t/p/w500/cSs0BYbP37e7LIUaQ0JjXeaPp0k.jpg",
-"posterShape": "poster",
-"year": 2024,
-"description": "A film főszereplője egy anya (Udvaros Dorottya), aki férje halála után elhatározza, hogy teljesíti annak utolsó kívánságát, és lányaival (Lovas Rozi, Tenki Réka, Trill Beatrix) váltóban lefutja a maratont. Apró probléma, hogy egyikük sincs fizikálisan és mentálisan felkészülve a futásra. Az anya és lányai mellett ráadásul a rokonokat és barátokat is váratlanul éri a nők lehetetlennek tűnő vállalkozása.",
-"imdbRating": "7.4",
-"releaseInfo": "2024",
-"genres": [
-"Romantikus",
-"Vígjáték"
 ],
 "seeders": 999993
 },
@@ -46,7 +46,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999957
+"seeders": 999966
 },
 {
 "id": "tt0179955",
@@ -63,7 +63,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999898
+"seeders": 999908
 },
 {
 "id": "tt27811640",
@@ -78,7 +78,24 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999896
+"seeders": 999894
+},
+{
+"id": "tt23172090",
+"type": "movie",
+"name": "Porszörny",
+"poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
+"imdbRating": "6.6",
+"releaseInfo": "2025",
+"genres": [
+"Fantasy",
+"Akció",
+"Thriller"
+],
+"seeders": 999888
 },
 {
 "id": "tt0142632",
@@ -95,7 +112,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999856
+"seeders": 999861
 },
 {
 "id": "tt0131636",
@@ -111,7 +128,7 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999842
+"seeders": 999844
 },
 {
 "id": "tt31065630",
@@ -158,7 +175,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999802
+"seeders": 999813
 },
 {
 "id": "tt33586253",
