@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt0090798",
+    "type": "movie",
+    "name": "Caravaggio",
+    "poster": "https://image.tmdb.org/t/p/w500/4TsayIEhoId7iahurgpKSNdSdEo.jpg",
+    "posterShape": "poster",
+    "year": 1986,
+    "description": "A nagy itáliai festő, Caravaggio életrajzírói szerint a festő azt állította, olyan pontosan másolta modelljeit, hogy még egy ecsetvonást sem tett soha, amit a sajátjának nevezhetett volna. Ezt használta ki Derek Jarman, amikor filmje cselekményének szerkezetét a festmények alapján építette fel. Jarman kombinálja a tudományost, a festőit és a látnokit. Bejárja Caravaggio világát, fantáziát sző a képeken szereplő emberekről, bennük találja meg Caravaggio viharos magánéletének szereplőit és drámáit.",
+    "imdbRating": 6.1,
+    "releaseInfo": "1986",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Romantikus"
+    ],
+    "seeders": 38
+  },
+  {
     "id": "tt15940132",
     "type": "movie",
     "name": "Ismeretlen támadók",
@@ -7,14 +24,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az amerikai hadsereg Ranger-válogatásának utolsó, embert próbáló szakaszában egy elit egység gyakorlata váratlanul élet-halál harccá fajul, amikor egy felfoghatatlan fenyegetéssel találják szemben magukat.",
-    "imdbRating": 6.9,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2154
+    "seeders": 2476
   },
   {
     "id": "tt35237771",
@@ -24,12 +41,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "imdbRating": 9.0,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 64
+    "seeders": 63
   },
   {
     "id": "tt3856972",
@@ -44,7 +61,24 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 39
+    "seeders": 52
+  },
+  {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat, és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké – és egyben pusztítóbb is.  (Csillag Lajos)",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 703
   },
   {
     "id": "tt0070534",
@@ -62,40 +96,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 67
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat, és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké – és egyben pusztítóbb is.  (Csillag Lajos)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 628
-  },
-  {
-    "id": "tt0104267",
-    "type": "movie",
-    "name": "Végső harc",
-    "poster": "https://image.tmdb.org/t/p/w500/tEHGlZSVC32BhF5KxSvfiJ9EVfb.jpg",
-    "posterShape": "poster",
-    "year": 1992,
-    "description": "Nick, a profi küzdelemtől visszavonult kickbox világbajnok felfedezi az igencsak tehetséges, ám rendkívül naiv Dannyt, akit kemény edzésmunkával arra képez ki, hogy legyőzze kegyetlen ellenségét, Jake-et. Dannyt egyébként éppen most avatták Ohio középsúlyú bajnokává és minden vágya az, hogy egyszer ő is világbajnok legyen. A két harcos éjt nappallá téve küzd, míg egy napon Las Vegasba utaznak, hogy Danny végre összemérje erejét a brutális ellenséggel, azzal a férfival, aki annak idején megfosztotta Nicket a bajnoki címtől.",
-    "imdbRating": 4.9,
-    "releaseInfo": "1992",
-    "genres": [
-      "Dráma",
-      "Akció"
-    ],
-    "seeders": 41
+    "seeders": 69
   },
   {
     "id": "tt7288408",
@@ -111,7 +112,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 149
+    "seeders": 155
+  },
+  {
+    "id": "tt14181714",
+    "type": "movie",
+    "name": "A szikla",
+    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 881
   },
   {
     "id": "tt0074442",
@@ -127,39 +144,7 @@
       "Akció",
       "Vígjáték"
     ],
-    "seeders": 69
-  },
-  {
-    "id": "tt0071464",
-    "type": "movie",
-    "name": "Emmanuelle 1974",
-    "poster": "https://image.tmdb.org/t/p/w500/aUYDbpjBtn7BaRokrzSJZbByJtl.jpg",
-    "posterShape": "poster",
-    "year": 1974,
-    "description": "A fiatal és bájos Emanuelle a francia diplomata, Jean felesége, akit Bangkokba küldenek. Az idősebb férj szexualitás terén jóval tapasztaltabb a feleségénél, ezért türelmes vele, és nyitott minden újításra. A nő eleinte bátortalan az új környezetben, de fokozatosan megismeri Bangkok szépségét. A lány, két barátnője - Bee és Marie-Ange - felügyelete alatt éli át első erotikus tapasztalatait. A testi örömök igazán tiltott, korlátoktól mentes világába az excentrikus olasz arisztokratának, Mariónak köszönhetően lép be.",
-    "imdbRating": 6.0,
-    "releaseInfo": "1974",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 48
-  },
-  {
-    "id": "tt0085486",
-    "type": "movie",
-    "name": "Emmanuelle 4",
-    "poster": "https://image.tmdb.org/t/p/w500/jrwozD3AyiQRL6g0D3jeiwhTqn2.jpg",
-    "posterShape": "poster",
-    "year": 1984,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 4.8,
-    "releaseInfo": "1984",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 46
+    "seeders": 71
   },
   {
     "id": "tt36589671",
@@ -174,7 +159,40 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 184
+    "seeders": 192
+  },
+  {
+    "id": "tt0104267",
+    "type": "movie",
+    "name": "Végső harc",
+    "poster": "https://image.tmdb.org/t/p/w500/tEHGlZSVC32BhF5KxSvfiJ9EVfb.jpg",
+    "posterShape": "poster",
+    "year": 1992,
+    "description": "Nick, a profi küzdelemtől visszavonult kickbox világbajnok felfedezi az igencsak tehetséges, ám rendkívül naiv Dannyt, akit kemény edzésmunkával arra képez ki, hogy legyőzze kegyetlen ellenségét, Jake-et. Dannyt egyébként éppen most avatták Ohio középsúlyú bajnokává és minden vágya az, hogy egyszer ő is világbajnok legyen. A két harcos éjt nappallá téve küzd, míg egy napon Las Vegasba utaznak, hogy Danny végre összemérje erejét a brutális ellenséggel, azzal a férfival, aki annak idején megfosztotta Nicket a bajnoki címtől.",
+    "imdbRating": 4.9,
+    "releaseInfo": "1992",
+    "genres": [
+      "Dráma",
+      "Akció"
+    ],
+    "seeders": 34
+  },
+  {
+    "id": "tt4627382",
+    "type": "movie",
+    "name": "A besurranó",
+    "poster": "https://image.tmdb.org/t/p/w500/tHYCPLhzAldSOI6Jz9UcYXcHsTy.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Jeffrey Manchester (Channing Tatum) az örök álmodozó egyedi módszerrel próbál pénzt szerezni: tetőkön surran be, és teszi zsebre a McDonald’s éttermek kasszáinak tartalmát. De az egykori katonából lett tolvaj számításaiba hiba csúszik, és lecsukják. Amikor sikerül kereket oldania a börtönből, menekülés közben egy elég szokatlan búvóhelyen köt ki: egy játékbolt falai között talál menedéket, ahol plüssök társaságában tervezgeti a következő nagy dobását. Telnek a hónapok, a hajtóvadászat lassan feledésbe merül, és közben Jeffrey beleszeret Leigh-be (Kirsten Dunst), az áruház egyik alkalmazottjába. A gond csak az, hogy a nő mit sem sejt arról, hogy új udvarlója egy körözött szökevény, aki abban reménykedik, hogy végre megkapja az élettől az új esélyt, amire mindig is vágyott…",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Bűnügyi",
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 201
   },
   {
     "id": "tt27757752",
@@ -192,7 +210,39 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 98
+    "seeders": 100
+  },
+  {
+    "id": "tt0085486",
+    "type": "movie",
+    "name": "Emmanuelle 4",
+    "poster": "https://image.tmdb.org/t/p/w500/jrwozD3AyiQRL6g0D3jeiwhTqn2.jpg",
+    "posterShape": "poster",
+    "year": 1984,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 4.8,
+    "releaseInfo": "1984",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 51
+  },
+  {
+    "id": "tt0071464",
+    "type": "movie",
+    "name": "Emmanuelle 1974",
+    "poster": "https://image.tmdb.org/t/p/w500/aUYDbpjBtn7BaRokrzSJZbByJtl.jpg",
+    "posterShape": "poster",
+    "year": 1974,
+    "description": "A fiatal és bájos Emanuelle a francia diplomata, Jean felesége, akit Bangkokba küldenek. Az idősebb férj szexualitás terén jóval tapasztaltabb a feleségénél, ezért türelmes vele, és nyitott minden újításra. A nő eleinte bátortalan az új környezetben, de fokozatosan megismeri Bangkok szépségét. A lány, két barátnője - Bee és Marie-Ange - felügyelete alatt éli át első erotikus tapasztalatait. A testi örömök igazán tiltott, korlátoktól mentes világába az excentrikus olasz arisztokratának, Mariónak köszönhetően lép be.",
+    "imdbRating": 6.0,
+    "releaseInfo": "1974",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 51
   },
   {
     "id": "tt0072933",
@@ -208,55 +258,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 44
-  },
-  {
-    "id": "tt14181714",
-    "type": "movie",
-    "name": "A szikla",
-    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 761
-  },
-  {
-    "id": "tt4627382",
-    "type": "movie",
-    "name": "A besurranó",
-    "poster": "https://image.tmdb.org/t/p/w500/tHYCPLhzAldSOI6Jz9UcYXcHsTy.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Jeffrey Manchester (Channing Tatum) az örök álmodozó egyedi módszerrel próbál pénzt szerezni: tetőkön surran be, és teszi zsebre a McDonald’s éttermek kasszáinak tartalmát. De az egykori katonából lett tolvaj számításaiba hiba csúszik, és lecsukják. Amikor sikerül kereket oldania a börtönből, menekülés közben egy elég szokatlan búvóhelyen köt ki: egy játékbolt falai között talál menedéket, ahol plüssök társaságában tervezgeti a következő nagy dobását. Telnek a hónapok, a hajtóvadászat lassan feledésbe merül, és közben Jeffrey beleszeret Leigh-be (Kirsten Dunst), az áruház egyik alkalmazottjába. A gond csak az, hogy a nő mit sem sejt arról, hogy új udvarlója egy körözött szökevény, aki abban reménykedik, hogy végre megkapja az élettől az új esélyt, amire mindig is vágyott…",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Bűnügyi",
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 187
-  },
-  {
-    "id": "tt0321440",
-    "type": "movie",
-    "name": "Bienvenue chez les Rozes",
-    "poster": "https://image.tmdb.org/t/p/w500/4RD31kJKqEJ5nC3EHkLr5Z9oiJY.jpg",
-    "posterShape": "poster",
-    "year": 2003,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2003",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 108
+    "seeders": 48
   },
   {
     "id": "tt23172090",
@@ -273,7 +275,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 370
+    "seeders": 435
+  },
+  {
+    "id": "tt0321440",
+    "type": "movie",
+    "name": "Bienvenue chez les Rozes",
+    "poster": "https://image.tmdb.org/t/p/w500/4RD31kJKqEJ5nC3EHkLr5Z9oiJY.jpg",
+    "posterShape": "poster",
+    "year": 2003,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2003",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 119
   },
   {
     "id": "tt15782690",
@@ -290,7 +307,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 277
+    "seeders": 305
   },
   {
     "id": "tt0082045",
@@ -306,23 +323,7 @@
       "Akció",
       "Vígjáték"
     ],
-    "seeders": 71
-  },
-  {
-    "id": "tt0454876",
-    "type": "movie",
-    "name": "Pi élete",
-    "poster": "https://image.tmdb.org/t/p/w500/vV95j9hLYrmnyIiucDbPLRvWvf1.jpg",
-    "posterShape": "poster",
-    "year": 2012,
-    "description": "Pi Patel különc indiai fiú, aki egy állatkertben lakik, melyet édesapja vezet. A vállalkozás nem túl jövedelmező, ezért apja úgy dönt, eladja az állatokat és Kanadába költöznek. A hajó azonban, amelyikkel útnak indulnak – és amelyik saját eladott állataik közül is szállít néhányat – elsüllyed, Patel pedig egy mentőcsónakban reked a katasztrófa másik túlélőjével, egy 2,5 mázsás bengáli tigrissel.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2012",
-    "genres": [
-      "Kaland",
-      "Dráma"
-    ],
-    "seeders": 27
+    "seeders": 69
   },
   {
     "id": "tt0126388",
@@ -340,7 +341,7 @@
       "Kaland",
       "Történelmi"
     ],
-    "seeders": 45
+    "seeders": 51
   },
   {
     "id": "tt32439773",
@@ -356,7 +357,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 128
+    "seeders": 144
   },
   {
     "id": "tt14813150",
@@ -373,22 +374,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 96
+    "seeders": 112
   },
   {
-    "id": "tt1931602",
+    "id": "tt0454876",
     "type": "movie",
-    "name": "Nagyon jó lányok",
-    "poster": "https://image.tmdb.org/t/p/w500/5wizGbDbyoRZCRto9Urp9R7X18n.jpg",
+    "name": "Pi élete",
+    "poster": "https://image.tmdb.org/t/p/w500/vV95j9hLYrmnyIiucDbPLRvWvf1.jpg",
     "posterShape": "poster",
-    "year": 2013,
-    "description": "Két New York-i barátnő megegyeznek, hogy a soron következő nyár során mindketten elvesztik a szüzességüket. Odáig el is jutnak, hogy szerelembe esnek, csakhogy mindketten ugyanabba a srácba. Barátságuk most először igazán nagy veszélybe kerül.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2013",
+    "year": 2012,
+    "description": "Pi Patel különc indiai fiú, aki egy állatkertben lakik, melyet édesapja vezet. A vállalkozás nem túl jövedelmező, ezért apja úgy dönt, eladja az állatokat és Kanadába költöznek. A hajó azonban, amelyikkel útnak indulnak – és amelyik saját eladott állataik közül is szállít néhányat – elsüllyed, Patel pedig egy mentőcsónakban reked a katasztrófa másik túlélőjével, egy 2,5 mázsás bengáli tigrissel.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2012",
     "genres": [
+      "Kaland",
       "Dráma"
     ],
-    "seeders": 63
+    "seeders": 28
   },
   {
     "id": "tt0085601",
@@ -408,6 +410,38 @@
     "seeders": 75
   },
   {
+    "id": "tt17279496",
+    "type": "movie",
+    "name": "Polgárháború",
+    "poster": "https://image.tmdb.org/t/p/w500/oCzzgAJcl52ntF0RZrW6hvPk93d.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "A közeljövőben, a polgárháború által feldúlt Egyesült Államokban, háborús újságírók egy csoportja próbál túlélni miközben beszámol az igazságról.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2024",
+    "genres": [
+      "Háborús",
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 230
+  },
+  {
+    "id": "tt1931602",
+    "type": "movie",
+    "name": "Nagyon jó lányok",
+    "poster": "https://image.tmdb.org/t/p/w500/5wizGbDbyoRZCRto9Urp9R7X18n.jpg",
+    "posterShape": "poster",
+    "year": 2013,
+    "description": "Két New York-i barátnő megegyeznek, hogy a soron következő nyár során mindketten elvesztik a szüzességüket. Odáig el is jutnak, hogy szerelembe esnek, csakhogy mindketten ugyanabba a srácba. Barátságuk most először igazán nagy veszélybe kerül.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2013",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 57
+  },
+  {
     "id": "tt0045793",
     "type": "movie",
     "name": "Most és mindörökké",
@@ -422,7 +456,23 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 33
+    "seeders": 34
+  },
+  {
+    "id": "tt32151255",
+    "type": "movie",
+    "name": "Családi hétvége",
+    "poster": "https://image.tmdb.org/t/p/w500/gMf764CCh2fVlvNLs8VzsUUQa7O.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Ez a sodró lendületű nigériai thriller az utolsó pillanatig találgatásra késztet, miközben sajátos nézőpontból járja körül az örök kérdést: mi a baj az anyósékkal?",
+    "imdbRating": 7.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 109
   },
   {
     "id": "tt0116839",
@@ -441,54 +491,5 @@
       "Thriller"
     ],
     "seeders": 34
-  },
-  {
-    "id": "tt17279496",
-    "type": "movie",
-    "name": "Polgárháború",
-    "poster": "https://image.tmdb.org/t/p/w500/oCzzgAJcl52ntF0RZrW6hvPk93d.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "A közeljövőben, a polgárháború által feldúlt Egyesült Államokban, háborús újságírók egy csoportja próbál túlélni miközben beszámol az igazságról.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2024",
-    "genres": [
-      "Háborús",
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 203
-  },
-  {
-    "id": "tt0099810",
-    "type": "movie",
-    "name": "Vadászat a Vörös Októberre",
-    "poster": "https://image.tmdb.org/t/p/w500/4GxzSYL7Ajk5VjicJ2tp6RtKYS0.jpg",
-    "posterShape": "poster",
-    "year": 1990,
-    "description": "A Vörös Október, a legújabb, szupertechnikával felszerelt szovjet atomtengeralattjáró az Egyesült Államok partjai felé tart. Az amerikai kormány attól fél, hogy akcióra készül. Egyedül Jack Ryan, a CIA szakértője gondolja, hogy az atom-tengeralattjáró litván parancsnoka dezertálni akar. A valóság még cifrább: Ramius kapitány át akarja játszani a modern hadieszközt az amerikaiaknak, hogy a szovjetek ne kerüljenek egyoldalú fölénybe. Az USA hírszerzése támadásként értelmezi a gépóriás mozgását, s beindítja ellene hadigépezetét, miközben a szökést sejtő oroszok is üldözőbe veszik a tengeralattjárót. A parancsnoknak minden leleményességét össze kell szednie, hogy kivághassa magát a kettős szorításból...",
-    "imdbRating": 7.4,
-    "releaseInfo": "1990",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 83
-  },
-  {
-    "id": "tt32151255",
-    "type": "movie",
-    "name": "Családi hétvége",
-    "poster": "https://image.tmdb.org/t/p/w500/gMf764CCh2fVlvNLs8VzsUUQa7O.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Ez a sodró lendületű nigériai thriller az utolsó pillanatig találgatásra késztet, miközben sajátos nézőpontból járja körül az örök kérdést: mi a baj az anyósékkal?",
-    "imdbRating": 7.0,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 97
   }
 ]
