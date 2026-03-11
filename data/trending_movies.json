@@ -14,7 +14,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 4015
+    "seeders": 2218
   },
   {
     "id": "tt21094994",
@@ -31,7 +31,24 @@
       "Akció",
       "Vígjáték"
     ],
-    "seeders": 288
+    "seeders": 216
+  },
+  {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat, és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké – és egyben pusztítóbb is.  (Csillag Lajos)",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 599
   },
   {
     "id": "tt1151928",
@@ -49,24 +66,26 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 55
+    "seeders": 44
   },
   {
-    "id": "tt32141377",
+    "id": "tt2268419",
     "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "name": "Pokoli egyezség",
+    "poster": "https://image.tmdb.org/t/p/w500/ujPIXJnhi4e5urVNrAtfb4wpb6a.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat, és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké – és egyben pusztítóbb is.  (Csillag Lajos)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
+    "year": 2013,
+    "description": "Miután egy könyörtelen rablóbanda elfoglal egy apró bányászvárost, a hatalomért kialakult harcban saját vezetőjüket, Guerrero Hernandez-t (Danny Trejo) is megölik társai. Örök kárhozatra ítélve a pokolban Guerrero-nak maga a sátán kínál egyezséget: hozzon el neki hat lelket korábbi bandatagjai közül, és ő megmenekül a kárhozattól. Guerrero elfogadja az alkut, és elindul, hogy véres bosszút álljon saját gyilkosain…",
+    "imdbRating": 5.0,
+    "releaseInfo": "2013",
     "genres": [
+      "Western",
+      "Akció",
+      "Fantasy",
       "Horror",
-      "Thriller",
-      "Sci-Fi"
+      "Dráma"
     ],
-    "seeders": 1018
+    "seeders": 25
   },
   {
     "id": "tt14181714",
@@ -76,13 +95,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 6.2,
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 1173
+    "seeders": 675
   },
   {
     "id": "tt0078058",
@@ -99,39 +118,7 @@
       "Bűnügyi",
       "Akció"
     ],
-    "seeders": 85
-  },
-  {
-    "id": "tt0066773",
-    "type": "movie",
-    "name": "Die Angst des Tormanns beim Elfmeter",
-    "poster": "https://image.tmdb.org/t/p/w500/bDrZTtcJVVaqv7SuNrpDAJQ99nI.jpg",
-    "posterShape": "poster",
-    "year": 1975,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.9,
-    "releaseInfo": "1975",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 23
-  },
-  {
-    "id": "tt23172090",
-    "type": "movie",
-    "name": "Porszörny",
-    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Fantasy",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 563
+    "seeders": 69
   },
   {
     "id": "tt0114306",
@@ -146,7 +133,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 41
+    "seeders": 37
   },
   {
     "id": "tt4627382",
@@ -163,38 +150,24 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 248
+    "seeders": 171
   },
   {
-    "id": "tt0494243",
+    "id": "tt23172090",
     "type": "movie",
-    "name": "Nem maradhat szemtanú",
-    "poster": "https://image.tmdb.org/t/p/w500/oo5FQkwZr6NHpE3U98I27rHOWnX.jpg",
-    "posterShape": "poster",
-    "year": 2006,
-    "description": "Victor Sandeman vezető beosztású munkatárs egy vállalatnál, de nagyon rossz helyzetbe került. Minden pénzét elvesztette egy becsődölt üzlet miatt és most menteni akarja, amit lehet. Ám a cég tulajdonosa nem akar belemenni a férfi által szorgalmazott fúzióba ezért, Victor megöli, és balesetnek álcázza a dolgot. Csak az a gond, hogy ügyetlen volt és van egy szemtanú. A nő nem tudja, mit látott, de most már ő is a lassan megőrülő férfi célpontja lesz.",
-    "imdbRating": 2.5,
-    "releaseInfo": "2006",
-    "genres": [
-      "Thriller",
-      "TV film"
-    ],
-    "seeders": 59
-  },
-  {
-    "id": "tt36589671",
-    "type": "movie",
-    "name": "A végső tűzharc",
-    "poster": "https://image.tmdb.org/t/p/w500/7ElOux95K8mfK1kuxK6K4A8MulM.jpg",
+    "name": "Porszörny",
+    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
-    "imdbRating": 6.4,
+    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
+    "imdbRating": 6.6,
     "releaseInfo": "2025",
     "genres": [
-      "Akció"
+      "Fantasy",
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 217
+    "seeders": 331
   },
   {
     "id": "tt7288408",
@@ -210,7 +183,53 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 155
+    "seeders": 112
+  },
+  {
+    "id": "tt36589671",
+    "type": "movie",
+    "name": "A végső tűzharc",
+    "poster": "https://image.tmdb.org/t/p/w500/7ElOux95K8mfK1kuxK6K4A8MulM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 142
+  },
+  {
+    "id": "tt35237771",
+    "type": "movie",
+    "name": "Ghost Elephants",
+    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 8.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 64
+  },
+  {
+    "id": "tt0494243",
+    "type": "movie",
+    "name": "Nem maradhat szemtanú",
+    "poster": "https://image.tmdb.org/t/p/w500/oo5FQkwZr6NHpE3U98I27rHOWnX.jpg",
+    "posterShape": "poster",
+    "year": 2006,
+    "description": "Victor Sandeman vezető beosztású munkatárs egy vállalatnál, de nagyon rossz helyzetbe került. Minden pénzét elvesztette egy becsődölt üzlet miatt és most menteni akarja, amit lehet. Ám a cég tulajdonosa nem akar belemenni a férfi által szorgalmazott fúzióba ezért, Victor megöli, és balesetnek álcázza a dolgot. Csak az a gond, hogy ügyetlen volt és van egy szemtanú. A nő nem tudja, mit látott, de most már ő is a lassan megőrülő férfi célpontja lesz.",
+    "imdbRating": 2.5,
+    "releaseInfo": "2006",
+    "genres": [
+      "Thriller",
+      "TV film"
+    ],
+    "seeders": 43
   },
   {
     "id": "tt15782690",
@@ -227,22 +246,37 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 384
+    "seeders": 237
   },
   {
-    "id": "tt35237771",
+    "id": "tt1424797",
     "type": "movie",
-    "name": "Ghost Elephants",
-    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
+    "name": "Megöltem az anyámat",
+    "poster": "https://image.tmdb.org/t/p/w500/5Qz5YnQPrEkdwNxAiKG1GiPtiqc.jpg",
     "posterShape": "poster",
-    "year": 2026,
+    "year": 2009,
+    "description": "A tizenhat éves Hubert a serdülőkor problémáival küszködik. Nem szereti az anyját, úgy érzi, Chantale valósággal őrületbe kergeti. A fiú megvetéssel viseltetik iránta, utálja a szakadt pulóvereit, a giccses dekorációit, az ételmaradékot a szája sarkában. Ugyanakkor - a többi tinédzserhez hasonlóan - ő sem őszinte vele, nem osztja meg vele a gondjait, problémáit, például azt, hogy a saját neméhez vonzódik. Ez a szeretet/gyűlölet kapcsolat az egész családra veszélyt jelent. Egy napon Chantale megelégeli az állandó összezördüléseket, és bentlakásos iskolába küldi Hubertet.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2009",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 39
+  },
+  {
+    "id": "tt3856972",
+    "type": "movie",
+    "name": "The Connection",
+    "poster": "https://image.tmdb.org/t/p/w500/69bsIXyzJhhM9rPxpHkGPdbRjAc.jpg",
+    "posterShape": "poster",
+    "year": 2014,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.8,
-    "releaseInfo": "2026",
+    "imdbRating": 6.5,
+    "releaseInfo": "2014",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 88
+    "seeders": 60
   },
   {
     "id": "tt0090756",
@@ -259,37 +293,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 44
-  },
-  {
-    "id": "tt3856972",
-    "type": "movie",
-    "name": "The Connection",
-    "poster": "https://image.tmdb.org/t/p/w500/69bsIXyzJhhM9rPxpHkGPdbRjAc.jpg",
-    "posterShape": "poster",
-    "year": 2014,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2014",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 86
-  },
-  {
-    "id": "tt1424797",
-    "type": "movie",
-    "name": "Megöltem az anyámat",
-    "poster": "https://image.tmdb.org/t/p/w500/5Qz5YnQPrEkdwNxAiKG1GiPtiqc.jpg",
-    "posterShape": "poster",
-    "year": 2009,
-    "description": "A tizenhat éves Hubert a serdülőkor problémáival küszködik. Nem szereti az anyját, úgy érzi, Chantale valósággal őrületbe kergeti. A fiú megvetéssel viseltetik iránta, utálja a szakadt pulóvereit, a giccses dekorációit, az ételmaradékot a szája sarkában. Ugyanakkor - a többi tinédzserhez hasonlóan - ő sem őszinte vele, nem osztja meg vele a gondjait, problémáit, például azt, hogy a saját neméhez vonzódik. Ez a szeretet/gyűlölet kapcsolat az egész családra veszélyt jelent. Egy napon Chantale megelégeli az állandó összezördüléseket, és bentlakásos iskolába küldi Hubertet.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2009",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 45
+    "seeders": 34
   },
   {
     "id": "tt0090798",
@@ -306,23 +310,7 @@
       "Történelmi",
       "Romantikus"
     ],
-    "seeders": 60
-  },
-  {
-    "id": "tt0066109",
-    "type": "movie",
-    "name": "Zenerajongók",
-    "poster": "https://image.tmdb.org/t/p/w500/hxqRVEGh86ZZnnzCIlQkuzdcLtM.jpg",
-    "posterShape": "poster",
-    "year": 1971,
-    "description": "Csajkovszkij még konzervatóriumi tanár, de már híres zeneszerző is, amikor rajongással imádott húga és sógora is figyelmeztetik, hogy árt hírnevének Anton Csiluvszkij grófhoz fűződő botrányos kapcsolata. Madame von Meck, a dúsgazdag, embergyűlölő özvegy meghallván Csajkovszkij I. zongoraversenyét, szabályosan beleszeret a zenéjébe és elhatározza, hogy támogatni fogja a zeneszerzőt. Soha nem találkoznak, csak a zenén keresztül érintkeznek. Nyina Miljukova, a merész, neurotikus lány a férfiba szeret bele, ismeretlenül levelet ír neki, épp akkor, amikor az Anyegint komponálja. Csajkovszkij számára Nyina szerelme lehetőség a normális szexuális kapcsolatra, ezért feleségül veszi, de a házasság terhe alatt megroppan. A szerelmes négyes : Csajkovszkij, Csiluvszkij, Nyina és Madame Meck kapcsola végképp összekuszálódik és tragikus végkifejletbe torkollik...",
-    "imdbRating": 6.5,
-    "releaseInfo": "1971",
-    "genres": [
-      "Dráma",
-      "Zenei"
-    ],
-    "seeders": 40
+    "seeders": 47
   },
   {
     "id": "tt0070534",
@@ -340,7 +328,54 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 81
+    "seeders": 64
+  },
+  {
+    "id": "tt0066109",
+    "type": "movie",
+    "name": "Zenerajongók",
+    "poster": "https://image.tmdb.org/t/p/w500/hxqRVEGh86ZZnnzCIlQkuzdcLtM.jpg",
+    "posterShape": "poster",
+    "year": 1971,
+    "description": "Csajkovszkij még konzervatóriumi tanár, de már híres zeneszerző is, amikor rajongással imádott húga és sógora is figyelmeztetik, hogy árt hírnevének Anton Csiluvszkij grófhoz fűződő botrányos kapcsolata. Madame von Meck, a dúsgazdag, embergyűlölő özvegy meghallván Csajkovszkij I. zongoraversenyét, szabályosan beleszeret a zenéjébe és elhatározza, hogy támogatni fogja a zeneszerzőt. Soha nem találkoznak, csak a zenén keresztül érintkeznek. Nyina Miljukova, a merész, neurotikus lány a férfiba szeret bele, ismeretlenül levelet ír neki, épp akkor, amikor az Anyegint komponálja. Csajkovszkij számára Nyina szerelme lehetőség a normális szexuális kapcsolatra, ezért feleségül veszi, de a házasság terhe alatt megroppan. A szerelmes négyes : Csajkovszkij, Csiluvszkij, Nyina és Madame Meck kapcsola végképp összekuszálódik és tragikus végkifejletbe torkollik...",
+    "imdbRating": 6.5,
+    "releaseInfo": "1971",
+    "genres": [
+      "Dráma",
+      "Zenei"
+    ],
+    "seeders": 35
+  },
+  {
+    "id": "tt0074442",
+    "type": "movie",
+    "name": "Bűnvadászok",
+    "poster": "https://image.tmdb.org/t/p/w500/7LkhTZl1uY3ouQ6aIb8ko04ds1c.jpg",
+    "posterShape": "poster",
+    "year": 1977,
+    "description": "Wilbur Walsh (Bud Spencer) és Matt Kirby (Terence Hill) a kikötőben bóklászva próbálnak munkát szerezni. Ám a furcsa párosnak nincs nagy szerencséje: munka helyett néhány helyi gengszter és pár autó szétpüfölésével kell vigasztalódniuk. Ezért úgy döntenek, hogy kirabolnak egy szupermarketet, de az akció balul sül el; a bolt hátsó bejárata helyett a helyi rendőrőrs ajtaján robbannak be. Hogy elkerüljék a letartóztatást, beállnak rendőrnek. A törvény jó oldalán állva sem hazudtolják meg önmagukat: aktuális pofonzáporaik között nyomozni kezdenek egy kínai titokzatos halála után és miközben a szálakat gombolyítják, előszeretettel teszik helyre a környékbeli rosszfiúk állkapcsát és más, ütésre zsibbadó testrészeit is.",
+    "imdbRating": 7.0,
+    "releaseInfo": "1977",
+    "genres": [
+      "Akció",
+      "Vígjáték"
+    ],
+    "seeders": 71
+  },
+  {
+    "id": "tt0066773",
+    "type": "movie",
+    "name": "Die Angst des Tormanns beim Elfmeter",
+    "poster": "https://image.tmdb.org/t/p/w500/bDrZTtcJVVaqv7SuNrpDAJQ99nI.jpg",
+    "posterShape": "poster",
+    "year": 1975,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.9,
+    "releaseInfo": "1975",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 17
   },
   {
     "id": "tt27757752",
@@ -358,38 +393,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 118
-  },
-  {
-    "id": "tt0074442",
-    "type": "movie",
-    "name": "Bűnvadászok",
-    "poster": "https://image.tmdb.org/t/p/w500/7LkhTZl1uY3ouQ6aIb8ko04ds1c.jpg",
-    "posterShape": "poster",
-    "year": 1977,
-    "description": "Wilbur Walsh (Bud Spencer) és Matt Kirby (Terence Hill) a kikötőben bóklászva próbálnak munkát szerezni. Ám a furcsa párosnak nincs nagy szerencséje: munka helyett néhány helyi gengszter és pár autó szétpüfölésével kell vigasztalódniuk. Ezért úgy döntenek, hogy kirabolnak egy szupermarketet, de az akció balul sül el; a bolt hátsó bejárata helyett a helyi rendőrőrs ajtaján robbannak be. Hogy elkerüljék a letartóztatást, beállnak rendőrnek. A törvény jó oldalán állva sem hazudtolják meg önmagukat: aktuális pofonzáporaik között nyomozni kezdenek egy kínai titokzatos halála után és miközben a szálakat gombolyítják, előszeretettel teszik helyre a környékbeli rosszfiúk állkapcsát és más, ütésre zsibbadó testrészeit is.",
-    "imdbRating": 7.0,
-    "releaseInfo": "1977",
-    "genres": [
-      "Akció",
-      "Vígjáték"
-    ],
-    "seeders": 92
-  },
-  {
-    "id": "tt0321440",
-    "type": "movie",
-    "name": "Bienvenue chez les Rozes",
-    "poster": "https://image.tmdb.org/t/p/w500/4RD31kJKqEJ5nC3EHkLr5Z9oiJY.jpg",
-    "posterShape": "poster",
-    "year": 2003,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2003",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 123
+    "seeders": 80
   },
   {
     "id": "tt0085486",
@@ -405,56 +409,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 70
-  },
-  {
-    "id": "tt32439773",
-    "type": "movie",
-    "name": "Az aranyműves titka",
-    "poster": "https://image.tmdb.org/t/p/w500/sPW9fszYL0EG7YJW4NwvnAZbfuq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Elia Barceló regényéből készült filmadaptáció egy fiatalember és egy érett nő kapcsolatát meséli el különböző korokban Spanyolországban, ahogy az időn átívelő, misztikus románc szövődik kettejük között.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 161
-  },
-  {
-    "id": "tt17279496",
-    "type": "movie",
-    "name": "Polgárháború",
-    "poster": "https://image.tmdb.org/t/p/w500/oCzzgAJcl52ntF0RZrW6hvPk93d.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "A közeljövőben, a polgárháború által feldúlt Egyesült Államokban, háborús újságírók egy csoportja próbál túlélni miközben beszámol az igazságról.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2024",
-    "genres": [
-      "Háborús",
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 307
-  },
-  {
-    "id": "tt0072933",
-    "type": "movie",
-    "name": "Emmanuelle 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/so3ZVPgD9ZOfwyjoYLGU6UGz1pp.jpg",
-    "posterShape": "poster",
-    "year": 1975,
-    "description": "Emmanuelle hosszú távollét után visszatér férjéhez Hong-Kongba. A helyszínen urát jóképű angol barátja, Christopher társaságában találja. Az erotikus kalandokat kereső Emmanulle egyre nagyobb szexuális feszültséget teremt a házban. A kibontakozó testi játékok \"áldozataivá\" Laura és a nagykorúság küszöbén álló Anna-Maria válnak.",
-    "imdbRating": 5.6,
-    "releaseInfo": "1975",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 64
+    "seeders": 52
   },
   {
     "id": "tt0071464",
@@ -470,22 +425,70 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 64
+    "seeders": 49
   },
   {
-    "id": "tt0082045",
+    "id": "tt0321440",
     "type": "movie",
-    "name": "Banános Joe",
-    "poster": "https://image.tmdb.org/t/p/w500/1WmUC60XB1FGD2twZju26mOLimZ.jpg",
+    "name": "Alulról szagolni a rózsát",
+    "poster": "https://image.tmdb.org/t/p/w500/4RD31kJKqEJ5nC3EHkLr5Z9oiJY.jpg",
     "posterShape": "poster",
-    "year": 1982,
-    "description": "Banános Joe balszerencséjére a helyi maffia ráteszi a kezét a banánkereskedelemre. Joe nem hagyja magát, és úgy dönt, üzletéhez megszerzi az összes hivatalos papírt. Ám a városban szerelmes lesz egy énekesnőbe, besorozzák a hadseregbe, ráadásul hiába szerzi meg az áhított engedélyt, börtönbe csukják. Amikor hazatér, döbbenten tapasztalja, hogy otthonából modern, korrupt maffiaközpont lett. Joe a sarkára áll, és alaposan móresre tanítja a bűnözőket.",
-    "imdbRating": 6.7,
-    "releaseInfo": "1982",
+    "year": 2003,
+    "description": "Gilbert és MG, a szállítás közben megszökött két rab betoppan Daniel és Béatrice Roze házába és túszul ejtik az egész családot. Nem sokkal később a fegyencek már meg is bánták, hogy betértek a népes Roze család köreibe, ahol éppen ezüstlakodalmat ünnepelnek. A család tagjai nem is nagyon zavartatják magukat az egyre meglepettebb ünneprontók jelenlététől, és folytatódik a rendes éves családi perpatvar. Az elsőfilmes rendező kedves filmje a fekete humor egyik ékköve, és a figyelmes nézők frappáns filmtörténeti utalások tanúi lehetnek...",
+    "imdbRating": 5.4,
+    "releaseInfo": "2003",
     "genres": [
-      "Akció",
       "Vígjáték"
     ],
-    "seeders": 83
+    "seeders": 77
+  },
+  {
+    "id": "tt0072933",
+    "type": "movie",
+    "name": "Emmanuelle 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/so3ZVPgD9ZOfwyjoYLGU6UGz1pp.jpg",
+    "posterShape": "poster",
+    "year": 1975,
+    "description": "Emmanuelle hosszú távollét után visszatér férjéhez Hong-Kongba. A helyszínen urát jóképű angol barátja, Christopher társaságában találja. Az erotikus kalandokat kereső Emmanulle egyre nagyobb szexuális feszültséget teremt a házban. A kibontakozó testi játékok \"áldozataivá\" Laura és a nagykorúság küszöbén álló Anna-Maria válnak.",
+    "imdbRating": 5.6,
+    "releaseInfo": "1975",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 46
+  },
+  {
+    "id": "tt14813150",
+    "type": "movie",
+    "name": "Manodrome",
+    "poster": "https://image.tmdb.org/t/p/w500/nSAqIzuCqCQAt3HFsHwiffFSj96.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Ralphie fiatal és egészséges, és van egy barátnője, akivel éppen babát várnak. Mégis úgy tűnik, valami nem stimmel nála. Uber-sofőr munkája nem elégíti ki, anyagilag sem áll biztos lábakon, és a saját testéhez való viszonya is furcsa. Amikor találkozik egy titokzatos libertárius férficsoport karizmatikus vezetőjével, felszínre törnek a benne felgyülemlett feszültségek. Ralphie kezdi elveszíteni kapcsolatát a valósággal...",
+    "imdbRating": 4.9,
+    "releaseInfo": "2023",
+    "genres": [
+      "Rejtély",
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 86
+  },
+  {
+    "id": "tt32439773",
+    "type": "movie",
+    "name": "Az aranyműves titka",
+    "poster": "https://image.tmdb.org/t/p/w500/sPW9fszYL0EG7YJW4NwvnAZbfuq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Elia Barceló regényéből készült filmadaptáció egy fiatalember és egy érett nő kapcsolatát meséli el különböző korokban Spanyolországban, ahogy az időn átívelő, misztikus románc szövődik kettejük között.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 101
   }
 ]
