@@ -2,6 +2,7 @@
 Build trending catalogs: "hot" HD 1080p items from the most recent uploads (seed velocity).
 - Fetches the last TORRENT_POOL (200) torrents per category, sorted by upload (newest first).
 - Filters to HD_HUN (movies) / HDSER_HUN (series), pattern .1080 (1080p).
+- Movies: only release year in [TRENDING_MIN_YEAR, TRENDING_MAX_YEAR] (e.g. 2025–2026) so the list shows recently released, actually trending titles.
 - Sorts by seed velocity (seeders / days_since_upload); min TRENDING_MIN_SEEDERS; dedupes by IMDB, top TRENDING_COUNT.
 Output: data/trending_movies.json, data/trending_series.json.
 
@@ -49,6 +50,9 @@ NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 TORRENT_POOL = int(os.getenv('NCORE_TRENDING_POOL', '200'))
 TRENDING_COUNT = int(os.getenv('NCORE_TRENDING_COUNT', '30'))
 TRENDING_MIN_SEEDERS = int(os.getenv('NCORE_TRENDING_MIN_SEEDERS', '5'))  # skip torrents with fewer seeds
+# Only include movies with release year in [TRENDING_MIN_YEAR, TRENDING_MAX_YEAR] (e.g. 2025–2026 = recent & actually trending)
+TRENDING_MIN_YEAR = int(os.getenv('NCORE_TRENDING_MIN_YEAR', '2025'))
+TRENDING_MAX_YEAR = int(os.getenv('NCORE_TRENDING_MAX_YEAR', '2026'))
 NCORE_PAGE_DELAY = float(os.getenv('NCORE_PAGE_DELAY', '2.0'))
 NCORE_PAGE_RETRIES = int(os.getenv('NCORE_PAGE_RETRIES', '3'))
 NCORE_RETRY_WAIT = float(os.getenv('NCORE_RETRY_WAIT', '10.0'))
@@ -288,7 +292,7 @@ def main():
         return 1
 
     # ---------- MOVIES ----------
-    print("🎬 Trendi filmek (HD_HUN 1080p, seed velocity = seed/nap)")
+    print(f"🎬 Trendi filmek (HD_HUN 1080p, seed velocity, év: {TRENDING_MIN_YEAR}–{TRENDING_MAX_YEAR})")
     movie_torrents = fetch_trending_movies(client)
     print(f"  Összesen {len(movie_torrents)} torrent")
     movie_torrents.sort(key=lambda t: _velocity(t), reverse=True)
@@ -309,6 +313,9 @@ def main():
         clean, year = parse_movie_title(title)
         metadata = search_movie_on_tmdb(clean, year, TMDB_API_KEY)
         if not metadata or not metadata.get('imdb_id'):
+            continue
+        meta_year = metadata.get('year')
+        if meta_year is None or not (TRENDING_MIN_YEAR <= meta_year <= TRENDING_MAX_YEAR):
             continue
         imdb_id = metadata['imdb_id']
         imdb_id = imdb_id if str(imdb_id).startswith('tt') else 'tt' + str(imdb_id)
