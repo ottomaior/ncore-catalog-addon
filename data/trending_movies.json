@@ -13,7 +13,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 95
+    "seeders": 98
   },
   {
     "id": "tt15940132",
@@ -30,7 +30,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 3052
+    "seeders": 3073
   },
   {
     "id": "tt32676674",
@@ -47,7 +47,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 79
+    "seeders": 80
   },
   {
     "id": "tt22014400",
@@ -62,7 +62,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 71
+    "seeders": 69
   },
   {
     "id": "tt31392191",
@@ -78,7 +78,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 144
+    "seeders": 143
   },
   {
     "id": "tt32141377",
@@ -95,7 +95,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 761
+    "seeders": 767
   },
   {
     "id": "tt39792948",
@@ -110,7 +110,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 86
+    "seeders": 85
   },
   {
     "id": "tt14181714",
@@ -126,7 +126,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 891
+    "seeders": 900
   },
   {
     "id": "tt23172090",
@@ -143,7 +143,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 438
+    "seeders": 448
   },
   {
     "id": "tt4627382",
@@ -160,7 +160,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 215
+    "seeders": 218
   },
   {
     "id": "tt36589671",
@@ -175,7 +175,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 175
+    "seeders": 176
   },
   {
     "id": "tt35237771",
@@ -190,7 +190,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 83
+    "seeders": 82
   },
   {
     "id": "tt27757752",
@@ -208,7 +208,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 95
+    "seeders": 96
   },
   {
     "id": "tt32439773",
@@ -224,7 +224,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 142
+    "seeders": 141
   },
   {
     "id": "tt20990442",
@@ -240,24 +240,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 185
-  },
-  {
-    "id": "tt20414360",
-    "type": "movie",
-    "name": "Köln 75",
-    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Zenei"
-    ],
-    "seeders": 98
+    "seeders": 188
   },
   {
     "id": "tt35727399",
@@ -275,6 +258,39 @@
       "Vígjáték"
     ],
     "seeders": 88
+  },
+  {
+    "id": "tt20414360",
+    "type": "movie",
+    "name": "Köln 75",
+    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Zenei"
+    ],
+    "seeders": 96
+  },
+  {
+    "id": "tt31105878",
+    "type": "movie",
+    "name": "Diva Futura : A Cicciolina sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 107
   },
   {
     "id": "tt39012071",
@@ -296,22 +312,6 @@
     "seeders": 93
   },
   {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura : A Cicciolina sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 101
-  },
-  {
     "id": "tt14107334",
     "type": "movie",
     "name": "Menekülő ember",
@@ -326,7 +326,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 103
+    "seeders": 105
   },
   {
     "id": "tt31065630",
@@ -341,7 +341,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 131
+    "seeders": 133
   },
   {
     "id": "tt22530226",
@@ -358,7 +358,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 93
+    "seeders": 94
   },
   {
     "id": "tt37800570",
@@ -389,7 +389,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 81
+    "seeders": 83
   },
   {
     "id": "tt15799524",
