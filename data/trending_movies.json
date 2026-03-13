@@ -14,7 +14,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 249
+    "seeders": 666
+  },
+  {
+    "id": "tt14905854",
+    "type": "movie",
+    "name": "Hamnet",
+    "poster": "https://image.tmdb.org/t/p/w500/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1580, Anglia. Az elszegényedett latintanár, William Shakespeare megismerkedik a szabadszellemű Agnes-szel, és a pár egymástól elragadtatva szenvedélyes viszonyba keveredik, amelynek vége házasság és három gyermek lesz. Viszont miközben Will a távoli Londonban egyengeti bimbózó színészi karrierjét, Agnes-nek egyedül kell helyt állnia otthon. Amikor tragédia történik, a pár egykor megingathatatlan köteléke próbára tétetik, ám a közös élményeik alapozzák meg Shakespeare időtlen remekművének, a Hamletnek a megírását.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus",
+      "Történelmi"
+    ],
+    "seeders": 172
   },
   {
     "id": "tt34937354",
@@ -31,7 +48,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 75
+    "seeders": 116
   },
   {
     "id": "tt15940132",
@@ -48,7 +65,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 3265
+    "seeders": 3953
   },
   {
     "id": "tt27424511",
@@ -64,7 +81,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 194
+    "seeders": 225
   },
   {
     "id": "tt13289492",
@@ -79,7 +96,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 74
+    "seeders": 83
   },
   {
     "id": "tt26443597",
@@ -98,7 +115,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 82
+    "seeders": 98
   },
   {
     "id": "tt32141377",
@@ -115,7 +132,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 783
+    "seeders": 941
   },
   {
     "id": "tt31392191",
@@ -131,7 +148,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 170
+    "seeders": 183
   },
   {
     "id": "tt32676674",
@@ -148,22 +165,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 112
-  },
-  {
-    "id": "tt22014400",
-    "type": "movie",
-    "name": "Egy humorista halála",
-    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 88
+    "seeders": 116
   },
   {
     "id": "tt14181714",
@@ -179,7 +181,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 913
+    "seeders": 1097
+  },
+  {
+    "id": "tt22014400",
+    "type": "movie",
+    "name": "Egy humorista halála",
+    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt39792948",
@@ -194,7 +211,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 87
+    "seeders": 100
   },
   {
     "id": "tt23172090",
@@ -211,7 +228,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 450
+    "seeders": 521
   },
   {
     "id": "tt4627382",
@@ -228,7 +245,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 218
+    "seeders": 260
   },
   {
     "id": "tt36589671",
@@ -243,22 +260,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 173
-  },
-  {
-    "id": "tt35237771",
-    "type": "movie",
-    "name": "Ghost Elephants",
-    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 82
+    "seeders": 191
   },
   {
     "id": "tt32439773",
@@ -274,7 +276,22 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 143
+    "seeders": 161
+  },
+  {
+    "id": "tt35237771",
+    "type": "movie",
+    "name": "Ghost Elephants",
+    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 77
   },
   {
     "id": "tt27757752",
@@ -292,7 +309,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 91
+    "seeders": 97
   },
   {
     "id": "tt20990442",
@@ -308,22 +325,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 187
-  },
-  {
-    "id": "tt31065630",
-    "type": "movie",
-    "name": "Árva",
-    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 143
+    "seeders": 207
   },
   {
     "id": "tt39012071",
@@ -342,7 +344,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 94
+    "seeders": 112
+  },
+  {
+    "id": "tt31105878",
+    "type": "movie",
+    "name": "Diva Futura: A Cicciolina-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 122
   },
   {
     "id": "tt35727399",
@@ -359,7 +377,22 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 85
+    "seeders": 100
+  },
+  {
+    "id": "tt31065630",
+    "type": "movie",
+    "name": "Árva",
+    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 155
   },
   {
     "id": "tt20414360",
@@ -379,22 +412,6 @@
     "seeders": 93
   },
   {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura: A Cicciolina-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 102
-  },
-  {
     "id": "tt14107334",
     "type": "movie",
     "name": "Menekülő ember",
@@ -409,7 +426,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 104
+    "seeders": 111
   },
   {
     "id": "tt22530226",
@@ -426,7 +443,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 90
+    "seeders": 101
   },
   {
     "id": "tt37800570",
@@ -441,7 +458,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 60
+    "seeders": 71
   },
   {
     "id": "tt32332404",
@@ -457,7 +474,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 85
+    "seeders": 104
   },
   {
     "id": "tt37820061",
@@ -473,23 +490,6 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 71
-  },
-  {
-    "id": "tt15799524",
-    "type": "movie",
-    "name": "A hang története",
-    "poster": "https://image.tmdb.org/t/p/w500/55of0Vy7m32hSRZKsCyyDjZn4AC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Lionel, a tehetséges énekes 1917-ben elhagyja a családi gazdaságot, hogy a Boston Music Conservatoryba járjon. Ott találkozik Daviddel, a sármos zeneszerző hallgatóval, akit hamarosan behívnak a hadseregbe. 1920-ban a téli hónapokat Maine erdeiben és szigetein töltik, ahol népdalokat gyűjtenek, hogy megőrizzék azokat a következő generációknak. Lionel ezután Európába vándorol, ahol siker és új szerelem várja. A Daviddel töltött idők emléke azonban folyton visszatér és Lionel igyekszik megérteni mi is történt köztük.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus",
-      "Zenei"
-    ],
-    "seeders": 51
+    "seeders": 82
   }
 ]
