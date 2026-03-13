@@ -1,20 +1,5 @@
 [
   {
-    "id": "tt13289492",
-    "type": "movie",
-    "name": "Friedas Fall",
-    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 45
-  },
-  {
     "id": "tt15940132",
     "type": "movie",
     "name": "Ismeretlen támadók",
@@ -29,7 +14,22 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2328
+    "seeders": 2683
+  },
+  {
+    "id": "tt13289492",
+    "type": "movie",
+    "name": "Friedas Fall",
+    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 58
   },
   {
     "id": "tt27424511",
@@ -45,7 +45,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 151
+    "seeders": 173
   },
   {
     "id": "tt26443597",
@@ -64,7 +64,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 71
+    "seeders": 78
   },
   {
     "id": "tt32676674",
@@ -81,7 +81,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 91
+    "seeders": 99
   },
   {
     "id": "tt31392191",
@@ -97,22 +97,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt22014400",
-    "type": "movie",
-    "name": "Egy humorista halála",
-    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 75
+    "seeders": 148
   },
   {
     "id": "tt32141377",
@@ -129,22 +114,22 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 591
+    "seeders": 654
   },
   {
-    "id": "tt39792948",
+    "id": "tt22014400",
     "type": "movie",
-    "name": "Louis Theroux: A manoszféra belsejében",
-    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+    "name": "Egy humorista halála",
+    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum"
+      "Dráma"
     ],
-    "seeders": 78
+    "seeders": 84
   },
   {
     "id": "tt14181714",
@@ -160,7 +145,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 683
+    "seeders": 808
+  },
+  {
+    "id": "tt39792948",
+    "type": "movie",
+    "name": "Louis Theroux: A manoszféra belsejében",
+    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 82
   },
   {
     "id": "tt23172090",
@@ -177,7 +177,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 347
+    "seeders": 405
   },
   {
     "id": "tt4627382",
@@ -194,7 +194,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 173
+    "seeders": 198
   },
   {
     "id": "tt36589671",
@@ -209,7 +209,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 146
+    "seeders": 167
   },
   {
     "id": "tt35237771",
@@ -224,7 +224,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 64
+    "seeders": 73
   },
   {
     "id": "tt32439773",
@@ -240,7 +240,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 117
+    "seeders": 134
   },
   {
     "id": "tt27757752",
@@ -258,7 +258,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 77
+    "seeders": 85
   },
   {
     "id": "tt20990442",
@@ -274,7 +274,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 159
+    "seeders": 165
   },
   {
     "id": "tt20414360",
@@ -291,7 +291,24 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 84
+    "seeders": 89
+  },
+  {
+    "id": "tt35727399",
+    "type": "movie",
+    "name": "Karácsonyi egércsata",
+    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Animációs",
+      "Vígjáték"
+    ],
+    "seeders": 80
   },
   {
     "id": "tt39012071",
@@ -310,7 +327,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 84
+    "seeders": 88
   },
   {
     "id": "tt31065630",
@@ -325,7 +342,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 117
+    "seeders": 129
   },
   {
     "id": "tt31105878",
@@ -341,24 +358,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 82
-  },
-  {
-    "id": "tt35727399",
-    "type": "movie",
-    "name": "Karácsonyi egércsata",
-    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Animációs",
-      "Vígjáték"
-    ],
-    "seeders": 66
+    "seeders": 92
   },
   {
     "id": "tt14107334",
@@ -375,7 +375,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 87
+    "seeders": 96
   },
   {
     "id": "tt22530226",
@@ -392,7 +392,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 82
+    "seeders": 86
   },
   {
     "id": "tt37800570",
@@ -407,7 +407,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 52
+    "seeders": 61
   },
   {
     "id": "tt15799524",
@@ -424,7 +424,7 @@
       "Romantikus",
       "Zenei"
     ],
-    "seeders": 47
+    "seeders": 48
   },
   {
     "id": "tt37820061",
@@ -440,7 +440,7 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 59
+    "seeders": 62
   },
   {
     "id": "tt32332404",
@@ -456,7 +456,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 58
+    "seeders": 68
   },
   {
     "id": "tt27614382",
@@ -471,6 +471,6 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 39
+    "seeders": 46
   }
 ]
