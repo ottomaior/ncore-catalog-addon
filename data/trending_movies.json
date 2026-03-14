@@ -14,7 +14,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 928
+    "seeders": 1226
   },
   {
     "id": "tt15940132",
@@ -31,7 +31,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 3034
+    "seeders": 3678
   },
   {
     "id": "tt14905854",
@@ -48,7 +48,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 205
+    "seeders": 269
   },
   {
     "id": "tt34937354",
@@ -65,7 +65,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 138
+    "seeders": 157
   },
   {
     "id": "tt27424511",
@@ -81,7 +81,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 204
+    "seeders": 228
   },
   {
     "id": "tt32141377",
@@ -98,7 +98,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 721
+    "seeders": 875
   },
   {
     "id": "tt13289492",
@@ -113,7 +113,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 84
+    "seeders": 93
   },
   {
     "id": "tt26443597",
@@ -132,23 +132,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 91
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Where the Wind Comes From",
-    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 158
+    "seeders": 104
   },
   {
     "id": "tt14181714",
@@ -164,7 +148,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 851
+    "seeders": 978
+  },
+  {
+    "id": "tt31392191",
+    "type": "movie",
+    "name": "Where the Wind Comes From",
+    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 175
   },
   {
     "id": "tt32676674",
@@ -181,7 +181,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 105
+    "seeders": 118
   },
   {
     "id": "tt22014400",
@@ -196,7 +196,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 91
+    "seeders": 96
   },
   {
     "id": "tt23172090",
@@ -213,22 +213,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 412
-  },
-  {
-    "id": "tt39792948",
-    "type": "movie",
-    "name": "Louis Theroux: A manoszféra belsejében",
-    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 88
+    "seeders": 501
   },
   {
     "id": "tt4627382",
@@ -245,7 +230,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 212
+    "seeders": 235
+  },
+  {
+    "id": "tt39792948",
+    "type": "movie",
+    "name": "Louis Theroux: A manoszféra belsejében",
+    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 83
   },
   {
     "id": "tt36589671",
@@ -260,7 +260,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 160
+    "seeders": 181
   },
   {
     "id": "tt32439773",
@@ -276,7 +276,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 133
+    "seeders": 146
   },
   {
     "id": "tt27757752",
@@ -294,7 +294,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 87
+    "seeders": 85
   },
   {
     "id": "tt35237771",
@@ -309,7 +309,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 64
+    "seeders": 66
   },
   {
     "id": "tt20990442",
@@ -325,24 +325,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 179
-  },
-  {
-    "id": "tt35727399",
-    "type": "movie",
-    "name": "Karácsonyi egércsata",
-    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Animációs",
-      "Vígjáték"
-    ],
-    "seeders": 83
+    "seeders": 206
   },
   {
     "id": "tt39012071",
@@ -361,7 +344,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 90
+    "seeders": 108
   },
   {
     "id": "tt31065630",
@@ -376,24 +359,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 130
-  },
-  {
-    "id": "tt20414360",
-    "type": "movie",
-    "name": "Köln 75",
-    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Zenei"
-    ],
-    "seeders": 87
+    "seeders": 153
   },
   {
     "id": "tt14107334",
@@ -410,7 +376,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 101
+    "seeders": 114
   },
   {
     "id": "tt31105878",
@@ -426,7 +392,41 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 93
+    "seeders": 104
+  },
+  {
+    "id": "tt35727399",
+    "type": "movie",
+    "name": "Karácsonyi egércsata",
+    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Animációs",
+      "Vígjáték"
+    ],
+    "seeders": 86
+  },
+  {
+    "id": "tt20414360",
+    "type": "movie",
+    "name": "Köln 75",
+    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Zenei"
+    ],
+    "seeders": 92
   },
   {
     "id": "tt22530226",
@@ -443,38 +443,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt37800570",
-    "type": "movie",
-    "name": "Külvárosi utak 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/chivRgMyevpLUDfLIokY9aTomRu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután szembenéztek bűneik következményeivel, a Traoré fivérek kapnak még egy utolsó esélyt, hogy jobb útra térjenek a trilógia zárófejezetében.",
-    "imdbRating": 5.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 60
-  },
-  {
-    "id": "tt37820061",
-    "type": "movie",
-    "name": "Távol",
-    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 73
+    "seeders": 94
   },
   {
     "id": "tt32332404",
@@ -490,6 +459,37 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 80
+    "seeders": 102
+  },
+  {
+    "id": "tt37800570",
+    "type": "movie",
+    "name": "Külvárosi utak 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/chivRgMyevpLUDfLIokY9aTomRu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután szembenéztek bűneik következményeivel, a Traoré fivérek kapnak még egy utolsó esélyt, hogy jobb útra térjenek a trilógia zárófejezetében.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 68
+  },
+  {
+    "id": "tt37820061",
+    "type": "movie",
+    "name": "Távol",
+    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 77
   }
 ]
