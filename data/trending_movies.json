@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt11539996",
+    "type": "movie",
+    "name": "Kontakt",
+    "poster": "https://image.tmdb.org/t/p/w500/zi4pvq1HJYj851svkeqJCmCrMTH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Relay-ben Riz Ahmed egy világklasszis „fixert” alakít, aki arra specializálódott, hogy jövedelmező kifizetéseket közvetítsen korrupt vállalatok és a tönkremenetelüket fenyegető személyek között. Személyazonosságát aprólékos tervezéssel tartja titokban és mindig szigorú szabályokat követ. Amikor azonban egy nap üzenet érkezik egy potenciális ügyféltől (Lily James), akinek a védelmére van szüksége, csak hogy életben maradjon, a szabályok gyorsan megváltoznak.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 738
+  },
+  {
     "id": "tt14905854",
     "type": "movie",
     "name": "Hamnet",
@@ -14,24 +31,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 68
-  },
-  {
-    "id": "tt11539996",
-    "type": "movie",
-    "name": "Kontakt",
-    "poster": "https://image.tmdb.org/t/p/w500/zi4pvq1HJYj851svkeqJCmCrMTH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Relay-ben Riz Ahmed egy világklasszis „fixert” alakít, aki arra specializálódott, hogy jövedelmező kifizetéseket közvetítsen korrupt vállalatok és a tönkremenetelüket fenyegető személyek között. Személyazonosságát aprólékos tervezéssel tartja titokban és mindig szigorú szabályokat követ. Amikor azonban egy nap üzenet érkezik egy potenciális ügyféltől (Lily James), akinek a védelmére van szüksége, csak hogy életben maradjon, a szabályok gyorsan megváltoznak.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 820
+    "seeders": 172
   },
   {
     "id": "tt15940132",
@@ -48,7 +48,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 4088
+    "seeders": 2468
   },
   {
     "id": "tt34937354",
@@ -65,13 +65,13 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 130
+    "seeders": 111
   },
   {
     "id": "tt27424511",
     "type": "movie",
     "name": "Felszívódva",
-    "poster": "https://image.tmdb.org/t/p/w500/mMUVnkcx2VawTBJYnnnRN8fxJpb.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/fxuDQqTAhyF5Xiwh0mks8xH6jAt.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Miután egy erkölcsi csődbe került vállalat megpróbálja fegyverként felhasználni a zseniális tudós forradalmi technológiáját, az emberiség védelme érdekében a tudós eltűnik a nyilvánosság elől. Amikor a vállalat egy zsoldoscsapatot küld utána, elkövetik a legnagyobb hibát: élve akarják elkapni az állig felfegyverkezett férfit.",
@@ -81,7 +81,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 228
+    "seeders": 176
   },
   {
     "id": "tt13289492",
@@ -96,7 +96,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 83
+    "seeders": 69
   },
   {
     "id": "tt26443597",
@@ -115,7 +115,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 97
+    "seeders": 83
   },
   {
     "id": "tt32141377",
@@ -132,7 +132,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 973
+    "seeders": 605
   },
   {
     "id": "tt31392191",
@@ -148,7 +148,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 182
+    "seeders": 135
   },
   {
     "id": "tt32676674",
@@ -165,7 +165,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 120
+    "seeders": 94
   },
   {
     "id": "tt14181714",
@@ -181,7 +181,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1129
+    "seeders": 702
   },
   {
     "id": "tt22014400",
@@ -196,7 +196,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 93
+    "seeders": 76
   },
   {
     "id": "tt39792948",
@@ -211,7 +211,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 99
+    "seeders": 79
   },
   {
     "id": "tt23172090",
@@ -228,7 +228,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 532
+    "seeders": 347
   },
   {
     "id": "tt4627382",
@@ -245,7 +245,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 273
+    "seeders": 181
   },
   {
     "id": "tt36589671",
@@ -260,7 +260,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 186
+    "seeders": 144
   },
   {
     "id": "tt32439773",
@@ -276,22 +276,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 162
-  },
-  {
-    "id": "tt35237771",
-    "type": "movie",
-    "name": "Ghost Elephants",
-    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 82
+    "seeders": 112
   },
   {
     "id": "tt27757752",
@@ -309,7 +294,22 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 95
+    "seeders": 76
+  },
+  {
+    "id": "tt35237771",
+    "type": "movie",
+    "name": "Ghost Elephants",
+    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 58
   },
   {
     "id": "tt20990442",
@@ -325,7 +325,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 203
+    "seeders": 161
   },
   {
     "id": "tt39012071",
@@ -344,40 +344,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 115
-  },
-  {
-    "id": "tt35727399",
-    "type": "movie",
-    "name": "Karácsonyi egércsata",
-    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Animációs",
-      "Vígjáték"
-    ],
-    "seeders": 101
-  },
-  {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura: A Cicciolina-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 122
+    "seeders": 86
   },
   {
     "id": "tt31065630",
@@ -391,23 +358,6 @@
     "releaseInfo": "2025",
     "genres": [
       "Dráma"
-    ],
-    "seeders": 158
-  },
-  {
-    "id": "tt14107334",
-    "type": "movie",
-    "name": "Menekülő ember",
-    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Sci-Fi"
     ],
     "seeders": 121
   },
@@ -426,7 +376,57 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 97
+    "seeders": 76
+  },
+  {
+    "id": "tt14107334",
+    "type": "movie",
+    "name": "Menekülő ember",
+    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 91
+  },
+  {
+    "id": "tt35727399",
+    "type": "movie",
+    "name": "Karácsonyi egércsata",
+    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Animációs",
+      "Vígjáték"
+    ],
+    "seeders": 67
+  },
+  {
+    "id": "tt31105878",
+    "type": "movie",
+    "name": "Diva Futura: A Cicciolina-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 79
   },
   {
     "id": "tt22530226",
@@ -443,7 +443,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 106
+    "seeders": 83
   },
   {
     "id": "tt37800570",
@@ -453,28 +453,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miután szembenéztek bűneik következményeivel, a Traoré fivérek kapnak még egy utolsó esélyt, hogy jobb útra térjenek a trilógia zárófejezetében.",
-    "imdbRating": 5.2,
+    "imdbRating": 5.3,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 70
-  },
-  {
-    "id": "tt32332404",
-    "type": "movie",
-    "name": "Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/mbGHijUc0C3fcM12l6ro6FgxIvg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 105
+    "seeders": 53
   },
   {
     "id": "tt37820061",
@@ -490,6 +474,23 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 84
+    "seeders": 65
+  },
+  {
+    "id": "tt15799524",
+    "type": "movie",
+    "name": "A hang története",
+    "poster": "https://image.tmdb.org/t/p/w500/55of0Vy7m32hSRZKsCyyDjZn4AC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Lionel, a tehetséges énekes 1917-ben elhagyja a családi gazdaságot, hogy a Boston Music Conservatoryba járjon. Ott találkozik Daviddel, a sármos zeneszerző hallgatóval, akit hamarosan behívnak a hadseregbe. 1920-ban a téli hónapokat Maine erdeiben és szigetein töltik, ahol népdalokat gyűjtenek, hogy megőrizzék azokat a következő generációknak. Lionel ezután Európába vándorol, ahol siker és új szerelem várja. A Daviddel töltött idők emléke azonban folyton visszatér és Lionel igyekszik megérteni mi is történt köztük.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus",
+      "Zenei"
+    ],
+    "seeders": 47
   }
 ]
