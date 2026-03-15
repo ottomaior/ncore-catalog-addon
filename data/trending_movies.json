@@ -1,8 +1,25 @@
 [
   {
+    "id": "tt11539996",
+    "type": "movie",
+    "name": "Kontakt",
+    "poster": "https://image.tmdb.org/t/p/w500/zi4pvq1HJYj851svkeqJCmCrMTH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Relay-ben Riz Ahmed egy világklasszis „fixert” alakít, aki arra specializálódott, hogy jövedelmező kifizetéseket közvetítsen korrupt vállalatok és a tönkremenetelüket fenyegető személyek között. Személyazonosságát aprólékos tervezéssel tartja titokban és mindig szigorú szabályokat követ. Amikor azonban egy nap üzenet érkezik egy potenciális ügyféltől (Lily James), akinek a védelmére van szüksége, csak hogy életben maradjon, a szabályok gyorsan megváltoznak.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 1441
+  },
+  {
     "id": "tt14186876",
     "type": "movie",
-    "name": "Bring Them Down",
+    "name": "Vadásszátok le őket",
     "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
     "posterShape": "poster",
     "year": 2025,
@@ -13,24 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 41
-  },
-  {
-    "id": "tt11539996",
-    "type": "movie",
-    "name": "Kontakt",
-    "poster": "https://image.tmdb.org/t/p/w500/zi4pvq1HJYj851svkeqJCmCrMTH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Relay-ben Riz Ahmed egy világklasszis „fixert” alakít, aki arra specializálódott, hogy jövedelmező kifizetéseket közvetítsen korrupt vállalatok és a tönkremenetelüket fenyegető személyek között. Személyazonosságát aprólékos tervezéssel tartja titokban és mindig szigorú szabályokat követ. Amikor azonban egy nap üzenet érkezik egy potenciális ügyféltől (Lily James), akinek a védelmére van szüksége, csak hogy életben maradjon, a szabályok gyorsan megváltoznak.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 1141
+    "seeders": 76
   },
   {
     "id": "tt15940132",
@@ -47,7 +47,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2541
+    "seeders": 3264
   },
   {
     "id": "tt14905854",
@@ -64,7 +64,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 225
+    "seeders": 276
   },
   {
     "id": "tt34937354",
@@ -81,7 +81,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 129
+    "seeders": 154
   },
   {
     "id": "tt27424511",
@@ -97,7 +97,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 189
+    "seeders": 223
   },
   {
     "id": "tt32141377",
@@ -114,7 +114,54 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 620
+    "seeders": 745
+  },
+  {
+    "id": "tt14181714",
+    "type": "movie",
+    "name": "A szikla",
+    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 878
+  },
+  {
+    "id": "tt13289492",
+    "type": "movie",
+    "name": "Friedas Fall",
+    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 103
+  },
+  {
+    "id": "tt31392191",
+    "type": "movie",
+    "name": "Where the Wind Comes From",
+    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 164
   },
   {
     "id": "tt26443597",
@@ -133,54 +180,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 93
-  },
-  {
-    "id": "tt13289492",
-    "type": "movie",
-    "name": "Friedas Fall",
-    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 83
-  },
-  {
-    "id": "tt14181714",
-    "type": "movie",
-    "name": "A szikla",
-    "poster": "https://image.tmdb.org/t/p/w500/tMlUrRuEtWKz1L6sjRWvQWpi3dt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy távoli szigeten, egy bosszúszomjas volt kapitány visszatérése felforgatja egy kalóz életét, akinek szembe kell néznie véres múltjával és minden halálos képességét latba kell vetnie, hogy megmentse családját a kegyetlen bosszútól.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 696
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Where the Wind Comes From",
-    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 141
+    "seeders": 104
   },
   {
     "id": "tt32676674",
@@ -197,7 +197,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 94
+    "seeders": 113
   },
   {
     "id": "tt23172090",
@@ -207,14 +207,14 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
+    "imdbRating": 6.6,
     "releaseInfo": "2025",
     "genres": [
       "Fantasy",
       "Akció",
       "Thriller"
     ],
-    "seeders": 358
+    "seeders": 447
   },
   {
     "id": "tt22014400",
@@ -229,7 +229,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 75
+    "seeders": 96
   },
   {
     "id": "tt4627382",
@@ -246,7 +246,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 182
+    "seeders": 222
   },
   {
     "id": "tt39792948",
@@ -261,7 +261,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 72
+    "seeders": 85
   },
   {
     "id": "tt36589671",
@@ -276,7 +276,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 135
+    "seeders": 162
   },
   {
     "id": "tt32439773",
@@ -292,7 +292,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 112
+    "seeders": 132
   },
   {
     "id": "tt27757752",
@@ -310,7 +310,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 76
+    "seeders": 93
   },
   {
     "id": "tt35237771",
@@ -325,7 +325,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 57
+    "seeders": 68
   },
   {
     "id": "tt20990442",
@@ -341,7 +341,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 164
+    "seeders": 187
   },
   {
     "id": "tt39012071",
@@ -360,39 +360,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 85
-  },
-  {
-    "id": "tt20414360",
-    "type": "movie",
-    "name": "Köln 75",
-    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Zenei"
-    ],
-    "seeders": 80
-  },
-  {
-    "id": "tt31065630",
-    "type": "movie",
-    "name": "Árva",
-    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 114
+    "seeders": 97
   },
   {
     "id": "tt14107334",
@@ -409,7 +377,55 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 91
+    "seeders": 111
+  },
+  {
+    "id": "tt31065630",
+    "type": "movie",
+    "name": "Árva",
+    "poster": "https://image.tmdb.org/t/p/w500/cfDIfmcIwBJddo5p3l3Q2CA9o5w.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Andor 12 éves fiúként éli meg az '56 utáni helyzetet. Fél évvel a forradalom után járunk. Andor reménykedik apja hazatérésében, aki a háború után nem tért haza. Aztán egy napon egy férfi jelenik meg, aki állítja, ő Andor apja. A gyerek nem hiszi, hogy valóban az édesapja tért haza. A férfi beköltözik hozzájuk, és a fiúnak nincs más választása, mint megmentenie a családját, még ha anyjával is kell ezért szembeszállnia.  (Emmersson)",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 129
+  },
+  {
+    "id": "tt20414360",
+    "type": "movie",
+    "name": "Köln 75",
+    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Zenei"
+    ],
+    "seeders": 88
+  },
+  {
+    "id": "tt31105878",
+    "type": "movie",
+    "name": "Diva Futura: A Cicciolina-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 93
   },
   {
     "id": "tt35727399",
@@ -426,38 +442,7 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 63
-  },
-  {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura: A Cicciolina-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 74
-  },
-  {
-    "id": "tt37800570",
-    "type": "movie",
-    "name": "Külvárosi utak 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/chivRgMyevpLUDfLIokY9aTomRu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután szembenéztek bűneik következményeivel, a Traoré fivérek kapnak még egy utolsó esélyt, hogy jobb útra térjenek a trilógia zárófejezetében.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 58
+    "seeders": 76
   },
   {
     "id": "tt22530226",
@@ -474,22 +459,37 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 73
+    "seeders": 87
   },
   {
-    "id": "tt37820061",
+    "id": "tt37800570",
     "type": "movie",
-    "name": "Távol",
-    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
+    "name": "Külvárosi utak 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/chivRgMyevpLUDfLIokY9aTomRu.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
-    "imdbRating": null,
+    "description": "Miután szembenéztek bűneik következményeivel, a Traoré fivérek kapnak még egy utolsó esélyt, hogy jobb útra térjenek a trilógia zárófejezetében.",
+    "imdbRating": 5.4,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Háborús"
+      "Dráma"
     ],
-    "seeders": 59
+    "seeders": 62
+  },
+  {
+    "id": "tt32332404",
+    "type": "movie",
+    "name": "Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/jJ2J9D5Ndib2HEliIYMbd4J11hk.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 80
   }
 ]
