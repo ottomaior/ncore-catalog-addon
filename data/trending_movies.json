@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt11214558",
+    "type": "movie",
+    "name": "Zúzógép",
+    "poster": "https://image.tmdb.org/t/p/w500/whJEVMfGuuD3oCJHT99UrhKeL1a.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Zúzógép egy dráma, amely Mark Kerr, a legendás MMA-harcos története alapján készült, aki a UFC korszakában, karrierje csúcsán, a korlátok nélkül harcolt. Küzd a függőséggel, a győzelemmel, a szerelemmel és a barátsággal a 2000-es évben.  (Szarka Károly)",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 48
+  },
+  {
     "id": "tt11539996",
     "type": "movie",
     "name": "Kontakt",
@@ -14,23 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1441
-  },
-  {
-    "id": "tt14186876",
-    "type": "movie",
-    "name": "Vadásszátok le őket",
-    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 76
+    "seeders": 1767
   },
   {
     "id": "tt15940132",
@@ -47,7 +47,23 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 3264
+    "seeders": 4128
+  },
+  {
+    "id": "tt14186876",
+    "type": "movie",
+    "name": "Vadásszátok le őket",
+    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 171
   },
   {
     "id": "tt14905854",
@@ -64,7 +80,23 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 276
+    "seeders": 340
+  },
+  {
+    "id": "tt27424511",
+    "type": "movie",
+    "name": "Felszívódva",
+    "poster": "https://image.tmdb.org/t/p/w500/fxuDQqTAhyF5Xiwh0mks8xH6jAt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután egy erkölcsi csődbe került vállalat megpróbálja fegyverként felhasználni a zseniális tudós forradalmi technológiáját, az emberiség védelme érdekében a tudós eltűnik a nyilvánosság elől. Amikor a vállalat egy zsoldoscsapatot küld utána, elkövetik a legnagyobb hibát: élve akarják elkapni az állig felfegyverkezett férfit.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 266
   },
   {
     "id": "tt34937354",
@@ -81,23 +113,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 154
-  },
-  {
-    "id": "tt27424511",
-    "type": "movie",
-    "name": "Felszívódva",
-    "poster": "https://image.tmdb.org/t/p/w500/fxuDQqTAhyF5Xiwh0mks8xH6jAt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután egy erkölcsi csődbe került vállalat megpróbálja fegyverként felhasználni a zseniális tudós forradalmi technológiáját, az emberiség védelme érdekében a tudós eltűnik a nyilvánosság elől. Amikor a vállalat egy zsoldoscsapatot küld utána, elkövetik a legnagyobb hibát: élve akarják elkapni az állig felfegyverkezett férfit.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 223
+    "seeders": 162
   },
   {
     "id": "tt32141377",
@@ -114,7 +130,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 745
+    "seeders": 937
   },
   {
     "id": "tt14181714",
@@ -130,38 +146,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 878
-  },
-  {
-    "id": "tt13289492",
-    "type": "movie",
-    "name": "Friedas Fall",
-    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 103
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Where the Wind Comes From",
-    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 164
+    "seeders": 1046
   },
   {
     "id": "tt26443597",
@@ -180,24 +165,38 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 104
+    "seeders": 123
   },
   {
-    "id": "tt32676674",
+    "id": "tt31392191",
     "type": "movie",
-    "name": "Wolfgang",
-    "poster": "https://image.tmdb.org/t/p/w500/cZhZ574UhzztxFzRi7aljhooUZ1.jpg",
+    "name": "Where the Wind Comes From",
+    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Wolfgang, a kilencéves, 125-ös IQ-val rendelkező fiú édesanyja váratlan halála után kénytelen az apjával, Carlesszel együtt élni, akit korábban sosem látott. Egyetlen megszállottsága, hogy elszökjön Párizsba, a Grimald Akadémiára, ahol tanulhat, és a világ legjobb zongoristája lehet. Wolfgang azonban nem sejti, hogy a legnagyobb kihívás éppen előtte áll: megtalálni a közös hangot az apjával.",
-    "imdbRating": 6.6,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 8.0,
     "releaseInfo": "2025",
     "genres": [
-      "Családi",
       "Dráma",
-      "Zenei"
+      "Vígjáték"
     ],
-    "seeders": 113
+    "seeders": 182
+  },
+  {
+    "id": "tt13289492",
+    "type": "movie",
+    "name": "Friedas Fall",
+    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 103
   },
   {
     "id": "tt23172090",
@@ -214,22 +213,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 447
+    "seeders": 519
   },
   {
-    "id": "tt22014400",
+    "id": "tt32676674",
     "type": "movie",
-    "name": "Egy humorista halála",
-    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
+    "name": "Wolfgang",
+    "poster": "https://image.tmdb.org/t/p/w500/cZhZ574UhzztxFzRi7aljhooUZ1.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
-    "imdbRating": 6.5,
+    "description": "Wolfgang, a kilencéves, 125-ös IQ-val rendelkező fiú édesanyja váratlan halála után kénytelen az apjával, Carlesszel együtt élni, akit korábban sosem látott. Egyetlen megszállottsága, hogy elszökjön Párizsba, a Grimald Akadémiára, ahol tanulhat, és a világ legjobb zongoristája lehet. Wolfgang azonban nem sejti, hogy a legnagyobb kihívás éppen előtte áll: megtalálni a közös hangot az apjával.",
+    "imdbRating": 6.6,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma"
+      "Családi",
+      "Dráma",
+      "Zenei"
     ],
-    "seeders": 96
+    "seeders": 121
   },
   {
     "id": "tt4627382",
@@ -246,7 +247,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 222
+    "seeders": 260
+  },
+  {
+    "id": "tt22014400",
+    "type": "movie",
+    "name": "Egy humorista halála",
+    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt39792948",
@@ -261,7 +277,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 85
+    "seeders": 102
   },
   {
     "id": "tt36589671",
@@ -276,7 +292,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 162
+    "seeders": 175
   },
   {
     "id": "tt32439773",
@@ -292,7 +308,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 132
+    "seeders": 149
   },
   {
     "id": "tt27757752",
@@ -302,7 +318,7 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.5,
+    "imdbRating": 8.3,
     "releaseInfo": "2025",
     "genres": [
       "Animációs",
@@ -310,7 +326,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 93
+    "seeders": 95
   },
   {
     "id": "tt35237771",
@@ -325,23 +341,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 68
-  },
-  {
-    "id": "tt20990442",
-    "type": "movie",
-    "name": "Csúcs",
-    "poster": "https://image.tmdb.org/t/p/w500/qPJzcYR2f1O1uynYBCVPPJuOiAH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Oscar-díjas Jordan Peele produceri istállójából érkezik ez a vérfagyasztó utazás a hírnév, a hatalom és a kiválóság minden áron való hajszolásának világába. Zack Akers és Skip Bronkie feketelistás forgatókönyve egy ígéretes fiatal amerikai focista tehetségről szól, akit az egyik csúcscsapat korosodó középpályás sztárja meghív egy elzárt létesítménybe, ahol egy forradalmi edzésmódszer kiválasztottjaként törhet a csúcsra. Az ilyesminek mindig ára van, ám ami ezután következik, arra a legelszántabb törtető sem számíthatott…",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 187
+    "seeders": 69
   },
   {
     "id": "tt39012071",
@@ -351,7 +351,7 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Marinette és Kagami Tokióban egyesítik erőiket egy gonosztevő ellen, aki civileket kaijukká változtat. Ladybugnak össze kell gyűjtenie a japán hősöket, hogy megalakítsák a Tokyo Stellar Force-t, egy csapatot, amelynek tagjai csillagok erejével, csillagruhákkal és összeolvadó hajókkal rendelkeznek.",
-    "imdbRating": 8.2,
+    "imdbRating": 8.1,
     "releaseInfo": "2025",
     "genres": [
       "Animációs",
@@ -360,7 +360,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 97
+    "seeders": 108
+  },
+  {
+    "id": "tt31105878",
+    "type": "movie",
+    "name": "Diva Futura: A Cicciolina-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 113
   },
   {
     "id": "tt14107334",
@@ -377,7 +393,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 111
+    "seeders": 121
   },
   {
     "id": "tt31065630",
@@ -392,7 +408,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 129
+    "seeders": 147
   },
   {
     "id": "tt20414360",
@@ -408,22 +424,6 @@
       "Dráma",
       "Történelmi",
       "Zenei"
-    ],
-    "seeders": 88
-  },
-  {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura: A Cicciolina-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
     ],
     "seeders": 93
   },
@@ -442,7 +442,23 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 76
+    "seeders": 84
+  },
+  {
+    "id": "tt32332404",
+    "type": "movie",
+    "name": "Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/jJ2J9D5Ndib2HEliIYMbd4J11hk.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 109
   },
   {
     "id": "tt22530226",
@@ -459,7 +475,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 87
+    "seeders": 99
   },
   {
     "id": "tt37800570",
@@ -474,22 +490,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 62
-  },
-  {
-    "id": "tt32332404",
-    "type": "movie",
-    "name": "Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/jJ2J9D5Ndib2HEliIYMbd4J11hk.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 80
+    "seeders": 66
   }
 ]
