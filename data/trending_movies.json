@@ -13,7 +13,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 272
+    "seeders": 250
   },
   {
     "id": "tt11539996",
@@ -30,23 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1521
-  },
-  {
-    "id": "tt11214558",
-    "type": "movie",
-    "name": "Zúzógép",
-    "poster": "https://image.tmdb.org/t/p/w500/whJEVMfGuuD3oCJHT99UrhKeL1a.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Zúzógép egy dráma, amely Mark Kerr, a legendás MMA-harcos története alapján készült, aki a UFC korszakában, karrierje csúcsán, a korlátok nélkül harcolt. Küzd a függőséggel, a győzelemmel, a szerelemmel és a barátsággal a 2000-es évben.  (Szarka Károly)",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 263
+    "seeders": 1698
   },
   {
     "id": "tt15940132",
@@ -63,7 +47,23 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2957
+    "seeders": 3333
+  },
+  {
+    "id": "tt11214558",
+    "type": "movie",
+    "name": "Zúzógép",
+    "poster": "https://image.tmdb.org/t/p/w500/whJEVMfGuuD3oCJHT99UrhKeL1a.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Zúzógép egy dráma, amely Mark Kerr, a legendás MMA-harcos története alapján készült, aki a UFC korszakában, karrierje csúcsán, a korlátok nélkül harcolt. Küzd a függőséggel, a győzelemmel, a szerelemmel és a barátsággal a 2000-es években.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 340
   },
   {
     "id": "tt14186876",
@@ -79,7 +79,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 194
+    "seeders": 221
   },
   {
     "id": "tt14905854",
@@ -96,7 +96,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 280
+    "seeders": 306
   },
   {
     "id": "tt32141377",
@@ -113,7 +113,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 717
+    "seeders": 768
   },
   {
     "id": "tt27424511",
@@ -129,7 +129,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 211
+    "seeders": 225
   },
   {
     "id": "tt34937354",
@@ -146,23 +146,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 136
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Where the Wind Comes From",
-    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 154
+    "seeders": 143
   },
   {
     "id": "tt26443597",
@@ -181,22 +165,23 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 104
+    "seeders": 117
   },
   {
-    "id": "tt13289492",
+    "id": "tt31392191",
     "type": "movie",
-    "name": "Friedas Fall",
-    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
+    "name": "Where the Wind Comes From",
+    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
+    "imdbRating": 8.0,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 87
+    "seeders": 156
   },
   {
     "id": "tt23172090",
@@ -213,7 +198,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 402
+    "seeders": 439
+  },
+  {
+    "id": "tt13289492",
+    "type": "movie",
+    "name": "Friedas Fall",
+    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 85
   },
   {
     "id": "tt32676674",
@@ -230,7 +230,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 104
+    "seeders": 107
   },
   {
     "id": "tt4627382",
@@ -247,22 +247,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 190
-  },
-  {
-    "id": "tt22014400",
-    "type": "movie",
-    "name": "Egy humorista halála",
-    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 78
+    "seeders": 211
   },
   {
     "id": "tt39792948",
@@ -277,7 +262,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 82
+    "seeders": 97
+  },
+  {
+    "id": "tt22014400",
+    "type": "movie",
+    "name": "Egy humorista halála",
+    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 76
   },
   {
     "id": "tt36589671",
@@ -292,7 +292,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 140
+    "seeders": 154
   },
   {
     "id": "tt32439773",
@@ -308,7 +308,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 131
+    "seeders": 140
   },
   {
     "id": "tt27757752",
@@ -326,7 +326,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 90
+    "seeders": 93
   },
   {
     "id": "tt35237771",
@@ -341,7 +341,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 59
+    "seeders": 61
   },
   {
     "id": "tt14107334",
@@ -358,7 +358,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 98
+    "seeders": 115
   },
   {
     "id": "tt39012071",
@@ -377,6 +377,39 @@
       "Kaland",
       "Fantasy"
     ],
+    "seeders": 95
+  },
+  {
+    "id": "tt31105878",
+    "type": "movie",
+    "name": "Diva Futura: A Cicciolina-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 102
+  },
+  {
+    "id": "tt35727399",
+    "type": "movie",
+    "name": "Karácsonyi egércsata",
+    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
+    "imdbRating": 6.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Animációs",
+      "Vígjáték"
+    ],
     "seeders": 82
   },
   {
@@ -394,40 +427,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 80
-  },
-  {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura: A Cicciolina-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 86
-  },
-  {
-    "id": "tt35727399",
-    "type": "movie",
-    "name": "Karácsonyi egércsata",
-    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
-    "imdbRating": 6.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Animációs",
-      "Vígjáték"
-    ],
-    "seeders": 73
+    "seeders": 88
   },
   {
     "id": "tt22530226",
@@ -444,22 +444,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt37800570",
-    "type": "movie",
-    "name": "Külvárosi utak 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/chivRgMyevpLUDfLIokY9aTomRu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután szembenéztek bűneik következményeivel, a Traoré fivérek kapnak még egy utolsó esélyt, hogy jobb útra térjenek a trilógia zárófejezetében.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 55
+    "seeders": 87
   },
   {
     "id": "tt32332404",
@@ -475,7 +460,22 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 75
+    "seeders": 85
+  },
+  {
+    "id": "tt37800570",
+    "type": "movie",
+    "name": "Külvárosi utak 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/chivRgMyevpLUDfLIokY9aTomRu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután szembenéztek bűneik következményeivel, a Traoré fivérek kapnak még egy utolsó esélyt, hogy jobb útra térjenek a trilógia zárófejezetében.",
+    "imdbRating": 5.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt37820061",
@@ -491,6 +491,6 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 62
+    "seeders": 63
   }
 ]
