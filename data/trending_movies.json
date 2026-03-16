@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt39345599",
+    "type": "movie",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 63
+  },
+  {
     "id": "tt29567915",
     "type": "movie",
     "name": "Nürnberg",
@@ -13,7 +28,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 250
+    "seeders": 658
   },
   {
     "id": "tt11539996",
@@ -30,7 +45,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1698
+    "seeders": 2181
   },
   {
     "id": "tt15940132",
@@ -47,7 +62,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 3333
+    "seeders": 4261
   },
   {
     "id": "tt11214558",
@@ -63,7 +78,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 340
+    "seeders": 404
   },
   {
     "id": "tt14186876",
@@ -79,7 +94,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 221
+    "seeders": 259
   },
   {
     "id": "tt14905854",
@@ -96,7 +111,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 306
+    "seeders": 374
   },
   {
     "id": "tt32141377",
@@ -113,7 +128,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 768
+    "seeders": 962
   },
   {
     "id": "tt27424511",
@@ -129,7 +144,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 225
+    "seeders": 240
   },
   {
     "id": "tt34937354",
@@ -146,7 +161,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 143
+    "seeders": 150
   },
   {
     "id": "tt26443597",
@@ -165,7 +180,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 117
+    "seeders": 143
   },
   {
     "id": "tt31392191",
@@ -181,7 +196,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 156
+    "seeders": 176
   },
   {
     "id": "tt23172090",
@@ -198,7 +213,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 439
+    "seeders": 512
   },
   {
     "id": "tt13289492",
@@ -213,7 +228,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 85
+    "seeders": 96
   },
   {
     "id": "tt32676674",
@@ -230,7 +245,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 107
+    "seeders": 117
   },
   {
     "id": "tt4627382",
@@ -247,7 +262,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 211
+    "seeders": 264
   },
   {
     "id": "tt39792948",
@@ -262,7 +277,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 97
+    "seeders": 111
   },
   {
     "id": "tt22014400",
@@ -277,7 +292,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 76
+    "seeders": 85
   },
   {
     "id": "tt36589671",
@@ -292,7 +307,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 154
+    "seeders": 170
   },
   {
     "id": "tt32439773",
@@ -308,7 +323,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 140
+    "seeders": 158
   },
   {
     "id": "tt27757752",
@@ -326,7 +341,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 93
+    "seeders": 98
   },
   {
     "id": "tt35237771",
@@ -341,24 +356,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 61
-  },
-  {
-    "id": "tt14107334",
-    "type": "movie",
-    "name": "Menekülő ember",
-    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 115
+    "seeders": 66
   },
   {
     "id": "tt39012071",
@@ -377,7 +375,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 95
+    "seeders": 113
   },
   {
     "id": "tt31105878",
@@ -393,7 +391,24 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 102
+    "seeders": 115
+  },
+  {
+    "id": "tt14107334",
+    "type": "movie",
+    "name": "Menekülő ember",
+    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 120
   },
   {
     "id": "tt35727399",
@@ -410,7 +425,7 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 82
+    "seeders": 90
   },
   {
     "id": "tt20414360",
@@ -427,7 +442,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 88
+    "seeders": 94
   },
   {
     "id": "tt22530226",
@@ -444,7 +459,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 87
+    "seeders": 99
   },
   {
     "id": "tt32332404",
@@ -460,7 +475,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 85
+    "seeders": 100
   },
   {
     "id": "tt37800570",
@@ -475,22 +490,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 59
-  },
-  {
-    "id": "tt37820061",
-    "type": "movie",
-    "name": "Távol",
-    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Háborús"
-    ],
-    "seeders": 63
+    "seeders": 69
   }
 ]
