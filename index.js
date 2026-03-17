@@ -166,6 +166,38 @@ async function getHungarianMetadata(imdbId, type = 'movie') {
     }
 }
 
+// Fetch backdrop URL from TMDB for use as meta.background (widescreen, higher quality than poster)
+async function getBackdropFromTMDB(imdbId, type = 'movie') {
+    try {
+        const tmdbType = type === 'series' ? 'tv' : 'movie';
+        const findResponse = await axios.get(
+            `${TMDB_BASE_URL}/find/${imdbId}`,
+            {
+                params: {
+                    api_key: TMDB_API_KEY,
+                    external_source: 'imdb_id',
+                    language: 'hu-HU'
+                }
+            }
+        );
+        const results = tmdbType === 'tv' ? findResponse.data.tv_results : findResponse.data.movie_results;
+        if (!results || results.length === 0) return null;
+        const tmdbId = results[0].id;
+        const imagesResponse = await axios.get(
+            `${TMDB_BASE_URL}/${tmdbType}/${tmdbId}/images`,
+            { params: { api_key: TMDB_API_KEY } }
+        );
+        const backdrops = imagesResponse.data.backdrops || [];
+        const best = backdrops.length
+            ? backdrops.slice().sort((a, b) => (b.vote_average || 0) - (a.vote_average || 0))[0]
+            : null;
+        if (!best || !best.file_path) return null;
+        return `https://image.tmdb.org/t/p/w1280${best.file_path}`;
+    } catch (err) {
+        return null;
+    }
+}
+
 // Addon manifest
 const manifest = {
     id: 'com.ncore.hungarian.addon',
@@ -772,14 +804,14 @@ builder.defineCatalogHandler(async (args) => {
         let list = getTrendingMoviesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
     // Trending series (most seeded in last N pages, 1080p HDSER_HUN)
     if (args.type === 'series' && args.id === 'ncore-trending-series') {
         let list = getTrendingSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // Handle movie catalog - Latest HD movies
@@ -787,7 +819,7 @@ builder.defineCatalogHandler(async (args) => {
         let list = getHDMoviesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // Handle series catalog – plain tt ids so Stremio displays our meta (response id must match request)
@@ -795,7 +827,7 @@ builder.defineCatalogHandler(async (args) => {
         let list = getHDSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // Top seeded series from JSON – filter by genre if extra provided
@@ -803,14 +835,14 @@ builder.defineCatalogHandler(async (args) => {
         let list = getTopSeededSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // Top seeded Hungarian productions (series made in Hungary)
     if (args.type === 'series' && args.id === 'ncore-series-top-seeded-magyar-sorozatok') {
         const list = getTopSeededHungarianProductionsSeriesList();
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // Top seeded movies from JSON – filter by genre if extra provided
@@ -818,14 +850,14 @@ builder.defineCatalogHandler(async (args) => {
         let list = getTopSeededMoviesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // Top seeded Hungarian productions (movies made in Hungary)
     if (args.type === 'movie' && args.id === 'ncore-movies-top-seeded-magyar-filmek') {
         const list = getTopSeededHungarianProductionsList();
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // Netflix movies
@@ -833,7 +865,7 @@ builder.defineCatalogHandler(async (args) => {
         let list = getNetflixMoviesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // Netflix series
@@ -841,7 +873,7 @@ builder.defineCatalogHandler(async (args) => {
         let list = getNetflixSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // Disney+ movies / series
@@ -849,13 +881,13 @@ builder.defineCatalogHandler(async (args) => {
         let list = getDisneyPlusMoviesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
     if (args.type === 'series' && args.id === 'ncore-disneyplus-series') {
         let list = getDisneyPlusSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // HBO Max movies / series
@@ -863,13 +895,13 @@ builder.defineCatalogHandler(async (args) => {
         let list = getHbomaxMoviesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
     if (args.type === 'series' && args.id === 'ncore-hbomax-series') {
         let list = getHbomaxSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     // Prime Video movies / series
@@ -877,13 +909,13 @@ builder.defineCatalogHandler(async (args) => {
         let list = getPrimeMoviesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
     if (args.type === 'series' && args.id === 'ncore-prime-series') {
         let list = getPrimeSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: list.slice(skip, skip + 100) });
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
     return Promise.resolve({ metas: [] });
@@ -908,6 +940,11 @@ function ensureBackground(meta) {
     const metaOut = { ...meta };
     metaOut.background = `https://images.metahub.space/background/medium/${id}/img`;
     return metaOut;
+}
+
+// Return catalog slice with background set on each meta (for homepage hover preview)
+function catalogMetas(list, skip = 0, limit = 100) {
+    return list.slice(skip, skip + limit).map(ensureBackground);
 }
 
 // Meta handler for both movies and series (all catalogs so detail view keeps our metadata)
@@ -937,7 +974,10 @@ builder.defineMetaHandler(async (args) => {
                 || getHbomaxMoviesList().find(matchId)
                 || getPrimeMoviesList().find(matchId);
             if (movie) {
-                const meta = ensureBackground({ ...movie, id: requestId });
+                let meta = { ...movie, id: requestId };
+                const tmdbBackdrop = await getBackdropFromTMDB(idForLookup, 'movie');
+                if (tmdbBackdrop) meta.background = tmdbBackdrop;
+                else meta = ensureBackground(meta);
                 return Promise.resolve({ meta });
             }
         }
@@ -962,7 +1002,9 @@ builder.defineMetaHandler(async (args) => {
                     console.log(`Series meta: nincs id, kihagyva: ${requestId}`);
                     return Promise.resolve({ meta: null });
                 }
+                const tmdbBackdrop = await getBackdropFromTMDB(idForLookup, 'series');
                 const withBackground = ensureBackground(series);
+                const backgroundUrl = tmdbBackdrop || withBackground.background || '';
                 let videos = (series.videos && series.videos.length) ? series.videos : null;
                 if (!videos || videos.length === 0) {
                     try {
@@ -982,7 +1024,7 @@ builder.defineMetaHandler(async (args) => {
                     imdbRating: series.imdbRating,
                     releaseInfo: series.releaseInfo,
                     genres: Array.isArray(series.genres) ? series.genres : [],
-                    background: withBackground.background || '',
+                    background: backgroundUrl,
                     videos: Array.isArray(videos) && videos.length > 0 ? videos : []
                 };
                 console.log(`Series meta küldve: ${metaOut.name} (${requestId})`);
