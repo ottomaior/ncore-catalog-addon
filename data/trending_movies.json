@@ -1,20 +1,5 @@
 [
   {
-    "id": "tt38133965",
-    "type": "movie",
-    "name": "Bluey's Big Play",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi"
-    ],
-    "seeders": 60
-  },
-  {
     "id": "tt27543632",
     "type": "movie",
     "name": "The Housemaid: A téboly otthona",
@@ -29,7 +14,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 437
+    "seeders": 729
   },
   {
     "id": "tt29567915",
@@ -45,7 +30,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 746
+    "seeders": 1010
   },
   {
     "id": "tt11539996",
@@ -62,7 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1867
+    "seeders": 2286
   },
   {
     "id": "tt15940132",
@@ -79,7 +64,53 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 3284
+    "seeders": 4188
+  },
+  {
+    "id": "tt38133965",
+    "type": "movie",
+    "name": "Bluey's Big Play",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi"
+    ],
+    "seeders": 100
+  },
+  {
+    "id": "tt11214558",
+    "type": "movie",
+    "name": "Zúzógép",
+    "poster": "https://image.tmdb.org/t/p/w500/whJEVMfGuuD3oCJHT99UrhKeL1a.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Zúzógép egy dráma, amely Mark Kerr, a legendás MMA-harcos története alapján készült, aki a UFC korszakában, karrierje csúcsán, a korlátok nélkül harcolt. Küzd a függőséggel, a győzelemmel, a szerelemmel és a barátsággal a 2000-es években.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 442
+  },
+  {
+    "id": "tt39345599",
+    "type": "movie",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 143
   },
   {
     "id": "tt33244668",
@@ -96,38 +127,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 46
-  },
-  {
-    "id": "tt11214558",
-    "type": "movie",
-    "name": "Zúzógép",
-    "poster": "https://image.tmdb.org/t/p/w500/whJEVMfGuuD3oCJHT99UrhKeL1a.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Zúzógép egy dráma, amely Mark Kerr, a legendás MMA-harcos története alapján készült, aki a UFC korszakában, karrierje csúcsán, a korlátok nélkül harcolt. Küzd a függőséggel, a győzelemmel, a szerelemmel és a barátsággal a 2000-es években.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 367
-  },
-  {
-    "id": "tt39345599",
-    "type": "movie",
-    "name": "Műanyagdetox",
-    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 123
+    "seeders": 57
   },
   {
     "id": "tt14186876",
@@ -143,7 +143,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 234
+    "seeders": 264
   },
   {
     "id": "tt14905854",
@@ -160,7 +160,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 325
+    "seeders": 388
   },
   {
     "id": "tt32141377",
@@ -177,7 +177,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 787
+    "seeders": 1009
   },
   {
     "id": "tt27424511",
@@ -193,7 +193,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 211
+    "seeders": 241
   },
   {
     "id": "tt34937354",
@@ -210,23 +210,24 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 141
+    "seeders": 145
   },
   {
-    "id": "tt31392191",
+    "id": "tt23172090",
     "type": "movie",
-    "name": "Where the Wind Comes From",
-    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
+    "name": "Porszörny",
+    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.8,
+    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
+    "imdbRating": 6.6,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Fantasy",
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 165
+    "seeders": 509
   },
   {
     "id": "tt26443597",
@@ -245,39 +246,23 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 121
+    "seeders": 144
   },
   {
-    "id": "tt23172090",
+    "id": "tt31392191",
     "type": "movie",
-    "name": "Porszörny",
-    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Fantasy",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 416
-  },
-  {
-    "id": "tt13289492",
-    "type": "movie",
-    "name": "Friedas Fall",
-    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
+    "name": "Where the Wind Comes From",
+    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
+    "imdbRating": 7.8,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 86
+    "seeders": 172
   },
   {
     "id": "tt4627382",
@@ -294,7 +279,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 215
+    "seeders": 267
   },
   {
     "id": "tt32676674",
@@ -311,7 +296,22 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 100
+    "seeders": 120
+  },
+  {
+    "id": "tt13289492",
+    "type": "movie",
+    "name": "Friedas Fall",
+    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 91
   },
   {
     "id": "tt39792948",
@@ -326,7 +326,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 100
+    "seeders": 112
   },
   {
     "id": "tt36589671",
@@ -341,7 +341,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 145
+    "seeders": 176
   },
   {
     "id": "tt22014400",
@@ -356,7 +356,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 69
+    "seeders": 80
   },
   {
     "id": "tt32439773",
@@ -372,7 +372,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 134
+    "seeders": 156
   },
   {
     "id": "tt27757752",
@@ -390,39 +390,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 80
-  },
-  {
-    "id": "tt35237771",
-    "type": "movie",
-    "name": "Ghost Elephants",
-    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 62
-  },
-  {
-    "id": "tt14107334",
-    "type": "movie",
-    "name": "Menekülő ember",
-    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 111
+    "seeders": 90
   },
   {
     "id": "tt39012071",
@@ -441,7 +409,55 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 93
+    "seeders": 112
+  },
+  {
+    "id": "tt14107334",
+    "type": "movie",
+    "name": "Menekülő ember",
+    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 128
+  },
+  {
+    "id": "tt31105878",
+    "type": "movie",
+    "name": "Diva Futura: A Cicciolina-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 120
+  },
+  {
+    "id": "tt35237771",
+    "type": "movie",
+    "name": "Ghost Elephants",
+    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 62
   },
   {
     "id": "tt35727399",
@@ -458,23 +474,7 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 82
-  },
-  {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura: A Cicciolina-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 93
+    "seeders": 94
   },
   {
     "id": "tt20414360",
@@ -491,6 +491,6 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 82
+    "seeders": 90
   }
 ]
