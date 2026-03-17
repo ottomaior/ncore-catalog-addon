@@ -17,6 +17,7 @@ import json
 from pathlib import Path
 from dotenv import load_dotenv
 import requests
+from omdb_client import OMDbClient
 
 script_dir = Path(__file__).parent.resolve()
 if str(script_dir) not in sys.path:
@@ -40,10 +41,17 @@ else:
     load_dotenv()
 
 TMDB_API_KEY = os.getenv('TMDB_API_KEY')
+OMDB_API_KEY = os.getenv('OMDB_API_KEY')
 TVDB_API_KEY = os.getenv('TVDB_API_KEY')
 TVDB_PIN = os.getenv('TVDB_PIN', '').strip() or None
 NCORE_USER = os.getenv('NCORE_USER', '').strip()
 NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
+
+omdb = OMDbClient(OMDB_API_KEY)
+
+
+def _fmt_rating(x):
+    return '?' if x is None else f'{x:.1f}'
 
 TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_SERIES', '1000'))
 NCORE_PAGES_PER_RUN = int(os.getenv('NCORE_PAGES_PER_RUN', '15'))
@@ -285,6 +293,8 @@ def main():
             description = f"🆕 Legújabb epizód: {episode_string}\n\n{description}"
         year_val = metadata.get('year')
         rating = metadata.get('rating')
+        tmdb_rating = round(rating, 1) if isinstance(rating, (int, float)) else None
+        imdb_rating = omdb.get_imdb_rating(imdb)
         
         imdb_clean = imdb.replace('tt', '')
         meta = {
@@ -295,7 +305,7 @@ def main():
             'posterShape': 'poster',
             'year': year_val,
             'description': description,
-            'imdbRating': str(round(rating, 1)) if isinstance(rating, (int, float)) else None,
+            'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
             'releaseInfo': str(year_val) if year_val else None,
             'genres': genres,
             'seeders': seeders_new,

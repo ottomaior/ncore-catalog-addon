@@ -18,10 +18,17 @@ from pathlib import Path
 from dotenv import load_dotenv
 import requests
 
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 script_dir = Path(__file__).parent.resolve()
 if str(script_dir) not in sys.path:
     sys.path.insert(0, str(script_dir))
 from tvdb_client import search_show_on_tvdb
+from omdb_client import OMDbClient
 
 try:
     from ncoreparser import Client, SearchParamType, ParamSort, ParamSeq
@@ -41,10 +48,17 @@ else:
     load_dotenv()
 
 TMDB_API_KEY = os.getenv('TMDB_API_KEY')
+OMDB_API_KEY = os.getenv('OMDB_API_KEY')
 TVDB_API_KEY = os.getenv('TVDB_API_KEY')
 TVDB_PIN = os.getenv('TVDB_PIN', '').strip() or None
 NCORE_USER = os.getenv('NCORE_USER', '').strip()
 NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
+
+omdb = OMDbClient(OMDB_API_KEY)
+
+
+def _fmt_rating(x):
+    return '?' if x is None else f'{x:.1f}'
 
 # Pool = only consider this many most recent uploads; then rank by velocity, take top TRENDING_COUNT
 TORRENT_POOL = int(os.getenv('NCORE_TRENDING_POOL', '200'))
@@ -268,25 +282,25 @@ def fetch_trending_series(client):
 
 def main():
     if not Client or not SearchParamType:
-        print("❌ ncoreparser hiányzik. pip install ncoreparser")
+        print("ERROR: ncoreparser missing. Install: pip install ncoreparser")
         return 1
     if not NCORE_USER or not NCORE_PASS:
-        print("❌ NCORE_USER / NCORE_PASS hiányzik.")
+        print("ERROR: NCORE_USER / NCORE_PASS missing.")
         return 1
     if not TMDB_API_KEY:
-        print("❌ TMDB_API_KEY hiányzik.")
+        print("ERROR: TMDB_API_KEY missing.")
         return 1
 
     data_dir.mkdir(parents=True, exist_ok=True)
 
-    print("🔑 nCore bejelentkezés...")
+    print("nCore login...")
     client = Client()
     try:
         cookies = client.login(NCORE_USER, NCORE_PASS)
         if not cookies:
-            print("❌ nCore bejelentkezés sikertelen.")
+            print("ERROR: nCore login failed.")
             return 1
-        print("✓ Bejelentkezés OK\n")
+        print("Login OK\n")
     except Exception as e:
         print(f"❌ nCore login: {e}")
         return 1
@@ -329,6 +343,9 @@ def main():
             f'https://image.tmdb.org/t/p/w500{poster_path}' if poster_path
             else f'https://images.metahub.space/poster/small/{imdb_id}/img'
         )
+        tmdb_rating = round(metadata['rating'], 1) if metadata.get('rating') else None
+        imdb_rating = omdb.get_imdb_rating(imdb_id)
+        description = metadata.get('description') or 'Trendi magyar HD 1080p – nCore.'
         movie_metas.append({
             'id': imdb_id,
             'type': 'movie',
@@ -336,8 +353,8 @@ def main():
             'poster': poster,
             'posterShape': 'poster',
             'year': metadata.get('year'),
-            'description': metadata.get('description') or 'Trendi magyar HD 1080p – nCore.',
-            'imdbRating': round(metadata['rating'], 1) if metadata.get('rating') else None,
+            'description': description,
+            'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
             'releaseInfo': str(metadata['year']) if metadata.get('year') else None,
             'genres': metadata.get('genres') or [],
             'seeders': seeders,
@@ -350,7 +367,7 @@ def main():
     print(f"✓ {len(movie_metas)} trendi film → {out_file_movies.name}\n")
 
     # ---------- SERIES ----------
-    print("📺 Trendi sorozatok (HDSER_HUN 1080p, seed velocity = seed/nap)")
+    print("Trending series (HDSER_HUN 1080p, seed velocity = seed/day)")
     series_torrents = fetch_trending_series(client)
     print(f"  Összesen {len(series_torrents)} torrent")
     series_torrents.sort(key=lambda t: _velocity(t), reverse=True)
@@ -395,6 +412,8 @@ def main():
         description = metadata.get('description') or 'Trendi magyar HD 1080p sorozat – nCore.'
         if episode_string:
             description = f"🆕 Legújabb epizód: {episode_string}\n\n{description}"
+        tmdb_rating = round(metadata['rating'], 1) if metadata.get('rating') else None
+        imdb_rating = omdb.get_imdb_rating(imdb_id)
         meta = {
             'id': imdb_id,
             'type': 'series',
@@ -403,7 +422,7 @@ def main():
             'posterShape': 'poster',
             'year': metadata.get('year'),
             'description': description,
-            'imdbRating': round(metadata['rating'], 1) if metadata.get('rating') else None,
+            'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
             'releaseInfo': str(metadata['year']) if metadata.get('year') else None,
             'genres': metadata.get('genres') or [],
             'latest_season': new_season,

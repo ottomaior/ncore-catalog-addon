@@ -16,10 +16,17 @@ from pathlib import Path
 from dotenv import load_dotenv
 import requests
 
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 script_dir = Path(__file__).parent.resolve()
 if str(script_dir) not in sys.path:
     sys.path.insert(0, str(script_dir))
 from tvdb_client import search_show_on_tvdb
+from omdb_client import OMDbClient
 
 try:
     from ncoreparser import Client, SearchParamType, ParamSort, ParamSeq
@@ -39,10 +46,17 @@ else:
     load_dotenv()
 
 TMDB_API_KEY = os.getenv('TMDB_API_KEY')
+OMDB_API_KEY = os.getenv('OMDB_API_KEY')
 TVDB_API_KEY = os.getenv('TVDB_API_KEY')
 TVDB_PIN = os.getenv('TVDB_PIN', '').strip() or None
 NCORE_USER = os.getenv('NCORE_USER', '').strip()
 NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
+
+omdb = OMDbClient(OMDB_API_KEY)
+
+
+def _fmt_rating(x):
+    return '?' if x is None else f'{x:.1f}'
 
 # Big catalog size (Legfrissebb); streaming catalogs are split from this via split_catalogs_by_provider.py
 TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_LATEST', '2000'))
@@ -366,33 +380,33 @@ def fetch_latest_series(client, max_count=None):
 
 def main():
     if not Client or not SearchParamType:
-        print("❌ ncoreparser nem elérhető. Telepítsd: pip install ncoreparser")
+        print("ERROR: ncoreparser missing. Install: pip install ncoreparser")
         return
     if not NCORE_USER or not NCORE_PASS:
-        print("❌ NCORE_USER és NCORE_PASS változók hiányoznak.")
+        print("ERROR: NCORE_USER and NCORE_PASS missing.")
         return
     if not TMDB_API_KEY:
-        print("❌ TMDB_API_KEY hiányzik.")
+        print("ERROR: TMDB_API_KEY missing.")
         return
 
     data_dir.mkdir(parents=True, exist_ok=True)
 
     # Login to nCore
-    print("🔑 Bejelentkezés nCore-ra...")
+    print("nCore login...")
     client = Client()
     try:
         cookies = client.login(NCORE_USER, NCORE_PASS)
         if not cookies:
-            print("❌ nCore bejelentkezés sikertelen.")
+            print("ERROR: nCore login failed.")
             return
-        print("✓ nCore bejelentkezés sikeres")
+        print("nCore login OK")
     except Exception as e:
         print(f"❌ nCore login hiba: {e}")
         return
 
     # ========== MOVIES ==========
     print("\n" + "=" * 60)
-    print("🎬 LEGFRISSEBB HD FILMEK")
+    print("LATEST HD MOVIES")
     print("=" * 60)
     
     # Load existing movies catalog
@@ -428,7 +442,7 @@ def main():
         # Search on TMDB (gets IMDB ID + all metadata in one go)
         metadata = search_movie_on_tmdb(clean_title, year, TMDB_API_KEY)
         if not metadata:
-            print("  ⚠ Nincs TMDB találat, kihagyva")
+            print("  WARN: no TMDB match, skipping")
             continue
         
         imdb_id = metadata['imdb_id']
@@ -453,7 +467,8 @@ def main():
         display_poster = f'https://image.tmdb.org/t/p/w500{poster_path}' if poster_path else f"https://images.metahub.space/poster/small/{imdb_id}/img"
         genres_list = metadata['genres']
         description = metadata['description'] or 'Magyar HD film – nCore legfrissebb feltöltés (összes).'
-        rating = metadata['rating']
+        tmdb_rating = round(metadata['rating'], 1) if metadata.get('rating') else None
+        imdb_rating = omdb.get_imdb_rating(imdb_id)
         
         print(f"  ✓ TMDB: {display_title} ({year}) - {imdb_id}")
 
@@ -465,7 +480,7 @@ def main():
             'posterShape': 'poster',
             'year': year,
             'description': description,
-            'imdbRating': round(rating, 1) if rating else None,
+            'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
             'releaseInfo': str(year) if year else None,
             'genres': genres_list,
         })
@@ -486,7 +501,7 @@ def main():
 
     # ========== SERIES ==========
     print("\n" + "=" * 60)
-    print("📺 LEGFRISSEBB HD SOROZATOK")
+    print("LATEST HD SERIES")
     print("=" * 60)
     
     # Load existing series catalog
@@ -530,7 +545,7 @@ def main():
         # Search on TVDB for series (gets IMDB ID + all metadata)
         metadata = search_show_on_tvdb(clean_title, year, TVDB_API_KEY, TVDB_PIN, TMDB_API_KEY)
         if not metadata:
-            print("  ⚠ Nincs TVDB találat, kihagyva")
+            print("  WARN: no TVDB match, skipping")
             continue
         
         imdb_id = metadata['imdb_id']
@@ -589,7 +604,8 @@ def main():
             description = f"🆕 Legújabb epizód: {episode_string}\n\n{description}"
         
         year_val = metadata['year']
-        rating = metadata['rating']
+        tmdb_rating = round(metadata['rating'], 1) if metadata.get('rating') else None
+        imdb_rating = omdb.get_imdb_rating(imdb_id)
         
         print(f"  ✓ TVDB: {display_title} ({year_val}) - {imdb_id}")
 
@@ -601,7 +617,7 @@ def main():
             'posterShape': 'poster',
             'year': year_val,
             'description': description,
-            'imdbRating': round(rating, 1) if rating else None,
+            'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
             'releaseInfo': str(year_val) if year_val else None,
             'genres': genres_list,
             'latest_season': new_season,

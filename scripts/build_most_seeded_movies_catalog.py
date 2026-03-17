@@ -15,6 +15,7 @@ import json
 from pathlib import Path
 from dotenv import load_dotenv
 import requests
+from omdb_client import OMDbClient
 
 try:
     from ncoreparser import Client, SearchParamType, ParamSort, ParamSeq
@@ -34,8 +35,15 @@ else:
     load_dotenv()
 
 TMDB_API_KEY = os.getenv('TMDB_API_KEY')
+OMDB_API_KEY = os.getenv('OMDB_API_KEY')
 NCORE_USER = os.getenv('NCORE_USER', '').strip()
 NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
+
+omdb = OMDbClient(OMDB_API_KEY)
+
+
+def _fmt_rating(x):
+    return '?' if x is None else f'{x:.1f}'
 
 # Aim for this many torrents total; script paginates until TARGET_COUNT or no more pages.
 TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_MOVIES', '1000'))
@@ -287,6 +295,8 @@ def main():
         description = metadata['description'] or 'Magyar HD – nCore legnagyobb seed.'
         year_val = metadata['year']
         rating = metadata['rating']
+        tmdb_rating = round(rating, 1) if isinstance(rating, (int, float)) else None
+        imdb_rating = omdb.get_imdb_rating(imdb)
         
         imdb_clean = imdb.replace('tt', '')
         seeders = _seeders_from_torrent(t)
@@ -302,7 +312,7 @@ def main():
             'posterShape': 'poster',
             'year': year_val,
             'description': description,
-            'imdbRating': str(round(rating, 1)) if isinstance(rating, (int, float)) else None,
+            'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
             'releaseInfo': str(year_val) if year_val else None,
             'genres': genres,
             'seeders': seeders,
