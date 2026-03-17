@@ -1,20 +1,5 @@
 [
   {
-    "id": "tt39345599",
-    "type": "movie",
-    "name": "Műanyagdetox",
-    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 63
-  },
-  {
     "id": "tt29567915",
     "type": "movie",
     "name": "Nürnberg",
@@ -28,7 +13,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 658
+    "seeders": 509
   },
   {
     "id": "tt11539996",
@@ -45,7 +30,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 2181
+    "seeders": 1431
+  },
+  {
+    "id": "tt39345599",
+    "type": "movie",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt15940132",
@@ -62,7 +62,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 4261
+    "seeders": 2504
   },
   {
     "id": "tt11214558",
@@ -78,7 +78,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 404
+    "seeders": 266
   },
   {
     "id": "tt14186876",
@@ -94,7 +94,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 259
+    "seeders": 194
   },
   {
     "id": "tt14905854",
@@ -111,7 +111,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 374
+    "seeders": 249
   },
   {
     "id": "tt32141377",
@@ -128,7 +128,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 962
+    "seeders": 596
   },
   {
     "id": "tt27424511",
@@ -144,7 +144,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 240
+    "seeders": 176
   },
   {
     "id": "tt34937354",
@@ -161,7 +161,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 150
+    "seeders": 109
   },
   {
     "id": "tt26443597",
@@ -180,23 +180,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 143
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Where the Wind Comes From",
-    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 176
+    "seeders": 112
   },
   {
     "id": "tt23172090",
@@ -213,7 +197,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 512
+    "seeders": 327
+  },
+  {
+    "id": "tt31392191",
+    "type": "movie",
+    "name": "Where the Wind Comes From",
+    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 116
   },
   {
     "id": "tt13289492",
@@ -228,24 +228,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 96
-  },
-  {
-    "id": "tt32676674",
-    "type": "movie",
-    "name": "Wolfgang",
-    "poster": "https://image.tmdb.org/t/p/w500/cZhZ574UhzztxFzRi7aljhooUZ1.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Wolfgang, a kilencéves, 125-ös IQ-val rendelkező fiú édesanyja váratlan halála után kénytelen az apjával, Carlesszel együtt élni, akit korábban sosem látott. Egyetlen megszállottsága, hogy elszökjön Párizsba, a Grimald Akadémiára, ahol tanulhat, és a világ legjobb zongoristája lehet. Wolfgang azonban nem sejti, hogy a legnagyobb kihívás éppen előtte áll: megtalálni a közös hangot az apjával.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Dráma",
-      "Zenei"
-    ],
-    "seeders": 117
+    "seeders": 71
   },
   {
     "id": "tt4627382",
@@ -262,7 +245,24 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 264
+    "seeders": 180
+  },
+  {
+    "id": "tt32676674",
+    "type": "movie",
+    "name": "Wolfgang",
+    "poster": "https://image.tmdb.org/t/p/w500/cZhZ574UhzztxFzRi7aljhooUZ1.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Wolfgang, a kilencéves, 125-ös IQ-val rendelkező fiú édesanyja váratlan halála után kénytelen az apjával, Carlesszel együtt élni, akit korábban sosem látott. Egyetlen megszállottsága, hogy elszökjön Párizsba, a Grimald Akadémiára, ahol tanulhat, és a világ legjobb zongoristája lehet. Wolfgang azonban nem sejti, hogy a legnagyobb kihívás éppen előtte áll: megtalálni a közös hangot az apjával.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Dráma",
+      "Zenei"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt39792948",
@@ -277,7 +277,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 111
+    "seeders": 76
   },
   {
     "id": "tt22014400",
@@ -292,7 +292,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 85
+    "seeders": 62
   },
   {
     "id": "tt36589671",
@@ -307,7 +307,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 170
+    "seeders": 124
   },
   {
     "id": "tt32439773",
@@ -323,7 +323,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 158
+    "seeders": 104
   },
   {
     "id": "tt27757752",
@@ -341,7 +341,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 98
+    "seeders": 70
   },
   {
     "id": "tt35237771",
@@ -356,7 +356,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 66
+    "seeders": 48
   },
   {
     "id": "tt39012071",
@@ -375,23 +375,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 113
-  },
-  {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura: A Cicciolina-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 115
+    "seeders": 82
   },
   {
     "id": "tt14107334",
@@ -408,7 +392,23 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 120
+    "seeders": 86
+  },
+  {
+    "id": "tt31105878",
+    "type": "movie",
+    "name": "Diva Futura: A Cicciolina-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 78
   },
   {
     "id": "tt35727399",
@@ -425,7 +425,7 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 90
+    "seeders": 67
   },
   {
     "id": "tt20414360",
@@ -442,7 +442,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 94
+    "seeders": 71
   },
   {
     "id": "tt22530226",
@@ -457,25 +457,10 @@
     "genres": [
       "Vígjáték",
       "Dráma",
-      "Fantasy"
+      "Fantasy",
+      "Horror"
     ],
-    "seeders": 99
-  },
-  {
-    "id": "tt32332404",
-    "type": "movie",
-    "name": "Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/jJ2J9D5Ndib2HEliIYMbd4J11hk.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Liz és Malcolm romantikus hétvégére készülnek egy isten háta mögötti faházban. Amikor a férfi visszatér a városba, a nő egyedül marad egy sötét erővel, amely feltárja a faház szörnyű titkait.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 100
+    "seeders": 73
   },
   {
     "id": "tt37800570",
@@ -490,6 +475,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 69
+    "seeders": 53
+  },
+  {
+    "id": "tt37820061",
+    "type": "movie",
+    "name": "Távol",
+    "poster": "https://image.tmdb.org/t/p/w500/4JZ6Hnab2KdAUQIzhQgN0U5Hds9.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "1916: Egy katona a frontvonaltól távol, egy réten tér magához. Hamarosan olyan döntést kell meghoznia, mely kihatással lesz mindarra, ami fontos számára.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Háborús"
+    ],
+    "seeders": 60
   }
 ]
