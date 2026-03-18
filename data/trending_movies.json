@@ -14,7 +14,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 519
+    "seeders": 590
   },
   {
     "id": "tt29567915",
@@ -30,7 +30,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 715
+    "seeders": 800
   },
   {
     "id": "tt11539996",
@@ -47,7 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1484
+    "seeders": 1670
   },
   {
     "id": "tt15940132",
@@ -64,7 +64,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2437
+    "seeders": 2783
   },
   {
     "id": "tt38133965",
@@ -79,7 +79,7 @@
     "genres": [
       "Családi"
     ],
-    "seeders": 90
+    "seeders": 102
   },
   {
     "id": "tt11214558",
@@ -95,7 +95,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 301
+    "seeders": 335
   },
   {
     "id": "tt39345599",
@@ -110,24 +110,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 102
-  },
-  {
-    "id": "tt33244668",
-    "type": "movie",
-    "name": "Anakonda",
-    "poster": "https://image.tmdb.org/t/p/w500/sXzUrie6C6WPZ1MJQHWI8vq7Pwu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az 1997-ben megjelent Anakonda című thriller humoros újragondolása. Egy baráti társaság épp a életközépi válsággal néz szembe. Úgy döntenek, hogy újra elkészítik fiatalkori kedvenc filmjüket, az Anakondát. Amikor azonban nekivágnak a dzsungelnek, hogy ott forgassanak, a dolgok rövidesen kicsúsznak a kezükből, és a helyzet meglepően valóságossá és veszélyessé válik.  (Csillag Lajos)",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Vígjáték",
-      "Horror"
-    ],
-    "seeders": 50
+    "seeders": 118
   },
   {
     "id": "tt14186876",
@@ -143,7 +126,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 189
+    "seeders": 214
   },
   {
     "id": "tt14905854",
@@ -160,7 +143,24 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 264
+    "seeders": 290
+  },
+  {
+    "id": "tt33244668",
+    "type": "movie",
+    "name": "Anakonda",
+    "poster": "https://image.tmdb.org/t/p/w500/sXzUrie6C6WPZ1MJQHWI8vq7Pwu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az 1997-ben megjelent Anakonda című thriller humoros újragondolása. Egy baráti társaság épp a életközépi válsággal néz szembe. Úgy döntenek, hogy újra elkészítik fiatalkori kedvenc filmjüket, az Anakondát. Amikor azonban nekivágnak a dzsungelnek, hogy ott forgassanak, a dolgok rövidesen kicsúsznak a kezükből, és a helyzet meglepően valóságossá és veszélyessé válik.  (Csillag Lajos)",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Vígjáték",
+      "Horror"
+    ],
+    "seeders": 51
   },
   {
     "id": "tt32141377",
@@ -177,7 +177,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 600
+    "seeders": 685
   },
   {
     "id": "tt27424511",
@@ -193,7 +193,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 177
+    "seeders": 181
   },
   {
     "id": "tt34937354",
@@ -210,7 +210,40 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 101
+    "seeders": 115
+  },
+  {
+    "id": "tt23172090",
+    "type": "movie",
+    "name": "Porszörny",
+    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Fantasy",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 363
+  },
+  {
+    "id": "tt31392191",
+    "type": "movie",
+    "name": "Where the Wind Comes From",
+    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 140
   },
   {
     "id": "tt26443597",
@@ -229,40 +262,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 107
-  },
-  {
-    "id": "tt23172090",
-    "type": "movie",
-    "name": "Porszörny",
-    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Fantasy",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 332
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Where the Wind Comes From",
-    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 121
+    "seeders": 106
   },
   {
     "id": "tt4627382",
@@ -279,7 +279,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 179
+    "seeders": 197
   },
   {
     "id": "tt32676674",
@@ -296,22 +296,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt13289492",
-    "type": "movie",
-    "name": "Friedas Fall",
-    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 64
+    "seeders": 96
   },
   {
     "id": "tt39792948",
@@ -326,13 +311,28 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 82
+    "seeders": 89
+  },
+  {
+    "id": "tt13289492",
+    "type": "movie",
+    "name": "Friedas Fall",
+    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt36589671",
     "type": "movie",
     "name": "A végső tűzharc",
-    "poster": "https://image.tmdb.org/t/p/w500/7ElOux95K8mfK1kuxK6K4A8MulM.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/uBQVEazzf2krSuok2ULq2mL9ls6.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
@@ -341,7 +341,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 118
+    "seeders": 133
   },
   {
     "id": "tt22014400",
@@ -356,7 +356,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 57
+    "seeders": 60
   },
   {
     "id": "tt32439773",
@@ -372,7 +372,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 110
+    "seeders": 118
   },
   {
     "id": "tt27757752",
@@ -390,7 +390,39 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 73
+    "seeders": 77
+  },
+  {
+    "id": "tt35237771",
+    "type": "movie",
+    "name": "Ghost Elephants",
+    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 55
+  },
+  {
+    "id": "tt14107334",
+    "type": "movie",
+    "name": "Menekülő ember",
+    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 98
   },
   {
     "id": "tt39012071",
@@ -409,56 +441,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 84
-  },
-  {
-    "id": "tt35237771",
-    "type": "movie",
-    "name": "Ghost Elephants",
-    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 48
-  },
-  {
-    "id": "tt20414360",
-    "type": "movie",
-    "name": "Köln 75",
-    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Zenei"
-    ],
-    "seeders": 78
-  },
-  {
-    "id": "tt14107334",
-    "type": "movie",
-    "name": "Menekülő ember",
-    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 88
+    "seeders": 83
   },
   {
     "id": "tt31105878",
@@ -475,7 +458,24 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 79
+    "seeders": 89
+  },
+  {
+    "id": "tt20414360",
+    "type": "movie",
+    "name": "Köln 75",
+    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Zenei"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt35727399",
@@ -492,6 +492,6 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 62
+    "seeders": 68
   }
 ]
