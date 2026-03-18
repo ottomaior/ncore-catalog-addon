@@ -14,7 +14,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 729
+    "seeders": 519
   },
   {
     "id": "tt29567915",
@@ -30,7 +30,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1010
+    "seeders": 715
   },
   {
     "id": "tt11539996",
@@ -47,7 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 2286
+    "seeders": 1484
   },
   {
     "id": "tt15940132",
@@ -64,7 +64,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 4188
+    "seeders": 2437
   },
   {
     "id": "tt38133965",
@@ -74,12 +74,12 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "imdbRating": 9.0,
     "releaseInfo": "2025",
     "genres": [
       "Családi"
     ],
-    "seeders": 100
+    "seeders": 90
   },
   {
     "id": "tt11214558",
@@ -95,7 +95,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 442
+    "seeders": 301
   },
   {
     "id": "tt39345599",
@@ -110,7 +110,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 143
+    "seeders": 102
   },
   {
     "id": "tt33244668",
@@ -127,7 +127,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 57
+    "seeders": 50
   },
   {
     "id": "tt14186876",
@@ -143,7 +143,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 264
+    "seeders": 189
   },
   {
     "id": "tt14905854",
@@ -160,7 +160,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 388
+    "seeders": 264
   },
   {
     "id": "tt32141377",
@@ -177,7 +177,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1009
+    "seeders": 600
   },
   {
     "id": "tt27424511",
@@ -193,7 +193,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 241
+    "seeders": 177
   },
   {
     "id": "tt34937354",
@@ -210,24 +210,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 145
-  },
-  {
-    "id": "tt23172090",
-    "type": "movie",
-    "name": "Porszörny",
-    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Fantasy",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 509
+    "seeders": 101
   },
   {
     "id": "tt26443597",
@@ -246,7 +229,24 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 144
+    "seeders": 107
+  },
+  {
+    "id": "tt23172090",
+    "type": "movie",
+    "name": "Porszörny",
+    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Fantasy",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 332
   },
   {
     "id": "tt31392191",
@@ -262,7 +262,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 172
+    "seeders": 121
   },
   {
     "id": "tt4627382",
@@ -279,7 +279,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 267
+    "seeders": 179
   },
   {
     "id": "tt32676674",
@@ -296,7 +296,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 120
+    "seeders": 88
   },
   {
     "id": "tt13289492",
@@ -311,7 +311,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 91
+    "seeders": 64
   },
   {
     "id": "tt39792948",
@@ -326,7 +326,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 112
+    "seeders": 82
   },
   {
     "id": "tt36589671",
@@ -341,7 +341,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 176
+    "seeders": 118
   },
   {
     "id": "tt22014400",
@@ -356,7 +356,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 80
+    "seeders": 57
   },
   {
     "id": "tt32439773",
@@ -372,7 +372,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 156
+    "seeders": 110
   },
   {
     "id": "tt27757752",
@@ -390,7 +390,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 90
+    "seeders": 73
   },
   {
     "id": "tt39012071",
@@ -409,40 +409,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 112
-  },
-  {
-    "id": "tt14107334",
-    "type": "movie",
-    "name": "Menekülő ember",
-    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 128
-  },
-  {
-    "id": "tt31105878",
-    "type": "movie",
-    "name": "Diva Futura: A Cicciolina-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 120
+    "seeders": 84
   },
   {
     "id": "tt35237771",
@@ -457,24 +424,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 62
-  },
-  {
-    "id": "tt35727399",
-    "type": "movie",
-    "name": "Karácsonyi egércsata",
-    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
-    "imdbRating": 6.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Animációs",
-      "Vígjáték"
-    ],
-    "seeders": 94
+    "seeders": 48
   },
   {
     "id": "tt20414360",
@@ -491,6 +441,57 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 90
+    "seeders": 78
+  },
+  {
+    "id": "tt14107334",
+    "type": "movie",
+    "name": "Menekülő ember",
+    "poster": "https://image.tmdb.org/t/p/w500/gIXtypRZNDppuMmz4umGTzxlJsC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A közeli jövő társadalmában A menekülő ember a legnézettebb tévéműsor: egy halálos verseny, ahol a résztvevőknek – a Menekülőknek – túl kell élniük 30 napot, miközben profi gyilkosok vadásznak rájuk, és minden mozdulatukat közvetítik a vérszomjas nyilvánosságnak, és minden nap egyre növeli a megnyerhető készpénz összegét. A beteg lánya megmentéséért küzdő kétkezi munkást, Ben Richardsot meggyőzi a műsor elbűvölő, de könyörtelen producere, Dan Killian, hogy utolsó esélyként szálljon be a játékba. Ám Ben kitartása, ösztönei és keménysége révén váratlanul közönségkedvenc lesz – és egyben fenyegetés az egész rendszerre. A nézettséggel együtt a veszély mértéke is az egekbe szökik, és Bennek nem csak a Vadászok eszén kell túljárnia, hanem egy országén is, hiszen mindenki mániákusan lesi, hogy mikor fog elbukni...",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 88
+  },
+  {
+    "id": "tt31105878",
+    "type": "movie",
+    "name": "Diva Futura: A Cicciolina-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 79
+  },
+  {
+    "id": "tt35727399",
+    "type": "movie",
+    "name": "Karácsonyi egércsata",
+    "poster": "https://image.tmdb.org/t/p/w500/qj0U2QijhKjMo1AqdiFRkKuTIb.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apró egércsalád örömmel készülődik az ünnepre vidéki otthonukban. A hangulat azonban villámgyorsan megváltozik, amikor hatalmas árnyak bukkannak fel körülöttük: emberek. Bár mindenki békés karácsonyi együttlétre számít, a helyzet hamarosan kegyetlen harccá fajulhat. Az elszánt egerek nem nyugszanak, és rafinált pszichológiai hadviselésbe kezdenek az emberekkel szemben. Ebben a játékosan pörgős és akciódús ütközetben semmilyen néző nem tud nemet mondani arra, hogy a bolondos kis rágcsálók mellé álljon.  (Csillag Lajos)R3",
+    "imdbRating": 6.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Animációs",
+      "Vígjáték"
+    ],
+    "seeders": 62
   }
 ]
