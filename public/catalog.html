@@ -139,6 +139,17 @@
         }
         .category-header:hover { background: rgba(255,255,255,0.03); }
         .category-header-left { display: flex; align-items: center; gap: 0.6rem; }
+        .category-card-drag-handle {
+            cursor: grab;
+            user-select: none;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.2);
+            padding: 0 0.15rem;
+            flex-shrink: 0;
+        }
+        .category-card-drag-handle:active { cursor: grabbing; }
+        .category-card-drag-handle.dragging { opacity: 0.55; cursor: grabbing; }
+        .category-panel.category-drag-over { border-color: rgba(139, 92, 246, 0.6); }
         .category-icon {
             width: 32px; height: 32px;
             border-radius: 8px;
@@ -281,7 +292,9 @@
             ]},
             { key: 'latest', icon: '🆕', iconClass: 'latest', title: 'Legfrissebb', subtitle: 'Legutóbb feltöltött tartalmak', items: [
                 { id: 'ncore-hd-movies', icon: '🎬', label: 'Filmek' },
-                { id: 'ncore-hd-series', icon: '📺', label: 'Sorozatok' }
+                { id: 'ncore-hd-series', icon: '📺', label: 'Sorozatok' },
+                { id: 'ncore-hd-movies-release-date', icon: '🎬', label: 'Filmek (év szerint)' },
+                { id: 'ncore-hd-series-release-date', icon: '📺', label: 'Sorozatok (év szerint)' }
             ], providers: [
                 { key: 'netflix', name: 'Netflix', logoClass: 'netflix', logoText: 'N', items: [
                     { id: 'ncore-netflix-movies', icon: '🎬', label: 'Filmek' },
@@ -326,7 +339,7 @@
         }
         function setPreset(preset) {
             const allIds = catalogOptions.map(c => c.id);
-            const latestIds = ['ncore-hd-movies', 'ncore-hd-series', 'ncore-netflix-movies', 'ncore-netflix-series', 'ncore-disneyplus-movies', 'ncore-disneyplus-series', 'ncore-hbomax-movies', 'ncore-hbomax-series', 'ncore-prime-movies', 'ncore-prime-series'];
+            const latestIds = ['ncore-hd-movies', 'ncore-hd-series', 'ncore-netflix-movies', 'ncore-netflix-series', 'ncore-disneyplus-movies', 'ncore-disneyplus-series', 'ncore-hbomax-movies', 'ncore-hbomax-series', 'ncore-prime-movies', 'ncore-prime-series', 'ncore-hd-movies-release-date', 'ncore-hd-series-release-date'];
             const topseedIds = ['ncore-movies-top-seeded-all', 'ncore-series-top-seeded-all', 'ncore-movies-top-seeded-magyar-filmek', 'ncore-series-top-seeded-magyar-sorozatok'];
             let toCheck = [];
             if (preset === 'all') toCheck = allIds;
@@ -357,6 +370,7 @@
             if (panel) panel.classList.toggle('open');
         }
         let draggedRow = null;
+        let draggedCategoryKey = null;
         function initDragAndDrop() {
             document.querySelectorAll('.toggle-row[draggable="true"]').forEach(row => {
                 row.addEventListener('dragstart', (e) => {
@@ -396,6 +410,85 @@
                 });
             });
         }
+
+        function initCategoryDragAndDrop() {
+            const panelsContainer = document.getElementById('catalog-panels');
+            if (!panelsContainer) return;
+
+            function getCategoryCatalogIds(catKey) {
+                const cat = CATEGORIES.find(c => c.key === catKey);
+                if (!cat) return [];
+                let ids = (cat.items || []).map(i => i.id);
+                if (cat.providers) {
+                    cat.providers.forEach(p => {
+                        (p.items || []).forEach(i => ids.push(i.id));
+                    });
+                }
+                return ids;
+            }
+
+            function reorderByCategory(fromKey, toKey) {
+                const draggedIds = getCategoryCatalogIds(fromKey);
+                const targetIds = getCategoryCatalogIds(toKey);
+                if (draggedIds.length === 0 || targetIds.length === 0) return;
+
+                const draggedEntries = catalogOptions.filter(o => draggedIds.includes(o.id));
+                let remaining = catalogOptions.filter(o => !draggedIds.includes(o.id));
+
+                const insertAt = remaining.findIndex(o => targetIds.includes(o.id));
+                if (insertAt === -1) remaining = remaining.concat(draggedEntries);
+                else remaining.splice(insertAt, 0, ...draggedEntries);
+
+                catalogOptions = remaining;
+                updateCatalogUrl();
+            }
+
+            document.querySelectorAll('.category-panel').forEach(panel => {
+                panel.addEventListener('dragover', (e) => {
+                    if (!draggedCategoryKey) return;
+                    e.preventDefault();
+                    panel.classList.add('category-drag-over');
+                });
+                panel.addEventListener('dragleave', () => {
+                    panel.classList.remove('category-drag-over');
+                });
+                panel.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    if (!draggedCategoryKey) return;
+
+                    const toKey = panel.dataset.categoryKey;
+                    const fromKey = draggedCategoryKey;
+                    panel.classList.remove('category-drag-over');
+                    draggedCategoryKey = null;
+
+                    if (!toKey || fromKey === toKey) return;
+
+                    reorderByCategory(fromKey, toKey);
+
+                    const draggedPanelEl = document.getElementById('panel-' + fromKey);
+                    const targetPanelEl = document.getElementById('panel-' + toKey);
+                    if (draggedPanelEl && targetPanelEl) {
+                        panelsContainer.insertBefore(draggedPanelEl, targetPanelEl);
+                    }
+
+                    return false;
+                });
+            });
+
+            document.querySelectorAll('.category-card-drag-handle').forEach(handle => {
+                handle.addEventListener('dragstart', (e) => {
+                    draggedCategoryKey = handle.dataset.categoryKey;
+                    handle.classList.add('dragging');
+                    e.dataTransfer.effectAllowed = 'move';
+                    e.dataTransfer.setData('text/plain', draggedCategoryKey);
+                });
+                handle.addEventListener('dragend', () => {
+                    handle.classList.remove('dragging');
+                    draggedCategoryKey = null;
+                    document.querySelectorAll('.category-panel').forEach(p => p.classList.remove('category-drag-over'));
+                });
+            });
+        }
         function renderToggleRow(item) {
             return '<div class="toggle-row" draggable="true" data-catalog-id="' + item.id + '">' +
                 '<div class="toggle-left"><span class="drag-handle">⋮⋮</span><span class="item-icon">' + item.icon + '</span><span>' + item.label + '</span></div>' +
@@ -416,9 +509,13 @@
             if (cat.providers && cat.providers.length > 0) {
                 providerSection = '<div class="section-separator">Streaming</div><div class="provider-grid">' + cat.providers.map(renderProviderCard).join('') + '</div>';
             }
-            return '<div class="category-panel open" id="panel-' + cat.key + '">' +
+            return '<div class="category-panel open" id="panel-' + cat.key + '" data-category-key="' + cat.key + '">' +
                 '<div class="category-header" onclick="toggleCategory(\'' + cat.key + '\')">' +
-                    '<div class="category-header-left"><div class="category-icon ' + cat.iconClass + '">' + cat.icon + '</div><div><div class="category-title">' + cat.title + '</div></div></div>' +
+                    '<div class="category-header-left">' +
+                        '<div class="category-icon ' + cat.iconClass + '">' + cat.icon + '</div>' +
+                        '<div><div class="category-title">' + cat.title + '</div></div>' +
+                        '<span class="category-card-drag-handle" draggable="true" data-category-key="' + cat.key + '" onclick="event.stopPropagation()" title="Drag to reorder">⋮⋮</span>' +
+                    '</div>' +
                     '<div style="display:flex;align-items:center;gap:0.75rem"><span class="category-badge">' + itemCount + ' katalógus</span><span class="category-chevron">▼</span></div>' +
                 '</div>' +
                 '<div class="category-body">' +
@@ -435,6 +532,7 @@
                 catalogOptions = opts;
                 document.getElementById('catalog-panels').innerHTML = CATEGORIES.map(renderCategory).join('');
                 initDragAndDrop();
+                initCategoryDragAndDrop();
                 updateCatalogUrl();
             })
             .catch(() => {

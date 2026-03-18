@@ -248,9 +248,21 @@ const manifest = {
             extra: [{ name: "skip", isRequired: false }, { name: "genre", isRequired: false, options: GENRE_OPTIONS }]
         },
         {
+            id: "ncore-hd-movies-release-date",
+            type: "movie",
+            name: "🗓️ Filmek (Megjelenés éve szerint)",
+            extra: [{ name: "skip", isRequired: false }, { name: "genre", isRequired: false, options: GENRE_OPTIONS }]
+        },
+        {
             id: "ncore-hd-series",
             type: "series",
             name: "⏰ Sorozatok",
+            extra: [{ name: "skip", isRequired: false }, { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }]
+        },
+        {
+            id: "ncore-hd-series-release-date",
+            type: "series",
+            name: "🗓️ Sorozatok (Megjelenés éve szerint)",
             extra: [{ name: "skip", isRequired: false }, { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }]
         },
         {
@@ -322,8 +334,10 @@ const builder = new addonBuilder(manifest);
 // Cache for catalog data
 let hdMoviesList = [];
 let hdMoviesLoadedAt = null;
+let hdMoviesByReleaseDateList = [];
 let hdSeriesList = [];
 let hdSeriesLoadedAt = null;
+let hdSeriesByReleaseDateList = [];
 // Top-seeded-by-genre catalog: loaded from data/most_seeded_movies.json (built every 3 days)
 let topSeededByGenreList = [];
 let topSeededByGenreLoadedAt = null;
@@ -420,10 +434,42 @@ function loadHDMoviesFromFile() {
     }
 }
 
+function sortMetasByReleaseYearDesc(list) {
+    if (!Array.isArray(list)) return [];
+    const indexed = list.map((item, idx) => {
+        const rawYear = item && Object.prototype.hasOwnProperty.call(item, 'year') ? item.year : null;
+        const yearNum =
+            rawYear === null || rawYear === undefined || rawYear === ''
+                ? NaN
+                : (typeof rawYear === 'number' ? rawYear : parseInt(rawYear, 10));
+        const year = Number.isFinite(yearNum) ? yearNum : NaN;
+        return { item, idx, year };
+    });
+
+    indexed.sort((a, b) => {
+        const yaFinite = Number.isFinite(a.year);
+        const ybFinite = Number.isFinite(b.year);
+
+        if (yaFinite && ybFinite) {
+            if (b.year !== a.year) return b.year - a.year;
+        } else if (yaFinite && !ybFinite) {
+            return -1;
+        } else if (!yaFinite && ybFinite) {
+            return 1;
+        }
+
+        // Missing years or equal years: keep original order for stability.
+        return a.idx - b.idx;
+    });
+
+    return indexed.map(x => x.item);
+}
+
 function getHDMoviesList() {
     if (!hdMoviesLoadedAt || (Date.now() - hdMoviesLoadedAt > CACHE_TTL)) {
         hdMoviesList = loadHDMoviesFromFile();
         hdMoviesLoadedAt = Date.now();
+        hdMoviesByReleaseDateList = sortMetasByReleaseYearDesc(hdMoviesList);
         if (hdMoviesList.length) {
             console.log(`✓ ${hdMoviesList.length} legfrissebb HD film betöltve`);
         }
@@ -449,6 +495,7 @@ function getHDSeriesList() {
     if (!hdSeriesLoadedAt || (Date.now() - hdSeriesLoadedAt > CACHE_TTL)) {
         hdSeriesList = loadHDSeriesFromFile();
         hdSeriesLoadedAt = Date.now();
+        hdSeriesByReleaseDateList = sortMetasByReleaseYearDesc(hdSeriesList);
         if (hdSeriesList.length) {
             console.log(`✓ ${hdSeriesList.length} legfrissebb HD sorozat betöltve`);
         }
@@ -755,6 +802,15 @@ function getPrimeSeriesList() {
     return primeSeriesList;
 }
 
+function getHDMoviesByReleaseDateList() {
+    getHDMoviesList();
+    return hdMoviesByReleaseDateList;
+}
+function getHDSeriesByReleaseDateList() {
+    getHDSeriesList();
+    return hdSeriesByReleaseDateList;
+}
+
 const TRENDING_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
 function loadTrendingMoviesFromFile() {
     try {
@@ -822,9 +878,25 @@ builder.defineCatalogHandler(async (args) => {
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
+    // Handle movie catalog - Latest HD movies (sorted by release year desc)
+    if (args.type === 'movie' && args.id === 'ncore-hd-movies-release-date') {
+        let list = getHDMoviesByReleaseDateList();
+        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
+    }
+
     // Handle series catalog – plain tt ids so Stremio displays our meta (response id must match request)
     if (args.type === 'series' && args.id === 'ncore-hd-series') {
         let list = getHDSeriesList();
+        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
+    }
+
+    // Handle series catalog - Latest HD series (sorted by release year desc)
+    if (args.type === 'series' && args.id === 'ncore-hd-series-release-date') {
+        let list = getHDSeriesByReleaseDateList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
@@ -883,6 +955,7 @@ builder.defineCatalogHandler(async (args) => {
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
+
     if (args.type === 'series' && args.id === 'ncore-disneyplus-series') {
         let list = getDisneyPlusSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
@@ -897,6 +970,7 @@ builder.defineCatalogHandler(async (args) => {
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
+
     if (args.type === 'series' && args.id === 'ncore-hbomax-series') {
         let list = getHbomaxSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
@@ -911,6 +985,7 @@ builder.defineCatalogHandler(async (args) => {
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
+
     if (args.type === 'series' && args.id === 'ncore-prime-series') {
         let list = getPrimeSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
