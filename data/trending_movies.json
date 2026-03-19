@@ -14,7 +14,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 727
+    "seeders": 834
   },
   {
     "id": "tt29567915",
@@ -30,7 +30,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 902
+    "seeders": 1042
   },
   {
     "id": "tt11539996",
@@ -47,7 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1647
+    "seeders": 1832
   },
   {
     "id": "tt15940132",
@@ -57,14 +57,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az elit kiképzés utolsó, embert próbáló bevetésén egy katona egy óriási, földöntúli pusztítógép ellen vezeti egységét.",
-    "imdbRating": 7.2,
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2748
+    "seeders": 3116
   },
   {
     "id": "tt26452781",
@@ -80,22 +80,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 107
-  },
-  {
-    "id": "tt28308317",
-    "type": "movie",
-    "name": "Soft Leaves",
-    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 71
+    "seeders": 125
   },
   {
     "id": "tt11214558",
@@ -111,22 +96,37 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 317
+    "seeders": 355
+  },
+  {
+    "id": "tt28308317",
+    "type": "movie",
+    "name": "Soft Leaves",
+    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt38133965",
     "type": "movie",
-    "name": "Bluey's Big Play",
+    "name": "Bluey nagy színdarabja",
     "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
     "imdbRating": 9.0,
     "releaseInfo": "2025",
     "genres": [
       "Családi"
     ],
-    "seeders": 119
+    "seeders": 123
   },
   {
     "id": "tt14905854",
@@ -143,7 +143,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 302
+    "seeders": 315
   },
   {
     "id": "tt39345599",
@@ -153,28 +153,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": 10.0,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 120
-  },
-  {
-    "id": "tt14186876",
-    "type": "movie",
-    "name": "Vadásszátok le őket",
-    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 191
+    "seeders": 141
   },
   {
     "id": "tt32141377",
@@ -191,7 +175,39 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 669
+    "seeders": 775
+  },
+  {
+    "id": "tt14186876",
+    "type": "movie",
+    "name": "Vadásszátok le őket",
+    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 208
+  },
+  {
+    "id": "tt27424511",
+    "type": "movie",
+    "name": "Felszívódva",
+    "poster": "https://image.tmdb.org/t/p/w500/fxuDQqTAhyF5Xiwh0mks8xH6jAt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután egy erkölcsi csődbe került vállalat megpróbálja fegyverként felhasználni a zseniális tudós forradalmi technológiáját, az emberiség védelme érdekében a tudós eltűnik a nyilvánosság elől. Amikor a vállalat egy zsoldoscsapatot küld utána, elkövetik a legnagyobb hibát: élve akarják elkapni az állig felfegyverkezett férfit.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 184
   },
   {
     "id": "tt33244668",
@@ -208,23 +224,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 56
-  },
-  {
-    "id": "tt27424511",
-    "type": "movie",
-    "name": "Felszívódva",
-    "poster": "https://image.tmdb.org/t/p/w500/fxuDQqTAhyF5Xiwh0mks8xH6jAt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután egy erkölcsi csődbe került vállalat megpróbálja fegyverként felhasználni a zseniális tudós forradalmi technológiáját, az emberiség védelme érdekében a tudós eltűnik a nyilvánosság elől. Amikor a vállalat egy zsoldoscsapatot küld utána, elkövetik a legnagyobb hibát: élve akarják elkapni az állig felfegyverkezett férfit.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 173
+    "seeders": 55
   },
   {
     "id": "tt23172090",
@@ -241,7 +241,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 357
+    "seeders": 398
   },
   {
     "id": "tt34937354",
@@ -258,7 +258,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 104
+    "seeders": 116
   },
   {
     "id": "tt31392191",
@@ -274,7 +274,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 136
+    "seeders": 153
   },
   {
     "id": "tt26443597",
@@ -293,7 +293,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 102
+    "seeders": 111
   },
   {
     "id": "tt4627382",
@@ -310,7 +310,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 183
+    "seeders": 210
   },
   {
     "id": "tt32676674",
@@ -327,37 +327,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 91
-  },
-  {
-    "id": "tt39792948",
-    "type": "movie",
-    "name": "Louis Theroux: A manoszféra belsejében",
-    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 86
-  },
-  {
-    "id": "tt13289492",
-    "type": "movie",
-    "name": "Friedas Fall",
-    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 66
+    "seeders": 94
   },
   {
     "id": "tt36589671",
@@ -372,7 +342,37 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 130
+    "seeders": 146
+  },
+  {
+    "id": "tt39792948",
+    "type": "movie",
+    "name": "Louis Theroux: A manoszféra belsejében",
+    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 90
+  },
+  {
+    "id": "tt13289492",
+    "type": "movie",
+    "name": "Friedas Fall",
+    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 69
   },
   {
     "id": "tt32439773",
@@ -388,7 +388,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 116
+    "seeders": 125
   },
   {
     "id": "tt22014400",
@@ -403,7 +403,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 55
+    "seeders": 60
   },
   {
     "id": "tt27757752",
@@ -421,7 +421,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 66
+    "seeders": 69
   },
   {
     "id": "tt39012071",
@@ -440,22 +440,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 87
-  },
-  {
-    "id": "tt35237771",
-    "type": "movie",
-    "name": "Ghost Elephants",
-    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 51
+    "seeders": 95
   },
   {
     "id": "tt31105878",
@@ -472,7 +457,22 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 83
+    "seeders": 93
+  },
+  {
+    "id": "tt35237771",
+    "type": "movie",
+    "name": "Ghost Elephants",
+    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 53
   },
   {
     "id": "tt20414360",
@@ -489,6 +489,6 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 76
+    "seeders": 81
   }
 ]
