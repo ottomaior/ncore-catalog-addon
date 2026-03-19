@@ -1,40 +1,9 @@
 [
   {
-    "id": "tt26452781",
-    "type": "movie",
-    "name": "Marked Men - Tetovált srácok",
-    "poster": "https://image.tmdb.org/t/p/w500/cssNPoYi1XM0JaiIucUjZXDSjgT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvostanhallgató Shaw titokban évek óta szerelmes Rule-ba, a lázadó szellemű tetoválóművészbe, noha a srác számára a lány csak a család barátja, a kis „Casper”, ahogy gyerekkoruk óta tréfásan hívja őt sápadt arcbőre miatt. Rule-nak és haverjainak, akikkel együtt nyomja a szalonban, a szabad, kötetlen élet mindennél többet jelent. Egy átmulatott este után azonban a Shaw-val való kapcsolata fordulóponthoz érkezik. Kénytelenek lesznek szembenézni elfojtott érzelmeikkel, miközben sosem múló gyász, ismerőseik elvárásai és az elkötelezettségtől való félelem is mind-mind nehezítik helyzetüket. Idővel azonban el kell dönteniük, hogy két ennyire különböző hátterű ember szerelme csakugyan életképes-e. Egy biztos: ez a szerelem nyomot fog hagyni rajtuk.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 67
-  },
-  {
-    "id": "tt28308317",
-    "type": "movie",
-    "name": "Soft Leaves",
-    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 50
-  },
-  {
     "id": "tt27543632",
     "type": "movie",
     "name": "The Housemaid: A téboly otthona",
-    "poster": "https://image.tmdb.org/t/p/w500/yKpmWMBHHPRx8hKjjQy3ClfTQPd.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/kQIKRsWvfBdKYexcMsEuaBU7fLI.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "A téboly otthona című feszült thriller alapjául a világsikerű könyv szolgált. Egy olyan kifacsart világba repíti a nézőket, ahol a tökéletesség csak illúzió, semmi sem az, aminek látszik. Millie (Sydney Sweeney) megpróbál elmenekülni a múltja elől, ezért elfogad egy bentlakásos állást a gazdag Nina (Amanda Seyfried) és Andrew Winchester (Brandon Sklenar) házvezetőnőjeként. Ám ami valóságos álommelónak indul, gyorsan alakul át valami egészen szörnyű és veszélyes dologgá: szexi, csábító titkok, botrányok övezte hatalmi játszmává. Winchesterék zárt ajtói mögött egy sokkoló világ rejtőzik, csupa váratlan fordulattal, amelyeket a néző a film végéig találgathat.",
@@ -45,7 +14,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 687
+    "seeders": 615
   },
   {
     "id": "tt29567915",
@@ -61,7 +30,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 934
+    "seeders": 817
   },
   {
     "id": "tt11539996",
@@ -78,7 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1867
+    "seeders": 1492
   },
   {
     "id": "tt15940132",
@@ -95,13 +64,44 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 3156
+    "seeders": 2392
+  },
+  {
+    "id": "tt26452781",
+    "type": "movie",
+    "name": "Marked Men - Tetovált srácok",
+    "poster": "https://image.tmdb.org/t/p/w500/cssNPoYi1XM0JaiIucUjZXDSjgT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az orvostanhallgató Shaw titokban évek óta szerelmes Rule-ba, a lázadó szellemű tetoválóművészbe, noha a srác számára a lány csak a család barátja, a kis „Casper”, ahogy gyerekkoruk óta tréfásan hívja őt sápadt arcbőre miatt. Rule-nak és haverjainak, akikkel együtt nyomja a szalonban, a szabad, kötetlen élet mindennél többet jelent. Egy átmulatott este után azonban a Shaw-val való kapcsolata fordulóponthoz érkezik. Kénytelenek lesznek szembenézni elfojtott érzelmeikkel, miközben sosem múló gyász, ismerőseik elvárásai és az elkötelezettségtől való félelem is mind-mind nehezítik helyzetüket. Idővel azonban el kell dönteniük, hogy két ennyire különböző hátterű ember szerelme csakugyan életképes-e. Egy biztos: ez a szerelem nyomot fog hagyni rajtuk.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 97
+  },
+  {
+    "id": "tt28308317",
+    "type": "movie",
+    "name": "Soft Leaves",
+    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt11214558",
     "type": "movie",
     "name": "Zúzógép",
-    "poster": "https://image.tmdb.org/t/p/w500/whJEVMfGuuD3oCJHT99UrhKeL1a.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/a7Szhdfb9yRjDvo9R3lX3pfYuka.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "A Zúzógép egy dráma, amely Mark Kerr, a legendás MMA-harcos története alapján készült, aki a UFC korszakában, karrierje csúcsán, a korlátok nélkül harcolt. Küzd a függőséggel, a győzelemmel, a szerelemmel és a barátsággal a 2000-es években.",
@@ -111,7 +111,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 377
+    "seeders": 283
   },
   {
     "id": "tt38133965",
@@ -141,7 +141,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 131
+    "seeders": 109
   },
   {
     "id": "tt14905854",
@@ -158,7 +158,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 317
+    "seeders": 258
   },
   {
     "id": "tt14186876",
@@ -174,7 +174,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 222
+    "seeders": 171
   },
   {
     "id": "tt32141377",
@@ -191,7 +191,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 787
+    "seeders": 596
   },
   {
     "id": "tt33244668",
@@ -208,7 +208,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 57
+    "seeders": 51
   },
   {
     "id": "tt27424511",
@@ -224,24 +224,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 197
-  },
-  {
-    "id": "tt34937354",
-    "type": "movie",
-    "name": "My Argentine Heart",
-    "poster": "https://image.tmdb.org/t/p/w500/1hsu6Uy3GUQ4lZXawDyiLALToXA.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "TV film",
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 122
+    "seeders": 163
   },
   {
     "id": "tt23172090",
@@ -258,23 +241,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 417
+    "seeders": 322
   },
   {
-    "id": "tt31392191",
+    "id": "tt34937354",
     "type": "movie",
-    "name": "Where the Wind Comes From",
-    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
+    "name": "My Argentine Heart",
+    "poster": "https://image.tmdb.org/t/p/w500/1hsu6Uy3GUQ4lZXawDyiLALToXA.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.8,
+    "imdbRating": 6.1,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "TV film",
+      "Vígjáték",
+      "Romantikus"
     ],
-    "seeders": 152
+    "seeders": 88
   },
   {
     "id": "tt26443597",
@@ -293,7 +277,23 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 117
+    "seeders": 97
+  },
+  {
+    "id": "tt31392191",
+    "type": "movie",
+    "name": "Where the Wind Comes From",
+    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 115
   },
   {
     "id": "tt4627382",
@@ -310,7 +310,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 214
+    "seeders": 175
   },
   {
     "id": "tt32676674",
@@ -327,37 +327,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 97
-  },
-  {
-    "id": "tt13289492",
-    "type": "movie",
-    "name": "Friedas Fall",
-    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 72
-  },
-  {
-    "id": "tt39792948",
-    "type": "movie",
-    "name": "Louis Theroux: A manoszféra belsejében",
-    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 90
+    "seeders": 77
   },
   {
     "id": "tt36589671",
@@ -372,22 +342,37 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 148
+    "seeders": 122
   },
   {
-    "id": "tt22014400",
+    "id": "tt13289492",
     "type": "movie",
-    "name": "Egy humorista halála",
-    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
+    "name": "Friedas Fall",
+    "poster": "https://image.tmdb.org/t/p/w500/w54E0nMHaZgbzjvaKv0JEA07LNs.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
+    "description": "Trendi magyar HD 1080p – nCore.",
     "imdbRating": 6.5,
     "releaseInfo": "2025",
     "genres": [
       "Dráma"
     ],
-    "seeders": 63
+    "seeders": 58
+  },
+  {
+    "id": "tt39792948",
+    "type": "movie",
+    "name": "Louis Theroux: A manoszféra belsejében",
+    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 73
   },
   {
     "id": "tt32439773",
@@ -403,7 +388,22 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 127
+    "seeders": 99
+  },
+  {
+    "id": "tt22014400",
+    "type": "movie",
+    "name": "Egy humorista halála",
+    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 49
   },
   {
     "id": "tt27757752",
@@ -421,7 +421,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 79
+    "seeders": 62
   },
   {
     "id": "tt14107334",
@@ -438,7 +438,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 114
+    "seeders": 96
   },
   {
     "id": "tt39012071",
@@ -457,7 +457,24 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 96
+    "seeders": 81
+  },
+  {
+    "id": "tt20414360",
+    "type": "movie",
+    "name": "Köln 75",
+    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Zenei"
+    ],
+    "seeders": 74
   },
   {
     "id": "tt31105878",
@@ -474,21 +491,6 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 103
-  },
-  {
-    "id": "tt35237771",
-    "type": "movie",
-    "name": "Ghost Elephants",
-    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 58
+    "seeders": 77
   }
 ]
