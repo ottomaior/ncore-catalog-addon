@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 89
+  },
+  {
     "id": "tt15574124",
     "type": "movie",
     "name": "Birmingham bandája: A halhatatlan férfi",
@@ -14,7 +29,23 @@
       "Dráma",
       "Háborús"
     ],
-    "seeders": 364
+    "seeders": 451
+  },
+  {
+    "id": "tt36971084",
+    "type": "movie",
+    "name": "The Rise of the Red Hot Chili Peppers: Our Brother, Hillel",
+    "poster": "https://image.tmdb.org/t/p/w500/lKYNvV3I3V77cdxNwJRU8sWZoX7.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 73
   },
   {
     "id": "tt31909472",
@@ -34,23 +65,7 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 50
-  },
-  {
-    "id": "tt36971084",
-    "type": "movie",
-    "name": "The Rise of the Red Hot Chili Peppers: Our Brother, Hillel",
-    "poster": "https://image.tmdb.org/t/p/w500/lKYNvV3I3V77cdxNwJRU8sWZoX7.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 58
+    "seeders": 52
   },
   {
     "id": "tt27543632",
@@ -67,7 +82,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 876
+    "seeders": 926
   },
   {
     "id": "tt29567915",
@@ -83,7 +98,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1053
+    "seeders": 1113
   },
   {
     "id": "tt15940132",
@@ -100,7 +115,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 3001
+    "seeders": 3179
   },
   {
     "id": "tt11214558",
@@ -116,7 +131,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 369
+    "seeders": 379
   },
   {
     "id": "tt26452781",
@@ -132,22 +147,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 134
-  },
-  {
-    "id": "tt28308317",
-    "type": "movie",
-    "name": "Soft Leaves",
-    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 88
+    "seeders": 140
   },
   {
     "id": "tt14905854",
@@ -164,7 +164,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 319
+    "seeders": 329
   },
   {
     "id": "tt32141377",
@@ -181,7 +181,22 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 741
+    "seeders": 778
+  },
+  {
+    "id": "tt28308317",
+    "type": "movie",
+    "name": "Soft Leaves",
+    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt38133965",
@@ -196,7 +211,7 @@
     "genres": [
       "Családi"
     ],
-    "seeders": 126
+    "seeders": 129
   },
   {
     "id": "tt39345599",
@@ -211,7 +226,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 141
+    "seeders": 140
   },
   {
     "id": "tt14186876",
@@ -227,7 +242,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 192
+    "seeders": 201
   },
   {
     "id": "tt27424511",
@@ -243,7 +258,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 184
+    "seeders": 189
+  },
+  {
+    "id": "tt31392191",
+    "type": "movie",
+    "name": "Where the Wind Comes From",
+    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 147
   },
   {
     "id": "tt33244668",
@@ -260,23 +291,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Where the Wind Comes From",
-    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 138
+    "seeders": 48
   },
   {
     "id": "tt34937354",
@@ -293,24 +308,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 97
-  },
-  {
-    "id": "tt4627382",
-    "type": "movie",
-    "name": "A besurranó",
-    "poster": "https://image.tmdb.org/t/p/w500/tHYCPLhzAldSOI6Jz9UcYXcHsTy.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Jeffrey Manchester (Channing Tatum) az örök álmodozó egyedi módszerrel próbál pénzt szerezni: tetőkön surran be, és teszi zsebre a McDonald’s éttermek kasszáinak tartalmát. De az egykori katonából lett tolvaj számításaiba hiba csúszik, és lecsukják. Amikor sikerül kereket oldania a börtönből, menekülés közben egy elég szokatlan búvóhelyen köt ki: egy játékbolt falai között talál menedéket, ahol plüssök társaságában tervezgeti a következő nagy dobását. Telnek a hónapok, a hajtóvadászat lassan feledésbe merül, és közben Jeffrey beleszeret Leigh-be (Kirsten Dunst), az áruház egyik alkalmazottjába. A gond csak az, hogy a nő mit sem sejt arról, hogy új udvarlója egy körözött szökevény, aki abban reménykedik, hogy végre megkapja az élettől az új esélyt, amire mindig is vágyott…",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Bűnügyi",
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 198
+    "seeders": 104
   },
   {
     "id": "tt26443597",
@@ -329,7 +327,24 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 102
+    "seeders": 114
+  },
+  {
+    "id": "tt4627382",
+    "type": "movie",
+    "name": "A besurranó",
+    "poster": "https://image.tmdb.org/t/p/w500/tHYCPLhzAldSOI6Jz9UcYXcHsTy.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Jeffrey Manchester (Channing Tatum) az örök álmodozó egyedi módszerrel próbál pénzt szerezni: tetőkön surran be, és teszi zsebre a McDonald’s éttermek kasszáinak tartalmát. De az egykori katonából lett tolvaj számításaiba hiba csúszik, és lecsukják. Amikor sikerül kereket oldania a börtönből, menekülés közben egy elég szokatlan búvóhelyen köt ki: egy játékbolt falai között talál menedéket, ahol plüssök társaságában tervezgeti a következő nagy dobását. Telnek a hónapok, a hajtóvadászat lassan feledésbe merül, és közben Jeffrey beleszeret Leigh-be (Kirsten Dunst), az áruház egyik alkalmazottjába. A gond csak az, hogy a nő mit sem sejt arról, hogy új udvarlója egy körözött szökevény, aki abban reménykedik, hogy végre megkapja az élettől az új esélyt, amire mindig is vágyott…",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Bűnügyi",
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 211
   },
   {
     "id": "tt32676674",
@@ -346,7 +361,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 90
+    "seeders": 95
   },
   {
     "id": "tt36589671",
@@ -361,7 +376,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 143
+    "seeders": 145
   },
   {
     "id": "tt39792948",
@@ -376,7 +391,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 82
+    "seeders": 86
   },
   {
     "id": "tt13289492",
@@ -391,7 +406,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 66
+    "seeders": 67
   },
   {
     "id": "tt32439773",
@@ -407,7 +422,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 117
+    "seeders": 119
   },
   {
     "id": "tt22014400",
@@ -440,22 +455,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 72
-  },
-  {
-    "id": "tt35237771",
-    "type": "movie",
-    "name": "Ghost Elephants",
-    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 58
+    "seeders": 76
   },
   {
     "id": "tt39012071",
@@ -474,23 +474,21 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 87
+    "seeders": 95
   },
   {
-    "id": "tt31105878",
+    "id": "tt35237771",
     "type": "movie",
-    "name": "Diva Futura: A Cicciolina-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "name": "Ghost Elephants",
+    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Romantikus",
-      "Vígjáték"
+      "Dokumentum"
     ],
-    "seeders": 91
+    "seeders": 57
   }
 ]
