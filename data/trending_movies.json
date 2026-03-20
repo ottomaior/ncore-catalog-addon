@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt29567915",
+    "type": "movie",
+    "name": "Nürnberg",
+    "poster": "https://image.tmdb.org/t/p/w500/irTa6eB3wuHivzPjjJIjyEH1AiH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 875
+  },
+  {
     "id": "tt27543632",
     "type": "movie",
     "name": "The Housemaid - A téboly otthona",
@@ -14,23 +30,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1045
-  },
-  {
-    "id": "tt29567915",
-    "type": "movie",
-    "name": "Nürnberg",
-    "poster": "https://image.tmdb.org/t/p/w500/irTa6eB3wuHivzPjjJIjyEH1AiH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 1273
+    "seeders": 667
   },
   {
     "id": "tt11539996",
@@ -47,7 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 2291
+    "seeders": 1459
   },
   {
     "id": "tt15940132",
@@ -64,7 +64,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 4003
+    "seeders": 2366
   },
   {
     "id": "tt26452781",
@@ -80,7 +80,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 150
+    "seeders": 112
   },
   {
     "id": "tt11214558",
@@ -96,22 +96,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 443
-  },
-  {
-    "id": "tt28308317",
-    "type": "movie",
-    "name": "Soft Leaves",
-    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 89
+    "seeders": 286
   },
   {
     "id": "tt38133965",
@@ -126,7 +111,22 @@
     "genres": [
       "Családi"
     ],
-    "seeders": 142
+    "seeders": 114
+  },
+  {
+    "id": "tt28308317",
+    "type": "movie",
+    "name": "Soft Leaves",
+    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt14905854",
@@ -143,7 +143,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 382
+    "seeders": 260
   },
   {
     "id": "tt32141377",
@@ -160,7 +160,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 968
+    "seeders": 582
   },
   {
     "id": "tt14186876",
@@ -176,7 +176,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 248
+    "seeders": 156
   },
   {
     "id": "tt39345599",
@@ -191,7 +191,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 151
+    "seeders": 100
   },
   {
     "id": "tt27424511",
@@ -207,7 +207,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 208
+    "seeders": 148
   },
   {
     "id": "tt33244668",
@@ -224,7 +224,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 62
+    "seeders": 48
   },
   {
     "id": "tt23172090",
@@ -241,23 +241,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 478
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Where the Wind Comes From",
-    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 169
+    "seeders": 313
   },
   {
     "id": "tt34937354",
@@ -274,7 +258,23 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 121
+    "seeders": 86
+  },
+  {
+    "id": "tt31392191",
+    "type": "movie",
+    "name": "Where the Wind Comes From",
+    "poster": "https://image.tmdb.org/t/p/w500/epfV8A46fvkx6oCl8gUJpdeZLVC.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 109
   },
   {
     "id": "tt26443597",
@@ -293,7 +293,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 131
+    "seeders": 91
   },
   {
     "id": "tt4627382",
@@ -310,22 +310,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 244
-  },
-  {
-    "id": "tt39792948",
-    "type": "movie",
-    "name": "Louis Theroux: A manoszféra belsejében",
-    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 109
+    "seeders": 173
   },
   {
     "id": "tt32676674",
@@ -342,7 +327,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 99
+    "seeders": 79
   },
   {
     "id": "tt36589671",
@@ -357,7 +342,22 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 170
+    "seeders": 123
+  },
+  {
+    "id": "tt39792948",
+    "type": "movie",
+    "name": "Louis Theroux: A manoszféra belsejében",
+    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 68
   },
   {
     "id": "tt13289492",
@@ -372,7 +372,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 74
+    "seeders": 53
   },
   {
     "id": "tt32439773",
@@ -388,7 +388,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 141
+    "seeders": 102
   },
   {
     "id": "tt22014400",
@@ -403,7 +403,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 68
+    "seeders": 48
   },
   {
     "id": "tt27757752",
@@ -421,7 +421,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 82
+    "seeders": 63
   },
   {
     "id": "tt39012071",
@@ -440,24 +440,39 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 112
+    "seeders": 85
   },
   {
-    "id": "tt31105878",
+    "id": "tt20414360",
     "type": "movie",
-    "name": "Diva Futura: A Cicciolina-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/4XAzgCsA0BBs5EKPWFtM7KHuiZu.jpg",
+    "name": "Köln 75",
+    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A nyolcvanas évek elején az olasz erotikus film forradalmi átalakuláson ment keresztül. Megjelent a modern pornófilm, amelynek első legendája a magyar Staller Ilona, művésznevén Cicciolina volt. Felfedezője, Riccardo Schicchi megalapította a Diva Futura pornófilm-vállalatát, ahol Cicciolina mellett a szintén magyar Henger Éva és Moana Pozzi pornószínészként valóságos világsztárokká váltak. Cicciolina és Pozzi később még politikai karriert is képes volt építeni pornós hírnevére. A Diva Futura – A Cicciolina-sztori betekintést enged a nyolcvanas évekbe és a pornókészítés világába.",
-    "imdbRating": 6.5,
+    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
+    "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
       "Dráma",
-      "Romantikus",
-      "Vígjáték"
+      "Történelmi",
+      "Zenei"
     ],
-    "seeders": 102
+    "seeders": 74
+  },
+  {
+    "id": "tt35237771",
+    "type": "movie",
+    "name": "Ghost Elephants",
+    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 45
   },
   {
     "id": "tt35727399",
@@ -474,21 +489,6 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 87
-  },
-  {
-    "id": "tt35237771",
-    "type": "movie",
-    "name": "Ghost Elephants",
-    "poster": "https://image.tmdb.org/t/p/w500/tcAFoJzjUSMqsQWejztVHrpbOTO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 59
+    "seeders": 63
   }
 ]
