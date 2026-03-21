@@ -13,7 +13,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 556
+    "seeders": 694
   },
   {
     "id": "tt27714581",
@@ -28,7 +28,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 188
+    "seeders": 232
   },
   {
     "id": "tt29567915",
@@ -44,7 +44,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 927
+    "seeders": 1064
   },
   {
     "id": "tt27543632",
@@ -61,7 +61,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 734
+    "seeders": 875
   },
   {
     "id": "tt15940132",
@@ -78,7 +78,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2389
+    "seeders": 2902
   },
   {
     "id": "tt36971084",
@@ -94,7 +94,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 93
+    "seeders": 103
   },
   {
     "id": "tt31909472",
@@ -114,7 +114,7 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 57
+    "seeders": 65
   },
   {
     "id": "tt11214558",
@@ -130,7 +130,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 300
+    "seeders": 347
   },
   {
     "id": "tt26452781",
@@ -146,7 +146,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 106
+    "seeders": 125
   },
   {
     "id": "tt14905854",
@@ -163,7 +163,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 257
+    "seeders": 305
   },
   {
     "id": "tt32141377",
@@ -180,37 +180,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 592
-  },
-  {
-    "id": "tt38133965",
-    "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi"
-    ],
-    "seeders": 106
-  },
-  {
-    "id": "tt28308317",
-    "type": "movie",
-    "name": "Soft Leaves",
-    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 71
+    "seeders": 689
   },
   {
     "id": "tt14186876",
@@ -226,7 +196,37 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 163
+    "seeders": 197
+  },
+  {
+    "id": "tt28308317",
+    "type": "movie",
+    "name": "Soft Leaves",
+    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 82
+  },
+  {
+    "id": "tt38133965",
+    "type": "movie",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt39345599",
@@ -241,7 +241,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 100
+    "seeders": 108
   },
   {
     "id": "tt27424511",
@@ -257,7 +257,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 149
+    "seeders": 164
   },
   {
     "id": "tt33244668",
@@ -274,23 +274,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "وين ياخذنا الريح",
-    "poster": "https://image.tmdb.org/t/p/w500/ppViwGpufHCkpFHm8R3tkcGuqOZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 118
+    "seeders": 55
   },
   {
     "id": "tt4627382",
@@ -307,7 +291,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 180
+    "seeders": 211
+  },
+  {
+    "id": "tt31392191",
+    "type": "movie",
+    "name": "وين ياخذنا الريح",
+    "poster": "https://image.tmdb.org/t/p/w500/ppViwGpufHCkpFHm8R3tkcGuqOZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 135
   },
   {
     "id": "tt34937354",
@@ -324,7 +324,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 85
+    "seeders": 103
   },
   {
     "id": "tt26443597",
@@ -343,7 +343,22 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 83
+    "seeders": 101
+  },
+  {
+    "id": "tt36589671",
+    "type": "movie",
+    "name": "A végső tűzharc",
+    "poster": "https://image.tmdb.org/t/p/w500/uBQVEazzf2krSuok2ULq2mL9ls6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 143
   },
   {
     "id": "tt32676674",
@@ -360,37 +375,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 76
-  },
-  {
-    "id": "tt36589671",
-    "type": "movie",
-    "name": "A végső tűzharc",
-    "poster": "https://image.tmdb.org/t/p/w500/uBQVEazzf2krSuok2ULq2mL9ls6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 118
-  },
-  {
-    "id": "tt39792948",
-    "type": "movie",
-    "name": "Louis Theroux: A manoszféra belsejében",
-    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 75
+    "seeders": 86
   },
   {
     "id": "tt13289492",
@@ -405,7 +390,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 61
+    "seeders": 72
+  },
+  {
+    "id": "tt39792948",
+    "type": "movie",
+    "name": "Louis Theroux: A manoszféra belsejében",
+    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt32439773",
@@ -421,7 +421,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 98
+    "seeders": 119
   },
   {
     "id": "tt22014400",
@@ -436,7 +436,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 48
+    "seeders": 58
   },
   {
     "id": "tt27757752",
@@ -454,7 +454,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 64
+    "seeders": 77
   },
   {
     "id": "tt39012071",
@@ -473,7 +473,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 83
+    "seeders": 86
   },
   {
     "id": "tt20414360",
@@ -490,6 +490,6 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 75
+    "seeders": 78
   }
 ]
