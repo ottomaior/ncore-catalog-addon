@@ -42,6 +42,9 @@ const HD_SERIES_DATA_PATH = path.join(__dirname, 'data', 'hd_series.json');
 const TRENDING_MOVIES_DATA_PATH = path.join(__dirname, 'data', 'trending_movies.json');
 // Path to trending series (most seeded in last N pages, 1080p HDSER_HUN)
 const TRENDING_SERIES_DATA_PATH = path.join(__dirname, 'data', 'trending_series.json');
+// Top downloaded 1080p HD-HU (build script: scripts/build_top_downloaded_1080_catalog.py, ~60-day cadence)
+const TOP_DOWNLOADED_1080_MOVIES_PATH = path.join(__dirname, 'data', 'top_downloaded_1080_movies.json');
+const TOP_DOWNLOADED_1080_SERIES_PATH = path.join(__dirname, 'data', 'top_downloaded_1080_series.json');
 
 // Genres that get their own "Top seeded" catalog (slug -> display label)
 const TOP_SEEDED_GENRE_CATALOGS = [
@@ -201,7 +204,7 @@ async function getBackdropFromTMDB(imdbId, type = 'movie') {
 // Addon manifest
 const manifest = {
     id: 'com.ncore.hungarian.addon',
-    version: '3.2.2',
+    version: '3.2.5',
     name: 'nCore Katalógus',
     description: 'Magyar nyelvű filmek és sorozatok nCore-ról – katalógusok: Top Seed, Trending, New, Streaming.',
     logo: 'https://ncore-catalog-addon-production.up.railway.app/logo.png',
@@ -224,6 +227,24 @@ const manifest = {
             id: "ncore-series-top-seeded-all",
             type: "series",
             name: "🏆 Sorozatok",
+            extra: [
+                { name: "skip", isRequired: false },
+                { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }
+            ]
+        },
+        {
+            id: "ncore-top-downloaded-1080-movies",
+            type: "movie",
+            name: "📥 Filmek",
+            extra: [
+                { name: "skip", isRequired: false },
+                { name: "genre", isRequired: false, options: GENRE_OPTIONS }
+            ]
+        },
+        {
+            id: "ncore-top-downloaded-1080-series",
+            type: "series",
+            name: "📥 Sorozatok",
             extra: [
                 { name: "skip", isRequired: false },
                 { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }
@@ -367,6 +388,10 @@ let trendingMoviesList = [];
 let trendingMoviesLoadedAt = null;
 let trendingSeriesList = [];
 let trendingSeriesLoadedAt = null;
+let topDownloaded1080MoviesList = [];
+let topDownloaded1080MoviesLoadedAt = null;
+let topDownloaded1080SeriesList = [];
+let topDownloaded1080SeriesLoadedAt = null;
 const CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 const TOP_SEEDED_CATALOG_TTL = 3 * 24 * 60 * 60 * 1000; // 3 days
 const NETFLIX_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
@@ -609,6 +634,56 @@ function getTopSeededSeriesList() {
         }
     }
     return topSeededSeriesList;
+}
+
+function loadTopDownloaded1080MoviesFromFile() {
+    try {
+        if (!fs.existsSync(TOP_DOWNLOADED_1080_MOVIES_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(TOP_DOWNLOADED_1080_MOVIES_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a top_downloaded_1080_movies.json betöltésekor:', err.message);
+        return topDownloaded1080MoviesList;
+    }
+}
+
+function getTopDownloaded1080MoviesList() {
+    if (!topDownloaded1080MoviesLoadedAt || (Date.now() - topDownloaded1080MoviesLoadedAt > TOP_SEEDED_CATALOG_TTL)) {
+        topDownloaded1080MoviesList = loadTopDownloaded1080MoviesFromFile();
+        topDownloaded1080MoviesLoadedAt = Date.now();
+        if (topDownloaded1080MoviesList.length) {
+            console.log(`✓ ${topDownloaded1080MoviesList.length} top 1080p HD-HU film betöltve`);
+        }
+    }
+    return topDownloaded1080MoviesList;
+}
+
+function loadTopDownloaded1080SeriesFromFile() {
+    try {
+        if (!fs.existsSync(TOP_DOWNLOADED_1080_SERIES_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(TOP_DOWNLOADED_1080_SERIES_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a top_downloaded_1080_series.json betöltésekor:', err.message);
+        return topDownloaded1080SeriesList;
+    }
+}
+
+function getTopDownloaded1080SeriesList() {
+    if (!topDownloaded1080SeriesLoadedAt || (Date.now() - topDownloaded1080SeriesLoadedAt > TOP_SEEDED_CATALOG_TTL)) {
+        topDownloaded1080SeriesList = loadTopDownloaded1080SeriesFromFile();
+        topDownloaded1080SeriesLoadedAt = Date.now();
+        if (topDownloaded1080SeriesList.length) {
+            console.log(`✓ ${topDownloaded1080SeriesList.length} top 1080p HD-HU sorozat betöltve`);
+        }
+    }
+    return topDownloaded1080SeriesList;
 }
 
 function filterTopSeededSeriesByGenre(genreSlug) {
@@ -932,6 +1007,20 @@ builder.defineCatalogHandler(async (args) => {
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
+    // Top downloaded 1080p HD-HU (scripts/build_top_downloaded_1080_catalog.py)
+    if (args.type === 'movie' && args.id === 'ncore-top-downloaded-1080-movies') {
+        let list = getTopDownloaded1080MoviesList();
+        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
+    }
+    if (args.type === 'series' && args.id === 'ncore-top-downloaded-1080-series') {
+        let list = getTopDownloaded1080SeriesList();
+        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
+    }
+
     // Netflix movies
     if (args.type === 'movie' && args.id === 'ncore-netflix-movies') {
         let list = getNetflixMoviesList();
@@ -1043,6 +1132,7 @@ builder.defineMetaHandler(async (args) => {
             const movie = getTrendingMoviesList().find(matchId)
                 || getHDMoviesList().find(matchId)
                 || getTopSeededMoviesList().find(matchId)
+                || getTopDownloaded1080MoviesList().find(matchId)
                 || getTopSeededHungarianProductionsList().find(matchId)
                 || getNetflixMoviesList().find(matchId)
                 || getDisneyPlusMoviesList().find(matchId)
@@ -1065,12 +1155,13 @@ builder.defineMetaHandler(async (args) => {
             const trending = getTrendingSeriesList().find(seriesId);
             const hd = getHDSeriesList().find(seriesId);
             const top = getTopSeededSeriesList().find(seriesId);
+            const top1080 = getTopDownloaded1080SeriesList().find(seriesId);
             const topHu = getTopSeededHungarianProductionsSeriesList().find(seriesId);
             const netflix = getNetflixSeriesList().find(seriesId);
             const disneyplus = getDisneyPlusSeriesList().find(seriesId);
             const hbomax = getHbomaxSeriesList().find(seriesId);
             const prime = getPrimeSeriesList().find(seriesId);
-            const series = trending || hd || top || topHu || netflix || disneyplus || hbomax || prime;
+            const series = trending || hd || top || top1080 || topHu || netflix || disneyplus || hbomax || prime;
             if (series) {
                 const sid = series.id || series.imdb_id;
                 if (!sid) {
@@ -1120,6 +1211,8 @@ builder.getStats = () => ({
     topSeededByGenreCount: getTopSeededMoviesList().length,
     topSeededHungarianProductionsCount: getTopSeededHungarianProductionsList().length,
     topSeededSeriesCount: getTopSeededSeriesList().length,
+    topDownloaded1080MoviesCount: getTopDownloaded1080MoviesList().length,
+    topDownloaded1080SeriesCount: getTopDownloaded1080SeriesList().length,
     topSeededHungarianProductionsSeriesCount: getTopSeededHungarianProductionsSeriesList().length,
     netflixMoviesCount: getNetflixMoviesList().length,
     netflixSeriesCount: getNetflixSeriesList().length,

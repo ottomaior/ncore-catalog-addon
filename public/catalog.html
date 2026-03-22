@@ -255,6 +255,7 @@
                     <button type="button" class="btn btn-secondary" onclick="setPreset('none')">Egyik sem</button>
                     <button type="button" class="btn btn-secondary" onclick="setPreset('topseed')">Csak Top Seed</button>
                     <button type="button" class="btn btn-secondary" onclick="setPreset('latest')">Csak legfrissebb</button>
+                    <button type="button" class="btn btn-secondary" onclick="setPreset('topdownloaded')">Csak legtöbb letöltés</button>
                 </div>
                 <p class="catalog-count" id="catalog-count">Betöltés...</p>
                 <div id="catalog-panels">Betöltés...</div>
@@ -285,6 +286,10 @@
                 { id: 'ncore-series-top-seeded-all', icon: '📺', label: 'Sorozatok' },
                 { id: 'ncore-movies-top-seeded-magyar-filmek', icon: '🇭🇺', label: 'Magyar filmek' },
                 { id: 'ncore-series-top-seeded-magyar-sorozatok', icon: '🇭🇺', label: 'Magyar sorozatok' }
+            ]},
+            { key: 'topdownloaded', icon: '📥', iconClass: 'topseed', title: 'Legtöbbet letöltött', subtitle: '', items: [
+                { id: 'ncore-top-downloaded-1080-movies', icon: '🎬', label: 'Filmek' },
+                { id: 'ncore-top-downloaded-1080-series', icon: '📺', label: 'Sorozatok' }
             ]},
             { key: 'trending', icon: '🔥', iconClass: 'latest', title: 'Trendi', subtitle: 'Legtöbb seed az utolsó 200 feltöltésből (1080p)', items: [
                 { id: 'ncore-trending-movies', icon: '🎬', label: 'Filmek' },
@@ -341,11 +346,13 @@
             const allIds = catalogOptions.map(c => c.id);
             const latestIds = ['ncore-hd-movies', 'ncore-hd-series', 'ncore-netflix-movies', 'ncore-netflix-series', 'ncore-disneyplus-movies', 'ncore-disneyplus-series', 'ncore-hbomax-movies', 'ncore-hbomax-series', 'ncore-prime-movies', 'ncore-prime-series', 'ncore-hd-movies-release-date', 'ncore-hd-series-release-date'];
             const topseedIds = ['ncore-movies-top-seeded-all', 'ncore-series-top-seeded-all', 'ncore-movies-top-seeded-magyar-filmek', 'ncore-series-top-seeded-magyar-sorozatok'];
+            const topdownloadedIds = ['ncore-top-downloaded-1080-movies', 'ncore-top-downloaded-1080-series'];
             let toCheck = [];
             if (preset === 'all') toCheck = allIds;
             else if (preset === 'none') toCheck = [];
             else if (preset === 'latest') toCheck = latestIds;
             else if (preset === 'topseed') toCheck = topseedIds;
+            else if (preset === 'topdownloaded') toCheck = topdownloadedIds;
             catalogOptions.forEach(c => {
                 const cb = document.getElementById('cat-' + c.id);
                 if (cb) cb.checked = toCheck.includes(c.id);
