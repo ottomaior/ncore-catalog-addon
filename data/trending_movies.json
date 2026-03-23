@@ -13,40 +13,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1106
-  },
-  {
-    "id": "tt11539996",
-    "type": "movie",
-    "name": "Kontakt",
-    "poster": "https://image.tmdb.org/t/p/w500/zi4pvq1HJYj851svkeqJCmCrMTH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Relay-ben Riz Ahmed egy világklasszis „fixert” alakít, aki arra specializálódott, hogy jövedelmező kifizetéseket közvetítsen korrupt vállalatok és a tönkremenetelüket fenyegető személyek között. Személyazonosságát aprólékos tervezéssel tartja titokban és mindig szigorú szabályokat követ. Amikor azonban egy nap üzenet érkezik egy potenciális ügyféltől (Lily James), akinek a védelmére van szüksége, csak hogy életben maradjon, a szabályok gyorsan megváltoznak.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 1895
-  },
-  {
-    "id": "tt29567915",
-    "type": "movie",
-    "name": "Nürnberg",
-    "poster": "https://image.tmdb.org/t/p/w500/irTa6eB3wuHivzPjjJIjyEH1AiH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 1323
+    "seeders": 1391
   },
   {
     "id": "tt15940132",
@@ -63,7 +30,40 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 3061
+    "seeders": 3997
+  },
+  {
+    "id": "tt11539996",
+    "type": "movie",
+    "name": "Kontakt",
+    "poster": "https://image.tmdb.org/t/p/w500/zi4pvq1HJYj851svkeqJCmCrMTH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Relay-ben Riz Ahmed egy világklasszis „fixert” alakít, aki arra specializálódott, hogy jövedelmező kifizetéseket közvetítsen korrupt vállalatok és a tönkremenetelüket fenyegető személyek között. Személyazonosságát aprólékos tervezéssel tartja titokban és mindig szigorú szabályokat követ. Amikor azonban egy nap üzenet érkezik egy potenciális ügyféltől (Lily James), akinek a védelmére van szüksége, csak hogy életben maradjon, a szabályok gyorsan megváltoznak.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 2340
+  },
+  {
+    "id": "tt29567915",
+    "type": "movie",
+    "name": "Nürnberg",
+    "poster": "https://image.tmdb.org/t/p/w500/irTa6eB3wuHivzPjjJIjyEH1AiH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 1667
   },
   {
     "id": "tt27543632",
@@ -80,7 +80,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1108
+    "seeders": 1398
   },
   {
     "id": "tt27714581",
@@ -95,7 +95,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 327
+    "seeders": 398
   },
   {
     "id": "tt11214558",
@@ -111,7 +111,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 384
+    "seeders": 458
   },
   {
     "id": "tt36971084",
@@ -127,7 +127,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 135
+    "seeders": 169
   },
   {
     "id": "tt32141377",
@@ -144,7 +144,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 765
+    "seeders": 951
   },
   {
     "id": "tt14905854",
@@ -161,7 +161,39 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 316
+    "seeders": 381
+  },
+  {
+    "id": "tt26452781",
+    "type": "movie",
+    "name": "Marked Men - Tetovált srácok",
+    "poster": "https://image.tmdb.org/t/p/w500/cssNPoYi1XM0JaiIucUjZXDSjgT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az orvostanhallgató Shaw titokban évek óta szerelmes Rule-ba, a lázadó szellemű tetoválóművészbe, noha a srác számára a lány csak a család barátja, a kis „Casper”, ahogy gyerekkoruk óta tréfásan hívja őt sápadt arcbőre miatt. Rule-nak és haverjainak, akikkel együtt nyomja a szalonban, a szabad, kötetlen élet mindennél többet jelent. Egy átmulatott este után azonban a Shaw-val való kapcsolata fordulóponthoz érkezik. Kénytelenek lesznek szembenézni elfojtott érzelmeikkel, miközben sosem múló gyász, ismerőseik elvárásai és az elkötelezettségtől való félelem is mind-mind nehezítik helyzetüket. Idővel azonban el kell dönteniük, hogy két ennyire különböző hátterű ember szerelme csakugyan életképes-e. Egy biztos: ez a szerelem nyomot fog hagyni rajtuk.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 134
+  },
+  {
+    "id": "tt14186876",
+    "type": "movie",
+    "name": "Vadásszátok le őket",
+    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 221
   },
   {
     "id": "tt31909472",
@@ -181,39 +213,7 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt26452781",
-    "type": "movie",
-    "name": "Marked Men - Tetovált srácok",
-    "poster": "https://image.tmdb.org/t/p/w500/cssNPoYi1XM0JaiIucUjZXDSjgT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvostanhallgató Shaw titokban évek óta szerelmes Rule-ba, a lázadó szellemű tetoválóművészbe, noha a srác számára a lány csak a család barátja, a kis „Casper”, ahogy gyerekkoruk óta tréfásan hívja őt sápadt arcbőre miatt. Rule-nak és haverjainak, akikkel együtt nyomja a szalonban, a szabad, kötetlen élet mindennél többet jelent. Egy átmulatott este után azonban a Shaw-val való kapcsolata fordulóponthoz érkezik. Kénytelenek lesznek szembenézni elfojtott érzelmeikkel, miközben sosem múló gyász, ismerőseik elvárásai és az elkötelezettségtől való félelem is mind-mind nehezítik helyzetüket. Idővel azonban el kell dönteniük, hogy két ennyire különböző hátterű ember szerelme csakugyan életképes-e. Egy biztos: ez a szerelem nyomot fog hagyni rajtuk.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 121
-  },
-  {
-    "id": "tt14186876",
-    "type": "movie",
-    "name": "Vadásszátok le őket",
-    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 186
+    "seeders": 85
   },
   {
     "id": "tt39345599",
@@ -228,7 +228,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 120
+    "seeders": 143
   },
   {
     "id": "tt38133965",
@@ -243,22 +243,7 @@
     "genres": [
       "Családi"
     ],
-    "seeders": 103
-  },
-  {
-    "id": "tt28308317",
-    "type": "movie",
-    "name": "Soft Leaves",
-    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 81
+    "seeders": 117
   },
   {
     "id": "tt27424511",
@@ -274,7 +259,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 171
+    "seeders": 196
+  },
+  {
+    "id": "tt28308317",
+    "type": "movie",
+    "name": "Soft Leaves",
+    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 87
   },
   {
     "id": "tt4627382",
@@ -291,23 +291,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 216
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Ahonnan a szél jön",
-    "poster": "https://image.tmdb.org/t/p/w500/ppViwGpufHCkpFHm8R3tkcGuqOZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amel Guellaty politikai nézeteit tekintve nem sorolta be magát nyíltan egyetlen pártba sem, de munkássága és nyilatkozatai alapján liberális és feminista szemléletmód jellemzi.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 143
+    "seeders": 277
   },
   {
     "id": "tt26443597",
@@ -326,24 +310,23 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 122
+    "seeders": 160
   },
   {
-    "id": "tt34937354",
+    "id": "tt31392191",
     "type": "movie",
-    "name": "My Argentine Heart",
-    "poster": "https://image.tmdb.org/t/p/w500/1hsu6Uy3GUQ4lZXawDyiLALToXA.jpg",
+    "name": "Ahonnan a szél jön",
+    "poster": "https://image.tmdb.org/t/p/w500/ppViwGpufHCkpFHm8R3tkcGuqOZ.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
+    "description": "Amel Guellaty politikai nézeteit tekintve nem sorolta be magát nyíltan egyetlen pártba sem, de munkássága és nyilatkozatai alapján liberális és feminista szemléletmód jellemzi.",
+    "imdbRating": 7.8,
     "releaseInfo": "2025",
     "genres": [
-      "TV film",
-      "Vígjáték",
-      "Romantikus"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 100
+    "seeders": 149
   },
   {
     "id": "tt33244668",
@@ -360,7 +343,24 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 60
+    "seeders": 67
+  },
+  {
+    "id": "tt34937354",
+    "type": "movie",
+    "name": "My Argentine Heart",
+    "poster": "https://image.tmdb.org/t/p/w500/1hsu6Uy3GUQ4lZXawDyiLALToXA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "TV film",
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 102
   },
   {
     "id": "tt36589671",
@@ -375,7 +375,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 135
+    "seeders": 156
   },
   {
     "id": "tt32676674",
@@ -392,7 +392,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 90
+    "seeders": 97
   },
   {
     "id": "tt39792948",
@@ -407,7 +407,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 83
+    "seeders": 98
   },
   {
     "id": "tt32439773",
@@ -423,7 +423,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 122
+    "seeders": 136
   },
   {
     "id": "tt13289492",
@@ -438,7 +438,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 64
+    "seeders": 70
   },
   {
     "id": "tt27757752",
@@ -456,22 +456,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 74
-  },
-  {
-    "id": "tt22014400",
-    "type": "movie",
-    "name": "Egy humorista halála",
-    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 48
+    "seeders": 84
   },
   {
     "id": "tt39012071",
@@ -490,6 +475,21 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 84
+    "seeders": 100
+  },
+  {
+    "id": "tt22014400",
+    "type": "movie",
+    "name": "Egy humorista halála",
+    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 54
   }
 ]
