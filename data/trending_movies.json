@@ -13,7 +13,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 828
+    "seeders": 951
   },
   {
     "id": "tt11539996",
@@ -30,7 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1523
+    "seeders": 1691
   },
   {
     "id": "tt29567915",
@@ -46,7 +46,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1050
+    "seeders": 1173
   },
   {
     "id": "tt27543632",
@@ -63,7 +63,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 852
+    "seeders": 978
   },
   {
     "id": "tt15940132",
@@ -73,14 +73,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az elit kiképzés utolsó, embert próbáló bevetésén egy katona egy óriási, földöntúli pusztítógép ellen vezeti egységét.",
-    "imdbRating": 7.2,
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2325
+    "seeders": 2695
   },
   {
     "id": "tt27714581",
@@ -95,23 +95,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 267
-  },
-  {
-    "id": "tt36971084",
-    "type": "movie",
-    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
-    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
-    "imdbRating": 8.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 117
+    "seeders": 293
   },
   {
     "id": "tt11214558",
@@ -127,7 +111,23 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 310
+    "seeders": 352
+  },
+  {
+    "id": "tt36971084",
+    "type": "movie",
+    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
+    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 125
   },
   {
     "id": "tt32141377",
@@ -144,7 +144,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 577
+    "seeders": 651
   },
   {
     "id": "tt14905854",
@@ -161,7 +161,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 271
+    "seeders": 299
   },
   {
     "id": "tt31909472",
@@ -181,7 +181,7 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 73
+    "seeders": 81
   },
   {
     "id": "tt26452781",
@@ -197,7 +197,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 102
+    "seeders": 116
   },
   {
     "id": "tt14186876",
@@ -213,7 +213,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 152
+    "seeders": 177
   },
   {
     "id": "tt38133965",
@@ -228,7 +228,7 @@
     "genres": [
       "Családi"
     ],
-    "seeders": 98
+    "seeders": 105
   },
   {
     "id": "tt39345599",
@@ -243,7 +243,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 100
+    "seeders": 111
   },
   {
     "id": "tt28308317",
@@ -258,7 +258,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 66
+    "seeders": 77
   },
   {
     "id": "tt27424511",
@@ -274,7 +274,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 148
+    "seeders": 164
+  },
+  {
+    "id": "tt4627382",
+    "type": "movie",
+    "name": "A besurranó",
+    "poster": "https://image.tmdb.org/t/p/w500/tHYCPLhzAldSOI6Jz9UcYXcHsTy.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Jeffrey Manchester (Channing Tatum) az örök álmodozó egyedi módszerrel próbál pénzt szerezni: tetőkön surran be, és teszi zsebre a McDonald’s éttermek kasszáinak tartalmát. De az egykori katonából lett tolvaj számításaiba hiba csúszik, és lecsukják. Amikor sikerül kereket oldania a börtönből, menekülés közben egy elég szokatlan búvóhelyen köt ki: egy játékbolt falai között talál menedéket, ahol plüssök társaságában tervezgeti a következő nagy dobását. Telnek a hónapok, a hajtóvadászat lassan feledésbe merül, és közben Jeffrey beleszeret Leigh-be (Kirsten Dunst), az áruház egyik alkalmazottjába. A gond csak az, hogy a nő mit sem sejt arról, hogy új udvarlója egy körözött szökevény, aki abban reménykedik, hogy végre megkapja az élettől az új esélyt, amire mindig is vágyott…",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Bűnügyi",
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 200
   },
   {
     "id": "tt26443597",
@@ -293,24 +310,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 112
-  },
-  {
-    "id": "tt4627382",
-    "type": "movie",
-    "name": "A besurranó",
-    "poster": "https://image.tmdb.org/t/p/w500/tHYCPLhzAldSOI6Jz9UcYXcHsTy.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Jeffrey Manchester (Channing Tatum) az örök álmodozó egyedi módszerrel próbál pénzt szerezni: tetőkön surran be, és teszi zsebre a McDonald’s éttermek kasszáinak tartalmát. De az egykori katonából lett tolvaj számításaiba hiba csúszik, és lecsukják. Amikor sikerül kereket oldania a börtönből, menekülés közben egy elég szokatlan búvóhelyen köt ki: egy játékbolt falai között talál menedéket, ahol plüssök társaságában tervezgeti a következő nagy dobását. Telnek a hónapok, a hajtóvadászat lassan feledésbe merül, és közben Jeffrey beleszeret Leigh-be (Kirsten Dunst), az áruház egyik alkalmazottjába. A gond csak az, hogy a nő mit sem sejt arról, hogy új udvarlója egy körözött szökevény, aki abban reménykedik, hogy végre megkapja az élettől az új esélyt, amire mindig is vágyott…",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Bűnügyi",
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 182
+    "seeders": 114
   },
   {
     "id": "tt31392191",
@@ -326,7 +326,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 115
+    "seeders": 129
   },
   {
     "id": "tt33244668",
@@ -343,7 +343,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 52
+    "seeders": 55
   },
   {
     "id": "tt34937354",
@@ -360,7 +360,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 68
+    "seeders": 89
   },
   {
     "id": "tt36589671",
@@ -375,7 +375,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 111
+    "seeders": 129
   },
   {
     "id": "tt32676674",
@@ -392,7 +392,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 72
+    "seeders": 85
   },
   {
     "id": "tt39792948",
@@ -407,7 +407,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 65
+    "seeders": 80
   },
   {
     "id": "tt32439773",
@@ -423,7 +423,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 98
+    "seeders": 112
   },
   {
     "id": "tt13289492",
@@ -438,7 +438,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 54
+    "seeders": 60
   },
   {
     "id": "tt27757752",
@@ -456,7 +456,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 64
+    "seeders": 70
   },
   {
     "id": "tt22014400",
@@ -471,7 +471,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 42
+    "seeders": 47
   },
   {
     "id": "tt20414360",
@@ -488,6 +488,6 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 73
+    "seeders": 77
   }
 ]
