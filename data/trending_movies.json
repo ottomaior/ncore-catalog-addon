@@ -13,7 +13,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 951
+    "seeders": 1106
   },
   {
     "id": "tt11539996",
@@ -30,7 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1691
+    "seeders": 1895
   },
   {
     "id": "tt29567915",
@@ -46,24 +46,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1173
-  },
-  {
-    "id": "tt27543632",
-    "type": "movie",
-    "name": "The Housemaid - A téboly otthona",
-    "poster": "https://image.tmdb.org/t/p/w500/kQIKRsWvfBdKYexcMsEuaBU7fLI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A téboly otthona című feszült thriller alapjául a világsikerű könyv szolgált. Egy olyan kifacsart világba repíti a nézőket, ahol a tökéletesség csak illúzió, semmi sem az, aminek látszik. Millie (Sydney Sweeney) megpróbál elmenekülni a múltja elől, ezért elfogad egy bentlakásos állást a gazdag Nina (Amanda Seyfried) és Andrew Winchester (Brandon Sklenar) házvezetőnőjeként. Ám ami valóságos álommelónak indul, gyorsan alakul át valami egészen szörnyű és veszélyes dologgá: szexi, csábító titkok, botrányok övezte hatalmi játszmává. Winchesterék zárt ajtói mögött egy sokkoló világ rejtőzik, csupa váratlan fordulattal, amelyeket a néző a film végéig találgathat.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Rejtély",
-      "Thriller"
-    ],
-    "seeders": 978
+    "seeders": 1323
   },
   {
     "id": "tt15940132",
@@ -80,7 +63,24 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2695
+    "seeders": 3061
+  },
+  {
+    "id": "tt27543632",
+    "type": "movie",
+    "name": "The Housemaid - A téboly otthona",
+    "poster": "https://image.tmdb.org/t/p/w500/kQIKRsWvfBdKYexcMsEuaBU7fLI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A téboly otthona című feszült thriller alapjául a világsikerű könyv szolgált. Egy olyan kifacsart világba repíti a nézőket, ahol a tökéletesség csak illúzió, semmi sem az, aminek látszik. Millie (Sydney Sweeney) megpróbál elmenekülni a múltja elől, ezért elfogad egy bentlakásos állást a gazdag Nina (Amanda Seyfried) és Andrew Winchester (Brandon Sklenar) házvezetőnőjeként. Ám ami valóságos álommelónak indul, gyorsan alakul át valami egészen szörnyű és veszélyes dologgá: szexi, csábító titkok, botrányok övezte hatalmi játszmává. Winchesterék zárt ajtói mögött egy sokkoló világ rejtőzik, csupa váratlan fordulattal, amelyeket a néző a film végéig találgathat.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Rejtély",
+      "Thriller"
+    ],
+    "seeders": 1108
   },
   {
     "id": "tt27714581",
@@ -95,7 +95,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 293
+    "seeders": 327
   },
   {
     "id": "tt11214558",
@@ -111,7 +111,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 352
+    "seeders": 384
   },
   {
     "id": "tt36971084",
@@ -127,7 +127,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 125
+    "seeders": 135
   },
   {
     "id": "tt32141377",
@@ -144,7 +144,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 651
+    "seeders": 765
   },
   {
     "id": "tt14905854",
@@ -161,7 +161,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 299
+    "seeders": 316
   },
   {
     "id": "tt31909472",
@@ -197,7 +197,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 116
+    "seeders": 121
   },
   {
     "id": "tt14186876",
@@ -213,22 +213,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 177
-  },
-  {
-    "id": "tt38133965",
-    "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi"
-    ],
-    "seeders": 105
+    "seeders": 186
   },
   {
     "id": "tt39345599",
@@ -243,7 +228,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 111
+    "seeders": 120
+  },
+  {
+    "id": "tt38133965",
+    "type": "movie",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi"
+    ],
+    "seeders": 103
   },
   {
     "id": "tt28308317",
@@ -258,7 +258,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 77
+    "seeders": 81
   },
   {
     "id": "tt27424511",
@@ -274,7 +274,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 164
+    "seeders": 171
   },
   {
     "id": "tt4627382",
@@ -291,7 +291,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 200
+    "seeders": 216
+  },
+  {
+    "id": "tt31392191",
+    "type": "movie",
+    "name": "Ahonnan a szél jön",
+    "poster": "https://image.tmdb.org/t/p/w500/ppViwGpufHCkpFHm8R3tkcGuqOZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amel Guellaty politikai nézeteit tekintve nem sorolta be magát nyíltan egyetlen pártba sem, de munkássága és nyilatkozatai alapján liberális és feminista szemléletmód jellemzi.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 143
   },
   {
     "id": "tt26443597",
@@ -310,40 +326,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 114
-  },
-  {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Ahonnan a szél jön",
-    "poster": "https://image.tmdb.org/t/p/w500/ppViwGpufHCkpFHm8R3tkcGuqOZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amel Guellaty politikai nézeteit tekintve nem sorolta be magát nyíltan egyetlen pártba sem, de munkássága és nyilatkozatai alapján liberális és feminista szemléletmód jellemzi.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 129
-  },
-  {
-    "id": "tt33244668",
-    "type": "movie",
-    "name": "Anakonda",
-    "poster": "https://image.tmdb.org/t/p/w500/sXzUrie6C6WPZ1MJQHWI8vq7Pwu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az 1997-ben megjelent Anakonda című thriller humoros újragondolása.  Doug (Jack Black) és Griff (Paul Rudd) kiskölyök koruk óta a legjobb haverok, és világ életükben arról álmodoztak, hogy egyszer filmet csinálnak. Méghozzá gyerekkori kedvencük, az óriáskígyós-dzsungeles-horrorkaland, az Anakonda remake-jét.\r Kezdik úgy érezni, hogy öregszenek, ezért nem várnak tovább, és minden pénzüket arra költik, hogy az eredeti helyszínen, az Amazonas őserdejében forgathassák újra a régi filmet. Vagyis: nincs pénzük, nem értenek a filmezéshez, és fogalmuk sincs a környék veszélyeiről – minden a legjobban alakul!\r Kivéve, hogy az őserdőben valóban találkoznak egy elképesztő méretű kígyóval. A vicces káosz halálosan veszélyes káosszá válik. Végül is, sokszor mondták, hogy az életüket adnák a filmért…",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Vígjáték",
-      "Horror"
-    ],
-    "seeders": 55
+    "seeders": 122
   },
   {
     "id": "tt34937354",
@@ -360,7 +343,24 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 89
+    "seeders": 100
+  },
+  {
+    "id": "tt33244668",
+    "type": "movie",
+    "name": "Anakonda",
+    "poster": "https://image.tmdb.org/t/p/w500/sXzUrie6C6WPZ1MJQHWI8vq7Pwu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az 1997-ben megjelent Anakonda című thriller humoros újragondolása.  Doug (Jack Black) és Griff (Paul Rudd) kiskölyök koruk óta a legjobb haverok, és világ életükben arról álmodoztak, hogy egyszer filmet csinálnak. Méghozzá gyerekkori kedvencük, az óriáskígyós-dzsungeles-horrorkaland, az Anakonda remake-jét.\r Kezdik úgy érezni, hogy öregszenek, ezért nem várnak tovább, és minden pénzüket arra költik, hogy az eredeti helyszínen, az Amazonas őserdejében forgathassák újra a régi filmet. Vagyis: nincs pénzük, nem értenek a filmezéshez, és fogalmuk sincs a környék veszélyeiről – minden a legjobban alakul!\r Kivéve, hogy az őserdőben valóban találkoznak egy elképesztő méretű kígyóval. A vicces káosz halálosan veszélyes káosszá válik. Végül is, sokszor mondták, hogy az életüket adnák a filmért…",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Vígjáték",
+      "Horror"
+    ],
+    "seeders": 60
   },
   {
     "id": "tt36589671",
@@ -375,7 +375,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 129
+    "seeders": 135
   },
   {
     "id": "tt32676674",
@@ -392,7 +392,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 85
+    "seeders": 90
   },
   {
     "id": "tt39792948",
@@ -407,7 +407,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 80
+    "seeders": 83
   },
   {
     "id": "tt32439773",
@@ -423,7 +423,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 112
+    "seeders": 122
   },
   {
     "id": "tt13289492",
@@ -438,7 +438,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 60
+    "seeders": 64
   },
   {
     "id": "tt27757752",
@@ -456,7 +456,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 70
+    "seeders": 74
   },
   {
     "id": "tt22014400",
@@ -471,23 +471,25 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 47
+    "seeders": 48
   },
   {
-    "id": "tt20414360",
+    "id": "tt39012071",
     "type": "movie",
-    "name": "Köln 75",
-    "poster": "https://image.tmdb.org/t/p/w500/oMeg1capgysYPHVOnZq7HfoIXzE.jpg",
+    "name": "Miraculous World : Tokyo, Stellar Force",
+    "poster": "https://image.tmdb.org/t/p/w500/vFaopnGXRXxRf4z2Z3IgA1QtOyV.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A Köln75 egy felejthetetlen zenei pillanatának születésének drámai történetét meséli el – Keith Jarrett legendás Köln Concert -jét, amely minden idők egyik legkelendőbb jazzlemeze lett. De ami ma mesterműként él a köztudatban, az akkor kis híján meghiúsult. A történet középpontjában egy tinédzser, Vera Brandes áll, aki mindössze 17 évesen promótál a korszak koncert legfontosabb jazz zenészeinek Kölnben. Ő az, aki – minden nehézség és akadály nélkül – eléri, hogy Jarrett színpadra lép azon a bizonyos estén. Egy fáradt, kétkedő művész, egy állapotú zongora és egy fiatal lány, aki nem akarja feladni álmait. Egy inspiráló történet hitről, kitartásról és arról, hogy a legnagyobb csodák néha a legváratlanabb helyzetekben születnek.",
-    "imdbRating": 7.2,
+    "description": "Marinette és Kagami Tokióban egyesítik erőiket egy gonosztevő ellen, aki civileket kaijukká változtat. Ladybugnak össze kell gyűjtenie a japán hősöket, hogy megalakítsák a Tokyo Stellar Force-t, egy csapatot, amelynek tagjai csillagok erejével, csillagruhákkal és összeolvadó hajókkal rendelkeznek.",
+    "imdbRating": 8.0,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Történelmi",
-      "Zenei"
+      "Animációs",
+      "Családi",
+      "Akció",
+      "Kaland",
+      "Fantasy"
     ],
-    "seeders": 77
+    "seeders": 84
   }
 ]
