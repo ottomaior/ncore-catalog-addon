@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt8036976",
+    "type": "movie",
+    "name": "Segítség!",
+    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.  (Gergo Horvath)",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 104
+  },
+  {
     "id": "tt15574124",
     "type": "movie",
     "name": "Birmingham bandája: A halhatatlan férfi",
@@ -7,30 +24,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miután elhidegült fia belekeveredik a nácik ármánykodásába, az önkéntes száműzetésbe vonult király, Tommy Shelby visszatér Birminghambe családja és a nemzet megmentésére.",
-    "imdbRating": 7.4,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1391
+    "seeders": 826
   },
   {
-    "id": "tt15940132",
+    "id": "tt29567915",
     "type": "movie",
-    "name": "Ismeretlen támadók",
-    "poster": "https://image.tmdb.org/t/p/w500/rV8KlXpQi0LruJglMcigiOu7Kqi.jpg",
+    "name": "Nürnberg",
+    "poster": "https://image.tmdb.org/t/p/w500/irTa6eB3wuHivzPjjJIjyEH1AiH.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Az elit kiképzés utolsó, embert próbáló bevetésén egy katona egy óriási, földöntúli pusztítógép ellen vezeti egységét.",
+    "year": 2025,
+    "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
     "imdbRating": 7.3,
-    "releaseInfo": "2026",
+    "releaseInfo": "2025",
     "genres": [
-      "Akció",
-      "Sci-Fi",
-      "Thriller"
+      "Történelmi",
+      "Dráma"
     ],
-    "seeders": 3997
+    "seeders": 1077
   },
   {
     "id": "tt11539996",
@@ -47,23 +63,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 2340
+    "seeders": 1479
   },
   {
-    "id": "tt29567915",
+    "id": "tt15940132",
     "type": "movie",
-    "name": "Nürnberg",
-    "poster": "https://image.tmdb.org/t/p/w500/irTa6eB3wuHivzPjjJIjyEH1AiH.jpg",
+    "name": "Ismeretlen támadók",
+    "poster": "https://image.tmdb.org/t/p/w500/rV8KlXpQi0LruJglMcigiOu7Kqi.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
+    "year": 2026,
+    "description": "Az elit kiképzés utolsó, embert próbáló bevetésén egy katona egy óriási, földöntúli pusztítógép ellen vezeti egységét.",
     "imdbRating": 7.3,
-    "releaseInfo": "2025",
+    "releaseInfo": "2026",
     "genres": [
-      "Történelmi",
-      "Dráma"
+      "Akció",
+      "Sci-Fi",
+      "Thriller"
     ],
-    "seeders": 1667
+    "seeders": 2306
   },
   {
     "id": "tt27543632",
@@ -76,11 +93,10 @@
     "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1398
+    "seeders": 871
   },
   {
     "id": "tt27714581",
@@ -95,7 +111,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 398
+    "seeders": 270
   },
   {
     "id": "tt11214558",
@@ -111,7 +127,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 458
+    "seeders": 306
   },
   {
     "id": "tt36971084",
@@ -121,13 +137,13 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
-    "imdbRating": 7.3,
+    "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 169
+    "seeders": 117
   },
   {
     "id": "tt32141377",
@@ -144,7 +160,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 951
+    "seeders": 569
   },
   {
     "id": "tt14905854",
@@ -161,39 +177,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 381
-  },
-  {
-    "id": "tt26452781",
-    "type": "movie",
-    "name": "Marked Men - Tetovált srácok",
-    "poster": "https://image.tmdb.org/t/p/w500/cssNPoYi1XM0JaiIucUjZXDSjgT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvostanhallgató Shaw titokban évek óta szerelmes Rule-ba, a lázadó szellemű tetoválóművészbe, noha a srác számára a lány csak a család barátja, a kis „Casper”, ahogy gyerekkoruk óta tréfásan hívja őt sápadt arcbőre miatt. Rule-nak és haverjainak, akikkel együtt nyomja a szalonban, a szabad, kötetlen élet mindennél többet jelent. Egy átmulatott este után azonban a Shaw-val való kapcsolata fordulóponthoz érkezik. Kénytelenek lesznek szembenézni elfojtott érzelmeikkel, miközben sosem múló gyász, ismerőseik elvárásai és az elkötelezettségtől való félelem is mind-mind nehezítik helyzetüket. Idővel azonban el kell dönteniük, hogy két ennyire különböző hátterű ember szerelme csakugyan életképes-e. Egy biztos: ez a szerelem nyomot fog hagyni rajtuk.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 134
-  },
-  {
-    "id": "tt14186876",
-    "type": "movie",
-    "name": "Vadásszátok le őket",
-    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 221
+    "seeders": 263
   },
   {
     "id": "tt31909472",
@@ -213,22 +197,39 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 85
+    "seeders": 66
   },
   {
-    "id": "tt39345599",
+    "id": "tt26452781",
     "type": "movie",
-    "name": "Műanyagdetox",
-    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "name": "Marked Men - Tetovált srácok",
+    "poster": "https://image.tmdb.org/t/p/w500/cssNPoYi1XM0JaiIucUjZXDSjgT.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Az orvostanhallgató Shaw titokban évek óta szerelmes Rule-ba, a lázadó szellemű tetoválóművészbe, noha a srác számára a lány csak a család barátja, a kis „Casper”, ahogy gyerekkoruk óta tréfásan hívja őt sápadt arcbőre miatt. Rule-nak és haverjainak, akikkel együtt nyomja a szalonban, a szabad, kötetlen élet mindennél többet jelent. Egy átmulatott este után azonban a Shaw-val való kapcsolata fordulóponthoz érkezik. Kénytelenek lesznek szembenézni elfojtott érzelmeikkel, miközben sosem múló gyász, ismerőseik elvárásai és az elkötelezettségtől való félelem is mind-mind nehezítik helyzetüket. Idővel azonban el kell dönteniük, hogy két ennyire különböző hátterű ember szerelme csakugyan életképes-e. Egy biztos: ez a szerelem nyomot fog hagyni rajtuk.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum"
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 143
+    "seeders": 97
+  },
+  {
+    "id": "tt14186876",
+    "type": "movie",
+    "name": "Vadásszátok le őket",
+    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 152
   },
   {
     "id": "tt38133965",
@@ -243,7 +244,22 @@
     "genres": [
       "Családi"
     ],
-    "seeders": 117
+    "seeders": 98
+  },
+  {
+    "id": "tt39345599",
+    "type": "movie",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 96
   },
   {
     "id": "tt27424511",
@@ -259,7 +275,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 196
+    "seeders": 142
   },
   {
     "id": "tt28308317",
@@ -274,7 +290,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 87
+    "seeders": 61
   },
   {
     "id": "tt4627382",
@@ -291,7 +307,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 277
+    "seeders": 185
   },
   {
     "id": "tt26443597",
@@ -310,7 +326,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 160
+    "seeders": 102
   },
   {
     "id": "tt31392191",
@@ -326,7 +342,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 149
+    "seeders": 114
   },
   {
     "id": "tt33244668",
@@ -343,7 +359,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 67
+    "seeders": 54
   },
   {
     "id": "tt34937354",
@@ -360,7 +376,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 102
+    "seeders": 71
   },
   {
     "id": "tt36589671",
@@ -375,7 +391,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 156
+    "seeders": 117
   },
   {
     "id": "tt32676674",
@@ -392,7 +408,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 97
+    "seeders": 73
   },
   {
     "id": "tt39792948",
@@ -402,12 +418,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
-    "imdbRating": 6.9,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 98
+    "seeders": 69
   },
   {
     "id": "tt32439773",
@@ -423,7 +439,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 136
+    "seeders": 96
   },
   {
     "id": "tt13289492",
@@ -438,7 +454,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 70
+    "seeders": 52
   },
   {
     "id": "tt27757752",
@@ -456,7 +472,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 84
+    "seeders": 62
   },
   {
     "id": "tt39012071",
@@ -475,21 +491,6 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 100
-  },
-  {
-    "id": "tt22014400",
-    "type": "movie",
-    "name": "Egy humorista halála",
-    "poster": "https://image.tmdb.org/t/p/w500/9q1u7TKfH4W5ByZvvcHiAX6nlNX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 54
+    "seeders": 76
   }
 ]
