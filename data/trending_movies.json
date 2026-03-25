@@ -14,7 +14,23 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 1026
+    "seeders": 687
+  },
+  {
+    "id": "tt15574124",
+    "type": "movie",
+    "name": "Birmingham bandája: A halhatatlan férfi",
+    "poster": "https://image.tmdb.org/t/p/w500/8JGtiJqt3jKwwTuMgm8QFHtYWwP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután elhidegült fia belekeveredik a nácik ármánykodásába, az önkéntes száműzetésbe vonult király, Tommy Shelby visszatér Birminghambe családja és a nemzet megmentésére.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 836
   },
   {
     "id": "tt35600130",
@@ -31,40 +47,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt15574124",
-    "type": "movie",
-    "name": "Birmingham bandája: A halhatatlan férfi",
-    "poster": "https://image.tmdb.org/t/p/w500/8JGtiJqt3jKwwTuMgm8QFHtYWwP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután elhidegült fia belekeveredik a nácik ármánykodásába, az önkéntes száműzetésbe vonult király, Tommy Shelby visszatér Birminghambe családja és a nemzet megmentésére.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 1394
-  },
-  {
-    "id": "tt15940132",
-    "type": "movie",
-    "name": "Ismeretlen támadók",
-    "poster": "https://image.tmdb.org/t/p/w500/rV8KlXpQi0LruJglMcigiOu7Kqi.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az elit kiképzés utolsó, embert próbáló bevetésén egy katona egy óriási, földöntúli pusztítógép ellen vezeti egységét.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "seeders": 3833
+    "seeders": 73
   },
   {
     "id": "tt11539996",
@@ -81,23 +64,40 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 2271
+    "seeders": 1468
   },
   {
     "id": "tt29567915",
     "type": "movie",
     "name": "Nürnberg",
-    "poster": "https://image.tmdb.org/t/p/w500/irTa6eB3wuHivzPjjJIjyEH1AiH.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/zCXd8hYLEjjPglPXIOIdI0fVgy.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
-    "imdbRating": 7.3,
+    "imdbRating": 7.4,
     "releaseInfo": "2025",
     "genres": [
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1626
+    "seeders": 1066
+  },
+  {
+    "id": "tt15940132",
+    "type": "movie",
+    "name": "Ismeretlen támadók",
+    "poster": "https://image.tmdb.org/t/p/w500/rV8KlXpQi0LruJglMcigiOu7Kqi.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az elit kiképzés utolsó, embert próbáló bevetésén egy katona egy óriási, földöntúli pusztítógép ellen vezeti egységét.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 2279
   },
   {
     "id": "tt27543632",
@@ -113,7 +113,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1406
+    "seeders": 868
   },
   {
     "id": "tt27714581",
@@ -128,7 +128,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 373
+    "seeders": 245
   },
   {
     "id": "tt11214558",
@@ -144,23 +144,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 441
-  },
-  {
-    "id": "tt36971084",
-    "type": "movie",
-    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
-    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 163
+    "seeders": 291
   },
   {
     "id": "tt14905854",
@@ -177,7 +161,23 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 361
+    "seeders": 261
+  },
+  {
+    "id": "tt36971084",
+    "type": "movie",
+    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
+    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 107
   },
   {
     "id": "tt26452781",
@@ -193,7 +193,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 142
+    "seeders": 96
   },
   {
     "id": "tt14186876",
@@ -209,7 +209,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 199
+    "seeders": 145
+  },
+  {
+    "id": "tt38133965",
+    "type": "movie",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi"
+    ],
+    "seeders": 98
   },
   {
     "id": "tt31909472",
@@ -229,7 +244,7 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 78
+    "seeders": 57
   },
   {
     "id": "tt39345599",
@@ -244,22 +259,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 138
-  },
-  {
-    "id": "tt38133965",
-    "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi"
-    ],
-    "seeders": 119
+    "seeders": 91
   },
   {
     "id": "tt27424511",
@@ -275,7 +275,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 189
+    "seeders": 136
   },
   {
     "id": "tt4627382",
@@ -292,7 +292,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 267
+    "seeders": 183
   },
   {
     "id": "tt28308317",
@@ -307,7 +307,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 87
+    "seeders": 59
   },
   {
     "id": "tt26443597",
@@ -326,7 +326,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 154
+    "seeders": 110
   },
   {
     "id": "tt31392191",
@@ -342,7 +342,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 153
+    "seeders": 113
   },
   {
     "id": "tt33244668",
@@ -359,7 +359,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 70
+    "seeders": 53
   },
   {
     "id": "tt34937354",
@@ -376,7 +376,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 103
+    "seeders": 72
   },
   {
     "id": "tt36589671",
@@ -391,7 +391,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 160
+    "seeders": 108
   },
   {
     "id": "tt32676674",
@@ -408,22 +408,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 98
-  },
-  {
-    "id": "tt39792948",
-    "type": "movie",
-    "name": "Louis Theroux: A manoszféra belsejében",
-    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 94
+    "seeders": 67
   },
   {
     "id": "tt32439773",
@@ -439,7 +424,22 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 135
+    "seeders": 95
+  },
+  {
+    "id": "tt39792948",
+    "type": "movie",
+    "name": "Louis Theroux: A manoszféra belsejében",
+    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 63
   },
   {
     "id": "tt13289492",
@@ -454,7 +454,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 69
+    "seeders": 51
   },
   {
     "id": "tt27757752",
@@ -472,7 +472,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 83
+    "seeders": 58
   },
   {
     "id": "tt22014400",
@@ -482,11 +482,11 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Juan Debré színész egy életen át egy tévésorozat hősét alakította, miközben mindvégig távol tartotta magát a saját identitásától. Amikor gyógyíthatatlan betegséget diagnosztizálnak nála, szürreális utazásra indul Belgiumba – gyerekkori képregényhősének szülőhazájába –, hogy értelmet találjon, és talán a megváltást is.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.3,
     "releaseInfo": "2025",
     "genres": [
       "Dráma"
     ],
-    "seeders": 56
+    "seeders": 37
   }
 ]
