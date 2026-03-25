@@ -14,7 +14,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 687
+    "seeders": 821
   },
   {
     "id": "tt15574124",
@@ -30,24 +30,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 836
-  },
-  {
-    "id": "tt35600130",
-    "type": "movie",
-    "name": "Royal-ish",
-    "poster": "https://image.tmdb.org/t/p/w500/eviXuwmjoxSRzAz0sdkkvOEjNgh.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "TV film",
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 73
+    "seeders": 945
   },
   {
     "id": "tt11539996",
@@ -64,23 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1468
-  },
-  {
-    "id": "tt29567915",
-    "type": "movie",
-    "name": "Nürnberg",
-    "poster": "https://image.tmdb.org/t/p/w500/zCXd8hYLEjjPglPXIOIdI0fVgy.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 1066
+    "seeders": 1611
   },
   {
     "id": "tt15940132",
@@ -97,7 +64,23 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2279
+    "seeders": 2571
+  },
+  {
+    "id": "tt29567915",
+    "type": "movie",
+    "name": "Nürnberg",
+    "poster": "https://image.tmdb.org/t/p/w500/zCXd8hYLEjjPglPXIOIdI0fVgy.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 1161
   },
   {
     "id": "tt27543632",
@@ -113,7 +96,24 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 868
+    "seeders": 967
+  },
+  {
+    "id": "tt35600130",
+    "type": "movie",
+    "name": "Royal-ish",
+    "poster": "https://image.tmdb.org/t/p/w500/eviXuwmjoxSRzAz0sdkkvOEjNgh.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "TV film",
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 78
   },
   {
     "id": "tt27714581",
@@ -128,7 +128,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 245
+    "seeders": 278
   },
   {
     "id": "tt11214558",
@@ -144,7 +144,23 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 291
+    "seeders": 327
+  },
+  {
+    "id": "tt36971084",
+    "type": "movie",
+    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
+    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 118
   },
   {
     "id": "tt14905854",
@@ -161,39 +177,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 261
-  },
-  {
-    "id": "tt36971084",
-    "type": "movie",
-    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
-    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 107
-  },
-  {
-    "id": "tt26452781",
-    "type": "movie",
-    "name": "Marked Men - Tetovált srácok",
-    "poster": "https://image.tmdb.org/t/p/w500/cssNPoYi1XM0JaiIucUjZXDSjgT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvostanhallgató Shaw titokban évek óta szerelmes Rule-ba, a lázadó szellemű tetoválóművészbe, noha a srác számára a lány csak a család barátja, a kis „Casper”, ahogy gyerekkoruk óta tréfásan hívja őt sápadt arcbőre miatt. Rule-nak és haverjainak, akikkel együtt nyomja a szalonban, a szabad, kötetlen élet mindennél többet jelent. Egy átmulatott este után azonban a Shaw-val való kapcsolata fordulóponthoz érkezik. Kénytelenek lesznek szembenézni elfojtott érzelmeikkel, miközben sosem múló gyász, ismerőseik elvárásai és az elkötelezettségtől való félelem is mind-mind nehezítik helyzetüket. Idővel azonban el kell dönteniük, hogy két ennyire különböző hátterű ember szerelme csakugyan életképes-e. Egy biztos: ez a szerelem nyomot fog hagyni rajtuk.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 96
+    "seeders": 271
   },
   {
     "id": "tt14186876",
@@ -209,22 +193,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 145
+    "seeders": 160
   },
   {
-    "id": "tt38133965",
+    "id": "tt26452781",
     "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "name": "Marked Men - Tetovált srácok",
+    "poster": "https://image.tmdb.org/t/p/w500/cssNPoYi1XM0JaiIucUjZXDSjgT.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
+    "description": "Az orvostanhallgató Shaw titokban évek óta szerelmes Rule-ba, a lázadó szellemű tetoválóművészbe, noha a srác számára a lány csak a család barátja, a kis „Casper”, ahogy gyerekkoruk óta tréfásan hívja őt sápadt arcbőre miatt. Rule-nak és haverjainak, akikkel együtt nyomja a szalonban, a szabad, kötetlen élet mindennél többet jelent. Egy átmulatott este után azonban a Shaw-val való kapcsolata fordulóponthoz érkezik. Kénytelenek lesznek szembenézni elfojtott érzelmeikkel, miközben sosem múló gyász, ismerőseik elvárásai és az elkötelezettségtől való félelem is mind-mind nehezítik helyzetüket. Idővel azonban el kell dönteniük, hogy két ennyire különböző hátterű ember szerelme csakugyan életképes-e. Egy biztos: ez a szerelem nyomot fog hagyni rajtuk.",
+    "imdbRating": 6.7,
     "releaseInfo": "2025",
     "genres": [
-      "Családi"
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 98
+    "seeders": 104
   },
   {
     "id": "tt31909472",
@@ -244,7 +229,22 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 57
+    "seeders": 66
+  },
+  {
+    "id": "tt38133965",
+    "type": "movie",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt39345599",
@@ -259,7 +259,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 91
+    "seeders": 101
   },
   {
     "id": "tt27424511",
@@ -275,7 +275,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 136
+    "seeders": 151
   },
   {
     "id": "tt4627382",
@@ -292,22 +292,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 183
-  },
-  {
-    "id": "tt28308317",
-    "type": "movie",
-    "name": "Soft Leaves",
-    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 59
+    "seeders": 198
   },
   {
     "id": "tt26443597",
@@ -326,7 +311,22 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 110
+    "seeders": 121
+  },
+  {
+    "id": "tt28308317",
+    "type": "movie",
+    "name": "Soft Leaves",
+    "poster": "https://image.tmdb.org/t/p/w500/pL1WwbSgMrkVI0NwWhsh81gok8E.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 65
   },
   {
     "id": "tt31392191",
@@ -342,7 +342,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 113
+    "seeders": 123
   },
   {
     "id": "tt33244668",
@@ -359,7 +359,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 53
+    "seeders": 56
   },
   {
     "id": "tt34937354",
@@ -376,22 +376,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 72
-  },
-  {
-    "id": "tt36589671",
-    "type": "movie",
-    "name": "A végső tűzharc",
-    "poster": "https://image.tmdb.org/t/p/w500/uBQVEazzf2krSuok2ULq2mL9ls6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 108
+    "seeders": 82
   },
   {
     "id": "tt32676674",
@@ -408,7 +393,22 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 67
+    "seeders": 82
+  },
+  {
+    "id": "tt36589671",
+    "type": "movie",
+    "name": "A végső tűzharc",
+    "poster": "https://image.tmdb.org/t/p/w500/uBQVEazzf2krSuok2ULq2mL9ls6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 117
   },
   {
     "id": "tt32439773",
@@ -424,7 +424,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 95
+    "seeders": 109
   },
   {
     "id": "tt39792948",
@@ -439,7 +439,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 63
+    "seeders": 74
   },
   {
     "id": "tt13289492",
@@ -454,7 +454,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 51
+    "seeders": 52
   },
   {
     "id": "tt27757752",
@@ -472,7 +472,7 @@
       "Dráma",
       "Családi"
     ],
-    "seeders": 58
+    "seeders": 67
   },
   {
     "id": "tt22014400",
@@ -487,6 +487,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 37
+    "seeders": 47
   }
 ]
