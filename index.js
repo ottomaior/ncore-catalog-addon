@@ -45,6 +45,9 @@ const TRENDING_SERIES_DATA_PATH = path.join(__dirname, 'data', 'trending_series.
 // Top downloaded 1080p HD-HU (build script: scripts/build_top_downloaded_1080_catalog.py, ~60-day cadence)
 const TOP_DOWNLOADED_1080_MOVIES_PATH = path.join(__dirname, 'data', 'top_downloaded_1080_movies.json');
 const TOP_DOWNLOADED_1080_SERIES_PATH = path.join(__dirname, 'data', 'top_downloaded_1080_series.json');
+// Hungarian productions only (TMDB); built by filter_hungarian_productions*.py from top-downloaded JSONs
+const TOP_DOWNLOADED_1080_HU_PROD_MOVIES_PATH = path.join(__dirname, 'data', 'top_downloaded_1080_hungarian_productions_movies.json');
+const TOP_DOWNLOADED_1080_HU_PROD_SERIES_PATH = path.join(__dirname, 'data', 'top_downloaded_1080_hungarian_productions_series.json');
 
 // Genres that get their own "Top seeded" catalog (slug -> display label)
 const TOP_SEEDED_GENRE_CATALOGS = [
@@ -204,7 +207,7 @@ async function getBackdropFromTMDB(imdbId, type = 'movie') {
 // Addon manifest
 const manifest = {
     id: 'com.ncore.hungarian.addon',
-    version: '3.2.5',
+    version: '3.2.6',
     name: 'nCore Katalógus',
     description: 'Magyar nyelvű filmek és sorozatok nCore-ról – katalógusok: Top Seed, Trending, New, Streaming.',
     logo: 'https://ncore-catalog-addon-production.up.railway.app/logo.png',
@@ -245,6 +248,24 @@ const manifest = {
             id: "ncore-top-downloaded-1080-series",
             type: "series",
             name: "📥 Sorozatok",
+            extra: [
+                { name: "skip", isRequired: false },
+                { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }
+            ]
+        },
+        {
+            id: "ncore-top-downloaded-1080-magyar-filmek",
+            type: "movie",
+            name: "📥 Magyar filmek",
+            extra: [
+                { name: "skip", isRequired: false },
+                { name: "genre", isRequired: false, options: GENRE_OPTIONS }
+            ]
+        },
+        {
+            id: "ncore-top-downloaded-1080-magyar-sorozatok",
+            type: "series",
+            name: "📥 Magyar sorozatok",
             extra: [
                 { name: "skip", isRequired: false },
                 { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }
@@ -392,6 +413,10 @@ let topDownloaded1080MoviesList = [];
 let topDownloaded1080MoviesLoadedAt = null;
 let topDownloaded1080SeriesList = [];
 let topDownloaded1080SeriesLoadedAt = null;
+let topDownloaded1080HuProdMoviesList = [];
+let topDownloaded1080HuProdMoviesLoadedAt = null;
+let topDownloaded1080HuProdSeriesList = [];
+let topDownloaded1080HuProdSeriesLoadedAt = null;
 const CACHE_TTL = 3 * 60 * 60 * 1000; // 3 hours
 const TOP_SEEDED_CATALOG_TTL = 3 * 24 * 60 * 60 * 1000; // 3 days
 const NETFLIX_CATALOG_TTL = 6 * 60 * 60 * 1000; // 6 hours
@@ -684,6 +709,56 @@ function getTopDownloaded1080SeriesList() {
         }
     }
     return topDownloaded1080SeriesList;
+}
+
+function loadTopDownloaded1080HuProdMoviesFromFile() {
+    try {
+        if (!fs.existsSync(TOP_DOWNLOADED_1080_HU_PROD_MOVIES_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(TOP_DOWNLOADED_1080_HU_PROD_MOVIES_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a top_downloaded_1080_hungarian_productions_movies.json betöltésekor:', err.message);
+        return topDownloaded1080HuProdMoviesList;
+    }
+}
+
+function getTopDownloaded1080HuProdMoviesList() {
+    if (!topDownloaded1080HuProdMoviesLoadedAt || (Date.now() - topDownloaded1080HuProdMoviesLoadedAt > TOP_SEEDED_CATALOG_TTL)) {
+        topDownloaded1080HuProdMoviesList = loadTopDownloaded1080HuProdMoviesFromFile();
+        topDownloaded1080HuProdMoviesLoadedAt = Date.now();
+        if (topDownloaded1080HuProdMoviesList.length) {
+            console.log(`✓ ${topDownloaded1080HuProdMoviesList.length} top letöltött magyar (HU production) film betöltve`);
+        }
+    }
+    return topDownloaded1080HuProdMoviesList;
+}
+
+function loadTopDownloaded1080HuProdSeriesFromFile() {
+    try {
+        if (!fs.existsSync(TOP_DOWNLOADED_1080_HU_PROD_SERIES_PATH)) {
+            return [];
+        }
+        const raw = fs.readFileSync(TOP_DOWNLOADED_1080_HU_PROD_SERIES_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        return Array.isArray(data) ? data : [];
+    } catch (err) {
+        console.error('Hiba a top_downloaded_1080_hungarian_productions_series.json betöltésekor:', err.message);
+        return topDownloaded1080HuProdSeriesList;
+    }
+}
+
+function getTopDownloaded1080HuProdSeriesList() {
+    if (!topDownloaded1080HuProdSeriesLoadedAt || (Date.now() - topDownloaded1080HuProdSeriesLoadedAt > TOP_SEEDED_CATALOG_TTL)) {
+        topDownloaded1080HuProdSeriesList = loadTopDownloaded1080HuProdSeriesFromFile();
+        topDownloaded1080HuProdSeriesLoadedAt = Date.now();
+        if (topDownloaded1080HuProdSeriesList.length) {
+            console.log(`✓ ${topDownloaded1080HuProdSeriesList.length} top letöltött magyar (HU production) sorozat betöltve`);
+        }
+    }
+    return topDownloaded1080HuProdSeriesList;
 }
 
 function filterTopSeededSeriesByGenre(genreSlug) {
@@ -1021,6 +1096,20 @@ builder.defineCatalogHandler(async (args) => {
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
+    // Top downloaded 1080p – Hungarian productions only (subset JSON from filter scripts)
+    if (args.type === 'movie' && args.id === 'ncore-top-downloaded-1080-magyar-filmek') {
+        let list = getTopDownloaded1080HuProdMoviesList();
+        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
+    }
+    if (args.type === 'series' && args.id === 'ncore-top-downloaded-1080-magyar-sorozatok') {
+        let list = getTopDownloaded1080HuProdSeriesList();
+        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
+    }
+
     // Netflix movies
     if (args.type === 'movie' && args.id === 'ncore-netflix-movies') {
         let list = getNetflixMoviesList();
@@ -1133,6 +1222,7 @@ builder.defineMetaHandler(async (args) => {
                 || getHDMoviesList().find(matchId)
                 || getTopSeededMoviesList().find(matchId)
                 || getTopDownloaded1080MoviesList().find(matchId)
+                || getTopDownloaded1080HuProdMoviesList().find(matchId)
                 || getTopSeededHungarianProductionsList().find(matchId)
                 || getNetflixMoviesList().find(matchId)
                 || getDisneyPlusMoviesList().find(matchId)
@@ -1156,12 +1246,13 @@ builder.defineMetaHandler(async (args) => {
             const hd = getHDSeriesList().find(seriesId);
             const top = getTopSeededSeriesList().find(seriesId);
             const top1080 = getTopDownloaded1080SeriesList().find(seriesId);
+            const top1080Hu = getTopDownloaded1080HuProdSeriesList().find(seriesId);
             const topHu = getTopSeededHungarianProductionsSeriesList().find(seriesId);
             const netflix = getNetflixSeriesList().find(seriesId);
             const disneyplus = getDisneyPlusSeriesList().find(seriesId);
             const hbomax = getHbomaxSeriesList().find(seriesId);
             const prime = getPrimeSeriesList().find(seriesId);
-            const series = trending || hd || top || top1080 || topHu || netflix || disneyplus || hbomax || prime;
+            const series = trending || hd || top || top1080 || top1080Hu || topHu || netflix || disneyplus || hbomax || prime;
             if (series) {
                 const sid = series.id || series.imdb_id;
                 if (!sid) {
