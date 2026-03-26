@@ -207,7 +207,7 @@ async function getBackdropFromTMDB(imdbId, type = 'movie') {
 // Addon manifest
 const manifest = {
     id: 'com.ncore.hungarian.addon',
-    version: '3.3.2',
+    version: '3.3.3',
     name: 'nCore Katalógus',
     description: 'Magyar nyelvű filmek és sorozatok nCore-ról – katalógusok: Top Seed, Trending, New, Streaming.',
     logo: 'https://ncore-catalog-addon-production.up.railway.app/logo.png',
@@ -1066,6 +1066,20 @@ builder.defineCatalogHandler(async (args) => {
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
+    // Legacy ids (pre-3.3.0 merge): same merged lists — fixes clients still using old manifest or ?catalogs= URLs
+    if (args.type === 'movie' && (args.id === 'ncore-movies-top-seeded-all' || args.id === 'ncore-top-downloaded-1080-movies')) {
+        let list = getTopMergedMoviesList();
+        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
+    }
+    if (args.type === 'series' && (args.id === 'ncore-series-top-seeded-all' || args.id === 'ncore-top-downloaded-1080-series')) {
+        let list = getTopMergedSeriesList();
+        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
+    }
+
     // Top seeded Hungarian productions (series made in Hungary)
     if (args.type === 'series' && args.id === 'ncore-series-top-seeded-magyar-sorozatok') {
         const list = getTopSeededHungarianProductionsSeriesList();
@@ -1374,6 +1388,14 @@ builder.getStats = () => ({
     topMergedMoviesCount: getTopMergedMoviesList().length,
     topMergedSeriesCount: getTopMergedSeriesList().length
 });
+/** Pre-3.3.0 catalog ids → merged Top catalogs (manifest no longer lists these; URLs/subscriptions may still reference them). */
+const LEGACY_CATALOG_ID_TO_CANONICAL = {
+    'ncore-movies-top-seeded-all': 'ncore-top-filmek',
+    'ncore-top-downloaded-1080-movies': 'ncore-top-filmek',
+    'ncore-series-top-seeded-all': 'ncore-top-sorozatok',
+    'ncore-top-downloaded-1080-series': 'ncore-top-sorozatok',
+};
+
 /**
  * Return manifest with only the given catalog ids (for configure-before-install).
  * @param {string[]} enabledIds - Catalog ids to include. If empty/null, returns full manifest.
@@ -1382,13 +1404,19 @@ function getManifestForCatalogs(enabledIds) {
     if (!enabledIds || !Array.isArray(enabledIds) || enabledIds.length === 0) {
         return manifest;
     }
-    // Preserve the order from enabledIds
     const catalogMap = new Map(manifest.catalogs.map(c => [c.id, c]));
-    const catalogs = enabledIds
-        .map(id => String(id).trim())
-        .filter(Boolean)
-        .map(id => catalogMap.get(id))
-        .filter(Boolean);
+    const seen = new Set();
+    const catalogs = [];
+    for (const raw of enabledIds) {
+        const id = String(raw).trim();
+        if (!id) continue;
+        const canonical = LEGACY_CATALOG_ID_TO_CANONICAL[id] || id;
+        if (seen.has(canonical)) continue;
+        const cat = catalogMap.get(canonical);
+        if (!cat) continue;
+        seen.add(canonical);
+        catalogs.push(cat);
+    }
     return { ...manifest, catalogs };
 }
 
