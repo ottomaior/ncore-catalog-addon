@@ -207,7 +207,7 @@ async function getBackdropFromTMDB(imdbId, type = 'movie') {
 // Addon manifest
 const manifest = {
     id: 'com.ncore.hungarian.addon',
-    version: '3.3.3',
+    version: '3.4.1',
     name: 'nCore Katalógus',
     description: 'Magyar nyelvű filmek és sorozatok nCore-ról – katalógusok: Top Seed, Trending, New, Streaming.',
     logo: 'https://ncore-catalog-addon-production.up.railway.app/logo.png',
@@ -218,7 +218,7 @@ const manifest = {
     types: ["movie", "series"],
     catalogs: [
         {
-            id: "ncore-top-filmek",
+            id: "ncore-movies-top-seeded-all",
             type: "movie",
             name: "🏆 Filmek",
             extra: [
@@ -227,9 +227,39 @@ const manifest = {
             ]
         },
         {
-            id: "ncore-top-sorozatok",
+            id: "ncore-series-top-seeded-all",
             type: "series",
             name: "🏆 Sorozatok",
+            extra: [
+                { name: "skip", isRequired: false },
+                { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }
+            ]
+        },
+        {
+            id: "ncore-movies-top-seeded-magyar-filmek",
+            type: "movie",
+            name: "🏆🇭🇺 Top Seed filmek",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        {
+            id: "ncore-series-top-seeded-magyar-sorozatok",
+            type: "series",
+            name: "🏆🇭🇺 Top Seed sorozatok",
+            extra: [{ name: "skip", isRequired: false }]
+        },
+        {
+            id: "ncore-top-downloaded-1080-movies",
+            type: "movie",
+            name: "📥 Filmek",
+            extra: [
+                { name: "skip", isRequired: false },
+                { name: "genre", isRequired: false, options: GENRE_OPTIONS }
+            ]
+        },
+        {
+            id: "ncore-top-downloaded-1080-series",
+            type: "series",
+            name: "📥 Sorozatok",
             extra: [
                 { name: "skip", isRequired: false },
                 { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }
@@ -248,24 +278,6 @@ const manifest = {
             id: "ncore-top-downloaded-1080-magyar-sorozatok",
             type: "series",
             name: "🏆🇭🇺 Top letöltés sorozatok",
-            extra: [
-                { name: "skip", isRequired: false },
-                { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }
-            ]
-        },
-        {
-            id: "ncore-top-hungary-movies",
-            type: "movie",
-            name: "🏆🇭🇺 Filmek",
-            extra: [
-                { name: "skip", isRequired: false },
-                { name: "genre", isRequired: false, options: GENRE_OPTIONS }
-            ]
-        },
-        {
-            id: "ncore-top-hungary-series",
-            type: "series",
-            name: "🏆🇭🇺 Sorozatok",
             extra: [
                 { name: "skip", isRequired: false },
                 { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }
@@ -354,18 +366,6 @@ const manifest = {
             type: "series",
             name: "⏰ Prime Video sorozatok",
             extra: [{ name: "skip", isRequired: false }, { name: "genre", isRequired: false, options: GENRE_OPTIONS_SERIES }]
-        },
-        {
-            id: "ncore-movies-top-seeded-magyar-filmek",
-            type: "movie",
-            name: "🏆🇭🇺 Top Seed filmek",
-            extra: [{ name: "skip", isRequired: false }]
-        },
-        {
-            id: "ncore-series-top-seeded-magyar-sorozatok",
-            type: "series",
-            name: "🏆🇭🇺 Top Seed sorozatok",
-            extra: [{ name: "skip", isRequired: false }]
         }
     ],
     idPrefixes: ['tt']
@@ -1052,29 +1052,31 @@ builder.defineCatalogHandler(async (args) => {
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
-    // Top: merged Top Seed + top downloaded 1080p (dedupe by IMDB; seed order first)
-    if (args.type === 'movie' && args.id === 'ncore-top-filmek') {
-        let list = getTopMergedMoviesList();
-        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
-        const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
-    }
-    if (args.type === 'series' && args.id === 'ncore-top-sorozatok') {
-        let list = getTopMergedSeriesList();
+    // Top seeded series from JSON – filter by genre if extra provided
+    if (args.type === 'series' && args.id === 'ncore-series-top-seeded-all') {
+        let list = getTopSeededSeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
 
-    // Legacy ids (pre-3.3.0 merge): same merged lists — fixes clients still using old manifest or ?catalogs= URLs
-    if (args.type === 'movie' && (args.id === 'ncore-movies-top-seeded-all' || args.id === 'ncore-top-downloaded-1080-movies')) {
-        let list = getTopMergedMoviesList();
+    // Top seeded movies from JSON – filter by genre if extra provided
+    if (args.type === 'movie' && args.id === 'ncore-movies-top-seeded-all') {
+        let list = getTopSeededMoviesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
     }
-    if (args.type === 'series' && (args.id === 'ncore-series-top-seeded-all' || args.id === 'ncore-top-downloaded-1080-series')) {
-        let list = getTopMergedSeriesList();
+
+    // Top downloaded 1080p HD-HU (scripts/build_top_downloaded_1080_catalog.py)
+    if (args.type === 'movie' && args.id === 'ncore-top-downloaded-1080-movies') {
+        let list = getTopDownloaded1080MoviesList();
+        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
+        const skip = parseInt(args.extra?.skip) || 0;
+        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
+    }
+    if (args.type === 'series' && args.id === 'ncore-top-downloaded-1080-series') {
+        let list = getTopDownloaded1080SeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
@@ -1103,20 +1105,6 @@ builder.defineCatalogHandler(async (args) => {
     }
     if (args.type === 'series' && args.id === 'ncore-top-downloaded-1080-magyar-sorozatok') {
         let list = getTopDownloaded1080HuProdSeriesList();
-        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
-        const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
-    }
-
-    // Top Hungary: merge HU production from top-seeded + top-downloaded (dedupe by IMDB id; seeded order first)
-    if (args.type === 'movie' && args.id === 'ncore-top-hungary-movies') {
-        let list = getTopHungaryMoviesList();
-        if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
-        const skip = parseInt(args.extra?.skip) || 0;
-        return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
-    }
-    if (args.type === 'series' && args.id === 'ncore-top-hungary-series') {
-        let list = getTopHungarySeriesList();
         if (args.extra?.genre) list = filterMetasByGenre(list, args.extra.genre.toLowerCase().replace(/\s+/g, '-'));
         const skip = parseInt(args.extra?.skip) || 0;
         return Promise.resolve({ metas: catalogMetas(list, skip, 100) });
@@ -1197,60 +1185,28 @@ function normalizeId(id) {
     return 'tt' + padded;
 }
 
-/**
- * Union meta lists by IMDB id: keep primary order, then append from secondary only for new ids.
- * Used for Top (all) and Top Hungary (HU production): primary order, then new ids only.
- */
-function mergeMetasByImdbId(primary, secondary) {
-    const seen = new Set();
-    const out = [];
-    for (const meta of primary || []) {
-        if (!meta || typeof meta !== 'object') continue;
-        const id = meta.id;
-        if (!id) continue;
-        const key = normalizeId(String(id));
-        if (!key || seen.has(key)) continue;
-        seen.add(key);
-        out.push(meta);
+// OMDb / some JSON builds store imdbRating as a string; strict clients (e.g. some Stremio forks) expect a number.
+function coerceImdbRatingValue(r) {
+    if (r == null || r === '') return undefined;
+    if (typeof r === 'number' && Number.isFinite(r)) return r;
+    if (typeof r === 'string') {
+        const n = parseFloat(r);
+        if (Number.isFinite(n)) return n;
     }
-    for (const meta of secondary || []) {
-        if (!meta || typeof meta !== 'object') continue;
-        const id = meta.id;
-        if (!id) continue;
-        const key = normalizeId(String(id));
-        if (!key || seen.has(key)) continue;
-        seen.add(key);
-        out.push(meta);
+    return undefined;
+}
+
+function withCoercedImdbRating(meta) {
+    if (!meta || typeof meta !== 'object') return meta;
+    const n = coerceImdbRatingValue(meta.imdbRating);
+    if (n === undefined && (meta.imdbRating === undefined || meta.imdbRating === null || meta.imdbRating === '')) {
+        return meta;
     }
-    return out;
-}
-
-function getTopMergedMoviesList() {
-    return mergeMetasByImdbId(
-        getTopSeededMoviesList(),
-        getTopDownloaded1080MoviesList()
-    );
-}
-
-function getTopMergedSeriesList() {
-    return mergeMetasByImdbId(
-        getTopSeededSeriesList(),
-        getTopDownloaded1080SeriesList()
-    );
-}
-
-function getTopHungaryMoviesList() {
-    return mergeMetasByImdbId(
-        getTopSeededHungarianProductionsList(),
-        getTopDownloaded1080HuProdMoviesList()
-    );
-}
-
-function getTopHungarySeriesList() {
-    return mergeMetasByImdbId(
-        getTopSeededHungarianProductionsSeriesList(),
-        getTopDownloaded1080HuProdSeriesList()
-    );
+    if (n === undefined) {
+        const { imdbRating: _drop, ...rest } = meta;
+        return rest;
+    }
+    return { ...meta, imdbRating: n };
 }
 
 // Ensure meta has a background URL for the Stremio detail page (all catalogs)
@@ -1265,7 +1221,7 @@ function ensureBackground(meta) {
 
 // Return catalog slice with background set on each meta (for homepage hover preview)
 function catalogMetas(list, skip = 0, limit = 100) {
-    return list.slice(skip, skip + limit).map(ensureBackground);
+    return list.slice(skip, skip + limit).map((m) => ensureBackground(withCoercedImdbRating(m)));
 }
 
 // Meta handler for both movies and series (all catalogs so detail view keeps our metadata)
@@ -1297,7 +1253,7 @@ builder.defineMetaHandler(async (args) => {
                 || getHbomaxMoviesList().find(matchId)
                 || getPrimeMoviesList().find(matchId);
             if (movie) {
-                let meta = { ...movie, id: requestId };
+                let meta = withCoercedImdbRating({ ...movie, id: requestId });
                 const tmdbBackdrop = await getBackdropFromTMDB(idForLookup, 'movie');
                 if (tmdbBackdrop) meta.background = tmdbBackdrop;
                 else meta = ensureBackground(meta);
@@ -1346,7 +1302,7 @@ builder.defineMetaHandler(async (args) => {
                     posterShape: series.posterShape || 'poster',
                     year: series.year,
                     description: series.description || '',
-                    imdbRating: series.imdbRating,
+                    imdbRating: coerceImdbRatingValue(series.imdbRating),
                     releaseInfo: series.releaseInfo,
                     genres: Array.isArray(series.genres) ? series.genres : [],
                     background: backgroundUrl,
@@ -1382,20 +1338,8 @@ builder.getStats = () => ({
     primeMoviesCount: getPrimeMoviesList().length,
     primeSeriesCount: getPrimeSeriesList().length,
     trendingMoviesCount: getTrendingMoviesList().length,
-    trendingSeriesCount: getTrendingSeriesList().length,
-    topHungaryMoviesCount: getTopHungaryMoviesList().length,
-    topHungarySeriesCount: getTopHungarySeriesList().length,
-    topMergedMoviesCount: getTopMergedMoviesList().length,
-    topMergedSeriesCount: getTopMergedSeriesList().length
+    trendingSeriesCount: getTrendingSeriesList().length
 });
-/** Pre-3.3.0 catalog ids → merged Top catalogs (manifest no longer lists these; URLs/subscriptions may still reference them). */
-const LEGACY_CATALOG_ID_TO_CANONICAL = {
-    'ncore-movies-top-seeded-all': 'ncore-top-filmek',
-    'ncore-top-downloaded-1080-movies': 'ncore-top-filmek',
-    'ncore-series-top-seeded-all': 'ncore-top-sorozatok',
-    'ncore-top-downloaded-1080-series': 'ncore-top-sorozatok',
-};
-
 /**
  * Return manifest with only the given catalog ids (for configure-before-install).
  * @param {string[]} enabledIds - Catalog ids to include. If empty/null, returns full manifest.
@@ -1405,18 +1349,11 @@ function getManifestForCatalogs(enabledIds) {
         return manifest;
     }
     const catalogMap = new Map(manifest.catalogs.map(c => [c.id, c]));
-    const seen = new Set();
-    const catalogs = [];
-    for (const raw of enabledIds) {
-        const id = String(raw).trim();
-        if (!id) continue;
-        const canonical = LEGACY_CATALOG_ID_TO_CANONICAL[id] || id;
-        if (seen.has(canonical)) continue;
-        const cat = catalogMap.get(canonical);
-        if (!cat) continue;
-        seen.add(canonical);
-        catalogs.push(cat);
-    }
+    const catalogs = enabledIds
+        .map((id) => String(id).trim())
+        .filter(Boolean)
+        .map((id) => catalogMap.get(id))
+        .filter(Boolean);
     return { ...manifest, catalogs };
 }
 
