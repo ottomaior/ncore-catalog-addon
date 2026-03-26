@@ -12,7 +12,10 @@ gets a `downloads` rank derived from result order (higher = more downloaded on n
 By default skips if last successful run was less than NCORE_TOP_DOWNLOADED_MIN_DAYS ago.
 Override: --force or NCORE_TOP_DOWNLOADED_FORCE=1
 
-Usage: python scripts/build_top_downloaded_1080_catalog.py [--force]
+Merge existing JSON (keep file entries first, fetch only missing IDs up to target — fewer TMDB/TVDB
+calls for titles you already have): --merge-existing or NCORE_TOP_DOWNLOADED_MERGE_EXISTING=1
+
+Usage: python scripts/build_top_downloaded_1080_catalog.py [--force] [--merge-existing]
 """
 import argparse
 import re
@@ -66,6 +69,16 @@ TARGET_MOVIES = int(os.getenv('NCORE_TOP_DOWNLOADED_MOVIES', '300'))
 TARGET_SERIES = int(os.getenv('NCORE_TOP_DOWNLOADED_SERIES', '300'))
 MIN_DAYS_BETWEEN_RUNS = int(os.getenv('NCORE_TOP_DOWNLOADED_MIN_DAYS', '60'))
 
+
+def _env_truthy(name, default=False):
+    v = os.getenv(name, '').strip().lower()
+    if not v:
+        return default
+    return v in ('1', 'true', 'yes', 'on')
+
+
+MERGE_EXISTING_DEFAULT = _env_truthy('NCORE_TOP_DOWNLOADED_MERGE_EXISTING', False)
+
 PATTERN_1080 = '.1080'
 TMDB_DELAY = 0.4
 
@@ -112,6 +125,45 @@ def should_skip_run(force):
 def write_state():
     data_dir.mkdir(parents=True, exist_ok=True)
     state_file.write_text(datetime.now(timezone.utc).isoformat(), encoding='utf-8')
+
+
+def normalize_tt_id(imdb_id):
+    if not imdb_id:
+        return None
+    s = str(imdb_id).strip()
+    if not s:
+        return None
+    return s if s.startswith('tt') else f'tt{s}'
+
+
+def load_existing_top_catalog(path, expected_type, max_count):
+    """Load metas from an existing JSON file (first max_count of expected_type)."""
+    if not path.exists():
+        return []
+    try:
+        raw = json.loads(path.read_text(encoding='utf-8'))
+    except Exception as e:
+        print(f'  Warning: could not load existing {path.name}: {e}')
+        return []
+    if not isinstance(raw, list):
+        return []
+    out = [
+        m
+        for m in raw
+        if isinstance(m, dict) and m.get('type') == expected_type and normalize_tt_id(m.get('id'))
+    ]
+    return out[:max_count]
+
+
+def renumber_below_existing(existing, new_items):
+    """Assign downloads for new_items strictly below min(downloads) in existing (keeps sort order)."""
+    if not existing or not new_items:
+        return new_items
+    floor = min((m.get('downloads') or 0) for m in existing)
+    ordered = sorted(new_items, key=lambda m: (m.get('downloads') or 0), reverse=True)
+    for i, m in enumerate(ordered):
+        m['downloads'] = floor - 1 - i
+    return ordered
 
 
 def search_movie_on_tmdb(clean_title, year, tmdb_key):
@@ -218,9 +270,11 @@ def _search_one_page_movies(client, page):
     return getattr(result, 'torrents', []) or []
 
 
-def build_movie_metas(client, target):
+def build_movie_metas(client, target, exclude_imdb_ids=None):
     metas = []
     seen_imdb = set()
+    if exclude_imdb_ids:
+        seen_imdb = {normalize_tt_id(x) for x in exclude_imdb_ids if x}
     torrent_global_order = 0
     page = 1
     consecutive_failures = 0
@@ -352,7 +406,8 @@ def _search_one_page_series(client, page):
     return getattr(result, 'torrents', []) or []
 
 
-def build_series_metas(client, target):
+def build_series_metas(client, target, exclude_imdb_ids=None):
+    skip_ids = {normalize_tt_id(x) for x in (exclude_imdb_ids or []) if x}
     new_by_id = {}
     tvdb_cache = {}
     torrent_global_order = 0
@@ -406,6 +461,8 @@ def build_series_metas(client, target):
             if not imdb:
                 continue
             imdb = imdb if str(imdb).startswith('tt') else 'tt' + str(imdb)
+            if imdb in skip_ids:
+                continue
             seeders_new = _seeders_from_torrent(t)
             downloads_rank = DOWNLOAD_RANK_BASE + 1 - torrent_global_order
             if imdb in new_by_id:
@@ -465,8 +522,14 @@ def main():
         description='Build HD-HU 1080p top-downloaded (times_completed) catalogs (movies + series).'
     )
     parser.add_argument('--force', action='store_true', help='Ignore 60-day cooldown')
+    parser.add_argument(
+        '--merge-existing',
+        action='store_true',
+        help='Keep current JSON entries (up to target), fetch only new IMDB ids from nCore',
+    )
     args = parser.parse_args()
     force = args.force
+    merge_existing = args.merge_existing or MERGE_EXISTING_DEFAULT
 
     print('=' * 60)
     print('nCore – Top downloaded 1080p (HD-HU) – filmek + sorozatok')
@@ -505,12 +568,47 @@ def main():
         print(f'ERROR: nCore login: {e}')
         sys.exit(1)
 
-    print(f'\nMovies: HD_HUN + {PATTERN_1080!r}, target {TARGET_MOVIES} unique titles...')
-    movie_metas = build_movie_metas(client, TARGET_MOVIES)
+    existing_movies = []
+    existing_series = []
+    if merge_existing:
+        existing_movies = load_existing_top_catalog(out_movies, 'movie', TARGET_MOVIES)
+        existing_series = load_existing_top_catalog(out_series, 'series', TARGET_SERIES)
+        print(f'\nMerge existing: {len(existing_movies)} movies, {len(existing_series)} series from JSON')
+
+    need_movies = TARGET_MOVIES - len(existing_movies)
+    if merge_existing and existing_movies:
+        exclude_m = {normalize_tt_id(m['id']) for m in existing_movies}
+        print(
+            f'\nMovies: HD_HUN + {PATTERN_1080!r}, total target {TARGET_MOVIES} '
+            f'({len(existing_movies)} kept, up to {need_movies} new from nCore)...'
+        )
+    else:
+        exclude_m = None
+        print(f'\nMovies: HD_HUN + {PATTERN_1080!r}, target {TARGET_MOVIES} unique titles...')
+    if need_movies > 0:
+        new_movies = build_movie_metas(client, need_movies, exclude_imdb_ids=exclude_m)
+        renumber_below_existing(existing_movies, new_movies)
+        movie_metas = existing_movies + new_movies
+    else:
+        movie_metas = list(existing_movies)
     print(f'  -> {len(movie_metas)} movies')
 
-    print(f'\nSeries: HDSER_HUN + {PATTERN_1080!r}, target {TARGET_SERIES} unique shows...')
-    series_metas = build_series_metas(client, TARGET_SERIES)
+    need_series = TARGET_SERIES - len(existing_series)
+    if merge_existing and existing_series:
+        exclude_s = {normalize_tt_id(m['id']) for m in existing_series}
+        print(
+            f'\nSeries: HDSER_HUN + {PATTERN_1080!r}, total target {TARGET_SERIES} '
+            f'({len(existing_series)} kept, up to {need_series} new from nCore)...'
+        )
+    else:
+        exclude_s = None
+        print(f'\nSeries: HDSER_HUN + {PATTERN_1080!r}, target {TARGET_SERIES} unique shows...')
+    if need_series > 0:
+        new_series = build_series_metas(client, need_series, exclude_imdb_ids=exclude_s)
+        renumber_below_existing(existing_series, new_series)
+        series_metas = existing_series + new_series
+    else:
+        series_metas = list(existing_series)
     print(f'  -> {len(series_metas)} series')
 
     try:
