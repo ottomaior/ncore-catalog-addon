@@ -14,7 +14,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 926
+    "seeders": 1282
   },
   {
     "id": "tt8036976",
@@ -31,7 +31,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 1251
+    "seeders": 1687
   },
   {
     "id": "tt26678938",
@@ -41,13 +41,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-    "imdbRating": 6.3,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
-      "Thriller"
+      "Thriller",
+      "Horror"
     ],
-    "seeders": 400
+    "seeders": 514
   },
   {
     "id": "tt15574124",
@@ -63,7 +64,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1114
+    "seeders": 1337
   },
   {
     "id": "tt15940132",
@@ -80,22 +81,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2958
-  },
-  {
-    "id": "tt28779965",
-    "type": "movie",
-    "name": "Finnik - Jó a szörny a háznál",
-    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs"
-    ],
-    "seeders": 107
+    "seeders": 3761
   },
   {
     "id": "tt11539996",
@@ -112,7 +98,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1801
+    "seeders": 2197
   },
   {
     "id": "tt29567915",
@@ -128,7 +114,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1298
+    "seeders": 1603
   },
   {
     "id": "tt27543632",
@@ -144,23 +130,22 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1175
+    "seeders": 1481
   },
   {
-    "id": "tt31807192",
+    "id": "tt28779965",
     "type": "movie",
-    "name": "Hogyan legyünk normálisak",
-    "poster": "https://image.tmdb.org/t/p/w500/9i6J9nfFPcnXL6cDiwVa1kAahx2.jpg",
+    "name": "Finnik - Jó a szörny a háznál",
+    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Miután frissen kikerül egy pszichiátriai intézetből, Pia visszaköltözik a szüleihez, hogy rendbe tegye az életét. Új munka, szerelmi bánat, pszichotróp gyógyszerek és a társadalmi megbélyegzés között őrlődve egy olyan világba tér vissza, ahol úgy tűnik, minden kicsúszik az irányítása alól.",
-    "imdbRating": 4.3,
+    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
+    "imdbRating": 4.0,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Animációs"
     ],
-    "seeders": 56
+    "seeders": 128
   },
   {
     "id": "tt35558973",
@@ -176,7 +161,23 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 112
+    "seeders": 120
+  },
+  {
+    "id": "tt31807192",
+    "type": "movie",
+    "name": "Hogyan legyünk normálisak",
+    "poster": "https://image.tmdb.org/t/p/w500/9i6J9nfFPcnXL6cDiwVa1kAahx2.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután frissen kikerül egy pszichiátriai intézetből, Pia visszaköltözik a szüleihez, hogy rendbe tegye az életét. Új munka, szerelmi bánat, pszichotróp gyógyszerek és a társadalmi megbélyegzés között őrlődve egy olyan világba tér vissza, ahol úgy tűnik, minden kicsúszik az irányítása alól.",
+    "imdbRating": 4.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 104
   },
   {
     "id": "tt27714581",
@@ -191,7 +192,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 290
+    "seeders": 344
   },
   {
     "id": "tt35600130",
@@ -208,7 +209,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 81
+    "seeders": 87
   },
   {
     "id": "tt11214558",
@@ -224,7 +225,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 349
+    "seeders": 418
   },
   {
     "id": "tt14905854",
@@ -241,7 +242,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 309
+    "seeders": 356
   },
   {
     "id": "tt36971084",
@@ -257,7 +258,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 134
+    "seeders": 152
   },
   {
     "id": "tt14186876",
@@ -273,7 +274,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 162
+    "seeders": 180
+  },
+  {
+    "id": "tt39345599",
+    "type": "movie",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 146
   },
   {
     "id": "tt26452781",
@@ -289,37 +305,24 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 104
+    "seeders": 117
   },
   {
-    "id": "tt39345599",
+    "id": "tt4627382",
     "type": "movie",
-    "name": "Műanyagdetox",
-    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 122
-  },
-  {
-    "id": "tt38133965",
-    "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "name": "A besurranó",
+    "poster": "https://image.tmdb.org/t/p/w500/tHYCPLhzAldSOI6Jz9UcYXcHsTy.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
+    "description": "Jeffrey Manchester (Channing Tatum) az örök álmodozó egyedi módszerrel próbál pénzt szerezni: tetőkön surran be, és teszi zsebre a McDonald’s éttermek kasszáinak tartalmát. De az egykori katonából lett tolvaj számításaiba hiba csúszik, és lecsukják. Amikor sikerül kereket oldania a börtönből, menekülés közben egy elég szokatlan búvóhelyen köt ki: egy játékbolt falai között talál menedéket, ahol plüssök társaságában tervezgeti a következő nagy dobását. Telnek a hónapok, a hajtóvadászat lassan feledésbe merül, és közben Jeffrey beleszeret Leigh-be (Kirsten Dunst), az áruház egyik alkalmazottjába. A gond csak az, hogy a nő mit sem sejt arról, hogy új udvarlója egy körözött szökevény, aki abban reménykedik, hogy végre megkapja az élettől az új esélyt, amire mindig is vágyott…",
+    "imdbRating": 7.1,
     "releaseInfo": "2025",
     "genres": [
-      "Családi"
+      "Bűnügyi",
+      "Vígjáték",
+      "Dráma"
     ],
-    "seeders": 110
+    "seeders": 261
   },
   {
     "id": "tt31909472",
@@ -339,7 +342,22 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 74
+    "seeders": 80
+  },
+  {
+    "id": "tt38133965",
+    "type": "movie",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi"
+    ],
+    "seeders": 115
   },
   {
     "id": "tt27424511",
@@ -355,24 +373,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 161
-  },
-  {
-    "id": "tt4627382",
-    "type": "movie",
-    "name": "A besurranó",
-    "poster": "https://image.tmdb.org/t/p/w500/tHYCPLhzAldSOI6Jz9UcYXcHsTy.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Jeffrey Manchester (Channing Tatum) az örök álmodozó egyedi módszerrel próbál pénzt szerezni: tetőkön surran be, és teszi zsebre a McDonald’s éttermek kasszáinak tartalmát. De az egykori katonából lett tolvaj számításaiba hiba csúszik, és lecsukják. Amikor sikerül kereket oldania a börtönből, menekülés közben egy elég szokatlan búvóhelyen köt ki: egy játékbolt falai között talál menedéket, ahol plüssök társaságában tervezgeti a következő nagy dobását. Telnek a hónapok, a hajtóvadászat lassan feledésbe merül, és közben Jeffrey beleszeret Leigh-be (Kirsten Dunst), az áruház egyik alkalmazottjába. A gond csak az, hogy a nő mit sem sejt arról, hogy új udvarlója egy körözött szökevény, aki abban reménykedik, hogy végre megkapja az élettől az új esélyt, amire mindig is vágyott…",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Bűnügyi",
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 215
+    "seeders": 175
   },
   {
     "id": "tt26443597",
@@ -391,7 +392,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 142
+    "seeders": 165
   },
   {
     "id": "tt28308317",
@@ -406,7 +407,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 71
+    "seeders": 79
   },
   {
     "id": "tt31392191",
@@ -422,7 +423,22 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 134
+    "seeders": 137
+  },
+  {
+    "id": "tt36589671",
+    "type": "movie",
+    "name": "A végső tűzharc",
+    "poster": "https://image.tmdb.org/t/p/w500/uBQVEazzf2krSuok2ULq2mL9ls6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 148
   },
   {
     "id": "tt33244668",
@@ -439,7 +455,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 61
+    "seeders": 67
   },
   {
     "id": "tt34937354",
@@ -456,22 +472,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 84
-  },
-  {
-    "id": "tt36589671",
-    "type": "movie",
-    "name": "A végső tűzharc",
-    "poster": "https://image.tmdb.org/t/p/w500/uBQVEazzf2krSuok2ULq2mL9ls6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 130
+    "seeders": 91
   },
   {
     "id": "tt39792948",
@@ -481,11 +482,11 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
-    "imdbRating": 6.6,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 87
+    "seeders": 100
   }
 ]
