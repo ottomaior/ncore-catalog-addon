@@ -24,6 +24,15 @@ This folder holds JSON files built by scheduled scripts. **Series** use **TVDB**
 - **`hbomax_movies.json`**, **`hbomax_series.json`** – TMDB HBO Max (HU).
 - **`prime_movies.json`**, **`prime_series.json`** – TMDB Prime Video (HU).
 
+**📥 Legtöbbet letöltött (1080p HD-HU, nCore `times_completed` sorrend)**
+- **`top_downloaded_1080_movies.json`**, **`top_downloaded_1080_series.json`** – Built by `build_top_downloaded_1080_catalog.py` (~60-day cadence by default).
+- **`top_downloaded_1080_hungarian_productions_movies.json`**, **`top_downloaded_1080_hungarian_productions_series.json`** – Subset: only titles where TMDB lists Hungary as production (movies: `production_countries`, series: `origin_country`). Built from the top-downloaded JSONs:
+
+```bash
+python scripts/filter_hungarian_productions.py --source data/top_downloaded_1080_movies.json --output data/top_downloaded_1080_hungarian_productions_movies.json
+python scripts/filter_hungarian_productions_series.py --source data/top_downloaded_1080_series.json --output data/top_downloaded_1080_hungarian_productions_series.json
+```
+
 Run manually (regenerate all):
 
 ```bash

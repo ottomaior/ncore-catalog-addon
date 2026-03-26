@@ -1,11 +1,15 @@
 """
-Build data/most_seeded_hungarian_productions_series.json from data/most_seeded_series.json.
-Reads the existing catalog, checks TMDB origin_country for each TV show, keeps only
-series produced in Hungary, keeps order by seeders. Run after build_most_seeded_series_catalog.py.
+Build Hungarian-produced series JSON from any Stremio meta list.
+Checks TMDB origin_country for each TV show; keeps order from the source file.
 
-Usage: python scripts/filter_hungarian_productions_series.py
-Output: data/most_seeded_hungarian_productions_series.json
+Default: most_seeded_series.json → most_seeded_hungarian_productions_series.json
+Top downloaded: --source data/top_downloaded_1080_series.json --output data/top_downloaded_1080_hungarian_productions_series.json
+
+Usage:
+  python scripts/filter_hungarian_productions_series.py
+  python scripts/filter_hungarian_productions_series.py --source data/top_downloaded_1080_series.json --output data/top_downloaded_1080_hungarian_productions_series.json
 """
+import argparse
 import time
 import os
 import json
@@ -17,8 +21,8 @@ script_dir = Path(__file__).parent.resolve()
 project_root = script_dir.parent
 config_file = project_root / 'config' / 'config.env'
 data_dir = project_root / 'data'
-source_file = data_dir / 'most_seeded_series.json'
-out_file = data_dir / 'most_seeded_hungarian_productions_series.json'
+DEFAULT_SOURCE = data_dir / 'most_seeded_series.json'
+DEFAULT_OUT = data_dir / 'most_seeded_hungarian_productions_series.json'
 
 if config_file.exists():
     load_dotenv(config_file)
@@ -67,6 +71,25 @@ def is_hungarian_production(imdb_id, tmdb_key):
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description='Filter series metas to TMDB origin_country containing Hungary (HU).'
+    )
+    parser.add_argument(
+        '--source',
+        type=Path,
+        default=DEFAULT_SOURCE,
+        help=f'Input JSON (list of metas). Default: {DEFAULT_SOURCE}',
+    )
+    parser.add_argument(
+        '--output',
+        type=Path,
+        default=DEFAULT_OUT,
+        help=f'Output JSON. Default: {DEFAULT_OUT}',
+    )
+    args = parser.parse_args()
+    source_file = args.source if args.source.is_absolute() else project_root / args.source
+    out_file = args.output if args.output.is_absolute() else project_root / args.output
+
     print('=' * 60)
     print('Magyar sorozatok szűrése (TMDB origin_country = Hungary)')
     print('=' * 60)
@@ -77,7 +100,10 @@ def main():
 
     if not source_file.exists():
         print(f'\n✗ Forrás fájl hiányzik: {source_file}')
-        print('  Futtasd előbb: python scripts/build_most_seeded_series_catalog.py')
+        if source_file == DEFAULT_SOURCE:
+            print('  Futtasd előbb: python scripts/build_most_seeded_series_catalog.py')
+        else:
+            print('  Ellenőrizd a --source útvonalat (pl. python scripts/build_top_downloaded_1080_catalog.py).')
         exit(1)
 
     with open(source_file, 'r', encoding='utf-8') as f:
@@ -86,16 +112,17 @@ def main():
         print('\n✗ A forrás fájl nem meta listát tartalmaz.')
         exit(1)
 
-    print(f'\n{len(all_metas)} sorozat a forrásban. TMDB origin_country ellenőrzés...')
+    series_only = [m for m in all_metas if isinstance(m, dict) and m.get('type') == 'series']
+    print(f'\n{len(series_only)} sorozat a forrásban ({len(all_metas)} sor összesen). TMDB origin_country ellenőrzés...')
     hungarian = []
-    for i, meta in enumerate(all_metas):
+    for i, meta in enumerate(series_only):
         mid = meta.get('id')
         if not mid:
             continue
         if is_hungarian_production(mid, TMDB_API_KEY):
             hungarian.append(meta)
         if (i + 1) % 100 == 0:
-            print(f'  Ellenőrizve: {i + 1}/{len(all_metas)}, magyar: {len(hungarian)}')
+            print(f'  Ellenőrizve: {i + 1}/{len(series_only)}, magyar: {len(hungarian)}')
 
     out_file.parent.mkdir(parents=True, exist_ok=True)
     with open(out_file, 'w', encoding='utf-8') as f:

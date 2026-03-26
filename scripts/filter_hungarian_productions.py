@@ -1,11 +1,15 @@
 """
-Build data/most_seeded_hungarian_productions_movies.json from data/most_seeded_movies.json.
-Reads the existing catalog, checks TMDB production_countries for each movie, keeps only
-movies produced in Hungary, keeps order by seeders. Run after build_most_seeded_movies_catalog.py.
+Build Hungarian-produced movies JSON from any Stremio meta list (same shape as catalog JSON).
+Checks TMDB production_countries for each movie; keeps order from the source file.
 
-Usage: python scripts/filter_hungarian_productions.py
-Output: data/most_seeded_hungarian_productions_movies.json
+Default: most_seeded_movies.json → most_seeded_hungarian_productions_movies.json
+Top downloaded: --source data/top_downloaded_1080_movies.json --output data/top_downloaded_1080_hungarian_productions_movies.json
+
+Usage:
+  python scripts/filter_hungarian_productions.py
+  python scripts/filter_hungarian_productions.py --source data/top_downloaded_1080_movies.json --output data/top_downloaded_1080_hungarian_productions_movies.json
 """
+import argparse
 import time
 import os
 import json
@@ -17,8 +21,8 @@ script_dir = Path(__file__).parent.resolve()
 project_root = script_dir.parent
 config_file = project_root / 'config' / 'config.env'
 data_dir = project_root / 'data'
-source_file = data_dir / 'most_seeded_movies.json'
-out_file = data_dir / 'most_seeded_hungarian_productions_movies.json'
+DEFAULT_SOURCE = data_dir / 'most_seeded_movies.json'
+DEFAULT_OUT = data_dir / 'most_seeded_hungarian_productions_movies.json'
 
 if config_file.exists():
     load_dotenv(config_file)
@@ -69,6 +73,25 @@ def is_hungarian_production(imdb_id, tmdb_key):
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description='Filter movie metas to TMDB production_countries containing Hungary (HU).'
+    )
+    parser.add_argument(
+        '--source',
+        type=Path,
+        default=DEFAULT_SOURCE,
+        help=f'Input JSON (list of metas). Default: {DEFAULT_SOURCE}',
+    )
+    parser.add_argument(
+        '--output',
+        type=Path,
+        default=DEFAULT_OUT,
+        help=f'Output JSON. Default: {DEFAULT_OUT}',
+    )
+    args = parser.parse_args()
+    source_file = args.source if args.source.is_absolute() else project_root / args.source
+    out_file = args.output if args.output.is_absolute() else project_root / args.output
+
     print('=' * 60)
     print('Magyar filmek szűrése (TMDB production country = Hungary)')
     print('=' * 60)
@@ -79,7 +102,10 @@ def main():
 
     if not source_file.exists():
         print(f'\n✗ Forrás fájl hiányzik: {source_file}')
-        print('  Futtasd előbb: python scripts/build_most_seeded_movies_catalog.py')
+        if source_file == DEFAULT_SOURCE:
+            print('  Futtasd előbb: python scripts/build_most_seeded_movies_catalog.py')
+        else:
+            print('  Ellenőrizd a --source útvonalat (pl. python scripts/build_top_downloaded_1080_catalog.py).')
         exit(1)
 
     with open(source_file, 'r', encoding='utf-8') as f:
@@ -88,18 +114,19 @@ def main():
         print('\n✗ A forrás fájl nem meta listát tartalmaz.')
         exit(1)
 
-    print(f'\n{len(all_metas)} film a forrásban. TMDB production country ellenőrzés...')
+    movies_only = [m for m in all_metas if isinstance(m, dict) and m.get('type') == 'movie']
+    print(f'\n{len(movies_only)} film a forrásban ({len(all_metas)} sor összesen). TMDB production country ellenőrzés...')
     hungarian = []
-    for i, meta in enumerate(all_metas):
+    for i, meta in enumerate(movies_only):
         mid = meta.get('id')
         if not mid:
             continue
         if is_hungarian_production(mid, TMDB_API_KEY):
             hungarian.append(meta)
         if (i + 1) % 100 == 0:
-            print(f'  Ellenőrizve: {i + 1}/{len(all_metas)}, magyar: {len(hungarian)}')
+            print(f'  Ellenőrizve: {i + 1}/{len(movies_only)}, magyar: {len(hungarian)}')
 
-    # Preserve order (already by seeders in source)
+    # Preserve order from source (seeders / downloads rank)
     out_file.parent.mkdir(parents=True, exist_ok=True)
     with open(out_file, 'w', encoding='utf-8') as f:
         json.dump(hungarian, f, ensure_ascii=False, indent=0)
