@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt28078628",
+    "type": "movie",
+    "name": "Tűzben edzett lélek",
+    "poster": "https://image.tmdb.org/t/p/w500/2UgGQ4ykVzBFKSIPxNFuCf5B0TK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A John O’Leary bestseller memoárjából, az On Fire-ből készült film érzelmes és hittel teli portrét fest a kitartásról, és arról, hogy O’Leary nemcsak a túlélésért küzd, hanem végül felfedezi, mit jelent igazán élni. A frontvonalban dolgozóktól a családtagokon át a tágabb közösség támogatásáig ez a film a hősöket ünnepli.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 50
+  },
+  {
     "id": "tt14850054",
     "type": "movie",
     "name": "Greenland: Az új menedék",
@@ -14,7 +29,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1282
+    "seeders": 851
   },
   {
     "id": "tt8036976",
@@ -31,7 +46,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 1687
+    "seeders": 1028
   },
   {
     "id": "tt26678938",
@@ -41,14 +56,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller",
       "Horror"
     ],
-    "seeders": 514
+    "seeders": 357
   },
   {
     "id": "tt15574124",
@@ -64,7 +79,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1337
+    "seeders": 783
   },
   {
     "id": "tt15940132",
@@ -81,7 +96,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 3761
+    "seeders": 2202
   },
   {
     "id": "tt11539996",
@@ -98,7 +113,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 2197
+    "seeders": 1408
   },
   {
     "id": "tt29567915",
@@ -114,7 +129,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1603
+    "seeders": 1041
   },
   {
     "id": "tt27543632",
@@ -130,7 +145,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1481
+    "seeders": 872
   },
   {
     "id": "tt28779965",
@@ -145,23 +160,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 128
-  },
-  {
-    "id": "tt35558973",
-    "type": "movie",
-    "name": "Felséges szerelem",
-    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 120
+    "seeders": 104
   },
   {
     "id": "tt31807192",
@@ -177,7 +176,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 104
+    "seeders": 58
+  },
+  {
+    "id": "tt35558973",
+    "type": "movie",
+    "name": "Felséges szerelem",
+    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt27714581",
@@ -192,7 +207,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 344
+    "seeders": 228
   },
   {
     "id": "tt35600130",
@@ -209,7 +224,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 87
+    "seeders": 67
   },
   {
     "id": "tt11214558",
@@ -225,7 +240,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 418
+    "seeders": 274
   },
   {
     "id": "tt14905854",
@@ -242,7 +257,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 356
+    "seeders": 256
   },
   {
     "id": "tt36971084",
@@ -258,7 +273,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 152
+    "seeders": 104
   },
   {
     "id": "tt14186876",
@@ -274,22 +289,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 180
+    "seeders": 130
   },
   {
-    "id": "tt39345599",
+    "id": "tt38133965",
     "type": "movie",
-    "name": "Műanyagdetox",
-    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum"
+      "Családi"
     ],
-    "seeders": 146
+    "seeders": 100
   },
   {
     "id": "tt26452781",
@@ -305,33 +320,16 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 117
-  },
-  {
-    "id": "tt4627382",
-    "type": "movie",
-    "name": "A besurranó",
-    "poster": "https://image.tmdb.org/t/p/w500/tHYCPLhzAldSOI6Jz9UcYXcHsTy.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Jeffrey Manchester (Channing Tatum) az örök álmodozó egyedi módszerrel próbál pénzt szerezni: tetőkön surran be, és teszi zsebre a McDonald’s éttermek kasszáinak tartalmát. De az egykori katonából lett tolvaj számításaiba hiba csúszik, és lecsukják. Amikor sikerül kereket oldania a börtönből, menekülés közben egy elég szokatlan búvóhelyen köt ki: egy játékbolt falai között talál menedéket, ahol plüssök társaságában tervezgeti a következő nagy dobását. Telnek a hónapok, a hajtóvadászat lassan feledésbe merül, és közben Jeffrey beleszeret Leigh-be (Kirsten Dunst), az áruház egyik alkalmazottjába. A gond csak az, hogy a nő mit sem sejt arról, hogy új udvarlója egy körözött szökevény, aki abban reménykedik, hogy végre megkapja az élettől az új esélyt, amire mindig is vágyott…",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Bűnügyi",
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 261
+    "seeders": 81
   },
   {
     "id": "tt31909472",
     "type": "movie",
-    "name": "Kiff Lore of the Ring Light",
+    "name": "Kiff: A körlámpák tudománya",
     "poster": "https://image.tmdb.org/t/p/w500/ym5Mrt34CwoGY7Ga83pyBkDeaOV.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Kiff és barátai új kalandra indulnak, hogy megsemmisítsék a gyűrűfény roppant erejét.",
     "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
@@ -342,22 +340,22 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 80
+    "seeders": 62
   },
   {
-    "id": "tt38133965",
+    "id": "tt39345599",
     "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
     "genres": [
-      "Családi"
+      "Dokumentum"
     ],
-    "seeders": 115
+    "seeders": 93
   },
   {
     "id": "tt27424511",
@@ -373,7 +371,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 175
+    "seeders": 132
   },
   {
     "id": "tt26443597",
@@ -392,7 +390,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 165
+    "seeders": 116
   },
   {
     "id": "tt28308317",
@@ -407,7 +405,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 58
   },
   {
     "id": "tt31392191",
@@ -423,22 +421,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 137
-  },
-  {
-    "id": "tt36589671",
-    "type": "movie",
-    "name": "A végső tűzharc",
-    "poster": "https://image.tmdb.org/t/p/w500/uBQVEazzf2krSuok2ULq2mL9ls6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 148
+    "seeders": 104
   },
   {
     "id": "tt33244668",
@@ -455,7 +438,39 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 67
+    "seeders": 56
+  },
+  {
+    "id": "tt4627382",
+    "type": "movie",
+    "name": "A besurranó",
+    "poster": "https://image.tmdb.org/t/p/w500/tHYCPLhzAldSOI6Jz9UcYXcHsTy.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Jeffrey Manchester (Channing Tatum) az örök álmodozó egyedi módszerrel próbál pénzt szerezni: tetőkön surran be, és teszi zsebre a McDonald’s éttermek kasszáinak tartalmát. De az egykori katonából lett tolvaj számításaiba hiba csúszik, és lecsukják. Amikor sikerül kereket oldania a börtönből, menekülés közben egy elég szokatlan búvóhelyen köt ki: egy játékbolt falai között talál menedéket, ahol plüssök társaságában tervezgeti a következő nagy dobását. Telnek a hónapok, a hajtóvadászat lassan feledésbe merül, és közben Jeffrey beleszeret Leigh-be (Kirsten Dunst), az áruház egyik alkalmazottjába. A gond csak az, hogy a nő mit sem sejt arról, hogy új udvarlója egy körözött szökevény, aki abban reménykedik, hogy végre megkapja az élettől az új esélyt, amire mindig is vágyott…",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Bűnügyi",
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 118
+  },
+  {
+    "id": "tt36589671",
+    "type": "movie",
+    "name": "A végső tűzharc",
+    "poster": "https://image.tmdb.org/t/p/w500/uBQVEazzf2krSuok2ULq2mL9ls6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy brutális földalatti versenyen a világ legveszélyesebb bérgyilkosai néznek szembe egy kegyetlen tervet szövögető, kívülálló csapattal: beépülni a versenybe, túlélni a vérfürdőt, és legyőzni a háttérben megbúvó főelmét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 100
   },
   {
     "id": "tt34937354",
@@ -472,21 +487,6 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 91
-  },
-  {
-    "id": "tt39792948",
-    "type": "movie",
-    "name": "Louis Theroux: A manoszféra belsejében",
-    "poster": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A neves dokumentarista példa nélküli hozzáféréssel és szókimondóan vizsgálja az egyre terebélyesedő toxikus maszkulinitás hálózatát és ellentmondásos infuenszereit.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 100
+    "seeders": 62
   }
 ]
