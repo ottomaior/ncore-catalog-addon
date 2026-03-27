@@ -14,7 +14,7 @@
       "Családi",
       "Dráma"
     ],
-    "seeders": 187
+    "seeders": 307
   },
   {
     "id": "tt14850054",
@@ -31,7 +31,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1206
+    "seeders": 1498
   },
   {
     "id": "tt8036976",
@@ -48,39 +48,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 1468
-  },
-  {
-    "id": "tt32155665",
-    "type": "movie",
-    "name": "53 domingos",
-    "poster": "https://image.tmdb.org/t/p/w500/tlgGaC3OZfs6F9Kcg4as6StvJFG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 68
-  },
-  {
-    "id": "tt39578551",
-    "type": "movie",
-    "name": "BTS: 더 리턴",
-    "poster": "https://image.tmdb.org/t/p/w500/d1NVILoUn4hI8zEFNKoP0K5WDgO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 65
+    "seeders": 1896
   },
   {
     "id": "tt26678938",
@@ -97,39 +65,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 479
-  },
-  {
-    "id": "tt28078628",
-    "type": "movie",
-    "name": "Tűzben edzett lélek",
-    "poster": "https://image.tmdb.org/t/p/w500/2UgGQ4ykVzBFKSIPxNFuCf5B0TK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A John O’Leary bestseller memoárjából, az On Fire-ből készült film érzelmes és hittel teli portrét fest a kitartásról, és arról, hogy O’Leary nemcsak a túlélésért küzd, hanem végül felfedezi, mit jelent igazán élni. A frontvonalban dolgozóktól a családtagokon át a tágabb közösség támogatásáig ez a film a hősöket ünnepli.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 86
-  },
-  {
-    "id": "tt39744394",
-    "type": "movie",
-    "name": "A vonal másik oldalán",
-    "poster": "https://image.tmdb.org/t/p/w500/at29WEJ7lmFua6eWz79B6XFhfu2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Három nő válik egy kegyetlen telefonos csalás áldozatává. Az elszenvedett veszteségeik után úgy döntenek, hogy szembeszállnak azzal a bűnszervezettel, amely elvette tőlük nemcsak a pénzüket, hanem a méltóságukat is.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 187
+    "seeders": 581
   },
   {
     "id": "tt15574124",
@@ -145,7 +81,56 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1095
+    "seeders": 1328
+  },
+  {
+    "id": "tt39578551",
+    "type": "movie",
+    "name": "BTS: 더 리턴",
+    "poster": "https://image.tmdb.org/t/p/w500/d1NVILoUn4hI8zEFNKoP0K5WDgO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 9.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 74
+  },
+  {
+    "id": "tt32155665",
+    "type": "movie",
+    "name": "53 domingos",
+    "poster": "https://image.tmdb.org/t/p/w500/tlgGaC3OZfs6F9Kcg4as6StvJFG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 74
+  },
+  {
+    "id": "tt39744394",
+    "type": "movie",
+    "name": "A vonal másik oldalán",
+    "poster": "https://image.tmdb.org/t/p/w500/at29WEJ7lmFua6eWz79B6XFhfu2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Három nő válik egy kegyetlen telefonos csalás áldozatává. Az elszenvedett veszteségeik után úgy döntenek, hogy szembeszállnak azzal a bűnszervezettel, amely elvette tőlük nemcsak a pénzüket, hanem a méltóságukat is.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 227
   },
   {
     "id": "tt11539996",
@@ -162,7 +147,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1817
+    "seeders": 2155
+  },
+  {
+    "id": "tt28078628",
+    "type": "movie",
+    "name": "Tűzben edzett lélek",
+    "poster": "https://image.tmdb.org/t/p/w500/2UgGQ4ykVzBFKSIPxNFuCf5B0TK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A John O’Leary bestseller memoárjából, az On Fire-ből készült film érzelmes és hittel teli portrét fest a kitartásról, és arról, hogy O’Leary nemcsak a túlélésért küzd, hanem végül felfedezi, mit jelent igazán élni. A frontvonalban dolgozóktól a családtagokon át a tágabb közösség támogatásáig ez a film a hősöket ünnepli.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 107
   },
   {
     "id": "tt29567915",
@@ -178,7 +178,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1354
+    "seeders": 1654
   },
   {
     "id": "tt27543632",
@@ -194,7 +194,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1180
+    "seeders": 1418
   },
   {
     "id": "tt28779965",
@@ -209,7 +209,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 133
+    "seeders": 163
   },
   {
     "id": "tt35558973",
@@ -225,7 +225,22 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 115
+    "seeders": 119
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 334
   },
   {
     "id": "tt31807192",
@@ -241,22 +256,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 94
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 303
+    "seeders": 102
   },
   {
     "id": "tt11214558",
@@ -272,7 +272,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 357
+    "seeders": 420
   },
   {
     "id": "tt35600130",
@@ -289,7 +289,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 75
+    "seeders": 83
   },
   {
     "id": "tt14905854",
@@ -306,7 +306,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 310
+    "seeders": 353
   },
   {
     "id": "tt36971084",
@@ -322,7 +322,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 133
+    "seeders": 144
   },
   {
     "id": "tt14186876",
@@ -338,7 +338,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 165
+    "seeders": 195
+  },
+  {
+    "id": "tt39345599",
+    "type": "movie",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 144
   },
   {
     "id": "tt26452781",
@@ -354,37 +369,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 107
-  },
-  {
-    "id": "tt39345599",
-    "type": "movie",
-    "name": "Műanyagdetox",
-    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
     "seeders": 120
-  },
-  {
-    "id": "tt38133965",
-    "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi"
-    ],
-    "seeders": 112
   },
   {
     "id": "tt27424511",
@@ -400,7 +385,41 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 155
+    "seeders": 183
+  },
+  {
+    "id": "tt38133965",
+    "type": "movie",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi"
+    ],
+    "seeders": 119
+  },
+  {
+    "id": "tt26443597",
+    "type": "movie",
+    "name": "Zootropolis 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/qamAIfq1Bcm8pUqbpwLD3lhObT2.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Judy Hoppsz nyomozó és ravasz partnere, Nick Wilde egy rejtélyes hüllő tekergőző nyomába szegődik, miután az fenekestül felforgatja Zootropolist. Az ügy felgöngyölítése érdekében Judy és Nick az állati város olyan szegleteibe merül alá, amik alaposan próbára teszik még formálódó munkakapcsolatukat.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Kaland",
+      "Családi",
+      "Rejtély"
+    ],
+    "seeders": 167
   },
   {
     "id": "tt31909472",
@@ -420,26 +439,23 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 73
+    "seeders": 79
   },
   {
-    "id": "tt26443597",
+    "id": "tt31392191",
     "type": "movie",
-    "name": "Zootropolis 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/qamAIfq1Bcm8pUqbpwLD3lhObT2.jpg",
+    "name": "Ahonnan a szél jön",
+    "poster": "https://image.tmdb.org/t/p/w500/ppViwGpufHCkpFHm8R3tkcGuqOZ.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Judy Hoppsz nyomozó és ravasz partnere, Nick Wilde egy rejtélyes hüllő tekergőző nyomába szegődik, miután az fenekestül felforgatja Zootropolist. Az ügy felgöngyölítése érdekében Judy és Nick az állati város olyan szegleteibe merül alá, amik alaposan próbára teszik még formálódó munkakapcsolatukat.",
-    "imdbRating": 7.6,
+    "description": "Amel Guellaty politikai nézeteit tekintve nem sorolta be magát nyíltan egyetlen pártba sem, de munkássága és nyilatkozatai alapján liberális és feminista szemléletmód jellemzi.",
+    "imdbRating": 7.8,
     "releaseInfo": "2025",
     "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Kaland",
-      "Családi",
-      "Rejtély"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 134
+    "seeders": 142
   },
   {
     "id": "tt28308317",
@@ -457,29 +473,13 @@
     "seeders": 74
   },
   {
-    "id": "tt31392191",
-    "type": "movie",
-    "name": "Ahonnan a szél jön",
-    "poster": "https://image.tmdb.org/t/p/w500/ppViwGpufHCkpFHm8R3tkcGuqOZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amel Guellaty politikai nézeteit tekintve nem sorolta be magát nyíltan egyetlen pártba sem, de munkássága és nyilatkozatai alapján liberális és feminista szemléletmód jellemzi.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 133
-  },
-  {
     "id": "tt33244668",
     "type": "movie",
     "name": "Anakonda",
     "poster": "https://image.tmdb.org/t/p/w500/sXzUrie6C6WPZ1MJQHWI8vq7Pwu.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Az 1997-ben megjelent Anakonda című thriller humoros újragondolása.  Doug (Jack Black) és Griff (Paul Rudd) kiskölyök koruk óta a legjobb haverok, és világ életükben arról álmodoztak, hogy egyszer filmet csinálnak. Méghozzá gyerekkori kedvencük, az óriáskígyós-dzsungeles-horrorkaland, az Anakonda remake-jét.\r Kezdik úgy érezni, hogy öregszenek, ezért nem várnak tovább, és minden pénzüket arra költik, hogy az eredeti helyszínen, az Amazonas őserdejében forgathassák újra a régi filmet. Vagyis: nincs pénzük, nem értenek a filmezéshez, és fogalmuk sincs a környék veszélyeiről – minden a legjobban alakul!\r Kivéve, hogy az őserdőben valóban találkoznak egy elképesztő méretű kígyóval. A vicces káosz halálosan veszélyes káosszá válik. Végül is, sokszor mondták, hogy az életüket adnák a filmért…",
+    "description": "Az 1997-ben megjelent Anakonda című thriller humoros újragondolása.  Doug (Jack Black) és Griff (Paul Rudd) kiskölyök koruk óta a legjobb haverok, és világ életükben arról álmodoztak, hogy egyszer filmet csinálnak. Méghozzá gyerekkori kedvencük, az óriáskígyós-dzsungeles-horrorkaland, az Anakonda remake-jét. Kezdik úgy érezni, hogy öregszenek, ezért nem várnak tovább, és minden pénzüket arra költik, hogy az eredeti helyszínen, az Amazonas őserdejében forgathassák újra a régi filmet. Vagyis: nincs pénzük, nem értenek a filmezéshez, és fogalmuk sincs a környék veszélyeiről – minden a legjobban alakul! Kivéve, hogy az őserdőben valóban találkoznak egy elképesztő méretű kígyóval. A vicces káosz halálosan veszélyes káosszá válik. Végül is, sokszor mondták, hogy az életüket adnák a filmért…",
     "imdbRating": 5.9,
     "releaseInfo": "2025",
     "genres": [
