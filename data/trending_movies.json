@@ -1,22 +1,5 @@
 [
   {
-    "id": "tt37976405",
-    "type": "movie",
-    "name": "Versa",
-    "poster": "https://image.tmdb.org/t/p/w500/vWOTMdPHKxBQbJ8XPwvEwja0Ukd.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Dráma"
-    ],
-    "seeders": 307
-  },
-  {
     "id": "tt14850054",
     "type": "movie",
     "name": "Greenland: Az új menedék",
@@ -31,7 +14,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1498
+    "seeders": 1032
   },
   {
     "id": "tt8036976",
@@ -48,7 +31,25 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 1896
+    "seeders": 1221
+  },
+  {
+    "id": "tt37976405",
+    "type": "movie",
+    "name": "Versa",
+    "poster": "https://image.tmdb.org/t/p/w500/vWOTMdPHKxBQbJ8XPwvEwja0Ukd.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Dráma",
+      "Fantasy"
+    ],
+    "seeders": 234
   },
   {
     "id": "tt26678938",
@@ -65,7 +66,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 581
+    "seeders": 386
   },
   {
     "id": "tt15574124",
@@ -81,56 +82,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1328
-  },
-  {
-    "id": "tt39578551",
-    "type": "movie",
-    "name": "BTS: 더 리턴",
-    "poster": "https://image.tmdb.org/t/p/w500/d1NVILoUn4hI8zEFNKoP0K5WDgO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 9.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 74
-  },
-  {
-    "id": "tt32155665",
-    "type": "movie",
-    "name": "53 domingos",
-    "poster": "https://image.tmdb.org/t/p/w500/tlgGaC3OZfs6F9Kcg4as6StvJFG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 74
-  },
-  {
-    "id": "tt39744394",
-    "type": "movie",
-    "name": "A vonal másik oldalán",
-    "poster": "https://image.tmdb.org/t/p/w500/at29WEJ7lmFua6eWz79B6XFhfu2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Három nő válik egy kegyetlen telefonos csalás áldozatává. Az elszenvedett veszteségeik után úgy döntenek, hogy szembeszállnak azzal a bűnszervezettel, amely elvette tőlük nemcsak a pénzüket, hanem a méltóságukat is.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 227
+    "seeders": 837
   },
   {
     "id": "tt11539996",
@@ -147,22 +99,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 2155
-  },
-  {
-    "id": "tt28078628",
-    "type": "movie",
-    "name": "Tűzben edzett lélek",
-    "poster": "https://image.tmdb.org/t/p/w500/2UgGQ4ykVzBFKSIPxNFuCf5B0TK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A John O’Leary bestseller memoárjából, az On Fire-ből készült film érzelmes és hittel teli portrét fest a kitartásról, és arról, hogy O’Leary nemcsak a túlélésért küzd, hanem végül felfedezi, mit jelent igazán élni. A frontvonalban dolgozóktól a családtagokon át a tágabb közösség támogatásáig ez a film a hősöket ünnepli.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 107
+    "seeders": 1439
   },
   {
     "id": "tt29567915",
@@ -178,7 +115,55 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1654
+    "seeders": 1090
+  },
+  {
+    "id": "tt39744394",
+    "type": "movie",
+    "name": "A vonal másik oldalán",
+    "poster": "https://image.tmdb.org/t/p/w500/at29WEJ7lmFua6eWz79B6XFhfu2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Három nő válik egy kegyetlen telefonos csalás áldozatává. Az elszenvedett veszteségeik után úgy döntenek, hogy szembeszállnak azzal a bűnszervezettel, amely elvette tőlük nemcsak a pénzüket, hanem a méltóságukat is.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 162
+  },
+  {
+    "id": "tt32155665",
+    "type": "movie",
+    "name": "53 domingos",
+    "poster": "https://image.tmdb.org/t/p/w500/tlgGaC3OZfs6F9Kcg4as6StvJFG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 69
+  },
+  {
+    "id": "tt28078628",
+    "type": "movie",
+    "name": "Tűzben edzett lélek",
+    "poster": "https://image.tmdb.org/t/p/w500/2UgGQ4ykVzBFKSIPxNFuCf5B0TK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A John O’Leary bestseller memoárjából, az On Fire-ből készült film érzelmes és hittel teli portrét fest a kitartásról, és arról, hogy O’Leary nemcsak a túlélésért küzd, hanem végül felfedezi, mit jelent igazán élni. A frontvonalban dolgozóktól a családtagokon át a tágabb közösség támogatásáig ez a film a hősöket ünnepli.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 91
   },
   {
     "id": "tt27543632",
@@ -194,7 +179,23 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1418
+    "seeders": 901
+  },
+  {
+    "id": "tt39578551",
+    "type": "movie",
+    "name": "BTS: 더 리턴",
+    "poster": "https://image.tmdb.org/t/p/w500/d1NVILoUn4hI8zEFNKoP0K5WDgO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 9.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 63
   },
   {
     "id": "tt28779965",
@@ -209,7 +210,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 163
+    "seeders": 123
   },
   {
     "id": "tt35558973",
@@ -225,7 +226,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 119
+    "seeders": 83
   },
   {
     "id": "tt27714581",
@@ -240,7 +241,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 334
+    "seeders": 219
   },
   {
     "id": "tt31807192",
@@ -256,7 +257,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 102
+    "seeders": 70
   },
   {
     "id": "tt11214558",
@@ -272,7 +273,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 420
+    "seeders": 299
   },
   {
     "id": "tt35600130",
@@ -289,7 +290,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 83
+    "seeders": 63
   },
   {
     "id": "tt14905854",
@@ -306,7 +307,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 353
+    "seeders": 254
   },
   {
     "id": "tt36971084",
@@ -322,7 +323,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 144
+    "seeders": 101
   },
   {
     "id": "tt14186876",
@@ -338,22 +339,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 195
+    "seeders": 133
   },
   {
-    "id": "tt39345599",
+    "id": "tt38133965",
     "type": "movie",
-    "name": "Műanyagdetox",
-    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum"
+      "Családi"
     ],
-    "seeders": 144
+    "seeders": 102
   },
   {
     "id": "tt26452781",
@@ -369,7 +370,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 120
+    "seeders": 81
+  },
+  {
+    "id": "tt39345599",
+    "type": "movie",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 95
   },
   {
     "id": "tt27424511",
@@ -379,47 +395,13 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Miután egy erkölcsi csődbe került vállalat megpróbálja fegyverként felhasználni a zseniális tudós forradalmi technológiáját, az emberiség védelme érdekében a tudós eltűnik a nyilvánosság elől. Amikor a vállalat egy zsoldoscsapatot küld utána, elkövetik a legnagyobb hibát: élve akarják elkapni az állig felfegyverkezett férfit.",
-    "imdbRating": 6.1,
+    "imdbRating": 6.0,
     "releaseInfo": "2025",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 183
-  },
-  {
-    "id": "tt38133965",
-    "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi"
-    ],
-    "seeders": 119
-  },
-  {
-    "id": "tt26443597",
-    "type": "movie",
-    "name": "Zootropolis 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/qamAIfq1Bcm8pUqbpwLD3lhObT2.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Judy Hoppsz nyomozó és ravasz partnere, Nick Wilde egy rejtélyes hüllő tekergőző nyomába szegődik, miután az fenekestül felforgatja Zootropolist. Az ügy felgöngyölítése érdekében Judy és Nick az állati város olyan szegleteibe merül alá, amik alaposan próbára teszik még formálódó munkakapcsolatukat.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Kaland",
-      "Családi",
-      "Rejtély"
-    ],
-    "seeders": 167
+    "seeders": 131
   },
   {
     "id": "tt31909472",
@@ -439,7 +421,26 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 79
+    "seeders": 61
+  },
+  {
+    "id": "tt26443597",
+    "type": "movie",
+    "name": "Zootropolis 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/qamAIfq1Bcm8pUqbpwLD3lhObT2.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Judy Hoppsz nyomozó és ravasz partnere, Nick Wilde egy rejtélyes hüllő tekergőző nyomába szegődik, miután az fenekestül felforgatja Zootropolist. Az ügy felgöngyölítése érdekében Judy és Nick az állati város olyan szegleteibe merül alá, amik alaposan próbára teszik még formálódó munkakapcsolatukat.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Kaland",
+      "Családi",
+      "Rejtély"
+    ],
+    "seeders": 116
   },
   {
     "id": "tt31392191",
@@ -455,7 +456,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 142
+    "seeders": 104
   },
   {
     "id": "tt28308317",
@@ -470,7 +471,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 74
+    "seeders": 55
   },
   {
     "id": "tt33244668",
@@ -487,6 +488,6 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 62
+    "seeders": 50
   }
 ]
