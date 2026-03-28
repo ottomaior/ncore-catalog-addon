@@ -1,5 +1,24 @@
 [
   {
+    "id": "tt23572848",
+    "type": "movie",
+    "name": "SpongyaBob: Kalózkaland",
+    "poster": "https://image.tmdb.org/t/p/w500/6xL5QICjOrQdCgFfNBkuvhMxOti.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Történetünkben SpongyaBob a tenger mélyére indul, hogy szembenézzen a legendás Repülő Bolonddal. A történet során barátai, Patrick, Tunyacsáp, Sandy és Rák úr is elkísérik, miközben különféle kihívásokkal néznek szembe, és felfedezik az óceán mélyének titkait.  (Csillag Lajos)",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Vígjáték",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 35
+  },
+  {
     "id": "tt14850054",
     "type": "movie",
     "name": "Greenland: Az új menedék",
@@ -14,7 +33,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1032
+    "seeders": 1299
   },
   {
     "id": "tt8036976",
@@ -31,7 +50,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 1221
+    "seeders": 1516
   },
   {
     "id": "tt37976405",
@@ -41,7 +60,7 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.0,
+    "imdbRating": 8.5,
     "releaseInfo": "2025",
     "genres": [
       "Animációs",
@@ -49,7 +68,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 234
+    "seeders": 300
   },
   {
     "id": "tt26678938",
@@ -59,14 +78,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-    "imdbRating": 6.8,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller",
       "Horror"
     ],
-    "seeders": 386
+    "seeders": 479
   },
   {
     "id": "tt15574124",
@@ -82,7 +101,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 837
+    "seeders": 1036
   },
   {
     "id": "tt11539996",
@@ -99,7 +118,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1439
+    "seeders": 1690
   },
   {
     "id": "tt29567915",
@@ -115,7 +134,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1090
+    "seeders": 1290
   },
   {
     "id": "tt39744394",
@@ -132,38 +151,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 162
-  },
-  {
-    "id": "tt32155665",
-    "type": "movie",
-    "name": "53 domingos",
-    "poster": "https://image.tmdb.org/t/p/w500/tlgGaC3OZfs6F9Kcg4as6StvJFG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 69
-  },
-  {
-    "id": "tt28078628",
-    "type": "movie",
-    "name": "Tűzben edzett lélek",
-    "poster": "https://image.tmdb.org/t/p/w500/2UgGQ4ykVzBFKSIPxNFuCf5B0TK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A John O’Leary bestseller memoárjából, az On Fire-ből készült film érzelmes és hittel teli portrét fest a kitartásról, és arról, hogy O’Leary nemcsak a túlélésért küzd, hanem végül felfedezi, mit jelent igazán élni. A frontvonalban dolgozóktól a családtagokon át a tágabb közösség támogatásáig ez a film a hősöket ünnepli.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 91
+    "seeders": 197
   },
   {
     "id": "tt27543632",
@@ -179,7 +167,38 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 901
+    "seeders": 1104
+  },
+  {
+    "id": "tt28078628",
+    "type": "movie",
+    "name": "Tűzben edzett lélek",
+    "poster": "https://image.tmdb.org/t/p/w500/2UgGQ4ykVzBFKSIPxNFuCf5B0TK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A John O’Leary bestseller memoárjából, az On Fire-ből készült film érzelmes és hittel teli portrét fest a kitartásról, és arról, hogy O’Leary nemcsak a túlélésért küzd, hanem végül felfedezi, mit jelent igazán élni. A frontvonalban dolgozóktól a családtagokon át a tágabb közösség támogatásáig ez a film a hősöket ünnepli.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 108
+  },
+  {
+    "id": "tt32155665",
+    "type": "movie",
+    "name": "53 domingos",
+    "poster": "https://image.tmdb.org/t/p/w500/nxUy4A5KFdNVjwqXoFRK8PqZ5vZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 77
   },
   {
     "id": "tt39578551",
@@ -195,7 +214,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 63
+    "seeders": 71
   },
   {
     "id": "tt28779965",
@@ -210,7 +229,22 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 123
+    "seeders": 141
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 277
   },
   {
     "id": "tt35558973",
@@ -226,22 +260,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 83
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 219
+    "seeders": 101
   },
   {
     "id": "tt31807192",
@@ -257,7 +276,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 70
+    "seeders": 91
   },
   {
     "id": "tt11214558",
@@ -273,7 +292,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 299
+    "seeders": 363
   },
   {
     "id": "tt35600130",
@@ -290,7 +309,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 63
+    "seeders": 78
   },
   {
     "id": "tt14905854",
@@ -307,7 +326,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 254
+    "seeders": 291
   },
   {
     "id": "tt36971084",
@@ -323,7 +342,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 101
+    "seeders": 125
   },
   {
     "id": "tt14186876",
@@ -339,7 +358,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 133
+    "seeders": 162
   },
   {
     "id": "tt38133965",
@@ -354,7 +373,7 @@
     "genres": [
       "Családi"
     ],
-    "seeders": 102
+    "seeders": 114
   },
   {
     "id": "tt26452781",
@@ -370,22 +389,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt39345599",
-    "type": "movie",
-    "name": "Műanyagdetox",
-    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 95
+    "seeders": 102
   },
   {
     "id": "tt27424511",
@@ -401,7 +405,41 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 131
+    "seeders": 154
+  },
+  {
+    "id": "tt39345599",
+    "type": "movie",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/lltML74nj0XRdJ4f1J3YCrQcoTj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 109
+  },
+  {
+    "id": "tt26443597",
+    "type": "movie",
+    "name": "Zootropolis 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/qamAIfq1Bcm8pUqbpwLD3lhObT2.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Judy Hoppsz nyomozó és ravasz partnere, Nick Wilde egy rejtélyes hüllő tekergőző nyomába szegődik, miután az fenekestül felforgatja Zootropolist. Az ügy felgöngyölítése érdekében Judy és Nick az állati város olyan szegleteibe merül alá, amik alaposan próbára teszik még formálódó munkakapcsolatukat.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Kaland",
+      "Családi",
+      "Rejtély"
+    ],
+    "seeders": 144
   },
   {
     "id": "tt31909472",
@@ -421,26 +459,7 @@
       "Családi",
       "Zenei"
     ],
-    "seeders": 61
-  },
-  {
-    "id": "tt26443597",
-    "type": "movie",
-    "name": "Zootropolis 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/qamAIfq1Bcm8pUqbpwLD3lhObT2.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Judy Hoppsz nyomozó és ravasz partnere, Nick Wilde egy rejtélyes hüllő tekergőző nyomába szegődik, miután az fenekestül felforgatja Zootropolist. Az ügy felgöngyölítése érdekében Judy és Nick az állati város olyan szegleteibe merül alá, amik alaposan próbára teszik még formálódó munkakapcsolatukat.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Kaland",
-      "Családi",
-      "Rejtély"
-    ],
-    "seeders": 116
+    "seeders": 72
   },
   {
     "id": "tt31392191",
@@ -456,7 +475,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 104
+    "seeders": 122
   },
   {
     "id": "tt28308317",
@@ -471,23 +490,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 55
-  },
-  {
-    "id": "tt33244668",
-    "type": "movie",
-    "name": "Anakonda",
-    "poster": "https://image.tmdb.org/t/p/w500/sXzUrie6C6WPZ1MJQHWI8vq7Pwu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az 1997-ben megjelent Anakonda című thriller humoros újragondolása.  Doug (Jack Black) és Griff (Paul Rudd) kiskölyök koruk óta a legjobb haverok, és világ életükben arról álmodoztak, hogy egyszer filmet csinálnak. Méghozzá gyerekkori kedvencük, az óriáskígyós-dzsungeles-horrorkaland, az Anakonda remake-jét. Kezdik úgy érezni, hogy öregszenek, ezért nem várnak tovább, és minden pénzüket arra költik, hogy az eredeti helyszínen, az Amazonas őserdejében forgathassák újra a régi filmet. Vagyis: nincs pénzük, nem értenek a filmezéshez, és fogalmuk sincs a környék veszélyeiről – minden a legjobban alakul! Kivéve, hogy az őserdőben valóban találkoznak egy elképesztő méretű kígyóval. A vicces káosz halálosan veszélyes káosszá válik. Végül is, sokszor mondták, hogy az életüket adnák a filmért…",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Vígjáték",
-      "Horror"
-    ],
-    "seeders": 50
+    "seeders": 67
   }
 ]
