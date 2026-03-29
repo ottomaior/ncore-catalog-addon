@@ -13,7 +13,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 131
+    "seeders": 48
   },
   {
     "id": "tt14850054",
@@ -30,7 +30,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1913
+    "seeders": 1989
   },
   {
     "id": "tt8036976",
@@ -47,22 +47,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 2310
-  },
-  {
-    "id": "tt33549447",
-    "type": "movie",
-    "name": "Anemone",
-    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 72
+    "seeders": 2466
   },
   {
     "id": "tt37976405",
@@ -71,7 +56,7 @@
     "poster": "https://image.tmdb.org/t/p/w500/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
     "imdbRating": 7.7,
     "releaseInfo": "2025",
     "genres": [
@@ -80,7 +65,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 525
+    "seeders": 551
   },
   {
     "id": "tt27673536",
@@ -97,7 +82,38 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 221
+    "seeders": 234
+  },
+  {
+    "id": "tt33549447",
+    "type": "movie",
+    "name": "Anemone",
+    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 76
+  },
+  {
+    "id": "tt15574124",
+    "type": "movie",
+    "name": "Birmingham bandája: A halhatatlan férfi",
+    "poster": "https://image.tmdb.org/t/p/w500/8JGtiJqt3jKwwTuMgm8QFHtYWwP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután elhidegült fia belekeveredik a nácik ármánykodásába, az önkéntes száműzetésbe vonult király, Tommy Shelby visszatér Birminghambe családja és a nemzet megmentésére.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 1478
   },
   {
     "id": "tt26678938",
@@ -114,23 +130,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 674
-  },
-  {
-    "id": "tt15574124",
-    "type": "movie",
-    "name": "Birmingham bandája: A halhatatlan férfi",
-    "poster": "https://image.tmdb.org/t/p/w500/8JGtiJqt3jKwwTuMgm8QFHtYWwP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután elhidegült fia belekeveredik a nácik ármánykodásába, az önkéntes száműzetésbe vonult király, Tommy Shelby visszatér Birminghambe családja és a nemzet megmentésére.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 1394
+    "seeders": 687
   },
   {
     "id": "tt11539996",
@@ -147,7 +147,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 2161
+    "seeders": 2261
   },
   {
     "id": "tt29567915",
@@ -163,7 +163,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1748
+    "seeders": 1785
   },
   {
     "id": "tt27543632",
@@ -179,7 +179,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1478
+    "seeders": 1585
   },
   {
     "id": "tt39744394",
@@ -189,14 +189,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Három nő válik egy kegyetlen telefonos csalás áldozatává. Az elszenvedett veszteségeik után úgy döntenek, hogy szembeszállnak azzal a bűnszervezettel, amely elvette tőlük nemcsak a pénzüket, hanem a méltóságukat is.",
-    "imdbRating": 7.2,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 221
+    "seeders": 206
   },
   {
     "id": "tt23572848",
@@ -215,7 +215,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 79
+    "seeders": 78
   },
   {
     "id": "tt28078628",
@@ -230,7 +230,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 141
+    "seeders": 139
   },
   {
     "id": "tt28779965",
@@ -245,7 +245,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 187
+    "seeders": 194
   },
   {
     "id": "tt27714581",
@@ -260,23 +260,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 340
-  },
-  {
-    "id": "tt32155665",
-    "type": "movie",
-    "name": "53 vasárnap",
-    "poster": "https://image.tmdb.org/t/p/w500/gxDXLihzhr7yJf7Xs3JXY6V99q8.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Három testvér találkozik nyolcvanéves apjuk ügyében, aki furcsán kezdett viselkedni.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 80
+    "seeders": 353
   },
   {
     "id": "tt39578551",
@@ -291,6 +275,22 @@
     "genres": [
       "Dokumentum",
       "Zenei"
+    ],
+    "seeders": 79
+  },
+  {
+    "id": "tt32155665",
+    "type": "movie",
+    "name": "53 vasárnap",
+    "poster": "https://image.tmdb.org/t/p/w500/gxDXLihzhr7yJf7Xs3JXY6V99q8.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Három testvér találkozik nyolcvanéves apjuk ügyében, aki furcsán kezdett viselkedni.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
     ],
     "seeders": 76
   },
@@ -308,7 +308,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 409
+    "seeders": 426
   },
   {
     "id": "tt35558973",
@@ -324,7 +324,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 114
+    "seeders": 107
   },
   {
     "id": "tt14905854",
@@ -341,7 +341,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 358
+    "seeders": 362
   },
   {
     "id": "tt31807192",
@@ -357,24 +357,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 89
-  },
-  {
-    "id": "tt35600130",
-    "type": "movie",
-    "name": "Royal-ish",
-    "poster": "https://image.tmdb.org/t/p/w500/eviXuwmjoxSRzAz0sdkkvOEjNgh.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "TV film",
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 73
+    "seeders": 80
   },
   {
     "id": "tt36971084",
@@ -390,7 +373,24 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 133
+    "seeders": 137
+  },
+  {
+    "id": "tt35600130",
+    "type": "movie",
+    "name": "Volt egyszer egy királyi nyár",
+    "poster": "https://image.tmdb.org/t/p/w500/eviXuwmjoxSRzAz0sdkkvOEjNgh.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Lacey egy vidámparkban dolgozik, ahol hercegnőt alakít és barátságot köt Rose-zal, egy nyolcéves valódi hercegnővel. Rose jóképű édesapja felkéri Lacey-t, hogy utazzon el velük a királyságukba és vállalja el a kislány nevelőnőjének pozícióját a vidámparki munka helyett.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "TV film",
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 74
   },
   {
     "id": "tt14186876",
@@ -406,7 +406,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 176
+    "seeders": 179
   },
   {
     "id": "tt39345599",
@@ -421,7 +421,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 143
+    "seeders": 153
   },
   {
     "id": "tt26443597",
@@ -440,7 +440,22 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 180
+    "seeders": 191
+  },
+  {
+    "id": "tt38133965",
+    "type": "movie",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi"
+    ],
+    "seeders": 128
   },
   {
     "id": "tt27424511",
@@ -456,7 +471,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 179
+    "seeders": 172
   },
   {
     "id": "tt26452781",
@@ -472,21 +487,6 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 115
-  },
-  {
-    "id": "tt38133965",
-    "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi"
-    ],
-    "seeders": 124
+    "seeders": 108
   }
 ]
