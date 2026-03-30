@@ -13,7 +13,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 299
+    "seeders": 404
   },
   {
     "id": "tt14850054",
@@ -30,7 +30,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1625
+    "seeders": 1862
   },
   {
     "id": "tt8036976",
@@ -47,7 +47,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 162
+    "seeders": 273
   },
   {
     "id": "tt37976405",
@@ -65,40 +65,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 490
-  },
-  {
-    "id": "tt27673536",
-    "type": "movie",
-    "name": "मर्दानी 3",
-    "poster": "https://image.tmdb.org/t/p/w500/dHxLBtHw4InwsVumnthupZYz6NM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Shivani olyan csapdát állít, hogy az elrablók pénzt követeljenek, és ez valóban meg is történik. De a helyzet nem olyan egyszerű, amilyennek látszik, mivel Amma vezette nagy koldusmaffia is kapcsolatban áll az üggyel. Amma és bandája valami nagy dolgot tervez: azonos korú lányokat rabolnak el, és injekciót adnak be nekik. Shivani és a fiatal tiszt, Fatima összeállnak Ramanujan-nal, aki egy alapítványt vezet a kolduskereskedelem áldozatainak megmentésére, és a rendőrség segítségével már több ilyen bandát is felszámolt. Amma tisztában van Shivani félelmet nem ismerő természetével, és a családját veszi célba, miközben Shivani tippet kap a emberrablókról, ami tűzharchoz vezet közöttük. Utána kiderül, hogy Jhimli még mindig eltűnt, Ruhani pedig meghalt.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 235
-  },
-  {
-    "id": "tt26678938",
-    "type": "movie",
-    "name": "Halál cukik",
-    "poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 605
+    "seeders": 560
   },
   {
     "id": "tt15574124",
@@ -114,7 +81,23 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1175
+    "seeders": 1328
+  },
+  {
+    "id": "tt26678938",
+    "type": "movie",
+    "name": "Halál cukik",
+    "poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 650
   },
   {
     "id": "tt11539996",
@@ -131,7 +114,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1807
+    "seeders": 2035
   },
   {
     "id": "tt29567915",
@@ -147,7 +130,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1476
+    "seeders": 1663
   },
   {
     "id": "tt27543632",
@@ -163,7 +146,24 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1280
+    "seeders": 1458
+  },
+  {
+    "id": "tt27673536",
+    "type": "movie",
+    "name": "मर्दानी 3",
+    "poster": "https://image.tmdb.org/t/p/w500/dHxLBtHw4InwsVumnthupZYz6NM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Shivani olyan csapdát állít, hogy az elrablók pénzt követeljenek, és ez valóban meg is történik. De a helyzet nem olyan egyszerű, amilyennek látszik, mivel Amma vezette nagy koldusmaffia is kapcsolatban áll az üggyel. Amma és bandája valami nagy dolgot tervez: azonos korú lányokat rabolnak el, és injekciót adnak be nekik. Shivani és a fiatal tiszt, Fatima összeállnak Ramanujan-nal, aki egy alapítványt vezet a kolduskereskedelem áldozatainak megmentésére, és a rendőrség segítségével már több ilyen bandát is felszámolt. Amma tisztában van Shivani félelmet nem ismerő természetével, és a családját veszi célba, miközben Shivani tippet kap a emberrablókról, ami tűzharchoz vezet közöttük. Utána kiderül, hogy Jhimli még mindig eltűnt, Ruhani pedig meghalt.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 233
   },
   {
     "id": "tt33549447",
@@ -178,7 +178,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 109
+    "seeders": 110
   },
   {
     "id": "tt39744394",
@@ -188,14 +188,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Három nő válik egy kegyetlen telefonos csalás áldozatává. Az elszenvedett veszteségeik után úgy döntenek, hogy szembeszállnak azzal a bűnszervezettel, amely elvette tőlük nemcsak a pénzüket, hanem a méltóságukat is.",
-    "imdbRating": 7.0,
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 189
+    "seeders": 183
   },
   {
     "id": "tt28078628",
@@ -210,7 +210,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 135
+    "seeders": 133
   },
   {
     "id": "tt28779965",
@@ -225,7 +225,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 166
+    "seeders": 168
   },
   {
     "id": "tt27714581",
@@ -240,7 +240,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 302
+    "seeders": 333
   },
   {
     "id": "tt23572848",
@@ -259,7 +259,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 66
+    "seeders": 72
   },
   {
     "id": "tt11214558",
@@ -275,7 +275,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 339
+    "seeders": 383
   },
   {
     "id": "tt32155665",
@@ -291,7 +291,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 69
+    "seeders": 68
   },
   {
     "id": "tt39578551",
@@ -307,23 +307,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 68
-  },
-  {
-    "id": "tt35558973",
-    "type": "movie",
-    "name": "Felséges szerelem",
-    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 98
+    "seeders": 67
   },
   {
     "id": "tt14905854",
@@ -340,7 +324,23 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 305
+    "seeders": 330
+  },
+  {
+    "id": "tt35558973",
+    "type": "movie",
+    "name": "Felséges szerelem",
+    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt31807192",
@@ -372,7 +372,23 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 109
+    "seeders": 121
+  },
+  {
+    "id": "tt14186876",
+    "type": "movie",
+    "name": "Vadásszátok le őket",
+    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 163
   },
   {
     "id": "tt35600130",
@@ -389,7 +405,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 61
+    "seeders": 64
   },
   {
     "id": "tt26443597",
@@ -408,23 +424,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 162
-  },
-  {
-    "id": "tt14186876",
-    "type": "movie",
-    "name": "Vadásszátok le őket",
-    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 141
+    "seeders": 182
   },
   {
     "id": "tt39345599",
@@ -439,7 +439,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 123
+    "seeders": 140
+  },
+  {
+    "id": "tt27424511",
+    "type": "movie",
+    "name": "Felszívódva",
+    "poster": "https://image.tmdb.org/t/p/w500/fxuDQqTAhyF5Xiwh0mks8xH6jAt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután egy erkölcsi csődbe került vállalat megpróbálja fegyverként felhasználni a zseniális tudós forradalmi technológiáját, az emberiség védelme érdekében a tudós eltűnik a nyilvánosság elől. Amikor a vállalat egy zsoldoscsapatot küld utána, elkövetik a legnagyobb hibát: élve akarják elkapni az állig felfegyverkezett férfit.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 158
   },
   {
     "id": "tt38133965",
@@ -457,22 +473,6 @@
     "seeders": 113
   },
   {
-    "id": "tt27424511",
-    "type": "movie",
-    "name": "Felszívódva",
-    "poster": "https://image.tmdb.org/t/p/w500/fxuDQqTAhyF5Xiwh0mks8xH6jAt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután egy erkölcsi csődbe került vállalat megpróbálja fegyverként felhasználni a zseniális tudós forradalmi technológiáját, az emberiség védelme érdekében a tudós eltűnik a nyilvánosság elől. Amikor a vállalat egy zsoldoscsapatot küld utána, elkövetik a legnagyobb hibát: élve akarják elkapni az állig felfegyverkezett férfit.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 156
-  },
-  {
     "id": "tt26452781",
     "type": "movie",
     "name": "Marked Men - Tetovált srácok",
@@ -486,6 +486,6 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 97
+    "seeders": 99
   }
 ]
