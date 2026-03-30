@@ -13,7 +13,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 211
+    "seeders": 299
   },
   {
     "id": "tt14850054",
@@ -30,7 +30,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1422
+    "seeders": 1625
   },
   {
     "id": "tt8036976",
@@ -47,7 +47,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 87
+    "seeders": 162
   },
   {
     "id": "tt37976405",
@@ -65,7 +65,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 431
+    "seeders": 490
   },
   {
     "id": "tt27673536",
@@ -82,7 +82,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 208
+    "seeders": 235
   },
   {
     "id": "tt26678938",
@@ -98,7 +98,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 518
+    "seeders": 605
   },
   {
     "id": "tt15574124",
@@ -114,7 +114,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1000
+    "seeders": 1175
   },
   {
     "id": "tt11539996",
@@ -131,7 +131,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1624
+    "seeders": 1807
   },
   {
     "id": "tt29567915",
@@ -147,7 +147,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1301
+    "seeders": 1476
   },
   {
     "id": "tt27543632",
@@ -163,7 +163,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1139
+    "seeders": 1280
   },
   {
     "id": "tt33549447",
@@ -173,12 +173,12 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
+    "imdbRating": 6.2,
     "releaseInfo": "2025",
     "genres": [
       "Dráma"
     ],
-    "seeders": 71
+    "seeders": 109
   },
   {
     "id": "tt39744394",
@@ -188,14 +188,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Három nő válik egy kegyetlen telefonos csalás áldozatává. Az elszenvedett veszteségeik után úgy döntenek, hogy szembeszállnak azzal a bűnszervezettel, amely elvette tőlük nemcsak a pénzüket, hanem a méltóságukat is.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 173
+    "seeders": 189
   },
   {
     "id": "tt28078628",
@@ -210,7 +210,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 119
+    "seeders": 135
   },
   {
     "id": "tt28779965",
@@ -225,7 +225,22 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 151
+    "seeders": 166
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 302
   },
   {
     "id": "tt23572848",
@@ -244,54 +259,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 64
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 280
-  },
-  {
-    "id": "tt32155665",
-    "type": "movie",
-    "name": "53 vasárnap",
-    "poster": "https://image.tmdb.org/t/p/w500/gxDXLihzhr7yJf7Xs3JXY6V99q8.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Három testvér találkozik nyolcvanéves apjuk ügyében, aki furcsán kezdett viselkedni.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 69
-  },
-  {
-    "id": "tt39578551",
-    "type": "movie",
-    "name": "BTS: 더 리턴",
-    "poster": "https://image.tmdb.org/t/p/w500/d1NVILoUn4hI8zEFNKoP0K5WDgO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 67
+    "seeders": 66
   },
   {
     "id": "tt11214558",
@@ -307,7 +275,39 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 316
+    "seeders": 339
+  },
+  {
+    "id": "tt32155665",
+    "type": "movie",
+    "name": "53 vasárnap",
+    "poster": "https://image.tmdb.org/t/p/w500/gxDXLihzhr7yJf7Xs3JXY6V99q8.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Három testvér találkozik nyolcvanéves apjuk ügyében, aki furcsán kezdett viselkedni.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 69
+  },
+  {
+    "id": "tt39578551",
+    "type": "movie",
+    "name": "BTS: 더 리턴",
+    "poster": "https://image.tmdb.org/t/p/w500/d1NVILoUn4hI8zEFNKoP0K5WDgO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 68
   },
   {
     "id": "tt35558973",
@@ -323,7 +323,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 87
+    "seeders": 98
   },
   {
     "id": "tt14905854",
@@ -340,7 +340,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 284
+    "seeders": 305
   },
   {
     "id": "tt31807192",
@@ -356,7 +356,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 63
+    "seeders": 65
+  },
+  {
+    "id": "tt36971084",
+    "type": "movie",
+    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
+    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 109
   },
   {
     "id": "tt35600130",
@@ -373,69 +389,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 62
-  },
-  {
-    "id": "tt36971084",
-    "type": "movie",
-    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
-    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 105
-  },
-  {
-    "id": "tt14186876",
-    "type": "movie",
-    "name": "Vadásszátok le őket",
-    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 136
-  },
-  {
-    "id": "tt38133965",
-    "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi"
-    ],
-    "seeders": 112
-  },
-  {
-    "id": "tt39345599",
-    "type": "movie",
-    "name": "Műanyagdetox",
-    "poster": "https://image.tmdb.org/t/p/w500/1FuExEaXy9ejGGm6VHCdirvk6zg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 108
+    "seeders": 61
   },
   {
     "id": "tt26443597",
@@ -454,23 +408,53 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 139
+    "seeders": 162
   },
   {
-    "id": "tt26452781",
+    "id": "tt14186876",
     "type": "movie",
-    "name": "Marked Men - Tetovált srácok",
-    "poster": "https://image.tmdb.org/t/p/w500/cssNPoYi1XM0JaiIucUjZXDSjgT.jpg",
+    "name": "Vadásszátok le őket",
+    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Az orvostanhallgató Shaw titokban évek óta szerelmes Rule-ba, a lázadó szellemű tetoválóművészbe, noha a srác számára a lány csak a család barátja, a kis „Casper”, ahogy gyerekkoruk óta tréfásan hívja őt sápadt arcbőre miatt. Rule-nak és haverjainak, akikkel együtt nyomja a szalonban, a szabad, kötetlen élet mindennél többet jelent. Egy átmulatott este után azonban a Shaw-val való kapcsolata fordulóponthoz érkezik. Kénytelenek lesznek szembenézni elfojtott érzelmeikkel, miközben sosem múló gyász, ismerőseik elvárásai és az elkötelezettségtől való félelem is mind-mind nehezítik helyzetüket. Idővel azonban el kell dönteniük, hogy két ennyire különböző hátterű ember szerelme csakugyan életképes-e. Egy biztos: ez a szerelem nyomot fog hagyni rajtuk.",
-    "imdbRating": 6.7,
+    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
+    "imdbRating": 6.8,
     "releaseInfo": "2025",
     "genres": [
-      "Romantikus",
-      "Dráma"
+      "Dráma",
+      "Thriller"
     ],
-    "seeders": 91
+    "seeders": 141
+  },
+  {
+    "id": "tt39345599",
+    "type": "movie",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/1FuExEaXy9ejGGm6VHCdirvk6zg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 123
+  },
+  {
+    "id": "tt38133965",
+    "type": "movie",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi"
+    ],
+    "seeders": 113
   },
   {
     "id": "tt27424511",
@@ -486,6 +470,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 138
+    "seeders": 156
+  },
+  {
+    "id": "tt26452781",
+    "type": "movie",
+    "name": "Marked Men - Tetovált srácok",
+    "poster": "https://image.tmdb.org/t/p/w500/cssNPoYi1XM0JaiIucUjZXDSjgT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az orvostanhallgató Shaw titokban évek óta szerelmes Rule-ba, a lázadó szellemű tetoválóművészbe, noha a srác számára a lány csak a család barátja, a kis „Casper”, ahogy gyerekkoruk óta tréfásan hívja őt sápadt arcbőre miatt. Rule-nak és haverjainak, akikkel együtt nyomja a szalonban, a szabad, kötetlen élet mindennél többet jelent. Egy átmulatott este után azonban a Shaw-val való kapcsolata fordulóponthoz érkezik. Kénytelenek lesznek szembenézni elfojtott érzelmeikkel, miközben sosem múló gyász, ismerőseik elvárásai és az elkötelezettségtől való félelem is mind-mind nehezítik helyzetüket. Idővel azonban el kell dönteniük, hogy két ennyire különböző hátterű ember szerelme csakugyan életképes-e. Egy biztos: ez a szerelem nyomot fog hagyni rajtuk.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 97
   }
 ]
