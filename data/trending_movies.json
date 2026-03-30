@@ -13,24 +13,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 145
-  },
-  {
-    "id": "tt8036976",
-    "type": "movie",
-    "name": "Segítség!",
-    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 63
+    "seeders": 211
   },
   {
     "id": "tt14850054",
@@ -47,7 +30,24 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1218
+    "seeders": 1422
+  },
+  {
+    "id": "tt8036976",
+    "type": "movie",
+    "name": "Segítség!",
+    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 87
   },
   {
     "id": "tt37976405",
@@ -65,7 +65,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 361
+    "seeders": 431
   },
   {
     "id": "tt27673536",
@@ -82,7 +82,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 182
+    "seeders": 208
   },
   {
     "id": "tt26678938",
@@ -96,10 +96,9 @@
     "releaseInfo": "2026",
     "genres": [
       "Akció",
-      "Thriller",
-      "Horror"
+      "Thriller"
     ],
-    "seeders": 441
+    "seeders": 518
   },
   {
     "id": "tt15574124",
@@ -115,7 +114,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 839
+    "seeders": 1000
   },
   {
     "id": "tt11539996",
@@ -132,7 +131,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1400
+    "seeders": 1624
   },
   {
     "id": "tt29567915",
@@ -148,22 +147,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1129
-  },
-  {
-    "id": "tt33549447",
-    "type": "movie",
-    "name": "Anemone",
-    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 65
+    "seeders": 1301
   },
   {
     "id": "tt27543632",
@@ -179,7 +163,22 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 965
+    "seeders": 1139
+  },
+  {
+    "id": "tt33549447",
+    "type": "movie",
+    "name": "Anemone",
+    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt39744394",
@@ -196,7 +195,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 149
+    "seeders": 173
   },
   {
     "id": "tt28078628",
@@ -211,26 +210,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 105
-  },
-  {
-    "id": "tt23572848",
-    "type": "movie",
-    "name": "SpongyaBob: Kalózkaland",
-    "poster": "https://image.tmdb.org/t/p/w500/6xL5QICjOrQdCgFfNBkuvhMxOti.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Történetünkben SpongyaBob a tenger mélyére indul, hogy szembenézzen a legendás Repülő Bolonddal. A történet során barátai, Patrick, Tunyacsáp, Sandy és Rák úr is elkísérik, miközben különféle kihívásokkal néznek szembe, és felfedezik az óceán mélyének titkait.  (Csillag Lajos)",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Vígjáték",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 62
+    "seeders": 119
   },
   {
     "id": "tt28779965",
@@ -245,7 +225,26 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 135
+    "seeders": 151
+  },
+  {
+    "id": "tt23572848",
+    "type": "movie",
+    "name": "SpongyaBob: Kalózkaland",
+    "poster": "https://image.tmdb.org/t/p/w500/6xL5QICjOrQdCgFfNBkuvhMxOti.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Történetünkben SpongyaBob a tenger mélyére indul, hogy szembenézzen a legendás Repülő Bolonddal. A történet során barátai, Patrick, Tunyacsáp, Sandy és Rák úr is elkísérik, miközben különféle kihívásokkal néznek szembe, és felfedezik az óceán mélyének titkait.  (Csillag Lajos)",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Vígjáték",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 64
   },
   {
     "id": "tt27714581",
@@ -260,7 +259,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 239
+    "seeders": 280
   },
   {
     "id": "tt32155665",
@@ -270,13 +269,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Három testvér találkozik nyolcvanéves apjuk ügyében, aki furcsán kezdett viselkedni.",
-    "imdbRating": 6.2,
+    "imdbRating": 5.9,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 64
+    "seeders": 69
   },
   {
     "id": "tt39578551",
@@ -292,7 +291,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 56
+    "seeders": 67
   },
   {
     "id": "tt11214558",
@@ -308,7 +307,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 269
+    "seeders": 316
   },
   {
     "id": "tt35558973",
@@ -324,7 +323,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 80
+    "seeders": 87
   },
   {
     "id": "tt14905854",
@@ -341,7 +340,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 249
+    "seeders": 284
   },
   {
     "id": "tt31807192",
@@ -357,23 +356,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 57
-  },
-  {
-    "id": "tt36971084",
-    "type": "movie",
-    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
-    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 94
+    "seeders": 63
   },
   {
     "id": "tt35600130",
@@ -390,38 +373,23 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 52
+    "seeders": 62
   },
   {
-    "id": "tt38133965",
+    "id": "tt36971084",
     "type": "movie",
-    "name": "Bluey nagy színdarabja",
-    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
+    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
-    "imdbRating": 9.0,
+    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
+    "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
-      "Családi"
+      "Dokumentum",
+      "Zenei"
     ],
-    "seeders": 106
-  },
-  {
-    "id": "tt27424511",
-    "type": "movie",
-    "name": "Felszívódva",
-    "poster": "https://image.tmdb.org/t/p/w500/fxuDQqTAhyF5Xiwh0mks8xH6jAt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután egy erkölcsi csődbe került vállalat megpróbálja fegyverként felhasználni a zseniális tudós forradalmi technológiáját, az emberiség védelme érdekében a tudós eltűnik a nyilvánosság elől. Amikor a vállalat egy zsoldoscsapatot küld utána, elkövetik a legnagyobb hibát: élve akarják elkapni az állig felfegyverkezett férfit.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 133
+    "seeders": 105
   },
   {
     "id": "tt14186876",
@@ -437,7 +405,37 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 113
+    "seeders": 136
+  },
+  {
+    "id": "tt38133965",
+    "type": "movie",
+    "name": "Bluey nagy színdarabja",
+    "poster": "https://image.tmdb.org/t/p/w500/pPy4mwfqtpAM718RsRLNWLLeror.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Apa egy kis pihenésre vágyik, Bluey-nek és Bingónak egészen más tervei vannak! Tarts velük, miközben minden játékot és trükköt bevetnek, hogy felkeltsék Apát a babzsákfotelből!",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi"
+    ],
+    "seeders": 112
+  },
+  {
+    "id": "tt39345599",
+    "type": "movie",
+    "name": "Műanyagdetox",
+    "poster": "https://image.tmdb.org/t/p/w500/1FuExEaXy9ejGGm6VHCdirvk6zg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 108
   },
   {
     "id": "tt26443597",
@@ -456,22 +454,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt39345599",
-    "type": "movie",
-    "name": "Műanyagdetox",
-    "poster": "https://image.tmdb.org/t/p/w500/1FuExEaXy9ejGGm6VHCdirvk6zg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Gondolatébresztő dokumentumfilm hat párról, akik megmagyarázhatatlan terméketlenség miatt csökkentik kitettségüket a műanyagoknak, hátha ez segít nekik a gyerekvállalásban.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 96
+    "seeders": 139
   },
   {
     "id": "tt26452781",
@@ -487,6 +470,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 81
+    "seeders": 91
+  },
+  {
+    "id": "tt27424511",
+    "type": "movie",
+    "name": "Felszívódva",
+    "poster": "https://image.tmdb.org/t/p/w500/fxuDQqTAhyF5Xiwh0mks8xH6jAt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután egy erkölcsi csődbe került vállalat megpróbálja fegyverként felhasználni a zseniális tudós forradalmi technológiáját, az emberiség védelme érdekében a tudós eltűnik a nyilvánosság elől. Amikor a vállalat egy zsoldoscsapatot küld utána, elkövetik a legnagyobb hibát: élve akarják elkapni az állig felfegyverkezett férfit.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 138
   }
 ]
