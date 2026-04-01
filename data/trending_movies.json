@@ -1,33 +1,19 @@
 [
   {
-    "id": "tt39773309",
+    "id": "tt32430579",
     "type": "movie",
-    "name": "El último gigante",
-    "poster": "https://image.tmdb.org/t/p/w500/lARMzlnHtusEnY8LrTmNID92CJo.jpg",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "description": "A napsütötte, poros Los Angelesben játszódó Crime 101 egy titokzatos ékszertolvaj (Chris Hemsworth) történetét meséli el, aki a legendás 101-es autópálya mentén végrehajtott, milliós zsákmányú rablásaival hosszú ideje bolondot csinál a hatóságokból. Amikor végre az utolsó nagy dobására készül, amely után kiszállna, útja keresztezi egy kiégett biztosítási szakemberét (Halle Berry), aki maga is válaszút elé érkezett. A sors rákényszeríti őket az együttműködésre.  Időközben egy makacs és hajthatatlan nyomozó (Mark Ruffalo) egyre közelebb kerül az ügy megoldásához, ezzel tovább fokozva a feszültséget. Ahogy közeleg a többmillió dolláros rablás napja, a szerepek összemosódnak, és mindhárom szereplőnek szembe kell néznie tettei következményeivel, és azzal a felismeréssel, hogy már nincs visszaút.  (Gergo Horvath)",
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Bűnügyi",
+      "Thriller"
     ],
-    "seeders": 55
-  },
-  {
-    "id": "tt39465484",
-    "type": "movie",
-    "name": "Eat Pray Bark",
-    "poster": "https://image.tmdb.org/t/p/w500/kZ0ntedjG2X6hZ7upzupeUe2g5n.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 50
+    "seeders": 594
   },
   {
     "id": "tt1757678",
@@ -44,7 +30,52 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 2460
+    "seeders": 3018
+  },
+  {
+    "id": "tt29720283",
+    "type": "movie",
+    "name": "Thinestra",
+    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 123
+  },
+  {
+    "id": "tt39465484",
+    "type": "movie",
+    "name": "Ízek, imák, kutyák",
+    "poster": "https://image.tmdb.org/t/p/w500/zzjhOgtbXePGcKuacjeDmy5t4RH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 74
+  },
+  {
+    "id": "tt39773309",
+    "type": "movie",
+    "name": "Az utolsó óriás",
+    "poster": "https://image.tmdb.org/t/p/w500/rxQE2GmdabPcLQtrG0ik2MYyMu3.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 73
   },
   {
     "id": "tt32606470",
@@ -61,7 +92,22 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 226
+    "seeders": 271
+  },
+  {
+    "id": "tt38681815",
+    "type": "movie",
+    "name": "Összefog a falu",
+    "poster": "https://image.tmdb.org/t/p/w500/cXxFrrKMMu4gipC8kVoplzo0HAr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy falu összefog, mikor egyik tagjuknak pénzügyi gondjai támadnak, és létrehoznak egy ufókkal kapcsolatos eseményt a turisták bevonzására.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 60
   },
   {
     "id": "tt14850054",
@@ -78,7 +124,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1389
+    "seeders": 1566
   },
   {
     "id": "tt32897959",
@@ -94,7 +140,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 438
+    "seeders": 484
   },
   {
     "id": "tt8036976",
@@ -111,25 +157,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 324
-  },
-  {
-    "id": "tt37976405",
-    "type": "movie",
-    "name": "Versa",
-    "poster": "https://image.tmdb.org/t/p/w500/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Dráma",
-      "Fantasy"
-    ],
-    "seeders": 427
+    "seeders": 370
   },
   {
     "id": "tt11539996",
@@ -146,7 +174,25 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1549
+    "seeders": 1720
+  },
+  {
+    "id": "tt37976405",
+    "type": "movie",
+    "name": "Versa",
+    "poster": "https://image.tmdb.org/t/p/w500/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Dráma",
+      "Fantasy"
+    ],
+    "seeders": 470
   },
   {
     "id": "tt29567915",
@@ -162,7 +208,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1261
+    "seeders": 1407
   },
   {
     "id": "tt15574124",
@@ -178,7 +224,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 899
+    "seeders": 1058
   },
   {
     "id": "tt27543632",
@@ -194,7 +240,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1072
+    "seeders": 1228
   },
   {
     "id": "tt26678938",
@@ -211,7 +257,7 @@
       "Thriller",
       "Zenei"
     ],
-    "seeders": 487
+    "seeders": 547
   },
   {
     "id": "tt40224397",
@@ -226,7 +272,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 55
+    "seeders": 61
   },
   {
     "id": "tt27673536",
@@ -243,7 +289,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 179
+    "seeders": 199
   },
   {
     "id": "tt39744394",
@@ -260,7 +306,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 163
+    "seeders": 171
   },
   {
     "id": "tt27714581",
@@ -275,22 +321,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 278
-  },
-  {
-    "id": "tt28779965",
-    "type": "movie",
-    "name": "Finnik - Jó a szörny a háznál",
-    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs"
-    ],
-    "seeders": 147
+    "seeders": 307
   },
   {
     "id": "tt33549447",
@@ -305,7 +336,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 78
+    "seeders": 86
+  },
+  {
+    "id": "tt28779965",
+    "type": "movie",
+    "name": "Finnik - Jó a szörny a háznál",
+    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs"
+    ],
+    "seeders": 145
   },
   {
     "id": "tt28078628",
@@ -320,7 +366,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 105
+    "seeders": 118
   },
   {
     "id": "tt11214558",
@@ -336,7 +382,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 294
+    "seeders": 325
   },
   {
     "id": "tt14905854",
@@ -353,23 +399,7 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 263
-  },
-  {
-    "id": "tt32155665",
-    "type": "movie",
-    "name": "53 vasárnap",
-    "poster": "https://image.tmdb.org/t/p/w500/nxUy4A5KFdNVjwqXoFRK8PqZ5vZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor három testvér megegyezik, hogy találkozzanak megbeszélni idős apjuk jövőjét, az esemény veszekedésbe, gúnyolódásba és régi sérelmek felhánytorgatásába torkollik.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 63
+    "seeders": 290
   },
   {
     "id": "tt23572848",
@@ -388,7 +418,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 48
+    "seeders": 57
+  },
+  {
+    "id": "tt32155665",
+    "type": "movie",
+    "name": "53 vasárnap",
+    "poster": "https://image.tmdb.org/t/p/w500/nxUy4A5KFdNVjwqXoFRK8PqZ5vZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor három testvér megegyezik, hogy találkozzanak megbeszélni idős apjuk jövőjét, az esemény veszekedésbe, gúnyolódásba és régi sérelmek felhánytorgatásába torkollik.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 66
   },
   {
     "id": "tt35558973",
@@ -404,7 +450,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 76
+    "seeders": 82
   },
   {
     "id": "tt39578551",
@@ -420,23 +466,7 @@
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt36971084",
-    "type": "movie",
-    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
-    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 97
+    "seeders": 59
   },
   {
     "id": "tt31807192",
@@ -452,41 +482,6 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 54
-  },
-  {
-    "id": "tt14186876",
-    "type": "movie",
-    "name": "Vadásszátok le őket",
-    "poster": "https://image.tmdb.org/t/p/w500/2jskL5eOFTQknpRalJ4chVYyuFo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy ír pásztorcsalád több fronton is harcba keveredik: belső viszályok, családon belüli ellenségeskedés, rivalizálás egy másik gazdával. A paternalizmus, az örökség és a generációs trauma körforgása Írország kulturális prizmáján keresztül.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 132
-  },
-  {
-    "id": "tt26443597",
-    "type": "movie",
-    "name": "Zootropolis 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/qamAIfq1Bcm8pUqbpwLD3lhObT2.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Judy Hoppsz nyomozó és ravasz partnere, Nick Wilde egy rejtélyes hüllő tekergőző nyomába szegődik, miután az fenekestül felforgatja Zootropolist. Az ügy felgöngyölítése érdekében Judy és Nick az állati város olyan szegleteibe merül alá, amik alaposan próbára teszik még formálódó munkakapcsolatukat.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Kaland",
-      "Családi",
-      "Rejtély"
-    ],
-    "seeders": 127
+    "seeders": 62
   }
 ]
