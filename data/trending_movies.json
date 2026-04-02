@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 598
+  },
+  {
     "id": "tt1757678",
     "type": "movie",
     "name": "Avatar: Tűz és Hamu",
@@ -14,7 +31,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 2986
+    "seeders": 3271
   },
   {
     "id": "tt32430579",
@@ -30,16 +47,16 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 916
+    "seeders": 1121
   },
   {
     "id": "tt9612976",
     "type": "movie",
-    "name": "Tafiti - Ab durch die Wüste",
+    "name": "Tafiti és Pamacs",
     "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
     "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
@@ -47,53 +64,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 104
-  },
-  {
-    "id": "tt33306253",
-    "type": "movie",
-    "name": "Én vagyok a világ vége",
-    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 86
-  },
-  {
-    "id": "tt29720283",
-    "type": "movie",
-    "name": "Thinestra",
-    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 177
-  },
-  {
-    "id": "tt30323611",
-    "type": "movie",
-    "name": "Az elkövetkező napok",
-    "poster": "https://image.tmdb.org/t/p/w500/4P3mSEpMtDdxUa2vGEQxfjCZND1.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután kiszabadul egy bántalmazó kapcsolatból, egy szingli anya megismerkedik exe új barátnőjével, és együtt próbálnak kitörni a férfi befolyása alól.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 67
+    "seeders": 138
   },
   {
     "id": "tt14850054",
@@ -110,7 +81,37 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1352
+    "seeders": 1562
+  },
+  {
+    "id": "tt29720283",
+    "type": "movie",
+    "name": "Thinestra",
+    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 209
+  },
+  {
+    "id": "tt33306253",
+    "type": "movie",
+    "name": "Én vagyok a világ vége",
+    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 115
   },
   {
     "id": "tt32606470",
@@ -120,14 +121,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.3,
+    "imdbRating": 7.4,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Akció",
       "Dráma"
     ],
-    "seeders": 250
+    "seeders": 290
   },
   {
     "id": "tt32897959",
@@ -137,43 +138,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.4,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 467
+    "seeders": 521
   },
   {
-    "id": "tt39773309",
+    "id": "tt30323611",
     "type": "movie",
-    "name": "Az utolsó óriás",
-    "poster": "https://image.tmdb.org/t/p/w500/rxQE2GmdabPcLQtrG0ik2MYyMu3.jpg",
+    "name": "Az elkövetkező napok",
+    "poster": "https://image.tmdb.org/t/p/w500/4P3mSEpMtDdxUa2vGEQxfjCZND1.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
-    "imdbRating": 3.2,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Miután kiszabadul egy bántalmazó kapcsolatból, egy szingli anya megismerkedik exe új barátnőjével, és együtt próbálnak kitörni a férfi befolyása alól.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
     "genres": [
-      "Dráma"
-    ],
-    "seeders": 73
-  },
-  {
-    "id": "tt39465484",
-    "type": "movie",
-    "name": "Ízek, imák, kutyák",
-    "poster": "https://image.tmdb.org/t/p/w500/rQdmyrSU0ySNkZMOq3URaDhUvdq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
+      "Dráma",
       "Vígjáték"
     ],
-    "seeders": 100
+    "seeders": 85
   },
   {
     "id": "tt8036976",
@@ -190,24 +177,37 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 328
+    "seeders": 397
   },
   {
-    "id": "tt11539996",
+    "id": "tt39465484",
     "type": "movie",
-    "name": "Kontakt",
-    "poster": "https://image.tmdb.org/t/p/w500/zi4pvq1HJYj851svkeqJCmCrMTH.jpg",
+    "name": "Ízek, imák, kutyák",
+    "poster": "https://image.tmdb.org/t/p/w500/rQdmyrSU0ySNkZMOq3URaDhUvdq.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A Relay-ben Riz Ahmed egy világklasszis „fixert” alakít, aki arra specializálódott, hogy jövedelmező kifizetéseket közvetítsen korrupt vállalatok és a tönkremenetelüket fenyegető személyek között. Személyazonosságát aprólékos tervezéssel tartja titokban és mindig szigorú szabályokat követ. Amikor azonban egy nap üzenet érkezik egy potenciális ügyféltől (Lily James), akinek a védelmére van szüksége, csak hogy életben maradjon, a szabályok gyorsan megváltoznak.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Dráma",
-      "Thriller"
+      "Vígjáték"
     ],
-    "seeders": 1535
+    "seeders": 119
+  },
+  {
+    "id": "tt39773309",
+    "type": "movie",
+    "name": "Az utolsó óriás",
+    "poster": "https://image.tmdb.org/t/p/w500/rxQE2GmdabPcLQtrG0ik2MYyMu3.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
+    "imdbRating": 4.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 80
   },
   {
     "id": "tt29567915",
@@ -223,7 +223,39 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1254
+    "seeders": 1404
+  },
+  {
+    "id": "tt15574124",
+    "type": "movie",
+    "name": "Birmingham bandája: A halhatatlan férfi",
+    "poster": "https://image.tmdb.org/t/p/w500/8JGtiJqt3jKwwTuMgm8QFHtYWwP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután elhidegült fia belekeveredik a nácik ármánykodásába, az önkéntes száműzetésbe vonult király, Tommy Shelby visszatér Birminghambe családja és a nemzet megmentésére.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 1060
+  },
+  {
+    "id": "tt27543632",
+    "type": "movie",
+    "name": "The Housemaid - A téboly otthona",
+    "poster": "https://image.tmdb.org/t/p/w500/kQIKRsWvfBdKYexcMsEuaBU7fLI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A téboly otthona című feszült thriller alapjául a világsikerű könyv szolgált. Egy olyan kifacsart világba repíti a nézőket, ahol a tökéletesség csak illúzió, semmi sem az, aminek látszik. Millie (Sydney Sweeney) megpróbál elmenekülni a múltja elől, ezért elfogad egy bentlakásos állást a gazdag Nina (Amanda Seyfried) és Andrew Winchester (Brandon Sklenar) házvezetőnőjeként. Ám ami valóságos álommelónak indul, gyorsan alakul át valami egészen szörnyű és veszélyes dologgá: szexi, csábító titkok, botrányok övezte hatalmi játszmává. Winchesterék zárt ajtói mögött egy sokkoló világ rejtőzik, csupa váratlan fordulattal, amelyeket a néző a film végéig találgathat.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Rejtély",
+      "Thriller"
+    ],
+    "seeders": 1220
   },
   {
     "id": "tt37976405",
@@ -241,55 +273,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 413
-  },
-  {
-    "id": "tt15574124",
-    "type": "movie",
-    "name": "Birmingham bandája: A halhatatlan férfi",
-    "poster": "https://image.tmdb.org/t/p/w500/8JGtiJqt3jKwwTuMgm8QFHtYWwP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután elhidegült fia belekeveredik a nácik ármánykodásába, az önkéntes száműzetésbe vonult király, Tommy Shelby visszatér Birminghambe családja és a nemzet megmentésére.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 883
-  },
-  {
-    "id": "tt38681815",
-    "type": "movie",
-    "name": "Összefog a falu",
-    "poster": "https://image.tmdb.org/t/p/w500/cXxFrrKMMu4gipC8kVoplzo0HAr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy falu összefog, mikor egyik tagjuknak pénzügyi gondjai támadnak, és létrehoznak egy ufókkal kapcsolatos eseményt a turisták bevonzására.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 62
-  },
-  {
-    "id": "tt27543632",
-    "type": "movie",
-    "name": "The Housemaid - A téboly otthona",
-    "poster": "https://image.tmdb.org/t/p/w500/kQIKRsWvfBdKYexcMsEuaBU7fLI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A téboly otthona című feszült thriller alapjául a világsikerű könyv szolgált. Egy olyan kifacsart világba repíti a nézőket, ahol a tökéletesség csak illúzió, semmi sem az, aminek látszik. Millie (Sydney Sweeney) megpróbál elmenekülni a múltja elől, ezért elfogad egy bentlakásos állást a gazdag Nina (Amanda Seyfried) és Andrew Winchester (Brandon Sklenar) házvezetőnőjeként. Ám ami valóságos álommelónak indul, gyorsan alakul át valami egészen szörnyű és veszélyes dologgá: szexi, csábító titkok, botrányok övezte hatalmi játszmává. Winchesterék zárt ajtói mögött egy sokkoló világ rejtőzik, csupa váratlan fordulattal, amelyeket a néző a film végéig találgathat.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Rejtély",
-      "Thriller"
-    ],
-    "seeders": 1076
+    "seeders": 458
   },
   {
     "id": "tt26678938",
@@ -306,7 +290,23 @@
       "Thriller",
       "Zenei"
     ],
-    "seeders": 485
+    "seeders": 569
+  },
+  {
+    "id": "tt38681815",
+    "type": "movie",
+    "name": "Összefog a falu",
+    "poster": "https://image.tmdb.org/t/p/w500/cXxFrrKMMu4gipC8kVoplzo0HAr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy falu összefog, mikor egyik tagjuknak pénzügyi gondjai támadnak, és létrehoznak egy ufókkal kapcsolatos eseményt a turisták bevonzására.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 64
   },
   {
     "id": "tt27673536",
@@ -323,7 +323,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 162
+    "seeders": 176
   },
   {
     "id": "tt40224397",
@@ -341,6 +341,21 @@
     "seeders": 54
   },
   {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 294
+  },
+  {
     "id": "tt39744394",
     "type": "movie",
     "name": "A vonal másik oldalán",
@@ -355,22 +370,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 149
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 267
+    "seeders": 161
   },
   {
     "id": "tt28779965",
@@ -385,7 +385,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 138
+    "seeders": 152
   },
   {
     "id": "tt28078628",
@@ -400,22 +400,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 106
-  },
-  {
-    "id": "tt33549447",
-    "type": "movie",
-    "name": "Anemone",
-    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 75
+    "seeders": 113
   },
   {
     "id": "tt11214558",
@@ -431,7 +416,22 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 288
+    "seeders": 312
+  },
+  {
+    "id": "tt33549447",
+    "type": "movie",
+    "name": "Anemone",
+    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 79
   },
   {
     "id": "tt14905854",
@@ -448,23 +448,24 @@
       "Romantikus",
       "Történelmi"
     ],
-    "seeders": 244
+    "seeders": 264
   },
   {
-    "id": "tt32155665",
+    "id": "tt11539996",
     "type": "movie",
-    "name": "53 vasárnap",
-    "poster": "https://image.tmdb.org/t/p/w500/nxUy4A5KFdNVjwqXoFRK8PqZ5vZ.jpg",
+    "name": "Kontakt",
+    "poster": "https://image.tmdb.org/t/p/w500/zi4pvq1HJYj851svkeqJCmCrMTH.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor három testvér megegyezik, hogy találkozzanak megbeszélni idős apjuk jövőjét, az esemény veszekedésbe, gúnyolódásba és régi sérelmek felhánytorgatásába torkollik.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A Relay-ben Riz Ahmed egy világklasszis „fixert” alakít, aki arra specializálódott, hogy jövedelmező kifizetéseket közvetítsen korrupt vállalatok és a tönkremenetelüket fenyegető személyek között. Személyazonosságát aprólékos tervezéssel tartja titokban és mindig szigorú szabályokat követ. Amikor azonban egy nap üzenet érkezik egy potenciális ügyféltől (Lily James), akinek a védelmére van szüksége, csak hogy életben maradjon, a szabályok gyorsan megváltoznak.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Dráma"
+      "Akció",
+      "Dráma",
+      "Thriller"
     ],
-    "seeders": 62
+    "seeders": 230
   },
   {
     "id": "tt23572848",
@@ -483,6 +484,6 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 49
+    "seeders": 58
   }
 ]
