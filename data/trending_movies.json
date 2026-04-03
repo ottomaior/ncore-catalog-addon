@@ -14,38 +14,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1583
-  },
-  {
-    "id": "tt32572716",
-    "type": "movie",
-    "name": "The Truth and Tragedy of Moriah Wilson",
-    "poster": "https://image.tmdb.org/t/p/w500/5VdcUIbJ9tBq7mpGB5gfZrY0IQ1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 60
-  },
-  {
-    "id": "tt38589464",
-    "type": "movie",
-    "name": "Non abbiam bisogno di parole",
-    "poster": "https://image.tmdb.org/t/p/w500/ptWVRyHpDYDoU1vWR2jBQOFSE24.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 57
+    "seeders": 1842
   },
   {
     "id": "tt32430579",
@@ -61,7 +30,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1665
+    "seeders": 1846
   },
   {
     "id": "tt1757678",
@@ -78,7 +47,38 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 832
+    "seeders": 1048
+  },
+  {
+    "id": "tt32572716",
+    "type": "movie",
+    "name": "Moriah Wilson tragikus története",
+    "poster": "https://image.tmdb.org/t/p/w500/5VdcUIbJ9tBq7mpGB5gfZrY0IQ1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy bensőséges portré Moriah Wilson kerékpárosról, akit egy szerető család nevelt fel, melynek ereje a sporolói karrier csúcsáig repítette, mielőtt tragikusan meggyilkolták.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 76
+  },
+  {
+    "id": "tt38589464",
+    "type": "movie",
+    "name": "A saját hangom",
+    "poster": "https://image.tmdb.org/t/p/w500/ptWVRyHpDYDoU1vWR2jBQOFSE24.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tinédzser, egy siket család egyetlen halló tagja, az éneklés iránti szenvedélye révén megtalálja a hangját és megtanul hinni önmagában.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 60
   },
   {
     "id": "tt14850054",
@@ -95,7 +95,23 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1773
+    "seeders": 1901
+  },
+  {
+    "id": "tt32897959",
+    "type": "movie",
+    "name": "“Üvöltő szelek”",
+    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 621
   },
   {
     "id": "tt9612976",
@@ -112,55 +128,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 209
-  },
-  {
-    "id": "tt29720283",
-    "type": "movie",
-    "name": "Thinestra",
-    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 257
-  },
-  {
-    "id": "tt32897959",
-    "type": "movie",
-    "name": "“Üvöltő szelek”",
-    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 571
-  },
-  {
-    "id": "tt32606470",
-    "type": "movie",
-    "name": "휴민트",
-    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 316
+    "seeders": 223
   },
   {
     "id": "tt8036976",
@@ -177,7 +145,39 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 493
+    "seeders": 536
+  },
+  {
+    "id": "tt32606470",
+    "type": "movie",
+    "name": "휴민트",
+    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 332
+  },
+  {
+    "id": "tt29720283",
+    "type": "movie",
+    "name": "Thinestra",
+    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 246
   },
   {
     "id": "tt33306253",
@@ -192,23 +192,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 165
-  },
-  {
-    "id": "tt29567915",
-    "type": "movie",
-    "name": "Nürnberg",
-    "poster": "https://image.tmdb.org/t/p/w500/zCXd8hYLEjjPglPXIOIdI0fVgy.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 1537
+    "seeders": 168
   },
   {
     "id": "tt15574124",
@@ -224,7 +208,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1143
+    "seeders": 1244
   },
   {
     "id": "tt27543632",
@@ -240,7 +224,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1333
+    "seeders": 1420
   },
   {
     "id": "tt37976405",
@@ -258,7 +242,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 461
+    "seeders": 495
   },
   {
     "id": "tt26678938",
@@ -276,7 +260,7 @@
       "Zenei",
       "Horror"
     ],
-    "seeders": 586
+    "seeders": 599
   },
   {
     "id": "tt39465484",
@@ -291,7 +275,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 136
+    "seeders": 139
   },
   {
     "id": "tt30323611",
@@ -307,13 +291,13 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 93
+    "seeders": 97
   },
   {
     "id": "tt39773309",
     "type": "movie",
     "name": "Az utolsó óriás",
-    "poster": "https://image.tmdb.org/t/p/w500/rxQE2GmdabPcLQtrG0ik2MYyMu3.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/B1T4YXBS4B5TR2fVFOomCKXRuc.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
@@ -322,7 +306,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 98
+    "seeders": 96
   },
   {
     "id": "tt27673536",
@@ -339,7 +323,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 191
+    "seeders": 202
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 334
   },
   {
     "id": "tt38681815",
@@ -355,22 +354,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 59
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 303
+    "seeders": 55
   },
   {
     "id": "tt39744394",
@@ -387,23 +371,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 164
-  },
-  {
-    "id": "tt11214558",
-    "type": "movie",
-    "name": "Zúzógép",
-    "poster": "https://image.tmdb.org/t/p/w500/a7Szhdfb9yRjDvo9R3lX3pfYuka.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Zúzógép egy dráma, amely Mark Kerr, a legendás MMA-harcos története alapján készült, aki a UFC korszakában, karrierje csúcsán, a korlátok nélkül harcolt. Küzd a függőséggel, a győzelemmel, a szerelemmel és a barátsággal a 2000-es években.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 331
+    "seeders": 161
   },
   {
     "id": "tt28779965",
@@ -418,7 +386,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 150
+    "seeders": 162
   },
   {
     "id": "tt28078628",
@@ -433,22 +401,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 115
-  },
-  {
-    "id": "tt40224397",
-    "type": "movie",
-    "name": "Első kézből: Lamar Odom élete és halála",
-    "poster": "https://image.tmdb.org/t/p/w500/9Go8VKSzJIzn65b9c9l02ymHRlv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lamar Odom élete és pályafutása az NBA karriertől a házasságán át a túladagolási tragédiáig.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 47
+    "seeders": 119
   },
   {
     "id": "tt33549447",
@@ -463,7 +416,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 88
+  },
+  {
+    "id": "tt40224397",
+    "type": "movie",
+    "name": "Első kézből: Lamar Odom élete és halála",
+    "poster": "https://image.tmdb.org/t/p/w500/9Go8VKSzJIzn65b9c9l02ymHRlv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lamar Odom élete és pályafutása az NBA karriertől a házasságán át a túladagolási tragédiáig.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 45
   },
   {
     "id": "tt23572848",
@@ -482,6 +450,38 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 56
+    "seeders": 63
+  },
+  {
+    "id": "tt35558973",
+    "type": "movie",
+    "name": "Felséges szerelem",
+    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 78
+  },
+  {
+    "id": "tt39578551",
+    "type": "movie",
+    "name": "BTS: 더 리턴",
+    "poster": "https://image.tmdb.org/t/p/w500/d1NVILoUn4hI8zEFNKoP0K5WDgO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 61
   }
 ]
