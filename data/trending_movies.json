@@ -14,7 +14,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 875
+    "seeders": 1248
   },
   {
     "id": "tt32430579",
@@ -24,13 +24,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 6.9,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1039
+    "seeders": 1371
   },
   {
     "id": "tt1757678",
@@ -47,7 +47,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 430
+    "seeders": 611
   },
   {
     "id": "tt14850054",
@@ -64,7 +64,22 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1162
+    "seeders": 1536
+  },
+  {
+    "id": "tt29720283",
+    "type": "movie",
+    "name": "Thinestra",
+    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 225
   },
   {
     "id": "tt9612976",
@@ -81,37 +96,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 146
-  },
-  {
-    "id": "tt33306253",
-    "type": "movie",
-    "name": "Én vagyok a világ vége",
-    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 127
-  },
-  {
-    "id": "tt29720283",
-    "type": "movie",
-    "name": "Thinestra",
-    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 175
+    "seeders": 174
   },
   {
     "id": "tt32897959",
@@ -127,7 +112,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 402
+    "seeders": 496
   },
   {
     "id": "tt32606470",
@@ -137,14 +122,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.5,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Akció",
       "Dráma"
     ],
-    "seeders": 217
+    "seeders": 279
+  },
+  {
+    "id": "tt33306253",
+    "type": "movie",
+    "name": "Én vagyok a világ vége",
+    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 145
   },
   {
     "id": "tt8036976",
@@ -161,23 +161,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 318
-  },
-  {
-    "id": "tt30323611",
-    "type": "movie",
-    "name": "Az elkövetkező napok",
-    "poster": "https://image.tmdb.org/t/p/w500/4P3mSEpMtDdxUa2vGEQxfjCZND1.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután kiszabadul egy bántalmazó kapcsolatból, egy szingli anya megismerkedik exe új barátnőjével, és együtt próbálnak kitörni a férfi befolyása alól.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 77
+    "seeders": 389
   },
   {
     "id": "tt29567915",
@@ -193,7 +177,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1094
+    "seeders": 1358
   },
   {
     "id": "tt15574124",
@@ -209,22 +193,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 766
-  },
-  {
-    "id": "tt39465484",
-    "type": "movie",
-    "name": "Ízek, imák, kutyák",
-    "poster": "https://image.tmdb.org/t/p/w500/rQdmyrSU0ySNkZMOq3URaDhUvdq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 96
+    "seeders": 994
   },
   {
     "id": "tt27543632",
@@ -240,22 +209,38 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 915
+    "seeders": 1159
   },
   {
-    "id": "tt39773309",
+    "id": "tt39465484",
     "type": "movie",
-    "name": "Az utolsó óriás",
-    "poster": "https://image.tmdb.org/t/p/w500/rxQE2GmdabPcLQtrG0ik2MYyMu3.jpg",
+    "name": "Ízek, imák, kutyák",
+    "poster": "https://image.tmdb.org/t/p/w500/rQdmyrSU0ySNkZMOq3URaDhUvdq.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
-    "imdbRating": 5.2,
+    "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
+    "imdbRating": 5.8,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Vígjáték"
     ],
-    "seeders": 75
+    "seeders": 124
+  },
+  {
+    "id": "tt30323611",
+    "type": "movie",
+    "name": "Az elkövetkező napok",
+    "poster": "https://image.tmdb.org/t/p/w500/4P3mSEpMtDdxUa2vGEQxfjCZND1.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután kiszabadul egy bántalmazó kapcsolatból, egy szingli anya megismerkedik exe új barátnőjével, és együtt próbálnak kitörni a férfi befolyása alól.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 87
   },
   {
     "id": "tt37976405",
@@ -273,7 +258,22 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 335
+    "seeders": 427
+  },
+  {
+    "id": "tt39773309",
+    "type": "movie",
+    "name": "Az utolsó óriás",
+    "poster": "https://image.tmdb.org/t/p/w500/rxQE2GmdabPcLQtrG0ik2MYyMu3.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 94
   },
   {
     "id": "tt26678938",
@@ -290,7 +290,7 @@
       "Thriller",
       "Zenei"
     ],
-    "seeders": 399
+    "seeders": 526
   },
   {
     "id": "tt38681815",
@@ -306,7 +306,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 57
+    "seeders": 60
   },
   {
     "id": "tt27673536",
@@ -316,14 +316,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Shivani olyan csapdát állít, hogy az elrablók pénzt követeljenek, és ez valóban meg is történik. De a helyzet nem olyan egyszerű, amilyennek látszik, mivel Amma vezette nagy koldusmaffia is kapcsolatban áll az üggyel. Amma és bandája valami nagy dolgot tervez: azonos korú lányokat rabolnak el, és injekciót adnak be nekik. Shivani és a fiatal tiszt, Fatima összeállnak Ramanujan-nal, aki egy alapítványt vezet a kolduskereskedelem áldozatainak megmentésére, és a rendőrség segítségével már több ilyen bandát is felszámolt. Amma tisztában van Shivani félelmet nem ismerő természetével, és a családját veszi célba, miközben Shivani tippet kap a emberrablókról, ami tűzharchoz vezet közöttük. Utána kiderül, hogy Jhimli még mindig eltűnt, Ruhani pedig meghalt.",
-    "imdbRating": 7.5,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 133
+    "seeders": 170
   },
   {
     "id": "tt27714581",
@@ -338,22 +338,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 234
-  },
-  {
-    "id": "tt40224397",
-    "type": "movie",
-    "name": "Első kézből: Lamar Odom élete és halála",
-    "poster": "https://image.tmdb.org/t/p/w500/9Go8VKSzJIzn65b9c9l02ymHRlv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lamar Odom élete és pályafutása az NBA karriertől a házasságán át a túladagolási tragédiáig.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 44
+    "seeders": 280
   },
   {
     "id": "tt39744394",
@@ -370,7 +355,22 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 123
+    "seeders": 154
+  },
+  {
+    "id": "tt40224397",
+    "type": "movie",
+    "name": "Első kézből: Lamar Odom élete és halála",
+    "poster": "https://image.tmdb.org/t/p/w500/9Go8VKSzJIzn65b9c9l02ymHRlv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lamar Odom élete és pályafutása az NBA karriertől a házasságán át a túladagolási tragédiáig.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 50
   },
   {
     "id": "tt28779965",
@@ -385,22 +385,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 117
-  },
-  {
-    "id": "tt33549447",
-    "type": "movie",
-    "name": "Anemone",
-    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 70
+    "seeders": 145
   },
   {
     "id": "tt11214558",
@@ -416,7 +401,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 245
+    "seeders": 306
   },
   {
     "id": "tt28078628",
@@ -431,7 +416,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 86
+    "seeders": 102
+  },
+  {
+    "id": "tt33549447",
+    "type": "movie",
+    "name": "Anemone",
+    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 77
   },
   {
     "id": "tt23572848",
@@ -450,23 +450,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 49
-  },
-  {
-    "id": "tt32155665",
-    "type": "movie",
-    "name": "53 vasárnap",
-    "poster": "https://image.tmdb.org/t/p/w500/nxUy4A5KFdNVjwqXoFRK8PqZ5vZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor három testvér megegyezik, hogy találkozzanak megbeszélni idős apjuk jövőjét, az esemény veszekedésbe, gúnyolódásba és régi sérelmek felhánytorgatásába torkollik.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 53
+    "seeders": 55
   },
   {
     "id": "tt35558973",
@@ -482,6 +466,22 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 66
+    "seeders": 80
+  },
+  {
+    "id": "tt32155665",
+    "type": "movie",
+    "name": "53 vasárnap",
+    "poster": "https://image.tmdb.org/t/p/w500/nxUy4A5KFdNVjwqXoFRK8PqZ5vZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor három testvér megegyezik, hogy találkozzanak megbeszélni idős apjuk jövőjét, az esemény veszekedésbe, gúnyolódásba és régi sérelmek felhánytorgatásába torkollik.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 56
   }
 ]
