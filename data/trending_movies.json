@@ -14,7 +14,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1544
+    "seeders": 1756
   },
   {
     "id": "tt32430579",
@@ -30,7 +30,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1482
+    "seeders": 1695
+  },
+  {
+    "id": "tt7132924",
+    "type": "movie",
+    "name": "Bang Bang",
+    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt1757678",
@@ -47,7 +62,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 949
+    "seeders": 1133
   },
   {
     "id": "tt14850054",
@@ -64,7 +79,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1484
+    "seeders": 1693
   },
   {
     "id": "tt32897959",
@@ -80,55 +95,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 512
-  },
-  {
-    "id": "tt32572716",
-    "type": "movie",
-    "name": "Moriah Wilson tragikus története",
-    "poster": "https://image.tmdb.org/t/p/w500/zoa2XatA43nKhF1kx8nVcVyH1M0.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy bensőséges portré Moriah Wilson kerékpárosról, akit egy szerető család nevelt fel, melynek ereje a sporolói karrier csúcsáig repítette, mielőtt tragikusan meggyilkolták.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 72
-  },
-  {
-    "id": "tt38589464",
-    "type": "movie",
-    "name": "A saját hangom",
-    "poster": "https://image.tmdb.org/t/p/w500/ptWVRyHpDYDoU1vWR2jBQOFSE24.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tinédzser, egy siket család egyetlen halló tagja, az éneklés iránti szenvedélye révén megtalálja a hangját és megtanul hinni önmagában.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 80
-  },
-  {
-    "id": "tt9612976",
-    "type": "movie",
-    "name": "Tafiti és Pamacs",
-    "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Családi"
-    ],
-    "seeders": 201
+    "seeders": 577
   },
   {
     "id": "tt8036976",
@@ -145,22 +112,24 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 421
+    "seeders": 499
   },
   {
-    "id": "tt29720283",
+    "id": "tt9612976",
     "type": "movie",
-    "name": "Thinestra",
-    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
+    "name": "Tafiti és Pamacs",
+    "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
-    "imdbRating": 10.0,
+    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
+    "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
-      "Horror"
+      "Animációs",
+      "Kaland",
+      "Családi"
     ],
-    "seeders": 221
+    "seeders": 216
   },
   {
     "id": "tt32606470",
@@ -177,22 +146,37 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 276
+    "seeders": 306
   },
   {
-    "id": "tt33306253",
+    "id": "tt29720283",
     "type": "movie",
-    "name": "Én vagyok a világ vége",
-    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
+    "name": "Thinestra",
+    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
-    "imdbRating": 4.9,
+    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
+    "imdbRating": 10.0,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték"
+      "Horror"
     ],
-    "seeders": 158
+    "seeders": 233
+  },
+  {
+    "id": "tt32572716",
+    "type": "movie",
+    "name": "Moriah Wilson tragikus története",
+    "poster": "https://image.tmdb.org/t/p/w500/zoa2XatA43nKhF1kx8nVcVyH1M0.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy bensőséges portré Moriah Wilson kerékpárosról, akit egy szerető család nevelt fel, melynek ereje a sporolói karrier csúcsáig repítette, mielőtt tragikusan meggyilkolták.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 77
   },
   {
     "id": "tt15574124",
@@ -208,23 +192,38 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 958
+    "seeders": 1115
   },
   {
-    "id": "tt27543632",
+    "id": "tt38589464",
     "type": "movie",
-    "name": "The Housemaid - A téboly otthona",
-    "poster": "https://image.tmdb.org/t/p/w500/kQIKRsWvfBdKYexcMsEuaBU7fLI.jpg",
+    "name": "A saját hangom",
+    "poster": "https://image.tmdb.org/t/p/w500/ptWVRyHpDYDoU1vWR2jBQOFSE24.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tinédzser, egy siket család egyetlen halló tagja, az éneklés iránti szenvedélye révén megtalálja a hangját és megtanul hinni önmagában.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 79
+  },
+  {
+    "id": "tt33306253",
+    "type": "movie",
+    "name": "Én vagyok a világ vége",
+    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A téboly otthona című feszült thriller alapjául a világsikerű könyv szolgált. Egy olyan kifacsart világba repíti a nézőket, ahol a tökéletesség csak illúzió, semmi sem az, aminek látszik. Millie (Sydney Sweeney) megpróbál elmenekülni a múltja elől, ezért elfogad egy bentlakásos állást a gazdag Nina (Amanda Seyfried) és Andrew Winchester (Brandon Sklenar) házvezetőnőjeként. Ám ami valóságos álommelónak indul, gyorsan alakul át valami egészen szörnyű és veszélyes dologgá: szexi, csábító titkok, botrányok övezte hatalmi játszmává. Winchesterék zárt ajtói mögött egy sokkoló világ rejtőzik, csupa váratlan fordulattal, amelyeket a néző a film végéig találgathat.",
-    "imdbRating": 7.2,
+    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
+    "imdbRating": 4.9,
     "releaseInfo": "2025",
     "genres": [
-      "Rejtély",
-      "Thriller"
+      "Vígjáték"
     ],
-    "seeders": 1118
+    "seeders": 165
   },
   {
     "id": "tt37976405",
@@ -242,7 +241,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 400
+    "seeders": 437
   },
   {
     "id": "tt26678938",
@@ -260,7 +259,7 @@
       "Zenei",
       "Horror"
     ],
-    "seeders": 496
+    "seeders": 539
   },
   {
     "id": "tt39465484",
@@ -275,7 +274,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 128
+    "seeders": 139
   },
   {
     "id": "tt30323611",
@@ -291,7 +290,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 96
+    "seeders": 92
   },
   {
     "id": "tt39773309",
@@ -301,12 +300,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 88
+    "seeders": 87
   },
   {
     "id": "tt27673536",
@@ -323,7 +322,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 169
+    "seeders": 179
   },
   {
     "id": "tt27714581",
@@ -338,23 +337,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 276
-  },
-  {
-    "id": "tt38681815",
-    "type": "movie",
-    "name": "Összefog a falu",
-    "poster": "https://image.tmdb.org/t/p/w500/cXxFrrKMMu4gipC8kVoplzo0HAr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy falu összefog, mikor egyik tagjuknak pénzügyi gondjai támadnak, és létrehoznak egy ufókkal kapcsolatos eseményt a turisták bevonzására.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 52
+    "seeders": 290
   },
   {
     "id": "tt39744394",
@@ -371,7 +354,23 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 145
+    "seeders": 147
+  },
+  {
+    "id": "tt38681815",
+    "type": "movie",
+    "name": "Összefog a falu",
+    "poster": "https://image.tmdb.org/t/p/w500/cXxFrrKMMu4gipC8kVoplzo0HAr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy falu összefog, mikor egyik tagjuknak pénzügyi gondjai támadnak, és létrehoznak egy ufókkal kapcsolatos eseményt a turisták bevonzására.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 49
   },
   {
     "id": "tt28779965",
@@ -386,7 +385,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 140
+    "seeders": 148
   },
   {
     "id": "tt28078628",
@@ -401,7 +400,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 107
+    "seeders": 104
   },
   {
     "id": "tt33549447",
@@ -416,7 +415,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 76
+    "seeders": 71
   },
   {
     "id": "tt40224397",
@@ -431,23 +430,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 39
-  },
-  {
-    "id": "tt35558973",
-    "type": "movie",
-    "name": "Felséges szerelem",
-    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 75
+    "seeders": 41
   },
   {
     "id": "tt23572848",
@@ -466,7 +449,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 51
+    "seeders": 54
+  },
+  {
+    "id": "tt35558973",
+    "type": "movie",
+    "name": "Felséges szerelem",
+    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 74
   },
   {
     "id": "tt32155665",
@@ -482,6 +481,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 57
+    "seeders": 59
   }
 ]
