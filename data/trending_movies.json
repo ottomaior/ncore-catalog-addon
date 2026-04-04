@@ -14,7 +14,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1204
+    "seeders": 1544
   },
   {
     "id": "tt32430579",
@@ -30,7 +30,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1181
+    "seeders": 1482
   },
   {
     "id": "tt1757678",
@@ -47,7 +47,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 758
+    "seeders": 949
   },
   {
     "id": "tt14850054",
@@ -64,38 +64,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1177
-  },
-  {
-    "id": "tt32572716",
-    "type": "movie",
-    "name": "Moriah Wilson tragikus története",
-    "poster": "https://image.tmdb.org/t/p/w500/zoa2XatA43nKhF1kx8nVcVyH1M0.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy bensőséges portré Moriah Wilson kerékpárosról, akit egy szerető család nevelt fel, melynek ereje a sporolói karrier csúcsáig repítette, mielőtt tragikusan meggyilkolták.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 62
-  },
-  {
-    "id": "tt38589464",
-    "type": "movie",
-    "name": "A saját hangom",
-    "poster": "https://image.tmdb.org/t/p/w500/ptWVRyHpDYDoU1vWR2jBQOFSE24.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tinédzser, egy siket család egyetlen halló tagja, az éneklés iránti szenvedélye révén megtalálja a hangját és megtanul hinni önmagában.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 66
+    "seeders": 1484
   },
   {
     "id": "tt32897959",
@@ -111,7 +80,38 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 416
+    "seeders": 512
+  },
+  {
+    "id": "tt32572716",
+    "type": "movie",
+    "name": "Moriah Wilson tragikus története",
+    "poster": "https://image.tmdb.org/t/p/w500/zoa2XatA43nKhF1kx8nVcVyH1M0.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy bensőséges portré Moriah Wilson kerékpárosról, akit egy szerető család nevelt fel, melynek ereje a sporolói karrier csúcsáig repítette, mielőtt tragikusan meggyilkolták.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 72
+  },
+  {
+    "id": "tt38589464",
+    "type": "movie",
+    "name": "A saját hangom",
+    "poster": "https://image.tmdb.org/t/p/w500/ptWVRyHpDYDoU1vWR2jBQOFSE24.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tinédzser, egy siket család egyetlen halló tagja, az éneklés iránti szenvedélye révén megtalálja a hangját és megtanul hinni önmagában.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 80
   },
   {
     "id": "tt9612976",
@@ -128,7 +128,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 162
+    "seeders": 201
   },
   {
     "id": "tt8036976",
@@ -145,7 +145,22 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 357
+    "seeders": 421
+  },
+  {
+    "id": "tt29720283",
+    "type": "movie",
+    "name": "Thinestra",
+    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 221
   },
   {
     "id": "tt32606470",
@@ -162,22 +177,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 222
-  },
-  {
-    "id": "tt29720283",
-    "type": "movie",
-    "name": "Thinestra",
-    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 172
+    "seeders": 276
   },
   {
     "id": "tt33306253",
@@ -192,7 +192,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 130
+    "seeders": 158
   },
   {
     "id": "tt15574124",
@@ -208,7 +208,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 776
+    "seeders": 958
   },
   {
     "id": "tt27543632",
@@ -224,25 +224,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 908
-  },
-  {
-    "id": "tt26678938",
-    "type": "movie",
-    "name": "Halál cukik",
-    "poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Zenei",
-      "Horror"
-    ],
-    "seeders": 401
+    "seeders": 1118
   },
   {
     "id": "tt37976405",
@@ -252,7 +234,7 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
-    "imdbRating": 8.0,
+    "imdbRating": 7.8,
     "releaseInfo": "2025",
     "genres": [
       "Animációs",
@@ -260,7 +242,40 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 318
+    "seeders": 400
+  },
+  {
+    "id": "tt26678938",
+    "type": "movie",
+    "name": "Halál cukik",
+    "poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Zenei",
+      "Horror"
+    ],
+    "seeders": 496
+  },
+  {
+    "id": "tt39465484",
+    "type": "movie",
+    "name": "Ízek, imák, kutyák",
+    "poster": "https://image.tmdb.org/t/p/w500/rQdmyrSU0ySNkZMOq3URaDhUvdq.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 128
   },
   {
     "id": "tt30323611",
@@ -276,22 +291,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 82
-  },
-  {
-    "id": "tt39465484",
-    "type": "movie",
-    "name": "Ízek, imák, kutyák",
-    "poster": "https://image.tmdb.org/t/p/w500/rQdmyrSU0ySNkZMOq3URaDhUvdq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 98
+    "seeders": 96
   },
   {
     "id": "tt39773309",
@@ -306,7 +306,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 76
+    "seeders": 88
   },
   {
     "id": "tt27673536",
@@ -323,7 +323,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 139
+    "seeders": 169
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 276
   },
   {
     "id": "tt38681815",
@@ -339,22 +354,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 48
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 230
+    "seeders": 52
   },
   {
     "id": "tt39744394",
@@ -371,7 +371,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 120
+    "seeders": 145
   },
   {
     "id": "tt28779965",
@@ -386,7 +386,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 117
+    "seeders": 140
   },
   {
     "id": "tt28078628",
@@ -401,22 +401,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 87
+    "seeders": 107
   },
   {
     "id": "tt33549447",
     "type": "movie",
-    "name": "Anemone",
+    "name": "Szellőrózsa",
     "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Jem (Sean Bean) meglátogatja testvérét, Ray-t (Daniel Day-Lewis) az észak-angliai erdőben. Mindketten a brit hadsereg veteránjai, számos bevetésen vettek részt a brit–ír viszály (The Troubles) idején. Traumatikus emlékkel tértek haza az etnikai és politikai konfliktusból, ami ’68-tól kezdődően 30 éven keresztül zajlott. Jem a találkozással fiának (Samuel Bottomley) is akar segíteni, mert ő is úgy próbál kötődni a család férfitagjaihoz, hogy katonának áll.  •  Az Anemone című filmet Ronan Day-Lewis rendezte, a főszerepet az édesapja, Daniel Day-Lewis játssza, ráadásul apa és fia közösen írták a forgatókönyvet.",
     "imdbRating": 6.1,
     "releaseInfo": "2025",
     "genres": [
       "Dráma"
     ],
-    "seeders": 68
+    "seeders": 76
   },
   {
     "id": "tt40224397",
@@ -431,7 +431,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 35
+    "seeders": 39
+  },
+  {
+    "id": "tt35558973",
+    "type": "movie",
+    "name": "Felséges szerelem",
+    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 75
   },
   {
     "id": "tt23572848",
@@ -450,7 +466,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 48
+    "seeders": 51
   },
   {
     "id": "tt32155665",
@@ -466,22 +482,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt35558973",
-    "type": "movie",
-    "name": "Felséges szerelem",
-    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 60
+    "seeders": 57
   }
 ]
