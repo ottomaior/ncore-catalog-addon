@@ -12,9 +12,10 @@
     "genres": [
       "Sci-Fi",
       "Akció",
-      "Thriller"
+      "Thriller",
+      "Bűnügyi"
     ],
-    "seeders": 122
+    "seeders": 183
   },
   {
     "id": "tt32357218",
@@ -31,7 +32,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1688
+    "seeders": 1874
   },
   {
     "id": "tt32430579",
@@ -47,7 +48,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1590
+    "seeders": 1794
   },
   {
     "id": "tt1757678",
@@ -64,7 +65,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1130
+    "seeders": 1298
   },
   {
     "id": "tt14850054",
@@ -81,7 +82,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1467
+    "seeders": 1652
   },
   {
     "id": "tt7132924",
@@ -96,12 +97,12 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 105
+    "seeders": 112
   },
   {
     "id": "tt32897959",
     "type": "movie",
-    "name": "“Üvöltő szelek”",
+    "name": "Üvöltő szelek",
     "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
     "posterShape": "poster",
     "year": 2026,
@@ -112,7 +113,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 511
+    "seeders": 568
   },
   {
     "id": "tt8036976",
@@ -129,24 +130,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 444
-  },
-  {
-    "id": "tt32606470",
-    "type": "movie",
-    "name": "Humint",
-    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kémkedéssel kapcsolatos akciófilm, amely észak- és dél-koreai titkosügynökök összecsapását mutatja be, akik a vlagyivosztoki határon történt bűncselekmények kivizsgálása során csapnak össze.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 276
+    "seeders": 510
   },
   {
     "id": "tt15574124",
@@ -162,7 +146,24 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 946
+    "seeders": 1063
+  },
+  {
+    "id": "tt32606470",
+    "type": "movie",
+    "name": "Humint",
+    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kémkedéssel kapcsolatos akciófilm, amely észak- és dél-koreai titkosügynökök összecsapását mutatja be, akik a vlagyivosztoki határon történt bűncselekmények kivizsgálása során csapnak össze.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 306
   },
   {
     "id": "tt9612976",
@@ -179,7 +180,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 195
+    "seeders": 208
   },
   {
     "id": "tt29720283",
@@ -194,7 +195,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 195
+    "seeders": 220
   },
   {
     "id": "tt26678938",
@@ -204,30 +205,15 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-    "imdbRating": 7.0,
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Thriller",
       "Zenei",
-      "Akció"
+      "Thriller",
+      "Akció",
+      "Horror"
     ],
-    "seeders": 472
-  },
-  {
-    "id": "tt33306253",
-    "type": "movie",
-    "name": "Én vagyok a világ vége",
-    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 141
+    "seeders": 532
   },
   {
     "id": "tt37976405",
@@ -245,7 +231,22 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 368
+    "seeders": 413
+  },
+  {
+    "id": "tt33306253",
+    "type": "movie",
+    "name": "Én vagyok a világ vége",
+    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 152
   },
   {
     "id": "tt38589464",
@@ -277,7 +278,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 72
+    "seeders": 71
   },
   {
     "id": "tt39465484",
@@ -287,12 +288,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
-    "imdbRating": 5.9,
+    "imdbRating": 5.8,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 121
+    "seeders": 127
   },
   {
     "id": "tt30323611",
@@ -308,22 +309,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 78
-  },
-  {
-    "id": "tt39773309",
-    "type": "movie",
-    "name": "Az utolsó óriás",
-    "poster": "https://image.tmdb.org/t/p/w500/a8CuWZZ91SWajXLpZHN0ttfVtk2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 76
+    "seeders": 81
   },
   {
     "id": "tt27673536",
@@ -340,7 +326,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 156
+    "seeders": 175
+  },
+  {
+    "id": "tt39773309",
+    "type": "movie",
+    "name": "Az utolsó óriás",
+    "poster": "https://image.tmdb.org/t/p/w500/a8CuWZZ91SWajXLpZHN0ttfVtk2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt27714581",
@@ -355,7 +356,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 254
+    "seeders": 282
   },
   {
     "id": "tt39744394",
@@ -372,7 +373,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 129
+    "seeders": 142
   },
   {
     "id": "tt28779965",
@@ -387,7 +388,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 128
+    "seeders": 136
   },
   {
     "id": "tt28078628",
@@ -402,7 +403,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 98
+    "seeders": 110
   },
   {
     "id": "tt38681815",
@@ -418,7 +419,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 39
+    "seeders": 45
   },
   {
     "id": "tt33549447",
@@ -433,7 +434,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 66
+    "seeders": 69
   },
   {
     "id": "tt35558973",
@@ -449,7 +450,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 74
+    "seeders": 78
   },
   {
     "id": "tt40224397",
@@ -464,22 +465,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 32
+    "seeders": 36
   },
   {
-    "id": "tt36971084",
+    "id": "tt39578551",
     "type": "movie",
-    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
-    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
+    "name": "BTS: 더 리턴",
+    "poster": "https://image.tmdb.org/t/p/w500/d1NVILoUn4hI8zEFNKoP0K5WDgO.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
     "genres": [
       "Dokumentum",
       "Zenei"
     ],
-    "seeders": 95
+    "seeders": 59
   }
 ]
