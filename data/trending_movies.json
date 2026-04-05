@@ -14,7 +14,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2008
+    "seeders": 1330
   },
   {
     "id": "tt32430579",
@@ -30,7 +30,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1896
+    "seeders": 1270
   },
   {
     "id": "tt1757678",
@@ -40,14 +40,14 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.3,
+    "imdbRating": 7.4,
     "releaseInfo": "2025",
     "genres": [
       "Sci-Fi",
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1283
+    "seeders": 893
   },
   {
     "id": "tt7132924",
@@ -62,7 +62,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 105
+    "seeders": 84
   },
   {
     "id": "tt14850054",
@@ -79,7 +79,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1808
+    "seeders": 1174
   },
   {
     "id": "tt32897959",
@@ -95,7 +95,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 613
+    "seeders": 420
   },
   {
     "id": "tt8036976",
@@ -112,24 +112,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 560
-  },
-  {
-    "id": "tt32606470",
-    "type": "movie",
-    "name": "휴민트",
-    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 324
+    "seeders": 360
   },
   {
     "id": "tt9612976",
@@ -146,7 +129,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 226
+    "seeders": 168
   },
   {
     "id": "tt15574124",
@@ -162,7 +145,24 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1185
+    "seeders": 776
+  },
+  {
+    "id": "tt32606470",
+    "type": "movie",
+    "name": "휴민트",
+    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 206
   },
   {
     "id": "tt29720283",
@@ -177,7 +177,37 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 243
+    "seeders": 156
+  },
+  {
+    "id": "tt33306253",
+    "type": "movie",
+    "name": "Én vagyok a világ vége",
+    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 130
+  },
+  {
+    "id": "tt32572716",
+    "type": "movie",
+    "name": "Moriah Wilson tragikus története",
+    "poster": "https://image.tmdb.org/t/p/w500/zoa2XatA43nKhF1kx8nVcVyH1M0.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy bensőséges portré Moriah Wilson kerékpárosról, akit egy szerető család nevelt fel, melynek ereje a sporolói karrier csúcsáig repítette, mielőtt tragikusan meggyilkolták.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt38589464",
@@ -193,55 +223,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 83
-  },
-  {
-    "id": "tt33306253",
-    "type": "movie",
-    "name": "Én vagyok a világ vége",
-    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 165
-  },
-  {
-    "id": "tt32572716",
-    "type": "movie",
-    "name": "Moriah Wilson tragikus története",
-    "poster": "https://image.tmdb.org/t/p/w500/zoa2XatA43nKhF1kx8nVcVyH1M0.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy bensőséges portré Moriah Wilson kerékpárosról, akit egy szerető család nevelt fel, melynek ereje a sporolói karrier csúcsáig repítette, mielőtt tragikusan meggyilkolták.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 79
-  },
-  {
-    "id": "tt37976405",
-    "type": "movie",
-    "name": "Versa",
-    "poster": "https://image.tmdb.org/t/p/w500/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Dráma",
-      "Fantasy"
-    ],
-    "seeders": 471
+    "seeders": 64
   },
   {
     "id": "tt26678938",
@@ -251,14 +233,33 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-    "imdbRating": 7.0,
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller",
-      "Zenei"
+      "Zenei",
+      "Akció"
     ],
-    "seeders": 573
+    "seeders": 379
+  },
+  {
+    "id": "tt37976405",
+    "type": "movie",
+    "name": "Versa",
+    "poster": "https://image.tmdb.org/t/p/w500/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Dráma",
+      "Fantasy"
+    ],
+    "seeders": 304
   },
   {
     "id": "tt39465484",
@@ -273,7 +274,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 136
+    "seeders": 94
   },
   {
     "id": "tt30323611",
@@ -289,7 +290,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 94
+    "seeders": 77
   },
   {
     "id": "tt39773309",
@@ -299,12 +300,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
-    "imdbRating": 5.7,
+    "imdbRating": 5.6,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 85
+    "seeders": 69
   },
   {
     "id": "tt27673536",
@@ -321,7 +322,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 182
+    "seeders": 124
   },
   {
     "id": "tt27714581",
@@ -336,7 +337,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 326
+    "seeders": 224
+  },
+  {
+    "id": "tt28779965",
+    "type": "movie",
+    "name": "Finnik - Jó a szörny a háznál",
+    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs"
+    ],
+    "seeders": 120
   },
   {
     "id": "tt39744394",
@@ -353,22 +369,23 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 160
+    "seeders": 112
   },
   {
-    "id": "tt28779965",
+    "id": "tt38681815",
     "type": "movie",
-    "name": "Finnik - Jó a szörny a háznál",
-    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
+    "name": "Összefog a falu",
+    "poster": "https://image.tmdb.org/t/p/w500/cXxFrrKMMu4gipC8kVoplzo0HAr.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy falu összefog, mikor egyik tagjuknak pénzügyi gondjai támadnak, és létrehoznak egy ufókkal kapcsolatos eseményt a turisták bevonzására.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Animációs"
+      "Romantikus",
+      "Vígjáték"
     ],
-    "seeders": 163
+    "seeders": 40
   },
   {
     "id": "tt28078628",
@@ -383,23 +400,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 120
-  },
-  {
-    "id": "tt38681815",
-    "type": "movie",
-    "name": "Összefog a falu",
-    "poster": "https://image.tmdb.org/t/p/w500/cXxFrrKMMu4gipC8kVoplzo0HAr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy falu összefog, mikor egyik tagjuknak pénzügyi gondjai támadnak, és létrehoznak egy ufókkal kapcsolatos eseményt a turisták bevonzására.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 46
+    "seeders": 87
   },
   {
     "id": "tt33549447",
@@ -414,7 +415,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 73
+    "seeders": 60
   },
   {
     "id": "tt40224397",
@@ -424,44 +425,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Lamar Odom élete és pályafutása az NBA karriertől a házasságán át a túladagolási tragédiáig.",
-    "imdbRating": 6.8,
+    "imdbRating": 7.4,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 39
+    "seeders": 30
   },
   {
-    "id": "tt35558973",
+    "id": "tt32155665",
     "type": "movie",
-    "name": "Felséges szerelem",
-    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
+    "name": "53 vasárnap",
+    "poster": "https://image.tmdb.org/t/p/w500/nxUy4A5KFdNVjwqXoFRK8PqZ5vZ.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Amikor három testvér megegyezik, hogy találkozzanak megbeszélni idős apjuk jövőjét, az esemény veszekedésbe, gúnyolódásba és régi sérelmek felhánytorgatásába torkollik.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
-      "Vígjáték"
+      "Vígjáték",
+      "Dráma"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt36971084",
-    "type": "movie",
-    "name": "A Red Hot Chili Peppers felemelkedése: Testvérünk, Hillel",
-    "poster": "https://image.tmdb.org/t/p/w500/y9hHoO3eB7l3ZjYUZoJUJpZW22V.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Netflix március 20-án mutatja be a „The Rise of the Red Hot Chili Peppers” című dokumentumfilmet, amely a zenekar korai éveit és felemelkedését mutatja be. A film középpontjában az alapító tagok barátsága, valamint az eredeti gitáros, Hillel Slovak meghatározó szerepe áll. A filmben Flea és Anthony Kiedis is megszólal, és személyes történeteken keresztül mesélnek a banda indulásáról. A film ritka, bensőséges betekintést nyújt a világsikerhez vezető útba, és bemutatja, hogyan vált a Red Hot Chili Peppers az egyik legsikeresebb rockzenekarrá.\r (Csillag Lajos)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 114
+    "seeders": 52
   },
   {
     "id": "tt23572848",
@@ -480,6 +465,22 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 53
+    "seeders": 43
+  },
+  {
+    "id": "tt35558973",
+    "type": "movie",
+    "name": "Felséges szerelem",
+    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 58
   }
 ]
