@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt30851137",
+    "type": "movie",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 371
+  },
+  {
     "id": "tt41368989",
     "type": "movie",
     "name": "Finding Harry: The Craft Behind the Magic",
@@ -12,23 +29,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 90
-  },
-  {
-    "id": "tt23149780",
-    "type": "movie",
-    "name": "Éden",
-    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 314
+    "seeders": 133
   },
   {
     "id": "tt32357218",
@@ -45,23 +46,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2087
+    "seeders": 2120
   },
   {
-    "id": "tt14403504",
+    "id": "tt23149780",
     "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "name": "Éden",
+    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
+    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
+    "imdbRating": 6.7,
     "releaseInfo": "2025",
     "genres": [
       "Thriller",
       "Dráma"
     ],
-    "seeders": 266
+    "seeders": 391
   },
   {
     "id": "tt32430579",
@@ -77,7 +78,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1936
+    "seeders": 2020
   },
   {
     "id": "tt1757678",
@@ -94,7 +95,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1515
+    "seeders": 1589
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 314
   },
   {
     "id": "tt31050594",
@@ -112,7 +129,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 280
+    "seeders": 304
   },
   {
     "id": "tt31614921",
@@ -128,7 +145,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 167
+    "seeders": 170
   },
   {
     "id": "tt14850054",
@@ -145,7 +162,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1762
+    "seeders": 1826
   },
   {
     "id": "tt32897959",
@@ -161,7 +178,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 630
+    "seeders": 685
   },
   {
     "id": "tt8036976",
@@ -178,7 +195,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 555
+    "seeders": 610
   },
   {
     "id": "tt15574124",
@@ -194,22 +211,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1149
-  },
-  {
-    "id": "tt7132924",
-    "type": "movie",
-    "name": "Bang Bang",
-    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 123
+    "seeders": 1205
   },
   {
     "id": "tt32606470",
@@ -226,7 +228,22 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 294
+    "seeders": 306
+  },
+  {
+    "id": "tt7132924",
+    "type": "movie",
+    "name": "Bang Bang",
+    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt26678938",
@@ -244,7 +261,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 566
+    "seeders": 573
   },
   {
     "id": "tt9612976",
@@ -261,7 +278,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 209
+    "seeders": 219
   },
   {
     "id": "tt37976405",
@@ -279,7 +296,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 441
+    "seeders": 461
   },
   {
     "id": "tt29720283",
@@ -294,7 +311,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 214
+    "seeders": 221
   },
   {
     "id": "tt33306253",
@@ -309,7 +326,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 149
+    "seeders": 144
   },
   {
     "id": "tt38589464",
@@ -319,7 +336,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy tinédzser, egy siket család egyetlen halló tagja, az éneklés iránti szenvedélye révén megtalálja a hangját és megtanul hinni önmagában.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Zenei",
@@ -336,12 +353,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
-    "imdbRating": 5.5,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 136
+    "seeders": 129
   },
   {
     "id": "tt32572716",
@@ -357,7 +374,22 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 68
+    "seeders": 66
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 326
   },
   {
     "id": "tt27673536",
@@ -374,22 +406,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 177
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 306
+    "seeders": 166
   },
   {
     "id": "tt30323611",
@@ -405,7 +422,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 80
+    "seeders": 78
   },
   {
     "id": "tt39773309",
@@ -420,7 +437,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 74
+    "seeders": 73
   },
   {
     "id": "tt39744394",
@@ -437,7 +454,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 154
+    "seeders": 152
   },
   {
     "id": "tt28779965",
@@ -452,7 +469,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 150
+    "seeders": 154
   },
   {
     "id": "tt28078628",
@@ -467,21 +484,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 105
-  },
-  {
-    "id": "tt33549447",
-    "type": "movie",
-    "name": "Szellőrózsa",
-    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Jem (Sean Bean) meglátogatja testvérét, Ray-t (Daniel Day-Lewis) az észak-angliai erdőben. Mindketten a brit hadsereg veteránjai, számos bevetésen vettek részt a brit–ír viszály (The Troubles) idején. Traumatikus emlékkel tértek haza az etnikai és politikai konfliktusból, ami ’68-tól kezdődően 30 éven keresztül zajlott. Jem a találkozással fiának (Samuel Bottomley) is akar segíteni, mert ő is úgy próbál kötődni a család férfitagjaihoz, hogy katonának áll.  •  Az Anemone című filmet Ronan Day-Lewis rendezte, a főszerepet az édesapja, Daniel Day-Lewis játssza, ráadásul apa és fia közösen írták a forgatókönyvet.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 74
+    "seeders": 109
   }
 ]
