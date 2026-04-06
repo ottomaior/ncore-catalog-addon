@@ -1,19 +1,35 @@
 [
   {
-    "id": "tt31614921",
+    "id": "tt14403504",
     "type": "movie",
-    "name": "Csillagok alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/oJjCXVwPbNq2QeNdNvG2atZHj11.jpg",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
-    "imdbRating": 6.0,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
     "releaseInfo": "2025",
     "genres": [
-      "Romantikus",
-      "Vígjáték"
+      "Thriller",
+      "Dráma"
     ],
-    "seeders": 104
+    "seeders": 108
+  },
+  {
+    "id": "tt23149780",
+    "type": "movie",
+    "name": "Éden",
+    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 77
   },
   {
     "id": "tt32357218",
@@ -30,7 +46,40 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2097
+    "seeders": 1342
+  },
+  {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/dVlpMyR0V6xDeysqftWEZfRqnY5.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 1283
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és Hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 970
   },
   {
     "id": "tt31050594",
@@ -48,40 +97,23 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 249
+    "seeders": 200
   },
   {
-    "id": "tt32430579",
+    "id": "tt31614921",
     "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/dVlpMyR0V6xDeysqftWEZfRqnY5.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 1981
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és Hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "name": "Csillagok alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/oJjCXVwPbNq2QeNdNvG2atZHj11.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.4,
+    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
+    "imdbRating": 6.0,
     "releaseInfo": "2025",
     "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
+      "Romantikus",
+      "Vígjáték"
     ],
-    "seeders": 1487
+    "seeders": 104
   },
   {
     "id": "tt14850054",
@@ -98,7 +130,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1857
+    "seeders": 1182
   },
   {
     "id": "tt32897959",
@@ -114,7 +146,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 642
+    "seeders": 438
   },
   {
     "id": "tt8036976",
@@ -131,7 +163,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 577
+    "seeders": 379
   },
   {
     "id": "tt7132924",
@@ -146,7 +178,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 114
+    "seeders": 92
   },
   {
     "id": "tt15574124",
@@ -162,7 +194,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1195
+    "seeders": 751
   },
   {
     "id": "tt32606470",
@@ -172,14 +204,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy kémkedéssel kapcsolatos akciófilm, amely észak- és dél-koreai titkosügynökök összecsapását mutatja be, akik a vlagyivosztoki határon történt bűncselekmények kivizsgálása során csapnak össze.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Akció",
       "Dráma"
     ],
-    "seeders": 327
+    "seeders": 209
   },
   {
     "id": "tt9612976",
@@ -196,7 +228,43 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 225
+    "seeders": 156
+  },
+  {
+    "id": "tt26678938",
+    "type": "movie",
+    "name": "Halál cukik",
+    "poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Thriller",
+      "Akció",
+      "Horror"
+    ],
+    "seeders": 375
+  },
+  {
+    "id": "tt37976405",
+    "type": "movie",
+    "name": "Versa",
+    "poster": "https://image.tmdb.org/t/p/w500/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Dráma",
+      "Fantasy"
+    ],
+    "seeders": 301
   },
   {
     "id": "tt29720283",
@@ -211,43 +279,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 217
-  },
-  {
-    "id": "tt26678938",
-    "type": "movie",
-    "name": "Halál cukik",
-    "poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Thriller",
-      "Akció",
-      "Horror"
-    ],
-    "seeders": 572
-  },
-  {
-    "id": "tt37976405",
-    "type": "movie",
-    "name": "Versa",
-    "poster": "https://image.tmdb.org/t/p/w500/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Dráma",
-      "Fantasy"
-    ],
-    "seeders": 455
+    "seeders": 143
   },
   {
     "id": "tt33306253",
@@ -262,7 +294,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 157
+    "seeders": 121
   },
   {
     "id": "tt38589464",
@@ -272,14 +304,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy tinédzser, egy siket család egyetlen halló tagja, az éneklés iránti szenvedélye révén megtalálja a hangját és megtanul hinni önmagában.",
-    "imdbRating": 6.1,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Zenei",
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 86
+    "seeders": 65
   },
   {
     "id": "tt32572716",
@@ -294,7 +326,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 73
+    "seeders": 64
   },
   {
     "id": "tt39465484",
@@ -304,12 +336,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
-    "imdbRating": 5.8,
+    "imdbRating": 5.5,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 129
+    "seeders": 93
   },
   {
     "id": "tt30323611",
@@ -325,7 +357,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 85
+    "seeders": 71
   },
   {
     "id": "tt27673536",
@@ -335,20 +367,20 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Shivani olyan csapdát állít, hogy az elrablók pénzt követeljenek, és ez valóban meg is történik. De a helyzet nem olyan egyszerű, amilyennek látszik, mivel Amma vezette nagy koldusmaffia is kapcsolatban áll az üggyel. Amma és bandája valami nagy dolgot tervez: azonos korú lányokat rabolnak el, és injekciót adnak be nekik. Shivani és a fiatal tiszt, Fatima összeállnak Ramanujan-nal, aki egy alapítványt vezet a kolduskereskedelem áldozatainak megmentésére, és a rendőrség segítségével már több ilyen bandát is felszámolt. Amma tisztában van Shivani félelmet nem ismerő természetével, és a családját veszi célba, miközben Shivani tippet kap a emberrablókról, ami tűzharchoz vezet közöttük. Utána kiderül, hogy Jhimli még mindig eltűnt, Ruhani pedig meghalt.",
-    "imdbRating": 7.5,
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 170
+    "seeders": 123
   },
   {
     "id": "tt39773309",
     "type": "movie",
     "name": "Az utolsó óriás",
-    "poster": "https://image.tmdb.org/t/p/w500/a8CuWZZ91SWajXLpZHN0ttfVtk2.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/B1T4YXBS4B5TR2fVFOomCKXRuc.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
@@ -357,7 +389,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 84
+    "seeders": 60
   },
   {
     "id": "tt27714581",
@@ -372,7 +404,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 310
+    "seeders": 216
   },
   {
     "id": "tt39744394",
@@ -389,7 +421,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 152
+    "seeders": 115
   },
   {
     "id": "tt28779965",
@@ -404,7 +436,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 149
+    "seeders": 119
   },
   {
     "id": "tt28078628",
@@ -419,7 +451,23 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 113
+    "seeders": 84
+  },
+  {
+    "id": "tt38681815",
+    "type": "movie",
+    "name": "Összefog a falu",
+    "poster": "https://image.tmdb.org/t/p/w500/cXxFrrKMMu4gipC8kVoplzo0HAr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy falu összefog, mikor egyik tagjuknak pénzügyi gondjai támadnak, és létrehoznak egy ufókkal kapcsolatos eseményt a turisták bevonzására.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 36
   },
   {
     "id": "tt33549447",
@@ -434,53 +482,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 73
-  },
-  {
-    "id": "tt38681815",
-    "type": "movie",
-    "name": "Összefog a falu",
-    "poster": "https://image.tmdb.org/t/p/w500/cXxFrrKMMu4gipC8kVoplzo0HAr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy falu összefog, mikor egyik tagjuknak pénzügyi gondjai támadnak, és létrehoznak egy ufókkal kapcsolatos eseményt a turisták bevonzására.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 40
-  },
-  {
-    "id": "tt40224397",
-    "type": "movie",
-    "name": "Első kézből: Lamar Odom élete és halála",
-    "poster": "https://image.tmdb.org/t/p/w500/9Go8VKSzJIzn65b9c9l02ymHRlv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lamar Odom élete és pályafutása az NBA karriertől a házasságán át a túladagolási tragédiáig.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 38
-  },
-  {
-    "id": "tt35558973",
-    "type": "movie",
-    "name": "Felséges szerelem",
-    "poster": "https://image.tmdb.org/t/p/w500/rNdqi9oYpynE7pDMF9vysCedFzg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Bea hercegnő, aki jelenleg Amerikában tartózkodik, köteles visszatérni családjához, hogy eleget tegyen uralkodói feladatainak. Ennek részeként egy előre megtervezett házasságot kell kötnie egy szomszédos ország hercegével. Tudja, hogy nem mondhat nemet és kezdetben egyáltalán nincs ínyére, hogy szerelem nélkül menjen férjhez egy vadidegenhez.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 78
+    "seeders": 62
   }
 ]
