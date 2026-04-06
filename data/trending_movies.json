@@ -1,21 +1,5 @@
 [
   {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 108
-  },
-  {
     "id": "tt23149780",
     "type": "movie",
     "name": "Éden",
@@ -29,7 +13,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 77
+    "seeders": 193
   },
   {
     "id": "tt32357218",
@@ -46,7 +30,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1342
+    "seeders": 1798
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 175
   },
   {
     "id": "tt32430579",
@@ -56,13 +56,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1283
+    "seeders": 1710
   },
   {
     "id": "tt1757678",
@@ -79,7 +79,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 970
+    "seeders": 1282
   },
   {
     "id": "tt31050594",
@@ -97,7 +97,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 200
+    "seeders": 250
   },
   {
     "id": "tt31614921",
@@ -113,7 +113,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 104
+    "seeders": 145
   },
   {
     "id": "tt14850054",
@@ -130,7 +130,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1182
+    "seeders": 1554
   },
   {
     "id": "tt32897959",
@@ -146,7 +146,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 438
+    "seeders": 551
   },
   {
     "id": "tt8036976",
@@ -163,22 +163,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 379
-  },
-  {
-    "id": "tt7132924",
-    "type": "movie",
-    "name": "Bang Bang",
-    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 92
+    "seeders": 493
   },
   {
     "id": "tt15574124",
@@ -194,7 +179,22 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 751
+    "seeders": 973
+  },
+  {
+    "id": "tt7132924",
+    "type": "movie",
+    "name": "Bang Bang",
+    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 110
   },
   {
     "id": "tt32606470",
@@ -211,7 +211,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 209
+    "seeders": 271
   },
   {
     "id": "tt9612976",
@@ -228,7 +228,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 156
+    "seeders": 190
   },
   {
     "id": "tt26678938",
@@ -246,7 +246,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 375
+    "seeders": 500
   },
   {
     "id": "tt37976405",
@@ -264,7 +264,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 301
+    "seeders": 382
   },
   {
     "id": "tt29720283",
@@ -279,7 +279,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 143
+    "seeders": 185
   },
   {
     "id": "tt33306253",
@@ -294,7 +294,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 121
+    "seeders": 142
   },
   {
     "id": "tt38589464",
@@ -311,22 +311,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 65
-  },
-  {
-    "id": "tt32572716",
-    "type": "movie",
-    "name": "Moriah Wilson tragikus története",
-    "poster": "https://image.tmdb.org/t/p/w500/zoa2XatA43nKhF1kx8nVcVyH1M0.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy bensőséges portré Moriah Wilson kerékpárosról, akit egy szerető család nevelt fel, melynek ereje a sporolói karrier csúcsáig repítette, mielőtt tragikusan meggyilkolták.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 64
+    "seeders": 78
   },
   {
     "id": "tt39465484",
@@ -341,7 +326,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 93
+    "seeders": 124
+  },
+  {
+    "id": "tt32572716",
+    "type": "movie",
+    "name": "Moriah Wilson tragikus története",
+    "poster": "https://image.tmdb.org/t/p/w500/zoa2XatA43nKhF1kx8nVcVyH1M0.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy bensőséges portré Moriah Wilson kerékpárosról, akit egy szerető család nevelt fel, melynek ereje a sporolói karrier csúcsáig repítette, mielőtt tragikusan meggyilkolták.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt30323611",
@@ -357,7 +357,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 71
+    "seeders": 81
   },
   {
     "id": "tt27673536",
@@ -374,7 +374,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 123
+    "seeders": 159
   },
   {
     "id": "tt39773309",
@@ -389,7 +389,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 60
+    "seeders": 75
   },
   {
     "id": "tt27714581",
@@ -404,7 +404,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 216
+    "seeders": 270
   },
   {
     "id": "tt39744394",
@@ -421,7 +421,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 115
+    "seeders": 141
   },
   {
     "id": "tt28779965",
@@ -436,7 +436,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 119
+    "seeders": 142
   },
   {
     "id": "tt28078628",
@@ -451,7 +451,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 84
+    "seeders": 101
+  },
+  {
+    "id": "tt33549447",
+    "type": "movie",
+    "name": "Szellőrózsa",
+    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Jem (Sean Bean) meglátogatja testvérét, Ray-t (Daniel Day-Lewis) az észak-angliai erdőben. Mindketten a brit hadsereg veteránjai, számos bevetésen vettek részt a brit–ír viszály (The Troubles) idején. Traumatikus emlékkel tértek haza az etnikai és politikai konfliktusból, ami ’68-tól kezdődően 30 éven keresztül zajlott. Jem a találkozással fiának (Samuel Bottomley) is akar segíteni, mert ő is úgy próbál kötődni a család férfitagjaihoz, hogy katonának áll.  •  Az Anemone című filmet Ronan Day-Lewis rendezte, a főszerepet az édesapja, Daniel Day-Lewis játssza, ráadásul apa és fia közösen írták a forgatókönyvet.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 75
   },
   {
     "id": "tt38681815",
@@ -467,21 +482,6 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 36
-  },
-  {
-    "id": "tt33549447",
-    "type": "movie",
-    "name": "Szellőrózsa",
-    "poster": "https://image.tmdb.org/t/p/w500/dubKbJTRTJmji0VUEo5pVoZ92ra.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Jem (Sean Bean) meglátogatja testvérét, Ray-t (Daniel Day-Lewis) az észak-angliai erdőben. Mindketten a brit hadsereg veteránjai, számos bevetésen vettek részt a brit–ír viszály (The Troubles) idején. Traumatikus emlékkel tértek haza az etnikai és politikai konfliktusból, ami ’68-tól kezdődően 30 éven keresztül zajlott. Jem a találkozással fiának (Samuel Bottomley) is akar segíteni, mert ő is úgy próbál kötődni a család férfitagjaihoz, hogy katonának áll.  •  Az Anemone című filmet Ronan Day-Lewis rendezte, a főszerepet az édesapja, Daniel Day-Lewis játssza, ráadásul apa és fia közösen írták a forgatókönyvet.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 62
+    "seeders": 39
   }
 ]
