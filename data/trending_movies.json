@@ -14,7 +14,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 291
+    "seeders": 369
   },
   {
     "id": "tt32357218",
@@ -31,7 +31,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1366
+    "seeders": 1617
   },
   {
     "id": "tt32430579",
@@ -47,23 +47,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1305
-  },
-  {
-    "id": "tt23149780",
-    "type": "movie",
-    "name": "Éden",
-    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 254
+    "seeders": 1513
   },
   {
     "id": "tt1757678",
@@ -80,7 +64,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1020
+    "seeders": 1203
+  },
+  {
+    "id": "tt23149780",
+    "type": "movie",
+    "name": "Éden",
+    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 314
   },
   {
     "id": "tt14403504",
@@ -96,7 +96,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 228
+    "seeders": 255
   },
   {
     "id": "tt41368989",
@@ -106,12 +106,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 9.4,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 92
+    "seeders": 113
   },
   {
     "id": "tt31050594",
@@ -129,7 +129,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 229
+    "seeders": 257
   },
   {
     "id": "tt14850054",
@@ -146,7 +146,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1177
+    "seeders": 1390
   },
   {
     "id": "tt31614921",
@@ -162,7 +162,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 134
+    "seeders": 151
   },
   {
     "id": "tt32897959",
@@ -178,7 +178,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 446
+    "seeders": 539
   },
   {
     "id": "tt8036976",
@@ -195,7 +195,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 377
+    "seeders": 442
   },
   {
     "id": "tt15574124",
@@ -211,22 +211,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 747
-  },
-  {
-    "id": "tt7132924",
-    "type": "movie",
-    "name": "Bang Bang",
-    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 96
+    "seeders": 875
   },
   {
     "id": "tt32606470",
@@ -243,24 +228,22 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 196
+    "seeders": 238
   },
   {
-    "id": "tt9612976",
+    "id": "tt7132924",
     "type": "movie",
-    "name": "Tafiti és Pamacs",
-    "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
+    "name": "Bang Bang",
+    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
+    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
     "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
-      "Animációs",
-      "Kaland",
-      "Családi"
+      "Dráma"
     ],
-    "seeders": 158
+    "seeders": 104
   },
   {
     "id": "tt26678938",
@@ -278,7 +261,24 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 369
+    "seeders": 437
+  },
+  {
+    "id": "tt9612976",
+    "type": "movie",
+    "name": "Tafiti és Pamacs",
+    "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Családi"
+    ],
+    "seeders": 182
   },
   {
     "id": "tt37976405",
@@ -288,7 +288,7 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
-    "imdbRating": 7.8,
+    "imdbRating": 7.9,
     "releaseInfo": "2025",
     "genres": [
       "Animációs",
@@ -296,13 +296,13 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 293
+    "seeders": 354
   },
   {
     "id": "tt29720283",
     "type": "movie",
     "name": "Thinestra",
-    "poster": "https://image.tmdb.org/t/p/w500/hFBYhNoB0PCcB8LbIeV6LF3k0RJ.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/oAgjusgss6I4MWFIs58e1GcTMKh.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
@@ -311,7 +311,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 141
+    "seeders": 162
   },
   {
     "id": "tt33306253",
@@ -326,7 +326,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 120
+    "seeders": 126
   },
   {
     "id": "tt38589464",
@@ -343,7 +343,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 67
+    "seeders": 72
   },
   {
     "id": "tt39465484",
@@ -358,7 +358,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 92
+    "seeders": 109
   },
   {
     "id": "tt32572716",
@@ -374,23 +374,22 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 56
+    "seeders": 60
   },
   {
-    "id": "tt30323611",
+    "id": "tt27714581",
     "type": "movie",
-    "name": "Az elkövetkező napok",
-    "poster": "https://image.tmdb.org/t/p/w500/4P3mSEpMtDdxUa2vGEQxfjCZND1.jpg",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Miután kiszabadul egy bántalmazó kapcsolatból, egy szingli anya megismerkedik exe új barátnőjével, és együtt próbálnak kitörni a férfi befolyása alól.",
-    "imdbRating": 7.1,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Dráma"
     ],
-    "seeders": 69
+    "seeders": 262
   },
   {
     "id": "tt27673536",
@@ -407,37 +406,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 115
+    "seeders": 135
   },
   {
-    "id": "tt27714581",
+    "id": "tt30323611",
     "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "name": "Az elkövetkező napok",
+    "poster": "https://image.tmdb.org/t/p/w500/4P3mSEpMtDdxUa2vGEQxfjCZND1.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
+    "description": "Miután kiszabadul egy bántalmazó kapcsolatból, egy szingli anya megismerkedik exe új barátnőjével, és együtt próbálnak kitörni a férfi befolyása alól.",
+    "imdbRating": 7.1,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 212
-  },
-  {
-    "id": "tt39773309",
-    "type": "movie",
-    "name": "Az utolsó óriás",
-    "poster": "https://image.tmdb.org/t/p/w500/B1T4YXBS4B5TR2fVFOomCKXRuc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 57
+    "seeders": 70
   },
   {
     "id": "tt28779965",
@@ -452,7 +437,7 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 120
+    "seeders": 135
   },
   {
     "id": "tt39744394",
@@ -469,7 +454,22 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 108
+    "seeders": 129
+  },
+  {
+    "id": "tt39773309",
+    "type": "movie",
+    "name": "Az utolsó óriás",
+    "poster": "https://image.tmdb.org/t/p/w500/B1T4YXBS4B5TR2fVFOomCKXRuc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 56
   },
   {
     "id": "tt28078628",
@@ -484,6 +484,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 76
+    "seeders": 89
   }
 ]
