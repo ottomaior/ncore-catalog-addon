@@ -14,22 +14,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 371
-  },
-  {
-    "id": "tt41368989",
-    "type": "movie",
-    "name": "Finding Harry: The Craft Behind the Magic",
-    "poster": "https://image.tmdb.org/t/p/w500/aq8jKIfASiOR6wz9FCeeCH90xZq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 9.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 133
+    "seeders": 291
   },
   {
     "id": "tt32357218",
@@ -46,23 +31,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2120
-  },
-  {
-    "id": "tt23149780",
-    "type": "movie",
-    "name": "Éden",
-    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 391
+    "seeders": 1366
   },
   {
     "id": "tt32430579",
@@ -78,7 +47,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2020
+    "seeders": 1305
+  },
+  {
+    "id": "tt23149780",
+    "type": "movie",
+    "name": "Éden",
+    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 254
   },
   {
     "id": "tt1757678",
@@ -95,7 +80,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1589
+    "seeders": 1020
   },
   {
     "id": "tt14403504",
@@ -111,7 +96,22 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 314
+    "seeders": 228
+  },
+  {
+    "id": "tt41368989",
+    "type": "movie",
+    "name": "Finding Harry: The Craft Behind the Magic",
+    "poster": "https://image.tmdb.org/t/p/w500/aq8jKIfASiOR6wz9FCeeCH90xZq.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 9.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 92
   },
   {
     "id": "tt31050594",
@@ -129,23 +129,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 304
-  },
-  {
-    "id": "tt31614921",
-    "type": "movie",
-    "name": "Csillagok alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 170
+    "seeders": 229
   },
   {
     "id": "tt14850054",
@@ -162,7 +146,23 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1826
+    "seeders": 1177
+  },
+  {
+    "id": "tt31614921",
+    "type": "movie",
+    "name": "Csillagok alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 134
   },
   {
     "id": "tt32897959",
@@ -178,7 +178,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 685
+    "seeders": 446
   },
   {
     "id": "tt8036976",
@@ -195,7 +195,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 610
+    "seeders": 377
   },
   {
     "id": "tt15574124",
@@ -211,24 +211,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 1205
-  },
-  {
-    "id": "tt32606470",
-    "type": "movie",
-    "name": "Humint",
-    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kémkedéssel kapcsolatos akciófilm, amely észak- és dél-koreai titkosügynökök összecsapását mutatja be, akik a vlagyivosztoki határon történt bűncselekmények kivizsgálása során csapnak össze.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 306
+    "seeders": 747
   },
   {
     "id": "tt7132924",
@@ -243,7 +226,41 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 114
+    "seeders": 96
+  },
+  {
+    "id": "tt32606470",
+    "type": "movie",
+    "name": "Humint",
+    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kémkedéssel kapcsolatos akciófilm, amely észak- és dél-koreai titkosügynökök összecsapását mutatja be, akik a vlagyivosztoki határon történt bűncselekmények kivizsgálása során csapnak össze.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 196
+  },
+  {
+    "id": "tt9612976",
+    "type": "movie",
+    "name": "Tafiti és Pamacs",
+    "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Családi"
+    ],
+    "seeders": 158
   },
   {
     "id": "tt26678938",
@@ -261,24 +278,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 573
-  },
-  {
-    "id": "tt9612976",
-    "type": "movie",
-    "name": "Tafiti és Pamacs",
-    "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Családi"
-    ],
-    "seeders": 219
+    "seeders": 369
   },
   {
     "id": "tt37976405",
@@ -288,7 +288,7 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
-    "imdbRating": 7.7,
+    "imdbRating": 7.8,
     "releaseInfo": "2025",
     "genres": [
       "Animációs",
@@ -296,7 +296,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 461
+    "seeders": 293
   },
   {
     "id": "tt29720283",
@@ -306,12 +306,12 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
-    "imdbRating": 7.0,
+    "imdbRating": 5.5,
     "releaseInfo": "2025",
     "genres": [
       "Horror"
     ],
-    "seeders": 221
+    "seeders": 141
   },
   {
     "id": "tt33306253",
@@ -326,7 +326,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 144
+    "seeders": 120
   },
   {
     "id": "tt38589464",
@@ -336,14 +336,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy tinédzser, egy siket család egyetlen halló tagja, az éneklés iránti szenvedélye révén megtalálja a hangját és megtanul hinni önmagában.",
-    "imdbRating": 6.4,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Zenei",
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 85
+    "seeders": 67
   },
   {
     "id": "tt39465484",
@@ -353,12 +353,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
-    "imdbRating": 5.7,
+    "imdbRating": 5.6,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 129
+    "seeders": 92
   },
   {
     "id": "tt32572716",
@@ -368,45 +368,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy bensőséges portré Moriah Wilson kerékpárosról, akit egy szerető család nevelt fel, melynek ereje a sporolói karrier csúcsáig repítette, mielőtt tragikusan meggyilkolták.",
-    "imdbRating": 6.6,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 66
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 326
-  },
-  {
-    "id": "tt27673536",
-    "type": "movie",
-    "name": "मर्दानी 3",
-    "poster": "https://image.tmdb.org/t/p/w500/dHxLBtHw4InwsVumnthupZYz6NM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Shivani olyan csapdát állít, hogy az elrablók pénzt követeljenek, és ez valóban meg is történik. De a helyzet nem olyan egyszerű, amilyennek látszik, mivel Amma vezette nagy koldusmaffia is kapcsolatban áll az üggyel. Amma és bandája valami nagy dolgot tervez: azonos korú lányokat rabolnak el, és injekciót adnak be nekik. Shivani és a fiatal tiszt, Fatima összeállnak Ramanujan-nal, aki egy alapítványt vezet a kolduskereskedelem áldozatainak megmentésére, és a rendőrség segítségével már több ilyen bandát is felszámolt. Amma tisztában van Shivani félelmet nem ismerő természetével, és a családját veszi célba, miközben Shivani tippet kap a emberrablókról, ami tűzharchoz vezet közöttük. Utána kiderül, hogy Jhimli még mindig eltűnt, Ruhani pedig meghalt.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 166
+    "seeders": 56
   },
   {
     "id": "tt30323611",
@@ -422,7 +390,39 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 78
+    "seeders": 69
+  },
+  {
+    "id": "tt27673536",
+    "type": "movie",
+    "name": "मर्दानी 3",
+    "poster": "https://image.tmdb.org/t/p/w500/dHxLBtHw4InwsVumnthupZYz6NM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Shivani olyan csapdát állít, hogy az elrablók pénzt követeljenek, és ez valóban meg is történik. De a helyzet nem olyan egyszerű, amilyennek látszik, mivel Amma vezette nagy koldusmaffia is kapcsolatban áll az üggyel. Amma és bandája valami nagy dolgot tervez: azonos korú lányokat rabolnak el, és injekciót adnak be nekik. Shivani és a fiatal tiszt, Fatima összeállnak Ramanujan-nal, aki egy alapítványt vezet a kolduskereskedelem áldozatainak megmentésére, és a rendőrség segítségével már több ilyen bandát is felszámolt. Amma tisztában van Shivani félelmet nem ismerő természetével, és a családját veszi célba, miközben Shivani tippet kap a emberrablókról, ami tűzharchoz vezet közöttük. Utána kiderül, hogy Jhimli még mindig eltűnt, Ruhani pedig meghalt.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 115
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 212
   },
   {
     "id": "tt39773309",
@@ -437,7 +437,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 73
+    "seeders": 57
+  },
+  {
+    "id": "tt28779965",
+    "type": "movie",
+    "name": "Finnik - Jó a szörny a háznál",
+    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs"
+    ],
+    "seeders": 120
   },
   {
     "id": "tt39744394",
@@ -454,22 +469,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 152
-  },
-  {
-    "id": "tt28779965",
-    "type": "movie",
-    "name": "Finnik - Jó a szörny a háznál",
-    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs"
-    ],
-    "seeders": 154
+    "seeders": 108
   },
   {
     "id": "tt28078628",
@@ -484,6 +484,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 109
+    "seeders": 76
   }
 ]
