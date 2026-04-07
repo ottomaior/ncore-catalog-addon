@@ -3,7 +3,7 @@
     "id": "tt34610311",
     "type": "movie",
     "name": "A sötétség peremén",
-    "poster": "https://image.tmdb.org/t/p/w500/uFsqAak0ClSwtXiZUO1JgzpFH6y.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "A makaui rendőrség visszahívja a nyomkövetés szakértő rendőrt a nyugdíjból, hogy segítsen elfogni egy veszélyes profi tolvajcsoportot.",
@@ -15,22 +15,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 87
-  },
-  {
-    "id": "tt40224399",
-    "type": "movie",
-    "name": "Első kézből: A sakkbotrány",
-    "poster": "https://image.tmdb.org/t/p/w500/mQXUZV8RQPl3HFxoXpeBhg1yXPh.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 74
+    "seeders": 195
   },
   {
     "id": "tt30851137",
@@ -47,7 +32,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 451
+    "seeders": 529
   },
   {
     "id": "tt32357218",
@@ -64,7 +49,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1871
+    "seeders": 2076
   },
   {
     "id": "tt32430579",
@@ -74,13 +59,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1706
+    "seeders": 1900
+  },
+  {
+    "id": "tt40224399",
+    "type": "movie",
+    "name": "Első kézből: A sakkbotrány",
+    "poster": "https://image.tmdb.org/t/p/w500/mQXUZV8RQPl3HFxoXpeBhg1yXPh.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 103
   },
   {
     "id": "tt1757678",
@@ -97,7 +97,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1342
+    "seeders": 1550
   },
   {
     "id": "tt23149780",
@@ -113,7 +113,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 365
+    "seeders": 431
   },
   {
     "id": "tt14403504",
@@ -129,22 +129,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 297
-  },
-  {
-    "id": "tt41368989",
-    "type": "movie",
-    "name": "Harry nyomában: A varázslat titkai",
-    "poster": "https://image.tmdb.org/t/p/w500/aq8jKIfASiOR6wz9FCeeCH90xZq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 137
+    "seeders": 336
   },
   {
     "id": "tt14850054",
@@ -161,7 +146,22 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1558
+    "seeders": 1751
+  },
+  {
+    "id": "tt41368989",
+    "type": "movie",
+    "name": "Harry nyomában: A varázslat titkai",
+    "poster": "https://image.tmdb.org/t/p/w500/aq8jKIfASiOR6wz9FCeeCH90xZq.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 155
   },
   {
     "id": "tt31050594",
@@ -179,7 +179,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 275
+    "seeders": 286
   },
   {
     "id": "tt31614921",
@@ -195,7 +195,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 162
+    "seeders": 161
   },
   {
     "id": "tt32897959",
@@ -211,7 +211,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 590
+    "seeders": 638
   },
   {
     "id": "tt8036976",
@@ -228,23 +228,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 522
-  },
-  {
-    "id": "tt15574124",
-    "type": "movie",
-    "name": "Birmingham bandája: A halhatatlan férfi",
-    "poster": "https://image.tmdb.org/t/p/w500/8JGtiJqt3jKwwTuMgm8QFHtYWwP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután elhidegült fia belekeveredik a nácik ármánykodásába, az önkéntes száműzetésbe vonult király, Tommy Shelby visszatér Birminghambe családja és a nemzet megmentésére.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 964
+    "seeders": 602
   },
   {
     "id": "tt26678938",
@@ -262,7 +246,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 510
+    "seeders": 530
   },
   {
     "id": "tt32606470",
@@ -279,22 +263,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 256
-  },
-  {
-    "id": "tt7132924",
-    "type": "movie",
-    "name": "Bang Bang",
-    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 111
+    "seeders": 277
   },
   {
     "id": "tt37976405",
@@ -312,7 +281,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 385
+    "seeders": 441
   },
   {
     "id": "tt9612976",
@@ -329,7 +298,22 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 190
+    "seeders": 198
+  },
+  {
+    "id": "tt7132924",
+    "type": "movie",
+    "name": "Bang Bang",
+    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 113
   },
   {
     "id": "tt29720283",
@@ -344,7 +328,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 176
+    "seeders": 194
   },
   {
     "id": "tt33306253",
@@ -359,7 +343,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 124
+    "seeders": 133
   },
   {
     "id": "tt39465484",
@@ -374,7 +358,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 117
+    "seeders": 121
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 317
   },
   {
     "id": "tt38589464",
@@ -391,12 +390,12 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 70
+    "seeders": 76
   },
   {
     "id": "tt27673536",
     "type": "movie",
-    "name": "मर्दानी 3",
+    "name": "Mardaani 3 - Férfiak világában",
     "poster": "https://image.tmdb.org/t/p/w500/dHxLBtHw4InwsVumnthupZYz6NM.jpg",
     "posterShape": "poster",
     "year": 2026,
@@ -408,22 +407,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 159
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat, és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 284
+    "seeders": 155
   },
   {
     "id": "tt32572716",
@@ -439,7 +423,22 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 61
+    "seeders": 59
+  },
+  {
+    "id": "tt39773309",
+    "type": "movie",
+    "name": "Az utolsó óriás",
+    "poster": "https://image.tmdb.org/t/p/w500/B1T4YXBS4B5TR2fVFOomCKXRuc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 73
   },
   {
     "id": "tt30323611",
@@ -455,7 +454,24 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 69
+    "seeders": 70
+  },
+  {
+    "id": "tt39744394",
+    "type": "movie",
+    "name": "A vonal másik oldalán",
+    "poster": "https://image.tmdb.org/t/p/w500/at29WEJ7lmFua6eWz79B6XFhfu2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Három nő válik egy kegyetlen telefonos csalás áldozatává. Az elszenvedett veszteségeik után úgy döntenek, hogy szembeszállnak azzal a bűnszervezettel, amely elvette tőlük nemcsak a pénzüket, hanem a méltóságukat is.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 148
   },
   {
     "id": "tt28779965",
@@ -470,21 +486,6 @@
     "genres": [
       "Animációs"
     ],
-    "seeders": 152
-  },
-  {
-    "id": "tt39773309",
-    "type": "movie",
-    "name": "Az utolsó óriás",
-    "poster": "https://image.tmdb.org/t/p/w500/B1T4YXBS4B5TR2fVFOomCKXRuc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 69
+    "seeders": 151
   }
 ]
