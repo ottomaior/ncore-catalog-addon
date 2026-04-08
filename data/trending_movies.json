@@ -15,7 +15,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 287
+    "seeders": 373
   },
   {
     "id": "tt32357218",
@@ -32,7 +32,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1852
+    "seeders": 2104
   },
   {
     "id": "tt30851137",
@@ -49,7 +49,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 543
+    "seeders": 613
   },
   {
     "id": "tt32430579",
@@ -65,7 +65,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1695
+    "seeders": 1927
   },
   {
     "id": "tt1757678",
@@ -82,7 +82,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1384
+    "seeders": 1558
   },
   {
     "id": "tt34713196",
@@ -97,7 +97,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 100
+    "seeders": 131
   },
   {
     "id": "tt23149780",
@@ -113,38 +113,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 398
-  },
-  {
-    "id": "tt32318707",
-    "type": "movie",
-    "name": "Adam érdekében",
-    "poster": "https://image.tmdb.org/t/p/w500/rQfs7iuWYt0sqgxm76sC9l8nMa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A kórházi protokoll és a bírósági korlátozások ellenére egy könyörületes ápolónő a kétségbeesett anya megsegítése és a szakmai előírások betartása között találja magát.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 67
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 311
+    "seeders": 421
   },
   {
     "id": "tt14850054",
@@ -161,7 +130,38 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1534
+    "seeders": 1684
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 328
+  },
+  {
+    "id": "tt32318707",
+    "type": "movie",
+    "name": "Adam érdekében",
+    "poster": "https://image.tmdb.org/t/p/w500/rQfs7iuWYt0sqgxm76sC9l8nMa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A kórházi protokoll és a bírósági korlátozások ellenére egy könyörületes ápolónő a kétségbeesett anya megsegítése és a szakmai előírások betartása között találja magát.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt40224399",
@@ -176,7 +176,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 104
+    "seeders": 111
   },
   {
     "id": "tt31050594",
@@ -194,7 +194,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 272
+    "seeders": 276
   },
   {
     "id": "tt41368989",
@@ -204,12 +204,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
-    "imdbRating": 7.9,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 143
+    "seeders": 160
   },
   {
     "id": "tt32897959",
@@ -225,7 +225,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 584
+    "seeders": 618
   },
   {
     "id": "tt8036976",
@@ -242,7 +242,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 506
+    "seeders": 587
   },
   {
     "id": "tt31614921",
@@ -258,7 +258,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 151
+    "seeders": 155
   },
   {
     "id": "tt26678938",
@@ -276,24 +276,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 503
-  },
-  {
-    "id": "tt32606470",
-    "type": "movie",
-    "name": "Humint",
-    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kémkedéssel kapcsolatos akciófilm, amely észak- és dél-koreai titkosügynökök összecsapását mutatja be, akik a vlagyivosztoki határon történt bűncselekmények kivizsgálása során csapnak össze.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 251
+    "seeders": 521
   },
   {
     "id": "tt37976405",
@@ -311,7 +294,24 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 366
+    "seeders": 432
+  },
+  {
+    "id": "tt32606470",
+    "type": "movie",
+    "name": "Humint",
+    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kémkedéssel kapcsolatos akciófilm, amely észak- és dél-koreai titkosügynökök összecsapását mutatja be, akik a vlagyivosztoki határon történt bűncselekmények kivizsgálása során csapnak össze.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 279
   },
   {
     "id": "tt9612976",
@@ -328,7 +328,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 187
+    "seeders": 193
   },
   {
     "id": "tt29720283",
@@ -343,7 +343,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 177
+    "seeders": 197
   },
   {
     "id": "tt7132924",
@@ -358,7 +358,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 102
+    "seeders": 94
   },
   {
     "id": "tt33306253",
@@ -373,7 +373,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 122
+    "seeders": 128
   },
   {
     "id": "tt39465484",
@@ -388,7 +388,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 104
+    "seeders": 127
   },
   {
     "id": "tt38589464",
@@ -422,7 +422,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 148
+    "seeders": 151
+  },
+  {
+    "id": "tt28779965",
+    "type": "movie",
+    "name": "Finnik - Jó a szörny a háznál",
+    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs"
+    ],
+    "seeders": 149
   },
   {
     "id": "tt32572716",
@@ -438,7 +453,22 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 56
+    "seeders": 57
+  },
+  {
+    "id": "tt39773309",
+    "type": "movie",
+    "name": "Az utolsó óriás",
+    "poster": "https://image.tmdb.org/t/p/w500/B1T4YXBS4B5TR2fVFOomCKXRuc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 74
   },
   {
     "id": "tt39744394",
@@ -455,37 +485,6 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 144
-  },
-  {
-    "id": "tt28779965",
-    "type": "movie",
-    "name": "Finnik - Jó a szörny a háznál",
-    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs"
-    ],
-    "seeders": 143
-  },
-  {
-    "id": "tt30323611",
-    "type": "movie",
-    "name": "Az elkövetkező napok",
-    "poster": "https://image.tmdb.org/t/p/w500/4P3mSEpMtDdxUa2vGEQxfjCZND1.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután kiszabadul egy bántalmazó kapcsolatból, egy szingli anya megismerkedik exe új barátnőjével, és együtt próbálnak kitörni a férfi befolyása alól.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 63
+    "seeders": 139
   }
 ]
