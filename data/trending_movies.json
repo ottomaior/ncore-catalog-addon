@@ -15,39 +15,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 233
-  },
-  {
-    "id": "tt34713196",
-    "type": "movie",
-    "name": "A szív is csak egy izom",
-    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 81
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 474
+    "seeders": 287
   },
   {
     "id": "tt32357218",
@@ -64,22 +32,24 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1598
+    "seeders": 1852
   },
   {
-    "id": "tt32318707",
+    "id": "tt30851137",
     "type": "movie",
-    "name": "Adam érdekében",
-    "poster": "https://image.tmdb.org/t/p/w500/rQfs7iuWYt0sqgxm76sC9l8nMa.jpg",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A kórházi protokoll és a bírósági korlátozások ellenére egy könyörületes ápolónő a kétségbeesett anya megsegítése és a szakmai előírások betartása között találja magát.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
     ],
-    "seeders": 60
+    "seeders": 543
   },
   {
     "id": "tt32430579",
@@ -95,7 +65,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1479
+    "seeders": 1695
   },
   {
     "id": "tt1757678",
@@ -112,7 +82,22 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1227
+    "seeders": 1384
+  },
+  {
+    "id": "tt34713196",
+    "type": "movie",
+    "name": "A szív is csak egy izom",
+    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 100
   },
   {
     "id": "tt23149780",
@@ -128,7 +113,22 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 345
+    "seeders": 398
+  },
+  {
+    "id": "tt32318707",
+    "type": "movie",
+    "name": "Adam érdekében",
+    "poster": "https://image.tmdb.org/t/p/w500/rQfs7iuWYt0sqgxm76sC9l8nMa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A kórházi protokoll és a bírósági korlátozások ellenére egy könyörületes ápolónő a kétségbeesett anya megsegítése és a szakmai előírások betartása között találja magát.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt14403504",
@@ -144,22 +144,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 279
-  },
-  {
-    "id": "tt40224399",
-    "type": "movie",
-    "name": "Első kézből: A sakkbotrány",
-    "poster": "https://image.tmdb.org/t/p/w500/mQXUZV8RQPl3HFxoXpeBhg1yXPh.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 87
+    "seeders": 311
   },
   {
     "id": "tt14850054",
@@ -176,7 +161,22 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1332
+    "seeders": 1534
+  },
+  {
+    "id": "tt40224399",
+    "type": "movie",
+    "name": "Első kézből: A sakkbotrány",
+    "poster": "https://image.tmdb.org/t/p/w500/mQXUZV8RQPl3HFxoXpeBhg1yXPh.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 104
   },
   {
     "id": "tt31050594",
@@ -194,7 +194,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 252
+    "seeders": 272
   },
   {
     "id": "tt41368989",
@@ -209,23 +209,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 123
-  },
-  {
-    "id": "tt31614921",
-    "type": "movie",
-    "name": "Csillagok alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 153
+    "seeders": 143
   },
   {
     "id": "tt32897959",
@@ -241,7 +225,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 504
+    "seeders": 584
   },
   {
     "id": "tt8036976",
@@ -258,7 +242,23 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 437
+    "seeders": 506
+  },
+  {
+    "id": "tt31614921",
+    "type": "movie",
+    "name": "Csillagok alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 151
   },
   {
     "id": "tt26678938",
@@ -276,7 +276,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 432
+    "seeders": 503
   },
   {
     "id": "tt32606470",
@@ -293,7 +293,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 216
+    "seeders": 251
   },
   {
     "id": "tt37976405",
@@ -311,7 +311,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 329
+    "seeders": 366
   },
   {
     "id": "tt9612976",
@@ -328,7 +328,22 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 173
+    "seeders": 187
+  },
+  {
+    "id": "tt29720283",
+    "type": "movie",
+    "name": "Thinestra",
+    "poster": "https://image.tmdb.org/t/p/w500/ubsAc9vU7FYoMcWAIokD2L6nRQZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 177
   },
   {
     "id": "tt7132924",
@@ -343,22 +358,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 91
-  },
-  {
-    "id": "tt29720283",
-    "type": "movie",
-    "name": "Thinestra",
-    "poster": "https://image.tmdb.org/t/p/w500/ubsAc9vU7FYoMcWAIokD2L6nRQZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 155
+    "seeders": 102
   },
   {
     "id": "tt33306253",
@@ -373,7 +373,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 115
+    "seeders": 122
   },
   {
     "id": "tt39465484",
@@ -388,7 +388,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 106
+    "seeders": 104
   },
   {
     "id": "tt38589464",
@@ -405,7 +405,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 66
+    "seeders": 74
   },
   {
     "id": "tt27673536",
@@ -422,7 +422,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 129
+    "seeders": 148
   },
   {
     "id": "tt32572716",
@@ -438,7 +438,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 52
+    "seeders": 56
   },
   {
     "id": "tt39744394",
@@ -455,7 +455,22 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 133
+    "seeders": 144
+  },
+  {
+    "id": "tt28779965",
+    "type": "movie",
+    "name": "Finnik - Jó a szörny a háznál",
+    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs"
+    ],
+    "seeders": 143
   },
   {
     "id": "tt30323611",
@@ -471,21 +486,6 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 65
-  },
-  {
-    "id": "tt28779965",
-    "type": "movie",
-    "name": "Finnik - Jó a szörny a háznál",
-    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs"
-    ],
-    "seeders": 125
+    "seeders": 63
   }
 ]
