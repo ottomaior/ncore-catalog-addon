@@ -1,35 +1,5 @@
 [
   {
-    "id": "tt34713196",
-    "type": "movie",
-    "name": "The Heart Is a Muscle",
-    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 54
-  },
-  {
-    "id": "tt32318707",
-    "type": "movie",
-    "name": "L'Intérêt d'Adam",
-    "poster": "https://image.tmdb.org/t/p/w500/rQfs7iuWYt0sqgxm76sC9l8nMa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 47
-  },
-  {
     "id": "tt34610311",
     "type": "movie",
     "name": "A sötétség peremén",
@@ -45,7 +15,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 189
+    "seeders": 233
+  },
+  {
+    "id": "tt34713196",
+    "type": "movie",
+    "name": "A szív is csak egy izom",
+    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt30851137",
@@ -62,7 +47,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 392
+    "seeders": 474
   },
   {
     "id": "tt32357218",
@@ -79,7 +64,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1363
+    "seeders": 1598
+  },
+  {
+    "id": "tt32318707",
+    "type": "movie",
+    "name": "Adam érdekében",
+    "poster": "https://image.tmdb.org/t/p/w500/rQfs7iuWYt0sqgxm76sC9l8nMa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A kórházi protokoll és a bírósági korlátozások ellenére egy könyörületes ápolónő a kétségbeesett anya megsegítése és a szakmai előírások betartása között találja magát.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 60
   },
   {
     "id": "tt32430579",
@@ -89,13 +89,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1259
+    "seeders": 1479
   },
   {
     "id": "tt1757678",
@@ -112,7 +112,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 992
+    "seeders": 1227
   },
   {
     "id": "tt23149780",
@@ -128,22 +128,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 284
-  },
-  {
-    "id": "tt40224399",
-    "type": "movie",
-    "name": "Első kézből: A sakkbotrány",
-    "poster": "https://image.tmdb.org/t/p/w500/mQXUZV8RQPl3HFxoXpeBhg1yXPh.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 80
+    "seeders": 345
   },
   {
     "id": "tt14403504",
@@ -159,7 +144,22 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 252
+    "seeders": 279
+  },
+  {
+    "id": "tt40224399",
+    "type": "movie",
+    "name": "Első kézből: A sakkbotrány",
+    "poster": "https://image.tmdb.org/t/p/w500/mQXUZV8RQPl3HFxoXpeBhg1yXPh.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 87
   },
   {
     "id": "tt14850054",
@@ -176,7 +176,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1132
+    "seeders": 1332
   },
   {
     "id": "tt31050594",
@@ -194,7 +194,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 222
+    "seeders": 252
   },
   {
     "id": "tt41368989",
@@ -204,12 +204,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
-    "imdbRating": 7.7,
+    "imdbRating": 7.9,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 106
+    "seeders": 123
   },
   {
     "id": "tt31614921",
@@ -225,7 +225,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 130
+    "seeders": 153
   },
   {
     "id": "tt32897959",
@@ -241,7 +241,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 432
+    "seeders": 504
   },
   {
     "id": "tt8036976",
@@ -258,7 +258,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 390
+    "seeders": 437
   },
   {
     "id": "tt26678938",
@@ -276,24 +276,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 364
-  },
-  {
-    "id": "tt9612976",
-    "type": "movie",
-    "name": "Tafiti és Pamacs",
-    "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Családi"
-    ],
-    "seeders": 153
+    "seeders": 432
   },
   {
     "id": "tt32606470",
@@ -310,22 +293,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 180
-  },
-  {
-    "id": "tt7132924",
-    "type": "movie",
-    "name": "Bang Bang",
-    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 89
+    "seeders": 216
   },
   {
     "id": "tt37976405",
@@ -343,7 +311,39 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 278
+    "seeders": 329
+  },
+  {
+    "id": "tt9612976",
+    "type": "movie",
+    "name": "Tafiti és Pamacs",
+    "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Családi"
+    ],
+    "seeders": 173
+  },
+  {
+    "id": "tt7132924",
+    "type": "movie",
+    "name": "Bang Bang",
+    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 91
   },
   {
     "id": "tt29720283",
@@ -358,7 +358,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 126
+    "seeders": 155
   },
   {
     "id": "tt33306253",
@@ -373,7 +373,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 112
+    "seeders": 115
   },
   {
     "id": "tt39465484",
@@ -388,7 +388,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 93
+    "seeders": 106
   },
   {
     "id": "tt38589464",
@@ -405,7 +405,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 59
+    "seeders": 66
   },
   {
     "id": "tt27673536",
@@ -422,7 +422,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 117
+    "seeders": 129
   },
   {
     "id": "tt32572716",
@@ -438,38 +438,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 49
-  },
-  {
-    "id": "tt30323611",
-    "type": "movie",
-    "name": "Az elkövetkező napok",
-    "poster": "https://image.tmdb.org/t/p/w500/4P3mSEpMtDdxUa2vGEQxfjCZND1.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután kiszabadul egy bántalmazó kapcsolatból, egy szingli anya megismerkedik exe új barátnőjével, és együtt próbálnak kitörni a férfi befolyása alól.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 61
-  },
-  {
-    "id": "tt39773309",
-    "type": "movie",
-    "name": "Az utolsó óriás",
-    "poster": "https://image.tmdb.org/t/p/w500/B1T4YXBS4B5TR2fVFOomCKXRuc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy idegenvezető rég eltűnt apja újra felbukkan. A találkozás mindkettőjük életére nagy hatással lesz.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 56
+    "seeders": 52
   },
   {
     "id": "tt39744394",
@@ -486,6 +455,37 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 111
+    "seeders": 133
+  },
+  {
+    "id": "tt30323611",
+    "type": "movie",
+    "name": "Az elkövetkező napok",
+    "poster": "https://image.tmdb.org/t/p/w500/4P3mSEpMtDdxUa2vGEQxfjCZND1.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután kiszabadul egy bántalmazó kapcsolatból, egy szingli anya megismerkedik exe új barátnőjével, és együtt próbálnak kitörni a férfi befolyása alól.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 65
+  },
+  {
+    "id": "tt28779965",
+    "type": "movie",
+    "name": "Finnik - Jó a szörny a háznál",
+    "poster": "https://image.tmdb.org/t/p/w500/9fPo0duZIgUjqH1lsaL3WkHYlL5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Finnik, a kedves, láthatatlan háziszellem egy ősi mágia következtében láthatóvá válik. Ezzel nemcsak saját maga kerül veszélybe, de a több finn is. Egy szörnyvadász ugyanis a finnek elfogására képezte ki magát és most Finnik után ered.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs"
+    ],
+    "seeders": 125
   }
 ]
