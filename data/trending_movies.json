@@ -6,13 +6,14 @@
     "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy heves hurrikán közepette egy tengerparti város a túlélésért küzd, és nemcsak a természet pusztító haragjával, hanem a cápák állandó veszélyével is szembe kell néznie. A szakadó esőben, a törmelékkel teli utcákon és a nyomasztó sötétségben a közösségnek össze kell fognia, hogy megvédje magát ezekkel a halálos ragadozókkal szemben, ha esélyt akarnak adni a vihar túlélésére.  (Csillag Lajos)",
-    "imdbRating": 8.5,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 5.9,
     "releaseInfo": "2026",
     "genres": [
+      "Horror",
       "Thriller"
     ],
-    "seeders": 442
+    "seeders": 295
   },
   {
     "id": "tt1527793",
@@ -29,7 +30,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 225
+    "seeders": 185
   },
   {
     "id": "tt32357218",
@@ -46,7 +47,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2304
+    "seeders": 1495
   },
   {
     "id": "tt32430579",
@@ -56,35 +57,19 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2050
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 127
+    "seeders": 1348
   },
   {
     "id": "tt34610311",
     "type": "movie",
     "name": "A sötétség peremén",
-    "poster": "https://image.tmdb.org/t/p/w500/uFsqAak0ClSwtXiZUO1JgzpFH6y.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/vIoURIf7SS9olSdX0G90PdDGya6.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "A történet középpontjában Wong Tak Chung áll, egy visszavonult megfigyelési szakember, akit már rég maga mögött hagyott a szolgálat, amikor a rendőrség kénytelen újra elővenni. A város hiába van tele kamerákkal, arcfelismerő rendszerekkel és mindenféle korszerű eszközzel, egy profi bűnözői csapat mégis gond nélkül átsiklik a hálón.",
@@ -96,7 +81,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 584
+    "seeders": 411
   },
   {
     "id": "tt1757678",
@@ -113,7 +98,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1645
+    "seeders": 1073
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 111
   },
   {
     "id": "tt34381258",
@@ -130,7 +131,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 322
+    "seeders": 226
   },
   {
     "id": "tt28514971",
@@ -163,7 +164,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 640
+    "seeders": 441
   },
   {
     "id": "tt14850054",
@@ -180,7 +181,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1723
+    "seeders": 1085
   },
   {
     "id": "tt23149780",
@@ -196,7 +197,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 439
+    "seeders": 277
   },
   {
     "id": "tt39751309",
@@ -212,7 +213,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 87
+    "seeders": 73
   },
   {
     "id": "tt31050594",
@@ -230,22 +231,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 294
-  },
-  {
-    "id": "tt34713196",
-    "type": "movie",
-    "name": "A szív is csak egy izom",
-    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 142
+    "seeders": 222
   },
   {
     "id": "tt32897959",
@@ -261,7 +247,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 625
+    "seeders": 430
+  },
+  {
+    "id": "tt34713196",
+    "type": "movie",
+    "name": "A szív is csak egy izom",
+    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 105
   },
   {
     "id": "tt8036976",
@@ -271,14 +272,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 569
+    "seeders": 373
   },
   {
     "id": "tt41368989",
@@ -293,7 +294,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 159
+    "seeders": 107
+  },
+  {
+    "id": "tt40224399",
+    "type": "movie",
+    "name": "Első kézből: A sakkbotrány",
+    "poster": "https://image.tmdb.org/t/p/w500/oC68KgbyFiraKJRdUedQI9aXBF.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt26678938",
@@ -311,22 +327,38 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 513
+    "seeders": 355
   },
   {
-    "id": "tt40224399",
+    "id": "tt31614921",
     "type": "movie",
-    "name": "Első kézből: A sakkbotrány",
-    "poster": "https://image.tmdb.org/t/p/w500/oC68KgbyFiraKJRdUedQI9aXBF.jpg",
+    "name": "Csillagok alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum"
+      "Romantikus",
+      "Vígjáték"
     ],
-    "seeders": 104
+    "seeders": 111
+  },
+  {
+    "id": "tt32318707",
+    "type": "movie",
+    "name": "Adam érdekében",
+    "poster": "https://image.tmdb.org/t/p/w500/rQfs7iuWYt0sqgxm76sC9l8nMa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A kórházi protokoll és a bírósági korlátozások ellenére egy könyörületes ápolónő a kétségbeesett anya megsegítése és a szakmai előírások betartása között találja magát.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt37976405",
@@ -344,38 +376,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 420
-  },
-  {
-    "id": "tt31614921",
-    "type": "movie",
-    "name": "Csillagok alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 147
-  },
-  {
-    "id": "tt32318707",
-    "type": "movie",
-    "name": "Adam érdekében",
-    "poster": "https://image.tmdb.org/t/p/w500/rQfs7iuWYt0sqgxm76sC9l8nMa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A kórházi protokoll és a bírósági korlátozások ellenére egy könyörületes ápolónő a kétségbeesett anya megsegítése és a szakmai előírások betartása között találja magát.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 73
+    "seeders": 277
   },
   {
     "id": "tt32606470",
@@ -392,7 +393,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 271
+    "seeders": 188
   },
   {
     "id": "tt9612976",
@@ -409,7 +410,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 193
+    "seeders": 145
   },
   {
     "id": "tt29720283",
@@ -424,7 +425,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 187
+    "seeders": 121
   },
   {
     "id": "tt7132924",
@@ -439,7 +440,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 98
+    "seeders": 79
   },
   {
     "id": "tt33306253",
@@ -454,7 +455,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 126
+    "seeders": 104
   },
   {
     "id": "tt27673536",
@@ -471,7 +472,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 158
+    "seeders": 117
   },
   {
     "id": "tt39465484",
@@ -486,6 +487,6 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 112
+    "seeders": 77
   }
 ]
