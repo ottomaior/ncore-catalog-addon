@@ -13,40 +13,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 511
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 2260
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/dVlpMyR0V6xDeysqftWEZfRqnY5.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 1972
+    "seeders": 572
   },
   {
     "id": "tt1527793",
@@ -63,59 +30,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 259
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és Hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 1579
-  },
-  {
-    "id": "tt34610311",
-    "type": "movie",
-    "name": "A sötétség peremén",
-    "poster": "https://image.tmdb.org/t/p/w500/vIoURIf7SS9olSdX0G90PdDGya6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A történet középpontjában Wong Tak Chung áll, egy visszavonult megfigyelési szakember, akit már rég maga mögött hagyott a szolgálat, amikor a rendőrség kénytelen újra elővenni. A város hiába van tele kamerákkal, arcfelismerő rendszerekkel és mindenféle korszerű eszközzel, egy profi bűnözői csapat mégis gond nélkül átsiklik a hálón.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 594
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 650
+    "seeders": 295
   },
   {
     "id": "tt34381258",
@@ -132,7 +47,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 320
+    "seeders": 329
   },
   {
     "id": "tt14403504",
@@ -148,24 +63,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 155
-  },
-  {
-    "id": "tt14850054",
-    "type": "movie",
-    "name": "Greenland: Az új menedék",
-    "poster": "https://image.tmdb.org/t/p/w500/cqh16FjRjInJg36Fuh2pIk6s2pE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nem sokkal azután, hogy egy üstökös megtizedelte a Föld élővilágát, a Garrity család kénytelen hátrahagyni a grönlandi bunker nyújtotta biztonságot, és nekivágni a darabjaira hullott világnak, hogy új otthont találjanak.  A 2020-as a 'Greenland - Az utolsó menedék' folytatására visszatért a rendezői székbe Ric Roman Waugh, míg a főbb szerepeket ezúttal is Gerard Butler és Morena Baccarin alakítják.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 1623
+    "seeders": 185
   },
   {
     "id": "tt28514971",
@@ -181,74 +79,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 126
-  },
-  {
-    "id": "tt23149780",
-    "type": "movie",
-    "name": "Éden",
-    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 439
-  },
-  {
-    "id": "tt32897959",
-    "type": "movie",
-    "name": "Üvöltő szelek",
-    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 607
-  },
-  {
-    "id": "tt31050594",
-    "type": "movie",
-    "name": "Mesterséges kegyelem",
-    "poster": "https://image.tmdb.org/t/p/w500/yF5Gye414DGecECQr6rKRFD3gYz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Akció",
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 278
-  },
-  {
-    "id": "tt8036976",
-    "type": "movie",
-    "name": "Segítség!",
-    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 556
+    "seeders": 138
   },
   {
     "id": "tt39751309",
@@ -258,235 +89,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 89
-  },
-  {
-    "id": "tt34713196",
-    "type": "movie",
-    "name": "A szív is csak egy izom",
-    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 136
-  },
-  {
-    "id": "tt26678938",
-    "type": "movie",
-    "name": "Halál cukik",
-    "poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Thriller",
-      "Akció",
-      "Horror"
-    ],
-    "seeders": 500
-  },
-  {
-    "id": "tt41368989",
-    "type": "movie",
-    "name": "Harry nyomában: A varázslat titkai",
-    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 145
-  },
-  {
-    "id": "tt40224399",
-    "type": "movie",
-    "name": "Első kézből: A sakkbotrány",
-    "poster": "https://image.tmdb.org/t/p/w500/oC68KgbyFiraKJRdUedQI9aXBF.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 101
-  },
-  {
-    "id": "tt31614921",
-    "type": "movie",
-    "name": "Csillagok alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 144
-  },
-  {
-    "id": "tt37976405",
-    "type": "movie",
-    "name": "Versa",
-    "poster": "https://image.tmdb.org/t/p/w500/p2zKN6Ic81C1UbLbnak4dZ2wABl.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal pár útját láthatjuk a gyásztól és a veszteségtől a végső szerelemig, az örömig és az elfogadásig, miközben belekezdenek egy kozmikus élet éteri táncába.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Dráma",
-      "Fantasy"
-    ],
-    "seeders": 370
-  },
-  {
-    "id": "tt32606470",
-    "type": "movie",
-    "name": "Humint",
-    "poster": "https://image.tmdb.org/t/p/w500/f7sCSLEPRfV2fWQ0RYOtHhnHXuG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kémkedéssel kapcsolatos akciófilm, amely észak- és dél-koreai titkosügynökök összecsapását mutatja be, akik a vlagyivosztoki határon történt bűncselekmények kivizsgálása során csapnak össze.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 259
-  },
-  {
-    "id": "tt9612976",
-    "type": "movie",
-    "name": "Tafiti és Pamacs",
-    "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Családi"
-    ],
-    "seeders": 178
-  },
-  {
-    "id": "tt32318707",
-    "type": "movie",
-    "name": "Adam érdekében",
-    "poster": "https://image.tmdb.org/t/p/w500/rQfs7iuWYt0sqgxm76sC9l8nMa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A kórházi protokoll és a bírósági korlátozások ellenére egy könyörületes ápolónő a kétségbeesett anya megsegítése és a szakmai előírások betartása között találja magát.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 63
-  },
-  {
-    "id": "tt29720283",
-    "type": "movie",
-    "name": "Thinestra",
-    "poster": "https://image.tmdb.org/t/p/w500/ubsAc9vU7FYoMcWAIokD2L6nRQZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatal nő új fogyókúrás tablettát kezd szedni, de a leadott zsír vérszomjas hasonmásként tér vissza.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 162
-  },
-  {
-    "id": "tt7132924",
-    "type": "movie",
-    "name": "Bang Bang",
-    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 96
-  },
-  {
-    "id": "tt33306253",
-    "type": "movie",
-    "name": "Én vagyok a világ vége",
-    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 120
-  },
-  {
-    "id": "tt27673536",
-    "type": "movie",
-    "name": "Mardaani 3 - Férfiak világában",
-    "poster": "https://image.tmdb.org/t/p/w500/dHxLBtHw4InwsVumnthupZYz6NM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Shivani olyan csapdát állít, hogy az elrablók pénzt követeljenek, és ez valóban meg is történik. De a helyzet nem olyan egyszerű, amilyennek látszik, mivel Amma vezette nagy koldusmaffia is kapcsolatban áll az üggyel. Amma és bandája valami nagy dolgot tervez: azonos korú lányokat rabolnak el, és injekciót adnak be nekik. Shivani és a fiatal tiszt, Fatima összeállnak Ramanujan-nal, aki egy alapítványt vezet a kolduskereskedelem áldozatainak megmentésére, és a rendőrség segítségével már több ilyen bandát is felszámolt. Amma tisztában van Shivani félelmet nem ismerő természetével, és a családját veszi célba, miközben Shivani tippet kap a emberrablókról, ami tűzharchoz vezet közöttük. Utána kiderül, hogy Jhimli még mindig eltűnt, Ruhani pedig meghalt.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 155
-  },
-  {
-    "id": "tt39465484",
-    "type": "movie",
-    "name": "Ízek, imák, kutyák",
-    "poster": "https://image.tmdb.org/t/p/w500/rQdmyrSU0ySNkZMOq3URaDhUvdq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a viharos vígjátékban öt különc kutyatartó kér segítséget, hogy jobban boldoguljon négylábú kedvencével. Utolsó reményük egy intenzív tanfolyam a karizmatikus és legendás kutyakiképző, Nodon vezetésével a tiroli hegyekben.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 103
+    "seeders": 94
   }
 ]
