@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt34375721",
+    "type": "movie",
+    "name": "Sárkányok Kabul felett",
+    "poster": "https://image.tmdb.org/t/p/w500/zHJ6fTLGsihOjddR2A9fuXTgZVc.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.\r (csd)",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 167
+  },
+  {
     "id": "tt32362890",
     "type": "movie",
     "name": "Haragos természet",
@@ -7,13 +24,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 5.9,
+    "imdbRating": 5.8,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "seeders": 572
+    "seeders": 362
   },
   {
     "id": "tt1527793",
@@ -30,7 +47,39 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 295
+    "seeders": 226
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 135
+  },
+  {
+    "id": "tt28514971",
+    "type": "movie",
+    "name": "A nagybácsi",
+    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 120
   },
   {
     "id": "tt34381258",
@@ -47,39 +96,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 329
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 185
-  },
-  {
-    "id": "tt28514971",
-    "type": "movie",
-    "name": "A nagybácsi",
-    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 138
+    "seeders": 73
   },
   {
     "id": "tt39751309",
@@ -95,6 +112,6 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 94
+    "seeders": 67
   }
 ]
