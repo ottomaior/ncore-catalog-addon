@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999994
+"seeders": 999993
 },
 {
 "id": "tt29344974",
@@ -30,7 +30,23 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999993
+"seeders": 999989
+},
+{
+"id": "tt29567915",
+"type": "movie",
+"name": "Nürnberg",
+"poster": "https://image.tmdb.org/t/p/w500/zCXd8hYLEjjPglPXIOIdI0fVgy.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
+"imdbRating": 7.4,
+"releaseInfo": "2025",
+"genres": [
+"Történelmi",
+"Dráma"
+],
+"seeders": 999987
 },
 {
 "id": "tt20672356",
@@ -46,7 +62,25 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999964
+"seeders": 999958
+},
+{
+"id": "tt26678938",
+"type": "movie",
+"name": "Halál cukik",
+"poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
+"imdbRating": 6.9,
+"releaseInfo": "2026",
+"genres": [
+"Zenei",
+"Thriller",
+"Akció",
+"Horror"
+],
+"seeders": 999909
 },
 {
 "id": "tt0179955",
@@ -56,14 +90,14 @@
 "posterShape": "poster",
 "year": 1986,
 "description": "Az egerek sorsa megpecsételődött. Az X bolygón a vérszomjas macskák semmibe veszik a jogot, és az egértársadalom felszámolására törekednek. De megcsillan egy reménysugár, az egerek főtudósa feltalálja a megoldást. A titkos szolgálat azonnal aktiválja legjobb ügynökét, Grabovszkyt, hogy még időben célba jusson a tervrajz.",
-"imdbRating": 7.5,
+"imdbRating": 7.6,
 "releaseInfo": "1986",
 "genres": [
 "Animációs",
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999898
+"seeders": 999895
 },
 {
 "id": "tt27811640",
@@ -78,7 +112,24 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999892
+"seeders": 999886
+},
+{
+"id": "tt23172090",
+"type": "movie",
+"name": "Porszörny",
+"poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
+"imdbRating": 6.6,
+"releaseInfo": "2025",
+"genres": [
+"Fantasy",
+"Akció",
+"Thriller"
+],
+"seeders": 999872
 },
 {
 "id": "tt0142632",
@@ -95,7 +146,22 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999853
+"seeders": 999846
+},
+{
+"id": "tt0065067",
+"type": "movie",
+"name": "A tanú",
+"poster": "https://image.tmdb.org/t/p/w500/l6X1hx0Ux5hQYSl7YpQiyIsdzO7.jpg",
+"posterShape": "poster",
+"year": 1979,
+"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
+"imdbRating": 8.1,
+"releaseInfo": "1979",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999844
 },
 {
 "id": "tt31065630",
@@ -126,7 +192,7 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999837
+"seeders": 999831
 },
 {
 "id": "tt0084315",
@@ -144,21 +210,6 @@
 "Kaland"
 ],
 "seeders": 999823
-},
-{
-"id": "tt0065067",
-"type": "movie",
-"name": "A tanú",
-"poster": "https://image.tmdb.org/t/p/w500/l6X1hx0Ux5hQYSl7YpQiyIsdzO7.jpg",
-"posterShape": "poster",
-"year": 1979,
-"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
-"imdbRating": 8.1,
-"releaseInfo": "1979",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999792
 },
 {
 "id": "tt33586253",
