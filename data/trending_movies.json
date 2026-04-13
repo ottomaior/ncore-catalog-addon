@@ -14,7 +14,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 614
+    "seeders": 781
   },
   {
     "id": "tt27766440",
@@ -29,7 +29,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 42
+    "seeders": 72
   },
   {
     "id": "tt32357218",
@@ -46,7 +46,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1520
+    "seeders": 1831
   },
   {
     "id": "tt32362890",
@@ -56,13 +56,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 5.9,
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "seeders": 357
+    "seeders": 441
   },
   {
     "id": "tt32430579",
@@ -78,7 +78,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1453
+    "seeders": 1675
   },
   {
     "id": "tt1757678",
@@ -95,7 +95,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1104
+    "seeders": 1334
   },
   {
     "id": "tt34610311",
@@ -113,7 +113,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 467
+    "seeders": 538
   },
   {
     "id": "tt1527793",
@@ -130,7 +130,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 235
+    "seeders": 262
   },
   {
     "id": "tt30851137",
@@ -147,7 +147,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 436
+    "seeders": 530
   },
   {
     "id": "tt14850054",
@@ -164,7 +164,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1086
+    "seeders": 1300
   },
   {
     "id": "tt34381258",
@@ -181,7 +181,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 217
+    "seeders": 264
   },
   {
     "id": "tt14403504",
@@ -197,23 +197,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 136
-  },
-  {
-    "id": "tt28514971",
-    "type": "movie",
-    "name": "A nagybácsi",
-    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 120
+    "seeders": 153
   },
   {
     "id": "tt23149780",
@@ -229,7 +213,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 282
+    "seeders": 354
+  },
+  {
+    "id": "tt28514971",
+    "type": "movie",
+    "name": "A nagybácsi",
+    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 131
   },
   {
     "id": "tt32897959",
@@ -245,7 +245,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 423
+    "seeders": 503
   },
   {
     "id": "tt31050594",
@@ -263,7 +263,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 221
+    "seeders": 246
   },
   {
     "id": "tt8036976",
@@ -280,23 +280,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 361
-  },
-  {
-    "id": "tt39751309",
-    "type": "movie",
-    "name": "A 18. rózsa",
-    "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 68
+    "seeders": 426
   },
   {
     "id": "tt26678938",
@@ -314,22 +298,23 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 340
+    "seeders": 399
   },
   {
-    "id": "tt41368989",
+    "id": "tt39751309",
     "type": "movie",
-    "name": "Harry nyomában: A varázslat titkai",
-    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
+    "name": "A 18. rózsa",
+    "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
-    "imdbRating": 7.9,
+    "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Dráma",
+      "Romantikus"
     ],
-    "seeders": 116
+    "seeders": 77
   },
   {
     "id": "tt34713196",
@@ -344,7 +329,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 87
+    "seeders": 101
+  },
+  {
+    "id": "tt41368989",
+    "type": "movie",
+    "name": "Harry nyomában: A varázslat titkai",
+    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 125
   },
   {
     "id": "tt37976405",
@@ -362,7 +362,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 268
+    "seeders": 311
   },
   {
     "id": "tt32606470",
@@ -379,7 +379,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 169
+    "seeders": 209
   },
   {
     "id": "tt31614921",
@@ -395,7 +395,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 99
+    "seeders": 110
   },
   {
     "id": "tt9612976",
@@ -412,7 +412,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 147
+    "seeders": 156
   },
   {
     "id": "tt40224399",
@@ -422,12 +422,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
-    "imdbRating": 6.2,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 68
+    "seeders": 76
   },
   {
     "id": "tt29720283",
@@ -442,7 +442,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 113
+    "seeders": 136
   },
   {
     "id": "tt33306253",
@@ -457,7 +457,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 98
+    "seeders": 102
   },
   {
     "id": "tt32318707",
@@ -472,21 +472,23 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 43
+    "seeders": 46
   },
   {
-    "id": "tt7132924",
+    "id": "tt27673536",
     "type": "movie",
-    "name": "Bang Bang",
-    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
+    "name": "Mardaani 3 - Férfiak világában",
+    "poster": "https://image.tmdb.org/t/p/w500/dHxLBtHw4InwsVumnthupZYz6NM.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Shivani olyan csapdát állít, hogy az elrablók pénzt követeljenek, és ez valóban meg is történik. De a helyzet nem olyan egyszerű, amilyennek látszik, mivel Amma vezette nagy koldusmaffia is kapcsolatban áll az üggyel. Amma és bandája valami nagy dolgot tervez: azonos korú lányokat rabolnak el, és injekciót adnak be nekik. Shivani és a fiatal tiszt, Fatima összeállnak Ramanujan-nal, aki egy alapítványt vezet a kolduskereskedelem áldozatainak megmentésére, és a rendőrség segítségével már több ilyen bandát is felszámolt. Amma tisztában van Shivani félelmet nem ismerő természetével, és a családját veszi célba, miközben Shivani tippet kap a emberrablókról, ami tűzharchoz vezet közöttük. Utána kiderül, hogy Jhimli még mindig eltűnt, Ruhani pedig meghalt.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
     ],
-    "seeders": 69
+    "seeders": 133
   }
 ]
