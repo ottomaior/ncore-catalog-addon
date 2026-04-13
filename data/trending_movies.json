@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt27613895",
+    "type": "movie",
+    "name": "GOAT - Will, a bajnok",
+    "poster": "https://image.tmdb.org/t/p/w500/97osc8Z8xBkgcG5iNXeXznLrLCe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bömball a világ legveszélyesebb sportja. Nagyvadak játsszák egy nagyon veszélyes pályán. És Will, a kis kecske százszor hallotta már életében, hogy hol van a kis állatok helye: a pálya szélén, vagy legfeljebb a lelátón. Ő azonban nem hajlandó elfogadni a prózai valóságot. A bömball legjobbjai közé akar kerülni. És mindent megér neki, hogy megvalósítsa az álmát.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 195
+  },
+  {
     "id": "tt35303515",
     "type": "movie",
     "name": "Itt érzem magam otthon",
@@ -13,7 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 887
+    "seeders": 2008
   },
   {
     "id": "tt34375721",
@@ -23,29 +40,14 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
-    "imdbRating": null,
+    "imdbRating": 5.0,
     "releaseInfo": "2025",
     "genres": [
       "Akció",
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 968
-  },
-  {
-    "id": "tt27766440",
-    "type": "movie",
-    "name": "A tenger útja",
-    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 102
+    "seeders": 1152
   },
   {
     "id": "tt32357218",
@@ -62,23 +64,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2094
-  },
-  {
-    "id": "tt32362890",
-    "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 514
+    "seeders": 2239
   },
   {
     "id": "tt32430579",
@@ -94,7 +80,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1867
+    "seeders": 2079
+  },
+  {
+    "id": "tt32362890",
+    "type": "movie",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 561
   },
   {
     "id": "tt1757678",
@@ -111,7 +113,22 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1483
+    "seeders": 1658
+  },
+  {
+    "id": "tt27766440",
+    "type": "movie",
+    "name": "A tenger útja",
+    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 107
   },
   {
     "id": "tt34610311",
@@ -129,7 +146,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 621
+    "seeders": 704
   },
   {
     "id": "tt30851137",
@@ -146,7 +163,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 603
+    "seeders": 644
   },
   {
     "id": "tt1527793",
@@ -163,24 +180,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 281
-  },
-  {
-    "id": "tt14850054",
-    "type": "movie",
-    "name": "Greenland: Az új menedék",
-    "poster": "https://image.tmdb.org/t/p/w500/cqh16FjRjInJg36Fuh2pIk6s2pE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nem sokkal azután, hogy egy üstökös megtizedelte a Föld élővilágát, a Garrity család kénytelen hátrahagyni a grönlandi bunker nyújtotta biztonságot, és nekivágni a darabjaira hullott világnak, hogy új otthont találjanak.  A 2020-as a 'Greenland - Az utolsó menedék' folytatására visszatért a rendezői székbe Ric Roman Waugh, míg a főbb szerepeket ezúttal is Gerard Butler és Morena Baccarin alakítják.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 1480
+    "seeders": 309
   },
   {
     "id": "tt34381258",
@@ -197,7 +197,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 290
+    "seeders": 300
   },
   {
     "id": "tt23149780",
@@ -213,7 +213,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 418
+    "seeders": 439
   },
   {
     "id": "tt14403504",
@@ -229,7 +229,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 175
+    "seeders": 184
   },
   {
     "id": "tt32897959",
@@ -245,7 +245,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 570
+    "seeders": 601
   },
   {
     "id": "tt28514971",
@@ -261,7 +261,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 134
+    "seeders": 140
   },
   {
     "id": "tt8036976",
@@ -278,7 +278,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 494
+    "seeders": 541
   },
   {
     "id": "tt31050594",
@@ -296,7 +296,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 271
+    "seeders": 279
   },
   {
     "id": "tt37976405",
@@ -314,7 +314,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 353
+    "seeders": 384
   },
   {
     "id": "tt41368989",
@@ -329,7 +329,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 144
+    "seeders": 154
   },
   {
     "id": "tt32606470",
@@ -346,7 +346,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 245
+    "seeders": 253
   },
   {
     "id": "tt34713196",
@@ -361,54 +361,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 103
-  },
-  {
-    "id": "tt39751309",
-    "type": "movie",
-    "name": "A 18. rózsa",
-    "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 75
-  },
-  {
-    "id": "tt31614921",
-    "type": "movie",
-    "name": "Csillagok alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 125
-  },
-  {
-    "id": "tt40224399",
-    "type": "movie",
-    "name": "Első kézből: A sakkbotrány",
-    "poster": "https://image.tmdb.org/t/p/w500/oC68KgbyFiraKJRdUedQI9aXBF.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 90
+    "seeders": 104
   },
   {
     "id": "tt9612976",
@@ -425,7 +378,54 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 168
+    "seeders": 188
+  },
+  {
+    "id": "tt39751309",
+    "type": "movie",
+    "name": "A 18. rózsa",
+    "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 69
+  },
+  {
+    "id": "tt31614921",
+    "type": "movie",
+    "name": "Csillagok alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 127
+  },
+  {
+    "id": "tt40224399",
+    "type": "movie",
+    "name": "Első kézből: A sakkbotrány",
+    "poster": "https://image.tmdb.org/t/p/w500/oC68KgbyFiraKJRdUedQI9aXBF.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 98
   },
   {
     "id": "tt29720283",
@@ -440,7 +440,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 159
+    "seeders": 163
   },
   {
     "id": "tt33306253",
@@ -455,7 +455,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 111
+    "seeders": 113
   },
   {
     "id": "tt32318707",
@@ -470,23 +470,21 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 51
+    "seeders": 53
   },
   {
-    "id": "tt27673536",
+    "id": "tt7132924",
     "type": "movie",
-    "name": "Mardaani 3 - Férfiak világában",
-    "poster": "https://image.tmdb.org/t/p/w500/dHxLBtHw4InwsVumnthupZYz6NM.jpg",
+    "name": "Bang Bang",
+    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Shivani olyan csapdát állít, hogy az elrablók pénzt követeljenek, és ez valóban meg is történik. De a helyzet nem olyan egyszerű, amilyennek látszik, mivel Amma vezette nagy koldusmaffia is kapcsolatban áll az üggyel. Amma és bandája valami nagy dolgot tervez: azonos korú lányokat rabolnak el, és injekciót adnak be nekik. Shivani és a fiatal tiszt, Fatima összeállnak Ramanujan-nal, aki egy alapítványt vezet a kolduskereskedelem áldozatainak megmentésére, és a rendőrség segítségével már több ilyen bandát is felszámolt. Amma tisztában van Shivani félelmet nem ismerő természetével, és a családját veszi célba, miközben Shivani tippet kap a emberrablókról, ami tűzharchoz vezet közöttük. Utána kiderül, hogy Jhimli még mindig eltűnt, Ruhani pedig meghalt.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
     "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
+      "Dráma"
     ],
-    "seeders": 145
+    "seeders": 81
   }
 ]
