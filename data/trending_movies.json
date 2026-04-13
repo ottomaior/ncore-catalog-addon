@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt35303515",
+    "type": "movie",
+    "name": "Itt érzem magam otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/b0ldbmOJQgaqxK5ZSLhfH3VLf8Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ritát, a fiatal és magányos nőt egy éjszaka elrabolják az utcáról. A különös Árpád-család lakásában tér magához, akik váltig állítják, hogy ő valójában Szilvi, a család elveszett tagja. Rita tisztában van vele, hogy kicsoda, és azzal is, hogy Árpádéknál az őrület uralkodik. Ugyanakkor belátja, hogy ha valaha is meg akar szabadulni tőlük, kénytelen lesz megszemélyesíteni ezt a bizonyos Szilvit.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 887
+  },
+  {
     "id": "tt34375721",
     "type": "movie",
     "name": "Sárkányok Kabul felett",
@@ -14,7 +30,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 781
+    "seeders": 968
   },
   {
     "id": "tt27766440",
@@ -29,7 +45,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 72
+    "seeders": 102
   },
   {
     "id": "tt32357218",
@@ -46,7 +62,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1831
+    "seeders": 2094
   },
   {
     "id": "tt32362890",
@@ -62,7 +78,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 441
+    "seeders": 514
   },
   {
     "id": "tt32430579",
@@ -78,7 +94,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1675
+    "seeders": 1867
   },
   {
     "id": "tt1757678",
@@ -95,7 +111,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1334
+    "seeders": 1483
   },
   {
     "id": "tt34610311",
@@ -113,24 +129,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 538
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 262
+    "seeders": 621
   },
   {
     "id": "tt30851137",
@@ -147,7 +146,24 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 530
+    "seeders": 603
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 281
   },
   {
     "id": "tt14850054",
@@ -164,7 +180,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 1300
+    "seeders": 1480
   },
   {
     "id": "tt34381258",
@@ -181,23 +197,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 264
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 153
+    "seeders": 290
   },
   {
     "id": "tt23149780",
@@ -213,23 +213,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 354
+    "seeders": 418
   },
   {
-    "id": "tt28514971",
+    "id": "tt14403504",
     "type": "movie",
-    "name": "A nagybácsi",
-    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
-    "imdbRating": 7.2,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
+      "Thriller",
       "Dráma"
     ],
-    "seeders": 131
+    "seeders": 175
   },
   {
     "id": "tt32897959",
@@ -245,7 +245,40 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 503
+    "seeders": 570
+  },
+  {
+    "id": "tt28514971",
+    "type": "movie",
+    "name": "A nagybácsi",
+    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 134
+  },
+  {
+    "id": "tt8036976",
+    "type": "movie",
+    "name": "Segítség!",
+    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 494
   },
   {
     "id": "tt31050594",
@@ -263,88 +296,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 246
-  },
-  {
-    "id": "tt8036976",
-    "type": "movie",
-    "name": "Segítség!",
-    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 426
-  },
-  {
-    "id": "tt26678938",
-    "type": "movie",
-    "name": "Halál cukik",
-    "poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Thriller",
-      "Akció",
-      "Horror"
-    ],
-    "seeders": 399
-  },
-  {
-    "id": "tt39751309",
-    "type": "movie",
-    "name": "A 18. rózsa",
-    "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 77
-  },
-  {
-    "id": "tt34713196",
-    "type": "movie",
-    "name": "A szív is csak egy izom",
-    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 101
-  },
-  {
-    "id": "tt41368989",
-    "type": "movie",
-    "name": "Harry nyomában: A varázslat titkai",
-    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 125
+    "seeders": 271
   },
   {
     "id": "tt37976405",
@@ -362,7 +314,22 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 311
+    "seeders": 353
+  },
+  {
+    "id": "tt41368989",
+    "type": "movie",
+    "name": "Harry nyomában: A varázslat titkai",
+    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 144
   },
   {
     "id": "tt32606470",
@@ -379,7 +346,38 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 209
+    "seeders": 245
+  },
+  {
+    "id": "tt34713196",
+    "type": "movie",
+    "name": "A szív is csak egy izom",
+    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 103
+  },
+  {
+    "id": "tt39751309",
+    "type": "movie",
+    "name": "A 18. rózsa",
+    "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 75
   },
   {
     "id": "tt31614921",
@@ -395,7 +393,22 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 110
+    "seeders": 125
+  },
+  {
+    "id": "tt40224399",
+    "type": "movie",
+    "name": "Első kézből: A sakkbotrány",
+    "poster": "https://image.tmdb.org/t/p/w500/oC68KgbyFiraKJRdUedQI9aXBF.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt9612976",
@@ -412,22 +425,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 156
-  },
-  {
-    "id": "tt40224399",
-    "type": "movie",
-    "name": "Első kézből: A sakkbotrány",
-    "poster": "https://image.tmdb.org/t/p/w500/oC68KgbyFiraKJRdUedQI9aXBF.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 76
+    "seeders": 168
   },
   {
     "id": "tt29720283",
@@ -442,7 +440,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 136
+    "seeders": 159
   },
   {
     "id": "tt33306253",
@@ -457,7 +455,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 102
+    "seeders": 111
   },
   {
     "id": "tt32318707",
@@ -472,7 +470,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 46
+    "seeders": 51
   },
   {
     "id": "tt27673536",
@@ -489,6 +487,6 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 133
+    "seeders": 145
   }
 ]
