@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt35303515",
+    "type": "movie",
+    "name": "Itt érzem magam otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/b0ldbmOJQgaqxK5ZSLhfH3VLf8Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ritát, a fiatal és magányos nőt egy éjszaka elrabolják az utcáról. A különös Árpád-család lakásában tér magához, akik váltig állítják, hogy ő valójában Szilvi, a család elveszett tagja. Rita tisztában van vele, hogy kicsoda, és azzal is, hogy Árpádéknál az őrület uralkodik. Ugyanakkor belátja, hogy ha valaha is meg akar szabadulni tőlük, kénytelen lesz megszemélyesíteni ezt a bizonyos Szilvit.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 1361
+  },
+  {
     "id": "tt27613895",
     "type": "movie",
     "name": "GOAT - Will, a bajnok",
@@ -14,23 +30,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 195
-  },
-  {
-    "id": "tt35303515",
-    "type": "movie",
-    "name": "Itt érzem magam otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/b0ldbmOJQgaqxK5ZSLhfH3VLf8Y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ritát, a fiatal és magányos nőt egy éjszaka elrabolják az utcáról. A különös Árpád-család lakásában tér magához, akik váltig állítják, hogy ő valójában Szilvi, a család elveszett tagja. Rita tisztában van vele, hogy kicsoda, és azzal is, hogy Árpádéknál az őrület uralkodik. Ugyanakkor belátja, hogy ha valaha is meg akar szabadulni tőlük, kénytelen lesz megszemélyesíteni ezt a bizonyos Szilvit.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 2008
+    "seeders": 182
   },
   {
     "id": "tt34375721",
@@ -47,7 +47,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1152
+    "seeders": 808
   },
   {
     "id": "tt32357218",
@@ -64,7 +64,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2239
+    "seeders": 1497
   },
   {
     "id": "tt32430579",
@@ -80,23 +80,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2079
-  },
-  {
-    "id": "tt32362890",
-    "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 561
+    "seeders": 1430
   },
   {
     "id": "tt1757678",
@@ -113,7 +97,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1658
+    "seeders": 1101
+  },
+  {
+    "id": "tt32362890",
+    "type": "movie",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 346
   },
   {
     "id": "tt27766440",
@@ -128,7 +128,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 107
+    "seeders": 95
   },
   {
     "id": "tt34610311",
@@ -146,7 +146,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 704
+    "seeders": 494
   },
   {
     "id": "tt30851137",
@@ -156,14 +156,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.3,
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
       "Sci-Fi",
       "Horror",
       "Fantasy"
     ],
-    "seeders": 644
+    "seeders": 441
   },
   {
     "id": "tt1527793",
@@ -180,7 +180,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 309
+    "seeders": 228
   },
   {
     "id": "tt34381258",
@@ -197,23 +197,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 300
-  },
-  {
-    "id": "tt23149780",
-    "type": "movie",
-    "name": "Éden",
-    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 439
+    "seeders": 197
   },
   {
     "id": "tt14403504",
@@ -229,23 +213,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 184
+    "seeders": 140
   },
   {
-    "id": "tt32897959",
+    "id": "tt23149780",
     "type": "movie",
-    "name": "Üvöltő szelek",
-    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
+    "name": "Éden",
+    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
     "genres": [
-      "Romantikus",
+      "Thriller",
       "Dráma"
     ],
-    "seeders": 601
+    "seeders": 279
   },
   {
     "id": "tt28514971",
@@ -261,7 +245,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 140
+    "seeders": 119
+  },
+  {
+    "id": "tt32897959",
+    "type": "movie",
+    "name": "Üvöltő szelek",
+    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 437
   },
   {
     "id": "tt8036976",
@@ -278,7 +278,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 541
+    "seeders": 371
   },
   {
     "id": "tt31050594",
@@ -296,7 +296,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 279
+    "seeders": 212
   },
   {
     "id": "tt37976405",
@@ -314,7 +314,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 384
+    "seeders": 254
   },
   {
     "id": "tt41368989",
@@ -329,7 +329,38 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 154
+    "seeders": 103
+  },
+  {
+    "id": "tt34713196",
+    "type": "movie",
+    "name": "A szív is csak egy izom",
+    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 79
+  },
+  {
+    "id": "tt39751309",
+    "type": "movie",
+    "name": "A 18. rózsa",
+    "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt32606470",
@@ -346,22 +377,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 253
-  },
-  {
-    "id": "tt34713196",
-    "type": "movie",
-    "name": "A szív is csak egy izom",
-    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 104
+    "seeders": 165
   },
   {
     "id": "tt9612976",
@@ -378,23 +394,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 188
-  },
-  {
-    "id": "tt39751309",
-    "type": "movie",
-    "name": "A 18. rózsa",
-    "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 69
+    "seeders": 148
   },
   {
     "id": "tt31614921",
@@ -410,7 +410,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 127
+    "seeders": 98
   },
   {
     "id": "tt40224399",
@@ -420,12 +420,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 98
+    "seeders": 70
   },
   {
     "id": "tt29720283",
@@ -440,7 +440,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 163
+    "seeders": 116
   },
   {
     "id": "tt33306253",
@@ -455,7 +455,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 113
+    "seeders": 90
   },
   {
     "id": "tt32318707",
@@ -470,7 +470,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 53
+    "seeders": 43
   },
   {
     "id": "tt7132924",
@@ -485,6 +485,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 81
+    "seeders": 67
   }
 ]
