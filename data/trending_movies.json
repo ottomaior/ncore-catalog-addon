@@ -1,5 +1,36 @@
 [
   {
+    "id": "tt37172278",
+    "type": "movie",
+    "name": "Noah Kahan: Mintha nem is én lennék",
+    "poster": "https://image.tmdb.org/t/p/w500/8VtZAonOgK8hae7FwOZCSg7XmCu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Pályájának meghatározó időszaka a világhír felé repíti Noah Kahan zenészt, aki közben válaszúthoz érkezik. A Stick Season átütő sikere után (amely a vermonti vidék csendjéből született, és világszerte hódított) már a következő albumán dolgozik, miközben egyre nagyobb nyomás nehezedik rá a folytatás miatt. Egy szédítő, teltházas turnékkal és példátlan elismerésekkel teli év után visszatér vermonti gyökereihez és a családjához. Sajátos humorából merít erőt, miközben igyekszik újra rátalálni az otthonosság érzésére és az alkotói inspirációra, és közben szembenéz azokkal a mélyen személyes küzdelmekkel, amelyek kizökkentették önmagából.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 50
+  },
+  {
+    "id": "tt40224401",
+    "type": "movie",
+    "name": "Untold: Jail Blazers",
+    "poster": "https://image.tmdb.org/t/p/w500/m0tiJEfi9kIzzzfQGURcVE6sKIC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 46
+  },
+  {
     "id": "tt35303515",
     "type": "movie",
     "name": "Itt érzem magam otthon",
@@ -13,7 +44,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1361
+    "seeders": 1882
+  },
+  {
+    "id": "tt8036976",
+    "type": "movie",
+    "name": "Segítség!",
+    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 52
   },
   {
     "id": "tt27613895",
@@ -30,7 +78,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 182
+    "seeders": 242
   },
   {
     "id": "tt34375721",
@@ -47,7 +95,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 808
+    "seeders": 975
   },
   {
     "id": "tt32357218",
@@ -64,7 +112,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1497
+    "seeders": 1778
   },
   {
     "id": "tt32430579",
@@ -80,7 +128,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1430
+    "seeders": 1641
+  },
+  {
+    "id": "tt32362890",
+    "type": "movie",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 437
   },
   {
     "id": "tt1757678",
@@ -97,38 +161,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1101
-  },
-  {
-    "id": "tt32362890",
-    "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 346
-  },
-  {
-    "id": "tt27766440",
-    "type": "movie",
-    "name": "A tenger útja",
-    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 95
+    "seeders": 1292
   },
   {
     "id": "tt34610311",
@@ -146,7 +179,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 494
+    "seeders": 565
+  },
+  {
+    "id": "tt27766440",
+    "type": "movie",
+    "name": "A tenger útja",
+    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 108
   },
   {
     "id": "tt30851137",
@@ -163,7 +211,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 441
+    "seeders": 526
   },
   {
     "id": "tt1527793",
@@ -180,7 +228,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 228
+    "seeders": 253
   },
   {
     "id": "tt34381258",
@@ -197,23 +245,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 197
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 140
+    "seeders": 238
   },
   {
     "id": "tt23149780",
@@ -229,23 +261,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 279
+    "seeders": 337
   },
   {
-    "id": "tt28514971",
+    "id": "tt14403504",
     "type": "movie",
-    "name": "A nagybácsi",
-    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
-    "imdbRating": 7.2,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
+      "Thriller",
       "Dráma"
     ],
-    "seeders": 119
+    "seeders": 152
   },
   {
     "id": "tt32897959",
@@ -261,24 +293,23 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 437
+    "seeders": 508
   },
   {
-    "id": "tt8036976",
+    "id": "tt28514971",
     "type": "movie",
-    "name": "Segítség!",
-    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "name": "A nagybácsi",
+    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
     "genres": [
-      "Horror",
-      "Thriller",
-      "Vígjáték"
+      "Vígjáték",
+      "Dráma"
     ],
-    "seeders": 371
+    "seeders": 120
   },
   {
     "id": "tt31050594",
@@ -296,7 +327,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 212
+    "seeders": 232
   },
   {
     "id": "tt37976405",
@@ -314,7 +345,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 254
+    "seeders": 302
   },
   {
     "id": "tt41368989",
@@ -329,38 +360,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 103
-  },
-  {
-    "id": "tt34713196",
-    "type": "movie",
-    "name": "A szív is csak egy izom",
-    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 79
-  },
-  {
-    "id": "tt39751309",
-    "type": "movie",
-    "name": "A 18. rózsa",
-    "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 59
+    "seeders": 117
   },
   {
     "id": "tt32606470",
@@ -377,7 +377,54 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 165
+    "seeders": 204
+  },
+  {
+    "id": "tt34713196",
+    "type": "movie",
+    "name": "A szív is csak egy izom",
+    "poster": "https://image.tmdb.org/t/p/w500/9Z3GHCiaqzy7lcTv1L2iggGF7Kb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kerti sütögetésen Ryan ötéves fia rövid időre eltűnik. A férfi ijedtében erőszakosan reagál, ami események láncolatát indítja el, és felszínre hozza a múlt titkait. Ezzel kezdetét veszi az önismerethez és a megbocsátáshoz vezető út.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 91
+  },
+  {
+    "id": "tt39751309",
+    "type": "movie",
+    "name": "A 18. rózsa",
+    "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy életvidám tinédzser, aki a tökéletes bemutatkozásról álmodik, alkut köt egy magányos újonnan érkezővel, ám a váratlan érzelmek és leleplezések keresztülhúzhatják a terveiket.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 67
+  },
+  {
+    "id": "tt31614921",
+    "type": "movie",
+    "name": "Csillagok alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 115
   },
   {
     "id": "tt9612976",
@@ -394,23 +441,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt31614921",
-    "type": "movie",
-    "name": "Csillagok alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/nxJ0xPNFcLhXMXhHfU5vZbR45ed.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy szenvedély nélküli kapcsolatban rekedt, küszködő romantikus regényíró inspirációt keresve Olaszországba utazik, és váratlanul rátalál álmai nőjére.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 98
+    "seeders": 156
   },
   {
     "id": "tt40224399",
@@ -425,7 +456,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 70
+    "seeders": 76
   },
   {
     "id": "tt29720283",
@@ -440,22 +471,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 116
-  },
-  {
-    "id": "tt33306253",
-    "type": "movie",
-    "name": "Én vagyok a világ vége",
-    "poster": "https://image.tmdb.org/t/p/w500/atxPVWn8ljVO1YX7W5xUwO6BGnM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A sofőr Angelo visszatér Palermóba, hogy gondoskodjon idősödő szüleiről, egyúttal megragadja az alkalmat, hogy bosszút álljon a fiatalkorát tönkretevő zsarnokokon. Fekete komédia a lázadásról és a családról.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 90
+    "seeders": 135
   },
   {
     "id": "tt32318707",
@@ -470,21 +486,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 43
-  },
-  {
-    "id": "tt7132924",
-    "type": "movie",
-    "name": "Bang Bang",
-    "poster": "https://image.tmdb.org/t/p/w500/8qYYsOLVDg3dMdakor6V5cGfvS6.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A visszavonult ökölvívó, Bernard „Bang Bang” Rozyski elhatározza, hogy újra edzősködni kezd, miután találkozik rég nem látott unokájával. Bár az edzések felemelik Bang Banget a mélypontból, amiben addig élt, mások kételkednek szándékiban. Ilyen exbarátnője is, aki tanúja volt Bang Bang 80-as évekbeli villámgyors felemelkedésének, valamint versengésének egykori ellenfelével, Darnell Washingtonnal, aki egyben unokatestvére és Detroit polgármesterjelöltje is. Vajon Bang Bang csupán régi dühét adná tovább, vagy valódi önzetlenség áll a tanításai mögött?",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 67
+    "seeders": 48
   }
 ]
