@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "The Patient",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 219
+  },
+  {
     "id": "tt22868010",
     "type": "movie",
     "name": "Silent Hill – Visszatérés",
@@ -14,7 +29,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 320
+    "seeders": 369
   },
   {
     "id": "tt26735622",
@@ -24,13 +39,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 6.0,
+    "imdbRating": 6.1,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 277
+    "seeders": 415
   },
   {
     "id": "tt33022412",
@@ -48,7 +63,22 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 110
+    "seeders": 220
+  },
+  {
+    "id": "tt28772399",
+    "type": "movie",
+    "name": "Comeback",
+    "poster": "https://image.tmdb.org/t/p/w500/dO1II3A98VjnyIwUjCvj65CJ9Qz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 156
   },
   {
     "id": "tt34375721",
@@ -65,22 +95,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 903
-  },
-  {
-    "id": "tt28772399",
-    "type": "movie",
-    "name": "Comeback",
-    "poster": "https://image.tmdb.org/t/p/w500/dO1II3A98VjnyIwUjCvj65CJ9Qz.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 55
+    "seeders": 1107
   },
   {
     "id": "tt27613895",
@@ -97,7 +112,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 363
+    "seeders": 404
   },
   {
     "id": "tt32357218",
@@ -114,7 +129,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1426
+    "seeders": 1713
   },
   {
     "id": "tt32430579",
@@ -130,7 +145,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1317
+    "seeders": 1585
   },
   {
     "id": "tt1757678",
@@ -147,7 +162,38 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1031
+    "seeders": 1259
+  },
+  {
+    "id": "tt37172278",
+    "type": "movie",
+    "name": "Noah Kahan: Mintha nem is én lennék",
+    "poster": "https://image.tmdb.org/t/p/w500/8VtZAonOgK8hae7FwOZCSg7XmCu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Pályájának meghatározó időszaka a világhír felé repíti Noah Kahan zenészt, aki közben válaszúthoz érkezik. A Stick Season átütő sikere után (amely a vermonti vidék csendjéből született, és világszerte hódított) már a következő albumán dolgozik, miközben egyre nagyobb nyomás nehezedik rá a folytatás miatt. Egy szédítő, teltházas turnékkal és példátlan elismerésekkel teli év után visszatér vermonti gyökereihez és a családjához. Sajátos humorából merít erőt, miközben igyekszik újra rátalálni az otthonosság érzésére és az alkotói inspirációra, és közben szembenéz azokkal a mélyen személyes küzdelmekkel, amelyek kizökkentették önmagából.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 145
+  },
+  {
+    "id": "tt40224401",
+    "type": "movie",
+    "name": "Első kézből: Portland Trail Blazers",
+    "poster": "https://image.tmdb.org/t/p/w500/vmp45llJTRr6JLaIamt3RlfxgTH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Bemutatja Wallace, Stoudamire, Wells és mások munkásságát, akik azt vizsgálják, hogyan határozta meg a kultúra, a rassz és a média a 2000-es évek Portland Trail Blazers hírhedt NBA-korszakát.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 136
   },
   {
     "id": "tt34610311",
@@ -165,7 +211,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 506
+    "seeders": 579
   },
   {
     "id": "tt32362890",
@@ -181,24 +227,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 313
-  },
-  {
-    "id": "tt8036976",
-    "type": "movie",
-    "name": "Segítség!",
-    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 66
+    "seeders": 379
   },
   {
     "id": "tt30851137",
@@ -215,7 +244,24 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 395
+    "seeders": 477
+  },
+  {
+    "id": "tt8036976",
+    "type": "movie",
+    "name": "Segítség!",
+    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt1527793",
@@ -232,7 +278,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 214
+    "seeders": 246
   },
   {
     "id": "tt27766440",
@@ -247,54 +293,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 96
-  },
-  {
-    "id": "tt37172278",
-    "type": "movie",
-    "name": "Noah Kahan: Mintha nem is én lennék",
-    "poster": "https://image.tmdb.org/t/p/w500/8VtZAonOgK8hae7FwOZCSg7XmCu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Pályájának meghatározó időszaka a világhír felé repíti Noah Kahan zenészt, aki közben válaszúthoz érkezik. A Stick Season átütő sikere után (amely a vermonti vidék csendjéből született, és világszerte hódított) már a következő albumán dolgozik, miközben egyre nagyobb nyomás nehezedik rá a folytatás miatt. Egy szédítő, teltházas turnékkal és példátlan elismerésekkel teli év után visszatér vermonti gyökereihez és a családjához. Sajátos humorából merít erőt, miközben igyekszik újra rátalálni az otthonosság érzésére és az alkotói inspirációra, és közben szembenéz azokkal a mélyen személyes küzdelmekkel, amelyek kizökkentették önmagából.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 53
-  },
-  {
-    "id": "tt40224401",
-    "type": "movie",
-    "name": "Első kézből: Portland Trail Blazers",
-    "poster": "https://image.tmdb.org/t/p/w500/vmp45llJTRr6JLaIamt3RlfxgTH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Bemutatja Wallace, Stoudamire, Wells és mások munkásságát, akik azt vizsgálják, hogyan határozta meg a kultúra, a rassz és a média a 2000-es évek Portland Trail Blazers hírhedt NBA-korszakát.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 47
-  },
-  {
-    "id": "tt23149780",
-    "type": "movie",
-    "name": "Éden",
-    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 263
+    "seeders": 110
   },
   {
     "id": "tt34381258",
@@ -311,7 +310,23 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 183
+    "seeders": 234
+  },
+  {
+    "id": "tt23149780",
+    "type": "movie",
+    "name": "Éden",
+    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 309
   },
   {
     "id": "tt32897959",
@@ -327,7 +342,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 405
+    "seeders": 479
   },
   {
     "id": "tt14403504",
@@ -343,7 +358,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 235
+    "seeders": 261
   },
   {
     "id": "tt31050594",
@@ -361,7 +376,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 181
+    "seeders": 222
   },
   {
     "id": "tt28514971",
@@ -377,22 +392,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 99
-  },
-  {
-    "id": "tt41368989",
-    "type": "movie",
-    "name": "Harry nyomában: A varázslat titkai",
-    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 98
+    "seeders": 102
   },
   {
     "id": "tt32606470",
@@ -409,7 +409,22 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 156
+    "seeders": 189
+  },
+  {
+    "id": "tt41368989",
+    "type": "movie",
+    "name": "Harry nyomában: A varázslat titkai",
+    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 110
   },
   {
     "id": "tt9612976",
@@ -426,7 +441,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 144
+    "seeders": 160
   },
   {
     "id": "tt39751309",
@@ -442,7 +457,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 65
+    "seeders": 74
   },
   {
     "id": "tt34713196",
@@ -457,7 +472,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 69
+    "seeders": 84
   },
   {
     "id": "tt31614921",
@@ -473,21 +488,6 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 87
-  },
-  {
-    "id": "tt40224399",
-    "type": "movie",
-    "name": "Első kézből: A sakkbotrány",
-    "poster": "https://image.tmdb.org/t/p/w500/oC68KgbyFiraKJRdUedQI9aXBF.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Magnus Carlsent, akit széles körben minden idők legnagyobb sakkozójaként tartanak számon, kihívja Hans Niemann, a feltörekvő tehetség, aki az online sakk robbanásszerű növekedéséből húzott hasznot. Niemann felemelkedése a 2022-es Sinquefield-kupán érte el csúcspontját, amikor vitáktól övezett, epikus győzelmet aratott Carlsen ellen – ez később csalási vádakhoz és leleplezésekhez vezetett. A nevét tisztázni elszánt Niemann visszaküzdi magát a sakkvilág élvonalába, megágyazva egy nagy tétű, 2024-es visszavágónak Carlsennel.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 62
+    "seeders": 98
   }
 ]
