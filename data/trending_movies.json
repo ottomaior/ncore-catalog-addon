@@ -14,7 +14,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 28
+    "seeders": 112
   },
   {
     "id": "tt32536315",
@@ -23,7 +23,7 @@
     "poster": "https://image.tmdb.org/t/p/w500/dVU7SNc6dgStTVdtbPLQncWxsyZ.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Filmdráma, amely Lorenz Hart alkoholizmussal és mentális egészséggel való küzdelmének történetét meséli el, miközben megpróbálja menteni magát az „Oklahoma!” premierje alatt.  (Szarka Károly)",
+    "description": "1943. március 31-én este a legendás dalszövegíró, Lorenz Hart a törzshelyén, a Sardi’s bárban néz szembe megtört önbizalmával, miközben egykori alkotótársa, Richard Rodgers épp az Oklahoma! című, korszakalkotó musicalje premierjét ünnepli. Hart alkoholba fojtja bánatát, a nagy hatású alkotásokról (például Molnár Ferenc Liliom-ja) és saját szorongásairól folytatott kocsmai beszélgetések során pedig feltárul egy zseniális, mégis komplexusokkal teli, jobb sorsra érdemes művész belső világa.",
     "imdbRating": 6.6,
     "releaseInfo": "2025",
     "genres": [
@@ -31,7 +31,22 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 73
+    "seeders": 114
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 309
   },
   {
     "id": "tt22868010",
@@ -48,37 +63,24 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 414
+    "seeders": 477
   },
   {
-    "id": "tt31414242",
+    "id": "tt34375721",
     "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "name": "Sárkányok Kabul felett",
+    "poster": "https://image.tmdb.org/t/p/w500/7yTt1lszzoecMLNBchbqal2Zi7R.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
+    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
+    "imdbRating": 6.8,
     "releaseInfo": "2025",
     "genres": [
-      "Thriller"
+      "Akció",
+      "Történelmi",
+      "Dráma"
     ],
-    "seeders": 235
-  },
-  {
-    "id": "tt35518658",
-    "type": "movie",
-    "name": "Van, aki kopaszon szereti",
-    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
-    "imdbRating": 4.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 75
+    "seeders": 1202
   },
   {
     "id": "tt26735622",
@@ -95,24 +97,22 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 333
+    "seeders": 407
   },
   {
-    "id": "tt34375721",
+    "id": "tt35518658",
     "type": "movie",
-    "name": "Sárkányok Kabul felett",
-    "poster": "https://image.tmdb.org/t/p/w500/zHJ6fTLGsihOjddR2A9fuXTgZVc.jpg",
+    "name": "Van, aki kopaszon szereti",
+    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
-    "imdbRating": 6.8,
+    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
+    "imdbRating": 4.1,
     "releaseInfo": "2025",
     "genres": [
-      "Akció",
-      "Történelmi",
-      "Dráma"
+      "Vígjáték"
     ],
-    "seeders": 974
+    "seeders": 94
   },
   {
     "id": "tt27613895",
@@ -129,7 +129,40 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 398
+    "seeders": 440
+  },
+  {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 1715
+  },
+  {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/dVlpMyR0V6xDeysqftWEZfRqnY5.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 1608
   },
   {
     "id": "tt33022412",
@@ -147,40 +180,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 145
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 1444
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/dVlpMyR0V6xDeysqftWEZfRqnY5.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 1361
+    "seeders": 158
   },
   {
     "id": "tt1757678",
@@ -197,7 +197,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1078
+    "seeders": 1295
   },
   {
     "id": "tt34610311",
@@ -215,22 +215,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 551
-  },
-  {
-    "id": "tt28772399",
-    "type": "movie",
-    "name": "A visszatérés",
-    "poster": "https://image.tmdb.org/t/p/w500/dO1II3A98VjnyIwUjCvj65CJ9Qz.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Ava, az egykor sikeres techno DJ-páros lánya, szülei válása után az apjával él. Amikor édesanyja, Naomi nemzetközi visszatérésre készül, Ava hirtelen az éjszakai klubélet világában találja magát. Miközben Naomi kivirágzik a dübörgő ütemek sötét közegében, ez a világ nem Aváé. Bár igyekszik alkalmazkodni, Avának meg kell küzdenie azért, hogy megőrizze saját identitását.  (Hupka Adrián)",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 77
+    "seeders": 630
   },
   {
     "id": "tt32362890",
@@ -246,7 +231,22 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 315
+    "seeders": 391
+  },
+  {
+    "id": "tt28772399",
+    "type": "movie",
+    "name": "A visszatérés",
+    "poster": "https://image.tmdb.org/t/p/w500/dO1II3A98VjnyIwUjCvj65CJ9Qz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Ava, az egykor sikeres techno DJ-páros lánya, szülei válása után az apjával él. Amikor édesanyja, Naomi nemzetközi visszatérésre készül, Ava hirtelen az éjszakai klubélet világában találja magát. Miközben Naomi kivirágzik a dübörgő ütemek sötét közegében, ez a világ nem Aváé. Bár igyekszik alkalmazkodni, Avának meg kell küzdenie azért, hogy megőrizze saját identitását.  (Hupka Adrián)",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 80
   },
   {
     "id": "tt30851137",
@@ -263,7 +263,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 389
+    "seeders": 455
   },
   {
     "id": "tt1527793",
@@ -280,7 +280,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 221
+    "seeders": 264
+  },
+  {
+    "id": "tt23149780",
+    "type": "movie",
+    "name": "Éden",
+    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 321
   },
   {
     "id": "tt8036976",
@@ -297,7 +313,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 63
+    "seeders": 72
   },
   {
     "id": "tt34381258",
@@ -314,23 +330,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 203
-  },
-  {
-    "id": "tt23149780",
-    "type": "movie",
-    "name": "Éden",
-    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 267
+    "seeders": 226
   },
   {
     "id": "tt27766440",
@@ -345,7 +345,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 89
+    "seeders": 111
   },
   {
     "id": "tt14403504",
@@ -361,23 +361,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 232
-  },
-  {
-    "id": "tt37172278",
-    "type": "movie",
-    "name": "Noah Kahan: Mintha nem is én lennék",
-    "poster": "https://image.tmdb.org/t/p/w500/8VtZAonOgK8hae7FwOZCSg7XmCu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Pályájának meghatározó időszaka a világhír felé repíti Noah Kahan zenészt, aki közben válaszúthoz érkezik. A Stick Season átütő sikere után (amely a vermonti vidék csendjéből született, és világszerte hódított) már a következő albumán dolgozik, miközben egyre nagyobb nyomás nehezedik rá a folytatás miatt. Egy szédítő, teltházas turnékkal és példátlan elismerésekkel teli év után visszatér vermonti gyökereihez és a családjához. Sajátos humorából merít erőt, miközben igyekszik újra rátalálni az otthonosság érzésére és az alkotói inspirációra, és közben szembenéz azokkal a mélyen személyes küzdelmekkel, amelyek kizökkentették önmagából.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Zenei"
-    ],
-    "seeders": 46
+    "seeders": 264
   },
   {
     "id": "tt31050594",
@@ -395,7 +379,39 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 194
+    "seeders": 216
+  },
+  {
+    "id": "tt37172278",
+    "type": "movie",
+    "name": "Noah Kahan: Mintha nem is én lennék",
+    "poster": "https://image.tmdb.org/t/p/w500/8VtZAonOgK8hae7FwOZCSg7XmCu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Pályájának meghatározó időszaka a világhír felé repíti Noah Kahan zenészt, aki közben válaszúthoz érkezik. A Stick Season átütő sikere után (amely a vermonti vidék csendjéből született, és világszerte hódított) már a következő albumán dolgozik, miközben egyre nagyobb nyomás nehezedik rá a folytatás miatt. Egy szédítő, teltházas turnékkal és példátlan elismerésekkel teli év után visszatér vermonti gyökereihez és a családjához. Sajátos humorából merít erőt, miközben igyekszik újra rátalálni az otthonosság érzésére és az alkotói inspirációra, és közben szembenéz azokkal a mélyen személyes küzdelmekkel, amelyek kizökkentették önmagából.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Zenei"
+    ],
+    "seeders": 45
+  },
+  {
+    "id": "tt28514971",
+    "type": "movie",
+    "name": "A nagybácsi",
+    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt40224401",
@@ -413,22 +429,6 @@
     "seeders": 39
   },
   {
-    "id": "tt28514971",
-    "type": "movie",
-    "name": "A nagybácsi",
-    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 96
-  },
-  {
     "id": "tt32606470",
     "type": "movie",
     "name": "Humint",
@@ -443,7 +443,22 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 157
+    "seeders": 188
+  },
+  {
+    "id": "tt41368989",
+    "type": "movie",
+    "name": "Harry nyomában: A varázslat titkai",
+    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 110
   },
   {
     "id": "tt9612976",
@@ -460,22 +475,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 145
-  },
-  {
-    "id": "tt41368989",
-    "type": "movie",
-    "name": "Harry nyomában: A varázslat titkai",
-    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 97
+    "seeders": 154
   },
   {
     "id": "tt34713196",
@@ -490,6 +490,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 73
+    "seeders": 85
   }
 ]
