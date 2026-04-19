@@ -1,21 +1,39 @@
 [
 {
+"id": "tt0224887",
+"type": "series",
+"name": "Heti Hetes (S19E01)",
+"poster": "https://image.tmdb.org/t/p/w500/pwHWUTOhJeqK9oqc7DwAPEndNrW.jpg",
+"posterShape": "poster",
+"year": 1999,
+"description": "🆕 Legújabb epizód: S19E01\n\nIsmét jelentkezik az RTL Klub népszerű Heti Hetes című műsora. Az aktuális híreket, pletykákat, érdekességeket a már megszokott szereplők kommentálják. A talk-show lényege mit sem változik, szerepek nincsenek, vagy ha mégis, az csak a véletlen műve. A Heti Hetes célja továbbra is a szórakoztatás, mely minden bizonnyal sikerül, ha nem veszik komolyan. Mert a műsor valóban egy görbe tükör, ami egy kicsit torzít, de megnevettet.",
+"imdbRating": 8.0,
+"releaseInfo": "1999",
+"genres": [
+"Talk",
+"Vígjáték"
+],
+"seeders": 1000000,
+"latest_season": 19,
+"latest_episode": 1
+},
+{
 "id": "tt6445410",
 "type": "series",
-"name": "A mi kis falunk (S10E06)",
+"name": "A mi kis falunk (S10E07)",
 "poster": "https://image.tmdb.org/t/p/w500/dR3Op6l0SyBb6XthoOZGmzbus0S.jpg",
 "posterShape": "poster",
 "year": 2017,
-"description": "🆕 Legújabb epizód: S10E06\n\nA sorozat egy kis falu mulatságos hétköznapjait mutatja be olyan karakterek segítségével, akikkel csak és kizárólag itt találkozhatunk: egy ügyeskedő polgármester és kultúrharcos asszisztense, egy testépítő pap, egy szexi kocsmáros, egy féleszű rendőr, egy rezignált körzeti orvos és egy playboy foci edző.",
+"description": "🆕 Legújabb epizód: S10E07\n\nA sorozat egy kis falu mulatságos hétköznapjait mutatja be olyan karakterek segítségével, akikkel csak és kizárólag itt találkozhatunk: egy ügyeskedő polgármester és kultúrharcos asszisztense, egy testépítő pap, egy szexi kocsmáros, egy féleszű rendőr, egy rezignált körzeti orvos és egy playboy foci edző.",
 "imdbRating": 8.6,
 "releaseInfo": "2017",
 "genres": [
 "Családi",
 "Vígjáték"
 ],
-"seeders": 999993,
+"seeders": 999994,
 "latest_season": 10,
-"latest_episode": 6
+"latest_episode": 7
 },
 {
 "id": "tt24577940",
@@ -108,6 +126,23 @@
 "latest_episode": null
 },
 {
+"id": "tt35114768",
+"type": "series",
+"name": "Pokoli rokonok (S02E82)",
+"poster": "https://image.tmdb.org/t/p/w500/hBruwZpLN9rcYCMvmmYbgHwWHwi.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "🆕 Legújabb epizód: S02E82\n\nMinden kész, hogy Pantallós határában akkumulátorgyár épüljön. Ha Fejes István is úgy akarja. A település polgármestere, Aczél Tihamér mindent megtenne, hogy megvalósuljon ez a nagyszabású kínai-magyar beruházás, ami az egész települést gazdaggá tenné (különösen őt), de ehhez előbb békét kéne kötnie Pantallós legnagyobb földbirtokosával, Istvánnal. István viszont jobban utálja Tihamért, mint amennyire szereti a pénzt, és kijelenti, hogy az ő ősei földjén csak a holttestén át épülhet meg az a gyár. Ebbe a patthelyzetbe csöppennek bele Gubáék, az egykor gazdag bankárcsalád tagjai, akik a bankjuk csődje és Guba Antal bankigazgató letartóztatása után kénytelenek visszaköltözni ebbe az Isten háta mögötti, unalmas községbe, Antal szülőfalujába, ahol házuk éppen csak nem dől a fejükre, és ahol a befolyásos Guba Antalt mindenki csak Tóninak ismeri.",
+"imdbRating": 7.4,
+"releaseInfo": "2025",
+"genres": [
+"Dráma"
+],
+"seeders": 999966,
+"latest_season": 2,
+"latest_episode": 82
+},
+{
 "id": "tt5099020",
 "type": "series",
 "name": "Aranyélet",
@@ -124,23 +159,6 @@
 "seeders": 999953,
 "latest_season": null,
 "latest_episode": null
-},
-{
-"id": "tt35114768",
-"type": "series",
-"name": "Pokoli rokonok (S02E78)",
-"poster": "https://image.tmdb.org/t/p/w500/hBruwZpLN9rcYCMvmmYbgHwWHwi.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "🆕 Legújabb epizód: S02E78\n\nMinden kész, hogy Pantallós határában akkumulátorgyár épüljön. Ha Fejes István is úgy akarja. A település polgármestere, Aczél Tihamér mindent megtenne, hogy megvalósuljon ez a nagyszabású kínai-magyar beruházás, ami az egész települést gazdaggá tenné (különösen őt), de ehhez előbb békét kéne kötnie Pantallós legnagyobb földbirtokosával, Istvánnal. István viszont jobban utálja Tihamért, mint amennyire szereti a pénzt, és kijelenti, hogy az ő ősei földjén csak a holttestén át épülhet meg az a gyár. Ebbe a patthelyzetbe csöppennek bele Gubáék, az egykor gazdag bankárcsalád tagjai, akik a bankjuk csődje és Guba Antal bankigazgató letartóztatása után kénytelenek visszaköltözni ebbe az Isten háta mögötti, unalmas községbe, Antal szülőfalujába, ahol házuk éppen csak nem dől a fejükre, és ahol a befolyásos Guba Antalt mindenki csak Tóninak ismeri.",
-"imdbRating": 7.4,
-"releaseInfo": "2025",
-"genres": [
-"Dráma"
-],
-"seeders": 999953,
-"latest_season": 2,
-"latest_episode": 78
 },
 {
 "id": "tt11056626",

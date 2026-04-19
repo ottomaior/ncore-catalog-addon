@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999993
+"seeders": 999992
 },
 {
 "id": "tt29344974",
@@ -49,6 +49,23 @@
 "seeders": 999987
 },
 {
+"id": "tt34375721",
+"type": "movie",
+"name": "Sárkányok Kabul felett",
+"poster": "https://image.tmdb.org/t/p/w500/7yTt1lszzoecMLNBchbqal2Zi7R.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
+"imdbRating": 6.8,
+"releaseInfo": "2025",
+"genres": [
+"Akció",
+"Történelmi",
+"Dráma"
+],
+"seeders": 999978
+},
+{
 "id": "tt20672356",
 "type": "movie",
 "name": "Semmelweis",
@@ -62,25 +79,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999958
-},
-{
-"id": "tt26678938",
-"type": "movie",
-"name": "Halál cukik",
-"poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-"imdbRating": 6.9,
-"releaseInfo": "2026",
-"genres": [
-"Zenei",
-"Thriller",
-"Akció",
-"Horror"
-],
-"seeders": 999909
+"seeders": 999955
 },
 {
 "id": "tt0179955",
@@ -97,7 +96,25 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999895
+"seeders": 999899
+},
+{
+"id": "tt26678938",
+"type": "movie",
+"name": "Halál cukik",
+"poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
+"imdbRating": 6.8,
+"releaseInfo": "2026",
+"genres": [
+"Zenei",
+"Thriller",
+"Akció",
+"Horror"
+],
+"seeders": 999890
 },
 {
 "id": "tt27811640",
@@ -112,7 +129,7 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999886
+"seeders": 999884
 },
 {
 "id": "tt23172090",
@@ -146,6 +163,22 @@
 "Kaland",
 "Vígjáték"
 ],
+"seeders": 999852
+},
+{
+"id": "tt0131636",
+"type": "movie",
+"name": "Vuk",
+"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
+"posterShape": "poster",
+"year": 1981,
+"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
+"imdbRating": 7.6,
+"releaseInfo": "1981",
+"genres": [
+"Animációs",
+"Családi"
+],
 "seeders": 999846
 },
 {
@@ -177,22 +210,6 @@
 "Dráma"
 ],
 "seeders": 999838
-},
-{
-"id": "tt0131636",
-"type": "movie",
-"name": "Vuk",
-"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
-"posterShape": "poster",
-"year": 1981,
-"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
-"imdbRating": 7.6,
-"releaseInfo": "1981",
-"genres": [
-"Animációs",
-"Családi"
-],
-"seeders": 999831
 },
 {
 "id": "tt0084315",
