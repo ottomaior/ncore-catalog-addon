@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt30851137",
+    "type": "movie",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 62
+  },
+  {
     "id": "tt37530747",
     "type": "movie",
     "name": "A Patty nagyon csajszis név",
@@ -12,7 +29,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 96
+    "seeders": 84
   },
   {
     "id": "tt34375721",
@@ -29,22 +46,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1691
-  },
-  {
-    "id": "tt35066995",
-    "type": "movie",
-    "name": "Love in the Clouds",
-    "poster": "https://image.tmdb.org/t/p/w500/7w1GZu2EhdYflh3Pmbs4c7TvYxZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 76
+    "seeders": 1097
   },
   {
     "id": "tt22868010",
@@ -61,7 +63,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 734
+    "seeders": 490
   },
   {
     "id": "tt40891145",
@@ -71,14 +73,31 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
-    "imdbRating": 5.0,
+    "imdbRating": 5.8,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 261
+    "seeders": 185
+  },
+  {
+    "id": "tt26735622",
+    "type": "movie",
+    "name": "Bele a tököm",
+    "poster": "https://image.tmdb.org/t/p/w500/l3726nLCXCXNu3FJ8pKjQM8gdhd.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció",
+      "Kaland"
+    ],
+    "seeders": 387
   },
   {
     "id": "tt37540875",
@@ -93,56 +112,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 219
-  },
-  {
-    "id": "tt31414242",
-    "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 399
-  },
-  {
-    "id": "tt26735622",
-    "type": "movie",
-    "name": "Bele a tököm",
-    "poster": "https://image.tmdb.org/t/p/w500/l3726nLCXCXNu3FJ8pKjQM8gdhd.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 5.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció",
-      "Kaland"
-    ],
-    "seeders": 536
-  },
-  {
-    "id": "tt32194932",
-    "type": "movie",
-    "name": "A végső rítus",
-    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 261
+    "seeders": 163
   },
   {
     "id": "tt32357218",
@@ -159,7 +129,39 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2399
+    "seeders": 1559
+  },
+  {
+    "id": "tt32194932",
+    "type": "movie",
+    "name": "A végső rítus",
+    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 187
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 262
   },
   {
     "id": "tt27613895",
@@ -176,7 +178,22 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 675
+    "seeders": 489
+  },
+  {
+    "id": "tt35066995",
+    "type": "movie",
+    "name": "Szerelem a felhők felett",
+    "poster": "https://image.tmdb.org/t/p/w500/qDZW40utW0lcnhhxRKNPKtCsBsH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Brooklyn riporter a Balloon Fiesta fesztiválra utazik, hogy találkozzon Jared hőlégballon-pilótával, aki romantikus ballonrepüléseket kínál, de maga nem nyitott a szerelemre.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt32141377",
@@ -193,7 +210,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 112
+    "seeders": 91
   },
   {
     "id": "tt39314348",
@@ -208,24 +225,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 152
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és Hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 1761
+    "seeders": 126
   },
   {
     "id": "tt32536315",
@@ -242,23 +242,24 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 175
+    "seeders": 148
   },
   {
-    "id": "tt33028778",
+    "id": "tt1757678",
     "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/lWQo2avKMWXS6QFufC0JkQaGz9L.jpg",
+    "name": "Avatar: Tűz és Hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
     "genres": [
-      "Horror",
-      "Thriller"
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
     ],
-    "seeders": 75
+    "seeders": 1132
   },
   {
     "id": "tt34610311",
@@ -276,7 +277,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 830
+    "seeders": 575
   },
   {
     "id": "tt35518658",
@@ -291,7 +292,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 143
+    "seeders": 108
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/lWQo2avKMWXS6QFufC0JkQaGz9L.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 58
   },
   {
     "id": "tt33022412",
@@ -309,7 +326,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 203
+    "seeders": 151
   },
   {
     "id": "tt32362890",
@@ -325,24 +342,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 494
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 603
+    "seeders": 302
   },
   {
     "id": "tt1527793",
@@ -359,7 +359,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 339
+    "seeders": 237
+  },
+  {
+    "id": "tt28772399",
+    "type": "movie",
+    "name": "A visszatérés",
+    "poster": "https://image.tmdb.org/t/p/w500/dO1II3A98VjnyIwUjCvj65CJ9Qz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Ava, az egykor sikeres techno DJ-páros lánya, szülei válása után az apjával él. Amikor édesanyja, Naomi nemzetközi visszatérésre készül, Ava hirtelen az éjszakai klubélet világában találja magát. Miközben Naomi kivirágzik a dübörgő ütemek sötét közegében, ez a világ nem Aváé. Bár igyekszik alkalmazkodni, Avának meg kell küzdenie azért, hogy megőrizze saját identitását.  (Hupka Adrián)",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt23149780",
@@ -375,22 +390,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 442
-  },
-  {
-    "id": "tt28772399",
-    "type": "movie",
-    "name": "A visszatérés",
-    "poster": "https://image.tmdb.org/t/p/w500/dO1II3A98VjnyIwUjCvj65CJ9Qz.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Ava, az egykor sikeres techno DJ-páros lánya, szülei válása után az apjával él. Amikor édesanyja, Naomi nemzetközi visszatérésre készül, Ava hirtelen az éjszakai klubélet világában találja magát. Miközben Naomi kivirágzik a dübörgő ütemek sötét közegében, ez a világ nem Aváé. Bár igyekszik alkalmazkodni, Avának meg kell küzdenie azért, hogy megőrizze saját identitását.  (Hupka Adrián)",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 95
+    "seeders": 272
   },
   {
     "id": "tt34381258",
@@ -407,23 +407,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 274
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 333
+    "seeders": 184
   },
   {
     "id": "tt8036976",
@@ -440,7 +424,23 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 101
+    "seeders": 79
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 237
   },
   {
     "id": "tt27766440",
@@ -455,7 +455,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 136
+    "seeders": 103
   },
   {
     "id": "tt31050594",
@@ -473,7 +473,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 264
+    "seeders": 208
   },
   {
     "id": "tt28514971",
@@ -489,6 +489,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 113
+    "seeders": 89
   }
 ]
