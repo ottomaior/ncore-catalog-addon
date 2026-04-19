@@ -1,20 +1,20 @@
 [
   {
-    "id": "tt30851137",
+    "id": "tt32141377",
     "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.2,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
-      "Sci-Fi",
       "Horror",
-      "Fantasy"
+      "Thriller",
+      "Sci-Fi"
     ],
-    "seeders": 62
+    "seeders": 51
   },
   {
     "id": "tt37530747",
@@ -29,7 +29,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 84
+    "seeders": 151
   },
   {
     "id": "tt34375721",
@@ -46,7 +46,24 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1097
+    "seeders": 1512
+  },
+  {
+    "id": "tt30851137",
+    "type": "movie",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 78
   },
   {
     "id": "tt22868010",
@@ -63,7 +80,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 490
+    "seeders": 641
   },
   {
     "id": "tt40891145",
@@ -80,24 +97,22 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 185
+    "seeders": 270
   },
   {
-    "id": "tt26735622",
+    "id": "tt35066995",
     "type": "movie",
-    "name": "Bele a tököm",
-    "poster": "https://image.tmdb.org/t/p/w500/l3726nLCXCXNu3FJ8pKjQM8gdhd.jpg",
+    "name": "Szerelem a felhők felett",
+    "poster": "https://image.tmdb.org/t/p/w500/qDZW40utW0lcnhhxRKNPKtCsBsH.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Brooklyn riporter a Balloon Fiesta fesztiválra utazik, hogy találkozzon Jared hőlégballon-pilótával, aki romantikus ballonrepüléseket kínál, de maga nem nyitott a szerelemre.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Akció",
-      "Kaland"
+      "Romantikus"
     ],
-    "seeders": 387
+    "seeders": 111
   },
   {
     "id": "tt37540875",
@@ -107,12 +122,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
-    "imdbRating": 6.3,
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 163
+    "seeders": 234
   },
   {
     "id": "tt32357218",
@@ -129,7 +144,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1559
+    "seeders": 2085
   },
   {
     "id": "tt32194932",
@@ -146,7 +161,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 187
+    "seeders": 270
+  },
+  {
+    "id": "tt26735622",
+    "type": "movie",
+    "name": "Bele a tököm",
+    "poster": "https://image.tmdb.org/t/p/w500/l3726nLCXCXNu3FJ8pKjQM8gdhd.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció",
+      "Kaland"
+    ],
+    "seeders": 483
   },
   {
     "id": "tt31414242",
@@ -161,7 +193,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 262
+    "seeders": 358
   },
   {
     "id": "tt27613895",
@@ -178,39 +210,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 489
-  },
-  {
-    "id": "tt35066995",
-    "type": "movie",
-    "name": "Szerelem a felhők felett",
-    "poster": "https://image.tmdb.org/t/p/w500/qDZW40utW0lcnhhxRKNPKtCsBsH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Brooklyn riporter a Balloon Fiesta fesztiválra utazik, hogy találkozzon Jared hőlégballon-pilótával, aki romantikus ballonrepüléseket kínál, de maga nem nyitott a szerelemre.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 59
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 91
+    "seeders": 617
   },
   {
     "id": "tt39314348",
@@ -225,7 +225,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 126
+    "seeders": 186
   },
   {
     "id": "tt32536315",
@@ -242,7 +242,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 148
+    "seeders": 207
   },
   {
     "id": "tt1757678",
@@ -259,7 +259,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1132
+    "seeders": 1520
   },
   {
     "id": "tt34610311",
@@ -277,7 +277,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 575
+    "seeders": 738
   },
   {
     "id": "tt35518658",
@@ -292,23 +292,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 108
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/lWQo2avKMWXS6QFufC0JkQaGz9L.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 58
+    "seeders": 127
   },
   {
     "id": "tt33022412",
@@ -326,7 +310,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 151
+    "seeders": 180
   },
   {
     "id": "tt32362890",
@@ -342,7 +326,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 302
+    "seeders": 442
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/lWQo2avKMWXS6QFufC0JkQaGz9L.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt1527793",
@@ -359,22 +359,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 237
-  },
-  {
-    "id": "tt28772399",
-    "type": "movie",
-    "name": "A visszatérés",
-    "poster": "https://image.tmdb.org/t/p/w500/dO1II3A98VjnyIwUjCvj65CJ9Qz.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Ava, az egykor sikeres techno DJ-páros lánya, szülei válása után az apjával él. Amikor édesanyja, Naomi nemzetközi visszatérésre készül, Ava hirtelen az éjszakai klubélet világában találja magát. Miközben Naomi kivirágzik a dübörgő ütemek sötét közegében, ez a világ nem Aváé. Bár igyekszik alkalmazkodni, Avának meg kell küzdenie azért, hogy megőrizze saját identitását.  (Hupka Adrián)",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 72
+    "seeders": 293
   },
   {
     "id": "tt23149780",
@@ -390,7 +375,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 272
+    "seeders": 380
   },
   {
     "id": "tt34381258",
@@ -407,7 +392,38 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 184
+    "seeders": 245
+  },
+  {
+    "id": "tt28772399",
+    "type": "movie",
+    "name": "A visszatérés",
+    "poster": "https://image.tmdb.org/t/p/w500/dO1II3A98VjnyIwUjCvj65CJ9Qz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Ava, az egykor sikeres techno DJ-páros lánya, szülei válása után az apjával él. Amikor édesanyja, Naomi nemzetközi visszatérésre készül, Ava hirtelen az éjszakai klubélet világában találja magát. Miközben Naomi kivirágzik a dübörgő ütemek sötét közegében, ez a világ nem Aváé. Bár igyekszik alkalmazkodni, Avának meg kell küzdenie azért, hogy megőrizze saját identitását.  (Hupka Adrián)",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 81
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 294
   },
   {
     "id": "tt8036976",
@@ -424,23 +440,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 79
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 237
+    "seeders": 96
   },
   {
     "id": "tt27766440",
@@ -455,7 +455,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 103
+    "seeders": 125
   },
   {
     "id": "tt31050594",
@@ -473,7 +473,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 208
+    "seeders": 251
   },
   {
     "id": "tt28514971",
@@ -489,6 +489,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 89
+    "seeders": 101
   }
 ]
