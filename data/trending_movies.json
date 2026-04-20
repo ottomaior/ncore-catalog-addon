@@ -14,24 +14,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1398
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 139
+    "seeders": 1566
   },
   {
     "id": "tt22868010",
@@ -48,7 +31,24 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 586
+    "seeders": 670
+  },
+  {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 159
   },
   {
     "id": "tt32357218",
@@ -65,41 +65,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 1879
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 135
-  },
-  {
-    "id": "tt26735622",
-    "type": "movie",
-    "name": "Bele a tököm",
-    "poster": "https://image.tmdb.org/t/p/w500/l3726nLCXCXNu3FJ8pKjQM8gdhd.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció",
-      "Kaland"
-    ],
-    "seeders": 464
+    "seeders": 2120
   },
   {
     "id": "tt27613895",
@@ -116,22 +82,41 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 594
+    "seeders": 656
   },
   {
-    "id": "tt37530747",
+    "id": "tt26735622",
     "type": "movie",
-    "name": "A Patty nagyon csajszis név",
-    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
+    "name": "Bele a tököm",
+    "poster": "https://image.tmdb.org/t/p/w500/l3726nLCXCXNu3FJ8pKjQM8gdhd.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Vígjáték",
+      "Akció",
+      "Kaland"
     ],
-    "seeders": 129
+    "seeders": 500
+  },
+  {
+    "id": "tt30851137",
+    "type": "movie",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 146
   },
   {
     "id": "tt31414242",
@@ -146,24 +131,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 317
-  },
-  {
-    "id": "tt32194932",
-    "type": "movie",
-    "name": "A végső rítus",
-    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 241
+    "seeders": 361
   },
   {
     "id": "tt1757678",
@@ -180,7 +148,39 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1322
+    "seeders": 1508
+  },
+  {
+    "id": "tt37530747",
+    "type": "movie",
+    "name": "A Patty nagyon csajszis név",
+    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 140
+  },
+  {
+    "id": "tt32194932",
+    "type": "movie",
+    "name": "A végső rítus",
+    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 257
   },
   {
     "id": "tt40891145",
@@ -197,7 +197,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 205
+    "seeders": 224
   },
   {
     "id": "tt37540875",
@@ -212,7 +212,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 178
+    "seeders": 195
   },
   {
     "id": "tt34610311",
@@ -230,7 +230,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 699
+    "seeders": 764
+  },
+  {
+    "id": "tt39314348",
+    "type": "movie",
+    "name": "David Attenborough: Gorillák között",
+    "poster": "https://image.tmdb.org/t/p/w500/kyfsiPQsJxdgf8gOtYkUhwojN6l.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
+    "imdbRating": 8.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 155
   },
   {
     "id": "tt32536315",
@@ -247,22 +262,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 158
+    "seeders": 159
   },
   {
-    "id": "tt39314348",
+    "id": "tt32362890",
     "type": "movie",
-    "name": "David Attenborough: Gorillák között",
-    "poster": "https://image.tmdb.org/t/p/w500/kyfsiPQsJxdgf8gOtYkUhwojN6l.jpg",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
-    "imdbRating": 8.6,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Horror",
+      "Thriller"
     ],
-    "seeders": 138
+    "seeders": 419
   },
   {
     "id": "tt33022412",
@@ -280,23 +296,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 172
-  },
-  {
-    "id": "tt32362890",
-    "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 364
+    "seeders": 171
   },
   {
     "id": "tt35066995",
@@ -311,7 +311,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 68
+    "seeders": 72
   },
   {
     "id": "tt35518658",
@@ -326,7 +326,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 118
+    "seeders": 115
   },
   {
     "id": "tt1527793",
@@ -343,23 +343,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 284
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/lWQo2avKMWXS6QFufC0JkQaGz9L.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 66
+    "seeders": 304
   },
   {
     "id": "tt23149780",
@@ -375,7 +359,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 357
+    "seeders": 386
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/lWQo2avKMWXS6QFufC0JkQaGz9L.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt34381258",
@@ -392,7 +392,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 228
+    "seeders": 256
   },
   {
     "id": "tt14403504",
@@ -408,22 +408,24 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 280
+    "seeders": 297
   },
   {
-    "id": "tt27766440",
+    "id": "tt8036976",
     "type": "movie",
-    "name": "A tenger útja",
-    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
+    "name": "Segítség!",
+    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Horror",
+      "Thriller",
+      "Vígjáték"
     ],
-    "seeders": 120
+    "seeders": 100
   },
   {
     "id": "tt31050594",
@@ -441,24 +443,22 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 239
+    "seeders": 252
   },
   {
-    "id": "tt8036976",
+    "id": "tt27766440",
     "type": "movie",
-    "name": "Segítség!",
-    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "name": "A tenger útja",
+    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
     "genres": [
-      "Horror",
-      "Thriller",
-      "Vígjáték"
+      "Dráma"
     ],
-    "seeders": 87
+    "seeders": 121
   },
   {
     "id": "tt28772399",
@@ -473,22 +473,23 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 67
+    "seeders": 70
   },
   {
-    "id": "tt28514971",
+    "id": "tt9612976",
     "type": "movie",
-    "name": "A nagybácsi",
-    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
+    "name": "Tafiti és Pamacs",
+    "poster": "https://image.tmdb.org/t/p/w500/lLJgzLhKjUjGVIfY6MTyCJQzD9t.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
+    "description": "Az afrikai szavanna csupa veszély és izgalom, főleg egy szurikáta számára! Tafiti egy nap meglepi családját, amikor hazahozza új barátját, az ügyetlen, de szeretnivaló vörös disznócskát, Pamacsot. Ám ekkor nagy baj történik, Tafiti nagypapáját megmarja egy mérges kígyó. A szurikáta elhatározza, hogy megkeresi a sivatag mélyén rejtőző, varázslatos kék virágot, ami gyógyír lehet. Pamacs vele tart, tűzön-vízen át követi újdonsült pajtását. Így indul a két kis hős kalandja, ami során kiderül, hogy együtt bármi sikerülhet!",
     "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Dráma"
+      "Animációs",
+      "Kaland",
+      "Családi"
     ],
-    "seeders": 96
+    "seeders": 174
   }
 ]
