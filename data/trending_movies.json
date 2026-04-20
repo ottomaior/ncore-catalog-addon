@@ -14,7 +14,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 155
+    "seeders": 114
   },
   {
     "id": "tt34375721",
@@ -31,7 +31,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1906
+    "seeders": 1193
   },
   {
     "id": "tt22868010",
@@ -48,7 +48,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 773
+    "seeders": 496
   },
   {
     "id": "tt30851137",
@@ -65,7 +65,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 151
+    "seeders": 121
   },
   {
     "id": "tt32357218",
@@ -82,22 +82,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2493
-  },
-  {
-    "id": "tt37530747",
-    "type": "movie",
-    "name": "A Patty nagyon csajszis név",
-    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 148
+    "seeders": 1566
   },
   {
     "id": "tt27613895",
@@ -114,7 +99,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 794
+    "seeders": 533
   },
   {
     "id": "tt26735622",
@@ -124,29 +109,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 5.5,
+    "imdbRating": 5.4,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció",
       "Kaland"
     ],
-    "seeders": 573
-  },
-  {
-    "id": "tt31414242",
-    "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 395
+    "seeders": 399
   },
   {
     "id": "tt32194932",
@@ -163,7 +133,54 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 284
+    "seeders": 214
+  },
+  {
+    "id": "tt37530747",
+    "type": "movie",
+    "name": "A Patty nagyon csajszis név",
+    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 98
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 263
+  },
+  {
+    "id": "tt40891145",
+    "type": "movie",
+    "name": "180",
+    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
+    "imdbRating": 5.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 186
   },
   {
     "id": "tt1757678",
@@ -180,24 +197,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1824
-  },
-  {
-    "id": "tt40891145",
-    "type": "movie",
-    "name": "180",
-    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 246
+    "seeders": 1131
   },
   {
     "id": "tt37540875",
@@ -207,12 +207,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
-    "imdbRating": 6.3,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 208
+    "seeders": 157
+  },
+  {
+    "id": "tt32536315",
+    "type": "movie",
+    "name": "Blue Moon",
+    "poster": "https://image.tmdb.org/t/p/w500/dVU7SNc6dgStTVdtbPLQncWxsyZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1943. március 31-én este a legendás dalszövegíró, Lorenz Hart a törzshelyén, a Sardi’s bárban néz szembe megtört önbizalmával, miközben egykori alkotótársa, Richard Rodgers épp az Oklahoma! című, korszakalkotó musicalje premierjét ünnepli. Hart alkoholba fojtja bánatát, a nagy hatású alkotásokról (például Molnár Ferenc Liliom-ja) és saját szorongásairól folytatott kocsmai beszélgetések során pedig feltárul egy zseniális, mégis komplexusokkal teli, jobb sorsra érdemes művész belső világa.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Történelmi",
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 151
   },
   {
     "id": "tt34610311",
@@ -230,7 +247,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 905
+    "seeders": 601
   },
   {
     "id": "tt39314348",
@@ -245,24 +262,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 173
-  },
-  {
-    "id": "tt32536315",
-    "type": "movie",
-    "name": "Blue Moon",
-    "poster": "https://image.tmdb.org/t/p/w500/dVU7SNc6dgStTVdtbPLQncWxsyZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "1943. március 31-én este a legendás dalszövegíró, Lorenz Hart a törzshelyén, a Sardi’s bárban néz szembe megtört önbizalmával, miközben egykori alkotótársa, Richard Rodgers épp az Oklahoma! című, korszakalkotó musicalje premierjét ünnepli. Hart alkoholba fojtja bánatát, a nagy hatású alkotásokról (például Molnár Ferenc Liliom-ja) és saját szorongásairól folytatott kocsmai beszélgetések során pedig feltárul egy zseniális, mégis komplexusokkal teli, jobb sorsra érdemes művész belső világa.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Történelmi",
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 178
+    "seeders": 125
   },
   {
     "id": "tt35066995",
@@ -277,23 +277,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 82
-  },
-  {
-    "id": "tt32362890",
-    "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 504
+    "seeders": 63
   },
   {
     "id": "tt33022412",
@@ -311,7 +295,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 207
+    "seeders": 158
   },
   {
     "id": "tt35518658",
@@ -326,7 +310,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 131
+    "seeders": 104
+  },
+  {
+    "id": "tt32362890",
+    "type": "movie",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 300
   },
   {
     "id": "tt33028778",
@@ -342,7 +342,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 79
+    "seeders": 62
   },
   {
     "id": "tt1527793",
@@ -359,7 +359,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 360
+    "seeders": 252
   },
   {
     "id": "tt23149780",
@@ -375,7 +375,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 477
+    "seeders": 286
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 249
   },
   {
     "id": "tt34381258",
@@ -392,23 +408,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 291
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 353
+    "seeders": 194
   },
   {
     "id": "tt8036976",
@@ -425,7 +425,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 113
+    "seeders": 80
   },
   {
     "id": "tt27766440",
@@ -440,22 +440,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 149
-  },
-  {
-    "id": "tt28772399",
-    "type": "movie",
-    "name": "A visszatérés",
-    "poster": "https://image.tmdb.org/t/p/w500/dO1II3A98VjnyIwUjCvj65CJ9Qz.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Ava, az egykor sikeres techno DJ-páros lánya, szülei válása után az apjával él. Amikor édesanyja, Naomi nemzetközi visszatérésre készül, Ava hirtelen az éjszakai klubélet világában találja magát. Miközben Naomi kivirágzik a dübörgő ütemek sötét közegében, ez a világ nem Aváé. Bár igyekszik alkalmazkodni, Avának meg kell küzdenie azért, hogy megőrizze saját identitását.  (Hupka Adrián)",
-    "imdbRating": 9.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 79
+    "seeders": 98
   },
   {
     "id": "tt31050594",
@@ -473,7 +458,22 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 286
+    "seeders": 204
+  },
+  {
+    "id": "tt28772399",
+    "type": "movie",
+    "name": "A visszatérés",
+    "poster": "https://image.tmdb.org/t/p/w500/dO1II3A98VjnyIwUjCvj65CJ9Qz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Ava, az egykor sikeres techno DJ-páros lánya, szülei válása után az apjával él. Amikor édesanyja, Naomi nemzetközi visszatérésre készül, Ava hirtelen az éjszakai klubélet világában találja magát. Miközben Naomi kivirágzik a dübörgő ütemek sötét közegében, ez a világ nem Aváé. Bár igyekszik alkalmazkodni, Avának meg kell küzdenie azért, hogy megőrizze saját identitását.  (Hupka Adrián)",
+    "imdbRating": 9.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 56
   },
   {
     "id": "tt28514971",
@@ -489,6 +489,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 111
+    "seeders": 87
   }
 ]
