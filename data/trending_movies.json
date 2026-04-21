@@ -14,7 +14,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1773
+    "seeders": 1160
   },
   {
     "id": "tt22868010",
@@ -31,7 +31,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 706
+    "seeders": 481
   },
   {
     "id": "tt32357218",
@@ -48,7 +48,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 2301
+    "seeders": 1563
   },
   {
     "id": "tt32141377",
@@ -65,7 +65,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 165
+    "seeders": 131
   },
   {
     "id": "tt27613895",
@@ -82,7 +82,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 717
+    "seeders": 525
   },
   {
     "id": "tt26735622",
@@ -92,20 +92,20 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 5.5,
+    "imdbRating": 5.6,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció",
       "Kaland"
     ],
-    "seeders": 548
+    "seeders": 403
   },
   {
     "id": "tt30851137",
     "type": "movie",
     "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/l6FbfQJ7bve8PtkIJROcn0iUWnt.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
@@ -116,7 +116,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 170
+    "seeders": 142
   },
   {
     "id": "tt1757678",
@@ -133,7 +133,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 1674
+    "seeders": 1095
   },
   {
     "id": "tt31414242",
@@ -148,7 +148,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 378
+    "seeders": 246
   },
   {
     "id": "tt32194932",
@@ -165,39 +165,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 271
-  },
-  {
-    "id": "tt37530747",
-    "type": "movie",
-    "name": "A Patty nagyon csajszis név",
-    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 146
-  },
-  {
-    "id": "tt40891145",
-    "type": "movie",
-    "name": "180",
-    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
-    "imdbRating": 5.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 229
+    "seeders": 194
   },
   {
     "id": "tt34610311",
@@ -215,7 +183,39 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 867
+    "seeders": 615
+  },
+  {
+    "id": "tt40891145",
+    "type": "movie",
+    "name": "180",
+    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
+    "imdbRating": 5.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 172
+  },
+  {
+    "id": "tt37530747",
+    "type": "movie",
+    "name": "A Patty nagyon csajszis név",
+    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 106
   },
   {
     "id": "tt37540875",
@@ -230,7 +230,25 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 218
+    "seeders": 157
+  },
+  {
+    "id": "tt32536315",
+    "type": "movie",
+    "name": "Blue Moon",
+    "poster": "https://image.tmdb.org/t/p/w500/dVU7SNc6dgStTVdtbPLQncWxsyZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1943. március 31-én este a legendás dalszövegíró, Lorenz Hart a törzshelyén, a Sardi’s bárban néz szembe megtört önbizalmával, miközben egykori alkotótársa, Richard Rodgers épp az Oklahoma! című, korszakalkotó musicalje premierjét ünnepli. Hart alkoholba fojtja bánatát, a nagy hatású alkotásokról (például Molnár Ferenc Liliom-ja) és saját szorongásairól folytatott kocsmai beszélgetések során pedig feltárul egy zseniális, mégis komplexusokkal teli, jobb sorsra érdemes művész belső világa.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Történelmi",
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 144
   },
   {
     "id": "tt39314348",
@@ -245,40 +263,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 158
-  },
-  {
-    "id": "tt32536315",
-    "type": "movie",
-    "name": "Blue Moon",
-    "poster": "https://image.tmdb.org/t/p/w500/dVU7SNc6dgStTVdtbPLQncWxsyZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "1943. március 31-én este a legendás dalszövegíró, Lorenz Hart a törzshelyén, a Sardi’s bárban néz szembe megtört önbizalmával, miközben egykori alkotótársa, Richard Rodgers épp az Oklahoma! című, korszakalkotó musicalje premierjét ünnepli. Hart alkoholba fojtja bánatát, a nagy hatású alkotásokról (például Molnár Ferenc Liliom-ja) és saját szorongásairól folytatott kocsmai beszélgetések során pedig feltárul egy zseniális, mégis komplexusokkal teli, jobb sorsra érdemes művész belső világa.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Történelmi",
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 167
-  },
-  {
-    "id": "tt32362890",
-    "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 444
+    "seeders": 119
   },
   {
     "id": "tt33022412",
@@ -296,22 +281,38 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 194
+    "seeders": 163
   },
   {
-    "id": "tt35066995",
+    "id": "tt32362890",
     "type": "movie",
-    "name": "Szerelem a felhők felett",
-    "poster": "https://image.tmdb.org/t/p/w500/qDZW40utW0lcnhhxRKNPKtCsBsH.jpg",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 292
+  },
+  {
+    "id": "tt35518658",
+    "type": "movie",
+    "name": "Van, aki kopaszon szereti",
+    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Brooklyn riporter a Balloon Fiesta fesztiválra utazik, hogy találkozzon Jared hőlégballon-pilótával, aki romantikus ballonrepüléseket kínál, de maga nem nyitott a szerelemre.",
-    "imdbRating": 5.7,
+    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
+    "imdbRating": 4.1,
     "releaseInfo": "2025",
     "genres": [
-      "Romantikus"
+      "Vígjáték"
     ],
-    "seeders": 78
+    "seeders": 100
   },
   {
     "id": "tt1527793",
@@ -328,22 +329,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 336
+    "seeders": 245
   },
   {
-    "id": "tt35518658",
+    "id": "tt35066995",
     "type": "movie",
-    "name": "Van, aki kopaszon szereti",
-    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
+    "name": "Szerelem a felhők felett",
+    "poster": "https://image.tmdb.org/t/p/w500/qDZW40utW0lcnhhxRKNPKtCsBsH.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
-    "imdbRating": 4.1,
+    "description": "Brooklyn riporter a Balloon Fiesta fesztiválra utazik, hogy találkozzon Jared hőlégballon-pilótával, aki romantikus ballonrepüléseket kínál, de maga nem nyitott a szerelemre.",
+    "imdbRating": 5.7,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték"
+      "Romantikus"
     ],
-    "seeders": 117
+    "seeders": 55
   },
   {
     "id": "tt23149780",
@@ -359,7 +360,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 410
+    "seeders": 279
   },
   {
     "id": "tt33028778",
@@ -375,7 +376,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 81
+    "seeders": 60
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 236
   },
   {
     "id": "tt34381258",
@@ -392,40 +409,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 254
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 318
-  },
-  {
-    "id": "tt8036976",
-    "type": "movie",
-    "name": "Segítség!",
-    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 114
+    "seeders": 183
   },
   {
     "id": "tt31050594",
@@ -443,7 +427,24 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 270
+    "seeders": 201
+  },
+  {
+    "id": "tt8036976",
+    "type": "movie",
+    "name": "Segítség!",
+    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 79
   },
   {
     "id": "tt27766440",
@@ -458,7 +459,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 129
+    "seeders": 92
   },
   {
     "id": "tt28772399",
@@ -473,7 +474,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 73
+    "seeders": 56
   },
   {
     "id": "tt28514971",
@@ -489,6 +490,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 100
+    "seeders": 82
   }
 ]
