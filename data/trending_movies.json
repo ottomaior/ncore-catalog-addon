@@ -14,7 +14,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1350
+    "seeders": 1542
   },
   {
     "id": "tt22868010",
@@ -31,22 +31,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 560
-  },
-  {
-    "id": "tt40224422",
-    "type": "movie",
-    "name": "Első kézből: A Michael Barisone-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 72
+    "seeders": 655
   },
   {
     "id": "tt27613895",
@@ -63,7 +48,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 606
+    "seeders": 654
   },
   {
     "id": "tt26735622",
@@ -73,31 +58,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 5.7,
+    "imdbRating": 5.6,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció",
       "Kaland"
     ],
-    "seeders": 447
+    "seeders": 500
   },
   {
-    "id": "tt30851137",
+    "id": "tt40224422",
     "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
+    "name": "Első kézből: A Michael Barisone-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.2,
+    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
+      "Dokumentum"
     ],
-    "seeders": 169
+    "seeders": 77
   },
   {
     "id": "tt32141377",
@@ -114,7 +97,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 145
+    "seeders": 165
   },
   {
     "id": "tt31414242",
@@ -129,7 +112,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 290
+    "seeders": 321
   },
   {
     "id": "tt34610311",
@@ -147,24 +130,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 684
+    "seeders": 743
   },
   {
-    "id": "tt40891145",
+    "id": "tt30851137",
     "type": "movie",
-    "name": "180",
-    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
-    "imdbRating": 5.6,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
     ],
-    "seeders": 197
+    "seeders": 180
   },
   {
     "id": "tt32194932",
@@ -181,7 +164,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 203
+    "seeders": 236
+  },
+  {
+    "id": "tt40891145",
+    "type": "movie",
+    "name": "180",
+    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 219
   },
   {
     "id": "tt37530747",
@@ -196,7 +196,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 129
+    "seeders": 138
   },
   {
     "id": "tt37540875",
@@ -211,7 +211,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 169
+    "seeders": 179
   },
   {
     "id": "tt32362890",
@@ -227,7 +227,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 334
+    "seeders": 389
   },
   {
     "id": "tt32536315",
@@ -245,7 +245,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 141
+    "seeders": 148
   },
   {
     "id": "tt39314348",
@@ -260,7 +260,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 131
+    "seeders": 139
   },
   {
     "id": "tt33022412",
@@ -278,7 +278,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 161
+    "seeders": 171
   },
   {
     "id": "tt1527793",
@@ -295,7 +295,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 264
+    "seeders": 287
   },
   {
     "id": "tt23149780",
@@ -311,7 +311,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 326
+    "seeders": 370
   },
   {
     "id": "tt35518658",
@@ -326,22 +326,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 101
-  },
-  {
-    "id": "tt35066995",
-    "type": "movie",
-    "name": "Szerelem a felhők felett",
-    "poster": "https://image.tmdb.org/t/p/w500/xuHJXGiWjn4MuC940NxWvTmWMRX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Brooklyn riporter a Balloon Fiesta fesztiválra utazik, hogy találkozzon Jared hőlégballon-pilótával, aki romantikus ballonrepüléseket kínál, de maga nem nyitott a szerelemre.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 63
+    "seeders": 110
   },
   {
     "id": "tt34381258",
@@ -358,7 +343,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 209
+    "seeders": 241
   },
   {
     "id": "tt14403504",
@@ -374,7 +359,55 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 234
+    "seeders": 270
+  },
+  {
+    "id": "tt35066995",
+    "type": "movie",
+    "name": "Szerelem a felhők felett",
+    "poster": "https://image.tmdb.org/t/p/w500/xuHJXGiWjn4MuC940NxWvTmWMRX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Brooklyn riporter a Balloon Fiesta fesztiválra utazik, hogy találkozzon Jared hőlégballon-pilótával, aki romantikus ballonrepüléseket kínál, de maga nem nyitott a szerelemre.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 65
+  },
+  {
+    "id": "tt8036976",
+    "type": "movie",
+    "name": "Segítség!",
+    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 106
+  },
+  {
+    "id": "tt33028778",
+    "type": "movie",
+    "name": "Ősi ösztön",
+    "poster": "https://image.tmdb.org/t/p/w500/lWQo2avKMWXS6QFufC0JkQaGz9L.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 64
   },
   {
     "id": "tt31050594",
@@ -392,40 +425,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 222
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/lWQo2avKMWXS6QFufC0JkQaGz9L.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 58
-  },
-  {
-    "id": "tt8036976",
-    "type": "movie",
-    "name": "Segítség!",
-    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 95
+    "seeders": 233
   },
   {
     "id": "tt27766440",
@@ -440,7 +440,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 114
+    "seeders": 121
   },
   {
     "id": "tt28772399",
@@ -455,7 +455,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 63
+    "seeders": 65
+  },
+  {
+    "id": "tt41368989",
+    "type": "movie",
+    "name": "Harry nyomában: A varázslat titkai",
+    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 121
   },
   {
     "id": "tt28514971",
@@ -471,21 +486,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 84
-  },
-  {
-    "id": "tt41368989",
-    "type": "movie",
-    "name": "Harry nyomában: A varázslat titkai",
-    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 101
+    "seeders": 88
   }
 ]
