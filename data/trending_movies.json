@@ -14,7 +14,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1713
+    "seeders": 1134
   },
   {
     "id": "tt22868010",
@@ -31,7 +31,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 680
+    "seeders": 483
   },
   {
     "id": "tt27613895",
@@ -48,7 +48,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 734
+    "seeders": 532
   },
   {
     "id": "tt26735622",
@@ -65,7 +65,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 558
+    "seeders": 396
   },
   {
     "id": "tt40224422",
@@ -80,7 +80,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 87
+    "seeders": 69
   },
   {
     "id": "tt34610311",
@@ -98,22 +98,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 850
-  },
-  {
-    "id": "tt31414242",
-    "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 334
+    "seeders": 580
   },
   {
     "id": "tt30851137",
@@ -130,7 +115,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 198
+    "seeders": 156
   },
   {
     "id": "tt32141377",
@@ -147,7 +132,22 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 169
+    "seeders": 136
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 227
   },
   {
     "id": "tt32194932",
@@ -164,7 +164,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 249
+    "seeders": 196
   },
   {
     "id": "tt40891145",
@@ -174,14 +174,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 222
+    "seeders": 166
   },
   {
     "id": "tt37540875",
@@ -196,7 +196,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 201
+    "seeders": 143
+  },
+  {
+    "id": "tt37530747",
+    "type": "movie",
+    "name": "A Patty nagyon csajszis név",
+    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 98
   },
   {
     "id": "tt32362890",
@@ -212,22 +227,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 419
-  },
-  {
-    "id": "tt37530747",
-    "type": "movie",
-    "name": "A Patty nagyon csajszis név",
-    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 136
+    "seeders": 278
   },
   {
     "id": "tt32536315",
@@ -245,24 +245,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 152
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 323
+    "seeders": 131
   },
   {
     "id": "tt33022412",
@@ -280,7 +263,39 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 179
+    "seeders": 147
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 241
+  },
+  {
+    "id": "tt39314348",
+    "type": "movie",
+    "name": "David Attenborough: Gorillák között",
+    "poster": "https://image.tmdb.org/t/p/w500/kyfsiPQsJxdgf8gOtYkUhwojN6l.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 104
   },
   {
     "id": "tt23149780",
@@ -296,22 +311,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 409
-  },
-  {
-    "id": "tt39314348",
-    "type": "movie",
-    "name": "David Attenborough: Gorillák között",
-    "poster": "https://image.tmdb.org/t/p/w500/kyfsiPQsJxdgf8gOtYkUhwojN6l.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 130
+    "seeders": 282
   },
   {
     "id": "tt35518658",
@@ -326,7 +326,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 120
+    "seeders": 90
   },
   {
     "id": "tt14403504",
@@ -342,7 +342,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 304
+    "seeders": 224
   },
   {
     "id": "tt34381258",
@@ -359,22 +359,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 231
-  },
-  {
-    "id": "tt35066995",
-    "type": "movie",
-    "name": "Szerelem a felhők felett",
-    "poster": "https://image.tmdb.org/t/p/w500/xuHJXGiWjn4MuC940NxWvTmWMRX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Brooklyn riporter a Balloon Fiesta fesztiválra utazik, hogy találkozzon Jared hőlégballon-pilótával, aki romantikus ballonrepüléseket kínál, de maga nem nyitott a szerelemre.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 65
+    "seeders": 169
   },
   {
     "id": "tt33028778",
@@ -390,7 +375,22 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 74
+    "seeders": 60
+  },
+  {
+    "id": "tt35066995",
+    "type": "movie",
+    "name": "Szerelem a felhők felett",
+    "poster": "https://image.tmdb.org/t/p/w500/xuHJXGiWjn4MuC940NxWvTmWMRX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Brooklyn riporter a Balloon Fiesta fesztiválra utazik, hogy találkozzon Jared hőlégballon-pilótával, aki romantikus ballonrepüléseket kínál, de maga nem nyitott a szerelemre.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 52
   },
   {
     "id": "tt31050594",
@@ -408,7 +408,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 258
+    "seeders": 197
   },
   {
     "id": "tt8036976",
@@ -425,7 +425,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 112
+    "seeders": 85
   },
   {
     "id": "tt27766440",
@@ -440,7 +440,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 117
+    "seeders": 92
   },
   {
     "id": "tt28772399",
@@ -455,22 +455,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 70
-  },
-  {
-    "id": "tt41368989",
-    "type": "movie",
-    "name": "Harry nyomában: A varázslat titkai",
-    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 133
+    "seeders": 54
   },
   {
     "id": "tt28514971",
@@ -486,6 +471,21 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 97
+    "seeders": 79
+  },
+  {
+    "id": "tt41368989",
+    "type": "movie",
+    "name": "Harry nyomában: A varázslat titkai",
+    "poster": "https://image.tmdb.org/t/p/w500/euAdyDYoG6wIYRP4g8HrBNZrSnc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy exkluzív kulisszák mögötti dokumentumfilm, amely betekintést nyújt az HBO új Harry Potter-sorozatának készítésébe. A különkiadás bemutatja, hogyan keltik életre J. K. Rowling ikonikus világát egy új generáció számára, a castingtól kezdve a díszlet- és jelmeztervezésen át egészen a látványos kreatúrák megalkotásáig. A film középpontjában az új Harry Potter, Ron és Hermione kiválasztásának folyamata áll, miközben megszólalnak az alkotók és szereplők – többek között John Lithgow és Paapa Essiedu. A különkiadás egy látványos és részletgazdag utazás a varázsvilág kulisszái mögé, amely megmutatja, hogyan születik újjá minden idők egyik legnépszerűbb története.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 91
   }
 ]
