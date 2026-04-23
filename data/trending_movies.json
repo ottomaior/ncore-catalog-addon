@@ -1,18 +1,5 @@
 [
   {
-    "id": "tt41559856",
-    "type": "movie",
-    "name": "Yiya Murano: Muerte a la hora del té",
-    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [],
-    "seeders": 46
-  },
-  {
     "id": "tt37646592",
     "type": "movie",
     "name": "Papamobile",
@@ -25,7 +12,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 84
+    "seeders": 95
+  },
+  {
+    "id": "tt41559856",
+    "type": "movie",
+    "name": "Yiya Murano: Muerte a la hora del té",
+    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 49
   },
   {
     "id": "tt34375721",
@@ -42,7 +44,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1522
+    "seeders": 1713
   },
   {
     "id": "tt22868010",
@@ -59,7 +61,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 645
+    "seeders": 683
   },
   {
     "id": "tt27613895",
@@ -76,7 +78,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 658
+    "seeders": 718
   },
   {
     "id": "tt26735622",
@@ -93,7 +95,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 502
+    "seeders": 528
   },
   {
     "id": "tt34610311",
@@ -111,7 +113,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 717
+    "seeders": 837
   },
   {
     "id": "tt31414242",
@@ -126,41 +128,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 323
-  },
-  {
-    "id": "tt32194932",
-    "type": "movie",
-    "name": "A végső rítus",
-    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 250
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 161
+    "seeders": 332
   },
   {
     "id": "tt30851137",
@@ -177,7 +145,41 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 173
+    "seeders": 188
+  },
+  {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 165
+  },
+  {
+    "id": "tt32194932",
+    "type": "movie",
+    "name": "A végső rítus",
+    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 245
   },
   {
     "id": "tt40224422",
@@ -192,7 +194,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 80
+    "seeders": 85
   },
   {
     "id": "tt40891145",
@@ -202,14 +204,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
-    "imdbRating": 5.7,
+    "imdbRating": 5.6,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 219
+    "seeders": 214
   },
   {
     "id": "tt37540875",
@@ -219,12 +221,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
-    "imdbRating": 6.4,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 187
+    "seeders": 188
   },
   {
     "id": "tt32362890",
@@ -240,7 +242,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 387
+    "seeders": 395
   },
   {
     "id": "tt37530747",
@@ -273,22 +275,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 145
-  },
-  {
-    "id": "tt39314348",
-    "type": "movie",
-    "name": "David Attenborough: Gorillák között",
-    "poster": "https://image.tmdb.org/t/p/w500/kyfsiPQsJxdgf8gOtYkUhwojN6l.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 133
+    "seeders": 158
   },
   {
     "id": "tt1527793",
@@ -305,7 +292,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 284
+    "seeders": 317
+  },
+  {
+    "id": "tt23149780",
+    "type": "movie",
+    "name": "Éden",
+    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 412
   },
   {
     "id": "tt33022412",
@@ -323,23 +326,38 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 164
+    "seeders": 184
   },
   {
-    "id": "tt23149780",
+    "id": "tt39314348",
     "type": "movie",
-    "name": "Éden",
-    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
+    "name": "David Attenborough: Gorillák között",
+    "poster": "https://image.tmdb.org/t/p/w500/kyfsiPQsJxdgf8gOtYkUhwojN6l.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 146
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
-    "imdbRating": 6.7,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
     "releaseInfo": "2025",
     "genres": [
       "Thriller",
       "Dráma"
     ],
-    "seeders": 366
+    "seeders": 304
   },
   {
     "id": "tt35518658",
@@ -354,7 +372,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 106
+    "seeders": 112
   },
   {
     "id": "tt34381258",
@@ -371,23 +389,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 226
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 273
+    "seeders": 225
   },
   {
     "id": "tt31050594",
@@ -405,7 +407,24 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 238
+    "seeders": 271
+  },
+  {
+    "id": "tt8036976",
+    "type": "movie",
+    "name": "Segítség!",
+    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 111
   },
   {
     "id": "tt33028778",
@@ -436,7 +455,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 61
+    "seeders": 65
   },
   {
     "id": "tt27766440",
@@ -451,24 +470,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 117
-  },
-  {
-    "id": "tt8036976",
-    "type": "movie",
-    "name": "Segítség!",
-    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 97
+    "seeders": 124
   },
   {
     "id": "tt28772399",
@@ -483,6 +485,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 60
+    "seeders": 66
   }
 ]
