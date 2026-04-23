@@ -10,7 +10,22 @@
     "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [],
-    "seeders": 49
+    "seeders": 46
+  },
+  {
+    "id": "tt37646592",
+    "type": "movie",
+    "name": "Papamobile",
+    "poster": "https://image.tmdb.org/t/p/w500/dtGpaRQmxUVI88Jzun3Z2HNHbXA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 3.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt34375721",
@@ -27,7 +42,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1371
+    "seeders": 1522
   },
   {
     "id": "tt22868010",
@@ -44,7 +59,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 569
+    "seeders": 645
   },
   {
     "id": "tt27613895",
@@ -61,7 +76,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 602
+    "seeders": 658
   },
   {
     "id": "tt26735622",
@@ -78,7 +93,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 457
+    "seeders": 502
   },
   {
     "id": "tt34610311",
@@ -96,22 +111,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 650
-  },
-  {
-    "id": "tt40224422",
-    "type": "movie",
-    "name": "Első kézből: A Michael Barisone-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 78
+    "seeders": 717
   },
   {
     "id": "tt31414242",
@@ -126,24 +126,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 284
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 150
+    "seeders": 323
   },
   {
     "id": "tt32194932",
@@ -160,7 +143,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 230
+    "seeders": 250
+  },
+  {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 161
   },
   {
     "id": "tt30851137",
@@ -177,7 +177,22 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 159
+    "seeders": 173
+  },
+  {
+    "id": "tt40224422",
+    "type": "movie",
+    "name": "Első kézből: A Michael Barisone-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 80
   },
   {
     "id": "tt40891145",
@@ -194,7 +209,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 193
+    "seeders": 219
   },
   {
     "id": "tt37540875",
@@ -204,12 +219,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 167
+    "seeders": 187
   },
   {
     "id": "tt32362890",
@@ -225,7 +240,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 336
+    "seeders": 387
   },
   {
     "id": "tt37530747",
@@ -240,7 +255,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 115
+    "seeders": 128
   },
   {
     "id": "tt32536315",
@@ -258,7 +273,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 136
+    "seeders": 145
   },
   {
     "id": "tt39314348",
@@ -268,12 +283,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
-    "imdbRating": 7.9,
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 122
+    "seeders": 133
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 284
   },
   {
     "id": "tt33022412",
@@ -291,24 +323,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 155
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 256
+    "seeders": 164
   },
   {
     "id": "tt23149780",
@@ -324,7 +339,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 317
+    "seeders": 366
   },
   {
     "id": "tt35518658",
@@ -342,22 +357,6 @@
     "seeders": 106
   },
   {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 244
-  },
-  {
     "id": "tt34381258",
     "type": "movie",
     "name": "Good Boy",
@@ -372,7 +371,23 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 191
+    "seeders": 226
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 273
   },
   {
     "id": "tt31050594",
@@ -390,7 +405,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 228
+    "seeders": 238
   },
   {
     "id": "tt33028778",
@@ -406,7 +421,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 67
+    "seeders": 73
   },
   {
     "id": "tt35066995",
@@ -421,7 +436,22 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 58
+    "seeders": 61
+  },
+  {
+    "id": "tt27766440",
+    "type": "movie",
+    "name": "A tenger útja",
+    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 117
   },
   {
     "id": "tt8036976",
@@ -438,22 +468,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 94
-  },
-  {
-    "id": "tt27766440",
-    "type": "movie",
-    "name": "A tenger útja",
-    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 110
+    "seeders": 97
   },
   {
     "id": "tt28772399",
@@ -468,22 +483,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 57
-  },
-  {
-    "id": "tt28514971",
-    "type": "movie",
-    "name": "A nagybácsi",
-    "poster": "https://image.tmdb.org/t/p/w500/b1NmXytx7sWXF2zgoErsduCV33z.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Akam, a fiatal irodalomtanár nyugodt, kényelmes életet él Oslóban, mígnem egy nap váratlanul betoppan hozzá rég nem látott nagybátyja az iráni Kurdisztánból. Bár a barátaival közösen lakott lakásban alig van hely, Akam kötelességének érzi, hogy néhány napra befogadja. A nagybácsi azonban hamarosan úgy rendezkedik be, mintha otthon lenne, és semmi jelét nem adja annak, hogy egyhamar továbbállna. A családi kötelesség és a lakásban egyre fokozódó feszültség között őrlődve Akam gyanítani kezdi, hogy a látogatás mögött több rejlik, mint egy egyszerű utazás. Ezt követően lelepleződések és váratlan események sora indul el, amelyek mindkettejük életét alapjaiban változtathatják meg.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 86
+    "seeders": 60
   }
 ]
