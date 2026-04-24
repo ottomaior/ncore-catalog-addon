@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt16431404",
+    "type": "movie",
+    "name": "Csúcsragadozó",
+    "poster": "https://image.tmdb.org/t/p/w500/5TGSFX6dxYfM2balJrFoSVB42Nv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy adrenalinfüggő elindul, hogy meghódítson egy fenyegető folyót, rájön, hogy nem csak a természet vadászik rá.  (Szarka Károly)",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 88
+  },
+  {
     "id": "tt37727776",
     "type": "movie",
     "name": "A Lechner örökség",
@@ -14,22 +30,22 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 78
+    "seeders": 85
   },
   {
     "id": "tt37646592",
     "type": "movie",
-    "name": "Papamobile",
+    "name": "Pápamobil",
     "poster": "https://image.tmdb.org/t/p/w500/dtGpaRQmxUVI88Jzun3Z2HNHbXA.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Az új pápát nemrég nevezték ki, és épp egy latin-amerikai körútra készül, amikor rádöbben, hogy a Vatikán anyagi gondokkal küzd. Ekkor egy gazdag mexikói nő felajánlja a segítségét. Az utazás költségeinek fedezése fejében azt kéri, hogy a pápa vegyen részt a tiszteletére rendezett eseményen Ciudad Juárezben, Mexikó bűnözés-fővárosában. A \"védőangyalról\" azonban kiderül, hogy drogcsempész, és amikor megtudja, hogy a pápa helyett egy hasonmást küldtek, káosz támad.",
     "imdbRating": 3.0,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 78
+    "seeders": 97
   },
   {
     "id": "tt34375721",
@@ -46,22 +62,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1124
-  },
-  {
-    "id": "tt41559856",
-    "type": "movie",
-    "name": "Yiya Murano: Muerte a la hora del té",
-    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 47
+    "seeders": 1375
   },
   {
     "id": "tt22868010",
@@ -78,7 +79,22 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 478
+    "seeders": 568
+  },
+  {
+    "id": "tt41559856",
+    "type": "movie",
+    "name": "Yiya Murano: Muerte a la hora del té",
+    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 46
   },
   {
     "id": "tt27613895",
@@ -95,7 +111,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 537
+    "seeders": 611
   },
   {
     "id": "tt26735622",
@@ -112,7 +128,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 394
+    "seeders": 446
   },
   {
     "id": "tt34610311",
@@ -130,7 +146,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 567
+    "seeders": 665
   },
   {
     "id": "tt31414242",
@@ -145,41 +161,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 226
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 149
-  },
-  {
-    "id": "tt32194932",
-    "type": "movie",
-    "name": "A végső rítus",
-    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 183
+    "seeders": 276
   },
   {
     "id": "tt32141377",
@@ -196,7 +178,41 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 123
+    "seeders": 152
+  },
+  {
+    "id": "tt32194932",
+    "type": "movie",
+    "name": "A végső rítus",
+    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 215
+  },
+  {
+    "id": "tt30851137",
+    "type": "movie",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 153
   },
   {
     "id": "tt40891145",
@@ -206,29 +222,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 158
-  },
-  {
-    "id": "tt40224422",
-    "type": "movie",
-    "name": "Első kézből: A Michael Barisone-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 64
+    "seeders": 183
   },
   {
     "id": "tt37540875",
@@ -243,7 +244,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 132
+    "seeders": 166
   },
   {
     "id": "tt32362890",
@@ -259,7 +260,37 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 263
+    "seeders": 329
+  },
+  {
+    "id": "tt37530747",
+    "type": "movie",
+    "name": "A Patty nagyon csajszis név",
+    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 118
+  },
+  {
+    "id": "tt40224422",
+    "type": "movie",
+    "name": "Első kézből: A Michael Barisone-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 62
   },
   {
     "id": "tt32536315",
@@ -277,7 +308,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 128
+    "seeders": 140
   },
   {
     "id": "tt33022412",
@@ -295,22 +326,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt37530747",
-    "type": "movie",
-    "name": "A Patty nagyon csajszis név",
-    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 92
+    "seeders": 159
   },
   {
     "id": "tt1527793",
@@ -327,7 +343,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 233
+    "seeders": 262
   },
   {
     "id": "tt23149780",
@@ -343,7 +359,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 276
+    "seeders": 322
   },
   {
     "id": "tt39314348",
@@ -358,7 +374,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 100
+    "seeders": 118
   },
   {
     "id": "tt14403504",
@@ -374,7 +390,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 231
+    "seeders": 252
   },
   {
     "id": "tt35518658",
@@ -389,7 +405,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 86
+    "seeders": 96
   },
   {
     "id": "tt34381258",
@@ -406,7 +422,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 161
+    "seeders": 195
   },
   {
     "id": "tt31050594",
@@ -424,23 +440,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 198
-  },
-  {
-    "id": "tt33028778",
-    "type": "movie",
-    "name": "Ősi ösztön",
-    "poster": "https://image.tmdb.org/t/p/w500/lWQo2avKMWXS6QFufC0JkQaGz9L.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat fiatal trópusi vakációra megy egy pazar tengerparti luxusházba. Minden szuper, van pia, napfény, jókedv kacagás… De Ben valahogy egyre furcsábban viselkedik. Eddig mindig kedves volt, barátságos, sőt egyenesen cuki. De most mintha megváltozott volna a hangulata. Ingerült, sőt néha kifejezetten dühös. Márpedig az nagyon nem jó, ha Ben dühös. Ugyanis Ben egy csimpánz…",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 55
+    "seeders": 225
   },
   {
     "id": "tt8036976",
@@ -457,7 +457,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 80
+    "seeders": 93
   },
   {
     "id": "tt35066995",
@@ -472,7 +472,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 47
+    "seeders": 54
   },
   {
     "id": "tt27766440",
@@ -487,6 +487,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 88
+    "seeders": 102
   }
 ]
