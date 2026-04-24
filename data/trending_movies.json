@@ -1,19 +1,36 @@
 [
   {
+    "id": "tt27613895",
+    "type": "movie",
+    "name": "GOAT - Will, a bajnok",
+    "poster": "https://image.tmdb.org/t/p/w500/97osc8Z8xBkgcG5iNXeXznLrLCe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bömball a világ legveszélyesebb sportja. Nagyvadak játsszák egy nagyon veszélyes pályán. És Will, a kis kecske százszor hallotta már életében, hogy hol van a kis állatok helye: a pálya szélén, vagy legfeljebb a lelátón. Ő azonban nem hajlandó elfogadni a prózai valóságot. A bömball legjobbjai közé akar kerülni. És mindent megér neki, hogy megvalósítsa az álmát.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 39
+  },
+  {
     "id": "tt16431404",
     "type": "movie",
     "name": "Csúcsragadozó",
-    "poster": "https://image.tmdb.org/t/p/w500/6N1PTPVPD4zh7XZftQOxWZxT5I2.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/nIavKNzHzk0Kpra8JdZ7NmtSuLc.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A film egy női hegymászóról szól, aki az ausztrál vadonban halálos macska-egér játékba keveredik. Az adrenalin függő nő túrázás közben rájön, hogy nem csak a természet vadászik rá, hanem egy gyilkos beteges játékának prédájává vált, és csak egyvalaki maradhat életben.",
-    "imdbRating": 6.7,
+    "description": "Egy gyászoló nő egyedül vág neki az ausztrál vadonnak, hogy feszegesse a saját határait, azonban prédává válik egy alattomos gyilkos beteges játékában.",
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Thriller",
+      "Akció"
     ],
-    "seeders": 364
+    "seeders": 688
   },
   {
     "id": "tt34375721",
@@ -30,7 +47,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1530
+    "seeders": 1761
   },
   {
     "id": "tt37646592",
@@ -62,7 +79,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 89
+    "seeders": 97
   },
   {
     "id": "tt22868010",
@@ -79,24 +96,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 664
-  },
-  {
-    "id": "tt27613895",
-    "type": "movie",
-    "name": "GOAT - Will, a bajnok",
-    "poster": "https://image.tmdb.org/t/p/w500/97osc8Z8xBkgcG5iNXeXznLrLCe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bömball a világ legveszélyesebb sportja. Nagyvadak játsszák egy nagyon veszélyes pályán. És Will, a kis kecske százszor hallotta már életében, hogy hol van a kis állatok helye: a pálya szélén, vagy legfeljebb a lelátón. Ő azonban nem hajlandó elfogadni a prózai valóságot. A bömball legjobbjai közé akar kerülni. És mindent megér neki, hogy megvalósítsa az álmát.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 686
+    "seeders": 720
   },
   {
     "id": "tt26735622",
@@ -113,22 +113,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 483
-  },
-  {
-    "id": "tt41559856",
-    "type": "movie",
-    "name": "Yiya Murano: Halálos teázás",
-    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró nyomozása során próbálja feltárni azokat az eseményeket, amelyek odáig vezettek, hogy Yiya Murano meggyilkolta három barátját: a nő teára hívta, majd végül ciánnal mérgezte meg őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 59
+    "seeders": 563
   },
   {
     "id": "tt34610311",
@@ -146,7 +131,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 744
+    "seeders": 846
+  },
+  {
+    "id": "tt41559856",
+    "type": "movie",
+    "name": "Yiya Murano: Halálos teázás",
+    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró nyomozása során próbálja feltárni azokat az eseményeket, amelyek odáig vezettek, hogy Yiya Murano meggyilkolta három barátját: a nő teára hívta, majd végül ciánnal mérgezte meg őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 63
   },
   {
     "id": "tt31414242",
@@ -161,24 +161,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 306
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 162
+    "seeders": 332
   },
   {
     "id": "tt32194932",
@@ -195,7 +178,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 231
+    "seeders": 247
   },
   {
     "id": "tt30851137",
@@ -212,7 +195,40 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 168
+    "seeders": 188
+  },
+  {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 173
+  },
+  {
+    "id": "tt32362890",
+    "type": "movie",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 418
   },
   {
     "id": "tt40891145",
@@ -229,23 +245,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 197
-  },
-  {
-    "id": "tt32362890",
-    "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 381
+    "seeders": 211
   },
   {
     "id": "tt37540875",
@@ -260,7 +260,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 182
+    "seeders": 198
   },
   {
     "id": "tt40224422",
@@ -270,12 +270,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
-    "imdbRating": 10.0,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 74
+    "seeders": 79
   },
   {
     "id": "tt37530747",
@@ -290,7 +290,24 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 133
+    "seeders": 137
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 323
   },
   {
     "id": "tt23149780",
@@ -306,7 +323,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 369
+    "seeders": 406
   },
   {
     "id": "tt32536315",
@@ -324,7 +341,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 147
+    "seeders": 159
   },
   {
     "id": "tt33022412",
@@ -342,24 +359,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 172
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 280
+    "seeders": 186
   },
   {
     "id": "tt39314348",
@@ -374,7 +374,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 134
+    "seeders": 141
   },
   {
     "id": "tt14403504",
@@ -390,7 +390,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 286
+    "seeders": 316
   },
   {
     "id": "tt34381258",
@@ -407,7 +407,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 227
+    "seeders": 233
   },
   {
     "id": "tt35518658",
@@ -422,7 +422,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 110
+    "seeders": 115
   },
   {
     "id": "tt31050594",
@@ -440,7 +440,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 243
+    "seeders": 274
   },
   {
     "id": "tt8036976",
@@ -457,7 +457,22 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 98
+    "seeders": 107
+  },
+  {
+    "id": "tt27766440",
+    "type": "movie",
+    "name": "A tenger útja",
+    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 122
   },
   {
     "id": "tt33028778",
@@ -473,21 +488,6 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 64
-  },
-  {
-    "id": "tt35066995",
-    "type": "movie",
-    "name": "Szerelem a felhők felett",
-    "poster": "https://image.tmdb.org/t/p/w500/xuHJXGiWjn4MuC940NxWvTmWMRX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Brooklyn riporter a Balloon Fiesta fesztiválra utazik, hogy találkozzon Jared hőlégballon-pilótával, aki romantikus ballonrepüléseket kínál, de maga nem nyitott a szerelemre.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 58
+    "seeders": 71
   }
 ]
