@@ -1,19 +1,37 @@
 [
   {
+    "id": "tt32801387",
+    "type": "movie",
+    "name": "Thieves Highway",
+    "poster": "https://image.tmdb.org/t/p/w500/78B66xBCgmnh88d10B85uFjC88V.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Bűnügyi",
+      "Thriller",
+      "Western",
+      "Akció"
+    ],
+    "seeders": 79
+  },
+  {
     "id": "tt16431404",
     "type": "movie",
     "name": "Csúcsragadozó",
-    "poster": "https://image.tmdb.org/t/p/w500/9iuGBLJBRuGKR6nRL4SxUV1tIdt.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/whKPSACIlNMuYqLF4CnfHgjrPPz.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy gyászoló nő egyedül vág neki az ausztrál vadonnak, hogy feszegesse a saját határait, azonban prédává válik egy alattomos gyilkos beteges játékában.",
-    "imdbRating": 6.2,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Akció"
     ],
-    "seeders": 513
+    "seeders": 739
   },
   {
     "id": "tt27613895",
@@ -30,7 +48,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 70
+    "seeders": 79
   },
   {
     "id": "tt34375721",
@@ -47,39 +65,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1128
-  },
-  {
-    "id": "tt37646592",
-    "type": "movie",
-    "name": "Pápamobil",
-    "poster": "https://image.tmdb.org/t/p/w500/dtGpaRQmxUVI88Jzun3Z2HNHbXA.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az új pápát nemrég nevezték ki, és épp egy latin-amerikai körútra készül, amikor rádöbben, hogy a Vatikán anyagi gondokkal küzd. Ekkor egy gazdag mexikói nő felajánlja a segítségét. Az utazás költségeinek fedezése fejében azt kéri, hogy a pápa vegyen részt a tiszteletére rendezett eseményen Ciudad Juárezben, Mexikó bűnözés-fővárosában. A \"védőangyalról\" azonban kiderül, hogy drogcsempész, és amikor megtudja, hogy a pápa helyett egy hasonmást küldtek, káosz támad.",
-    "imdbRating": 3.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 97
-  },
-  {
-    "id": "tt37727776",
-    "type": "movie",
-    "name": "A Lechner örökség",
-    "poster": "https://image.tmdb.org/t/p/w500/p1hPY6yosMLuv4neXI855Ii31zA.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Lechner család története a téglagyártásban, városfejlesztésben jeleskedő elődökön keresztül vezet el Lechner Ödön szecessziós mesterműveihez, mely művek öröksége a mai napig inspirálja és formálja az építészetről való gondolkodást. Filmünk végigköveti Lechner Ödön örökségét és hatását napjainkig. Az utódok, követők és azon művészek, akiket inspirált, bemutatják, miképp folytatják és interpretálják az ő örökségét a jelen művészeti világában. Az építészeti stílusok, az építészeti tervek látványos bemutatása – különösen azok a lenyűgöző és ikonikus épületek, amelyeken Lechner Ödön dolgozott – szemet gyönyörködtető és inspiráló vizuális élményt ígérnek a nézőnek.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 78
+    "seeders": 1467
   },
   {
     "id": "tt22868010",
@@ -96,7 +82,39 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 482
+    "seeders": 621
+  },
+  {
+    "id": "tt37646592",
+    "type": "movie",
+    "name": "Pápamobil",
+    "poster": "https://image.tmdb.org/t/p/w500/dtGpaRQmxUVI88Jzun3Z2HNHbXA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az új pápát nemrég nevezték ki, és épp egy latin-amerikai körútra készül, amikor rádöbben, hogy a Vatikán anyagi gondokkal küzd. Ekkor egy gazdag mexikói nő felajánlja a segítségét. Az utazás költségeinek fedezése fejében azt kéri, hogy a pápa vegyen részt a tiszteletére rendezett eseményen Ciudad Juárezben, Mexikó bűnözés-fővárosában. A \"védőangyalról\" azonban kiderül, hogy drogcsempész, és amikor megtudja, hogy a pápa helyett egy hasonmást küldtek, káosz támad.",
+    "imdbRating": 3.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 116
+  },
+  {
+    "id": "tt37727776",
+    "type": "movie",
+    "name": "A Lechner örökség",
+    "poster": "https://image.tmdb.org/t/p/w500/p1hPY6yosMLuv4neXI855Ii31zA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Lechner család története a téglagyártásban, városfejlesztésben jeleskedő elődökön keresztül vezet el Lechner Ödön szecessziós mesterműveihez, mely művek öröksége a mai napig inspirálja és formálja az építészetről való gondolkodást. Filmünk végigköveti Lechner Ödön örökségét és hatását napjainkig. Az utódok, követők és azon művészek, akiket inspirált, bemutatják, miképp folytatják és interpretálják az ő örökségét a jelen művészeti világában. Az építészeti stílusok, az építészeti tervek látványos bemutatása – különösen azok a lenyűgöző és ikonikus épületek, amelyeken Lechner Ödön dolgozott – szemet gyönyörködtető és inspiráló vizuális élményt ígérnek a nézőnek.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 88
   },
   {
     "id": "tt26735622",
@@ -106,14 +124,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció",
       "Kaland"
     ],
-    "seeders": 392
+    "seeders": 475
   },
   {
     "id": "tt34610311",
@@ -131,39 +149,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 565
-  },
-  {
-    "id": "tt41559856",
-    "type": "movie",
-    "name": "Yiya Murano: Halálos teázás",
-    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró nyomozása során próbálja feltárni azokat az eseményeket, amelyek odáig vezettek, hogy Yiya Murano meggyilkolta három barátját: a nő teára hívta, majd végül ciánnal mérgezte meg őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 56
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 147
+    "seeders": 706
   },
   {
     "id": "tt31414242",
@@ -178,24 +164,22 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 205
+    "seeders": 270
   },
   {
-    "id": "tt32141377",
+    "id": "tt41559856",
     "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "name": "Yiya Murano: Halálos teázás",
+    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.1,
+    "description": "Egy újságíró nyomozása során próbálja feltárni azokat az eseményeket, amelyek odáig vezettek, hogy Yiya Murano meggyilkolta három barátját: a nő teára hívta, majd végül ciánnal mérgezte meg őket.",
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
+      "Dokumentum"
     ],
-    "seeders": 122
+    "seeders": 55
   },
   {
     "id": "tt32194932",
@@ -212,24 +196,41 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 169
+    "seeders": 216
   },
   {
-    "id": "tt40891145",
+    "id": "tt32141377",
     "type": "movie",
-    "name": "180",
-    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
-    "imdbRating": 5.6,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
+      "Horror",
       "Thriller",
-      "Bűnügyi",
-      "Dráma"
+      "Sci-Fi"
     ],
-    "seeders": 150
+    "seeders": 152
+  },
+  {
+    "id": "tt30851137",
+    "type": "movie",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 162
   },
   {
     "id": "tt32362890",
@@ -245,7 +246,24 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 266
+    "seeders": 362
+  },
+  {
+    "id": "tt40891145",
+    "type": "movie",
+    "name": "180",
+    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 173
   },
   {
     "id": "tt37540875",
@@ -255,77 +273,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
-    "imdbRating": 6.4,
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 136
+    "seeders": 168
   },
   {
-    "id": "tt1527793",
+    "id": "tt23149780",
     "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "name": "Éden",
+    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
+    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
+    "imdbRating": 6.7,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 239
-  },
-  {
-    "id": "tt40224422",
-    "type": "movie",
-    "name": "Első kézből: A Michael Barisone-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 59
-  },
-  {
-    "id": "tt32536315",
-    "type": "movie",
-    "name": "Blue Moon",
-    "poster": "https://image.tmdb.org/t/p/w500/dVU7SNc6dgStTVdtbPLQncWxsyZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "1943. március 31-én este a legendás dalszövegíró, Lorenz Hart a törzshelyén, a Sardi’s bárban néz szembe megtört önbizalmával, miközben egykori alkotótársa, Richard Rodgers épp az Oklahoma! című, korszakalkotó musicalje premierjét ünnepli. Hart alkoholba fojtja bánatát, a nagy hatású alkotásokról (például Molnár Ferenc Liliom-ja) és saját szorongásairól folytatott kocsmai beszélgetések során pedig feltárul egy zseniális, mégis komplexusokkal teli, jobb sorsra érdemes művész belső világa.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Zenei",
-      "Történelmi",
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 123
-  },
-  {
-    "id": "tt37530747",
-    "type": "movie",
-    "name": "A Patty nagyon csajszis név",
-    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
+      "Thriller",
       "Dráma"
     ],
-    "seeders": 97
+    "seeders": 364
   },
   {
     "id": "tt33022412",
@@ -343,23 +312,72 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 141
+    "seeders": 170
   },
   {
-    "id": "tt23149780",
+    "id": "tt1527793",
     "type": "movie",
-    "name": "Éden",
-    "poster": "https://image.tmdb.org/t/p/w500/kKW5GPCojv89oo7JbhiSt9ksqsp.jpg",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Az orvos-filozófus Dr. Ritter és felesége a festői, de mindeddig lakatlan Floreana szigetén, a civilizációtól elvonulva kezdenek új életet. Példájukat követve érkezik a szigetre a Wittmer házaspár, akik szintén szeretnének letelepedni, valamint Eloise bárónő és kísérete, aki egy hotelt akar nyitni a szigeten.",
-    "imdbRating": 6.7,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
     "releaseInfo": "2025",
     "genres": [
-      "Thriller",
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 270
+  },
+  {
+    "id": "tt40224422",
+    "type": "movie",
+    "name": "Első kézből: A Michael Barisone-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 69
+  },
+  {
+    "id": "tt37530747",
+    "type": "movie",
+    "name": "A Patty nagyon csajszis név",
+    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
       "Dráma"
     ],
-    "seeders": 274
+    "seeders": 114
+  },
+  {
+    "id": "tt32536315",
+    "type": "movie",
+    "name": "Blue Moon",
+    "poster": "https://image.tmdb.org/t/p/w500/dVU7SNc6dgStTVdtbPLQncWxsyZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1943. március 31-én este a legendás dalszövegíró, Lorenz Hart a törzshelyén, a Sardi’s bárban néz szembe megtört önbizalmával, miközben egykori alkotótársa, Richard Rodgers épp az Oklahoma! című, korszakalkotó musicalje premierjét ünnepli. Hart alkoholba fojtja bánatát, a nagy hatású alkotásokról (például Molnár Ferenc Liliom-ja) és saját szorongásairól folytatott kocsmai beszélgetések során pedig feltárul egy zseniális, mégis komplexusokkal teli, jobb sorsra érdemes művész belső világa.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Történelmi",
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 136
   },
   {
     "id": "tt39314348",
@@ -374,7 +392,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 103
+    "seeders": 120
   },
   {
     "id": "tt14403504",
@@ -390,7 +408,39 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 234
+    "seeders": 263
+  },
+  {
+    "id": "tt34381258",
+    "type": "movie",
+    "name": "Good Boy",
+    "poster": "https://image.tmdb.org/t/p/w500/x0wD4Qxe0wulV0bxarsQ05PqDNF.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 215
+  },
+  {
+    "id": "tt35518658",
+    "type": "movie",
+    "name": "Van, aki kopaszon szereti",
+    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
+    "imdbRating": 4.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 105
   },
   {
     "id": "tt31050594",
@@ -408,39 +458,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 206
-  },
-  {
-    "id": "tt34381258",
-    "type": "movie",
-    "name": "Good Boy",
-    "poster": "https://image.tmdb.org/t/p/w500/x0wD4Qxe0wulV0bxarsQ05PqDNF.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 164
-  },
-  {
-    "id": "tt35518658",
-    "type": "movie",
-    "name": "Van, aki kopaszon szereti",
-    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
-    "imdbRating": 4.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 84
+    "seeders": 232
   },
   {
     "id": "tt8036976",
@@ -457,7 +475,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 77
+    "seeders": 94
   },
   {
     "id": "tt35066995",
@@ -472,21 +490,6 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 47
-  },
-  {
-    "id": "tt27766440",
-    "type": "movie",
-    "name": "A tenger útja",
-    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 85
+    "seeders": 59
   }
 ]
