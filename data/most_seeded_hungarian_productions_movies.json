@@ -30,7 +30,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999989
+"seeders": 999988
 },
 {
 "id": "tt29567915",
@@ -46,7 +46,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999987
+"seeders": 999986
 },
 {
 "id": "tt34375721",
@@ -63,7 +63,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999978
+"seeders": 999981
 },
 {
 "id": "tt20672356",
@@ -79,7 +79,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999955
+"seeders": 999956
 },
 {
 "id": "tt0179955",
@@ -96,7 +96,22 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999899
+"seeders": 999901
+},
+{
+"id": "tt27811640",
+"type": "movie",
+"name": "Véletlenül írtam egy könyvet",
+"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
+"imdbRating": 6.6,
+"releaseInfo": "2025",
+"genres": [
+"Családi"
+],
+"seeders": 999887
 },
 {
 "id": "tt26678938",
@@ -114,39 +129,22 @@
 "Akció",
 "Horror"
 ],
-"seeders": 999890
+"seeders": 999879
 },
 {
-"id": "tt27811640",
+"id": "tt0065067",
 "type": "movie",
-"name": "Véletlenül írtam egy könyvet",
-"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
+"name": "A tanú",
+"poster": "https://image.tmdb.org/t/p/w500/l6X1hx0Ux5hQYSl7YpQiyIsdzO7.jpg",
 "posterShape": "poster",
-"year": 2025,
-"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
-"imdbRating": 6.6,
-"releaseInfo": "2025",
+"year": 1979,
+"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
+"imdbRating": 8.1,
+"releaseInfo": "1979",
 "genres": [
-"Családi"
+"Vígjáték"
 ],
-"seeders": 999884
-},
-{
-"id": "tt23172090",
-"type": "movie",
-"name": "Porszörny",
-"poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik – hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie – és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.  (Csillag Lajos)R3",
-"imdbRating": 6.6,
-"releaseInfo": "2025",
-"genres": [
-"Fantasy",
-"Akció",
-"Thriller"
-],
-"seeders": 999872
+"seeders": 999858
 },
 {
 "id": "tt0142632",
@@ -163,38 +161,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999852
-},
-{
-"id": "tt0131636",
-"type": "movie",
-"name": "Vuk",
-"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
-"posterShape": "poster",
-"year": 1981,
-"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
-"imdbRating": 7.6,
-"releaseInfo": "1981",
-"genres": [
-"Animációs",
-"Családi"
-],
-"seeders": 999846
-},
-{
-"id": "tt0065067",
-"type": "movie",
-"name": "A tanú",
-"poster": "https://image.tmdb.org/t/p/w500/l6X1hx0Ux5hQYSl7YpQiyIsdzO7.jpg",
-"posterShape": "poster",
-"year": 1979,
-"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
-"imdbRating": 8.1,
-"releaseInfo": "1979",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999844
+"seeders": 999849
 },
 {
 "id": "tt31065630",
@@ -212,6 +179,22 @@
 "seeders": 999838
 },
 {
+"id": "tt0131636",
+"type": "movie",
+"name": "Vuk",
+"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
+"posterShape": "poster",
+"year": 1981,
+"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
+"imdbRating": 7.6,
+"releaseInfo": "1981",
+"genres": [
+"Animációs",
+"Családi"
+],
+"seeders": 999833
+},
+{
 "id": "tt0084315",
 "type": "movie",
 "name": "Az idő urai",
@@ -227,6 +210,23 @@
 "Kaland"
 ],
 "seeders": 999823
+},
+{
+"id": "tt23172090",
+"type": "movie",
+"name": "Porszörny",
+"poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
+"imdbRating": 6.7,
+"releaseInfo": "2025",
+"genres": [
+"Fantasy",
+"Akció",
+"Horror"
+],
+"seeders": 999821
 },
 {
 "id": "tt33586253",
