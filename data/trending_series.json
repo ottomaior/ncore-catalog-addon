@@ -15,7 +15,7 @@
     ],
     "latest_season": 10,
     "latest_episode": 8,
-    "seeders": 675
+    "seeders": 857
   },
   {
     "id": "tt1190634",
@@ -33,7 +33,25 @@
     ],
     "latest_season": 5,
     "latest_episode": 4,
-    "seeders": 1617
+    "seeders": 2105
+  },
+  {
+    "id": "tt16288838",
+    "type": "series",
+    "name": "Szokások hálójában (S01E04)",
+    "poster": "https://image.tmdb.org/t/p/w500/jJtOpfgV4iPu9RtxllHwZgn9dqI.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S01E04\n\nAz emberi viselkedés mestere végre találkozik azzal, akinek viselkedését képtelen megjósolni.\n\n(Hupka Adrián)",
+    "imdbRating": 6.6,
+    "releaseInfo": "2023",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 4,
+    "seeders": 60
   },
   {
     "id": "tt0224887",
@@ -51,7 +69,7 @@
     ],
     "latest_season": 19,
     "latest_episode": 2,
-    "seeders": 1201
+    "seeders": 1394
   },
   {
     "id": "tt36594331",
@@ -70,7 +88,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 6,
-    "seeders": 776
+    "seeders": 982
   },
   {
     "id": "tt18923754",
@@ -89,7 +107,7 @@
     ],
     "latest_season": 2,
     "latest_episode": 6,
-    "seeders": 446
+    "seeders": 540
   },
   {
     "id": "tt33204276",
@@ -106,7 +124,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 204
+    "seeders": 236
   },
   {
     "id": "tt8772296",
@@ -123,7 +141,7 @@
     ],
     "latest_season": 3,
     "latest_episode": 2,
-    "seeders": 436
+    "seeders": 553
   },
   {
     "id": "tt36849871",
@@ -140,44 +158,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 8,
-    "seeders": 402
-  },
-  {
-    "id": "tt27486290",
-    "type": "series",
-    "name": "Stranger Things: 1985 krónikái",
-    "poster": "https://image.tmdb.org/t/p/w500/h4IsUmY4F0EwFavjGdCDYEyeT4q.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Tél. Hawkins. 1985. Üdv újra a titkokkal teli városban, ahol szeretett hőseink új rejtélyekkel és furcsaságokkal néznek szembe.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Sci-Fi & Fantasy",
-      "Rejtély",
-      "Action & Adventure"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 171
-  },
-  {
-    "id": "tt14824792",
-    "type": "series",
-    "name": "Ted",
-    "poster": "https://image.tmdb.org/t/p/w500/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "1993-ban járunk, és Ted, a medve hírességének pillanata már elmúlt. Otthon él legjobb barátjával, John Bennett-tel és családjával. Bár Ted rossz hatással van Johnra, hűséges cimborája, aki a barátságért akár a végsőkig is elmegy.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2024",
-    "genres": [
-      "Vígjáték"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 107
+    "seeders": 458
   },
   {
     "id": "tt39694103",
@@ -194,7 +175,44 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 362
+    "seeders": 436
+  },
+  {
+    "id": "tt14824792",
+    "type": "series",
+    "name": "Ted",
+    "poster": "https://image.tmdb.org/t/p/w500/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "1993-ban járunk, és Ted, a medve hírességének pillanata már elmúlt. Otthon él legjobb barátjával, John Bennett-tel és családjával. Bár Ted rossz hatással van Johnra, hűséges cimborája, aki a barátságért akár a végsőkig is elmegy.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Vígjáték"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 124
+  },
+  {
+    "id": "tt27486290",
+    "type": "series",
+    "name": "Stranger Things: 1985 krónikái",
+    "poster": "https://image.tmdb.org/t/p/w500/h4IsUmY4F0EwFavjGdCDYEyeT4q.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Tél. Hawkins. 1985. Üdv újra a titkokkal teli városban, ahol szeretett hőseink új rejtélyekkel és furcsaságokkal néznek szembe.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Sci-Fi & Fantasy",
+      "Rejtély",
+      "Action & Adventure"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 173
   },
   {
     "id": "tt1800864",
@@ -211,7 +229,7 @@
     ],
     "latest_season": 16,
     "latest_episode": 21,
-    "seeders": 87
+    "seeders": 108
   },
   {
     "id": "tt9776132",
@@ -228,7 +246,25 @@
     ],
     "latest_season": 5,
     "latest_episode": 24,
-    "seeders": 41
+    "seeders": 53
+  },
+  {
+    "id": "tt36104233",
+    "type": "series",
+    "name": "Ha a kívánságok ölni tudnának",
+    "poster": "https://image.tmdb.org/t/p/w500/oKSt05GBc2ZZ5G2BxTqLikNml1V.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy rejtélyes app kívánságok teljesítését ígéri – majd pedig elkezd visszaszámlálni a felhasználó haláláig. Egy csapat tininek meg kell törnie a halálos láncot a túlélés érdekében.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Rejtély",
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 85
   },
   {
     "id": "tt39695940",
@@ -243,42 +279,7 @@
     "genres": [],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 41
-  },
-  {
-    "id": "tt36104233",
-    "type": "series",
-    "name": "Ha a kívánságok ölni tudnának",
-    "poster": "https://image.tmdb.org/t/p/w500/oKSt05GBc2ZZ5G2BxTqLikNml1V.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy rejtélyes app kívánságok teljesítését ígéri – majd pedig elkezd visszaszámlálni a felhasználó haláláig. Egy csapat tininek meg kell törnie a halálos láncot a túlélés érdekében.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Rejtély",
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 77
-  },
-  {
-    "id": "tt10970762",
-    "type": "series",
-    "name": "Testamentumok (S01E05)",
-    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E05\n\nA szolgálólány meséje folytatása Margaret Atwood regénye alapján készült, és két fiatal lány, Agnes és Daisy szemén keresztül mutatja be Gileád további sorsát, Ann Dowd (Lydia néni) főszereplésével. A cselekmény 15 évvel June története után játszódik. A középpontban a Gileadban nevelkedő Agnes és a Kanadában élő Daisy (Nicole) áll, akiknek sorsa összefonódik.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": 1,
-    "latest_episode": 5,
-    "seeders": 136
+    "seeders": 46
   },
   {
     "id": "tt31938062",
@@ -295,24 +296,24 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 295
+    "seeders": 333
   },
   {
-    "id": "tt31589662",
+    "id": "tt10970762",
     "type": "series",
-    "name": "Georgie és Mandy első házassága (S02E16)",
-    "poster": "https://image.tmdb.org/t/p/w500/6lqj0mlymoiMAN0rDwMkiazvFXR.jpg",
+    "name": "Testamentumok (S01E05)",
+    "poster": "https://image.tmdb.org/t/p/w500/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
     "posterShape": "poster",
-    "year": 2024,
-    "description": "🆕 Legújabb epizód: S02E16\n\nGeorgie és Mandy családot alapítanak Texasban, és próbálnak megbirkózni a felnőtt élet, a gyermeknevelés és a házasság nyújtotta kihívásokkal.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2024",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E05\n\nA szolgálólány meséje folytatása Margaret Atwood regénye alapján készült, és két fiatal lány, Agnes és Daisy szemén keresztül mutatja be Gileád további sorsát, Ann Dowd (Lydia néni) főszereplésével. A cselekmény 15 évvel June története után játszódik. A középpontban a Gileadban nevelkedő Agnes és a Kanadában élő Daisy (Nicole) áll, akiknek sorsa összefonódik.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Dráma"
     ],
-    "latest_season": 2,
-    "latest_episode": 16,
-    "seeders": 93
+    "latest_season": 1,
+    "latest_episode": 5,
+    "seeders": 154
   },
   {
     "id": "tt33741848",
@@ -330,7 +331,41 @@
     ],
     "latest_season": 1,
     "latest_episode": 5,
-    "seeders": 93
+    "seeders": 103
+  },
+  {
+    "id": "tt31589662",
+    "type": "series",
+    "name": "Georgie és Mandy első házassága (S02E16)",
+    "poster": "https://image.tmdb.org/t/p/w500/6lqj0mlymoiMAN0rDwMkiazvFXR.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "🆕 Legújabb epizód: S02E16\n\nGeorgie és Mandy családot alapítanak Texasban, és próbálnak megbirkózni a felnőtt élet, a gyermeknevelés és a házasság nyújtotta kihívásokkal.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2024",
+    "genres": [
+      "Vígjáték"
+    ],
+    "latest_season": 2,
+    "latest_episode": 16,
+    "seeders": 100
+  },
+  {
+    "id": "tt35114768",
+    "type": "series",
+    "name": "Pokoli rokonok",
+    "poster": "https://image.tmdb.org/t/p/w500/hBruwZpLN9rcYCMvmmYbgHwWHwi.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Minden kész, hogy Pantallós határában akkumulátorgyár épüljön. Ha Fejes István is úgy akarja. A település polgármestere, Aczél Tihamér mindent megtenne, hogy megvalósuljon ez a nagyszabású kínai-magyar beruházás, ami az egész települést gazdaggá tenné (különösen őt), de ehhez előbb békét kéne kötnie Pantallós legnagyobb földbirtokosával, Istvánnal. István viszont jobban utálja Tihamért, mint amennyire szereti a pénzt, és kijelenti, hogy az ő ősei földjén csak a holttestén át épülhet meg az a gyár. Ebbe a patthelyzetbe csöppennek bele Gubáék, az egykor gazdag bankárcsalád tagjai, akik a bankjuk csődje és Guba Antal bankigazgató letartóztatása után kénytelenek visszaköltözni ebbe az Isten háta mögötti, unalmas községbe, Antal szülőfalujába, ahol házuk éppen csak nem dől a fejükre, és ahol a befolyásos Guba Antalt mindenki csak Tóninak ismeri.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 77
   },
   {
     "id": "tt11815682",
@@ -348,24 +383,7 @@
     ],
     "latest_season": 5,
     "latest_episode": 3,
-    "seeders": 56
-  },
-  {
-    "id": "tt35114768",
-    "type": "series",
-    "name": "Pokoli rokonok",
-    "poster": "https://image.tmdb.org/t/p/w500/hBruwZpLN9rcYCMvmmYbgHwWHwi.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Minden kész, hogy Pantallós határában akkumulátorgyár épüljön. Ha Fejes István is úgy akarja. A település polgármestere, Aczél Tihamér mindent megtenne, hogy megvalósuljon ez a nagyszabású kínai-magyar beruházás, ami az egész települést gazdaggá tenné (különösen őt), de ehhez előbb békét kéne kötnie Pantallós legnagyobb földbirtokosával, Istvánnal. István viszont jobban utálja Tihamért, mint amennyire szereti a pénzt, és kijelenti, hogy az ő ősei földjén csak a holttestén át épülhet meg az a gyár. Ebbe a patthelyzetbe csöppennek bele Gubáék, az egykor gazdag bankárcsalád tagjai, akik a bankjuk csődje és Guba Antal bankigazgató letartóztatása után kénytelenek visszaköltözni ebbe az Isten háta mögötti, unalmas községbe, Antal szülőfalujába, ahol házuk éppen csak nem dől a fejükre, és ahol a befolyásos Guba Antalt mindenki csak Tóninak ismeri.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 73
+    "seeders": 59
   },
   {
     "id": "tt26748321",
@@ -382,7 +400,25 @@
     ],
     "latest_season": 2,
     "latest_episode": 17,
-    "seeders": 72
+    "seeders": 76
+  },
+  {
+    "id": "tt32767294",
+    "type": "series",
+    "name": "Fivérség (S01E01)",
+    "poster": "https://image.tmdb.org/t/p/w500/zwKWxVhtnKdpknat9sPEHihTYmg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E01\n\nRuben megjelenik elhidegült bátyja, Niall esküvőjén, ami katalizátorként hat az elmúlt 40 év kapcsolatának felelevenítésére.",
+    "imdbRating": 9.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Rejtély"
+    ],
+    "latest_season": 1,
+    "latest_episode": 1,
+    "seeders": 57
   },
   {
     "id": "tt14879018",
@@ -399,7 +435,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 81
+    "seeders": 84
   },
   {
     "id": "tt9472282",
@@ -418,60 +454,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 3,
-    "seeders": 52
-  },
-  {
-    "id": "tt32767294",
-    "type": "series",
-    "name": "Fivérség (S01E01)",
-    "poster": "https://image.tmdb.org/t/p/w500/zwKWxVhtnKdpknat9sPEHihTYmg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E01\n\nRuben megjelenik elhidegült bátyja, Niall esküvőjén, ami katalizátorként hat az elmúlt 40 év kapcsolatának felelevenítésére.",
-    "imdbRating": 9.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "latest_season": 1,
-    "latest_episode": 1,
-    "seeders": 50
-  },
-  {
-    "id": "tt23152082",
-    "type": "series",
-    "name": "Steeltown Murders (S01E01)",
-    "poster": "https://image.tmdb.org/t/p/w500/nvB8vGiEiyGMVdHshOlkQIw2B5t.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S01E01\n\nThe hunt to catch the killer of three young women in the Port Talbot area in 1973 and the remarkable story of how - in the first case of its kind - the mystery was solved almost 30 years later using pioneering DNA evidence. Contrasting the policing methods of the 1970s with the forensic breakthroughs of the early 2000s, the series portrays a town dealing with the repercussions of an unsolved case three decades on, and asks if justice can ever truly be found.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2023",
-    "genres": [
-      "Bűnügyi",
-      "Rejtély"
-    ],
-    "latest_season": 1,
-    "latest_episode": 1,
-    "seeders": 60
-  },
-  {
-    "id": "tt0413573",
-    "type": "series",
-    "name": "A Grace klinika (S22E07)",
-    "poster": "https://image.tmdb.org/t/p/w500/n1w9NJ9ISpHHCjVIWefPcV7OGb8.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "🆕 Legújabb epizód: S22E07\n\nA történet középpontjában Meredith Grey áll, az a céltudatos nő, aki mindent megtesz annak érdekében, hogy teljes életet élhessen egy olyan felelősségteljes munka mellett, ami mindezt lehetetlenné teszi. Elsőéves sebészeti gyakornokként dolgozik a Seattle Grace Kórházban barátaival, a szintén rezidensi évüket töltő Cristina Yanggal, Izzie Stevensszel, George O'Malley-vel és Alex Karevvel, akikkel tegnap még az iskolapadban ültek. Ma azonban már életek múlnak rajtuk.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2005",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": 22,
-    "latest_episode": 7,
-    "seeders": 51
+    "seeders": 54
   },
   {
     "id": "tt37031059",
@@ -489,7 +472,43 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 59
+    "seeders": 72
+  },
+  {
+    "id": "tt23152082",
+    "type": "series",
+    "name": "Steeltown Murders (S01E01)",
+    "poster": "https://image.tmdb.org/t/p/w500/nvB8vGiEiyGMVdHshOlkQIw2B5t.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S01E01\n\nThe hunt to catch the killer of three young women in the Port Talbot area in 1973 and the remarkable story of how - in the first case of its kind - the mystery was solved almost 30 years later using pioneering DNA evidence. Contrasting the policing methods of the 1970s with the forensic breakthroughs of the early 2000s, the series portrays a town dealing with the repercussions of an unsolved case three decades on, and asks if justice can ever truly be found.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2023",
+    "genres": [
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "latest_season": 1,
+    "latest_episode": 1,
+    "seeders": 65
+  },
+  {
+    "id": "tt33484460",
+    "type": "series",
+    "name": "Robin Hood (S01E06)",
+    "poster": "https://image.tmdb.org/t/p/w500/3teWChNzKJdbfen46IdeKTygdZa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "🆕 Legújabb epizód: S01E06\n\nA normann inváziót követően a főhős Rob, aki egy szász erdész fia és Marian, egy normann lord lánya egymásba szeret, és összedolgozva az igazságért és a szabadságért kezdenek harcolni, miközben Rob lázadó törvényenkívüliek élére áll, Marian beépül az udvarba, így próbálják letörni a királyi korrupciót, és békét hozni a birodalomba.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Action & Adventure"
+    ],
+    "latest_season": 1,
+    "latest_episode": 6,
+    "seeders": 107
   },
   {
     "id": "tt40284660",
@@ -504,23 +523,6 @@
     "genres": [],
     "latest_season": 1,
     "latest_episode": 2,
-    "seeders": 36
-  },
-  {
-    "id": "tt31631142",
-    "type": "series",
-    "name": "Tisztátalan",
-    "poster": "https://image.tmdb.org/t/p/w500/oVl01a7R8rfmWrolWtrlPXYQqzj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy világtól elzárt szektában élő fiatal édesanya találkozik egy rejtélyes idegennel, kockázatos viszonyuk felébreszti a vágyaikat, és sötét titkokról rántja le a leplet.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 87
+    "seeders": 41
   }
 ]
