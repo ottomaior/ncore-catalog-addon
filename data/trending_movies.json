@@ -13,24 +13,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 1260
-  },
-  {
-    "id": "tt23172090",
-    "type": "movie",
-    "name": "Porszörny",
-    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Fantasy",
-      "Akció",
-      "Horror"
-    ],
-    "seeders": 118
+    "seeders": 1381
   },
   {
     "id": "tt0800175",
@@ -48,7 +31,24 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 544
+    "seeders": 590
+  },
+  {
+    "id": "tt23172090",
+    "type": "movie",
+    "name": "Porszörny",
+    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Fantasy",
+      "Akció",
+      "Horror"
+    ],
+    "seeders": 130
   },
   {
     "id": "tt32801387",
@@ -66,7 +66,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 377
+    "seeders": 372
   },
   {
     "id": "tt27613895",
@@ -83,7 +83,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 121
+    "seeders": 145
   },
   {
     "id": "tt34375721",
@@ -100,7 +100,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1801
+    "seeders": 1908
   },
   {
     "id": "tt39565775",
@@ -116,7 +116,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 104
+    "seeders": 115
   },
   {
     "id": "tt22868010",
@@ -133,7 +133,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 729
+    "seeders": 747
   },
   {
     "id": "tt26735622",
@@ -150,7 +150,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 556
+    "seeders": 590
   },
   {
     "id": "tt34610311",
@@ -168,7 +168,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 856
+    "seeders": 886
   },
   {
     "id": "tt37646592",
@@ -183,7 +183,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 138
+    "seeders": 127
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 310
   },
   {
     "id": "tt37727776",
@@ -200,22 +215,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 91
-  },
-  {
-    "id": "tt31414242",
-    "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 309
+    "seeders": 92
   },
   {
     "id": "tt32194932",
@@ -232,7 +232,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 270
+    "seeders": 268
   },
   {
     "id": "tt32362890",
@@ -248,7 +248,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 419
+    "seeders": 432
   },
   {
     "id": "tt32141377",
@@ -265,7 +265,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 183
+    "seeders": 192
   },
   {
     "id": "tt30851137",
@@ -282,7 +282,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 188
+    "seeders": 194
   },
   {
     "id": "tt40891145",
@@ -299,7 +299,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 217
+    "seeders": 207
   },
   {
     "id": "tt37540875",
@@ -324,14 +324,14 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd, és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.5,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték",
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 312
+    "seeders": 328
   },
   {
     "id": "tt33022412",
@@ -349,7 +349,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 185
+    "seeders": 191
   },
   {
     "id": "tt41559856",
@@ -364,7 +364,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 50
+    "seeders": 55
   },
   {
     "id": "tt32536315",
@@ -374,7 +374,7 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "1943. március 31-én este a legendás dalszövegíró, Lorenz Hart a törzshelyén, a Sardi’s bárban néz szembe megtört önbizalmával, miközben egykori alkotótársa, Richard Rodgers épp az Oklahoma! című, korszakalkotó musicalje premierjét ünnepli. Hart alkoholba fojtja bánatát, a nagy hatású alkotásokról (például Molnár Ferenc Liliom-ja) és saját szorongásairól folytatott kocsmai beszélgetések során pedig feltárul egy zseniális, mégis komplexusokkal teli, jobb sorsra érdemes művész belső világa.",
-    "imdbRating": 6.6,
+    "imdbRating": 6.7,
     "releaseInfo": "2025",
     "genres": [
       "Zenei",
@@ -382,7 +382,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 145
+    "seeders": 153
   },
   {
     "id": "tt39314348",
@@ -392,12 +392,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
-    "imdbRating": 7.7,
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 140
+    "seeders": 144
   },
   {
     "id": "tt37530747",
@@ -412,7 +412,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 114
+    "seeders": 118
   },
   {
     "id": "tt34381258",
@@ -429,7 +429,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 254
+    "seeders": 253
   },
   {
     "id": "tt40224422",
@@ -444,22 +444,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 67
-  },
-  {
-    "id": "tt35518658",
-    "type": "movie",
-    "name": "Van, aki kopaszon szereti",
-    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
-    "imdbRating": 4.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 113
+    "seeders": 70
   },
   {
     "id": "tt14403504",
@@ -475,7 +460,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 186
+    "seeders": 195
   },
   {
     "id": "tt8036976",
@@ -492,6 +477,21 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 123
+    "seeders": 131
+  },
+  {
+    "id": "tt35518658",
+    "type": "movie",
+    "name": "Van, aki kopaszon szereti",
+    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
+    "imdbRating": 4.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 105
   }
 ]
