@@ -13,7 +13,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 873
+    "seeders": 1018
   },
   {
     "id": "tt0800175",
@@ -31,7 +31,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 422
+    "seeders": 494
   },
   {
     "id": "tt32801387",
@@ -41,7 +41,7 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Miután felfedezett egy tervet, amely szerint lopott marhákat akarnak átszállítani a semmi közepén, egy elszánt és magányos rendőr lesz az egyetlen, aki a veszélyes marhatolvaj-banda és a határ felé vezető szabad út között áll.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.8,
     "releaseInfo": "2025",
     "genres": [
       "Bűnügyi",
@@ -49,7 +49,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 281
+    "seeders": 323
   },
   {
     "id": "tt23172090",
@@ -66,24 +66,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 117
-  },
-  {
-    "id": "tt27613895",
-    "type": "movie",
-    "name": "GOAT - Will, a bajnok",
-    "poster": "https://image.tmdb.org/t/p/w500/97osc8Z8xBkgcG5iNXeXznLrLCe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bömball a világ legveszélyesebb sportja. Nagyvadak játsszák egy nagyon veszélyes pályán. És Will, a kis kecske százszor hallotta már életében, hogy hol van a kis állatok helye: a pálya szélén, vagy legfeljebb a lelátón. Ő azonban nem hajlandó elfogadni a prózai valóságot. A bömball legjobbjai közé akar kerülni. És mindent megér neki, hogy megvalósítsa az álmát.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 112
+    "seeders": 118
   },
   {
     "id": "tt34375721",
@@ -100,7 +83,24 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1162
+    "seeders": 1406
+  },
+  {
+    "id": "tt27613895",
+    "type": "movie",
+    "name": "GOAT - Will, a bajnok",
+    "poster": "https://image.tmdb.org/t/p/w500/97osc8Z8xBkgcG5iNXeXznLrLCe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bömball a világ legveszélyesebb sportja. Nagyvadak játsszák egy nagyon veszélyes pályán. És Will, a kis kecske százszor hallotta már életében, hogy hol van a kis állatok helye: a pálya szélén, vagy legfeljebb a lelátón. Ő azonban nem hajlandó elfogadni a prózai valóságot. A bömball legjobbjai közé akar kerülni. És mindent megér neki, hogy megvalósítsa az álmát.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 135
   },
   {
     "id": "tt39565775",
@@ -116,7 +116,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 84
+    "seeders": 93
   },
   {
     "id": "tt22868010",
@@ -133,7 +133,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 448
+    "seeders": 557
   },
   {
     "id": "tt26735622",
@@ -143,14 +143,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 5.7,
+    "imdbRating": 5.6,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció",
       "Kaland"
     ],
-    "seeders": 404
+    "seeders": 461
   },
   {
     "id": "tt34610311",
@@ -168,7 +168,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 565
+    "seeders": 657
   },
   {
     "id": "tt37646592",
@@ -183,7 +183,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 106
+    "seeders": 119
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 244
   },
   {
     "id": "tt37727776",
@@ -200,7 +215,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 66
+    "seeders": 78
   },
   {
     "id": "tt32194932",
@@ -217,22 +232,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 183
-  },
-  {
-    "id": "tt31414242",
-    "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 196
+    "seeders": 213
   },
   {
     "id": "tt32141377",
@@ -249,7 +249,23 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 136
+    "seeders": 154
+  },
+  {
+    "id": "tt32362890",
+    "type": "movie",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 327
   },
   {
     "id": "tt30851137",
@@ -266,7 +282,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 141
+    "seeders": 158
   },
   {
     "id": "tt40891145",
@@ -283,23 +299,22 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 161
+    "seeders": 179
   },
   {
-    "id": "tt32362890",
+    "id": "tt37540875",
     "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
+    "name": "Szobatársak",
+    "poster": "https://image.tmdb.org/t/p/w500/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 6.0,
+    "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Thriller"
+      "Vígjáték"
     ],
-    "seeders": 259
+    "seeders": 151
   },
   {
     "id": "tt1527793",
@@ -316,37 +331,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 234
-  },
-  {
-    "id": "tt41559856",
-    "type": "movie",
-    "name": "Yiya Murano: Halálos teázás",
-    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró nyomozása során próbálja feltárni azokat az eseményeket, amelyek odáig vezettek, hogy Yiya Murano meggyilkolta három barátját: a nő teára hívta, majd végül ciánnal mérgezte meg őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 51
-  },
-  {
-    "id": "tt37540875",
-    "type": "movie",
-    "name": "Szobatársak",
-    "poster": "https://image.tmdb.org/t/p/w500/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 131
+    "seeders": 263
   },
   {
     "id": "tt33022412",
@@ -364,7 +349,22 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 140
+    "seeders": 148
+  },
+  {
+    "id": "tt41559856",
+    "type": "movie",
+    "name": "Yiya Murano: Halálos teázás",
+    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró nyomozása során próbálja feltárni azokat az eseményeket, amelyek odáig vezettek, hogy Yiya Murano meggyilkolta három barátját: a nő teára hívta, majd végül ciánnal mérgezte meg őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 49
   },
   {
     "id": "tt32536315",
@@ -382,7 +382,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 120
+    "seeders": 123
   },
   {
     "id": "tt39314348",
@@ -397,37 +397,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 108
-  },
-  {
-    "id": "tt37530747",
-    "type": "movie",
-    "name": "A Patty nagyon csajszis név",
-    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 83
-  },
-  {
-    "id": "tt40224422",
-    "type": "movie",
-    "name": "Első kézből: A Michael Barisone-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 54
+    "seeders": 113
   },
   {
     "id": "tt34381258",
@@ -444,22 +414,37 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 168
+    "seeders": 204
   },
   {
-    "id": "tt35518658",
+    "id": "tt37530747",
     "type": "movie",
-    "name": "Van, aki kopaszon szereti",
-    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
+    "name": "A Patty nagyon csajszis név",
+    "poster": "https://image.tmdb.org/t/p/w500/rjUSGA6lJwnmBp4CMQpQKsCSIbF.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
-    "imdbRating": 4.1,
+    "description": "Daphne, egy távoli görög szigetről származó tinédzser dzsúdós, készen áll arra, hogy szárnyra keljen: követi mesterét, Jurit a nagyvárosba, majd onnan az olimpiai játékok felé. Juri az elmúlt években ismeretlen okokból távol maradt a dzsúdó világától, és most új kezdetet keres, miközben Daphne a gondtalan kamaszkorból a felnőttek kemény világába lép.",
+    "imdbRating": 8.0,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték"
+      "Dráma"
     ],
-    "seeders": 83
+    "seeders": 94
+  },
+  {
+    "id": "tt40224422",
+    "type": "movie",
+    "name": "Első kézből: A Michael Barisone-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 60
   },
   {
     "id": "tt14403504",
@@ -475,23 +460,36 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 134
+    "seeders": 157
   },
   {
-    "id": "tt8036976",
+    "id": "tt35518658",
     "type": "movie",
-    "name": "Segítség!",
-    "poster": "https://image.tmdb.org/t/p/w500/jKROZwT4XhFTOgWStPCshtf2bfr.jpg",
+    "name": "Van, aki kopaszon szereti",
+    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy repülőgép-baleset után egy távoli szigeten reked egy tehetséges női alkalmazott és az idegesítő főnöke. A nőnek a túlélési képességeire kell hagyatkoznia, hogy mindkettőjüket megmentse, bár a köztük lévő nehézkes kapcsolat nem könnyíti meg a helyzetet.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
+    "imdbRating": 4.1,
+    "releaseInfo": "2025",
     "genres": [
-      "Horror",
-      "Thriller",
       "Vígjáték"
     ],
-    "seeders": 87
+    "seeders": 88
+  },
+  {
+    "id": "tt27766440",
+    "type": "movie",
+    "name": "A tenger útja",
+    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 108
   }
 ]
