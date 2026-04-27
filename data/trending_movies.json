@@ -1,5 +1,38 @@
 [
   {
+    "id": "tt31728330",
+    "type": "movie",
+    "name": "Meg fognak ölni",
+    "poster": "https://image.tmdb.org/t/p/w500/oYpmoqz48PoouQmApxxMLQ7dXKA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 382
+  },
+  {
+    "id": "tt32897959",
+    "type": "movie",
+    "name": "Üvöltő szelek",
+    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 63
+  },
+  {
     "id": "tt16431404",
     "type": "movie",
     "name": "Csúcsragadozó",
@@ -13,7 +46,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 1018
+    "seeders": 1179
   },
   {
     "id": "tt0800175",
@@ -31,7 +64,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 494
+    "seeders": 550
   },
   {
     "id": "tt32801387",
@@ -49,7 +82,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 323
+    "seeders": 367
   },
   {
     "id": "tt23172090",
@@ -66,7 +99,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 118
+    "seeders": 133
   },
   {
     "id": "tt34375721",
@@ -83,7 +116,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1406
+    "seeders": 1548
   },
   {
     "id": "tt27613895",
@@ -100,23 +133,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 135
-  },
-  {
-    "id": "tt39565775",
-    "type": "movie",
-    "name": "Rocky macs-katasztrófája",
-    "poster": "https://image.tmdb.org/t/p/w500/j1Ixns2KI0v5dOiN75hbczJWcOP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Humdinger egyik terve balul sül el, és egy roncstelepi kiscica otthona megsemmisül. Rocky pedig nagy fába vágja a fejszéjét, amikor meghívja őt, hogy az őrtoronyban töltse az éjszakát. A szeleburdi, de Rockyt bálványozó cica azonban több galibát okoz a vártnál, így kedvenc újrahasznosító kutyusunknak meg kell tanulnia, hogy néha még a hősöknek is segítséget kell kérniük.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 93
+    "seeders": 145
   },
   {
     "id": "tt22868010",
@@ -133,7 +150,23 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 557
+    "seeders": 652
+  },
+  {
+    "id": "tt39565775",
+    "type": "movie",
+    "name": "Rocky macs-katasztrófája",
+    "poster": "https://image.tmdb.org/t/p/w500/pqfkJh0CyF00GvR4NIdvJYkJb2F.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Humdinger egyik terve balul sül el, és egy roncstelepi kiscica otthona megsemmisül. Rocky pedig nagy fába vágja a fejszéjét, amikor meghívja őt, hogy az őrtoronyban töltse az éjszakát. A szeleburdi, de Rockyt bálványozó cica azonban több galibát okoz a vártnál, így kedvenc újrahasznosító kutyusunknak meg kell tanulnia, hogy néha még a hősöknek is segítséget kell kérniük.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 103
   },
   {
     "id": "tt26735622",
@@ -143,14 +176,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció",
       "Kaland"
     ],
-    "seeders": 461
+    "seeders": 504
   },
   {
     "id": "tt34610311",
@@ -168,7 +201,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 657
+    "seeders": 751
   },
   {
     "id": "tt37646592",
@@ -183,7 +216,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 119
+    "seeders": 112
   },
   {
     "id": "tt31414242",
@@ -198,24 +231,23 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 244
+    "seeders": 266
   },
   {
-    "id": "tt37727776",
+    "id": "tt32362890",
     "type": "movie",
-    "name": "A Lechner örökség",
-    "poster": "https://image.tmdb.org/t/p/w500/p1hPY6yosMLuv4neXI855Ii31zA.jpg",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A Lechner család története a téglagyártásban, városfejlesztésben jeleskedő elődökön keresztül vezet el Lechner Ödön szecessziós mesterműveihez, mely művek öröksége a mai napig inspirálja és formálja az építészetről való gondolkodást. Filmünk végigköveti Lechner Ödön örökségét és hatását napjainkig. Az utódok, követők és azon művészek, akiket inspirált, bemutatják, miképp folytatják és interpretálják az ő örökségét a jelen művészeti világában. Az építészeti stílusok, az építészeti tervek látványos bemutatása – különösen azok a lenyűgöző és ikonikus épületek, amelyeken Lechner Ödön dolgozott – szemet gyönyörködtető és inspiráló vizuális élményt ígérnek a nézőnek.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Dokumentum",
-      "Történelmi",
-      "Dráma"
+      "Horror",
+      "Thriller"
     ],
-    "seeders": 78
+    "seeders": 380
   },
   {
     "id": "tt32194932",
@@ -232,7 +264,41 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 213
+    "seeders": 225
+  },
+  {
+    "id": "tt30851137",
+    "type": "movie",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 177
+  },
+  {
+    "id": "tt37727776",
+    "type": "movie",
+    "name": "A Lechner örökség",
+    "poster": "https://image.tmdb.org/t/p/w500/p1hPY6yosMLuv4neXI855Ii31zA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Lechner család története a téglagyártásban, városfejlesztésben jeleskedő elődökön keresztül vezet el Lechner Ödön szecessziós mesterműveihez, mely művek öröksége a mai napig inspirálja és formálja az építészetről való gondolkodást. Filmünk végigköveti Lechner Ödön örökségét és hatását napjainkig. Az utódok, követők és azon művészek, akiket inspirált, bemutatják, miképp folytatják és interpretálják az ő örökségét a jelen művészeti világában. Az építészeti stílusok, az építészeti tervek látványos bemutatása – különösen azok a lenyűgöző és ikonikus épületek, amelyeken Lechner Ödön dolgozott – szemet gyönyörködtető és inspiráló vizuális élményt ígérnek a nézőnek.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 80
   },
   {
     "id": "tt32141377",
@@ -249,40 +315,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 154
-  },
-  {
-    "id": "tt32362890",
-    "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 327
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 158
+    "seeders": 161
   },
   {
     "id": "tt40891145",
@@ -299,7 +332,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 179
+    "seeders": 199
   },
   {
     "id": "tt37540875",
@@ -314,7 +347,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 151
+    "seeders": 163
   },
   {
     "id": "tt1527793",
@@ -331,7 +364,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 263
+    "seeders": 274
   },
   {
     "id": "tt33022412",
@@ -349,22 +382,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt41559856",
-    "type": "movie",
-    "name": "Yiya Murano: Halálos teázás",
-    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró nyomozása során próbálja feltárni azokat az eseményeket, amelyek odáig vezettek, hogy Yiya Murano meggyilkolta három barátját: a nő teára hívta, majd végül ciánnal mérgezte meg őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 49
+    "seeders": 166
   },
   {
     "id": "tt32536315",
@@ -382,22 +400,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 123
-  },
-  {
-    "id": "tt39314348",
-    "type": "movie",
-    "name": "David Attenborough: Gorillák között",
-    "poster": "https://image.tmdb.org/t/p/w500/5X6VyjG0YYMbJu94l6xEY2YQvss.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 113
+    "seeders": 134
   },
   {
     "id": "tt34381258",
@@ -414,7 +417,37 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 204
+    "seeders": 230
+  },
+  {
+    "id": "tt39314348",
+    "type": "movie",
+    "name": "David Attenborough: Gorillák között",
+    "poster": "https://image.tmdb.org/t/p/w500/5X6VyjG0YYMbJu94l6xEY2YQvss.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 121
+  },
+  {
+    "id": "tt41559856",
+    "type": "movie",
+    "name": "Yiya Murano: Halálos teázás",
+    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró nyomozása során próbálja feltárni azokat az eseményeket, amelyek odáig vezettek, hogy Yiya Murano meggyilkolta három barátját: a nő teára hívta, majd végül ciánnal mérgezte meg őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 49
   },
   {
     "id": "tt37530747",
@@ -429,7 +462,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 103
   },
   {
     "id": "tt40224422",
@@ -444,7 +477,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 60
+    "seeders": 65
   },
   {
     "id": "tt14403504",
@@ -460,36 +493,6 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 157
-  },
-  {
-    "id": "tt35518658",
-    "type": "movie",
-    "name": "Van, aki kopaszon szereti",
-    "poster": "https://image.tmdb.org/t/p/w500/s5SdVUKrCCyqg2yCcscudSw8jUE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A harmincéves Zacharie boldog szerelemben él Romyval. A lány azonban hirtelen elhagyja őt, amikor kiderül, hogy partnerét korai kopaszodás sújtja, és hat hónap múlva teljesen kopasz lesz. A férfi ezután letaglózva felkeresi nagybátyját, Josephet, aki a múltban ugyanezzel az örökletes problémával küzdött. Rengeteg jobbnál-jobb tanáccsal látja el kétségbeesett unokaöccsét, aki minden lehetőséget megragad, hogy végzetét elkerülje. Zacharie élete mostantól teljesen felfordul, és valószínűtlen találkozásokon át, sokk-kezelések és kétes stratégiák segítségével veszi fel a kesztyűt a sorsa ellen.",
-    "imdbRating": 4.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 88
-  },
-  {
-    "id": "tt27766440",
-    "type": "movie",
-    "name": "A tenger útja",
-    "poster": "https://image.tmdb.org/t/p/w500/yBtmFkjzPzd6KvNgoJwwsm1nyXL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 108
+    "seeders": 160
   }
 ]
