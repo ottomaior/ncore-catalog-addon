@@ -1,5 +1,54 @@
 [
   {
+    "id": "tt38508942",
+    "type": "movie",
+    "name": "Beléd estem",
+    "poster": "https://image.tmdb.org/t/p/w500/vysEQvmPwh2yJVLzOe21bZlECOy.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Eszter (Rujder Vivien) sikeres színésznő, aki egy kilencvenes években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint (Szabó Kimmel Tamás) mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 165
+  },
+  {
+    "id": "tt31828554",
+    "type": "movie",
+    "name": "Je m'appelle Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/itQJWqOMwboEOaMD5aNBRmUcZE9.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 63
+  },
+  {
+    "id": "tt38350059",
+    "type": "movie",
+    "name": "Buen Camino",
+    "poster": "https://image.tmdb.org/t/p/w500/3rlO9DkQQaKbRkAZVXcUED3DFrE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi",
+      "Kaland"
+    ],
+    "seeders": 79
+  },
+  {
     "id": "tt31728330",
     "type": "movie",
     "name": "Meg fognak ölni",
@@ -14,7 +63,7 @@
       "Akció",
       "Vígjáték"
     ],
-    "seeders": 647
+    "seeders": 799
   },
   {
     "id": "tt34910018",
@@ -30,7 +79,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 180
+    "seeders": 216
   },
   {
     "id": "tt16431404",
@@ -46,7 +95,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 856
+    "seeders": 1022
   },
   {
     "id": "tt0800175",
@@ -64,7 +113,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 418
+    "seeders": 477
   },
   {
     "id": "tt32801387",
@@ -82,7 +131,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 292
+    "seeders": 323
   },
   {
     "id": "tt34375721",
@@ -99,7 +148,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1179
+    "seeders": 1372
   },
   {
     "id": "tt32897959",
@@ -115,24 +164,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 74
-  },
-  {
-    "id": "tt23172090",
-    "type": "movie",
-    "name": "Porszörny",
-    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Fantasy",
-      "Akció",
-      "Horror"
-    ],
-    "seeders": 116
+    "seeders": 81
   },
   {
     "id": "tt27613895",
@@ -149,7 +181,24 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 581
+    "seeders": 656
+  },
+  {
+    "id": "tt23172090",
+    "type": "movie",
+    "name": "Porszörny",
+    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Fantasy",
+      "Akció",
+      "Horror"
+    ],
+    "seeders": 125
   },
   {
     "id": "tt22868010",
@@ -166,7 +215,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 450
+    "seeders": 518
   },
   {
     "id": "tt26735622",
@@ -183,7 +232,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 389
+    "seeders": 438
   },
   {
     "id": "tt39565775",
@@ -199,7 +248,38 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 71
+    "seeders": 76
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 212
+  },
+  {
+    "id": "tt32362890",
+    "type": "movie",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 306
   },
   {
     "id": "tt32194932",
@@ -216,38 +296,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 176
-  },
-  {
-    "id": "tt31414242",
-    "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 183
-  },
-  {
-    "id": "tt32362890",
-    "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 263
+    "seeders": 188
   },
   {
     "id": "tt37646592",
@@ -262,7 +311,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 78
+    "seeders": 88
   },
   {
     "id": "tt32141377",
@@ -279,7 +328,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 130
+    "seeders": 147
   },
   {
     "id": "tt30851137",
@@ -296,7 +345,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 132
+    "seeders": 142
   },
   {
     "id": "tt40891145",
@@ -313,7 +362,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 149
+    "seeders": 160
   },
   {
     "id": "tt1527793",
@@ -330,7 +379,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 227
+    "seeders": 250
+  },
+  {
+    "id": "tt37540875",
+    "type": "movie",
+    "name": "Szobatársak",
+    "poster": "https://image.tmdb.org/t/p/w500/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 135
   },
   {
     "id": "tt33022412",
@@ -348,22 +412,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 137
-  },
-  {
-    "id": "tt37540875",
-    "type": "movie",
-    "name": "Szobatársak",
-    "poster": "https://image.tmdb.org/t/p/w500/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 119
+    "seeders": 143
   },
   {
     "id": "tt37727776",
@@ -380,7 +429,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 55
+    "seeders": 58
   },
   {
     "id": "tt32536315",
@@ -398,7 +447,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 116
+    "seeders": 121
   },
   {
     "id": "tt34381258",
@@ -415,7 +464,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 156
+    "seeders": 184
   },
   {
     "id": "tt39314348",
@@ -430,7 +479,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 91
+    "seeders": 108
   },
   {
     "id": "tt37530747",
@@ -445,52 +494,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 79
-  },
-  {
-    "id": "tt41559856",
-    "type": "movie",
-    "name": "Yiya Murano: Halálos teázás",
-    "poster": "https://image.tmdb.org/t/p/w500/ma7BCNDfvndKg2mVRJqGJ83T9bp.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró nyomozása során próbálja feltárni azokat az eseményeket, amelyek odáig vezettek, hogy Yiya Murano meggyilkolta három barátját: a nő teára hívta, majd végül ciánnal mérgezte meg őket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 40
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 126
-  },
-  {
-    "id": "tt40224422",
-    "type": "movie",
-    "name": "Első kézből: A Michael Barisone-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/6K0qTMozHAzzYVsWQrXxmqCC5wY.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A sokkoló erőszakos cselekmény története, valamint az azt követő tárgyalásé, amely egy visszavonult olimpiai lovas és a New Jersey-i farmján felvett díjlovagló tanuló között történt.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 50
+    "seeders": 84
   }
 ]
