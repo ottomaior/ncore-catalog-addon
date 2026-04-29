@@ -12,33 +12,16 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 165
-  },
-  {
-    "id": "tt31828554",
-    "type": "movie",
-    "name": "Je m'appelle Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/itQJWqOMwboEOaMD5aNBRmUcZE9.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 63
+    "seeders": 287
   },
   {
     "id": "tt38350059",
     "type": "movie",
-    "name": "Buen Camino",
-    "poster": "https://image.tmdb.org/t/p/w500/3rlO9DkQQaKbRkAZVXcUED3DFrE.jpg",
+    "name": "A helyes úton",
+    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
     "imdbRating": 6.3,
     "releaseInfo": "2025",
     "genres": [
@@ -46,7 +29,24 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 79
+    "seeders": 141
+  },
+  {
+    "id": "tt31828554",
+    "type": "movie",
+    "name": "A nevem Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Agneta színes és vicces személyiség, de ez első ránézésre nem feltétlenül látszik. Most töltötte be 49. életévét, gyermekei már kirepültek a családi fészekből, munkája a közlekedési hivatalban stagnál, és Agneta úgy érzi, láthatatlan. Férje viszont megtalálta az élet értelmét a jéghideg fürdőkben és a kerékpározásban. A mindennapi élet unalmas kötelékeitől való menekülés érdekében Agneta hátrahagyja a biztonságos svéd életet, és au pairként kezd el dolgozni egy svéd fiú mellett Franciaországban. Amikor azonban kiderül, hogy a fiú, Einar, egy idős, excentrikus, demenciában szenvedő úriember, a félreértés kényelmetlenné válik. Ez egy zűrzavaros, életigenlő barátság kezdete, amely felforgatja mindazt, amit Agneta az életről és magáról hitt. Mert hogyan is éljük igazán egyetlen drága életünket?",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt31728330",
@@ -56,14 +56,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
       "Akció",
-      "Vígjáték"
+      "Vígjáték",
+      "Horror"
     ],
-    "seeders": 799
+    "seeders": 924
   },
   {
     "id": "tt34910018",
@@ -79,7 +79,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 216
+    "seeders": 250
   },
   {
     "id": "tt16431404",
@@ -95,7 +95,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1022
+    "seeders": 1139
   },
   {
     "id": "tt0800175",
@@ -113,7 +113,24 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 477
+    "seeders": 529
+  },
+  {
+    "id": "tt34375721",
+    "type": "movie",
+    "name": "Sárkányok Kabul felett",
+    "poster": "https://image.tmdb.org/t/p/w500/7yTt1lszzoecMLNBchbqal2Zi7R.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 1536
   },
   {
     "id": "tt32801387",
@@ -131,40 +148,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 323
-  },
-  {
-    "id": "tt34375721",
-    "type": "movie",
-    "name": "Sárkányok Kabul felett",
-    "poster": "https://image.tmdb.org/t/p/w500/7yTt1lszzoecMLNBchbqal2Zi7R.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 1372
-  },
-  {
-    "id": "tt32897959",
-    "type": "movie",
-    "name": "Üvöltő szelek",
-    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 81
+    "seeders": 353
   },
   {
     "id": "tt27613895",
@@ -181,24 +165,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 656
-  },
-  {
-    "id": "tt23172090",
-    "type": "movie",
-    "name": "Porszörny",
-    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Fantasy",
-      "Akció",
-      "Horror"
-    ],
-    "seeders": 125
+    "seeders": 720
   },
   {
     "id": "tt22868010",
@@ -215,7 +182,40 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 518
+    "seeders": 619
+  },
+  {
+    "id": "tt32897959",
+    "type": "movie",
+    "name": "Üvöltő szelek",
+    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 84
+  },
+  {
+    "id": "tt23172090",
+    "type": "movie",
+    "name": "Porszörny",
+    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Fantasy",
+      "Akció",
+      "Horror"
+    ],
+    "seeders": 123
   },
   {
     "id": "tt26735622",
@@ -232,7 +232,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 438
+    "seeders": 494
   },
   {
     "id": "tt39565775",
@@ -248,7 +248,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 76
+    "seeders": 85
   },
   {
     "id": "tt31414242",
@@ -263,7 +263,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 212
+    "seeders": 246
   },
   {
     "id": "tt32362890",
@@ -279,7 +279,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 306
+    "seeders": 343
   },
   {
     "id": "tt32194932",
@@ -296,22 +296,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 188
-  },
-  {
-    "id": "tt37646592",
-    "type": "movie",
-    "name": "Pápamobil",
-    "poster": "https://image.tmdb.org/t/p/w500/dtGpaRQmxUVI88Jzun3Z2HNHbXA.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az új pápát nemrég nevezték ki, és épp egy latin-amerikai körútra készül, amikor rádöbben, hogy a Vatikán anyagi gondokkal küzd. Ekkor egy gazdag mexikói nő felajánlja a segítségét. Az utazás költségeinek fedezése fejében azt kéri, hogy a pápa vegyen részt a tiszteletére rendezett eseményen Ciudad Juárezben, Mexikó bűnözés-fővárosában. A \"védőangyalról\" azonban kiderül, hogy drogcsempész, és amikor megtudja, hogy a pápa helyett egy hasonmást küldtek, káosz támad.",
-    "imdbRating": 3.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 88
+    "seeders": 216
   },
   {
     "id": "tt32141377",
@@ -328,7 +313,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 147
+    "seeders": 168
   },
   {
     "id": "tt30851137",
@@ -345,7 +330,22 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 142
+    "seeders": 163
+  },
+  {
+    "id": "tt37646592",
+    "type": "movie",
+    "name": "Pápamobil",
+    "poster": "https://image.tmdb.org/t/p/w500/dtGpaRQmxUVI88Jzun3Z2HNHbXA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az új pápát nemrég nevezték ki, és épp egy latin-amerikai körútra készül, amikor rádöbben, hogy a Vatikán anyagi gondokkal küzd. Ekkor egy gazdag mexikói nő felajánlja a segítségét. Az utazás költségeinek fedezése fejében azt kéri, hogy a pápa vegyen részt a tiszteletére rendezett eseményen Ciudad Juárezben, Mexikó bűnözés-fővárosában. A \"védőangyalról\" azonban kiderül, hogy drogcsempész, és amikor megtudja, hogy a pápa helyett egy hasonmást küldtek, káosz támad.",
+    "imdbRating": 3.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 93
   },
   {
     "id": "tt40891145",
@@ -362,7 +362,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 160
+    "seeders": 178
   },
   {
     "id": "tt1527793",
@@ -379,7 +379,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 250
+    "seeders": 269
   },
   {
     "id": "tt37540875",
@@ -389,12 +389,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 135
+    "seeders": 150
   },
   {
     "id": "tt33022412",
@@ -412,24 +412,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 143
-  },
-  {
-    "id": "tt37727776",
-    "type": "movie",
-    "name": "A Lechner örökség",
-    "poster": "https://image.tmdb.org/t/p/w500/p1hPY6yosMLuv4neXI855Ii31zA.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Lechner család története a téglagyártásban, városfejlesztésben jeleskedő elődökön keresztül vezet el Lechner Ödön szecessziós mesterműveihez, mely művek öröksége a mai napig inspirálja és formálja az építészetről való gondolkodást. Filmünk végigköveti Lechner Ödön örökségét és hatását napjainkig. Az utódok, követők és azon művészek, akiket inspirált, bemutatják, miképp folytatják és interpretálják az ő örökségét a jelen művészeti világában. Az építészeti stílusok, az építészeti tervek látványos bemutatása – különösen azok a lenyűgöző és ikonikus épületek, amelyeken Lechner Ödön dolgozott – szemet gyönyörködtető és inspiráló vizuális élményt ígérnek a nézőnek.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 58
+    "seeders": 161
   },
   {
     "id": "tt32536315",
@@ -447,7 +430,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 121
+    "seeders": 136
   },
   {
     "id": "tt34381258",
@@ -464,7 +447,24 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 184
+    "seeders": 219
+  },
+  {
+    "id": "tt37727776",
+    "type": "movie",
+    "name": "A Lechner örökség",
+    "poster": "https://image.tmdb.org/t/p/w500/p1hPY6yosMLuv4neXI855Ii31zA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Lechner család története a téglagyártásban, városfejlesztésben jeleskedő elődökön keresztül vezet el Lechner Ödön szecessziós mesterműveihez, mely művek öröksége a mai napig inspirálja és formálja az építészetről való gondolkodást. Filmünk végigköveti Lechner Ödön örökségét és hatását napjainkig. Az utódok, követők és azon művészek, akiket inspirált, bemutatják, miképp folytatják és interpretálják az ő örökségét a jelen művészeti világában. Az építészeti stílusok, az építészeti tervek látványos bemutatása – különösen azok a lenyűgöző és ikonikus épületek, amelyeken Lechner Ödön dolgozott – szemet gyönyörködtető és inspiráló vizuális élményt ígérnek a nézőnek.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 62
   },
   {
     "id": "tt39314348",
@@ -479,7 +479,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 108
+    "seeders": 120
   },
   {
     "id": "tt37530747",
@@ -494,6 +494,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 84
+    "seeders": 91
   }
 ]
