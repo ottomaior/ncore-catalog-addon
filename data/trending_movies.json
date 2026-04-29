@@ -12,7 +12,24 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 287
+    "seeders": 448
+  },
+  {
+    "id": "tt31728330",
+    "type": "movie",
+    "name": "Meg fognak ölni",
+    "poster": "https://image.tmdb.org/t/p/w500/oYpmoqz48PoouQmApxxMLQ7dXKA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Horror"
+    ],
+    "seeders": 1092
   },
   {
     "id": "tt38350059",
@@ -29,7 +46,7 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 141
+    "seeders": 181
   },
   {
     "id": "tt31828554",
@@ -46,40 +63,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 114
-  },
-  {
-    "id": "tt31728330",
-    "type": "movie",
-    "name": "Meg fognak ölni",
-    "poster": "https://image.tmdb.org/t/p/w500/oYpmoqz48PoouQmApxxMLQ7dXKA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Horror"
-    ],
-    "seeders": 924
-  },
-  {
-    "id": "tt34910018",
-    "type": "movie",
-    "name": "Lopakodók: A végső ellenállás",
-    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 250
+    "seeders": 148
   },
   {
     "id": "tt16431404",
@@ -95,7 +79,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1139
+    "seeders": 1274
+  },
+  {
+    "id": "tt34910018",
+    "type": "movie",
+    "name": "Lopakodók: A végső ellenállás",
+    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 272
   },
   {
     "id": "tt0800175",
@@ -113,7 +113,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 529
+    "seeders": 539
   },
   {
     "id": "tt34375721",
@@ -130,7 +130,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1536
+    "seeders": 1677
   },
   {
     "id": "tt32801387",
@@ -148,7 +148,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 353
+    "seeders": 364
   },
   {
     "id": "tt27613895",
@@ -165,7 +165,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 720
+    "seeders": 765
   },
   {
     "id": "tt22868010",
@@ -182,23 +182,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 619
-  },
-  {
-    "id": "tt32897959",
-    "type": "movie",
-    "name": "Üvöltő szelek",
-    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 84
+    "seeders": 635
   },
   {
     "id": "tt23172090",
@@ -215,7 +199,23 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 123
+    "seeders": 133
+  },
+  {
+    "id": "tt32897959",
+    "type": "movie",
+    "name": "Üvöltő szelek",
+    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 89
   },
   {
     "id": "tt26735622",
@@ -232,7 +232,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 494
+    "seeders": 536
   },
   {
     "id": "tt39565775",
@@ -263,7 +263,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 246
+    "seeders": 262
   },
   {
     "id": "tt32362890",
@@ -279,24 +279,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 343
-  },
-  {
-    "id": "tt32194932",
-    "type": "movie",
-    "name": "A végső rítus",
-    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 216
+    "seeders": 370
   },
   {
     "id": "tt32141377",
@@ -313,24 +296,24 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 168
+    "seeders": 177
   },
   {
-    "id": "tt30851137",
+    "id": "tt32194932",
     "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
+    "name": "A végső rítus",
+    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
     "genres": [
-      "Sci-Fi",
       "Horror",
-      "Fantasy"
+      "Dráma",
+      "Thriller"
     ],
-    "seeders": 163
+    "seeders": 215
   },
   {
     "id": "tt37646592",
@@ -345,7 +328,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 93
+    "seeders": 99
   },
   {
     "id": "tt40891145",
@@ -362,7 +345,24 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 178
+    "seeders": 186
+  },
+  {
+    "id": "tt30851137",
+    "type": "movie",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 160
   },
   {
     "id": "tt1527793",
@@ -379,7 +379,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 269
+    "seeders": 280
   },
   {
     "id": "tt37540875",
@@ -394,7 +394,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 150
+    "seeders": 164
   },
   {
     "id": "tt33022412",
@@ -412,7 +412,24 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 161
+    "seeders": 171
+  },
+  {
+    "id": "tt37727776",
+    "type": "movie",
+    "name": "A Lechner örökség",
+    "poster": "https://image.tmdb.org/t/p/w500/p1hPY6yosMLuv4neXI855Ii31zA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Lechner család története a téglagyártásban, városfejlesztésben jeleskedő elődökön keresztül vezet el Lechner Ödön szecessziós mesterműveihez, mely művek öröksége a mai napig inspirálja és formálja az építészetről való gondolkodást. Filmünk végigköveti Lechner Ödön örökségét és hatását napjainkig. Az utódok, követők és azon művészek, akiket inspirált, bemutatják, miképp folytatják és interpretálják az ő örökségét a jelen művészeti világában. Az építészeti stílusok, az építészeti tervek látványos bemutatása – különösen azok a lenyűgöző és ikonikus épületek, amelyeken Lechner Ödön dolgozott – szemet gyönyörködtető és inspiráló vizuális élményt ígérnek a nézőnek.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt32536315",
@@ -430,7 +447,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 136
+    "seeders": 135
   },
   {
     "id": "tt34381258",
@@ -447,24 +464,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 219
-  },
-  {
-    "id": "tt37727776",
-    "type": "movie",
-    "name": "A Lechner örökség",
-    "poster": "https://image.tmdb.org/t/p/w500/p1hPY6yosMLuv4neXI855Ii31zA.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Lechner család története a téglagyártásban, városfejlesztésben jeleskedő elődökön keresztül vezet el Lechner Ödön szecessziós mesterműveihez, mely művek öröksége a mai napig inspirálja és formálja az építészetről való gondolkodást. Filmünk végigköveti Lechner Ödön örökségét és hatását napjainkig. Az utódok, követők és azon művészek, akiket inspirált, bemutatják, miképp folytatják és interpretálják az ő örökségét a jelen művészeti világában. Az építészeti stílusok, az építészeti tervek látványos bemutatása – különösen azok a lenyűgöző és ikonikus épületek, amelyeken Lechner Ödön dolgozott – szemet gyönyörködtető és inspiráló vizuális élményt ígérnek a nézőnek.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 62
+    "seeders": 200
   },
   {
     "id": "tt39314348",
@@ -479,7 +479,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 120
+    "seeders": 116
   },
   {
     "id": "tt37530747",
@@ -494,6 +494,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 91
+    "seeders": 96
   }
 ]
