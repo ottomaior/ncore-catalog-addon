@@ -12,7 +12,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 448
+    "seeders": 363
   },
   {
     "id": "tt31728330",
@@ -29,7 +29,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 1092
+    "seeders": 707
   },
   {
     "id": "tt38350059",
@@ -39,14 +39,14 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
-    "imdbRating": 6.3,
+    "imdbRating": 6.4,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték",
       "Családi",
       "Kaland"
     ],
-    "seeders": 181
+    "seeders": 143
   },
   {
     "id": "tt31828554",
@@ -55,15 +55,15 @@
     "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Agneta színes és vicces személyiség, de ez első ránézésre nem feltétlenül látszik. Most töltötte be 49. életévét, gyermekei már kirepültek a családi fészekből, munkája a közlekedési hivatalban stagnál, és Agneta úgy érzi, láthatatlan. Férje viszont megtalálta az élet értelmét a jéghideg fürdőkben és a kerékpározásban. A mindennapi élet unalmas kötelékeitől való menekülés érdekében Agneta hátrahagyja a biztonságos svéd életet, és au pairként kezd el dolgozni egy svéd fiú mellett Franciaországban. Amikor azonban kiderül, hogy a fiú, Einar, egy idős, excentrikus, demenciában szenvedő úriember, a félreértés kényelmetlenné válik. Ez egy zűrzavaros, életigenlő barátság kezdete, amely felforgatja mindazt, amit Agneta az életről és magáról hitt. Mert hogyan is éljük igazán egyetlen drága életünket?",
-    "imdbRating": null,
+    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 148
+    "seeders": 126
   },
   {
     "id": "tt16431404",
@@ -79,7 +79,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1274
+    "seeders": 855
   },
   {
     "id": "tt34910018",
@@ -89,13 +89,13 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.8,
     "releaseInfo": "2025",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 272
+    "seeders": 219
   },
   {
     "id": "tt0800175",
@@ -113,7 +113,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 539
+    "seeders": 390
   },
   {
     "id": "tt34375721",
@@ -130,7 +130,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1677
+    "seeders": 1156
   },
   {
     "id": "tt32801387",
@@ -148,7 +148,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 364
+    "seeders": 264
   },
   {
     "id": "tt27613895",
@@ -165,24 +165,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 765
-  },
-  {
-    "id": "tt22868010",
-    "type": "movie",
-    "name": "Silent Hill – Visszatérés",
-    "poster": "https://image.tmdb.org/t/p/w500/l2WQ7XWn3dDjwgpRQ0gS0gblutB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "James megtört, miután véget ért kapcsolata élete szerelmével, Maryvel. Egy rejtélyes levél a lánytól azonban visszahívja őt Silent Hillbe, ahol egy ismeretlen gonosz által átalakított, egykor felismerhető várost talál. Miközben James kétségbeesetten keresi Maryt, félelmetes lényekkel találkozik, és elkezdi megfejteni a várossal történt rejtélyt. Ám ahogy egyre mélyebbre ereszkedik a sötétségbe, a felfedezett titkok egy szörnyű igazsághoz vezetnek, és James azon kapja magát, hogy próbálja megmenteni egyetlen igaz szerelmét.",
-    "imdbRating": 5.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Rejtély",
-      "Dráma",
-      "Horror"
-    ],
-    "seeders": 635
+    "seeders": 581
   },
   {
     "id": "tt23172090",
@@ -199,7 +182,24 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 133
+    "seeders": 114
+  },
+  {
+    "id": "tt22868010",
+    "type": "movie",
+    "name": "Silent Hill – Visszatérés",
+    "poster": "https://image.tmdb.org/t/p/w500/l2WQ7XWn3dDjwgpRQ0gS0gblutB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "James megtört, miután véget ért kapcsolata élete szerelmével, Maryvel. Egy rejtélyes levél a lánytól azonban visszahívja őt Silent Hillbe, ahol egy ismeretlen gonosz által átalakított, egykor felismerhető várost talál. Miközben James kétségbeesetten keresi Maryt, félelmetes lényekkel találkozik, és elkezdi megfejteni a várossal történt rejtélyt. Ám ahogy egyre mélyebbre ereszkedik a sötétségbe, a felfedezett titkok egy szörnyű igazsághoz vezetnek, és James azon kapja magát, hogy próbálja megmenteni egyetlen igaz szerelmét.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Rejtély",
+      "Dráma",
+      "Horror"
+    ],
+    "seeders": 431
   },
   {
     "id": "tt32897959",
@@ -215,7 +215,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 89
+    "seeders": 74
   },
   {
     "id": "tt26735622",
@@ -232,7 +232,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 536
+    "seeders": 402
   },
   {
     "id": "tt39565775",
@@ -248,7 +248,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 85
+    "seeders": 66
   },
   {
     "id": "tt31414242",
@@ -263,7 +263,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 262
+    "seeders": 181
   },
   {
     "id": "tt32362890",
@@ -279,24 +279,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 370
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 177
+    "seeders": 251
   },
   {
     "id": "tt32194932",
@@ -313,7 +296,41 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 215
+    "seeders": 162
+  },
+  {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 127
+  },
+  {
+    "id": "tt30851137",
+    "type": "movie",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 129
   },
   {
     "id": "tt37646592",
@@ -328,7 +345,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 99
+    "seeders": 76
   },
   {
     "id": "tt40891145",
@@ -343,26 +360,10 @@
     "genres": [
       "Thriller",
       "Bűnügyi",
-      "Dráma"
+      "Dráma",
+      "TV film"
     ],
-    "seeders": 186
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 160
+    "seeders": 143
   },
   {
     "id": "tt1527793",
@@ -379,22 +380,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 280
-  },
-  {
-    "id": "tt37540875",
-    "type": "movie",
-    "name": "Szobatársak",
-    "poster": "https://image.tmdb.org/t/p/w500/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 164
+    "seeders": 222
   },
   {
     "id": "tt33022412",
@@ -412,24 +398,22 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 171
+    "seeders": 141
   },
   {
-    "id": "tt37727776",
+    "id": "tt37540875",
     "type": "movie",
-    "name": "A Lechner örökség",
-    "poster": "https://image.tmdb.org/t/p/w500/p1hPY6yosMLuv4neXI855Ii31zA.jpg",
+    "name": "Szobatársak",
+    "poster": "https://image.tmdb.org/t/p/w500/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A Lechner család története a téglagyártásban, városfejlesztésben jeleskedő elődökön keresztül vezet el Lechner Ödön szecessziós mesterműveihez, mely művek öröksége a mai napig inspirálja és formálja az építészetről való gondolkodást. Filmünk végigköveti Lechner Ödön örökségét és hatását napjainkig. Az utódok, követők és azon művészek, akiket inspirált, bemutatják, miképp folytatják és interpretálják az ő örökségét a jelen művészeti világában. Az építészeti stílusok, az építészeti tervek látványos bemutatása – különösen azok a lenyűgöző és ikonikus épületek, amelyeken Lechner Ödön dolgozott – szemet gyönyörködtető és inspiráló vizuális élményt ígérnek a nézőnek.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Devon, a félénk elsőéves megkéri Celeste-et, a menő csajt, hogy legyen a szobatársa, de a kibontakozó barátságuk hamar passzív-agresszív háborúskodásba fordul.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
     "genres": [
-      "Dokumentum",
-      "Történelmi",
-      "Dráma"
+      "Vígjáték"
     ],
-    "seeders": 67
+    "seeders": 119
   },
   {
     "id": "tt32536315",
@@ -447,7 +431,39 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 135
+    "seeders": 117
+  },
+  {
+    "id": "tt37727776",
+    "type": "movie",
+    "name": "A Lechner örökség",
+    "poster": "https://image.tmdb.org/t/p/w500/p1hPY6yosMLuv4neXI855Ii31zA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Lechner család története a téglagyártásban, városfejlesztésben jeleskedő elődökön keresztül vezet el Lechner Ödön szecessziós mesterműveihez, mely művek öröksége a mai napig inspirálja és formálja az építészetről való gondolkodást. Filmünk végigköveti Lechner Ödön örökségét és hatását napjainkig. Az utódok, követők és azon művészek, akiket inspirált, bemutatják, miképp folytatják és interpretálják az ő örökségét a jelen művészeti világában. Az építészeti stílusok, az építészeti tervek látványos bemutatása – különösen azok a lenyűgöző és ikonikus épületek, amelyeken Lechner Ödön dolgozott – szemet gyönyörködtető és inspiráló vizuális élményt ígérnek a nézőnek.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 53
+  },
+  {
+    "id": "tt39314348",
+    "type": "movie",
+    "name": "David Attenborough: Gorillák között",
+    "poster": "https://image.tmdb.org/t/p/w500/2gEOMu9Vo9DtkqzYF6s27ArjZDj.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 91
   },
   {
     "id": "tt34381258",
@@ -464,22 +480,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 200
-  },
-  {
-    "id": "tt39314348",
-    "type": "movie",
-    "name": "David Attenborough: Gorillák között",
-    "poster": "https://image.tmdb.org/t/p/w500/2gEOMu9Vo9DtkqzYF6s27ArjZDj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Sir David Attenborough, a veterán természettudós elmeséli egy lenyűgöző gorillacsoport történetét a 70-es évekbeli első találkozásuktól napjainkig.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 116
+    "seeders": 149
   },
   {
     "id": "tt37530747",
@@ -494,6 +495,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 96
+    "seeders": 75
   }
 ]
