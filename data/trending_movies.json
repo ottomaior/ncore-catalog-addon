@@ -14,7 +14,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 141
+    "seeders": 365
   },
   {
     "id": "tt40381358",
@@ -29,7 +29,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 99
+    "seeders": 213
   },
   {
     "id": "tt6374142",
@@ -45,7 +45,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 214
+    "seeders": 282
   },
   {
     "id": "tt33714084",
@@ -61,7 +61,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 70
+    "seeders": 128
   },
   {
     "id": "tt38508942",
@@ -76,23 +76,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 483
-  },
-  {
-    "id": "tt28682323",
-    "type": "movie",
-    "name": "Hívatlanok - Utolsó fejezet",
-    "poster": "https://image.tmdb.org/t/p/w500/yPHwX78mcwJw3I6YOJ9qh2wQBFr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hívatlanok trilógia fináléjában Maya (Madelaine Petsch) utoljára néz szembe a maszkos gyilkosokkal, akik kegyetlen módon megölték a szerelmét, és rá is kitartóan vadásznak. A brutális, végső leszámolásban nemcsak a túlélés a cél, a bosszú is hajtja a hősnőt, hogy elégtételt vegyen a szeretett férfiért és visszakapja az élete feletti irányítást.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 146
+    "seeders": 621
   },
   {
     "id": "tt31728330",
@@ -109,7 +93,23 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 759
+    "seeders": 1025
+  },
+  {
+    "id": "tt28682323",
+    "type": "movie",
+    "name": "Hívatlanok - Utolsó fejezet",
+    "poster": "https://image.tmdb.org/t/p/w500/yPHwX78mcwJw3I6YOJ9qh2wQBFr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hívatlanok trilógia fináléjában Maya (Madelaine Petsch) utoljára néz szembe a maszkos gyilkosokkal, akik kegyetlen módon megölték a szerelmét, és rá is kitartóan vadásznak. A brutális, végső leszámolásban nemcsak a túlélés a cél, a bosszú is hajtja a hősnőt, hogy elégtételt vegyen a szeretett férfiért és visszakapja az élete feletti irányítást.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 191
   },
   {
     "id": "tt16431404",
@@ -125,7 +125,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 902
+    "seeders": 1173
+  },
+  {
+    "id": "tt34910018",
+    "type": "movie",
+    "name": "Lopakodók: A végső ellenállás",
+    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 286
   },
   {
     "id": "tt38350059",
@@ -142,40 +158,7 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 174
-  },
-  {
-    "id": "tt34910018",
-    "type": "movie",
-    "name": "Lopakodók: A végső ellenállás",
-    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 237
-  },
-  {
-    "id": "tt31828554",
-    "type": "movie",
-    "name": "A nevem Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 148
+    "seeders": 197
   },
   {
     "id": "tt0800175",
@@ -193,7 +176,24 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 402
+    "seeders": 504
+  },
+  {
+    "id": "tt31828554",
+    "type": "movie",
+    "name": "A nevem Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 165
   },
   {
     "id": "tt34375721",
@@ -210,7 +210,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 1199
+    "seeders": 1493
   },
   {
     "id": "tt32801387",
@@ -228,7 +228,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 276
+    "seeders": 339
   },
   {
     "id": "tt27613895",
@@ -245,7 +245,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 574
+    "seeders": 709
   },
   {
     "id": "tt22868010",
@@ -262,7 +262,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 450
+    "seeders": 580
   },
   {
     "id": "tt26735622",
@@ -279,7 +279,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 403
+    "seeders": 477
   },
   {
     "id": "tt23172090",
@@ -296,7 +296,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 109
+    "seeders": 129
   },
   {
     "id": "tt32897959",
@@ -312,7 +312,38 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 81
+    "seeders": 88
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 254
+  },
+  {
+    "id": "tt32362890",
+    "type": "movie",
+    "name": "Haragos természet",
+    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 335
   },
   {
     "id": "tt32194932",
@@ -329,7 +360,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 172
+    "seeders": 216
   },
   {
     "id": "tt32141377",
@@ -346,38 +377,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 143
-  },
-  {
-    "id": "tt32362890",
-    "type": "movie",
-    "name": "Haragos természet",
-    "poster": "https://image.tmdb.org/t/p/w500/ntf7iLKtl3Sg7ea3K8PEZJfypdz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Henry nevű trópusi vihar a part felé haladva hurrikánná erősödik, így éri el Annieville városát Dél-Kaliforniában. A felszólításnak eleget téve a lakók többsége elhagyja a kisvárost, ám néhányan mégis maradnak. Lisa ugyan bármikor megszülhet, de túl későn eszmél és mire eljön a munkahelyéről, az utakat lezárják. Az édesanyját gyászoló Dakota  elindul otthonról, hogy biztonságos helyet keressen magának, de pánikba esik és inkább visszafordul. A három testvér, Ron, Dee és Will ugyancsak maradnak, mert nevelőapjuk szerint csupán egy kis eső várható, és az emberek feleslegesen pánikolnak. A tengerbiológus Dale kollégájával és egy televíziós stábbal száll motorcsónakba, hogy unokahúga, Dakota segítségére siessen, de megszűnik köztük a kommunikáció. Mikor az árhullám átszakítja a védműveket, elönti a víz a kisvárost és a házak között bikacápák jelennek meg zsákmányra vadászva.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 252
-  },
-  {
-    "id": "tt31414242",
-    "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 176
+    "seeders": 170
   },
   {
     "id": "tt39565775",
@@ -393,7 +393,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 63
+    "seeders": 80
   },
   {
     "id": "tt30851137",
@@ -410,7 +410,22 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 136
+    "seeders": 153
+  },
+  {
+    "id": "tt37646592",
+    "type": "movie",
+    "name": "Pápamobil",
+    "poster": "https://image.tmdb.org/t/p/w500/dtGpaRQmxUVI88Jzun3Z2HNHbXA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az új pápát nemrég nevezték ki, és épp egy latin-amerikai körútra készül, amikor rádöbben, hogy a Vatikán anyagi gondokkal küzd. Ekkor egy gazdag mexikói nő felajánlja a segítségét. Az utazás költségeinek fedezése fejében azt kéri, hogy a pápa vegyen részt a tiszteletére rendezett eseményen Ciudad Juárezben, Mexikó bűnözés-fővárosában. A \"védőangyalról\" azonban kiderül, hogy drogcsempész, és amikor megtudja, hogy a pápa helyett egy hasonmást küldtek, káosz támad.",
+    "imdbRating": 3.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 91
   },
   {
     "id": "tt40891145",
@@ -428,22 +443,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 141
-  },
-  {
-    "id": "tt37646592",
-    "type": "movie",
-    "name": "Pápamobil",
-    "poster": "https://image.tmdb.org/t/p/w500/dtGpaRQmxUVI88Jzun3Z2HNHbXA.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az új pápát nemrég nevezték ki, és épp egy latin-amerikai körútra készül, amikor rádöbben, hogy a Vatikán anyagi gondokkal küzd. Ekkor egy gazdag mexikói nő felajánlja a segítségét. Az utazás költségeinek fedezése fejében azt kéri, hogy a pápa vegyen részt a tiszteletére rendezett eseményen Ciudad Juárezben, Mexikó bűnözés-fővárosában. A \"védőangyalról\" azonban kiderül, hogy drogcsempész, és amikor megtudja, hogy a pápa helyett egy hasonmást küldtek, káosz támad.",
-    "imdbRating": 3.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 73
+    "seeders": 159
   },
   {
     "id": "tt33022412",
@@ -461,7 +461,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 142
+    "seeders": 158
   },
   {
     "id": "tt37540875",
@@ -476,7 +476,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 116
+    "seeders": 140
   },
   {
     "id": "tt32536315",
@@ -494,6 +494,6 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 112
+    "seeders": 126
   }
 ]
