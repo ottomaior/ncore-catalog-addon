@@ -14,7 +14,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 517
+    "seeders": 666
   },
   {
     "id": "tt29552248",
@@ -33,7 +33,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 188
+    "seeders": 250
   },
   {
     "id": "tt21442114",
@@ -50,7 +50,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 176
+    "seeders": 235
   },
   {
     "id": "tt40381358",
@@ -65,54 +65,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 255
-  },
-  {
-    "id": "tt35286242",
-    "type": "movie",
-    "name": "Die Schule der magischen Tiere 4",
-    "poster": "https://image.tmdb.org/t/p/w500/2Pe4IsQV725dl5pj1j0VuixMROp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Fantasy"
-    ],
-    "seeders": 72
-  },
-  {
-    "id": "tt34482468",
-    "type": "movie",
-    "name": "Kincsvadászok Párizsban",
-    "poster": "https://image.tmdb.org/t/p/w500/9mfnxGRTS8TMjhhoKMTM1RlVAQQ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy különc régész váratlan útra indul, hogy lányával és unokájával együtt felkutassa Hufu fáraó elveszett kincsét.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Vígjáték"
-    ],
-    "seeders": 111
-  },
-  {
-    "id": "tt38508942",
-    "type": "movie",
-    "name": "Beléd estem",
-    "poster": "https://image.tmdb.org/t/p/w500/vysEQvmPwh2yJVLzOe21bZlECOy.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Eszter (Rujder Vivien) sikeres színésznő, aki egy kilencvenes években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint (Szabó Kimmel Tamás) mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 506
+    "seeders": 329
   },
   {
     "id": "tt31728330",
@@ -129,23 +82,22 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 764
+    "seeders": 1024
   },
   {
-    "id": "tt33714084",
+    "id": "tt38508942",
     "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "name": "Beléd estem",
+    "poster": "https://image.tmdb.org/t/p/w500/vysEQvmPwh2yJVLzOe21bZlECOy.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
-    "imdbRating": 7.2,
+    "description": "Eszter (Rujder Vivien) sikeres színésznő, aki egy kilencvenes években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint (Szabó Kimmel Tamás) mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
-      "Dráma"
+      "Vígjáték"
     ],
-    "seeders": 193
+    "seeders": 620
   },
   {
     "id": "tt6374142",
@@ -161,23 +113,55 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 246
+    "seeders": 299
   },
   {
-    "id": "tt31116965",
+    "id": "tt35286242",
     "type": "movie",
-    "name": "Kedves kisasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/wPMb6ECpefJXtXRV0C5Qx45HprA.jpg",
+    "name": "Die Schule der magischen Tiere 4",
+    "poster": "https://image.tmdb.org/t/p/w500/2Pe4IsQV725dl5pj1j0VuixMROp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Fantasy"
+    ],
+    "seeders": 81
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Az 1971-es film remake-je. A romantikus dráma, amely az interszexualitás témáját járta körül, és Franco tábornok ultrakonzervatív Spanyolországában azon kevés alkotások egyikének számított, amely érintette a szexuális orientáció kérdését.",
-    "imdbRating": 4.8,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Romantikus"
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 77
+    "seeders": 208
+  },
+  {
+    "id": "tt34482468",
+    "type": "movie",
+    "name": "Kincsvadászok Párizsban",
+    "poster": "https://image.tmdb.org/t/p/w500/9mfnxGRTS8TMjhhoKMTM1RlVAQQ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy különc régész váratlan útra indul, hogy lányával és unokájával együtt felkutassa Hufu fáraó elveszett kincsét.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 112
   },
   {
     "id": "tt16431404",
@@ -193,23 +177,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 861
-  },
-  {
-    "id": "tt40660080",
-    "type": "movie",
-    "name": "Családi kapcsolatok",
-    "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "José, a tökéletes vő emlékezetes bajusszal, csak előrébb akart jutni, de minden megállapodásnak ára van. Az apósa váratlanul szabotálja terveit.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 69
+    "seeders": 1148
   },
   {
     "id": "tt28682323",
@@ -225,7 +193,39 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 173
+    "seeders": 200
+  },
+  {
+    "id": "tt31116965",
+    "type": "movie",
+    "name": "Kedves kisasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/wPMb6ECpefJXtXRV0C5Qx45HprA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1971-es film remake-je. A romantikus dráma, amely az interszexualitás témáját járta körül, és Franco tábornok ultrakonzervatív Spanyolországában azon kevés alkotások egyikének számított, amely érintette a szexuális orientáció kérdését.",
+    "imdbRating": 4.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 91
+  },
+  {
+    "id": "tt40660080",
+    "type": "movie",
+    "name": "Családi kapcsolatok",
+    "poster": "https://image.tmdb.org/t/p/w500/wA7hl2brcEnMxinmGia4nFRTTic.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "José, a tökéletes vő emlékezetes bajusszal, csak előrébb akart jutni, de minden megállapodásnak ára van. Az apósa váratlanul szabotálja terveit.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 77
   },
   {
     "id": "tt34910018",
@@ -241,41 +241,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 224
-  },
-  {
-    "id": "tt38350059",
-    "type": "movie",
-    "name": "A helyes úton",
-    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi",
-      "Kaland"
-    ],
-    "seeders": 175
-  },
-  {
-    "id": "tt31828554",
-    "type": "movie",
-    "name": "A nevem Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 158
+    "seeders": 277
   },
   {
     "id": "tt0800175",
@@ -293,7 +259,41 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 371
+    "seeders": 478
+  },
+  {
+    "id": "tt38350059",
+    "type": "movie",
+    "name": "A helyes úton",
+    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi",
+      "Kaland"
+    ],
+    "seeders": 199
+  },
+  {
+    "id": "tt31828554",
+    "type": "movie",
+    "name": "A nevem Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 176
   },
   {
     "id": "tt32801387",
@@ -311,24 +311,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 255
-  },
-  {
-    "id": "tt27613895",
-    "type": "movie",
-    "name": "GOAT - Will, a bajnok",
-    "poster": "https://image.tmdb.org/t/p/w500/97osc8Z8xBkgcG5iNXeXznLrLCe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bömball a világ legveszélyesebb sportja. Nagyvadak játsszák egy nagyon veszélyes pályán. És Will, a kis kecske százszor hallotta már életében, hogy hol van a kis állatok helye: a pálya szélén, vagy legfeljebb a lelátón. Ő azonban nem hajlandó elfogadni a prózai valóságot. A bömball legjobbjai közé akar kerülni. És mindent megér neki, hogy megvalósítsa az álmát.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 553
+    "seeders": 317
   },
   {
     "id": "tt22868010",
@@ -345,7 +328,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 422
+    "seeders": 546
   },
   {
     "id": "tt26735622",
@@ -362,7 +345,24 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 393
+    "seeders": 474
+  },
+  {
+    "id": "tt27613895",
+    "type": "movie",
+    "name": "GOAT - Will, a bajnok",
+    "poster": "https://image.tmdb.org/t/p/w500/97osc8Z8xBkgcG5iNXeXznLrLCe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bömball a világ legveszélyesebb sportja. Nagyvadak játsszák egy nagyon veszélyes pályán. És Will, a kis kecske százszor hallotta már életében, hogy hol van a kis állatok helye: a pálya szélén, vagy legfeljebb a lelátón. Ő azonban nem hajlandó elfogadni a prózai valóságot. A bömball legjobbjai közé akar kerülni. És mindent megér neki, hogy megvalósítsa az álmát.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 159
   },
   {
     "id": "tt23172090",
@@ -379,7 +379,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 99
+    "seeders": 115
   },
   {
     "id": "tt32897959",
@@ -395,7 +395,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 71
+    "seeders": 78
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 223
   },
   {
     "id": "tt39565775",
@@ -411,24 +426,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 72
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 134
+    "seeders": 88
   },
   {
     "id": "tt32194932",
@@ -445,7 +443,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 154
+    "seeders": 191
+  },
+  {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 158
   },
   {
     "id": "tt30851137",
@@ -462,22 +477,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 133
-  },
-  {
-    "id": "tt31414242",
-    "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 159
+    "seeders": 151
   },
   {
     "id": "tt33022412",
@@ -495,6 +495,6 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 145
+    "seeders": 170
   }
 ]
