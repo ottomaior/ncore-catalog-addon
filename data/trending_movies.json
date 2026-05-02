@@ -14,7 +14,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 666
+    "seeders": 788
   },
   {
     "id": "tt29552248",
@@ -24,7 +24,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
-    "imdbRating": 9.1,
+    "imdbRating": 8.8,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -33,7 +33,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 250
+    "seeders": 278
   },
   {
     "id": "tt21442114",
@@ -50,7 +50,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 235
+    "seeders": 269
   },
   {
     "id": "tt40381358",
@@ -65,7 +65,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 329
+    "seeders": 352
   },
   {
     "id": "tt31728330",
@@ -82,7 +82,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 1024
+    "seeders": 1142
   },
   {
     "id": "tt38508942",
@@ -97,7 +97,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 620
+    "seeders": 662
   },
   {
     "id": "tt6374142",
@@ -113,55 +113,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 299
-  },
-  {
-    "id": "tt35286242",
-    "type": "movie",
-    "name": "Die Schule der magischen Tiere 4",
-    "poster": "https://image.tmdb.org/t/p/w500/2Pe4IsQV725dl5pj1j0VuixMROp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Fantasy"
-    ],
-    "seeders": 81
-  },
-  {
-    "id": "tt33714084",
-    "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 208
-  },
-  {
-    "id": "tt34482468",
-    "type": "movie",
-    "name": "Kincsvadászok Párizsban",
-    "poster": "https://image.tmdb.org/t/p/w500/9mfnxGRTS8TMjhhoKMTM1RlVAQQ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy különc régész váratlan útra indul, hogy lányával és unokájával együtt felkutassa Hufu fáraó elveszett kincsét.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Vígjáték"
-    ],
-    "seeders": 112
+    "seeders": 321
   },
   {
     "id": "tt16431404",
@@ -177,7 +129,55 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1148
+    "seeders": 1265
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 233
+  },
+  {
+    "id": "tt35286242",
+    "type": "movie",
+    "name": "Die Schule der magischen Tiere 4",
+    "poster": "https://image.tmdb.org/t/p/w500/2Pe4IsQV725dl5pj1j0VuixMROp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Fantasy"
+    ],
+    "seeders": 94
+  },
+  {
+    "id": "tt34482468",
+    "type": "movie",
+    "name": "Kincsvadászok Párizsban",
+    "poster": "https://image.tmdb.org/t/p/w500/9mfnxGRTS8TMjhhoKMTM1RlVAQQ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy különc régész váratlan útra indul, hogy lányával és unokájával együtt felkutassa Hufu fáraó elveszett kincsét.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 123
   },
   {
     "id": "tt28682323",
@@ -193,7 +193,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 200
+    "seeders": 225
   },
   {
     "id": "tt31116965",
@@ -202,14 +202,14 @@
     "poster": "https://image.tmdb.org/t/p/w500/wPMb6ECpefJXtXRV0C5Qx45HprA.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Az 1971-es film remake-je. A romantikus dráma, amely az interszexualitás témáját járta körül, és Franco tábornok ultrakonzervatív Spanyolországában azon kevés alkotások egyikének számított, amely érintette a szexuális orientáció kérdését.",
-    "imdbRating": 4.8,
+    "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
+    "imdbRating": 4.4,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 91
+    "seeders": 109
   },
   {
     "id": "tt40660080",
@@ -225,7 +225,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 77
+    "seeders": 78
   },
   {
     "id": "tt34910018",
@@ -241,7 +241,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 277
+    "seeders": 286
   },
   {
     "id": "tt0800175",
@@ -259,7 +259,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 478
+    "seeders": 517
   },
   {
     "id": "tt38350059",
@@ -276,7 +276,7 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 199
+    "seeders": 207
   },
   {
     "id": "tt31828554",
@@ -286,14 +286,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
-    "imdbRating": 7.4,
+    "imdbRating": 7.9,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 176
+    "seeders": 182
   },
   {
     "id": "tt32801387",
@@ -311,7 +311,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 317
+    "seeders": 337
   },
   {
     "id": "tt22868010",
@@ -328,7 +328,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 546
+    "seeders": 625
   },
   {
     "id": "tt26735622",
@@ -345,7 +345,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 474
+    "seeders": 495
   },
   {
     "id": "tt27613895",
@@ -362,7 +362,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 159
+    "seeders": 174
   },
   {
     "id": "tt23172090",
@@ -379,7 +379,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 115
+    "seeders": 116
   },
   {
     "id": "tt32897959",
@@ -395,7 +395,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 78
+    "seeders": 81
   },
   {
     "id": "tt31414242",
@@ -410,23 +410,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 223
-  },
-  {
-    "id": "tt39565775",
-    "type": "movie",
-    "name": "Rocky macs-katasztrófája",
-    "poster": "https://image.tmdb.org/t/p/w500/pqfkJh0CyF00GvR4NIdvJYkJb2F.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Humdinger egyik terve balul sül el, és egy roncstelepi kiscica otthona megsemmisül. Rocky pedig nagy fába vágja a fejszéjét, amikor meghívja őt, hogy az őrtoronyban töltse az éjszakát. A szeleburdi, de Rockyt bálványozó cica azonban több galibát okoz a vártnál, így kedvenc újrahasznosító kutyusunknak meg kell tanulnia, hogy néha még a hősöknek is segítséget kell kérniük.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 88
+    "seeders": 252
   },
   {
     "id": "tt32194932",
@@ -443,7 +427,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 191
+    "seeders": 217
+  },
+  {
+    "id": "tt39565775",
+    "type": "movie",
+    "name": "Rocky macs-katasztrófája",
+    "poster": "https://image.tmdb.org/t/p/w500/pqfkJh0CyF00GvR4NIdvJYkJb2F.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Humdinger egyik terve balul sül el, és egy roncstelepi kiscica otthona megsemmisül. Rocky pedig nagy fába vágja a fejszéjét, amikor meghívja őt, hogy az őrtoronyban töltse az éjszakát. A szeleburdi, de Rockyt bálványozó cica azonban több galibát okoz a vártnál, így kedvenc újrahasznosító kutyusunknak meg kell tanulnia, hogy néha még a hősöknek is segítséget kell kérniük.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt32141377",
@@ -460,7 +460,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 158
+    "seeders": 169
   },
   {
     "id": "tt30851137",
@@ -477,24 +477,24 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 151
+    "seeders": 159
   },
   {
-    "id": "tt33022412",
+    "id": "tt40891145",
     "type": "movie",
-    "name": "Marakuda legendája",
-    "poster": "https://image.tmdb.org/t/p/w500/dC7VIRAAMbCRgmIs6ghWUvRxcha.jpg",
+    "name": "180",
+    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Marakuda egy fiatal fiú, aki a törzsével a kőkorszakban egy erdő mélyén él. Apja a tiszteletreméltó törzsfőnök, aki benne látja utódját, ám Marakudát jobban érdekel a játék és szórakozás, mint a felkészülés a törzsfőnöki feladatok átvételére.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
     "genres": [
-      "Családi",
-      "Animációs",
-      "Kaland",
-      "Vígjáték"
+      "Thriller",
+      "Bűnügyi",
+      "Dráma",
+      "TV film"
     ],
-    "seeders": 170
+    "seeders": 165
   }
 ]
