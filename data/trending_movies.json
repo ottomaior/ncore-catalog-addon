@@ -14,13 +14,13 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 788
+    "seeders": 896
   },
   {
     "id": "tt29552248",
     "type": "movie",
     "name": "Egymás bőrében",
-    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/hz77dowXo4B1dS3oeyMM2Cdb8ex.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
@@ -33,39 +33,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 278
-  },
-  {
-    "id": "tt21442114",
-    "type": "movie",
-    "name": "Vitéz Egyes",
-    "poster": "https://image.tmdb.org/t/p/w500/sT8Z14RDCAd6szzxzWFAU4xcMwg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Észak- és Dél-Korea közötti feszültség miatt egy amerikai helikopter lezuhan az észak-koreai oldalon. A túlélőknek együtt kell dolgozniuk, hogy megvédjenek egy civil műszaki szakembert, és amerikai katonai segítség nélkül is megtalálják a kiutat.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Háborús",
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 269
-  },
-  {
-    "id": "tt40381358",
-    "type": "movie",
-    "name": "Tavaszi szél - az ébredés",
-    "poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 352
+    "seeders": 343
   },
   {
     "id": "tt31728330",
@@ -82,7 +50,39 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 1142
+    "seeders": 1249
+  },
+  {
+    "id": "tt40381358",
+    "type": "movie",
+    "name": "Tavaszi szél - az ébredés",
+    "poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 397
+  },
+  {
+    "id": "tt21442114",
+    "type": "movie",
+    "name": "Vitéz Egyes",
+    "poster": "https://image.tmdb.org/t/p/w500/sT8Z14RDCAd6szzxzWFAU4xcMwg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Észak- és Dél-Korea közötti feszültség miatt egy amerikai helikopter lezuhan az észak-koreai oldalon. A túlélőknek együtt kell dolgozniuk, hogy megvédjenek egy civil műszaki szakembert, és amerikai katonai segítség nélkül is megtalálják a kiutat.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Háborús",
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 284
   },
   {
     "id": "tt38508942",
@@ -97,23 +97,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 662
-  },
-  {
-    "id": "tt6374142",
-    "type": "movie",
-    "name": "Bizalom nélkül",
-    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 321
+    "seeders": 717
   },
   {
     "id": "tt16431404",
@@ -129,7 +113,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1265
+    "seeders": 1343
+  },
+  {
+    "id": "tt6374142",
+    "type": "movie",
+    "name": "Bizalom nélkül",
+    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 319
   },
   {
     "id": "tt33714084",
@@ -145,23 +145,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 233
-  },
-  {
-    "id": "tt35286242",
-    "type": "movie",
-    "name": "Die Schule der magischen Tiere 4",
-    "poster": "https://image.tmdb.org/t/p/w500/2Pe4IsQV725dl5pj1j0VuixMROp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Fantasy"
-    ],
-    "seeders": 94
+    "seeders": 263
   },
   {
     "id": "tt34482468",
@@ -177,7 +161,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 123
+    "seeders": 139
   },
   {
     "id": "tt28682323",
@@ -193,7 +177,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 225
+    "seeders": 231
+  },
+  {
+    "id": "tt35286242",
+    "type": "movie",
+    "name": "Die Schule der magischen Tiere 4",
+    "poster": "https://image.tmdb.org/t/p/w500/2Pe4IsQV725dl5pj1j0VuixMROp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Fantasy"
+    ],
+    "seeders": 100
   },
   {
     "id": "tt31116965",
@@ -203,29 +203,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
-    "imdbRating": 4.4,
+    "imdbRating": 4.5,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Romantikus"
     ],
     "seeders": 109
-  },
-  {
-    "id": "tt40660080",
-    "type": "movie",
-    "name": "Családi kapcsolatok",
-    "poster": "https://image.tmdb.org/t/p/w500/wA7hl2brcEnMxinmGia4nFRTTic.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "José, a tökéletes vő emlékezetes bajusszal, csak előrébb akart jutni, de minden megállapodásnak ára van. Az apósa váratlanul szabotálja terveit.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 78
   },
   {
     "id": "tt34910018",
@@ -241,7 +225,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 286
+    "seeders": 291
   },
   {
     "id": "tt0800175",
@@ -259,7 +243,23 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 517
+    "seeders": 507
+  },
+  {
+    "id": "tt40660080",
+    "type": "movie",
+    "name": "Családi kapcsolatok",
+    "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "José, a tökéletes vő emlékezetes bajusszal, csak előrébb akart jutni, de minden megállapodásnak ára van. Az apósa váratlanul szabotálja terveit.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 79
   },
   {
     "id": "tt38350059",
@@ -276,7 +276,7 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 207
+    "seeders": 212
   },
   {
     "id": "tt31828554",
@@ -293,7 +293,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 182
+    "seeders": 189
   },
   {
     "id": "tt32801387",
@@ -311,7 +311,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 337
+    "seeders": 346
   },
   {
     "id": "tt22868010",
@@ -328,7 +328,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 625
+    "seeders": 636
   },
   {
     "id": "tt26735622",
@@ -345,7 +345,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 495
+    "seeders": 520
   },
   {
     "id": "tt27613895",
@@ -362,7 +362,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 174
+    "seeders": 195
   },
   {
     "id": "tt23172090",
@@ -379,7 +379,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 116
+    "seeders": 130
   },
   {
     "id": "tt32897959",
@@ -395,7 +395,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 81
+    "seeders": 86
   },
   {
     "id": "tt31414242",
@@ -410,7 +410,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 252
+    "seeders": 253
   },
   {
     "id": "tt32194932",
@@ -427,23 +427,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 217
-  },
-  {
-    "id": "tt39565775",
-    "type": "movie",
-    "name": "Rocky macs-katasztrófája",
-    "poster": "https://image.tmdb.org/t/p/w500/pqfkJh0CyF00GvR4NIdvJYkJb2F.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Humdinger egyik terve balul sül el, és egy roncstelepi kiscica otthona megsemmisül. Rocky pedig nagy fába vágja a fejszéjét, amikor meghívja őt, hogy az őrtoronyban töltse az éjszakát. A szeleburdi, de Rockyt bálványozó cica azonban több galibát okoz a vártnál, így kedvenc újrahasznosító kutyusunknak meg kell tanulnia, hogy néha még a hősöknek is segítséget kell kérniük.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 90
+    "seeders": 236
   },
   {
     "id": "tt32141377",
@@ -460,7 +444,23 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 169
+    "seeders": 176
+  },
+  {
+    "id": "tt39565775",
+    "type": "movie",
+    "name": "Rocky macs-katasztrófája",
+    "poster": "https://image.tmdb.org/t/p/w500/pqfkJh0CyF00GvR4NIdvJYkJb2F.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Humdinger egyik terve balul sül el, és egy roncstelepi kiscica otthona megsemmisül. Rocky pedig nagy fába vágja a fejszéjét, amikor meghívja őt, hogy az őrtoronyban töltse az éjszakát. A szeleburdi, de Rockyt bálványozó cica azonban több galibát okoz a vártnál, így kedvenc újrahasznosító kutyusunknak meg kell tanulnia, hogy néha még a hősöknek is segítséget kell kérniük.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 91
   },
   {
     "id": "tt30851137",
@@ -477,7 +477,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 159
+    "seeders": 165
   },
   {
     "id": "tt40891145",
@@ -495,6 +495,6 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 165
+    "seeders": 167
   }
 ]
