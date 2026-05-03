@@ -14,7 +14,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 83
+    "seeders": 297
   },
   {
     "id": "tt8879928",
@@ -31,26 +31,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 610
-  },
-  {
-    "id": "tt29552248",
-    "type": "movie",
-    "name": "Egymás bőrében",
-    "poster": "https://image.tmdb.org/t/p/w500/hz77dowXo4B1dS3oeyMM2Cdb8ex.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Vígjáték",
-      "Családi",
-      "Fantasy"
-    ],
-    "seeders": 247
+    "seeders": 810
   },
   {
     "id": "tt31728330",
@@ -67,7 +48,26 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 789
+    "seeders": 1057
+  },
+  {
+    "id": "tt29552248",
+    "type": "movie",
+    "name": "Egymás bőrében",
+    "poster": "https://image.tmdb.org/t/p/w500/hz77dowXo4B1dS3oeyMM2Cdb8ex.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Vígjáték",
+      "Családi",
+      "Fantasy"
+    ],
+    "seeders": 327
   },
   {
     "id": "tt38508942",
@@ -82,7 +82,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 517
+    "seeders": 655
   },
   {
     "id": "tt40381358",
@@ -97,7 +97,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 288
+    "seeders": 369
   },
   {
     "id": "tt21442114",
@@ -114,7 +114,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 216
+    "seeders": 266
   },
   {
     "id": "tt16431404",
@@ -130,7 +130,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 881
+    "seeders": 1174
   },
   {
     "id": "tt6374142",
@@ -146,7 +146,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 239
+    "seeders": 286
   },
   {
     "id": "tt33714084",
@@ -162,7 +162,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 194
+    "seeders": 238
   },
   {
     "id": "tt34482468",
@@ -178,23 +178,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 114
-  },
-  {
-    "id": "tt35286242",
-    "type": "movie",
-    "name": "Mágikus állatok iskolája - Együtt a suliért",
-    "poster": "https://image.tmdb.org/t/p/w500/2Pe4IsQV725dl5pj1j0VuixMROp.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Fantasy"
-    ],
-    "seeders": 89
+    "seeders": 133
   },
   {
     "id": "tt28682323",
@@ -210,7 +194,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 166
+    "seeders": 205
+  },
+  {
+    "id": "tt35286242",
+    "type": "movie",
+    "name": "Mágikus állatok iskolája - Együtt a suliért",
+    "poster": "https://image.tmdb.org/t/p/w500/2Pe4IsQV725dl5pj1j0VuixMROp.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Ida barátnője, Miriam három hónapra érkezik a Winterstein Iskolába, de félő, hogy egy titok szétzilálja a lányok barátságát. Miriamra bízzák a koboldmaki Fitzgeraldót, míg Max Murielt, a baglyot kapja. Eközben a kétségbeesett igazgató az iskola eladását tervezi, ami az egész mágikus közösség sorsát fenyegeti. Ida és osztálytársai úgy gondolják, hogy a közelgő iskolai verseny lehet az utolsó reményük arra, hogy megmentsék szeretett alma materüket. Vajon sikerül a küldetés, mielőtt a varázslat végleg elszállna?",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Fantasy"
+    ],
+    "seeders": 95
   },
   {
     "id": "tt31116965",
@@ -226,23 +226,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 94
-  },
-  {
-    "id": "tt34910018",
-    "type": "movie",
-    "name": "Lopakodók: A végső ellenállás",
-    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 211
+    "seeders": 114
   },
   {
     "id": "tt0800175",
@@ -260,23 +244,23 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 359
+    "seeders": 477
   },
   {
-    "id": "tt40660080",
+    "id": "tt34910018",
     "type": "movie",
-    "name": "Családi kapcsolatok",
-    "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
+    "name": "Lopakodók: A végső ellenállás",
+    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "José, a tökéletes vő emlékezetes bajusszal, csak előrébb akart jutni, de minden megállapodásnak ára van. Az apósa váratlanul szabotálja terveit.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Dráma"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 70
+    "seeders": 261
   },
   {
     "id": "tt38350059",
@@ -293,7 +277,7 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 162
+    "seeders": 190
   },
   {
     "id": "tt31828554",
@@ -310,7 +294,23 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 152
+    "seeders": 178
+  },
+  {
+    "id": "tt40660080",
+    "type": "movie",
+    "name": "Családi kapcsolatok",
+    "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "José, a tökéletes vő emlékezetes bajusszal, csak előrébb akart jutni, de minden megállapodásnak ára van. Az apósa váratlanul szabotálja terveit.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt32801387",
@@ -328,7 +328,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 248
+    "seeders": 311
   },
   {
     "id": "tt22868010",
@@ -345,7 +345,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 410
+    "seeders": 541
   },
   {
     "id": "tt26735622",
@@ -355,14 +355,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Övön aluli poénokkal teli, hajmeresztő vígjáték, amelyben két reklámszakember, Brad és Elijah új, mindent takaró óvszerével a VB szponzora akar lenni. A brazíliai ivászatból világméretű botrány lesz, és utána dühös szurkolók, bűnözők és hataloméhes hivatalnokok elől kell menekülniük, hogy megmentsék karrierjüket és élve hazajussanak.",
-    "imdbRating": 5.7,
+    "imdbRating": 5.8,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció",
       "Kaland"
     ],
-    "seeders": 377
+    "seeders": 468
   },
   {
     "id": "tt27613895",
@@ -379,7 +379,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 143
+    "seeders": 175
   },
   {
     "id": "tt23172090",
@@ -396,7 +396,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 110
+    "seeders": 123
   },
   {
     "id": "tt32897959",
@@ -412,7 +412,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 73
+    "seeders": 81
   },
   {
     "id": "tt31414242",
@@ -427,24 +427,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 170
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 133
+    "seeders": 235
   },
   {
     "id": "tt32194932",
@@ -461,7 +444,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 152
+    "seeders": 197
+  },
+  {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "seeders": 159
   },
   {
     "id": "tt39565775",
@@ -477,7 +477,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 69
+    "seeders": 84
   },
   {
     "id": "tt30851137",
@@ -494,6 +494,6 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 128
+    "seeders": 148
   }
 ]
