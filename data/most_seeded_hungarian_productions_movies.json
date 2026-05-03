@@ -63,7 +63,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999981
+"seeders": 999978
 },
 {
 "id": "tt20672356",
@@ -79,7 +79,22 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999956
+"seeders": 999955
+},
+{
+"id": "tt38508942",
+"type": "movie",
+"name": "Beléd estem",
+"poster": "https://image.tmdb.org/t/p/w500/vysEQvmPwh2yJVLzOe21bZlECOy.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Eszter (Rujder Vivien) sikeres színésznő, aki egy kilencvenes években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint (Szabó Kimmel Tamás) mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+"imdbRating": 0.0,
+"releaseInfo": "2026",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999934
 },
 {
 "id": "tt0179955",
@@ -96,7 +111,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999901
+"seeders": 999900
 },
 {
 "id": "tt27811640",
@@ -111,7 +126,7 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999887
+"seeders": 999890
 },
 {
 "id": "tt26678938",
@@ -129,7 +144,7 @@
 "Akció",
 "Horror"
 ],
-"seeders": 999879
+"seeders": 999869
 },
 {
 "id": "tt0065067",
@@ -144,7 +159,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999858
+"seeders": 999859
 },
 {
 "id": "tt0142632",
@@ -161,7 +176,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999849
+"seeders": 999858
 },
 {
 "id": "tt31065630",
@@ -212,6 +227,21 @@
 "seeders": 999823
 },
 {
+"id": "tt40381358",
+"type": "movie",
+"name": "Tavaszi szél - az ébredés",
+"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
+"imdbRating": 8.4,
+"releaseInfo": "2026",
+"genres": [
+"Dokumentum"
+],
+"seeders": 999821
+},
+{
 "id": "tt23172090",
 "type": "movie",
 "name": "Porszörny",
@@ -226,7 +256,7 @@
 "Akció",
 "Horror"
 ],
-"seeders": 999821
+"seeders": 999817
 },
 {
 "id": "tt33586253",
