@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 124
+  },
+  {
     "id": "tt31434030",
     "type": "movie",
     "name": "Drakula: Szerelmes történet",
@@ -14,7 +31,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 505
+    "seeders": 672
   },
   {
     "id": "tt34482468",
@@ -30,7 +47,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 141
+    "seeders": 150
   },
   {
     "id": "tt35286242",
@@ -46,22 +63,6 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 101
-  },
-  {
-    "id": "tt40660080",
-    "type": "movie",
-    "name": "Családi kapcsolatok",
-    "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "José, a tökéletes vő emlékezetes bajusszal, csak előrébb akart jutni, de minden megállapodásnak ára van. Az apósa váratlanul szabotálja terveit.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 74
+    "seeders": 103
   }
 ]
