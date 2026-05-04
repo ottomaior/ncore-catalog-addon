@@ -14,41 +14,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 556
-  },
-  {
-    "id": "tt31728330",
-    "type": "movie",
-    "name": "Meg fognak ölni",
-    "poster": "https://image.tmdb.org/t/p/w500/oYpmoqz48PoouQmApxxMLQ7dXKA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Horror"
-    ],
-    "seeders": 62
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 156
+    "seeders": 654
   },
   {
     "id": "tt8879928",
@@ -65,7 +31,41 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 754
+    "seeders": 854
+  },
+  {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 177
+  },
+  {
+    "id": "tt31728330",
+    "type": "movie",
+    "name": "Meg fognak ölni",
+    "poster": "https://image.tmdb.org/t/p/w500/oYpmoqz48PoouQmApxxMLQ7dXKA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Horror"
+    ],
+    "seeders": 80
   },
   {
     "id": "tt38508942",
@@ -80,7 +80,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 587
+    "seeders": 667
   },
   {
     "id": "tt29552248",
@@ -99,7 +99,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 336
+    "seeders": 358
   },
   {
     "id": "tt16431404",
@@ -115,7 +115,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1022
+    "seeders": 1154
   },
   {
     "id": "tt40381358",
@@ -130,7 +130,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 332
+    "seeders": 363
   },
   {
     "id": "tt21442114",
@@ -147,7 +147,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 240
+    "seeders": 269
   },
   {
     "id": "tt6374142",
@@ -163,7 +163,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 253
+    "seeders": 275
   },
   {
     "id": "tt33714084",
@@ -179,7 +179,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 225
+    "seeders": 231
   },
   {
     "id": "tt28682323",
@@ -195,7 +195,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 181
+    "seeders": 208
   },
   {
     "id": "tt0800175",
@@ -213,23 +213,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 405
-  },
-  {
-    "id": "tt34482468",
-    "type": "movie",
-    "name": "Kincsvadászok Párizsban",
-    "poster": "https://image.tmdb.org/t/p/w500/9mfnxGRTS8TMjhhoKMTM1RlVAQQ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy különc régész váratlan útra indul, hogy lányával és unokájával együtt felkutassa Hufu fáraó elveszett kincsét.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Vígjáték"
-    ],
-    "seeders": 118
+    "seeders": 456
   },
   {
     "id": "tt34910018",
@@ -245,7 +229,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 234
+    "seeders": 253
+  },
+  {
+    "id": "tt34482468",
+    "type": "movie",
+    "name": "Kincsvadászok Párizsban",
+    "poster": "https://image.tmdb.org/t/p/w500/9mfnxGRTS8TMjhhoKMTM1RlVAQQ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy különc régész váratlan útra indul, hogy lányával és unokájával együtt felkutassa Hufu fáraó elveszett kincsét.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 129
   },
   {
     "id": "tt31116965",
@@ -261,7 +261,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 102
+    "seeders": 105
   },
   {
     "id": "tt35286242",
@@ -277,7 +277,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 85
+    "seeders": 94
   },
   {
     "id": "tt38350059",
@@ -294,24 +294,7 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 167
-  },
-  {
-    "id": "tt31828554",
-    "type": "movie",
-    "name": "A nevem Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 151
+    "seeders": 177
   },
   {
     "id": "tt32801387",
@@ -329,7 +312,24 @@
       "Western",
       "Akció"
     ],
-    "seeders": 270
+    "seeders": 287
+  },
+  {
+    "id": "tt31828554",
+    "type": "movie",
+    "name": "A nevem Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 159
   },
   {
     "id": "tt22868010",
@@ -346,7 +346,7 @@
       "Dráma",
       "Horror"
     ],
-    "seeders": 482
+    "seeders": 566
   },
   {
     "id": "tt26735622",
@@ -363,7 +363,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 436
+    "seeders": 473
   },
   {
     "id": "tt40660080",
@@ -379,7 +379,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 64
+    "seeders": 66
   },
   {
     "id": "tt27613895",
@@ -396,7 +396,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 176
+    "seeders": 184
   },
   {
     "id": "tt23172090",
@@ -413,7 +413,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 109
+    "seeders": 114
   },
   {
     "id": "tt32897959",
@@ -423,13 +423,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.6,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 87
+    "seeders": 94
   },
   {
     "id": "tt31414242",
@@ -444,24 +444,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 192
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 158
+    "seeders": 224
   },
   {
     "id": "tt32194932",
@@ -478,24 +461,40 @@
       "Dráma",
       "Thriller"
     ],
+    "seeders": 204
+  },
+  {
+    "id": "tt32141377",
+    "type": "movie",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
     "seeders": 176
   },
   {
-    "id": "tt40891145",
+    "id": "tt30851137",
     "type": "movie",
-    "name": "180",
-    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
-    "imdbRating": 5.6,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma",
-      "TV film"
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
     ],
-    "seeders": 150
+    "seeders": 156
   }
 ]
