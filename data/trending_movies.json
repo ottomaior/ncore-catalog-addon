@@ -1,12 +1,28 @@
 [
   {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2: Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.  (Bolla Eszter) R3",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 433
+  },
+  {
     "id": "tt26443616",
     "type": "movie",
     "name": "Agyugrász",
     "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi, és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
+    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
     "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
@@ -16,7 +32,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 256
+    "seeders": 375
   },
   {
     "id": "tt31434030",
@@ -33,7 +49,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 609
+    "seeders": 707
   },
   {
     "id": "tt8879928",
@@ -50,7 +66,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 763
+    "seeders": 861
   },
   {
     "id": "tt33322174",
@@ -65,24 +81,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 93
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 169
+    "seeders": 109
   },
   {
     "id": "tt31728330",
@@ -99,22 +98,24 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 851
+    "seeders": 987
   },
   {
-    "id": "tt38508942",
+    "id": "tt32357218",
     "type": "movie",
-    "name": "Beléd estem",
-    "poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Eszter (Rujder Vivien) sikeres színésznő, aki egy kilencvenes években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint (Szabó Kimmel Tamás) mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
-    "imdbRating": null,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
     ],
-    "seeders": 547
+    "seeders": 196
   },
   {
     "id": "tt16431404",
@@ -130,7 +131,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 980
+    "seeders": 1126
+  },
+  {
+    "id": "tt38508942",
+    "type": "movie",
+    "name": "Beléd estem",
+    "poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Eszter (Rujder Vivien) sikeres színésznő, aki egy kilencvenes években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint (Szabó Kimmel Tamás) mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 623
   },
   {
     "id": "tt29552248",
@@ -147,7 +163,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 339
+    "seeders": 377
   },
   {
     "id": "tt40381358",
@@ -162,7 +178,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 329
+    "seeders": 353
   },
   {
     "id": "tt21442114",
@@ -179,7 +195,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 216
+    "seeders": 255
   },
   {
     "id": "tt6374142",
@@ -195,7 +211,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 235
+    "seeders": 261
   },
   {
     "id": "tt33714084",
@@ -211,7 +227,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 207
+    "seeders": 233
   },
   {
     "id": "tt0800175",
@@ -229,7 +245,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 402
+    "seeders": 453
   },
   {
     "id": "tt28682323",
@@ -245,7 +261,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 176
+    "seeders": 192
   },
   {
     "id": "tt34910018",
@@ -261,7 +277,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 231
+    "seeders": 253
   },
   {
     "id": "tt34482468",
@@ -277,40 +293,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 116
-  },
-  {
-    "id": "tt38350059",
-    "type": "movie",
-    "name": "A helyes úton",
-    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi",
-      "Kaland"
-    ],
-    "seeders": 166
-  },
-  {
-    "id": "tt31116965",
-    "type": "movie",
-    "name": "Kedves kisasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/3Od2J0JICLLMQfQAUbpCJg82HYg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 100
+    "seeders": 119
   },
   {
     "id": "tt32801387",
@@ -328,7 +311,24 @@
       "Western",
       "Akció"
     ],
-    "seeders": 253
+    "seeders": 283
+  },
+  {
+    "id": "tt38350059",
+    "type": "movie",
+    "name": "A helyes úton",
+    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi",
+      "Kaland"
+    ],
+    "seeders": 171
   },
   {
     "id": "tt31828554",
@@ -345,7 +345,23 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 151
+    "seeders": 162
+  },
+  {
+    "id": "tt31116965",
+    "type": "movie",
+    "name": "Kedves kisasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/3Od2J0JICLLMQfQAUbpCJg82HYg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
+    "imdbRating": 5.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 104
   },
   {
     "id": "tt35286242",
@@ -361,7 +377,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 82
+    "seeders": 85
   },
   {
     "id": "tt27613895",
@@ -378,7 +394,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 179
+    "seeders": 196
   },
   {
     "id": "tt40660080",
@@ -388,13 +404,30 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "José, a tökéletes vő emlékezetes bajusszal, csak előrébb akart jutni, de minden megállapodásnak ára van. Az apósa váratlanul szabotálja terveit.",
-    "imdbRating": 6.0,
+    "imdbRating": 5.4,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 60
+    "seeders": 64
+  },
+  {
+    "id": "tt23172090",
+    "type": "movie",
+    "name": "Porszörny",
+    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Fantasy",
+      "Akció",
+      "Horror"
+    ],
+    "seeders": 109
   },
   {
     "id": "tt32897959",
@@ -413,38 +446,6 @@
     "seeders": 90
   },
   {
-    "id": "tt23172090",
-    "type": "movie",
-    "name": "Porszörny",
-    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Fantasy",
-      "Akció",
-      "Horror"
-    ],
-    "seeders": 102
-  },
-  {
-    "id": "tt31414242",
-    "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 193
-  },
-  {
     "id": "tt32141377",
     "type": "movie",
     "name": "28 évvel később: A csonttemplom",
@@ -459,7 +460,22 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 157
+    "seeders": 178
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 207
   },
   {
     "id": "tt32194932",
@@ -476,23 +492,6 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 176
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 134
+    "seeders": 193
   }
 ]
