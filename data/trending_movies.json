@@ -1,35 +1,22 @@
 [
   {
-    "id": "tt8879928",
+    "id": "tt26443616",
     "type": "movie",
-    "name": "Dermesztő kór",
-    "poster": "https://image.tmdb.org/t/p/w500/AriwXWbnjYETyYZ9aRg06UQPxFl.jpg",
+    "name": "Agyugrász",
+    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Két fiatal, Teasüti és Naomi egy önkiszolgáló raktározási cégnél dolgoznak. A raktárt egy régi amerikai katonai bázis területén hozták létre, ami elképesztő titkokat rejt a mélyben. Ilyen kegyetlen éjszakai műszakot egyikük sem tudott volna elképzelni: rájönnek, hogy egy extrém fertőzőképességű parazita gomba kijutott a bázis legalsó szintjéről, amit évtizedekkel ezelőtt a kormány lezsilipelt. Ahogy a föld alatti hőmérséklet emelkedik, ez a pusztító mikroorganizmus szaporodásnak indul, majd lecsap a létesítmény területén tartózkodókra – emberekre és más élőlényekre egyaránt. Az idő fogy, így Teasütin és Naomin múlik, hogy az őszülő bioterror-ügynök segítségével meg tudják-e fékezni a gyorsan mutálódó fenyegetést, és ezzel sikerül-e megakadályozni az emberiség robbanásszerű kihalását.",
-    "imdbRating": 6.8,
+    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi, és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Sci-Fi",
-      "Vígjáték"
+      "Kaland",
+      "Animációs",
+      "Vígjáték",
+      "Családi",
+      "Sci-Fi"
     ],
-    "seeders": 75
-  },
-  {
-    "id": "tt33322174",
-    "type": "movie",
-    "name": "Qui brille au combat",
-    "poster": "https://image.tmdb.org/t/p/w500/kpUkx4nxuH9ssoTi4NLunlRcXgu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 90
+    "seeders": 91
   },
   {
     "id": "tt31434030",
@@ -46,7 +33,39 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 766
+    "seeders": 554
+  },
+  {
+    "id": "tt33322174",
+    "type": "movie",
+    "name": "Qui brille au combat",
+    "poster": "https://image.tmdb.org/t/p/w500/kpUkx4nxuH9ssoTi4NLunlRcXgu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 80
+  },
+  {
+    "id": "tt8879928",
+    "type": "movie",
+    "name": "Dermesztő kór",
+    "poster": "https://image.tmdb.org/t/p/w500/AriwXWbnjYETyYZ9aRg06UQPxFl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két fiatal, Teasüti és Naomi egy önkiszolgáló raktározási cégnél dolgoznak. A raktárt egy régi amerikai katonai bázis területén hozták létre, ami elképesztő titkokat rejt a mélyben. Ilyen kegyetlen éjszakai műszakot egyikük sem tudott volna elképzelni: rájönnek, hogy egy extrém fertőzőképességű parazita gomba kijutott a bázis legalsó szintjéről, amit évtizedekkel ezelőtt a kormány lezsilipelt. Ahogy a föld alatti hőmérséklet emelkedik, ez a pusztító mikroorganizmus szaporodásnak indul, majd lecsap a létesítmény területén tartózkodókra – emberekre és más élőlényekre egyaránt. Az idő fogy, így Teasütin és Naomin múlik, hogy az őszülő bioterror-ügynök segítségével meg tudják-e fékezni a gyorsan mutálódó fenyegetést, és ezzel sikerül-e megakadályozni az emberiség robbanásszerű kihalását.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Vígjáték"
+    ],
+    "seeders": 69
   },
   {
     "id": "tt32357218",
@@ -63,7 +82,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 190
+    "seeders": 151
   },
   {
     "id": "tt31728330",
@@ -80,7 +99,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 1123
+    "seeders": 93
   },
   {
     "id": "tt38508942",
@@ -95,7 +114,24 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 693
+    "seeders": 492
+  },
+  {
+    "id": "tt29552248",
+    "type": "movie",
+    "name": "Egymás bőrében",
+    "poster": "https://image.tmdb.org/t/p/w500/hz77dowXo4B1dS3oeyMM2Cdb8ex.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Fantasy"
+    ],
+    "seeders": 301
   },
   {
     "id": "tt16431404",
@@ -111,26 +147,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1234
-  },
-  {
-    "id": "tt29552248",
-    "type": "movie",
-    "name": "Egymás bőrében",
-    "poster": "https://image.tmdb.org/t/p/w500/hz77dowXo4B1dS3oeyMM2Cdb8ex.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Vígjáték",
-      "Családi",
-      "Fantasy"
-    ],
-    "seeders": 393
+    "seeders": 838
   },
   {
     "id": "tt40381358",
@@ -145,7 +162,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 396
+    "seeders": 286
   },
   {
     "id": "tt21442114",
@@ -162,7 +179,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 254
+    "seeders": 201
   },
   {
     "id": "tt6374142",
@@ -178,7 +195,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 271
+    "seeders": 214
   },
   {
     "id": "tt33714084",
@@ -194,7 +211,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 234
+    "seeders": 182
   },
   {
     "id": "tt0800175",
@@ -212,7 +229,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 465
+    "seeders": 332
   },
   {
     "id": "tt28682323",
@@ -228,7 +245,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 207
+    "seeders": 154
   },
   {
     "id": "tt34910018",
@@ -244,7 +261,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 266
+    "seeders": 203
   },
   {
     "id": "tt34482468",
@@ -260,7 +277,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 137
+    "seeders": 110
   },
   {
     "id": "tt38350059",
@@ -277,13 +294,13 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 188
+    "seeders": 144
   },
   {
     "id": "tt31116965",
     "type": "movie",
     "name": "Kedves kisasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/wPMb6ECpefJXtXRV0C5Qx45HprA.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/3Od2J0JICLLMQfQAUbpCJg82HYg.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
@@ -293,24 +310,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 109
-  },
-  {
-    "id": "tt31828554",
-    "type": "movie",
-    "name": "A nevem Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 173
+    "seeders": 90
   },
   {
     "id": "tt35286242",
@@ -326,7 +326,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 92
+    "seeders": 79
   },
   {
     "id": "tt32801387",
@@ -344,7 +344,24 @@
       "Western",
       "Akció"
     ],
-    "seeders": 287
+    "seeders": 224
+  },
+  {
+    "id": "tt31828554",
+    "type": "movie",
+    "name": "A nevem Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 130
   },
   {
     "id": "tt27613895",
@@ -361,7 +378,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 205
+    "seeders": 147
   },
   {
     "id": "tt40660080",
@@ -377,7 +394,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 65
+    "seeders": 55
   },
   {
     "id": "tt23172090",
@@ -394,7 +411,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 125
+    "seeders": 99
   },
   {
     "id": "tt32897959",
@@ -404,28 +421,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.6,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 89
-  },
-  {
-    "id": "tt31414242",
-    "type": "movie",
-    "name": "A Páciens",
-    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 221
+    "seeders": 77
   },
   {
     "id": "tt32194932",
@@ -442,7 +444,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 208
+    "seeders": 154
+  },
+  {
+    "id": "tt31414242",
+    "type": "movie",
+    "name": "A Páciens",
+    "poster": "https://image.tmdb.org/t/p/w500/hd5WHJOGfiwxrR3D14SqUP9DrPo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor a Beteg (Ryan Phillippe) egy kórházban ébred, anélkül, hogy emlékezne arra, mi történt vele, a kifürkészhetetlen Dr. Rose (Kate Beckinsale) olyan életet mutat neki, amit nem érez a sajátjának. Hamarosan azonban gyanút fog, hogy manipulálják, annak érdekében, hogy megvédjenek egy gyilkossági ügybe keveredett befolyásos politikust.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 155
   },
   {
     "id": "tt32141377",
@@ -459,7 +476,7 @@
       "Thriller",
       "Sci-Fi"
     ],
-    "seeders": 176
+    "seeders": 124
   },
   {
     "id": "tt30851137",
@@ -476,24 +493,6 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 165
-  },
-  {
-    "id": "tt40891145",
-    "type": "movie",
-    "name": "180",
-    "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy hirtelen közúti baleset következtében fia súlyosan megsérül, a dühös apa érzelmi káoszba süllyed és a bosszú útjára lép.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma",
-      "TV film"
-    ],
-    "seeders": 161
+    "seeders": 125
   }
 ]
