@@ -1,34 +1,19 @@
 [
   {
-    "id": "tt25813918",
-    "type": "movie",
-    "name": "Lo que queda de ti",
-    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 66
-  },
-  {
     "id": "tt37738006",
     "type": "movie",
-    "name": "1000 Men and Me: The Bonnie Blue Story",
+    "name": "1000 férfi 12 óra alatt – A Bonnie Blue-sztori",
     "poster": "https://image.tmdb.org/t/p/w500/5dcgoyf8nt6Xt4VSR6Nrn6nwhuz.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "A Bonnie Blue-sztori egy provokatív, egész estés dokumentumfilm egy fiatal nő történetéről, aki saját testét, identitását és nyilvános megítélését állítja egy szélsőséges társadalmi kísérlet középpontjába. Bonnie Blue személyes narrációján keresztül a film azt vizsgálja, mit jelent ma az önrendelkezés, a hírnév és a női szexualitás egy olyan korban, ahol a magánélet és a nyilvánosság határai végleg elmosódni látszanak. A dokumentumfilm nem pusztán egy extrém vállalás krónikája, hanem érzékeny portré a figyelemgazdaság működéséről. Megmutatja, hogyan válik egy egyéni döntés globális vitává, miközben a közösségi média, a pornóipar és a mainstream média egyszerre formálja és torzítja a főszereplő történetét. Bonnie Blue egyszerre alkotó, termék és vitatott kulturális jelenség.",
     "imdbRating": 5.6,
     "releaseInfo": "2025",
     "genres": [
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 53
+    "seeders": 401
   },
   {
     "id": "tt33978029",
@@ -44,7 +29,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 777
+    "seeders": 999
   },
   {
     "id": "tt26443616",
@@ -63,7 +48,22 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 550
+    "seeders": 667
+  },
+  {
+    "id": "tt25813918",
+    "type": "movie",
+    "name": "Ami maradt belőled",
+    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Apja halála után Sara felhagy a jazz-zongoraművész jövőjével New Yorkban, és szembenéz családja bioállat-tenyésztői múltjával.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt31434030",
@@ -80,7 +80,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 614
+    "seeders": 728
   },
   {
     "id": "tt8879928",
@@ -97,7 +97,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 746
+    "seeders": 913
   },
   {
     "id": "tt31728330",
@@ -114,7 +114,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 832
+    "seeders": 1007
   },
   {
     "id": "tt16431404",
@@ -124,13 +124,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy gyászoló nő egyedül vág neki az ausztrál vadonnak, hogy feszegesse a saját határait, azonban prédává válik egy alattomos gyilkos beteges játékában.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 964
+    "seeders": 1156
   },
   {
     "id": "tt38508942",
@@ -145,7 +145,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 560
+    "seeders": 630
   },
   {
     "id": "tt29552248",
@@ -155,16 +155,16 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
-    "imdbRating": 8.1,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Kaland",
       "Animációs",
+      "Dráma",
       "Családi",
-      "Fantasy",
-      "Vígjáték"
+      "Fantasy"
     ],
-    "seeders": 353
+    "seeders": 407
   },
   {
     "id": "tt32357218",
@@ -181,22 +181,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 180
-  },
-  {
-    "id": "tt33322174",
-    "type": "movie",
-    "name": "Vándorok",
-    "poster": "https://image.tmdb.org/t/p/w500/kpUkx4nxuH9ssoTi4NLunlRcXgu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Roussier család története a francia riviéra nyári hangulatában bontakozik ki. Bertille, a tizenhárom éves kislány súlyos fogyatékossággal él, és bizonytalan diagnózisa fenyegeti a család törékeny egyensúlyát. Szülei és nővére, Marion folyamatosan attól félnek, hogy elveszíthetik őt. Marion, aki távol került a szokásos tinédzser álmoktól, egy idősebb fiúval való kapcsolatban talál menedéket. Amikor új diagnózis lát napvilágot, a család jövője váratlan fordulatot vesz, új lehetőségeket kínálva számukra.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 101
+    "seeders": 199
   },
   {
     "id": "tt40381358",
@@ -211,7 +196,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 326
+    "seeders": 369
+  },
+  {
+    "id": "tt33322174",
+    "type": "movie",
+    "name": "Vándorok",
+    "poster": "https://image.tmdb.org/t/p/w500/kpUkx4nxuH9ssoTi4NLunlRcXgu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Roussier család története a francia riviéra nyári hangulatában bontakozik ki. Bertille, a tizenhárom éves kislány súlyos fogyatékossággal él, és bizonytalan diagnózisa fenyegeti a család törékeny egyensúlyát. Szülei és nővére, Marion folyamatosan attól félnek, hogy elveszíthetik őt. Marion, aki távol került a szokásos tinédzser álmoktól, egy idősebb fiúval való kapcsolatban talál menedéket. Amikor új diagnózis lát napvilágot, a család jövője váratlan fordulatot vesz, új lehetőségeket kínálva számukra.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt21442114",
@@ -228,7 +228,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 213
+    "seeders": 244
   },
   {
     "id": "tt33714084",
@@ -244,7 +244,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 219
+    "seeders": 241
   },
   {
     "id": "tt6374142",
@@ -260,7 +260,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 229
+    "seeders": 254
   },
   {
     "id": "tt0800175",
@@ -278,7 +278,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 395
+    "seeders": 439
   },
   {
     "id": "tt28682323",
@@ -294,7 +294,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 181
+    "seeders": 206
   },
   {
     "id": "tt34910018",
@@ -310,7 +310,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 232
+    "seeders": 258
   },
   {
     "id": "tt34482468",
@@ -326,7 +326,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 103
+    "seeders": 119
   },
   {
     "id": "tt32801387",
@@ -344,7 +344,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 235
+    "seeders": 263
   },
   {
     "id": "tt38350059",
@@ -361,7 +361,7 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 147
+    "seeders": 155
   },
   {
     "id": "tt31828554",
@@ -378,7 +378,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 138
+    "seeders": 152
   },
   {
     "id": "tt31116965",
@@ -394,7 +394,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 94
+    "seeders": 103
   },
   {
     "id": "tt27613895",
@@ -411,7 +411,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 170
+    "seeders": 187
   },
   {
     "id": "tt35286242",
@@ -427,7 +427,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 66
+    "seeders": 73
   },
   {
     "id": "tt40660080",
@@ -443,7 +443,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 55
+    "seeders": 58
   },
   {
     "id": "tt23172090",
@@ -460,7 +460,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 106
+    "seeders": 112
   },
   {
     "id": "tt32897959",
@@ -476,23 +476,23 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 83
+    "seeders": 91
   },
   {
-    "id": "tt32194932",
+    "id": "tt32141377",
     "type": "movie",
-    "name": "A végső rítus",
-    "poster": "https://image.tmdb.org/t/p/w500/lLlqIJS8bSUJUEG9gUmnjo6c2r0.jpg",
+    "name": "28 évvel később: A csonttemplom",
+    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A film középpontjában két katolikus pap áll: Theophilus Riesinger (Al Pacino), aki saját múltjával küzd, és Joseph Steiger (Dan Stevens), aki hitében megingott. Együtt próbálják megmenteni Emma Schmidtet (Abigail Cowen), egy fiatal nőt, akit démoni megszállottság gyötör. A papoknak félre kell tenniük nézeteltéréseiket és személyes démonjaikat, hogy szembenézzenek a gonosszal egy sor veszélyes ördögűzés során.  (Csillag Lajos)",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
     "genres": [
       "Horror",
-      "Dráma",
-      "Thriller"
+      "Thriller",
+      "Sci-Fi"
     ],
-    "seeders": 174
+    "seeders": 162
   }
 ]
