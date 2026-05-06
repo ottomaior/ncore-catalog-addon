@@ -1,5 +1,36 @@
 [
   {
+    "id": "tt25813918",
+    "type": "movie",
+    "name": "Lo que queda de ti",
+    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 66
+  },
+  {
+    "id": "tt37738006",
+    "type": "movie",
+    "name": "1000 Men and Me: The Bonnie Blue Story",
+    "poster": "https://image.tmdb.org/t/p/w500/5dcgoyf8nt6Xt4VSR6Nrn6nwhuz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "TV film"
+    ],
+    "seeders": 53
+  },
+  {
     "id": "tt33978029",
     "type": "movie",
     "name": "Aki bújt 2: Jövök!",
@@ -13,7 +44,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 613
+    "seeders": 777
   },
   {
     "id": "tt26443616",
@@ -32,7 +63,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 455
+    "seeders": 550
   },
   {
     "id": "tt31434030",
@@ -49,7 +80,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 524
+    "seeders": 614
   },
   {
     "id": "tt8879928",
@@ -66,7 +97,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 652
+    "seeders": 746
   },
   {
     "id": "tt31728330",
@@ -83,7 +114,23 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 681
+    "seeders": 832
+  },
+  {
+    "id": "tt16431404",
+    "type": "movie",
+    "name": "Csúcsragadozó",
+    "poster": "https://image.tmdb.org/t/p/w500/whKPSACIlNMuYqLF4CnfHgjrPPz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy gyászoló nő egyedül vág neki az ausztrál vadonnak, hogy feszegesse a saját határait, azonban prédává válik egy alattomos gyilkos beteges játékában.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 964
   },
   {
     "id": "tt38508942",
@@ -98,23 +145,26 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 491
+    "seeders": 560
   },
   {
-    "id": "tt16431404",
+    "id": "tt29552248",
     "type": "movie",
-    "name": "Csúcsragadozó",
-    "poster": "https://image.tmdb.org/t/p/w500/whKPSACIlNMuYqLF4CnfHgjrPPz.jpg",
+    "name": "Egymás bőrében",
+    "poster": "https://image.tmdb.org/t/p/w500/hz77dowXo4B1dS3oeyMM2Cdb8ex.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy gyászoló nő egyedül vág neki az ausztrál vadonnak, hogy feszegesse a saját határait, azonban prédává válik egy alattomos gyilkos beteges játékában.",
-    "imdbRating": 6.4,
+    "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Kaland",
+      "Animációs",
+      "Családi",
+      "Fantasy",
+      "Vígjáték"
     ],
-    "seeders": 806
+    "seeders": 353
   },
   {
     "id": "tt32357218",
@@ -131,41 +181,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 159
-  },
-  {
-    "id": "tt29552248",
-    "type": "movie",
-    "name": "Egymás bőrében",
-    "poster": "https://image.tmdb.org/t/p/w500/hz77dowXo4B1dS3oeyMM2Cdb8ex.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Animációs",
-      "Vígjáték",
-      "Családi",
-      "Fantasy"
-    ],
-    "seeders": 311
+    "seeders": 180
   },
   {
     "id": "tt33322174",
     "type": "movie",
-    "name": "Qui brille au combat",
+    "name": "Vándorok",
     "poster": "https://image.tmdb.org/t/p/w500/kpUkx4nxuH9ssoTi4NLunlRcXgu.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "A Roussier család története a francia riviéra nyári hangulatában bontakozik ki. Bertille, a tizenhárom éves kislány súlyos fogyatékossággal él, és bizonytalan diagnózisa fenyegeti a család törékeny egyensúlyát. Szülei és nővére, Marion folyamatosan attól félnek, hogy elveszíthetik őt. Marion, aki távol került a szokásos tinédzser álmoktól, egy idősebb fiúval való kapcsolatban talál menedéket. Amikor új diagnózis lát napvilágot, a család jövője váratlan fordulatot vesz, új lehetőségeket kínálva számukra.",
     "imdbRating": 6.9,
     "releaseInfo": "2025",
     "genres": [
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 101
   },
   {
     "id": "tt40381358",
@@ -180,7 +211,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 278
+    "seeders": 326
   },
   {
     "id": "tt21442114",
@@ -197,23 +228,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 190
-  },
-  {
-    "id": "tt6374142",
-    "type": "movie",
-    "name": "Bizalom nélkül",
-    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 209
+    "seeders": 213
   },
   {
     "id": "tt33714084",
@@ -229,7 +244,23 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 188
+    "seeders": 219
+  },
+  {
+    "id": "tt6374142",
+    "type": "movie",
+    "name": "Bizalom nélkül",
+    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 229
   },
   {
     "id": "tt0800175",
@@ -247,23 +278,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 333
-  },
-  {
-    "id": "tt34910018",
-    "type": "movie",
-    "name": "Lopakodók: A végső ellenállás",
-    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 207
+    "seeders": 395
   },
   {
     "id": "tt28682323",
@@ -279,7 +294,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 149
+    "seeders": 181
+  },
+  {
+    "id": "tt34910018",
+    "type": "movie",
+    "name": "Lopakodók: A végső ellenállás",
+    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 232
   },
   {
     "id": "tt34482468",
@@ -298,23 +329,6 @@
     "seeders": 103
   },
   {
-    "id": "tt38350059",
-    "type": "movie",
-    "name": "A helyes úton",
-    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi",
-      "Kaland"
-    ],
-    "seeders": 136
-  },
-  {
     "id": "tt32801387",
     "type": "movie",
     "name": "Tolvajok országútja",
@@ -330,7 +344,24 @@
       "Western",
       "Akció"
     ],
-    "seeders": 213
+    "seeders": 235
+  },
+  {
+    "id": "tt38350059",
+    "type": "movie",
+    "name": "A helyes úton",
+    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi",
+      "Kaland"
+    ],
+    "seeders": 147
   },
   {
     "id": "tt31828554",
@@ -347,7 +378,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 128
+    "seeders": 138
   },
   {
     "id": "tt31116965",
@@ -363,7 +394,24 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 87
+    "seeders": 94
+  },
+  {
+    "id": "tt27613895",
+    "type": "movie",
+    "name": "GOAT - Will, a bajnok",
+    "poster": "https://image.tmdb.org/t/p/w500/97osc8Z8xBkgcG5iNXeXznLrLCe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bömball a világ legveszélyesebb sportja. Nagyvadak játsszák egy nagyon veszélyes pályán. És Will, a kis kecske százszor hallotta már életében, hogy hol van a kis állatok helye: a pálya szélén, vagy legfeljebb a lelátón. Ő azonban nem hajlandó elfogadni a prózai valóságot. A bömball legjobbjai közé akar kerülni. És mindent megér neki, hogy megvalósítsa az álmát.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 170
   },
   {
     "id": "tt35286242",
@@ -382,23 +430,6 @@
     "seeders": 66
   },
   {
-    "id": "tt27613895",
-    "type": "movie",
-    "name": "GOAT - Will, a bajnok",
-    "poster": "https://image.tmdb.org/t/p/w500/97osc8Z8xBkgcG5iNXeXznLrLCe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bömball a világ legveszélyesebb sportja. Nagyvadak játsszák egy nagyon veszélyes pályán. És Will, a kis kecske százszor hallotta már életében, hogy hol van a kis állatok helye: a pálya szélén, vagy legfeljebb a lelátón. Ő azonban nem hajlandó elfogadni a prózai valóságot. A bömball legjobbjai közé akar kerülni. És mindent megér neki, hogy megvalósítsa az álmát.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 151
-  },
-  {
     "id": "tt40660080",
     "type": "movie",
     "name": "Családi kapcsolatok",
@@ -412,7 +443,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 57
+    "seeders": 55
   },
   {
     "id": "tt23172090",
@@ -429,7 +460,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 93
+    "seeders": 106
   },
   {
     "id": "tt32897959",
@@ -445,7 +476,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 70
+    "seeders": 83
   },
   {
     "id": "tt32194932",
@@ -462,40 +493,6 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt32141377",
-    "type": "movie",
-    "name": "28 évvel később: A csonttemplom",
-    "poster": "https://image.tmdb.org/t/p/w500/2d1BcyLdE5MPp3pB7XywRyhm0Y1.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy zombihordák által uralt, a külvilágtól elzárt Angliában még mindig élnek kisebb emberi közösségek. Ők azok, akiknek sikerült megvédeniük magukat és a civilizáció romjain próbálnak valamiféle hétköznapi életet kialakítani. Ám a túlélés esélye csekély, mert előbb-utóbb mindenki ráébred: talán nem is a fertőzöttek jelentik a legnagyobb fenyegetést. A túlélők kegyetlensége sokkal nyugtalanítóbb és félelmetesebb, mint az erőszak vírusát hordozó zombiké és egyben pusztítóbb is.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Sci-Fi"
-    ],
-    "seeders": 129
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 132
+    "seeders": 174
   }
 ]
