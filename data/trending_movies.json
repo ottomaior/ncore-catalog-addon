@@ -13,7 +13,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 299
+    "seeders": 488
   },
   {
     "id": "tt37738006",
@@ -29,7 +29,7 @@
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 736
+    "seeders": 821
   },
   {
     "id": "tt33978029",
@@ -45,24 +45,24 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 1222
+    "seeders": 1295
   },
   {
     "id": "tt39749979",
     "type": "movie",
-    "name": "เลือดรักนักฆ่า",
+    "name": "Akiért a szívem dobog",
     "poster": "https://image.tmdb.org/t/p/w500/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "description": "Egy nőt ritka vércsoportja tesz célponttá, de védelemre talál egy vonzó, ám halálos bérgyilkos óvó karjaiban. Ketten együtt küzdenek a túlélésért.",
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 133
+    "seeders": 159
   },
   {
     "id": "tt26443616",
@@ -81,7 +81,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 800
+    "seeders": 878
   },
   {
     "id": "tt31434030",
@@ -98,7 +98,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 728
+    "seeders": 748
   },
   {
     "id": "tt8879928",
@@ -115,7 +115,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 921
+    "seeders": 945
   },
   {
     "id": "tt31728330",
@@ -132,7 +132,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 976
+    "seeders": 995
   },
   {
     "id": "tt16431404",
@@ -148,22 +148,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1122
-  },
-  {
-    "id": "tt25813918",
-    "type": "movie",
-    "name": "Ami maradt belőled",
-    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Apja halála után Sara felhagy a jazz-zongoraművész jövőjével New Yorkban, és szembenéz családja bioállat-tenyésztői múltjával.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 99
+    "seeders": 1152
   },
   {
     "id": "tt38508942",
@@ -178,7 +163,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 611
+    "seeders": 603
   },
   {
     "id": "tt29552248",
@@ -197,7 +182,22 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 423
+    "seeders": 419
+  },
+  {
+    "id": "tt25813918",
+    "type": "movie",
+    "name": "Ami maradt belőled",
+    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Apja halála után Sara felhagy a jazz-zongoraművész jövőjével New Yorkban, és szembenéz családja bioállat-tenyésztői múltjával.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt40603309",
@@ -212,7 +212,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 82
+    "seeders": 84
   },
   {
     "id": "tt40381358",
@@ -227,7 +227,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 380
+    "seeders": 398
   },
   {
     "id": "tt32357218",
@@ -244,7 +244,39 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 201
+    "seeders": 205
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 238
+  },
+  {
+    "id": "tt6374142",
+    "type": "movie",
+    "name": "Bizalom nélkül",
+    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 245
   },
   {
     "id": "tt21442114",
@@ -261,23 +293,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 236
-  },
-  {
-    "id": "tt33714084",
-    "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 241
+    "seeders": 213
   },
   {
     "id": "tt0800175",
@@ -295,7 +311,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 438
+    "seeders": 409
   },
   {
     "id": "tt33322174",
@@ -310,23 +326,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 101
-  },
-  {
-    "id": "tt6374142",
-    "type": "movie",
-    "name": "Bizalom nélkül",
-    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 242
+    "seeders": 93
   },
   {
     "id": "tt28682323",
@@ -358,7 +358,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 236
+    "seeders": 240
   },
   {
     "id": "tt32801387",
@@ -376,24 +376,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 264
-  },
-  {
-    "id": "tt31828554",
-    "type": "movie",
-    "name": "A nevem Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 153
+    "seeders": 259
   },
   {
     "id": "tt38350059",
@@ -410,7 +393,24 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 152
+    "seeders": 157
+  },
+  {
+    "id": "tt31828554",
+    "type": "movie",
+    "name": "A nevem Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 149
   },
   {
     "id": "tt34482468",
@@ -426,23 +426,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 110
-  },
-  {
-    "id": "tt31116965",
-    "type": "movie",
-    "name": "Kedves kisasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/3Od2J0JICLLMQfQAUbpCJg82HYg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 93
+    "seeders": 109
   },
   {
     "id": "tt27613895",
@@ -459,7 +443,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 177
+    "seeders": 185
+  },
+  {
+    "id": "tt31116965",
+    "type": "movie",
+    "name": "Kedves kisasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/3Od2J0JICLLMQfQAUbpCJg82HYg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt35286242",
@@ -475,7 +475,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 71
+    "seeders": 66
   },
   {
     "id": "tt23172090",
@@ -492,6 +492,6 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 105
+    "seeders": 109
   }
 ]
