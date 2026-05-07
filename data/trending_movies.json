@@ -1,20 +1,19 @@
 [
   {
-    "id": "tt39749979",
+    "id": "tt35222590",
     "type": "movie",
-    "name": "เลือดรักนักฆ่า",
-    "poster": "https://image.tmdb.org/t/p/w500/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
+    "name": "A 8-as kijárat",
+    "poster": "https://image.tmdb.org/t/p/w500/7IkfaPA5v3PmACvfebQkpubHOy1.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
     "genres": [
-      "Akció",
-      "Dráma",
-      "Romantikus"
+      "Horror",
+      "Rejtély"
     ],
-    "seeders": 75
+    "seeders": 299
   },
   {
     "id": "tt37738006",
@@ -30,7 +29,7 @@
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 604
+    "seeders": 736
   },
   {
     "id": "tt33978029",
@@ -46,7 +45,24 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 1000
+    "seeders": 1222
+  },
+  {
+    "id": "tt39749979",
+    "type": "movie",
+    "name": "เลือดรักนักฆ่า",
+    "poster": "https://image.tmdb.org/t/p/w500/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 133
   },
   {
     "id": "tt26443616",
@@ -65,7 +81,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 675
+    "seeders": 800
   },
   {
     "id": "tt31434030",
@@ -82,7 +98,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 594
+    "seeders": 728
   },
   {
     "id": "tt8879928",
@@ -99,22 +115,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 746
-  },
-  {
-    "id": "tt25813918",
-    "type": "movie",
-    "name": "Ami maradt belőled",
-    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Apja halála után Sara felhagy a jazz-zongoraművész jövőjével New Yorkban, és szembenéz családja bioállat-tenyésztői múltjával.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 93
+    "seeders": 921
   },
   {
     "id": "tt31728330",
@@ -131,22 +132,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 836
-  },
-  {
-    "id": "tt40603309",
-    "type": "movie",
-    "name": "Countdown: Rousey vs. Carano",
-    "poster": "https://image.tmdb.org/t/p/w500/pVNvbDX9psQhmCvc37A3XKLZjEz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 73
+    "seeders": 976
   },
   {
     "id": "tt16431404",
@@ -162,7 +148,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 959
+    "seeders": 1122
+  },
+  {
+    "id": "tt25813918",
+    "type": "movie",
+    "name": "Ami maradt belőled",
+    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Apja halála után Sara felhagy a jazz-zongoraművész jövőjével New Yorkban, és szembenéz családja bioállat-tenyésztői múltjával.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt38508942",
@@ -177,7 +178,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 525
+    "seeders": 611
   },
   {
     "id": "tt29552248",
@@ -196,7 +197,22 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 367
+    "seeders": 423
+  },
+  {
+    "id": "tt40603309",
+    "type": "movie",
+    "name": "Countdown: Rousey vs. Carano",
+    "poster": "https://image.tmdb.org/t/p/w500/pVNvbDX9psQhmCvc37A3XKLZjEz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 82
   },
   {
     "id": "tt40381358",
@@ -211,7 +227,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 343
+    "seeders": 380
   },
   {
     "id": "tt32357218",
@@ -228,22 +244,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 190
-  },
-  {
-    "id": "tt33322174",
-    "type": "movie",
-    "name": "Vándorok",
-    "poster": "https://image.tmdb.org/t/p/w500/kpUkx4nxuH9ssoTi4NLunlRcXgu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Roussier család története a francia riviéra nyári hangulatában bontakozik ki. Bertille, a tizenhárom éves kislány súlyos fogyatékossággal él, és bizonytalan diagnózisa fenyegeti a család törékeny egyensúlyát. Szülei és nővére, Marion folyamatosan attól félnek, hogy elveszíthetik őt. Marion, aki távol került a szokásos tinédzser álmoktól, egy idősebb fiúval való kapcsolatban talál menedéket. Amikor új diagnózis lát napvilágot, a család jövője váratlan fordulatot vesz, új lehetőségeket kínálva számukra.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 99
+    "seeders": 201
   },
   {
     "id": "tt21442114",
@@ -260,7 +261,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 198
+    "seeders": 236
   },
   {
     "id": "tt33714084",
@@ -276,23 +277,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 212
-  },
-  {
-    "id": "tt6374142",
-    "type": "movie",
-    "name": "Bizalom nélkül",
-    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 220
+    "seeders": 241
   },
   {
     "id": "tt0800175",
@@ -310,7 +295,38 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 382
+    "seeders": 438
+  },
+  {
+    "id": "tt33322174",
+    "type": "movie",
+    "name": "Vándorok",
+    "poster": "https://image.tmdb.org/t/p/w500/kpUkx4nxuH9ssoTi4NLunlRcXgu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Roussier család története a francia riviéra nyári hangulatában bontakozik ki. Bertille, a tizenhárom éves kislány súlyos fogyatékossággal él, és bizonytalan diagnózisa fenyegeti a család törékeny egyensúlyát. Szülei és nővére, Marion folyamatosan attól félnek, hogy elveszíthetik őt. Marion, aki távol került a szokásos tinédzser álmoktól, egy idősebb fiúval való kapcsolatban talál menedéket. Amikor új diagnózis lát napvilágot, a család jövője váratlan fordulatot vesz, új lehetőségeket kínálva számukra.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 101
+  },
+  {
+    "id": "tt6374142",
+    "type": "movie",
+    "name": "Bizalom nélkül",
+    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 242
   },
   {
     "id": "tt28682323",
@@ -326,7 +342,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 170
+    "seeders": 195
   },
   {
     "id": "tt34910018",
@@ -342,7 +358,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 215
+    "seeders": 236
   },
   {
     "id": "tt32801387",
@@ -360,24 +376,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 239
-  },
-  {
-    "id": "tt38350059",
-    "type": "movie",
-    "name": "A helyes úton",
-    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi",
-      "Kaland"
-    ],
-    "seeders": 140
+    "seeders": 264
   },
   {
     "id": "tt31828554",
@@ -394,7 +393,24 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 135
+    "seeders": 153
+  },
+  {
+    "id": "tt38350059",
+    "type": "movie",
+    "name": "A helyes úton",
+    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi",
+      "Kaland"
+    ],
+    "seeders": 152
   },
   {
     "id": "tt34482468",
@@ -410,7 +426,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 95
+    "seeders": 110
   },
   {
     "id": "tt31116965",
@@ -426,7 +442,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 86
+    "seeders": 93
   },
   {
     "id": "tt27613895",
@@ -443,7 +459,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 162
+    "seeders": 177
   },
   {
     "id": "tt35286242",
@@ -459,7 +475,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 63
+    "seeders": 71
   },
   {
     "id": "tt23172090",
@@ -476,22 +492,6 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 99
-  },
-  {
-    "id": "tt40660080",
-    "type": "movie",
-    "name": "Családi kapcsolatok",
-    "poster": "https://image.tmdb.org/t/p/w500/gVkNgA7K5dnv26X6PFK8TkY2kFD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "José, a tökéletes vő emlékezetes bajusszal, csak előrébb akart jutni, de minden megállapodásnak ára van. Az apósa váratlanul szabotálja terveit.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 51
+    "seeders": 105
   }
 ]
