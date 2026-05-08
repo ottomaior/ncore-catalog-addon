@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt35222590",
+    "type": "movie",
+    "name": "A 8-as kijárat",
+    "poster": "https://image.tmdb.org/t/p/w500/7IkfaPA5v3PmACvfebQkpubHOy1.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 469
+  },
+  {
     "id": "tt30472557",
     "type": "movie",
     "name": "劇場版 チェンソーマン レゼ篇",
@@ -15,55 +31,7 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 65
-  },
-  {
-    "id": "tt35222590",
-    "type": "movie",
-    "name": "A 8-as kijárat",
-    "poster": "https://image.tmdb.org/t/p/w500/7IkfaPA5v3PmACvfebQkpubHOy1.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 368
-  },
-  {
-    "id": "tt32398150",
-    "type": "movie",
-    "name": "L'Inconnu de la Grande Arche",
-    "poster": "https://image.tmdb.org/t/p/w500/8tZIyy0N6525GQXKwwdjgoPZ6BT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Otto von Spreckelsen, egy valós koppenhágai építészmérnök története, aki meglepte a világot, amikor megnyerte a François Mitterrand francia elnök által kiírt nyílt pályázatot.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 44
-  },
-  {
-    "id": "tt37738006",
-    "type": "movie",
-    "name": "1000 férfi 12 óra alatt – A Bonnie Blue-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/5dcgoyf8nt6Xt4VSR6Nrn6nwhuz.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Bonnie Blue-sztori egy provokatív, egész estés dokumentumfilm egy fiatal nő történetéről, aki saját testét, identitását és nyilvános megítélését állítja egy szélsőséges társadalmi kísérlet középpontjába. Bonnie Blue személyes narrációján keresztül a film azt vizsgálja, mit jelent ma az önrendelkezés, a hírnév és a női szexualitás egy olyan korban, ahol a magánélet és a nyilvánosság határai végleg elmosódni látszanak. A dokumentumfilm nem pusztán egy extrém vállalás krónikája, hanem érzékeny portré a figyelemgazdaság működéséről. Megmutatja, hogyan válik egy egyéni döntés globális vitává, miközben a közösségi média, a pornóipar és a mainstream média egyszerre formálja és torzítja a főszereplő történetét. Bonnie Blue egyszerre alkotó, termék és vitatott kulturális jelenség.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "TV film"
-    ],
-    "seeders": 583
+    "seeders": 90
   },
   {
     "id": "tt33978029",
@@ -79,7 +47,39 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 868
+    "seeders": 1094
+  },
+  {
+    "id": "tt37738006",
+    "type": "movie",
+    "name": "1000 férfi 12 óra alatt – A Bonnie Blue-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/5dcgoyf8nt6Xt4VSR6Nrn6nwhuz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Bonnie Blue-sztori egy provokatív, egész estés dokumentumfilm egy fiatal nő történetéről, aki saját testét, identitását és nyilvános megítélését állítja egy szélsőséges társadalmi kísérlet középpontjába. Bonnie Blue személyes narrációján keresztül a film azt vizsgálja, mit jelent ma az önrendelkezés, a hírnév és a női szexualitás egy olyan korban, ahol a magánélet és a nyilvánosság határai végleg elmosódni látszanak. A dokumentumfilm nem pusztán egy extrém vállalás krónikája, hanem érzékeny portré a figyelemgazdaság működéséről. Megmutatja, hogyan válik egy egyéni döntés globális vitává, miközben a közösségi média, a pornóipar és a mainstream média egyszerre formálja és torzítja a főszereplő történetét. Bonnie Blue egyszerre alkotó, termék és vitatott kulturális jelenség.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "TV film"
+    ],
+    "seeders": 673
+  },
+  {
+    "id": "tt32398150",
+    "type": "movie",
+    "name": "L'Inconnu de la Grande Arche",
+    "poster": "https://image.tmdb.org/t/p/w500/8tZIyy0N6525GQXKwwdjgoPZ6BT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Otto von Spreckelsen, egy valós koppenhágai építészmérnök története, aki meglepte a világot, amikor megnyerte a François Mitterrand francia elnök által kiírt nyílt pályázatot.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 63
   },
   {
     "id": "tt26443616",
@@ -98,7 +98,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 644
+    "seeders": 738
   },
   {
     "id": "tt39749979",
@@ -115,7 +115,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 135
+    "seeders": 152
   },
   {
     "id": "tt31434030",
@@ -132,7 +132,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 505
+    "seeders": 611
   },
   {
     "id": "tt8879928",
@@ -149,7 +149,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 605
+    "seeders": 751
   },
   {
     "id": "tt31728330",
@@ -166,7 +166,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 640
+    "seeders": 782
   },
   {
     "id": "tt16431404",
@@ -182,7 +182,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 773
+    "seeders": 948
   },
   {
     "id": "tt38508942",
@@ -197,7 +197,25 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 425
+    "seeders": 506
+  },
+  {
+    "id": "tt29552248",
+    "type": "movie",
+    "name": "Egymás bőrében",
+    "poster": "https://image.tmdb.org/t/p/w500/hz77dowXo4B1dS3oeyMM2Cdb8ex.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Animációs",
+      "Családi",
+      "Fantasy"
+    ],
+    "seeders": 361
   },
   {
     "id": "tt25813918",
@@ -212,7 +230,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 81
+    "seeders": 91
   },
   {
     "id": "tt40381358",
@@ -227,7 +245,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 288
+    "seeders": 330
   },
   {
     "id": "tt32357218",
@@ -244,7 +262,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 161
+    "seeders": 184
   },
   {
     "id": "tt40603309",
@@ -259,24 +277,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 65
-  },
-  {
-    "id": "tt21442114",
-    "type": "movie",
-    "name": "Vitéz Egyes",
-    "poster": "https://image.tmdb.org/t/p/w500/sT8Z14RDCAd6szzxzWFAU4xcMwg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Észak- és Dél-Korea közötti feszültség miatt egy amerikai helikopter lezuhan az észak-koreai oldalon. A túlélőknek együtt kell dolgozniuk, hogy megvédjenek egy civil műszaki szakembert, és amerikai katonai segítség nélkül is megtalálják a kiutat.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Háborús",
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 175
+    "seeders": 74
   },
   {
     "id": "tt0800175",
@@ -294,7 +295,24 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 313
+    "seeders": 390
+  },
+  {
+    "id": "tt21442114",
+    "type": "movie",
+    "name": "Vitéz Egyes",
+    "poster": "https://image.tmdb.org/t/p/w500/n25G21jmTENrr3JWZg6ZFD0xEu6.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Észak- és Dél-Korea közötti feszültség miatt egy amerikai helikopter lezuhan az észak-koreai oldalon. A túlélőknek együtt kell dolgozniuk, hogy megvédjenek egy civil műszaki szakembert, és amerikai katonai segítség nélkül is megtalálják a kiutat.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Háborús",
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 197
   },
   {
     "id": "tt33714084",
@@ -310,7 +328,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 174
+    "seeders": 208
   },
   {
     "id": "tt6374142",
@@ -326,7 +344,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 182
+    "seeders": 203
   },
   {
     "id": "tt33322174",
@@ -341,7 +359,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 88
   },
   {
     "id": "tt34910018",
@@ -357,7 +375,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 186
+    "seeders": 218
   },
   {
     "id": "tt28682323",
@@ -373,7 +391,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 149
+    "seeders": 163
   },
   {
     "id": "tt32801387",
@@ -391,7 +409,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 198
+    "seeders": 231
   },
   {
     "id": "tt31828554",
@@ -408,7 +426,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 123
+    "seeders": 136
   },
   {
     "id": "tt38350059",
@@ -425,7 +443,7 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 120
+    "seeders": 136
   },
   {
     "id": "tt34482468",
@@ -441,23 +459,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt31116965",
-    "type": "movie",
-    "name": "Kedves kisasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/3Od2J0JICLLMQfQAUbpCJg82HYg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 77
+    "seeders": 91
   },
   {
     "id": "tt27613895",
@@ -474,22 +476,22 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 142
+    "seeders": 161
   },
   {
-    "id": "tt35286242",
+    "id": "tt31116965",
     "type": "movie",
-    "name": "Mágikus állatok iskolája - Együtt a suliért",
-    "poster": "https://image.tmdb.org/t/p/w500/oPm7nOh2UAkOs1dduA11c9pT0Qf.jpg",
+    "name": "Kedves kisasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/3Od2J0JICLLMQfQAUbpCJg82HYg.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Ida barátnője, Miriam három hónapra érkezik a Winterstein Iskolába, de félő, hogy egy titok szétzilálja a lányok barátságát. Miriamra bízzák a koboldmaki Fitzgeraldót, míg Max Murielt, a baglyot kapja. Eközben a kétségbeesett igazgató az iskola eladását tervezi, ami az egész mágikus közösség sorsát fenyegeti. Ida és osztálytársai úgy gondolják, hogy a közelgő iskolai verseny lehet az utolsó reményük arra, hogy megmentsék szeretett alma materüket. Vajon sikerül a küldetés, mielőtt a varázslat végleg elszállna?",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
     "genres": [
-      "Családi",
-      "Fantasy"
+      "Dráma",
+      "Romantikus"
     ],
-    "seeders": 50
+    "seeders": 83
   }
 ]
