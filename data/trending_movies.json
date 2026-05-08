@@ -1,5 +1,23 @@
 [
   {
+    "id": "tt30472557",
+    "type": "movie",
+    "name": "劇場版 チェンソーマン レゼ篇",
+    "poster": "https://image.tmdb.org/t/p/w500/dUbacBfy6M0EBLPssQhJFhtHxIU.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Denji immár a Special Division 4-hez tartozó démonvadász. Egy esős nap után, miután találkozott Makimával – aki addigra az álmai nőjévé vált –, menedéket keres, és egy kávézóban megismerkedik Reze-zel. Reze a káprázatos szépségű lány, akibe Denji mélységesen beleszeret. Ám Reze nem az, akinek látszik. A romantika és az emberi kapcsolat illúziója tragédiába torkollik, amikor kiderül, hogy Reze valódi céljai megrendítik Denji bizalmát és kilátásait.  (Csillag Lajos)",
+    "imdbRating": 8.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Romantikus",
+      "Fantasy"
+    ],
+    "seeders": 65
+  },
+  {
     "id": "tt35222590",
     "type": "movie",
     "name": "A 8-as kijárat",
@@ -13,7 +31,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 488
+    "seeders": 368
+  },
+  {
+    "id": "tt32398150",
+    "type": "movie",
+    "name": "L'Inconnu de la Grande Arche",
+    "poster": "https://image.tmdb.org/t/p/w500/8tZIyy0N6525GQXKwwdjgoPZ6BT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Otto von Spreckelsen, egy valós koppenhágai építészmérnök története, aki meglepte a világot, amikor megnyerte a François Mitterrand francia elnök által kiírt nyílt pályázatot.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 44
   },
   {
     "id": "tt37738006",
@@ -29,7 +63,7 @@
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 821
+    "seeders": 583
   },
   {
     "id": "tt33978029",
@@ -45,24 +79,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 1295
-  },
-  {
-    "id": "tt39749979",
-    "type": "movie",
-    "name": "Akiért a szívem dobog",
-    "poster": "https://image.tmdb.org/t/p/w500/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nőt ritka vércsoportja tesz célponttá, de védelemre talál egy vonzó, ám halálos bérgyilkos óvó karjaiban. Ketten együtt küzdenek a túlélésért.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 159
+    "seeders": 868
   },
   {
     "id": "tt26443616",
@@ -81,7 +98,24 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 878
+    "seeders": 644
+  },
+  {
+    "id": "tt39749979",
+    "type": "movie",
+    "name": "Akiért a szívem dobog",
+    "poster": "https://image.tmdb.org/t/p/w500/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nőt ritka vércsoportja tesz célponttá, de védelemre talál egy vonzó, ám halálos bérgyilkos óvó karjaiban. Ketten együtt küzdenek a túlélésért.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 135
   },
   {
     "id": "tt31434030",
@@ -98,7 +132,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 748
+    "seeders": 505
   },
   {
     "id": "tt8879928",
@@ -115,7 +149,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 945
+    "seeders": 605
   },
   {
     "id": "tt31728330",
@@ -132,7 +166,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 995
+    "seeders": 640
   },
   {
     "id": "tt16431404",
@@ -148,7 +182,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1152
+    "seeders": 773
   },
   {
     "id": "tt38508942",
@@ -163,26 +197,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 603
-  },
-  {
-    "id": "tt29552248",
-    "type": "movie",
-    "name": "Egymás bőrében",
-    "poster": "https://image.tmdb.org/t/p/w500/hz77dowXo4B1dS3oeyMM2Cdb8ex.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Animációs",
-      "Dráma",
-      "Családi",
-      "Fantasy"
-    ],
-    "seeders": 419
+    "seeders": 425
   },
   {
     "id": "tt25813918",
@@ -197,22 +212,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 90
-  },
-  {
-    "id": "tt40603309",
-    "type": "movie",
-    "name": "Countdown: Rousey vs. Carano",
-    "poster": "https://image.tmdb.org/t/p/w500/pVNvbDX9psQhmCvc37A3XKLZjEz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 84
+    "seeders": 81
   },
   {
     "id": "tt40381358",
@@ -227,7 +227,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 398
+    "seeders": 288
   },
   {
     "id": "tt32357218",
@@ -244,39 +244,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 205
+    "seeders": 161
   },
   {
-    "id": "tt33714084",
+    "id": "tt40603309",
     "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "name": "Countdown: Rousey vs. Carano",
+    "poster": "https://image.tmdb.org/t/p/w500/pVNvbDX9psQhmCvc37A3XKLZjEz.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
-    "imdbRating": 7.3,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
-      "Dráma"
+      "Dokumentum"
     ],
-    "seeders": 238
-  },
-  {
-    "id": "tt6374142",
-    "type": "movie",
-    "name": "Bizalom nélkül",
-    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 245
+    "seeders": 65
   },
   {
     "id": "tt21442114",
@@ -293,7 +276,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 213
+    "seeders": 175
   },
   {
     "id": "tt0800175",
@@ -311,7 +294,39 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 409
+    "seeders": 313
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 174
+  },
+  {
+    "id": "tt6374142",
+    "type": "movie",
+    "name": "Bizalom nélkül",
+    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 182
   },
   {
     "id": "tt33322174",
@@ -326,23 +341,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 93
-  },
-  {
-    "id": "tt28682323",
-    "type": "movie",
-    "name": "Hívatlanok - Utolsó fejezet",
-    "poster": "https://image.tmdb.org/t/p/w500/yPHwX78mcwJw3I6YOJ9qh2wQBFr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hívatlanok trilógia fináléjában Maya (Madelaine Petsch) utoljára néz szembe a maszkos gyilkosokkal, akik kegyetlen módon megölték a szerelmét, és rá is kitartóan vadásznak. A brutális, végső leszámolásban nemcsak a túlélés a cél, a bosszú is hajtja a hősnőt, hogy elégtételt vegyen a szeretett férfiért és visszakapja az élete feletti irányítást.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 195
+    "seeders": 79
   },
   {
     "id": "tt34910018",
@@ -358,7 +357,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 240
+    "seeders": 186
+  },
+  {
+    "id": "tt28682323",
+    "type": "movie",
+    "name": "Hívatlanok - Utolsó fejezet",
+    "poster": "https://image.tmdb.org/t/p/w500/yPHwX78mcwJw3I6YOJ9qh2wQBFr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hívatlanok trilógia fináléjában Maya (Madelaine Petsch) utoljára néz szembe a maszkos gyilkosokkal, akik kegyetlen módon megölték a szerelmét, és rá is kitartóan vadásznak. A brutális, végső leszámolásban nemcsak a túlélés a cél, a bosszú is hajtja a hősnőt, hogy elégtételt vegyen a szeretett férfiért és visszakapja az élete feletti irányítást.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 149
   },
   {
     "id": "tt32801387",
@@ -376,24 +391,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 259
-  },
-  {
-    "id": "tt38350059",
-    "type": "movie",
-    "name": "A helyes úton",
-    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi",
-      "Kaland"
-    ],
-    "seeders": 157
+    "seeders": 198
   },
   {
     "id": "tt31828554",
@@ -410,7 +408,24 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 149
+    "seeders": 123
+  },
+  {
+    "id": "tt38350059",
+    "type": "movie",
+    "name": "A helyes úton",
+    "poster": "https://image.tmdb.org/t/p/w500/9YMOTZUtfSdni2l4JDmxGUc0XVk.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Gennaro Nunziante rendezte Buen Camino című film Checco Zalone életét követi nyomon. Checco kényelmes és gondtalan életet él, ami nem is lehetne másképp, hiszen ő Eugenio Zalone, egy gazdag kanapégyártó egyetlen fia.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi",
+      "Kaland"
+    ],
+    "seeders": 120
   },
   {
     "id": "tt34482468",
@@ -426,7 +441,23 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 109
+    "seeders": 88
+  },
+  {
+    "id": "tt31116965",
+    "type": "movie",
+    "name": "Kedves kisasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/3Od2J0JICLLMQfQAUbpCJg82HYg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 77
   },
   {
     "id": "tt27613895",
@@ -443,23 +474,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 185
-  },
-  {
-    "id": "tt31116965",
-    "type": "movie",
-    "name": "Kedves kisasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/3Od2J0JICLLMQfQAUbpCJg82HYg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 84
+    "seeders": 142
   },
   {
     "id": "tt35286242",
@@ -475,23 +490,6 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 66
-  },
-  {
-    "id": "tt23172090",
-    "type": "movie",
-    "name": "Porszörny",
-    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Fantasy",
-      "Akció",
-      "Horror"
-    ],
-    "seeders": 109
+    "seeders": 50
   }
 ]
