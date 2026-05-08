@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt32398150",
+    "type": "movie",
+    "name": "L'Inconnu de la Grande Arche",
+    "poster": "https://image.tmdb.org/t/p/w500/8tZIyy0N6525GQXKwwdjgoPZ6BT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Otto von Spreckelsen, egy valós koppenhágai építészmérnök története, aki meglepte a világot, amikor megnyerte a François Mitterrand francia elnök által kiírt nyílt pályázatot.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ]
+  },
+  {
     "id": "tt35222590",
     "type": "movie",
     "name": "A 8-as kijárat",
@@ -12,22 +27,6 @@
     "genres": [
       "Horror",
       "Rejtély"
-    ]
-  },
-  {
-    "id": "tt39749979",
-    "type": "movie",
-    "name": "Akiért a szívem dobog",
-    "poster": "https://image.tmdb.org/t/p/w500/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nőt ritka vércsoportja tesz célponttá, de védelemre talál egy vonzó, ám halálos bérgyilkos óvó karjaiban. Ketten együtt küzdenek a túlélésért.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Romantikus"
     ]
   },
   {
@@ -237,7 +236,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A hagyományos családi háttérrel rendelkező fiatal nő megtudja, hogy interszexuális – az önfelfedezés és nemi önazonosság útjára indulva váratlanul talál rá a szerelem.",
-    "imdbRating": 5.2,
+    "imdbRating": 5.0,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
@@ -268,7 +267,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
-    "imdbRating": 8.0,
+    "imdbRating": 7.9,
     "releaseInfo": "2026",
     "genres": [
       "Kaland",
@@ -335,6 +334,22 @@
     "genres": [
       "Horror",
       "Thriller"
+    ]
+  },
+  {
+    "id": "tt39749979",
+    "type": "movie",
+    "name": "Akiért a szívem dobog",
+    "poster": "https://image.tmdb.org/t/p/w500/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nőt ritka vércsoportja tesz célponttá, de védelemre talál egy vonzó, ám halálos bérgyilkos óvó karjaiban. Ketten együtt küzdenek a túlélésért.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Romantikus"
     ]
   },
   {
