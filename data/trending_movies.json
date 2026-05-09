@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt23172090",
+    "type": "movie",
+    "name": "Porszörny",
+    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Fantasy",
+      "Akció",
+      "Horror"
+    ],
+    "seeders": 65
+  },
+  {
     "id": "tt33978029",
     "type": "movie",
     "name": "Aki bújt 2: Jövök!",
@@ -13,7 +30,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 1455
+    "seeders": 1637
   },
   {
     "id": "tt35222590",
@@ -29,23 +46,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 711
-  },
-  {
-    "id": "tt27592184",
-    "type": "movie",
-    "name": "Az utolsó vonat Fortune-ba",
-    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Western"
-    ],
-    "seeders": 233
+    "seeders": 774
   },
   {
     "id": "tt37738006",
@@ -61,7 +62,23 @@
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 868
+    "seeders": 946
+  },
+  {
+    "id": "tt27592184",
+    "type": "movie",
+    "name": "Az utolsó vonat Fortune-ba",
+    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Western"
+    ],
+    "seeders": 240
   },
   {
     "id": "tt26443616",
@@ -80,7 +97,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 963
+    "seeders": 1082
   },
   {
     "id": "tt31434030",
@@ -97,23 +114,24 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 840
+    "seeders": 906
   },
   {
-    "id": "tt33100314",
+    "id": "tt8879928",
     "type": "movie",
-    "name": "A boldogságnak nyolc karja van",
-    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
+    "name": "Dermesztő kór",
+    "poster": "https://image.tmdb.org/t/p/w500/AriwXWbnjYETyYZ9aRg06UQPxFl.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
-    "imdbRating": 8.0,
+    "description": "Két fiatal, Teasüti és Naomi egy önkiszolgáló raktározási cégnél dolgoznak. A raktárt egy régi amerikai katonai bázis területén hozták létre, ami elképesztő titkokat rejt a mélyben. Ilyen kegyetlen éjszakai műszakot egyikük sem tudott volna elképzelni: rájönnek, hogy egy extrém fertőzőképességű parazita gomba kijutott a bázis legalsó szintjéről, amit évtizedekkel ezelőtt a kormány lezsilipelt. Ahogy a föld alatti hőmérséklet emelkedik, ez a pusztító mikroorganizmus szaporodásnak indul, majd lecsap a létesítmény területén tartózkodókra – emberekre és más élőlényekre egyaránt. Az idő fogy, így Teasütin és Naomin múlik, hogy az őszülő bioterror-ügynök segítségével meg tudják-e fékezni a gyorsan mutálódó fenyegetést, és ezzel sikerül-e megakadályozni az emberiség robbanásszerű kihalását.",
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Rejtély"
+      "Horror",
+      "Sci-Fi",
+      "Vígjáték"
     ],
-    "seeders": 141
+    "seeders": 1016
   },
   {
     "id": "tt30472557",
@@ -131,24 +149,23 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 169
+    "seeders": 183
   },
   {
-    "id": "tt8879928",
+    "id": "tt33100314",
     "type": "movie",
-    "name": "Dermesztő kór",
-    "poster": "https://image.tmdb.org/t/p/w500/AriwXWbnjYETyYZ9aRg06UQPxFl.jpg",
+    "name": "A boldogságnak nyolc karja van",
+    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Két fiatal, Teasüti és Naomi egy önkiszolgáló raktározási cégnél dolgoznak. A raktárt egy régi amerikai katonai bázis területén hozták létre, ami elképesztő titkokat rejt a mélyben. Ilyen kegyetlen éjszakai műszakot egyikük sem tudott volna elképzelni: rájönnek, hogy egy extrém fertőzőképességű parazita gomba kijutott a bázis legalsó szintjéről, amit évtizedekkel ezelőtt a kormány lezsilipelt. Ahogy a föld alatti hőmérséklet emelkedik, ez a pusztító mikroorganizmus szaporodásnak indul, majd lecsap a létesítmény területén tartózkodókra – emberekre és más élőlényekre egyaránt. Az idő fogy, így Teasütin és Naomin múlik, hogy az őszülő bioterror-ügynök segítségével meg tudják-e fékezni a gyorsan mutálódó fenyegetést, és ezzel sikerül-e megakadályozni az emberiség robbanásszerű kihalását.",
-    "imdbRating": 6.8,
+    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Sci-Fi",
-      "Vígjáték"
+      "Dráma",
+      "Rejtély"
     ],
-    "seeders": 950
+    "seeders": 153
   },
   {
     "id": "tt39749979",
@@ -165,7 +182,23 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 191
+    "seeders": 196
+  },
+  {
+    "id": "tt16431404",
+    "type": "movie",
+    "name": "Csúcsragadozó",
+    "poster": "https://image.tmdb.org/t/p/w500/whKPSACIlNMuYqLF4CnfHgjrPPz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy gyászoló nő egyedül vág neki az ausztrál vadonnak, hogy feszegesse a saját határait, azonban prédává válik egy alattomos gyilkos beteges játékában.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 1232
   },
   {
     "id": "tt31728330",
@@ -182,23 +215,25 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 941
+    "seeders": 980
   },
   {
-    "id": "tt16431404",
+    "id": "tt29552248",
     "type": "movie",
-    "name": "Csúcsragadozó",
-    "poster": "https://image.tmdb.org/t/p/w500/whKPSACIlNMuYqLF4CnfHgjrPPz.jpg",
+    "name": "Egymás bőrében",
+    "poster": "https://image.tmdb.org/t/p/w500/mbAFOXNq86syhL4c2cClimgek7f.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy gyászoló nő egyedül vág neki az ausztrál vadonnak, hogy feszegesse a saját határait, azonban prédává válik egy alattomos gyilkos beteges játékában.",
-    "imdbRating": 6.4,
+    "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
+    "imdbRating": 7.9,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Kaland",
+      "Animációs",
+      "Családi",
+      "Fantasy"
     ],
-    "seeders": 1165
+    "seeders": 497
   },
   {
     "id": "tt38508942",
@@ -213,25 +248,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 583
+    "seeders": 623
   },
   {
-    "id": "tt29552248",
+    "id": "tt40381358",
     "type": "movie",
-    "name": "Egymás bőrében",
-    "poster": "https://image.tmdb.org/t/p/w500/hz77dowXo4B1dS3oeyMM2Cdb8ex.jpg",
+    "name": "Tavaszi szél - az ébredés",
+    "poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy aprócska erdei lény és egy fenséges madár hirtelen testet cserélnek, így kénytelenek összefogni, hogy túléljék életük legvadabb kalandját.",
-    "imdbRating": 7.9,
+    "description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
+    "imdbRating": 8.4,
     "releaseInfo": "2026",
     "genres": [
-      "Kaland",
-      "Animációs",
-      "Családi",
-      "Fantasy"
+      "Dokumentum"
     ],
-    "seeders": 448
+    "seeders": 429
   },
   {
     "id": "tt32398150",
@@ -247,22 +279,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 82
-  },
-  {
-    "id": "tt40381358",
-    "type": "movie",
-    "name": "Tavaszi szél - az ébredés",
-    "poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
-    "imdbRating": 8.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 414
+    "seeders": 83
   },
   {
     "id": "tt32357218",
@@ -279,7 +296,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 203
+    "seeders": 222
   },
   {
     "id": "tt0800175",
@@ -297,7 +314,23 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 431
+    "seeders": 455
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 240
   },
   {
     "id": "tt21442114",
@@ -314,38 +347,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 223
-  },
-  {
-    "id": "tt33714084",
-    "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 235
-  },
-  {
-    "id": "tt25813918",
-    "type": "movie",
-    "name": "Ami maradt belőled",
-    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Apja halála után Sara felhagy a jazz-zongoraművész jövőjével New Yorkban, és szembenéz családja bioállat-tenyésztői múltjával.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 87
+    "seeders": 226
   },
   {
     "id": "tt6374142",
@@ -361,7 +363,37 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 236
+    "seeders": 239
+  },
+  {
+    "id": "tt25813918",
+    "type": "movie",
+    "name": "Ami maradt belőled",
+    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Apja halála után Sara felhagy a jazz-zongoraművész jövőjével New Yorkban, és szembenéz családja bioállat-tenyésztői múltjával.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 86
+  },
+  {
+    "id": "tt40603309",
+    "type": "movie",
+    "name": "Countdown: Rousey vs. Carano",
+    "poster": "https://image.tmdb.org/t/p/w500/pVNvbDX9psQhmCvc37A3XKLZjEz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 76
   },
   {
     "id": "tt28682323",
@@ -393,22 +425,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 236
-  },
-  {
-    "id": "tt40603309",
-    "type": "movie",
-    "name": "Countdown: Rousey vs. Carano",
-    "poster": "https://image.tmdb.org/t/p/w500/pVNvbDX9psQhmCvc37A3XKLZjEz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 67
+    "seeders": 237
   },
   {
     "id": "tt32801387",
@@ -426,7 +443,7 @@
       "Western",
       "Akció"
     ],
-    "seeders": 270
+    "seeders": 273
   },
   {
     "id": "tt33322174",
@@ -441,24 +458,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 92
-  },
-  {
-    "id": "tt31828554",
-    "type": "movie",
-    "name": "A nevem Agneta",
-    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 146
+    "seeders": 88
   },
   {
     "id": "tt38350059",
@@ -475,22 +475,23 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 142
+    "seeders": 147
   },
   {
-    "id": "tt34482468",
+    "id": "tt31828554",
     "type": "movie",
-    "name": "Kincsvadászok Párizsban",
-    "poster": "https://image.tmdb.org/t/p/w500/9mfnxGRTS8TMjhhoKMTM1RlVAQQ.jpg",
+    "name": "A nevem Agneta",
+    "poster": "https://image.tmdb.org/t/p/w500/bN8QNFxhTKtrj0GnrVAFc7uAQZu.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy különc régész váratlan útra indul, hogy lányával és unokájával együtt felkutassa Hufu fáraó elveszett kincsét.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A nemrég munkanélkülivé vált Agneta új életre vágyva elfogad egy provence-i au pair munkát, ami egy kényeztető élménnyé – és egy váratlan feleszméléssé – avanzsál.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
     "genres": [
-      "Kaland",
-      "Vígjáték"
+      "Vígjáték",
+      "Dráma",
+      "Romantikus"
     ],
-    "seeders": 106
+    "seeders": 145
   }
 ]
