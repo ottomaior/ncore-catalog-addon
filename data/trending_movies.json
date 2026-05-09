@@ -1,37 +1,5 @@
 [
   {
-    "id": "tt27592184",
-    "type": "movie",
-    "name": "Az utolsó vonat Fortune-ba",
-    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Western"
-    ],
-    "seeders": 187
-  },
-  {
-    "id": "tt35222590",
-    "type": "movie",
-    "name": "A 8-as kijárat",
-    "poster": "https://image.tmdb.org/t/p/w500/7IkfaPA5v3PmACvfebQkpubHOy1.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 615
-  },
-  {
     "id": "tt33978029",
     "type": "movie",
     "name": "Aki bújt 2: Jövök!",
@@ -45,7 +13,39 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 1302
+    "seeders": 1455
+  },
+  {
+    "id": "tt35222590",
+    "type": "movie",
+    "name": "A 8-as kijárat",
+    "poster": "https://image.tmdb.org/t/p/w500/7IkfaPA5v3PmACvfebQkpubHOy1.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 711
+  },
+  {
+    "id": "tt27592184",
+    "type": "movie",
+    "name": "Az utolsó vonat Fortune-ba",
+    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Western"
+    ],
+    "seeders": 233
   },
   {
     "id": "tt37738006",
@@ -61,7 +61,7 @@
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 797
+    "seeders": 868
   },
   {
     "id": "tt26443616",
@@ -80,7 +80,24 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 864
+    "seeders": 963
+  },
+  {
+    "id": "tt31434030",
+    "type": "movie",
+    "name": "Drakula: Szerelmes történet",
+    "poster": "https://image.tmdb.org/t/p/w500/rVpYvR5x61J1SSsUdFnvihJYeNN.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Bram Stoker klasszikus Drakulájának feldolgozásában a 15. században egy herceg a felesége elvesztése után megtagadja Istent, emiatt örök átok sújtja és Drakulává válik. A vérszívó élőhalott évszázadokon át vándorol, dacol a sorssal és a halállal, és egyetlen remény vezérli: újra találkozni elvesztett szerelmével. Egy pap azonban felismeri és szembeszáll vele azért, hogy elpusztítsa őt.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Fantasy",
+      "Romantikus"
+    ],
+    "seeders": 840
   },
   {
     "id": "tt33100314",
@@ -90,13 +107,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
-    "imdbRating": 8.2,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 147
+    "seeders": 141
   },
   {
     "id": "tt30472557",
@@ -114,24 +131,7 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 157
-  },
-  {
-    "id": "tt31434030",
-    "type": "movie",
-    "name": "Drakula: Szerelmes történet",
-    "poster": "https://image.tmdb.org/t/p/w500/rVpYvR5x61J1SSsUdFnvihJYeNN.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Bram Stoker klasszikus Drakulájának feldolgozásában a 15. században egy herceg a felesége elvesztése után megtagadja Istent, emiatt örök átok sújtja és Drakulává válik. A vérszívó élőhalott évszázadokon át vándorol, dacol a sorssal és a halállal, és egyetlen remény vezérli: újra találkozni elvesztett szerelmével. Egy pap azonban felismeri és szembeszáll vele azért, hogy elpusztítsa őt.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Fantasy",
-      "Romantikus"
-    ],
-    "seeders": 728
+    "seeders": 169
   },
   {
     "id": "tt8879928",
@@ -148,7 +148,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 845
+    "seeders": 950
   },
   {
     "id": "tt39749979",
@@ -165,7 +165,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 185
+    "seeders": 191
   },
   {
     "id": "tt31728330",
@@ -182,7 +182,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 844
+    "seeders": 941
   },
   {
     "id": "tt16431404",
@@ -198,23 +198,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1040
-  },
-  {
-    "id": "tt32398150",
-    "type": "movie",
-    "name": "Egy dán építész Párizsban",
-    "poster": "https://image.tmdb.org/t/p/w500/8tZIyy0N6525GQXKwwdjgoPZ6BT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Otto von Spreckelsen, egy valós koppenhágai építészmérnök története, aki meglepte a világot, amikor megnyerte a François Mitterrand francia elnök által kiírt nyílt pályázatot.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 78
+    "seeders": 1165
   },
   {
     "id": "tt38508942",
@@ -229,7 +213,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 536
+    "seeders": 583
   },
   {
     "id": "tt29552248",
@@ -247,7 +231,23 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 407
+    "seeders": 448
+  },
+  {
+    "id": "tt32398150",
+    "type": "movie",
+    "name": "Egy dán építész Párizsban",
+    "poster": "https://image.tmdb.org/t/p/w500/8tZIyy0N6525GQXKwwdjgoPZ6BT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Otto von Spreckelsen, egy valós koppenhágai építészmérnök története, aki meglepte a világot, amikor megnyerte a François Mitterrand francia elnök által kiírt nyílt pályázatot.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 82
   },
   {
     "id": "tt40381358",
@@ -262,7 +262,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 386
+    "seeders": 414
   },
   {
     "id": "tt32357218",
@@ -279,7 +279,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 210
+    "seeders": 203
   },
   {
     "id": "tt0800175",
@@ -297,7 +297,7 @@
       "Fantasy",
       "Dráma"
     ],
-    "seeders": 397
+    "seeders": 431
   },
   {
     "id": "tt21442114",
@@ -314,22 +314,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 220
-  },
-  {
-    "id": "tt25813918",
-    "type": "movie",
-    "name": "Ami maradt belőled",
-    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Apja halála után Sara felhagy a jazz-zongoraművész jövőjével New Yorkban, és szembenéz családja bioállat-tenyésztői múltjával.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 79
+    "seeders": 223
   },
   {
     "id": "tt33714084",
@@ -345,7 +330,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 217
+    "seeders": 235
+  },
+  {
+    "id": "tt25813918",
+    "type": "movie",
+    "name": "Ami maradt belőled",
+    "poster": "https://image.tmdb.org/t/p/w500/j9kEm2xTEaFVtn8bFLAdP5MLW95.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Apja halála után Sara felhagy a jazz-zongoraművész jövőjével New Yorkban, és szembenéz családja bioállat-tenyésztői múltjával.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 87
   },
   {
     "id": "tt6374142",
@@ -361,38 +361,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 225
-  },
-  {
-    "id": "tt40603309",
-    "type": "movie",
-    "name": "Countdown: Rousey vs. Carano",
-    "poster": "https://image.tmdb.org/t/p/w500/pVNvbDX9psQhmCvc37A3XKLZjEz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 66
-  },
-  {
-    "id": "tt34910018",
-    "type": "movie",
-    "name": "Lopakodók: A végső ellenállás",
-    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 223
+    "seeders": 236
   },
   {
     "id": "tt28682323",
@@ -408,22 +377,38 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 183
+    "seeders": 203
   },
   {
-    "id": "tt33322174",
+    "id": "tt34910018",
     "type": "movie",
-    "name": "Vándorok",
-    "poster": "https://image.tmdb.org/t/p/w500/kpUkx4nxuH9ssoTi4NLunlRcXgu.jpg",
+    "name": "Lopakodók: A végső ellenállás",
+    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A Roussier család története a francia riviéra nyári hangulatában bontakozik ki. Bertille, a tizenhárom éves kislány súlyos fogyatékossággal él, és bizonytalan diagnózisa fenyegeti a család törékeny egyensúlyát. Szülei és nővére, Marion folyamatosan attól félnek, hogy elveszíthetik őt. Marion, aki távol került a szokásos tinédzser álmoktól, egy idősebb fiúval való kapcsolatban talál menedéket. Amikor új diagnózis lát napvilágot, a család jövője váratlan fordulatot vesz, új lehetőségeket kínálva számukra.",
-    "imdbRating": 7.0,
+    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
+    "imdbRating": 6.8,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 83
+    "seeders": 236
+  },
+  {
+    "id": "tt40603309",
+    "type": "movie",
+    "name": "Countdown: Rousey vs. Carano",
+    "poster": "https://image.tmdb.org/t/p/w500/pVNvbDX9psQhmCvc37A3XKLZjEz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt32801387",
@@ -441,7 +426,22 @@
       "Western",
       "Akció"
     ],
-    "seeders": 246
+    "seeders": 270
+  },
+  {
+    "id": "tt33322174",
+    "type": "movie",
+    "name": "Vándorok",
+    "poster": "https://image.tmdb.org/t/p/w500/kpUkx4nxuH9ssoTi4NLunlRcXgu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Roussier család története a francia riviéra nyári hangulatában bontakozik ki. Bertille, a tizenhárom éves kislány súlyos fogyatékossággal él, és bizonytalan diagnózisa fenyegeti a család törékeny egyensúlyát. Szülei és nővére, Marion folyamatosan attól félnek, hogy elveszíthetik őt. Marion, aki távol került a szokásos tinédzser álmoktól, egy idősebb fiúval való kapcsolatban talál menedéket. Amikor új diagnózis lát napvilágot, a család jövője váratlan fordulatot vesz, új lehetőségeket kínálva számukra.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 92
   },
   {
     "id": "tt31828554",
@@ -458,7 +458,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 143
+    "seeders": 146
   },
   {
     "id": "tt38350059",
@@ -475,7 +475,7 @@
       "Családi",
       "Kaland"
     ],
-    "seeders": 137
+    "seeders": 142
   },
   {
     "id": "tt34482468",
@@ -491,6 +491,6 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 105
+    "seeders": 106
   }
 ]
