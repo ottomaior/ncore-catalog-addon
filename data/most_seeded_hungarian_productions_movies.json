@@ -63,7 +63,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999978
+"seeders": 999975
 },
 {
 "id": "tt20672356",
@@ -79,22 +79,22 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999955
+"seeders": 999956
 },
 {
 "id": "tt38508942",
 "type": "movie",
 "name": "Beléd estem",
-"poster": "https://image.tmdb.org/t/p/w500/vysEQvmPwh2yJVLzOe21bZlECOy.jpg",
+"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
 "posterShape": "poster",
 "year": 2026,
-"description": "Eszter (Rujder Vivien) sikeres színésznő, aki egy kilencvenes években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint (Szabó Kimmel Tamás) mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
-"imdbRating": 0.0,
+"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+"imdbRating": 5.0,
 "releaseInfo": "2026",
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999934
+"seeders": 999921
 },
 {
 "id": "tt0179955",
@@ -126,7 +126,22 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999890
+"seeders": 999894
+},
+{
+"id": "tt40381358",
+"type": "movie",
+"name": "Tavaszi szél - az ébredés",
+"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
+"imdbRating": 8.4,
+"releaseInfo": "2026",
+"genres": [
+"Dokumentum"
+],
+"seeders": 999870
 },
 {
 "id": "tt26678938",
@@ -136,7 +151,7 @@
 "posterShape": "poster",
 "year": 2026,
 "description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-"imdbRating": 6.8,
+"imdbRating": 6.7,
 "releaseInfo": "2026",
 "genres": [
 "Zenei",
@@ -144,22 +159,7 @@
 "Akció",
 "Horror"
 ],
-"seeders": 999869
-},
-{
-"id": "tt0065067",
-"type": "movie",
-"name": "A tanú",
-"poster": "https://image.tmdb.org/t/p/w500/l6X1hx0Ux5hQYSl7YpQiyIsdzO7.jpg",
-"posterShape": "poster",
-"year": 1979,
-"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
-"imdbRating": 8.1,
-"releaseInfo": "1979",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999859
+"seeders": 999854
 },
 {
 "id": "tt0142632",
@@ -176,7 +176,22 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999858
+"seeders": 999848
+},
+{
+"id": "tt0065067",
+"type": "movie",
+"name": "A tanú",
+"poster": "https://image.tmdb.org/t/p/w500/l6X1hx0Ux5hQYSl7YpQiyIsdzO7.jpg",
+"posterShape": "poster",
+"year": 1979,
+"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
+"imdbRating": 8.1,
+"releaseInfo": "1979",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999844
 },
 {
 "id": "tt31065630",
@@ -207,7 +222,7 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999833
+"seeders": 999831
 },
 {
 "id": "tt0084315",
@@ -225,21 +240,6 @@
 "Kaland"
 ],
 "seeders": 999823
-},
-{
-"id": "tt40381358",
-"type": "movie",
-"name": "Tavaszi szél - az ébredés",
-"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
-"imdbRating": 8.4,
-"releaseInfo": "2026",
-"genres": [
-"Dokumentum"
-],
-"seeders": 999821
 },
 {
 "id": "tt23172090",
