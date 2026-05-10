@@ -1,19 +1,34 @@
 [
   {
-    "id": "tt27592184",
+    "id": "tt12042730",
     "type": "movie",
-    "name": "Az utolsó vonat Fortune-ba",
-    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik – sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 3261
+  },
+  {
+    "id": "tt32730754",
+    "type": "movie",
+    "name": "Rüzgara Bırak",
+    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
-    "imdbRating": 6.0,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.4,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Western"
+      "Romantikus"
     ],
-    "seeders": 285
+    "seeders": 166
   },
   {
     "id": "tt23172090",
@@ -30,6 +45,6 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 70
+    "seeders": 66
   }
 ]
