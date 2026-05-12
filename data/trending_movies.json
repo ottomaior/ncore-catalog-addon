@@ -1,19 +1,35 @@
 [
   {
+    "id": "tt12042730",
+    "type": "movie",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 5516
+  },
+  {
     "id": "tt35526133",
     "type": "movie",
-    "name": "Badh",
+    "name": "Badh- Kísért a múlt",
     "poster": "https://image.tmdb.org/t/p/w500/sLjHm8eKrC27wykgmih6vVCxjbi.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Amikor Iliast, a rendőrt lelövik, és kómába kerül, Almának ismét elő kell hívnia korábbi, Badh nevű énjét, a kegyetlen hírszerző ügynököt és kiképzett bérgyilkost. A Khoury család tagjait egyenként, brutális módszerekkel iktatja ki, ezzel magára vonva vezetőjük, Mansour haragját – mígnem kiderül, hogy Mansour Joánával dolgozik együtt, aki Alma egykori titkosszolgálati egységének tisztje.",
     "imdbRating": 5.3,
     "releaseInfo": "2025",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 84
+    "seeders": 217
   },
   {
     "id": "tt14403504",
@@ -29,53 +45,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 28
-  },
-  {
-    "id": "tt12042730",
-    "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Kaland"
-    ],
-    "seeders": 5122
-  },
-  {
-    "id": "tt39382052",
-    "type": "movie",
-    "name": "Martin Short: Az élet rövid",
-    "poster": "https://image.tmdb.org/t/p/w500/vWgqvwe2MlDYXaXQ81XdgcJspMS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Dokumentumfilm Martin Shortról, aki visszatekint örömteli életére. Klasszikus felvételek, friss interjúk és sztárokkal teli, korábban soha nem látott családi videók.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 60
-  },
-  {
-    "id": "tt39298503",
-    "type": "movie",
-    "name": "Vad London",
-    "poster": "https://image.tmdb.org/t/p/w500/3yTYwbilgxE240qShWxcNmp9WHZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután egy egész életet a világ beutazásával töltött, a világ legismertebb természetfilmes szaktekintélye most közelebb, saját otthonához fordítja figyelmét, hogy felfedezze Anglia ikonikus fővárosának élővilágát. Miután 75 éven át Londonban élt, Sir David Attenborough bensőséges ismeretekkel rendelkezik a város természeti örökségéről, és aligha akadna nála jobb idegenvezető, aki feltárhatná előttünk annak leglenyűgözőbb természeti titkait. A századik életévének időszakában forgatott személyes és megható film időszerű betekintést nyújt abba, miként válhatnak a városok nemcsak az emberek, hanem a vadon élő állatok otthonává is.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 198
+    "seeders": 37
   },
   {
     "id": "tt33978029",
@@ -91,7 +61,37 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 1649
+    "seeders": 1684
+  },
+  {
+    "id": "tt39298503",
+    "type": "movie",
+    "name": "Vad London",
+    "poster": "https://image.tmdb.org/t/p/w500/3yTYwbilgxE240qShWxcNmp9WHZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután egy egész életet a világ beutazásával töltött, a világ legismertebb természetfilmes szaktekintélye most közelebb, saját otthonához fordítja figyelmét, hogy felfedezze Anglia ikonikus fővárosának élővilágát. Miután 75 éven át Londonban élt, Sir David Attenborough bensőséges ismeretekkel rendelkezik a város természeti örökségéről, és aligha akadna nála jobb idegenvezető, aki feltárhatná előttünk annak leglenyűgözőbb természeti titkait. A századik életévének időszakában forgatott személyes és megható film időszerű betekintést nyújt abba, miként válhatnak a városok nemcsak az emberek, hanem a vadon élő állatok otthonává is.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 216
+  },
+  {
+    "id": "tt39382052",
+    "type": "movie",
+    "name": "Martin Short: Az élet rövid",
+    "poster": "https://image.tmdb.org/t/p/w500/vWgqvwe2MlDYXaXQ81XdgcJspMS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Dokumentumfilm Martin Shortról, aki visszatekint örömteli életére. Klasszikus felvételek, friss interjúk és sztárokkal teli, korábban soha nem látott családi videók.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 65
   },
   {
     "id": "tt37738006",
@@ -107,7 +107,23 @@
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 1011
+    "seeders": 1030
+  },
+  {
+    "id": "tt35222590",
+    "type": "movie",
+    "name": "A 8-as kijárat",
+    "poster": "https://image.tmdb.org/t/p/w500/tetKeheUrcnaiqxEUeb7sdEhxrP.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 836
   },
   {
     "id": "tt26443616",
@@ -126,23 +142,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 1200
-  },
-  {
-    "id": "tt35222590",
-    "type": "movie",
-    "name": "A 8-as kijárat",
-    "poster": "https://image.tmdb.org/t/p/w500/tetKeheUrcnaiqxEUeb7sdEhxrP.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 818
+    "seeders": 1198
   },
   {
     "id": "tt32730754",
@@ -157,7 +157,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 217
+    "seeders": 222
   },
   {
     "id": "tt31434030",
@@ -174,7 +174,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 939
+    "seeders": 896
   },
   {
     "id": "tt8879928",
@@ -184,14 +184,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Két fiatal, Teasüti és Naomi egy önkiszolgáló raktározási cégnél dolgoznak. A raktárt egy régi amerikai katonai bázis területén hozták létre, ami elképesztő titkokat rejt a mélyben. Ilyen kegyetlen éjszakai műszakot egyikük sem tudott volna elképzelni: rájönnek, hogy egy extrém fertőzőképességű parazita gomba kijutott a bázis legalsó szintjéről, amit évtizedekkel ezelőtt a kormány lezsilipelt. Ahogy a föld alatti hőmérséklet emelkedik, ez a pusztító mikroorganizmus szaporodásnak indul, majd lecsap a létesítmény területén tartózkodókra – emberekre és más élőlényekre egyaránt. Az idő fogy, így Teasütin és Naomin múlik, hogy az őszülő bioterror-ügynök segítségével meg tudják-e fékezni a gyorsan mutálódó fenyegetést, és ezzel sikerül-e megakadályozni az emberiség robbanásszerű kihalását.",
-    "imdbRating": 6.8,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 944
+    "seeders": 954
   },
   {
     "id": "tt32357218",
@@ -208,7 +208,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 73
+    "seeders": 74
   },
   {
     "id": "tt27592184",
@@ -224,7 +224,7 @@
       "Dráma",
       "Western"
     ],
-    "seeders": 236
+    "seeders": 228
   },
   {
     "id": "tt31728330",
@@ -258,22 +258,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 45
-  },
-  {
-    "id": "tt38508942",
-    "type": "movie",
-    "name": "Beléd estem",
-    "poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 589
+    "seeders": 49
   },
   {
     "id": "tt29552248",
@@ -291,7 +276,22 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 472
+    "seeders": 487
+  },
+  {
+    "id": "tt38508942",
+    "type": "movie",
+    "name": "Beléd estem",
+    "poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 573
   },
   {
     "id": "tt40381358",
@@ -306,7 +306,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 426
+    "seeders": 442
   },
   {
     "id": "tt33100314",
@@ -316,13 +316,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
-    "imdbRating": 8.2,
+    "imdbRating": 8.3,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 153
+    "seeders": 162
   },
   {
     "id": "tt30472557",
@@ -340,7 +340,7 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 160
+    "seeders": 164
   },
   {
     "id": "tt39749979",
@@ -357,24 +357,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 151
-  },
-  {
-    "id": "tt23172090",
-    "type": "movie",
-    "name": "Porszörny",
-    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Fantasy",
-      "Akció",
-      "Horror"
-    ],
-    "seeders": 61
+    "seeders": 150
   },
   {
     "id": "tt33714084",
@@ -390,7 +373,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 240
+    "seeders": 241
   },
   {
     "id": "tt21442114",
@@ -407,7 +390,24 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 215
+    "seeders": 212
+  },
+  {
+    "id": "tt23172090",
+    "type": "movie",
+    "name": "Porszörny",
+    "poster": "https://image.tmdb.org/t/p/w500/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A tízéves Aurora mellett egy titokzatos férfi él, aki valódi szörnyekre vadászik - hivatásos gyilkos. Amikor a kislánynak szüksége lesz valakire, aki megszabadítja őt a családját elpusztító szörnytől, a férfi segítségét kéri. A vadász azonban úgy sejti, hogy Aurora szüleit valójában azok a bérgyilkosok ölték meg, akik eredetileg őt akarták eltenni láb alól, ezért lelkiismereti okokból elfogadja a megbízást. Hogy megóvja Aurorát, egész sereg merénylővel kell szembenéznie és közben rá kell döbbennie, hogy némelyik szörny igenis létezik.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Fantasy",
+      "Akció",
+      "Horror"
+    ],
+    "seeders": 55
   },
   {
     "id": "tt6374142",
@@ -423,39 +423,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 211
-  },
-  {
-    "id": "tt34910018",
-    "type": "movie",
-    "name": "Lopakodók: A végső ellenállás",
-    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 228
-  },
-  {
-    "id": "tt28682323",
-    "type": "movie",
-    "name": "Hívatlanok - Utolsó fejezet",
-    "poster": "https://image.tmdb.org/t/p/w500/yPHwX78mcwJw3I6YOJ9qh2wQBFr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hívatlanok trilógia fináléjában Maya (Madelaine Petsch) utoljára néz szembe a maszkos gyilkosokkal, akik kegyetlen módon megölték a szerelmét, és rá is kitartóan vadásznak. A brutális, végső leszámolásban nemcsak a túlélés a cél, a bosszú is hajtja a hősnőt, hogy elégtételt vegyen a szeretett férfiért és visszakapja az élete feletti irányítást.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 169
+    "seeders": 206
   },
   {
     "id": "tt32398150",
@@ -471,7 +439,39 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 63
+    "seeders": 72
+  },
+  {
+    "id": "tt34910018",
+    "type": "movie",
+    "name": "Lopakodók: A végső ellenállás",
+    "poster": "https://image.tmdb.org/t/p/w500/uiESZBZipEps4TDHS9IfITl99aH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Hogy megakadályozza egy fegyverkereskedő halálos szuperfegyverét, Brandon Beckett (Chad Michael Collins) mesterlövészt és Zero ügynököt (Ryan Robbins) egy elit katonákból álló csoport élére küldik Costa Verdére. Beckett a szárnyai alá veszi a tapasztalatlan mesterlövészt, és új kihívással szembesül: parancsokat kell adnia. Az idő és a lőszer fogytán van, így mindent meg kell tenniük a túlélésért.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 214
+  },
+  {
+    "id": "tt28682323",
+    "type": "movie",
+    "name": "Hívatlanok - Utolsó fejezet",
+    "poster": "https://image.tmdb.org/t/p/w500/yPHwX78mcwJw3I6YOJ9qh2wQBFr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hívatlanok trilógia fináléjában Maya (Madelaine Petsch) utoljára néz szembe a maszkos gyilkosokkal, akik kegyetlen módon megölték a szerelmét, és rá is kitartóan vadásznak. A brutális, végső leszámolásban nemcsak a túlélés a cél, a bosszú is hajtja a hősnőt, hogy elégtételt vegyen a szeretett férfiért és visszakapja az élete feletti irányítást.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 171
   },
   {
     "id": "tt27613895",
@@ -488,6 +488,6 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 189
+    "seeders": 196
   }
 ]
