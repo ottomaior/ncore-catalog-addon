@@ -14,7 +14,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 168
+    "seeders": 908
   },
   {
     "id": "tt12042730",
@@ -30,7 +30,22 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 4474
+    "seeders": 5454
+  },
+  {
+    "id": "tt37024319",
+    "type": "movie",
+    "name": "Le Bus : Les Bleus en grève",
+    "poster": "https://image.tmdb.org/t/p/w500/sOsS71qbsHDjGkjnOACvz4Pvfee.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 54
   },
   {
     "id": "tt35526133",
@@ -46,7 +61,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 222
+    "seeders": 276
   },
   {
     "id": "tt33978029",
@@ -62,26 +77,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 1316
-  },
-  {
-    "id": "tt26443616",
-    "type": "movie",
-    "name": "Agyugrász",
-    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Vígjáték",
-      "Családi",
-      "Sci-Fi"
-    ],
-    "seeders": 1002
+    "seeders": 1607
   },
   {
     "id": "tt37738006",
@@ -97,22 +93,7 @@
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 805
-  },
-  {
-    "id": "tt39298503",
-    "type": "movie",
-    "name": "Vad London",
-    "poster": "https://image.tmdb.org/t/p/w500/3yTYwbilgxE240qShWxcNmp9WHZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután egy egész életet a világ beutazásával töltött, a világ legismertebb természetfilmes szaktekintélye most közelebb, saját otthonához fordítja figyelmét, hogy felfedezze Anglia ikonikus fővárosának élővilágát. Miután 75 éven át Londonban élt, Sir David Attenborough bensőséges ismeretekkel rendelkezik a város természeti örökségéről, és aligha akadna nála jobb idegenvezető, aki feltárhatná előttünk annak leglenyűgözőbb természeti titkait. A századik életévének időszakában forgatott személyes és megható film időszerű betekintést nyújt abba, miként válhatnak a városok nemcsak az emberek, hanem a vadon élő állatok otthonává is.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 184
+    "seeders": 1000
   },
   {
     "id": "tt35222590",
@@ -128,22 +109,41 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 669
+    "seeders": 829
   },
   {
-    "id": "tt32730754",
+    "id": "tt26443616",
     "type": "movie",
-    "name": "Hagyd a szélre",
-    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
+    "name": "Agyugrász",
+    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Romantikus"
+      "Animációs",
+      "Kaland",
+      "Vígjáték",
+      "Családi",
+      "Sci-Fi"
     ],
-    "seeders": 191
+    "seeders": 1137
+  },
+  {
+    "id": "tt39298503",
+    "type": "movie",
+    "name": "Vad London",
+    "poster": "https://image.tmdb.org/t/p/w500/3yTYwbilgxE240qShWxcNmp9WHZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután egy egész életet a világ beutazásával töltött, a világ legismertebb természetfilmes szaktekintélye most közelebb, saját otthonához fordítja figyelmét, hogy felfedezze Anglia ikonikus fővárosának élővilágát. Miután 75 éven át Londonban élt, Sir David Attenborough bensőséges ismeretekkel rendelkezik a város természeti örökségéről, és aligha akadna nála jobb idegenvezető, aki feltárhatná előttünk annak leglenyűgözőbb természeti titkait. A századik életévének időszakában forgatott személyes és megható film időszerű betekintést nyújt abba, miként válhatnak a városok nemcsak az emberek, hanem a vadon élő állatok otthonává is.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 220
   },
   {
     "id": "tt31434030",
@@ -160,23 +160,22 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 701
+    "seeders": 875
   },
   {
-    "id": "tt14403504",
+    "id": "tt32730754",
     "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "name": "Hagyd a szélre",
+    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
+    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
+    "imdbRating": 6.4,
     "releaseInfo": "2025",
     "genres": [
-      "Thriller",
-      "Dráma"
+      "Romantikus"
     ],
-    "seeders": 43
+    "seeders": 214
   },
   {
     "id": "tt8879928",
@@ -193,53 +192,23 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 750
+    "seeders": 907
   },
   {
-    "id": "tt39382052",
+    "id": "tt14403504",
     "type": "movie",
-    "name": "Martin Short: Az élet rövid",
-    "poster": "https://image.tmdb.org/t/p/w500/fGgNjkbBmmfGBuFzuqUkaFzAuQT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Dokumentumfilm Martin Shortról, aki visszatekint örömteli életére. Klasszikus felvételek, friss interjúk és sztárokkal teli, korábban soha nem látott családi videók.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 55
-  },
-  {
-    "id": "tt41777258",
-    "type": "movie",
-    "name": "Első kézből – Egyesült Királyság: Jamie Vardy",
-    "poster": "https://image.tmdb.org/t/p/w500/d0pODTh6FOwn87iOeXGb7nKOdNT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Jamie Vardy-é az angol labdarúgás egyik legnagyobb „semmiből jött” sikertörténete. Tinédzserként elbocsátották az akadémiáról, később egy gyárban dolgozott, mielőtt a Leicester City játékosaként a Premier League legendájává vált. A film eddig nem látott archív felvételekkel, nyers öltözői történetekkel, valamint Vardy, felesége, korábbi csapattársai és edzői interjúival világít rá arra a teljesen valószínűtlen útra, amely a csúcsra vezetett.",
-    "imdbRating": 9.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 50
-  },
-  {
-    "id": "tt27592184",
-    "type": "movie",
-    "name": "Az utolsó vonat Fortune-ba",
-    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
-    "imdbRating": 6.0,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Western"
+      "Thriller",
+      "Dráma"
     ],
-    "seeders": 204
+    "seeders": 51
   },
   {
     "id": "tt31728330",
@@ -256,24 +225,53 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 659
+    "seeders": 835
   },
   {
-    "id": "tt32357218",
+    "id": "tt39382052",
     "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "name": "Martin Short: Az élet rövid",
+    "poster": "https://image.tmdb.org/t/p/w500/fGgNjkbBmmfGBuFzuqUkaFzAuQT.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 7.3,
+    "description": "Dokumentumfilm Martin Shortról, aki visszatekint örömteli életére. Klasszikus felvételek, friss interjúk és sztárokkal teli, korábban soha nem látott családi videók.",
+    "imdbRating": 8.5,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
+      "Dokumentum"
     ],
-    "seeders": 69
+    "seeders": 61
+  },
+  {
+    "id": "tt41777258",
+    "type": "movie",
+    "name": "Első kézből – Egyesült Királyság: Jamie Vardy",
+    "poster": "https://image.tmdb.org/t/p/w500/d0pODTh6FOwn87iOeXGb7nKOdNT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Jamie Vardy-é az angol labdarúgás egyik legnagyobb „semmiből jött” sikertörténete. Tinédzserként elbocsátották az akadémiáról, később egy gyárban dolgozott, mielőtt a Leicester City játékosaként a Premier League legendájává vált. A film eddig nem látott archív felvételekkel, nyers öltözői történetekkel, valamint Vardy, felesége, korábbi csapattársai és edzői interjúival világít rá arra a teljesen valószínűtlen útra, amely a csúcsra vezetett.",
+    "imdbRating": 9.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 59
+  },
+  {
+    "id": "tt27592184",
+    "type": "movie",
+    "name": "Az utolsó vonat Fortune-ba",
+    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Western"
+    ],
+    "seeders": 232
   },
   {
     "id": "tt29552248",
@@ -292,7 +290,24 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 412
+    "seeders": 484
+  },
+  {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 74
   },
   {
     "id": "tt38508942",
@@ -307,7 +322,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 461
+    "seeders": 540
   },
   {
     "id": "tt40381358",
@@ -322,40 +337,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 372
-  },
-  {
-    "id": "tt30851137",
-    "type": "movie",
-    "name": "A menyasszony",
-    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 46
-  },
-  {
-    "id": "tt33100314",
-    "type": "movie",
-    "name": "A boldogságnak nyolc karja van",
-    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
-    "imdbRating": 8.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 142
+    "seeders": 412
   },
   {
     "id": "tt30472557",
@@ -373,7 +355,40 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 141
+    "seeders": 165
+  },
+  {
+    "id": "tt33100314",
+    "type": "movie",
+    "name": "A boldogságnak nyolc karja van",
+    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 153
+  },
+  {
+    "id": "tt30851137",
+    "type": "movie",
+    "name": "A menyasszony",
+    "poster": "https://image.tmdb.org/t/p/w500/b2cSKSC5ctULfGqXTV8xVHh5Wpq.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az 1930-as évek Chicagójában Frankenstein megkéri Dr. Euphroniust, hogy segítsen megalkotni a társát. Menyasszonyként adnak életet egy meggyilkolt nőnek, ami románcot, rendőrségi érdeklődést és radikális társadalmi változást vált ki.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 49
   },
   {
     "id": "tt39749979",
@@ -390,7 +405,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 122
+    "seeders": 144
   },
   {
     "id": "tt33714084",
@@ -406,23 +421,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 201
-  },
-  {
-    "id": "tt6374142",
-    "type": "movie",
-    "name": "Bizalom nélkül",
-    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 180
+    "seeders": 235
   },
   {
     "id": "tt21442114",
@@ -439,7 +438,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 168
+    "seeders": 207
   },
   {
     "id": "tt23172090",
@@ -456,7 +455,7 @@
       "Akció",
       "Horror"
     ],
-    "seeders": 48
+    "seeders": 61
   },
   {
     "id": "tt34910018",
@@ -472,22 +471,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 194
+    "seeders": 232
   },
   {
-    "id": "tt32398150",
+    "id": "tt6374142",
     "type": "movie",
-    "name": "Egy dán építész Párizsban",
-    "poster": "https://image.tmdb.org/t/p/w500/8tZIyy0N6525GQXKwwdjgoPZ6BT.jpg",
+    "name": "Bizalom nélkül",
+    "poster": "https://image.tmdb.org/t/p/w500/z7padnoIDHbmxPdqEHryhqlaVqc.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Otto von Spreckelsen, egy valós koppenhágai építészmérnök története, aki meglepte a világot, amikor megnyerte a François Mitterrand francia elnök által kiírt nyílt pályázatot.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy kétségbeesett házaspár egy sor nagy értékű rablást hajt végre. Amikor az egyik betörésük balul sül el, halálos macska-egér játékba keverednek. Fordul a kocka, és a vadászokból üldözöttek lesznek egy bosszúból, gyilkosságból és árulásból álló összeesküvés során.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Történelmi"
+      "Thriller",
+      "Akció"
     ],
-    "seeders": 64
+    "seeders": 197
   }
 ]
