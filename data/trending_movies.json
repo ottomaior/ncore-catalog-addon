@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt40792117",
+    "type": "movie",
+    "name": "The Crash",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 54
+  },
+  {
     "id": "tt12042730",
     "type": "movie",
     "name": "A Hail Mary-küldetés",
@@ -13,7 +29,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 4206
+    "seeders": 5118
   },
   {
     "id": "tt36042156",
@@ -30,7 +46,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 1435
+    "seeders": 1835
   },
   {
     "id": "tt4357198",
@@ -46,41 +62,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 391
-  },
-  {
-    "id": "tt21110654",
-    "type": "movie",
-    "name": "Batman Azteca: Choque de imperios",
-    "poster": "https://image.tmdb.org/t/p/w500/2nifUnsraLRfZL4vWCTi7A92DiN.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Fantasy"
-    ],
-    "seeders": 34
-  },
-  {
-    "id": "tt27757546",
-    "type": "movie",
-    "name": "Diablo",
-    "poster": "https://image.tmdb.org/t/p/w500/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután Kris Chaney kiszabadul a börtönből, küldetésül tűzi ki, hogy teljesítsen egy korábbi ígéretet. Rövidesen azonban nagy veszélyben találja magát, miután elrabolja Elisát, a maffiózó Vincent lányát. El Corvo, egy pszichopata gyilkos ugyanis nem a pénzért, hanem a saját, Vincent családja elleni bosszúja miatt csatlakozik a lány utáni hajtóvadászathoz.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 66
+    "seeders": 465
   },
   {
     "id": "tt33978029",
@@ -96,23 +78,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 1091
-  },
-  {
-    "id": "tt35526133",
-    "type": "movie",
-    "name": "Badh - Kísért a múlt",
-    "poster": "https://image.tmdb.org/t/p/w500/sLjHm8eKrC27wykgmih6vVCxjbi.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Iliast, a rendőrt lelövik, és kómába kerül, Almának ismét elő kell hívnia korábbi, Badh nevű énjét, a kegyetlen hírszerző ügynököt és kiképzett bérgyilkost. A Khoury család tagjait egyenként, brutális módszerekkel iktatja ki, ezzel magára vonva vezetőjük, Mansour haragját – mígnem kiderül, hogy Mansour Joánával dolgozik együtt, aki Alma egykori titkosszolgálati egységének tisztje.",
-    "imdbRating": 5.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 246
+    "seeders": 1411
   },
   {
     "id": "tt26443616",
@@ -131,7 +97,23 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 885
+    "seeders": 1092
+  },
+  {
+    "id": "tt35526133",
+    "type": "movie",
+    "name": "Badh - Kísért a múlt",
+    "poster": "https://image.tmdb.org/t/p/w500/sLjHm8eKrC27wykgmih6vVCxjbi.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Iliast, a rendőrt lelövik, és kómába kerül, Almának ismét elő kell hívnia korábbi, Badh nevű énjét, a kegyetlen hírszerző ügynököt és kiképzett bérgyilkost. A Khoury család tagjait egyenként, brutális módszerekkel iktatja ki, ezzel magára vonva vezetőjük, Mansour haragját – mígnem kiderül, hogy Mansour Joánával dolgozik együtt, aki Alma egykori titkosszolgálati egységének tisztje.",
+    "imdbRating": 5.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 283
   },
   {
     "id": "tt37738006",
@@ -147,7 +129,24 @@
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 703
+    "seeders": 865
+  },
+  {
+    "id": "tt27757546",
+    "type": "movie",
+    "name": "Diablo",
+    "poster": "https://image.tmdb.org/t/p/w500/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután Kris Chaney kiszabadul a börtönből, küldetésül tűzi ki, hogy teljesítsen egy korábbi ígéretet. Rövidesen azonban nagy veszélyben találja magát, miután elrabolja Elisát, a maffiózó Vincent lányát. El Corvo, egy pszichopata gyilkos ugyanis nem a pénzért, hanem a saját, Vincent családja elleni bosszúja miatt csatlakozik a lány utáni hajtóvadászathoz.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt35222590",
@@ -163,7 +162,24 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 560
+    "seeders": 694
+  },
+  {
+    "id": "tt21110654",
+    "type": "movie",
+    "name": "Azték Batman – A birodalmak harca",
+    "poster": "https://image.tmdb.org/t/p/w500/2nifUnsraLRfZL4vWCTi7A92DiN.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal azték fiú tragédiája. Az apját meggyilkolják a spanyol hódítók. A fiú Tenochtitlanba menekül, hogy figyelmeztesse a királyt.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Fantasy"
+    ],
+    "seeders": 34
   },
   {
     "id": "tt31434030",
@@ -180,7 +196,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 623
+    "seeders": 738
   },
   {
     "id": "tt39298503",
@@ -195,7 +211,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 167
+    "seeders": 205
   },
   {
     "id": "tt8879928",
@@ -212,7 +228,22 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 643
+    "seeders": 753
+  },
+  {
+    "id": "tt32730754",
+    "type": "movie",
+    "name": "Hagyd a szélre",
+    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 164
   },
   {
     "id": "tt30851137",
@@ -229,53 +260,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 46
-  },
-  {
-    "id": "tt32730754",
-    "type": "movie",
-    "name": "Hagyd a szélre",
-    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 141
-  },
-  {
-    "id": "tt32897959",
-    "type": "movie",
-    "name": "Üvöltő szelek",
-    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 37
-  },
-  {
-    "id": "tt37024319",
-    "type": "movie",
-    "name": "A francia focicsapat lázadása",
-    "poster": "https://image.tmdb.org/t/p/w500/vLYxo8SDMLfroqT3fMVnbvddXRF.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Dokumentumfilm a francia labdarúgó-válogatott vitatott 2010-es világbajnoki szerepléséről és a világhírű, nemzeti felháborodást kiváltó buszsztrájkról.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 44
+    "seeders": 55
   },
   {
     "id": "tt29552248",
@@ -293,7 +278,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 351
+    "seeders": 440
   },
   {
     "id": "tt27592184",
@@ -309,7 +294,23 @@
       "Dráma",
       "Western"
     ],
-    "seeders": 163
+    "seeders": 191
+  },
+  {
+    "id": "tt32897959",
+    "type": "movie",
+    "name": "Üvöltő szelek",
+    "poster": "https://image.tmdb.org/t/p/w500/jE2aq7WutP3b2H8IJm1uRzxu0x2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Minden idők egyik legmegrázóbb és legszebb szerelmi történetéből különleges és merész film született, amelyben Margot Robbie kelti életre Cathyt, Jacob Elordi pedig Heathcliffet. Tiltott szerelmük a vágytól a mindent felemésztő szerelemig, végül az őrületig sodorja őket.  Mr. Earnshaw, az egyedülálló apa befogad egy árva fiút, aki saját gyermekével együtt nő fel a házban. Heathcliff és Cathy között hamar kibontakozik egy megbonthatatlan kötelék – annyira egymáshoz tartoznak, hogy azt sem idő, sem távolság nem képes szétválasztani. A fiú évekre eltűnik a romló birtokról, Cathy pedig kénytelen férjhez menni a közeli arisztokratához, aki mindent megadna neki a szerelméért és egy örökösért.  Ám amikor Heathcliff visszatér, mindannyiuk sorsa végleg eldől. Cathy és Heathcliff hiába próbál ellenállni, a szenvedély elsodorja őket: egymásért minden áldozatra képesek, és nem kímélnek sem embert, sem körülményt. Számukra csak az őrületbe hajló, végzetes szerelem létezik.  (Csillag Lajos)R3",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 43
   },
   {
     "id": "tt40381358",
@@ -324,7 +325,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 325
+    "seeders": 385
+  },
+  {
+    "id": "tt37024319",
+    "type": "movie",
+    "name": "A francia focicsapat lázadása",
+    "poster": "https://image.tmdb.org/t/p/w500/vLYxo8SDMLfroqT3fMVnbvddXRF.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Dokumentumfilm a francia labdarúgó-válogatott vitatott 2010-es világbajnoki szerepléséről és a világhírű, nemzeti felháborodást kiváltó buszsztrájkról.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 47
   },
   {
     "id": "tt33100314",
@@ -340,54 +356,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 129
-  },
-  {
-    "id": "tt39382052",
-    "type": "movie",
-    "name": "Martin Short: Az élet rövid",
-    "poster": "https://image.tmdb.org/t/p/w500/fGgNjkbBmmfGBuFzuqUkaFzAuQT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Dokumentumfilm Martin Shortról, aki visszatekint örömteli életére. Klasszikus felvételek, friss interjúk és sztárokkal teli, korábban soha nem látott családi videók.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 52
-  },
-  {
-    "id": "tt41777258",
-    "type": "movie",
-    "name": "Első kézből – Egyesült Királyság: Jamie Vardy",
-    "poster": "https://image.tmdb.org/t/p/w500/d0pODTh6FOwn87iOeXGb7nKOdNT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Jamie Vardy-é az angol labdarúgás egyik legnagyobb „semmiből jött” sikertörténete. Tinédzserként elbocsátották az akadémiáról, később egy gyárban dolgozott, mielőtt a Leicester City játékosaként a Premier League legendájává vált. A film eddig nem látott archív felvételekkel, nyers öltözői történetekkel, valamint Vardy, felesége, korábbi csapattársai és edzői interjúival világít rá arra a teljesen valószínűtlen útra, amely a csúcsra vezetett.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 48
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 56
+    "seeders": 165
   },
   {
     "id": "tt30472557",
@@ -405,7 +374,37 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 112
+    "seeders": 137
+  },
+  {
+    "id": "tt41777258",
+    "type": "movie",
+    "name": "Első kézből – Egyesült Királyság: Jamie Vardy",
+    "poster": "https://image.tmdb.org/t/p/w500/d0pODTh6FOwn87iOeXGb7nKOdNT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Jamie Vardy-é az angol labdarúgás egyik legnagyobb „semmiből jött” sikertörténete. Tinédzserként elbocsátották az akadémiáról, később egy gyárban dolgozott, mielőtt a Leicester City játékosaként a Premier League legendájává vált. A film eddig nem látott archív felvételekkel, nyers öltözői történetekkel, valamint Vardy, felesége, korábbi csapattársai és edzői interjúival világít rá arra a teljesen valószínűtlen útra, amely a csúcsra vezetett.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 52
+  },
+  {
+    "id": "tt39382052",
+    "type": "movie",
+    "name": "Martin Short: Az élet rövid",
+    "poster": "https://image.tmdb.org/t/p/w500/fGgNjkbBmmfGBuFzuqUkaFzAuQT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Dokumentumfilm Martin Shortról, aki visszatekint örömteli életére. Klasszikus felvételek, friss interjúk és sztárokkal teli, korábban soha nem látott családi videók.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 51
   },
   {
     "id": "tt14403504",
@@ -421,40 +420,24 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 39
+    "seeders": 45
   },
   {
-    "id": "tt39749979",
+    "id": "tt32357218",
     "type": "movie",
-    "name": "Akiért a szívem dobog",
-    "poster": "https://image.tmdb.org/t/p/w500/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy nőt ritka vércsoportja tesz célponttá, de védelemre talál egy vonzó, ám halálos bérgyilkos óvó karjaiban. Ketten együtt küzdenek a túlélésért.",
-    "imdbRating": 8.6,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
-      "Dráma",
-      "Romantikus"
+      "Bűnügyi",
+      "Thriller"
     ],
-    "seeders": 111
-  },
-  {
-    "id": "tt33714084",
-    "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 174
+    "seeders": 60
   },
   {
     "id": "tt31728330",
@@ -471,23 +454,39 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 133
+    "seeders": 168
   },
   {
-    "id": "tt21442114",
+    "id": "tt39749979",
     "type": "movie",
-    "name": "Vitéz Egyes",
-    "poster": "https://image.tmdb.org/t/p/w500/n25G21jmTENrr3JWZg6ZFD0xEu6.jpg",
+    "name": "Akiért a szívem dobog",
+    "poster": "https://image.tmdb.org/t/p/w500/b1VNnA0ewb6F0hccCpPpXD8c8oT.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Észak- és Dél-Korea közötti feszültség miatt egy amerikai helikopter lezuhan az észak-koreai oldalon. A túlélőknek együtt kell dolgozniuk, hogy megvédjenek egy civil műszaki szakembert, és amerikai katonai segítség nélkül is megtalálják a kiutat.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy nőt ritka vércsoportja tesz célponttá, de védelemre talál egy vonzó, ám halálos bérgyilkos óvó karjaiban. Ketten együtt küzdenek a túlélésért.",
+    "imdbRating": 8.6,
+    "releaseInfo": "2026",
     "genres": [
-      "Háborús",
-      "Thriller",
-      "Akció"
+      "Akció",
+      "Dráma",
+      "Romantikus"
     ],
-    "seeders": 158
+    "seeders": 119
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 206
   }
 ]
