@@ -13,7 +13,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 6734
+    "seeders": 4456
   },
   {
     "id": "tt36042156",
@@ -30,7 +30,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 2661
+    "seeders": 1721
   },
   {
     "id": "tt33978029",
@@ -43,10 +43,11 @@
     "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
+      "Thriller",
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 137
+    "seeders": 118
   },
   {
     "id": "tt4357198",
@@ -62,40 +63,24 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 629
+    "seeders": 477
   },
   {
     "id": "tt42192201",
     "type": "movie",
-    "name": "Bruid van die Jaar",
+    "name": "Az év menyasszonya",
     "poster": "https://image.tmdb.org/t/p/w500/geFc71rCYM8fErbROLY6n1LfAS6.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "A történet középpontjában Lienkie áll, akinek összedőlnek álmai a saját család alapításáról, ezért elhatározza, hogy ravasz tervvel megszerzi „az év menyasszonya” címet, és így áll bosszút volt szerelmén. Ám a romantikus komédiába forduló kavarodás közben valószínűleg többet veszít és nyer egyszerre, mint amennyit eredetileg tervezett.",
     "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
-      "Romantikus"
+      "Romantikus",
+      "Családi"
     ],
-    "seeders": 104
-  },
-  {
-    "id": "tt21110654",
-    "type": "movie",
-    "name": "Azték Batman – A birodalmak harca",
-    "poster": "https://image.tmdb.org/t/p/w500/2nifUnsraLRfZL4vWCTi7A92DiN.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal azték fiú tragédiája. Az apját meggyilkolják a spanyol hódítók. A fiú Tenochtitlanba menekül, hogy figyelmeztesse a királyt.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Fantasy"
-    ],
-    "seeders": 60
+    "seeders": 89
   },
   {
     "id": "tt40792117",
@@ -105,45 +90,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.0,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 63
-  },
-  {
-    "id": "tt33714084",
-    "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.  (Gergo Horvath)",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 44
-  },
-  {
-    "id": "tt37738006",
-    "type": "movie",
-    "name": "1000 férfi 12 óra alatt – A Bonnie Blue-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/5dcgoyf8nt6Xt4VSR6Nrn6nwhuz.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Bonnie Blue-sztori egy provokatív, egész estés dokumentumfilm egy fiatal nő történetéről, aki saját testét, identitását és nyilvános megítélését állítja egy szélsőséges társadalmi kísérlet középpontjába. Bonnie Blue személyes narrációján keresztül a film azt vizsgálja, mit jelent ma az önrendelkezés, a hírnév és a női szexualitás egy olyan korban, ahol a magánélet és a nyilvánosság határai végleg elmosódni látszanak. A dokumentumfilm nem pusztán egy extrém vállalás krónikája, hanem érzékeny portré a figyelemgazdaság működéséről. Megmutatja, hogyan válik egy egyéni döntés globális vitává, miközben a közösségi média, a pornóipar és a mainstream média egyszerre formálja és torzítja a főszereplő történetét. Bonnie Blue egyszerre alkotó, termék és vitatott kulturális jelenség.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "TV film"
-    ],
-    "seeders": 1134
+    "seeders": 61
   },
   {
     "id": "tt26443616",
@@ -162,7 +115,40 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 1271
+    "seeders": 932
+  },
+  {
+    "id": "tt21110654",
+    "type": "movie",
+    "name": "Azték Batman – A birodalmak harca",
+    "poster": "https://image.tmdb.org/t/p/w500/2nifUnsraLRfZL4vWCTi7A92DiN.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal azték fiú tragédiája. Az apját meggyilkolják a spanyol hódítók. A fiú Tenochtitlanba menekül, hogy figyelmeztesse a királyt.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Fantasy"
+    ],
+    "seeders": 53
+  },
+  {
+    "id": "tt37738006",
+    "type": "movie",
+    "name": "1000 férfi 12 óra alatt – A Bonnie Blue-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/5dcgoyf8nt6Xt4VSR6Nrn6nwhuz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Bonnie Blue-sztori egy provokatív, egész estés dokumentumfilm egy fiatal nő történetéről, aki saját testét, identitását és nyilvános megítélését állítja egy szélsőséges társadalmi kísérlet középpontjába. Bonnie Blue személyes narrációján keresztül a film azt vizsgálja, mit jelent ma az önrendelkezés, a hírnév és a női szexualitás egy olyan korban, ahol a magánélet és a nyilvánosság határai végleg elmosódni látszanak. A dokumentumfilm nem pusztán egy extrém vállalás krónikája, hanem érzékeny portré a figyelemgazdaság működéséről. Megmutatja, hogyan válik egy egyéni döntés globális vitává, miközben a közösségi média, a pornóipar és a mainstream média egyszerre formálja és torzítja a főszereplő történetét. Bonnie Blue egyszerre alkotó, termék és vitatott kulturális jelenség.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "TV film"
+    ],
+    "seeders": 769
   },
   {
     "id": "tt35526133",
@@ -178,7 +164,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 329
+    "seeders": 255
   },
   {
     "id": "tt35222590",
@@ -194,7 +180,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 842
+    "seeders": 580
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 43
   },
   {
     "id": "tt27757546",
@@ -211,7 +213,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 99
+    "seeders": 80
   },
   {
     "id": "tt31434030",
@@ -228,7 +230,7 @@
       "Fantasy",
       "Romantikus"
     ],
-    "seeders": 920
+    "seeders": 644
   },
   {
     "id": "tt8879928",
@@ -245,7 +247,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 938
+    "seeders": 649
   },
   {
     "id": "tt39298503",
@@ -260,7 +262,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 243
+    "seeders": 167
   },
   {
     "id": "tt29552248",
@@ -278,7 +280,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 550
+    "seeders": 371
   },
   {
     "id": "tt32730754",
@@ -293,7 +295,22 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 187
+    "seeders": 126
+  },
+  {
+    "id": "tt40381358",
+    "type": "movie",
+    "name": "Tavaszi szél - az ébredés",
+    "poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 330
   },
   {
     "id": "tt27592184",
@@ -309,22 +326,23 @@
       "Dráma",
       "Western"
     ],
-    "seeders": 215
+    "seeders": 159
   },
   {
-    "id": "tt40381358",
+    "id": "tt33100314",
     "type": "movie",
-    "name": "Tavaszi szél - az ébredés",
-    "poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
+    "name": "A boldogságnak nyolc karja van",
+    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
-    "imdbRating": 8.4,
+    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
+    "imdbRating": 8.5,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Dráma",
+      "Rejtély"
     ],
-    "seeders": 443
+    "seeders": 139
   },
   {
     "id": "tt30851137",
@@ -341,23 +359,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 55
-  },
-  {
-    "id": "tt33100314",
-    "type": "movie",
-    "name": "A boldogságnak nyolc karja van",
-    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
-    "imdbRating": 8.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 188
+    "seeders": 40
   },
   {
     "id": "tt32897959",
@@ -373,7 +375,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 45
+    "seeders": 36
+  },
+  {
+    "id": "tt37024319",
+    "type": "movie",
+    "name": "A francia focicsapat lázadása",
+    "poster": "https://image.tmdb.org/t/p/w500/vLYxo8SDMLfroqT3fMVnbvddXRF.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Dokumentumfilm a francia labdarúgó-válogatott vitatott 2010-es világbajnoki szerepléséről és a világhírű, nemzeti felháborodást kiváltó buszsztrájkról.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 40
   },
   {
     "id": "tt30472557",
@@ -391,22 +408,7 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 158
-  },
-  {
-    "id": "tt37024319",
-    "type": "movie",
-    "name": "A francia focicsapat lázadása",
-    "poster": "https://image.tmdb.org/t/p/w500/vLYxo8SDMLfroqT3fMVnbvddXRF.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Dokumentumfilm a francia labdarúgó-válogatott vitatott 2010-es világbajnoki szerepléséről és a világhírű, nemzeti felháborodást kiváltó buszsztrájkról.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 41
+    "seeders": 109
   },
   {
     "id": "tt32357218",
@@ -416,47 +418,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 7.3,
+    "imdbRating": 7.4,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 212
-  },
-  {
-    "id": "tt31728330",
-    "type": "movie",
-    "name": "Meg fognak ölni",
-    "poster": "https://image.tmdb.org/t/p/w500/o4JzijVhg0SzyjTc4kyTHu3kgLX.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Horror"
-    ],
-    "seeders": 193
-  },
-  {
-    "id": "tt14403504",
-    "type": "movie",
-    "name": "Utolsó lélegzet",
-    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 51
+    "seeders": 167
   },
   {
     "id": "tt39749979",
@@ -473,7 +442,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 134
+    "seeders": 106
   },
   {
     "id": "tt39382052",
@@ -488,6 +457,39 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 52
+    "seeders": 45
+  },
+  {
+    "id": "tt31728330",
+    "type": "movie",
+    "name": "Meg fognak ölni",
+    "poster": "https://image.tmdb.org/t/p/w500/o4JzijVhg0SzyjTc4kyTHu3kgLX.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Horror"
+    ],
+    "seeders": 137
+  },
+  {
+    "id": "tt14403504",
+    "type": "movie",
+    "name": "Utolsó lélegzet",
+    "poster": "https://image.tmdb.org/t/p/w500/4rVKeAZW4FTYDM2xXNX1u6Is5ur.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tapasztalt mélytengeri búvár a tomboló elemekkel küzdve hajtja végre utolsó mentőakcióját. Izgalmas, magával ragadó és szívbemarkoló igaz történet a csapatmunkáról, amely az azonos című, 2019-es dokumentumfilmen alapul, és az idővel való versenyfutásba vezeti a nézőket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 39
   }
 ]
