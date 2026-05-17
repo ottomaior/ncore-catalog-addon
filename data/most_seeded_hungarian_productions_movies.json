@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999992
+"seeders": 999991
 },
 {
 "id": "tt29344974",
@@ -30,7 +30,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999988
+"seeders": 999987
 },
 {
 "id": "tt29567915",
@@ -40,13 +40,13 @@
 "posterShape": "poster",
 "year": 2025,
 "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
-"imdbRating": 7.4,
+"imdbRating": 7.5,
 "releaseInfo": "2025",
 "genres": [
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999986
+"seeders": 999984
 },
 {
 "id": "tt34375721",
@@ -63,7 +63,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999975
+"seeders": 999969
 },
 {
 "id": "tt20672356",
@@ -79,22 +79,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999956
-},
-{
-"id": "tt38508942",
-"type": "movie",
-"name": "Beléd estem",
-"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
-"imdbRating": 5.0,
-"releaseInfo": "2026",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999921
+"seeders": 999954
 },
 {
 "id": "tt0179955",
@@ -111,7 +96,22 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999900
+"seeders": 999896
+},
+{
+"id": "tt38508942",
+"type": "movie",
+"name": "Beléd estem",
+"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+"imdbRating": 5.0,
+"releaseInfo": "2026",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999894
 },
 {
 "id": "tt27811640",
@@ -126,7 +126,7 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999894
+"seeders": 999891
 },
 {
 "id": "tt40381358",
@@ -141,25 +141,7 @@
 "genres": [
 "Dokumentum"
 ],
-"seeders": 999870
-},
-{
-"id": "tt26678938",
-"type": "movie",
-"name": "Halál cukik",
-"poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-"imdbRating": 6.7,
-"releaseInfo": "2026",
-"genres": [
-"Zenei",
-"Thriller",
-"Akció",
-"Horror"
-],
-"seeders": 999854
+"seeders": 999865
 },
 {
 "id": "tt0142632",
@@ -176,7 +158,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999848
+"seeders": 999853
 },
 {
 "id": "tt0065067",
@@ -209,20 +191,22 @@
 "seeders": 999838
 },
 {
-"id": "tt0131636",
+"id": "tt26678938",
 "type": "movie",
-"name": "Vuk",
-"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
+"name": "Halál cukik",
+"poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
 "posterShape": "poster",
-"year": 1981,
-"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
-"imdbRating": 7.6,
-"releaseInfo": "1981",
+"year": 2026,
+"description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
+"imdbRating": 6.7,
+"releaseInfo": "2026",
 "genres": [
-"Animációs",
-"Családi"
+"Zenei",
+"Thriller",
+"Akció",
+"Horror"
 ],
-"seeders": 999831
+"seeders": 999834
 },
 {
 "id": "tt0084315",
@@ -240,6 +224,22 @@
 "Kaland"
 ],
 "seeders": 999823
+},
+{
+"id": "tt0131636",
+"type": "movie",
+"name": "Vuk",
+"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
+"posterShape": "poster",
+"year": 1981,
+"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
+"imdbRating": 7.6,
+"releaseInfo": "1981",
+"genres": [
+"Animációs",
+"Családi"
+],
+"seeders": 999821
 },
 {
 "id": "tt23172090",
