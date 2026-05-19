@@ -1,19 +1,20 @@
 [
   {
-    "id": "tt41801280",
+    "id": "tt1527793",
     "type": "movie",
-    "name": "Untold UK: Liverpool's​ Miracle​ of​ lstanbul",
-    "poster": "https://image.tmdb.org/t/p/w500/oS1ad6L9ybHYEJLljmTkxn4ORDC.jpg",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum",
-      "Történelmi"
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
     ],
-    "seeders": 51
+    "seeders": 48
   },
   {
     "id": "tt32612507",
@@ -29,7 +30,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 941
+    "seeders": 1242
   },
   {
     "id": "tt12042730",
@@ -45,7 +46,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 6178
+    "seeders": 7348
   },
   {
     "id": "tt36042156",
@@ -55,31 +56,30 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miközben Frank Castle megpróbál értelmet találni az életében a bosszún túl, egy váratlan erő visszahúzza a harcba.",
-    "imdbRating": 8.5,
+    "imdbRating": 8.6,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 2950
+    "seeders": 3546
   },
   {
-    "id": "tt1757678",
+    "id": "tt41801280",
     "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "name": "Első kézből – Egyesült Királyság: Az isztambuli csoda",
+    "poster": "https://image.tmdb.org/t/p/w500/oS1ad6L9ybHYEJLljmTkxn4ORDC.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A a futballtörténelem egyik legtöbbet emlegetett eseményének története. A Liverpool FC hatalmas visszatérését meséli el az AC Milan ellen a 2005-ös Bajnokok Ligája döntőben, Isztambulban. A „Vörösök” a félidőben 3–0-s hátrányban voltak, és úgy tűnt, teljesen elvesztek. Amikor azonban a második félidőre kifutottak – élükön a csapatkapitány Steven Gerrarddal –, valami megváltozott. Gyorsan szereztek egy gólt, és hirtelen már benne volt a levegőben a fordítás. Végül hosszabb küzdelemre kényszerítették a Milant, és tizenegyespárbajban nyerték meg a döntőt.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
     "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
+      "Dokumentum",
+      "Történelmi"
     ],
-    "seeders": 125
+    "seeders": 55
   },
   {
     "id": "tt25868520",
@@ -97,7 +97,24 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 299
+    "seeders": 355
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 142
   },
   {
     "id": "tt4357198",
@@ -113,7 +130,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 668
+    "seeders": 780
   },
   {
     "id": "tt26764007",
@@ -130,23 +147,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 281
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 287
+    "seeders": 317
   },
   {
     "id": "tt33978029",
@@ -163,7 +164,23 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 1433
+    "seeders": 1689
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 318
   },
   {
     "id": "tt26443616",
@@ -182,7 +199,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 1174
+    "seeders": 1314
   },
   {
     "id": "tt37738006",
@@ -198,7 +215,7 @@
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 912
+    "seeders": 1073
   },
   {
     "id": "tt35222590",
@@ -214,24 +231,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 679
-  },
-  {
-    "id": "tt31434030",
-    "type": "movie",
-    "name": "Drakula: Szerelmes történet",
-    "poster": "https://image.tmdb.org/t/p/w500/rVpYvR5x61J1SSsUdFnvihJYeNN.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Bram Stoker klasszikus Drakulájának feldolgozásában a 15. században egy herceg a felesége elvesztése után megtagadja Istent, emiatt örök átok sújtja és Drakulává válik. A vérszívó élőhalott évszázadokon át vándorol, dacol a sorssal és a halállal, és egyetlen remény vezérli: újra találkozni elvesztett szerelmével. Egy pap azonban felismeri és szembeszáll vele azért, hogy elpusztítsa őt.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Fantasy",
-      "Romantikus"
-    ],
-    "seeders": 724
+    "seeders": 832
   },
   {
     "id": "tt35526133",
@@ -247,7 +247,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 286
+    "seeders": 329
+  },
+  {
+    "id": "tt39298503",
+    "type": "movie",
+    "name": "Vad London",
+    "poster": "https://image.tmdb.org/t/p/w500/3yTYwbilgxE240qShWxcNmp9WHZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután egy egész életet a világ beutazásával töltött, a világ legismertebb természetfilmes szaktekintélye most közelebb, saját otthonához fordítja figyelmét, hogy felfedezze Anglia ikonikus fővárosának élővilágát. Miután 75 éven át Londonban élt, Sir David Attenborough bensőséges ismeretekkel rendelkezik a város természeti örökségéről, és aligha akadna nála jobb idegenvezető, aki feltárhatná előttünk annak leglenyűgözőbb természeti titkait. A századik életévének időszakában forgatott személyes és megható film időszerű betekintést nyújt abba, miként válhatnak a városok nemcsak az emberek, hanem a vadon élő állatok otthonává is.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 225
   },
   {
     "id": "tt6208148",
@@ -263,22 +278,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 44
-  },
-  {
-    "id": "tt39298503",
-    "type": "movie",
-    "name": "Vad London",
-    "poster": "https://image.tmdb.org/t/p/w500/3yTYwbilgxE240qShWxcNmp9WHZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután egy egész életet a világ beutazásával töltött, a világ legismertebb természetfilmes szaktekintélye most közelebb, saját otthonához fordítja figyelmét, hogy felfedezze Anglia ikonikus fővárosának élővilágát. Miután 75 éven át Londonban élt, Sir David Attenborough bensőséges ismeretekkel rendelkezik a város természeti örökségéről, és aligha akadna nála jobb idegenvezető, aki feltárhatná előttünk annak leglenyűgözőbb természeti titkait. A századik életévének időszakában forgatott személyes és megható film időszerű betekintést nyújt abba, miként válhatnak a városok nemcsak az emberek, hanem a vadon élő állatok otthonává is.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 204
+    "seeders": 48
   },
   {
     "id": "tt35319790",
@@ -294,7 +294,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 70
+    "seeders": 65
   },
   {
     "id": "tt42192201",
@@ -304,14 +304,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A történet középpontjában Lienkie áll, akinek összedőlnek álmai a saját család alapításáról, ezért elhatározza, hogy ravasz tervvel megszerzi „az év menyasszonya” címet, és így áll bosszút volt szerelmén. Ám a romantikus komédiába forduló kavarodás közben valószínűleg többet veszít és nyer egyszerre, mint amennyit eredetileg tervezett.",
-    "imdbRating": 6.2,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Romantikus",
       "Családi"
     ],
-    "seeders": 87
+    "seeders": 86
   },
   {
     "id": "tt27757546",
@@ -328,23 +328,22 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 81
+    "seeders": 99
   },
   {
-    "id": "tt40792117",
+    "id": "tt32730754",
     "type": "movie",
-    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/uyJjKEQ8I2KxNCTmkoj0A81GFB3.jpg",
+    "name": "Hagyd a szélre",
+    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A Mackenzie Shirilla-ügyet mutatja be, egy 17 éves lányét, aki szándékosan egy téglafalnak vezette az autóját Ohióban, megölve a barátját, Dominic Russót és annak barátját, Davion Flanagant. 12 bűncselekményben találták bűnösnek.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum",
-      "Bűnügyi"
+      "Romantikus"
     ],
-    "seeders": 65
+    "seeders": 166
   },
   {
     "id": "tt27592184",
@@ -360,22 +359,7 @@
       "Dráma",
       "Western"
     ],
-    "seeders": 167
-  },
-  {
-    "id": "tt32730754",
-    "type": "movie",
-    "name": "Hagyd a szélre",
-    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 135
+    "seeders": 202
   },
   {
     "id": "tt33100314",
@@ -385,29 +369,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
-    "imdbRating": 8.6,
+    "imdbRating": 8.5,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 164
+    "seeders": 186
   },
   {
-    "id": "tt33714084",
+    "id": "tt40792117",
     "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
-    "imdbRating": 7.4,
+    "description": "A Mackenzie Shirilla-ügyet mutatja be, egy 17 éves lányét, aki szándékosan egy téglafalnak vezette az autóját Ohióban, megölve a barátját, Dominic Russót és annak barátját, Davion Flanagant. 12 bűncselekményben találták bűnösnek.",
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
-      "Dráma"
+      "Dokumentum",
+      "Bűnügyi"
     ],
-    "seeders": 56
+    "seeders": 67
   },
   {
     "id": "tt21110654",
@@ -424,7 +408,23 @@
       "Akció",
       "Fantasy"
     ],
-    "seeders": 52
+    "seeders": 60
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt32357218",
@@ -441,7 +441,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 198
+    "seeders": 211
   },
   {
     "id": "tt30472557",
@@ -459,7 +459,7 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 126
+    "seeders": 152
   },
   {
     "id": "tt31728330",
@@ -476,7 +476,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 165
+    "seeders": 188
   },
   {
     "id": "tt39749979",
@@ -493,6 +493,6 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 107
+    "seeders": 127
   }
 ]
