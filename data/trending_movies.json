@@ -1,37 +1,5 @@
 [
   {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 69
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 45
-  },
-  {
     "id": "tt32612507",
     "type": "movie",
     "name": "Lee Cronin: A múmia",
@@ -39,13 +7,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1353
+    "seeders": 941
   },
   {
     "id": "tt12042730",
@@ -61,7 +29,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 7399
+    "seeders": 5078
   },
   {
     "id": "tt36042156",
@@ -71,14 +39,46 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miközben Frank Castle megpróbál értelmet találni az életében a bosszún túl, egy váratlan erő visszahúzza a harcba.",
-    "imdbRating": 8.6,
+    "imdbRating": 8.5,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3600
+    "seeders": 2402
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 76
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 44
   },
   {
     "id": "tt1527793",
@@ -95,23 +95,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 53
-  },
-  {
-    "id": "tt41801280",
-    "type": "movie",
-    "name": "Első kézből – Egyesült Királyság: Az isztambuli csoda",
-    "poster": "https://image.tmdb.org/t/p/w500/oS1ad6L9ybHYEJLljmTkxn4ORDC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A a futballtörténelem egyik legtöbbet emlegetett eseményének története. A Liverpool FC hatalmas visszatérését meséli el az AC Milan ellen a 2005-ös Bajnokok Ligája döntőben, Isztambulban. A „Vörösök” a félidőben 3–0-s hátrányban voltak, és úgy tűnt, teljesen elvesztek. Amikor azonban a második félidőre kifutottak – élükön a csapatkapitány Steven Gerrarddal –, valami megváltozott. Gyorsan szereztek egy gólt, és hirtelen már benne volt a levegőben a fordítás. Végül hosszabb küzdelemre kényszerítették a Milant, és tizenegyespárbajban nyerték meg a döntőt.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Történelmi"
-    ],
-    "seeders": 58
+    "seeders": 51
   },
   {
     "id": "tt25868520",
@@ -129,7 +113,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 327
+    "seeders": 261
   },
   {
     "id": "tt4357198",
@@ -145,7 +129,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 810
+    "seeders": 587
   },
   {
     "id": "tt33978029",
@@ -162,23 +146,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 1664
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 331
+    "seeders": 1166
   },
   {
     "id": "tt26764007",
@@ -195,7 +163,39 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 294
+    "seeders": 242
+  },
+  {
+    "id": "tt41801280",
+    "type": "movie",
+    "name": "Első kézből – Egyesült Királyság: Az isztambuli csoda",
+    "poster": "https://image.tmdb.org/t/p/w500/oS1ad6L9ybHYEJLljmTkxn4ORDC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A a futballtörténelem egyik legtöbbet emlegetett eseményének története. A Liverpool FC hatalmas visszatérését meséli el az AC Milan ellen a 2005-ös Bajnokok Ligája döntőben, Isztambulban. A „Vörösök” a félidőben 3–0-s hátrányban voltak, és úgy tűnt, teljesen elvesztek. Amikor azonban a második félidőre kifutottak – élükön a csapatkapitány Steven Gerrarddal –, valami megváltozott. Gyorsan szereztek egy gólt, és hirtelen már benne volt a levegőben a fordítás. Végül hosszabb küzdelemre kényszerítették a Milant, és tizenegyespárbajban nyerték meg a döntőt.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Történelmi"
+    ],
+    "seeders": 50
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 238
   },
   {
     "id": "tt26443616",
@@ -214,7 +214,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 1308
+    "seeders": 974
   },
   {
     "id": "tt37738006",
@@ -230,7 +230,7 @@
       "Dokumentum",
       "TV film"
     ],
-    "seeders": 1071
+    "seeders": 735
   },
   {
     "id": "tt35222590",
@@ -246,7 +246,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 808
+    "seeders": 568
   },
   {
     "id": "tt35526133",
@@ -262,7 +262,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 291
+    "seeders": 241
   },
   {
     "id": "tt39298503",
@@ -277,7 +277,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 231
+    "seeders": 164
   },
   {
     "id": "tt35319790",
@@ -293,7 +293,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 68
+    "seeders": 62
   },
   {
     "id": "tt6208148",
@@ -309,7 +309,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 44
+    "seeders": 41
   },
   {
     "id": "tt42192201",
@@ -319,45 +319,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A történet középpontjában Lienkie áll, akinek összedőlnek álmai a saját család alapításáról, ezért elhatározza, hogy ravasz tervvel megszerzi „az év menyasszonya” címet, és így áll bosszút volt szerelmén. Ám a romantikus komédiába forduló kavarodás közben valószínűleg többet veszít és nyer egyszerre, mint amennyit eredetileg tervezett.",
-    "imdbRating": 7.5,
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Romantikus",
       "Családi"
     ],
-    "seeders": 84
-  },
-  {
-    "id": "tt32730754",
-    "type": "movie",
-    "name": "Hagyd a szélre",
-    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 152
-  },
-  {
-    "id": "tt33100314",
-    "type": "movie",
-    "name": "A boldogságnak nyolc karja van",
-    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 187
+    "seeders": 72
   },
   {
     "id": "tt27757546",
@@ -374,23 +343,38 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 85
+    "seeders": 70
   },
   {
-    "id": "tt40792117",
+    "id": "tt33100314",
     "type": "movie",
-    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "name": "A boldogságnak nyolc karja van",
+    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A Mackenzie Shirilla-ügyet mutatja be, egy 17 éves lányét, aki szándékosan egy téglafalnak vezette az autóját Ohióban, megölve a barátját, Dominic Russót és annak barátját, Davion Flanagant. 12 bűncselekményben találták bűnösnek.",
-    "imdbRating": 6.5,
+    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
+    "imdbRating": 8.5,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum",
-      "Bűnügyi"
+      "Dráma",
+      "Rejtély"
     ],
-    "seeders": 72
+    "seeders": 146
+  },
+  {
+    "id": "tt32730754",
+    "type": "movie",
+    "name": "Hagyd a szélre",
+    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt27592184",
@@ -406,7 +390,23 @@
       "Dráma",
       "Western"
     ],
-    "seeders": 178
+    "seeders": 133
+  },
+  {
+    "id": "tt40792117",
+    "type": "movie",
+    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 56
   },
   {
     "id": "tt33714084",
@@ -422,24 +422,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 67
-  },
-  {
-    "id": "tt21110654",
-    "type": "movie",
-    "name": "Azték Batman – A birodalmak harca",
-    "poster": "https://image.tmdb.org/t/p/w500/2nifUnsraLRfZL4vWCTi7A92DiN.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal azték fiú tragédiája. Az apját meggyilkolják a spanyol hódítók. A fiú Tenochtitlanba menekül, hogy figyelmeztesse a királyt.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Fantasy"
-    ],
-    "seeders": 60
+    "seeders": 53
   },
   {
     "id": "tt32357218",
@@ -456,7 +439,24 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 210
+    "seeders": 177
+  },
+  {
+    "id": "tt21110654",
+    "type": "movie",
+    "name": "Azték Batman – A birodalmak harca",
+    "poster": "https://image.tmdb.org/t/p/w500/2nifUnsraLRfZL4vWCTi7A92DiN.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal azték fiú tragédiája. Az apját meggyilkolják a spanyol hódítók. A fiú Tenochtitlanba menekül, hogy figyelmeztesse a királyt.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Fantasy"
+    ],
+    "seeders": 48
   },
   {
     "id": "tt30472557",
@@ -474,7 +474,7 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 140
+    "seeders": 114
   },
   {
     "id": "tt31728330",
@@ -491,6 +491,6 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 184
+    "seeders": 136
   }
 ]
