@@ -14,7 +14,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 1040
+    "seeders": 881
   },
   {
     "id": "tt12042730",
@@ -30,7 +30,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 7071
+    "seeders": 5005
   },
   {
     "id": "tt32612507",
@@ -46,7 +46,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1571
+    "seeders": 1136
   },
   {
     "id": "tt36042156",
@@ -63,7 +63,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3481
+    "seeders": 2449
   },
   {
     "id": "tt8879928",
@@ -80,7 +80,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 153
+    "seeders": 134
   },
   {
     "id": "tt4357198",
@@ -96,41 +96,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 772
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 1579
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 96
+    "seeders": 572
   },
   {
     "id": "tt25868520",
@@ -148,7 +114,41 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 301
+    "seeders": 265
+  },
+  {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 1121
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt26443616",
@@ -167,39 +167,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 1251
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 295
-  },
-  {
-    "id": "tt37738006",
-    "type": "movie",
-    "name": "1000 férfi 12 óra alatt – A Bonnie Blue-sztori",
-    "poster": "https://image.tmdb.org/t/p/w500/5dcgoyf8nt6Xt4VSR6Nrn6nwhuz.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Bonnie Blue-sztori egy provokatív, egész estés dokumentumfilm egy fiatal nő történetéről, aki saját testét, identitását és nyilvános megítélését állítja egy szélsőséges társadalmi kísérlet középpontjába. Bonnie Blue személyes narrációján keresztül a film azt vizsgálja, mit jelent ma az önrendelkezés, a hírnév és a női szexualitás egy olyan korban, ahol a magánélet és a nyilvánosság határai végleg elmosódni látszanak. A dokumentumfilm nem pusztán egy extrém vállalás krónikája, hanem érzékeny portré a figyelemgazdaság működéséről. Megmutatja, hogyan válik egy egyéni döntés globális vitává, miközben a közösségi média, a pornóipar és a mainstream média egyszerre formálja és torzítja a főszereplő történetét. Bonnie Blue egyszerre alkotó, termék és vitatott kulturális jelenség.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "TV film"
-    ],
-    "seeders": 995
+    "seeders": 961
   },
   {
     "id": "tt26764007",
@@ -216,7 +184,39 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 259
+    "seeders": 225
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 217
+  },
+  {
+    "id": "tt37738006",
+    "type": "movie",
+    "name": "1000 férfi 12 óra alatt – A Bonnie Blue-sztori",
+    "poster": "https://image.tmdb.org/t/p/w500/5dcgoyf8nt6Xt4VSR6Nrn6nwhuz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Bonnie Blue-sztori egy provokatív, egész estés dokumentumfilm egy fiatal nő történetéről, aki saját testét, identitását és nyilvános megítélését állítja egy szélsőséges társadalmi kísérlet középpontjába. Bonnie Blue személyes narrációján keresztül a film azt vizsgálja, mit jelent ma az önrendelkezés, a hírnév és a női szexualitás egy olyan korban, ahol a magánélet és a nyilvánosság határai végleg elmosódni látszanak. A dokumentumfilm nem pusztán egy extrém vállalás krónikája, hanem érzékeny portré a figyelemgazdaság működéséről. Megmutatja, hogyan válik egy egyéni döntés globális vitává, miközben a közösségi média, a pornóipar és a mainstream média egyszerre formálja és torzítja a főszereplő történetét. Bonnie Blue egyszerre alkotó, termék és vitatott kulturális jelenség.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "TV film"
+    ],
+    "seeders": 713
   },
   {
     "id": "tt35222590",
@@ -232,7 +232,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 784
+    "seeders": 570
   },
   {
     "id": "tt27714581",
@@ -264,23 +264,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 47
-  },
-  {
-    "id": "tt41801280",
-    "type": "movie",
-    "name": "Első kézből – Egyesült Királyság: Az isztambuli csoda",
-    "poster": "https://image.tmdb.org/t/p/w500/oS1ad6L9ybHYEJLljmTkxn4ORDC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A a futballtörténelem egyik legtöbbet emlegetett eseményének története. A Liverpool FC hatalmas visszatérését meséli el az AC Milan ellen a 2005-ös Bajnokok Ligája döntőben, Isztambulban. A „Vörösök” a félidőben 3–0-s hátrányban voltak, és úgy tűnt, teljesen elvesztek. Amikor azonban a második félidőre kifutottak – élükön a csapatkapitány Steven Gerrarddal –, valami megváltozott. Gyorsan szereztek egy gólt, és hirtelen már benne volt a levegőben a fordítás. Végül hosszabb küzdelemre kényszerítették a Milant, és tizenegyespárbajban nyerték meg a döntőt.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Történelmi"
-    ],
-    "seeders": 54
+    "seeders": 45
   },
   {
     "id": "tt35526133",
@@ -296,7 +280,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 278
+    "seeders": 231
+  },
+  {
+    "id": "tt41801280",
+    "type": "movie",
+    "name": "Első kézből – Egyesült Királyság: Az isztambuli csoda",
+    "poster": "https://image.tmdb.org/t/p/w500/oS1ad6L9ybHYEJLljmTkxn4ORDC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A a futballtörténelem egyik legtöbbet emlegetett eseményének története. A Liverpool FC hatalmas visszatérését meséli el az AC Milan ellen a 2005-ös Bajnokok Ligája döntőben, Isztambulban. A „Vörösök” a félidőben 3–0-s hátrányban voltak, és úgy tűnt, teljesen elvesztek. Amikor azonban a második félidőre kifutottak – élükön a csapatkapitány Steven Gerrarddal –, valami megváltozott. Gyorsan szereztek egy gólt, és hirtelen már benne volt a levegőben a fordítás. Végül hosszabb küzdelemre kényszerítették a Milant, és tizenegyespárbajban nyerték meg a döntőt.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Történelmi"
+    ],
+    "seeders": 43
   },
   {
     "id": "tt39298503",
@@ -311,23 +311,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 211
-  },
-  {
-    "id": "tt33100314",
-    "type": "movie",
-    "name": "A boldogságnak nyolc karja van",
-    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 178
+    "seeders": 152
   },
   {
     "id": "tt42192201",
@@ -337,45 +321,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A történet középpontjában Lienkie áll, akinek összedőlnek álmai a saját család alapításáról, ezért elhatározza, hogy ravasz tervvel megszerzi „az év menyasszonya” címet, és így áll bosszút volt szerelmén. Ám a romantikus komédiába forduló kavarodás közben valószínűleg többet veszít és nyer egyszerre, mint amennyit eredetileg tervezett.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Romantikus",
       "Családi"
     ],
-    "seeders": 75
-  },
-  {
-    "id": "tt32730754",
-    "type": "movie",
-    "name": "Hagyd a szélre",
-    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 138
-  },
-  {
-    "id": "tt27592184",
-    "type": "movie",
-    "name": "Az utolsó vonat Fortune-ba",
-    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Western"
-    ],
-    "seeders": 163
+    "seeders": 66
   },
   {
     "id": "tt35319790",
@@ -391,7 +344,54 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 55
+    "seeders": 50
+  },
+  {
+    "id": "tt33100314",
+    "type": "movie",
+    "name": "A boldogságnak nyolc karja van",
+    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 142
+  },
+  {
+    "id": "tt27592184",
+    "type": "movie",
+    "name": "Az utolsó vonat Fortune-ba",
+    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Western"
+    ],
+    "seeders": 134
+  },
+  {
+    "id": "tt32730754",
+    "type": "movie",
+    "name": "Hagyd a szélre",
+    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 108
   },
   {
     "id": "tt27757546",
@@ -408,39 +408,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt40792117",
-    "type": "movie",
-    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 68
-  },
-  {
-    "id": "tt33714084",
-    "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 63
+    "seeders": 66
   },
   {
     "id": "tt6208148",
@@ -459,6 +427,38 @@
     "seeders": 34
   },
   {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 54
+  },
+  {
+    "id": "tt40792117",
+    "type": "movie",
+    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 54
+  },
+  {
     "id": "tt30472557",
     "type": "movie",
     "name": "劇場版 チェンソーマン レゼ篇",
@@ -474,7 +474,7 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 138
+    "seeders": 110
   },
   {
     "id": "tt21110654",
@@ -491,6 +491,6 @@
       "Akció",
       "Fantasy"
     ],
-    "seeders": 53
+    "seeders": 41
   }
 ]
