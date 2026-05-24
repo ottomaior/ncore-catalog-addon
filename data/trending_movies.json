@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt12042730",
+    "type": "movie",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 6562
+  },
+  {
     "id": "tt28650488",
     "type": "movie",
     "name": "Super Mario Galaxis: A film",
@@ -16,7 +32,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 588
+    "seeders": 775
   },
   {
     "id": "tt34378301",
@@ -32,38 +48,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1429
-  },
-  {
-    "id": "tt12042730",
-    "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Kaland"
-    ],
-    "seeders": 5024
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 111
+    "seeders": 1837
   },
   {
     "id": "tt32612507",
@@ -79,7 +64,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1394
+    "seeders": 1886
   },
   {
     "id": "tt36042156",
@@ -96,7 +81,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 2579
+    "seeders": 3421
   },
   {
     "id": "tt34611082",
@@ -111,7 +96,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 358
+    "seeders": 490
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 142
   },
   {
     "id": "tt31727397",
@@ -128,7 +128,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 59
+    "seeders": 71
   },
   {
     "id": "tt1757678",
@@ -145,7 +145,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 78
+    "seeders": 102
   },
   {
     "id": "tt4357198",
@@ -161,7 +161,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 640
+    "seeders": 809
   },
   {
     "id": "tt8879928",
@@ -178,24 +178,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 196
-  },
-  {
-    "id": "tt31050594",
-    "type": "movie",
-    "name": "Mesterséges kegyelem",
-    "poster": "https://image.tmdb.org/t/p/w500/cPFmHcmi8syVxfmc0YvmJF53ysG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 70
+    "seeders": 234
   },
   {
     "id": "tt25868520",
@@ -213,7 +196,24 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 239
+    "seeders": 301
+  },
+  {
+    "id": "tt31050594",
+    "type": "movie",
+    "name": "Mesterséges kegyelem",
+    "poster": "https://image.tmdb.org/t/p/w500/cPFmHcmi8syVxfmc0YvmJF53ysG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt35222590",
@@ -229,7 +229,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 545
+    "seeders": 688
   },
   {
     "id": "tt26764007",
@@ -246,7 +246,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 231
+    "seeders": 276
   },
   {
     "id": "tt32916440",
@@ -262,7 +262,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 201
+    "seeders": 268
   },
   {
     "id": "tt33978029",
@@ -279,7 +279,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 211
+    "seeders": 261
   },
   {
     "id": "tt35526133",
@@ -295,7 +295,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 223
+    "seeders": 280
   },
   {
     "id": "tt39298503",
@@ -310,7 +310,38 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 138
+    "seeders": 186
+  },
+  {
+    "id": "tt33100314",
+    "type": "movie",
+    "name": "A boldogságnak nyolc karja van",
+    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
+    "imdbRating": 8.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 178
+  },
+  {
+    "id": "tt32730754",
+    "type": "movie",
+    "name": "Hagyd a szélre",
+    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 135
   },
   {
     "id": "tt1527793",
@@ -327,38 +358,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 44
-  },
-  {
-    "id": "tt33100314",
-    "type": "movie",
-    "name": "A boldogságnak nyolc karja van",
-    "poster": "https://image.tmdb.org/t/p/w500/a9LqUwJKdEW2k8n7fwMVTaVlbYK.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 150
-  },
-  {
-    "id": "tt32730754",
-    "type": "movie",
-    "name": "Hagyd a szélre",
-    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 108
+    "seeders": 46
   },
   {
     "id": "tt27592184",
@@ -374,7 +374,7 @@
       "Dráma",
       "Western"
     ],
-    "seeders": 123
+    "seeders": 148
   },
   {
     "id": "tt27714581",
@@ -389,57 +389,23 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 35
+    "seeders": 38
   },
   {
-    "id": "tt33714084",
+    "id": "tt40792117",
     "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
-    "imdbRating": 7.5,
+    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 58
-  },
-  {
-    "id": "tt42192201",
-    "type": "movie",
-    "name": "Az év menyasszonya",
-    "poster": "https://image.tmdb.org/t/p/w500/geFc71rCYM8fErbROLY6n1LfAS6.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet középpontjában Lienkie áll, akinek összedőlnek álmai a saját család alapításáról, ezért elhatározza, hogy ravasz tervvel megszerzi „az év menyasszonya” címet, és így áll bosszút volt szerelmén. Ám a romantikus komédiába forduló kavarodás közben valószínűleg többet veszít és nyer egyszerre, mint amennyit eredetileg tervezett.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus",
-      "Családi"
-    ],
-    "seeders": 58
-  },
-  {
-    "id": "tt27757546",
-    "type": "movie",
-    "name": "Diablo",
-    "poster": "https://image.tmdb.org/t/p/w500/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután Kris Chaney kiszabadul a börtönből, küldetésül tűzi ki, hogy teljesítsen egy korábbi ígéretet. Rövidesen azonban nagy veszélyben találja magát, miután elrabolja Elisát, a maffiózó Vincent lányát. El Corvo, egy pszichopata gyilkos ugyanis nem a pénzért, hanem a saját, Vincent családja elleni bosszúja miatt csatlakozik a lány utáni hajtóvadászathoz.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
+      "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 60
+    "seeders": 71
   },
   {
     "id": "tt30472557",
@@ -457,23 +423,57 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 99
+    "seeders": 127
   },
   {
-    "id": "tt40792117",
+    "id": "tt42192201",
     "type": "movie",
-    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "name": "Az év menyasszonya",
+    "poster": "https://image.tmdb.org/t/p/w500/geFc71rCYM8fErbROLY6n1LfAS6.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
-    "imdbRating": 6.4,
+    "description": "A történet középpontjában Lienkie áll, akinek összedőlnek álmai a saját család alapításáról, ezért elhatározza, hogy ravasz tervvel megszerzi „az év menyasszonya” címet, és így áll bosszút volt szerelmén. Ám a romantikus komédiába forduló kavarodás közben valószínűleg többet veszít és nyer egyszerre, mint amennyit eredetileg tervezett.",
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum",
+      "Vígjáték",
+      "Romantikus",
+      "Családi"
+    ],
+    "seeders": 67
+  },
+  {
+    "id": "tt27757546",
+    "type": "movie",
+    "name": "Diablo",
+    "poster": "https://image.tmdb.org/t/p/w500/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután Kris Chaney kiszabadul a börtönből, küldetésül tűzi ki, hogy teljesítsen egy korábbi ígéretet. Rövidesen azonban nagy veszélyben találja magát, miután elrabolja Elisát, a maffiózó Vincent lányát. El Corvo, egy pszichopata gyilkos ugyanis nem a pénzért, hanem a saját, Vincent családja elleni bosszúja miatt csatlakozik a lány utáni hajtóvadászathoz.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 53
+    "seeders": 72
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 63
   },
   {
     "id": "tt41801280",
@@ -489,6 +489,6 @@
       "Dokumentum",
       "Történelmi"
     ],
-    "seeders": 27
+    "seeders": 31
   }
 ]
