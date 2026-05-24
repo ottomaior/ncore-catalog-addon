@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999991
+"seeders": 999989
 },
 {
 "id": "tt29344974",
@@ -30,7 +30,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999987
+"seeders": 999986
 },
 {
 "id": "tt29567915",
@@ -46,7 +46,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999984
+"seeders": 999983
 },
 {
 "id": "tt34375721",
@@ -63,7 +63,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999969
+"seeders": 999967
 },
 {
 "id": "tt20672356",
@@ -82,6 +82,21 @@
 "seeders": 999954
 },
 {
+"id": "tt27811640",
+"type": "movie",
+"name": "Véletlenül írtam egy könyvet",
+"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
+"imdbRating": 6.6,
+"releaseInfo": "2025",
+"genres": [
+"Családi"
+],
+"seeders": 999890
+},
+{
 "id": "tt0179955",
 "type": "movie",
 "name": "Macskafogó",
@@ -96,7 +111,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999896
+"seeders": 999889
 },
 {
 "id": "tt38508942",
@@ -111,37 +126,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999894
-},
-{
-"id": "tt27811640",
-"type": "movie",
-"name": "Véletlenül írtam egy könyvet",
-"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
-"imdbRating": 6.6,
-"releaseInfo": "2025",
-"genres": [
-"Családi"
-],
-"seeders": 999891
-},
-{
-"id": "tt40381358",
-"type": "movie",
-"name": "Tavaszi szél - az ébredés",
-"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
-"imdbRating": 8.4,
-"releaseInfo": "2026",
-"genres": [
-"Dokumentum"
-],
-"seeders": 999865
+"seeders": 999880
 },
 {
 "id": "tt0142632",
@@ -158,7 +143,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999853
+"seeders": 999854
 },
 {
 "id": "tt0065067",
@@ -173,7 +158,22 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999844
+"seeders": 999853
+},
+{
+"id": "tt40381358",
+"type": "movie",
+"name": "Tavaszi szél - az ébredés",
+"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
+"imdbRating": 8.4,
+"releaseInfo": "2026",
+"genres": [
+"Dokumentum"
+],
+"seeders": 999850
 },
 {
 "id": "tt31065630",
@@ -191,22 +191,20 @@
 "seeders": 999838
 },
 {
-"id": "tt26678938",
+"id": "tt0131636",
 "type": "movie",
-"name": "Halál cukik",
-"poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
+"name": "Vuk",
+"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
 "posterShape": "poster",
-"year": 2026,
-"description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-"imdbRating": 6.7,
-"releaseInfo": "2026",
+"year": 1981,
+"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
+"imdbRating": 7.6,
+"releaseInfo": "1981",
 "genres": [
-"Zenei",
-"Thriller",
-"Akció",
-"Horror"
+"Animációs",
+"Családi"
 ],
-"seeders": 999834
+"seeders": 999832
 },
 {
 "id": "tt0084315",
@@ -226,20 +224,22 @@
 "seeders": 999823
 },
 {
-"id": "tt0131636",
+"id": "tt26678938",
 "type": "movie",
-"name": "Vuk",
-"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
+"name": "Halál cukik",
+"poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
 "posterShape": "poster",
-"year": 1981,
-"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
-"imdbRating": 7.6,
-"releaseInfo": "1981",
+"year": 2026,
+"description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
+"imdbRating": 6.8,
+"releaseInfo": "2026",
 "genres": [
-"Animációs",
-"Családi"
+"Zenei",
+"Thriller",
+"Akció",
+"Horror"
 ],
-"seeders": 999821
+"seeders": 999820
 },
 {
 "id": "tt23172090",
@@ -257,6 +257,22 @@
 "Horror"
 ],
 "seeders": 999817
+},
+{
+"id": "tt37357756",
+"type": "movie",
+"name": "Szenvedélyes nők",
+"poster": "https://image.tmdb.org/t/p/w500/rQV3WscBSQGZZnvGLaDKTCda7yu.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A negyvenes Lilla párterapeutaként dolgozik, és egész életét a családjának szentelte. Ezért is éri váratlanul, amikor elhagyja a férje egy fiatal műkörmösért. Lilla lánya, Zsófi és az anyja, az egykor ismert színésznő, Vilma elhatározzák, hogy kirángatják a nőt a depresszióból és az önsajnálatból és ráveszik, hogy kezdjen el újra randizni. Lilla évtizedek óta nem volt szingli, így kezdetben ellenáll, és titokban még mindig abban reménykedik, hogy a férje visszatér hozzá. Ezért az anyja cselhez folyamodik, és elhívja a lányát és az unokáját a vidéki nyaralójukba, ahol bemutat neki egy sármos újságírót, aki Vilma önéletrajzi könyvét írja. A helyzetet bonyolítja, hogy Zsófi barátja is próbálja összehozni Lillát egy nagyszájú kollégájával, aki teljesen váratlanul toppan be és még jobban összekuszálja az eseményeket.",
+"imdbRating": 6.7,
+"releaseInfo": "2025",
+"genres": [
+"Romantikus",
+"Vígjáték"
+],
+"seeders": 999805
 },
 {
 "id": "tt33586253",
