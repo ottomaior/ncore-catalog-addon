@@ -13,7 +13,23 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 7318
+    "seeders": 7817
+  },
+  {
+    "id": "tt34378301",
+    "type": "movie",
+    "name": "Tom Clancy: Jack Ryan Szellemháború",
+    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 2120
   },
   {
     "id": "tt28650488",
@@ -32,23 +48,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 884
-  },
-  {
-    "id": "tt34378301",
-    "type": "movie",
-    "name": "Tom Clancy: Jack Ryan Szellemháború",
-    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 2005
+    "seeders": 986
   },
   {
     "id": "tt32612507",
@@ -64,7 +64,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 2096
+    "seeders": 2214
   },
   {
     "id": "tt36042156",
@@ -81,7 +81,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3764
+    "seeders": 4008
   },
   {
     "id": "tt34611082",
@@ -96,7 +96,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 519
+    "seeders": 571
   },
   {
     "id": "tt8760450",
@@ -111,7 +111,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 143
+    "seeders": 169
   },
   {
     "id": "tt1757678",
@@ -128,7 +128,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 119
+    "seeders": 130
   },
   {
     "id": "tt31727397",
@@ -145,7 +145,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 75
+    "seeders": 79
   },
   {
     "id": "tt4357198",
@@ -161,7 +161,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 860
+    "seeders": 887
   },
   {
     "id": "tt8879928",
@@ -178,7 +178,23 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 247
+    "seeders": 258
+  },
+  {
+    "id": "tt35222590",
+    "type": "movie",
+    "name": "A 8-as kijárat",
+    "poster": "https://image.tmdb.org/t/p/w500/tetKeheUrcnaiqxEUeb7sdEhxrP.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 774
   },
   {
     "id": "tt25868520",
@@ -196,23 +212,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 321
-  },
-  {
-    "id": "tt35222590",
-    "type": "movie",
-    "name": "A 8-as kijárat",
-    "poster": "https://image.tmdb.org/t/p/w500/tetKeheUrcnaiqxEUeb7sdEhxrP.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 745
+    "seeders": 308
   },
   {
     "id": "tt31050594",
@@ -229,7 +229,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 74
+    "seeders": 82
   },
   {
     "id": "tt26764007",
@@ -246,7 +246,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 298
+    "seeders": 303
   },
   {
     "id": "tt32916440",
@@ -262,7 +262,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 290
+    "seeders": 296
   },
   {
     "id": "tt33978029",
@@ -279,7 +279,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 295
+    "seeders": 321
   },
   {
     "id": "tt8950154",
@@ -297,7 +297,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 163
+    "seeders": 161
   },
   {
     "id": "tt35526133",
@@ -313,7 +313,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 287
+    "seeders": 302
   },
   {
     "id": "tt39298503",
@@ -328,7 +328,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 188
+    "seeders": 210
   },
   {
     "id": "tt33100314",
@@ -344,7 +344,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 177
+    "seeders": 189
   },
   {
     "id": "tt32730754",
@@ -359,7 +359,23 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 151
+    "seeders": 147
+  },
+  {
+    "id": "tt27592184",
+    "type": "movie",
+    "name": "Az utolsó vonat Fortune-ba",
+    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Western"
+    ],
+    "seeders": 156
   },
   {
     "id": "tt1527793",
@@ -379,20 +395,19 @@
     "seeders": 50
   },
   {
-    "id": "tt27592184",
+    "id": "tt27714581",
     "type": "movie",
-    "name": "Az utolsó vonat Fortune-ba",
-    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
-    "imdbRating": 5.9,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Western"
+      "Dráma"
     ],
-    "seeders": 158
+    "seeders": 42
   },
   {
     "id": "tt30472557",
@@ -410,22 +425,7 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 140
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 39
+    "seeders": 135
   },
   {
     "id": "tt40792117",
@@ -458,7 +458,23 @@
       "Romantikus",
       "Családi"
     ],
-    "seeders": 74
+    "seeders": 72
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt27757546",
@@ -475,22 +491,6 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 77
-  },
-  {
-    "id": "tt33714084",
-    "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 69
+    "seeders": 76
   }
 ]
