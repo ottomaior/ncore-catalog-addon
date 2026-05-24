@@ -13,7 +13,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 6562
+    "seeders": 7318
   },
   {
     "id": "tt28650488",
@@ -32,7 +32,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 775
+    "seeders": 884
   },
   {
     "id": "tt34378301",
@@ -42,13 +42,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
-    "imdbRating": 7.3,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 1837
+    "seeders": 2005
   },
   {
     "id": "tt32612507",
@@ -64,7 +64,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1886
+    "seeders": 2096
   },
   {
     "id": "tt36042156",
@@ -81,7 +81,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3421
+    "seeders": 3764
   },
   {
     "id": "tt34611082",
@@ -91,12 +91,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
-    "imdbRating": 5.5,
+    "imdbRating": 5.4,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 490
+    "seeders": 519
   },
   {
     "id": "tt8760450",
@@ -104,31 +104,14 @@
     "name": "Westhampton",
     "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
     "posterShape": "poster",
-    "year": 2025,
+    "year": 2026,
     "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
     "imdbRating": null,
-    "releaseInfo": "2025",
+    "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 142
-  },
-  {
-    "id": "tt31727397",
-    "type": "movie",
-    "name": "Nincs kiszállás",
-    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 71
+    "seeders": 143
   },
   {
     "id": "tt1757678",
@@ -145,7 +128,24 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 102
+    "seeders": 119
+  },
+  {
+    "id": "tt31727397",
+    "type": "movie",
+    "name": "Nincs kiszállás",
+    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 75
   },
   {
     "id": "tt4357198",
@@ -161,7 +161,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 809
+    "seeders": 860
   },
   {
     "id": "tt8879928",
@@ -178,7 +178,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 234
+    "seeders": 247
   },
   {
     "id": "tt25868520",
@@ -196,7 +196,23 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 301
+    "seeders": 321
+  },
+  {
+    "id": "tt35222590",
+    "type": "movie",
+    "name": "A 8-as kijárat",
+    "poster": "https://image.tmdb.org/t/p/w500/tetKeheUrcnaiqxEUeb7sdEhxrP.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 745
   },
   {
     "id": "tt31050594",
@@ -213,23 +229,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 71
-  },
-  {
-    "id": "tt35222590",
-    "type": "movie",
-    "name": "A 8-as kijárat",
-    "poster": "https://image.tmdb.org/t/p/w500/tetKeheUrcnaiqxEUeb7sdEhxrP.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 688
+    "seeders": 74
   },
   {
     "id": "tt26764007",
@@ -246,7 +246,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 276
+    "seeders": 298
   },
   {
     "id": "tt32916440",
@@ -262,7 +262,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 268
+    "seeders": 290
   },
   {
     "id": "tt33978029",
@@ -279,7 +279,25 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 261
+    "seeders": 295
+  },
+  {
+    "id": "tt8950154",
+    "type": "movie",
+    "name": "Joe Baby",
+    "poster": "https://image.tmdb.org/t/p/w500/w6vIEAwpUnSxACNsb3MNNT8rg8c.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "seeders": 163
   },
   {
     "id": "tt35526133",
@@ -295,7 +313,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 280
+    "seeders": 287
   },
   {
     "id": "tt39298503",
@@ -310,7 +328,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 186
+    "seeders": 188
   },
   {
     "id": "tt33100314",
@@ -320,13 +338,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az azonos című sikerkönyv alapján készült megható dráma, melyben egy kisvárosi akváriumban éjszaka dolgozó özvegy összebarátkozik egy okos polippal és egy sodródó fiatalemberrel.",
-    "imdbRating": 8.6,
+    "imdbRating": 8.5,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 178
+    "seeders": 177
   },
   {
     "id": "tt32730754",
@@ -341,7 +359,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 135
+    "seeders": 151
   },
   {
     "id": "tt1527793",
@@ -358,7 +376,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 46
+    "seeders": 50
   },
   {
     "id": "tt27592184",
@@ -374,38 +392,7 @@
       "Dráma",
       "Western"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 38
-  },
-  {
-    "id": "tt40792117",
-    "type": "movie",
-    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 71
+    "seeders": 158
   },
   {
     "id": "tt30472557",
@@ -423,7 +410,38 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 127
+    "seeders": 140
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 39
+  },
+  {
+    "id": "tt40792117",
+    "type": "movie",
+    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 74
   },
   {
     "id": "tt42192201",
@@ -440,7 +458,7 @@
       "Romantikus",
       "Családi"
     ],
-    "seeders": 67
+    "seeders": 74
   },
   {
     "id": "tt27757546",
@@ -457,7 +475,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 72
+    "seeders": 77
   },
   {
     "id": "tt33714084",
@@ -473,22 +491,6 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 63
-  },
-  {
-    "id": "tt41801280",
-    "type": "movie",
-    "name": "Első kézből – Egyesült Királyság: Az isztambuli csoda",
-    "poster": "https://image.tmdb.org/t/p/w500/sXsB1CVtX4LGn3TWrf2V1KILLpJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A a futballtörténelem egyik legtöbbet emlegetett eseményének története. A Liverpool FC hatalmas visszatérését meséli el az AC Milan ellen a 2005-ös Bajnokok Ligája döntőben, Isztambulban. A „Vörösök” a félidőben 3–0-s hátrányban voltak, és úgy tűnt, teljesen elvesztek. Amikor azonban a második félidőre kifutottak – élükön a csapatkapitány Steven Gerrarddal –, valami megváltozott. Gyorsan szereztek egy gólt, és hirtelen már benne volt a levegőben a fordítás. Végül hosszabb küzdelemre kényszerítették a Milant, és tizenegyespárbajban nyerték meg a döntőt.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Történelmi"
-    ],
-    "seeders": 31
+    "seeders": 69
   }
 ]
