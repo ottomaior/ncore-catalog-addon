@@ -13,7 +13,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 7419
+    "seeders": 7958
   },
   {
     "id": "tt34378301",
@@ -29,7 +29,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2106
+    "seeders": 2307
   },
   {
     "id": "tt28650488",
@@ -48,7 +48,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1032
+    "seeders": 1142
   },
   {
     "id": "tt32612507",
@@ -64,7 +64,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 2156
+    "seeders": 2420
   },
   {
     "id": "tt36042156",
@@ -81,7 +81,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3733
+    "seeders": 3996
   },
   {
     "id": "tt34611082",
@@ -96,7 +96,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 568
+    "seeders": 638
   },
   {
     "id": "tt8760450",
@@ -111,7 +111,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 173
+    "seeders": 174
   },
   {
     "id": "tt4357198",
@@ -127,7 +127,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 867
+    "seeders": 917
   },
   {
     "id": "tt1757678",
@@ -144,7 +144,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 128
+    "seeders": 135
   },
   {
     "id": "tt8879928",
@@ -161,7 +161,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 262
+    "seeders": 283
   },
   {
     "id": "tt31727397",
@@ -178,23 +178,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt35222590",
-    "type": "movie",
-    "name": "A 8-as kijárat",
-    "poster": "https://image.tmdb.org/t/p/w500/tetKeheUrcnaiqxEUeb7sdEhxrP.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy férfi csapdába esik egy végtelennek tűnő, steril metrófolyosó-rendszerben, ahol egyetlen cél vezérli: megtalálni a 8-as kijáratot. A szabadulás szabályai egyszerűek, mégis idegtépőek: soha ne siklj el a részletek felett. Ha bármi szokatlant – egy anomáliát – észlelsz a környezetben, azonnal fordulj vissza! Ha minden normálisnak tűnik, haladj tovább! A cél: épségben elérni a 8-as kijáratot. Ám a legapróbb figyelmetlenség is végzetes lehet: egy elnézett hiba azonnal visszarepíti a kezdetekhez. Vajon létezik kiút ebből a végtelen, önmagába forduló labirintusból, vagy a folyosó örökre fogva tart?",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 735
+    "seeders": 86
   },
   {
     "id": "tt25868520",
@@ -212,12 +196,12 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 316
+    "seeders": 335
   },
   {
     "id": "tt26764007",
     "type": "movie",
-    "name": "My Sister's Bones",
+    "name": "Lent a mélyben",
     "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
     "posterShape": "poster",
     "year": 2026,
@@ -229,7 +213,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 292
+    "seeders": 316
   },
   {
     "id": "tt32916440",
@@ -245,7 +229,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 295
+    "seeders": 315
   },
   {
     "id": "tt33978029",
@@ -262,24 +246,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 293
-  },
-  {
-    "id": "tt31050594",
-    "type": "movie",
-    "name": "Mesterséges kegyelem",
-    "poster": "https://image.tmdb.org/t/p/w500/cPFmHcmi8syVxfmc0YvmJF53ysG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 77
+    "seeders": 302
   },
   {
     "id": "tt8950154",
@@ -297,7 +264,24 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 156
+    "seeders": 166
+  },
+  {
+    "id": "tt31050594",
+    "type": "movie",
+    "name": "Mesterséges kegyelem",
+    "poster": "https://image.tmdb.org/t/p/w500/cPFmHcmi8syVxfmc0YvmJF53ysG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 76
   },
   {
     "id": "tt35526133",
@@ -313,7 +297,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 286
+    "seeders": 310
   },
   {
     "id": "tt39298503",
@@ -328,7 +312,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 190
+    "seeders": 212
   },
   {
     "id": "tt33100314",
@@ -344,7 +328,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 186
+    "seeders": 197
   },
   {
     "id": "tt32730754",
@@ -359,7 +343,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 140
+    "seeders": 147
   },
   {
     "id": "tt27592184",
@@ -375,7 +359,7 @@
       "Dráma",
       "Western"
     ],
-    "seeders": 157
+    "seeders": 161
   },
   {
     "id": "tt1527793",
@@ -392,7 +376,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 50
+    "seeders": 54
   },
   {
     "id": "tt30472557",
@@ -410,23 +394,23 @@
       "Romantikus",
       "Fantasy"
     ],
-    "seeders": 141
+    "seeders": 138
   },
   {
-    "id": "tt40792117",
+    "id": "tt33714084",
     "type": "movie",
-    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
-    "imdbRating": 6.6,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum",
-      "Bűnügyi"
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 71
+    "seeders": 74
   },
   {
     "id": "tt27757546",
@@ -443,22 +427,23 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 76
+    "seeders": 78
   },
   {
-    "id": "tt27714581",
+    "id": "tt40792117",
     "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Dokumentum",
+      "Bűnügyi"
     ],
-    "seeders": 39
+    "seeders": 71
   },
   {
     "id": "tt42192201",
@@ -475,22 +460,37 @@
       "Romantikus",
       "Családi"
     ],
-    "seeders": 69
+    "seeders": 67
   },
   {
-    "id": "tt33714084",
+    "id": "tt27714581",
     "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
     "genres": [
-      "Romantikus",
       "Dráma"
     ],
-    "seeders": 67
+    "seeders": 38
+  },
+  {
+    "id": "tt41801280",
+    "type": "movie",
+    "name": "Első kézből – Egyesült Királyság: Az isztambuli csoda",
+    "poster": "https://image.tmdb.org/t/p/w500/sXsB1CVtX4LGn3TWrf2V1KILLpJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A a futballtörténelem egyik legtöbbet emlegetett eseményének története. A Liverpool FC hatalmas visszatérését meséli el az AC Milan ellen a 2005-ös Bajnokok Ligája döntőben, Isztambulban. A „Vörösök” a félidőben 3–0-s hátrányban voltak, és úgy tűnt, teljesen elvesztek. Amikor azonban a második félidőre kifutottak – élükön a csapatkapitány Steven Gerrarddal –, valami megváltozott. Gyorsan szereztek egy gólt, és hirtelen már benne volt a levegőben a fordítás. Végül hosszabb küzdelemre kényszerítették a Milant, és tizenegyespárbajban nyerték meg a döntőt.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Történelmi"
+    ],
+    "seeders": 35
   }
 ]
