@@ -12,7 +12,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 1011
+    "seeders": 1279
   },
   {
     "id": "tt29550683",
@@ -28,7 +28,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 271
+    "seeders": 299
   },
   {
     "id": "tt12042730",
@@ -44,7 +44,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 7255
+    "seeders": 7169
   },
   {
     "id": "tt34378301",
@@ -60,7 +60,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2134
+    "seeders": 2032
   },
   {
     "id": "tt32537226",
@@ -77,23 +77,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 194
+    "seeders": 222
   },
   {
-    "id": "tt41801288",
+    "id": "tt36042156",
     "type": "movie",
-    "name": "Untold UK: Vinnie Jones",
-    "poster": "https://image.tmdb.org/t/p/w500/AilC78z0a3wg0mBpBpurqjWCTxZ.jpg",
+    "name": "The Punisher: Az utolsó célpont",
+    "poster": "https://image.tmdb.org/t/p/w500/8YWcyHElWVwPqNPydjJTdn6OO09.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "description": "Miközben Frank Castle megpróbál értelmet találni az életében a bosszún túl, egy váratlan erő visszahúzza a harcba.",
+    "imdbRating": 8.4,
     "releaseInfo": "2026",
     "genres": [
-      "Történelmi",
-      "Dokumentum"
+      "Akció",
+      "Dráma",
+      "Bűnügyi"
     ],
-    "seeders": 72
+    "seeders": 3578
   },
   {
     "id": "tt28650488",
@@ -112,24 +113,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1123
-  },
-  {
-    "id": "tt36042156",
-    "type": "movie",
-    "name": "The Punisher: Az utolsó célpont",
-    "poster": "https://image.tmdb.org/t/p/w500/8YWcyHElWVwPqNPydjJTdn6OO09.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miközben Frank Castle megpróbál értelmet találni az életében a bosszún túl, egy váratlan erő visszahúzza a harcba.",
-    "imdbRating": 8.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 3714
+    "seeders": 1064
   },
   {
     "id": "tt32612507",
@@ -139,19 +123,35 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.0,
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Rejtély"
     ],
-    "seeders": 2122
+    "seeders": 1946
+  },
+  {
+    "id": "tt41801288",
+    "type": "movie",
+    "name": "Untold UK: Vinnie Jones",
+    "poster": "https://image.tmdb.org/t/p/w500/AilC78z0a3wg0mBpBpurqjWCTxZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Történelmi",
+      "Dokumentum"
+    ],
+    "seeders": 88
   },
   {
     "id": "tt34611082",
     "type": "movie",
     "name": "Hölgyeké az elsőbbség",
-    "poster": "https://image.tmdb.org/t/p/w500/kjR56Yv17pbjTVBTMjqepvcus4f.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/uLhvs1Wk2w8H07LTacQwa4bqsMZ.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
@@ -177,7 +177,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 862
+    "seeders": 840
   },
   {
     "id": "tt8760450",
@@ -192,7 +192,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 164
+    "seeders": 162
   },
   {
     "id": "tt1757678",
@@ -209,7 +209,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 143
+    "seeders": 133
   },
   {
     "id": "tt8879928",
@@ -226,7 +226,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 263
+    "seeders": 249
   },
   {
     "id": "tt25868520",
@@ -244,7 +244,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 299
+    "seeders": 286
   },
   {
     "id": "tt32916440",
@@ -260,41 +260,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 301
-  },
-  {
-    "id": "tt26764007",
-    "type": "movie",
-    "name": "Lent a mélyben",
-    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Horror"
-    ],
-    "seeders": 284
-  },
-  {
-    "id": "tt31727397",
-    "type": "movie",
-    "name": "Nincs kiszállás",
-    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 78
+    "seeders": 274
   },
   {
     "id": "tt33978029",
@@ -311,7 +277,41 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 285
+    "seeders": 281
+  },
+  {
+    "id": "tt26764007",
+    "type": "movie",
+    "name": "Lent a mélyben",
+    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Horror"
+    ],
+    "seeders": 245
+  },
+  {
+    "id": "tt31727397",
+    "type": "movie",
+    "name": "Nincs kiszállás",
+    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 65
   },
   {
     "id": "tt8950154",
@@ -329,7 +329,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 164
+    "seeders": 146
   },
   {
     "id": "tt35526133",
@@ -345,7 +345,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 284
+    "seeders": 268
   },
   {
     "id": "tt31050594",
@@ -362,7 +362,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 71
+    "seeders": 69
   },
   {
     "id": "tt39298503",
@@ -377,7 +377,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 198
+    "seeders": 196
   },
   {
     "id": "tt33100314",
@@ -393,7 +393,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 181
+    "seeders": 175
   },
   {
     "id": "tt27592184",
@@ -409,7 +409,23 @@
       "Dráma",
       "Western"
     ],
-    "seeders": 165
+    "seeders": 150
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/nAaWKR2snJ77SDneuiwSQuWL2wi.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt32730754",
@@ -424,7 +440,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 132
+    "seeders": 113
   },
   {
     "id": "tt1527793",
@@ -441,23 +457,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 49
+    "seeders": 50
   },
   {
-    "id": "tt33714084",
+    "id": "tt40792117",
     "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/nAaWKR2snJ77SDneuiwSQuWL2wi.jpg",
+    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
-    "imdbRating": 7.5,
+    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
-      "Dráma"
+      "Dokumentum",
+      "Bűnügyi"
     ],
-    "seeders": 70
+    "seeders": 67
   },
   {
     "id": "tt27757546",
@@ -473,23 +489,6 @@
       "Akció",
       "Thriller",
       "Bűnügyi"
-    ],
-    "seeders": 75
-  },
-  {
-    "id": "tt42192201",
-    "type": "movie",
-    "name": "Az év menyasszonya",
-    "poster": "https://image.tmdb.org/t/p/w500/geFc71rCYM8fErbROLY6n1LfAS6.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet középpontjában Lienkie áll, akinek összedőlnek álmai a saját család alapításáról, ezért elhatározza, hogy ravasz tervvel megszerzi „az év menyasszonya” címet, és így áll bosszút volt szerelmén. Ám a romantikus komédiába forduló kavarodás közben valószínűleg többet veszít és nyer egyszerre, mint amennyit eredetileg tervezett.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus",
-      "Családi"
     ],
     "seeders": 69
   }
