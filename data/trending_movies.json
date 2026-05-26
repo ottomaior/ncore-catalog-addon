@@ -1,20 +1,50 @@
 [
   {
-    "id": "tt32537226",
+    "id": "tt29550683",
     "type": "movie",
-    "name": "Bűnös vadászidény",
-    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 118
+  },
+  {
+    "id": "tt41801288",
+    "type": "movie",
+    "name": "Untold UK: Vinnie Jones",
+    "poster": "https://image.tmdb.org/t/p/w500/AilC78z0a3wg0mBpBpurqjWCTxZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Történelmi",
+      "Dokumentum"
+    ],
+    "seeders": 62
+  },
+  {
+    "id": "tt38492476",
+    "type": "movie",
+    "name": "Legénybúcsú",
+    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
-    "imdbRating": 6.9,
+    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
+    "imdbRating": 6.5,
     "releaseInfo": "2025",
     "genres": [
-      "Akció",
-      "Dráma",
-      "Thriller"
+      "Vígjáték"
     ],
-    "seeders": 76
+    "seeders": 518
   },
   {
     "id": "tt12042730",
@@ -30,7 +60,24 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 5028
+    "seeders": 6078
+  },
+  {
+    "id": "tt32537226",
+    "type": "movie",
+    "name": "Bűnös vadászidény",
+    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 150
   },
   {
     "id": "tt34378301",
@@ -46,7 +93,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1528
+    "seeders": 1750
   },
   {
     "id": "tt28650488",
@@ -65,7 +112,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 796
+    "seeders": 955
   },
   {
     "id": "tt36042156",
@@ -82,7 +129,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 2525
+    "seeders": 3012
   },
   {
     "id": "tt32612507",
@@ -98,7 +145,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1399
+    "seeders": 1720
   },
   {
     "id": "tt34611082",
@@ -108,28 +155,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
-    "imdbRating": 5.8,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 445
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 134
+    "seeders": 515
   },
   {
     "id": "tt4357198",
@@ -145,7 +177,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 634
+    "seeders": 753
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 152
   },
   {
     "id": "tt1757678",
@@ -162,7 +209,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 104
+    "seeders": 124
   },
   {
     "id": "tt8879928",
@@ -179,24 +226,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 207
-  },
-  {
-    "id": "tt31727397",
-    "type": "movie",
-    "name": "Nincs kiszállás",
-    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 62
+    "seeders": 229
   },
   {
     "id": "tt25868520",
@@ -214,7 +244,24 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 225
+    "seeders": 250
+  },
+  {
+    "id": "tt31727397",
+    "type": "movie",
+    "name": "Nincs kiszállás",
+    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 69
   },
   {
     "id": "tt26764007",
@@ -231,7 +278,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 222
+    "seeders": 251
   },
   {
     "id": "tt32916440",
@@ -247,7 +294,42 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 207
+    "seeders": 249
+  },
+  {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 238
+  },
+  {
+    "id": "tt8950154",
+    "type": "movie",
+    "name": "Joe Baby",
+    "poster": "https://image.tmdb.org/t/p/w500/w6vIEAwpUnSxACNsb3MNNT8rg8c.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy pénzbehajtóként dolgozó férfit egy magánnyomozó megbízásából egy gyanús ingatlanüzletben ellopott tízmillió dollár felkutatására küldenek, ám a nyomozás hamarosan egyre sötétebb és összetettebb bűnügyi ügyek hálójába sodorja.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "seeders": 141
   },
   {
     "id": "tt31050594",
@@ -267,41 +349,6 @@
     "seeders": 69
   },
   {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 194
-  },
-  {
-    "id": "tt8950154",
-    "type": "movie",
-    "name": "Joe Baby",
-    "poster": "https://image.tmdb.org/t/p/w500/w6vIEAwpUnSxACNsb3MNNT8rg8c.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy pénzbehajtóként dolgozó férfit egy magánnyomozó megbízásából egy gyanús ingatlanüzletben ellopott tízmillió dollár felkutatására küldenek, ám a nyomozás hamarosan egyre sötétebb és összetettebb bűnügyi ügyek hálójába sodorja.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Bűnügyi",
-      "Rejtély"
-    ],
-    "seeders": 120
-  },
-  {
     "id": "tt35526133",
     "type": "movie",
     "name": "Badh - Kísért a múlt",
@@ -315,7 +362,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 216
+    "seeders": 242
   },
   {
     "id": "tt39298503",
@@ -330,7 +377,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 136
+    "seeders": 170
   },
   {
     "id": "tt33100314",
@@ -346,7 +393,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 140
+    "seeders": 162
   },
   {
     "id": "tt1527793",
@@ -363,7 +410,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 48
+    "seeders": 52
   },
   {
     "id": "tt27592184",
@@ -379,7 +426,7 @@
       "Dráma",
       "Western"
     ],
-    "seeders": 115
+    "seeders": 135
   },
   {
     "id": "tt32730754",
@@ -394,7 +441,7 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 94
+    "seeders": 103
   },
   {
     "id": "tt42192201",
@@ -411,22 +458,23 @@
       "Romantikus",
       "Családi"
     ],
-    "seeders": 61
+    "seeders": 67
   },
   {
-    "id": "tt27714581",
+    "id": "tt33714084",
     "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/nAaWKR2snJ77SDneuiwSQuWL2wi.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
     "imdbRating": 7.5,
-    "releaseInfo": "2025",
+    "releaseInfo": "2026",
     "genres": [
+      "Romantikus",
       "Dráma"
     ],
-    "seeders": 34
+    "seeders": 64
   },
   {
     "id": "tt27757546",
@@ -443,56 +491,6 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 61
-  },
-  {
-    "id": "tt30472557",
-    "type": "movie",
-    "name": "劇場版 チェンソーマン レゼ篇",
-    "poster": "https://image.tmdb.org/t/p/w500/dUbacBfy6M0EBLPssQhJFhtHxIU.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Denji immár a Special Division 4-hez tartozó démonvadász. Egy esős nap után, miután találkozott Makimával – aki addigra az álmai nőjévé vált –, menedéket keres, és egy kávézóban megismerkedik Reze-zel. Reze a káprázatos szépségű lány, akibe Denji mélységesen beleszeret. Ám Reze nem az, akinek látszik. A romantika és az emberi kapcsolat illúziója tragédiába torkollik, amikor kiderül, hogy Reze valódi céljai megrendítik Denji bizalmát és kilátásait.  (Csillag Lajos)",
-    "imdbRating": 8.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Romantikus",
-      "Fantasy"
-    ],
-    "seeders": 95
-  },
-  {
-    "id": "tt33714084",
-    "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/nAaWKR2snJ77SDneuiwSQuWL2wi.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 54
-  },
-  {
-    "id": "tt40792117",
-    "type": "movie",
-    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 49
+    "seeders": 67
   }
 ]
