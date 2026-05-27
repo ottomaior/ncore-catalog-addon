@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt32793488",
+    "type": "movie",
+    "name": "Az orvosdoktor Londonban",
+    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Rejtély",
+      "Dráma"
+    ],
+    "seeders": 62
+  },
+  {
     "id": "tt29550683",
     "type": "movie",
     "name": "Halálsíp",
@@ -13,7 +30,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 295
+    "seeders": 372
   },
   {
     "id": "tt32537226",
@@ -30,7 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 217
+    "seeders": 256
   },
   {
     "id": "tt41801288",
@@ -46,6 +63,6 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 81
+    "seeders": 94
   }
 ]
