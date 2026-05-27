@@ -12,7 +12,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 1279
+    "seeders": 988
   },
   {
     "id": "tt29550683",
@@ -28,7 +28,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 299
+    "seeders": 232
   },
   {
     "id": "tt12042730",
@@ -44,7 +44,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 7169
+    "seeders": 5004
   },
   {
     "id": "tt34378301",
@@ -54,47 +54,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
-    "imdbRating": 7.2,
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 2032
-  },
-  {
-    "id": "tt32537226",
-    "type": "movie",
-    "name": "Bűnös vadászidény",
-    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 222
-  },
-  {
-    "id": "tt36042156",
-    "type": "movie",
-    "name": "The Punisher: Az utolsó célpont",
-    "poster": "https://image.tmdb.org/t/p/w500/8YWcyHElWVwPqNPydjJTdn6OO09.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miközben Frank Castle megpróbál értelmet találni az életében a bosszún túl, egy váratlan erő visszahúzza a harcba.",
-    "imdbRating": 8.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 3578
+    "seeders": 1532
   },
   {
     "id": "tt28650488",
@@ -113,7 +79,41 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1064
+    "seeders": 825
+  },
+  {
+    "id": "tt36042156",
+    "type": "movie",
+    "name": "The Punisher: Az utolsó célpont",
+    "poster": "https://image.tmdb.org/t/p/w500/8YWcyHElWVwPqNPydjJTdn6OO09.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miközben Frank Castle megpróbál értelmet találni az életében a bosszún túl, egy váratlan erő visszahúzza a harcba.",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 2500
+  },
+  {
+    "id": "tt32537226",
+    "type": "movie",
+    "name": "Bűnös vadászidény",
+    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 186
   },
   {
     "id": "tt32612507",
@@ -123,13 +123,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.1,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1946
+    "seeders": 1330
+  },
+  {
+    "id": "tt34611082",
+    "type": "movie",
+    "name": "Hölgyeké az elsőbbség",
+    "poster": "https://image.tmdb.org/t/p/w500/uLhvs1Wk2w8H07LTacQwa4bqsMZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Fantasy"
+    ],
+    "seeders": 448
   },
   {
     "id": "tt41801288",
@@ -145,23 +161,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt34611082",
-    "type": "movie",
-    "name": "Hölgyeké az elsőbbség",
-    "poster": "https://image.tmdb.org/t/p/w500/uLhvs1Wk2w8H07LTacQwa4bqsMZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 583
+    "seeders": 70
   },
   {
     "id": "tt4357198",
@@ -177,7 +177,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 840
+    "seeders": 636
   },
   {
     "id": "tt8760450",
@@ -192,24 +192,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 162
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 133
+    "seeders": 136
   },
   {
     "id": "tt8879928",
@@ -226,7 +209,24 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 249
+    "seeders": 214
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 109
   },
   {
     "id": "tt25868520",
@@ -244,40 +244,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 286
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 274
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 281
+    "seeders": 227
   },
   {
     "id": "tt26764007",
@@ -294,7 +261,40 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 245
+    "seeders": 212
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 208
+  },
+  {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 198
   },
   {
     "id": "tt31727397",
@@ -311,7 +311,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 65
+    "seeders": 53
   },
   {
     "id": "tt8950154",
@@ -329,23 +329,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 146
-  },
-  {
-    "id": "tt35526133",
-    "type": "movie",
-    "name": "Badh - Kísért a múlt",
-    "poster": "https://image.tmdb.org/t/p/w500/sLjHm8eKrC27wykgmih6vVCxjbi.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Iliast, a rendőrt lelövik, és kómába kerül, Almának ismét elő kell hívnia korábbi, Badh nevű énjét, a kegyetlen hírszerző ügynököt és kiképzett bérgyilkost. A Khoury család tagjait egyenként, brutális módszerekkel iktatja ki, ezzel magára vonva vezetőjük, Mansour haragját – mígnem kiderül, hogy Mansour Joánával dolgozik együtt, aki Alma egykori titkosszolgálati egységének tisztje.",
-    "imdbRating": 5.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 268
+    "seeders": 116
   },
   {
     "id": "tt31050594",
@@ -362,7 +346,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 69
+    "seeders": 64
+  },
+  {
+    "id": "tt35526133",
+    "type": "movie",
+    "name": "Badh - Kísért a múlt",
+    "poster": "https://image.tmdb.org/t/p/w500/sLjHm8eKrC27wykgmih6vVCxjbi.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Iliast, a rendőrt lelövik, és kómába kerül, Almának ismét elő kell hívnia korábbi, Badh nevű énjét, a kegyetlen hírszerző ügynököt és kiképzett bérgyilkost. A Khoury család tagjait egyenként, brutális módszerekkel iktatja ki, ezzel magára vonva vezetőjük, Mansour haragját – mígnem kiderül, hogy Mansour Joánával dolgozik együtt, aki Alma egykori titkosszolgálati egységének tisztje.",
+    "imdbRating": 5.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 202
   },
   {
     "id": "tt39298503",
@@ -377,7 +377,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 196
+    "seeders": 127
   },
   {
     "id": "tt33100314",
@@ -393,54 +393,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 175
-  },
-  {
-    "id": "tt27592184",
-    "type": "movie",
-    "name": "Az utolsó vonat Fortune-ba",
-    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Western"
-    ],
-    "seeders": 150
-  },
-  {
-    "id": "tt33714084",
-    "type": "movie",
-    "name": "Reminders of Him - Emlékek róla",
-    "poster": "https://image.tmdb.org/t/p/w500/nAaWKR2snJ77SDneuiwSQuWL2wi.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 81
-  },
-  {
-    "id": "tt32730754",
-    "type": "movie",
-    "name": "Hagyd a szélre",
-    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus"
-    ],
-    "seeders": 113
+    "seeders": 129
   },
   {
     "id": "tt1527793",
@@ -457,23 +410,54 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 50
+    "seeders": 45
   },
   {
-    "id": "tt40792117",
+    "id": "tt27592184",
     "type": "movie",
-    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "name": "Az utolsó vonat Fortune-ba",
+    "poster": "https://image.tmdb.org/t/p/w500/oqBHbggqRIPSD8VoezinVP26t0j.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy iskolaigazgató és egy törvényen kívüli különös szövetségre lépnek, amikor a főhős lekési a Fortune-ba tartó utolsó vonatot, és kénytelen vele tartani a vadnyugati úton. Útjuk során lövöldözések, szökések és furcsa, váratlan találkozások sorozata teszi próbára a kapcsolatukat, miközben lassan sajátos barátság alakul ki közöttük.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Western"
+    ],
+    "seeders": 109
+  },
+  {
+    "id": "tt32730754",
+    "type": "movie",
+    "name": "Hagyd a szélre",
+    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 90
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/nAaWKR2snJ77SDneuiwSQuWL2wi.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
-    "imdbRating": 6.6,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum",
-      "Bűnügyi"
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 67
+    "seeders": 61
   },
   {
     "id": "tt27757546",
@@ -490,6 +474,22 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 69
+    "seeders": 60
+  },
+  {
+    "id": "tt40792117",
+    "type": "movie",
+    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 55
   }
 ]
