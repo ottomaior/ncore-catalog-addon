@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt12042730",
+    "type": "movie",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 4890
+  },
+  {
     "id": "tt32793488",
     "type": "movie",
     "name": "Az orvosdoktor Londonban",
@@ -14,7 +30,40 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 122
+    "seeders": 104
+  },
+  {
+    "id": "tt34378301",
+    "type": "movie",
+    "name": "Tom Clancy: Jack Ryan Szellemháború",
+    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 1513
+  },
+  {
+    "id": "tt36042156",
+    "type": "movie",
+    "name": "The Punisher: Az utolsó célpont",
+    "poster": "https://image.tmdb.org/t/p/w500/8YWcyHElWVwPqNPydjJTdn6OO09.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miközben Frank Castle megpróbál értelmet találni az életében a bosszún túl, egy váratlan erő visszahúzza a harcba.",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 2412
   },
   {
     "id": "tt29550683",
@@ -30,7 +79,42 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 360
+    "seeders": 278
+  },
+  {
+    "id": "tt28650488",
+    "type": "movie",
+    "name": "Super Mario Galaxis: A film",
+    "poster": "https://image.tmdb.org/t/p/w500/dMQyITf7kCr2bg7crdlMPf5AlEM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A 2023-as Super Mario Bros.: A film sikere után érkezik a folytatás, amelyben új szereplők és új kalandok várnak ránk.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Családi",
+      "Vígjáték",
+      "Kaland",
+      "Fantasy",
+      "Animációs"
+    ],
+    "seeders": 838
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 1267
   },
   {
     "id": "tt32537226",
@@ -47,7 +131,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 244
+    "seeders": 209
+  },
+  {
+    "id": "tt34611082",
+    "type": "movie",
+    "name": "Hölgyeké az elsőbbség",
+    "poster": "https://image.tmdb.org/t/p/w500/uLhvs1Wk2w8H07LTacQwa4bqsMZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Fantasy"
+    ],
+    "seeders": 441
   },
   {
     "id": "tt41801288",
@@ -57,12 +157,337 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.0,
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 95
+    "seeders": 78
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 613
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 128
+  },
+  {
+    "id": "tt8879928",
+    "type": "movie",
+    "name": "Dermesztő kór",
+    "poster": "https://image.tmdb.org/t/p/w500/AriwXWbnjYETyYZ9aRg06UQPxFl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két fiatal, Teasüti és Naomi egy önkiszolgáló raktározási cégnél dolgoznak. A raktárt egy régi amerikai katonai bázis területén hozták létre, ami elképesztő titkokat rejt a mélyben. Ilyen kegyetlen éjszakai műszakot egyikük sem tudott volna elképzelni: rájönnek, hogy egy extrém fertőzőképességű parazita gomba kijutott a bázis legalsó szintjéről, amit évtizedekkel ezelőtt a kormány lezsilipelt. Ahogy a föld alatti hőmérséklet emelkedik, ez a pusztító mikroorganizmus szaporodásnak indul, majd lecsap a létesítmény területén tartózkodókra – emberekre és más élőlényekre egyaránt. Az idő fogy, így Teasütin és Naomin múlik, hogy az őszülő bioterror-ügynök segítségével meg tudják-e fékezni a gyorsan mutálódó fenyegetést, és ezzel sikerül-e megakadályozni az emberiség robbanásszerű kihalását.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Vígjáték"
+    ],
+    "seeders": 193
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 109
+  },
+  {
+    "id": "tt25868520",
+    "type": "movie",
+    "name": "Timur Lenk, a hódító",
+    "poster": "https://image.tmdb.org/t/p/w500/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A 14. században, amikor a Selyemút rendszere széthullik, és egymással rivalizáló frakciók tépik szét a vidéket, száműzetéséből előlép a rettenthetetlen harcos, Timur. Mindentől megfosztva harcba száll, hogy egyesítse a szétszakadt királyságokat, és stratégiájával, valamint rendíthetetlen akaratával a káoszból birodalmat kovácsoljon. A csatatéren veretlen hadvezérként tartják számon: a történelem egyik legnagyobb katonai vezetője és hadászati zsenije volt – ugyanakkor az egyik legkegyetlenebb is. Timur megalapította a Timurida Birodalmat, amely a mai Afganisztán, Irán és Közép-Ázsia területei felett uralkodott.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Történelmi",
+      "Akció",
+      "Kaland",
+      "Háborús"
+    ],
+    "seeders": 225
+  },
+  {
+    "id": "tt26764007",
+    "type": "movie",
+    "name": "Lent a mélyben",
+    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Horror"
+    ],
+    "seeders": 203
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 192
+  },
+  {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 200
+  },
+  {
+    "id": "tt37957368",
+    "type": "movie",
+    "name": "Fukusimai atomerőmű-baleset: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/v7TBpHREDFijKzH7ZiXQE14fgS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "2011-ben Japánban egy földrengés okozta szökőár láncreakciót váltott ki a fukushimai Daiichi atomerőműben, ami a csernobili katasztrófa óta a legsúlyosabb nukleáris válsághoz vezetett. Kövesse nyomon percről percre a katasztrófa kibontakozását a pusztítás, zűrzavar és fokozódó nyomás közepette.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 189
+  },
+  {
+    "id": "tt31727397",
+    "type": "movie",
+    "name": "Nincs kiszállás",
+    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 56
+  },
+  {
+    "id": "tt31050594",
+    "type": "movie",
+    "name": "Mesterséges kegyelem",
+    "poster": "https://image.tmdb.org/t/p/w500/cPFmHcmi8syVxfmc0YvmJF53ysG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 70
+  },
+  {
+    "id": "tt8950154",
+    "type": "movie",
+    "name": "Joe Baby",
+    "poster": "https://image.tmdb.org/t/p/w500/w6vIEAwpUnSxACNsb3MNNT8rg8c.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy pénzbehajtóként dolgozó férfit egy magánnyomozó megbízásából egy gyanús ingatlanüzletben ellopott tízmillió dollár felkutatására küldenek, ám a nyomozás hamarosan egyre sötétebb és összetettebb bűnügyi ügyek hálójába sodorja.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "seeders": 111
+  },
+  {
+    "id": "tt35526133",
+    "type": "movie",
+    "name": "Badh - Kísért a múlt",
+    "poster": "https://image.tmdb.org/t/p/w500/sLjHm8eKrC27wykgmih6vVCxjbi.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Iliast, a rendőrt lelövik, és kómába kerül, Almának ismét elő kell hívnia korábbi, Badh nevű énjét, a kegyetlen hírszerző ügynököt és kiképzett bérgyilkost. A Khoury család tagjait egyenként, brutális módszerekkel iktatja ki, ezzel magára vonva vezetőjük, Mansour haragját – mígnem kiderül, hogy Mansour Joánával dolgozik együtt, aki Alma egykori titkosszolgálati egységének tisztje.",
+    "imdbRating": 5.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 198
+  },
+  {
+    "id": "tt39298503",
+    "type": "movie",
+    "name": "Vad London",
+    "poster": "https://image.tmdb.org/t/p/w500/3yTYwbilgxE240qShWxcNmp9WHZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután egy egész életet a világ beutazásával töltött, a világ legismertebb természetfilmes szaktekintélye most közelebb, saját otthonához fordítja figyelmét, hogy felfedezze Anglia ikonikus fővárosának élővilágát. Miután 75 éven át Londonban élt, Sir David Attenborough bensőséges ismeretekkel rendelkezik a város természeti örökségéről, és aligha akadna nála jobb idegenvezető, aki feltárhatná előttünk annak leglenyűgözőbb természeti titkait. A századik életévének időszakában forgatott személyes és megható film időszerű betekintést nyújt abba, miként válhatnak a városok nemcsak az emberek, hanem a vadon élő állatok otthonává is.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 121
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 55
+  },
+  {
+    "id": "tt36302633",
+    "type": "movie",
+    "name": "Robbantás a bostoni maratonon: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/5OQdwRSBPATvWRsC5TGlThM771g.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A dokumentumfilm percről percre követi nyomon a bostoni maratonon 2013. április 15-én elkövetett robbantás eseményeit. Bemutatja a káoszt, a mentőegységek és civilek bátorságát és egyetlen pusztító tett tragikus következményeit.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 41
+  },
+  {
+    "id": "tt42354155",
+    "type": "movie",
+    "name": "Élet a Földön - Attenborough legnagyobb kalandja",
+    "poster": "https://image.tmdb.org/t/p/w500/rQ5w5gJLC6VpVlpx4MRVBaNMyfv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "1976-ban David Attenborough belevágott minden addiginál legambiciózusabb televíziós sorozatába. Ez a lebilincselő történet arról mesél, hogyan született meg az első igazán nagyszabású természetfilmes sikersorozat.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 89
+  },
+  {
+    "id": "tt32730754",
+    "type": "movie",
+    "name": "Hagyd a szélre",
+    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus"
+    ],
+    "seeders": 85
+  },
+  {
+    "id": "tt33714084",
+    "type": "movie",
+    "name": "Reminders of Him - Emlékek róla",
+    "poster": "https://image.tmdb.org/t/p/w500/nAaWKR2snJ77SDneuiwSQuWL2wi.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kenna Rowan egy tragikus hiba miatt évekre börtönbe kerül, majd a szabadulása után visszatér a szülővárosába. Abban reménykedik, hogy újra kapcsolatba kerülhet kislányával, de mindenki azon van, hogy ezt megakadályozza. Csupán egy ember nem fordul el tőle: Ledger Ward, a helyi kocsmáros, aki hamarosan Kenna életének fontos részévé válik.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 59
+  },
+  {
+    "id": "tt40792117",
+    "type": "movie",
+    "name": "Autóbaleset: A Mackenzie Shirilla-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tinilány belerohan a kocsijával egy épületbe, és a balesetben meghal a barátja és annak haverja. A tragikus baleset azonban gyilkossági üggyé válik ebben a dokumentumfilmben.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 59
   }
 ]
