@@ -1,5 +1,24 @@
 [
   {
+    "id": "tt26443616",
+    "type": "movie",
+    "name": "Agyugrász",
+    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Animációs",
+      "Vígjáték",
+      "Családi",
+      "Sci-Fi"
+    ],
+    "seeders": 89
+  },
+  {
     "id": "tt27552099",
     "type": "movie",
     "name": "Mike & Nick & Nick & Alice",
@@ -14,7 +33,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 534
+    "seeders": 614
   },
   {
     "id": "tt33502160",
@@ -30,7 +49,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 244
+    "seeders": 239
   },
   {
     "id": "tt12042730",
@@ -46,22 +65,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 7088
-  },
-  {
-    "id": "tt41559880",
-    "type": "movie",
-    "name": "Dibu Martínez: El pibe que ataja el tiempo",
-    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs"
-    ],
-    "seeders": 50
+    "seeders": 6711
   },
   {
     "id": "tt34378301",
@@ -77,7 +81,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2113
+    "seeders": 1876
   },
   {
     "id": "tt36042156",
@@ -94,7 +98,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3620
+    "seeders": 3378
+  },
+  {
+    "id": "tt41559880",
+    "type": "movie",
+    "name": "Dibu Martínez: El pibe que ataja el tiempo",
+    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs"
+    ],
+    "seeders": 55
   },
   {
     "id": "tt28650488",
@@ -113,7 +132,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1176
+    "seeders": 1062
   },
   {
     "id": "tt32612507",
@@ -129,7 +148,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1969
+    "seeders": 1751
   },
   {
     "id": "tt29550683",
@@ -145,7 +164,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 398
+    "seeders": 360
   },
   {
     "id": "tt32793488",
@@ -162,7 +181,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 169
+    "seeders": 151
   },
   {
     "id": "tt32537226",
@@ -179,7 +198,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 281
+    "seeders": 261
   },
   {
     "id": "tt34611082",
@@ -189,13 +208,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
-    "imdbRating": 5.9,
+    "imdbRating": 5.8,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 639
+    "seeders": 573
   },
   {
     "id": "tt4357198",
@@ -211,7 +230,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 836
+    "seeders": 766
   },
   {
     "id": "tt41801288",
@@ -227,7 +246,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 86
+    "seeders": 85
   },
   {
     "id": "tt8879928",
@@ -244,7 +263,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 267
+    "seeders": 258
   },
   {
     "id": "tt8760450",
@@ -259,7 +278,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 153
+    "seeders": 154
   },
   {
     "id": "tt1757678",
@@ -276,7 +295,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 149
+    "seeders": 131
   },
   {
     "id": "tt25868520",
@@ -294,40 +313,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 308
-  },
-  {
-    "id": "tt26764007",
-    "type": "movie",
-    "name": "Lent a mélyben",
-    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Horror"
-    ],
-    "seeders": 272
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 270
+    "seeders": 280
   },
   {
     "id": "tt33978029",
@@ -344,7 +330,40 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 271
+    "seeders": 260
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 238
+  },
+  {
+    "id": "tt26764007",
+    "type": "movie",
+    "name": "Lent a mélyben",
+    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Horror"
+    ],
+    "seeders": 231
   },
   {
     "id": "tt35526133",
@@ -360,7 +379,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 283
+    "seeders": 244
   },
   {
     "id": "tt37957368",
@@ -375,7 +394,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 250
+    "seeders": 217
   },
   {
     "id": "tt8950154",
@@ -393,24 +412,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt31727397",
-    "type": "movie",
-    "name": "Nincs kiszállás",
-    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 66
+    "seeders": 130
   },
   {
     "id": "tt31050594",
@@ -427,7 +429,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 74
+    "seeders": 78
+  },
+  {
+    "id": "tt31727397",
+    "type": "movie",
+    "name": "Nincs kiszállás",
+    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 58
   },
   {
     "id": "tt39298503",
@@ -442,7 +461,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 181
+    "seeders": 172
   },
   {
     "id": "tt42354155",
@@ -457,7 +476,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 128
+    "seeders": 119
   },
   {
     "id": "tt32730754",
@@ -472,21 +491,6 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 129
-  },
-  {
-    "id": "tt36302633",
-    "type": "movie",
-    "name": "Robbantás a bostoni maratonon: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/5OQdwRSBPATvWRsC5TGlThM771g.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A dokumentumfilm percről percre követi nyomon a bostoni maratonon 2013. április 15-én elkövetett robbantás eseményeit. Bemutatja a káoszt, a mentőegységek és civilek bátorságát és egyetlen pusztító tett tragikus következményeit.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 50
+    "seeders": 113
   }
 ]
