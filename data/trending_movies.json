@@ -1,21 +1,5 @@
 [
   {
-    "id": "tt33502160",
-    "type": "movie",
-    "name": "A kéz, amely a bölcsőt ringatja",
-    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 85
-  },
-  {
     "id": "tt27552099",
     "type": "movie",
     "name": "Mike & Nick & Nick & Alice",
@@ -30,7 +14,23 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 262
+    "seeders": 534
+  },
+  {
+    "id": "tt33502160",
+    "type": "movie",
+    "name": "A kéz, amely a bölcsőt ringatja",
+    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 244
   },
   {
     "id": "tt12042730",
@@ -46,7 +46,22 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 5868
+    "seeders": 7088
+  },
+  {
+    "id": "tt41559880",
+    "type": "movie",
+    "name": "Dibu Martínez: El pibe que ataja el tiempo",
+    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs"
+    ],
+    "seeders": 50
   },
   {
     "id": "tt34378301",
@@ -62,7 +77,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1739
+    "seeders": 2113
   },
   {
     "id": "tt36042156",
@@ -79,24 +94,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 2962
-  },
-  {
-    "id": "tt32793488",
-    "type": "movie",
-    "name": "Az orvosdoktor Londonban",
-    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
-    "imdbRating": 6.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Rejtély",
-      "Dráma"
-    ],
-    "seeders": 134
+    "seeders": 3620
   },
   {
     "id": "tt28650488",
@@ -115,7 +113,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 970
+    "seeders": 1176
   },
   {
     "id": "tt32612507",
@@ -131,7 +129,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1583
+    "seeders": 1969
   },
   {
     "id": "tt29550683",
@@ -147,7 +145,24 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 315
+    "seeders": 398
+  },
+  {
+    "id": "tt32793488",
+    "type": "movie",
+    "name": "Az orvosdoktor Londonban",
+    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
+    "imdbRating": 6.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Rejtély",
+      "Dráma"
+    ],
+    "seeders": 169
   },
   {
     "id": "tt32537226",
@@ -164,7 +179,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 228
+    "seeders": 281
   },
   {
     "id": "tt34611082",
@@ -180,7 +195,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 523
+    "seeders": 639
   },
   {
     "id": "tt4357198",
@@ -196,7 +211,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 716
+    "seeders": 836
   },
   {
     "id": "tt41801288",
@@ -212,22 +227,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 140
+    "seeders": 86
   },
   {
     "id": "tt8879928",
@@ -244,7 +244,22 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 227
+    "seeders": 267
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 153
   },
   {
     "id": "tt1757678",
@@ -261,7 +276,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 129
+    "seeders": 149
   },
   {
     "id": "tt25868520",
@@ -279,7 +294,24 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 258
+    "seeders": 308
+  },
+  {
+    "id": "tt26764007",
+    "type": "movie",
+    "name": "Lent a mélyben",
+    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Horror"
+    ],
+    "seeders": 272
   },
   {
     "id": "tt32916440",
@@ -295,24 +327,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 225
-  },
-  {
-    "id": "tt26764007",
-    "type": "movie",
-    "name": "Lent a mélyben",
-    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Horror"
-    ],
-    "seeders": 217
+    "seeders": 270
   },
   {
     "id": "tt33978029",
@@ -329,22 +344,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 237
-  },
-  {
-    "id": "tt37957368",
-    "type": "movie",
-    "name": "Fukusimai atomerőmű-baleset: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/v7TBpHREDFijKzH7ZiXQE14fgS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "2011-ben Japánban egy földrengés okozta szökőár láncreakciót váltott ki a fukushimai Daiichi atomerőműben, ami a csernobili katasztrófa óta a legsúlyosabb nukleáris válsághoz vezetett. Kövesse nyomon percről percre a katasztrófa kibontakozását a pusztítás, zűrzavar és fokozódó nyomás közepette.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 210
+    "seeders": 271
   },
   {
     "id": "tt35526133",
@@ -360,7 +360,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 235
+    "seeders": 283
+  },
+  {
+    "id": "tt37957368",
+    "type": "movie",
+    "name": "Fukusimai atomerőmű-baleset: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/v7TBpHREDFijKzH7ZiXQE14fgS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "2011-ben Japánban egy földrengés okozta szökőár láncreakciót váltott ki a fukushimai Daiichi atomerőműben, ami a csernobili katasztrófa óta a legsúlyosabb nukleáris válsághoz vezetett. Kövesse nyomon percről percre a katasztrófa kibontakozását a pusztítás, zűrzavar és fokozódó nyomás közepette.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 250
   },
   {
     "id": "tt8950154",
@@ -378,7 +393,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 129
+    "seeders": 148
   },
   {
     "id": "tt31727397",
@@ -395,7 +410,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 59
+    "seeders": 66
   },
   {
     "id": "tt31050594",
@@ -412,7 +427,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 69
+    "seeders": 74
   },
   {
     "id": "tt39298503",
@@ -427,22 +442,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 150
-  },
-  {
-    "id": "tt36302633",
-    "type": "movie",
-    "name": "Robbantás a bostoni maratonon: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/5OQdwRSBPATvWRsC5TGlThM771g.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A dokumentumfilm percről percre követi nyomon a bostoni maratonon 2013. április 15-én elkövetett robbantás eseményeit. Bemutatja a káoszt, a mentőegységek és civilek bátorságát és egyetlen pusztító tett tragikus következményeit.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 47
+    "seeders": 181
   },
   {
     "id": "tt42354155",
@@ -457,24 +457,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 113
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 56
+    "seeders": 128
   },
   {
     "id": "tt32730754",
@@ -489,6 +472,21 @@
     "genres": [
       "Romantikus"
     ],
-    "seeders": 98
+    "seeders": 129
+  },
+  {
+    "id": "tt36302633",
+    "type": "movie",
+    "name": "Robbantás a bostoni maratonon: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/5OQdwRSBPATvWRsC5TGlThM771g.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A dokumentumfilm percről percre követi nyomon a bostoni maratonon 2013. április 15-én elkövetett robbantás eseményeit. Bemutatja a káoszt, a mentőegységek és civilek bátorságát és egyetlen pusztító tett tragikus következményeit.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 50
   }
 ]
