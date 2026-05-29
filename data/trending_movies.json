@@ -1,21 +1,5 @@
 [
   {
-    "id": "tt33400055",
-    "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 63
-  },
-  {
     "id": "tt27552099",
     "type": "movie",
     "name": "Mike & Nick & Nick & Alice",
@@ -30,7 +14,23 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 657
+    "seeders": 830
+  },
+  {
+    "id": "tt33400055",
+    "type": "movie",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 94
   },
   {
     "id": "tt33502160",
@@ -46,24 +46,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 266
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 43
+    "seeders": 330
   },
   {
     "id": "tt34378301",
@@ -79,7 +62,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1716
+    "seeders": 2041
   },
   {
     "id": "tt36042156",
@@ -96,26 +79,23 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 2960
+    "seeders": 3507
   },
   {
-    "id": "tt26443616",
+    "id": "tt32612507",
     "type": "movie",
-    "name": "Agyugrász",
-    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
     "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
-      "Kaland",
-      "Animációs",
-      "Vígjáték",
-      "Családi",
-      "Sci-Fi"
+      "Horror",
+      "Rejtély"
     ],
-    "seeders": 98
+    "seeders": 1908
   },
   {
     "id": "tt28650488",
@@ -134,23 +114,43 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1011
+    "seeders": 1150
   },
   {
-    "id": "tt32612507",
+    "id": "tt26443616",
     "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "name": "Agyugrász",
+    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
     "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Rejtély"
+      "Kaland",
+      "Animációs",
+      "Vígjáték",
+      "Családi",
+      "Sci-Fi"
     ],
-    "seeders": 1554
+    "seeders": 118
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt29550683",
@@ -166,7 +166,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 310
+    "seeders": 373
   },
   {
     "id": "tt32793488",
@@ -183,7 +183,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 150
+    "seeders": 167
   },
   {
     "id": "tt34611082",
@@ -199,7 +199,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 531
+    "seeders": 616
   },
   {
     "id": "tt32537226",
@@ -216,23 +216,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 250
-  },
-  {
-    "id": "tt41559880",
-    "type": "movie",
-    "name": "Dibu Martínez: El pibe que ataja el tiempo",
-    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Dokumentum"
-    ],
-    "seeders": 51
+    "seeders": 282
   },
   {
     "id": "tt4357198",
@@ -248,23 +232,23 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 710
+    "seeders": 803
   },
   {
-    "id": "tt41801288",
+    "id": "tt41559880",
     "type": "movie",
-    "name": "Első kézből - Egyesült Királyság: Vinnie Jones",
-    "poster": "https://image.tmdb.org/t/p/w500/AilC78z0a3wg0mBpBpurqjWCTxZ.jpg",
+    "name": "Dibu Martínez: A srác, aki megállítja az időt",
+    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Vinnie Jones története a futballpályától Hollywoodig vezető, szokatlanul viharos ívet követi: a hírhedt „Crazy Gang” kemény emberéből lett FA-kupa-győztes középpályás, akinek karrierjét egy botrány majdnem derékba törte, ám végül az ellenállásokkal dacolva újra és újra talpra állt.",
-    "imdbRating": 7.3,
+    "description": "Egy lírai, animációs dokumentumfilm, amely Emiliano Martínez gyerekkorától követi végig az útját a mar del platai álmodozó kisfiútól egészen addig, hogy Argentína és a világ futballjának egyik meghatározó alakjává váljon. A film személyes visszaemlékezések, archív felvételek, animációk és a hozzá közel állók megszólalásai alapján idézi fel azokat a kihívásokat, amelyek a pályán és azon kívül is formálták, miközben azt mutatja meg, hogyan lett a kitartásból, a tehetségből és a hitéből inspiráló történet.",
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
-      "Történelmi",
+      "Animációs",
       "Dokumentum"
     ],
-    "seeders": 87
+    "seeders": 49
   },
   {
     "id": "tt8879928",
@@ -281,7 +265,23 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 236
+    "seeders": 265
+  },
+  {
+    "id": "tt41801288",
+    "type": "movie",
+    "name": "Első kézből - Egyesült Királyság: Vinnie Jones",
+    "poster": "https://image.tmdb.org/t/p/w500/AilC78z0a3wg0mBpBpurqjWCTxZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Vinnie Jones története a futballpályától Hollywoodig vezető, szokatlanul viharos ívet követi: a hírhedt „Crazy Gang” kemény emberéből lett FA-kupa-győztes középpályás, akinek karrierjét egy botrány majdnem derékba törte, ám végül az ellenállásokkal dacolva újra és újra talpra állt.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Történelmi",
+      "Dokumentum"
+    ],
+    "seeders": 93
   },
   {
     "id": "tt8760450",
@@ -296,7 +296,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 140
+    "seeders": 151
   },
   {
     "id": "tt25868520",
@@ -314,7 +314,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 258
+    "seeders": 291
   },
   {
     "id": "tt32916440",
@@ -330,7 +330,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 246
+    "seeders": 272
   },
   {
     "id": "tt26764007",
@@ -347,7 +347,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 218
+    "seeders": 254
   },
   {
     "id": "tt33978029",
@@ -364,7 +364,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 229
+    "seeders": 274
   },
   {
     "id": "tt35526133",
@@ -380,22 +380,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 231
-  },
-  {
-    "id": "tt37957368",
-    "type": "movie",
-    "name": "Fukusimai atomerőmű-baleset: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/v7TBpHREDFijKzH7ZiXQE14fgS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "2011-ben Japánban egy földrengés okozta szökőár láncreakciót váltott ki a fukushimai Daiichi atomerőműben, ami a csernobili katasztrófa óta a legsúlyosabb nukleáris válsághoz vezetett. Kövesse nyomon percről percre a katasztrófa kibontakozását a pusztítás, zűrzavar és fokozódó nyomás közepette.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 203
+    "seeders": 264
   },
   {
     "id": "tt8950154",
@@ -413,24 +398,22 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 126
+    "seeders": 148
   },
   {
-    "id": "tt31050594",
+    "id": "tt37957368",
     "type": "movie",
-    "name": "Mesterséges kegyelem",
-    "poster": "https://image.tmdb.org/t/p/w500/cPFmHcmi8syVxfmc0YvmJF53ysG.jpg",
+    "name": "Fukusimai atomerőmű-baleset: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/v7TBpHREDFijKzH7ZiXQE14fgS.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
+    "year": 2025,
+    "description": "2011-ben Japánban egy földrengés okozta szökőár láncreakciót váltott ki a fukushimai Daiichi atomerőműben, ami a csernobili katasztrófa óta a legsúlyosabb nukleáris válsághoz vezetett. Kövesse nyomon percről percre a katasztrófa kibontakozását a pusztítás, zűrzavar és fokozódó nyomás közepette.",
     "imdbRating": 7.0,
-    "releaseInfo": "2026",
+    "releaseInfo": "2025",
     "genres": [
-      "Sci-Fi",
-      "Akció",
-      "Thriller"
+      "Dokumentum"
     ],
-    "seeders": 70
+    "seeders": 222
   },
   {
     "id": "tt31727397",
@@ -447,7 +430,24 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 57
+    "seeders": 67
+  },
+  {
+    "id": "tt31050594",
+    "type": "movie",
+    "name": "Mesterséges kegyelem",
+    "poster": "https://image.tmdb.org/t/p/w500/cPFmHcmi8syVxfmc0YvmJF53ysG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt39298503",
@@ -462,7 +462,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 149
+    "seeders": 179
   },
   {
     "id": "tt42354155",
@@ -477,23 +477,21 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 114
+    "seeders": 119
   },
   {
-    "id": "tt1527793",
+    "id": "tt36302633",
     "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "name": "Robbantás a bostoni maratonon: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/5OQdwRSBPATvWRsC5TGlThM771g.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
+    "description": "A dokumentumfilm percről percre követi nyomon a bostoni maratonon 2013. április 15-én elkövetett robbantás eseményeit. Bemutatja a káoszt, a mentőegységek és civilek bátorságát és egyetlen pusztító tett tragikus következményeit.",
+    "imdbRating": null,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
+      "Dokumentum"
     ],
-    "seeders": 54
+    "seeders": 49
   }
 ]
