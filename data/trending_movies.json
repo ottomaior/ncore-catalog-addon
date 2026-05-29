@@ -14,7 +14,24 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 830
+    "seeders": 875
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 50
   },
   {
     "id": "tt33400055",
@@ -23,14 +40,14 @@
     "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
     "imdbRating": 6.1,
     "releaseInfo": "2025",
     "genres": [
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 94
+    "seeders": 108
   },
   {
     "id": "tt33502160",
@@ -46,23 +63,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 330
-  },
-  {
-    "id": "tt34378301",
-    "type": "movie",
-    "name": "Tom Clancy: Jack Ryan Szellemháború",
-    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 2041
+    "seeders": 322
   },
   {
     "id": "tt36042156",
@@ -79,23 +80,23 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3507
+    "seeders": 3428
   },
   {
-    "id": "tt32612507",
+    "id": "tt34378301",
     "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "name": "Tom Clancy: Jack Ryan Szellemháború",
+    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.1,
+    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Rejtély"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 1908
+    "seeders": 1928
   },
   {
     "id": "tt28650488",
@@ -114,7 +115,23 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1150
+    "seeders": 1143
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 1750
   },
   {
     "id": "tt26443616",
@@ -133,24 +150,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 118
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 59
+    "seeders": 129
   },
   {
     "id": "tt29550683",
@@ -166,7 +166,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 373
+    "seeders": 352
+  },
+  {
+    "id": "tt34611082",
+    "type": "movie",
+    "name": "Hölgyeké az elsőbbség",
+    "poster": "https://image.tmdb.org/t/p/w500/uLhvs1Wk2w8H07LTacQwa4bqsMZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Fantasy"
+    ],
+    "seeders": 600
   },
   {
     "id": "tt32793488",
@@ -183,23 +199,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 167
-  },
-  {
-    "id": "tt34611082",
-    "type": "movie",
-    "name": "Hölgyeké az elsőbbség",
-    "poster": "https://image.tmdb.org/t/p/w500/uLhvs1Wk2w8H07LTacQwa4bqsMZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 616
+    "seeders": 161
   },
   {
     "id": "tt32537226",
@@ -216,7 +216,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 282
+    "seeders": 251
   },
   {
     "id": "tt4357198",
@@ -232,7 +232,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 803
+    "seeders": 779
   },
   {
     "id": "tt41559880",
@@ -248,7 +248,7 @@
       "Animációs",
       "Dokumentum"
     ],
-    "seeders": 49
+    "seeders": 46
   },
   {
     "id": "tt8879928",
@@ -265,7 +265,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 265
+    "seeders": 251
   },
   {
     "id": "tt41801288",
@@ -281,7 +281,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 93
+    "seeders": 89
   },
   {
     "id": "tt8760450",
@@ -296,7 +296,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 151
+    "seeders": 149
   },
   {
     "id": "tt25868520",
@@ -314,7 +314,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 291
+    "seeders": 279
   },
   {
     "id": "tt32916440",
@@ -330,24 +330,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 272
-  },
-  {
-    "id": "tt26764007",
-    "type": "movie",
-    "name": "Lent a mélyben",
-    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Horror"
-    ],
-    "seeders": 254
+    "seeders": 253
   },
   {
     "id": "tt33978029",
@@ -364,7 +347,39 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 274
+    "seeders": 271
+  },
+  {
+    "id": "tt26764007",
+    "type": "movie",
+    "name": "Lent a mélyben",
+    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Horror"
+    ],
+    "seeders": 225
+  },
+  {
+    "id": "tt37957368",
+    "type": "movie",
+    "name": "Fukusimai atomerőmű-baleset: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/v7TBpHREDFijKzH7ZiXQE14fgS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "2011-ben Japánban egy földrengés okozta szökőár láncreakciót váltott ki a fukushimai Daiichi atomerőműben, ami a csernobili katasztrófa óta a legsúlyosabb nukleáris válsághoz vezetett. Kövesse nyomon percről percre a katasztrófa kibontakozását a pusztítás, zűrzavar és fokozódó nyomás közepette.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 219
   },
   {
     "id": "tt35526133",
@@ -380,7 +395,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 264
+    "seeders": 241
   },
   {
     "id": "tt8950154",
@@ -398,22 +413,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt37957368",
-    "type": "movie",
-    "name": "Fukusimai atomerőmű-baleset: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/v7TBpHREDFijKzH7ZiXQE14fgS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "2011-ben Japánban egy földrengés okozta szökőár láncreakciót váltott ki a fukushimai Daiichi atomerőműben, ami a csernobili katasztrófa óta a legsúlyosabb nukleáris válsághoz vezetett. Kövesse nyomon percről percre a katasztrófa kibontakozását a pusztítás, zűrzavar és fokozódó nyomás közepette.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 222
+    "seeders": 139
   },
   {
     "id": "tt31727397",
@@ -430,7 +430,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 67
+    "seeders": 64
   },
   {
     "id": "tt31050594",
@@ -462,7 +462,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 179
+    "seeders": 172
   },
   {
     "id": "tt42354155",
@@ -477,7 +477,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 119
+    "seeders": 127
   },
   {
     "id": "tt36302633",
@@ -492,6 +492,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 49
+    "seeders": 47
   }
 ]
