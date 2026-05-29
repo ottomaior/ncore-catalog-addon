@@ -1,22 +1,20 @@
 [
   {
-    "id": "tt26443616",
+    "id": "tt1757678",
     "type": "movie",
-    "name": "Agyugrász",
-    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
     "genres": [
+      "Sci-Fi",
       "Kaland",
-      "Animációs",
-      "Vígjáték",
-      "Családi",
-      "Sci-Fi"
+      "Fantasy"
     ],
-    "seeders": 89
+    "seeders": 32
   },
   {
     "id": "tt27552099",
@@ -33,7 +31,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 614
+    "seeders": 526
   },
   {
     "id": "tt33502160",
@@ -49,7 +47,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 239
+    "seeders": 213
   },
   {
     "id": "tt12042730",
@@ -65,7 +63,26 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 6711
+    "seeders": 4874
+  },
+  {
+    "id": "tt26443616",
+    "type": "movie",
+    "name": "Agyugrász",
+    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Animációs",
+      "Vígjáték",
+      "Családi",
+      "Sci-Fi"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt34378301",
@@ -81,7 +98,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1876
+    "seeders": 1501
   },
   {
     "id": "tt36042156",
@@ -98,22 +115,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3378
-  },
-  {
-    "id": "tt41559880",
-    "type": "movie",
-    "name": "Dibu Martínez: El pibe que ataja el tiempo",
-    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs"
-    ],
-    "seeders": 55
+    "seeders": 2482
   },
   {
     "id": "tt28650488",
@@ -132,7 +134,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1062
+    "seeders": 877
   },
   {
     "id": "tt32612507",
@@ -148,7 +150,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1751
+    "seeders": 1249
   },
   {
     "id": "tt29550683",
@@ -164,7 +166,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 360
+    "seeders": 279
   },
   {
     "id": "tt32793488",
@@ -181,7 +183,23 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 151
+    "seeders": 133
+  },
+  {
+    "id": "tt41559880",
+    "type": "movie",
+    "name": "Dibu Martínez: El pibe que ataja el tiempo",
+    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Dokumentum"
+    ],
+    "seeders": 53
   },
   {
     "id": "tt32537226",
@@ -198,7 +216,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 261
+    "seeders": 227
   },
   {
     "id": "tt34611082",
@@ -214,7 +232,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 573
+    "seeders": 460
   },
   {
     "id": "tt4357198",
@@ -230,7 +248,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 766
+    "seeders": 619
   },
   {
     "id": "tt41801288",
@@ -246,7 +264,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 85
+    "seeders": 77
   },
   {
     "id": "tt8879928",
@@ -263,7 +281,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 258
+    "seeders": 207
   },
   {
     "id": "tt8760450",
@@ -278,24 +296,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 154
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 131
+    "seeders": 129
   },
   {
     "id": "tt25868520",
@@ -313,40 +314,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 280
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 260
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 238
+    "seeders": 226
   },
   {
     "id": "tt26764007",
@@ -363,7 +331,40 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 231
+    "seeders": 200
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 195
+  },
+  {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 196
   },
   {
     "id": "tt35526133",
@@ -379,7 +380,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 244
+    "seeders": 211
   },
   {
     "id": "tt37957368",
@@ -394,7 +395,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 217
+    "seeders": 179
   },
   {
     "id": "tt8950154",
@@ -412,7 +413,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 130
+    "seeders": 108
   },
   {
     "id": "tt31050594",
@@ -429,7 +430,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 78
+    "seeders": 70
   },
   {
     "id": "tt31727397",
@@ -446,7 +447,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 58
+    "seeders": 52
   },
   {
     "id": "tt39298503",
@@ -456,41 +457,43 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miután egy egész életet a világ beutazásával töltött, a világ legismertebb természetfilmes szaktekintélye most közelebb, saját otthonához fordítja figyelmét, hogy felfedezze Anglia ikonikus fővárosának élővilágát. Miután 75 éven át Londonban élt, Sir David Attenborough bensőséges ismeretekkel rendelkezik a város természeti örökségéről, és aligha akadna nála jobb idegenvezető, aki feltárhatná előttünk annak leglenyűgözőbb természeti titkait. A századik életévének időszakában forgatott személyes és megható film időszerű betekintést nyújt abba, miként válhatnak a városok nemcsak az emberek, hanem a vadon élő állatok otthonává is.",
-    "imdbRating": 7.9,
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 172
+    "seeders": 121
   },
   {
-    "id": "tt42354155",
+    "id": "tt36302633",
     "type": "movie",
-    "name": "Élet a Földön - Attenborough legnagyobb kalandja",
-    "poster": "https://image.tmdb.org/t/p/w500/rQ5w5gJLC6VpVlpx4MRVBaNMyfv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "1976-ban David Attenborough belevágott minden addiginál legambiciózusabb televíziós sorozatába. Ez a lebilincselő történet arról mesél, hogyan született meg az első igazán nagyszabású természetfilmes sikersorozat.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 119
-  },
-  {
-    "id": "tt32730754",
-    "type": "movie",
-    "name": "Hagyd a szélre",
-    "poster": "https://image.tmdb.org/t/p/w500/pg6sFi0pv8cPelkJGLZqmUxh24F.jpg",
+    "name": "Robbantás a bostoni maratonon: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/5OQdwRSBPATvWRsC5TGlThM771g.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy céltudatos városi alkalmazott és egy laza szörfös ugyanazon cég örökösei. Rájönnek, hogy rengeteg közös van bennük, amikor az igazgatótanácsban összefognak.",
-    "imdbRating": 6.4,
+    "description": "A dokumentumfilm percről percre követi nyomon a bostoni maratonon 2013. április 15-én elkövetett robbantás eseményeit. Bemutatja a káoszt, a mentőegységek és civilek bátorságát és egyetlen pusztító tett tragikus következményeit.",
+    "imdbRating": null,
     "releaseInfo": "2025",
     "genres": [
-      "Romantikus"
+      "Dokumentum"
     ],
-    "seeders": 113
+    "seeders": 42
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 50
   }
 ]
