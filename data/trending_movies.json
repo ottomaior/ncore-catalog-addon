@@ -14,40 +14,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 875
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 50
-  },
-  {
-    "id": "tt33400055",
-    "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 108
+    "seeders": 676
   },
   {
     "id": "tt33502160",
@@ -63,7 +30,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 322
+    "seeders": 267
+  },
+  {
+    "id": "tt34378301",
+    "type": "movie",
+    "name": "Tom Clancy: Jack Ryan Szellemháború",
+    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 1501
   },
   {
     "id": "tt36042156",
@@ -80,23 +63,23 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3428
+    "seeders": 2499
   },
   {
-    "id": "tt34378301",
+    "id": "tt33400055",
     "type": "movie",
-    "name": "Tom Clancy: Jack Ryan Szellemháború",
-    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/62gRsWfHxFUHlNAwouBJUyztpAS.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 1928
+    "seeders": 101
   },
   {
     "id": "tt28650488",
@@ -115,7 +98,24 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1143
+    "seeders": 904
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 48
   },
   {
     "id": "tt32612507",
@@ -131,7 +131,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1750
+    "seeders": 1252
   },
   {
     "id": "tt26443616",
@@ -150,7 +150,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 129
+    "seeders": 105
   },
   {
     "id": "tt29550683",
@@ -166,7 +166,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 352
+    "seeders": 285
   },
   {
     "id": "tt34611082",
@@ -182,7 +182,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 600
+    "seeders": 477
   },
   {
     "id": "tt32793488",
@@ -199,7 +199,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 161
+    "seeders": 135
   },
   {
     "id": "tt32537226",
@@ -216,7 +216,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 251
+    "seeders": 214
   },
   {
     "id": "tt4357198",
@@ -232,7 +232,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 779
+    "seeders": 615
   },
   {
     "id": "tt41559880",
@@ -242,13 +242,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy lírai, animációs dokumentumfilm, amely Emiliano Martínez gyerekkorától követi végig az útját a mar del platai álmodozó kisfiútól egészen addig, hogy Argentína és a világ futballjának egyik meghatározó alakjává váljon. A film személyes visszaemlékezések, archív felvételek, animációk és a hozzá közel állók megszólalásai alapján idézi fel azokat a kihívásokat, amelyek a pályán és azon kívül is formálták, miközben azt mutatja meg, hogyan lett a kitartásból, a tehetségből és a hitéből inspiráló történet.",
-    "imdbRating": 7.0,
+    "imdbRating": 4.5,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
       "Dokumentum"
     ],
     "seeders": 46
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 133
   },
   {
     "id": "tt8879928",
@@ -265,7 +280,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 251
+    "seeders": 200
   },
   {
     "id": "tt41801288",
@@ -281,22 +296,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 89
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 149
+    "seeders": 73
   },
   {
     "id": "tt25868520",
@@ -306,7 +306,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A 14. században, amikor a Selyemút rendszere széthullik, és egymással rivalizáló frakciók tépik szét a vidéket, száműzetéséből előlép a rettenthetetlen harcos, Timur. Mindentől megfosztva harcba száll, hogy egyesítse a szétszakadt királyságokat, és stratégiájával, valamint rendíthetetlen akaratával a káoszból birodalmat kovácsoljon. A csatatéren veretlen hadvezérként tartják számon: a történelem egyik legnagyobb katonai vezetője és hadászati zsenije volt – ugyanakkor az egyik legkegyetlenebb is. Timur megalapította a Timurida Birodalmat, amely a mai Afganisztán, Irán és Közép-Ázsia területei felett uralkodott.",
-    "imdbRating": 5.9,
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
       "Történelmi",
@@ -314,7 +314,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 279
+    "seeders": 225
   },
   {
     "id": "tt32916440",
@@ -330,7 +330,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 253
+    "seeders": 199
   },
   {
     "id": "tt33978029",
@@ -347,7 +347,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 271
+    "seeders": 210
   },
   {
     "id": "tt26764007",
@@ -364,22 +364,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 225
-  },
-  {
-    "id": "tt37957368",
-    "type": "movie",
-    "name": "Fukusimai atomerőmű-baleset: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/v7TBpHREDFijKzH7ZiXQE14fgS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "2011-ben Japánban egy földrengés okozta szökőár láncreakciót váltott ki a fukushimai Daiichi atomerőműben, ami a csernobili katasztrófa óta a legsúlyosabb nukleáris válsághoz vezetett. Kövesse nyomon percről percre a katasztrófa kibontakozását a pusztítás, zűrzavar és fokozódó nyomás közepette.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 219
+    "seeders": 188
   },
   {
     "id": "tt35526133",
@@ -395,7 +380,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 241
+    "seeders": 207
+  },
+  {
+    "id": "tt37957368",
+    "type": "movie",
+    "name": "Fukusimai atomerőmű-baleset: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/v7TBpHREDFijKzH7ZiXQE14fgS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "2011-ben Japánban egy földrengés okozta szökőár láncreakciót váltott ki a fukushimai Daiichi atomerőműben, ami a csernobili katasztrófa óta a legsúlyosabb nukleáris válsághoz vezetett. Kövesse nyomon percről percre a katasztrófa kibontakozását a pusztítás, zűrzavar és fokozódó nyomás közepette.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 185
   },
   {
     "id": "tt8950154",
@@ -413,7 +413,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 139
+    "seeders": 115
   },
   {
     "id": "tt31727397",
@@ -430,7 +430,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 64
+    "seeders": 59
   },
   {
     "id": "tt31050594",
@@ -447,7 +447,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 71
+    "seeders": 66
   },
   {
     "id": "tt39298503",
@@ -462,7 +462,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 172
+    "seeders": 117
   },
   {
     "id": "tt42354155",
@@ -477,21 +477,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 127
+    "seeders": 91
   },
   {
-    "id": "tt36302633",
+    "id": "tt1527793",
     "type": "movie",
-    "name": "Robbantás a bostoni maratonon: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/5OQdwRSBPATvWRsC5TGlThM771g.jpg",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A dokumentumfilm percről percre követi nyomon a bostoni maratonon 2013. április 15-én elkövetett robbantás eseményeit. Bemutatja a káoszt, a mentőegységek és civilek bátorságát és egyetlen pusztító tett tragikus következményeit.",
-    "imdbRating": null,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
     "releaseInfo": "2025",
     "genres": [
-      "Dokumentum"
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
     ],
-    "seeders": 47
+    "seeders": 49
   }
 ]
