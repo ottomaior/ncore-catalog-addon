@@ -14,23 +14,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 676
-  },
-  {
-    "id": "tt33502160",
-    "type": "movie",
-    "name": "A kéz, amely a bölcsőt ringatja",
-    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 267
+    "seeders": 869
   },
   {
     "id": "tt34378301",
@@ -46,7 +30,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1501
+    "seeders": 1897
   },
   {
     "id": "tt36042156",
@@ -63,23 +47,23 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 2499
+    "seeders": 3163
   },
   {
-    "id": "tt33400055",
+    "id": "tt33502160",
     "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/62gRsWfHxFUHlNAwouBJUyztpAS.jpg",
+    "name": "A kéz, amely a bölcsőt ringatja",
+    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 6.1,
+    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
+    "imdbRating": 5.8,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Horror",
+      "Thriller"
     ],
-    "seeders": 101
+    "seeders": 338
   },
   {
     "id": "tt28650488",
@@ -98,7 +82,39 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 904
+    "seeders": 1094
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 1678
+  },
+  {
+    "id": "tt33400055",
+    "type": "movie",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/62gRsWfHxFUHlNAwouBJUyztpAS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt1757678",
@@ -115,23 +131,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 48
+    "seeders": 60
   },
   {
-    "id": "tt32612507",
+    "id": "tt29550683",
     "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.1,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1252
+    "seeders": 366
   },
   {
     "id": "tt26443616",
@@ -150,23 +166,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 105
-  },
-  {
-    "id": "tt29550683",
-    "type": "movie",
-    "name": "Halálsíp",
-    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 285
+    "seeders": 116
   },
   {
     "id": "tt34611082",
@@ -182,7 +182,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 477
+    "seeders": 580
   },
   {
     "id": "tt32793488",
@@ -199,7 +199,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 135
+    "seeders": 157
   },
   {
     "id": "tt32537226",
@@ -216,7 +216,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 214
+    "seeders": 255
   },
   {
     "id": "tt4357198",
@@ -232,7 +232,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 615
+    "seeders": 760
   },
   {
     "id": "tt41559880",
@@ -248,22 +248,7 @@
       "Animációs",
       "Dokumentum"
     ],
-    "seeders": 46
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 133
+    "seeders": 48
   },
   {
     "id": "tt8879928",
@@ -280,23 +265,22 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 200
+    "seeders": 233
   },
   {
-    "id": "tt41801288",
+    "id": "tt8760450",
     "type": "movie",
-    "name": "Első kézből - Egyesült Királyság: Vinnie Jones",
-    "poster": "https://image.tmdb.org/t/p/w500/AilC78z0a3wg0mBpBpurqjWCTxZ.jpg",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Vinnie Jones története a futballpályától Hollywoodig vezető, szokatlanul viharos ívet követi: a hírhedt „Crazy Gang” kemény emberéből lett FA-kupa-győztes középpályás, akinek karrierjét egy botrány majdnem derékba törte, ám végül az ellenállásokkal dacolva újra és újra talpra állt.",
-    "imdbRating": 7.3,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
-      "Történelmi",
-      "Dokumentum"
+      "Dráma"
     ],
-    "seeders": 73
+    "seeders": 149
   },
   {
     "id": "tt25868520",
@@ -314,7 +298,23 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 225
+    "seeders": 274
+  },
+  {
+    "id": "tt41801288",
+    "type": "movie",
+    "name": "Első kézből - Egyesült Királyság: Vinnie Jones",
+    "poster": "https://image.tmdb.org/t/p/w500/AilC78z0a3wg0mBpBpurqjWCTxZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Vinnie Jones története a futballpályától Hollywoodig vezető, szokatlanul viharos ívet követi: a hírhedt „Crazy Gang” kemény emberéből lett FA-kupa-győztes középpályás, akinek karrierjét egy botrány majdnem derékba törte, ám végül az ellenállásokkal dacolva újra és újra talpra állt.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Történelmi",
+      "Dokumentum"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt32916440",
@@ -330,7 +330,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 199
+    "seeders": 238
   },
   {
     "id": "tt33978029",
@@ -347,7 +347,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 210
+    "seeders": 256
   },
   {
     "id": "tt26764007",
@@ -364,7 +364,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 188
+    "seeders": 227
   },
   {
     "id": "tt35526133",
@@ -380,7 +380,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 207
+    "seeders": 241
   },
   {
     "id": "tt37957368",
@@ -395,7 +395,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 185
+    "seeders": 216
   },
   {
     "id": "tt8950154",
@@ -413,7 +413,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 115
+    "seeders": 143
   },
   {
     "id": "tt31727397",
@@ -430,7 +430,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 59
+    "seeders": 68
   },
   {
     "id": "tt31050594",
@@ -447,7 +447,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 66
+    "seeders": 75
   },
   {
     "id": "tt39298503",
@@ -462,7 +462,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 117
+    "seeders": 158
   },
   {
     "id": "tt42354155",
@@ -477,23 +477,21 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 91
+    "seeders": 117
   },
   {
-    "id": "tt1527793",
+    "id": "tt36302633",
     "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "name": "Robbantás a bostoni maratonon: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/5OQdwRSBPATvWRsC5TGlThM771g.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
+    "description": "A dokumentumfilm percről percre követi nyomon a bostoni maratonon 2013. április 15-én elkövetett robbantás eseményeit. Bemutatja a káoszt, a mentőegységek és civilek bátorságát és egyetlen pusztító tett tragikus következményeit.",
+    "imdbRating": null,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
+      "Dokumentum"
     ],
-    "seeders": 49
+    "seeders": 48
   }
 ]
