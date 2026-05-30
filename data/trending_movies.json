@@ -14,23 +14,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 869
-  },
-  {
-    "id": "tt34378301",
-    "type": "movie",
-    "name": "Tom Clancy: Jack Ryan Szellemháború",
-    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 1897
+    "seeders": 1008
   },
   {
     "id": "tt36042156",
@@ -47,7 +31,23 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3163
+    "seeders": 3553
+  },
+  {
+    "id": "tt34378301",
+    "type": "movie",
+    "name": "Tom Clancy: Jack Ryan Szellemháború",
+    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 2039
   },
   {
     "id": "tt33502160",
@@ -63,7 +63,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 338
+    "seeders": 373
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 1884
   },
   {
     "id": "tt28650488",
@@ -82,23 +98,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1094
-  },
-  {
-    "id": "tt32612507",
-    "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 1678
+    "seeders": 1189
   },
   {
     "id": "tt33400055",
@@ -114,7 +114,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 114
+    "seeders": 120
+  },
+  {
+    "id": "tt29550683",
+    "type": "movie",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 403
   },
   {
     "id": "tt1757678",
@@ -131,23 +147,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 60
+    "seeders": 68
   },
   {
-    "id": "tt29550683",
+    "id": "tt34611082",
     "type": "movie",
-    "name": "Halálsíp",
-    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "name": "Hölgyeké az elsőbbség",
+    "poster": "https://image.tmdb.org/t/p/w500/uLhvs1Wk2w8H07LTacQwa4bqsMZ.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
-    "imdbRating": 6.3,
+    "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
+    "imdbRating": 5.9,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Rejtély"
+      "Vígjáték",
+      "Fantasy"
     ],
-    "seeders": 366
+    "seeders": 629
   },
   {
     "id": "tt26443616",
@@ -166,23 +182,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 116
-  },
-  {
-    "id": "tt34611082",
-    "type": "movie",
-    "name": "Hölgyeké az elsőbbség",
-    "poster": "https://image.tmdb.org/t/p/w500/uLhvs1Wk2w8H07LTacQwa4bqsMZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 580
+    "seeders": 124
   },
   {
     "id": "tt32793488",
@@ -192,14 +192,14 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
-    "imdbRating": 6.4,
+    "imdbRating": 6.5,
     "releaseInfo": "2025",
     "genres": [
       "Kaland",
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 157
+    "seeders": 175
   },
   {
     "id": "tt32537226",
@@ -216,7 +216,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 255
+    "seeders": 270
   },
   {
     "id": "tt4357198",
@@ -232,23 +232,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 760
-  },
-  {
-    "id": "tt41559880",
-    "type": "movie",
-    "name": "Dibu Martínez: A srác, aki megállítja az időt",
-    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy lírai, animációs dokumentumfilm, amely Emiliano Martínez gyerekkorától követi végig az útját a mar del platai álmodozó kisfiútól egészen addig, hogy Argentína és a világ futballjának egyik meghatározó alakjává váljon. A film személyes visszaemlékezések, archív felvételek, animációk és a hozzá közel állók megszólalásai alapján idézi fel azokat a kihívásokat, amelyek a pályán és azon kívül is formálták, miközben azt mutatja meg, hogyan lett a kitartásból, a tehetségből és a hitéből inspiráló történet.",
-    "imdbRating": 4.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Dokumentum"
-    ],
-    "seeders": 48
+    "seeders": 820
   },
   {
     "id": "tt8879928",
@@ -265,7 +249,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 233
+    "seeders": 257
   },
   {
     "id": "tt8760450",
@@ -280,7 +264,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 149
+    "seeders": 155
   },
   {
     "id": "tt25868520",
@@ -298,7 +282,23 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 274
+    "seeders": 294
+  },
+  {
+    "id": "tt41559880",
+    "type": "movie",
+    "name": "Dibu Martínez: A srác, aki megállítja az időt",
+    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy lírai, animációs dokumentumfilm, amely Emiliano Martínez gyerekkorától követi végig az útját a mar del platai álmodozó kisfiútól egészen addig, hogy Argentína és a világ futballjának egyik meghatározó alakjává váljon. A film személyes visszaemlékezések, archív felvételek, animációk és a hozzá közel állók megszólalásai alapján idézi fel azokat a kihívásokat, amelyek a pályán és azon kívül is formálták, miközben azt mutatja meg, hogyan lett a kitartásból, a tehetségből és a hitéből inspiráló történet.",
+    "imdbRating": 4.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Dokumentum"
+    ],
+    "seeders": 45
   },
   {
     "id": "tt41801288",
@@ -308,46 +308,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Vinnie Jones története a futballpályától Hollywoodig vezető, szokatlanul viharos ívet követi: a hírhedt „Crazy Gang” kemény emberéből lett FA-kupa-győztes középpályás, akinek karrierjét egy botrány majdnem derékba törte, ám végül az ellenállásokkal dacolva újra és újra talpra állt.",
-    "imdbRating": 7.3,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 84
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 238
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 256
+    "seeders": 82
   },
   {
     "id": "tt26764007",
@@ -364,7 +331,40 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 227
+    "seeders": 256
+  },
+  {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 280
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 259
   },
   {
     "id": "tt35526133",
@@ -380,7 +380,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 241
+    "seeders": 266
   },
   {
     "id": "tt37957368",
@@ -395,7 +395,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 216
+    "seeders": 235
   },
   {
     "id": "tt8950154",
@@ -413,7 +413,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 143
+    "seeders": 148
   },
   {
     "id": "tt31727397",
@@ -430,7 +430,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 68
+    "seeders": 74
   },
   {
     "id": "tt31050594",
@@ -447,7 +447,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 75
+    "seeders": 73
   },
   {
     "id": "tt39298503",
@@ -462,22 +462,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 158
-  },
-  {
-    "id": "tt42354155",
-    "type": "movie",
-    "name": "Élet a Földön - Attenborough legnagyobb kalandja",
-    "poster": "https://image.tmdb.org/t/p/w500/rQ5w5gJLC6VpVlpx4MRVBaNMyfv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "1976-ban David Attenborough belevágott minden addiginál legambiciózusabb televíziós sorozatába. Ez a lebilincselő történet arról mesél, hogyan született meg az első igazán nagyszabású természetfilmes sikersorozat.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 117
+    "seeders": 172
   },
   {
     "id": "tt36302633",
@@ -492,6 +477,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 48
+    "seeders": 51
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 52
   }
 ]
