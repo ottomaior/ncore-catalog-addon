@@ -1,5 +1,35 @@
 [
   {
+    "id": "tt19896510",
+    "type": "movie",
+    "name": "K-Pops!",
+    "poster": "https://image.tmdb.org/t/p/w500/72KQHN1xUO6gWHLRRPyJcCQXlve.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy lecsúszott zenész kapva kap az alkalmon, hogy rég nem látott fia sztárságából tőkét kovácsoljon a saját reneszánszához, de megtanulja, hogy az apaság sokkal több, mint a sztárság.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Zenei"
+    ],
+    "seeders": 53
+  },
+  {
+    "id": "tt37356052",
+    "type": "movie",
+    "name": "Bogyó és Babóca 7. - Mesék a pöttyös házból",
+    "poster": "https://image.tmdb.org/t/p/w500/imNcbVgWCrLHv2L5u5aGSp0JXFh.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Bogyó és Babóca 7. - Mesék a pöttyös házból című mozifilm Bogyó, a csigafiú, Babóca, a katicalány és barátaik kedves kalandjait mutatják be. A mesék úgy követik egymást a mozifilmben, mintha egy gyerektársaságban mindenki elmesélné a többieknek a legkedvesebb történetét. Minden történet különösen is fontos valamelyik szereplő számára, például Baltazár megtanulja, miért kell szabályosan közlekedni, Bogyó bűvésszé válik, Alfonz pedig új barátra lel. A korábbi epizódokhoz képest ebben a sorozatban gyakrabban bukkannak fel a gyerekek számára különösen izgalmas járművek, egy tűzoltóautó, egy kukásautó, és még egy igazi gőzmozdony is.  A már korábban megismert és megkedvelt szereplők mellett újak is feltűnnek: az elkóborolt csemetéjét kereső Béka, Zengő, az üvegszárnyú lepkelány, Légy Lajos, az optikus, aki Döme, a krumplibogár számára készít szemüveget, a lomtalanításban segítő fürgebogarak, a hős tűzoltóbogarak, a szerencsét hozó füstbogár-kéményseprő és a vonatvezető skarlátbogár.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [],
+    "seeders": 101
+  },
+  {
     "id": "tt27552099",
     "type": "movie",
     "name": "Mike & Nick & Nick & Alice",
@@ -14,7 +44,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1008
+    "seeders": 1150
   },
   {
     "id": "tt36042156",
@@ -31,7 +61,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3553
+    "seeders": 3715
   },
   {
     "id": "tt34378301",
@@ -47,7 +77,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2039
+    "seeders": 2066
   },
   {
     "id": "tt33502160",
@@ -63,7 +93,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 373
+    "seeders": 377
   },
   {
     "id": "tt32612507",
@@ -79,7 +109,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1884
+    "seeders": 1926
   },
   {
     "id": "tt28650488",
@@ -98,23 +128,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1189
-  },
-  {
-    "id": "tt33400055",
-    "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/62gRsWfHxFUHlNAwouBJUyztpAS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 120
+    "seeders": 1257
   },
   {
     "id": "tt29550683",
@@ -130,24 +144,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 403
+    "seeders": 415
   },
   {
-    "id": "tt1757678",
+    "id": "tt33400055",
     "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/62gRsWfHxFUHlNAwouBJUyztpAS.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
+    "imdbRating": 6.1,
     "releaseInfo": "2025",
     "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 68
+    "seeders": 125
   },
   {
     "id": "tt34611082",
@@ -163,7 +176,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 629
+    "seeders": 676
   },
   {
     "id": "tt26443616",
@@ -182,7 +195,24 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 124
+    "seeders": 144
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 74
   },
   {
     "id": "tt32793488",
@@ -199,7 +229,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 175
+    "seeders": 186
   },
   {
     "id": "tt32537226",
@@ -232,7 +262,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 820
+    "seeders": 837
   },
   {
     "id": "tt8879928",
@@ -249,22 +279,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 257
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 155
+    "seeders": 273
   },
   {
     "id": "tt25868520",
@@ -282,7 +297,22 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 294
+    "seeders": 300
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 150
   },
   {
     "id": "tt41559880",
@@ -298,7 +328,7 @@
       "Animációs",
       "Dokumentum"
     ],
-    "seeders": 45
+    "seeders": 46
   },
   {
     "id": "tt41801288",
@@ -314,24 +344,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 82
-  },
-  {
-    "id": "tt26764007",
-    "type": "movie",
-    "name": "Lent a mélyben",
-    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Horror"
-    ],
-    "seeders": 256
+    "seeders": 89
   },
   {
     "id": "tt33978029",
@@ -348,7 +361,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 280
+    "seeders": 302
   },
   {
     "id": "tt32916440",
@@ -367,6 +380,23 @@
     "seeders": 259
   },
   {
+    "id": "tt26764007",
+    "type": "movie",
+    "name": "Lent a mélyben",
+    "poster": "https://image.tmdb.org/t/p/w500/4gr9WexfjVIji7LIH3D5zq4qAPc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kate Rafter hazatért, miután szörnyű dolgokat élt át a háború sújtotta Irakban, és elvesztette édesanyját is. Amíg édesanyja hagyatékát rendezi, egyre inkább az az érzése, hogy a szomszédban valami furcsa és ijesztő dolog zajlik.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Horror"
+    ],
+    "seeders": 245
+  },
+  {
     "id": "tt35526133",
     "type": "movie",
     "name": "Badh - Kísért a múlt",
@@ -380,7 +410,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 266
+    "seeders": 253
   },
   {
     "id": "tt37957368",
@@ -395,7 +425,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 235
+    "seeders": 227
   },
   {
     "id": "tt8950154",
@@ -413,7 +443,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 148
+    "seeders": 139
   },
   {
     "id": "tt31727397",
@@ -430,7 +460,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 74
+    "seeders": 72
   },
   {
     "id": "tt31050594",
@@ -447,22 +477,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 73
-  },
-  {
-    "id": "tt39298503",
-    "type": "movie",
-    "name": "Vad London",
-    "poster": "https://image.tmdb.org/t/p/w500/3yTYwbilgxE240qShWxcNmp9WHZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután egy egész életet a világ beutazásával töltött, a világ legismertebb természetfilmes szaktekintélye most közelebb, saját otthonához fordítja figyelmét, hogy felfedezze Anglia ikonikus fővárosának élővilágát. Miután 75 éven át Londonban élt, Sir David Attenborough bensőséges ismeretekkel rendelkezik a város természeti örökségéről, és aligha akadna nála jobb idegenvezető, aki feltárhatná előttünk annak leglenyűgözőbb természeti titkait. A századik életévének időszakában forgatott személyes és megható film időszerű betekintést nyújt abba, miként válhatnak a városok nemcsak az emberek, hanem a vadon élő állatok otthonává is.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 172
+    "seeders": 81
   },
   {
     "id": "tt36302633",
@@ -477,23 +492,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 52
+    "seeders": 53
   }
 ]
