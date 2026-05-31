@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt39695940",
+    "type": "series",
+    "name": "درش",
+    "poster": "https://artworks.thetvdb.com/banners/v4/series/471430/posters/6986572b52f35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "يعود \"درش\"، عامل العطارة البسيط، إلى حارته الشعبية بعد غياب سنين، لكن حادثاً غامضاً يفقده الذاكرة ويجعل عودته لغزاً محيراً. مع توالي الأحداث، يكتشف الجميع أن درش ليس مجرد عامل عادي، بل رجل عاش حيوات مزدوجة وتاريخاً سرياً يظهر ويختفي معه. بين ماضٍ غامض وحاضر مشتت، تنكشف طبقات حياته الخفية، ليجد نفسه في مواجهة شرسة مع أشباح الماضي وأعداء يكتشفون وجهه المجهول لأول مرة.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 25
+  },
+  {
     "id": "tt42669045",
     "type": "series",
     "name": "Birodalom (S01E01)",
@@ -14,7 +29,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 1,
-    "seeders": 741
+    "seeders": 1001
   },
   {
     "id": "tt34991493",
@@ -32,7 +47,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 3,
-    "seeders": 370
+    "seeders": 492
   },
   {
     "id": "tt30460310",
@@ -51,7 +66,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 726
+    "seeders": 966
   },
   {
     "id": "tt9813792",
@@ -70,25 +85,7 @@
     ],
     "latest_season": 4,
     "latest_episode": 5,
-    "seeders": 398
-  },
-  {
-    "id": "tt38639981",
-    "type": "series",
-    "name": "Titanic Sinks Tonight",
-    "poster": "https://image.tmdb.org/t/p/w500/icJbEDVQeJMnQyHr903lg2CFo6q.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Minute by minute - the night the unsinkable ship sank. Vivid first-hand accounts from passengers and crew tell the story of the most infamous disaster in maritime history.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum",
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 86
+    "seeders": 554
   },
   {
     "id": "tt2861424",
@@ -108,25 +105,7 @@
     ],
     "latest_season": 9,
     "latest_episode": 1,
-    "seeders": 554
-  },
-  {
-    "id": "tt0224887",
-    "type": "series",
-    "name": "Heti Hetes (S19E07)",
-    "poster": "https://image.tmdb.org/t/p/w500/pwHWUTOhJeqK9oqc7DwAPEndNrW.jpg",
-    "posterShape": "poster",
-    "year": 1999,
-    "description": "🆕 Legújabb epizód: S19E07\n\nIsmét jelentkezik az RTL Klub népszerű Heti Hetes című műsora. Az aktuális híreket, pletykákat, érdekességeket a már megszokott szereplők kommentálják. A talk-show lényege mit sem változik, szerepek nincsenek, vagy ha mégis, az csak a véletlen műve. A Heti Hetes célja továbbra is a szórakoztatás, mely minden bizonnyal sikerül, ha nem veszik komolyan. Mert a műsor valóban egy görbe tükör, ami egy kicsit torzít, de megnevettet.",
-    "imdbRating": 8.0,
-    "releaseInfo": "1999",
-    "genres": [
-      "Talk",
-      "Vígjáték"
-    ],
-    "latest_season": 19,
-    "latest_episode": 7,
-    "seeders": 517
+    "seeders": 781
   },
   {
     "id": "tt6445410",
@@ -144,7 +123,60 @@
     ],
     "latest_season": 10,
     "latest_episode": 12,
-    "seeders": 584
+    "seeders": 768
+  },
+  {
+    "id": "tt38639981",
+    "type": "series",
+    "name": "Titanic Sinks Tonight",
+    "poster": "https://image.tmdb.org/t/p/w500/icJbEDVQeJMnQyHr903lg2CFo6q.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Minute by minute - the night the unsinkable ship sank. Vivid first-hand accounts from passengers and crew tell the story of the most infamous disaster in maritime history.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum",
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 105
+  },
+  {
+    "id": "tt0224887",
+    "type": "series",
+    "name": "Heti Hetes (S19E07)",
+    "poster": "https://image.tmdb.org/t/p/w500/pwHWUTOhJeqK9oqc7DwAPEndNrW.jpg",
+    "posterShape": "poster",
+    "year": 1999,
+    "description": "🆕 Legújabb epizód: S19E07\n\nIsmét jelentkezik az RTL Klub népszerű Heti Hetes című műsora. Az aktuális híreket, pletykákat, érdekességeket a már megszokott szereplők kommentálják. A talk-show lényege mit sem változik, szerepek nincsenek, vagy ha mégis, az csak a véletlen műve. A Heti Hetes célja továbbra is a szórakoztatás, mely minden bizonnyal sikerül, ha nem veszik komolyan. Mert a műsor valóban egy görbe tükör, ami egy kicsit torzít, de megnevettet.",
+    "imdbRating": 8.0,
+    "releaseInfo": "1999",
+    "genres": [
+      "Talk",
+      "Vígjáték"
+    ],
+    "latest_season": 19,
+    "latest_episode": 7,
+    "seeders": 648
+  },
+  {
+    "id": "tt8772296",
+    "type": "series",
+    "name": "Eufória (S03E07)",
+    "poster": "https://image.tmdb.org/t/p/w500/pI3Pp5avRa1hiXVKBQfAz46l0lI.jpg",
+    "posterShape": "poster",
+    "year": 2019,
+    "description": "🆕 Legújabb epizód: S03E07\n\nRue 17 éves, drogfüggő, mentális problémákkal küzd és az élete nem a tervek szerint alakul. Miután kiengedik az elvonóról, Rue hazamegy és összebarátkozik egy Jules nevű transznemű nővel, aki mindent megváltoztat a világában. Az Eufória mélyen belemerül a szex, a drogok, a feltűnő sminkek és ha hiszed, ha nem, a középiskolák világába.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2019",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": 3,
+    "latest_episode": 7,
+    "seeders": 417
   },
   {
     "id": "tt2805096",
@@ -162,24 +194,7 @@
     ],
     "latest_season": 13,
     "latest_episode": 5,
-    "seeders": 56
-  },
-  {
-    "id": "tt8772296",
-    "type": "series",
-    "name": "Eufória (S03E07)",
-    "poster": "https://image.tmdb.org/t/p/w500/pI3Pp5avRa1hiXVKBQfAz46l0lI.jpg",
-    "posterShape": "poster",
-    "year": 2019,
-    "description": "🆕 Legújabb epizód: S03E07\n\nRue 17 éves, drogfüggő, mentális problémákkal küzd és az élete nem a tervek szerint alakul. Miután kiengedik az elvonóról, Rue hazamegy és összebarátkozik egy Jules nevű transznemű nővel, aki mindent megváltoztat a világában. Az Eufória mélyen belemerül a szex, a drogok, a feltűnő sminkek és ha hiszed, ha nem, a középiskolák világába.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2019",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": 3,
-    "latest_episode": 7,
-    "seeders": 296
+    "seeders": 62
   },
   {
     "id": "tt0096697",
@@ -198,42 +213,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 72
-  },
-  {
-    "id": "tt32767294",
-    "type": "series",
-    "name": "Fivérség",
-    "poster": "https://image.tmdb.org/t/p/w500/zwKWxVhtnKdpknat9sPEHihTYmg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ruben megjelenik elhidegült bátyja, Niall esküvőjén, ami katalizátorként hat az elmúlt 40 év kapcsolatának felelevenítésére.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 80
-  },
-  {
-    "id": "tt4598136",
-    "type": "series",
-    "name": "Cassandre (S06E03)",
-    "poster": "https://image.tmdb.org/t/p/w500/2gj1NLVjcMdCjhb9a0K0aZu5Mui.jpg",
-    "posterShape": "poster",
-    "year": 2015,
-    "description": "🆕 Legújabb epizód: S06E03\n\nCassandre egy határozott, a párizsi rendőrség nagy presztízsű épületében dolgozó rendőrparancsnok, aki áthelyezését kéi, hogy közelebb legyen problémás tinédzser fiához. Annecy-ben azonban nagyon zárt a közösség, a rendőrség élén pedig egy hozzá hasonló határozott kapitány áll.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2015",
-    "genres": [
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "latest_season": 6,
-    "latest_episode": 3,
-    "seeders": 31
+    "seeders": 87
   },
   {
     "id": "tt36849871",
@@ -252,7 +232,59 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 254
+    "seeders": 316
+  },
+  {
+    "id": "tt32767294",
+    "type": "series",
+    "name": "Fivérség",
+    "poster": "https://image.tmdb.org/t/p/w500/zwKWxVhtnKdpknat9sPEHihTYmg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ruben megjelenik elhidegült bátyja, Niall esküvőjén, ami katalizátorként hat az elmúlt 40 év kapcsolatának felelevenítésére.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 91
+  },
+  {
+    "id": "tt40385200",
+    "type": "series",
+    "name": "Második világháború Tom Hanks-szel (S01E02)",
+    "poster": "https://image.tmdb.org/t/p/w500/2ONhd2hXjZHm3ZouH4UsUWm7fPX.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E02\n\nA nagyszabású dokumentumfilm-sorozat a 21. század szemszögéből vizsgálja újra a második világháború történetét. A produkció executive producerei Tom Hanks és Gary Goetzman, szakértője pedig a Pulitzer-díjas történész, Jon Meacham. A Nutopia és az A+E Factual Studios közreműködésével készült sorozat ritkán látott archív felvételek, elismert történészek elemzései és lendületes narráció segítségével mutatja be a modern világot formáló konfliktust.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "latest_season": 1,
+    "latest_episode": 2,
+    "seeders": 148
+  },
+  {
+    "id": "tt4598136",
+    "type": "series",
+    "name": "Cassandre (S06E03)",
+    "poster": "https://image.tmdb.org/t/p/w500/2gj1NLVjcMdCjhb9a0K0aZu5Mui.jpg",
+    "posterShape": "poster",
+    "year": 2015,
+    "description": "🆕 Legújabb epizód: S06E03\n\nCassandre egy határozott, a párizsi rendőrség nagy presztízsű épületében dolgozó rendőrparancsnok, aki áthelyezését kéi, hogy közelebb legyen problémás tinédzser fiához. Annecy-ben azonban nagyon zárt a közösség, a rendőrség élén pedig egy hozzá hasonló határozott kapitány áll.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2015",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "latest_season": 6,
+    "latest_episode": 3,
+    "seeders": 38
   },
   {
     "id": "tt9472282",
@@ -271,24 +303,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 69
-  },
-  {
-    "id": "tt40385200",
-    "type": "series",
-    "name": "Második világháború Tom Hanks-szel (S01E02)",
-    "poster": "https://image.tmdb.org/t/p/w500/2ONhd2hXjZHm3ZouH4UsUWm7fPX.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E02\n\nA nagyszabású dokumentumfilm-sorozat a 21. század szemszögéből vizsgálja újra a második világháború történetét. A produkció executive producerei Tom Hanks és Gary Goetzman, szakértője pedig a Pulitzer-díjas történész, Jon Meacham. A Nutopia és az A+E Factual Studios közreműködésével készült sorozat ritkán látott archív felvételek, elismert történészek elemzései és lendületes narráció segítségével mutatja be a modern világot formáló konfliktust.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "latest_season": 1,
-    "latest_episode": 2,
-    "seeders": 114
+    "seeders": 73
   },
   {
     "id": "tt0452046",
@@ -307,7 +322,7 @@
     ],
     "latest_season": 19,
     "latest_episode": 2,
-    "seeders": 61
+    "seeders": 69
   },
   {
     "id": "tt10970762",
@@ -317,32 +332,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A szolgálólány meséje folytatása Margaret Atwood regénye alapján készült, és két fiatal lány, Agnes és Daisy szemén keresztül mutatja be Gileád további sorsát, Ann Dowd (Lydia néni) főszereplésével. A cselekmény 15 évvel June története után játszódik. A középpontban a Gileadban nevelkedő Agnes és a Kanadában élő Daisy (Nicole) áll, akiknek sorsa összefonódik.",
-    "imdbRating": 8.2,
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 123
-  },
-  {
-    "id": "tt9357248",
-    "type": "series",
-    "name": "Mira, Royal Detective",
-    "poster": "https://image.tmdb.org/t/p/w500/AjZuTNfz82ogbabj8NsVkWkFmyL.jpg",
-    "posterShape": "poster",
-    "year": 2020,
-    "description": "The series centers on Mira, who, along with her friend Prince Neel, creative cousin Priya, and comical mongoose sidekicks Mikku and Chikku, takes young viewers on adventures that highlight critical thinking and encourage deductive reasoning. Each episode features two 11-minute stories that celebrate the cultures and customs of India by incorporating authentic storytelling, music, food, fashion, language, art and dance.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2020",
-    "genres": [
-      "Kids",
-      "Animációs"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 15
+    "seeders": 147
   },
   {
     "id": "tt11815682",
@@ -360,7 +357,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 40
+    "seeders": 44
   },
   {
     "id": "tt35052852",
@@ -377,7 +374,25 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 46
+    "seeders": 53
+  },
+  {
+    "id": "tt27557289",
+    "type": "series",
+    "name": "A nyugdíjas forradalmárok",
+    "poster": "https://image.tmdb.org/t/p/w500/6o1y9N0DFWKhUptJvIxU76kx57D.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tökéletesnek tűnő nyugdíjas közösség valószínűtlen hőseinek meg kell megakadályozniuk egy túlvilági fenyegetést, ami elvenné tőlük azt, amiből nincs nekik elég: az időt.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Rejtély"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 270
   },
   {
     "id": "tt28118211",
@@ -396,22 +411,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 89
-  },
-  {
-    "id": "tt1128123",
-    "type": "series",
-    "name": "Háborús gyárak",
-    "poster": "https://artworks.thetvdb.com/banners/posters/5d4f03e50edef.jpg",
-    "posterShape": "poster",
-    "year": 2019,
-    "description": "Mindegy, hogy hány katonád van, milyen okosak a tábornokaid és merész a stratégiád, nem nyersz meg egy háborút, ha nincs elég lövedéked, repülőgéped, ételed. A II. világháború a gyárak háborúja vol",
-    "imdbRating": null,
-    "releaseInfo": "2019",
-    "genres": [],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 41
+    "seeders": 96
   },
   {
     "id": "tt31589662",
@@ -428,42 +428,40 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 61
+    "seeders": 70
   },
   {
-    "id": "tt27557289",
+    "id": "tt1128123",
     "type": "series",
-    "name": "A nyugdíjas forradalmárok",
-    "poster": "https://image.tmdb.org/t/p/w500/6o1y9N0DFWKhUptJvIxU76kx57D.jpg",
+    "name": "Háborús gyárak",
+    "poster": "https://artworks.thetvdb.com/banners/posters/5d4f03e50edef.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tökéletesnek tűnő nyugdíjas közösség valószínűtlen hőseinek meg kell megakadályozniuk egy túlvilági fenyegetést, ami elvenné tőlük azt, amiből nincs nekik elég: az időt.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
+    "year": 2019,
+    "description": "Mindegy, hogy hány katonád van, milyen okosak a tábornokaid és merész a stratégiád, nem nyersz meg egy háborút, ha nincs elég lövedéked, repülőgéped, ételed. A II. világháború a gyárak háborúja vol",
+    "imdbRating": null,
+    "releaseInfo": "2019",
+    "genres": [],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 48
+  },
+  {
+    "id": "tt9357248",
+    "type": "series",
+    "name": "Mira, Royal Detective",
+    "poster": "https://image.tmdb.org/t/p/w500/AjZuTNfz82ogbabj8NsVkWkFmyL.jpg",
+    "posterShape": "poster",
+    "year": 2020,
+    "description": "The series centers on Mira, who, along with her friend Prince Neel, creative cousin Priya, and comical mongoose sidekicks Mikku and Chikku, takes young viewers on adventures that highlight critical thinking and encourage deductive reasoning. Each episode features two 11-minute stories that celebrate the cultures and customs of India by incorporating authentic storytelling, music, food, fashion, language, art and dance.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2020",
     "genres": [
-      "Sci-Fi & Fantasy",
-      "Rejtély"
+      "Kids",
+      "Animációs"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 206
-  },
-  {
-    "id": "tt30826447",
-    "type": "series",
-    "name": "A négy évszak",
-    "poster": "https://image.tmdb.org/t/p/w500/aansUWBmFc1prdE444GHymOlemA.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Három házaspár évtizedes barátságát próbára teszi, amikor egyikük elválik, megbolygatva megszokott, negyedévente szervezett közös hétvégéiket.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 50
+    "seeders": 14
   },
   {
     "id": "tt30217222",
@@ -482,24 +480,24 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 49
+    "seeders": 57
   },
   {
-    "id": "tt38348835",
+    "id": "tt30826447",
     "type": "series",
-    "name": "Calabasas titkai",
-    "poster": "https://image.tmdb.org/t/p/w500/i9saZWnE3evcp1MCdK6chKY2sxq.jpg",
+    "name": "A négy évszak",
+    "poster": "https://image.tmdb.org/t/p/w500/aansUWBmFc1prdE444GHymOlemA.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Fényűző valóságshow, melyben egy frissen diplomázott barátokból, exekből és riválisokból álló társaság visszatér a dél-kaliforniai luxus és a véget nem érő drámázás világába.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Három házaspár évtizedes barátságát próbára teszi, amikor egyikük elválik, megbolygatva megszokott, negyedévente szervezett közös hétvégéiket.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
     "genres": [
-      "Reality"
+      "Vígjáték"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 30
+    "seeders": 54
   },
   {
     "id": "tt2152566",
@@ -516,7 +514,7 @@
     ],
     "latest_season": 36,
     "latest_episode": 4,
-    "seeders": 102
+    "seeders": 121
   },
   {
     "id": "tt37041010",
@@ -526,13 +524,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "1970-ben a brazil válogatott hatalmas álmot dédelgetve lépett pályára, hogy szembenézzen a kihívással, és elsőként váljon háromszoros világbajnokká.",
-    "imdbRating": 10.0,
+    "imdbRating": 9.5,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 30
+    "seeders": 33
   }
 ]
