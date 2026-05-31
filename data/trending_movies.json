@@ -16,7 +16,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 44
+    "seeders": 174
   },
   {
     "id": "tt27552099",
@@ -33,7 +33,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1257
+    "seeders": 1361
   },
   {
     "id": "tt36042156",
@@ -50,7 +50,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 3827
+    "seeders": 3999
   },
   {
     "id": "tt34378301",
@@ -66,7 +66,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2103
+    "seeders": 2148
   },
   {
     "id": "tt32612507",
@@ -82,7 +82,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 2033
+    "seeders": 2034
   },
   {
     "id": "tt28650488",
@@ -101,7 +101,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1281
+    "seeders": 1316
   },
   {
     "id": "tt33502160",
@@ -117,7 +117,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 398
+    "seeders": 367
   },
   {
     "id": "tt19896510",
@@ -134,7 +134,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 82
+    "seeders": 86
   },
   {
     "id": "tt29550683",
@@ -150,7 +150,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 426
+    "seeders": 413
   },
   {
     "id": "tt34611082",
@@ -166,7 +166,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 685
+    "seeders": 694
   },
   {
     "id": "tt33400055",
@@ -182,7 +182,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 127
+    "seeders": 139
   },
   {
     "id": "tt26443616",
@@ -201,7 +201,23 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 153
+    "seeders": 160
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 869
   },
   {
     "id": "tt32537226",
@@ -218,7 +234,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 276
+    "seeders": 277
   },
   {
     "id": "tt32793488",
@@ -235,23 +251,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 189
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 851
+    "seeders": 186
   },
   {
     "id": "tt1757678",
@@ -268,7 +268,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 72
+    "seeders": 78
   },
   {
     "id": "tt8879928",
@@ -285,7 +285,24 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 286
+    "seeders": 281
+  },
+  {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 326
   },
   {
     "id": "tt25868520",
@@ -303,24 +320,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 303
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 302
+    "seeders": 283
   },
   {
     "id": "tt8760450",
@@ -335,7 +335,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 148
+    "seeders": 154
   },
   {
     "id": "tt32916440",
@@ -351,7 +351,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 267
+    "seeders": 261
   },
   {
     "id": "tt26764007",
@@ -368,7 +368,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 259
+    "seeders": 250
   },
   {
     "id": "tt41801288",
@@ -384,7 +384,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 86
+    "seeders": 85
   },
   {
     "id": "tt37957368",
@@ -399,7 +399,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 246
+    "seeders": 225
   },
   {
     "id": "tt35526133",
@@ -415,7 +415,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 259
+    "seeders": 234
   },
   {
     "id": "tt41559880",
@@ -431,7 +431,7 @@
       "Animációs",
       "Dokumentum"
     ],
-    "seeders": 40
+    "seeders": 39
   },
   {
     "id": "tt8950154",
@@ -449,7 +449,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 153
+    "seeders": 139
   },
   {
     "id": "tt31050594",
@@ -466,7 +466,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 81
+    "seeders": 83
   },
   {
     "id": "tt31727397",
@@ -483,7 +483,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 69
+    "seeders": 67
   },
   {
     "id": "tt1527793",
@@ -500,6 +500,6 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 56
+    "seeders": 63
   }
 ]
