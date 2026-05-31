@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999989
+"seeders": 999992
 },
 {
 "id": "tt29344974",
@@ -30,7 +30,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999986
+"seeders": 999984
 },
 {
 "id": "tt29567915",
@@ -46,7 +46,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999983
+"seeders": 999981
 },
 {
 "id": "tt34375721",
@@ -63,7 +63,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999967
+"seeders": 999964
 },
 {
 "id": "tt20672356",
@@ -79,22 +79,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999954
-},
-{
-"id": "tt27811640",
-"type": "movie",
-"name": "Véletlenül írtam egy könyvet",
-"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
-"imdbRating": 6.6,
-"releaseInfo": "2025",
-"genres": [
-"Családi"
-],
-"seeders": 999890
+"seeders": 999949
 },
 {
 "id": "tt0179955",
@@ -111,7 +96,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999889
+"seeders": 999896
 },
 {
 "id": "tt38508942",
@@ -126,7 +111,37 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999880
+"seeders": 999879
+},
+{
+"id": "tt27811640",
+"type": "movie",
+"name": "Véletlenül írtam egy könyvet",
+"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
+"imdbRating": 6.6,
+"releaseInfo": "2025",
+"genres": [
+"Családi"
+],
+"seeders": 999878
+},
+{
+"id": "tt40381358",
+"type": "movie",
+"name": "Tavaszi szél - az ébredés",
+"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
+"imdbRating": 8.4,
+"releaseInfo": "2026",
+"genres": [
+"Dokumentum"
+],
+"seeders": 999850
 },
 {
 "id": "tt0142632",
@@ -143,7 +158,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999854
+"seeders": 999845
 },
 {
 "id": "tt0065067",
@@ -158,22 +173,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999853
-},
-{
-"id": "tt40381358",
-"type": "movie",
-"name": "Tavaszi szél - az ébredés",
-"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
-"imdbRating": 8.4,
-"releaseInfo": "2026",
-"genres": [
-"Dokumentum"
-],
-"seeders": 999850
+"seeders": 999842
 },
 {
 "id": "tt31065630",
@@ -224,22 +224,19 @@
 "seeders": 999823
 },
 {
-"id": "tt26678938",
+"id": "tt1247685",
 "type": "movie",
-"name": "Halál cukik",
-"poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
+"name": "Papírkutyák",
+"poster": "https://image.tmdb.org/t/p/w500/iAIMucUJ7hIEbZbFfQ8xc3uVVdG.jpg",
 "posterShape": "poster",
-"year": 2026,
-"description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
-"imdbRating": 6.8,
-"releaseInfo": "2026",
+"year": 2009,
+"description": "Kuplung és Csumpi, a két kisstílű bűnöző előzetesben ül. Unalmukban felidézik cellatársuknak az általuk elkövetett balhé történetét. A két kárpátaljai magyar sokféle munkából próbált megélni, kevés sikerrel. Így jött az ötlet, a Pénzmegsemmisítő Raktár kirablásának gondolata. A csapat gyorsan összeáll, minden részletet kidolgoznak. Az akciót sikerrel végrehajtják, ám ettől kezdve elpártol tőlük a szerencse, ami elromolhat, az el is romlik, ők meg ártatlanul kocsmai verekedésbe keverednek. Sok mesének egy a vége, a szabaduló cellatárs elhatározza, hogy lelép a rossz helyen lévő pénzzel.",
+"imdbRating": 6.5,
+"releaseInfo": "2009",
 "genres": [
-"Zenei",
-"Thriller",
-"Akció",
-"Horror"
+"Vígjáték"
 ],
-"seeders": 999820
+"seeders": 999822
 },
 {
 "id": "tt23172090",
@@ -259,6 +256,24 @@
 "seeders": 999817
 },
 {
+"id": "tt26678938",
+"type": "movie",
+"name": "Halál cukik",
+"poster": "https://image.tmdb.org/t/p/w500/aVXcj6vWR8FzC0R2RCVZxlsLDEb.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Az akciódús thrillerben öt balerina egy rangos táncversenyre tart. Amikor egy félreeső erdőben lerobban a buszuk, Devora Kasimer vészjósló út menti fogadójában keresnek menedéket, majd profi tánctudásukat fegyverként használva küzdenek a túlélésért.",
+"imdbRating": 6.8,
+"releaseInfo": "2026",
+"genres": [
+"Zenei",
+"Thriller",
+"Akció",
+"Horror"
+],
+"seeders": 999815
+},
+{
 "id": "tt37357756",
 "type": "movie",
 "name": "Szenvedélyes nők",
@@ -272,7 +287,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999805
+"seeders": 999792
 },
 {
 "id": "tt33586253",
