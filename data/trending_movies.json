@@ -14,7 +14,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 65
+    "seeders": 105
   },
   {
     "id": "tt27552099",
@@ -31,7 +31,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 893
+    "seeders": 1039
   },
   {
     "id": "tt36042156",
@@ -48,7 +48,23 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 2413
+    "seeders": 2902
+  },
+  {
+    "id": "tt34378301",
+    "type": "movie",
+    "name": "Tom Clancy: Jack Ryan Szellemháború",
+    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 1650
   },
   {
     "id": "tt39228706",
@@ -67,40 +83,23 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 177
+    "seeders": 188
   },
   {
-    "id": "tt34378301",
+    "id": "tt32612507",
     "type": "movie",
-    "name": "Tom Clancy: Jack Ryan Szellemháború",
-    "poster": "https://image.tmdb.org/t/p/w500/uJOfOqWKJmyABSEaV2mD9TEMN1T.jpg",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
-    "imdbRating": 7.2,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Horror",
+      "Rejtély"
     ],
-    "seeders": 1456
-  },
-  {
-    "id": "tt39088896",
-    "type": "movie",
-    "name": "Adult Swim: Az elefánt",
-    "poster": "https://image.tmdb.org/t/p/w500/vq50QGdUSAiUNC2f0BDdgyhUQGg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Különös, háromfelvonásos felnőtt animációs különkiadás, amelyben négy ismert alkotó egymástól függetlenül formálja tovább ugyanannak a történetnek a részeit, miközben egy emberi önkeresésről szóló, többféle animációs stílusban kibomló, enigmatikus utazás rajzolódik ki.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Sci-Fi",
-      "Dráma"
-    ],
-    "seeders": 80
+    "seeders": 1471
   },
   {
     "id": "tt28650488",
@@ -119,23 +118,24 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 925
+    "seeders": 1054
   },
   {
-    "id": "tt32612507",
+    "id": "tt39088896",
     "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "name": "Adult Swim: Az elefánt",
+    "poster": "https://image.tmdb.org/t/p/w500/vq50QGdUSAiUNC2f0BDdgyhUQGg.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Különös, háromfelvonásos felnőtt animációs különkiadás, amelyben négy ismert alkotó egymástól függetlenül formálja tovább ugyanannak a történetnek a részeit, miközben egy emberi önkeresésről szóló, többféle animációs stílusban kibomló, enigmatikus utazás rajzolódik ki.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2025",
     "genres": [
-      "Horror",
-      "Rejtély"
+      "Animációs",
+      "Sci-Fi",
+      "Dráma"
     ],
-    "seeders": 1199
+    "seeders": 84
   },
   {
     "id": "tt33502160",
@@ -151,7 +151,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 250
+    "seeders": 283
   },
   {
     "id": "tt34611082",
@@ -167,7 +167,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 457
+    "seeders": 511
   },
   {
     "id": "tt29550683",
@@ -183,7 +183,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 274
+    "seeders": 309
   },
   {
     "id": "tt4357198",
@@ -199,7 +199,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 596
+    "seeders": 677
   },
   {
     "id": "tt33400055",
@@ -215,7 +215,41 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 113
+    "seeders": 122
+  },
+  {
+    "id": "tt32537226",
+    "type": "movie",
+    "name": "Bűnös vadászidény",
+    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 213
+  },
+  {
+    "id": "tt32793488",
+    "type": "movie",
+    "name": "Az orvosdoktor Londonban",
+    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Rejtély",
+      "Dráma"
+    ],
+    "seeders": 160
   },
   {
     "id": "tt19896510",
@@ -232,7 +266,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 66
+    "seeders": 71
   },
   {
     "id": "tt26443616",
@@ -251,41 +285,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 121
-  },
-  {
-    "id": "tt32537226",
-    "type": "movie",
-    "name": "Bűnös vadászidény",
-    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 193
-  },
-  {
-    "id": "tt32793488",
-    "type": "movie",
-    "name": "Az orvosdoktor Londonban",
-    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Rejtély",
-      "Dráma"
-    ],
-    "seeders": 143
+    "seeders": 126
   },
   {
     "id": "tt37749739",
@@ -300,7 +300,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 90
+    "seeders": 98
   },
   {
     "id": "tt1757678",
@@ -317,7 +317,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 64
+    "seeders": 77
   },
   {
     "id": "tt8879928",
@@ -334,7 +334,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 213
+    "seeders": 247
   },
   {
     "id": "tt25868520",
@@ -352,22 +352,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 206
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 115
+    "seeders": 238
   },
   {
     "id": "tt33978029",
@@ -384,7 +369,38 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 211
+    "seeders": 246
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 126
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 217
   },
   {
     "id": "tt26764007",
@@ -401,23 +417,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 189
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 189
+    "seeders": 206
   },
   {
     "id": "tt41801288",
@@ -433,7 +433,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 65
+    "seeders": 71
   },
   {
     "id": "tt37957368",
@@ -448,7 +448,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 161
+    "seeders": 184
+  },
+  {
+    "id": "tt41559880",
+    "type": "movie",
+    "name": "Dibu Martínez: A srác, aki megállítja az időt",
+    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Animációkat és interjúkat elegyítve a film Emi Martínez útját követi nyomon, ahogy az argentin kisvárosból a világhírnévig jutva legendás kapussá válik.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Dokumentum"
+    ],
+    "seeders": 34
   },
   {
     "id": "tt31050594",
@@ -465,23 +481,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 70
-  },
-  {
-    "id": "tt41559880",
-    "type": "movie",
-    "name": "Dibu Martínez: A srác, aki megállítja az időt",
-    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Animációkat és interjúkat elegyítve a film Emi Martínez útját követi nyomon, ahogy az argentin kisvárosból a világhírnévig jutva legendás kapussá válik.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Dokumentum"
-    ],
-    "seeders": 30
+    "seeders": 67
   },
   {
     "id": "tt31727397",
@@ -498,6 +498,6 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 53
+    "seeders": 56
   }
 ]
