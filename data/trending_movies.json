@@ -1,22 +1,5 @@
 [
   {
-    "id": "tt26749593",
-    "type": "movie",
-    "name": "Tojásfej Köztársaság",
-    "poster": "https://image.tmdb.org/t/p/w500/aeufCs1cNDV9GPQAuq9nQTe1BX1.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy alternatív valóság, amelyben a hidegháború nem ér véget, és a szovjet Kazahsztánt atombomba éri.",
-    "imdbRating": 4.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Sci-Fi"
-    ],
-    "seeders": 155
-  },
-  {
     "id": "tt27552099",
     "type": "movie",
     "name": "Mike & Nick & Nick & Alice",
@@ -31,7 +14,24 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1307
+    "seeders": 1068
+  },
+  {
+    "id": "tt26749593",
+    "type": "movie",
+    "name": "Tojásfej Köztársaság",
+    "poster": "https://image.tmdb.org/t/p/w500/aeufCs1cNDV9GPQAuq9nQTe1BX1.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy alternatív valóság, amelyben a hidegháború nem ér véget, és a szovjet Kazahsztánt atombomba éri.",
+    "imdbRating": 4.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Sci-Fi"
+    ],
+    "seeders": 146
   },
   {
     "id": "tt34378301",
@@ -47,42 +47,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2015
-  },
-  {
-    "id": "tt32612507",
-    "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 1883
-  },
-  {
-    "id": "tt39228706",
-    "type": "movie",
-    "name": "Milky Subway: A galaktikus expressz - A film",
-    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Vígjáték",
-      "Sci-Fi"
-    ],
-    "seeders": 242
+    "seeders": 1665
   },
   {
     "id": "tt28650488",
@@ -101,7 +66,42 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1294
+    "seeders": 1083
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 1452
+  },
+  {
+    "id": "tt39228706",
+    "type": "movie",
+    "name": "Milky Subway: A galaktikus expressz - A film",
+    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Vígjáték",
+      "Sci-Fi"
+    ],
+    "seeders": 207
   },
   {
     "id": "tt39088896",
@@ -118,7 +118,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 90
   },
   {
     "id": "tt33502160",
@@ -134,7 +134,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 334
+    "seeders": 283
   },
   {
     "id": "tt34611082",
@@ -150,7 +150,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 639
+    "seeders": 549
   },
   {
     "id": "tt29550683",
@@ -166,7 +166,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 395
+    "seeders": 305
   },
   {
     "id": "tt4357198",
@@ -182,7 +182,24 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 814
+    "seeders": 727
+  },
+  {
+    "id": "tt32537226",
+    "type": "movie",
+    "name": "Bűnös vadászidény",
+    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 198
   },
   {
     "id": "tt26443616",
@@ -201,7 +218,23 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 155
+    "seeders": 124
+  },
+  {
+    "id": "tt33400055",
+    "type": "movie",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 109
   },
   {
     "id": "tt32793488",
@@ -218,40 +251,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 187
-  },
-  {
-    "id": "tt32537226",
-    "type": "movie",
-    "name": "Bűnös vadászidény",
-    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 239
-  },
-  {
-    "id": "tt33400055",
-    "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 121
+    "seeders": 148
   },
   {
     "id": "tt37749739",
@@ -266,7 +266,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 120
+    "seeders": 104
   },
   {
     "id": "tt19896510",
@@ -276,31 +276,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy lecsúszott zenész kapva kap az alkalmon, hogy rég nem látott fia sztárságából tőkét kovácsoljon a saját reneszánszához, de megtanulja, hogy az apaság sokkal több, mint a sztárság.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.2,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Dráma",
       "Zenei"
     ],
-    "seeders": 74
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 88
+    "seeders": 67
   },
   {
     "id": "tt8879928",
@@ -317,7 +300,24 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 282
+    "seeders": 244
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 69
   },
   {
     "id": "tt25868520",
@@ -335,7 +335,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 281
+    "seeders": 237
   },
   {
     "id": "tt33978029",
@@ -352,7 +352,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 290
+    "seeders": 251
   },
   {
     "id": "tt32916440",
@@ -368,7 +368,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 259
+    "seeders": 220
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 123
   },
   {
     "id": "tt26764007",
@@ -385,22 +400,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 244
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 143
+    "seeders": 199
   },
   {
     "id": "tt37957368",
@@ -415,7 +415,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 228
+    "seeders": 191
   },
   {
     "id": "tt41801288",
@@ -431,40 +431,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 74
-  },
-  {
-    "id": "tt31727397",
-    "type": "movie",
-    "name": "Nincs kiszállás",
-    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 69
-  },
-  {
-    "id": "tt41559880",
-    "type": "movie",
-    "name": "Dibu Martínez: A srác, aki megállítja az időt",
-    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Animációkat és interjúkat elegyítve a film Emi Martínez útját követi nyomon, ahogy az argentin kisvárosból a világhírnévig jutva legendás kapussá válik.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Dokumentum"
-    ],
-    "seeders": 34
+    "seeders": 70
   },
   {
     "id": "tt31050594",
@@ -484,6 +451,39 @@
     "seeders": 72
   },
   {
+    "id": "tt41559880",
+    "type": "movie",
+    "name": "Dibu Martínez: A srác, aki megállítja az időt",
+    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Animációkat és interjúkat elegyítve a film Emi Martínez útját követi nyomon, ahogy az argentin kisvárosból a világhírnévig jutva legendás kapussá válik.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Dokumentum"
+    ],
+    "seeders": 31
+  },
+  {
+    "id": "tt31727397",
+    "type": "movie",
+    "name": "Nincs kiszállás",
+    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 56
+  },
+  {
     "id": "tt1527793",
     "type": "movie",
     "name": "Nincs más választás",
@@ -498,6 +498,6 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 62
+    "seeders": 56
   }
 ]
