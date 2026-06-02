@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt26749593",
+    "type": "movie",
+    "name": "Tojásfej Köztársaság",
+    "poster": "https://image.tmdb.org/t/p/w500/aeufCs1cNDV9GPQAuq9nQTe1BX1.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy alternatív valóság, amelyben a hidegháború nem ér véget, és a szovjet Kazahsztánt atombomba éri.",
+    "imdbRating": 4.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Sci-Fi"
+    ],
+    "seeders": 65
+  },
+  {
     "id": "tt27552099",
     "type": "movie",
     "name": "Mike & Nick & Nick & Alice",
@@ -14,43 +31,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1020
-  },
-  {
-    "id": "tt39088896",
-    "type": "movie",
-    "name": "Adult Swim's The Elephant",
-    "poster": "https://image.tmdb.org/t/p/w500/vq50QGdUSAiUNC2f0BDdgyhUQGg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Sci-Fi",
-      "Dráma"
-    ],
-    "seeders": 86
-  },
-  {
-    "id": "tt39228706",
-    "type": "movie",
-    "name": "Milky Subway: A galaktikus expressz - A film",
-    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Vígjáték",
-      "Sci-Fi"
-    ],
-    "seeders": 200
+    "seeders": 893
   },
   {
     "id": "tt36042156",
@@ -67,7 +48,26 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 2958
+    "seeders": 2413
+  },
+  {
+    "id": "tt39228706",
+    "type": "movie",
+    "name": "Milky Subway: A galaktikus expressz - A film",
+    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Vígjáték",
+      "Sci-Fi"
+    ],
+    "seeders": 177
   },
   {
     "id": "tt34378301",
@@ -77,13 +77,30 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ebben az új filmben Jack Ryan vonakodva visszatér a kémkedéshez, mikor egy titkos nemzetközi akció gyilkos összeesküvésre derít fényt. CIA-s szövetségeseivel, Mike Novemberrel és James Greerrel, valamint a ravasz MI6-tiszttel, Emma Marlowe-val együtt versenyt futnak az idővel, és felveszik a harcot egy titkos egység ellen egy nagy horderejű és végletekig személyes összecsapásban.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 1630
+    "seeders": 1456
+  },
+  {
+    "id": "tt39088896",
+    "type": "movie",
+    "name": "Adult Swim: Az elefánt",
+    "poster": "https://image.tmdb.org/t/p/w500/vq50QGdUSAiUNC2f0BDdgyhUQGg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Különös, háromfelvonásos felnőtt animációs különkiadás, amelyben négy ismert alkotó egymástól függetlenül formálja tovább ugyanannak a történetnek a részeit, miközben egy emberi önkeresésről szóló, többféle animációs stílusban kibomló, enigmatikus utazás rajzolódik ki.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Sci-Fi",
+      "Dráma"
+    ],
+    "seeders": 80
   },
   {
     "id": "tt28650488",
@@ -102,7 +119,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1034
+    "seeders": 925
   },
   {
     "id": "tt32612507",
@@ -118,7 +135,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1418
+    "seeders": 1199
   },
   {
     "id": "tt33502160",
@@ -134,7 +151,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 270
+    "seeders": 250
   },
   {
     "id": "tt34611082",
@@ -150,7 +167,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 520
+    "seeders": 457
   },
   {
     "id": "tt29550683",
@@ -166,7 +183,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 307
+    "seeders": 274
   },
   {
     "id": "tt4357198",
@@ -182,7 +199,23 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 691
+    "seeders": 596
+  },
+  {
+    "id": "tt33400055",
+    "type": "movie",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 113
   },
   {
     "id": "tt19896510",
@@ -192,14 +225,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy lecsúszott zenész kapva kap az alkalmon, hogy rég nem látott fia sztárságából tőkét kovácsoljon a saját reneszánszához, de megtanulja, hogy az apaság sokkal több, mint a sztárság.",
-    "imdbRating": 7.0,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Dráma",
       "Zenei"
     ],
-    "seeders": 73
+    "seeders": 66
   },
   {
     "id": "tt26443616",
@@ -218,40 +251,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 134
-  },
-  {
-    "id": "tt33400055",
-    "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 111
-  },
-  {
-    "id": "tt32793488",
-    "type": "movie",
-    "name": "Az orvosdoktor Londonban",
-    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Rejtély",
-      "Dráma"
-    ],
-    "seeders": 154
+    "seeders": 121
   },
   {
     "id": "tt32537226",
@@ -268,7 +268,39 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 203
+    "seeders": 193
+  },
+  {
+    "id": "tt32793488",
+    "type": "movie",
+    "name": "Az orvosdoktor Londonban",
+    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Rejtély",
+      "Dráma"
+    ],
+    "seeders": 143
+  },
+  {
+    "id": "tt37749739",
+    "type": "movie",
+    "name": "A Challenger űrkatasztrófa: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt1757678",
@@ -285,7 +317,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 71
+    "seeders": 64
   },
   {
     "id": "tt8879928",
@@ -302,7 +334,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 230
+    "seeders": 213
   },
   {
     "id": "tt25868520",
@@ -320,7 +352,22 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 232
+    "seeders": 206
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 115
   },
   {
     "id": "tt33978029",
@@ -337,38 +384,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 243
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 124
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 216
+    "seeders": 211
   },
   {
     "id": "tt26764007",
@@ -388,6 +404,22 @@
     "seeders": 189
   },
   {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 189
+  },
+  {
     "id": "tt41801288",
     "type": "movie",
     "name": "Első kézből - Egyesült Királyság: Vinnie Jones",
@@ -401,23 +433,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 72
-  },
-  {
-    "id": "tt35526133",
-    "type": "movie",
-    "name": "Badh - Kísért a múlt",
-    "poster": "https://image.tmdb.org/t/p/w500/sLjHm8eKrC27wykgmih6vVCxjbi.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Iliast, a rendőrt lelövik, és kómába kerül, Almának ismét elő kell hívnia korábbi, Badh nevű énjét, a kegyetlen hírszerző ügynököt és kiképzett bérgyilkost. A Khoury család tagjait egyenként, brutális módszerekkel iktatja ki, ezzel magára vonva vezetőjük, Mansour haragját – mígnem kiderül, hogy Mansour Joánával dolgozik együtt, aki Alma egykori titkosszolgálati egységének tisztje.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 190
+    "seeders": 65
   },
   {
     "id": "tt37957368",
@@ -432,23 +448,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 173
-  },
-  {
-    "id": "tt41559880",
-    "type": "movie",
-    "name": "Dibu Martínez: A srác, aki megállítja az időt",
-    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Animációkat és interjúkat elegyítve a film Emi Martínez útját követi nyomon, ahogy az argentin kisvárosból a világhírnévig jutva legendás kapussá válik.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Dokumentum"
-    ],
-    "seeders": 31
+    "seeders": 161
   },
   {
     "id": "tt31050594",
@@ -465,7 +465,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 72
+    "seeders": 70
+  },
+  {
+    "id": "tt41559880",
+    "type": "movie",
+    "name": "Dibu Martínez: A srác, aki megállítja az időt",
+    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Animációkat és interjúkat elegyítve a film Emi Martínez útját követi nyomon, ahogy az argentin kisvárosból a világhírnévig jutva legendás kapussá válik.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Dokumentum"
+    ],
+    "seeders": 30
   },
   {
     "id": "tt31727397",
@@ -482,23 +498,6 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 58
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 59
+    "seeders": 53
   }
 ]
