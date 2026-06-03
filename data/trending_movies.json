@@ -13,7 +13,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 242
+    "seeders": 221
   },
   {
     "id": "tt30519830",
@@ -28,7 +28,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 73
+    "seeders": 68
   },
   {
     "id": "tt27552099",
@@ -45,7 +45,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1339
+    "seeders": 1054
   },
   {
     "id": "tt34378301",
@@ -61,23 +61,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2080
-  },
-  {
-    "id": "tt32612507",
-    "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 1922
+    "seeders": 1623
   },
   {
     "id": "tt28650488",
@@ -96,7 +80,23 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1306
+    "seeders": 1063
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 1412
   },
   {
     "id": "tt26749593",
@@ -113,7 +113,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 172
+    "seeders": 141
   },
   {
     "id": "tt39228706",
@@ -132,23 +132,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 249
-  },
-  {
-    "id": "tt33502160",
-    "type": "movie",
-    "name": "A kéz, amely a bölcsőt ringatja",
-    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 347
+    "seeders": 195
   },
   {
     "id": "tt34611082",
@@ -164,7 +148,23 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 661
+    "seeders": 525
+  },
+  {
+    "id": "tt33502160",
+    "type": "movie",
+    "name": "A kéz, amely a bölcsőt ringatja",
+    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 262
   },
   {
     "id": "tt29550683",
@@ -180,7 +180,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 405
+    "seeders": 299
   },
   {
     "id": "tt39088896",
@@ -197,7 +197,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 95
+    "seeders": 79
   },
   {
     "id": "tt32537226",
@@ -214,24 +214,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 244
-  },
-  {
-    "id": "tt32793488",
-    "type": "movie",
-    "name": "Az orvosdoktor Londonban",
-    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Rejtély",
-      "Dráma"
-    ],
-    "seeders": 178
+    "seeders": 194
   },
   {
     "id": "tt26443616",
@@ -250,6 +233,23 @@
       "Családi",
       "Sci-Fi"
     ],
+    "seeders": 124
+  },
+  {
+    "id": "tt32793488",
+    "type": "movie",
+    "name": "Az orvosdoktor Londonban",
+    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Rejtély",
+      "Dráma"
+    ],
     "seeders": 145
   },
   {
@@ -266,7 +266,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 115
+    "seeders": 101
   },
   {
     "id": "tt37749739",
@@ -281,7 +281,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 115
+    "seeders": 98
   },
   {
     "id": "tt8879928",
@@ -298,7 +298,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 286
+    "seeders": 237
   },
   {
     "id": "tt19896510",
@@ -315,24 +315,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 74
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 85
+    "seeders": 63
   },
   {
     "id": "tt25868520",
@@ -350,7 +333,24 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 281
+    "seeders": 228
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt33978029",
@@ -367,7 +367,38 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 296
+    "seeders": 248
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 208
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 122
   },
   {
     "id": "tt26764007",
@@ -384,38 +415,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 257
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 253
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 152
+    "seeders": 191
   },
   {
     "id": "tt37957368",
@@ -430,7 +430,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 222
+    "seeders": 170
   },
   {
     "id": "tt41801288",
@@ -446,24 +446,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 72
-  },
-  {
-    "id": "tt31727397",
-    "type": "movie",
-    "name": "Nincs kiszállás",
-    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 68
+    "seeders": 63
   },
   {
     "id": "tt31050594",
@@ -480,7 +463,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 73
+    "seeders": 76
+  },
+  {
+    "id": "tt31727397",
+    "type": "movie",
+    "name": "Nincs kiszállás",
+    "poster": "https://image.tmdb.org/t/p/w500/drVhvwwLIeKN4fauFZjR3CNDo8r.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Pete, a tapasztalt bérgyilkos, menekülni kényszerül társai elől, amikor az Anonim Workaholics találkozókon való elkötelezettsége felkelti egy nagyhatalmú bűnszövetkezet főnökének gyanúját, és halálos macska-egér játékba kényszeríti.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 63
   },
   {
     "id": "tt41559880",
@@ -496,6 +496,6 @@
       "Animációs",
       "Dokumentum"
     ],
-    "seeders": 36
+    "seeders": 32
   }
 ]
