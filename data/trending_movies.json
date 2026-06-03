@@ -14,7 +14,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1068
+    "seeders": 912
   },
   {
     "id": "tt26749593",
@@ -31,7 +31,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 146
+    "seeders": 136
   },
   {
     "id": "tt34378301",
@@ -47,7 +47,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1665
+    "seeders": 1443
   },
   {
     "id": "tt28650488",
@@ -66,7 +66,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1083
+    "seeders": 944
   },
   {
     "id": "tt32612507",
@@ -82,7 +82,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1452
+    "seeders": 1173
   },
   {
     "id": "tt39228706",
@@ -101,7 +101,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 207
+    "seeders": 169
   },
   {
     "id": "tt39088896",
@@ -118,7 +118,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 90
+    "seeders": 78
   },
   {
     "id": "tt33502160",
@@ -134,7 +134,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 283
+    "seeders": 242
   },
   {
     "id": "tt34611082",
@@ -150,7 +150,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 549
+    "seeders": 445
   },
   {
     "id": "tt29550683",
@@ -166,7 +166,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 305
+    "seeders": 263
   },
   {
     "id": "tt4357198",
@@ -182,7 +182,23 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 727
+    "seeders": 596
+  },
+  {
+    "id": "tt33400055",
+    "type": "movie",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 107
   },
   {
     "id": "tt32537226",
@@ -199,7 +215,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 198
+    "seeders": 176
   },
   {
     "id": "tt26443616",
@@ -218,23 +234,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 124
-  },
-  {
-    "id": "tt33400055",
-    "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 109
+    "seeders": 115
   },
   {
     "id": "tt32793488",
@@ -251,22 +251,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt37749739",
-    "type": "movie",
-    "name": "A Challenger űrkatasztrófa: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 104
+    "seeders": 134
   },
   {
     "id": "tt19896510",
@@ -283,7 +268,22 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 67
+    "seeders": 63
+  },
+  {
+    "id": "tt37749739",
+    "type": "movie",
+    "name": "A Challenger űrkatasztrófa: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt8879928",
@@ -300,7 +300,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 244
+    "seeders": 205
   },
   {
     "id": "tt1757678",
@@ -317,7 +317,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 69
+    "seeders": 61
   },
   {
     "id": "tt25868520",
@@ -335,40 +335,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 237
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 251
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 220
+    "seeders": 206
   },
   {
     "id": "tt8760450",
@@ -383,7 +350,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 123
+    "seeders": 115
   },
   {
     "id": "tt26764007",
@@ -400,7 +367,40 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 199
+    "seeders": 181
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 182
+  },
+  {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 193
   },
   {
     "id": "tt37957368",
@@ -415,7 +415,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 191
+    "seeders": 163
   },
   {
     "id": "tt41801288",
@@ -425,13 +425,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Vinnie Jones története a futballpályától Hollywoodig vezető, szokatlanul viharos ívet követi: a hírhedt „Crazy Gang” kemény emberéből lett FA-kupa-győztes középpályás, akinek karrierjét egy botrány majdnem derékba törte, ám végül az ellenállásokkal dacolva újra és újra talpra állt.",
-    "imdbRating": 6.9,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 70
+    "seeders": 57
+  },
+  {
+    "id": "tt41559880",
+    "type": "movie",
+    "name": "Dibu Martínez: A srác, aki megállítja az időt",
+    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Animációkat és interjúkat elegyítve a film Emi Martínez útját követi nyomon, ahogy az argentin kisvárosból a világhírnévig jutva legendás kapussá válik.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Dokumentum"
+    ],
+    "seeders": 31
   },
   {
     "id": "tt31050594",
@@ -448,23 +464,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 72
-  },
-  {
-    "id": "tt41559880",
-    "type": "movie",
-    "name": "Dibu Martínez: A srác, aki megállítja az időt",
-    "poster": "https://image.tmdb.org/t/p/w500/yDbFSN7Jj0K4a7YFSV4OXQ4Lqhy.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Animációkat és interjúkat elegyítve a film Emi Martínez útját követi nyomon, ahogy az argentin kisvárosból a világhírnévig jutva legendás kapussá válik.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Dokumentum"
-    ],
-    "seeders": 31
+    "seeders": 61
   },
   {
     "id": "tt31727397",
@@ -481,7 +481,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 56
+    "seeders": 51
   },
   {
     "id": "tt1527793",
@@ -498,6 +498,6 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 56
+    "seeders": 51
   }
 ]
