@@ -13,7 +13,24 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 221
+    "seeders": 225
+  },
+  {
+    "id": "tt27552099",
+    "type": "movie",
+    "name": "Mike & Nick & Nick & Alice",
+    "poster": "https://image.tmdb.org/t/p/w500/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két gengszter és a nő, akit mindketten szeretnek, igyekszik túlélni életük legveszélyesebb éjszakáját. Mintha ez még nem lenne elég, a történetet egy egészen őrült fordulat is megbolondítja: egy időgép.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi",
+      "Bűnügyi"
+    ],
+    "seeders": 913
   },
   {
     "id": "tt30519830",
@@ -31,23 +48,6 @@
     "seeders": 68
   },
   {
-    "id": "tt27552099",
-    "type": "movie",
-    "name": "Mike & Nick & Nick & Alice",
-    "poster": "https://image.tmdb.org/t/p/w500/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két gengszter és a nő, akit mindketten szeretnek, igyekszik túlélni életük legveszélyesebb éjszakáját. Mintha ez még nem lenne elég, a történetet egy egészen őrült fordulat is megbolondítja: egy időgép.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Sci-Fi",
-      "Bűnügyi"
-    ],
-    "seeders": 1054
-  },
-  {
     "id": "tt34378301",
     "type": "movie",
     "name": "Tom Clancy: Jack Ryan Szellemháború",
@@ -61,7 +61,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1623
+    "seeders": 1424
   },
   {
     "id": "tt28650488",
@@ -80,7 +80,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1063
+    "seeders": 920
   },
   {
     "id": "tt32612507",
@@ -96,7 +96,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1412
+    "seeders": 1176
   },
   {
     "id": "tt26749593",
@@ -113,7 +113,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 141
+    "seeders": 137
   },
   {
     "id": "tt39228706",
@@ -123,7 +123,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
-    "imdbRating": 8.6,
+    "imdbRating": 8.8,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -132,7 +132,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 195
+    "seeders": 168
   },
   {
     "id": "tt34611082",
@@ -148,7 +148,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 525
+    "seeders": 456
   },
   {
     "id": "tt33502160",
@@ -164,7 +164,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 262
+    "seeders": 235
   },
   {
     "id": "tt29550683",
@@ -180,7 +180,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 299
+    "seeders": 259
   },
   {
     "id": "tt39088896",
@@ -197,7 +197,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 72
   },
   {
     "id": "tt32537226",
@@ -214,7 +214,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 194
+    "seeders": 181
   },
   {
     "id": "tt26443616",
@@ -233,7 +233,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 124
+    "seeders": 115
   },
   {
     "id": "tt32793488",
@@ -250,7 +250,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 145
+    "seeders": 129
   },
   {
     "id": "tt33400055",
@@ -266,7 +266,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 101
+    "seeders": 97
   },
   {
     "id": "tt37749739",
@@ -281,24 +281,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 98
-  },
-  {
-    "id": "tt8879928",
-    "type": "movie",
-    "name": "Dermesztő kór",
-    "poster": "https://image.tmdb.org/t/p/w500/AriwXWbnjYETyYZ9aRg06UQPxFl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két fiatal, Teasüti és Naomi egy önkiszolgáló raktározási cégnél dolgoznak. A raktárt egy régi amerikai katonai bázis területén hozták létre, ami elképesztő titkokat rejt a mélyben. Ilyen kegyetlen éjszakai műszakot egyikük sem tudott volna elképzelni: rájönnek, hogy egy extrém fertőzőképességű parazita gomba kijutott a bázis legalsó szintjéről, amit évtizedekkel ezelőtt a kormány lezsilipelt. Ahogy a föld alatti hőmérséklet emelkedik, ez a pusztító mikroorganizmus szaporodásnak indul, majd lecsap a létesítmény területén tartózkodókra – emberekre és más élőlényekre egyaránt. Az idő fogy, így Teasütin és Naomin múlik, hogy az őszülő bioterror-ügynök segítségével meg tudják-e fékezni a gyorsan mutálódó fenyegetést, és ezzel sikerül-e megakadályozni az emberiség robbanásszerű kihalását.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Sci-Fi",
-      "Vígjáték"
-    ],
-    "seeders": 237
+    "seeders": 85
   },
   {
     "id": "tt19896510",
@@ -315,7 +298,24 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 63
+    "seeders": 60
+  },
+  {
+    "id": "tt8879928",
+    "type": "movie",
+    "name": "Dermesztő kór",
+    "poster": "https://image.tmdb.org/t/p/w500/AriwXWbnjYETyYZ9aRg06UQPxFl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két fiatal, Teasüti és Naomi egy önkiszolgáló raktározási cégnél dolgoznak. A raktárt egy régi amerikai katonai bázis területén hozták létre, ami elképesztő titkokat rejt a mélyben. Ilyen kegyetlen éjszakai műszakot egyikük sem tudott volna elképzelni: rájönnek, hogy egy extrém fertőzőképességű parazita gomba kijutott a bázis legalsó szintjéről, amit évtizedekkel ezelőtt a kormány lezsilipelt. Ahogy a föld alatti hőmérséklet emelkedik, ez a pusztító mikroorganizmus szaporodásnak indul, majd lecsap a létesítmény területén tartózkodókra – emberekre és más élőlényekre egyaránt. Az idő fogy, így Teasütin és Naomin múlik, hogy az őszülő bioterror-ügynök segítségével meg tudják-e fékezni a gyorsan mutálódó fenyegetést, és ezzel sikerül-e megakadályozni az emberiség robbanásszerű kihalását.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Vígjáték"
+    ],
+    "seeders": 200
   },
   {
     "id": "tt25868520",
@@ -333,7 +333,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 228
+    "seeders": 204
   },
   {
     "id": "tt1757678",
@@ -350,7 +350,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 67
+    "seeders": 55
   },
   {
     "id": "tt33978029",
@@ -367,7 +367,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 248
+    "seeders": 195
   },
   {
     "id": "tt32916440",
@@ -383,22 +383,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 208
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 122
+    "seeders": 183
   },
   {
     "id": "tt26764007",
@@ -415,7 +400,22 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 191
+    "seeders": 179
+  },
+  {
+    "id": "tt8760450",
+    "type": "movie",
+    "name": "Westhampton",
+    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 112
   },
   {
     "id": "tt37957368",
@@ -430,7 +430,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 170
+    "seeders": 154
   },
   {
     "id": "tt41801288",
@@ -446,24 +446,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 63
-  },
-  {
-    "id": "tt31050594",
-    "type": "movie",
-    "name": "Mesterséges kegyelem",
-    "poster": "https://image.tmdb.org/t/p/w500/cPFmHcmi8syVxfmc0YvmJF53ysG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 76
+    "seeders": 53
   },
   {
     "id": "tt31727397",
@@ -480,7 +463,24 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 63
+    "seeders": 54
+  },
+  {
+    "id": "tt31050594",
+    "type": "movie",
+    "name": "Mesterséges kegyelem",
+    "poster": "https://image.tmdb.org/t/p/w500/cPFmHcmi8syVxfmc0YvmJF53ysG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A jövőben is lesznek gyilkosok. És lesznek zsaruk. De az utóbbiak egyre kevesebben. Mert a munkájukat átveszi a Mercy Bíróság, ami egyszerre rendőr, bíró és ítéletvégrehajtó: aki a gépi bíró (Rebecca Ferguson) elé kerül, 90 percet kap, hogy bizonyítsa az ártatlanságát. És ha a gép végül úgy látja, hogy legalább 92%-os valószínűséggel elkövette a tettét, akkor azonnal kivégzik.  Raven nyomozó (Chris Pratt) közreműködött a rendszer beindításában. És most ott ül a székbe szíjazva, rendelkezésére áll a város összes kamerájának a felvétele, és be kell bizonyítania, hogy nem ő ölte meg a feleségét. Két ellensége van. Az idő és a kérlelhetetlen digitális bíró.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt41559880",
@@ -496,6 +496,6 @@
       "Animációs",
       "Dokumentum"
     ],
-    "seeders": 32
+    "seeders": 31
   }
 ]
