@@ -1,34 +1,22 @@
 [
   {
-    "id": "tt42192165",
+    "id": "tt26443616",
     "type": "movie",
-    "name": "A Rachel Nickell-gyilkosság",
-    "poster": "https://image.tmdb.org/t/p/w500/ibTNWrpUGsSuv7PbVRIgr97jDVs.jpg",
+    "name": "Agyugrász",
+    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
-    "imdbRating": null,
+    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
+    "imdbRating": 8.2,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum",
-      "Bűnügyi"
+      "Kaland",
+      "Animációs",
+      "Vígjáték",
+      "Családi",
+      "Sci-Fi"
     ],
-    "seeders": 70
-  },
-  {
-    "id": "tt42456008",
-    "type": "movie",
-    "name": "Poldi",
-    "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Lukas Podolski életét és pályáját bemutató intim dokumentumfilm az utcai focitól és a lengyel bevándorló családból indulva követi azt az utat, amelynek végén a főszereplőből német futballikon, Köln „Poldi hercege” és világbajnok vált. A film nemcsak a pályán elért sikereire és emlékezetes pillanataira fókuszál, hanem arra is, milyen ember áll a közönségkedvenc mosoly és a gólok mögött, és hogyan volt képes mindvégig a földön járni.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 56
+    "seeders": 66
   },
   {
     "id": "tt30210139",
@@ -44,7 +32,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 299
+    "seeders": 273
+  },
+  {
+    "id": "tt42192165",
+    "type": "movie",
+    "name": "A Rachel Nickell-gyilkosság",
+    "poster": "https://image.tmdb.org/t/p/w500/ibTNWrpUGsSuv7PbVRIgr97jDVs.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 79
   },
   {
     "id": "tt27552099",
@@ -61,7 +65,22 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1228
+    "seeders": 1189
+  },
+  {
+    "id": "tt42456008",
+    "type": "movie",
+    "name": "Poldi",
+    "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Lukas Podolski életét és pályáját bemutató intim dokumentumfilm az utcai focitól és a lengyel bevándorló családból indulva követi azt az utat, amelynek végén a főszereplőből német futballikon, Köln „Poldi hercege” és világbajnok vált. A film nemcsak a pályán elért sikereire és emlékezetes pillanataira fókuszál, hanem arra is, milyen ember áll a közönségkedvenc mosoly és a gólok mögött, és hogyan volt képes mindvégig a földön járni.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 57
   },
   {
     "id": "tt34378301",
@@ -77,7 +96,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1891
+    "seeders": 1819
   },
   {
     "id": "tt32612507",
@@ -93,7 +112,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 1702
+    "seeders": 1622
   },
   {
     "id": "tt28650488",
@@ -112,7 +131,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1226
+    "seeders": 1149
   },
   {
     "id": "tt30519830",
@@ -127,7 +146,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 77
+    "seeders": 79
   },
   {
     "id": "tt26749593",
@@ -144,7 +163,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 169
+    "seeders": 161
   },
   {
     "id": "tt39228706",
@@ -163,7 +182,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 228
+    "seeders": 223
   },
   {
     "id": "tt34611082",
@@ -179,7 +198,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 605
+    "seeders": 594
   },
   {
     "id": "tt33502160",
@@ -195,7 +214,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 303
+    "seeders": 280
   },
   {
     "id": "tt29550683",
@@ -211,7 +230,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 360
+    "seeders": 322
   },
   {
     "id": "tt39088896",
@@ -228,7 +247,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 81
+    "seeders": 79
   },
   {
     "id": "tt32537226",
@@ -245,26 +264,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 218
-  },
-  {
-    "id": "tt26443616",
-    "type": "movie",
-    "name": "Agyugrász",
-    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Animációs",
-      "Vígjáték",
-      "Családi",
-      "Sci-Fi"
-    ],
-    "seeders": 146
+    "seeders": 203
   },
   {
     "id": "tt32793488",
@@ -281,7 +281,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 167
+    "seeders": 153
   },
   {
     "id": "tt8879928",
@@ -298,7 +298,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 271
+    "seeders": 261
   },
   {
     "id": "tt33400055",
@@ -314,7 +314,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 103
+    "seeders": 100
   },
   {
     "id": "tt37749739",
@@ -330,41 +330,6 @@
       "Dokumentum"
     ],
     "seeders": 98
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 85
-  },
-  {
-    "id": "tt25868520",
-    "type": "movie",
-    "name": "Timur Lenk, a hódító",
-    "poster": "https://image.tmdb.org/t/p/w500/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A 14. században, amikor a Selyemút rendszere széthullik, és egymással rivalizáló frakciók tépik szét a vidéket, száműzetéséből előlép a rettenthetetlen harcos, Timur. Mindentől megfosztva harcba száll, hogy egyesítse a szétszakadt királyságokat, és stratégiájával, valamint rendíthetetlen akaratával a káoszból birodalmat kovácsoljon. A csatatéren veretlen hadvezérként tartják számon: a történelem egyik legnagyobb katonai vezetője és hadászati zsenije volt – ugyanakkor az egyik legkegyetlenebb is. Timur megalapította a Timurida Birodalmat, amely a mai Afganisztán, Irán és Közép-Ázsia területei felett uralkodott.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Történelmi",
-      "Akció",
-      "Kaland",
-      "Háborús"
-    ],
-    "seeders": 257
   },
   {
     "id": "tt33978029",
@@ -384,6 +349,23 @@
     "seeders": 272
   },
   {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 79
+  },
+  {
     "id": "tt19896510",
     "type": "movie",
     "name": "K-Pops!",
@@ -398,7 +380,25 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 65
+    "seeders": 64
+  },
+  {
+    "id": "tt25868520",
+    "type": "movie",
+    "name": "Timur Lenk, a hódító",
+    "poster": "https://image.tmdb.org/t/p/w500/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A 14. században, amikor a Selyemút rendszere széthullik, és egymással rivalizáló frakciók tépik szét a vidéket, száműzetéséből előlép a rettenthetetlen harcos, Timur. Mindentől megfosztva harcba száll, hogy egyesítse a szétszakadt királyságokat, és stratégiájával, valamint rendíthetetlen akaratával a káoszból birodalmat kovácsoljon. A csatatéren veretlen hadvezérként tartják számon: a történelem egyik legnagyobb katonai vezetője és hadászati zsenije volt – ugyanakkor az egyik legkegyetlenebb is. Timur megalapította a Timurida Birodalmat, amely a mai Afganisztán, Irán és Közép-Ázsia területei felett uralkodott.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Történelmi",
+      "Akció",
+      "Kaland",
+      "Háborús"
+    ],
+    "seeders": 231
   },
   {
     "id": "tt32916440",
@@ -414,7 +414,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 236
+    "seeders": 229
   },
   {
     "id": "tt26764007",
@@ -431,7 +431,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 231
+    "seeders": 202
   },
   {
     "id": "tt8760450",
@@ -446,7 +446,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 128
+    "seeders": 122
   },
   {
     "id": "tt41801288",
@@ -462,7 +462,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 68
+    "seeders": 69
   },
   {
     "id": "tt31050594",
@@ -479,7 +479,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 70
+    "seeders": 76
   },
   {
     "id": "tt31727397",
@@ -496,6 +496,6 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 62
+    "seeders": 61
   }
 ]
