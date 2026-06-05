@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt16341624",
+    "type": "movie",
+    "name": "Álmaimban a dal",
+    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 41
+  },
+  {
     "id": "tt26443616",
     "type": "movie",
     "name": "Agyugrász",
@@ -16,7 +32,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 66
+    "seeders": 77
   },
   {
     "id": "tt30210139",
@@ -32,23 +48,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 273
-  },
-  {
-    "id": "tt42192165",
-    "type": "movie",
-    "name": "A Rachel Nickell-gyilkosság",
-    "poster": "https://image.tmdb.org/t/p/w500/ibTNWrpUGsSuv7PbVRIgr97jDVs.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 79
+    "seeders": 229
   },
   {
     "id": "tt27552099",
@@ -65,22 +65,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1189
-  },
-  {
-    "id": "tt42456008",
-    "type": "movie",
-    "name": "Poldi",
-    "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Lukas Podolski életét és pályáját bemutató intim dokumentumfilm az utcai focitól és a lengyel bevándorló családból indulva követi azt az utat, amelynek végén a főszereplőből német futballikon, Köln „Poldi hercege” és világbajnok vált. A film nemcsak a pályán elért sikereire és emlékezetes pillanataira fókuszál, hanem arra is, milyen ember áll a közönségkedvenc mosoly és a gólok mögött, és hogyan volt képes mindvégig a földön járni.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 57
+    "seeders": 885
   },
   {
     "id": "tt34378301",
@@ -96,23 +81,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1819
+    "seeders": 1381
   },
   {
-    "id": "tt32612507",
+    "id": "tt42192165",
     "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "name": "A Rachel Nickell-gyilkosság",
+    "poster": "https://image.tmdb.org/t/p/w500/ibTNWrpUGsSuv7PbVRIgr97jDVs.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.1,
+    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Rejtély"
+      "Dokumentum",
+      "Bűnügyi"
     ],
-    "seeders": 1622
+    "seeders": 68
   },
   {
     "id": "tt28650488",
@@ -131,22 +116,22 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1149
+    "seeders": 900
   },
   {
-    "id": "tt30519830",
+    "id": "tt42456008",
     "type": "movie",
-    "name": "Tél Szokcsóban",
-    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
+    "name": "Poldi",
+    "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Futballista, vállalkozó, a szurkolók kedvence és igazi közösségi hős – Lukas Podolski a meghitt dokumentumfilmben visszatekint eddigi pályafutására és jövőbeli terveire.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Dokumentum"
     ],
-    "seeders": 79
+    "seeders": 51
   },
   {
     "id": "tt26749593",
@@ -163,7 +148,22 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 161
+    "seeders": 136
+  },
+  {
+    "id": "tt30519830",
+    "type": "movie",
+    "name": "Tél Szokcsóban",
+    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 70
   },
   {
     "id": "tt39228706",
@@ -173,7 +173,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
-    "imdbRating": 8.8,
+    "imdbRating": 8.9,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -182,7 +182,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 223
+    "seeders": 159
   },
   {
     "id": "tt34611082",
@@ -198,7 +198,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 594
+    "seeders": 446
   },
   {
     "id": "tt33502160",
@@ -214,7 +214,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 280
+    "seeders": 233
   },
   {
     "id": "tt29550683",
@@ -230,7 +230,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 322
+    "seeders": 250
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 258
   },
   {
     "id": "tt39088896",
@@ -247,7 +263,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 66
   },
   {
     "id": "tt32537226",
@@ -264,7 +280,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 203
+    "seeders": 175
   },
   {
     "id": "tt32793488",
@@ -281,7 +297,23 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 153
+    "seeders": 129
+  },
+  {
+    "id": "tt33400055",
+    "type": "movie",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt8879928",
@@ -298,23 +330,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 261
-  },
-  {
-    "id": "tt33400055",
-    "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 100
+    "seeders": 207
   },
   {
     "id": "tt37749739",
@@ -329,41 +345,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 98
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 272
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 79
+    "seeders": 78
   },
   {
     "id": "tt19896510",
@@ -380,7 +362,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 64
+    "seeders": 57
   },
   {
     "id": "tt25868520",
@@ -398,23 +380,7 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 231
-  },
-  {
-    "id": "tt32916440",
-    "type": "movie",
-    "name": "Marty Supreme",
-    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 229
+    "seeders": 194
   },
   {
     "id": "tt26764007",
@@ -431,7 +397,40 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 202
+    "seeders": 176
+  },
+  {
+    "id": "tt32916440",
+    "type": "movie",
+    "name": "Marty Supreme",
+    "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A szélhámosból lett pingpongbajnok Marty Reisman útja a manhattani fogadásoktól a 22 bajnoki cím megnyeréséig. Marty rekordot állított be azzal, hogy 67 évesen ő lett a legidősebb, aki országos versenyt nyert a sportágban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 177
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 57
   },
   {
     "id": "tt8760450",
@@ -446,7 +445,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 122
+    "seeders": 106
   },
   {
     "id": "tt41801288",
@@ -462,7 +461,7 @@
       "Történelmi",
       "Dokumentum"
     ],
-    "seeders": 69
+    "seeders": 52
   },
   {
     "id": "tt31050594",
@@ -479,7 +478,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 76
+    "seeders": 64
   },
   {
     "id": "tt31727397",
@@ -496,6 +495,6 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 61
+    "seeders": 51
   }
 ]
