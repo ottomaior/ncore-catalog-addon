@@ -1,19 +1,19 @@
 [
   {
-    "id": "tt37961742",
+    "id": "tt33397980",
     "type": "movie",
-    "name": "México 86",
-    "poster": "https://image.tmdb.org/t/p/w500/ie0evW3npWrB25prNSKOdlEamSd.jpg",
+    "name": "Munkahelyi románc",
+    "poster": "https://image.tmdb.org/t/p/w500/oqxVHwdPTEKkgRjc6y6U242y2cZ.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
-      "Történelmi",
+      "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 65
+    "seeders": 203
   },
   {
     "id": "tt32129938",
@@ -29,23 +29,56 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 76
+    "seeders": 147
   },
   {
-    "id": "tt33397980",
+    "id": "tt37961742",
     "type": "movie",
-    "name": "Munkahelyi románc",
-    "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
+    "name": "México 86",
+    "poster": "https://image.tmdb.org/t/p/w500/ie0evW3npWrB25prNSKOdlEamSd.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
+    "description": "Trendi magyar HD 1080p – nCore.",
     "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
+      "Történelmi",
       "Vígjáték"
     ],
-    "seeders": 90
+    "seeders": 93
+  },
+  {
+    "id": "tt30210139",
+    "type": "movie",
+    "name": "Megszállottak",
+    "poster": "https://image.tmdb.org/t/p/w500/4KXlxaILROkq1YQrUheYOgZNgYo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A régész Sofia szerint az ősi görög agyagedények hangokat rögzítettek, mint egy primitív bakelitlemez. Egy távoli szigetre utazik, hogy bizonyítsa elméletét volt sógora, egy cinikus szobrász segítségével.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 311
+  },
+  {
+    "id": "tt27552099",
+    "type": "movie",
+    "name": "Mike & Nick & Nick & Alice",
+    "poster": "https://image.tmdb.org/t/p/w500/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két gengszter és a nő, akit mindketten szeretnek, igyekszik túlélni életük legveszélyesebb éjszakáját. Mintha ez még nem lenne elég, a történetet egy egészen őrült fordulat is megbolondítja: egy időgép.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi",
+      "Bűnügyi"
+    ],
+    "seeders": 1170
   },
   {
     "id": "tt26443616",
@@ -64,7 +97,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 94
+    "seeders": 100
   },
   {
     "id": "tt16341624",
@@ -80,40 +113,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 49
-  },
-  {
-    "id": "tt30210139",
-    "type": "movie",
-    "name": "Megszállottak",
-    "poster": "https://image.tmdb.org/t/p/w500/4KXlxaILROkq1YQrUheYOgZNgYo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A régész Sofia szerint az ősi görög agyagedények hangokat rögzítettek, mint egy primitív bakelitlemez. Egy távoli szigetre utazik, hogy bizonyítsa elméletét volt sógora, egy cinikus szobrász segítségével.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 266
-  },
-  {
-    "id": "tt27552099",
-    "type": "movie",
-    "name": "Mike & Nick & Nick & Alice",
-    "poster": "https://image.tmdb.org/t/p/w500/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két gengszter és a nő, akit mindketten szeretnek, igyekszik túlélni életük legveszélyesebb éjszakáját. Mintha ez még nem lenne elég, a történetet egy egészen őrült fordulat is megbolondítja: egy időgép.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Sci-Fi",
-      "Bűnügyi"
-    ],
-    "seeders": 1018
+    "seeders": 57
   },
   {
     "id": "tt34378301",
@@ -129,7 +129,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1578
+    "seeders": 1807
   },
   {
     "id": "tt28650488",
@@ -148,7 +148,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1035
+    "seeders": 1149
   },
   {
     "id": "tt42192165",
@@ -164,22 +164,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 73
-  },
-  {
-    "id": "tt42456008",
-    "type": "movie",
-    "name": "Poldi",
-    "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Futballista, vállalkozó, a szurkolók kedvence és igazi közösségi hős – Lukas Podolski a meghitt dokumentumfilmben visszatekint eddigi pályafutására és jövőbeli terveire.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 47
+    "seeders": 76
   },
   {
     "id": "tt26749593",
@@ -196,22 +181,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 143
-  },
-  {
-    "id": "tt30519830",
-    "type": "movie",
-    "name": "Tél Szokcsóban",
-    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 72
+    "seeders": 162
   },
   {
     "id": "tt39228706",
@@ -230,7 +200,22 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 178
+    "seeders": 212
+  },
+  {
+    "id": "tt42456008",
+    "type": "movie",
+    "name": "Poldi",
+    "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Futballista, vállalkozó, a szurkolók kedvence és igazi közösségi hős – Lukas Podolski a meghitt dokumentumfilmben visszatekint eddigi pályafutására és jövőbeli terveire.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 50
   },
   {
     "id": "tt34611082",
@@ -246,7 +231,22 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 506
+    "seeders": 579
+  },
+  {
+    "id": "tt30519830",
+    "type": "movie",
+    "name": "Tél Szokcsóban",
+    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 80
   },
   {
     "id": "tt33502160",
@@ -262,7 +262,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 266
+    "seeders": 297
   },
   {
     "id": "tt29550683",
@@ -278,13 +278,13 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 286
+    "seeders": 334
   },
   {
     "id": "tt32612507",
     "type": "movie",
     "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vXRiBTbjPE5reRDuVtSG9MVfVvB.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/oI2xipFISQ1sQf9bZ4b1YJ9zSzP.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
@@ -294,7 +294,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 316
+    "seeders": 359
   },
   {
     "id": "tt32537226",
@@ -311,7 +311,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 202
+    "seeders": 216
   },
   {
     "id": "tt39088896",
@@ -328,7 +328,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 71
+    "seeders": 75
   },
   {
     "id": "tt32793488",
@@ -345,7 +345,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 141
+    "seeders": 156
   },
   {
     "id": "tt8879928",
@@ -362,23 +362,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 235
-  },
-  {
-    "id": "tt33400055",
-    "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 93
+    "seeders": 266
   },
   {
     "id": "tt37749739",
@@ -393,7 +377,24 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 85
+    "seeders": 96
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 87
   },
   {
     "id": "tt25868520",
@@ -411,7 +412,23 @@
       "Kaland",
       "Háborús"
     ],
-    "seeders": 211
+    "seeders": 239
+  },
+  {
+    "id": "tt33400055",
+    "type": "movie",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 88
   },
   {
     "id": "tt32916440",
@@ -427,7 +444,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 200
+    "seeders": 228
   },
   {
     "id": "tt26764007",
@@ -444,24 +461,7 @@
       "Thriller",
       "Horror"
     ],
-    "seeders": 193
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 65
+    "seeders": 211
   },
   {
     "id": "tt19896510",
@@ -478,7 +478,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 54
+    "seeders": 60
   },
   {
     "id": "tt8760450",
@@ -493,6 +493,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 117
+    "seeders": 128
   }
 ]
