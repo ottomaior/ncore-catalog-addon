@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 76
+  },
+  {
     "id": "tt38897659",
     "type": "movie",
     "name": "Yaz Evi",
@@ -14,7 +30,7 @@
       "Családi",
       "Dráma"
     ],
-    "seeders": 78
+    "seeders": 100
   },
   {
     "id": "tt33397980",
@@ -30,7 +46,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 369
+    "seeders": 396
   },
   {
     "id": "tt32129938",
@@ -40,44 +56,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 3.6,
+    "imdbRating": 3.8,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 242
-  },
-  {
-    "id": "tt30268321",
-    "type": "movie",
-    "name": "Eleanor, a lenyűgöző",
-    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 73
-  },
-  {
-    "id": "tt31322753",
-    "type": "movie",
-    "name": "Ikertelenül",
-    "poster": "https://image.tmdb.org/t/p/w500/yVaqJ4hY2yLnyxxKdksw39v6ugj.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Két gyászoló fiatalember valószínűtlen barátságot köt egy ikergyászokat támogató csoportban. Roman  és Dennis vigaszt és identitást keresnek, és hamar elválaszthatatlanná válnak a csoporton kívül. De mikor a sötét múlt napvilágra kerül, minden más lesz, mint aminek tűnik, mert mindketten olyan titkokat őriznek, amelyek mindent tisztázhatnak.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 70
+    "seeders": 250
   },
   {
     "id": "tt27552099",
@@ -94,23 +79,23 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1191
+    "seeders": 1260
   },
   {
-    "id": "tt31415482",
+    "id": "tt31322753",
     "type": "movie",
-    "name": "Duse",
-    "poster": "https://image.tmdb.org/t/p/w500/5PJ4DfW9T2uG9Bj6X20i2R3yW3A.jpg",
+    "name": "Ikertelenül",
+    "poster": "https://image.tmdb.org/t/p/w500/yVaqJ4hY2yLnyxxKdksw39v6ugj.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.8,
+    "description": "Két gyászoló fiatalember valószínűtlen barátságot köt egy ikergyászokat támogató csoportban. Roman  és Dennis vigaszt és identitást keresnek, és hamar elválaszthatatlanná válnak a csoporton kívül. De mikor a sötét múlt napvilágra kerül, minden más lesz, mint aminek tűnik, mert mindketten olyan titkokat őriznek, amelyek mindent tisztázhatnak.",
+    "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Történelmi"
+      "Vígjáték",
+      "Dráma"
     ],
-    "seeders": 45
+    "seeders": 76
   },
   {
     "id": "tt34378301",
@@ -126,23 +111,39 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1856
+    "seeders": 1899
   },
   {
-    "id": "tt31229255",
+    "id": "tt30268321",
     "type": "movie",
-    "name": "Mexico 86",
-    "poster": "https://image.tmdb.org/t/p/w500/7NPTW2sNBrNNZZmNJSHeG6EMzHY.jpg",
+    "name": "Eleanor, a lenyűgöző",
+    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.4,
+    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
+    "imdbRating": 7.0,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Thriller"
+      "Dráma"
     ],
-    "seeders": 126
+    "seeders": 69
+  },
+  {
+    "id": "tt37961742",
+    "type": "movie",
+    "name": "A mexikói focivébé",
+    "poster": "https://image.tmdb.org/t/p/w500/ie0evW3npWrB25prNSKOdlEamSd.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 128
   },
   {
     "id": "tt30210139",
@@ -158,7 +159,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 291
+    "seeders": 294
   },
   {
     "id": "tt28650488",
@@ -177,7 +178,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1207
+    "seeders": 1249
   },
   {
     "id": "tt26443616",
@@ -196,23 +197,23 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 128
+    "seeders": 147
   },
   {
-    "id": "tt16341624",
+    "id": "tt31415482",
     "type": "movie",
-    "name": "Álmaimban a dal",
-    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
+    "name": "Duse",
+    "poster": "https://image.tmdb.org/t/p/w500/5PJ4DfW9T2uG9Bj6X20i2R3yW3A.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
-    "imdbRating": 6.0,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.8,
     "releaseInfo": "2025",
     "genres": [
-      "Zenei",
-      "Dráma"
+      "Dráma",
+      "Történelmi"
     ],
-    "seeders": 57
+    "seeders": 47
   },
   {
     "id": "tt34611082",
@@ -228,7 +229,42 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 596
+    "seeders": 629
+  },
+  {
+    "id": "tt39228706",
+    "type": "movie",
+    "name": "Milky Subway: A galaktikus expressz - A film",
+    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
+    "imdbRating": 8.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Vígjáték",
+      "Sci-Fi"
+    ],
+    "seeders": 222
+  },
+  {
+    "id": "tt16341624",
+    "type": "movie",
+    "name": "Álmaimban a dal",
+    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt42192165",
@@ -244,26 +280,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 77
-  },
-  {
-    "id": "tt39228706",
-    "type": "movie",
-    "name": "Milky Subway: A galaktikus expressz - A film",
-    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
-    "imdbRating": 8.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Vígjáték",
-      "Sci-Fi"
-    ],
-    "seeders": 208
+    "seeders": 80
   },
   {
     "id": "tt26749593",
@@ -280,23 +297,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 146
-  },
-  {
-    "id": "tt33502160",
-    "type": "movie",
-    "name": "A kéz, amely a bölcsőt ringatja",
-    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 288
+    "seeders": 151
   },
   {
     "id": "tt29550683",
@@ -312,7 +313,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 338
+    "seeders": 345
+  },
+  {
+    "id": "tt33502160",
+    "type": "movie",
+    "name": "A kéz, amely a bölcsőt ringatja",
+    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 279
   },
   {
     "id": "tt32612507",
@@ -328,7 +345,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 392
+    "seeders": 399
   },
   {
     "id": "tt30519830",
@@ -343,39 +360,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 73
-  },
-  {
-    "id": "tt42456008",
-    "type": "movie",
-    "name": "Poldi",
-    "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Futballista, vállalkozó, a szurkolók kedvence és igazi közösségi hős – Lukas Podolski a meghitt dokumentumfilmben visszatekint eddigi pályafutására és jövőbeli terveire.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 48
-  },
-  {
-    "id": "tt32793488",
-    "type": "movie",
-    "name": "Az orvosdoktor Londonban",
-    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Rejtély",
-      "Dráma"
-    ],
-    "seeders": 190
+    "seeders": 80
   },
   {
     "id": "tt32537226",
@@ -392,7 +377,39 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 216
+    "seeders": 223
+  },
+  {
+    "id": "tt32793488",
+    "type": "movie",
+    "name": "Az orvosdoktor Londonban",
+    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Rejtély",
+      "Dráma"
+    ],
+    "seeders": 188
+  },
+  {
+    "id": "tt42456008",
+    "type": "movie",
+    "name": "Poldi",
+    "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Futballista, vállalkozó, a szurkolók kedvence és igazi közösségi hős – Lukas Podolski a meghitt dokumentumfilmben visszatekint eddigi pályafutására és jövőbeli terveire.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 44
   },
   {
     "id": "tt8879928",
@@ -409,7 +426,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 275
+    "seeders": 270
   },
   {
     "id": "tt39088896",
@@ -441,7 +458,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 96
+    "seeders": 101
   },
   {
     "id": "tt33400055",
@@ -457,7 +474,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 94
+    "seeders": 96
   },
   {
     "id": "tt1757678",
@@ -474,21 +491,6 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 78
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 137
+    "seeders": 81
   }
 ]
