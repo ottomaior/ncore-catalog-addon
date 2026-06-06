@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt33397980",
+    "type": "movie",
+    "name": "Munkahelyi románc",
+    "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 331
+  },
+  {
     "id": "tt30268321",
     "type": "movie",
     "name": "Eleanor, a lenyűgöző",
@@ -12,23 +28,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 49
-  },
-  {
-    "id": "tt31415482",
-    "type": "movie",
-    "name": "Duse",
-    "poster": "https://image.tmdb.org/t/p/w500/5PJ4DfW9T2uG9Bj6X20i2R3yW3A.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 41
+    "seeders": 66
   },
   {
     "id": "tt31322753",
@@ -44,23 +44,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 31
-  },
-  {
-    "id": "tt33397980",
-    "type": "movie",
-    "name": "Munkahelyi románc",
-    "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 219
+    "seeders": 63
   },
   {
     "id": "tt32129938",
@@ -70,13 +54,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 4.5,
+    "imdbRating": 3.6,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 151
+    "seeders": 210
+  },
+  {
+    "id": "tt31415482",
+    "type": "movie",
+    "name": "Duse",
+    "poster": "https://image.tmdb.org/t/p/w500/5PJ4DfW9T2uG9Bj6X20i2R3yW3A.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 43
   },
   {
     "id": "tt31229255",
@@ -92,7 +92,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 96
+    "seeders": 118
   },
   {
     "id": "tt27552099",
@@ -109,23 +109,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 882
-  },
-  {
-    "id": "tt30210139",
-    "type": "movie",
-    "name": "Megszállottak",
-    "poster": "https://image.tmdb.org/t/p/w500/4KXlxaILROkq1YQrUheYOgZNgYo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A régész Sofia szerint az ősi görög agyagedények hangokat rögzítettek, mint egy primitív bakelitlemez. Egy távoli szigetre utazik, hogy bizonyítsa elméletét volt sógora, egy cinikus szobrász segítségével.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 238
+    "seeders": 1110
   },
   {
     "id": "tt34378301",
@@ -141,7 +125,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1386
+    "seeders": 1744
+  },
+  {
+    "id": "tt30210139",
+    "type": "movie",
+    "name": "Megszállottak",
+    "poster": "https://image.tmdb.org/t/p/w500/4KXlxaILROkq1YQrUheYOgZNgYo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A régész Sofia szerint az ősi görög agyagedények hangokat rögzítettek, mint egy primitív bakelitlemez. Egy távoli szigetre utazik, hogy bizonyítsa elméletét volt sógora, egy cinikus szobrász segítségével.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 282
   },
   {
     "id": "tt26443616",
@@ -160,7 +160,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 102
+    "seeders": 118
   },
   {
     "id": "tt28650488",
@@ -179,7 +179,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 894
+    "seeders": 1121
   },
   {
     "id": "tt16341624",
@@ -195,7 +195,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 46
+    "seeders": 52
   },
   {
     "id": "tt42192165",
@@ -205,13 +205,48 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
-    "imdbRating": null,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 64
+    "seeders": 77
+  },
+  {
+    "id": "tt34611082",
+    "type": "movie",
+    "name": "Hölgyeké az elsőbbség",
+    "poster": "https://image.tmdb.org/t/p/w500/uLhvs1Wk2w8H07LTacQwa4bqsMZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Fantasy"
+    ],
+    "seeders": 554
+  },
+  {
+    "id": "tt39228706",
+    "type": "movie",
+    "name": "Milky Subway: A galaktikus expressz - A film",
+    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
+    "imdbRating": 8.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Vígjáték",
+      "Sci-Fi"
+    ],
+    "seeders": 194
   },
   {
     "id": "tt26749593",
@@ -228,57 +263,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt39228706",
-    "type": "movie",
-    "name": "Milky Subway: A galaktikus expressz - A film",
-    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
-    "imdbRating": 8.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Vígjáték",
-      "Sci-Fi"
-    ],
-    "seeders": 167
-  },
-  {
-    "id": "tt34611082",
-    "type": "movie",
-    "name": "Hölgyeké az elsőbbség",
-    "poster": "https://image.tmdb.org/t/p/w500/uLhvs1Wk2w8H07LTacQwa4bqsMZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 447
-  },
-  {
-    "id": "tt30519830",
-    "type": "movie",
-    "name": "Tél Szokcsóban",
-    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 67
+    "seeders": 142
   },
   {
     "id": "tt33502160",
@@ -294,22 +279,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 221
-  },
-  {
-    "id": "tt42456008",
-    "type": "movie",
-    "name": "Poldi",
-    "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Futballista, vállalkozó, a szurkolók kedvence és igazi közösségi hős – Lukas Podolski a meghitt dokumentumfilmben visszatekint eddigi pályafutására és jövőbeli terveire.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 43
+    "seeders": 268
   },
   {
     "id": "tt29550683",
@@ -325,7 +295,37 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 253
+    "seeders": 323
+  },
+  {
+    "id": "tt42456008",
+    "type": "movie",
+    "name": "Poldi",
+    "poster": "https://image.tmdb.org/t/p/w500/ylgaqq0NdSlnrBRtWMePYvDlTDa.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Futballista, vállalkozó, a szurkolók kedvence és igazi közösségi hős – Lukas Podolski a meghitt dokumentumfilmben visszatekint eddigi pályafutására és jövőbeli terveire.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 50
+  },
+  {
+    "id": "tt30519830",
+    "type": "movie",
+    "name": "Tél Szokcsóban",
+    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt32612507",
@@ -341,24 +341,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 249
-  },
-  {
-    "id": "tt32793488",
-    "type": "movie",
-    "name": "Az orvosdoktor Londonban",
-    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Rejtély",
-      "Dráma"
-    ],
-    "seeders": 165
+    "seeders": 334
   },
   {
     "id": "tt32537226",
@@ -375,24 +358,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 177
+    "seeders": 210
   },
   {
-    "id": "tt39088896",
+    "id": "tt32793488",
     "type": "movie",
-    "name": "Adult Swim: Az elefánt",
-    "poster": "https://image.tmdb.org/t/p/w500/hesk0yJrkojyuZcyZ4KRxMtAQNK.jpg",
+    "name": "Az orvosdoktor Londonban",
+    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Különös, háromfelvonásos felnőtt animációs különkiadás, amelyben négy ismert alkotó egymástól függetlenül formálja tovább ugyanannak a történetnek a részeit, miközben egy emberi önkeresésről szóló, többféle animációs stílusban kibomló, enigmatikus utazás rajzolódik ki.",
-    "imdbRating": 8.3,
+    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
     "releaseInfo": "2025",
     "genres": [
-      "Animációs",
-      "Sci-Fi",
+      "Kaland",
+      "Rejtély",
       "Dráma"
     ],
-    "seeders": 66
+    "seeders": 178
   },
   {
     "id": "tt8879928",
@@ -409,7 +392,24 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 205
+    "seeders": 255
+  },
+  {
+    "id": "tt39088896",
+    "type": "movie",
+    "name": "Adult Swim: Az elefánt",
+    "poster": "https://image.tmdb.org/t/p/w500/hesk0yJrkojyuZcyZ4KRxMtAQNK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Különös, háromfelvonásos felnőtt animációs különkiadás, amelyben négy ismert alkotó egymástól függetlenül formálja tovább ugyanannak a történetnek a részeit, miközben egy emberi önkeresésről szóló, többféle animációs stílusban kibomló, enigmatikus utazás rajzolódik ki.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Sci-Fi",
+      "Dráma"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt33400055",
@@ -425,7 +425,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 85
+    "seeders": 96
   },
   {
     "id": "tt37749739",
@@ -440,42 +440,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt25868520",
-    "type": "movie",
-    "name": "Timur Lenk, a hódító",
-    "poster": "https://image.tmdb.org/t/p/w500/9cRE0DsM6CNIiY9Ah3cd8oc3n1Y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A 14. században, amikor a Selyemút rendszere széthullik, és egymással rivalizáló frakciók tépik szét a vidéket, száműzetéséből előlép a rettenthetetlen harcos, Timur. Mindentől megfosztva harcba száll, hogy egyesítse a szétszakadt királyságokat, és stratégiájával, valamint rendíthetetlen akaratával a káoszból birodalmat kovácsoljon. A csatatéren veretlen hadvezérként tartják számon: a történelem egyik legnagyobb katonai vezetője és hadászati zsenije volt – ugyanakkor az egyik legkegyetlenebb is. Timur megalapította a Timurida Birodalmat, amely a mai Afganisztán, Irán és Közép-Ázsia területei felett uralkodott.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Történelmi",
-      "Akció",
-      "Kaland",
-      "Háborús"
-    ],
-    "seeders": 191
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 60
+    "seeders": 95
   },
   {
     "id": "tt8760450",
@@ -490,6 +455,40 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 108
+    "seeders": 135
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 72
+  },
+  {
+    "id": "tt19896510",
+    "type": "movie",
+    "name": "K-Pops!",
+    "poster": "https://image.tmdb.org/t/p/w500/72KQHN1xUO6gWHLRRPyJcCQXlve.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy lecsúszott zenész kapva kap az alkalmon, hogy rég nem látott fia sztárságából tőkét kovácsoljon a saját reneszánszához, de megtanulja, hogy az apaság sokkal több, mint a sztárság.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Zenei"
+    ],
+    "seeders": 58
   }
 ]
