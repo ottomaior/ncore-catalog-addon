@@ -13,40 +13,41 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 76
-  },
-  {
-    "id": "tt38897659",
-    "type": "movie",
-    "name": "Yaz Evi",
-    "poster": "https://image.tmdb.org/t/p/w500/kA6e4wmyulZn76xBd5Bq29PZwnb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Családi",
-      "Dráma"
-    ],
-    "seeders": 100
+    "seeders": 74
   },
   {
     "id": "tt33397980",
     "type": "movie",
     "name": "Munkahelyi románc",
-    "poster": "https://image.tmdb.org/t/p/w500/f7CbyRbdqzriEfkXAq7kIwphL8O.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
-    "imdbRating": 6.9,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 396
+    "seeders": 303
+  },
+  {
+    "id": "tt38897659",
+    "type": "movie",
+    "name": "A nyaraló",
+    "poster": "https://image.tmdb.org/t/p/w500/kA6e4wmyulZn76xBd5Bq29PZwnb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Selin egy nyaralóban rejtélyes módon vissza utazik az időben, és hirtelen saját édesanyja fiatalkorában találja magát. A múltban átélt események és találkozások lehetőséget adnak neki arra, hogy megváltoztassa a családja sorsát, miközben teljesen újjáépíti a saját életét és jövőjét",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Családi",
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 93
   },
   {
     "id": "tt32129938",
@@ -56,13 +57,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 3.8,
+    "imdbRating": 4.4,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 250
+    "seeders": 193
   },
   {
     "id": "tt27552099",
@@ -72,30 +73,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Két gengszter és a nő, akit mindketten szeretnek, igyekszik túlélni életük legveszélyesebb éjszakáját. Mintha ez még nem lenne elég, a történetet egy egészen őrült fordulat is megbolondítja: egy időgép.",
-    "imdbRating": 6.8,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1260
-  },
-  {
-    "id": "tt31322753",
-    "type": "movie",
-    "name": "Ikertelenül",
-    "poster": "https://image.tmdb.org/t/p/w500/yVaqJ4hY2yLnyxxKdksw39v6ugj.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Két gyászoló fiatalember valószínűtlen barátságot köt egy ikergyászokat támogató csoportban. Roman  és Dennis vigaszt és identitást keresnek, és hamar elválaszthatatlanná válnak a csoporton kívül. De mikor a sötét múlt napvilágra kerül, minden más lesz, mint aminek tűnik, mert mindketten olyan titkokat őriznek, amelyek mindent tisztázhatnak.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 76
+    "seeders": 893
   },
   {
     "id": "tt34378301",
@@ -111,7 +96,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1899
+    "seeders": 1400
   },
   {
     "id": "tt30268321",
@@ -126,7 +111,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 69
+    "seeders": 66
   },
   {
     "id": "tt37961742",
@@ -136,14 +121,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
-    "imdbRating": 5.9,
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 128
+    "seeders": 110
   },
   {
     "id": "tt30210139",
@@ -159,7 +144,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 294
+    "seeders": 228
   },
   {
     "id": "tt28650488",
@@ -178,7 +163,23 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1249
+    "seeders": 927
+  },
+  {
+    "id": "tt31322753",
+    "type": "movie",
+    "name": "Ikertelenül",
+    "poster": "https://image.tmdb.org/t/p/w500/yVaqJ4hY2yLnyxxKdksw39v6ugj.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Két gyászoló fiatalember valószínűtlen barátságot köt egy ikergyászokat támogató csoportban. Roman  és Dennis vigaszt és identitást keresnek, és hamar elválaszthatatlanná válnak a csoporton kívül. De mikor a sötét múlt napvilágra kerül, minden más lesz, mint aminek tűnik, mert mindketten olyan titkokat őriznek, amelyek mindent tisztázhatnak.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 61
   },
   {
     "id": "tt26443616",
@@ -197,7 +198,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 147
+    "seeders": 123
   },
   {
     "id": "tt31415482",
@@ -213,7 +214,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 47
+    "seeders": 42
   },
   {
     "id": "tt34611082",
@@ -223,13 +224,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy, a pénz, a hatalom és a futó kalandok világában élő arrogáns, ám karizmatikus nőcsábász élete fenekestül felfordul, amikor egy nők uralta párhuzamos világban ébred.",
-    "imdbRating": 6.0,
+    "imdbRating": 6.1,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 629
+    "seeders": 450
   },
   {
     "id": "tt39228706",
@@ -248,39 +249,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 222
-  },
-  {
-    "id": "tt16341624",
-    "type": "movie",
-    "name": "Álmaimban a dal",
-    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 59
-  },
-  {
-    "id": "tt42192165",
-    "type": "movie",
-    "name": "A Rachel Nickell-gyilkosság",
-    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 80
+    "seeders": 165
   },
   {
     "id": "tt26749593",
@@ -297,23 +266,39 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 151
+    "seeders": 127
   },
   {
-    "id": "tt29550683",
+    "id": "tt16341624",
     "type": "movie",
-    "name": "Halálsíp",
-    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "name": "Álmaimban a dal",
+    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 49
+  },
+  {
+    "id": "tt42192165",
+    "type": "movie",
+    "name": "A Rachel Nickell-gyilkosság",
+    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
-    "imdbRating": 6.3,
+    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Rejtély"
+      "Dokumentum",
+      "Bűnügyi"
     ],
-    "seeders": 345
+    "seeders": 65
   },
   {
     "id": "tt33502160",
@@ -329,13 +314,29 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 279
+    "seeders": 221
+  },
+  {
+    "id": "tt29550683",
+    "type": "movie",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 266
   },
   {
     "id": "tt32612507",
     "type": "movie",
     "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/oI2xipFISQ1sQf9bZ4b1YJ9zSzP.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
@@ -345,7 +346,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 399
+    "seeders": 271
   },
   {
     "id": "tt30519830",
@@ -360,24 +361,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 80
-  },
-  {
-    "id": "tt32537226",
-    "type": "movie",
-    "name": "Bűnös vadászidény",
-    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 223
+    "seeders": 66
   },
   {
     "id": "tt32793488",
@@ -394,7 +378,24 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 188
+    "seeders": 163
+  },
+  {
+    "id": "tt32537226",
+    "type": "movie",
+    "name": "Bűnös vadászidény",
+    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 187
   },
   {
     "id": "tt42456008",
@@ -409,7 +410,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 44
+    "seeders": 38
   },
   {
     "id": "tt8879928",
@@ -426,7 +427,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 270
+    "seeders": 219
   },
   {
     "id": "tt39088896",
@@ -443,7 +444,23 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 75
+    "seeders": 65
+  },
+  {
+    "id": "tt33400055",
+    "type": "movie",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 87
   },
   {
     "id": "tt37749739",
@@ -458,23 +475,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 101
-  },
-  {
-    "id": "tt33400055",
-    "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 96
+    "seeders": 81
   },
   {
     "id": "tt1757678",
@@ -491,6 +492,6 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 81
+    "seeders": 62
   }
 ]
