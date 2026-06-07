@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt40618609",
+    "type": "movie",
+    "name": "Tetra: Acreditar de Novo",
+    "poster": "https://image.tmdb.org/t/p/w500/2PMWvlka1fmMIycyiqWG5W8Qbwo.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 57
+  },
+  {
     "id": "tt33397980",
     "type": "movie",
     "name": "Munkahelyi románc",
@@ -13,7 +28,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 421
+    "seeders": 456
   },
   {
     "id": "tt4357198",
@@ -29,7 +44,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 111
+    "seeders": 130
   },
   {
     "id": "tt32129938",
@@ -39,13 +54,30 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 4.4,
+    "imdbRating": 4.5,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 255
+    "seeders": 282
+  },
+  {
+    "id": "tt27552099",
+    "type": "movie",
+    "name": "Mike & Nick & Nick & Alice",
+    "poster": "https://image.tmdb.org/t/p/w500/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két gengszter és a nő, akit mindketten szeretnek, igyekszik túlélni életük legveszélyesebb éjszakáját. Mintha ez még nem lenne elég, a történetet egy egészen őrült fordulat is megbolondítja: egy időgép.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi",
+      "Bűnügyi"
+    ],
+    "seeders": 1286
   },
   {
     "id": "tt38897659",
@@ -63,24 +95,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 108
-  },
-  {
-    "id": "tt27552099",
-    "type": "movie",
-    "name": "Mike & Nick & Nick & Alice",
-    "poster": "https://image.tmdb.org/t/p/w500/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két gengszter és a nő, akit mindketten szeretnek, igyekszik túlélni életük legveszélyesebb éjszakáját. Mintha ez még nem lenne elég, a történetet egy egészen őrült fordulat is megbolondítja: egy időgép.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Sci-Fi",
-      "Bűnügyi"
-    ],
-    "seeders": 1162
+    "seeders": 125
   },
   {
     "id": "tt34378301",
@@ -96,7 +111,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1805
+    "seeders": 1953
   },
   {
     "id": "tt28650488",
@@ -115,7 +130,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1153
+    "seeders": 1261
   },
   {
     "id": "tt30210139",
@@ -131,7 +146,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 265
+    "seeders": 288
   },
   {
     "id": "tt37961742",
@@ -141,14 +156,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
-    "imdbRating": 6.3,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 130
+    "seeders": 142
   },
   {
     "id": "tt26443616",
@@ -167,22 +182,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 147
-  },
-  {
-    "id": "tt30268321",
-    "type": "movie",
-    "name": "Eleanor, a lenyűgöző",
-    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 68
+    "seeders": 165
   },
   {
     "id": "tt31322753",
@@ -198,7 +198,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 68
+    "seeders": 76
+  },
+  {
+    "id": "tt30268321",
+    "type": "movie",
+    "name": "Eleanor, a lenyűgöző",
+    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 69
   },
   {
     "id": "tt34611082",
@@ -214,7 +229,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 570
+    "seeders": 622
   },
   {
     "id": "tt31415482",
@@ -230,7 +245,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 43
+    "seeders": 46
   },
   {
     "id": "tt39228706",
@@ -249,7 +264,39 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 194
+    "seeders": 215
+  },
+  {
+    "id": "tt29550683",
+    "type": "movie",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 359
+  },
+  {
+    "id": "tt33502160",
+    "type": "movie",
+    "name": "A kéz, amely a bölcsőt ringatja",
+    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 288
   },
   {
     "id": "tt26749593",
@@ -266,55 +313,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 146
-  },
-  {
-    "id": "tt29550683",
-    "type": "movie",
-    "name": "Halálsíp",
-    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 328
-  },
-  {
-    "id": "tt33502160",
-    "type": "movie",
-    "name": "A kéz, amely a bölcsőt ringatja",
-    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 268
-  },
-  {
-    "id": "tt42192165",
-    "type": "movie",
-    "name": "A Rachel Nickell-gyilkosság",
-    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 75
+    "seeders": 154
   },
   {
     "id": "tt32612507",
@@ -330,7 +329,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 365
+    "seeders": 411
+  },
+  {
+    "id": "tt42192165",
+    "type": "movie",
+    "name": "A Rachel Nickell-gyilkosság",
+    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 79
   },
   {
     "id": "tt16341624",
@@ -346,7 +361,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 53
+    "seeders": 54
   },
   {
     "id": "tt32537226",
@@ -363,7 +378,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 221
+    "seeders": 230
   },
   {
     "id": "tt30519830",
@@ -378,7 +393,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 67
+    "seeders": 73
   },
   {
     "id": "tt32793488",
@@ -395,7 +410,7 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 182
+    "seeders": 183
   },
   {
     "id": "tt8879928",
@@ -412,7 +427,7 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 265
+    "seeders": 288
   },
   {
     "id": "tt42456008",
@@ -444,7 +459,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 72
+    "seeders": 75
   },
   {
     "id": "tt37749739",
@@ -459,7 +474,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 103
+    "seeders": 106
   },
   {
     "id": "tt33400055",
@@ -475,21 +490,6 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 96
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 128
+    "seeders": 101
   }
 ]
