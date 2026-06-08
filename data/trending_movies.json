@@ -14,7 +14,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 1400
+    "seeders": 1772
   },
   {
     "id": "tt33397980",
@@ -30,7 +30,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 469
+    "seeders": 402
   },
   {
     "id": "tt27552099",
@@ -47,7 +47,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1248
+    "seeders": 1121
   },
   {
     "id": "tt34378301",
@@ -63,23 +63,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1877
-  },
-  {
-    "id": "tt32129938",
-    "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 275
+    "seeders": 1705
   },
   {
     "id": "tt4357198",
@@ -95,7 +79,23 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 159
+    "seeders": 154
+  },
+  {
+    "id": "tt32129938",
+    "type": "movie",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 4.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 234
   },
   {
     "id": "tt28650488",
@@ -114,7 +114,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 1217
+    "seeders": 1122
   },
   {
     "id": "tt40618609",
@@ -129,7 +129,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 78
+    "seeders": 79
   },
   {
     "id": "tt38897659",
@@ -147,7 +147,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 140
+    "seeders": 126
   },
   {
     "id": "tt30210139",
@@ -163,7 +163,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 280
+    "seeders": 265
   },
   {
     "id": "tt26443616",
@@ -182,7 +182,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 184
+    "seeders": 187
   },
   {
     "id": "tt37961742",
@@ -199,7 +199,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 130
+    "seeders": 123
   },
   {
     "id": "tt34611082",
@@ -215,7 +215,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 616
+    "seeders": 567
   },
   {
     "id": "tt31322753",
@@ -231,7 +231,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 72
+    "seeders": 69
   },
   {
     "id": "tt39228706",
@@ -250,7 +250,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 219
+    "seeders": 205
   },
   {
     "id": "tt29550683",
@@ -266,22 +266,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 357
-  },
-  {
-    "id": "tt30268321",
-    "type": "movie",
-    "name": "Eleanor, a lenyűgöző",
-    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 64
+    "seeders": 312
   },
   {
     "id": "tt32612507",
@@ -297,23 +282,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 394
-  },
-  {
-    "id": "tt33502160",
-    "type": "movie",
-    "name": "A kéz, amely a bölcsőt ringatja",
-    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 272
+    "seeders": 350
   },
   {
     "id": "tt26749593",
@@ -330,7 +299,38 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 145
+    "seeders": 144
+  },
+  {
+    "id": "tt33502160",
+    "type": "movie",
+    "name": "A kéz, amely a bölcsőt ringatja",
+    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 242
+  },
+  {
+    "id": "tt30268321",
+    "type": "movie",
+    "name": "Eleanor, a lenyűgöző",
+    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 56
   },
   {
     "id": "tt32537226",
@@ -347,40 +347,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 225
-  },
-  {
-    "id": "tt42192165",
-    "type": "movie",
-    "name": "A Rachel Nickell-gyilkosság",
-    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 67
-  },
-  {
-    "id": "tt32793488",
-    "type": "movie",
-    "name": "Az orvosdoktor Londonban",
-    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Rejtély",
-      "Dráma"
-    ],
-    "seeders": 184
+    "seeders": 203
   },
   {
     "id": "tt31415482",
@@ -413,7 +380,40 @@
       "Sci-Fi",
       "Vígjáték"
     ],
-    "seeders": 287
+    "seeders": 268
+  },
+  {
+    "id": "tt32793488",
+    "type": "movie",
+    "name": "Az orvosdoktor Londonban",
+    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Rejtély",
+      "Dráma"
+    ],
+    "seeders": 160
+  },
+  {
+    "id": "tt42192165",
+    "type": "movie",
+    "name": "A Rachel Nickell-gyilkosság",
+    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 57
   },
   {
     "id": "tt16341624",
@@ -429,7 +429,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 52
+    "seeders": 47
   },
   {
     "id": "tt30519830",
@@ -444,7 +444,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 70
+    "seeders": 63
   },
   {
     "id": "tt39088896",
@@ -461,22 +461,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 73
-  },
-  {
-    "id": "tt37749739",
-    "type": "movie",
-    "name": "A Challenger űrkatasztrófa: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 99
+    "seeders": 71
   },
   {
     "id": "tt33400055",
@@ -492,6 +477,21 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 86
+    "seeders": 85
+  },
+  {
+    "id": "tt37749739",
+    "type": "movie",
+    "name": "A Challenger űrkatasztrófa: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 85
   }
 ]
