@@ -1,21 +1,5 @@
 [
   {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 398
-  },
-  {
     "id": "tt17490712",
     "type": "movie",
     "name": "Mortal Kombat 2",
@@ -30,7 +14,23 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 3016
+    "seeders": 3929
+  },
+  {
+    "id": "tt11378946",
+    "type": "movie",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 666
   },
   {
     "id": "tt6341826",
@@ -46,7 +46,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 621
+    "seeders": 745
   },
   {
     "id": "tt38681832",
@@ -63,22 +63,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 155
-  },
-  {
-    "id": "tt34567009",
-    "type": "movie",
-    "name": "Puskás Ausztráliában",
-    "poster": "https://image.tmdb.org/t/p/w500/nSpFQIg2iyfxLFkB9fx3qTXlMWE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Puskás Ferenc, a legendás magyar csatár a 90-es évek nyitányán pár esztendeig edzőként dolgozott Ausztráliában, a South Melbourne Hellas csapatánál, amely ez idő alatt a kiesés széléről a tabella élére ugrott. A 13 éven át forgatott dokumentumfilm erről a hihetetlen sikertörténetről mesél, számos mulatságos vagy felemelő interjúban a régi munkatársakkal és csapattagokkal, középpontba állítva a Hellas egyik hajdani játékosát, Ange Postecoglou-t, aki azóta maga is világhírű futballedző lett, nem kis mértékben a Puskással töltött közös évek hatására.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 66
+    "seeders": 179
   },
   {
     "id": "tt27552099",
@@ -95,7 +80,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 945
+    "seeders": 1155
   },
   {
     "id": "tt33397980",
@@ -111,7 +96,22 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 370
+    "seeders": 452
+  },
+  {
+    "id": "tt34567009",
+    "type": "movie",
+    "name": "Puskás Ausztráliában",
+    "poster": "https://image.tmdb.org/t/p/w500/nSpFQIg2iyfxLFkB9fx3qTXlMWE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Puskás Ferenc, a legendás magyar csatár a 90-es évek nyitányán pár esztendeig edzőként dolgozott Ausztráliában, a South Melbourne Hellas csapatánál, amely ez idő alatt a kiesés széléről a tabella élére ugrott. A 13 éven át forgatott dokumentumfilm erről a hihetetlen sikertörténetről mesél, számos mulatságos vagy felemelő interjúban a régi munkatársakkal és csapattagokkal, középpontba állítva a Hellas egyik hajdani játékosát, Ange Postecoglou-t, aki azóta maga is világhírű futballedző lett, nem kis mértékben a Puskással töltött közös évek hatására.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt28650488",
@@ -130,7 +130,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 85
+    "seeders": 97
   },
   {
     "id": "tt33978029",
@@ -147,7 +147,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 70
+    "seeders": 76
   },
   {
     "id": "tt32129938",
@@ -163,7 +163,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 187
+    "seeders": 236
   },
   {
     "id": "tt30210139",
@@ -179,7 +179,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 217
+    "seeders": 257
   },
   {
     "id": "tt4357198",
@@ -195,7 +195,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 125
+    "seeders": 140
   },
   {
     "id": "tt26443616",
@@ -214,7 +214,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 164
+    "seeders": 186
   },
   {
     "id": "tt38897659",
@@ -232,7 +232,23 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 110
+    "seeders": 122
+  },
+  {
+    "id": "tt29550683",
+    "type": "movie",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 322
   },
   {
     "id": "tt37961742",
@@ -249,23 +265,23 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 101
+    "seeders": 113
   },
   {
-    "id": "tt29550683",
+    "id": "tt33502160",
     "type": "movie",
-    "name": "Halálsíp",
-    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "name": "A kéz, amely a bölcsőt ringatja",
+    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
     "genres": [
       "Horror",
-      "Rejtély"
+      "Thriller"
     ],
-    "seeders": 256
+    "seeders": 240
   },
   {
     "id": "tt39228706",
@@ -284,23 +300,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 160
-  },
-  {
-    "id": "tt33502160",
-    "type": "movie",
-    "name": "A kéz, amely a bölcsőt ringatja",
-    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 199
+    "seeders": 183
   },
   {
     "id": "tt40618609",
@@ -315,7 +315,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 54
+    "seeders": 57
   },
   {
     "id": "tt26749593",
@@ -332,7 +332,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 114
+    "seeders": 126
   },
   {
     "id": "tt31322753",
@@ -348,7 +348,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 59
+    "seeders": 67
   },
   {
     "id": "tt32537226",
@@ -365,22 +365,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 177
-  },
-  {
-    "id": "tt30268321",
-    "type": "movie",
-    "name": "Eleanor, a lenyűgöző",
-    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 45
+    "seeders": 201
   },
   {
     "id": "tt42192165",
@@ -396,22 +381,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 56
-  },
-  {
-    "id": "tt30519830",
-    "type": "movie",
-    "name": "Tél Szokcsóban",
-    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 59
+    "seeders": 64
   },
   {
     "id": "tt32793488",
@@ -428,40 +398,37 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 107
+    "seeders": 122
   },
   {
-    "id": "tt39088896",
+    "id": "tt30519830",
     "type": "movie",
-    "name": "Adult Swim: Az elefánt",
-    "poster": "https://image.tmdb.org/t/p/w500/hesk0yJrkojyuZcyZ4KRxMtAQNK.jpg",
+    "name": "Tél Szokcsóban",
+    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Különös, háromfelvonásos felnőtt animációs különkiadás, amelyben négy ismert alkotó egymástól függetlenül formálja tovább ugyanannak a történetnek a részeit, miközben egy emberi önkeresésről szóló, többféle animációs stílusban kibomló, enigmatikus utazás rajzolódik ki.",
-    "imdbRating": 8.3,
+    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
+    "imdbRating": 6.7,
     "releaseInfo": "2025",
     "genres": [
-      "Animációs",
-      "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 65
+    "seeders": 66
   },
   {
-    "id": "tt16341624",
+    "id": "tt30268321",
     "type": "movie",
-    "name": "Álmaimban a dal",
-    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
+    "name": "Eleanor, a lenyűgöző",
+    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
-    "imdbRating": 6.0,
+    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
+    "imdbRating": 7.0,
     "releaseInfo": "2025",
     "genres": [
-      "Zenei",
       "Dráma"
     ],
-    "seeders": 40
+    "seeders": 43
   },
   {
     "id": "tt1757678",
@@ -478,22 +445,54 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 75
+    "seeders": 90
   },
   {
-    "id": "tt31415482",
+    "id": "tt37749739",
     "type": "movie",
-    "name": "Duse",
-    "poster": "https://image.tmdb.org/t/p/w500/5PJ4DfW9T2uG9Bj6X20i2R3yW3A.jpg",
+    "name": "A Challenger űrkatasztrófa: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.8,
+    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
+    "imdbRating": null,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Történelmi"
+      "Dokumentum"
     ],
-    "seeders": 30
+    "seeders": 89
+  },
+  {
+    "id": "tt39088896",
+    "type": "movie",
+    "name": "Adult Swim: Az elefánt",
+    "poster": "https://image.tmdb.org/t/p/w500/hesk0yJrkojyuZcyZ4KRxMtAQNK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Különös, háromfelvonásos felnőtt animációs különkiadás, amelyben négy ismert alkotó egymástól függetlenül formálja tovább ugyanannak a történetnek a részeit, miközben egy emberi önkeresésről szóló, többféle animációs stílusban kibomló, enigmatikus utazás rajzolódik ki.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Sci-Fi",
+      "Dráma"
+    ],
+    "seeders": 68
+  },
+  {
+    "id": "tt16341624",
+    "type": "movie",
+    "name": "Álmaimban a dal",
+    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 42
   }
 ]
