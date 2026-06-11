@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt11378946",
+    "type": "movie",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 158
+  },
+  {
     "id": "tt17490712",
     "type": "movie",
     "name": "Mortal Kombat 2",
@@ -14,7 +30,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 3251
+    "seeders": 2338
   },
   {
     "id": "tt6341826",
@@ -30,7 +46,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 649
+    "seeders": 502
   },
   {
     "id": "tt38681832",
@@ -40,14 +56,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "imdbRating": 8.9,
     "releaseInfo": "2026",
     "genres": [
-      "Bűnügyi",
       "Thriller",
-      "Rejtély"
+      "Rejtély",
+      "Bűnügyi"
     ],
-    "seeders": 140
+    "seeders": 129
   },
   {
     "id": "tt34567009",
@@ -62,7 +78,24 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 65
+    "seeders": 59
+  },
+  {
+    "id": "tt27552099",
+    "type": "movie",
+    "name": "Mike & Nick & Nick & Alice",
+    "poster": "https://image.tmdb.org/t/p/w500/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két gengszter és a nő, akit mindketten szeretnek, igyekszik túlélni életük legveszélyesebb éjszakáját. Mintha ez még nem lenne elég, a történetet egy egészen őrült fordulat is megbolondítja: egy időgép.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi",
+      "Bűnügyi"
+    ],
+    "seeders": 788
   },
   {
     "id": "tt28650488",
@@ -81,24 +114,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 85
-  },
-  {
-    "id": "tt27552099",
-    "type": "movie",
-    "name": "Mike & Nick & Nick & Alice",
-    "poster": "https://image.tmdb.org/t/p/w500/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két gengszter és a nő, akit mindketten szeretnek, igyekszik túlélni életük legveszélyesebb éjszakáját. Mintha ez még nem lenne elég, a történetet egy egészen őrült fordulat is megbolondítja: egy időgép.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Sci-Fi",
-      "Bűnügyi"
-    ],
-    "seeders": 1007
+    "seeders": 78
   },
   {
     "id": "tt33397980",
@@ -114,7 +130,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 359
+    "seeders": 296
   },
   {
     "id": "tt33978029",
@@ -131,7 +147,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 62
+    "seeders": 54
   },
   {
     "id": "tt32129938",
@@ -147,7 +163,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 203
+    "seeders": 167
   },
   {
     "id": "tt4357198",
@@ -163,23 +179,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 143
-  },
-  {
-    "id": "tt30210139",
-    "type": "movie",
-    "name": "Megszállottak",
-    "poster": "https://image.tmdb.org/t/p/w500/4KXlxaILROkq1YQrUheYOgZNgYo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A régész Sofia szerint az ősi görög agyagedények hangokat rögzítettek, mint egy primitív bakelitlemez. Egy távoli szigetre utazik, hogy bizonyítsa elméletét volt sógora, egy cinikus szobrász segítségével.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 214
+    "seeders": 114
   },
   {
     "id": "tt26443616",
@@ -198,7 +198,23 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 170
+    "seeders": 148
+  },
+  {
+    "id": "tt30210139",
+    "type": "movie",
+    "name": "Megszállottak",
+    "poster": "https://image.tmdb.org/t/p/w500/4KXlxaILROkq1YQrUheYOgZNgYo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A régész Sofia szerint az ősi görög agyagedények hangokat rögzítettek, mint egy primitív bakelitlemez. Egy távoli szigetre utazik, hogy bizonyítsa elméletét volt sógora, egy cinikus szobrász segítségével.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 180
   },
   {
     "id": "tt38897659",
@@ -216,7 +232,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 109
+    "seeders": 96
   },
   {
     "id": "tt37961742",
@@ -233,7 +249,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 106
+    "seeders": 85
   },
   {
     "id": "tt40618609",
@@ -248,7 +264,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 64
+    "seeders": 50
   },
   {
     "id": "tt29550683",
@@ -264,23 +280,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 283
-  },
-  {
-    "id": "tt32612507",
-    "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 328
+    "seeders": 211
   },
   {
     "id": "tt39228706",
@@ -299,7 +299,23 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 169
+    "seeders": 133
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 233
   },
   {
     "id": "tt33502160",
@@ -315,7 +331,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 205
+    "seeders": 167
   },
   {
     "id": "tt26749593",
@@ -332,7 +348,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 111
+    "seeders": 96
   },
   {
     "id": "tt31322753",
@@ -348,7 +364,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 58
+    "seeders": 52
   },
   {
     "id": "tt32537226",
@@ -365,7 +381,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 181
+    "seeders": 150
+  },
+  {
+    "id": "tt42192165",
+    "type": "movie",
+    "name": "A Rachel Nickell-gyilkosság",
+    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 53
   },
   {
     "id": "tt30268321",
@@ -380,23 +412,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 40
-  },
-  {
-    "id": "tt42192165",
-    "type": "movie",
-    "name": "A Rachel Nickell-gyilkosság",
-    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 53
+    "seeders": 39
   },
   {
     "id": "tt30519830",
@@ -411,7 +427,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 58
+    "seeders": 54
   },
   {
     "id": "tt32793488",
@@ -428,7 +444,39 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 111
+    "seeders": 91
+  },
+  {
+    "id": "tt16341624",
+    "type": "movie",
+    "name": "Álmaimban a dal",
+    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 38
+  },
+  {
+    "id": "tt31415482",
+    "type": "movie",
+    "name": "Duse",
+    "poster": "https://image.tmdb.org/t/p/w500/5PJ4DfW9T2uG9Bj6X20i2R3yW3A.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 29
   },
   {
     "id": "tt39088896",
@@ -445,52 +493,6 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 67
-  },
-  {
-    "id": "tt16341624",
-    "type": "movie",
-    "name": "Álmaimban a dal",
-    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 37
-  },
-  {
-    "id": "tt8760450",
-    "type": "movie",
-    "name": "Westhampton",
-    "poster": "https://image.tmdb.org/t/p/w500/ioWyXxnyAdpeMqCgPfR0zeNmcjH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy sérült filmrendező hazatér Westhamptonba, ahol egykor egy általa okozott iskolai baleset tönkretette az életét, és kénytelen szembenézni a múltjával, a régi barátokkal, akiket megbántott, valamint a várossal, amely még mindig megveti őt. A jelen és az általa korábban a tragédiáról forgatott független film váltakozásán keresztül bontakozik ki, mennyire más volt a valóság, mint ahogyan ő elmesélte, és milyen nehéz valódi felelősséget vállalni azért, ami már jóvátehetetlen.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 115
-  },
-  {
-    "id": "tt37749739",
-    "type": "movie",
-    "name": "A Challenger űrkatasztrófa: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 77
+    "seeders": 53
   }
 ]
