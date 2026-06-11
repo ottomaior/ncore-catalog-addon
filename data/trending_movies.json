@@ -1,5 +1,39 @@
 [
   {
+    "id": "tt20358190",
+    "type": "movie",
+    "name": "Keserű arany",
+    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Western",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 40
+  },
+  {
+    "id": "tt28996126",
+    "type": "movie",
+    "name": "Senki 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/6foKAzwxZ6afnKBp6TLAJEYFGSX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Ebben a következő fejezetben Hutch reméli, hogy maga mögött hagyhatja a káoszt, és élvezheti családjával a régóta szükséges vakációt. De bár ezúttal talán nem a bajt keresi, a bajnak megvan a módja, hogy megtalálja őt...",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 57
+  },
+  {
     "id": "tt17490712",
     "type": "movie",
     "name": "Mortal Kombat 2",
@@ -14,7 +48,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 3929
+    "seeders": 3756
   },
   {
     "id": "tt11378946",
@@ -30,7 +64,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 666
+    "seeders": 786
   },
   {
     "id": "tt6341826",
@@ -46,13 +80,13 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 745
+    "seeders": 668
   },
   {
     "id": "tt38681832",
     "type": "movie",
     "name": "Kolory zła: Czerń",
-    "poster": "https://image.tmdb.org/t/p/w500/v6J7FYPywQFF8ANoRRtceqIGpDM.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
@@ -63,7 +97,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 179
+    "seeders": 163
   },
   {
     "id": "tt27552099",
@@ -80,7 +114,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1155
+    "seeders": 1039
   },
   {
     "id": "tt33397980",
@@ -96,7 +130,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 452
+    "seeders": 397
   },
   {
     "id": "tt34567009",
@@ -111,7 +145,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 72
+    "seeders": 66
   },
   {
     "id": "tt28650488",
@@ -130,7 +164,23 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 97
+    "seeders": 96
+  },
+  {
+    "id": "tt32129938",
+    "type": "movie",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 200
   },
   {
     "id": "tt33978029",
@@ -147,55 +197,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 76
-  },
-  {
-    "id": "tt32129938",
-    "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 236
-  },
-  {
-    "id": "tt30210139",
-    "type": "movie",
-    "name": "Megszállottak",
-    "poster": "https://image.tmdb.org/t/p/w500/4KXlxaILROkq1YQrUheYOgZNgYo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A régész Sofia szerint az ősi görög agyagedények hangokat rögzítettek, mint egy primitív bakelitlemez. Egy távoli szigetre utazik, hogy bizonyítsa elméletét volt sógora, egy cinikus szobrász segítségével.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 257
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 140
+    "seeders": 67
   },
   {
     "id": "tt26443616",
@@ -214,7 +216,39 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 186
+    "seeders": 190
+  },
+  {
+    "id": "tt30210139",
+    "type": "movie",
+    "name": "Megszállottak",
+    "poster": "https://image.tmdb.org/t/p/w500/4KXlxaILROkq1YQrUheYOgZNgYo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A régész Sofia szerint az ősi görög agyagedények hangokat rögzítettek, mint egy primitív bakelitlemez. Egy távoli szigetre utazik, hogy bizonyítsa elméletét volt sógora, egy cinikus szobrász segítségével.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 220
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 128
   },
   {
     "id": "tt38897659",
@@ -232,7 +266,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 122
+    "seeders": 100
   },
   {
     "id": "tt29550683",
@@ -248,7 +282,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 322
+    "seeders": 292
   },
   {
     "id": "tt37961742",
@@ -265,23 +299,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 113
-  },
-  {
-    "id": "tt33502160",
-    "type": "movie",
-    "name": "A kéz, amely a bölcsőt ringatja",
-    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 240
+    "seeders": 103
   },
   {
     "id": "tt39228706",
@@ -300,7 +318,23 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 183
+    "seeders": 173
+  },
+  {
+    "id": "tt33502160",
+    "type": "movie",
+    "name": "A kéz, amely a bölcsőt ringatja",
+    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 209
   },
   {
     "id": "tt40618609",
@@ -315,7 +349,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 57
+    "seeders": 56
   },
   {
     "id": "tt26749593",
@@ -332,7 +366,24 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 126
+    "seeders": 114
+  },
+  {
+    "id": "tt32537226",
+    "type": "movie",
+    "name": "Bűnös vadászidény",
+    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 189
   },
   {
     "id": "tt31322753",
@@ -348,40 +399,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 67
+    "seeders": 59
   },
   {
-    "id": "tt32537226",
+    "id": "tt30519830",
     "type": "movie",
-    "name": "Bűnös vadászidény",
-    "poster": "https://image.tmdb.org/t/p/w500/xCmM0NO9QmNKf5Tctzyl1ZiEMxu.jpg",
+    "name": "Tél Szokcsóban",
+    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy férfi és lánya segítséget és menedéket nyújtanak egy sérült nőnek az erdőben álló eldugott házukban. Hamarosan azonban kétségbeesett küzdelmet kell vívniuk a túlélésért, amikor egy kegyetlen drogbáró és emberei megérkeznek, hogy elvigyék a nőt.",
-    "imdbRating": 6.9,
+    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
+    "imdbRating": 6.7,
     "releaseInfo": "2025",
     "genres": [
-      "Akció",
-      "Dráma",
-      "Thriller"
+      "Dráma"
     ],
-    "seeders": 201
-  },
-  {
-    "id": "tt42192165",
-    "type": "movie",
-    "name": "A Rachel Nickell-gyilkosság",
-    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 64
+    "seeders": 63
   },
   {
     "id": "tt32793488",
@@ -398,22 +431,23 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 122
+    "seeders": 114
   },
   {
-    "id": "tt30519830",
+    "id": "tt42192165",
     "type": "movie",
-    "name": "Tél Szokcsóban",
-    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
+    "name": "A Rachel Nickell-gyilkosság",
+    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Dokumentum",
+      "Bűnügyi"
     ],
-    "seeders": 66
+    "seeders": 55
   },
   {
     "id": "tt30268321",
@@ -428,7 +462,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 43
+    "seeders": 39
   },
   {
     "id": "tt1757678",
@@ -445,22 +479,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 90
-  },
-  {
-    "id": "tt37749739",
-    "type": "movie",
-    "name": "A Challenger űrkatasztrófa: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 89
+    "seeders": 80
   },
   {
     "id": "tt39088896",
@@ -477,22 +496,6 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 68
-  },
-  {
-    "id": "tt16341624",
-    "type": "movie",
-    "name": "Álmaimban a dal",
-    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 42
+    "seeders": 58
   }
 ]
