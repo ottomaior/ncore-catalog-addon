@@ -1,21 +1,5 @@
 [
   {
-    "id": "tt42863533",
-    "type": "movie",
-    "name": "Maternal Instinct",
-    "poster": "https://image.tmdb.org/t/p/w500/sSY1K2wENhlpAEo2ASrtsezn0YH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 52
-  },
-  {
     "id": "tt17490712",
     "type": "movie",
     "name": "Mortal Kombat 2",
@@ -23,14 +7,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
-    "imdbRating": 7.9,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 3416
+    "seeders": 131
   },
   {
     "id": "tt11378946",
@@ -46,7 +30,23 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 866
+    "seeders": 149
+  },
+  {
+    "id": "tt42863533",
+    "type": "movie",
+    "name": "Maternal Instinct",
+    "poster": "https://image.tmdb.org/t/p/w500/sSY1K2wENhlpAEo2ASrtsezn0YH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 63
   },
   {
     "id": "tt6341826",
@@ -62,7 +62,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 651
+    "seeders": 750
   },
   {
     "id": "tt20358190",
@@ -79,7 +79,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 86
+    "seeders": 94
+  },
+  {
+    "id": "tt38681832",
+    "type": "movie",
+    "name": "Kolory zła: Czerń",
+    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 180
   },
   {
     "id": "tt28996126",
@@ -96,24 +113,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 57
-  },
-  {
-    "id": "tt38681832",
-    "type": "movie",
-    "name": "Kolory zła: Czerń",
-    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 155
+    "seeders": 60
   },
   {
     "id": "tt27552099",
@@ -130,7 +130,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 959
+    "seeders": 1091
   },
   {
     "id": "tt33397980",
@@ -146,22 +146,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 384
-  },
-  {
-    "id": "tt34567009",
-    "type": "movie",
-    "name": "Puskás Ausztráliában",
-    "poster": "https://image.tmdb.org/t/p/w500/nSpFQIg2iyfxLFkB9fx3qTXlMWE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Puskás Ferenc, a legendás magyar csatár a 90-es évek nyitányán pár esztendeig edzőként dolgozott Ausztráliában, a South Melbourne Hellas csapatánál, amely ez idő alatt a kiesés széléről a tabella élére ugrott. A 13 éven át forgatott dokumentumfilm erről a hihetetlen sikertörténetről mesél, számos mulatságos vagy felemelő interjúban a régi munkatársakkal és csapattagokkal, középpontba állítva a Hellas egyik hajdani játékosát, Ange Postecoglou-t, aki azóta maga is világhírű futballedző lett, nem kis mértékben a Puskással töltött közös évek hatására.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 63
+    "seeders": 449
   },
   {
     "id": "tt28650488",
@@ -180,7 +165,22 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 90
+    "seeders": 99
+  },
+  {
+    "id": "tt34567009",
+    "type": "movie",
+    "name": "Puskás Ausztráliában",
+    "poster": "https://image.tmdb.org/t/p/w500/nSpFQIg2iyfxLFkB9fx3qTXlMWE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Puskás Ferenc, a legendás magyar csatár a 90-es évek nyitányán pár esztendeig edzőként dolgozott Ausztráliában, a South Melbourne Hellas csapatánál, amely ez idő alatt a kiesés széléről a tabella élére ugrott. A 13 éven át forgatott dokumentumfilm erről a hihetetlen sikertörténetről mesél, számos mulatságos vagy felemelő interjúban a régi munkatársakkal és csapattagokkal, középpontba állítva a Hellas egyik hajdani játékosát, Ange Postecoglou-t, aki azóta maga is világhírű futballedző lett, nem kis mértékben a Puskással töltött közös évek hatására.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 65
   },
   {
     "id": "tt32129938",
@@ -196,7 +196,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 187
+    "seeders": 221
   },
   {
     "id": "tt30210139",
@@ -212,24 +212,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 220
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 65
+    "seeders": 243
   },
   {
     "id": "tt26443616",
@@ -248,7 +231,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 177
+    "seeders": 192
   },
   {
     "id": "tt4357198",
@@ -264,7 +247,24 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 120
+    "seeders": 141
+  },
+  {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt38897659",
@@ -282,24 +282,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 102
-  },
-  {
-    "id": "tt37961742",
-    "type": "movie",
-    "name": "A mexikói focivébé",
-    "poster": "https://image.tmdb.org/t/p/w500/ie0evW3npWrB25prNSKOdlEamSd.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 107
+    "seeders": 110
   },
   {
     "id": "tt29550683",
@@ -315,7 +298,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 257
+    "seeders": 294
   },
   {
     "id": "tt39228706",
@@ -334,7 +317,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 165
+    "seeders": 187
   },
   {
     "id": "tt33502160",
@@ -350,7 +333,24 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 208
+    "seeders": 235
+  },
+  {
+    "id": "tt37961742",
+    "type": "movie",
+    "name": "A mexikói focivébé",
+    "poster": "https://image.tmdb.org/t/p/w500/ie0evW3npWrB25prNSKOdlEamSd.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 111
   },
   {
     "id": "tt26749593",
@@ -367,7 +367,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 112
+    "seeders": 120
   },
   {
     "id": "tt32537226",
@@ -384,7 +384,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 183
+    "seeders": 185
   },
   {
     "id": "tt40618609",
@@ -399,7 +399,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 45
+    "seeders": 51
   },
   {
     "id": "tt31322753",
@@ -415,7 +415,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 53
+    "seeders": 56
   },
   {
     "id": "tt32793488",
@@ -432,7 +432,24 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 112
+    "seeders": 122
+  },
+  {
+    "id": "tt1757678",
+    "type": "movie",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 88
   },
   {
     "id": "tt30519830",
@@ -447,7 +464,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 53
+    "seeders": 57
   },
   {
     "id": "tt42192165",
@@ -463,37 +480,21 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 47
+    "seeders": 51
   },
   {
-    "id": "tt30268321",
+    "id": "tt37749739",
     "type": "movie",
-    "name": "Eleanor, a lenyűgöző",
-    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
+    "name": "A Challenger űrkatasztrófa: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
-    "imdbRating": 7.0,
+    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
+    "imdbRating": null,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma"
+      "Dokumentum"
     ],
-    "seeders": 36
-  },
-  {
-    "id": "tt16341624",
-    "type": "movie",
-    "name": "Álmaimban a dal",
-    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 39
+    "seeders": 87
   }
 ]
