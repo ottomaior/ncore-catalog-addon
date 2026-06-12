@@ -1,5 +1,38 @@
 [
   {
+    "id": "tt17490712",
+    "type": "movie",
+    "name": "Mortal Kombat 2",
+    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Kaland"
+    ],
+    "seeders": 2781
+  },
+  {
+    "id": "tt11378946",
+    "type": "movie",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 679
+  },
+  {
     "id": "tt20358190",
     "type": "movie",
     "name": "Keserű arany",
@@ -14,7 +47,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 40
+    "seeders": 61
+  },
+  {
+    "id": "tt6341826",
+    "type": "movie",
+    "name": "Egy szempillantás alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/24trP0Pkjw5g7P1KwoQAXPf0nd8.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Három, évezredeken átívelő történet fonódik össze, miközben a remény, a kötődés és az élet körforgása áll a középpontban.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Dráma"
+    ],
+    "seeders": 543
   },
   {
     "id": "tt28996126",
@@ -31,56 +80,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 57
-  },
-  {
-    "id": "tt17490712",
-    "type": "movie",
-    "name": "Mortal Kombat 2",
-    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Kaland"
-    ],
-    "seeders": 3756
-  },
-  {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 786
-  },
-  {
-    "id": "tt6341826",
-    "type": "movie",
-    "name": "Egy szempillantás alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/24trP0Pkjw5g7P1KwoQAXPf0nd8.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Három, évezredeken átívelő történet fonódik össze, miközben a remény, a kötődés és az élet körforgása áll a középpontban.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Dráma"
-    ],
-    "seeders": 668
+    "seeders": 52
   },
   {
     "id": "tt38681832",
@@ -90,14 +90,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.8,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 163
+    "seeders": 145
   },
   {
     "id": "tt27552099",
@@ -114,7 +114,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1039
+    "seeders": 822
   },
   {
     "id": "tt33397980",
@@ -124,13 +124,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
-    "imdbRating": 6.6,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 397
+    "seeders": 307
   },
   {
     "id": "tt34567009",
@@ -145,7 +145,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 66
+    "seeders": 58
   },
   {
     "id": "tt28650488",
@@ -164,7 +164,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 96
+    "seeders": 86
   },
   {
     "id": "tt32129938",
@@ -180,7 +180,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 200
+    "seeders": 162
   },
   {
     "id": "tt33978029",
@@ -197,7 +197,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 67
+    "seeders": 55
   },
   {
     "id": "tt26443616",
@@ -216,7 +216,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 190
+    "seeders": 158
   },
   {
     "id": "tt30210139",
@@ -232,7 +232,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 220
+    "seeders": 183
   },
   {
     "id": "tt4357198",
@@ -248,7 +248,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 128
+    "seeders": 103
   },
   {
     "id": "tt38897659",
@@ -258,7 +258,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Selin egy nyaralóban rejtélyes módon vissza utazik az időben, és hirtelen saját édesanyja fiatalkorában találja magát. A múltban átélt események és találkozások lehetőséget adnak neki arra, hogy megváltoztassa a családja sorsát, miközben teljesen újjáépíti a saját életét és jövőjét",
-    "imdbRating": 8.2,
+    "imdbRating": 8.8,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
@@ -266,7 +266,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 100
+    "seeders": 98
   },
   {
     "id": "tt29550683",
@@ -282,7 +282,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 292
+    "seeders": 216
   },
   {
     "id": "tt37961742",
@@ -292,14 +292,30 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
-    "imdbRating": 7.3,
+    "imdbRating": 7.4,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 103
+    "seeders": 85
+  },
+  {
+    "id": "tt33502160",
+    "type": "movie",
+    "name": "A kéz, amely a bölcsőt ringatja",
+    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 178
   },
   {
     "id": "tt39228706",
@@ -318,38 +334,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 173
-  },
-  {
-    "id": "tt33502160",
-    "type": "movie",
-    "name": "A kéz, amely a bölcsőt ringatja",
-    "poster": "https://image.tmdb.org/t/p/w500/tAHC41afTIHwAWHI7JrTz6NZGGS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Feszült és lebilincselő pszichológiai thriller a klasszikus 1992-es film nyomán, amely hátborzongató precizitással bontja le a békés családi otthon illúzióját. Egy jómódú külvárosi anya új bébiszittert vesz fel, akiről aztán kiderül, hogy nem az, akinek mondja magát.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 209
-  },
-  {
-    "id": "tt40618609",
-    "type": "movie",
-    "name": "Az 1994-es vébé: A dicsőséges Brazília",
-    "poster": "https://image.tmdb.org/t/p/w500/7vW1BD3416Ev2rdB7CHKXGnzdGv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Brazília útját követi nyomon a negyedik világbajnokság megnyeréséig 1994-ben, játékosokkal készült interjúkkal és a torna eddig nem látott kulisszák mögötti felvételeivel.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 56
+    "seeders": 131
   },
   {
     "id": "tt26749593",
@@ -366,7 +351,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 114
+    "seeders": 98
   },
   {
     "id": "tt32537226",
@@ -383,7 +368,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 189
+    "seeders": 151
+  },
+  {
+    "id": "tt40618609",
+    "type": "movie",
+    "name": "Az 1994-es vébé: A dicsőséges Brazília",
+    "poster": "https://image.tmdb.org/t/p/w500/7vW1BD3416Ev2rdB7CHKXGnzdGv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Brazília útját követi nyomon a negyedik világbajnokság megnyeréséig 1994-ben, játékosokkal készült interjúkkal és a torna eddig nem látott kulisszák mögötti felvételeivel.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 41
   },
   {
     "id": "tt31322753",
@@ -399,55 +399,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 59
-  },
-  {
-    "id": "tt30519830",
-    "type": "movie",
-    "name": "Tél Szokcsóban",
-    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 63
-  },
-  {
-    "id": "tt32793488",
-    "type": "movie",
-    "name": "Az orvosdoktor Londonban",
-    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Rejtély",
-      "Dráma"
-    ],
-    "seeders": 114
-  },
-  {
-    "id": "tt42192165",
-    "type": "movie",
-    "name": "A Rachel Nickell-gyilkosság",
-    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 55
+    "seeders": 51
   },
   {
     "id": "tt30268321",
@@ -465,37 +417,83 @@
     "seeders": 39
   },
   {
-    "id": "tt1757678",
+    "id": "tt30519830",
     "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
+    "name": "Tél Szokcsóban",
+    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.6,
+    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
+    "imdbRating": 6.7,
     "releaseInfo": "2025",
     "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 80
-  },
-  {
-    "id": "tt39088896",
-    "type": "movie",
-    "name": "Adult Swim: Az elefánt",
-    "poster": "https://image.tmdb.org/t/p/w500/hesk0yJrkojyuZcyZ4KRxMtAQNK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Különös, háromfelvonásos felnőtt animációs különkiadás, amelyben négy ismert alkotó egymástól függetlenül formálja tovább ugyanannak a történetnek a részeit, miközben egy emberi önkeresésről szóló, többféle animációs stílusban kibomló, enigmatikus utazás rajzolódik ki.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 58
+    "seeders": 54
+  },
+  {
+    "id": "tt32793488",
+    "type": "movie",
+    "name": "Az orvosdoktor Londonban",
+    "poster": "https://image.tmdb.org/t/p/w500/fghzenCFUk3Y1MQXPIsKyOmluMt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Menekülve Iszfahánból, Rob Cole orvos Londonba érkezik, azzal a szándékkal, hogy terjessze az orvosi tudást. A királyi udvari intrikákba bonyolódva küzd a betegek életéért és az elismerésért, miközben szembenéz az emberi szenvedés enyhítésének mélyreható kihívásával.  (Csillag Lajos)R3",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Rejtély",
+      "Dráma"
+    ],
+    "seeders": 94
+  },
+  {
+    "id": "tt42192165",
+    "type": "movie",
+    "name": "A Rachel Nickell-gyilkosság",
+    "poster": "https://image.tmdb.org/t/p/w500/db9nxdSqZ8Mh6RDRreF1HFsz9hx.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 45
+  },
+  {
+    "id": "tt16341624",
+    "type": "movie",
+    "name": "Álmaimban a dal",
+    "poster": "https://image.tmdb.org/t/p/w500/6aFsJeeJKJ7JDsTuB5rLmMoAbRW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tehetséges tinédzser dalszerző az elhunyt apja zenei örökségének árnyékában él, és amikor apja debütáló albumának huszadik évfordulója újra felszakítja a rég elfojtott elhagyatottság-érzését, kénytelen szembenézni a múltjával és azzal, mit jelent számára valójában a család, a veszteség és a saját hangja.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 37
+  },
+  {
+    "id": "tt33400055",
+    "type": "movie",
+    "name": "Kika",
+    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 69
   }
 ]
