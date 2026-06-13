@@ -14,7 +14,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 3010
+    "seeders": 3998
   },
   {
     "id": "tt11378946",
@@ -30,23 +30,23 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 869
+    "seeders": 1121
   },
   {
     "id": "tt29540862",
     "type": "movie",
     "name": "Elátkozott esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/cMTUGbnQ6OniBi2JQcOyUPxqc7x.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 136
+    "seeders": 194
   },
   {
     "id": "tt6341826",
@@ -62,23 +62,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 575
-  },
-  {
-    "id": "tt42863533",
-    "type": "movie",
-    "name": "Anyai ösztön: A Taylor Parker-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/sSY1K2wENhlpAEo2ASrtsezn0YH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy texasi állami rendőr 2020-ban megállított egy nőt, aki kiszámíthatatlanul vezetett az autópályán, a nő azt állította, hogy éppen most szült, de a története nem állt össze.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 60
+    "seeders": 710
   },
   {
     "id": "tt20358190",
@@ -95,7 +79,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 94
+    "seeders": 105
+  },
+  {
+    "id": "tt42863533",
+    "type": "movie",
+    "name": "Anyai ösztön: A Taylor Parker-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy texasi állami rendőr 2020-ban megállított egy nőt, aki kiszámíthatatlanul vezetett az autópályán, a nő azt állította, hogy éppen most szült, de a története nem állt össze.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 65
   },
   {
     "id": "tt27552099",
@@ -112,7 +112,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 836
+    "seeders": 1054
   },
   {
     "id": "tt38681832",
@@ -129,7 +129,23 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 140
+    "seeders": 169
+  },
+  {
+    "id": "tt33397980",
+    "type": "movie",
+    "name": "Munkahelyi románc",
+    "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 414
   },
   {
     "id": "tt28996126",
@@ -146,23 +162,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 54
-  },
-  {
-    "id": "tt33397980",
-    "type": "movie",
-    "name": "Munkahelyi románc",
-    "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 307
+    "seeders": 59
   },
   {
     "id": "tt28650488",
@@ -181,7 +181,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 89
+    "seeders": 99
   },
   {
     "id": "tt32129938",
@@ -197,7 +197,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 173
+    "seeders": 203
   },
   {
     "id": "tt34567009",
@@ -212,7 +212,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 57
+    "seeders": 65
   },
   {
     "id": "tt26443616",
@@ -231,7 +231,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 167
+    "seeders": 191
   },
   {
     "id": "tt30210139",
@@ -247,7 +247,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 174
+    "seeders": 208
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 126
   },
   {
     "id": "tt33978029",
@@ -264,23 +280,23 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 55
+    "seeders": 66
   },
   {
-    "id": "tt4357198",
+    "id": "tt29550683",
     "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.1,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Thriller"
+      "Horror",
+      "Rejtély"
     ],
-    "seeders": 99
+    "seeders": 293
   },
   {
     "id": "tt38897659",
@@ -298,23 +314,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 90
-  },
-  {
-    "id": "tt29550683",
-    "type": "movie",
-    "name": "Halálsíp",
-    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 223
+    "seeders": 109
   },
   {
     "id": "tt39228706",
@@ -333,7 +333,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 149
+    "seeders": 181
   },
   {
     "id": "tt33502160",
@@ -349,7 +349,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 182
+    "seeders": 212
   },
   {
     "id": "tt37961742",
@@ -359,14 +359,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
-    "imdbRating": 7.3,
+    "imdbRating": 7.4,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 85
+    "seeders": 102
   },
   {
     "id": "tt26749593",
@@ -383,7 +383,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 96
+    "seeders": 107
   },
   {
     "id": "tt40618609",
@@ -398,23 +398,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 46
-  },
-  {
-    "id": "tt31322753",
-    "type": "movie",
-    "name": "Ikertelenül",
-    "poster": "https://image.tmdb.org/t/p/w500/yVaqJ4hY2yLnyxxKdksw39v6ugj.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Két gyászoló fiatalember valószínűtlen barátságot köt egy ikergyászokat támogató csoportban. Roman  és Dennis vigaszt és identitást keresnek, és hamar elválaszthatatlanná válnak a csoporton kívül. De mikor a sötét múlt napvilágra kerül, minden más lesz, mint aminek tűnik, mert mindketten olyan titkokat őriznek, amelyek mindent tisztázhatnak.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 46
+    "seeders": 54
   },
   {
     "id": "tt32793488",
@@ -431,7 +415,23 @@
       "Rejtély",
       "Dráma"
     ],
-    "seeders": 92
+    "seeders": 121
+  },
+  {
+    "id": "tt31322753",
+    "type": "movie",
+    "name": "Ikertelenül",
+    "poster": "https://image.tmdb.org/t/p/w500/yVaqJ4hY2yLnyxxKdksw39v6ugj.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Két gyászoló fiatalember valószínűtlen barátságot köt egy ikergyászokat támogató csoportban. Roman  és Dennis vigaszt és identitást keresnek, és hamar elválaszthatatlanná válnak a csoporton kívül. De mikor a sötét múlt napvilágra kerül, minden más lesz, mint aminek tűnik, mert mindketten olyan titkokat őriznek, amelyek mindent tisztázhatnak.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 49
   },
   {
     "id": "tt42192165",
@@ -447,7 +447,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 49
+    "seeders": 55
   },
   {
     "id": "tt30519830",
@@ -462,7 +462,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 48
+    "seeders": 54
   },
   {
     "id": "tt37749739",
@@ -477,22 +477,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 71
+    "seeders": 79
   },
   {
-    "id": "tt33400055",
+    "id": "tt1757678",
     "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 5.9,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.6,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
     ],
-    "seeders": 70
+    "seeders": 76
   }
 ]
