@@ -1,5 +1,39 @@
 [
   {
+    "id": "tt31728330",
+    "type": "movie",
+    "name": "Meg fognak ölni",
+    "poster": "https://image.tmdb.org/t/p/w500/o4JzijVhg0SzyjTc4kyTHu3kgLX.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 72
+  },
+  {
+    "id": "tt17490712",
+    "type": "movie",
+    "name": "Mortal Kombat 2",
+    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Kaland"
+    ],
+    "seeders": 392
+  },
+  {
     "id": "tt11378946",
     "type": "movie",
     "name": "Michael",
@@ -29,24 +63,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 375
-  },
-  {
-    "id": "tt17490712",
-    "type": "movie",
-    "name": "Mortal Kombat 2",
-    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Kaland"
-    ],
-    "seeders": 209
+    "seeders": 400
   },
   {
     "id": "tt6341826",
@@ -62,7 +79,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 885
+    "seeders": 860
   },
   {
     "id": "tt29540862",
@@ -78,7 +95,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 306
+    "seeders": 298
   },
   {
     "id": "tt27552099",
@@ -95,7 +112,7 @@
       "Sci-Fi",
       "Bűnügyi"
     ],
-    "seeders": 1224
+    "seeders": 1165
   },
   {
     "id": "tt33397980",
@@ -111,7 +128,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 474
+    "seeders": 438
   },
   {
     "id": "tt20358190",
@@ -128,7 +145,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 129
+    "seeders": 120
   },
   {
     "id": "tt38681832",
@@ -138,14 +155,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 190
+    "seeders": 181
   },
   {
     "id": "tt42863533",
@@ -155,13 +172,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
-    "imdbRating": 7.2,
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 66
+    "seeders": 70
   },
   {
     "id": "tt26443616",
@@ -180,23 +197,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 246
-  },
-  {
-    "id": "tt32129938",
-    "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 227
+    "seeders": 236
   },
   {
     "id": "tt28650488",
@@ -215,7 +216,23 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 119
+    "seeders": 120
+  },
+  {
+    "id": "tt32129938",
+    "type": "movie",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 211
   },
   {
     "id": "tt28996126",
@@ -232,7 +249,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 66
+    "seeders": 62
   },
   {
     "id": "tt30210139",
@@ -248,7 +265,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 227
+    "seeders": 210
   },
   {
     "id": "tt4357198",
@@ -264,39 +281,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 136
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 73
-  },
-  {
-    "id": "tt34567009",
-    "type": "movie",
-    "name": "Puskás Ausztráliában",
-    "poster": "https://image.tmdb.org/t/p/w500/nSpFQIg2iyfxLFkB9fx3qTXlMWE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Puskás Ferenc, a legendás magyar csatár a 90-es évek nyitányán pár esztendeig edzőként dolgozott Ausztráliában, a South Melbourne Hellas csapatánál, amely ez idő alatt a kiesés széléről a tabella élére ugrott. A 13 éven át forgatott dokumentumfilm erről a hihetetlen sikertörténetről mesél, számos mulatságos vagy felemelő interjúban a régi munkatársakkal és csapattagokkal, középpontba állítva a Hellas egyik hajdani játékosát, Ange Postecoglou-t, aki azóta maga is világhírű futballedző lett, nem kis mértékben a Puskással töltött közös évek hatására.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 58
+    "seeders": 139
   },
   {
     "id": "tt39228706",
@@ -315,25 +300,24 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 203
+    "seeders": 201
   },
   {
-    "id": "tt38897659",
+    "id": "tt33978029",
     "type": "movie",
-    "name": "A nyaraló",
-    "poster": "https://image.tmdb.org/t/p/w500/kA6e4wmyulZn76xBd5Bq29PZwnb.jpg",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Selin egy nyaralóban rejtélyes módon vissza utazik az időben, és hirtelen saját édesanyja fiatalkorában találja magát. A múltban átélt események és találkozások lehetőséget adnak neki arra, hogy megváltoztassa a családja sorsát, miközben teljesen újjáépíti a saját életét és jövőjét",
-    "imdbRating": 7.5,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
-      "Családi",
-      "Dráma",
-      "Rejtély"
+      "Thriller",
+      "Horror",
+      "Vígjáték"
     ],
-    "seeders": 118
+    "seeders": 71
   },
   {
     "id": "tt33502160",
@@ -349,7 +333,40 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 240
+    "seeders": 222
+  },
+  {
+    "id": "tt34567009",
+    "type": "movie",
+    "name": "Puskás Ausztráliában",
+    "poster": "https://image.tmdb.org/t/p/w500/nSpFQIg2iyfxLFkB9fx3qTXlMWE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Puskás Ferenc, a legendás magyar csatár a 90-es évek nyitányán pár esztendeig edzőként dolgozott Ausztráliában, a South Melbourne Hellas csapatánál, amely ez idő alatt a kiesés széléről a tabella élére ugrott. A 13 éven át forgatott dokumentumfilm erről a hihetetlen sikertörténetről mesél, számos mulatságos vagy felemelő interjúban a régi munkatársakkal és csapattagokkal, középpontba állítva a Hellas egyik hajdani játékosát, Ange Postecoglou-t, aki azóta maga is világhírű futballedző lett, nem kis mértékben a Puskással töltött közös évek hatására.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 52
+  },
+  {
+    "id": "tt38897659",
+    "type": "movie",
+    "name": "A nyaraló",
+    "poster": "https://image.tmdb.org/t/p/w500/kA6e4wmyulZn76xBd5Bq29PZwnb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Selin egy nyaralóban rejtélyes módon vissza utazik az időben, és hirtelen saját édesanyja fiatalkorában találja magát. A múltban átélt események és találkozások lehetőséget adnak neki arra, hogy megváltoztassa a családja sorsát, miközben teljesen újjáépíti a saját életét és jövőjét",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Családi",
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 96
   },
   {
     "id": "tt37961742",
@@ -366,7 +383,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 113
+    "seeders": 108
   },
   {
     "id": "tt26749593",
@@ -383,7 +400,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 120
+    "seeders": 118
   },
   {
     "id": "tt40618609",
@@ -398,7 +415,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 48
+    "seeders": 53
   },
   {
     "id": "tt1757678",
@@ -415,7 +432,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 102
+    "seeders": 95
   },
   {
     "id": "tt31322753",
@@ -431,38 +448,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 49
-  },
-  {
-    "id": "tt42192165",
-    "type": "movie",
-    "name": "A Rachel Nickell-gyilkosság",
-    "poster": "https://image.tmdb.org/t/p/w500/ibTNWrpUGsSuv7PbVRIgr97jDVs.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 54
-  },
-  {
-    "id": "tt37749739",
-    "type": "movie",
-    "name": "A Challenger űrkatasztrófa: Percről percre",
-    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 86
+    "seeders": 51
   },
   {
     "id": "tt39088896",
@@ -479,22 +465,37 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 64
+    "seeders": 68
   },
   {
-    "id": "tt33400055",
+    "id": "tt42192165",
     "type": "movie",
-    "name": "Kika",
-    "poster": "https://image.tmdb.org/t/p/w500/c6HGOGRYXVFl8dq88Eb5Jnsj7PL.jpg",
+    "name": "A Rachel Nickell-gyilkosság",
+    "poster": "https://image.tmdb.org/t/p/w500/ibTNWrpUGsSuv7PbVRIgr97jDVs.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 53
+  },
+  {
+    "id": "tt37749739",
+    "type": "movie",
+    "name": "A Challenger űrkatasztrófa: Percről percre",
+    "poster": "https://image.tmdb.org/t/p/w500/pjVFKSw9M0gqnGpVh8slGSMqboI.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Kika a második gyermekét várva hirtelen elveszíti társát, ami teljesen összetöri, ráadásul anyagilag is nehéz helyzetbe kerül. Újra kell gondolnia, mi a fontos: először is gyorsan pénzhez jutni, másodsorban pedig erősnek maradni. Nem várt segítséget kap majd koszos fehérneműktől, dildóktól és neurotikus szülőktől.",
-    "imdbRating": 5.9,
+    "description": "A dokumentumfilm az STS-51-L, ismertebb nevén a Challenger katasztrófáját tárja fel. A milliók által követett kilövés tragikus leckébe fordul a nyomásról, semmibe vett figyelmeztetésekről és elnémított hangokról, feltárva a NASA egyik legmeghatározóbb pillanatának emberi árát.",
+    "imdbRating": null,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Dokumentum"
     ],
-    "seeders": 78
+    "seeders": 76
   }
 ]
