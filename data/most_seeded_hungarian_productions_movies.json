@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999992
+"seeders": 999991
 },
 {
 "id": "tt29344974",
@@ -30,7 +30,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999988
+"seeders": 999985
 },
 {
 "id": "tt29567915",
@@ -40,13 +40,13 @@
 "posterShape": "poster",
 "year": 2025,
 "description": "A második világháború végén élve sikerül elfogni az egyik legfőbb náci vezetőt és háborús bűnöst, Hermann Göringet. A szövetséges országok precedens nélküli jogi lépésre készülnek, amikor bíróság elé állítják Göringet, hogy feleljen a háborús tetteiért. A történet középpontjában egy amerikai pszichiáter áll, akinek az a feladata, hogy megállapítsa, alkalmasak-e a náci vezetők arra, hogy a nemzetközi bíróság előtt számon kérjék őket háborús bűneik miatt. Göring nagyon magas intelligenciájú ember, a pszichiáter pedig a beszélgetéseik során egyre inkább a hatása alá kerül.",
-"imdbRating": 7.5,
+"imdbRating": 7.6,
 "releaseInfo": "2025",
 "genres": [
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999983
+"seeders": 999982
 },
 {
 "id": "tt34375721",
@@ -63,7 +63,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999962
+"seeders": 999959
 },
 {
 "id": "tt20672356",
@@ -79,7 +79,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999952
+"seeders": 999948
 },
 {
 "id": "tt0179955",
@@ -96,7 +96,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999897
+"seeders": 999899
 },
 {
 "id": "tt27811640",
@@ -111,52 +111,7 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999878
-},
-{
-"id": "tt38508942",
-"type": "movie",
-"name": "Beléd estem",
-"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
-"imdbRating": 5.0,
-"releaseInfo": "2026",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999864
-},
-{
-"id": "tt1247685",
-"type": "movie",
-"name": "Papírkutyák",
-"poster": "https://image.tmdb.org/t/p/w500/iAIMucUJ7hIEbZbFfQ8xc3uVVdG.jpg",
-"posterShape": "poster",
-"year": 2009,
-"description": "Kuplung és Csumpi, a két kisstílű bűnöző előzetesben ül. Unalmukban felidézik cellatársuknak az általuk elkövetett balhé történetét. A két kárpátaljai magyar sokféle munkából próbált megélni, kevés sikerrel. Így jött az ötlet, a Pénzmegsemmisítő Raktár kirablásának gondolata. A csapat gyorsan összeáll, minden részletet kidolgoznak. Az akciót sikerrel végrehajtják, ám ettől kezdve elpártol tőlük a szerencse, ami elromolhat, az el is romlik, ők meg ártatlanul kocsmai verekedésbe keverednek. Sok mesének egy a vége, a szabaduló cellatárs elhatározza, hogy lelép a rossz helyen lévő pénzzel.",
-"imdbRating": 6.5,
-"releaseInfo": "2009",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999863
-},
-{
-"id": "tt0065067",
-"type": "movie",
-"name": "A tanú",
-"poster": "https://image.tmdb.org/t/p/w500/l6X1hx0Ux5hQYSl7YpQiyIsdzO7.jpg",
-"posterShape": "poster",
-"year": 1979,
-"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
-"imdbRating": 8.1,
-"releaseInfo": "1979",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999849
+"seeders": 999879
 },
 {
 "id": "tt0142632",
@@ -173,7 +128,37 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999844
+"seeders": 999854
+},
+{
+"id": "tt38508942",
+"type": "movie",
+"name": "Beléd estem",
+"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+"imdbRating": 5.0,
+"releaseInfo": "2026",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999851
+},
+{
+"id": "tt0065067",
+"type": "movie",
+"name": "A tanú",
+"poster": "https://image.tmdb.org/t/p/w500/l6X1hx0Ux5hQYSl7YpQiyIsdzO7.jpg",
+"posterShape": "poster",
+"year": 1979,
+"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
+"imdbRating": 8.1,
+"releaseInfo": "1979",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999841
 },
 {
 "id": "tt31065630",
@@ -189,21 +174,6 @@
 "Dráma"
 ],
 "seeders": 999838
-},
-{
-"id": "tt40381358",
-"type": "movie",
-"name": "Tavaszi szél - az ébredés",
-"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
-"imdbRating": 8.4,
-"releaseInfo": "2026",
-"genres": [
-"Dokumentum"
-],
-"seeders": 999837
 },
 {
 "id": "tt0131636",
@@ -237,6 +207,21 @@
 "Kaland"
 ],
 "seeders": 999823
+},
+{
+"id": "tt40381358",
+"type": "movie",
+"name": "Tavaszi szél - az ébredés",
+"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
+"imdbRating": 8.3,
+"releaseInfo": "2026",
+"genres": [
+"Dokumentum"
+],
+"seeders": 999820
 },
 {
 "id": "tt23172090",
@@ -288,6 +273,21 @@
 "Bűnügyi"
 ],
 "seeders": 999798
+},
+{
+"id": "tt1247685",
+"type": "movie",
+"name": "Papírkutyák",
+"poster": "https://image.tmdb.org/t/p/w500/iAIMucUJ7hIEbZbFfQ8xc3uVVdG.jpg",
+"posterShape": "poster",
+"year": 2009,
+"description": "Kuplung és Csumpi, a két kisstílű bűnöző előzetesben ül. Unalmukban felidézik cellatársuknak az általuk elkövetett balhé történetét. A két kárpátaljai magyar sokféle munkából próbált megélni, kevés sikerrel. Így jött az ötlet, a Pénzmegsemmisítő Raktár kirablásának gondolata. A csapat gyorsan összeáll, minden részletet kidolgoznak. Az akciót sikerrel végrehajtják, ám ettől kezdve elpártol tőlük a szerencse, ami elromolhat, az el is romlik, ők meg ártatlanul kocsmai verekedésbe keverednek. Sok mesének egy a vége, a szabaduló cellatárs elhatározza, hogy lelép a rossz helyen lévő pénzzel.",
+"imdbRating": 6.5,
+"releaseInfo": "2009",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999794
 },
 {
 "id": "tt37357756",
