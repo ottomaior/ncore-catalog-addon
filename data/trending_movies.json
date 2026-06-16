@@ -13,7 +13,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 135
+    "seeders": 159
   },
   {
     "id": "tt11378946",
@@ -29,22 +29,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1117
-  },
-  {
-    "id": "tt33022710",
-    "type": "movie",
-    "name": "David Attenborough: Az óceán csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 103
+    "seeders": 1281
   },
   {
     "id": "tt17490712",
@@ -61,7 +46,22 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 370
+    "seeders": 448
+  },
+  {
+    "id": "tt33022710",
+    "type": "movie",
+    "name": "David Attenborough: Az óceán csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 118
   },
   {
     "id": "tt12583926",
@@ -77,23 +77,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 352
+    "seeders": 393
   },
   {
-    "id": "tt4357198",
+    "id": "tt6341826",
     "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "name": "Egy szempillantás alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/24trP0Pkjw5g7P1KwoQAXPf0nd8.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.1,
+    "description": "Három, évezredeken átívelő történet fonódik össze, miközben a remény, a kötődés és az élet körforgása áll a középpontban.",
+    "imdbRating": 5.6,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Thriller"
+      "Sci-Fi",
+      "Dráma"
     ],
-    "seeders": 49
+    "seeders": 713
   },
   {
     "id": "tt31728330",
@@ -110,23 +110,23 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 99
+    "seeders": 104
   },
   {
-    "id": "tt6341826",
+    "id": "tt4357198",
     "type": "movie",
-    "name": "Egy szempillantás alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/24trP0Pkjw5g7P1KwoQAXPf0nd8.jpg",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Három, évezredeken átívelő történet fonódik össze, miközben a remény, a kötődés és az élet körforgása áll a középpontban.",
-    "imdbRating": 5.6,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
-      "Sci-Fi",
-      "Dráma"
+      "Vígjáték",
+      "Thriller"
     ],
-    "seeders": 639
+    "seeders": 57
   },
   {
     "id": "tt29540862",
@@ -142,7 +142,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 232
+    "seeders": 237
   },
   {
     "id": "tt33397980",
@@ -158,7 +158,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 305
+    "seeders": 358
   },
   {
     "id": "tt20358190",
@@ -175,7 +175,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 105
+    "seeders": 107
   },
   {
     "id": "tt38681832",
@@ -192,7 +192,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 126
+    "seeders": 142
   },
   {
     "id": "tt26443616",
@@ -211,7 +211,23 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 189
+    "seeders": 202
+  },
+  {
+    "id": "tt42863533",
+    "type": "movie",
+    "name": "Anyai ösztön: A Taylor Parker-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt28650488",
@@ -230,23 +246,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 106
-  },
-  {
-    "id": "tt42863533",
-    "type": "movie",
-    "name": "Anyai ösztön: A Taylor Parker-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 61
+    "seeders": 110
   },
   {
     "id": "tt32129938",
@@ -262,7 +262,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 150
+    "seeders": 171
   },
   {
     "id": "tt30210139",
@@ -278,7 +278,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 162
+    "seeders": 172
   },
   {
     "id": "tt28996126",
@@ -295,7 +295,26 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 53
+    "seeders": 52
+  },
+  {
+    "id": "tt39228706",
+    "type": "movie",
+    "name": "Milky Subway: A galaktikus expressz - A film",
+    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
+    "imdbRating": 9.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Vígjáték",
+      "Sci-Fi"
+    ],
+    "seeders": 158
   },
   {
     "id": "tt38897659",
@@ -313,26 +332,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 90
-  },
-  {
-    "id": "tt39228706",
-    "type": "movie",
-    "name": "Milky Subway: A galaktikus expressz - A film",
-    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
-    "imdbRating": 9.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Vígjáték",
-      "Sci-Fi"
-    ],
-    "seeders": 139
+    "seeders": 93
   },
   {
     "id": "tt33978029",
@@ -349,22 +349,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 56
-  },
-  {
-    "id": "tt34567009",
-    "type": "movie",
-    "name": "Puskás Ausztráliában",
-    "poster": "https://image.tmdb.org/t/p/w500/nSpFQIg2iyfxLFkB9fx3qTXlMWE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Puskás Ferenc, a legendás magyar csatár a 90-es évek nyitányán pár esztendeig edzőként dolgozott Ausztráliában, a South Melbourne Hellas csapatánál, amely ez idő alatt a kiesés széléről a tabella élére ugrott. A 13 éven át forgatott dokumentumfilm erről a hihetetlen sikertörténetről mesél, számos mulatságos vagy felemelő interjúban a régi munkatársakkal és csapattagokkal, középpontba állítva a Hellas egyik hajdani játékosát, Ange Postecoglou-t, aki azóta maga is világhírű futballedző lett, nem kis mértékben a Puskással töltött közös évek hatására.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 44
+    "seeders": 61
   },
   {
     "id": "tt37961742",
@@ -381,7 +366,22 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 83
+    "seeders": 88
+  },
+  {
+    "id": "tt34567009",
+    "type": "movie",
+    "name": "Puskás Ausztráliában",
+    "poster": "https://image.tmdb.org/t/p/w500/nSpFQIg2iyfxLFkB9fx3qTXlMWE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Puskás Ferenc, a legendás magyar csatár a 90-es évek nyitányán pár esztendeig edzőként dolgozott Ausztráliában, a South Melbourne Hellas csapatánál, amely ez idő alatt a kiesés széléről a tabella élére ugrott. A 13 éven át forgatott dokumentumfilm erről a hihetetlen sikertörténetről mesél, számos mulatságos vagy felemelő interjúban a régi munkatársakkal és csapattagokkal, középpontba állítva a Hellas egyik hajdani játékosát, Ange Postecoglou-t, aki azóta maga is világhírű futballedző lett, nem kis mértékben a Puskással töltött közös évek hatására.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 46
   },
   {
     "id": "tt26749593",
@@ -398,7 +398,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 100
+    "seeders": 99
   },
   {
     "id": "tt31322753",
@@ -414,54 +414,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 46
-  },
-  {
-    "id": "tt1757678",
-    "type": "movie",
-    "name": "Avatar: Tűz és hamu",
-    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 69
-  },
-  {
-    "id": "tt40618609",
-    "type": "movie",
-    "name": "Az 1994-es vébé: A dicsőséges Brazília",
-    "poster": "https://image.tmdb.org/t/p/w500/7vW1BD3416Ev2rdB7CHKXGnzdGv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Brazília útját követi nyomon a negyedik világbajnokság megnyeréséig 1994-ben, játékosokkal készült interjúkkal és a torna eddig nem látott kulisszák mögötti felvételeivel.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 32
-  },
-  {
-    "id": "tt30268321",
-    "type": "movie",
-    "name": "Eleanor, a lenyűgöző",
-    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 37
+    "seeders": 51
   },
   {
     "id": "tt39088896",
@@ -478,21 +431,69 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 53
+    "seeders": 63
   },
   {
-    "id": "tt30519830",
+    "id": "tt1757678",
     "type": "movie",
-    "name": "Tél Szokcsóban",
-    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
+    "name": "Avatar: Tűz és hamu",
+    "poster": "https://image.tmdb.org/t/p/w500/kIEYHWsBIn4gY7t1wR8dnGj1Y9e.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
-    "imdbRating": 6.7,
+    "description": "Az RDA elleni pusztító háború és legidősebb fiuk elvesztése után Jake Sully és Neytiri új fenyegetéssel szembesül Pandorán: a hamu néppel, egy erőszakos és hataloméhes na'vi törzzsel, amelyet a könyörtelen Varang vezet. Jake családjának a túlélésükért és Pandora jövőjéért kell harcolnia egy olyan konfliktusban, amely érzelmi és fizikai határaikig feszíti őket.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 72
+  },
+  {
+    "id": "tt40618609",
+    "type": "movie",
+    "name": "Az 1994-es vébé: A dicsőséges Brazília",
+    "poster": "https://image.tmdb.org/t/p/w500/7vW1BD3416Ev2rdB7CHKXGnzdGv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Brazília útját követi nyomon a negyedik világbajnokság megnyeréséig 1994-ben, játékosokkal készült interjúkkal és a torna eddig nem látott kulisszák mögötti felvételeivel.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 33
+  },
+  {
+    "id": "tt42192165",
+    "type": "movie",
+    "name": "A Rachel Nickell-gyilkosság",
+    "poster": "https://image.tmdb.org/t/p/w500/ibTNWrpUGsSuv7PbVRIgr97jDVs.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm Rachel Nickell 1992-es wimbledoni meggyilkolását vizsgálja, a Colin Stagget jogtalanul megvádoló hibás nyomozást, valamint Robert Napper, a gyilkos végső azonosítását.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 43
+  },
+  {
+    "id": "tt30268321",
+    "type": "movie",
+    "name": "Eleanor, a lenyűgöző",
+    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
+    "imdbRating": 6.9,
     "releaseInfo": "2025",
     "genres": [
       "Dráma"
     ],
-    "seeders": 44
+    "seeders": 36
   }
 ]
