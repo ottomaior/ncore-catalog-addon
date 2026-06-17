@@ -1,9 +1,25 @@
 [
   {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "The Simpsons Extreme Makeover: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/sO2G02tqpiXS1Yor34viBhqOQAH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték"
+    ],
+    "seeders": 100
+  },
+  {
     "id": "tt35332621",
     "type": "movie",
     "name": "Vitrival",
-    "poster": "https://image.tmdb.org/t/p/w500/3aDpjfMj34uvtOthGVy25ttr1Th.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/oXVJjgugUg2R2p8e37yurQDL5xn.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Trendi magyar HD 1080p – nCore.",
@@ -13,23 +29,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 88
+    "seeders": 145
   },
   {
     "id": "tt36958376",
     "type": "movie",
-    "name": "Your Fault: London",
+    "name": "A te hibád: London",
     "poster": "https://image.tmdb.org/t/p/w500/nLxu237EJAisFCYKK48hN9Plobx.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad, és az apja cégénél kezd dolgozni. Távolság húzódik köztük, és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani - mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 85
+    "seeders": 135
   },
   {
     "id": "tt28521744",
@@ -45,7 +61,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 62
+    "seeders": 90
   },
   {
     "id": "tt11378946",
@@ -61,7 +77,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1302
+    "seeders": 1543
   },
   {
     "id": "tt17490712",
@@ -78,7 +94,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 486
+    "seeders": 587
   },
   {
     "id": "tt32250381",
@@ -94,7 +110,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 204
+    "seeders": 249
   },
   {
     "id": "tt12583926",
@@ -110,7 +126,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 379
+    "seeders": 421
   },
   {
     "id": "tt6341826",
@@ -120,13 +136,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Három, évezredeken átívelő történet fonódik össze, miközben a remény, a kötődés és az élet körforgása áll a középpontban.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 719
+    "seeders": 811
   },
   {
     "id": "tt33022710",
@@ -141,7 +157,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 121
+    "seeders": 133
   },
   {
     "id": "tt29540862",
@@ -151,13 +167,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.5,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 232
+    "seeders": 274
   },
   {
     "id": "tt31728330",
@@ -174,23 +190,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 109
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 60
+    "seeders": 114
   },
   {
     "id": "tt33397980",
@@ -206,7 +206,23 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 343
+    "seeders": 400
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 61
   },
   {
     "id": "tt38681832",
@@ -223,7 +239,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 135
+    "seeders": 148
   },
   {
     "id": "tt20358190",
@@ -240,7 +256,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 97
+    "seeders": 106
   },
   {
     "id": "tt26443616",
@@ -259,7 +275,23 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 205
+    "seeders": 233
+  },
+  {
+    "id": "tt32129938",
+    "type": "movie",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 204
   },
   {
     "id": "tt28650488",
@@ -278,23 +310,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 115
-  },
-  {
-    "id": "tt32129938",
-    "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 164
+    "seeders": 119
   },
   {
     "id": "tt30210139",
@@ -310,7 +326,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 172
+    "seeders": 191
   },
   {
     "id": "tt42863533",
@@ -326,7 +342,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 58
+    "seeders": 67
   },
   {
     "id": "tt39228706",
@@ -345,24 +361,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 150
-  },
-  {
-    "id": "tt28996126",
-    "type": "movie",
-    "name": "Senki 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/6foKAzwxZ6afnKBp6TLAJEYFGSX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Ebben a következő fejezetben Hutch reméli, hogy maga mögött hagyhatja a káoszt, és élvezheti családjával a régóta szükséges vakációt. De bár ezúttal talán nem a bajt keresi, a bajnak megvan a módja, hogy megtalálja őt...",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 49
+    "seeders": 177
   },
   {
     "id": "tt38897659",
@@ -380,7 +379,24 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 89
+    "seeders": 99
+  },
+  {
+    "id": "tt28996126",
+    "type": "movie",
+    "name": "Senki 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/6foKAzwxZ6afnKBp6TLAJEYFGSX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Ebben a következő fejezetben Hutch reméli, hogy maga mögött hagyhatja a káoszt, és élvezheti családjával a régóta szükséges vakációt. De bár ezúttal talán nem a bajt keresi, a bajnak megvan a módja, hogy megtalálja őt...",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 51
   },
   {
     "id": "tt33978029",
@@ -397,7 +413,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 56
+    "seeders": 66
   },
   {
     "id": "tt37961742",
@@ -414,7 +430,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 86
+    "seeders": 94
   },
   {
     "id": "tt34567009",
@@ -429,7 +445,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 45
+    "seeders": 49
   },
   {
     "id": "tt26749593",
@@ -446,7 +462,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 88
+    "seeders": 99
   },
   {
     "id": "tt31322753",
@@ -462,7 +478,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 48
+    "seeders": 49
   },
   {
     "id": "tt40618609",
@@ -477,23 +493,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 39
-  },
-  {
-    "id": "tt39088896",
-    "type": "movie",
-    "name": "Adult Swim: Az elefánt",
-    "poster": "https://image.tmdb.org/t/p/w500/hesk0yJrkojyuZcyZ4KRxMtAQNK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Különös, háromfelvonásos felnőtt animációs különkiadás, amelyben négy ismert alkotó egymástól függetlenül formálja tovább ugyanannak a történetnek a részeit, miközben egy emberi önkeresésről szóló, többféle animációs stílusban kibomló, enigmatikus utazás rajzolódik ki.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Sci-Fi",
-      "Dráma"
-    ],
-    "seeders": 56
+    "seeders": 43
   }
 ]
