@@ -13,7 +13,23 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 100
+    "seeders": 186
+  },
+  {
+    "id": "tt36958376",
+    "type": "movie",
+    "name": "A te hibád: London",
+    "poster": "https://image.tmdb.org/t/p/w500/nLxu237EJAisFCYKK48hN9Plobx.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad, és az apja cégénél kezd dolgozni. Távolság húzódik köztük, és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani - mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 162
   },
   {
     "id": "tt35332621",
@@ -29,39 +45,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 145
-  },
-  {
-    "id": "tt36958376",
-    "type": "movie",
-    "name": "A te hibád: London",
-    "poster": "https://image.tmdb.org/t/p/w500/nLxu237EJAisFCYKK48hN9Plobx.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad, és az apja cégénél kezd dolgozni. Távolság húzódik köztük, és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani - mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 135
-  },
-  {
-    "id": "tt28521744",
-    "type": "movie",
-    "name": "Air Mata Buaya",
-    "poster": "https://image.tmdb.org/t/p/w500/inq1DjkhGgayMgu0oVx5cfGeT5w.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 90
+    "seeders": 149
   },
   {
     "id": "tt11378946",
@@ -77,7 +61,23 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1543
+    "seeders": 1431
+  },
+  {
+    "id": "tt28521744",
+    "type": "movie",
+    "name": "Air Mata Buaya",
+    "poster": "https://image.tmdb.org/t/p/w500/inq1DjkhGgayMgu0oVx5cfGeT5w.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt17490712",
@@ -94,7 +94,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 587
+    "seeders": 574
   },
   {
     "id": "tt32250381",
@@ -110,7 +110,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 249
+    "seeders": 220
   },
   {
     "id": "tt12583926",
@@ -126,7 +126,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 421
+    "seeders": 393
   },
   {
     "id": "tt6341826",
@@ -142,7 +142,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 811
+    "seeders": 775
   },
   {
     "id": "tt33022710",
@@ -157,7 +157,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 133
+    "seeders": 127
   },
   {
     "id": "tt29540862",
@@ -173,7 +173,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 274
+    "seeders": 257
   },
   {
     "id": "tt31728330",
@@ -190,7 +190,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 114
+    "seeders": 105
   },
   {
     "id": "tt33397980",
@@ -206,7 +206,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 400
+    "seeders": 363
   },
   {
     "id": "tt4357198",
@@ -222,7 +222,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 61
+    "seeders": 57
   },
   {
     "id": "tt38681832",
@@ -239,24 +239,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt20358190",
-    "type": "movie",
-    "name": "Keserű arany",
-    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Western",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 106
+    "seeders": 136
   },
   {
     "id": "tt26443616",
@@ -275,23 +258,24 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 233
+    "seeders": 225
   },
   {
-    "id": "tt32129938",
+    "id": "tt20358190",
     "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "name": "Keserű arany",
+    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
     "genres": [
-      "Thriller",
-      "Bűnügyi"
+      "Western",
+      "Dráma",
+      "Thriller"
     ],
-    "seeders": 204
+    "seeders": 102
   },
   {
     "id": "tt28650488",
@@ -310,7 +294,23 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 119
+    "seeders": 124
+  },
+  {
+    "id": "tt32129938",
+    "type": "movie",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 174
   },
   {
     "id": "tt30210139",
@@ -326,7 +326,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 191
+    "seeders": 179
   },
   {
     "id": "tt42863533",
@@ -336,13 +336,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 67
+    "seeders": 60
   },
   {
     "id": "tt39228706",
@@ -361,7 +361,24 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 177
+    "seeders": 160
+  },
+  {
+    "id": "tt28996126",
+    "type": "movie",
+    "name": "Senki 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/6foKAzwxZ6afnKBp6TLAJEYFGSX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Ebben a következő fejezetben Hutch reméli, hogy maga mögött hagyhatja a káoszt, és élvezheti családjával a régóta szükséges vakációt. De bár ezúttal talán nem a bajt keresi, a bajnak megvan a módja, hogy megtalálja őt...",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 52
   },
   {
     "id": "tt38897659",
@@ -379,41 +396,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 99
-  },
-  {
-    "id": "tt28996126",
-    "type": "movie",
-    "name": "Senki 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/6foKAzwxZ6afnKBp6TLAJEYFGSX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Ebben a következő fejezetben Hutch reméli, hogy maga mögött hagyhatja a káoszt, és élvezheti családjával a régóta szükséges vakációt. De bár ezúttal talán nem a bajt keresi, a bajnak megvan a módja, hogy megtalálja őt...",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 51
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 66
+    "seeders": 91
   },
   {
     "id": "tt37961742",
@@ -430,7 +413,24 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 96
+  },
+  {
+    "id": "tt33978029",
+    "type": "movie",
+    "name": "Aki bújt 2. - Jövök!",
+    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 60
   },
   {
     "id": "tt34567009",
@@ -462,7 +462,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 99
+    "seeders": 92
   },
   {
     "id": "tt31322753",
@@ -478,7 +478,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 49
+    "seeders": 51
   },
   {
     "id": "tt40618609",
@@ -493,6 +493,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 43
+    "seeders": 42
   }
 ]
