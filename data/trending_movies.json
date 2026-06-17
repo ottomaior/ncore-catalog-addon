@@ -13,7 +13,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1314
+    "seeders": 1135
   },
   {
     "id": "tt32250381",
@@ -29,7 +29,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 205
+    "seeders": 188
   },
   {
     "id": "tt17490712",
@@ -46,7 +46,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 519
+    "seeders": 421
   },
   {
     "id": "tt12583926",
@@ -62,22 +62,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 383
-  },
-  {
-    "id": "tt33022710",
-    "type": "movie",
-    "name": "David Attenborough: Az óceán csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 119
+    "seeders": 335
   },
   {
     "id": "tt6341826",
@@ -93,7 +78,22 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 720
+    "seeders": 630
+  },
+  {
+    "id": "tt33022710",
+    "type": "movie",
+    "name": "David Attenborough: Az óceán csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 113
   },
   {
     "id": "tt31728330",
@@ -110,7 +110,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 104
+    "seeders": 100
   },
   {
     "id": "tt29540862",
@@ -126,7 +126,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 241
+    "seeders": 217
   },
   {
     "id": "tt4357198",
@@ -158,7 +158,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 351
+    "seeders": 291
   },
   {
     "id": "tt20358190",
@@ -175,7 +175,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 111
+    "seeders": 98
   },
   {
     "id": "tt38681832",
@@ -185,33 +185,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 139
-  },
-  {
-    "id": "tt28650488",
-    "type": "movie",
-    "name": "Super Mario Galaxis: A film",
-    "poster": "https://image.tmdb.org/t/p/w500/dMQyITf7kCr2bg7crdlMPf5AlEM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A 2023-as Super Mario Bros.: A film sikere után érkezik a folytatás, amelyben új szereplők és új kalandok várnak ránk.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Családi",
-      "Vígjáték",
-      "Kaland",
-      "Fantasy",
-      "Animációs"
-    ],
-    "seeders": 120
+    "seeders": 123
   },
   {
     "id": "tt26443616",
@@ -230,7 +211,26 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 202
+    "seeders": 178
+  },
+  {
+    "id": "tt28650488",
+    "type": "movie",
+    "name": "Super Mario Galaxis: A film",
+    "poster": "https://image.tmdb.org/t/p/w500/dMQyITf7kCr2bg7crdlMPf5AlEM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A 2023-as Super Mario Bros.: A film sikere után érkezik a folytatás, amelyben új szereplők és új kalandok várnak ránk.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Családi",
+      "Vígjáték",
+      "Kaland",
+      "Fantasy",
+      "Animációs"
+    ],
+    "seeders": 102
   },
   {
     "id": "tt32129938",
@@ -240,13 +240,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.5,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 165
+    "seeders": 146
   },
   {
     "id": "tt42863533",
@@ -262,7 +262,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 62
+    "seeders": 53
   },
   {
     "id": "tt30210139",
@@ -278,7 +278,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 169
+    "seeders": 149
   },
   {
     "id": "tt28996126",
@@ -295,7 +295,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 56
+    "seeders": 49
   },
   {
     "id": "tt39228706",
@@ -314,7 +314,7 @@
       "Vígjáték",
       "Sci-Fi"
     ],
-    "seeders": 167
+    "seeders": 135
   },
   {
     "id": "tt38897659",
@@ -332,7 +332,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 87
+    "seeders": 84
   },
   {
     "id": "tt33978029",
@@ -349,7 +349,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 60
+    "seeders": 55
   },
   {
     "id": "tt37961742",
@@ -359,14 +359,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
-    "imdbRating": 7.5,
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 87
+    "seeders": 78
   },
   {
     "id": "tt34567009",
@@ -381,7 +381,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 46
+    "seeders": 39
   },
   {
     "id": "tt26749593",
@@ -391,29 +391,14 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy alternatív valóság, amelyben a hidegháború nem ér véget, és a szovjet Kazahsztánt atombomba éri.",
-    "imdbRating": 4.8,
+    "imdbRating": 4.9,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték",
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 93
-  },
-  {
-    "id": "tt40618609",
-    "type": "movie",
-    "name": "Az 1994-es vébé: A dicsőséges Brazília",
-    "poster": "https://image.tmdb.org/t/p/w500/7vW1BD3416Ev2rdB7CHKXGnzdGv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Brazília útját követi nyomon a negyedik világbajnokság megnyeréséig 1994-ben, játékosokkal készült interjúkkal és a torna eddig nem látott kulisszák mögötti felvételeivel.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 42
+    "seeders": 83
   },
   {
     "id": "tt31322753",
@@ -429,7 +414,37 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 48
+    "seeders": 46
+  },
+  {
+    "id": "tt40618609",
+    "type": "movie",
+    "name": "Az 1994-es vébé: A dicsőséges Brazília",
+    "poster": "https://image.tmdb.org/t/p/w500/7vW1BD3416Ev2rdB7CHKXGnzdGv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Brazília útját követi nyomon a negyedik világbajnokság megnyeréséig 1994-ben, játékosokkal készült interjúkkal és a torna eddig nem látott kulisszák mögötti felvételeivel.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 32
+  },
+  {
+    "id": "tt30519830",
+    "type": "movie",
+    "name": "Tél Szokcsóban",
+    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 44
   },
   {
     "id": "tt39088896",
@@ -446,22 +461,22 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 62
+    "seeders": 50
   },
   {
-    "id": "tt30519830",
+    "id": "tt30268321",
     "type": "movie",
-    "name": "Tél Szokcsóban",
-    "poster": "https://image.tmdb.org/t/p/w500/mzBfsBee0gsd1Jov7khIVQllLil.jpg",
+    "name": "Eleanor, a lenyűgöző",
+    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy fiatal koreai lány élete váratlan fordulatot vesz, amikor egy francia művész országába érkezik, megzavarva ezzel a lány hétköznapjait.",
-    "imdbRating": 6.7,
+    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
+    "imdbRating": 6.9,
     "releaseInfo": "2025",
     "genres": [
       "Dráma"
     ],
-    "seeders": 47
+    "seeders": 34
   },
   {
     "id": "tt42192165",
@@ -477,21 +492,6 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 41
-  },
-  {
-    "id": "tt30268321",
-    "type": "movie",
-    "name": "Eleanor, a lenyűgöző",
-    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 32
+    "seeders": 39
   }
 ]
