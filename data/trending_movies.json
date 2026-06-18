@@ -1,19 +1,37 @@
 [
   {
+    "id": "tt15678738",
+    "type": "movie",
+    "name": "Dávid",
+    "poster": "https://image.tmdb.org/t/p/w500/39SkLRP299Aab6ehs8mPv9oick3.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Dávid története az édesanyja szívének dalaitól az Isten hűséges suttogásáig csendes odaadással indul. Amikor Góliát, a rettegett óriás félelemben tartja a nemzetet, egy fiatal pásztor lép elő parittyával, néhány kaviccsal és rendíthetetlen hitével. Bár hatalom üldözi, cél vezérli útját, ami próbára teszi a hűség, a szeretet és a bátorság határait, egy olyan csatában teljesedve ki, amely nemcsak a koronáért, hanem az egész királyság lelkéért is folyik.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Dráma",
+      "Családi",
+      "Történelmi"
+    ],
+    "seeders": 60
+  },
+  {
     "id": "tt33214716",
     "type": "movie",
-    "name": "The Florist",
+    "name": "A virágárus",
     "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
     "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 175
+    "seeders": 409
   },
   {
     "id": "tt36639986",
@@ -32,13 +50,13 @@
       "Horror",
       "Kaland"
     ],
-    "seeders": 72
+    "seeders": 54
   },
   {
     "id": "tt4314012",
     "type": "movie",
     "name": "The Simpsons: Extreme Makeover: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/EMZhzFGwaCktQ3QkyEJqELT0lA.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
@@ -46,9 +64,10 @@
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
-      "Vígjáték"
+      "Vígjáték",
+      "Családi"
     ],
-    "seeders": 198
+    "seeders": 257
   },
   {
     "id": "tt11378946",
@@ -64,7 +83,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1281
+    "seeders": 1487
   },
   {
     "id": "tt36958376",
@@ -74,13 +93,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.4,
+    "imdbRating": 7.8,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 154
+    "seeders": 182
   },
   {
     "id": "tt35332621",
@@ -96,7 +115,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 143
+    "seeders": 165
   },
   {
     "id": "tt17490712",
@@ -113,7 +132,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 512
+    "seeders": 611
   },
   {
     "id": "tt32250381",
@@ -129,23 +148,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 223
-  },
-  {
-    "id": "tt28521744",
-    "type": "movie",
-    "name": "Air Mata Buaya",
-    "poster": "https://image.tmdb.org/t/p/w500/inq1DjkhGgayMgu0oVx5cfGeT5w.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 84
+    "seeders": 248
   },
   {
     "id": "tt6341826",
@@ -161,7 +164,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 709
+    "seeders": 774
   },
   {
     "id": "tt12583926",
@@ -177,22 +180,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 376
+    "seeders": 417
   },
   {
-    "id": "tt33022710",
+    "id": "tt28521744",
     "type": "movie",
-    "name": "David Attenborough: Az óceán csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
+    "name": "Air Mata Buaya",
+    "poster": "https://image.tmdb.org/t/p/w500/inq1DjkhGgayMgu0oVx5cfGeT5w.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Dráma",
+      "Thriller"
     ],
-    "seeders": 120
+    "seeders": 95
   },
   {
     "id": "tt29540862",
@@ -208,7 +212,22 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 227
+    "seeders": 259
+  },
+  {
+    "id": "tt33022710",
+    "type": "movie",
+    "name": "David Attenborough: Az óceán csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 130
   },
   {
     "id": "tt31728330",
@@ -218,14 +237,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 100
+    "seeders": 104
   },
   {
     "id": "tt33397980",
@@ -241,7 +260,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 344
+    "seeders": 387
   },
   {
     "id": "tt4357198",
@@ -257,7 +276,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 54
+    "seeders": 57
   },
   {
     "id": "tt38681832",
@@ -274,7 +293,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 133
+    "seeders": 146
   },
   {
     "id": "tt26443616",
@@ -293,7 +312,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 208
+    "seeders": 225
   },
   {
     "id": "tt20358190",
@@ -310,7 +329,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 97
+    "seeders": 102
+  },
+  {
+    "id": "tt32129938",
+    "type": "movie",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 191
   },
   {
     "id": "tt28650488",
@@ -329,7 +364,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 117
+    "seeders": 128
   },
   {
     "id": "tt30210139",
@@ -345,23 +380,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 180
-  },
-  {
-    "id": "tt32129938",
-    "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 156
+    "seeders": 194
   },
   {
     "id": "tt42863533",
@@ -377,7 +396,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 56
+    "seeders": 63
   },
   {
     "id": "tt38897659",
@@ -395,7 +414,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 93
+    "seeders": 96
   },
   {
     "id": "tt28996126",
@@ -429,7 +448,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 83
+    "seeders": 90
   },
   {
     "id": "tt33978029",
@@ -446,7 +465,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 51
+    "seeders": 59
   },
   {
     "id": "tt34567009",
@@ -461,7 +480,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 41
+    "seeders": 48
   },
   {
     "id": "tt26749593",
@@ -478,22 +497,6 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 78
-  },
-  {
-    "id": "tt31322753",
-    "type": "movie",
-    "name": "Ikertelenül",
-    "poster": "https://image.tmdb.org/t/p/w500/yVaqJ4hY2yLnyxxKdksw39v6ugj.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Két gyászoló fiatalember valószínűtlen barátságot köt egy ikergyászokat támogató csoportban. Roman  és Dennis vigaszt és identitást keresnek, és hamar elválaszthatatlanná válnak a csoporton kívül. De mikor a sötét múlt napvilágra kerül, minden más lesz, mint aminek tűnik, mert mindketten olyan titkokat őriznek, amelyek mindent tisztázhatnak.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 52
+    "seeders": 90
   }
 ]
