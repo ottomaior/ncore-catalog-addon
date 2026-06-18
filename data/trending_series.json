@@ -1,5 +1,23 @@
 [
   {
+    "id": "tt33550053",
+    "type": "series",
+    "name": "9-1-1: Nashville (S01E01)",
+    "poster": "https://image.tmdb.org/t/p/w500/4Dl0LysUOEWOhitzAfrKFkBeefu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "🆕 Legújabb epizód: S01E01\n\nIn Tennessee, dedicated emergency responders balance their high-stakes careers with the drama of a powerful local dynasty, where personal lives and professional duties collide.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Action & Adventure"
+    ],
+    "latest_season": 1,
+    "latest_episode": 1,
+    "seeders": 30
+  },
+  {
     "id": "tt42669045",
     "type": "series",
     "name": "Birodalom (S01E04)",
@@ -14,24 +32,25 @@
     ],
     "latest_season": 1,
     "latest_episode": 4,
-    "seeders": 894
+    "seeders": 1275
   },
   {
-    "id": "tt43461201",
+    "id": "tt4659174",
     "type": "series",
-    "name": "FIFA World Cup 2026: Preview Series",
-    "poster": "https://artworks.thetvdb.com/banners/images/missing/series.jpg",
+    "name": "Brill",
+    "poster": "https://image.tmdb.org/t/p/w500/hInDMAU5eG1hbngYPSSJtuFQD8q.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "FIFA World Cup 2026: Preview Series is a documentary series that looks ahead to the 2026 FIFA World Cup. Each episode highlights national teams, players, and key football stories from around the world. The series explores how countries are preparing for the tournament and the expectations surrounding both favourites and underdog teams.",
-    "imdbRating": 9.0,
-    "releaseInfo": "2026",
+    "year": 2016,
+    "description": "Egy gyémánt kereskedő veszélyes vizekre evez, megpróbálja feltérképezni a gyémánt bizniszt.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2016",
     "genres": [
-      "Dokumentum"
+      "Dráma",
+      "Bűnügyi"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 64
+    "seeders": 102
   },
   {
     "id": "tt34771210",
@@ -41,7 +60,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A fia meggyilkolásáért hamisan elítélt apa kétségbeesett mentőakcióra indul, miután megtudja, hogy a fiú még életben lehet.",
-    "imdbRating": 10.0,
+    "imdbRating": 9.5,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
@@ -50,44 +69,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 109
-  },
-  {
-    "id": "tt38201910",
-    "type": "series",
-    "name": "Baki kalandjai: A legyőzhetetlen szamuráj",
-    "poster": "https://image.tmdb.org/t/p/w500/wViuuy27uauEs3A8Vn69Q43MFAQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Baki és az illegális harcművészeti aréna legerősebb harcosai történelmi fenyegetéssel néznek szembe: a feltámasztott Musashi Miyamotóval, Japán legnagyobb szamurájával.",
-    "imdbRating": 8.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Action & Adventure"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 46
-  },
-  {
-    "id": "tt9813792",
-    "type": "series",
-    "name": "Kiút (S04E08)",
-    "poster": "https://image.tmdb.org/t/p/w500/t6LETe9MptGIpo4vJEzrkgV4c05.jpg",
-    "posterShape": "poster",
-    "year": 2022,
-    "description": "🆕 Legújabb epizód: S04E08\n\nEgy rémálmokba illő város Amerika közepén foglyul ejti azokat, akik belépnek. A csapdába esett lakosok igyekeznek megőrizni ép elméjüket és megpróbálják túlélni a veszélyeket, amik a közeli erdőben leselkednek rájuk - beleértve a szörnyű lényeket, melyek az éj leple alatt jönnek elő.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2022",
-    "genres": [
-      "Rejtély",
-      "Dráma",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": 4,
-    "latest_episode": 8,
-    "seeders": 678
+    "seeders": 137
   },
   {
     "id": "tt2861424",
@@ -107,7 +89,94 @@
     ],
     "latest_season": 9,
     "latest_episode": 4,
-    "seeders": 1019
+    "seeders": 1076
+  },
+  {
+    "id": "tt9813792",
+    "type": "series",
+    "name": "Kiút (S04E08)",
+    "poster": "https://image.tmdb.org/t/p/w500/t6LETe9MptGIpo4vJEzrkgV4c05.jpg",
+    "posterShape": "poster",
+    "year": 2022,
+    "description": "🆕 Legújabb epizód: S04E08\n\nEgy rémálmokba illő város Amerika közepén foglyul ejti azokat, akik belépnek. A csapdába esett lakosok igyekeznek megőrizni ép elméjüket és megpróbálják túlélni a veszélyeket, amik a közeli erdőben leselkednek rájuk - beleértve a szörnyű lényeket, melyek az éj leple alatt jönnek elő.",
+    "imdbRating": 8.5,
+    "releaseInfo": "2022",
+    "genres": [
+      "Rejtély",
+      "Dráma",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": 4,
+    "latest_episode": 8,
+    "seeders": 677
+  },
+  {
+    "id": "tt43461201",
+    "type": "series",
+    "name": "FIFA World Cup 2026: Preview Series",
+    "poster": "https://artworks.thetvdb.com/banners/images/missing/series.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "FIFA World Cup 2026: Preview Series is a documentary series that looks ahead to the 2026 FIFA World Cup. Each episode highlights national teams, players, and key football stories from around the world. The series explores how countries are preparing for the tournament and the expectations surrounding both favourites and underdog teams.",
+    "imdbRating": 9.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 70
+  },
+  {
+    "id": "tt38201910",
+    "type": "series",
+    "name": "Baki kalandjai: A legyőzhetetlen szamuráj",
+    "poster": "https://image.tmdb.org/t/p/w500/wViuuy27uauEs3A8Vn69Q43MFAQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután Baki és apja, Yujiro Hanma összecsapása lezárult, a világ legerősebb harcosai unatkozni kezdenek. Ezt megtörve a Tokyo Skytree alatt egy titkos kísérlet során feltámasztják Japán legendás kardforgatóját, Miyamoto Musashit, aki elképesztő erejével és gyorsaságával fenyegeti a modern kor harcosait.",
+    "imdbRating": 8.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Action & Adventure"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 45
+  },
+  {
+    "id": "tt6445410",
+    "type": "series",
+    "name": "A mi kis falunk (S10E14)",
+    "poster": "https://image.tmdb.org/t/p/w500/dR3Op6l0SyBb6XthoOZGmzbus0S.jpg",
+    "posterShape": "poster",
+    "year": 2017,
+    "description": "🆕 Legújabb epizód: S10E14\n\nA sorozat egy kis falu mulatságos hétköznapjait mutatja be olyan karakterek segítségével, akikkel csak és kizárólag itt találkozhatunk: egy ügyeskedő polgármester és kultúrharcos asszisztense, egy testépítő pap, egy szexi kocsmáros, egy féleszű rendőr, egy rezignált körzeti orvos és egy playboy foci edző.",
+    "imdbRating": 8.4,
+    "releaseInfo": "2017",
+    "genres": [
+      "Családi",
+      "Vígjáték"
+    ],
+    "latest_season": 10,
+    "latest_episode": 14,
+    "seeders": 681
+  },
+  {
+    "id": "tt15507240",
+    "type": "series",
+    "name": "Cold Summer (S01E06)",
+    "poster": "https://artworks.thetvdb.com/banners/v4/series/424675/posters/631f2c7cd9a47.jpg",
+    "posterShape": "poster",
+    "year": 2021,
+    "description": "🆕 Legújabb epizód: S01E06\n\nThe day to day life of characters going through personal and conflicting circumstances.",
+    "imdbRating": null,
+    "releaseInfo": "2021",
+    "genres": [],
+    "latest_season": 1,
+    "latest_episode": 6,
+    "seeders": 37
   },
   {
     "id": "tt4598136",
@@ -125,21 +194,6 @@
     ],
     "latest_season": 9,
     "latest_episode": 3,
-    "seeders": 39
-  },
-  {
-    "id": "tt15507240",
-    "type": "series",
-    "name": "Cold Summer (S01E06)",
-    "poster": "https://artworks.thetvdb.com/banners/v4/series/424675/posters/631f2c7cd9a47.jpg",
-    "posterShape": "poster",
-    "year": 2021,
-    "description": "🆕 Legújabb epizód: S01E06\n\nThe day to day life of characters going through personal and conflicting circumstances.",
-    "imdbRating": null,
-    "releaseInfo": "2021",
-    "genres": [],
-    "latest_season": 1,
-    "latest_episode": 6,
     "seeders": 36
   },
   {
@@ -158,24 +212,6 @@
     "seeders": 36
   },
   {
-    "id": "tt6445410",
-    "type": "series",
-    "name": "A mi kis falunk (S10E14)",
-    "poster": "https://image.tmdb.org/t/p/w500/dR3Op6l0SyBb6XthoOZGmzbus0S.jpg",
-    "posterShape": "poster",
-    "year": 2017,
-    "description": "🆕 Legújabb epizód: S10E14\n\nA sorozat egy kis falu mulatságos hétköznapjait mutatja be olyan karakterek segítségével, akikkel csak és kizárólag itt találkozhatunk: egy ügyeskedő polgármester és kultúrharcos asszisztense, egy testépítő pap, egy szexi kocsmáros, egy féleszű rendőr, egy rezignált körzeti orvos és egy playboy foci edző.",
-    "imdbRating": 8.4,
-    "releaseInfo": "2017",
-    "genres": [
-      "Családi",
-      "Vígjáték"
-    ],
-    "latest_season": 10,
-    "latest_episode": 14,
-    "seeders": 755
-  },
-  {
     "id": "tt2805096",
     "type": "series",
     "name": "Bűnös Chicago (S13E18)",
@@ -191,24 +227,7 @@
     ],
     "latest_season": 13,
     "latest_episode": 18,
-    "seeders": 58
-  },
-  {
-    "id": "tt31556651",
-    "type": "series",
-    "name": "Juliet (S01E03)",
-    "poster": "https://image.tmdb.org/t/p/w500/HPKBAimKd2PLiHn0y9KgDKYDYK.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S01E03\n\nPolitie-inspecteur Juliet Dumon keert na de dood van haar vader terug naar haar geboortestreek aan de Vlaamse kust. Daar gaat ze tijdelijk aan de slag bij de plaatselijke recherche en zoekt ze intussen naar een pleeggezin voor haar tienernichtje Chloë. Terwijl Juliet zich op haar nieuwe baan stort, wordt ze geconfronteerd met haar onverwerkte schuldgevoelens bij de dood van haar moeder en haar eigen ambigue gevoelens tegenover het moederschap. Intussen ontstaat er een complexe band tussen haar en Chloë.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2023",
-    "genres": [
-      "Bűnügyi"
-    ],
-    "latest_season": 1,
-    "latest_episode": 3,
-    "seeders": 40
+    "seeders": 56
   },
   {
     "id": "tt40385200",
@@ -225,7 +244,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 8,
-    "seeders": 91
+    "seeders": 98
   },
   {
     "id": "tt34991493",
@@ -243,7 +262,24 @@
     ],
     "latest_season": 1,
     "latest_episode": 5,
-    "seeders": 563
+    "seeders": 538
+  },
+  {
+    "id": "tt31556651",
+    "type": "series",
+    "name": "Juliet (S01E03)",
+    "poster": "https://image.tmdb.org/t/p/w500/HPKBAimKd2PLiHn0y9KgDKYDYK.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S01E03\n\nPolitie-inspecteur Juliet Dumon keert na de dood van haar vader terug naar haar geboortestreek aan de Vlaamse kust. Daar gaat ze tijdelijk aan de slag bij de plaatselijke recherche en zoekt ze intussen naar een pleeggezin voor haar tienernichtje Chloë. Terwijl Juliet zich op haar nieuwe baan stort, wordt ze geconfronteerd met haar onverwerkte schuldgevoelens bij de dood van haar moeder en haar eigen ambigue gevoelens tegenover het moederschap. Intussen ontstaat er een complexe band tussen haar en Chloë.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2023",
+    "genres": [
+      "Bűnügyi"
+    ],
+    "latest_season": 1,
+    "latest_episode": 3,
+    "seeders": 41
   },
   {
     "id": "tt31909098",
@@ -261,24 +297,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 6,
-    "seeders": 63
-  },
-  {
-    "id": "tt0413573",
-    "type": "series",
-    "name": "A Grace klinika",
-    "poster": "https://image.tmdb.org/t/p/w500/n1w9NJ9ISpHHCjVIWefPcV7OGb8.jpg",
-    "posterShape": "poster",
-    "year": 2005,
-    "description": "A történet középpontjában Meredith Grey áll, az a céltudatos nő, aki mindent megtesz annak érdekében, hogy teljes életet élhessen egy olyan felelősségteljes munka mellett, ami mindezt lehetetlenné teszi. Elsőéves sebészeti gyakornokként dolgozik a Seattle Grace Kórházban barátaival, a szintén rezidensi évüket töltő Cristina Yanggal, Izzie Stevensszel, George O'Malley-vel és Alex Karevvel, akikkel tegnap még az iskolapadban ültek. Ma azonban már életek múlnak rajtuk.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2005",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 42
+    "seeders": 55
   },
   {
     "id": "tt0224887",
@@ -296,7 +315,24 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 135
+    "seeders": 132
+  },
+  {
+    "id": "tt0413573",
+    "type": "series",
+    "name": "A Grace klinika",
+    "poster": "https://image.tmdb.org/t/p/w500/n1w9NJ9ISpHHCjVIWefPcV7OGb8.jpg",
+    "posterShape": "poster",
+    "year": 2005,
+    "description": "A történet középpontjában Meredith Grey áll, az a céltudatos nő, aki mindent megtesz annak érdekében, hogy teljes életet élhessen egy olyan felelősségteljes munka mellett, ami mindezt lehetetlenné teszi. Elsőéves sebészeti gyakornokként dolgozik a Seattle Grace Kórházban barátaival, a szintén rezidensi évüket töltő Cristina Yanggal, Izzie Stevensszel, George O'Malley-vel és Alex Karevvel, akikkel tegnap még az iskolapadban ültek. Ma azonban már életek múlnak rajtuk.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2005",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 42
   },
   {
     "id": "tt15437862",
@@ -330,24 +366,25 @@
     ],
     "latest_season": 1,
     "latest_episode": 6,
-    "seeders": 42
+    "seeders": 41
   },
   {
-    "id": "tt43507442",
+    "id": "tt0182576",
     "type": "series",
-    "name": "Csapatmunka: Dzsungel",
-    "poster": "https://image.tmdb.org/t/p/w500/mkhpV2EgA3S4xFyl7KPOpxORa04.jpg",
+    "name": "Family Guy (S24E06)",
+    "poster": "https://image.tmdb.org/t/p/w500/d41x2EBZPFMbP1kbDdh7YbB2xcN.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy távoli trópusi szigeten 16 játékosnak kell túlélnie az elemeket, megelőznie a riválisokat, és bennmaradni a csapatban, hogy megnyerhesse az egymillió dollárt.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
+    "year": 1999,
+    "description": "🆕 Legújabb epizód: S24E06\n\nA Family Guy egy amerikai rajzfilmsorozat Quahog kitalált városában. A történet középpontjában a Griffin ház áll, ahol egy furcsa család lakik: két szülő, két gyerek, idáig semmi különös. De abban a házban él Brian, a zseniális kutya, akinek a legtöbb sütnivalója van a bandában, és egy mutáns bébi. Egy nem normális család mindennapjai egy nem normális városban.",
+    "imdbRating": 7.4,
+    "releaseInfo": "1999",
     "genres": [
-      "Reality"
+      "Animációs",
+      "Vígjáték"
     ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 30
+    "latest_season": 24,
+    "latest_episode": 6,
+    "seeders": 171
   },
   {
     "id": "tt37063558",
@@ -366,25 +403,24 @@
     ],
     "latest_season": 1,
     "latest_episode": 8,
-    "seeders": 96
+    "seeders": 85
   },
   {
-    "id": "tt0182576",
+    "id": "tt43507442",
     "type": "series",
-    "name": "Family Guy (S24E06)",
-    "poster": "https://image.tmdb.org/t/p/w500/d41x2EBZPFMbP1kbDdh7YbB2xcN.jpg",
+    "name": "Csapatmunka: Dzsungel",
+    "poster": "https://image.tmdb.org/t/p/w500/mkhpV2EgA3S4xFyl7KPOpxORa04.jpg",
     "posterShape": "poster",
-    "year": 1999,
-    "description": "🆕 Legújabb epizód: S24E06\n\nA Family Guy egy amerikai rajzfilmsorozat Quahog kitalált városában. A történet középpontjában a Griffin ház áll, ahol egy furcsa család lakik: két szülő, két gyerek, idáig semmi különös. De abban a házban él Brian, a zseniális kutya, akinek a legtöbb sütnivalója van a bandában, és egy mutáns bébi. Egy nem normális család mindennapjai egy nem normális városban.",
-    "imdbRating": 7.4,
-    "releaseInfo": "1999",
+    "year": 2026,
+    "description": "Egy távoli trópusi szigeten 16 játékosnak kell túlélnie az elemeket, megelőznie a riválisokat, és bennmaradni a csapatban, hogy megnyerhesse az egymillió dollárt.",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
     "genres": [
-      "Animációs",
-      "Vígjáték"
+      "Reality"
     ],
-    "latest_season": 24,
-    "latest_episode": 6,
-    "seeders": 170
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 27
   },
   {
     "id": "tt39366612",
@@ -403,7 +439,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 4,
-    "seeders": 50
+    "seeders": 47
   },
   {
     "id": "tt35823838",
@@ -420,7 +456,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 7,
-    "seeders": 46
+    "seeders": 45
   },
   {
     "id": "tt4579480",
@@ -437,7 +473,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 3,
-    "seeders": 39
+    "seeders": 32
   },
   {
     "id": "tt32146518",
@@ -454,7 +490,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 23
+    "seeders": 25
   },
   {
     "id": "tt33378120",
@@ -471,7 +507,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 35
+    "seeders": 36
   },
   {
     "id": "tt22297712",
@@ -490,42 +526,5 @@
     "latest_season": null,
     "latest_episode": null,
     "seeders": 33
-  },
-  {
-    "id": "tt5676412",
-    "type": "series",
-    "name": "Csajok, szilikon - Nem ettől lesz Paradicsom",
-    "poster": "https://image.tmdb.org/t/p/w500/7lBJ6lOS0uQqsH13U9iMTikawQS.jpg",
-    "posterShape": "poster",
-    "year": 2016,
-    "description": "A drogbáró Marcial felesége, Yésica egy bérgyilkos célkeresztjébe kerül, de helyette Catalinat ölik meg. Catalina anyja, aki a lány volt barátjától terhes, a hír hallatán összeomlik, és elhatározza, hogy újszülött lányát - akit szintén Catalinanak nevez el - minden eszközzel távol tartja a szegény negyed veszélyes világától. Marcialt szeretője, Yésica tőrbe csalja, így szert tesz teljes vagyonára. Catalinat viszont úgy tűnik nem kerülheti el sorsa.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2016",
-    "genres": [
-      "Action & Adventure",
-      "Bűnügyi",
-      "Dráma",
-      "Rejtély"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 29
-  },
-  {
-    "id": "tt13798316",
-    "type": "series",
-    "name": "Agyament bíróság",
-    "poster": "https://image.tmdb.org/t/p/w500/jmJC60ZQRQutPedp30HoiEsIPZ8.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "Többkamerás komédia, a klasszikus sorozat folytatása/felélesztése, a történet középpontjában pedig az egyik korábbi karakter, a néhai Harry Stone bíró ugyancsak bíróként dolgozó lánya, Abby Stone.\n\nAbby apja nyomdokaiba lép és Manhattan egyik bíróságának éjszakai műszakját viszi, a bíróság meglehetősen fura figurákból álló stábjával, többek között az egykori (és az eredetiből visszatérő) éjszakai ügyésszel, Dan Fielding-gel.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2023",
-    "genres": [
-      "Vígjáték"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 28
   }
 ]
