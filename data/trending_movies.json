@@ -1,8 +1,43 @@
 [
   {
+    "id": "tt33214716",
+    "type": "movie",
+    "name": "The Florist",
+    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 175
+  },
+  {
+    "id": "tt36639986",
+    "type": "movie",
+    "name": "Én vagyok Frankelda",
+    "poster": "https://image.tmdb.org/t/p/w500/rh3HNzV7o8ouH4NnCuL76OFPFBF.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film Frankelda, az elszánt 19. századi mexikói írónő tudatalattijába utazik, hogy szembenézzen az általa megírt szörnyekkel. Egy gyötrődő herceg vezetésével vissza kell állítania az egyensúlyt a fikció és a valóság között, mielőtt túl késő lenne.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Fantasy",
+      "Horror",
+      "Kaland"
+    ],
+    "seeders": 72
+  },
+  {
     "id": "tt4314012",
     "type": "movie",
-    "name": "Extreme Makeover Homer Edition",
+    "name": "The Simpsons: Extreme Makeover: Homer Edition",
     "poster": "https://image.tmdb.org/t/p/w500/EMZhzFGwaCktQ3QkyEJqELT0lA.jpg",
     "posterShape": "poster",
     "year": 2026,
@@ -13,39 +48,7 @@
       "Animációs",
       "Vígjáték"
     ],
-    "seeders": 174
-  },
-  {
-    "id": "tt35332621",
-    "type": "movie",
-    "name": "Vitrival",
-    "poster": "https://image.tmdb.org/t/p/w500/oXVJjgugUg2R2p8e37yurQDL5xn.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 132
-  },
-  {
-    "id": "tt36958376",
-    "type": "movie",
-    "name": "A te hibád: London",
-    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 131
+    "seeders": 198
   },
   {
     "id": "tt11378946",
@@ -61,7 +64,39 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1104
+    "seeders": 1281
+  },
+  {
+    "id": "tt36958376",
+    "type": "movie",
+    "name": "A te hibád: London",
+    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 154
+  },
+  {
+    "id": "tt35332621",
+    "type": "movie",
+    "name": "Vitrival",
+    "poster": "https://image.tmdb.org/t/p/w500/oXVJjgugUg2R2p8e37yurQDL5xn.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 143
   },
   {
     "id": "tt17490712",
@@ -78,23 +113,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 437
-  },
-  {
-    "id": "tt28521744",
-    "type": "movie",
-    "name": "Air Mata Buaya",
-    "poster": "https://image.tmdb.org/t/p/w500/inq1DjkhGgayMgu0oVx5cfGeT5w.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 80
+    "seeders": 512
   },
   {
     "id": "tt32250381",
@@ -110,23 +129,23 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 197
+    "seeders": 223
   },
   {
-    "id": "tt12583926",
+    "id": "tt28521744",
     "type": "movie",
-    "name": "Évforduló",
-    "poster": "https://image.tmdb.org/t/p/w500/sSdpXGBNt3mQzjZZVK6eV5NcPdc.jpg",
+    "name": "Air Mata Buaya",
+    "poster": "https://image.tmdb.org/t/p/w500/inq1DjkhGgayMgu0oVx5cfGeT5w.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
     "genres": [
-      "Thriller",
-      "Dráma"
+      "Dráma",
+      "Thriller"
     ],
-    "seeders": 321
+    "seeders": 84
   },
   {
     "id": "tt6341826",
@@ -142,7 +161,23 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 614
+    "seeders": 709
+  },
+  {
+    "id": "tt12583926",
+    "type": "movie",
+    "name": "Évforduló",
+    "poster": "https://image.tmdb.org/t/p/w500/sSdpXGBNt3mQzjZZVK6eV5NcPdc.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 376
   },
   {
     "id": "tt33022710",
@@ -157,7 +192,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 105
+    "seeders": 120
   },
   {
     "id": "tt29540862",
@@ -173,7 +208,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 214
+    "seeders": 227
   },
   {
     "id": "tt31728330",
@@ -190,7 +225,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 97
+    "seeders": 100
   },
   {
     "id": "tt33397980",
@@ -206,7 +241,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 278
+    "seeders": 344
   },
   {
     "id": "tt4357198",
@@ -222,24 +257,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 53
-  },
-  {
-    "id": "tt20358190",
-    "type": "movie",
-    "name": "Keserű arany",
-    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Western",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 100
+    "seeders": 54
   },
   {
     "id": "tt38681832",
@@ -256,7 +274,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 112
+    "seeders": 133
   },
   {
     "id": "tt26443616",
@@ -275,7 +293,24 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 178
+    "seeders": 208
+  },
+  {
+    "id": "tt20358190",
+    "type": "movie",
+    "name": "Keserű arany",
+    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Western",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 97
   },
   {
     "id": "tt28650488",
@@ -294,23 +329,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 106
-  },
-  {
-    "id": "tt32129938",
-    "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 145
+    "seeders": 117
   },
   {
     "id": "tt30210139",
@@ -326,7 +345,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 153
+    "seeders": 180
+  },
+  {
+    "id": "tt32129938",
+    "type": "movie",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 156
   },
   {
     "id": "tt42863533",
@@ -342,7 +377,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 53
+    "seeders": 56
   },
   {
     "id": "tt38897659",
@@ -352,7 +387,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Selin egy nyaralóban rejtélyes módon vissza utazik az időben, és hirtelen saját édesanyja fiatalkorában találja magát. A múltban átélt események és találkozások lehetőséget adnak neki arra, hogy megváltoztassa a családja sorsát, miközben teljesen újjáépíti a saját életét és jövőjét",
-    "imdbRating": 8.4,
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
@@ -360,26 +395,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 83
-  },
-  {
-    "id": "tt39228706",
-    "type": "movie",
-    "name": "Milky Subway: A galaktikus expressz - A film",
-    "poster": "https://image.tmdb.org/t/p/w500/p2wClSPUcs0NidsNBueaTBmGkJd.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A közlekedési szabálysértésen kapott génmódosított embereket és kiborgokat közmunkára ítélik: egy bolygóközi vonatot kell kitakarítaniuk. Amikor azonban a vonat hirtelen megvadul, az egyszerű feladatuk gyorsan káoszba fordul, és egy váratlan krízis közepén találják magukat.",
-    "imdbRating": 9.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Vígjáték",
-      "Sci-Fi"
-    ],
-    "seeders": 115
+    "seeders": 93
   },
   {
     "id": "tt28996126",
@@ -396,7 +412,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 41
+    "seeders": 50
   },
   {
     "id": "tt37961742",
@@ -406,14 +422,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 77
+    "seeders": 83
   },
   {
     "id": "tt33978029",
@@ -430,7 +446,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 50
+    "seeders": 51
   },
   {
     "id": "tt34567009",
@@ -445,7 +461,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 37
+    "seeders": 41
   },
   {
     "id": "tt26749593",
@@ -462,7 +478,7 @@
       "Dráma",
       "Sci-Fi"
     ],
-    "seeders": 74
+    "seeders": 78
   },
   {
     "id": "tt31322753",
@@ -478,21 +494,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt30268321",
-    "type": "movie",
-    "name": "Eleanor, a lenyűgöző",
-    "poster": "https://image.tmdb.org/t/p/w500/9XTM42IJST6lwPxtK2iUwNaFvCT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Eleanor, a lenyűgöző című filmben June Squibb kelti életre a szellemes és magabiztosan problémás 94 éves Eleanor Morgensteint, aki egy súlyos veszteség után elmesél egy történetet, amely önálló életre kel. Scarlett Johansson rendezői bemutatkozása humoros és megható módon vizsgálja, hogyan válnak a másoktól hallott történetek a saját történeteinkké. A film Cannes-ban az Un certain Regard szekcióban került bemutatásra.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 34
+    "seeders": 52
   }
 ]
