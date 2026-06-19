@@ -13,23 +13,23 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 80
+    "seeders": 161
   },
   {
     "id": "tt10375624",
     "type": "movie",
-    "name": "Voicemails for Isabelle",
-    "poster": "https://image.tmdb.org/t/p/w500/nmGIRyuMH72WHJengMo8LQjnZQn.jpg",
+    "name": "Üzenetek Isabelle-nek",
+    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.0,
+    "description": "Egy fiatal nő úgy próbál megbirkózni húga halálával, hogy hangüzenetekben mesél kaotikus San Franciscó-i életéről. Amikor a telefonszámát a tudta nélkül újra kiosztják, egy rejtélyes austini ingatlanügynök kezdi megkapni a mulatságosan őszinte vallomásokat.",
+    "imdbRating": 5.2,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 95
+    "seeders": 158
   },
   {
     "id": "tt33214716",
@@ -45,7 +45,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 565
+    "seeders": 666
   },
   {
     "id": "tt15678738",
@@ -63,7 +63,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 197
+    "seeders": 225
   },
   {
     "id": "tt11378946",
@@ -79,7 +79,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1289
+    "seeders": 1463
   },
   {
     "id": "tt43140112",
@@ -89,14 +89,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.3,
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 250
+    "seeders": 271
   },
   {
     "id": "tt17490712",
@@ -113,7 +113,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 552
+    "seeders": 630
   },
   {
     "id": "tt36958376",
@@ -129,7 +129,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 184
+    "seeders": 200
   },
   {
     "id": "tt35332621",
@@ -145,7 +145,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 165
+    "seeders": 181
   },
   {
     "id": "tt36639986",
@@ -164,7 +164,7 @@
       "Horror",
       "Kaland"
     ],
-    "seeders": 72
+    "seeders": 95
   },
   {
     "id": "tt6341826",
@@ -180,7 +180,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 690
+    "seeders": 752
   },
   {
     "id": "tt12583926",
@@ -196,7 +196,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 352
+    "seeders": 391
   },
   {
     "id": "tt32250381",
@@ -212,7 +212,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 212
+    "seeders": 232
   },
   {
     "id": "tt28521744",
@@ -228,7 +228,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 89
+    "seeders": 97
   },
   {
     "id": "tt29540862",
@@ -244,7 +244,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 231
+    "seeders": 259
   },
   {
     "id": "tt33022710",
@@ -259,7 +259,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 127
+    "seeders": 130
   },
   {
     "id": "tt33397980",
@@ -275,7 +275,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 354
+    "seeders": 394
   },
   {
     "id": "tt31728330",
@@ -292,7 +292,24 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 105
+    "seeders": 113
+  },
+  {
+    "id": "tt38681832",
+    "type": "movie",
+    "name": "A gonosz színei: Fekete",
+    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 146
   },
   {
     "id": "tt26443616",
@@ -311,7 +328,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 215
+    "seeders": 227
   },
   {
     "id": "tt4357198",
@@ -327,24 +344,23 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 53
+    "seeders": 56
   },
   {
-    "id": "tt38681832",
+    "id": "tt32129938",
     "type": "movie",
-    "name": "A gonosz színei: Fekete",
-    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
-    "imdbRating": 6.7,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 5.6,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
-      "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 129
+    "seeders": 183
   },
   {
     "id": "tt20358190",
@@ -361,7 +377,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 90
+    "seeders": 92
+  },
+  {
+    "id": "tt30210139",
+    "type": "movie",
+    "name": "Megszállottak",
+    "poster": "https://image.tmdb.org/t/p/w500/4KXlxaILROkq1YQrUheYOgZNgYo.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A régész Sofia szerint az ősi görög agyagedények hangokat rögzítettek, mint egy primitív bakelitlemez. Egy távoli szigetre utazik, hogy bizonyítsa elméletét volt sógora, egy cinikus szobrász segítségével.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 185
   },
   {
     "id": "tt28650488",
@@ -380,39 +412,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 115
-  },
-  {
-    "id": "tt32129938",
-    "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 154
-  },
-  {
-    "id": "tt30210139",
-    "type": "movie",
-    "name": "Megszállottak",
-    "poster": "https://image.tmdb.org/t/p/w500/4KXlxaILROkq1YQrUheYOgZNgYo.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A régész Sofia szerint az ősi görög agyagedények hangokat rögzítettek, mint egy primitív bakelitlemez. Egy távoli szigetre utazik, hogy bizonyítsa elméletét volt sógora, egy cinikus szobrász segítségével.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 172
+    "seeders": 107
   },
   {
     "id": "tt42863533",
@@ -428,7 +428,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 64
+    "seeders": 67
   },
   {
     "id": "tt38897659",
@@ -446,7 +446,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 86
+    "seeders": 90
   },
   {
     "id": "tt28996126",
@@ -463,7 +463,7 @@
       "Thriller",
       "Vígjáték"
     ],
-    "seeders": 49
+    "seeders": 51
   },
   {
     "id": "tt37961742",
@@ -480,7 +480,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 90
+    "seeders": 91
   },
   {
     "id": "tt33978029",
@@ -497,6 +497,6 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 57
+    "seeders": 61
   }
 ]
