@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt33214716",
+    "type": "movie",
+    "name": "A virágárus",
+    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 437
+  },
+  {
     "id": "tt15678738",
     "type": "movie",
     "name": "Dávid",
@@ -15,23 +31,40 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 166
+    "seeders": 162
   },
   {
-    "id": "tt33214716",
+    "id": "tt11378946",
     "type": "movie",
-    "name": "A virágárus",
-    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
-    "imdbRating": null,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.6,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Zenei",
+      "Dráma"
     ],
-    "seeders": 499
+    "seeders": 1138
+  },
+  {
+    "id": "tt4314012",
+    "type": "movie",
+    "name": "The Simpsons: Extreme Makeover: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 211
   },
   {
     "id": "tt36639986",
@@ -50,56 +83,7 @@
       "Horror",
       "Kaland"
     ],
-    "seeders": 71
-  },
-  {
-    "id": "tt4314012",
-    "type": "movie",
-    "name": "The Simpsons: Extreme Makeover: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 263
-  },
-  {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 1429
-  },
-  {
-    "id": "tt36958376",
-    "type": "movie",
-    "name": "A te hibád: London",
-    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 189
+    "seeders": 65
   },
   {
     "id": "tt17490712",
@@ -116,7 +100,23 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 597
+    "seeders": 477
+  },
+  {
+    "id": "tt36958376",
+    "type": "movie",
+    "name": "A te hibád: London",
+    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 154
   },
   {
     "id": "tt35332621",
@@ -132,7 +132,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 157
+    "seeders": 139
   },
   {
     "id": "tt6341826",
@@ -148,7 +148,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 746
+    "seeders": 618
   },
   {
     "id": "tt32250381",
@@ -164,13 +164,13 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 235
+    "seeders": 201
   },
   {
     "id": "tt12583926",
     "type": "movie",
     "name": "Évforduló",
-    "poster": "https://image.tmdb.org/t/p/w500/sSdpXGBNt3mQzjZZVK6eV5NcPdc.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
@@ -180,7 +180,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 393
+    "seeders": 322
   },
   {
     "id": "tt28521744",
@@ -196,7 +196,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 91
+    "seeders": 88
   },
   {
     "id": "tt29540862",
@@ -206,13 +206,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
-    "imdbRating": 5.5,
+    "imdbRating": 5.2,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 251
+    "seeders": 205
   },
   {
     "id": "tt33022710",
@@ -227,23 +227,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 128
-  },
-  {
-    "id": "tt33397980",
-    "type": "movie",
-    "name": "Munkahelyi románc",
-    "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 367
+    "seeders": 105
   },
   {
     "id": "tt31728330",
@@ -260,7 +244,23 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 95
+    "seeders": 99
+  },
+  {
+    "id": "tt33397980",
+    "type": "movie",
+    "name": "Munkahelyi románc",
+    "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 302
   },
   {
     "id": "tt4357198",
@@ -276,7 +276,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 53
+    "seeders": 50
   },
   {
     "id": "tt26443616",
@@ -295,7 +295,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 234
+    "seeders": 185
   },
   {
     "id": "tt38681832",
@@ -312,7 +312,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 131
+    "seeders": 110
   },
   {
     "id": "tt20358190",
@@ -329,23 +329,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 92
-  },
-  {
-    "id": "tt32129938",
-    "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 171
+    "seeders": 87
   },
   {
     "id": "tt28650488",
@@ -364,7 +348,23 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 115
+    "seeders": 106
+  },
+  {
+    "id": "tt32129938",
+    "type": "movie",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 139
   },
   {
     "id": "tt30210139",
@@ -380,7 +380,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 185
+    "seeders": 151
   },
   {
     "id": "tt42863533",
@@ -390,13 +390,30 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 63
+    "seeders": 54
+  },
+  {
+    "id": "tt28996126",
+    "type": "movie",
+    "name": "Senki 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/6foKAzwxZ6afnKBp6TLAJEYFGSX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Ebben a következő fejezetben Hutch reméli, hogy maga mögött hagyhatja a káoszt, és élvezheti családjával a régóta szükséges vakációt. De bár ezúttal talán nem a bajt keresi, a bajnak megvan a módja, hogy megtalálja őt...",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 46
   },
   {
     "id": "tt38897659",
@@ -414,7 +431,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 91
+    "seeders": 78
   },
   {
     "id": "tt33978029",
@@ -431,24 +448,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 64
-  },
-  {
-    "id": "tt28996126",
-    "type": "movie",
-    "name": "Senki 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/6foKAzwxZ6afnKBp6TLAJEYFGSX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Ebben a következő fejezetben Hutch reméli, hogy maga mögött hagyhatja a káoszt, és élvezheti családjával a régóta szükséges vakációt. De bár ezúttal talán nem a bajt keresi, a bajnak megvan a módja, hogy megtalálja őt...",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 49
+    "seeders": 53
   },
   {
     "id": "tt37961742",
@@ -465,7 +465,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 87
+    "seeders": 74
   },
   {
     "id": "tt34567009",
@@ -480,7 +480,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 47
+    "seeders": 41
   },
   {
     "id": "tt31322753",
@@ -496,6 +496,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 47
+    "seeders": 49
   }
 ]
