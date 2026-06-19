@@ -2,34 +2,18 @@
   {
     "id": "tt36876775",
     "type": "movie",
-    "name": "남편들",
+    "name": "Férjek akcióban",
     "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
     "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 161
-  },
-  {
-    "id": "tt10375624",
-    "type": "movie",
-    "name": "Üzenetek Isabelle-nek",
-    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatal nő úgy próbál megbirkózni húga halálával, hogy hangüzenetekben mesél kaotikus San Franciscó-i életéről. Amikor a telefonszámát a tudta nélkül újra kiosztják, egy rejtélyes austini ingatlanügynök kezdi megkapni a mulatságosan őszinte vallomásokat.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 158
+    "seeders": 189
   },
   {
     "id": "tt33214716",
@@ -45,7 +29,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 666
+    "seeders": 681
+  },
+  {
+    "id": "tt10375624",
+    "type": "movie",
+    "name": "Üzenetek Isabelle-nek",
+    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 199
   },
   {
     "id": "tt15678738",
@@ -63,7 +63,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 225
+    "seeders": 242
   },
   {
     "id": "tt11378946",
@@ -73,13 +73,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.7,
+    "imdbRating": 8.6,
     "releaseInfo": "2026",
     "genres": [
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1463
+    "seeders": 1492
   },
   {
     "id": "tt43140112",
@@ -96,7 +96,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 271
+    "seeders": 278
   },
   {
     "id": "tt17490712",
@@ -113,7 +113,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 630
+    "seeders": 662
   },
   {
     "id": "tt36958376",
@@ -123,13 +123,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.8,
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 200
+    "seeders": 208
   },
   {
     "id": "tt35332621",
@@ -145,7 +145,39 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 181
+    "seeders": 180
+  },
+  {
+    "id": "tt6341826",
+    "type": "movie",
+    "name": "Egy szempillantás alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/24trP0Pkjw5g7P1KwoQAXPf0nd8.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Három, évezredeken átívelő történet fonódik össze, miközben a remény, a kötődés és az élet körforgása áll a középpontban.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Dráma"
+    ],
+    "seeders": 761
+  },
+  {
+    "id": "tt12583926",
+    "type": "movie",
+    "name": "Évforduló",
+    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 413
   },
   {
     "id": "tt36639986",
@@ -164,39 +196,7 @@
       "Horror",
       "Kaland"
     ],
-    "seeders": 95
-  },
-  {
-    "id": "tt6341826",
-    "type": "movie",
-    "name": "Egy szempillantás alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/24trP0Pkjw5g7P1KwoQAXPf0nd8.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Három, évezredeken átívelő történet fonódik össze, miközben a remény, a kötődés és az élet körforgása áll a középpontban.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Dráma"
-    ],
-    "seeders": 752
-  },
-  {
-    "id": "tt12583926",
-    "type": "movie",
-    "name": "Évforduló",
-    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 391
+    "seeders": 93
   },
   {
     "id": "tt32250381",
@@ -212,7 +212,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 232
+    "seeders": 237
   },
   {
     "id": "tt28521744",
@@ -228,7 +228,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 97
+    "seeders": 87
   },
   {
     "id": "tt29540862",
@@ -238,13 +238,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
-    "imdbRating": 5.2,
+    "imdbRating": 5.3,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 259
+    "seeders": 247
   },
   {
     "id": "tt33022710",
@@ -259,7 +259,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 130
+    "seeders": 120
   },
   {
     "id": "tt33397980",
@@ -275,7 +275,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 394
+    "seeders": 374
   },
   {
     "id": "tt31728330",
@@ -292,24 +292,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 113
-  },
-  {
-    "id": "tt38681832",
-    "type": "movie",
-    "name": "A gonosz színei: Fekete",
-    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 146
+    "seeders": 101
   },
   {
     "id": "tt26443616",
@@ -328,7 +311,24 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 227
+    "seeders": 231
+  },
+  {
+    "id": "tt38681832",
+    "type": "movie",
+    "name": "A gonosz színei: Fekete",
+    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 136
   },
   {
     "id": "tt4357198",
@@ -344,7 +344,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 56
+    "seeders": 51
   },
   {
     "id": "tt32129938",
@@ -360,24 +360,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 183
-  },
-  {
-    "id": "tt20358190",
-    "type": "movie",
-    "name": "Keserű arany",
-    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Western",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 92
+    "seeders": 179
   },
   {
     "id": "tt30210139",
@@ -393,7 +376,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 185
+    "seeders": 189
   },
   {
     "id": "tt28650488",
@@ -412,7 +395,24 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 107
+    "seeders": 115
+  },
+  {
+    "id": "tt20358190",
+    "type": "movie",
+    "name": "Keserű arany",
+    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Western",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt42863533",
@@ -428,7 +428,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 67
+    "seeders": 75
   },
   {
     "id": "tt38897659",
@@ -446,41 +446,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 90
-  },
-  {
-    "id": "tt28996126",
-    "type": "movie",
-    "name": "Senki 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/6foKAzwxZ6afnKBp6TLAJEYFGSX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Ebben a következő fejezetben Hutch reméli, hogy maga mögött hagyhatja a káoszt, és élvezheti családjával a régóta szükséges vakációt. De bár ezúttal talán nem a bajt keresi, a bajnak megvan a módja, hogy megtalálja őt...",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Vígjáték"
-    ],
-    "seeders": 51
-  },
-  {
-    "id": "tt37961742",
-    "type": "movie",
-    "name": "A mexikói focivébé",
-    "poster": "https://image.tmdb.org/t/p/w500/ie0evW3npWrB25prNSKOdlEamSd.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 91
+    "seeders": 94
   },
   {
     "id": "tt33978029",
@@ -497,6 +463,40 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 61
+    "seeders": 68
+  },
+  {
+    "id": "tt28996126",
+    "type": "movie",
+    "name": "Senki 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/6foKAzwxZ6afnKBp6TLAJEYFGSX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Ebben a következő fejezetben Hutch reméli, hogy maga mögött hagyhatja a káoszt, és élvezheti családjával a régóta szükséges vakációt. De bár ezúttal talán nem a bajt keresi, a bajnak megvan a módja, hogy megtalálja őt...",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Vígjáték"
+    ],
+    "seeders": 49
+  },
+  {
+    "id": "tt37961742",
+    "type": "movie",
+    "name": "A mexikói focivébé",
+    "poster": "https://image.tmdb.org/t/p/w500/ie0evW3npWrB25prNSKOdlEamSd.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Mexikó valószínűtlen pályázata az 1986-os világbajnokság megrendezésére vakmerő, minden esély ellenére véghez vitt bravúr volt, amelyet kizárólag a mexikói leleményesség tett lehetővé.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 88
   }
 ]
