@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Protector",
+    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 464
+  },
+  {
     "id": "tt33071426",
     "type": "movie",
     "name": "Kész dráma",
@@ -14,38 +30,38 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 343
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Protector",
-    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 557
+    "seeders": 318
   },
   {
     "id": "tt32277918",
     "type": "movie",
-    "name": "The Protector",
+    "name": "Országúti védelmező",
     "poster": "https://image.tmdb.org/t/p/w500/9tXKquUdUqGgrUMPkWw3OWU6mPf.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
     "imdbRating": 4.6,
     "releaseInfo": "2025",
     "genres": [
       "Akció"
     ],
     "seeders": 169
+  },
+  {
+    "id": "tt33214716",
+    "type": "movie",
+    "name": "A virágárus",
+    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 657
   },
   {
     "id": "tt31260224",
@@ -63,23 +79,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 121
-  },
-  {
-    "id": "tt33214716",
-    "type": "movie",
-    "name": "A virágárus",
-    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 810
+    "seeders": 116
   },
   {
     "id": "tt36876775",
@@ -89,18 +89,50 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 6.2,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 235
+    "seeders": 203
+  },
+  {
+    "id": "tt11378946",
+    "type": "movie",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 1152
+  },
+  {
+    "id": "tt10375624",
+    "type": "movie",
+    "name": "Üzenetek Isabelle-nek",
+    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 188
   },
   {
     "id": "tt32843985",
     "type": "movie",
-    "name": "Le choix du pianiste",
+    "name": "Le Choix du pianiste",
     "poster": "https://image.tmdb.org/t/p/w500/eZljAPGFYYRv6iFZ5wQlyO8Z2z4.jpg",
     "posterShape": "poster",
     "year": 2025,
@@ -112,23 +144,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 117
-  },
-  {
-    "id": "tt10375624",
-    "type": "movie",
-    "name": "Üzenetek Isabelle-nek",
-    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 230
+    "seeders": 110
   },
   {
     "id": "tt15678738",
@@ -146,7 +162,24 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 265
+    "seeders": 225
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "Extreme Makeover: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 258
   },
   {
     "id": "tt17490712",
@@ -163,24 +196,23 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 730
+    "seeders": 522
   },
   {
-    "id": "tt43140112",
+    "id": "tt6341826",
     "type": "movie",
-    "name": "Extreme Makeover: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
+    "name": "Egy szempillantás alatt",
+    "poster": "https://image.tmdb.org/t/p/w500/24trP0Pkjw5g7P1KwoQAXPf0nd8.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.2,
+    "description": "Három, évezredeken átívelő történet fonódik össze, miközben a remény, a kötődés és az élet körforgása áll a középpontban.",
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
+      "Sci-Fi",
+      "Dráma"
     ],
-    "seeders": 311
+    "seeders": 595
   },
   {
     "id": "tt36958376",
@@ -196,7 +228,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 236
+    "seeders": 191
   },
   {
     "id": "tt12583926",
@@ -212,23 +244,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 431
-  },
-  {
-    "id": "tt35332621",
-    "type": "movie",
-    "name": "Vitrival",
-    "poster": "https://image.tmdb.org/t/p/w500/oXVJjgugUg2R2p8e37yurQDL5xn.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 173
+    "seeders": 339
   },
   {
     "id": "tt32250381",
@@ -244,7 +260,23 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 248
+    "seeders": 219
+  },
+  {
+    "id": "tt35332621",
+    "type": "movie",
+    "name": "Vitrival",
+    "poster": "https://image.tmdb.org/t/p/w500/oXVJjgugUg2R2p8e37yurQDL5xn.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 146
   },
   {
     "id": "tt36639986",
@@ -263,7 +295,7 @@
       "Horror",
       "Kaland"
     ],
-    "seeders": 94
+    "seeders": 84
   },
   {
     "id": "tt28521744",
@@ -279,7 +311,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 122
+    "seeders": 107
+  },
+  {
+    "id": "tt29540862",
+    "type": "movie",
+    "name": "Elátkozott esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/79RBp8afL4u4z3nVGR78z6eIvBB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 197
   },
   {
     "id": "tt33022710",
@@ -294,7 +342,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 126
+    "seeders": 112
+  },
+  {
+    "id": "tt33397980",
+    "type": "movie",
+    "name": "Munkahelyi románc",
+    "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 288
   },
   {
     "id": "tt31728330",
@@ -311,7 +375,95 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 115
+    "seeders": 103
+  },
+  {
+    "id": "tt26443616",
+    "type": "movie",
+    "name": "Agyugrász",
+    "poster": "https://image.tmdb.org/t/p/w500/4u7fQkCOgKGuwwkjcw9fuu6Z14U.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy állatbarát megragadja a lehetőséget, hogy olyan technológiát használjon, amely tudatát egy robothódba helyezi és olyan rejtélyeket fedez fel az állatvilágban, amelyek minden elképzelését felülmúlják.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Animációs",
+      "Vígjáték",
+      "Családi",
+      "Sci-Fi"
+    ],
+    "seeders": 183
+  },
+  {
+    "id": "tt38681832",
+    "type": "movie",
+    "name": "A gonosz színei: Fekete",
+    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 120
+  },
+  {
+    "id": "tt20358190",
+    "type": "movie",
+    "name": "Keserű arany",
+    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Western",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 87
+  },
+  {
+    "id": "tt28650488",
+    "type": "movie",
+    "name": "Super Mario Galaxis: A film",
+    "poster": "https://image.tmdb.org/t/p/w500/dMQyITf7kCr2bg7crdlMPf5AlEM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A 2023-as Super Mario Bros.: A film sikere után érkezik a folytatás, amelyben új szereplők és új kalandok várnak ránk.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Családi",
+      "Vígjáték",
+      "Kaland",
+      "Fantasy",
+      "Animációs"
+    ],
+    "seeders": 105
+  },
+  {
+    "id": "tt32129938",
+    "type": "movie",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 135
   },
   {
     "id": "tt4357198",
@@ -327,6 +479,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 53
+    "seeders": 44
+  },
+  {
+    "id": "tt42863533",
+    "type": "movie",
+    "name": "Anyai ösztön: A Taylor Parker-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 57
   }
 ]
