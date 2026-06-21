@@ -13,7 +13,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 709
+    "seeders": 825
   },
   {
     "id": "tt33071426",
@@ -30,7 +30,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 464
+    "seeders": 572
   },
   {
     "id": "tt32277918",
@@ -45,7 +45,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 235
+    "seeders": 298
   },
   {
     "id": "tt33214716",
@@ -61,7 +61,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 812
+    "seeders": 917
   },
   {
     "id": "tt31260224",
@@ -79,7 +79,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 165
+    "seeders": 205
   },
   {
     "id": "tt11378946",
@@ -95,23 +95,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1478
-  },
-  {
-    "id": "tt36876775",
-    "type": "movie",
-    "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 243
+    "seeders": 1604
   },
   {
     "id": "tt10375624",
@@ -121,13 +105,46 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
-    "imdbRating": 7.4,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 230
+    "seeders": 265
+  },
+  {
+    "id": "tt36876775",
+    "type": "movie",
+    "name": "Férjek akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 259
+  },
+  {
+    "id": "tt17490712",
+    "type": "movie",
+    "name": "Mortal Kombat 2",
+    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Kaland"
+    ],
+    "seeders": 829
   },
   {
     "id": "tt15678738",
@@ -145,24 +162,24 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 257
+    "seeders": 287
   },
   {
-    "id": "tt17490712",
+    "id": "tt43140112",
     "type": "movie",
-    "name": "Mortal Kombat 2",
-    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "name": "Extreme Makeover: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
-    "imdbRating": 8.0,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Fantasy",
-      "Kaland"
+      "Animációs",
+      "Vígjáték",
+      "Családi"
     ],
-    "seeders": 706
+    "seeders": 334
   },
   {
     "id": "tt32843985",
@@ -179,24 +196,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 123
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "Extreme Makeover: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 321
+    "seeders": 126
   },
   {
     "id": "tt6341826",
@@ -212,7 +212,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 744
+    "seeders": 788
   },
   {
     "id": "tt12583926",
@@ -228,7 +228,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 424
+    "seeders": 467
   },
   {
     "id": "tt36958376",
@@ -238,13 +238,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 215
+    "seeders": 241
   },
   {
     "id": "tt32250381",
@@ -260,7 +260,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 262
+    "seeders": 289
   },
   {
     "id": "tt35332621",
@@ -276,7 +276,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 165
+    "seeders": 170
   },
   {
     "id": "tt36639986",
@@ -295,7 +295,7 @@
       "Horror",
       "Kaland"
     ],
-    "seeders": 95
+    "seeders": 102
   },
   {
     "id": "tt28521744",
@@ -327,7 +327,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 235
+    "seeders": 249
   },
   {
     "id": "tt33397980",
@@ -337,13 +337,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 389
+    "seeders": 404
   },
   {
     "id": "tt33022710",
@@ -358,7 +358,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 123
+    "seeders": 136
   },
   {
     "id": "tt31728330",
@@ -375,7 +375,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 117
+    "seeders": 130
   },
   {
     "id": "tt26443616",
@@ -394,7 +394,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 232
+    "seeders": 251
   },
   {
     "id": "tt38681832",
@@ -411,7 +411,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 135
+    "seeders": 145
   },
   {
     "id": "tt32129938",
@@ -427,7 +427,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 180
+    "seeders": 185
   },
   {
     "id": "tt28650488",
@@ -446,7 +446,39 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 126
+    "seeders": 132
+  },
+  {
+    "id": "tt42863533",
+    "type": "movie",
+    "name": "Anyai ösztön: A Taylor Parker-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 96
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 129
   },
   {
     "id": "tt20358190",
@@ -463,38 +495,6 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 86
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 49
-  },
-  {
-    "id": "tt42863533",
-    "type": "movie",
-    "name": "Anyai ösztön: A Taylor Parker-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 75
+    "seeders": 84
   }
 ]
