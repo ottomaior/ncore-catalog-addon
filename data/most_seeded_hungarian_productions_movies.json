@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999991
+"seeders": 999990
 },
 {
 "id": "tt29344974",
@@ -30,7 +30,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999985
+"seeders": 999984
 },
 {
 "id": "tt29567915",
@@ -46,13 +46,13 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999982
+"seeders": 999983
 },
 {
 "id": "tt34375721",
 "type": "movie",
 "name": "Sárkányok Kabul felett",
-"poster": "https://image.tmdb.org/t/p/w500/7yTt1lszzoecMLNBchbqal2Zi7R.jpg",
+"poster": "https://image.tmdb.org/t/p/w500/rHOTaT34vaxzN7TAzgSWHiqCA5p.jpg",
 "posterShape": "poster",
 "year": 2025,
 "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
@@ -63,7 +63,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999959
+"seeders": 999958
 },
 {
 "id": "tt20672356",
@@ -79,7 +79,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999948
+"seeders": 999946
 },
 {
 "id": "tt0179955",
@@ -96,7 +96,23 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999899
+"seeders": 999898
+},
+{
+"id": "tt35303515",
+"type": "movie",
+"name": "Itt érzem magam otthon",
+"poster": "https://image.tmdb.org/t/p/w500/b0ldbmOJQgaqxK5ZSLhfH3VLf8Y.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Ritát, a fiatal és magányos nőt egy éjszaka elrabolják az utcáról. A különös Árpád-család lakásában tér magához, akik váltig állítják, hogy ő valójában Szilvi, a család elveszett tagja. Rita tisztában van vele, hogy kicsoda, és azzal is, hogy Árpádéknál az őrület uralkodik. Ugyanakkor belátja, hogy ha valaha is meg akar szabadulni tőlük, kénytelen lesz megszemélyesíteni ezt a bizonyos Szilvit.",
+"imdbRating": 7.1,
+"releaseInfo": "2026",
+"genres": [
+"Dráma",
+"Thriller"
+],
+"seeders": 999883
 },
 {
 "id": "tt27811640",
@@ -111,24 +127,7 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999879
-},
-{
-"id": "tt0142632",
-"type": "movie",
-"name": "Lúdas Matyi",
-"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
-"posterShape": "poster",
-"year": 1977,
-"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
-"imdbRating": 7.2,
-"releaseInfo": "1977",
-"genres": [
-"Animációs",
-"Kaland",
-"Vígjáték"
-],
-"seeders": 999854
+"seeders": 999881
 },
 {
 "id": "tt38508942",
@@ -143,7 +142,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999851
+"seeders": 999852
 },
 {
 "id": "tt0065067",
@@ -158,7 +157,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999841
+"seeders": 999842
 },
 {
 "id": "tt31065630",
@@ -176,6 +175,23 @@
 "seeders": 999838
 },
 {
+"id": "tt0142632",
+"type": "movie",
+"name": "Lúdas Matyi",
+"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
+"posterShape": "poster",
+"year": 1977,
+"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
+"imdbRating": 7.2,
+"releaseInfo": "1977",
+"genres": [
+"Animációs",
+"Kaland",
+"Vígjáték"
+],
+"seeders": 999831
+},
+{
 "id": "tt0131636",
 "type": "movie",
 "name": "Vuk",
@@ -189,7 +205,7 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999835
+"seeders": 999824
 },
 {
 "id": "tt0084315",
@@ -209,21 +225,6 @@
 "seeders": 999823
 },
 {
-"id": "tt40381358",
-"type": "movie",
-"name": "Tavaszi szél - az ébredés",
-"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
-"imdbRating": 8.3,
-"releaseInfo": "2026",
-"genres": [
-"Dokumentum"
-],
-"seeders": 999820
-},
-{
 "id": "tt23172090",
 "type": "movie",
 "name": "Porszörny",
@@ -239,6 +240,21 @@
 "Horror"
 ],
 "seeders": 999817
+},
+{
+"id": "tt40381358",
+"type": "movie",
+"name": "Tavaszi szél - az ébredés",
+"poster": "https://image.tmdb.org/t/p/w500/md6t7Hn2Nn5GreuhNKwkNVBnr39.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "A független film belülről követi egy formálódó politikai és társadalmi mozgalom megszületését, melynek arcává Magyar Péter válik. Az alkotók több mint egy éven át kísérték őt országjárásokon, kampányhelyszíneken és háttérbeszélgetéseken, valamint jelen voltak azokban a csendes, intim pillanatokban is – számos alkalommal a saját otthonában –, amelyek eddig rejtve maradtak a nyilvánosság előtt",
+"imdbRating": 8.3,
+"releaseInfo": "2026",
+"genres": [
+"Dokumentum"
+],
+"seeders": 999816
 },
 {
 "id": "tt26678938",
@@ -259,22 +275,6 @@
 "seeders": 999815
 },
 {
-"id": "tt3117504",
-"type": "movie",
-"name": "Argo 2",
-"poster": "https://image.tmdb.org/t/p/w500/pzaDW6NOoOh5hVxUn01xo30lPtq.jpg",
-"posterShape": "poster",
-"year": 2015,
-"description": "Balog Tibi (Kovács Lajos) és bandája (Scherer Péter, Bicskey Lukács, Kiss József) tíz év után sem lett okosabb. Továbbra is pitiáner, suttyó bűnözők, akik nagymenőknek hiszik magukat és a nagy lóvéra vágynak.  Egy japán szindikátus árnyékembere (Kulka János) balszerencséjére pont Tibiéket bízza meg egy felbecsülhetetlen értékű adathordozó megszerzésével. Tibiék vajmi keveset értenek az IT világához, ezért egy számítástechnika tanárt (Bán János) visznek magukkal a lehetetlennek tűnő műveletre. A bajt a roma maffia feje (Nagypál Gábor) fokozza, aki egy régi ügy miatt elégtételt akar venni Tibin. A hajsza során Tibiék mindezeken túl japán bérgyilkosokat és a szlovák hadsereget is magukra haragítják, így az esélyük arra, hogy a nagy zsével Malibu tengerpartjára szökjenek, radikálisan csökken.  De aki Tibit alábecsüli, annak annyi. Mert Tibi megoldja okosban.",
-"imdbRating": 7.4,
-"releaseInfo": "2015",
-"genres": [
-"Vígjáték",
-"Bűnügyi"
-],
-"seeders": 999798
-},
-{
 "id": "tt1247685",
 "type": "movie",
 "name": "Papírkutyák",
@@ -287,7 +287,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999794
+"seeders": 999800
 },
 {
 "id": "tt37357756",
@@ -304,6 +304,22 @@
 "Vígjáték"
 ],
 "seeders": 999791
+},
+{
+"id": "tt3117504",
+"type": "movie",
+"name": "Argo 2",
+"poster": "https://image.tmdb.org/t/p/w500/pzaDW6NOoOh5hVxUn01xo30lPtq.jpg",
+"posterShape": "poster",
+"year": 2015,
+"description": "Balog Tibi (Kovács Lajos) és bandája (Scherer Péter, Bicskey Lukács, Kiss József) tíz év után sem lett okosabb. Továbbra is pitiáner, suttyó bűnözők, akik nagymenőknek hiszik magukat és a nagy lóvéra vágynak.  Egy japán szindikátus árnyékembere (Kulka János) balszerencséjére pont Tibiéket bízza meg egy felbecsülhetetlen értékű adathordozó megszerzésével. Tibiék vajmi keveset értenek az IT világához, ezért egy számítástechnika tanárt (Bán János) visznek magukkal a lehetetlennek tűnő műveletre. A bajt a roma maffia feje (Nagypál Gábor) fokozza, aki egy régi ügy miatt elégtételt akar venni Tibin. A hajsza során Tibiék mindezeken túl japán bérgyilkosokat és a szlovák hadsereget is magukra haragítják, így az esélyük arra, hogy a nagy zsével Malibu tengerpartjára szökjenek, radikálisan csökken.  De aki Tibit alábecsüli, annak annyi. Mert Tibi megoldja okosban.",
+"imdbRating": 7.4,
+"releaseInfo": "2015",
+"genres": [
+"Vígjáték",
+"Bűnügyi"
+],
+"seeders": 999783
 },
 {
 "id": "tt33586253",
