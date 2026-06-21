@@ -13,7 +13,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 464
+    "seeders": 709
   },
   {
     "id": "tt33071426",
@@ -30,7 +30,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 318
+    "seeders": 464
   },
   {
     "id": "tt32277918",
@@ -45,7 +45,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 169
+    "seeders": 235
   },
   {
     "id": "tt33214716",
@@ -61,7 +61,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 657
+    "seeders": 812
   },
   {
     "id": "tt31260224",
@@ -79,23 +79,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 116
-  },
-  {
-    "id": "tt36876775",
-    "type": "movie",
-    "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 203
+    "seeders": 165
   },
   {
     "id": "tt11378946",
@@ -111,7 +95,23 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1152
+    "seeders": 1478
+  },
+  {
+    "id": "tt36876775",
+    "type": "movie",
+    "name": "Férjek akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 243
   },
   {
     "id": "tt10375624",
@@ -127,24 +127,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 188
-  },
-  {
-    "id": "tt32843985",
-    "type": "movie",
-    "name": "Le Choix du pianiste",
-    "poster": "https://image.tmdb.org/t/p/w500/eZljAPGFYYRv6iFZ5wQlyO8Z2z4.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Zenei"
-    ],
-    "seeders": 110
+    "seeders": 230
   },
   {
     "id": "tt15678738",
@@ -162,24 +145,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 225
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "Extreme Makeover: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 258
+    "seeders": 257
   },
   {
     "id": "tt17490712",
@@ -196,7 +162,41 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 522
+    "seeders": 706
+  },
+  {
+    "id": "tt32843985",
+    "type": "movie",
+    "name": "Le Choix du pianiste",
+    "poster": "https://image.tmdb.org/t/p/w500/eZljAPGFYYRv6iFZ5wQlyO8Z2z4.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Zenei"
+    ],
+    "seeders": 123
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "Extreme Makeover: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/vim76mMXig00YRxN2iGYJASoGkP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 321
   },
   {
     "id": "tt6341826",
@@ -212,23 +212,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 595
-  },
-  {
-    "id": "tt36958376",
-    "type": "movie",
-    "name": "A te hibád: London",
-    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 191
+    "seeders": 744
   },
   {
     "id": "tt12583926",
@@ -244,7 +228,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 339
+    "seeders": 424
+  },
+  {
+    "id": "tt36958376",
+    "type": "movie",
+    "name": "A te hibád: London",
+    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 215
   },
   {
     "id": "tt32250381",
@@ -260,7 +260,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 219
+    "seeders": 262
   },
   {
     "id": "tt35332621",
@@ -276,7 +276,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 146
+    "seeders": 165
   },
   {
     "id": "tt36639986",
@@ -295,7 +295,7 @@
       "Horror",
       "Kaland"
     ],
-    "seeders": 84
+    "seeders": 95
   },
   {
     "id": "tt28521744",
@@ -311,7 +311,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 107
+    "seeders": 119
   },
   {
     "id": "tt29540862",
@@ -327,22 +327,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 197
-  },
-  {
-    "id": "tt33022710",
-    "type": "movie",
-    "name": "David Attenborough: Az óceán csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 112
+    "seeders": 235
   },
   {
     "id": "tt33397980",
@@ -358,7 +343,22 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 288
+    "seeders": 389
+  },
+  {
+    "id": "tt33022710",
+    "type": "movie",
+    "name": "David Attenborough: Az óceán csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 123
   },
   {
     "id": "tt31728330",
@@ -375,7 +375,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 103
+    "seeders": 117
   },
   {
     "id": "tt26443616",
@@ -394,7 +394,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 183
+    "seeders": 232
   },
   {
     "id": "tt38681832",
@@ -411,24 +411,23 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 120
+    "seeders": 135
   },
   {
-    "id": "tt20358190",
+    "id": "tt32129938",
     "type": "movie",
-    "name": "Keserű arany",
-    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
     "genres": [
-      "Western",
-      "Dráma",
-      "Thriller"
+      "Thriller",
+      "Bűnügyi"
     ],
-    "seeders": 87
+    "seeders": 180
   },
   {
     "id": "tt28650488",
@@ -447,23 +446,24 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 105
+    "seeders": 126
   },
   {
-    "id": "tt32129938",
+    "id": "tt20358190",
     "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "name": "Keserű arany",
+    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
     "genres": [
-      "Thriller",
-      "Bűnügyi"
+      "Western",
+      "Dráma",
+      "Thriller"
     ],
-    "seeders": 135
+    "seeders": 86
   },
   {
     "id": "tt4357198",
@@ -479,7 +479,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 44
+    "seeders": 49
   },
   {
     "id": "tt42863533",
@@ -495,6 +495,6 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 57
+    "seeders": 75
   }
 ]
