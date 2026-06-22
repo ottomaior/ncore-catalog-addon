@@ -13,7 +13,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 579
+    "seeders": 707
   },
   {
     "id": "tt33071426",
@@ -30,7 +30,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 481
+    "seeders": 593
   },
   {
     "id": "tt33214716",
@@ -46,7 +46,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 672
+    "seeders": 805
   },
   {
     "id": "tt32277918",
@@ -61,7 +61,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 230
+    "seeders": 260
   },
   {
     "id": "tt11378946",
@@ -77,7 +77,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1177
+    "seeders": 1382
   },
   {
     "id": "tt31260224",
@@ -95,39 +95,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 156
-  },
-  {
-    "id": "tt10375624",
-    "type": "movie",
-    "name": "Üzenetek Isabelle-nek",
-    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 209
-  },
-  {
-    "id": "tt36876775",
-    "type": "movie",
-    "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 196
+    "seeders": 185
   },
   {
     "id": "tt17490712",
@@ -144,7 +112,39 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 554
+    "seeders": 664
+  },
+  {
+    "id": "tt10375624",
+    "type": "movie",
+    "name": "Üzenetek Isabelle-nek",
+    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 235
+  },
+  {
+    "id": "tt36876775",
+    "type": "movie",
+    "name": "Férjek akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 224
   },
   {
     "id": "tt15678738",
@@ -162,24 +162,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 229
-  },
-  {
-    "id": "tt32843985",
-    "type": "movie",
-    "name": "Le Choix du pianiste",
-    "poster": "https://image.tmdb.org/t/p/w500/eZljAPGFYYRv6iFZ5wQlyO8Z2z4.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Zenei"
-    ],
-    "seeders": 120
+    "seeders": 249
   },
   {
     "id": "tt43140112",
@@ -196,7 +179,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 230
+    "seeders": 270
   },
   {
     "id": "tt6341826",
@@ -212,23 +195,24 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 593
+    "seeders": 689
   },
   {
-    "id": "tt36958376",
+    "id": "tt32843985",
     "type": "movie",
-    "name": "A te hibád: London",
-    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
+    "name": "A zongorista döntése",
+    "poster": "https://image.tmdb.org/t/p/w500/eZljAPGFYYRv6iFZ5wQlyO8Z2z4.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Egy tehetséges francia zongorista háborús időkben lehetetlen választás elé kerül: vagy fellép a náci tiszteknek, vagy elveszíti a nőt, akit szeret – egykori mentorát, akitől mindent megtanult, amit tud.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
     "genres": [
-      "Romantikus",
-      "Dráma"
+      "Dráma",
+      "Történelmi",
+      "Zenei"
     ],
-    "seeders": 198
+    "seeders": 125
   },
   {
     "id": "tt12583926",
@@ -244,7 +228,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 343
+    "seeders": 387
+  },
+  {
+    "id": "tt36958376",
+    "type": "movie",
+    "name": "A te hibád: London",
+    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 218
   },
   {
     "id": "tt32250381",
@@ -260,7 +260,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 233
+    "seeders": 264
   },
   {
     "id": "tt35332621",
@@ -276,7 +276,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 132
+    "seeders": 142
+  },
+  {
+    "id": "tt28521744",
+    "type": "movie",
+    "name": "Air Mata Buaya",
+    "poster": "https://image.tmdb.org/t/p/w500/inq1DjkhGgayMgu0oVx5cfGeT5w.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 110
   },
   {
     "id": "tt36639986",
@@ -298,38 +314,6 @@
     "seeders": 84
   },
   {
-    "id": "tt28521744",
-    "type": "movie",
-    "name": "Air Mata Buaya",
-    "poster": "https://image.tmdb.org/t/p/w500/inq1DjkhGgayMgu0oVx5cfGeT5w.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 98
-  },
-  {
-    "id": "tt29540862",
-    "type": "movie",
-    "name": "Elátkozott esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 178
-  },
-  {
     "id": "tt33397980",
     "type": "movie",
     "name": "Munkahelyi románc",
@@ -343,7 +327,23 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 269
+    "seeders": 344
+  },
+  {
+    "id": "tt29540862",
+    "type": "movie",
+    "name": "Elátkozott esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 194
   },
   {
     "id": "tt33022710",
@@ -358,7 +358,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 95
+    "seeders": 104
   },
   {
     "id": "tt31728330",
@@ -375,7 +375,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 92
+    "seeders": 107
   },
   {
     "id": "tt38681832",
@@ -392,7 +392,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 111
+    "seeders": 122
   },
   {
     "id": "tt28650488",
@@ -411,7 +411,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 113
+    "seeders": 123
   },
   {
     "id": "tt32129938",
@@ -427,7 +427,39 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 129
+    "seeders": 149
+  },
+  {
+    "id": "tt42863533",
+    "type": "movie",
+    "name": "Anyai ösztön: A Taylor Parker-ügy",
+    "poster": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 75
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 50
   },
   {
     "id": "tt20358190",
@@ -444,39 +476,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 76
-  },
-  {
-    "id": "tt42863533",
-    "type": "movie",
-    "name": "Anyai ösztön: A Taylor Parker-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 72
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 46
+    "seeders": 74
   },
   {
     "id": "tt38897659",
@@ -494,6 +494,6 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 86
+    "seeders": 90
   }
 ]
