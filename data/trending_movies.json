@@ -2,18 +2,18 @@
   {
     "id": "tt36987599",
     "type": "movie",
-    "name": "No Hit Wonder",
+    "name": "A boldogság slágere",
     "poster": "https://image.tmdb.org/t/p/w500/91Nc6a2utk3K3wtosrkyQ5z3sxM.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
     "imdbRating": 6.8,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 48
+    "seeders": 62
   },
   {
     "id": "tt34471850",
@@ -29,7 +29,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 877
+    "seeders": 686
   },
   {
     "id": "tt33071426",
@@ -46,7 +46,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 726
+    "seeders": 629
   },
   {
     "id": "tt33214716",
@@ -62,22 +62,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 942
-  },
-  {
-    "id": "tt32277918",
-    "type": "movie",
-    "name": "Országúti védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/9tXKquUdUqGgrUMPkWw3OWU6mPf.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
-    "imdbRating": 4.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 297
+    "seeders": 798
   },
   {
     "id": "tt11378946",
@@ -93,7 +78,22 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1631
+    "seeders": 1367
+  },
+  {
+    "id": "tt32277918",
+    "type": "movie",
+    "name": "Országúti védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/9tXKquUdUqGgrUMPkWw3OWU6mPf.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
+    "imdbRating": 4.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 241
   },
   {
     "id": "tt31260224",
@@ -111,7 +111,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 211
+    "seeders": 175
   },
   {
     "id": "tt17490712",
@@ -128,7 +128,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 835
+    "seeders": 692
   },
   {
     "id": "tt10375624",
@@ -144,23 +144,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 275
-  },
-  {
-    "id": "tt36876775",
-    "type": "movie",
-    "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 253
+    "seeders": 246
   },
   {
     "id": "tt15678738",
@@ -178,7 +162,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 289
+    "seeders": 242
   },
   {
     "id": "tt43140112",
@@ -195,7 +179,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 325
+    "seeders": 299
+  },
+  {
+    "id": "tt36876775",
+    "type": "movie",
+    "name": "Férjek akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 192
   },
   {
     "id": "tt6341826",
@@ -211,7 +211,39 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 779
+    "seeders": 639
+  },
+  {
+    "id": "tt12583926",
+    "type": "movie",
+    "name": "Évforduló",
+    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 379
+  },
+  {
+    "id": "tt36958376",
+    "type": "movie",
+    "name": "A te hibád: London",
+    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 214
   },
   {
     "id": "tt32843985",
@@ -228,39 +260,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt12583926",
-    "type": "movie",
-    "name": "Évforduló",
-    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 435
-  },
-  {
-    "id": "tt36958376",
-    "type": "movie",
-    "name": "A te hibád: London",
-    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 244
+    "seeders": 103
   },
   {
     "id": "tt32250381",
@@ -276,7 +276,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 287
+    "seeders": 230
   },
   {
     "id": "tt35332621",
@@ -292,7 +292,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 166
+    "seeders": 129
   },
   {
     "id": "tt29540862",
@@ -308,39 +308,23 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 231
-  },
-  {
-    "id": "tt33397980",
-    "type": "movie",
-    "name": "Munkahelyi románc",
-    "poster": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Romantikus vígjáték a szívük vágyaira hallgató munkamániás pár titkos irodai románcának bonyodalmairól.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 399
+    "seeders": 185
   },
   {
     "id": "tt28521744",
     "type": "movie",
-    "name": "Air Mata Buaya",
+    "name": "Krokodilkönnyek",
     "poster": "https://image.tmdb.org/t/p/w500/inq1DjkhGgayMgu0oVx5cfGeT5w.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy uralkodó természetű anya, aki fiával egy eldugott krokodilfarmon él, teljesen elveszíti az önuralmát, amikor fia megismeri a külvilágot, és életében először beleszeret egy lányba.",
     "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Thriller"
     ],
-    "seeders": 113
+    "seeders": 91
   },
   {
     "id": "tt36639986",
@@ -359,7 +343,7 @@
       "Horror",
       "Kaland"
     ],
-    "seeders": 88
+    "seeders": 75
   },
   {
     "id": "tt33022710",
@@ -374,7 +358,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 127
+    "seeders": 109
   },
   {
     "id": "tt31728330",
@@ -391,40 +375,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 131
-  },
-  {
-    "id": "tt38681832",
-    "type": "movie",
-    "name": "A gonosz színei: Fekete",
-    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 137
-  },
-  {
-    "id": "tt32129938",
-    "type": "movie",
-    "name": "A múlt nélküli nő",
-    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 180
+    "seeders": 108
   },
   {
     "id": "tt28650488",
@@ -443,7 +394,40 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 130
+    "seeders": 120
+  },
+  {
+    "id": "tt38681832",
+    "type": "movie",
+    "name": "A gonosz színei: Fekete",
+    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 109
+  },
+  {
+    "id": "tt32129938",
+    "type": "movie",
+    "name": "A múlt nélküli nő",
+    "poster": "https://image.tmdb.org/t/p/w500/wrjKPBd4ieJMSxO7n5GothE9WAB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy minden emlékét elveszítő nőre találnak egy konténerben, két nyomozó versenyt fut az idővel kilétének megállapítására – és hogy ki akarja megölni.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 145
   },
   {
     "id": "tt42863533",
@@ -459,23 +443,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 90
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 55
+    "seeders": 79
   },
   {
     "id": "tt20358190",
@@ -492,6 +460,40 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 82
+    "seeders": 77
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 48
+  },
+  {
+    "id": "tt38897659",
+    "type": "movie",
+    "name": "A nyaraló",
+    "poster": "https://image.tmdb.org/t/p/w500/kA6e4wmyulZn76xBd5Bq29PZwnb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Selin egy nyaralóban rejtélyes módon vissza utazik az időben, és hirtelen saját édesanyja fiatalkorában találja magát. A múltban átélt események és találkozások lehetőséget adnak neki arra, hogy megváltoztassa a családja sorsát, miközben teljesen újjáépíti a saját életét és jövőjét",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Családi",
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 81
   }
 ]
