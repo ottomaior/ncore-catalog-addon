@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt21065274",
+    "type": "movie",
+    "name": "Fekete gyémánt",
+    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 83
+  },
+  {
     "id": "tt34471850",
     "type": "movie",
     "name": "Protector",
@@ -7,13 +22,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.6,
+    "imdbRating": 8.5,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 791
+    "seeders": 783
   },
   {
     "id": "tt33071426",
@@ -30,7 +45,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 681
+    "seeders": 701
   },
   {
     "id": "tt33214716",
@@ -46,7 +61,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 893
+    "seeders": 866
   },
   {
     "id": "tt11378946",
@@ -62,23 +77,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1489
-  },
-  {
-    "id": "tt36987599",
-    "type": "movie",
-    "name": "A boldogság slágere",
-    "poster": "https://image.tmdb.org/t/p/w500/91Nc6a2utk3K3wtosrkyQ5z3sxM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 83
+    "seeders": 1581
   },
   {
     "id": "tt32277918",
@@ -93,7 +92,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 283
+    "seeders": 259
   },
   {
     "id": "tt17490712",
@@ -110,7 +109,39 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 755
+    "seeders": 738
+  },
+  {
+    "id": "tt36987599",
+    "type": "movie",
+    "name": "A boldogság slágere",
+    "poster": "https://image.tmdb.org/t/p/w500/91Nc6a2utk3K3wtosrkyQ5z3sxM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 79
+  },
+  {
+    "id": "tt10375624",
+    "type": "movie",
+    "name": "Üzenetek Isabelle-nek",
+    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 281
   },
   {
     "id": "tt31260224",
@@ -128,23 +159,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 200
-  },
-  {
-    "id": "tt10375624",
-    "type": "movie",
-    "name": "Üzenetek Isabelle-nek",
-    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 269
+    "seeders": 192
   },
   {
     "id": "tt15678738",
@@ -162,7 +177,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 255
+    "seeders": 260
   },
   {
     "id": "tt43140112",
@@ -179,7 +194,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 308
+    "seeders": 300
   },
   {
     "id": "tt6341826",
@@ -195,7 +210,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 716
+    "seeders": 682
   },
   {
     "id": "tt36876775",
@@ -211,7 +226,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 209
+    "seeders": 202
   },
   {
     "id": "tt12583926",
@@ -227,7 +242,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 399
+    "seeders": 410
   },
   {
     "id": "tt36958376",
@@ -243,7 +258,23 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 228
+    "seeders": 234
+  },
+  {
+    "id": "tt32250381",
+    "type": "movie",
+    "name": "Hogyan lopjunk vissza egymilliót?",
+    "poster": "https://image.tmdb.org/t/p/w500/yTbkezXSJnW0XVOTLhcm1MuSHKm.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Stan, egy építőipari vállalat ambiciózus és komoly üzemeltetési vezetője, hatalmas nyomás alatt áll, miközben egy kétszínű kollégájával verseng. Az idegei pattanásig feszülnek, amikor rájön, hogy a cég zsarnok vezérigazgatója igazságtalanul elbocsátotta. Kétségbeesésében önkéntelenül ellop egymillió eurót a vállalat páncélterméből, eldobja a széf kulcsát, és gyorsan elmenekül menyasszonyával, Marine-nal. Hamarosan kiderül, hogy elbocsátása tévedés volt, valójában előléptetésre számíthatott volna. Most napfelkeltéig van ideje visszatenni a pénzt a széfbe. Ám mivel eldobta a kulcsot, és a tartalékkulcs a vezérigazgató lakásában van, kénytelen a kiszámíthatatlan párizsi lakatoshoz, Hippolyte-hoz fordulni segítségért. Az éjszaka nem ígérkezik problémamentesnek!  (Csillag Lajos)R3",
+    "imdbRating": 5.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi"
+    ],
+    "seeders": 260
   },
   {
     "id": "tt32843985",
@@ -260,23 +291,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 117
-  },
-  {
-    "id": "tt32250381",
-    "type": "movie",
-    "name": "Hogyan lopjunk vissza egymilliót?",
-    "poster": "https://image.tmdb.org/t/p/w500/yTbkezXSJnW0XVOTLhcm1MuSHKm.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Stan, egy építőipari vállalat ambiciózus és komoly üzemeltetési vezetője, hatalmas nyomás alatt áll, miközben egy kétszínű kollégájával verseng. Az idegei pattanásig feszülnek, amikor rájön, hogy a cég zsarnok vezérigazgatója igazságtalanul elbocsátotta. Kétségbeesésében önkéntelenül ellop egymillió eurót a vállalat páncélterméből, eldobja a széf kulcsát, és gyorsan elmenekül menyasszonyával, Marine-nal. Hamarosan kiderül, hogy elbocsátása tévedés volt, valójában előléptetésre számíthatott volna. Most napfelkeltéig van ideje visszatenni a pénzt a széfbe. Ám mivel eldobta a kulcsot, és a tartalékkulcs a vezérigazgató lakásában van, kénytelen a kiszámíthatatlan párizsi lakatoshoz, Hippolyte-hoz fordulni segítségért. Az éjszaka nem ígérkezik problémamentesnek!  (Csillag Lajos)R3",
-    "imdbRating": 5.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi"
-    ],
-    "seeders": 255
+    "seeders": 110
   },
   {
     "id": "tt35332621",
@@ -292,7 +307,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 140
+    "seeders": 133
   },
   {
     "id": "tt29540862",
@@ -308,7 +323,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 222
+    "seeders": 211
   },
   {
     "id": "tt28521744",
@@ -324,24 +339,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 107
-  },
-  {
-    "id": "tt31728330",
-    "type": "movie",
-    "name": "Meg fognak ölni",
-    "poster": "https://image.tmdb.org/t/p/w500/o4JzijVhg0SzyjTc4kyTHu3kgLX.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 122
+    "seeders": 97
   },
   {
     "id": "tt33022710",
@@ -356,7 +354,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 115
+    "seeders": 113
   },
   {
     "id": "tt36639986",
@@ -375,7 +373,24 @@
       "Horror",
       "Kaland"
     ],
-    "seeders": 72
+    "seeders": 73
+  },
+  {
+    "id": "tt31728330",
+    "type": "movie",
+    "name": "Meg fognak ölni",
+    "poster": "https://image.tmdb.org/t/p/w500/o4JzijVhg0SzyjTc4kyTHu3kgLX.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 115
   },
   {
     "id": "tt38681832",
@@ -392,7 +407,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 121
+    "seeders": 123
   },
   {
     "id": "tt28650488",
@@ -411,7 +426,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 123
+    "seeders": 125
   },
   {
     "id": "tt42863533",
@@ -427,23 +442,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 84
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 125
+    "seeders": 92
   },
   {
     "id": "tt20358190",
@@ -460,7 +459,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 78
+    "seeders": 79
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 106
   },
   {
     "id": "tt38897659",
@@ -478,23 +493,6 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 94
-  },
-  {
-    "id": "tt33978029",
-    "type": "movie",
-    "name": "Aki bújt 2. - Jövök!",
-    "poster": "https://image.tmdb.org/t/p/w500/fSsWpo4eb88aZwcXevNXZKWQU4o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután túléltek egy halálos játszmát, Grace-nek és húgának, Faith-nek most négy rivális családot kell megelőzniük, akik a hatalmas trónért versengenek. A győztes mindent visz.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 53
+    "seeders": 90
   }
 ]
