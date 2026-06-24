@@ -1,18 +1,36 @@
 [
   {
-    "id": "tt21065274",
+    "id": "tt32565993",
     "type": "movie",
-    "name": "Fekete gyémánt",
-    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
+    "name": "Birkakrimi",
+    "poster": "https://image.tmdb.org/t/p/w500/aHj92baCgEsgbzTPphptXwRYf52.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "George Hardy pásztor gyilkossági krimiket olvas fel a juhainak. Amikor a férfit megölik, a birkák rájönnek, hogy gyilkosság áldozatává vált a gazdájuk, és maguk indulnak el az ügy megoldására, a legelőjükről bemerészkedve az emberek bonyolult világába.  (Gergo Horvath)R3",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
     "genres": [
-      "Thriller"
+      "Vígjáték",
+      "Családi",
+      "Rejtély"
     ],
-    "seeders": 78
+    "seeders": 395
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "In the Hand of Dante",
+    "poster": "https://image.tmdb.org/t/p/w500/nPPIufTBnzEg0d7NoR5RLL1oPra.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 4.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt34471850",
@@ -28,7 +46,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 583
+    "seeders": 679
   },
   {
     "id": "tt33071426",
@@ -45,7 +63,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 526
+    "seeders": 613
+  },
+  {
+    "id": "tt21065274",
+    "type": "movie",
+    "name": "Fekete gyémánt",
+    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 98
   },
   {
     "id": "tt33214716",
@@ -61,7 +94,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 654
+    "seeders": 762
   },
   {
     "id": "tt11378946",
@@ -77,7 +110,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1091
+    "seeders": 1299
   },
   {
     "id": "tt32277918",
@@ -92,7 +125,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 213
+    "seeders": 238
   },
   {
     "id": "tt17490712",
@@ -109,23 +142,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 543
-  },
-  {
-    "id": "tt36987599",
-    "type": "movie",
-    "name": "A boldogság slágere",
-    "poster": "https://image.tmdb.org/t/p/w500/91Nc6a2utk3K3wtosrkyQ5z3sxM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 66
+    "seeders": 622
   },
   {
     "id": "tt10375624",
@@ -135,13 +152,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
-    "imdbRating": 8.1,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 213
+    "seeders": 251
   },
   {
     "id": "tt31260224",
@@ -159,7 +176,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 153
+    "seeders": 176
+  },
+  {
+    "id": "tt36987599",
+    "type": "movie",
+    "name": "A boldogság slágere",
+    "poster": "https://image.tmdb.org/t/p/w500/91Nc6a2utk3K3wtosrkyQ5z3sxM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt15678738",
@@ -177,7 +210,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 214
+    "seeders": 228
   },
   {
     "id": "tt6341826",
@@ -193,7 +226,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 534
+    "seeders": 600
   },
   {
     "id": "tt36876775",
@@ -209,7 +242,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 166
+    "seeders": 183
   },
   {
     "id": "tt43140112",
@@ -226,7 +259,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 227
+    "seeders": 247
   },
   {
     "id": "tt12583926",
@@ -242,7 +275,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 309
+    "seeders": 358
   },
   {
     "id": "tt36958376",
@@ -258,7 +291,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 186
+    "seeders": 205
   },
   {
     "id": "tt32250381",
@@ -274,7 +307,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 209
+    "seeders": 223
   },
   {
     "id": "tt32843985",
@@ -291,7 +324,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 98
+    "seeders": 105
   },
   {
     "id": "tt35332621",
@@ -307,7 +340,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 112
+    "seeders": 134
   },
   {
     "id": "tt29540862",
@@ -323,7 +356,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 173
+    "seeders": 191
   },
   {
     "id": "tt28521744",
@@ -339,7 +372,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 87
+    "seeders": 98
   },
   {
     "id": "tt36639986",
@@ -358,7 +391,22 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 63
+    "seeders": 68
+  },
+  {
+    "id": "tt33022710",
+    "type": "movie",
+    "name": "David Attenborough: Az óceán csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 100
   },
   {
     "id": "tt31728330",
@@ -375,22 +423,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 91
-  },
-  {
-    "id": "tt33022710",
-    "type": "movie",
-    "name": "David Attenborough: Az óceán csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 85
+    "seeders": 100
   },
   {
     "id": "tt28650488",
@@ -409,7 +442,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 108
+    "seeders": 118
   },
   {
     "id": "tt38681832",
@@ -426,7 +459,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 101
+    "seeders": 110
   },
   {
     "id": "tt42863533",
@@ -442,24 +475,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 77
-  },
-  {
-    "id": "tt20358190",
-    "type": "movie",
-    "name": "Keserű arany",
-    "poster": "https://image.tmdb.org/t/p/w500/zQGg8SMlYGZV5JxNjhjLrXcl3T4.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az Atacama-sivatagban a 16 éves Carola és apja rézbányájukban egy aranytelérre bukkannak. Amikor az apát megtámadja egy betolakodó bányász és megsérül, Carola veszi át a helyét a bányában, hogy megvalósítsa álmát: egy tengerparti otthont.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Western",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 67
+    "seeders": 85
   },
   {
     "id": "tt4357198",
@@ -475,24 +491,6 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 94
-  },
-  {
-    "id": "tt38897659",
-    "type": "movie",
-    "name": "A nyaraló",
-    "poster": "https://image.tmdb.org/t/p/w500/kA6e4wmyulZn76xBd5Bq29PZwnb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Selin egy nyaralóban rejtélyes módon vissza utazik az időben, és hirtelen saját édesanyja fiatalkorában találja magát. A múltban átélt események és találkozások lehetőséget adnak neki arra, hogy megváltoztassa a családja sorsát, miközben teljesen újjáépíti a saját életét és jövőjét",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Családi",
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 76
+    "seeders": 111
   }
 ]
