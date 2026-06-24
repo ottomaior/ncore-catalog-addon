@@ -3,18 +3,18 @@
     "id": "tt32565993",
     "type": "movie",
     "name": "Birkakrimi",
-    "poster": "https://image.tmdb.org/t/p/w500/aHj92baCgEsgbzTPphptXwRYf52.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "George Hardy pásztor gyilkossági krimiket olvas fel a juhainak. Amikor a férfit megölik, a birkák rájönnek, hogy gyilkosság áldozatává vált a gazdájuk, és maguk indulnak el az ügy megoldására, a legelőjükről bemerészkedve az emberek bonyolult világába.  (Gergo Horvath)R3",
-    "imdbRating": 7.6,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi",
       "Rejtély"
     ],
-    "seeders": 699
+    "seeders": 1003
   },
   {
     "id": "tt1333644",
@@ -32,7 +32,7 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 83
+    "seeders": 101
   },
   {
     "id": "tt34471850",
@@ -48,7 +48,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 811
+    "seeders": 807
   },
   {
     "id": "tt33071426",
@@ -65,7 +65,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 697
+    "seeders": 731
   },
   {
     "id": "tt33214716",
@@ -81,22 +81,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 851
-  },
-  {
-    "id": "tt21065274",
-    "type": "movie",
-    "name": "Fekete gyémánt",
-    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 102
+    "seeders": 861
   },
   {
     "id": "tt11378946",
@@ -112,22 +97,22 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1473
+    "seeders": 1513
   },
   {
-    "id": "tt32277918",
+    "id": "tt21065274",
     "type": "movie",
-    "name": "Országúti védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/7NkTJcL9IUHAI23LdxQ8XbkJZPt.jpg",
+    "name": "Fekete gyémánt",
+    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
-    "imdbRating": 4.6,
+    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
+    "imdbRating": 5.4,
     "releaseInfo": "2025",
     "genres": [
-      "Akció"
+      "Thriller"
     ],
-    "seeders": 272
+    "seeders": 104
   },
   {
     "id": "tt17490712",
@@ -144,7 +129,22 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 723
+    "seeders": 783
+  },
+  {
+    "id": "tt32277918",
+    "type": "movie",
+    "name": "Országúti védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/7NkTJcL9IUHAI23LdxQ8XbkJZPt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
+    "imdbRating": 4.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 259
   },
   {
     "id": "tt10375624",
@@ -154,13 +154,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
-    "imdbRating": 8.0,
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 277
+    "seeders": 314
   },
   {
     "id": "tt31260224",
@@ -178,7 +178,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 196
+    "seeders": 194
   },
   {
     "id": "tt6341826",
@@ -194,7 +194,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 675
+    "seeders": 680
   },
   {
     "id": "tt15678738",
@@ -212,7 +212,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 259
+    "seeders": 261
   },
   {
     "id": "tt43140112",
@@ -229,7 +229,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 284
+    "seeders": 274
   },
   {
     "id": "tt36987599",
@@ -245,7 +245,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 75
+    "seeders": 77
   },
   {
     "id": "tt36876775",
@@ -255,13 +255,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 7.6,
+    "imdbRating": 7.8,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 204
+    "seeders": 199
   },
   {
     "id": "tt12583926",
@@ -293,7 +293,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 213
+    "seeders": 229
   },
   {
     "id": "tt32250381",
@@ -309,7 +309,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 252
+    "seeders": 236
   },
   {
     "id": "tt32843985",
@@ -326,7 +326,23 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 113
+    "seeders": 105
+  },
+  {
+    "id": "tt29540862",
+    "type": "movie",
+    "name": "Elátkozott esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 203
   },
   {
     "id": "tt35332621",
@@ -342,23 +358,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 144
-  },
-  {
-    "id": "tt29540862",
-    "type": "movie",
-    "name": "Elátkozott esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 217
+    "seeders": 123
   },
   {
     "id": "tt28521744",
@@ -374,7 +374,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 103
+    "seeders": 97
+  },
+  {
+    "id": "tt33022710",
+    "type": "movie",
+    "name": "David Attenborough: Az óceán csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt31728330",
@@ -391,7 +406,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 112
+    "seeders": 108
   },
   {
     "id": "tt36639986",
@@ -410,22 +425,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 71
-  },
-  {
-    "id": "tt33022710",
-    "type": "movie",
-    "name": "David Attenborough: Az óceán csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 104
+    "seeders": 69
   },
   {
     "id": "tt38681832",
@@ -442,7 +442,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 118
+    "seeders": 126
   },
   {
     "id": "tt28650488",
@@ -461,7 +461,7 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 122
+    "seeders": 123
   },
   {
     "id": "tt42863533",
@@ -471,13 +471,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
-    "imdbRating": 7.2,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 87
+    "seeders": 88
   },
   {
     "id": "tt4357198",
@@ -493,6 +493,6 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 122
+    "seeders": 119
   }
 ]
