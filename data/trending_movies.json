@@ -1,18 +1,19 @@
 [
   {
-    "id": "tt32386654",
+    "id": "tt37520267",
     "type": "movie",
-    "name": "A Kreml mágusa",
-    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
+    "name": "Lehúzva",
+    "poster": "https://image.tmdb.org/t/p/w500/p1tnpUctDUzjeA10v8pR8a3pO9E.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A negyvenes éveiben járó Luc nem mond nemet a kokainra. Egy klubba indul, hogy rendezze a kapcsolatát az exével, de az este egészen más fordulatot vesz: a férfi mosdóban találja magát, ahol brutálisan megverik, és a feje szó szerint beleszorul a vécécsészébe. Innen indul rémálomszerű éjszakája, amely során veszélyes drogdílerekkel, egy betépett patkánnyal és egyre abszurdabb, elszabadult eseményekkel kell szembenéznie, miközben valahogy életben próbál maradni. (Csillag Lajos)",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
     "genres": [
-      "Dráma"
+      "Vígjáték",
+      "Thriller"
     ],
-    "seeders": 47
+    "seeders": 178
   },
   {
     "id": "tt32565993",
@@ -29,7 +30,22 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1019
+    "seeders": 1237
+  },
+  {
+    "id": "tt32386654",
+    "type": "movie",
+    "name": "A Kreml mágusa",
+    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 196
   },
   {
     "id": "tt34471850",
@@ -45,7 +61,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 684
+    "seeders": 814
   },
   {
     "id": "tt33071426",
@@ -62,7 +78,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 640
+    "seeders": 736
   },
   {
     "id": "tt33214716",
@@ -78,23 +94,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 751
-  },
-  {
-    "id": "tt1333644",
-    "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nPPIufTBnzEg0d7NoR5RLL1oPra.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 2.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 99
+    "seeders": 874
   },
   {
     "id": "tt11378946",
@@ -110,22 +110,23 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1279
+    "seeders": 1453
   },
   {
-    "id": "tt21065274",
+    "id": "tt1333644",
     "type": "movie",
-    "name": "Fekete gyémánt",
-    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nPPIufTBnzEg0d7NoR5RLL1oPra.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 2.6,
+    "releaseInfo": "2026",
     "genres": [
-      "Thriller"
+      "Dráma",
+      "Bűnügyi"
     ],
-    "seeders": 102
+    "seeders": 107
   },
   {
     "id": "tt17490712",
@@ -142,7 +143,22 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 635
+    "seeders": 748
+  },
+  {
+    "id": "tt21065274",
+    "type": "movie",
+    "name": "Fekete gyémánt",
+    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 110
   },
   {
     "id": "tt32277918",
@@ -157,7 +173,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 248
+    "seeders": 280
   },
   {
     "id": "tt10375624",
@@ -167,13 +183,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
-    "imdbRating": 8.0,
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 275
+    "seeders": 310
   },
   {
     "id": "tt31260224",
@@ -191,7 +207,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 194
+    "seeders": 223
   },
   {
     "id": "tt6341826",
@@ -207,7 +223,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 610
+    "seeders": 696
   },
   {
     "id": "tt15678738",
@@ -225,23 +241,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 230
-  },
-  {
-    "id": "tt36876775",
-    "type": "movie",
-    "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 181
+    "seeders": 256
   },
   {
     "id": "tt43140112",
@@ -258,7 +258,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 231
+    "seeders": 276
+  },
+  {
+    "id": "tt36876775",
+    "type": "movie",
+    "name": "Férjek akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 214
   },
   {
     "id": "tt12583926",
@@ -274,7 +290,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 349
+    "seeders": 398
   },
   {
     "id": "tt36958376",
@@ -284,29 +300,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 207
-  },
-  {
-    "id": "tt36987599",
-    "type": "movie",
-    "name": "A boldogság slágere",
-    "poster": "https://image.tmdb.org/t/p/w500/91Nc6a2utk3K3wtosrkyQ5z3sxM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 68
+    "seeders": 219
   },
   {
     "id": "tt32250381",
@@ -322,7 +322,23 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 231
+    "seeders": 249
+  },
+  {
+    "id": "tt36987599",
+    "type": "movie",
+    "name": "A boldogság slágere",
+    "poster": "https://image.tmdb.org/t/p/w500/91Nc6a2utk3K3wtosrkyQ5z3sxM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 69
   },
   {
     "id": "tt32843985",
@@ -339,7 +355,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 101
+    "seeders": 109
   },
   {
     "id": "tt29540862",
@@ -355,7 +371,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 195
+    "seeders": 222
   },
   {
     "id": "tt35332621",
@@ -371,22 +387,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 116
-  },
-  {
-    "id": "tt33022710",
-    "type": "movie",
-    "name": "David Attenborough: Az óceán csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 106
+    "seeders": 136
   },
   {
     "id": "tt28521744",
@@ -402,7 +403,39 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 87
+    "seeders": 100
+  },
+  {
+    "id": "tt33022710",
+    "type": "movie",
+    "name": "David Attenborough: Az óceán csodája",
+    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 120
+  },
+  {
+    "id": "tt31728330",
+    "type": "movie",
+    "name": "Meg fognak ölni",
+    "poster": "https://image.tmdb.org/t/p/w500/o4JzijVhg0SzyjTc4kyTHu3kgLX.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt36639986",
@@ -421,24 +454,24 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 71
+    "seeders": 74
   },
   {
-    "id": "tt31728330",
+    "id": "tt38681832",
     "type": "movie",
-    "name": "Meg fognak ölni",
-    "poster": "https://image.tmdb.org/t/p/w500/o4JzijVhg0SzyjTc4kyTHu3kgLX.jpg",
+    "name": "A gonosz színei: Fekete",
+    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
+    "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
     "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Vígjáték",
-      "Akció"
+      "Thriller",
+      "Rejtély",
+      "Bűnügyi"
     ],
-    "seeders": 103
+    "seeders": 117
   },
   {
     "id": "tt28650488",
@@ -457,39 +490,6 @@
       "Fantasy",
       "Animációs"
     ],
-    "seeders": 118
-  },
-  {
-    "id": "tt38681832",
-    "type": "movie",
-    "name": "A gonosz színei: Fekete",
-    "poster": "https://image.tmdb.org/t/p/w500/kqGS7zqOjMK6LsV6XjKUz5yreYZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy kisfiúnak nyoma vész egy álmos kisvárosban, az újonnan kinevezett ügyész váratlan kapcsolatra bukkan az ügy és egy korábbi eltűnés között.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 110
-  },
-  {
-    "id": "tt42863533",
-    "type": "movie",
-    "name": "Anyai ösztön: A Taylor Parker-ügy",
-    "poster": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A rendőrök megállítanak egy nőt, aki azt állítja, hogy épp most szült. De a baba és a vér nem az övé. Ez a valós bűnesetről szóló dokumentumfilm hátborzongató hazugságokat fed fel.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 80
+    "seeders": 112
   }
 ]
