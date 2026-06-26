@@ -12,7 +12,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 287
+    "seeders": 360
   },
   {
     "id": "tt32565993",
@@ -22,14 +22,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "George Hardy pásztor gyilkossági krimiket olvas fel a juhainak. Amikor a férfit megölik, a birkák rájönnek, hogy gyilkosság áldozatává vált a gazdájuk, és maguk indulnak el az ügy megoldására, a legelőjükről bemerészkedve az emberek bonyolult világába.  (Gergo Horvath)R3",
-    "imdbRating": 7.5,
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1493
+    "seeders": 1606
   },
   {
     "id": "tt37520267",
@@ -45,22 +45,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 424
+    "seeders": 459
   },
   {
-    "id": "tt39765131",
+    "id": "tt32386654",
     "type": "movie",
-    "name": "Chris Fleming: Live at The Palace",
-    "poster": "https://image.tmdb.org/t/p/w500/uFLfgsKrdGJGny3i2nZ5ECBn4ZS.jpg",
+    "name": "A Kreml mágusa",
+    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.0,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Dráma"
     ],
-    "seeders": 51
+    "seeders": 284
   },
   {
     "id": "tt14883538",
@@ -78,39 +78,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt32386654",
-    "type": "movie",
-    "name": "A Kreml mágusa",
-    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 267
-  },
-  {
-    "id": "tt33071426",
-    "type": "movie",
-    "name": "Kész dráma",
-    "poster": "https://image.tmdb.org/t/p/w500/bzG1da6xgTe4ItXR4EHIrIsRUOn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film középpontjában egy pár áll, akik az esküvőjüket megelőző napokban válságba kerülnek, amikor váratlan felfedezések kisiklatják azt, amit egyikük a másikról tudni vélt. A történet a szerelem vakságával foglalkozik.  (Szarka Károly)",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 69
+    "seeders": 97
   },
   {
     "id": "tt34471850",
@@ -126,7 +94,39 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 826
+    "seeders": 816
+  },
+  {
+    "id": "tt33071426",
+    "type": "movie",
+    "name": "Kész dráma",
+    "poster": "https://image.tmdb.org/t/p/w500/bzG1da6xgTe4ItXR4EHIrIsRUOn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film középpontjában egy pár áll, akik az esküvőjüket megelőző napokban válságba kerülnek, amikor váratlan felfedezések kisiklatják azt, amit egyikük a másikról tudni vélt. A történet a szerelem vakságával foglalkozik.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 761
+  },
+  {
+    "id": "tt42037166",
+    "type": "movie",
+    "name": "Chris és Martina: A végső játszma",
+    "poster": "https://image.tmdb.org/t/p/w500/m6XxbOjeDyHChXlJ7CVEolNCq2o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A teniszlegendák, Chris Evert és Martina Navratilova arról beszélnek, hogyan jutottak el a sztárságig, milyen volt a rivalizálásuk és a barátságuk, valamint arról, hogyan támogatják egymást a rákkezelés során.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 50
   },
   {
     "id": "tt33214716",
@@ -142,23 +142,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 895
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 73
+    "seeders": 861
   },
   {
     "id": "tt11378946",
@@ -174,7 +158,23 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1385
+    "seeders": 1454
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 83
   },
   {
     "id": "tt17490712",
@@ -191,7 +191,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 739
+    "seeders": 772
   },
   {
     "id": "tt1333644",
@@ -201,28 +201,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 3.9,
+    "imdbRating": 4.3,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 122
-  },
-  {
-    "id": "tt32277918",
-    "type": "movie",
-    "name": "Országúti védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/7NkTJcL9IUHAI23LdxQ8XbkJZPt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
-    "imdbRating": 4.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 271
+    "seeders": 120
   },
   {
     "id": "tt10375624",
@@ -238,7 +223,22 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 327
+    "seeders": 346
+  },
+  {
+    "id": "tt32277918",
+    "type": "movie",
+    "name": "Országúti védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/7NkTJcL9IUHAI23LdxQ8XbkJZPt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
+    "imdbRating": 4.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 261
   },
   {
     "id": "tt6341826",
@@ -254,7 +254,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 688
+    "seeders": 675
   },
   {
     "id": "tt21065274",
@@ -269,7 +269,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 114
+    "seeders": 115
   },
   {
     "id": "tt31260224",
@@ -287,24 +287,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 219
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 286
+    "seeders": 214
   },
   {
     "id": "tt15678738",
@@ -322,23 +305,24 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 249
+    "seeders": 255
   },
   {
-    "id": "tt36876775",
+    "id": "tt43140112",
     "type": "movie",
-    "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
     "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
+      "Animációs",
       "Vígjáték",
-      "Akció"
+      "Családi"
     ],
-    "seeders": 222
+    "seeders": 279
   },
   {
     "id": "tt12583926",
@@ -354,7 +338,23 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 388
+    "seeders": 391
+  },
+  {
+    "id": "tt36876775",
+    "type": "movie",
+    "name": "Férjek akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 211
   },
   {
     "id": "tt32250381",
@@ -370,7 +370,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 251
+    "seeders": 247
   },
   {
     "id": "tt36958376",
@@ -386,7 +386,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 194
+    "seeders": 182
   },
   {
     "id": "tt36987599",
@@ -402,7 +402,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 70
+    "seeders": 74
   },
   {
     "id": "tt32843985",
@@ -419,7 +419,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 113
+    "seeders": 104
   },
   {
     "id": "tt29540862",
@@ -435,7 +435,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 210
+    "seeders": 201
   },
   {
     "id": "tt35332621",
@@ -451,7 +451,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 132
+    "seeders": 124
   },
   {
     "id": "tt33022710",
@@ -466,7 +466,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 119
+    "seeders": 118
   },
   {
     "id": "tt31728330",
@@ -483,6 +483,6 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 117
+    "seeders": 104
   }
 ]
