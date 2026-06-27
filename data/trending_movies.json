@@ -1,5 +1,23 @@
 [
   {
+    "id": "tt32565993",
+    "type": "movie",
+    "name": "Birkakrimi",
+    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "George Hardy pásztor gyilkossági krimiket olvas fel a juhainak. Amikor a férfit megölik, a birkák rájönnek, hogy gyilkosság áldozatává vált a gazdájuk, és maguk indulnak el az ügy megoldására, a legelőjükről bemerészkedve az emberek bonyolult világába.  (Gergo Horvath)R3",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Rejtély",
+      "Családi"
+    ],
+    "seeders": 1746
+  },
+  {
     "id": "tt32430579",
     "type": "movie",
     "name": "A bűn útja",
@@ -13,25 +31,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 102
-  },
-  {
-    "id": "tt32565993",
-    "type": "movie",
-    "name": "Birkakrimi",
-    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "George Hardy pásztor gyilkossági krimiket olvas fel a juhainak. Amikor a férfit megölik, a birkák rájönnek, hogy gyilkosság áldozatává vált a gazdájuk, és maguk indulnak el az ügy megoldására, a legelőjükről bemerészkedve az emberek bonyolult világába.  (Gergo Horvath)R3",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Rejtély",
-      "Családi"
-    ],
-    "seeders": 1537
+    "seeders": 138
   },
   {
     "id": "tt34888871",
@@ -41,12 +41,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.0,
+    "imdbRating": 5.9,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 390
+    "seeders": 424
   },
   {
     "id": "tt37520267",
@@ -62,7 +62,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 461
+    "seeders": 526
   },
   {
     "id": "tt32386654",
@@ -77,7 +77,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 287
+    "seeders": 314
   },
   {
     "id": "tt34471850",
@@ -93,7 +93,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 801
+    "seeders": 885
   },
   {
     "id": "tt33071426",
@@ -110,7 +110,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 689
+    "seeders": 777
   },
   {
     "id": "tt33214716",
@@ -126,7 +126,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 826
+    "seeders": 883
   },
   {
     "id": "tt11378946",
@@ -142,7 +142,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1268
+    "seeders": 1435
   },
   {
     "id": "tt14883538",
@@ -163,37 +163,6 @@
     "seeders": 88
   },
   {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 88
-  },
-  {
-    "id": "tt42037166",
-    "type": "movie",
-    "name": "Chris és Martina: A végső játszma",
-    "poster": "https://image.tmdb.org/t/p/w500/m6XxbOjeDyHChXlJ7CVEolNCq2o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A teniszlegendák, Chris Evert és Martina Navratilova arról beszélnek, hogyan jutottak el a sztárságig, milyen volt a rivalizálásuk és a barátságuk, valamint arról, hogyan támogatják egymást a rákkezelés során.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 53
-  },
-  {
     "id": "tt17490712",
     "type": "movie",
     "name": "Mortal Kombat 2",
@@ -208,7 +177,23 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 703
+    "seeders": 851
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 95
   },
   {
     "id": "tt10375624",
@@ -224,7 +209,22 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 325
+    "seeders": 360
+  },
+  {
+    "id": "tt42037166",
+    "type": "movie",
+    "name": "Chris és Martina: A végső játszma",
+    "poster": "https://image.tmdb.org/t/p/w500/m6XxbOjeDyHChXlJ7CVEolNCq2o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A teniszlegendák, Chris Evert és Martina Navratilova arról beszélnek, hogyan jutottak el a sztárságig, milyen volt a rivalizálásuk és a barátságuk, valamint arról, hogyan támogatják egymást a rákkezelés során.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 52
   },
   {
     "id": "tt32277918",
@@ -239,23 +239,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 248
-  },
-  {
-    "id": "tt1333644",
-    "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nPPIufTBnzEg0d7NoR5RLL1oPra.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 107
+    "seeders": 271
   },
   {
     "id": "tt6341826",
@@ -271,7 +255,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 636
+    "seeders": 680
   },
   {
     "id": "tt31260224",
@@ -289,22 +273,40 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 222
+    "seeders": 246
   },
   {
-    "id": "tt21065274",
+    "id": "tt1333644",
     "type": "movie",
-    "name": "Fekete gyémánt",
-    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nPPIufTBnzEg0d7NoR5RLL1oPra.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2026",
     "genres": [
-      "Thriller"
+      "Dráma",
+      "Bűnügyi"
     ],
-    "seeders": 102
+    "seeders": 112
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 278
   },
   {
     "id": "tt15678738",
@@ -322,7 +324,22 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 235
+    "seeders": 245
+  },
+  {
+    "id": "tt21065274",
+    "type": "movie",
+    "name": "Fekete gyémánt",
+    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 107
   },
   {
     "id": "tt12583926",
@@ -338,24 +355,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 369
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 251
+    "seeders": 385
   },
   {
     "id": "tt36876775",
@@ -371,7 +371,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 201
+    "seeders": 211
   },
   {
     "id": "tt32250381",
@@ -387,7 +387,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 230
+    "seeders": 252
   },
   {
     "id": "tt36958376",
@@ -403,7 +403,23 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 161
+    "seeders": 174
+  },
+  {
+    "id": "tt36987599",
+    "type": "movie",
+    "name": "A boldogság slágere",
+    "poster": "https://image.tmdb.org/t/p/w500/91Nc6a2utk3K3wtosrkyQ5z3sxM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt32843985",
@@ -423,22 +439,6 @@
     "seeders": 109
   },
   {
-    "id": "tt36987599",
-    "type": "movie",
-    "name": "A boldogság slágere",
-    "poster": "https://image.tmdb.org/t/p/w500/91Nc6a2utk3K3wtosrkyQ5z3sxM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 69
-  },
-  {
     "id": "tt29540862",
     "type": "movie",
     "name": "Elátkozott esküvő",
@@ -452,7 +452,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 191
+    "seeders": 201
   },
   {
     "id": "tt35332621",
@@ -468,7 +468,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 115
+    "seeders": 131
   },
   {
     "id": "tt33022710",
@@ -483,6 +483,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 107
+    "seeders": 110
   }
 ]
