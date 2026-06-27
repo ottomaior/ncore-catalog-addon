@@ -1,18 +1,19 @@
 [
   {
-    "id": "tt34888871",
+    "id": "tt32430579",
     "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 7.2,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Bűnügyi",
+      "Thriller"
     ],
-    "seeders": 360
+    "seeders": 59
   },
   {
     "id": "tt32565993",
@@ -26,10 +27,26 @@
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
-      "Családi",
-      "Rejtély"
+      "Bűnügyi",
+      "Rejtély",
+      "Családi"
     ],
-    "seeders": 1606
+    "seeders": 1184
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 295
   },
   {
     "id": "tt37520267",
@@ -45,7 +62,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 459
+    "seeders": 354
   },
   {
     "id": "tt32386654",
@@ -60,7 +77,56 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 284
+    "seeders": 238
+  },
+  {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Instinto protector",
+    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 607
+  },
+  {
+    "id": "tt33071426",
+    "type": "movie",
+    "name": "Kész dráma",
+    "poster": "https://image.tmdb.org/t/p/w500/bzG1da6xgTe4ItXR4EHIrIsRUOn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film középpontjában egy pár áll, akik az esküvőjüket megelőző napokban válságba kerülnek, amikor váratlan felfedezések kisiklatják azt, amit egyikük a másikról tudni vélt. A történet a szerelem vakságával foglalkozik.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 571
+  },
+  {
+    "id": "tt33214716",
+    "type": "movie",
+    "name": "A virágárus",
+    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 689
   },
   {
     "id": "tt14883538",
@@ -78,40 +144,23 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 97
+    "seeders": 79
   },
   {
-    "id": "tt34471850",
+    "id": "tt11378946",
     "type": "movie",
-    "name": "Protector",
-    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.5,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.7,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 816
-  },
-  {
-    "id": "tt33071426",
-    "type": "movie",
-    "name": "Kész dráma",
-    "poster": "https://image.tmdb.org/t/p/w500/bzG1da6xgTe4ItXR4EHIrIsRUOn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film középpontjában egy pár áll, akik az esküvőjüket megelőző napokban válságba kerülnek, amikor váratlan felfedezések kisiklatják azt, amit egyikük a másikról tudni vélt. A történet a szerelem vakságával foglalkozik.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
+      "Zenei",
       "Dráma"
     ],
-    "seeders": 761
+    "seeders": 1036
   },
   {
     "id": "tt42037166",
@@ -129,38 +178,6 @@
     "seeders": 50
   },
   {
-    "id": "tt33214716",
-    "type": "movie",
-    "name": "A virágárus",
-    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 861
-  },
-  {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 1454
-  },
-  {
     "id": "tt4357198",
     "type": "movie",
     "name": "Hogyan kaszálj nagyot",
@@ -174,7 +191,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 83
+    "seeders": 75
   },
   {
     "id": "tt17490712",
@@ -191,7 +208,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 772
+    "seeders": 536
   },
   {
     "id": "tt1333644",
@@ -201,13 +218,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 4.3,
+    "imdbRating": 4.9,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 120
+    "seeders": 109
   },
   {
     "id": "tt10375624",
@@ -223,7 +240,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 346
+    "seeders": 256
   },
   {
     "id": "tt32277918",
@@ -238,7 +255,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 261
+    "seeders": 212
   },
   {
     "id": "tt6341826",
@@ -254,7 +271,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 675
+    "seeders": 502
   },
   {
     "id": "tt21065274",
@@ -269,7 +286,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 115
+    "seeders": 90
   },
   {
     "id": "tt31260224",
@@ -287,7 +304,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 214
+    "seeders": 161
   },
   {
     "id": "tt15678738",
@@ -305,7 +322,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 255
+    "seeders": 206
   },
   {
     "id": "tt43140112",
@@ -322,7 +339,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 279
+    "seeders": 211
   },
   {
     "id": "tt12583926",
@@ -338,7 +355,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 391
+    "seeders": 296
   },
   {
     "id": "tt36876775",
@@ -348,13 +365,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 7.6,
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 211
+    "seeders": 162
   },
   {
     "id": "tt32250381",
@@ -370,23 +387,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 247
-  },
-  {
-    "id": "tt36958376",
-    "type": "movie",
-    "name": "A te hibád: London",
-    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 182
+    "seeders": 192
   },
   {
     "id": "tt36987599",
@@ -402,7 +403,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 74
+    "seeders": 64
+  },
+  {
+    "id": "tt36958376",
+    "type": "movie",
+    "name": "A te hibád: London",
+    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 133
   },
   {
     "id": "tt32843985",
@@ -419,7 +436,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 104
+    "seeders": 91
   },
   {
     "id": "tt29540862",
@@ -435,7 +452,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 201
+    "seeders": 160
   },
   {
     "id": "tt35332621",
@@ -451,7 +468,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 124
+    "seeders": 102
   },
   {
     "id": "tt33022710",
@@ -466,23 +483,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 118
-  },
-  {
-    "id": "tt31728330",
-    "type": "movie",
-    "name": "Meg fognak ölni",
-    "poster": "https://image.tmdb.org/t/p/w500/o4JzijVhg0SzyjTc4kyTHu3kgLX.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 104
+    "seeders": 88
   }
 ]
