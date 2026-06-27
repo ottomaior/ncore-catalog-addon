@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt28834646",
+    "type": "movie",
+    "name": "Mi van veled, csajszi?",
+    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 56
+  },
+  {
     "id": "tt32565993",
     "type": "movie",
     "name": "Birkakrimi",
@@ -15,7 +31,22 @@
       "Rejtély",
       "Családi"
     ],
-    "seeders": 1746
+    "seeders": 1838
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 471
   },
   {
     "id": "tt32430579",
@@ -31,22 +62,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 138
-  },
-  {
-    "id": "tt34888871",
-    "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 424
+    "seeders": 173
   },
   {
     "id": "tt37520267",
@@ -62,7 +78,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 526
+    "seeders": 568
   },
   {
     "id": "tt32386654",
@@ -72,17 +88,17 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.6,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 314
+    "seeders": 311
   },
   {
     "id": "tt34471850",
     "type": "movie",
-    "name": "Instinto protector",
+    "name": "Protector",
     "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
     "posterShape": "poster",
     "year": 2026,
@@ -93,7 +109,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 885
+    "seeders": 851
   },
   {
     "id": "tt33071426",
@@ -110,7 +126,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 777
+    "seeders": 814
   },
   {
     "id": "tt33214716",
@@ -126,7 +142,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 883
+    "seeders": 923
   },
   {
     "id": "tt11378946",
@@ -142,7 +158,24 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1435
+    "seeders": 1494
+  },
+  {
+    "id": "tt17490712",
+    "type": "movie",
+    "name": "Mortal Kombat 2",
+    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Kaland"
+    ],
+    "seeders": 802
   },
   {
     "id": "tt14883538",
@@ -160,24 +193,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt17490712",
-    "type": "movie",
-    "name": "Mortal Kombat 2",
-    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Kaland"
-    ],
-    "seeders": 851
+    "seeders": 90
   },
   {
     "id": "tt4357198",
@@ -193,7 +209,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 95
+    "seeders": 103
   },
   {
     "id": "tt10375624",
@@ -209,7 +225,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 360
+    "seeders": 359
   },
   {
     "id": "tt42037166",
@@ -224,7 +240,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 52
+    "seeders": 56
   },
   {
     "id": "tt32277918",
@@ -239,23 +255,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 271
-  },
-  {
-    "id": "tt6341826",
-    "type": "movie",
-    "name": "Egy szempillantás alatt",
-    "poster": "https://image.tmdb.org/t/p/w500/24trP0Pkjw5g7P1KwoQAXPf0nd8.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Három, évezredeken átívelő történet fonódik össze, miközben a remény, a kötődés és az élet körforgása áll a középpontban.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Dráma"
-    ],
-    "seeders": 680
+    "seeders": 267
   },
   {
     "id": "tt31260224",
@@ -273,7 +273,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 246
+    "seeders": 255
   },
   {
     "id": "tt1333644",
@@ -283,30 +283,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 4.9,
+    "imdbRating": 4.8,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 112
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 278
+    "seeders": 114
   },
   {
     "id": "tt15678738",
@@ -324,22 +307,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 245
-  },
-  {
-    "id": "tt21065274",
-    "type": "movie",
-    "name": "Fekete gyémánt",
-    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 107
+    "seeders": 260
   },
   {
     "id": "tt12583926",
@@ -355,7 +323,24 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 385
+    "seeders": 401
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 284
   },
   {
     "id": "tt36876775",
@@ -371,7 +356,22 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 211
+    "seeders": 214
+  },
+  {
+    "id": "tt21065274",
+    "type": "movie",
+    "name": "Fekete gyémánt",
+    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 102
   },
   {
     "id": "tt32250381",
@@ -387,7 +387,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 252
+    "seeders": 251
   },
   {
     "id": "tt36958376",
@@ -397,13 +397,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 174
+    "seeders": 175
   },
   {
     "id": "tt36987599",
@@ -419,7 +419,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 71
+    "seeders": 70
+  },
+  {
+    "id": "tt29540862",
+    "type": "movie",
+    "name": "Elátkozott esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 206
   },
   {
     "id": "tt32843985",
@@ -436,23 +452,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 109
-  },
-  {
-    "id": "tt29540862",
-    "type": "movie",
-    "name": "Elátkozott esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 201
+    "seeders": 105
   },
   {
     "id": "tt35332621",
@@ -468,21 +468,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 131
+    "seeders": 125
   },
   {
-    "id": "tt33022710",
+    "id": "tt31728330",
     "type": "movie",
-    "name": "David Attenborough: Az óceán csodája",
-    "poster": "https://image.tmdb.org/t/p/w500/iz4p3OIqQNr9lC1HXXYdZQZCZzP.jpg",
+    "name": "Meg fognak ölni",
+    "poster": "https://image.tmdb.org/t/p/w500/o4JzijVhg0SzyjTc4kyTHu3kgLX.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Új filmjében David Attenborough a Föld leglátványosabb víz alatti élőhelyeire kalauzol, hogy bravúros felvételekkel elénk tárja az óceán rejtett kincseit és felhívja figyelmünket ezek megóvásának fontosságára. A legfontosabb üzenete mégis az, hogy napjainkban a tengerkutatás legnagyszerűbb időszakát éljük, melyben olyan lehetőségek nyílnak meg előttünk az óceánok élővilágának helyreállításra, melyekről korábban nem is álmodhattunk.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy szinte átlagos nő munkát vállal egy elegáns, bár kissé titokzatos New York-i lakóházban. Aztán kénytelen rájönni, hogy néha úgy alkalmazzák az embert, hogy a lényeget pont nem mondják el előre. Ő takarítani jelentkezett, de a lakóknak áldozatra van szükségük. A ház egy démonkultusz kiismerhetetlen halálcsapdája. Az ott élők mind a kultusz tagjai, és havonta feláldoznak egy lányt a Sátánnak, aki a padlásukon húzza meg magát. A nő azonban szembeszáll velük: az egész ház csatatérré változik, és kezdődik a hajnalig tartó, őrült küzdelem, amelyben minden eszköz megengedett, és akit nem vágnak ketté, az felgyullad, lezuhan, szétfröccsen vagy törik. Csak egy feladat van: ki kell bírni reggelig.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Horror",
+      "Vígjáték",
+      "Akció"
     ],
-    "seeders": 110
+    "seeders": 107
   }
 ]
