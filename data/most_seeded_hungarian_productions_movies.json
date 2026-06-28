@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999990
+"seeders": 999992
 },
 {
 "id": "tt29344974",
@@ -30,7 +30,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999984
+"seeders": 999983
 },
 {
 "id": "tt29567915",
@@ -46,7 +46,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999983
+"seeders": 999982
 },
 {
 "id": "tt34375721",
@@ -63,7 +63,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999958
+"seeders": 999956
 },
 {
 "id": "tt20672356",
@@ -79,7 +79,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999946
+"seeders": 999948
 },
 {
 "id": "tt0179955",
@@ -96,7 +96,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999898
+"seeders": 999897
 },
 {
 "id": "tt35303515",
@@ -127,7 +127,7 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999881
+"seeders": 999875
 },
 {
 "id": "tt38508942",
@@ -137,27 +137,12 @@
 "posterShape": "poster",
 "year": 2026,
 "description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
-"imdbRating": 5.0,
+"imdbRating": 3.7,
 "releaseInfo": "2026",
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999852
-},
-{
-"id": "tt0065067",
-"type": "movie",
-"name": "A tanú",
-"poster": "https://image.tmdb.org/t/p/w500/l6X1hx0Ux5hQYSl7YpQiyIsdzO7.jpg",
-"posterShape": "poster",
-"year": 1979,
-"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
-"imdbRating": 8.1,
-"releaseInfo": "1979",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999842
+"seeders": 999838
 },
 {
 "id": "tt31065630",
@@ -189,7 +174,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999831
+"seeders": 999836
 },
 {
 "id": "tt0131636",
@@ -205,7 +190,22 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999824
+"seeders": 999833
+},
+{
+"id": "tt0065067",
+"type": "movie",
+"name": "A tanú",
+"poster": "https://image.tmdb.org/t/p/w500/l6X1hx0Ux5hQYSl7YpQiyIsdzO7.jpg",
+"posterShape": "poster",
+"year": 1979,
+"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
+"imdbRating": 8.1,
+"releaseInfo": "1979",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999828
 },
 {
 "id": "tt0084315",
@@ -275,21 +275,6 @@
 "seeders": 999815
 },
 {
-"id": "tt1247685",
-"type": "movie",
-"name": "Papírkutyák",
-"poster": "https://image.tmdb.org/t/p/w500/iAIMucUJ7hIEbZbFfQ8xc3uVVdG.jpg",
-"posterShape": "poster",
-"year": 2009,
-"description": "Kuplung és Csumpi, a két kisstílű bűnöző előzetesben ül. Unalmukban felidézik cellatársuknak az általuk elkövetett balhé történetét. A két kárpátaljai magyar sokféle munkából próbált megélni, kevés sikerrel. Így jött az ötlet, a Pénzmegsemmisítő Raktár kirablásának gondolata. A csapat gyorsan összeáll, minden részletet kidolgoznak. Az akciót sikerrel végrehajtják, ám ettől kezdve elpártol tőlük a szerencse, ami elromolhat, az el is romlik, ők meg ártatlanul kocsmai verekedésbe keverednek. Sok mesének egy a vége, a szabaduló cellatárs elhatározza, hogy lelép a rossz helyen lévő pénzzel.",
-"imdbRating": 6.5,
-"releaseInfo": "2009",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999800
-},
-{
 "id": "tt37357756",
 "type": "movie",
 "name": "Szenvedélyes nők",
@@ -304,6 +289,21 @@
 "Vígjáték"
 ],
 "seeders": 999791
+},
+{
+"id": "tt1247685",
+"type": "movie",
+"name": "Papírkutyák",
+"poster": "https://image.tmdb.org/t/p/w500/iAIMucUJ7hIEbZbFfQ8xc3uVVdG.jpg",
+"posterShape": "poster",
+"year": 2009,
+"description": "Kuplung és Csumpi, a két kisstílű bűnöző előzetesben ül. Unalmukban felidézik cellatársuknak az általuk elkövetett balhé történetét. A két kárpátaljai magyar sokféle munkából próbált megélni, kevés sikerrel. Így jött az ötlet, a Pénzmegsemmisítő Raktár kirablásának gondolata. A csapat gyorsan összeáll, minden részletet kidolgoznak. Az akciót sikerrel végrehajtják, ám ettől kezdve elpártol tőlük a szerencse, ami elromolhat, az el is romlik, ők meg ártatlanul kocsmai verekedésbe keverednek. Sok mesének egy a vége, a szabaduló cellatárs elhatározza, hogy lelép a rossz helyen lévő pénzzel.",
+"imdbRating": 6.5,
+"releaseInfo": "2009",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999788
 },
 {
 "id": "tt3117504",
