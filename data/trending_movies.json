@@ -1,18 +1,20 @@
 [
   {
-    "id": "tt43619403",
+    "id": "tt33071426",
     "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "name": "Kész dráma",
+    "poster": "https://image.tmdb.org/t/p/w500/bzG1da6xgTe4ItXR4EHIrIsRUOn.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "description": "A film középpontjában egy pár áll, akik az esküvőjüket megelőző napokban válságba kerülnek, amikor váratlan felfedezések kisiklatják azt, amit egyikük a másikról tudni vélt. A történet a szerelem vakságával foglalkozik.",
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
+      "Romantikus",
+      "Vígjáték",
       "Dráma"
     ],
-    "seeders": 193
+    "seeders": 48
   },
   {
     "id": "tt32565993",
@@ -26,11 +28,25 @@
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
-      "Bűnügyi",
       "Rejtély",
       "Családi"
     ],
-    "seeders": 2094
+    "seeders": 1423
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 171
   },
   {
     "id": "tt34888871",
@@ -40,12 +56,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.4,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 545
+    "seeders": 411
   },
   {
     "id": "tt37520267",
@@ -61,7 +77,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 690
+    "seeders": 501
   },
   {
     "id": "tt32430579",
@@ -77,56 +93,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 233
-  },
-  {
-    "id": "tt33071426",
-    "type": "movie",
-    "name": "Kész dráma",
-    "poster": "https://image.tmdb.org/t/p/w500/bzG1da6xgTe4ItXR4EHIrIsRUOn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film középpontjában egy pár áll, akik az esküvőjüket megelőző napokban válságba kerülnek, amikor váratlan felfedezések kisiklatják azt, amit egyikük a másikról tudni vélt. A történet a szerelem vakságával foglalkozik.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 890
+    "seeders": 179
   },
   {
     "id": "tt34471850",
     "type": "movie",
-    "name": "Protector",
+    "name": "Védelmező",
     "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.5,
+    "imdbRating": 8.6,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 872
-  },
-  {
-    "id": "tt28834646",
-    "type": "movie",
-    "name": "Mi van veled, csajszi?",
-    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 104
+    "seeders": 606
   },
   {
     "id": "tt33214716",
@@ -142,7 +125,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 966
+    "seeders": 711
   },
   {
     "id": "tt32386654",
@@ -157,7 +140,23 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 317
+    "seeders": 253
+  },
+  {
+    "id": "tt28834646",
+    "type": "movie",
+    "name": "Mi van veled, csajszi?",
+    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt11378946",
@@ -173,7 +172,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1520
+    "seeders": 1066
   },
   {
     "id": "tt17490712",
@@ -190,7 +189,23 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 891
+    "seeders": 595
+  },
+  {
+    "id": "tt10375624",
+    "type": "movie",
+    "name": "Üzenetek Isabelle-nek",
+    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 264
   },
   {
     "id": "tt14883538",
@@ -208,23 +223,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 103
-  },
-  {
-    "id": "tt10375624",
-    "type": "movie",
-    "name": "Üzenetek Isabelle-nek",
-    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 363
+    "seeders": 79
   },
   {
     "id": "tt4357198",
@@ -240,7 +239,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 104
+    "seeders": 80
   },
   {
     "id": "tt32277918",
@@ -255,7 +254,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 268
+    "seeders": 200
   },
   {
     "id": "tt31260224",
@@ -273,7 +272,39 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 261
+    "seeders": 194
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nPPIufTBnzEg0d7NoR5RLL1oPra.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 94
+  },
+  {
+    "id": "tt12583926",
+    "type": "movie",
+    "name": "Évforduló",
+    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 295
   },
   {
     "id": "tt43140112",
@@ -290,23 +321,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 302
-  },
-  {
-    "id": "tt12583926",
-    "type": "movie",
-    "name": "Évforduló",
-    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 405
+    "seeders": 214
   },
   {
     "id": "tt15678738",
@@ -324,23 +339,22 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 258
+    "seeders": 190
   },
   {
-    "id": "tt1333644",
+    "id": "tt42037166",
     "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nPPIufTBnzEg0d7NoR5RLL1oPra.jpg",
+    "name": "Chris és Martina: A végső játszma",
+    "poster": "https://image.tmdb.org/t/p/w500/m6XxbOjeDyHChXlJ7CVEolNCq2o.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.3,
+    "description": "A teniszlegendák, Chris Evert és Martina Navratilova arról beszélnek, hogyan jutottak el a sztárságig, milyen volt a rivalizálásuk és a barátságuk, valamint arról, hogyan támogatják egymást a rákkezelés során.",
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Bűnügyi"
+      "Dokumentum"
     ],
-    "seeders": 111
+    "seeders": 48
   },
   {
     "id": "tt36876775",
@@ -356,22 +370,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 208
-  },
-  {
-    "id": "tt42037166",
-    "type": "movie",
-    "name": "Chris és Martina: A végső játszma",
-    "poster": "https://image.tmdb.org/t/p/w500/m6XxbOjeDyHChXlJ7CVEolNCq2o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A teniszlegendák, Chris Evert és Martina Navratilova arról beszélnek, hogyan jutottak el a sztárságig, milyen volt a rivalizálásuk és a barátságuk, valamint arról, hogyan támogatják egymást a rákkezelés során.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 53
+    "seeders": 165
   },
   {
     "id": "tt21065274",
@@ -386,7 +385,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 109
+    "seeders": 82
   },
   {
     "id": "tt32250381",
@@ -402,7 +401,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 269
+    "seeders": 197
   },
   {
     "id": "tt36958376",
@@ -412,13 +411,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.5,
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 179
+    "seeders": 132
   },
   {
     "id": "tt36987599",
@@ -428,13 +427,13 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
-    "imdbRating": 6.8,
+    "imdbRating": 7.0,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 77
+    "seeders": 61
   },
   {
     "id": "tt29540862",
@@ -450,23 +449,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 201
-  },
-  {
-    "id": "tt35332621",
-    "type": "movie",
-    "name": "Vitrival, a világ legszebb faluja",
-    "poster": "https://image.tmdb.org/t/p/w500/3aDpjfMj34uvtOthGVy25ttr1Th.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy csendes falut feldúlja, amikor péniszgraffitik lepik el a falakat és hárman öngyilkosok lesznek. A két helyi rendőr akcióba lendül.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 128
+    "seeders": 151
   },
   {
     "id": "tt32843985",
@@ -483,6 +466,22 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 96
+    "seeders": 78
+  },
+  {
+    "id": "tt35332621",
+    "type": "movie",
+    "name": "Vitrival, a világ legszebb faluja",
+    "poster": "https://image.tmdb.org/t/p/w500/3aDpjfMj34uvtOthGVy25ttr1Th.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy csendes falut feldúlja, amikor péniszgraffitik lepik el a falakat és hárman öngyilkosok lesznek. A két helyi rendőr akcióba lendül.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 99
   }
 ]
