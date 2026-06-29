@@ -14,7 +14,38 @@
       "Rejtély",
       "Családi"
     ],
-    "seeders": 1759
+    "seeders": 2071
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 236
+  },
+  {
+    "id": "tt37520267",
+    "type": "movie",
+    "name": "Lehúzva",
+    "poster": "https://image.tmdb.org/t/p/w500/p1tnpUctDUzjeA10v8pR8a3pO9E.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A negyvenes éveiben járó Luc nem mond nemet a kokainra. Egy klubba indul, hogy rendezze a kapcsolatát az exével, de az este egészen más fordulatot vesz: a férfi mosdóban találja magát, ahol brutálisan megverik, és a feje szó szerint beleszorul a vécécsészébe. Innen indul rémálomszerű éjszakája, amely során veszélyes drogdílerekkel, egy betépett patkánnyal és egyre abszurdabb, elszabadult eseményekkel kell szembenéznie, miközben valahogy életben próbál maradni. (Csillag Lajos)",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 691
   },
   {
     "id": "tt33071426",
@@ -31,38 +62,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 87
-  },
-  {
-    "id": "tt43619403",
-    "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 203
-  },
-  {
-    "id": "tt37520267",
-    "type": "movie",
-    "name": "Lehúzva",
-    "poster": "https://image.tmdb.org/t/p/w500/p1tnpUctDUzjeA10v8pR8a3pO9E.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A negyvenes éveiben járó Luc nem mond nemet a kokainra. Egy klubba indul, hogy rendezze a kapcsolatát az exével, de az este egészen más fordulatot vesz: a férfi mosdóban találja magát, ahol brutálisan megverik, és a feje szó szerint beleszorul a vécécsészébe. Innen indul rémálomszerű éjszakája, amely során veszélyes drogdílerekkel, egy betépett patkánnyal és egyre abszurdabb, elszabadult eseményekkel kell szembenéznie, miközben valahogy életben próbál maradni. (Csillag Lajos)",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 607
+    "seeders": 99
   },
   {
     "id": "tt34888871",
@@ -72,28 +72,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 457
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 215
+    "seeders": 532
   },
   {
     "id": "tt34471850",
@@ -109,7 +93,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 736
+    "seeders": 886
+  },
+  {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 230
   },
   {
     "id": "tt33214716",
@@ -125,7 +125,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 817
+    "seeders": 907
   },
   {
     "id": "tt11378946",
@@ -141,7 +141,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1296
+    "seeders": 1475
   },
   {
     "id": "tt32386654",
@@ -156,7 +156,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 289
+    "seeders": 332
   },
   {
     "id": "tt28834646",
@@ -172,7 +172,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 93
+    "seeders": 105
   },
   {
     "id": "tt17490712",
@@ -189,7 +189,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 731
+    "seeders": 851
   },
   {
     "id": "tt10375624",
@@ -205,25 +205,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 310
-  },
-  {
-    "id": "tt14883538",
-    "type": "movie",
-    "name": "Arco - Fiú a jövőből",
-    "poster": "https://image.tmdb.org/t/p/w500/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nem túl távoli jövőben egy magányos kislány, Iris egy különös szivárványra lesz figyelmes, amelyet egy égen átsuhanó, színes köpenybe öltözött alak rajzol az égre. Arco, az égből pottyant fiú az évezred végéről érkezett, egy felhők fölé épült városból, egy félresikerült időutazás következtében. Iris menedéket nyújt a fiúnak, és mindent megtesz, hogy segítsen neki visszajutni a saját idejébe. Menekülés közben szelíd barátság szövődik kettejük között, amely megnyitja Iris előtt Arco jövőbeli világát: egy emberibb, derűsebb kort.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Animációs",
-      "Családi",
-      "Sci-Fi"
-    ],
-    "seeders": 93
+    "seeders": 355
   },
   {
     "id": "tt32277918",
@@ -238,7 +220,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 245
+    "seeders": 271
   },
   {
     "id": "tt31260224",
@@ -256,7 +238,25 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 233
+    "seeders": 261
+  },
+  {
+    "id": "tt14883538",
+    "type": "movie",
+    "name": "Arco - Fiú a jövőből",
+    "poster": "https://image.tmdb.org/t/p/w500/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nem túl távoli jövőben egy magányos kislány, Iris egy különös szivárványra lesz figyelmes, amelyet egy égen átsuhanó, színes köpenybe öltözött alak rajzol az égre. Arco, az égből pottyant fiú az évezred végéről érkezett, egy felhők fölé épült városból, egy félresikerült időutazás következtében. Iris menedéket nyújt a fiúnak, és mindent megtesz, hogy segítsen neki visszajutni a saját idejébe. Menekülés közben szelíd barátság szövődik kettejük között, amely megnyitja Iris előtt Arco jövőbeli világát: egy emberibb, derűsebb kort.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Animációs",
+      "Családi",
+      "Sci-Fi"
+    ],
+    "seeders": 97
   },
   {
     "id": "tt4357198",
@@ -272,23 +272,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 84
-  },
-  {
-    "id": "tt1333644",
-    "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nPPIufTBnzEg0d7NoR5RLL1oPra.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 113
+    "seeders": 95
   },
   {
     "id": "tt12583926",
@@ -304,7 +288,24 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 350
+    "seeders": 392
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 282
   },
   {
     "id": "tt15678738",
@@ -322,24 +323,23 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 228
+    "seeders": 245
   },
   {
-    "id": "tt43140112",
+    "id": "tt1333644",
     "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/syjkiy5ms8nQOw8cfTc9GH6kpe3.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.7,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.4,
     "releaseInfo": "2026",
     "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
+      "Dráma",
+      "Bűnügyi"
     ],
-    "seeders": 237
+    "seeders": 117
   },
   {
     "id": "tt36876775",
@@ -355,7 +355,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 183
+    "seeders": 217
   },
   {
     "id": "tt32250381",
@@ -371,7 +371,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 237
+    "seeders": 260
   },
   {
     "id": "tt21065274",
@@ -386,7 +386,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 92
+    "seeders": 108
   },
   {
     "id": "tt42037166",
@@ -401,7 +401,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 46
+    "seeders": 50
   },
   {
     "id": "tt36958376",
@@ -417,7 +417,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 161
+    "seeders": 164
   },
   {
     "id": "tt29540862",
@@ -433,23 +433,23 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 182
+    "seeders": 203
   },
   {
-    "id": "tt36987599",
+    "id": "tt35332621",
     "type": "movie",
-    "name": "A boldogság slágere",
-    "poster": "https://image.tmdb.org/t/p/w500/rs3TQEXnKpMK9LkvkPb3anbxdfP.jpg",
+    "name": "Vitrival, a világ legszebb faluja",
+    "poster": "https://image.tmdb.org/t/p/w500/3aDpjfMj34uvtOthGVy25ttr1Th.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
-    "imdbRating": 7.0,
+    "description": "Egy csendes falut feldúlja, amikor péniszgraffitik lepik el a falakat és hárman öngyilkosok lesznek. A két helyi rendőr akcióba lendül.",
+    "imdbRating": 5.0,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Dráma"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 72
+    "seeders": 126
   },
   {
     "id": "tt32843985",
@@ -466,22 +466,22 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 95
+    "seeders": 98
   },
   {
-    "id": "tt35332621",
+    "id": "tt36987599",
     "type": "movie",
-    "name": "Vitrival, a világ legszebb faluja",
-    "poster": "https://image.tmdb.org/t/p/w500/3aDpjfMj34uvtOthGVy25ttr1Th.jpg",
+    "name": "A boldogság slágere",
+    "poster": "https://image.tmdb.org/t/p/w500/rs3TQEXnKpMK9LkvkPb3anbxdfP.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy csendes falut feldúlja, amikor péniszgraffitik lepik el a falakat és hárman öngyilkosok lesznek. A két helyi rendőr akcióba lendül.",
-    "imdbRating": 5.0,
+    "description": "Egy sikertelen öngyilkossági kísérlet után az egykori popénekes Daniel a pszichiátrián köt ki. Szabadulása szokatlan feladathoz kötődik: egy depressziósokból álló terápiás csoportnak kell életkedvet adnia - mindenekelőtt zenével. Az ellenállás és a lágy hangok között olyan folyamat veszi kezdetét, amely minden érintettet kihívás elé állít.",
+    "imdbRating": 7.0,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Vígjáték",
+      "Dráma"
     ],
-    "seeders": 118
+    "seeders": 70
   }
 ]
