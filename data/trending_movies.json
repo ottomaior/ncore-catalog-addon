@@ -13,7 +13,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 1854
+    "seeders": 2229
   },
   {
     "id": "tt32565993",
@@ -30,7 +30,7 @@
       "Rejtély",
       "Családi"
     ],
-    "seeders": 2027
+    "seeders": 1997
   },
   {
     "id": "tt34888871",
@@ -45,22 +45,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 521
-  },
-  {
-    "id": "tt43619403",
-    "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 246
+    "seeders": 504
   },
   {
     "id": "tt33071426",
@@ -77,7 +62,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 160
+    "seeders": 172
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 224
   },
   {
     "id": "tt34471850",
@@ -93,7 +93,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 838
+    "seeders": 761
   },
   {
     "id": "tt11378946",
@@ -109,7 +109,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1387
+    "seeders": 1382
   },
   {
     "id": "tt33214716",
@@ -125,7 +125,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 862
+    "seeders": 843
   },
   {
     "id": "tt32430579",
@@ -141,7 +141,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 239
+    "seeders": 228
   },
   {
     "id": "tt32386654",
@@ -156,7 +156,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 312
+    "seeders": 295
   },
   {
     "id": "tt17490712",
@@ -173,7 +173,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 786
+    "seeders": 808
   },
   {
     "id": "tt10375624",
@@ -183,13 +183,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
-    "imdbRating": 8.4,
+    "imdbRating": 8.3,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 340
+    "seeders": 336
   },
   {
     "id": "tt28834646",
@@ -205,7 +205,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 85
+    "seeders": 87
   },
   {
     "id": "tt32277918",
@@ -220,7 +220,23 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 256
+    "seeders": 245
+  },
+  {
+    "id": "tt12583926",
+    "type": "movie",
+    "name": "Évforduló",
+    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 373
   },
   {
     "id": "tt31260224",
@@ -238,23 +254,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 236
-  },
-  {
-    "id": "tt12583926",
-    "type": "movie",
-    "name": "Évforduló",
-    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 372
+    "seeders": 219
   },
   {
     "id": "tt43140112",
@@ -271,7 +271,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 272
+    "seeders": 278
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt14883538",
@@ -289,23 +305,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 91
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 91
+    "seeders": 90
   },
   {
     "id": "tt15678738",
@@ -323,23 +323,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 229
-  },
-  {
-    "id": "tt36876775",
-    "type": "movie",
-    "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 206
+    "seeders": 218
   },
   {
     "id": "tt1333644",
@@ -358,6 +342,22 @@
     "seeders": 111
   },
   {
+    "id": "tt36876775",
+    "type": "movie",
+    "name": "Férjek akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 190
+  },
+  {
     "id": "tt32250381",
     "type": "movie",
     "name": "Hogyan lopjunk vissza egymilliót?",
@@ -371,7 +371,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 247
+    "seeders": 236
   },
   {
     "id": "tt21065274",
@@ -386,7 +386,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 92
+    "seeders": 89
   },
   {
     "id": "tt36958376",
@@ -402,7 +402,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 174
+    "seeders": 164
   },
   {
     "id": "tt29540862",
@@ -418,7 +418,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 191
+    "seeders": 177
   },
   {
     "id": "tt42037166",
@@ -436,22 +436,6 @@
     "seeders": 42
   },
   {
-    "id": "tt35332621",
-    "type": "movie",
-    "name": "Vitrival, a világ legszebb faluja",
-    "poster": "https://image.tmdb.org/t/p/w500/3aDpjfMj34uvtOthGVy25ttr1Th.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy csendes falut feldúlja, amikor péniszgraffitik lepik el a falakat és hárman öngyilkosok lesznek. A két helyi rendőr akcióba lendül.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 124
-  },
-  {
     "id": "tt36987599",
     "type": "movie",
     "name": "A boldogság slágere",
@@ -465,7 +449,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 70
+    "seeders": 71
+  },
+  {
+    "id": "tt35332621",
+    "type": "movie",
+    "name": "Vitrival, a világ legszebb faluja",
+    "poster": "https://image.tmdb.org/t/p/w500/3aDpjfMj34uvtOthGVy25ttr1Th.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy csendes falut feldúlja, amikor péniszgraffitik lepik el a falakat és hárman öngyilkosok lesznek. A két helyi rendőr akcióba lendül.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 117
   },
   {
     "id": "tt32843985",
@@ -482,6 +482,6 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 88
+    "seeders": 87
   }
 ]
