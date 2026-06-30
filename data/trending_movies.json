@@ -13,7 +13,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 1366
+    "seeders": 1854
   },
   {
     "id": "tt32565993",
@@ -30,22 +30,7 @@
       "Rejtély",
       "Családi"
     ],
-    "seeders": 1783
-  },
-  {
-    "id": "tt43619403",
-    "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 223
+    "seeders": 2027
   },
   {
     "id": "tt34888871",
@@ -60,7 +45,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 464
+    "seeders": 521
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 246
   },
   {
     "id": "tt33071426",
@@ -77,7 +77,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 139
+    "seeders": 160
   },
   {
     "id": "tt34471850",
@@ -93,39 +93,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 701
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 215
-  },
-  {
-    "id": "tt33214716",
-    "type": "movie",
-    "name": "A virágárus",
-    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 805
+    "seeders": 838
   },
   {
     "id": "tt11378946",
@@ -141,7 +109,39 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 1223
+    "seeders": 1387
+  },
+  {
+    "id": "tt33214716",
+    "type": "movie",
+    "name": "A virágárus",
+    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 862
+  },
+  {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 239
   },
   {
     "id": "tt32386654",
@@ -156,7 +156,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 283
+    "seeders": 312
   },
   {
     "id": "tt17490712",
@@ -173,7 +173,23 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 695
+    "seeders": 786
+  },
+  {
+    "id": "tt10375624",
+    "type": "movie",
+    "name": "Üzenetek Isabelle-nek",
+    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 340
   },
   {
     "id": "tt28834646",
@@ -189,23 +205,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 83
-  },
-  {
-    "id": "tt10375624",
-    "type": "movie",
-    "name": "Üzenetek Isabelle-nek",
-    "poster": "https://image.tmdb.org/t/p/w500/zA15tzshrILkudUm7N35P59r4E3.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatal nő elhunyt nővéréhez szóló, személyes hangvételű üzenetei véletlenül egy idegenhez kerülnek, aki lassan távolról beleszeret a nőbe.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 307
+    "seeders": 85
   },
   {
     "id": "tt32277918",
@@ -220,7 +220,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 230
+    "seeders": 256
   },
   {
     "id": "tt31260224",
@@ -238,7 +238,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 222
+    "seeders": 236
   },
   {
     "id": "tt12583926",
@@ -254,7 +254,24 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 342
+    "seeders": 372
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 272
   },
   {
     "id": "tt14883538",
@@ -272,24 +289,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 86
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 248
+    "seeders": 91
   },
   {
     "id": "tt4357198",
@@ -305,7 +305,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 85
+    "seeders": 91
   },
   {
     "id": "tt15678738",
@@ -323,23 +323,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 214
-  },
-  {
-    "id": "tt1333644",
-    "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/syjkiy5ms8nQOw8cfTc9GH6kpe3.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 108
+    "seeders": 229
   },
   {
     "id": "tt36876775",
@@ -355,7 +339,23 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 193
+    "seeders": 206
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/syjkiy5ms8nQOw8cfTc9GH6kpe3.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 111
   },
   {
     "id": "tt32250381",
@@ -371,7 +371,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 232
+    "seeders": 247
   },
   {
     "id": "tt21065274",
@@ -402,22 +402,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 151
-  },
-  {
-    "id": "tt42037166",
-    "type": "movie",
-    "name": "Chris és Martina: A végső játszma",
-    "poster": "https://image.tmdb.org/t/p/w500/m6XxbOjeDyHChXlJ7CVEolNCq2o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A teniszlegendák, Chris Evert és Martina Navratilova arról beszélnek, hogyan jutottak el a sztárságig, milyen volt a rivalizálásuk és a barátságuk, valamint arról, hogyan támogatják egymást a rákkezelés során.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 44
+    "seeders": 174
   },
   {
     "id": "tt29540862",
@@ -433,7 +418,22 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 168
+    "seeders": 191
+  },
+  {
+    "id": "tt42037166",
+    "type": "movie",
+    "name": "Chris és Martina: A végső játszma",
+    "poster": "https://image.tmdb.org/t/p/w500/m6XxbOjeDyHChXlJ7CVEolNCq2o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A teniszlegendák, Chris Evert és Martina Navratilova arról beszélnek, hogyan jutottak el a sztárságig, milyen volt a rivalizálásuk és a barátságuk, valamint arról, hogyan támogatják egymást a rákkezelés során.",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 42
   },
   {
     "id": "tt35332621",
@@ -449,7 +449,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 117
+    "seeders": 124
   },
   {
     "id": "tt36987599",
@@ -465,7 +465,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 65
+    "seeders": 70
   },
   {
     "id": "tt32843985",
@@ -482,6 +482,6 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 86
+    "seeders": 88
   }
 ]
