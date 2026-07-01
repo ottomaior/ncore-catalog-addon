@@ -6,15 +6,16 @@
     "poster": "https://image.tmdb.org/t/p/w500/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 10.0,
+    "description": "Enola Holmes kalandjai Máltán folytatódnak, ahol a lány tervezett esküvőjét megzavarja Sherlock eltűnése és egy szövevényes nyomozás.",
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
-      "Kaland",
       "Rejtély",
+      "Thriller",
+      "Kaland",
       "Bűnügyi"
     ],
-    "seeders": 385
+    "seeders": 751
   },
   {
     "id": "tt33612209",
@@ -30,7 +31,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2165
+    "seeders": 2471
   },
   {
     "id": "tt31418911",
@@ -47,7 +48,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 119
+    "seeders": 168
   },
   {
     "id": "tt32565993",
@@ -65,7 +66,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 1747
+    "seeders": 2001
   },
   {
     "id": "tt34888871",
@@ -80,7 +81,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 450
+    "seeders": 509
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 225
   },
   {
     "id": "tt33071426",
@@ -97,22 +113,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 169
-  },
-  {
-    "id": "tt43619403",
-    "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 198
+    "seeders": 179
   },
   {
     "id": "tt34471850",
@@ -128,7 +129,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 653
+    "seeders": 782
   },
   {
     "id": "tt33214716",
@@ -144,7 +145,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 749
+    "seeders": 850
   },
   {
     "id": "tt32430579",
@@ -160,7 +161,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 206
+    "seeders": 233
   },
   {
     "id": "tt11378946",
@@ -176,7 +177,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 879
+    "seeders": 976
   },
   {
     "id": "tt32386654",
@@ -191,7 +192,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 270
+    "seeders": 309
   },
   {
     "id": "tt17490712",
@@ -208,7 +209,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 667
+    "seeders": 785
   },
   {
     "id": "tt10375624",
@@ -224,23 +225,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 294
-  },
-  {
-    "id": "tt28834646",
-    "type": "movie",
-    "name": "Mi van veled, csajszi?",
-    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 75
+    "seeders": 320
   },
   {
     "id": "tt32277918",
@@ -255,7 +240,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 217
+    "seeders": 248
   },
   {
     "id": "tt31260224",
@@ -273,7 +258,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 207
+    "seeders": 230
+  },
+  {
+    "id": "tt28834646",
+    "type": "movie",
+    "name": "Mi van veled, csajszi?",
+    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 79
   },
   {
     "id": "tt43140112",
@@ -290,7 +291,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 252
+    "seeders": 281
   },
   {
     "id": "tt12583926",
@@ -306,7 +307,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 321
+    "seeders": 356
   },
   {
     "id": "tt15678738",
@@ -324,7 +325,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 204
+    "seeders": 220
   },
   {
     "id": "tt36876775",
@@ -340,7 +341,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 184
+    "seeders": 193
   },
   {
     "id": "tt14883538",
@@ -358,23 +359,23 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 80
+    "seeders": 85
   },
   {
-    "id": "tt4357198",
+    "id": "tt32250381",
     "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "name": "Hogyan lopjunk vissza egymilliót?",
+    "poster": "https://image.tmdb.org/t/p/w500/yTbkezXSJnW0XVOTLhcm1MuSHKm.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Stan, egy építőipari vállalat ambiciózus és komoly üzemeltetési vezetője, hatalmas nyomás alatt áll, miközben egy kétszínű kollégájával verseng. Az idegei pattanásig feszülnek, amikor rájön, hogy a cég zsarnok vezérigazgatója igazságtalanul elbocsátotta. Kétségbeesésében önkéntelenül ellop egymillió eurót a vállalat páncélterméből, eldobja a széf kulcsát, és gyorsan elmenekül menyasszonyával, Marine-nal. Hamarosan kiderül, hogy elbocsátása tévedés volt, valójában előléptetésre számíthatott volna. Most napfelkeltéig van ideje visszatenni a pénzt a széfbe. Ám mivel eldobta a kulcsot, és a tartalékkulcs a vezérigazgató lakásában van, kénytelen a kiszámíthatatlan párizsi lakatoshoz, Hippolyte-hoz fordulni segítségért. Az éjszaka nem ígérkezik problémamentesnek!  (Csillag Lajos)R3",
+    "imdbRating": 5.5,
+    "releaseInfo": "2025",
     "genres": [
       "Vígjáték",
-      "Thriller"
+      "Bűnügyi"
     ],
-    "seeders": 82
+    "seeders": 244
   },
   {
     "id": "tt1333644",
@@ -393,20 +394,20 @@
     "seeders": 102
   },
   {
-    "id": "tt32250381",
+    "id": "tt4357198",
     "type": "movie",
-    "name": "Hogyan lopjunk vissza egymilliót?",
-    "poster": "https://image.tmdb.org/t/p/w500/yTbkezXSJnW0XVOTLhcm1MuSHKm.jpg",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Stan, egy építőipari vállalat ambiciózus és komoly üzemeltetési vezetője, hatalmas nyomás alatt áll, miközben egy kétszínű kollégájával verseng. Az idegei pattanásig feszülnek, amikor rájön, hogy a cég zsarnok vezérigazgatója igazságtalanul elbocsátotta. Kétségbeesésében önkéntelenül ellop egymillió eurót a vállalat páncélterméből, eldobja a széf kulcsát, és gyorsan elmenekül menyasszonyával, Marine-nal. Hamarosan kiderül, hogy elbocsátása tévedés volt, valójában előléptetésre számíthatott volna. Most napfelkeltéig van ideje visszatenni a pénzt a széfbe. Ám mivel eldobta a kulcsot, és a tartalékkulcs a vezérigazgató lakásában van, kénytelen a kiszámíthatatlan párizsi lakatoshoz, Hippolyte-hoz fordulni segítségért. Az éjszaka nem ígérkezik problémamentesnek!  (Csillag Lajos)R3",
-    "imdbRating": 5.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
-      "Bűnügyi"
+      "Thriller"
     ],
-    "seeders": 224
+    "seeders": 78
   },
   {
     "id": "tt36958376",
@@ -422,7 +423,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 153
+    "seeders": 170
   },
   {
     "id": "tt21065274",
@@ -437,7 +438,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 80
+    "seeders": 86
   },
   {
     "id": "tt29540862",
@@ -453,7 +454,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 170
+    "seeders": 191
   },
   {
     "id": "tt35332621",
@@ -469,7 +470,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 114
+    "seeders": 118
   },
   {
     "id": "tt36987599",
@@ -485,6 +486,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 70
+    "seeders": 67
   }
 ]
