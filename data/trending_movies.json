@@ -7,7 +7,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Enola Holmes kalandjai Máltán folytatódnak, ahol a lány tervezett esküvőjét megzavarja Sherlock eltűnése és egy szövevényes nyomozás.",
-    "imdbRating": 7.7,
+    "imdbRating": 7.4,
     "releaseInfo": "2026",
     "genres": [
       "Rejtély",
@@ -15,7 +15,7 @@
       "Kaland",
       "Bűnügyi"
     ],
-    "seeders": 992
+    "seeders": 790
   },
   {
     "id": "tt33612209",
@@ -31,7 +31,25 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2436
+    "seeders": 1869
+  },
+  {
+    "id": "tt32565993",
+    "type": "movie",
+    "name": "Birkakrimi",
+    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "George Hardy pásztor gyilkossági krimiket olvas fel a juhainak. Amikor a férfit megölik, a birkák rájönnek, hogy gyilkosság áldozatává vált a gazdájuk, és maguk indulnak el az ügy megoldására, a legelőjükről bemerészkedve az emberek bonyolult világába.  (Gergo Horvath)R3",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Rejtély",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 1432
   },
   {
     "id": "tt31418911",
@@ -48,25 +66,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 208
-  },
-  {
-    "id": "tt32565993",
-    "type": "movie",
-    "name": "Birkakrimi",
-    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "George Hardy pásztor gyilkossági krimiket olvas fel a juhainak. Amikor a férfit megölik, a birkák rájönnek, hogy gyilkosság áldozatává vált a gazdájuk, és maguk indulnak el az ügy megoldására, a legelőjükről bemerészkedve az emberek bonyolult világába.  (Gergo Horvath)R3",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Rejtély",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 1975
+    "seeders": 184
   },
   {
     "id": "tt34888871",
@@ -81,7 +81,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 484
+    "seeders": 391
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 188
   },
   {
     "id": "tt33071426",
@@ -98,38 +113,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 187
-  },
-  {
-    "id": "tt43619403",
-    "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 220
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 743
+    "seeders": 152
   },
   {
     "id": "tt33214716",
@@ -145,23 +129,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 807
+    "seeders": 633
   },
   {
-    "id": "tt11378946",
+    "id": "tt34471850",
     "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.7,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.6,
     "releaseInfo": "2026",
     "genres": [
-      "Zenei",
-      "Dráma"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 972
+    "seeders": 537
   },
   {
     "id": "tt32430579",
@@ -177,7 +161,38 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 219
+    "seeders": 186
+  },
+  {
+    "id": "tt11378946",
+    "type": "movie",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 698
+  },
+  {
+    "id": "tt32386654",
+    "type": "movie",
+    "name": "A Kreml mágusa",
+    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 235
   },
   {
     "id": "tt17490712",
@@ -194,22 +209,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 781
-  },
-  {
-    "id": "tt32386654",
-    "type": "movie",
-    "name": "A Kreml mágusa",
-    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 285
+    "seeders": 546
   },
   {
     "id": "tt10375624",
@@ -225,7 +225,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 336
+    "seeders": 245
   },
   {
     "id": "tt32277918",
@@ -240,24 +240,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 256
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 281
+    "seeders": 194
   },
   {
     "id": "tt31260224",
@@ -275,7 +258,24 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 221
+    "seeders": 177
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 212
   },
   {
     "id": "tt12583926",
@@ -291,7 +291,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 351
+    "seeders": 270
   },
   {
     "id": "tt28834646",
@@ -307,7 +307,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 72
+    "seeders": 61
   },
   {
     "id": "tt15678738",
@@ -325,7 +325,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 220
+    "seeders": 175
   },
   {
     "id": "tt14883538",
@@ -343,7 +343,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 92
+    "seeders": 75
   },
   {
     "id": "tt36876775",
@@ -359,7 +359,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 179
+    "seeders": 149
   },
   {
     "id": "tt1333644",
@@ -369,13 +369,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.4,
+    "imdbRating": 5.3,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 105
+    "seeders": 87
   },
   {
     "id": "tt32250381",
@@ -391,7 +391,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 225
+    "seeders": 171
   },
   {
     "id": "tt4357198",
@@ -407,7 +407,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 82
+    "seeders": 64
   },
   {
     "id": "tt36958376",
@@ -417,13 +417,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 157
+    "seeders": 123
   },
   {
     "id": "tt21065274",
@@ -438,7 +438,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 81
+    "seeders": 70
   },
   {
     "id": "tt29540862",
@@ -454,7 +454,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 167
+    "seeders": 142
   },
   {
     "id": "tt35332621",
@@ -470,7 +470,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 117
+    "seeders": 95
   },
   {
     "id": "tt32843985",
@@ -487,6 +487,6 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 87
+    "seeders": 70
   }
 ]
