@@ -13,7 +13,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 1933
+    "seeders": 2334
   },
   {
     "id": "tt32278481",
@@ -31,7 +31,7 @@
       "Rejtély",
       "Akció"
     ],
-    "seeders": 973
+    "seeders": 1205
   },
   {
     "id": "tt18382850",
@@ -46,7 +46,25 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 157
+    "seeders": 192
+  },
+  {
+    "id": "tt32565993",
+    "type": "movie",
+    "name": "Birkakrimi",
+    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "George Hardy pásztor gyilkossági krimiket olvas fel a juhainak. Amikor a férfit megölik, a birkák rájönnek, hogy gyilkosság áldozatává vált a gazdájuk, és maguk indulnak el az ügy megoldására, a legelőjükről bemerészkedve az emberek bonyolult világába.  (Gergo Horvath)R3",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Rejtély",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 1718
   },
   {
     "id": "tt32430579",
@@ -62,25 +80,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 52
-  },
-  {
-    "id": "tt32565993",
-    "type": "movie",
-    "name": "Birkakrimi",
-    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "George Hardy pásztor gyilkossági krimiket olvas fel a juhainak. Amikor a férfit megölik, a birkák rájönnek, hogy gyilkosság áldozatává vált a gazdájuk, és maguk indulnak el az ügy megoldására, a legelőjükről bemerészkedve az emberek bonyolult világába.  (Gergo Horvath)R3",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Rejtély",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 1416
+    "seeders": 58
   },
   {
     "id": "tt33071426",
@@ -97,7 +97,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 59
+    "seeders": 71
   },
   {
     "id": "tt31418911",
@@ -114,7 +114,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 191
+    "seeders": 215
   },
   {
     "id": "tt34888871",
@@ -124,28 +124,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.2,
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 385
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 528
+    "seeders": 434
   },
   {
     "id": "tt33214716",
@@ -161,7 +145,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 607
+    "seeders": 721
+  },
+  {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 615
   },
   {
     "id": "tt43619403",
@@ -176,23 +176,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 171
-  },
-  {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 711
+    "seeders": 196
   },
   {
     "id": "tt17490712",
@@ -209,7 +193,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 568
+    "seeders": 657
   },
   {
     "id": "tt32386654",
@@ -224,7 +208,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 231
+    "seeders": 258
   },
   {
     "id": "tt10375624",
@@ -240,7 +224,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 251
+    "seeders": 287
   },
   {
     "id": "tt32277918",
@@ -255,7 +239,23 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 182
+    "seeders": 213
+  },
+  {
+    "id": "tt12583926",
+    "type": "movie",
+    "name": "Évforduló",
+    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 313
   },
   {
     "id": "tt31260224",
@@ -273,7 +273,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 176
+    "seeders": 200
   },
   {
     "id": "tt43140112",
@@ -290,23 +290,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 211
-  },
-  {
-    "id": "tt12583926",
-    "type": "movie",
-    "name": "Évforduló",
-    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 260
+    "seeders": 227
   },
   {
     "id": "tt15678738",
@@ -324,23 +308,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 180
-  },
-  {
-    "id": "tt36876775",
-    "type": "movie",
-    "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 146
+    "seeders": 193
   },
   {
     "id": "tt32250381",
@@ -356,7 +324,23 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 181
+    "seeders": 218
+  },
+  {
+    "id": "tt36876775",
+    "type": "movie",
+    "name": "Férjek akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 173
   },
   {
     "id": "tt28834646",
@@ -372,7 +356,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 56
+    "seeders": 63
   },
   {
     "id": "tt14883538",
@@ -390,23 +374,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 73
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 66
+    "seeders": 78
   },
   {
     "id": "tt1333644",
@@ -422,7 +390,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 77
+    "seeders": 89
   },
   {
     "id": "tt36958376",
@@ -432,13 +400,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 123
+    "seeders": 152
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt29540862",
@@ -454,7 +438,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 141
+    "seeders": 159
   },
   {
     "id": "tt21065274",
@@ -469,7 +453,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 63
+    "seeders": 70
   },
   {
     "id": "tt35332621",
@@ -485,6 +469,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 96
+    "seeders": 109
+  },
+  {
+    "id": "tt32843985",
+    "type": "movie",
+    "name": "A zongorista döntése",
+    "poster": "https://image.tmdb.org/t/p/w500/eZljAPGFYYRv6iFZ5wQlyO8Z2z4.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy tehetséges francia zongorista háborús időkben lehetetlen választás elé kerül: vagy fellép a náci tiszteknek, vagy elveszíti a nőt, akit szeret – egykori mentorát, akitől mindent megtanult, amit tud.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Zenei"
+    ],
+    "seeders": 76
   }
 ]
