@@ -13,22 +13,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 310
-  },
-  {
-    "id": "tt7374950",
-    "type": "movie",
-    "name": "Midwinter Break",
-    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 36
+    "seeders": 676
   },
   {
     "id": "tt33612209",
@@ -44,7 +29,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2555
+    "seeders": 2721
   },
   {
     "id": "tt32278481",
@@ -62,22 +47,22 @@
       "Rejtély",
       "Akció"
     ],
-    "seeders": 1350
+    "seeders": 1494
   },
   {
-    "id": "tt18382850",
+    "id": "tt7374950",
     "type": "movie",
-    "name": "Ha tudnék, beléd rúgnék",
-    "poster": "https://image.tmdb.org/t/p/w500/va0TQ9WprMXRqQAzY56vyqY0Yd5.jpg",
+    "name": "Midwinter Break",
+    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése, és egy sor olyan ember között, akik képtelenek segíteni neki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 221
+    "seeders": 49
   },
   {
     "id": "tt32565993",
@@ -95,7 +80,22 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 1862
+    "seeders": 2052
+  },
+  {
+    "id": "tt18382850",
+    "type": "movie",
+    "name": "Ha tudnék, beléd rúgnék",
+    "poster": "https://image.tmdb.org/t/p/w500/va0TQ9WprMXRqQAzY56vyqY0Yd5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése, és egy sor olyan ember között, akik képtelenek segíteni neki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 242
   },
   {
     "id": "tt31418911",
@@ -112,23 +112,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 236
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 68
+    "seeders": 251
   },
   {
     "id": "tt33071426",
@@ -145,7 +129,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 78
+    "seeders": 94
+  },
+  {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 77
   },
   {
     "id": "tt34888871",
@@ -160,7 +160,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 470
+    "seeders": 483
   },
   {
     "id": "tt34471850",
@@ -176,7 +176,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 735
+    "seeders": 742
   },
   {
     "id": "tt33214716",
@@ -192,7 +192,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 800
+    "seeders": 848
   },
   {
     "id": "tt43619403",
@@ -207,7 +207,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 220
+    "seeders": 229
   },
   {
     "id": "tt17490712",
@@ -224,7 +224,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 728
+    "seeders": 796
   },
   {
     "id": "tt32386654",
@@ -239,7 +239,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 273
+    "seeders": 283
   },
   {
     "id": "tt10375624",
@@ -255,7 +255,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 316
+    "seeders": 354
   },
   {
     "id": "tt32277918",
@@ -270,7 +270,40 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 230
+    "seeders": 253
+  },
+  {
+    "id": "tt12583926",
+    "type": "movie",
+    "name": "Évforduló",
+    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 357
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 278
   },
   {
     "id": "tt31260224",
@@ -288,40 +321,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 221
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 266
-  },
-  {
-    "id": "tt12583926",
-    "type": "movie",
-    "name": "Évforduló",
-    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 315
+    "seeders": 226
   },
   {
     "id": "tt15678738",
@@ -339,23 +339,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 212
-  },
-  {
-    "id": "tt36876775",
-    "type": "movie",
-    "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 183
+    "seeders": 225
   },
   {
     "id": "tt32250381",
@@ -371,7 +355,39 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 228
+    "seeders": 241
+  },
+  {
+    "id": "tt36876775",
+    "type": "movie",
+    "name": "Férjek akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 189
+  },
+  {
+    "id": "tt28834646",
+    "type": "movie",
+    "name": "Mi van veled, csajszi?",
+    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 77
   },
   {
     "id": "tt14883538",
@@ -389,23 +405,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 85
-  },
-  {
-    "id": "tt28834646",
-    "type": "movie",
-    "name": "Mi van veled, csajszi?",
-    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 63
+    "seeders": 87
   },
   {
     "id": "tt4357198",
@@ -421,7 +421,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 80
+    "seeders": 87
   },
   {
     "id": "tt1333644",
@@ -431,13 +431,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.3,
+    "imdbRating": 5.5,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 90
+    "seeders": 95
   },
   {
     "id": "tt36958376",
@@ -453,7 +453,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 158
+    "seeders": 165
   },
   {
     "id": "tt29540862",
@@ -469,7 +469,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 177
+    "seeders": 179
   },
   {
     "id": "tt21065274",
@@ -484,6 +484,6 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 72
+    "seeders": 77
   }
 ]
