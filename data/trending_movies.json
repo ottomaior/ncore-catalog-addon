@@ -13,7 +13,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 676
+    "seeders": 555
   },
   {
     "id": "tt33612209",
@@ -29,7 +29,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2721
+    "seeders": 54
   },
   {
     "id": "tt32278481",
@@ -39,7 +39,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Enola Holmes kalandjai Máltán folytatódnak, ahol a lány tervezett esküvőjét megzavarja Sherlock eltűnése és egy szövevényes nyomozás.",
-    "imdbRating": 7.2,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Kaland",
@@ -47,22 +47,7 @@
       "Rejtély",
       "Akció"
     ],
-    "seeders": 1494
-  },
-  {
-    "id": "tt7374950",
-    "type": "movie",
-    "name": "Midwinter Break",
-    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 49
+    "seeders": 1088
   },
   {
     "id": "tt32565993",
@@ -80,7 +65,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 2052
+    "seeders": 1439
   },
   {
     "id": "tt18382850",
@@ -95,7 +80,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 242
+    "seeders": 205
+  },
+  {
+    "id": "tt7374950",
+    "type": "movie",
+    "name": "Midwinter Break",
+    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 48
   },
   {
     "id": "tt31418911",
@@ -112,7 +112,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 251
+    "seeders": 202
   },
   {
     "id": "tt33071426",
@@ -129,7 +129,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 75
   },
   {
     "id": "tt32430579",
@@ -145,7 +145,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 77
+    "seeders": 64
   },
   {
     "id": "tt34888871",
@@ -160,23 +160,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 483
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 742
+    "seeders": 362
   },
   {
     "id": "tt33214716",
@@ -192,7 +176,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 848
+    "seeders": 628
+  },
+  {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 522
   },
   {
     "id": "tt43619403",
@@ -207,7 +207,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 229
+    "seeders": 178
   },
   {
     "id": "tt17490712",
@@ -224,7 +224,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 796
+    "seeders": 551
   },
   {
     "id": "tt32386654",
@@ -239,7 +239,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 283
+    "seeders": 217
   },
   {
     "id": "tt10375624",
@@ -255,7 +255,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 354
+    "seeders": 258
   },
   {
     "id": "tt32277918",
@@ -270,40 +270,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 253
-  },
-  {
-    "id": "tt12583926",
-    "type": "movie",
-    "name": "Évforduló",
-    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 357
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 278
+    "seeders": 188
   },
   {
     "id": "tt31260224",
@@ -321,7 +288,40 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 226
+    "seeders": 184
+  },
+  {
+    "id": "tt12583926",
+    "type": "movie",
+    "name": "Évforduló",
+    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma"
+    ],
+    "seeders": 267
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 213
   },
   {
     "id": "tt15678738",
@@ -339,7 +339,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 225
+    "seeders": 174
   },
   {
     "id": "tt32250381",
@@ -355,7 +355,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 241
+    "seeders": 189
   },
   {
     "id": "tt36876775",
@@ -371,7 +371,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 189
+    "seeders": 148
   },
   {
     "id": "tt28834646",
@@ -387,7 +387,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 77
+    "seeders": 60
   },
   {
     "id": "tt14883538",
@@ -405,23 +405,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 87
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 87
+    "seeders": 67
   },
   {
     "id": "tt1333644",
@@ -437,7 +421,23 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 95
+    "seeders": 76
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 62
   },
   {
     "id": "tt36958376",
@@ -453,7 +453,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 165
+    "seeders": 125
   },
   {
     "id": "tt29540862",
@@ -469,7 +469,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 179
+    "seeders": 153
   },
   {
     "id": "tt21065274",
@@ -484,6 +484,6 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 77
+    "seeders": 67
   }
 ]
