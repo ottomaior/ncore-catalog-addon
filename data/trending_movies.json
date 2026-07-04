@@ -13,7 +13,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 555
+    "seeders": 841
   },
   {
     "id": "tt33612209",
@@ -29,7 +29,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 54
+    "seeders": 2467
   },
   {
     "id": "tt32278481",
@@ -47,7 +47,7 @@
       "Rejtély",
       "Akció"
     ],
-    "seeders": 1088
+    "seeders": 1377
   },
   {
     "id": "tt32565993",
@@ -65,7 +65,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 1439
+    "seeders": 1811
   },
   {
     "id": "tt18382850",
@@ -80,7 +80,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 205
+    "seeders": 257
   },
   {
     "id": "tt7374950",
@@ -95,7 +95,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 48
+    "seeders": 55
   },
   {
     "id": "tt31418911",
@@ -112,7 +112,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 202
+    "seeders": 234
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 442
   },
   {
     "id": "tt33071426",
@@ -129,54 +144,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 75
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 64
-  },
-  {
-    "id": "tt34888871",
-    "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 362
-  },
-  {
-    "id": "tt33214716",
-    "type": "movie",
-    "name": "A virágárus",
-    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 628
+    "seeders": 90
   },
   {
     "id": "tt34471850",
@@ -192,7 +160,39 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 522
+    "seeders": 685
+  },
+  {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 74
+  },
+  {
+    "id": "tt33214716",
+    "type": "movie",
+    "name": "A virágárus",
+    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 755
   },
   {
     "id": "tt43619403",
@@ -207,7 +207,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 178
+    "seeders": 225
   },
   {
     "id": "tt17490712",
@@ -224,7 +224,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 551
+    "seeders": 697
   },
   {
     "id": "tt32386654",
@@ -239,7 +239,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 217
+    "seeders": 256
   },
   {
     "id": "tt10375624",
@@ -255,7 +255,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 258
+    "seeders": 306
   },
   {
     "id": "tt32277918",
@@ -270,7 +270,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 188
+    "seeders": 216
   },
   {
     "id": "tt31260224",
@@ -288,7 +288,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 184
+    "seeders": 216
   },
   {
     "id": "tt12583926",
@@ -304,7 +304,7 @@
       "Thriller",
       "Dráma"
     ],
-    "seeders": 267
+    "seeders": 321
   },
   {
     "id": "tt43140112",
@@ -321,7 +321,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 213
+    "seeders": 251
   },
   {
     "id": "tt15678738",
@@ -339,7 +339,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 174
+    "seeders": 200
   },
   {
     "id": "tt32250381",
@@ -355,7 +355,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 189
+    "seeders": 226
   },
   {
     "id": "tt36876775",
@@ -365,13 +365,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 7.5,
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 148
+    "seeders": 182
   },
   {
     "id": "tt28834646",
@@ -387,7 +387,23 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 60
+    "seeders": 59
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 74
   },
   {
     "id": "tt14883538",
@@ -405,7 +421,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 67
+    "seeders": 71
   },
   {
     "id": "tt1333644",
@@ -421,23 +437,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 76
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 62
+    "seeders": 86
   },
   {
     "id": "tt36958376",
@@ -453,23 +453,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt29540862",
-    "type": "movie",
-    "name": "Elátkozott esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi örököl egy vidéki, mangalpuri palotát, és ott szeretné megrendezni a húga esküvőjét. A különös, természetfeletti jelenségek és a pánikoló helyiek azonban arra kényszerítik, hogy utánajárjon a birtok titokzatos múltjának.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 153
+    "seeders": 143
   },
   {
     "id": "tt21065274",
@@ -484,6 +468,22 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 67
+    "seeders": 69
+  },
+  {
+    "id": "tt35332621",
+    "type": "movie",
+    "name": "Vitrival, a világ legszebb faluja",
+    "poster": "https://image.tmdb.org/t/p/w500/3aDpjfMj34uvtOthGVy25ttr1Th.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy csendes falut feldúlja, amikor péniszgraffitik lepik el a falakat és hárman öngyilkosok lesznek. A két helyi rendőr akcióba lendül.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 107
   }
 ]
