@@ -1,5 +1,36 @@
 [
   {
+    "id": "tt11378946",
+    "type": "movie",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 48
+  },
+  {
+    "id": "tt43438551",
+    "type": "movie",
+    "name": "Hammerhead Sharks Up Close with Bertie Gregory",
+    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 42
+  },
+  {
     "id": "tt35205649",
     "type": "movie",
     "name": "Egykutya",
@@ -13,7 +44,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 828
+    "seeders": 1175
   },
   {
     "id": "tt33612209",
@@ -23,13 +54,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 6.9,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 1999
+    "seeders": 2560
   },
   {
     "id": "tt32278481",
@@ -47,7 +78,7 @@
       "Rejtély",
       "Akció"
     ],
-    "seeders": 1139
+    "seeders": 1511
   },
   {
     "id": "tt32430579",
@@ -63,23 +94,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 93
-  },
-  {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 114
+    "seeders": 131
   },
   {
     "id": "tt32565993",
@@ -97,7 +112,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 1498
+    "seeders": 1960
   },
   {
     "id": "tt18382850",
@@ -112,7 +127,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 212
+    "seeders": 261
   },
   {
     "id": "tt31418911",
@@ -129,7 +144,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 213
+    "seeders": 254
   },
   {
     "id": "tt34888871",
@@ -144,7 +159,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 359
+    "seeders": 463
+  },
+  {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 726
   },
   {
     "id": "tt33214716",
@@ -160,7 +191,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 612
+    "seeders": 780
   },
   {
     "id": "tt7374950",
@@ -175,23 +206,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 53
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 510
+    "seeders": 61
   },
   {
     "id": "tt33071426",
@@ -208,24 +223,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 80
-  },
-  {
-    "id": "tt17490712",
-    "type": "movie",
-    "name": "Mortal Kombat II.",
-    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Kaland"
-    ],
-    "seeders": 597
+    "seeders": 219
   },
   {
     "id": "tt43619403",
@@ -240,7 +238,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 176
+    "seeders": 236
   },
   {
     "id": "tt32386654",
@@ -255,7 +253,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 227
+    "seeders": 264
   },
   {
     "id": "tt10375624",
@@ -271,7 +269,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 256
+    "seeders": 339
   },
   {
     "id": "tt32277918",
@@ -286,23 +284,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 185
-  },
-  {
-    "id": "tt12583926",
-    "type": "movie",
-    "name": "Évforduló",
-    "poster": "https://image.tmdb.org/t/p/w500/2jZny3qPQS17p19xZFZwyddPWF5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Provokatív thriller egy összetartó családról, amelyet szétszakít egy új mozgalom, „A Változás”, amely elárasztja az országot.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma"
-    ],
-    "seeders": 273
+    "seeders": 227
   },
   {
     "id": "tt31260224",
@@ -320,7 +302,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 181
+    "seeders": 219
   },
   {
     "id": "tt43140112",
@@ -337,7 +319,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 217
+    "seeders": 254
   },
   {
     "id": "tt15678738",
@@ -355,7 +337,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 180
+    "seeders": 207
   },
   {
     "id": "tt36876775",
@@ -371,7 +353,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 151
+    "seeders": 191
   },
   {
     "id": "tt32250381",
@@ -387,7 +369,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 183
+    "seeders": 234
   },
   {
     "id": "tt28834646",
@@ -403,7 +385,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 58
+    "seeders": 68
   },
   {
     "id": "tt14883538",
@@ -421,23 +403,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 69
-  },
-  {
-    "id": "tt1333644",
-    "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 76
+    "seeders": 82
   },
   {
     "id": "tt36958376",
@@ -453,7 +419,23 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 123
+    "seeders": 152
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 92
   },
   {
     "id": "tt4357198",
@@ -469,7 +451,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 63
+    "seeders": 79
   },
   {
     "id": "tt35332621",
@@ -485,6 +467,21 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 95
+    "seeders": 115
+  },
+  {
+    "id": "tt21065274",
+    "type": "movie",
+    "name": "Fekete gyémánt",
+    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller"
+    ],
+    "seeders": 68
   }
 ]
