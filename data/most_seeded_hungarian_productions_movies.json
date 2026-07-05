@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999992
+"seeders": 999990
 },
 {
 "id": "tt29344974",
@@ -30,7 +30,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999983
+"seeders": 999982
 },
 {
 "id": "tt29567915",
@@ -46,7 +46,23 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999982
+"seeders": 999979
+},
+{
+"id": "tt20672356",
+"type": "movie",
+"name": "Semmelweis",
+"poster": "https://image.tmdb.org/t/p/w500/ol6lDiWvWIDZsElj2sfBwQF9IBJ.jpg",
+"posterShape": "poster",
+"year": 2023,
+"description": "A láthatatlan gyilkos 1847-ben játszódik Bécsben. A szülészeti klinikán titokzatos járvány tombol, tizedeli a gyermekágyas nőket. Egy magyar orvos a hagyományos teóriákkal szembeszállva próbálja meg legyőzni a kórt. Semmelweis egy fiatal osztrák bába személyében talál társra, kapcsolatuk egyre romantikusabbá válik. A küzdelem azonban nemcsak a kór ellen zajlik: a vaskalapos vezetés mindent megtesz, hogy megvédje tekintélyét a megszállott magyar orvos felfedezésének következményeitől. A kórházban a harcot Semmelweis nyeri, az utcán pedig a progresszív erők. Hamarosan Bécsben és Pesten is kitör a forradalom, Semmelweis pedig elindul, hogy felfedezését hazájában is a szülő nők javára fordítsa.",
+"imdbRating": 7.8,
+"releaseInfo": "2023",
+"genres": [
+"Történelmi",
+"Dráma"
+],
+"seeders": 999953
 },
 {
 "id": "tt34375721",
@@ -63,23 +79,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999956
-},
-{
-"id": "tt20672356",
-"type": "movie",
-"name": "Semmelweis",
-"poster": "https://image.tmdb.org/t/p/w500/ol6lDiWvWIDZsElj2sfBwQF9IBJ.jpg",
-"posterShape": "poster",
-"year": 2023,
-"description": "A láthatatlan gyilkos 1847-ben játszódik Bécsben. A szülészeti klinikán titokzatos járvány tombol, tizedeli a gyermekágyas nőket. Egy magyar orvos a hagyományos teóriákkal szembeszállva próbálja meg legyőzni a kórt. Semmelweis egy fiatal osztrák bába személyében talál társra, kapcsolatuk egyre romantikusabbá válik. A küzdelem azonban nemcsak a kór ellen zajlik: a vaskalapos vezetés mindent megtesz, hogy megvédje tekintélyét a megszállott magyar orvos felfedezésének következményeitől. A kórházban a harcot Semmelweis nyeri, az utcán pedig a progresszív erők. Hamarosan Bécsben és Pesten is kitör a forradalom, Semmelweis pedig elindul, hogy felfedezését hazájában is a szülő nők javára fordítsa.",
-"imdbRating": 7.8,
-"releaseInfo": "2023",
-"genres": [
-"Történelmi",
-"Dráma"
-],
-"seeders": 999948
+"seeders": 999950
 },
 {
 "id": "tt0179955",
@@ -96,7 +96,22 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999897
+"seeders": 999909
+},
+{
+"id": "tt27811640",
+"type": "movie",
+"name": "Véletlenül írtam egy könyvet",
+"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
+"imdbRating": 6.6,
+"releaseInfo": "2025",
+"genres": [
+"Családi"
+],
+"seeders": 999873
 },
 {
 "id": "tt35303515",
@@ -112,37 +127,24 @@
 "Dráma",
 "Thriller"
 ],
-"seeders": 999883
+"seeders": 999872
 },
 {
-"id": "tt27811640",
+"id": "tt0142632",
 "type": "movie",
-"name": "Véletlenül írtam egy könyvet",
-"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
+"name": "Lúdas Matyi",
+"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
 "posterShape": "poster",
-"year": 2025,
-"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
-"imdbRating": 6.6,
-"releaseInfo": "2025",
+"year": 1977,
+"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
+"imdbRating": 7.2,
+"releaseInfo": "1977",
 "genres": [
-"Családi"
-],
-"seeders": 999875
-},
-{
-"id": "tt38508942",
-"type": "movie",
-"name": "Beléd estem",
-"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
-"imdbRating": 3.7,
-"releaseInfo": "2026",
-"genres": [
+"Animációs",
+"Kaland",
 "Vígjáték"
 ],
-"seeders": 999838
+"seeders": 999842
 },
 {
 "id": "tt31065630",
@@ -160,37 +162,19 @@
 "seeders": 999838
 },
 {
-"id": "tt0142632",
+"id": "tt38508942",
 "type": "movie",
-"name": "Lúdas Matyi",
-"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
+"name": "Beléd estem",
+"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
 "posterShape": "poster",
-"year": 1977,
-"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
-"imdbRating": 7.2,
-"releaseInfo": "1977",
+"year": 2026,
+"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+"imdbRating": 3.7,
+"releaseInfo": "2026",
 "genres": [
-"Animációs",
-"Kaland",
 "Vígjáték"
 ],
-"seeders": 999836
-},
-{
-"id": "tt0131636",
-"type": "movie",
-"name": "Vuk",
-"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
-"posterShape": "poster",
-"year": 1981,
-"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
-"imdbRating": 7.6,
-"releaseInfo": "1981",
-"genres": [
-"Animációs",
-"Családi"
-],
-"seeders": 999833
+"seeders": 999837
 },
 {
 "id": "tt0065067",
@@ -205,7 +189,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999828
+"seeders": 999829
 },
 {
 "id": "tt0084315",
@@ -223,6 +207,22 @@
 "Kaland"
 ],
 "seeders": 999823
+},
+{
+"id": "tt0131636",
+"type": "movie",
+"name": "Vuk",
+"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
+"posterShape": "poster",
+"year": 1981,
+"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
+"imdbRating": 7.6,
+"releaseInfo": "1981",
+"genres": [
+"Animációs",
+"Családi"
+],
+"seeders": 999818
 },
 {
 "id": "tt23172090",
@@ -282,13 +282,13 @@
 "posterShape": "poster",
 "year": 2025,
 "description": "A negyvenes Lilla párterapeutaként dolgozik, és egész életét a családjának szentelte. Ezért is éri váratlanul, amikor elhagyja a férje egy fiatal műkörmösért. Lilla lánya, Zsófi és az anyja, az egykor ismert színésznő, Vilma elhatározzák, hogy kirángatják a nőt a depresszióból és az önsajnálatból és ráveszik, hogy kezdjen el újra randizni. Lilla évtizedek óta nem volt szingli, így kezdetben ellenáll, és titokban még mindig abban reménykedik, hogy a férje visszatér hozzá. Ezért az anyja cselhez folyamodik, és elhívja a lányát és az unokáját a vidéki nyaralójukba, ahol bemutat neki egy sármos újságírót, aki Vilma önéletrajzi könyvét írja. A helyzetet bonyolítja, hogy Zsófi barátja is próbálja összehozni Lillát egy nagyszájú kollégájával, aki teljesen váratlanul toppan be és még jobban összekuszálja az eseményeket.",
-"imdbRating": 6.7,
+"imdbRating": 6.5,
 "releaseInfo": "2025",
 "genres": [
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999791
+"seeders": 999789
 },
 {
 "id": "tt1247685",
