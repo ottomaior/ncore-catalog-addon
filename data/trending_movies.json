@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 218
+  },
+  {
     "id": "tt11378946",
     "type": "movie",
     "name": "Michael",
@@ -13,22 +29,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 48
-  },
-  {
-    "id": "tt43438551",
-    "type": "movie",
-    "name": "Hammerhead Sharks Up Close with Bertie Gregory",
-    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 42
+    "seeders": 114
   },
   {
     "id": "tt35205649",
@@ -44,7 +45,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1175
+    "seeders": 1307
   },
   {
     "id": "tt33612209",
@@ -60,7 +61,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2560
+    "seeders": 2778
+  },
+  {
+    "id": "tt43438551",
+    "type": "movie",
+    "name": "A pörölycápák világa Bertie Gregoryval",
+    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 58
   },
   {
     "id": "tt32278481",
@@ -70,7 +86,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Enola Holmes kalandjai Máltán folytatódnak, ahol a lány tervezett esküvőjét megzavarja Sherlock eltűnése és egy szövevényes nyomozás.",
-    "imdbRating": 7.2,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Kaland",
@@ -78,7 +94,7 @@
       "Rejtély",
       "Akció"
     ],
-    "seeders": 1511
+    "seeders": 1642
   },
   {
     "id": "tt32430579",
@@ -94,7 +110,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 131
+    "seeders": 167
   },
   {
     "id": "tt32565993",
@@ -112,7 +128,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 1960
+    "seeders": 2163
   },
   {
     "id": "tt18382850",
@@ -127,7 +143,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 261
+    "seeders": 283
   },
   {
     "id": "tt31418911",
@@ -144,7 +160,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 254
+    "seeders": 261
   },
   {
     "id": "tt34888871",
@@ -159,23 +175,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 463
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 726
+    "seeders": 476
   },
   {
     "id": "tt33214716",
@@ -191,22 +191,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 780
+    "seeders": 864
   },
   {
-    "id": "tt7374950",
+    "id": "tt34471850",
     "type": "movie",
-    "name": "Tél derekán",
-    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Stella és Gerry, a régóta nyugdíjas házaspár, amszterdami nyaralásuk során rájönnek, hogy kapcsolatuk egy döntő pillanathoz érkezett. Annyi idő és annyi közös emlék után a régóta megfogalmazott ígéretek és a mélyen elrejtett sebek felszínre kerülni látszanak, és arra kényszerítik őket, hogy szembenézzenek a jövőjükkel.",
-    "imdbRating": 6.6,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.6,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 61
+    "seeders": 753
   },
   {
     "id": "tt33071426",
@@ -223,7 +224,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 219
+    "seeders": 224
   },
   {
     "id": "tt43619403",
@@ -238,7 +239,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 236
+    "seeders": 243
+  },
+  {
+    "id": "tt7374950",
+    "type": "movie",
+    "name": "Tél derekán",
+    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Stella és Gerry, a régóta nyugdíjas házaspár, amszterdami nyaralásuk során rájönnek, hogy kapcsolatuk egy döntő pillanathoz érkezett. Annyi idő és annyi közös emlék után a régóta megfogalmazott ígéretek és a mélyen elrejtett sebek felszínre kerülni látszanak, és arra kényszerítik őket, hogy szembenézzenek a jövőjükkel.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 64
   },
   {
     "id": "tt32386654",
@@ -253,7 +269,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 264
+    "seeders": 285
   },
   {
     "id": "tt10375624",
@@ -269,7 +285,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 339
+    "seeders": 380
   },
   {
     "id": "tt32277918",
@@ -284,7 +300,24 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 227
+    "seeders": 243
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 287
   },
   {
     "id": "tt31260224",
@@ -302,24 +335,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 219
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 254
+    "seeders": 230
   },
   {
     "id": "tt15678738",
@@ -337,23 +353,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 207
-  },
-  {
-    "id": "tt36876775",
-    "type": "movie",
-    "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Akció"
-    ],
-    "seeders": 191
+    "seeders": 227
   },
   {
     "id": "tt32250381",
@@ -369,7 +369,39 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 234
+    "seeders": 252
+  },
+  {
+    "id": "tt36876775",
+    "type": "movie",
+    "name": "Férjek akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Akció"
+    ],
+    "seeders": 201
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 89
   },
   {
     "id": "tt28834646",
@@ -385,7 +417,23 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 68
+    "seeders": 70
+  },
+  {
+    "id": "tt36958376",
+    "type": "movie",
+    "name": "A te hibád: London",
+    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 161
   },
   {
     "id": "tt14883538",
@@ -406,22 +454,6 @@
     "seeders": 82
   },
   {
-    "id": "tt36958376",
-    "type": "movie",
-    "name": "A te hibád: London",
-    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 152
-  },
-  {
     "id": "tt1333644",
     "type": "movie",
     "name": "Dante kezében",
@@ -435,23 +467,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 92
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 79
+    "seeders": 93
   },
   {
     "id": "tt35332621",
@@ -467,21 +483,6 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 115
-  },
-  {
-    "id": "tt21065274",
-    "type": "movie",
-    "name": "Fekete gyémánt",
-    "poster": "https://image.tmdb.org/t/p/w500/5uVxDzRkpgr25MkYAtXmnuo5B2Y.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal nőt követ nyomon, akinek idilli élete sövényfinanszírozó barátjával a vágy, a megszállottság és a gyilkosság halálos háromszögévé változtatja, miután találkozott egy helyi cowboy ezermesterrel.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller"
-    ],
-    "seeders": 68
+    "seeders": 117
   }
 ]
