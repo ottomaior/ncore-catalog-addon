@@ -13,23 +13,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 218
-  },
-  {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 114
+    "seeders": 707
   },
   {
     "id": "tt35205649",
@@ -45,7 +29,22 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1307
+    "seeders": 1409
+  },
+  {
+    "id": "tt34965967",
+    "type": "movie",
+    "name": "Siket rektort akarunk!",
+    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 78
   },
   {
     "id": "tt33612209",
@@ -61,22 +60,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2778
-  },
-  {
-    "id": "tt43438551",
-    "type": "movie",
-    "name": "A pörölycápák világa Bertie Gregoryval",
-    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 58
+    "seeders": 2815
   },
   {
     "id": "tt32278481",
@@ -94,7 +78,40 @@
       "Rejtély",
       "Akció"
     ],
-    "seeders": 1642
+    "seeders": 1678
+  },
+  {
+    "id": "tt11378946",
+    "type": "movie",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 136
+  },
+  {
+    "id": "tt32565993",
+    "type": "movie",
+    "name": "Birkakrimi",
+    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy pásztor minden este hangosan felolvas egy bűnügyi történetet, azt színlelve, hogy a juhai megértik azt. Amikor holtan találják, a birkák azonnal ráébrednek, hogy gyilkosság történt és úgy gondolják, mindent tudnak arról, hogyan kell nekilátni a rejtély megoldásának.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Rejtély",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 2259
   },
   {
     "id": "tt32430579",
@@ -110,25 +127,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 167
+    "seeders": 172
   },
   {
-    "id": "tt32565993",
+    "id": "tt43438551",
     "type": "movie",
-    "name": "Birkakrimi",
-    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
+    "name": "A pörölycápák világa Bertie Gregoryval",
+    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy pásztor minden este hangosan felolvas egy bűnügyi történetet, azt színlelve, hogy a juhai megértik azt. Amikor holtan találják, a birkák azonnal ráébrednek, hogy gyilkosság történt és úgy gondolják, mindent tudnak arról, hogyan kell nekilátni a rejtély megoldásának.",
-    "imdbRating": 7.8,
+    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Kaland",
-      "Rejtély",
-      "Vígjáték",
-      "Családi"
+      "Dokumentum"
     ],
-    "seeders": 2163
+    "seeders": 61
   },
   {
     "id": "tt18382850",
@@ -143,7 +157,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 283
+    "seeders": 267
   },
   {
     "id": "tt31418911",
@@ -160,7 +174,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 261
+    "seeders": 254
   },
   {
     "id": "tt34888871",
@@ -175,23 +189,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 476
-  },
-  {
-    "id": "tt33214716",
-    "type": "movie",
-    "name": "A virágárus",
-    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 864
+    "seeders": 481
   },
   {
     "id": "tt34471850",
@@ -207,7 +205,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 753
+    "seeders": 746
+  },
+  {
+    "id": "tt33214716",
+    "type": "movie",
+    "name": "A virágárus",
+    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 825
   },
   {
     "id": "tt33071426",
@@ -224,7 +238,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 224
+    "seeders": 103
   },
   {
     "id": "tt43619403",
@@ -239,7 +253,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 243
+    "seeders": 228
   },
   {
     "id": "tt7374950",
@@ -254,7 +268,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 64
+    "seeders": 60
   },
   {
     "id": "tt32386654",
@@ -269,7 +283,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 285
+    "seeders": 283
   },
   {
     "id": "tt10375624",
@@ -285,7 +299,24 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 380
+    "seeders": 385
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 293
   },
   {
     "id": "tt32277918",
@@ -300,24 +331,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 243
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 287
+    "seeders": 239
   },
   {
     "id": "tt31260224",
@@ -335,7 +349,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 230
+    "seeders": 239
   },
   {
     "id": "tt15678738",
@@ -353,7 +367,7 @@
       "Családi",
       "Történelmi"
     ],
-    "seeders": 227
+    "seeders": 224
   },
   {
     "id": "tt32250381",
@@ -369,7 +383,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 252
+    "seeders": 248
   },
   {
     "id": "tt36876775",
@@ -385,39 +399,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 201
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 89
-  },
-  {
-    "id": "tt28834646",
-    "type": "movie",
-    "name": "Mi van veled, csajszi?",
-    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 70
+    "seeders": 176
   },
   {
     "id": "tt36958376",
@@ -433,7 +415,55 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 161
+    "seeders": 164
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 88
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 97
+  },
+  {
+    "id": "tt28834646",
+    "type": "movie",
+    "name": "Mi van veled, csajszi?",
+    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 68
   },
   {
     "id": "tt14883538",
@@ -451,38 +481,6 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 82
-  },
-  {
-    "id": "tt1333644",
-    "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 93
-  },
-  {
-    "id": "tt35332621",
-    "type": "movie",
-    "name": "Vitrival, a világ legszebb faluja",
-    "poster": "https://image.tmdb.org/t/p/w500/3aDpjfMj34uvtOthGVy25ttr1Th.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy csendes falut feldúlja, amikor péniszgraffitik lepik el a falakat és hárman öngyilkosok lesznek. A két helyi rendőr akcióba lendül.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 117
+    "seeders": 81
   }
 ]
