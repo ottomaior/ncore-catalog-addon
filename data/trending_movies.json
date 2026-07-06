@@ -7,13 +7,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 6.1,
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
-      "Thriller"
+      "Thriller",
+      "Kaland"
     ],
-    "seeders": 890
+    "seeders": 893
   },
   {
     "id": "tt35205649",
@@ -29,7 +30,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1359
+    "seeders": 1310
   },
   {
     "id": "tt33612209",
@@ -45,7 +46,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2662
+    "seeders": 2509
   },
   {
     "id": "tt32278481",
@@ -62,7 +63,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1530
+    "seeders": 1516
   },
   {
     "id": "tt32565993",
@@ -79,7 +80,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 2075
+    "seeders": 2037
   },
   {
     "id": "tt11378946",
@@ -95,7 +96,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 138
+    "seeders": 157
   },
   {
     "id": "tt32430579",
@@ -111,7 +112,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 193
+    "seeders": 195
   },
   {
     "id": "tt34965967",
@@ -126,7 +127,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 89
+    "seeders": 91
   },
   {
     "id": "tt18382850",
@@ -141,7 +142,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 252
+    "seeders": 229
   },
   {
     "id": "tt43438551",
@@ -156,7 +157,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 66
+    "seeders": 65
   },
   {
     "id": "tt34888871",
@@ -171,7 +172,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 481
+    "seeders": 462
+  },
+  {
+    "id": "tt33214716",
+    "type": "movie",
+    "name": "A virágárus",
+    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 757
   },
   {
     "id": "tt34471850",
@@ -187,7 +204,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 727
+    "seeders": 658
   },
   {
     "id": "tt31418911",
@@ -204,23 +221,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 246
-  },
-  {
-    "id": "tt33214716",
-    "type": "movie",
-    "name": "A virágárus",
-    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 788
+    "seeders": 228
   },
   {
     "id": "tt33071426",
@@ -237,7 +238,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 205
+    "seeders": 196
   },
   {
     "id": "tt43619403",
@@ -252,7 +253,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 220
+    "seeders": 198
   },
   {
     "id": "tt32386654",
@@ -267,7 +268,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 272
+    "seeders": 257
   },
   {
     "id": "tt10375624",
@@ -298,25 +299,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 50
-  },
-  {
-    "id": "tt31260224",
-    "type": "movie",
-    "name": "Pipiána Hoppsz és a mormota titka",
-    "poster": "https://image.tmdb.org/t/p/w500/1ABLu0d3Fegy8veZmVROJ722BBD.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A legenda szerint egy rejtélyes mormota, aki egy titkos hegység legmélyén él rejtőzködve, olyan erővel rendelkezik, ami képes visszaforgatni az idő kerekét. Pipiána Hoppsz ráébred, hogy a mitikus ereklye lehet az egyetlen esély a hozzá hasonlók fennmaradásának biztosítására, így a rettenthetetlen kalandor kész mindent kockára tenni az ősi erő megszerzéséért. Útját azonban számos akadály szegélyezi… Ráadásul hamarosan világossá válik, hogy Pipiánán és barátain kívül mások is kutatják a mormota titkát…",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 246
+    "seeders": 47
   },
   {
     "id": "tt43140112",
@@ -336,6 +319,24 @@
     "seeders": 279
   },
   {
+    "id": "tt31260224",
+    "type": "movie",
+    "name": "Pipiána Hoppsz és a mormota titka",
+    "poster": "https://image.tmdb.org/t/p/w500/1ABLu0d3Fegy8veZmVROJ722BBD.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A legenda szerint egy rejtélyes mormota, aki egy titkos hegység legmélyén él rejtőzködve, olyan erővel rendelkezik, ami képes visszaforgatni az idő kerekét. Pipiána Hoppsz ráébred, hogy a mitikus ereklye lehet az egyetlen esély a hozzá hasonlók fennmaradásának biztosítására, így a rettenthetetlen kalandor kész mindent kockára tenni az ősi erő megszerzéséért. Útját azonban számos akadály szegélyezi… Ráadásul hamarosan világossá válik, hogy Pipiánán és barátain kívül mások is kutatják a mormota titkát…",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 226
+  },
+  {
     "id": "tt32277918",
     "type": "movie",
     "name": "Országúti védelmező",
@@ -348,7 +349,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 233
+    "seeders": 222
   },
   {
     "id": "tt15678738",
@@ -367,7 +368,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 230
+    "seeders": 214
   },
   {
     "id": "tt32250381",
@@ -383,7 +384,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 238
+    "seeders": 221
   },
   {
     "id": "tt36876775",
@@ -399,7 +400,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 185
+    "seeders": 174
   },
   {
     "id": "tt36958376",
@@ -415,23 +416,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 155
-  },
-  {
-    "id": "tt28834646",
-    "type": "movie",
-    "name": "Mi van veled, csajszi?",
-    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 70
+    "seeders": 160
   },
   {
     "id": "tt4357198",
@@ -447,7 +432,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 84
+    "seeders": 83
   },
   {
     "id": "tt14883538",
@@ -465,7 +450,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 79
+    "seeders": 81
   },
   {
     "id": "tt1333644",
@@ -481,6 +466,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 91
+    "seeders": 92
+  },
+  {
+    "id": "tt28834646",
+    "type": "movie",
+    "name": "Mi van veled, csajszi?",
+    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 59
   }
 ]
