@@ -15,7 +15,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 189
+    "seeders": 490
   },
   {
     "id": "tt33763941",
@@ -31,7 +31,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 975
+    "seeders": 965
   },
   {
     "id": "tt35205649",
@@ -47,7 +47,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1331
+    "seeders": 1293
   },
   {
     "id": "tt33612209",
@@ -63,7 +63,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2460
+    "seeders": 2443
   },
   {
     "id": "tt32278481",
@@ -80,7 +80,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1427
+    "seeders": 1468
   },
   {
     "id": "tt32565993",
@@ -97,23 +97,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 1952
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 206
+    "seeders": 1976
   },
   {
     "id": "tt11378946",
@@ -129,22 +113,23 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 150
+    "seeders": 165
   },
   {
-    "id": "tt18382850",
+    "id": "tt32430579",
     "type": "movie",
-    "name": "Ha tudnék, beléd rúgnék",
-    "poster": "https://image.tmdb.org/t/p/w500/va0TQ9WprMXRqQAzY56vyqY0Yd5.jpg",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Bűnügyi",
+      "Thriller"
     ],
-    "seeders": 229
+    "seeders": 190
   },
   {
     "id": "tt34965967",
@@ -159,22 +144,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 85
+    "seeders": 86
   },
   {
-    "id": "tt34888871",
+    "id": "tt18382850",
     "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "name": "Ha tudnék, beléd rúgnék",
+    "poster": "https://image.tmdb.org/t/p/w500/va0TQ9WprMXRqQAzY56vyqY0Yd5.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték"
+      "Dráma"
     ],
-    "seeders": 450
+    "seeders": 208
   },
   {
     "id": "tt33214716",
@@ -190,7 +175,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 757
+    "seeders": 749
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 424
   },
   {
     "id": "tt34471850",
@@ -206,7 +206,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 662
+    "seeders": 639
   },
   {
     "id": "tt31418911",
@@ -223,7 +223,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 219
+    "seeders": 216
   },
   {
     "id": "tt43438551",
@@ -255,7 +255,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 209
+    "seeders": 206
   },
   {
     "id": "tt43619403",
@@ -270,7 +270,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 204
+    "seeders": 190
   },
   {
     "id": "tt32386654",
@@ -285,7 +285,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 244
+    "seeders": 249
   },
   {
     "id": "tt10375624",
@@ -301,7 +301,24 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 336
+    "seeders": 349
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 271
   },
   {
     "id": "tt31260224",
@@ -319,24 +336,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 244
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 275
+    "seeders": 222
   },
   {
     "id": "tt32277918",
@@ -370,7 +370,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 216
+    "seeders": 208
   },
   {
     "id": "tt7374950",
@@ -385,13 +385,13 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 45
+    "seeders": 44
   },
   {
     "id": "tt36876775",
     "type": "movie",
     "name": "Férjek akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/A01Ca3GfoUZ192ebgHHj6MYOG35.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/dn5IYlVR3gS81q7YMq49MSQK8Pt.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy nyomozó összeáll volt felesége új férjével, hogy megkeressék a nő elrablóit. Vajon a szokatlan páros félre tudja tenni nézeteltéréseit az őrült mentőakció érdekében?",
@@ -401,7 +401,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 167
+    "seeders": 162
   },
   {
     "id": "tt36958376",
@@ -417,7 +417,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 149
+    "seeders": 146
   },
   {
     "id": "tt14883538",
@@ -435,23 +435,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 76
-  },
-  {
-    "id": "tt1333644",
-    "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 84
+    "seeders": 81
   },
   {
     "id": "tt28834646",
@@ -467,7 +451,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 62
+    "seeders": 64
   },
   {
     "id": "tt4357198",
@@ -483,6 +467,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 72
+    "seeders": 76
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 79
   }
 ]
