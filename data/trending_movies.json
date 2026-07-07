@@ -1,5 +1,23 @@
 [
   {
+    "id": "tt31189814",
+    "type": "movie",
+    "name": "Időzített bomba",
+    "poster": "https://image.tmdb.org/t/p/w500/xW1MP6c35qcE9rwASFBNGBPzbox.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "London belvárosában 500 kilós II. világháborús bombát találnak. A környéket kiürítik, a mindig zsúfolt, örökké izgatott városban egy egész kerületet zárnak le. Kiszállnak a tűzszerészek, és munkához látnak. A tét nagy, a feszültség kézzelfogható, a bomba bármikor robbanhat – de szakemberek dolgoznak az ügyön.\r Csak éppen semmi sem igaz az egészből. A bomba nem világháborús, nem véletlenül került elő, és nem lesz olyan könnyű hatástalanítani. Igazából egy bankrabló banda helyezte el: így akarják elterelni munkájukról a figyelmet, és nyugodt körülményeket teremteni maguknak egy földalatti páncélterem feltöréséhez.\r Vagy ez sem igaz? Ők is csak áldozatok? Rendőrök, katonák, bankrablók és nemzetközi szélhámosok keresik a választ ugyanazokra a kérdésekre. És az időzítőszerkezet közben tovább ketyeg. Mert egyvalami azért biztos: A bomba mindjárt robbanni fog…",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 189
+  },
+  {
     "id": "tt33763941",
     "type": "movie",
     "name": "Utazó",
@@ -7,14 +25,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 5.8,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
-      "Thriller",
-      "Kaland"
+      "Thriller"
     ],
-    "seeders": 809
+    "seeders": 975
   },
   {
     "id": "tt35205649",
@@ -30,7 +47,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1151
+    "seeders": 1331
   },
   {
     "id": "tt33612209",
@@ -46,7 +63,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2190
+    "seeders": 2460
   },
   {
     "id": "tt32278481",
@@ -63,7 +80,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1235
+    "seeders": 1427
   },
   {
     "id": "tt32565993",
@@ -80,23 +97,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 1721
-  },
-  {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 137
+    "seeders": 1952
   },
   {
     "id": "tt32430579",
@@ -112,22 +113,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 167
+    "seeders": 206
   },
   {
-    "id": "tt34965967",
+    "id": "tt11378946",
     "type": "movie",
-    "name": "Siket rektort akarunk!",
-    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Zenei",
+      "Dráma"
     ],
-    "seeders": 82
+    "seeders": 150
   },
   {
     "id": "tt18382850",
@@ -142,7 +144,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 205
+    "seeders": 229
+  },
+  {
+    "id": "tt34965967",
+    "type": "movie",
+    "name": "Siket rektort akarunk!",
+    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 85
   },
   {
     "id": "tt34888871",
@@ -157,7 +174,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 404
+    "seeders": 450
   },
   {
     "id": "tt33214716",
@@ -173,7 +190,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 685
+    "seeders": 757
   },
   {
     "id": "tt34471850",
@@ -189,7 +206,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 575
+    "seeders": 662
   },
   {
     "id": "tt31418911",
@@ -206,7 +223,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 200
+    "seeders": 219
   },
   {
     "id": "tt43438551",
@@ -221,7 +238,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 54
+    "seeders": 61
   },
   {
     "id": "tt33071426",
@@ -238,7 +255,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 186
+    "seeders": 209
   },
   {
     "id": "tt43619403",
@@ -253,7 +270,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 179
+    "seeders": 204
   },
   {
     "id": "tt32386654",
@@ -268,7 +285,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 235
+    "seeders": 244
   },
   {
     "id": "tt10375624",
@@ -284,7 +301,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 300
+    "seeders": 336
   },
   {
     "id": "tt31260224",
@@ -302,7 +319,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 221
+    "seeders": 244
   },
   {
     "id": "tt43140112",
@@ -319,7 +336,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 247
+    "seeders": 275
   },
   {
     "id": "tt32277918",
@@ -334,22 +351,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 194
-  },
-  {
-    "id": "tt7374950",
-    "type": "movie",
-    "name": "Tél derekán",
-    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Stella és Gerry, a régóta nyugdíjas házaspár, amszterdami nyaralásuk során rájönnek, hogy kapcsolatuk egy döntő pillanathoz érkezett. Annyi idő és annyi közös emlék után a régóta megfogalmazott ígéretek és a mélyen elrejtett sebek felszínre kerülni látszanak, és arra kényszerítik őket, hogy szembenézzenek a jövőjükkel.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 41
+    "seeders": 217
   },
   {
     "id": "tt15678738",
@@ -368,7 +370,22 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 204
+    "seeders": 216
+  },
+  {
+    "id": "tt7374950",
+    "type": "movie",
+    "name": "Tél derekán",
+    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Stella és Gerry, a régóta nyugdíjas házaspár, amszterdami nyaralásuk során rájönnek, hogy kapcsolatuk egy döntő pillanathoz érkezett. Annyi idő és annyi közös emlék után a régóta megfogalmazott ígéretek és a mélyen elrejtett sebek felszínre kerülni látszanak, és arra kényszerítik őket, hogy szembenézzenek a jövőjükkel.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 45
   },
   {
     "id": "tt36876775",
@@ -384,7 +401,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 161
+    "seeders": 167
   },
   {
     "id": "tt36958376",
@@ -400,7 +417,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 132
+    "seeders": 149
   },
   {
     "id": "tt14883538",
@@ -418,23 +435,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 72
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 73
+    "seeders": 76
   },
   {
     "id": "tt1333644",
@@ -450,7 +451,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 82
+    "seeders": 84
   },
   {
     "id": "tt28834646",
@@ -466,22 +467,22 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 58
+    "seeders": 62
   },
   {
-    "id": "tt35332621",
+    "id": "tt4357198",
     "type": "movie",
-    "name": "Vitrival, a világ legszebb faluja",
-    "poster": "https://image.tmdb.org/t/p/w500/3aDpjfMj34uvtOthGVy25ttr1Th.jpg",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy csendes falut feldúlja, amikor péniszgraffitik lepik el a falakat és hárman öngyilkosok lesznek. A két helyi rendőr akcióba lendül.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Vígjáték",
+      "Thriller"
     ],
-    "seeders": 100
+    "seeders": 72
   }
 ]
