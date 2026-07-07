@@ -7,14 +7,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 6.0,
+    "imdbRating": 5.8,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller",
       "Kaland"
     ],
-    "seeders": 893
+    "seeders": 655
   },
   {
     "id": "tt35205649",
@@ -30,7 +30,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1310
+    "seeders": 981
   },
   {
     "id": "tt33612209",
@@ -46,7 +46,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2509
+    "seeders": 1847
   },
   {
     "id": "tt32278481",
@@ -63,7 +63,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1516
+    "seeders": 1073
   },
   {
     "id": "tt32565993",
@@ -80,7 +80,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 2037
+    "seeders": 1439
   },
   {
     "id": "tt11378946",
@@ -96,7 +96,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 157
+    "seeders": 120
   },
   {
     "id": "tt32430579",
@@ -112,7 +112,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 195
+    "seeders": 163
   },
   {
     "id": "tt34965967",
@@ -127,7 +127,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 91
+    "seeders": 74
   },
   {
     "id": "tt18382850",
@@ -142,7 +142,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 229
+    "seeders": 190
   },
   {
     "id": "tt43438551",
@@ -157,7 +157,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 65
+    "seeders": 58
   },
   {
     "id": "tt34888871",
@@ -172,39 +172,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 462
-  },
-  {
-    "id": "tt33214716",
-    "type": "movie",
-    "name": "A virágárus",
-    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 757
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 658
+    "seeders": 363
   },
   {
     "id": "tt31418911",
@@ -221,7 +189,39 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 228
+    "seeders": 189
+  },
+  {
+    "id": "tt33214716",
+    "type": "movie",
+    "name": "A virágárus",
+    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 583
+  },
+  {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 484
   },
   {
     "id": "tt33071426",
@@ -238,7 +238,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 196
+    "seeders": 160
   },
   {
     "id": "tt43619403",
@@ -253,7 +253,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 198
+    "seeders": 161
   },
   {
     "id": "tt32386654",
@@ -268,7 +268,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 257
+    "seeders": 209
   },
   {
     "id": "tt10375624",
@@ -284,7 +284,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 352
+    "seeders": 262
   },
   {
     "id": "tt7374950",
@@ -299,24 +299,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 47
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 279
+    "seeders": 42
   },
   {
     "id": "tt31260224",
@@ -334,7 +317,24 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 226
+    "seeders": 184
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 208
   },
   {
     "id": "tt32277918",
@@ -349,7 +349,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 222
+    "seeders": 171
   },
   {
     "id": "tt15678738",
@@ -368,7 +368,7 @@
       "Történelmi",
       "Zenei"
     ],
-    "seeders": 214
+    "seeders": 177
   },
   {
     "id": "tt32250381",
@@ -384,7 +384,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 221
+    "seeders": 173
   },
   {
     "id": "tt36876775",
@@ -400,39 +400,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 174
-  },
-  {
-    "id": "tt36958376",
-    "type": "movie",
-    "name": "A te hibád: London",
-    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 160
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 83
+    "seeders": 136
   },
   {
     "id": "tt14883538",
@@ -450,7 +418,39 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 81
+    "seeders": 69
+  },
+  {
+    "id": "tt36958376",
+    "type": "movie",
+    "name": "A te hibád: London",
+    "poster": "https://image.tmdb.org/t/p/w500/y6cdBtCtQ9t2tXql8aA3EWYLVxv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nick és Noah szerelme a legnagyobb kihívással néz szembe, amikor Noah megkezdi új életét az Oxfordi Egyetemen, míg Nick Londonban marad és az apja cégénél kezd dolgozni. Távolság húzódik köztük és egyre fokozódó nyomás nehezedik rájuk; féltékenység, ambíció és olyan erők, amik szét akarják őket szakítani. Mindent kockára kell tenniük, hogy bebizonyítsák, a köztük lévő kötelék mindent túlélhet.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 121
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 66
   },
   {
     "id": "tt1333644",
@@ -466,7 +466,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 92
+    "seeders": 73
   },
   {
     "id": "tt28834646",
@@ -482,6 +482,6 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 59
+    "seeders": 53
   }
 ]
