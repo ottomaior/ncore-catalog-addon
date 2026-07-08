@@ -12,7 +12,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 76
+    "seeders": 78
   },
   {
     "id": "tt31189814",
@@ -30,7 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 494
+    "seeders": 617
   },
   {
     "id": "tt33763941",
@@ -46,22 +46,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 830
-  },
-  {
-    "id": "tt35093403",
-    "type": "movie",
-    "name": "La gioia",
-    "poster": "https://image.tmdb.org/t/p/w500/tWjKV4Aq5RebW7k9PuzJ7HHjNJP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 83
+    "seeders": 992
   },
   {
     "id": "tt33612209",
@@ -77,7 +62,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 2123
+    "seeders": 2345
   },
   {
     "id": "tt35205649",
@@ -93,7 +78,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1137
+    "seeders": 1322
   },
   {
     "id": "tt32278481",
@@ -110,7 +95,22 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1244
+    "seeders": 1427
+  },
+  {
+    "id": "tt35093403",
+    "type": "movie",
+    "name": "La gioia",
+    "poster": "https://image.tmdb.org/t/p/w500/tWjKV4Aq5RebW7k9PuzJ7HHjNJP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt32565993",
@@ -127,23 +127,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 1672
-  },
-  {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 149
+    "seeders": 1870
   },
   {
     "id": "tt32430579",
@@ -159,38 +143,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 176
+    "seeders": 206
   },
   {
-    "id": "tt18382850",
+    "id": "tt11378946",
     "type": "movie",
-    "name": "Ha tudnék, beléd rúgnék",
-    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 196
-  },
-  {
-    "id": "tt33214716",
-    "type": "movie",
-    "name": "A virágárus",
-    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
-    "imdbRating": null,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.7,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Zenei",
+      "Dráma"
     ],
-    "seeders": 659
+    "seeders": 161
   },
   {
     "id": "tt34888871",
@@ -205,7 +174,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 377
+    "seeders": 447
+  },
+  {
+    "id": "tt18382850",
+    "type": "movie",
+    "name": "Ha tudnék, beléd rúgnék",
+    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 219
   },
   {
     "id": "tt34471850",
@@ -221,7 +205,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 548
+    "seeders": 646
+  },
+  {
+    "id": "tt33214716",
+    "type": "movie",
+    "name": "A virágárus",
+    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 718
   },
   {
     "id": "tt34965967",
@@ -236,7 +236,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 79
+    "seeders": 91
   },
   {
     "id": "tt31418911",
@@ -253,7 +253,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 193
+    "seeders": 209
   },
   {
     "id": "tt33071426",
@@ -270,7 +270,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 187
+    "seeders": 205
   },
   {
     "id": "tt43619403",
@@ -285,22 +285,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 193
-  },
-  {
-    "id": "tt32386654",
-    "type": "movie",
-    "name": "A Kreml mágusa",
-    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 229
+    "seeders": 201
   },
   {
     "id": "tt43438551",
@@ -315,7 +300,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 49
+    "seeders": 57
+  },
+  {
+    "id": "tt32386654",
+    "type": "movie",
+    "name": "A Kreml mágusa",
+    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 241
   },
   {
     "id": "tt10375624",
@@ -331,24 +331,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 291
-  },
-  {
-    "id": "tt43140112",
-    "type": "movie",
-    "name": "A nagy házalakítás: Homer Edition",
-    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 233
+    "seeders": 325
   },
   {
     "id": "tt31260224",
@@ -366,7 +349,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 199
+    "seeders": 221
   },
   {
     "id": "tt32277918",
@@ -381,7 +364,24 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 187
+    "seeders": 212
+  },
+  {
+    "id": "tt43140112",
+    "type": "movie",
+    "name": "A nagy házalakítás: Homer Edition",
+    "poster": "https://image.tmdb.org/t/p/w500/tpOWcbc27XqQcszYFLNtcBckBik.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ebben a Disney+ exkluzív dupla epizódban Homer és Marge vidám randija kisiklik, amikor Marge rájön, hogy Homer felügyelet nélkül hagyta a gyerekeket, és bébiszitter helyett csak a kapucsengő kamerájára bízta őket. A férje tökéletlenségein felhúzott, enyhén spicces Marge ezután három különböző fantáziában képzeli el, milyen lenne egy másik Homer. Különleges vendégszereplő: Betty Gilpin, zenei közreműködők: Laufey, valamint Tegan and Sara.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 246
   },
   {
     "id": "tt15678738",
@@ -395,12 +395,11 @@
     "releaseInfo": "2025",
     "genres": [
       "Animációs",
-      "Dráma",
       "Családi",
-      "Történelmi",
-      "Zenei"
+      "Zenei",
+      "Dráma"
     ],
-    "seeders": 195
+    "seeders": 214
   },
   {
     "id": "tt7374950",
@@ -415,7 +414,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 43
+    "seeders": 45
   },
   {
     "id": "tt36876775",
@@ -431,7 +430,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 153
+    "seeders": 160
   },
   {
     "id": "tt14883538",
@@ -449,23 +448,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 72
-  },
-  {
-    "id": "tt28834646",
-    "type": "movie",
-    "name": "Mi van veled, csajszi?",
-    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 60
+    "seeders": 80
   },
   {
     "id": "tt1333644",
@@ -481,6 +464,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 79
+    "seeders": 84
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 70
   }
 ]
