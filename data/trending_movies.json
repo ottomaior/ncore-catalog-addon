@@ -15,7 +15,55 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 520
+    "seeders": 620
+  },
+  {
+    "id": "tt35205649",
+    "type": "movie",
+    "name": "Egykutya",
+    "poster": "https://image.tmdb.org/t/p/w500/fGPouchPqzEiVOTHRi1VdnqpkMe.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film valós időben meséli el egy viharos este történetét, amikor hosszú évek után, egyikük váratlan meghívására találkozik négy kollégiumi jó barát. Bár már azt hitték, sosem állnak szóba egymással újra, ezen az estén élet-halál kérdése lehet, hogy ismét szót értsenek. A nézők a csavaros, csípős humorú szócsatákból lassan összerakhatják a rejtvény megfejtését: azt, hogy miként lehetett négy ennyire különböző ember ekkora hatással egymás életére",
+    "imdbRating": 5.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 1306
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 841
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 2118
   },
   {
     "id": "tt32808757",
@@ -32,70 +80,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 99
-  },
-  {
-    "id": "tt35205649",
-    "type": "movie",
-    "name": "Egykutya",
-    "poster": "https://image.tmdb.org/t/p/w500/fGPouchPqzEiVOTHRi1VdnqpkMe.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film valós időben meséli el egy viharos este történetét, amikor hosszú évek után, egyikük váratlan meghívására találkozik négy kollégiumi jó barát. Bár már azt hitték, sosem állnak szóba egymással újra, ezen az estén élet-halál kérdése lehet, hogy ismét szót értsenek. A nézők a csavaros, csípős humorú szócsatákból lassan összerakhatják a rejtvény megfejtését: azt, hogy miként lehetett négy ennyire különböző ember ekkora hatással egymás életére",
-    "imdbRating": 5.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 1065
-  },
-  {
-    "id": "tt33763941",
-    "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 674
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 1766
-  },
-  {
-    "id": "tt38510825",
-    "type": "movie",
-    "name": "Nothing to Lose",
-    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 121
+    "seeders": 111
   },
   {
     "id": "tt32278481",
@@ -112,22 +97,22 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1064
+    "seeders": 1259
   },
   {
-    "id": "tt35093403",
+    "id": "tt38510825",
     "type": "movie",
-    "name": "La Gioia - Tiltott öröm",
-    "poster": "https://image.tmdb.org/t/p/w500/tWjKV4Aq5RebW7k9PuzJ7HHjNJP.jpg",
+    "name": "Nothing to Lose",
+    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy fiatal, manipulatív fiú és egy magányos, érzelmileg kiszolgáltatott nő végzetes viszonya bontakozik ki, amely a kölcsönös vonzalomból fokozatosan hatalmi játszmává alakul, és tragédiába fordul; a történet egy valós bűnügyi esetből inspirálódik, és a remény, a szerelemvágy és a pusztító önáltatás sötét elegyét mutatja meg.",
-    "imdbRating": 6.7,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Akció"
     ],
-    "seeders": 110
+    "seeders": 135
   },
   {
     "id": "tt32565993",
@@ -144,7 +129,22 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 1379
+    "seeders": 1672
+  },
+  {
+    "id": "tt35093403",
+    "type": "movie",
+    "name": "La Gioia - Tiltott öröm",
+    "poster": "https://image.tmdb.org/t/p/w500/tWjKV4Aq5RebW7k9PuzJ7HHjNJP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal, manipulatív fiú és egy magányos, érzelmileg kiszolgáltatott nő végzetes viszonya bontakozik ki, amely a kölcsönös vonzalomból fokozatosan hatalmi játszmává alakul, és tragédiába fordul; a történet egy valós bűnügyi esetből inspirálódik, és a remény, a szerelemvágy és a pusztító önáltatás sötét elegyét mutatja meg.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 117
   },
   {
     "id": "tt32430579",
@@ -160,7 +160,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 169
+    "seeders": 194
   },
   {
     "id": "tt11378946",
@@ -176,22 +176,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 139
-  },
-  {
-    "id": "tt34888871",
-    "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 354
+    "seeders": 162
   },
   {
     "id": "tt33214716",
@@ -207,7 +192,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 561
+    "seeders": 644
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 394
   },
   {
     "id": "tt18382850",
@@ -222,7 +222,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 175
+    "seeders": 201
   },
   {
     "id": "tt34471850",
@@ -238,7 +238,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 466
+    "seeders": 554
   },
   {
     "id": "tt31418911",
@@ -255,7 +255,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 170
+    "seeders": 182
   },
   {
     "id": "tt34965967",
@@ -270,7 +270,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 71
+    "seeders": 80
   },
   {
     "id": "tt33071426",
@@ -287,7 +287,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 165
+    "seeders": 183
   },
   {
     "id": "tt43619403",
@@ -302,7 +302,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 153
+    "seeders": 176
   },
   {
     "id": "tt32386654",
@@ -317,22 +317,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 192
-  },
-  {
-    "id": "tt43438551",
-    "type": "movie",
-    "name": "A pörölycápák világa Bertie Gregoryval",
-    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 50
+    "seeders": 213
   },
   {
     "id": "tt10375624",
@@ -348,7 +333,22 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 247
+    "seeders": 295
+  },
+  {
+    "id": "tt43438551",
+    "type": "movie",
+    "name": "A pörölycápák világa Bertie Gregoryval",
+    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 57
   },
   {
     "id": "tt31260224",
@@ -366,7 +366,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 175
+    "seeders": 202
   },
   {
     "id": "tt32277918",
@@ -381,7 +381,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 173
+    "seeders": 184
   },
   {
     "id": "tt15678738",
@@ -399,7 +399,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 173
+    "seeders": 192
   },
   {
     "id": "tt7374950",
@@ -414,7 +414,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 39
+    "seeders": 43
   },
   {
     "id": "tt36876775",
@@ -430,7 +430,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 129
+    "seeders": 149
   },
   {
     "id": "tt14883538",
@@ -448,23 +448,7 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 67
-  },
-  {
-    "id": "tt1333644",
-    "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 71
+    "seeders": 78
   },
   {
     "id": "tt4357198",
@@ -480,6 +464,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 60
+    "seeders": 64
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 68
   }
 ]
