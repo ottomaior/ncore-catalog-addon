@@ -1,20 +1,5 @@
 [
   {
-    "id": "tt2431250",
-    "type": "series",
-    "name": "Our Little Farm on the Prairie",
-    "poster": "https://artworks.thetvdb.com/banners/v4/series/459561/posters/69dd473aafffe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az összetartó Ingalls család új életet épít a nyugati határvidéken, ahol a természet örömei és a túlélésért folytatott küzdelem szorosan összefonódnak.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 40
-  },
-  {
     "id": "tt11198330",
     "type": "series",
     "name": "Sárkányok háza (S03E03)",
@@ -31,24 +16,25 @@
     ],
     "latest_season": 3,
     "latest_episode": 3,
-    "seeders": 1402
+    "seeders": 1703
   },
   {
-    "id": "tt31556651",
+    "id": "tt2431250",
     "type": "series",
-    "name": "Juliet (S01E06)",
-    "poster": "https://image.tmdb.org/t/p/w500/HPKBAimKd2PLiHn0y9KgDKYDYK.jpg",
+    "name": "Little House on the Prairie",
+    "poster": "https://image.tmdb.org/t/p/w500/oWUGSadxC9vQPOCeHDDVfDezmQC.jpg",
     "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S01E06\n\nPolitie-inspecteur Juliet Dumon keert na de dood van haar vader terug naar haar geboortestreek aan de Vlaamse kust. Daar gaat ze tijdelijk aan de slag bij de plaatselijke recherche en zoekt ze intussen naar een pleeggezin voor haar tienernichtje Chloë. Terwijl Juliet zich op haar nieuwe baan stort, wordt ze geconfronteerd met haar onverwerkte schuldgevoelens bij de dood van haar moeder en haar eigen ambigue gevoelens tegenover het moederschap. Intussen ontstaat er een complexe band tussen haar en Chloë.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2023",
+    "year": 2026,
+    "description": "Az összetartó Ingalls család új életet épít a nyugati határvidéken, ahol a természet örömei és a túlélésért folytatott küzdelem szorosan összefonódnak.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
     "genres": [
-      "Bűnügyi"
+      "Dráma",
+      "Western"
     ],
-    "latest_season": 1,
-    "latest_episode": 6,
-    "seeders": 40
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 55
   },
   {
     "id": "tt2861424",
@@ -68,7 +54,7 @@
     ],
     "latest_season": 9,
     "latest_episode": 7,
-    "seeders": 769
+    "seeders": 942
   },
   {
     "id": "tt42669045",
@@ -85,26 +71,24 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 1491
+    "seeders": 1687
   },
   {
-    "id": "tt7235466",
+    "id": "tt31556651",
     "type": "series",
-    "name": "9-1-1",
-    "poster": "https://image.tmdb.org/t/p/w500/bsgqJkkKpts8EquMlunKMMUDp6m.jpg",
+    "name": "Juliet (S01E06)",
+    "poster": "https://image.tmdb.org/t/p/w500/HPKBAimKd2PLiHn0y9KgDKYDYK.jpg",
     "posterShape": "poster",
-    "year": 2018,
-    "description": "A sorozat bemutatja, mekkora nyomás alatt is kell dolgozniuk a rendőröknek, mentősöknek és tűzoltóknak olyan szituációkban, amelyekkel egy hétköznapi ember képtelen volna megbirkózni. Ezeknek a hétköznapi hősöknek helyt kell állniuk a munkahelyen, ugyanakkor a magánéletükben is.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2018",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S01E06\n\nPolitie-inspecteur Juliet Dumon keert na de dood van haar vader terug naar haar geboortestreek aan de Vlaamse kust. Daar gaat ze tijdelijk aan de slag bij de plaatselijke recherche en zoekt ze intussen naar een pleeggezin voor haar tienernichtje Chloë. Terwijl Juliet zich op haar nieuwe baan stort, wordt ze geconfronteerd met haar onverwerkte schuldgevoelens bij de dood van haar moeder en haar eigen ambigue gevoelens tegenover het moederschap. Intussen ontstaat er een complexe band tussen haar en Chloë.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2023",
     "genres": [
-      "Dráma",
-      "Bűnügyi",
-      "Action & Adventure"
+      "Bűnügyi"
     ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 58
+    "latest_season": 1,
+    "latest_episode": 6,
+    "seeders": 47
   },
   {
     "id": "tt16026746",
@@ -123,7 +107,78 @@
     ],
     "latest_season": 2,
     "latest_episode": 4,
-    "seeders": 108
+    "seeders": 126
+  },
+  {
+    "id": "tt7235466",
+    "type": "series",
+    "name": "9-1-1",
+    "poster": "https://image.tmdb.org/t/p/w500/bsgqJkkKpts8EquMlunKMMUDp6m.jpg",
+    "posterShape": "poster",
+    "year": 2018,
+    "description": "A sorozat bemutatja, mekkora nyomás alatt is kell dolgozniuk a rendőröknek, mentősöknek és tűzoltóknak olyan szituációkban, amelyekkel egy hétköznapi ember képtelen volna megbirkózni. Ezeknek a hétköznapi hősöknek helyt kell állniuk a munkahelyen, ugyanakkor a magánéletükben is.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2018",
+    "genres": [
+      "Dráma",
+      "Bűnügyi",
+      "Action & Adventure"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 69
+  },
+  {
+    "id": "tt34991493",
+    "type": "series",
+    "name": "Dutton birtok (S01E08)",
+    "poster": "https://image.tmdb.org/t/p/w500/y33HvxPHJwUJshdfN6k2JBdX2RR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E08\n\nA Yellowstone eseményei után Beth Dutton és Rip Wheeler új életet próbál kezdeni Carterrel Dél-Texasban, távol a montanai birtok kísérteteitől és mindattól a vértől, árulástól és veszteségtől, amely a Dutton névhez tapadt. A saját, hatalmas ranchükön végre a jövőjüket szeretnék felépíteni: Rip a birtokot felügyeli, Beth pedig ugyanazzal a könyörtelen elszántsággal védi a családját, amellyel korábban a Yellowstone-t. A béke azonban hamar illúziónak bizonyul, mert az új vidéknek is megvannak a maga törvényei, ellenségei és kimondatlan háborúi: egy befolyásos, kegyetlen rivális ranch fenyegeti mindazt, amit Beth és Rip felépíteni próbál. Miközben Carterből azt a férfit igyekeznek nevelni, akivé szerintük válnia kell, a Duttonok ismét szembekerülnek a túlélés árnyoldalával, és rá kell jönniük, hogy Texasban a földért, a hatalomért és a családért vívott harc éppolyan könyörtelen, mint amit maguk mögött hagytak.",
+    "imdbRating": 9.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Western",
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 8,
+    "seeders": 599
+  },
+  {
+    "id": "tt41588086",
+    "type": "series",
+    "name": "Dino - vägen mot Formel 1",
+    "poster": "https://image.tmdb.org/t/p/w500/xcUtITRzBSFcgi8UQQJtwV6nqQ0.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Som första svensk någonsin tillhör Dino Beganovic Ferraris junioprogram. Det är en ära men också en press. Ferrari förväntar sig inget annat än vinster. Klarar den unga Dino att hantera pressen?",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 355
+  },
+  {
+    "id": "tt43461201",
+    "type": "series",
+    "name": "FIFA World Cup 2026: Preview Series",
+    "poster": "https://artworks.thetvdb.com/banners/images/missing/series.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "FIFA World Cup 2026: Preview Series is a documentary series that looks ahead to the 2026 FIFA World Cup. Each episode highlights national teams, players, and key football stories from around the world. The series explores how countries are preparing for the tournament and the expectations surrounding both favourites and underdog teams.",
+    "imdbRating": 9.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 101
   },
   {
     "id": "tt31909098",
@@ -144,56 +199,21 @@
     "seeders": 52
   },
   {
-    "id": "tt43461201",
+    "id": "tt0285332",
     "type": "series",
-    "name": "FIFA World Cup 2026: Preview Series",
-    "poster": "https://artworks.thetvdb.com/banners/images/missing/series.jpg",
+    "name": "The Agency (S02E05)",
+    "poster": "https://image.tmdb.org/t/p/w500/aJXFbRv0WYRcT8cDOLMaKfVYwye.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "FIFA World Cup 2026: Preview Series is a documentary series that looks ahead to the 2026 FIFA World Cup. Each episode highlights national teams, players, and key football stories from around the world. The series explores how countries are preparing for the tournament and the expectations surrounding both favourites and underdog teams.",
-    "imdbRating": 9.0,
-    "releaseInfo": "2026",
+    "year": 2001,
+    "description": "🆕 Legújabb epizód: S02E05\n\nThe Agency follows the inner-workings of the CIA, as seen through the eyes of its agents, their missions and investigations into terrorist activities inside and outside of the US",
+    "imdbRating": 6.9,
+    "releaseInfo": "2001",
     "genres": [
-      "Dokumentum"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 98
-  },
-  {
-    "id": "tt34991493",
-    "type": "series",
-    "name": "Dutton birtok (S01E08)",
-    "poster": "https://image.tmdb.org/t/p/w500/y33HvxPHJwUJshdfN6k2JBdX2RR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E08\n\nA Yellowstone eseményei után Beth Dutton és Rip Wheeler új életet próbál kezdeni Carterrel Dél-Texasban, távol a montanai birtok kísérteteitől és mindattól a vértől, árulástól és veszteségtől, amely a Dutton névhez tapadt. A saját, hatalmas ranchükön végre a jövőjüket szeretnék felépíteni: Rip a birtokot felügyeli, Beth pedig ugyanazzal a könyörtelen elszántsággal védi a családját, amellyel korábban a Yellowstone-t. A béke azonban hamar illúziónak bizonyul, mert az új vidéknek is megvannak a maga törvényei, ellenségei és kimondatlan háborúi: egy befolyásos, kegyetlen rivális ranch fenyegeti mindazt, amit Beth és Rip felépíteni próbál. Miközben Carterből azt a férfit igyekeznek nevelni, akivé szerintük válnia kell, a Duttonok ismét szembekerülnek a túlélés árnyoldalával, és rá kell jönniük, hogy Texasban a földért, a hatalomért és a családért vívott harc éppolyan könyörtelen, mint amit maguk mögött hagytak.",
-    "imdbRating": 9.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Western",
       "Dráma"
     ],
-    "latest_season": 1,
-    "latest_episode": 8,
-    "seeders": 527
-  },
-  {
-    "id": "tt41588086",
-    "type": "series",
-    "name": "Dino - vägen mot Formel 1",
-    "poster": "https://image.tmdb.org/t/p/w500/xcUtITRzBSFcgi8UQQJtwV6nqQ0.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Som första svensk någonsin tillhör Dino Beganovic Ferraris junioprogram. Det är en ära men också en press. Ferrari förväntar sig inget annat än vinster. Klarar den unga Dino att hantera pressen?",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 298
+    "latest_season": 2,
+    "latest_episode": 5,
+    "seeders": 167
   },
   {
     "id": "tt4597870",
@@ -210,24 +230,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 3,
-    "seeders": 33
-  },
-  {
-    "id": "tt0285332",
-    "type": "series",
-    "name": "The Agency (S02E05)",
-    "poster": "https://image.tmdb.org/t/p/w500/aJXFbRv0WYRcT8cDOLMaKfVYwye.jpg",
-    "posterShape": "poster",
-    "year": 2001,
-    "description": "🆕 Legújabb epizód: S02E05\n\nThe Agency follows the inner-workings of the CIA, as seen through the eyes of its agents, their missions and investigations into terrorist activities inside and outside of the US",
-    "imdbRating": 6.9,
-    "releaseInfo": "2001",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": 2,
-    "latest_episode": 5,
-    "seeders": 149
+    "seeders": 37
   },
   {
     "id": "tt33059022",
@@ -244,56 +247,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 39
-  },
-  {
-    "id": "tt1442437",
-    "type": "series",
-    "name": "Modern család",
-    "poster": "https://image.tmdb.org/t/p/w500/4lMUqvKq1kpxjH2xfhzA0dKMe1m.jpg",
-    "posterShape": "poster",
-    "year": 2009,
-    "description": "A sorozat a három család, Jay Pritchett és gyermekei, Claire Dunphy és Mitchell Pritchett családja köré összpontosul. Jay Pritchett az apaközpontú családtípus híve, ő az, aki a legtöbb helyzetben tudja a helyes megoldást. A férfi csak nemrég vette feleségül a nála sokkal fiatalabb Gloriát, egy szenvedélyes latin-amerikai (kolumbiai) anyát, aki Jay segítségével neveli egy szem gyermekét, Manny-t. Claire Dunphy háztartásbeli családanya, aki összeházasodott Phil Dunphy ingatlankereskedővel és saját bevallása szerint \"cool apával\". Három gyermekük van: Haley, a tipikus tinédzser, Alex, az okos középső gyermek, és Luke, a bohém és egyedüli fiú. Mitchell ügyvéd, valamint meleg, ő és élettársa Cameron adoptáltak egy vietnami kisgyereket, Lily-t. A sorozat egyes epizódjai nagyrészt a családban történő társadalmi, kulturális, házastársi, nevelési, olykor pedig generációs problémákat dolgozza fel.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2009",
-    "genres": [
-      "Vígjáték"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 21
-  },
-  {
-    "id": "tt32880925",
-    "type": "series",
-    "name": "Fekete szív – A Sansalan család titka (S01E10)",
-    "poster": "https://image.tmdb.org/t/p/w500/axPlr9jK6l1C2mTCWDBvm63qv3X.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "🆕 Legújabb epizód: S01E10\n\nSumru évekkel ezelőtt elhagyta újszülött ikreit, és új életet, valamint új családot alapított Kappadókiában a Sansalan birodalom vezetőjével, Samettel. Az ikrek, Nuh és Melek, mit sem tudtak édesanyjuk kilétéről, míg életük egyik legfájdalmasabb napján szembesülnek az igazsággal. Eközben Samet Şansalan első házasságából származó fia, Cihan, rövid látogatásra érkezik haza. Látogatása nagy feszültséget kelt mostohatestvérében, Esatban. Samet testvére, Hikmet közben titkos terveket szövöget, hogy bebiztosítsa saját jövőjét.",
-    "imdbRating": 8.8,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": 1,
-    "latest_episode": 10,
-    "seeders": 22
-  },
-  {
-    "id": "tt11886518",
-    "type": "series",
-    "name": "Orpheus",
-    "poster": "https://artworks.thetvdb.com/banners/images/missing/series.jpg",
-    "posterShape": "poster",
-    "year": 2019,
-    "description": "3 ans auparavant, Pluton a été heurté par un astéroïde déviant ainsi l'orbite de la planète et mettant en péril le système solaire et causant des dégâts incommensurables sur Terre. Objectif: Détruire Pluton.",
-    "imdbRating": null,
-    "releaseInfo": "2019",
-    "genres": [],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 65
+    "seeders": 43
   },
   {
     "id": "tt13924304",
@@ -312,7 +266,56 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 170
+    "seeders": 190
+  },
+  {
+    "id": "tt11886518",
+    "type": "series",
+    "name": "Orpheus",
+    "poster": "https://artworks.thetvdb.com/banners/images/missing/series.jpg",
+    "posterShape": "poster",
+    "year": 2019,
+    "description": "3 ans auparavant, Pluton a été heurté par un astéroïde déviant ainsi l'orbite de la planète et mettant en péril le système solaire et causant des dégâts incommensurables sur Terre. Objectif: Détruire Pluton.",
+    "imdbRating": null,
+    "releaseInfo": "2019",
+    "genres": [],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 71
+  },
+  {
+    "id": "tt1442437",
+    "type": "series",
+    "name": "Modern család",
+    "poster": "https://image.tmdb.org/t/p/w500/4lMUqvKq1kpxjH2xfhzA0dKMe1m.jpg",
+    "posterShape": "poster",
+    "year": 2009,
+    "description": "A sorozat a három család, Jay Pritchett és gyermekei, Claire Dunphy és Mitchell Pritchett családja köré összpontosul. Jay Pritchett az apaközpontú családtípus híve, ő az, aki a legtöbb helyzetben tudja a helyes megoldást. A férfi csak nemrég vette feleségül a nála sokkal fiatalabb Gloriát, egy szenvedélyes latin-amerikai (kolumbiai) anyát, aki Jay segítségével neveli egy szem gyermekét, Manny-t. Claire Dunphy háztartásbeli családanya, aki összeházasodott Phil Dunphy ingatlankereskedővel és saját bevallása szerint \"cool apával\". Három gyermekük van: Haley, a tipikus tinédzser, Alex, az okos középső gyermek, és Luke, a bohém és egyedüli fiú. Mitchell ügyvéd, valamint meleg, ő és élettársa Cameron adoptáltak egy vietnami kisgyereket, Lily-t. A sorozat egyes epizódjai nagyrészt a családban történő társadalmi, kulturális, házastársi, nevelési, olykor pedig generációs problémákat dolgozza fel.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2009",
+    "genres": [
+      "Vígjáték"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 23
+  },
+  {
+    "id": "tt32880925",
+    "type": "series",
+    "name": "Fekete szív – A Sansalan család titka (S01E10)",
+    "poster": "https://image.tmdb.org/t/p/w500/axPlr9jK6l1C2mTCWDBvm63qv3X.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "🆕 Legújabb epizód: S01E10\n\nSumru évekkel ezelőtt elhagyta újszülött ikreit, és új életet, valamint új családot alapított Kappadókiában a Sansalan birodalom vezetőjével, Samettel. Az ikrek, Nuh és Melek, mit sem tudtak édesanyjuk kilétéről, míg életük egyik legfájdalmasabb napján szembesülnek az igazsággal. Eközben Samet Şansalan első házasságából származó fia, Cihan, rövid látogatásra érkezik haza. Látogatása nagy feszültséget kelt mostohatestvérében, Esatban. Samet testvére, Hikmet közben titkos terveket szövöget, hogy bebiztosítsa saját jövőjét.",
+    "imdbRating": 8.8,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 10,
+    "seeders": 21
   },
   {
     "id": "tt0244365",
@@ -331,7 +334,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 41
+    "seeders": 46
   },
   {
     "id": "tt33083249",
@@ -349,24 +352,25 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 45
+    "seeders": 138
   },
   {
-    "id": "tt31945625",
+    "id": "tt32020831",
     "type": "series",
-    "name": "Mord auf dem Inka-Pfad",
-    "poster": "https://image.tmdb.org/t/p/w500/g29doFdvT8uVrNUeTqiXlefvgpG.jpg",
+    "name": "Elle",
+    "poster": "https://image.tmdb.org/t/p/w500/aTxciqAA6dnNNrZuV3P6kEu1MhL.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Der Vierteiler \"Mord auf dem Inka-Pfad\" basiert auf einem wahren Fall und beginnt im Jahr 1997, als ein Mord an der deutschen Touristin Ursula Glück in den peruanischen Anden Rätsel aufwirft und zu einer der schwierigsten und umfangreichsten Ermittlungen in der bundesdeutschen Kriminalgeschichte wird.  Auf dem Inka-Pfad zum Machu Picchu wird die 34-jährige Ursula Glück nachts in ihrem Zelt erschossen. Ihr Ehemann Jona Kepler muss bei der Polizei in München aussagen. Als ihn die Kommissarin Rita Berg vernimmt, kommt ihr ein Anfangsverdacht.",
+    "year": 2026,
+    "description": "Megismerjük Elle Woodsot, aki 1995-ben, mielőtt felvették volna a Harvardra, a középiskola viharos vizein lavírozik, ahol bonyolult barátságokkal, tiltott szerelemmel és megkérdőjelezhető öltözködési döntésekkel kell szembenéznie. A fiatal felnőtt Elle életének ebben a váratlan fejezetében megtudjuk, milyen élmények formálták Elle-t azzá az ikonikus fiatal nővé, akit mi megismertünk és szeretünk.",
     "imdbRating": 8.0,
-    "releaseInfo": "2025",
+    "releaseInfo": "2026",
     "genres": [
-      "Bűnügyi"
+      "Vígjáték",
+      "Dráma"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 24
+    "seeders": 121
   },
   {
     "id": "tt38939446",
@@ -385,25 +389,24 @@
     ],
     "latest_season": 1,
     "latest_episode": 1,
-    "seeders": 37
+    "seeders": 42
   },
   {
-    "id": "tt32020831",
+    "id": "tt31945625",
     "type": "series",
-    "name": "Elle",
-    "poster": "https://image.tmdb.org/t/p/w500/aTxciqAA6dnNNrZuV3P6kEu1MhL.jpg",
+    "name": "Mord auf dem Inka-Pfad",
+    "poster": "https://image.tmdb.org/t/p/w500/g29doFdvT8uVrNUeTqiXlefvgpG.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Megismerjük Elle Woodsot, aki 1995-ben, mielőtt felvették volna a Harvardra, a középiskola viharos vizein lavírozik, ahol bonyolult barátságokkal, tiltott szerelemmel és megkérdőjelezhető öltözködési döntésekkel kell szembenéznie. A fiatal felnőtt Elle életének ebben a váratlan fejezetében megtudjuk, milyen élmények formálták Elle-t azzá az ikonikus fiatal nővé, akit mi megismertünk és szeretünk.",
+    "year": 2025,
+    "description": "Der Vierteiler \"Mord auf dem Inka-Pfad\" basiert auf einem wahren Fall und beginnt im Jahr 1997, als ein Mord an der deutschen Touristin Ursula Glück in den peruanischen Anden Rätsel aufwirft und zu einer der schwierigsten und umfangreichsten Ermittlungen in der bundesdeutschen Kriminalgeschichte wird.  Auf dem Inka-Pfad zum Machu Picchu wird die 34-jährige Ursula Glück nachts in ihrem Zelt erschossen. Ihr Ehemann Jona Kepler muss bei der Polizei in München aussagen. Als ihn die Kommissarin Rita Berg vernimmt, kommt ihr ein Anfangsverdacht.",
     "imdbRating": 8.0,
-    "releaseInfo": "2026",
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Dráma"
+      "Bűnügyi"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 107
+    "seeders": 22
   },
   {
     "id": "tt1561755",
@@ -440,25 +443,41 @@
     ],
     "latest_season": 19,
     "latest_episode": 7,
-    "seeders": 54
+    "seeders": 66
   },
   {
-    "id": "tt17361756",
+    "id": "tt38776795",
     "type": "series",
-    "name": "Egy nagydarab lány túlélési útmutatója",
-    "poster": "https://image.tmdb.org/t/p/w500/8qaYCz6B18vUNa16adc3TG2lkor.jpg",
+    "name": "1936 Nyarán",
+    "poster": "https://image.tmdb.org/t/p/w500/6rSzSsSxSOk3nzYAHzm8yFpXnYQ.jpg",
     "posterShape": "poster",
-    "year": 2023,
-    "description": "A fekete, plus size és újonnan egyedülálló Mavis váratlanul azzal találja szemben magát, hogy újra kell építenie az életét, miután egyedül maradt, de elhatározza, hogy választott családja támogatásával nemcsak túléli, hanem boldogulni is fog.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2023",
+    "year": 2026,
+    "description": "Az 1936 nyarán című francia minisorozat a Côte d’Azur elegáns világába vezet, de a napsütötte környezet mögött hamar társadalmi feszültségek rajzolódnak ki. A történet 1936-ban játszódik, amikor a francia munkások először élvezhetik a fizetett szabadság lehetőségét. A nizzai elit nem nézi jó szemmel, hogy a Riviéra többé nem csak az ő kiváltságos játszóterük. A helyzet egyre feszültebbé válik, majd egy ügyész meggyilkolása után négy, különböző társadalmi háttérből érkező nő keveredik az ügy középpontjába a fényűző Riviera Hotelben.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
       "Dráma"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 22
+    "seeders": 60
+  },
+  {
+    "id": "tt14022350",
+    "type": "series",
+    "name": "The Serpent Queen",
+    "poster": "https://image.tmdb.org/t/p/w500/qrpIpzbwoAZJTegfKSTlmz15jbf.jpg",
+    "posterShape": "poster",
+    "year": 2022,
+    "description": "Nyolcrészes sorozat Leonie Frieda könyve alapján, ami a \"Catherine de Medici: Franciaország reneszánsz királynője\" címet viseli.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2022",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 61
   },
   {
     "id": "tt10710138",
@@ -474,23 +493,6 @@
     "latest_season": null,
     "latest_episode": null,
     "seeders": 33
-  },
-  {
-    "id": "tt38776795",
-    "type": "series",
-    "name": "1936 Nyarán",
-    "poster": "https://image.tmdb.org/t/p/w500/6rSzSsSxSOk3nzYAHzm8yFpXnYQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az 1936 nyarán című francia minisorozat a Côte d’Azur elegáns világába vezet, de a napsütötte környezet mögött hamar társadalmi feszültségek rajzolódnak ki. A történet 1936-ban játszódik, amikor a francia munkások először élvezhetik a fizetett szabadság lehetőségét. A nizzai elit nem nézi jó szemmel, hogy a Riviéra többé nem csak az ő kiváltságos játszóterük. A helyzet egyre feszültebbé válik, majd egy ügyész meggyilkolása után négy, különböző társadalmi háttérből érkező nő keveredik az ügy középpontjába a fényűző Riviera Hotelben.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 55
   },
   {
     "id": "tt9472282",
@@ -509,23 +511,23 @@
     ],
     "latest_season": 2,
     "latest_episode": 5,
-    "seeders": 35
+    "seeders": 37
   },
   {
-    "id": "tt14022350",
+    "id": "tt14527704",
     "type": "series",
-    "name": "The Serpent Queen",
-    "poster": "https://image.tmdb.org/t/p/w500/qrpIpzbwoAZJTegfKSTlmz15jbf.jpg",
+    "name": "Lucky! – Bernie Ecclestone és a Formula-1 története (S01E03)",
+    "poster": "https://image.tmdb.org/t/p/w500/z7xckuNoJowAqnWDXIeXfmL5XaA.jpg",
     "posterShape": "poster",
     "year": 2022,
-    "description": "Nyolcrészes sorozat Leonie Frieda könyve alapján, ami a \"Catherine de Medici: Franciaország reneszánsz királynője\" címet viseli.",
-    "imdbRating": 7.3,
+    "description": "🆕 Legújabb epizód: S01E03\n\nA sorozat Bernie Ecclestone története. Bemutatja elképesztő életútját és a Formula-1 világát, a sportot melyet létrehozott és 40 éven át irányított. Megtudhatjuk hogyan teremtett egyensúlyt a sport és a pénz között, végig követhetjük, ahogy szilárd elszántsággal és kitartással leküzdve az akadályokat, létrehozza a szupermárkát, amelyet milliók követnek és kedvelnek világszerte.",
+    "imdbRating": 8.7,
     "releaseInfo": "2022",
     "genres": [
-      "Dráma"
+      "Dokumentum"
     ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 51
+    "latest_season": 1,
+    "latest_episode": 3,
+    "seeders": 44
   }
 ]
