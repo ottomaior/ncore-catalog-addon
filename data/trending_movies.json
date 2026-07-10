@@ -1,34 +1,18 @@
 [
   {
-    "id": "tt32538158",
+    "id": "tt43595399",
     "type": "movie",
-    "name": "Pumukli és a nagy zűr",
-    "poster": "https://image.tmdb.org/t/p/w500/ctRbBJ35laTEuLnEi6Qj3etxs65.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Vígjáték"
-    ],
-    "seeders": 56
-  },
-  {
-    "id": "tt33311007",
-    "type": "movie",
-    "name": "Promis le ciel",
-    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
+    "name": "Shipwrecked: Nightmare at Sea",
+    "poster": "https://image.tmdb.org/t/p/w500/fajvS5shOnQFiSTyyzcEBPZPoQ3.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.9,
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Dokumentum"
     ],
-    "seeders": 49
+    "seeders": 56
   },
   {
     "id": "tt31189814",
@@ -46,7 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 542
+    "seeders": 663
   },
   {
     "id": "tt35205649",
@@ -62,7 +46,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1172
+    "seeders": 1461
+  },
+  {
+    "id": "tt32538158",
+    "type": "movie",
+    "name": "Pumukli és a nagy zűr",
+    "poster": "https://image.tmdb.org/t/p/w500/ctRbBJ35laTEuLnEi6Qj3etxs65.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Vígjáték"
+    ],
+    "seeders": 73
   },
   {
     "id": "tt33763941",
@@ -72,13 +72,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 5.7,
+    "imdbRating": 6.1,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "seeders": 710
+    "seeders": 911
+  },
+  {
+    "id": "tt33311007",
+    "type": "movie",
+    "name": "Promis le ciel",
+    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt32278481",
@@ -95,7 +110,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1068
+    "seeders": 1268
   },
   {
     "id": "tt32565993",
@@ -108,13 +123,11 @@
     "imdbRating": 7.8,
     "releaseInfo": "2026",
     "genres": [
-      "Kaland",
       "Vígjáték",
-      "Bűnügyi",
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1385
+    "seeders": 1674
   },
   {
     "id": "tt33612209",
@@ -130,16 +143,16 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 514
+    "seeders": 572
   },
   {
     "id": "tt32808757",
     "type": "movie",
-    "name": "Llueve sobre Babel",
+    "name": "Bábel felett esik",
     "poster": "https://image.tmdb.org/t/p/w500/o6IDuFe3bBUR46DQbTy4tRCvnuk.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy csapat szerencsétlen összegyűlik a Babelben, egy legendás lebujban, amely egyben a purgatórium is, ahol La Flaca – a város Kaszása – tartózkodik. Itt a lelkek éveket játszanak el vele az életükből, hogy túljárjanak a Halál eszén.",
     "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
@@ -147,7 +160,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 118
+    "seeders": 136
   },
   {
     "id": "tt38510825",
@@ -162,7 +175,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 133
+    "seeders": 139
   },
   {
     "id": "tt35093403",
@@ -177,7 +190,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 118
+    "seeders": 124
   },
   {
     "id": "tt11378946",
@@ -193,7 +206,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 149
+    "seeders": 174
   },
   {
     "id": "tt32430579",
@@ -209,38 +222,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 161
-  },
-  {
-    "id": "tt34888871",
-    "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 348
-  },
-  {
-    "id": "tt33214716",
-    "type": "movie",
-    "name": "A virágárus",
-    "poster": "https://image.tmdb.org/t/p/w500/AhvGusLwnCIMp53aTMcVq4nGBnS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csendes kertész, aki titokban bérgyilkosként éli életét, veszélybe kerül, amikor valószínűtlen barátságot köt egy rendőrségi korrupció szemtanújával.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 524
+    "seeders": 187
   },
   {
     "id": "tt34471850",
@@ -256,7 +238,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 459
+    "seeders": 567
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 371
   },
   {
     "id": "tt18382850",
@@ -271,7 +268,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 165
+    "seeders": 196
   },
   {
     "id": "tt31418911",
@@ -288,7 +285,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 158
+    "seeders": 178
   },
   {
     "id": "tt34965967",
@@ -303,7 +300,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 68
+    "seeders": 73
   },
   {
     "id": "tt33071426",
@@ -320,7 +317,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 150
+    "seeders": 173
   },
   {
     "id": "tt43619403",
@@ -335,7 +332,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 151
+    "seeders": 171
   },
   {
     "id": "tt32386654",
@@ -350,7 +347,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 186
+    "seeders": 218
   },
   {
     "id": "tt10375624",
@@ -366,7 +363,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 239
+    "seeders": 296
   },
   {
     "id": "tt31260224",
@@ -384,7 +381,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 173
+    "seeders": 196
   },
   {
     "id": "tt43438551",
@@ -399,26 +396,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 41
-  },
-  {
-    "id": "tt15678738",
-    "type": "movie",
-    "name": "Dávid",
-    "poster": "https://image.tmdb.org/t/p/w500/nsSBqDtHU6MmDGrXhWxBWTDLcn5.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Dávid története az édesanyja szívének dalaitól az Isten hűséges suttogásáig csendes odaadással indul. Amikor Góliát, a rettegett óriás félelemben tartja a nemzetet, egy fiatal pásztor lép elő parittyával, néhány kaviccsal és rendíthetetlen hitével. Bár hatalom üldözi, cél vezérli útját, ami próbára teszi a hűség, a szeretet és a bátorság határait, egy olyan csatában teljesedve ki, amely nemcsak a koronáért, hanem az egész királyság lelkéért is folyik.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Dráma",
-      "Történelmi",
-      "Kaland"
-    ],
-    "seeders": 181
+    "seeders": 49
   },
   {
     "id": "tt32277918",
@@ -433,7 +411,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 163
+    "seeders": 194
   },
   {
     "id": "tt36876775",
@@ -449,7 +427,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 122
+    "seeders": 144
   },
   {
     "id": "tt7374950",
@@ -464,7 +442,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 35
+    "seeders": 38
   },
   {
     "id": "tt14883538",
@@ -482,6 +460,22 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 62
+    "seeders": 69
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 76
   }
 ]
