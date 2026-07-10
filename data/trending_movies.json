@@ -1,5 +1,36 @@
 [
   {
+    "id": "tt32538158",
+    "type": "movie",
+    "name": "Pumukli és a nagy zűr",
+    "poster": "https://image.tmdb.org/t/p/w500/ctRbBJ35laTEuLnEi6Qj3etxs65.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Vígjáték"
+    ],
+    "seeders": 56
+  },
+  {
+    "id": "tt33311007",
+    "type": "movie",
+    "name": "Promis le ciel",
+    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 49
+  },
+  {
     "id": "tt31189814",
     "type": "movie",
     "name": "Időzített bomba",
@@ -15,7 +46,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 743
+    "seeders": 542
   },
   {
     "id": "tt35205649",
@@ -31,7 +62,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1634
+    "seeders": 1172
   },
   {
     "id": "tt33763941",
@@ -47,23 +78,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1014
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 2350
+    "seeders": 710
   },
   {
     "id": "tt32278481",
@@ -80,7 +95,42 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1477
+    "seeders": 1068
+  },
+  {
+    "id": "tt32565993",
+    "type": "movie",
+    "name": "Birkakrimi",
+    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy pásztor minden este hangosan felolvas egy bűnügyi történetet, azt színlelve, hogy a juhai megértik azt. Amikor holtan találják, a birkák azonnal ráébrednek, hogy gyilkosság történt és úgy gondolják, mindent tudnak arról, hogyan kell nekilátni a rejtély megoldásának.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Vígjáték",
+      "Bűnügyi",
+      "Családi",
+      "Rejtély"
+    ],
+    "seeders": 1385
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 514
   },
   {
     "id": "tt32808757",
@@ -97,24 +147,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 138
-  },
-  {
-    "id": "tt32565993",
-    "type": "movie",
-    "name": "Birkakrimi",
-    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy pásztor minden este hangosan felolvas egy bűnügyi történetet, azt színlelve, hogy a juhai megértik azt. Amikor holtan találják, a birkák azonnal ráébrednek, hogy gyilkosság történt és úgy gondolják, mindent tudnak arról, hogyan kell nekilátni a rejtély megoldásának.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Rejtély",
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 1947
+    "seeders": 118
   },
   {
     "id": "tt38510825",
@@ -129,7 +162,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 153
+    "seeders": 133
   },
   {
     "id": "tt35093403",
@@ -144,23 +177,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 130
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 213
+    "seeders": 118
   },
   {
     "id": "tt11378946",
@@ -176,23 +193,38 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 185
+    "seeders": 149
   },
   {
-    "id": "tt34471850",
+    "id": "tt32430579",
     "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.5,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
+      "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 651
+    "seeders": 161
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 348
   },
   {
     "id": "tt33214716",
@@ -208,22 +240,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 702
+    "seeders": 524
   },
   {
-    "id": "tt34888871",
+    "id": "tt34471850",
     "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.4,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.5,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 437
+    "seeders": 459
   },
   {
     "id": "tt18382850",
@@ -238,7 +271,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 201
+    "seeders": 165
   },
   {
     "id": "tt31418911",
@@ -255,7 +288,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 196
+    "seeders": 158
   },
   {
     "id": "tt34965967",
@@ -270,7 +303,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 80
+    "seeders": 68
   },
   {
     "id": "tt33071426",
@@ -287,7 +320,37 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 198
+    "seeders": 150
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 151
+  },
+  {
+    "id": "tt32386654",
+    "type": "movie",
+    "name": "A Kreml mágusa",
+    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 186
   },
   {
     "id": "tt10375624",
@@ -303,52 +366,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 353
-  },
-  {
-    "id": "tt43619403",
-    "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 191
-  },
-  {
-    "id": "tt32386654",
-    "type": "movie",
-    "name": "A Kreml mágusa",
-    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 246
-  },
-  {
-    "id": "tt43438551",
-    "type": "movie",
-    "name": "A pörölycápák világa Bertie Gregoryval",
-    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 55
+    "seeders": 239
   },
   {
     "id": "tt31260224",
@@ -366,22 +384,22 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 214
+    "seeders": 173
   },
   {
-    "id": "tt32277918",
+    "id": "tt43438551",
     "type": "movie",
-    "name": "Országúti védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/7NkTJcL9IUHAI23LdxQ8XbkJZPt.jpg",
+    "name": "A pörölycápák világa Bertie Gregoryval",
+    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
-    "imdbRating": 4.6,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
+    "imdbRating": null,
+    "releaseInfo": "2026",
     "genres": [
-      "Akció"
+      "Dokumentum"
     ],
-    "seeders": 207
+    "seeders": 41
   },
   {
     "id": "tt15678738",
@@ -396,10 +414,26 @@
     "genres": [
       "Animációs",
       "Családi",
-      "Zenei",
-      "Dráma"
+      "Dráma",
+      "Történelmi",
+      "Kaland"
     ],
-    "seeders": 223
+    "seeders": 181
+  },
+  {
+    "id": "tt32277918",
+    "type": "movie",
+    "name": "Országúti védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/7NkTJcL9IUHAI23LdxQ8XbkJZPt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
+    "imdbRating": 4.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 163
   },
   {
     "id": "tt36876775",
@@ -415,7 +449,7 @@
       "Vígjáték",
       "Akció"
     ],
-    "seeders": 160
+    "seeders": 122
   },
   {
     "id": "tt7374950",
@@ -430,7 +464,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 39
+    "seeders": 35
   },
   {
     "id": "tt14883538",
@@ -448,38 +482,6 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 80
-  },
-  {
-    "id": "tt1333644",
-    "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 80
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 71
+    "seeders": 62
   }
 ]
