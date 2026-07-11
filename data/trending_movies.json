@@ -1,13 +1,47 @@
 [
   {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 62
+  },
+  {
+    "id": "tt31189814",
+    "type": "movie",
+    "name": "Időzített bomba",
+    "poster": "https://image.tmdb.org/t/p/w500/8aMsMF5rNI4GAmtV9KJqER5kCWV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "London belvárosában 500 kilós II. világháborús bombát találnak. A környéket kiürítik, a mindig zsúfolt, örökké izgatott városban egy egész kerületet zárnak le. Kiszállnak a tűzszerészek és munkához látnak. A tét nagy, a feszültség kézzelfogható, a bomba bármikor robbanhat - de szakemberek dolgoznak az ügyön. Csak éppen semmi sem igaz az egészből. A bomba nem világháborús, nem véletlenül került elő és nem lesz olyan könnyű hatástalanítani. Igazából egy bankrabló banda helyezte el: így akarják elterelni munkájukról a figyelmet és nyugodt körülményeket teremteni maguknak egy földalatti páncélterem feltöréséhez. Vagy ez sem igaz? Ők is csak áldozatok? Rendőrök, katonák, bankrablók és nemzetközi szélhámosok keresik a választ ugyanazokra a kérdésekre. Az időzítőszerkezet közben tovább ketyeg. Mert egyvalami azért biztos: a bomba mindjárt robbanni fog…",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 531
+  },
+  {
     "id": "tt43595399",
     "type": "movie",
     "name": "Costa Concordia: Rémálom a tengeren",
-    "poster": "https://image.tmdb.org/t/p/w500/v7QUXg1wLng3t6NSpt1zgdZxsuK.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
-    "imdbRating": null,
+    "imdbRating": 9.0,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
@@ -28,22 +62,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 113
-  },
-  {
-    "id": "tt33311007",
-    "type": "movie",
-    "name": "Az égbolt ígérete",
-    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 63
+    "seeders": 100
   },
   {
     "id": "tt32808757",
@@ -60,7 +79,22 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 152
+    "seeders": 123
+  },
+  {
+    "id": "tt33311007",
+    "type": "movie",
+    "name": "Az égbolt ígérete",
+    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 55
   },
   {
     "id": "tt38510825",
@@ -75,6 +109,21 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 106
+    "seeders": 125
+  },
+  {
+    "id": "tt35093403",
+    "type": "movie",
+    "name": "La Gioia - Tiltott öröm",
+    "poster": "https://image.tmdb.org/t/p/w500/tWjKV4Aq5RebW7k9PuzJ7HHjNJP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal, manipulatív fiú és egy magányos, érzelmileg kiszolgáltatott nő végzetes viszonya bontakozik ki, amely a kölcsönös vonzalomból fokozatosan hatalmi játszmává alakul, és tragédiába fordul; a történet egy valós bűnügyi esetből inspirálódik, és a remény, a szerelemvágy és a pusztító önáltatás sötét elegyét mutatja meg.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 110
   }
 ]
