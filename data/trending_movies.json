@@ -13,7 +13,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 62
+    "seeders": 89
   },
   {
     "id": "tt31189814",
@@ -31,7 +31,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 531
+    "seeders": 734
   },
   {
     "id": "tt43595399",
@@ -46,7 +46,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 80
+    "seeders": 89
   },
   {
     "id": "tt32538158",
@@ -62,7 +62,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 100
+    "seeders": 108
   },
   {
     "id": "tt32808757",
@@ -79,22 +79,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 123
-  },
-  {
-    "id": "tt33311007",
-    "type": "movie",
-    "name": "Az égbolt ígérete",
-    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 55
+    "seeders": 144
   },
   {
     "id": "tt38510825",
@@ -109,7 +94,22 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 125
+    "seeders": 144
+  },
+  {
+    "id": "tt33311007",
+    "type": "movie",
+    "name": "Az égbolt ígérete",
+    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 61
   },
   {
     "id": "tt35093403",
@@ -124,6 +124,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 110
+    "seeders": 127
   }
 ]
