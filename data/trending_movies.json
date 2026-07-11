@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt34750678",
+    "type": "movie",
+    "name": "10 giorni con i suoi",
+    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 96
+  },
+  {
     "id": "tt29550683",
     "type": "movie",
     "name": "Halálsíp",
@@ -13,23 +29,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 45
-  },
-  {
-    "id": "tt32612507",
-    "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 48
+    "seeders": 74
   },
   {
     "id": "tt35205649",
@@ -45,7 +45,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1798
+    "seeders": 2003
   },
   {
     "id": "tt31189814",
@@ -63,7 +63,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 818
+    "seeders": 838
   },
   {
     "id": "tt33763941",
@@ -73,13 +73,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 6.7,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "seeders": 1102
+    "seeders": 1145
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 49
   },
   {
     "id": "tt32278481",
@@ -96,7 +112,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1430
+    "seeders": 1540
   },
   {
     "id": "tt32565993",
@@ -113,7 +129,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1917
+    "seeders": 2036
   },
   {
     "id": "tt33612209",
@@ -129,7 +145,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 728
+    "seeders": 791
   },
   {
     "id": "tt43595399",
@@ -139,12 +155,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
-    "imdbRating": 9.0,
+    "imdbRating": 8.7,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 101
+    "seeders": 107
   },
   {
     "id": "tt32538158",
@@ -160,7 +176,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 111
+    "seeders": 124
   },
   {
     "id": "tt32808757",
@@ -177,7 +193,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 144
+    "seeders": 141
   },
   {
     "id": "tt38510825",
@@ -207,22 +223,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 65
-  },
-  {
-    "id": "tt35093403",
-    "type": "movie",
-    "name": "La Gioia - Tiltott öröm",
-    "poster": "https://image.tmdb.org/t/p/w500/tWjKV4Aq5RebW7k9PuzJ7HHjNJP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatal, manipulatív fiú és egy magányos, érzelmileg kiszolgáltatott nő végzetes viszonya bontakozik ki, amely a kölcsönös vonzalomból fokozatosan hatalmi játszmává alakul, és tragédiába fordul; a történet egy valós bűnügyi esetből inspirálódik, és a remény, a szerelemvágy és a pusztító önáltatás sötét elegyét mutatja meg.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 137
+    "seeders": 63
   },
   {
     "id": "tt11378946",
@@ -238,7 +239,22 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 200
+    "seeders": 226
+  },
+  {
+    "id": "tt35093403",
+    "type": "movie",
+    "name": "La Gioia - Tiltott öröm",
+    "poster": "https://image.tmdb.org/t/p/w500/tWjKV4Aq5RebW7k9PuzJ7HHjNJP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal, manipulatív fiú és egy magányos, érzelmileg kiszolgáltatott nő végzetes viszonya bontakozik ki, amely a kölcsönös vonzalomból fokozatosan hatalmi játszmává alakul, és tragédiába fordul; a történet egy valós bűnügyi esetből inspirálódik, és a remény, a szerelemvágy és a pusztító önáltatás sötét elegyét mutatja meg.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 129
   },
   {
     "id": "tt32430579",
@@ -254,7 +270,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 220
+    "seeders": 232
   },
   {
     "id": "tt34471850",
@@ -270,7 +286,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 665
+    "seeders": 671
   },
   {
     "id": "tt34888871",
@@ -285,7 +301,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 434
+    "seeders": 439
   },
   {
     "id": "tt18382850",
@@ -300,7 +316,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 200
+    "seeders": 196
   },
   {
     "id": "tt31418911",
@@ -317,7 +333,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 200
+    "seeders": 211
   },
   {
     "id": "tt33071426",
@@ -334,22 +350,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 188
-  },
-  {
-    "id": "tt43619403",
-    "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 188
+    "seeders": 196
   },
   {
     "id": "tt32386654",
@@ -364,7 +365,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 232
+    "seeders": 249
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 177
   },
   {
     "id": "tt34965967",
@@ -379,7 +395,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 75
+    "seeders": 74
   },
   {
     "id": "tt31260224",
@@ -397,7 +413,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 217
+    "seeders": 218
   },
   {
     "id": "tt32277918",
@@ -412,7 +428,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 207
+    "seeders": 214
   },
   {
     "id": "tt43438551",
@@ -427,7 +443,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 44
+    "seeders": 46
   },
   {
     "id": "tt1333644",
@@ -437,45 +453,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.4,
+    "imdbRating": 5.3,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 84
+    "seeders": 91
   },
   {
-    "id": "tt14883538",
+    "id": "tt4357198",
     "type": "movie",
-    "name": "Arco - Fiú a jövőből",
-    "poster": "https://image.tmdb.org/t/p/w500/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nem túl távoli jövőben egy magányos kislány, Iris egy különös szivárványra lesz figyelmes, amelyet egy égen átsuhanó, színes köpenybe öltözött alak rajzol az égre. Arco, az égből pottyant fiú az évezred végéről érkezett, egy felhők fölé épült városból, egy félresikerült időutazás következtében. Iris menedéket nyújt a fiúnak, és mindent megtesz, hogy segítsen neki visszajutni a saját idejébe. Menekülés közben szelíd barátság szövődik kettejük között, amely megnyitja Iris előtt Arco jövőbeli világát: egy emberibb, derűsebb kort.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Animációs",
-      "Családi",
-      "Sci-Fi"
-    ],
-    "seeders": 74
-  },
-  {
-    "id": "tt7374950",
-    "type": "movie",
-    "name": "Tél derekán",
-    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Stella és Gerry, a régóta nyugdíjas házaspár, amszterdami nyaralásuk során rájönnek, hogy kapcsolatuk egy döntő pillanathoz érkezett. Annyi idő és annyi közös emlék után a régóta megfogalmazott ígéretek és a mélyen elrejtett sebek felszínre kerülni látszanak, és arra kényszerítik őket, hogy szembenézzenek a jövőjükkel.",
-    "imdbRating": 6.8,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Vígjáték",
+      "Thriller"
     ],
-    "seeders": 37
+    "seeders": 82
   }
 ]
