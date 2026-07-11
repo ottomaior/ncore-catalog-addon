@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt29550683",
+    "type": "movie",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 45
+  },
+  {
     "id": "tt32612507",
     "type": "movie",
     "name": "Lee Cronin: A múmia",
@@ -13,7 +29,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 89
+    "seeders": 48
+  },
+  {
+    "id": "tt35205649",
+    "type": "movie",
+    "name": "Egykutya",
+    "poster": "https://image.tmdb.org/t/p/w500/fGPouchPqzEiVOTHRi1VdnqpkMe.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film valós időben meséli el egy viharos este történetét, amikor hosszú évek után, egyikük váratlan meghívására találkozik négy kollégiumi jó barát. Bár már azt hitték, sosem állnak szóba egymással újra, ezen az estén élet-halál kérdése lehet, hogy ismét szót értsenek. A nézők a csavaros, csípős humorú szócsatákból lassan összerakhatják a rejtvény megfejtését: azt, hogy miként lehetett négy ennyire különböző ember ekkora hatással egymás életére",
+    "imdbRating": 5.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 1798
   },
   {
     "id": "tt31189814",
@@ -23,7 +55,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "London belvárosában 500 kilós II. világháborús bombát találnak. A környéket kiürítik, a mindig zsúfolt, örökké izgatott városban egy egész kerületet zárnak le. Kiszállnak a tűzszerészek és munkához látnak. A tét nagy, a feszültség kézzelfogható, a bomba bármikor robbanhat - de szakemberek dolgoznak az ügyön. Csak éppen semmi sem igaz az egészből. A bomba nem világháborús, nem véletlenül került elő és nem lesz olyan könnyű hatástalanítani. Igazából egy bankrabló banda helyezte el: így akarják elterelni munkájukról a figyelmet és nyugodt körülményeket teremteni maguknak egy földalatti páncélterem feltöréséhez. Vagy ez sem igaz? Ők is csak áldozatok? Rendőrök, katonák, bankrablók és nemzetközi szélhámosok keresik a választ ugyanazokra a kérdésekre. Az időzítőszerkezet közben tovább ketyeg. Mert egyvalami azért biztos: a bomba mindjárt robbanni fog…",
-    "imdbRating": 6.4,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
@@ -31,7 +63,73 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 734
+    "seeders": 818
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 1102
+  },
+  {
+    "id": "tt32278481",
+    "type": "movie",
+    "name": "Enola Holmes 3",
+    "poster": "https://image.tmdb.org/t/p/w500/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Enola Holmes kalandjai Máltán folytatódnak, ahol a lány tervezett esküvőjét megzavarja Sherlock eltűnése és egy szövevényes nyomozás.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "seeders": 1430
+  },
+  {
+    "id": "tt32565993",
+    "type": "movie",
+    "name": "Birkakrimi",
+    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy pásztor minden este hangosan felolvas egy bűnügyi történetet, azt színlelve, hogy a juhai megértik azt. Amikor holtan találják, a birkák azonnal ráébrednek, hogy gyilkosság történt és úgy gondolják, mindent tudnak arról, hogyan kell nekilátni a rejtély megoldásának.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi",
+      "Rejtély"
+    ],
+    "seeders": 1917
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 728
   },
   {
     "id": "tt43595399",
@@ -46,13 +144,13 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 89
+    "seeders": 101
   },
   {
     "id": "tt32538158",
     "type": "movie",
     "name": "Pumukli és a nagy zűr",
-    "poster": "https://image.tmdb.org/t/p/w500/ctRbBJ35laTEuLnEi6Qj3etxs65.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/hEoApLvtrEX5xixNFg81TchJzjB.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
@@ -62,7 +160,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 108
+    "seeders": 111
   },
   {
     "id": "tt32808757",
@@ -94,7 +192,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 144
+    "seeders": 149
   },
   {
     "id": "tt33311007",
@@ -109,7 +207,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 61
+    "seeders": 65
   },
   {
     "id": "tt35093403",
@@ -124,6 +222,260 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 127
+    "seeders": 137
+  },
+  {
+    "id": "tt11378946",
+    "type": "movie",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 200
+  },
+  {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 220
+  },
+  {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 665
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 434
+  },
+  {
+    "id": "tt18382850",
+    "type": "movie",
+    "name": "Ha tudnék, beléd rúgnék",
+    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 200
+  },
+  {
+    "id": "tt31418911",
+    "type": "movie",
+    "name": "Bizti őr művelet",
+    "poster": "https://image.tmdb.org/t/p/w500/jKYcWM4RjY0si69Fbyhes1IhIUm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy volt különleges műveleti katona, Belfry egy látszólag ártalmatlan megbízást vállal: időseket kísér Atlantic City felé. A rutinból azonban hamar élet-halál harc lesz, amikor a múltjából felbukkanó ellenség embereket küld utána, és a férfi kénytelen minden kiképzését és leleményét bevetni, hogy megvédje a mit sem sejtő utasokat, és túlélje a rájuk zúduló támadást.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 200
+  },
+  {
+    "id": "tt33071426",
+    "type": "movie",
+    "name": "Kész dráma",
+    "poster": "https://image.tmdb.org/t/p/w500/bzG1da6xgTe4ItXR4EHIrIsRUOn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film középpontjában egy pár áll, akik az esküvőjüket megelőző napokban válságba kerülnek, amikor váratlan felfedezések kisiklatják azt, amit egyikük a másikról tudni vélt. A történet a szerelem vakságával foglalkozik.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 188
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 188
+  },
+  {
+    "id": "tt32386654",
+    "type": "movie",
+    "name": "A Kreml mágusa",
+    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 232
+  },
+  {
+    "id": "tt34965967",
+    "type": "movie",
+    "name": "Siket rektort akarunk!",
+    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 75
+  },
+  {
+    "id": "tt31260224",
+    "type": "movie",
+    "name": "Pipiána Hoppsz és a mormota titka",
+    "poster": "https://image.tmdb.org/t/p/w500/1ABLu0d3Fegy8veZmVROJ722BBD.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A legenda szerint egy rejtélyes mormota, aki egy titkos hegység legmélyén él rejtőzködve, olyan erővel rendelkezik, ami képes visszaforgatni az idő kerekét. Pipiána Hoppsz ráébred, hogy a mitikus ereklye lehet az egyetlen esély a hozzá hasonlók fennmaradásának biztosítására, így a rettenthetetlen kalandor kész mindent kockára tenni az ősi erő megszerzéséért. Útját azonban számos akadály szegélyezi… Ráadásul hamarosan világossá válik, hogy Pipiánán és barátain kívül mások is kutatják a mormota titkát…",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 217
+  },
+  {
+    "id": "tt32277918",
+    "type": "movie",
+    "name": "Országúti védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/7NkTJcL9IUHAI23LdxQ8XbkJZPt.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
+    "imdbRating": 4.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 207
+  },
+  {
+    "id": "tt43438551",
+    "type": "movie",
+    "name": "A pörölycápák világa Bertie Gregoryval",
+    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 44
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 84
+  },
+  {
+    "id": "tt14883538",
+    "type": "movie",
+    "name": "Arco - Fiú a jövőből",
+    "poster": "https://image.tmdb.org/t/p/w500/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nem túl távoli jövőben egy magányos kislány, Iris egy különös szivárványra lesz figyelmes, amelyet egy égen átsuhanó, színes köpenybe öltözött alak rajzol az égre. Arco, az égből pottyant fiú az évezred végéről érkezett, egy felhők fölé épült városból, egy félresikerült időutazás következtében. Iris menedéket nyújt a fiúnak, és mindent megtesz, hogy segítsen neki visszajutni a saját idejébe. Menekülés közben szelíd barátság szövődik kettejük között, amely megnyitja Iris előtt Arco jövőbeli világát: egy emberibb, derűsebb kort.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Animációs",
+      "Családi",
+      "Sci-Fi"
+    ],
+    "seeders": 74
+  },
+  {
+    "id": "tt7374950",
+    "type": "movie",
+    "name": "Tél derekán",
+    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Stella és Gerry, a régóta nyugdíjas házaspár, amszterdami nyaralásuk során rájönnek, hogy kapcsolatuk egy döntő pillanathoz érkezett. Annyi idő és annyi közös emlék után a régóta megfogalmazott ígéretek és a mélyen elrejtett sebek felszínre kerülni látszanak, és arra kényszerítik őket, hogy szembenézzenek a jövőjükkel.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 37
   }
 ]
