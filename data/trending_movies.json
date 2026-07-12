@@ -13,7 +13,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 2105
+    "seeders": 2296
   },
   {
     "id": "tt34750678",
@@ -29,7 +29,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 171
+    "seeders": 203
   },
   {
     "id": "tt31189814",
@@ -47,7 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 912
+    "seeders": 945
   },
   {
     "id": "tt33763941",
@@ -63,7 +63,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1233
+    "seeders": 1277
   },
   {
     "id": "tt32278481",
@@ -80,7 +80,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1545
+    "seeders": 1611
   },
   {
     "id": "tt32565993",
@@ -97,7 +97,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 2005
+    "seeders": 2142
   },
   {
     "id": "tt33612209",
@@ -113,7 +113,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 811
+    "seeders": 916
   },
   {
     "id": "tt32612507",
@@ -129,7 +129,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 157
+    "seeders": 170
   },
   {
     "id": "tt29550683",
@@ -145,7 +145,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 84
+    "seeders": 90
   },
   {
     "id": "tt43595399",
@@ -160,7 +160,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 121
+    "seeders": 127
   },
   {
     "id": "tt32538158",
@@ -176,7 +176,23 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 129
+    "seeders": 133
+  },
+  {
+    "id": "tt11378946",
+    "type": "movie",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 262
   },
   {
     "id": "tt32808757",
@@ -193,38 +209,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 142
-  },
-  {
-    "id": "tt38510825",
-    "type": "movie",
-    "name": "Nothing to Lose",
-    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 143
-  },
-  {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 235
+    "seeders": 137
   },
   {
     "id": "tt32430579",
@@ -240,7 +225,37 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 249
+    "seeders": 262
+  },
+  {
+    "id": "tt38510825",
+    "type": "movie",
+    "name": "Nothing to Lose",
+    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 144
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 440
   },
   {
     "id": "tt35093403",
@@ -258,19 +273,19 @@
     "seeders": 125
   },
   {
-    "id": "tt34888871",
+    "id": "tt18382850",
     "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "name": "Ha tudnék, beléd rúgnék",
+    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték"
+      "Dráma"
     ],
-    "seeders": 444
+    "seeders": 204
   },
   {
     "id": "tt33311007",
@@ -285,22 +300,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 57
-  },
-  {
-    "id": "tt18382850",
-    "type": "movie",
-    "name": "Ha tudnék, beléd rúgnék",
-    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 215
+    "seeders": 55
   },
   {
     "id": "tt31418911",
@@ -317,22 +317,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 207
-  },
-  {
-    "id": "tt32386654",
-    "type": "movie",
-    "name": "A Kreml mágusa",
-    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 244
+    "seeders": 204
   },
   {
     "id": "tt33071426",
@@ -349,7 +334,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 188
+    "seeders": 190
   },
   {
     "id": "tt43619403",
@@ -364,7 +349,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 194
+    "seeders": 198
+  },
+  {
+    "id": "tt32386654",
+    "type": "movie",
+    "name": "A Kreml mágusa",
+    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 236
   },
   {
     "id": "tt31260224",
@@ -382,22 +382,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 233
-  },
-  {
-    "id": "tt34965967",
-    "type": "movie",
-    "name": "Siket rektort akarunk!",
-    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 72
+    "seeders": 234
   },
   {
     "id": "tt32277918",
@@ -412,7 +397,22 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 216
+    "seeders": 225
+  },
+  {
+    "id": "tt34965967",
+    "type": "movie",
+    "name": "Siket rektort akarunk!",
+    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 66
   },
   {
     "id": "tt43438551",
@@ -427,7 +427,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 46
+    "seeders": 49
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 96
   },
   {
     "id": "tt4357198",
@@ -443,7 +459,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 85
+    "seeders": 84
   },
   {
     "id": "tt14883538",
@@ -461,22 +477,6 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 76
-  },
-  {
-    "id": "tt1333644",
-    "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 84
+    "seeders": 74
   }
 ]
