@@ -1,21 +1,5 @@
 [
   {
-    "id": "tt34750678",
-    "type": "movie",
-    "name": "Apuci újra pácban",
-    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 142
-  },
-  {
     "id": "tt35205649",
     "type": "movie",
     "name": "Egykutya",
@@ -29,7 +13,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1807
+    "seeders": 2105
+  },
+  {
+    "id": "tt34750678",
+    "type": "movie",
+    "name": "Apuci újra pácban",
+    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 171
   },
   {
     "id": "tt31189814",
@@ -47,7 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 783
+    "seeders": 912
   },
   {
     "id": "tt33763941",
@@ -57,13 +57,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 6.8,
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "seeders": 1037
+    "seeders": 1233
   },
   {
     "id": "tt32278481",
@@ -80,23 +80,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1355
-  },
-  {
-    "id": "tt29550683",
-    "type": "movie",
-    "name": "Halálsíp",
-    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 80
+    "seeders": 1545
   },
   {
     "id": "tt32565993",
@@ -113,23 +97,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1761
-  },
-  {
-    "id": "tt32612507",
-    "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 135
+    "seeders": 2005
   },
   {
     "id": "tt33612209",
@@ -145,7 +113,39 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 700
+    "seeders": 811
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 157
+  },
+  {
+    "id": "tt29550683",
+    "type": "movie",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan - nem sejtve -, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg. Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt43595399",
@@ -160,7 +160,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 107
+    "seeders": 121
   },
   {
     "id": "tt32538158",
@@ -176,7 +176,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 119
+    "seeders": 129
   },
   {
     "id": "tt32808757",
@@ -193,7 +193,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 132
+    "seeders": 142
   },
   {
     "id": "tt38510825",
@@ -208,7 +208,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 139
+    "seeders": 143
   },
   {
     "id": "tt11378946",
@@ -224,7 +224,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 208
+    "seeders": 235
   },
   {
     "id": "tt32430579",
@@ -240,23 +240,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 211
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 604
+    "seeders": 249
   },
   {
     "id": "tt35093403",
@@ -266,12 +250,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy fiatal, manipulatív fiú és egy magányos, érzelmileg kiszolgáltatott nő végzetes viszonya bontakozik ki, amely a kölcsönös vonzalomból fokozatosan hatalmi játszmává alakul, és tragédiába fordul; a történet egy valós bűnügyi esetből inspirálódik, és a remény, a szerelemvágy és a pusztító önáltatás sötét elegyét mutatja meg.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 116
+    "seeders": 125
   },
   {
     "id": "tt34888871",
@@ -286,7 +270,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 415
+    "seeders": 444
   },
   {
     "id": "tt33311007",
@@ -301,7 +285,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 54
+    "seeders": 57
   },
   {
     "id": "tt18382850",
@@ -316,7 +300,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 192
+    "seeders": 215
   },
   {
     "id": "tt31418911",
@@ -333,7 +317,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 185
+    "seeders": 207
   },
   {
     "id": "tt32386654",
@@ -348,7 +332,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 228
+    "seeders": 244
   },
   {
     "id": "tt33071426",
@@ -365,7 +349,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 175
+    "seeders": 188
   },
   {
     "id": "tt43619403",
@@ -380,22 +364,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 179
-  },
-  {
-    "id": "tt34965967",
-    "type": "movie",
-    "name": "Siket rektort akarunk!",
-    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 67
+    "seeders": 194
   },
   {
     "id": "tt31260224",
@@ -413,7 +382,22 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 205
+    "seeders": 233
+  },
+  {
+    "id": "tt34965967",
+    "type": "movie",
+    "name": "Siket rektort akarunk!",
+    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt32277918",
@@ -428,7 +412,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 196
+    "seeders": 216
   },
   {
     "id": "tt43438551",
@@ -443,7 +427,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 44
+    "seeders": 46
   },
   {
     "id": "tt4357198",
@@ -459,21 +443,40 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 78
+    "seeders": 85
   },
   {
-    "id": "tt7374950",
+    "id": "tt14883538",
     "type": "movie",
-    "name": "Tél derekán",
-    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
+    "name": "Arco - Fiú a jövőből",
+    "poster": "https://image.tmdb.org/t/p/w500/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nem túl távoli jövőben egy magányos kislány, Iris egy különös szivárványra lesz figyelmes, amelyet egy égen átsuhanó, színes köpenybe öltözött alak rajzol az égre. Arco, az égből pottyant fiú az évezred végéről érkezett, egy felhők fölé épült városból, egy félresikerült időutazás következtében. Iris menedéket nyújt a fiúnak, és mindent megtesz, hogy segítsen neki visszajutni a saját idejébe. Menekülés közben szelíd barátság szövődik kettejük között, amely megnyitja Iris előtt Arco jövőbeli világát: egy emberibb, derűsebb kort.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Kaland",
+      "Animációs",
+      "Családi",
+      "Sci-Fi"
+    ],
+    "seeders": 76
+  },
+  {
+    "id": "tt1333644",
+    "type": "movie",
+    "name": "Dante kezében",
+    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Stella és Gerry, a régóta nyugdíjas házaspár, amszterdami nyaralásuk során rájönnek, hogy kapcsolatuk egy döntő pillanathoz érkezett. Annyi idő és annyi közös emlék után a régóta megfogalmazott ígéretek és a mélyen elrejtett sebek felszínre kerülni látszanak, és arra kényszerítik őket, hogy szembenézzenek a jövőjükkel.",
-    "imdbRating": 6.8,
+    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
+    "imdbRating": 5.3,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Dráma",
+      "Bűnügyi"
     ],
-    "seeders": 39
+    "seeders": 84
   }
 ]
