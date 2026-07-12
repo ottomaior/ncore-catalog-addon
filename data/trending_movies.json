@@ -13,7 +13,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 100
+    "seeders": 142
   },
   {
     "id": "tt35205649",
@@ -29,23 +29,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1373
-  },
-  {
-    "id": "tt29550683",
-    "type": "movie",
-    "name": "Halálsíp",
-    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 71
+    "seeders": 1807
   },
   {
     "id": "tt31189814",
@@ -55,7 +39,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "London belvárosában 500 kilós II. világháborús bombát találnak. A környéket kiürítik, a mindig zsúfolt, örökké izgatott városban egy egész kerületet zárnak le. Kiszállnak a tűzszerészek és munkához látnak. A tét nagy, a feszültség kézzelfogható, a bomba bármikor robbanhat - de szakemberek dolgoznak az ügyön. Csak éppen semmi sem igaz az egészből. A bomba nem világháborús, nem véletlenül került elő és nem lesz olyan könnyű hatástalanítani. Igazából egy bankrabló banda helyezte el: így akarják elterelni munkájukról a figyelmet és nyugodt körülményeket teremteni maguknak egy földalatti páncélterem feltöréséhez. Vagy ez sem igaz? Ők is csak áldozatok? Rendőrök, katonák, bankrablók és nemzetközi szélhámosok keresik a választ ugyanazokra a kérdésekre. Az időzítőszerkezet közben tovább ketyeg. Mert egyvalami azért biztos: a bomba mindjárt robbanni fog…",
-    "imdbRating": 6.5,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
@@ -63,7 +47,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 590
+    "seeders": 783
   },
   {
     "id": "tt33763941",
@@ -79,7 +63,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 758
+    "seeders": 1037
   },
   {
     "id": "tt32278481",
@@ -96,23 +80,23 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1056
+    "seeders": 1355
   },
   {
-    "id": "tt32612507",
+    "id": "tt29550683",
     "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.0,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan, nem sejtve, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg.  Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Rejtély"
     ],
-    "seeders": 104
+    "seeders": 80
   },
   {
     "id": "tt32565993",
@@ -129,7 +113,23 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1392
+    "seeders": 1761
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 135
   },
   {
     "id": "tt33612209",
@@ -145,7 +145,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 563
+    "seeders": 700
   },
   {
     "id": "tt43595399",
@@ -160,7 +160,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 99
+    "seeders": 107
   },
   {
     "id": "tt32538158",
@@ -176,22 +176,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 110
-  },
-  {
-    "id": "tt38510825",
-    "type": "movie",
-    "name": "Nothing to Lose",
-    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 128
+    "seeders": 119
   },
   {
     "id": "tt32808757",
@@ -208,37 +193,22 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 115
+    "seeders": 132
   },
   {
-    "id": "tt35093403",
+    "id": "tt38510825",
     "type": "movie",
-    "name": "La Gioia - Tiltott öröm",
-    "poster": "https://image.tmdb.org/t/p/w500/tWjKV4Aq5RebW7k9PuzJ7HHjNJP.jpg",
+    "name": "Nothing to Lose",
+    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy fiatal, manipulatív fiú és egy magányos, érzelmileg kiszolgáltatott nő végzetes viszonya bontakozik ki, amely a kölcsönös vonzalomból fokozatosan hatalmi játszmává alakul, és tragédiába fordul; a történet egy valós bűnügyi esetből inspirálódik, és a remény, a szerelemvágy és a pusztító önáltatás sötét elegyét mutatja meg.",
-    "imdbRating": 6.7,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Akció"
     ],
-    "seeders": 109
-  },
-  {
-    "id": "tt33311007",
-    "type": "movie",
-    "name": "Az égbolt ígérete",
-    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 53
+    "seeders": 139
   },
   {
     "id": "tt11378946",
@@ -254,7 +224,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 165
+    "seeders": 208
   },
   {
     "id": "tt32430579",
@@ -270,22 +240,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 177
-  },
-  {
-    "id": "tt34888871",
-    "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 344
+    "seeders": 211
   },
   {
     "id": "tt34471850",
@@ -301,7 +256,52 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 464
+    "seeders": 604
+  },
+  {
+    "id": "tt35093403",
+    "type": "movie",
+    "name": "La Gioia - Tiltott öröm",
+    "poster": "https://image.tmdb.org/t/p/w500/tWjKV4Aq5RebW7k9PuzJ7HHjNJP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatal, manipulatív fiú és egy magányos, érzelmileg kiszolgáltatott nő végzetes viszonya bontakozik ki, amely a kölcsönös vonzalomból fokozatosan hatalmi játszmává alakul, és tragédiába fordul; a történet egy valós bűnügyi esetből inspirálódik, és a remény, a szerelemvágy és a pusztító önáltatás sötét elegyét mutatja meg.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 116
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 415
+  },
+  {
+    "id": "tt33311007",
+    "type": "movie",
+    "name": "Az égbolt ígérete",
+    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 54
   },
   {
     "id": "tt18382850",
@@ -316,7 +316,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 158
+    "seeders": 192
   },
   {
     "id": "tt31418911",
@@ -333,7 +333,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 155
+    "seeders": 185
+  },
+  {
+    "id": "tt32386654",
+    "type": "movie",
+    "name": "A Kreml mágusa",
+    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 228
   },
   {
     "id": "tt33071426",
@@ -350,7 +365,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 148
+    "seeders": 175
   },
   {
     "id": "tt43619403",
@@ -365,22 +380,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 145
-  },
-  {
-    "id": "tt32386654",
-    "type": "movie",
-    "name": "A Kreml mágusa",
-    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 178
+    "seeders": 179
   },
   {
     "id": "tt34965967",
@@ -395,7 +395,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 60
+    "seeders": 67
   },
   {
     "id": "tt31260224",
@@ -413,7 +413,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 168
+    "seeders": 205
   },
   {
     "id": "tt32277918",
@@ -428,7 +428,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 165
+    "seeders": 196
   },
   {
     "id": "tt43438551",
@@ -443,7 +443,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 37
+    "seeders": 44
   },
   {
     "id": "tt4357198",
@@ -459,22 +459,21 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 67
+    "seeders": 78
   },
   {
-    "id": "tt1333644",
+    "id": "tt7374950",
     "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
+    "name": "Tél derekán",
+    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.3,
+    "description": "Stella és Gerry, a régóta nyugdíjas házaspár, amszterdami nyaralásuk során rájönnek, hogy kapcsolatuk egy döntő pillanathoz érkezett. Annyi idő és annyi közös emlék után a régóta megfogalmazott ígéretek és a mélyen elrejtett sebek felszínre kerülni látszanak, és arra kényszerítik őket, hogy szembenézzenek a jövőjükkel.",
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Bűnügyi"
+      "Dráma"
     ],
-    "seeders": 73
+    "seeders": 39
   }
 ]
