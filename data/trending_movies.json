@@ -13,23 +13,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 2296
-  },
-  {
-    "id": "tt34750678",
-    "type": "movie",
-    "name": "Apuci újra pácban",
-    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 203
+    "seeders": 1499
   },
   {
     "id": "tt31189814",
@@ -47,7 +31,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 945
+    "seeders": 601
   },
   {
     "id": "tt33763941",
@@ -57,13 +41,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 6.9,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "seeders": 1277
+    "seeders": 795
+  },
+  {
+    "id": "tt34750678",
+    "type": "movie",
+    "name": "Apuci újra pácban",
+    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 137
   },
   {
     "id": "tt32278481",
@@ -80,7 +80,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1611
+    "seeders": 1041
   },
   {
     "id": "tt32565993",
@@ -90,14 +90,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy pásztor minden este hangosan felolvas egy bűnügyi történetet, azt színlelve, hogy a juhai megértik azt. Amikor holtan találják, a birkák azonnal ráébrednek, hogy gyilkosság történt és úgy gondolják, mindent tudnak arról, hogyan kell nekilátni a rejtély megoldásának.",
-    "imdbRating": 7.8,
+    "imdbRating": 7.9,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi",
       "Rejtély"
     ],
-    "seeders": 2142
+    "seeders": 1353
   },
   {
     "id": "tt33612209",
@@ -113,7 +113,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 916
+    "seeders": 624
   },
   {
     "id": "tt32612507",
@@ -129,7 +129,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 170
+    "seeders": 126
   },
   {
     "id": "tt29550683",
@@ -145,7 +145,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 90
+    "seeders": 74
   },
   {
     "id": "tt43595399",
@@ -155,12 +155,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
-    "imdbRating": 8.1,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 127
+    "seeders": 98
   },
   {
     "id": "tt32538158",
@@ -176,23 +176,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 133
-  },
-  {
-    "id": "tt11378946",
-    "type": "movie",
-    "name": "Michael",
-    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 262
+    "seeders": 109
   },
   {
     "id": "tt32808757",
@@ -209,7 +193,38 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 137
+    "seeders": 112
+  },
+  {
+    "id": "tt38510825",
+    "type": "movie",
+    "name": "Nothing to Lose",
+    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 118
+  },
+  {
+    "id": "tt11378946",
+    "type": "movie",
+    "name": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/duhEb8PTWYePg3VGR9ufN7AnxI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Lebilincselő portré Michael Jacksonról, a bonyolult emberről és zseniális művészről, aki csodagyerekként született, felnőttként pedig a pop vitathatatlan királya lett. Egy átfogó kép a magánéletéről, de arról a művészi folyamatról is, amely alkotói munkásságát jellemezte.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 180
   },
   {
     "id": "tt32430579",
@@ -225,37 +240,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 262
-  },
-  {
-    "id": "tt38510825",
-    "type": "movie",
-    "name": "Nothing to Lose",
-    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 144
-  },
-  {
-    "id": "tt34888871",
-    "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 440
+    "seeders": 185
   },
   {
     "id": "tt35093403",
@@ -270,7 +255,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 125
+    "seeders": 100
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 315
   },
   {
     "id": "tt18382850",
@@ -285,7 +285,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 204
+    "seeders": 154
   },
   {
     "id": "tt33311007",
@@ -300,7 +300,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 55
+    "seeders": 43
   },
   {
     "id": "tt31418911",
@@ -317,7 +317,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 204
+    "seeders": 153
   },
   {
     "id": "tt33071426",
@@ -334,22 +334,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 190
-  },
-  {
-    "id": "tt43619403",
-    "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 198
+    "seeders": 142
   },
   {
     "id": "tt32386654",
@@ -364,40 +349,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 236
+    "seeders": 179
   },
   {
-    "id": "tt31260224",
+    "id": "tt43619403",
     "type": "movie",
-    "name": "Pipiána Hoppsz és a mormota titka",
-    "poster": "https://image.tmdb.org/t/p/w500/1ABLu0d3Fegy8veZmVROJ722BBD.jpg",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A legenda szerint egy rejtélyes mormota, aki egy titkos hegység legmélyén él rejtőzködve, olyan erővel rendelkezik, ami képes visszaforgatni az idő kerekét. Pipiána Hoppsz ráébred, hogy a mitikus ereklye lehet az egyetlen esély a hozzá hasonlók fennmaradásának biztosítására, így a rettenthetetlen kalandor kész mindent kockára tenni az ősi erő megszerzéséért. Útját azonban számos akadály szegélyezi… Ráadásul hamarosan világossá válik, hogy Pipiánán és barátain kívül mások is kutatják a mormota titkát…",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
     "genres": [
-      "Animációs",
-      "Kaland",
-      "Vígjáték",
-      "Családi"
+      "Dráma"
     ],
-    "seeders": 234
-  },
-  {
-    "id": "tt32277918",
-    "type": "movie",
-    "name": "Országúti védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/7NkTJcL9IUHAI23LdxQ8XbkJZPt.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Mivel a régió utolsó édesvízforrása egy indián rezervátum alatt van eltemetve, és gonosz erők igyekeznek átvenni az irányítást, egy szabadságáért küzdő elítélt egy fiatal fiú valószínűtlen védelmezőjévé válik, aki talán képes megmenteni a területet.",
-    "imdbRating": 4.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 225
+    "seeders": 139
   },
   {
     "id": "tt34965967",
@@ -412,7 +379,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 66
+    "seeders": 51
   },
   {
     "id": "tt43438551",
@@ -427,7 +394,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 49
+    "seeders": 36
   },
   {
     "id": "tt1333644",
@@ -437,13 +404,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.3,
+    "imdbRating": 5.4,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 96
+    "seeders": 77
   },
   {
     "id": "tt4357198",
@@ -459,7 +426,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 84
+    "seeders": 66
   },
   {
     "id": "tt14883538",
@@ -477,6 +444,37 @@
       "Családi",
       "Sci-Fi"
     ],
-    "seeders": 74
+    "seeders": 58
+  },
+  {
+    "id": "tt28834646",
+    "type": "movie",
+    "name": "Mi van veled, csajszi?",
+    "poster": "https://image.tmdb.org/t/p/w500/b4S00GQaYQm3ThieNImvTMTHnip.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Lucia édesanyja szigorú felügyelete alatt nő fel, egy katolikus kórus nyári táborában azonban megismerkedik a tűzrőlpattant Ana Mariával és egy barna szemű restaurátorral. A természet virágba borul és Lucia felfedezi testének eddig ismeretlen világát. Urška Djukić debütáló filmjének intenzív képi világa, érzéki és fantáziadús stílusa a keresztény szimbolikát ötvözi a tiszta fizikalitással, egyedi filmes nyelvezete még a bűneink gyümölcsét sem kíméli.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 44
+  },
+  {
+    "id": "tt7374950",
+    "type": "movie",
+    "name": "Tél derekán",
+    "poster": "https://image.tmdb.org/t/p/w500/vkMOruokVnD05xSiwI2hWBzG7UD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Stella és Gerry, a régóta nyugdíjas házaspár, amszterdami nyaralásuk során rájönnek, hogy kapcsolatuk egy döntő pillanathoz érkezett. Annyi idő és annyi közös emlék után a régóta megfogalmazott ígéretek és a mélyen elrejtett sebek felszínre kerülni látszanak, és arra kényszerítik őket, hogy szembenézzenek a jövőjükkel.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 27
   }
 ]
