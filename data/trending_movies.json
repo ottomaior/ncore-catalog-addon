@@ -7,14 +7,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy bevehetetlen erőd. Fegyveres őrök. 700 kegyetlen bűnöző. Vajon Sugimoto és Asirpa képesek lesznek betörni Japán legszökésbiztosabb börtönébe – és élve kijutni onnan?",
-    "imdbRating": 8.0,
+    "imdbRating": 8.5,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Kaland",
       "Történelmi"
     ],
-    "seeders": 117
+    "seeders": 161
   },
   {
     "id": "tt35205649",
@@ -30,7 +30,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 2096
+    "seeders": 2292
   },
   {
     "id": "tt31189814",
@@ -48,7 +48,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 852
+    "seeders": 894
   },
   {
     "id": "tt33763941",
@@ -64,7 +64,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1108
+    "seeders": 1161
   },
   {
     "id": "tt32278481",
@@ -81,23 +81,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1425
-  },
-  {
-    "id": "tt34750678",
-    "type": "movie",
-    "name": "Apuci újra pácban",
-    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 185
+    "seeders": 1493
   },
   {
     "id": "tt32565993",
@@ -114,7 +98,23 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1891
+    "seeders": 2041
+  },
+  {
+    "id": "tt34750678",
+    "type": "movie",
+    "name": "Apuci újra pácban",
+    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 194
   },
   {
     "id": "tt33612209",
@@ -130,7 +130,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 811
+    "seeders": 850
   },
   {
     "id": "tt32612507",
@@ -146,7 +146,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 151
+    "seeders": 164
   },
   {
     "id": "tt29550683",
@@ -177,7 +177,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 118
+    "seeders": 120
   },
   {
     "id": "tt32538158",
@@ -193,7 +193,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 121
+    "seeders": 129
   },
   {
     "id": "tt11378946",
@@ -209,22 +209,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 231
-  },
-  {
-    "id": "tt38510825",
-    "type": "movie",
-    "name": "Nothing to Lose",
-    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 143
+    "seeders": 252
   },
   {
     "id": "tt32430579",
@@ -240,7 +225,37 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 236
+    "seeders": 247
+  },
+  {
+    "id": "tt38510825",
+    "type": "movie",
+    "name": "Nothing to Lose",
+    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 135
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 423
   },
   {
     "id": "tt32808757",
@@ -257,22 +272,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt34888871",
-    "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 417
+    "seeders": 122
   },
   {
     "id": "tt35093403",
@@ -287,7 +287,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 121
+    "seeders": 119
   },
   {
     "id": "tt18382850",
@@ -319,36 +319,6 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 200
-  },
-  {
-    "id": "tt33311007",
-    "type": "movie",
-    "name": "Az égbolt ígérete",
-    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 49
-  },
-  {
-    "id": "tt43619403",
-    "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
     "seeders": 193
   },
   {
@@ -366,7 +336,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 184
+    "seeders": 199
+  },
+  {
+    "id": "tt33311007",
+    "type": "movie",
+    "name": "Az égbolt ígérete",
+    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 45
   },
   {
     "id": "tt32386654",
@@ -381,7 +366,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 227
+    "seeders": 221
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 179
   },
   {
     "id": "tt34965967",
@@ -396,38 +396,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 63
-  },
-  {
-    "id": "tt43438551",
-    "type": "movie",
-    "name": "A pörölycápák világa Bertie Gregoryval",
-    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 42
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 79
+    "seeders": 68
   },
   {
     "id": "tt1333644",
@@ -443,7 +412,38 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 85
+    "seeders": 91
+  },
+  {
+    "id": "tt43438551",
+    "type": "movie",
+    "name": "A pörölycápák világa Bertie Gregoryval",
+    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 39
+  },
+  {
+    "id": "tt4357198",
+    "type": "movie",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 82
   },
   {
     "id": "tt14883538",
@@ -476,6 +476,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 36
+    "seeders": 32
   }
 ]
