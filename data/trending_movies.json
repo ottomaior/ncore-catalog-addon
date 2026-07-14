@@ -13,7 +13,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 167
+    "seeders": 241
   },
   {
     "id": "tt35205649",
@@ -29,39 +29,24 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 2060
+    "seeders": 2314
   },
   {
     "id": "tt38109660",
     "type": "movie",
     "name": "Golden Kamuy: Rajtaütés az abashiri börtönben",
-    "poster": "https://image.tmdb.org/t/p/w500/kFIs85TGQrrUqOvyYuC1ezkRO8x.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/lcBrjK1mnPrrpLk6VtlVMMCfsLS.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy bevehetetlen erőd. Fegyveres őrök. 700 kegyetlen bűnöző. Vajon Sugimoto és Asirpa képesek lesznek betörni Japán legszökésbiztosabb börtönébe – és élve kijutni onnan?",
-    "imdbRating": 8.6,
+    "imdbRating": 7.9,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Kaland",
       "Történelmi"
     ],
-    "seeders": 172
-  },
-  {
-    "id": "tt26414209",
-    "type": "movie",
-    "name": "Pofán vágni a világot",
-    "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 65
+    "seeders": 186
   },
   {
     "id": "tt33763941",
@@ -77,7 +62,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1063
+    "seeders": 1153
   },
   {
     "id": "tt31189814",
@@ -95,7 +80,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 805
+    "seeders": 887
   },
   {
     "id": "tt32278481",
@@ -112,7 +97,22 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1338
+    "seeders": 1472
+  },
+  {
+    "id": "tt26414209",
+    "type": "movie",
+    "name": "Pofán vágni a világot",
+    "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 75
   },
   {
     "id": "tt32565993",
@@ -129,7 +129,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1795
+    "seeders": 1965
   },
   {
     "id": "tt33612209",
@@ -145,7 +145,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 757
+    "seeders": 842
   },
   {
     "id": "tt34750678",
@@ -161,7 +161,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 173
+    "seeders": 196
   },
   {
     "id": "tt32612507",
@@ -177,7 +177,38 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 139
+    "seeders": 157
+  },
+  {
+    "id": "tt43595399",
+    "type": "movie",
+    "name": "Costa Concordia: Rémálom a tengeren",
+    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 118
+  },
+  {
+    "id": "tt32538158",
+    "type": "movie",
+    "name": "Pumukli és a nagy zűr",
+    "poster": "https://image.tmdb.org/t/p/w500/hEoApLvtrEX5xixNFg81TchJzjB.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Vígjáték"
+    ],
+    "seeders": 128
   },
   {
     "id": "tt29550683",
@@ -196,37 +227,6 @@
     "seeders": 81
   },
   {
-    "id": "tt43595399",
-    "type": "movie",
-    "name": "Costa Concordia: Rémálom a tengeren",
-    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 110
-  },
-  {
-    "id": "tt32538158",
-    "type": "movie",
-    "name": "Pumukli és a nagy zűr",
-    "poster": "https://image.tmdb.org/t/p/w500/hEoApLvtrEX5xixNFg81TchJzjB.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Vígjáték"
-    ],
-    "seeders": 120
-  },
-  {
     "id": "tt11378946",
     "type": "movie",
     "name": "Michael",
@@ -240,7 +240,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 217
+    "seeders": 224
   },
   {
     "id": "tt32430579",
@@ -256,7 +256,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 223
+    "seeders": 235
   },
   {
     "id": "tt34888871",
@@ -271,22 +271,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 396
-  },
-  {
-    "id": "tt38510825",
-    "type": "movie",
-    "name": "Nothing to Lose",
-    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 132
+    "seeders": 415
   },
   {
     "id": "tt32808757",
@@ -303,7 +288,22 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 111
+    "seeders": 118
+  },
+  {
+    "id": "tt38510825",
+    "type": "movie",
+    "name": "Nothing to Lose",
+    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 123
   },
   {
     "id": "tt35093403",
@@ -318,22 +318,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 117
-  },
-  {
-    "id": "tt18382850",
-    "type": "movie",
-    "name": "Ha tudnék, beléd rúgnék",
-    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 175
+    "seeders": 116
   },
   {
     "id": "tt31418911",
@@ -350,7 +335,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 182
+    "seeders": 199
+  },
+  {
+    "id": "tt18382850",
+    "type": "movie",
+    "name": "Ha tudnék, beléd rúgnék",
+    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 171
   },
   {
     "id": "tt33071426",
@@ -367,7 +367,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 181
+    "seeders": 188
   },
   {
     "id": "tt32386654",
@@ -382,7 +382,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 217
+    "seeders": 227
   },
   {
     "id": "tt43619403",
@@ -397,7 +397,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 167
+    "seeders": 182
   },
   {
     "id": "tt33311007",
@@ -412,22 +412,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 42
-  },
-  {
-    "id": "tt39398878",
-    "type": "movie",
-    "name": "Miguel Ángel Blanco: 48 óra, amely megváltoztatta Spanyolországot",
-    "poster": "https://image.tmdb.org/t/p/w500/7MCnV8wb1tODOrM8NmWAuPWm40Y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film Miguel Ángel Blanco 48 órájának történetét mutatja be, amikor 1997-ben az ETA elrabolta a politikust, és egész Spanyolország lélegzetvisszafojtva figyelte az eseményeket. Kiderül, hogyan mozdult meg milliók tömege a merénylet megakadályozásáért, és miként vált ez a megrázó ügy a társadalmi összefogás és a terrorral szembeni kiállás egyik meghatározó pillanatává.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 35
+    "seeders": 44
   },
   {
     "id": "tt34965967",
@@ -442,7 +427,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 69
+    "seeders": 68
+  },
+  {
+    "id": "tt39398878",
+    "type": "movie",
+    "name": "Miguel Ángel Blanco: 48 óra, amely megváltoztatta Spanyolországot",
+    "poster": "https://image.tmdb.org/t/p/w500/7MCnV8wb1tODOrM8NmWAuPWm40Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film Miguel Ángel Blanco 48 órájának történetét mutatja be, amikor 1997-ben az ETA elrabolta a politikust, és egész Spanyolország lélegzetvisszafojtva figyelte az eseményeket. Kiderül, hogyan mozdult meg milliók tömege a merénylet megakadályozásáért, és miként vált ez a megrázó ügy a társadalmi összefogás és a terrorral szembeni kiállás egyik meghatározó pillanatává.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 31
   },
   {
     "id": "tt1333644",
@@ -458,7 +458,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 87
+    "seeders": 90
   },
   {
     "id": "tt4357198",
@@ -474,6 +474,6 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 72
+    "seeders": 80
   }
 ]
