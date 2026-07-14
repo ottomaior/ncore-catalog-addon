@@ -3,32 +3,17 @@
     "id": "tt34459219",
     "type": "movie",
     "name": "The Breadwinner",
-    "poster": "https://image.tmdb.org/t/p/w500/lXLnK1khCeS25qWKGbpElz7Pryb.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/4apG9Xk6HQvV48JKEjSUeiebju7.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
     "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 89
-  },
-  {
-    "id": "tt26414209",
-    "type": "movie",
-    "name": "Pofán vágni a világot",
-    "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 60
+    "seeders": 167
   },
   {
     "id": "tt35205649",
@@ -44,7 +29,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1837
+    "seeders": 2060
   },
   {
     "id": "tt38109660",
@@ -61,7 +46,38 @@
       "Kaland",
       "Történelmi"
     ],
-    "seeders": 160
+    "seeders": 172
+  },
+  {
+    "id": "tt26414209",
+    "type": "movie",
+    "name": "Pofán vágni a világot",
+    "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 65
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 1063
   },
   {
     "id": "tt31189814",
@@ -79,23 +95,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 714
-  },
-  {
-    "id": "tt33763941",
-    "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 886
+    "seeders": 805
   },
   {
     "id": "tt32278481",
@@ -112,7 +112,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1186
+    "seeders": 1338
   },
   {
     "id": "tt32565993",
@@ -129,23 +129,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1606
-  },
-  {
-    "id": "tt34750678",
-    "type": "movie",
-    "name": "Apuci újra pácban",
-    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 171
+    "seeders": 1795
   },
   {
     "id": "tt33612209",
@@ -161,7 +145,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 692
+    "seeders": 757
+  },
+  {
+    "id": "tt34750678",
+    "type": "movie",
+    "name": "Apuci újra pácban",
+    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 173
   },
   {
     "id": "tt32612507",
@@ -177,7 +177,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 121
+    "seeders": 139
   },
   {
     "id": "tt29550683",
@@ -193,7 +193,22 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 72
+    "seeders": 81
+  },
+  {
+    "id": "tt43595399",
+    "type": "movie",
+    "name": "Costa Concordia: Rémálom a tengeren",
+    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 110
   },
   {
     "id": "tt32538158",
@@ -209,22 +224,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 112
-  },
-  {
-    "id": "tt43595399",
-    "type": "movie",
-    "name": "Costa Concordia: Rémálom a tengeren",
-    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 101
+    "seeders": 120
   },
   {
     "id": "tt11378946",
@@ -240,7 +240,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 208
+    "seeders": 217
   },
   {
     "id": "tt32430579",
@@ -256,7 +256,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 210
+    "seeders": 223
   },
   {
     "id": "tt34888871",
@@ -271,7 +271,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 376
+    "seeders": 396
   },
   {
     "id": "tt38510825",
@@ -286,7 +286,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 121
+    "seeders": 132
   },
   {
     "id": "tt32808757",
@@ -303,7 +303,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 103
+    "seeders": 111
   },
   {
     "id": "tt35093403",
@@ -318,7 +318,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 106
+    "seeders": 117
   },
   {
     "id": "tt18382850",
@@ -333,7 +333,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 162
+    "seeders": 175
   },
   {
     "id": "tt31418911",
@@ -350,7 +350,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 152
+    "seeders": 182
   },
   {
     "id": "tt33071426",
@@ -367,22 +367,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 164
-  },
-  {
-    "id": "tt43619403",
-    "type": "movie",
-    "name": "Vörös csokoládé",
-    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 165
+    "seeders": 181
   },
   {
     "id": "tt32386654",
@@ -397,7 +382,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 190
+    "seeders": 217
+  },
+  {
+    "id": "tt43619403",
+    "type": "movie",
+    "name": "Vörös csokoládé",
+    "poster": "https://image.tmdb.org/t/p/w500/7OKn9Rc5VlqvKmjjuzzhh0XzNqt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 167
   },
   {
     "id": "tt33311007",
@@ -412,7 +412,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 40
+    "seeders": 42
   },
   {
     "id": "tt39398878",
@@ -442,7 +442,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 60
+    "seeders": 69
   },
   {
     "id": "tt1333644",
@@ -458,21 +458,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 80
+    "seeders": 87
   },
   {
-    "id": "tt43438551",
+    "id": "tt4357198",
     "type": "movie",
-    "name": "A pörölycápák világa Bertie Gregoryval",
-    "poster": "https://image.tmdb.org/t/p/w500/9qSoyXh55bRMYByBCMgIddcWJwO.jpg",
+    "name": "Hogyan kaszálj nagyot",
+    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Bertie Gregory ezúttal az egyik legikonikusabb tengeri ragadozót igyekszik az élőhelyén megfigyelni. A pörölycápák egykor hatalmas számban éltek Mexikó csendes-óceáni partjai előtt, mára azonban aggasztóan megfogyatkozott a populációjuk, és egyes tudósok már a teljes eltűnésüktől tartanak. Mi áll a pörölycápák visszaszorulása mögött, és miként lehetne e nagyszerű fajt a jövő számára megmenteni? Keress válaszokat az óceán mélyén Bertie Gregoryval!",
-    "imdbRating": null,
+    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Vígjáték",
+      "Thriller"
     ],
-    "seeders": 34
+    "seeders": 72
   }
 ]
