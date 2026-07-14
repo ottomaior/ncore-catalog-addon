@@ -1,18 +1,50 @@
 [
   {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "The Breadwinner",
+    "poster": "https://image.tmdb.org/t/p/w500/lXLnK1khCeS25qWKGbpElz7Pryb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 89
+  },
+  {
     "id": "tt26414209",
     "type": "movie",
-    "name": "Mit der Faust in die Welt schlagen",
+    "name": "Pofán vágni a világot",
     "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
     "imdbRating": 6.5,
     "releaseInfo": "2025",
     "genres": [
       "Dráma"
     ],
-    "seeders": 50
+    "seeders": 60
+  },
+  {
+    "id": "tt35205649",
+    "type": "movie",
+    "name": "Egykutya",
+    "poster": "https://image.tmdb.org/t/p/w500/fGPouchPqzEiVOTHRi1VdnqpkMe.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film valós időben meséli el egy viharos este történetét, amikor hosszú évek után, egyikük váratlan meghívására találkozik négy kollégiumi jó barát. Bár már azt hitték, sosem állnak szóba egymással újra, ezen az estén élet-halál kérdése lehet, hogy ismét szót értsenek. A nézők a csavaros, csípős humorú szócsatákból lassan összerakhatják a rejtvény megfejtését: azt, hogy miként lehetett négy ennyire különböző ember ekkora hatással egymás életére",
+    "imdbRating": 5.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 1837
   },
   {
     "id": "tt38109660",
@@ -29,23 +61,7 @@
       "Kaland",
       "Történelmi"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt35205649",
-    "type": "movie",
-    "name": "Egykutya",
-    "poster": "https://image.tmdb.org/t/p/w500/fGPouchPqzEiVOTHRi1VdnqpkMe.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film valós időben meséli el egy viharos este történetét, amikor hosszú évek után, egyikük váratlan meghívására találkozik négy kollégiumi jó barát. Bár már azt hitték, sosem állnak szóba egymással újra, ezen az estén élet-halál kérdése lehet, hogy ismét szót értsenek. A nézők a csavaros, csípős humorú szócsatákból lassan összerakhatják a rejtvény megfejtését: azt, hogy miként lehetett négy ennyire különböző ember ekkora hatással egymás életére",
-    "imdbRating": 5.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 1543
+    "seeders": 160
   },
   {
     "id": "tt31189814",
@@ -63,7 +79,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 607
+    "seeders": 714
   },
   {
     "id": "tt33763941",
@@ -79,7 +95,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 785
+    "seeders": 886
   },
   {
     "id": "tt32278481",
@@ -96,7 +112,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1035
+    "seeders": 1186
   },
   {
     "id": "tt32565993",
@@ -113,7 +129,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1366
+    "seeders": 1606
   },
   {
     "id": "tt34750678",
@@ -129,7 +145,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 147
+    "seeders": 171
   },
   {
     "id": "tt33612209",
@@ -145,7 +161,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 615
+    "seeders": 692
   },
   {
     "id": "tt32612507",
@@ -161,7 +177,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 117
+    "seeders": 121
   },
   {
     "id": "tt29550683",
@@ -180,21 +196,6 @@
     "seeders": 72
   },
   {
-    "id": "tt43595399",
-    "type": "movie",
-    "name": "Costa Concordia: Rémálom a tengeren",
-    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 93
-  },
-  {
     "id": "tt32538158",
     "type": "movie",
     "name": "Pumukli és a nagy zűr",
@@ -207,6 +208,21 @@
     "genres": [
       "Családi",
       "Vígjáték"
+    ],
+    "seeders": 112
+  },
+  {
+    "id": "tt43595399",
+    "type": "movie",
+    "name": "Costa Concordia: Rémálom a tengeren",
+    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
     ],
     "seeders": 101
   },
@@ -224,7 +240,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 179
+    "seeders": 208
   },
   {
     "id": "tt32430579",
@@ -240,22 +256,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 186
-  },
-  {
-    "id": "tt38510825",
-    "type": "movie",
-    "name": "Nothing to Lose",
-    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 110
+    "seeders": 210
   },
   {
     "id": "tt34888871",
@@ -270,7 +271,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 325
+    "seeders": 376
+  },
+  {
+    "id": "tt38510825",
+    "type": "movie",
+    "name": "Nothing to Lose",
+    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 121
   },
   {
     "id": "tt32808757",
@@ -287,7 +303,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 95
+    "seeders": 103
   },
   {
     "id": "tt35093403",
@@ -302,7 +318,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 99
+    "seeders": 106
   },
   {
     "id": "tt18382850",
@@ -317,7 +333,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 146
+    "seeders": 162
   },
   {
     "id": "tt31418911",
@@ -351,7 +367,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 149
+    "seeders": 164
   },
   {
     "id": "tt43619403",
@@ -366,22 +382,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt33311007",
-    "type": "movie",
-    "name": "Az égbolt ígérete",
-    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 38
+    "seeders": 165
   },
   {
     "id": "tt32386654",
@@ -396,7 +397,37 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 164
+    "seeders": 190
+  },
+  {
+    "id": "tt33311007",
+    "type": "movie",
+    "name": "Az égbolt ígérete",
+    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 40
+  },
+  {
+    "id": "tt39398878",
+    "type": "movie",
+    "name": "Miguel Ángel Blanco: 48 óra, amely megváltoztatta Spanyolországot",
+    "poster": "https://image.tmdb.org/t/p/w500/7MCnV8wb1tODOrM8NmWAuPWm40Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film Miguel Ángel Blanco 48 órájának történetét mutatja be, amikor 1997-ben az ETA elrabolta a politikust, és egész Spanyolország lélegzetvisszafojtva figyelte az eseményeket. Kiderül, hogyan mozdult meg milliók tömege a merénylet megakadályozásáért, és miként vált ez a megrázó ügy a társadalmi összefogás és a terrorral szembeni kiállás egyik meghatározó pillanatává.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 35
   },
   {
     "id": "tt34965967",
@@ -411,7 +442,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 55
+    "seeders": 60
   },
   {
     "id": "tt1333644",
@@ -427,7 +458,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 79
+    "seeders": 80
   },
   {
     "id": "tt43438551",
@@ -442,40 +473,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 33
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 68
-  },
-  {
-    "id": "tt14883538",
-    "type": "movie",
-    "name": "Arco - Fiú a jövőből",
-    "poster": "https://image.tmdb.org/t/p/w500/rWvbMnqLTpyTHmNii4TrnmgzpcS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nem túl távoli jövőben egy magányos kislány, Iris egy különös szivárványra lesz figyelmes, amelyet egy égen átsuhanó, színes köpenybe öltözött alak rajzol az égre. Arco, az égből pottyant fiú az évezred végéről érkezett, egy felhők fölé épült városból, egy félresikerült időutazás következtében. Iris menedéket nyújt a fiúnak, és mindent megtesz, hogy segítsen neki visszajutni a saját idejébe. Menekülés közben szelíd barátság szövődik kettejük között, amely megnyitja Iris előtt Arco jövőbeli világát: egy emberibb, derűsebb kort.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Kaland",
-      "Animációs",
-      "Családi",
-      "Sci-Fi"
-    ],
-    "seeders": 55
+    "seeders": 34
   }
 ]
