@@ -1,9 +1,24 @@
 [
   {
+    "id": "tt36364025",
+    "type": "movie",
+    "name": "L’Homme qui a vu l’ours qui a vu l’homme",
+    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 4.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 82
+  },
+  {
     "id": "tt34459219",
     "type": "movie",
     "name": "The Breadwinner",
-    "poster": "https://image.tmdb.org/t/p/w500/4apG9Xk6HQvV48JKEjSUeiebju7.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
@@ -13,7 +28,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 224
+    "seeders": 272
   },
   {
     "id": "tt35205649",
@@ -29,7 +44,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1815
+    "seeders": 2027
   },
   {
     "id": "tt33763941",
@@ -45,7 +60,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 890
+    "seeders": 1003
   },
   {
     "id": "tt31189814",
@@ -63,24 +78,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 695
-  },
-  {
-    "id": "tt38109660",
-    "type": "movie",
-    "name": "Golden Kamuy: Rajtaütés az abashiri börtönben",
-    "poster": "https://image.tmdb.org/t/p/w500/lcBrjK1mnPrrpLk6VtlVMMCfsLS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy bevehetetlen erőd. Fegyveres őrök. 700 kegyetlen bűnöző. Vajon Sugimoto és Asirpa képesek lesznek betörni Japán legszökésbiztosabb börtönébe – és élve kijutni onnan?",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Történelmi"
-    ],
-    "seeders": 164
+    "seeders": 786
   },
   {
     "id": "tt32278481",
@@ -97,7 +95,25 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1150
+    "seeders": 1294
+  },
+  {
+    "id": "tt38109660",
+    "type": "movie",
+    "name": "Golden Kamuy: Rajtaütés az abashiri börtönben",
+    "poster": "https://image.tmdb.org/t/p/w500/lcBrjK1mnPrrpLk6VtlVMMCfsLS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy bevehetetlen erőd. Fegyveres őrök. 700 kegyetlen bűnöző. Vajon Sugimoto és Asirpa képesek lesznek betörni Japán legszökésbiztosabb börtönébe – és élve kijutni onnan?",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Akció",
+      "Kaland"
+    ],
+    "seeders": 191
   },
   {
     "id": "tt32565993",
@@ -114,7 +130,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1517
+    "seeders": 1733
   },
   {
     "id": "tt33612209",
@@ -130,22 +146,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 685
-  },
-  {
-    "id": "tt26414209",
-    "type": "movie",
-    "name": "Pofán vágni a világot",
-    "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 66
+    "seeders": 759
   },
   {
     "id": "tt34750678",
@@ -161,7 +162,22 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 162
+    "seeders": 180
+  },
+  {
+    "id": "tt26414209",
+    "type": "movie",
+    "name": "Pofán vágni a világot",
+    "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 68
   },
   {
     "id": "tt32612507",
@@ -177,7 +193,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 124
+    "seeders": 138
   },
   {
     "id": "tt32538158",
@@ -193,22 +209,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 105
-  },
-  {
-    "id": "tt43595399",
-    "type": "movie",
-    "name": "Costa Concordia: Rémálom a tengeren",
-    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 97
+    "seeders": 119
   },
   {
     "id": "tt11378946",
@@ -224,7 +225,37 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 191
+    "seeders": 213
+  },
+  {
+    "id": "tt43595399",
+    "type": "movie",
+    "name": "Costa Concordia: Rémálom a tengeren",
+    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 106
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 384
   },
   {
     "id": "tt29550683",
@@ -240,22 +271,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 69
-  },
-  {
-    "id": "tt34888871",
-    "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 352
+    "seeders": 77
   },
   {
     "id": "tt32430579",
@@ -271,7 +287,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 193
+    "seeders": 209
   },
   {
     "id": "tt38510825",
@@ -286,7 +302,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 113
+    "seeders": 127
   },
   {
     "id": "tt32808757",
@@ -303,7 +319,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 91
+    "seeders": 111
   },
   {
     "id": "tt35093403",
@@ -318,7 +334,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 98
+    "seeders": 109
   },
   {
     "id": "tt18382850",
@@ -333,7 +349,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 148
+    "seeders": 171
   },
   {
     "id": "tt31418911",
@@ -350,7 +366,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 158
+    "seeders": 171
   },
   {
     "id": "tt33071426",
@@ -367,7 +383,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 167
+    "seeders": 177
   },
   {
     "id": "tt32386654",
@@ -382,7 +398,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 191
+    "seeders": 206
   },
   {
     "id": "tt43619403",
@@ -397,7 +413,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 153
+    "seeders": 161
   },
   {
     "id": "tt33311007",
@@ -412,22 +428,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 39
-  },
-  {
-    "id": "tt34965967",
-    "type": "movie",
-    "name": "Siket rektort akarunk!",
-    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 57
+    "seeders": 41
   },
   {
     "id": "tt39398878",
@@ -442,7 +443,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 28
+    "seeders": 34
+  },
+  {
+    "id": "tt34965967",
+    "type": "movie",
+    "name": "Siket rektort akarunk!",
+    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt1333644",
@@ -458,22 +474,6 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 83
-  },
-  {
-    "id": "tt4357198",
-    "type": "movie",
-    "name": "Hogyan kaszálj nagyot",
-    "poster": "https://image.tmdb.org/t/p/w500/cHjKnXqpsulF31q1EMGkulbmqkc.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Születésekor kitagadva obszcén módon gazdag családja által, a munkásosztálybeli Becket Redfellow semmitől sem riad vissza, hogy visszaszerezze örökségét - függetlenül attól, hány rokon áll az útjába.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 63
+    "seeders": 86
   }
 ]
