@@ -1,18 +1,33 @@
 [
   {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 187
+  },
+  {
     "id": "tt36364025",
     "type": "movie",
-    "name": "L’Homme qui a vu l’ours qui a vu l’homme",
+    "name": "Akik látták a medvét",
     "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 4.8,
+    "description": "Két, különböző generációhoz tartozó férfi valószínűtlen barátságot köt, amikor a francia vidéken egy megszökött cirkuszi medvét védelmeznek. Közben rátalálnak a természet iránti közös szenvedélyükre, valamint a bölcsesség értékére is.",
+    "imdbRating": 4.9,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 82
+    "seeders": 109
   },
   {
     "id": "tt34459219",
@@ -22,13 +37,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 5.8,
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 272
+    "seeders": 287
   },
   {
     "id": "tt35205649",
@@ -44,23 +59,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 2027
-  },
-  {
-    "id": "tt33763941",
-    "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 1003
+    "seeders": 2279
   },
   {
     "id": "tt31189814",
@@ -78,7 +77,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 786
+    "seeders": 868
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 1081
   },
   {
     "id": "tt32278481",
@@ -95,25 +110,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1294
-  },
-  {
-    "id": "tt38109660",
-    "type": "movie",
-    "name": "Golden Kamuy: Rajtaütés az abashiri börtönben",
-    "poster": "https://image.tmdb.org/t/p/w500/lcBrjK1mnPrrpLk6VtlVMMCfsLS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy bevehetetlen erőd. Fegyveres őrök. 700 kegyetlen bűnöző. Vajon Sugimoto és Asirpa képesek lesznek betörni Japán legszökésbiztosabb börtönébe – és élve kijutni onnan?",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Akció",
-      "Kaland"
-    ],
-    "seeders": 191
+    "seeders": 1421
   },
   {
     "id": "tt32565993",
@@ -130,7 +127,25 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1733
+    "seeders": 1890
+  },
+  {
+    "id": "tt38109660",
+    "type": "movie",
+    "name": "Golden Kamuy: Rajtaütés az abashiri börtönben",
+    "poster": "https://image.tmdb.org/t/p/w500/lcBrjK1mnPrrpLk6VtlVMMCfsLS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy bevehetetlen erőd. Fegyveres őrök. 700 kegyetlen bűnöző. Vajon Sugimoto és Asirpa képesek lesznek betörni Japán legszökésbiztosabb börtönébe – és élve kijutni onnan?",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Dráma",
+      "Történelmi",
+      "Kaland"
+    ],
+    "seeders": 203
   },
   {
     "id": "tt33612209",
@@ -146,7 +161,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 759
+    "seeders": 828
   },
   {
     "id": "tt34750678",
@@ -162,7 +177,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 180
+    "seeders": 181
   },
   {
     "id": "tt26414209",
@@ -177,7 +192,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 68
+    "seeders": 73
   },
   {
     "id": "tt32612507",
@@ -193,23 +208,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 138
-  },
-  {
-    "id": "tt32538158",
-    "type": "movie",
-    "name": "Pumukli és a nagy zűr",
-    "poster": "https://image.tmdb.org/t/p/w500/hEoApLvtrEX5xixNFg81TchJzjB.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Vígjáték"
-    ],
-    "seeders": 119
+    "seeders": 144
   },
   {
     "id": "tt11378946",
@@ -225,7 +224,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 213
+    "seeders": 236
   },
   {
     "id": "tt43595399",
@@ -240,38 +239,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 106
+    "seeders": 120
   },
   {
-    "id": "tt34888871",
+    "id": "tt32538158",
     "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "name": "Pumukli és a nagy zűr",
+    "poster": "https://image.tmdb.org/t/p/w500/hEoApLvtrEX5xixNFg81TchJzjB.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
     "genres": [
+      "Családi",
       "Vígjáték"
     ],
-    "seeders": 384
-  },
-  {
-    "id": "tt29550683",
-    "type": "movie",
-    "name": "Halálsíp",
-    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan - nem sejtve -, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg. Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 77
+    "seeders": 122
   },
   {
     "id": "tt32430579",
@@ -287,7 +271,38 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 209
+    "seeders": 225
+  },
+  {
+    "id": "tt34888871",
+    "type": "movie",
+    "name": "Kisöcsém",
+    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 390
+  },
+  {
+    "id": "tt29550683",
+    "type": "movie",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan - nem sejtve -, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg. Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 75
   },
   {
     "id": "tt38510825",
@@ -302,7 +317,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 127
+    "seeders": 121
   },
   {
     "id": "tt32808757",
@@ -319,7 +334,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 111
+    "seeders": 110
   },
   {
     "id": "tt35093403",
@@ -334,22 +349,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 109
-  },
-  {
-    "id": "tt18382850",
-    "type": "movie",
-    "name": "Ha tudnék, beléd rúgnék",
-    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 171
+    "seeders": 108
   },
   {
     "id": "tt31418911",
@@ -366,7 +366,37 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 171
+    "seeders": 189
+  },
+  {
+    "id": "tt18382850",
+    "type": "movie",
+    "name": "Ha tudnék, beléd rúgnék",
+    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 164
+  },
+  {
+    "id": "tt32386654",
+    "type": "movie",
+    "name": "A Kreml mágusa",
+    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 221
   },
   {
     "id": "tt33071426",
@@ -383,22 +413,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 177
-  },
-  {
-    "id": "tt32386654",
-    "type": "movie",
-    "name": "A Kreml mágusa",
-    "poster": "https://image.tmdb.org/t/p/w500/bSFkSJxwsssMy7KmG653GPj7Exf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A posztszovjet Oroszország káoszában a felemelkedőben lévő KGB-tiszt, Vlagyimir Putyin összefog a mesterien manipuláló Vagyim Baranovval, hogy átformálják a vasfüggöny mögötti életet, erőszakot és megtévesztést alkalmazva, hogy örökre megváltoztassák a világot.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 206
+    "seeders": 176
   },
   {
     "id": "tt43619403",
@@ -413,7 +428,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 161
+    "seeders": 173
   },
   {
     "id": "tt33311007",
@@ -428,22 +443,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 41
-  },
-  {
-    "id": "tt39398878",
-    "type": "movie",
-    "name": "Miguel Ángel Blanco: 48 óra, amely megváltoztatta Spanyolországot",
-    "poster": "https://image.tmdb.org/t/p/w500/7MCnV8wb1tODOrM8NmWAuPWm40Y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film Miguel Ángel Blanco 48 órájának történetét mutatja be, amikor 1997-ben az ETA elrabolta a politikust, és egész Spanyolország lélegzetvisszafojtva figyelte az eseményeket. Kiderül, hogyan mozdult meg milliók tömege a merénylet megakadályozásáért, és miként vált ez a megrázó ügy a társadalmi összefogás és a terrorral szembeni kiállás egyik meghatározó pillanatává.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 34
+    "seeders": 40
   },
   {
     "id": "tt34965967",
@@ -458,22 +458,21 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 59
+    "seeders": 60
   },
   {
-    "id": "tt1333644",
+    "id": "tt39398878",
     "type": "movie",
-    "name": "Dante kezében",
-    "poster": "https://image.tmdb.org/t/p/w500/nTOeO2YbrSfxhjEvwhH6kBzIZFz.jpg",
+    "name": "Miguel Ángel Blanco: 48 óra, amely megváltoztatta Spanyolországot",
+    "poster": "https://image.tmdb.org/t/p/w500/7MCnV8wb1tODOrM8NmWAuPWm40Y.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy férfi sötét és erőszakkal kövezett útjának története, aki a Pokolba veti magát, amíg el nem éri a Paradicsomot, miközben a szerelmét keresi.",
-    "imdbRating": 5.4,
+    "description": "A film Miguel Ángel Blanco 48 órájának történetét mutatja be, amikor 1997-ben az ETA elrabolta a politikust, és egész Spanyolország lélegzetvisszafojtva figyelte az eseményeket. Kiderül, hogyan mozdult meg milliók tömege a merénylet megakadályozásáért, és miként vált ez a megrázó ügy a társadalmi összefogás és a terrorral szembeni kiállás egyik meghatározó pillanatává.",
+    "imdbRating": 8.1,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Bűnügyi"
+      "Dokumentum"
     ],
-    "seeders": 86
+    "seeders": 31
   }
 ]
