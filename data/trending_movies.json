@@ -7,13 +7,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 5.9,
+    "imdbRating": 5.8,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 192
+    "seeders": 224
   },
   {
     "id": "tt35205649",
@@ -29,24 +29,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1470
-  },
-  {
-    "id": "tt38109660",
-    "type": "movie",
-    "name": "Golden Kamuy: Rajtaütés az abashiri börtönben",
-    "poster": "https://image.tmdb.org/t/p/w500/lcBrjK1mnPrrpLk6VtlVMMCfsLS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy bevehetetlen erőd. Fegyveres őrök. 700 kegyetlen bűnöző. Vajon Sugimoto és Asirpa képesek lesznek betörni Japán legszökésbiztosabb börtönébe – és élve kijutni onnan?",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Történelmi"
-    ],
-    "seeders": 145
+    "seeders": 1815
   },
   {
     "id": "tt33763941",
@@ -56,13 +39,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 7.1,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "seeders": 733
+    "seeders": 890
   },
   {
     "id": "tt31189814",
@@ -80,7 +63,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 573
+    "seeders": 695
+  },
+  {
+    "id": "tt38109660",
+    "type": "movie",
+    "name": "Golden Kamuy: Rajtaütés az abashiri börtönben",
+    "poster": "https://image.tmdb.org/t/p/w500/lcBrjK1mnPrrpLk6VtlVMMCfsLS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy bevehetetlen erőd. Fegyveres őrök. 700 kegyetlen bűnöző. Vajon Sugimoto és Asirpa képesek lesznek betörni Japán legszökésbiztosabb börtönébe – és élve kijutni onnan?",
+    "imdbRating": 8.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Történelmi"
+    ],
+    "seeders": 164
   },
   {
     "id": "tt32278481",
@@ -97,7 +97,7 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 940
+    "seeders": 1150
   },
   {
     "id": "tt32565993",
@@ -114,22 +114,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 1263
-  },
-  {
-    "id": "tt26414209",
-    "type": "movie",
-    "name": "Pofán vágni a világot",
-    "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 62
+    "seeders": 1517
   },
   {
     "id": "tt33612209",
@@ -145,7 +130,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 586
+    "seeders": 685
+  },
+  {
+    "id": "tt26414209",
+    "type": "movie",
+    "name": "Pofán vágni a világot",
+    "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 66
   },
   {
     "id": "tt34750678",
@@ -161,7 +161,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 135
+    "seeders": 162
   },
   {
     "id": "tt32612507",
@@ -177,7 +177,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 110
+    "seeders": 124
   },
   {
     "id": "tt32538158",
@@ -193,7 +193,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 102
+    "seeders": 105
   },
   {
     "id": "tt43595399",
@@ -208,39 +208,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt29550683",
-    "type": "movie",
-    "name": "Halálsíp",
-    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan - nem sejtve -, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg. Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 64
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 174
+    "seeders": 97
   },
   {
     "id": "tt11378946",
@@ -256,7 +224,23 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 162
+    "seeders": 191
+  },
+  {
+    "id": "tt29550683",
+    "type": "movie",
+    "name": "Halálsíp",
+    "poster": "https://image.tmdb.org/t/p/w500/ysyCqGLU5KDivsNGuxVedyrfgdf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy csapat link tini az iskolában egy ősi azték tárgyra bukkan - nem sejtve -, hogy az valójában egy elátkozott halálsíp. Rémséges dolgokat tapasztalnak, amik felfedik számukra a furcsa tárgy működését: a síp megfújása és az általa kiadott rémisztő hang az eljövendő halálukat idézi meg. Ahogy a halottak száma gyarapodik körülöttük, a barátok kétségbeesett nyomozásba kezdenek a halálos ereklye eredete után. Kutatják a megoldást, hogyan lehetne az általuk elindított szörnyű eseményláncolatot megállítani.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 69
   },
   {
     "id": "tt34888871",
@@ -271,7 +255,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 299
+    "seeders": 352
+  },
+  {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 193
   },
   {
     "id": "tt38510825",
@@ -286,7 +286,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 103
+    "seeders": 113
   },
   {
     "id": "tt32808757",
@@ -303,7 +303,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 83
+    "seeders": 91
   },
   {
     "id": "tt35093403",
@@ -318,7 +318,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 91
+    "seeders": 98
   },
   {
     "id": "tt18382850",
@@ -333,7 +333,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 131
+    "seeders": 148
   },
   {
     "id": "tt31418911",
@@ -350,7 +350,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 144
+    "seeders": 158
   },
   {
     "id": "tt33071426",
@@ -367,22 +367,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 141
-  },
-  {
-    "id": "tt33311007",
-    "type": "movie",
-    "name": "Az égbolt ígérete",
-    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 40
+    "seeders": 167
   },
   {
     "id": "tt32386654",
@@ -397,7 +382,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 156
+    "seeders": 191
   },
   {
     "id": "tt43619403",
@@ -412,7 +397,37 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 127
+    "seeders": 153
+  },
+  {
+    "id": "tt33311007",
+    "type": "movie",
+    "name": "Az égbolt ígérete",
+    "poster": "https://image.tmdb.org/t/p/w500/i2HNCMGzIuY4oQyDrI6zuTDrOfk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Marie, Naney és Jolie együtt élnek Tuniszban, és menedéket nyújtanak Kenzának, a hajótörés túlélőjének. Ahogy ez a rendhagyó család kialakul, minden nő átgondolja a helyzetét.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 39
+  },
+  {
+    "id": "tt34965967",
+    "type": "movie",
+    "name": "Siket rektort akarunk!",
+    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 57
   },
   {
     "id": "tt39398878",
@@ -430,21 +445,6 @@
     "seeders": 28
   },
   {
-    "id": "tt34965967",
-    "type": "movie",
-    "name": "Siket rektort akarunk!",
-    "poster": "https://image.tmdb.org/t/p/w500/7zCzci6wG52HhNMMr9KANjF3Brj.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A legnagyobb polgárjogi mozgalom története, amelyről sokan nem hallottak. 1988-ban, a világ egyetlen siket egyetemén, nyolc napon át négy diák megváltoztatja a történelmet.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 52
-  },
-  {
     "id": "tt1333644",
     "type": "movie",
     "name": "Dante kezében",
@@ -458,7 +458,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 70
+    "seeders": 83
   },
   {
     "id": "tt4357198",
@@ -474,6 +474,6 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 59
+    "seeders": 63
   }
 ]
