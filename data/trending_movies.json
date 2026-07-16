@@ -14,7 +14,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 73
+    "seeders": 116
   },
   {
     "id": "tt13518550",
@@ -31,7 +31,22 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 163
+    "seeders": 189
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 10.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 265
   },
   {
     "id": "tt39493069",
@@ -47,38 +62,7 @@
       "Thriller",
       "TV film"
     ],
-    "seeders": 76
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 10.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 234
-  },
-  {
-    "id": "tt20911974",
-    "type": "movie",
-    "name": "My Mother's Wedding",
-    "poster": "https://image.tmdb.org/t/p/w500/feHTwv3BplNlLW3o9LtW2kqZLJg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 91
+    "seeders": 82
   },
   {
     "id": "tt35205649",
@@ -94,7 +78,23 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 2088
+    "seeders": 2367
+  },
+  {
+    "id": "tt20911974",
+    "type": "movie",
+    "name": "My Mother's Wedding",
+    "poster": "https://image.tmdb.org/t/p/w500/feHTwv3BplNlLW3o9LtW2kqZLJg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt34459219",
@@ -104,28 +104,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 299
-  },
-  {
-    "id": "tt36364025",
-    "type": "movie",
-    "name": "Akik látták a medvét",
-    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Két, különböző generációhoz tartozó férfi valószínűtlen barátságot köt, amikor a francia vidéken egy megszökött cirkuszi medvét védelmeznek. Közben rátalálnak a természet iránti közös szenvedélyükre, valamint a bölcsesség értékére is.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 108
+    "seeders": 291
   },
   {
     "id": "tt33763941",
@@ -141,7 +126,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 977
+    "seeders": 1094
   },
   {
     "id": "tt31189814",
@@ -159,7 +144,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 773
+    "seeders": 876
   },
   {
     "id": "tt32278481",
@@ -176,7 +161,22 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1230
+    "seeders": 1427
+  },
+  {
+    "id": "tt36364025",
+    "type": "movie",
+    "name": "Akik látták a medvét",
+    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Két, különböző generációhoz tartozó férfi valószínűtlen barátságot köt, amikor a francia vidéken egy megszökött cirkuszi medvét védelmeznek. Közben rátalálnak a természet iránti közös szenvedélyükre, valamint a bölcsesség értékére is.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 108
   },
   {
     "id": "tt33612209",
@@ -192,7 +192,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 770
+    "seeders": 849
   },
   {
     "id": "tt38109660",
@@ -210,7 +210,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 180
+    "seeders": 201
   },
   {
     "id": "tt34750678",
@@ -226,7 +226,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 151
+    "seeders": 162
   },
   {
     "id": "tt26414209",
@@ -257,7 +257,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 134
+    "seeders": 144
   },
   {
     "id": "tt11378946",
@@ -273,22 +273,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 214
-  },
-  {
-    "id": "tt43595399",
-    "type": "movie",
-    "name": "Costa Concordia: Rémálom a tengeren",
-    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 116
+    "seeders": 241
   },
   {
     "id": "tt34888871",
@@ -303,7 +288,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 378
+    "seeders": 423
   },
   {
     "id": "tt32430579",
@@ -319,7 +304,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 219
+    "seeders": 233
   },
   {
     "id": "tt32538158",
@@ -335,7 +320,22 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 118
+    "seeders": 125
+  },
+  {
+    "id": "tt43595399",
+    "type": "movie",
+    "name": "Costa Concordia: Rémálom a tengeren",
+    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 117
   },
   {
     "id": "tt29550683",
@@ -351,7 +351,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 74
+    "seeders": 70
   },
   {
     "id": "tt38510825",
@@ -366,7 +366,7 @@
     "genres": [
       "Akció"
     ],
-    "seeders": 115
+    "seeders": 114
   },
   {
     "id": "tt32808757",
@@ -383,22 +383,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 103
-  },
-  {
-    "id": "tt18382850",
-    "type": "movie",
-    "name": "Ha tudnék, beléd rúgnék",
-    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 169
+    "seeders": 109
   },
   {
     "id": "tt31418911",
@@ -415,7 +400,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 179
+    "seeders": 196
+  },
+  {
+    "id": "tt18382850",
+    "type": "movie",
+    "name": "Ha tudnék, beléd rúgnék",
+    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 176
   },
   {
     "id": "tt35093403",
@@ -430,7 +430,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 105
   },
   {
     "id": "tt33071426",
@@ -447,7 +447,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 165
+    "seeders": 191
   },
   {
     "id": "tt43619403",
@@ -462,7 +462,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 155
+    "seeders": 176
   },
   {
     "id": "tt33311007",
