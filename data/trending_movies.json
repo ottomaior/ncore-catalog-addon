@@ -1,5 +1,38 @@
 [
   {
+    "id": "tt34477910",
+    "type": "movie",
+    "name": "Descendants: Wicked Wonderland",
+    "poster": "https://image.tmdb.org/t/p/w500/tPbMu1LH4YzyvG2a9X5qYERHmIv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Fantasy",
+      "Családi",
+      "TV film"
+    ],
+    "seeders": 72
+  },
+  {
+    "id": "tt36619926",
+    "type": "movie",
+    "name": "Fülig beléd zúgtam: Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 50
+  },
+  {
     "id": "tt38492476",
     "type": "movie",
     "name": "Legénybúcsú",
@@ -12,37 +45,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 72
-  },
-  {
-    "id": "tt35512802",
-    "type": "movie",
-    "name": "Les Immortelles",
-    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 54
-  },
-  {
-    "id": "tt32928666",
-    "type": "movie",
-    "name": "Familiar Touch",
-    "poster": "https://image.tmdb.org/t/p/w500/zUKpIGBCiUTyFTEPJxc7nJtLU3P.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 41
+    "seeders": 266
   },
   {
     "id": "tt33292655",
@@ -59,7 +62,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 60
+    "seeders": 94
+  },
+  {
+    "id": "tt35512802",
+    "type": "movie",
+    "name": "Les Immortelles",
+    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt13518550",
@@ -76,7 +94,22 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 145
+    "seeders": 183
+  },
+  {
+    "id": "tt32928666",
+    "type": "movie",
+    "name": "Érintés",
+    "poster": "https://image.tmdb.org/t/p/w500/zUKpIGBCiUTyFTEPJxc7nJtLU3P.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy nyolcvanéves nő áttér a támogatott életre, miközben változó memóriája, koridentitása és vágyai közepette megküzd önmagához és gondozóihoz fűződő ellentmondásos kapcsolatával.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 52
   },
   {
     "id": "tt32357218",
@@ -93,7 +126,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 101
+    "seeders": 131
   },
   {
     "id": "tt35205649",
@@ -109,7 +142,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 1571
+    "seeders": 1865
   },
   {
     "id": "tt43677301",
@@ -124,23 +157,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 172
-  },
-  {
-    "id": "tt39493069",
-    "type": "movie",
-    "name": "The Woman Before Me",
-    "poster": "https://image.tmdb.org/t/p/w500/d2DWoeMo526sK1ienZu44ccl9O9.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "TV film"
-    ],
-    "seeders": 68
+    "seeders": 222
   },
   {
     "id": "tt34459219",
@@ -156,56 +173,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 231
+    "seeders": 256
   },
   {
-    "id": "tt20911974",
+    "id": "tt39493069",
     "type": "movie",
-    "name": "My Mother's Wedding",
-    "poster": "https://image.tmdb.org/t/p/w500/feHTwv3BplNlLW3o9LtW2kqZLJg.jpg",
+    "name": "The Woman Before Me",
+    "poster": "https://image.tmdb.org/t/p/w500/d2DWoeMo526sK1ienZu44ccl9O9.jpg",
     "posterShape": "poster",
-    "year": 2025,
+    "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 84
-  },
-  {
-    "id": "tt33763941",
-    "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 7.2,
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Thriller"
+      "Thriller",
+      "TV film"
     ],
-    "seeders": 723
-  },
-  {
-    "id": "tt32278481",
-    "type": "movie",
-    "name": "Enola Holmes 3",
-    "poster": "https://image.tmdb.org/t/p/w500/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Enola Holmes kalandjai Máltán folytatódnak, ahol a lány tervezett esküvőjét megzavarja Sherlock eltűnése és egy szövevényes nyomozás.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Bűnügyi",
-      "Rejtély"
-    ],
-    "seeders": 962
+    "seeders": 73
   },
   {
     "id": "tt31189814",
@@ -223,7 +207,56 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 578
+    "seeders": 732
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 863
+  },
+  {
+    "id": "tt20911974",
+    "type": "movie",
+    "name": "My Mother's Wedding",
+    "poster": "https://image.tmdb.org/t/p/w500/feHTwv3BplNlLW3o9LtW2kqZLJg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 91
+  },
+  {
+    "id": "tt32278481",
+    "type": "movie",
+    "name": "Enola Holmes 3",
+    "poster": "https://image.tmdb.org/t/p/w500/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Enola Holmes kalandjai Máltán folytatódnak, ahol a lány tervezett esküvőjét megzavarja Sherlock eltűnése és egy szövevényes nyomozás.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Bűnügyi",
+      "Rejtély"
+    ],
+    "seeders": 1116
   },
   {
     "id": "tt36364025",
@@ -238,7 +271,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 90
+    "seeders": 103
   },
   {
     "id": "tt33612209",
@@ -254,7 +287,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 609
+    "seeders": 709
   },
   {
     "id": "tt38109660",
@@ -272,7 +305,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 153
+    "seeders": 172
   },
   {
     "id": "tt34750678",
@@ -288,7 +321,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 111
+    "seeders": 138
   },
   {
     "id": "tt26414209",
@@ -303,7 +336,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 59
+    "seeders": 60
   },
   {
     "id": "tt32612507",
@@ -319,7 +352,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 111
+    "seeders": 119
   },
   {
     "id": "tt11378946",
@@ -335,22 +368,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 176
-  },
-  {
-    "id": "tt34888871",
-    "type": "movie",
-    "name": "Kisöcsém",
-    "poster": "https://image.tmdb.org/t/p/w500/1PM70AzDnWSkw1FtUTRb3MBtakN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merev ingatlanügynök képeskönyvbe illő élete gyökeresen megváltozik, amikor szeretetreméltóan kaotikus kisöccse újra felbukkan.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 312
+    "seeders": 201
   },
   {
     "id": "tt32430579",
@@ -366,7 +384,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 185
+    "seeders": 205
   },
   {
     "id": "tt32538158",
@@ -382,7 +400,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 97
+    "seeders": 111
   },
   {
     "id": "tt43595399",
@@ -397,7 +415,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 86
+    "seeders": 99
+  },
+  {
+    "id": "tt38510825",
+    "type": "movie",
+    "name": "Nothing to Lose",
+    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció"
+    ],
+    "seeders": 102
   },
   {
     "id": "tt29550683",
@@ -413,7 +446,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 60
+    "seeders": 62
   },
   {
     "id": "tt32808757",
@@ -430,37 +463,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt38510825",
-    "type": "movie",
-    "name": "Nothing to Lose",
-    "poster": "https://image.tmdb.org/t/p/w500/lYQmXiKEooImScqysi2HbjjRrgC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció"
-    ],
-    "seeders": 85
-  },
-  {
-    "id": "tt18382850",
-    "type": "movie",
-    "name": "Ha tudnék, beléd rúgnék",
-    "poster": "https://image.tmdb.org/t/p/w500/eq2u4nHtsoO0SXxjOQUEMjFsl66.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Linda egy dolgozó anya, a végső elkeseredettség szélén. Amikor szó szerint a fejére omlik a mennyezet, kénytelen szembenézni egy újabb krízissel. Kislányával egy motelben száll meg, miközben megpróbál elevickélni a mennyezetben keletkezett kár, gyermeke rejtélyes betegsége, egy beteg eltűnése és egy sor olyan ember között, akik képtelenek segíteni neki.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 138
+    "seeders": 93
   },
   {
     "id": "tt35093403",
@@ -475,6 +478,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 85
+    "seeders": 95
   }
 ]
