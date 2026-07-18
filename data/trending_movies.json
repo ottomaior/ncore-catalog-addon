@@ -1,20 +1,67 @@
 [
   {
-    "id": "tt17490712",
+    "id": "tt37287335",
     "type": "movie",
-    "name": "Mortal Kombat II.",
-    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "name": "Megszállottság",
+    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
-    "imdbRating": 8.0,
+    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
+    "imdbRating": 8.2,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Fantasy",
-      "Kaland"
+      "Horror",
+      "Thriller"
     ],
-    "seeders": 68
+    "seeders": 240
+  },
+  {
+    "id": "tt13652286",
+    "type": "movie",
+    "name": "Fight or Flight",
+    "poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 40
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 86
+  },
+  {
+    "id": "tt38492476",
+    "type": "movie",
+    "name": "Legénybúcsú",
+    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 594
   },
   {
     "id": "tt32304349",
@@ -30,38 +77,24 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 97
+    "seeders": 144
   },
   {
-    "id": "tt38492476",
+    "id": "tt17490712",
     "type": "movie",
-    "name": "Legénybúcsú",
-    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
+    "name": "Mortal Kombat II.",
+    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Akció",
+      "Fantasy",
+      "Kaland"
     ],
-    "seeders": 506
-  },
-  {
-    "id": "tt33093531",
-    "type": "movie",
-    "name": "Saipan",
-    "poster": "https://image.tmdb.org/t/p/w500/s7IbZFANLHKNglQ9IfjDdrHCVNZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A 2002-es FIFA-világbajnokság előestéjén az ír csapatkapitány, Roy Keane a csapat saipani felkészülési bázisán lemond a csapatban elfoglalt helyéről, miután heves nézeteltérésbe keveredik az ír menedzserrel, Mick McCarthyval.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 57
+    "seeders": 85
   },
   {
     "id": "tt34477910",
@@ -71,14 +104,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
-    "imdbRating": 7.0,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Fantasy",
       "Családi",
       "TV film"
     ],
-    "seeders": 182
+    "seeders": 204
   },
   {
     "id": "tt35205649",
@@ -94,22 +127,38 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 2024
+    "seeders": 2278
   },
   {
-    "id": "tt41983440",
+    "id": "tt33093531",
     "type": "movie",
-    "name": "23.000 Leben",
-    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
+    "name": "Saipan",
+    "poster": "https://image.tmdb.org/t/p/w500/5Af6vLWQk8gj5099GhgpgY0jCiu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A 2002-es FIFA-világbajnokság előestéjén az ír csapatkapitány, Roy Keane a csapat saipani felkészülési bázisán lemond a csapatban elfoglalt helyéről, miután heves nézeteltérésbe keveredik az ír menedzserrel, Mick McCarthyval.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 66
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.0,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 4.6,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Dokumentum"
     ],
-    "seeders": 99
+    "seeders": 285
   },
   {
     "id": "tt13518550",
@@ -126,7 +175,22 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 191
+    "seeders": 203
+  },
+  {
+    "id": "tt41983440",
+    "type": "movie",
+    "name": "23.000 Leben",
+    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 3.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 103
   },
   {
     "id": "tt33292655",
@@ -143,22 +207,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 124
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 4.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 240
+    "seeders": 129
   },
   {
     "id": "tt32357218",
@@ -175,23 +224,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 140
-  },
-  {
-    "id": "tt36619926",
-    "type": "movie",
-    "name": "Fülig beléd zúgtam: Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 75
+    "seeders": 161
   },
   {
     "id": "tt33763941",
@@ -207,7 +240,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 936
+    "seeders": 1053
   },
   {
     "id": "tt31189814",
@@ -225,7 +258,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 774
+    "seeders": 855
   },
   {
     "id": "tt32278481",
@@ -242,7 +275,23 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1205
+    "seeders": 1343
+  },
+  {
+    "id": "tt36619926",
+    "type": "movie",
+    "name": "Fülig beléd zúgtam: Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 80
   },
   {
     "id": "tt34459219",
@@ -252,13 +301,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 267
+    "seeders": 283
   },
   {
     "id": "tt35512802",
@@ -273,38 +322,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 75
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 820
-  },
-  {
-    "id": "tt32928666",
-    "type": "movie",
-    "name": "Érintés",
-    "poster": "https://image.tmdb.org/t/p/w500/zUKpIGBCiUTyFTEPJxc7nJtLU3P.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy nyolcvanéves nő áttér a támogatott életre, miközben változó memóriája, koridentitása és vágyai közepette megküzd önmagához és gondozóihoz fűződő ellentmondásos kapcsolatával.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 52
+    "seeders": 81
   },
   {
     "id": "tt20911974",
@@ -320,23 +338,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 90
+    "seeders": 94
   },
   {
-    "id": "tt39493069",
+    "id": "tt32928666",
     "type": "movie",
-    "name": "The Woman Before Me",
-    "poster": "https://image.tmdb.org/t/p/w500/d2DWoeMo526sK1ienZu44ccl9O9.jpg",
+    "name": "Érintés",
+    "poster": "https://image.tmdb.org/t/p/w500/zUKpIGBCiUTyFTEPJxc7nJtLU3P.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Egy nyolcvanéves nő áttér a támogatott életre, miközben változó memóriája, koridentitása és vágyai közepette megküzd önmagához és gondozóihoz fűződő ellentmondásos kapcsolatával.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
     "genres": [
-      "Thriller",
-      "TV film"
+      "Dráma"
     ],
-    "seeders": 72
+    "seeders": 56
   },
   {
     "id": "tt38109660",
@@ -354,7 +371,23 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 176
+    "seeders": 190
+  },
+  {
+    "id": "tt39493069",
+    "type": "movie",
+    "name": "The Woman Before Me",
+    "poster": "https://image.tmdb.org/t/p/w500/d2DWoeMo526sK1ienZu44ccl9O9.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "TV film"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt36364025",
@@ -369,7 +402,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 99
+    "seeders": 94
   },
   {
     "id": "tt34750678",
@@ -385,39 +418,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 129
-  },
-  {
-    "id": "tt32612507",
-    "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 124
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 219
+    "seeders": 144
   },
   {
     "id": "tt11378946",
@@ -433,22 +434,39 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 204
+    "seeders": 238
   },
   {
-    "id": "tt26414209",
+    "id": "tt32612507",
     "type": "movie",
-    "name": "Pofán vágni a világot",
-    "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Horror",
+      "Rejtély"
     ],
-    "seeders": 56
+    "seeders": 133
+  },
+  {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 238
   },
   {
     "id": "tt43595399",
@@ -458,27 +476,11 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 97
-  },
-  {
-    "id": "tt32538158",
-    "type": "movie",
-    "name": "Pumukli és a nagy zűr",
-    "poster": "https://image.tmdb.org/t/p/w500/hEoApLvtrEX5xixNFg81TchJzjB.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Vígjáték"
-    ],
-    "seeders": 95
+    "seeders": 108
   }
 ]
