@@ -13,7 +13,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 240
+    "seeders": 568
   },
   {
     "id": "tt13652286",
@@ -30,7 +30,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 40
+    "seeders": 319
+  },
+  {
+    "id": "tt38492476",
+    "type": "movie",
+    "name": "Legénybúcsú",
+    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 649
   },
   {
     "id": "tt33612209",
@@ -46,28 +61,13 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 86
-  },
-  {
-    "id": "tt38492476",
-    "type": "movie",
-    "name": "Legénybúcsú",
-    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 594
+    "seeders": 99
   },
   {
     "id": "tt32304349",
     "type": "movie",
     "name": "Az ács fia",
-    "poster": "https://image.tmdb.org/t/p/w500/sEUqleOHyvvhiFkyF50BtnmNwm7.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
@@ -77,7 +77,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 144
+    "seeders": 159
   },
   {
     "id": "tt17490712",
@@ -94,7 +94,23 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 85
+    "seeders": 94
+  },
+  {
+    "id": "tt35205649",
+    "type": "movie",
+    "name": "Egykutya",
+    "poster": "https://image.tmdb.org/t/p/w500/fGPouchPqzEiVOTHRi1VdnqpkMe.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film valós időben meséli el egy viharos este történetét, amikor hosszú évek után, egyikük váratlan meghívására találkozik négy kollégiumi jó barát. Bár már azt hitték, sosem állnak szóba egymással újra, ezen az estén élet-halál kérdése lehet, hogy ismét szót értsenek. A nézők a csavaros, csípős humorú szócsatákból lassan összerakhatják a rejtvény megfejtését: azt, hogy miként lehetett négy ennyire különböző ember ekkora hatással egymás életére",
+    "imdbRating": 5.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 2429
   },
   {
     "id": "tt34477910",
@@ -111,23 +127,22 @@
       "Családi",
       "TV film"
     ],
-    "seeders": 204
+    "seeders": 212
   },
   {
-    "id": "tt35205649",
+    "id": "tt43677301",
     "type": "movie",
-    "name": "Egykutya",
-    "poster": "https://image.tmdb.org/t/p/w500/fGPouchPqzEiVOTHRi1VdnqpkMe.jpg",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A film valós időben meséli el egy viharos este történetét, amikor hosszú évek után, egyikük váratlan meghívására találkozik négy kollégiumi jó barát. Bár már azt hitték, sosem állnak szóba egymással újra, ezen az estén élet-halál kérdése lehet, hogy ismét szót értsenek. A nézők a csavaros, csípős humorú szócsatákból lassan összerakhatják a rejtvény megfejtését: azt, hogy miként lehetett négy ennyire különböző ember ekkora hatással egymás életére",
-    "imdbRating": 5.0,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 4.6,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Dokumentum"
     ],
-    "seeders": 2278
+    "seeders": 297
   },
   {
     "id": "tt33093531",
@@ -143,22 +158,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 66
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 4.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 285
+    "seeders": 62
   },
   {
     "id": "tt13518550",
@@ -175,72 +175,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 203
-  },
-  {
-    "id": "tt41983440",
-    "type": "movie",
-    "name": "23.000 Leben",
-    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 3.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 103
-  },
-  {
-    "id": "tt33292655",
-    "type": "movie",
-    "name": "Jaj, Szia!",
-    "poster": "https://image.tmdb.org/t/p/w500/gwtl8FqpTZGBkl60U6QYDEzLYev.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Úgy tűnik, Iris (Molly Gordon – A mackó, Éretlenségi) megtalálta a tökéletes pasit: Isaac (Logan Lerman – Shirley, Harag) sármos, intelligens, vicces és szexi, nem csoda, hogy teljesen elvarázsolja a lányt. A fiatal pár épp az első romantikus kiruccanását élvezi egy idilli faházban. Mi ronthatná el ezt a tökéletes hétvégét? Például az, hogy kiderül, Isaac egészen másképp képzeli el ezt a kapcsolatot, mint a törődésre vágyó Iris. Ez pedig előhozza az ártatlannak tűnő lány legvadabb oldalát.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 129
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 161
-  },
-  {
-    "id": "tt33763941",
-    "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 1053
+    "seeders": 213
   },
   {
     "id": "tt31189814",
@@ -258,7 +193,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 855
+    "seeders": 926
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 1092
   },
   {
     "id": "tt32278481",
@@ -275,7 +226,72 @@
       "Bűnügyi",
       "Rejtély"
     ],
-    "seeders": 1343
+    "seeders": 1394
+  },
+  {
+    "id": "tt41983440",
+    "type": "movie",
+    "name": "23.000 Leben",
+    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 2.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 109
+  },
+  {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 165
+  },
+  {
+    "id": "tt33292655",
+    "type": "movie",
+    "name": "Jaj, Szia!",
+    "poster": "https://image.tmdb.org/t/p/w500/gwtl8FqpTZGBkl60U6QYDEzLYev.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Úgy tűnik, Iris (Molly Gordon – A mackó, Éretlenségi) megtalálta a tökéletes pasit: Isaac (Logan Lerman – Shirley, Harag) sármos, intelligens, vicces és szexi, nem csoda, hogy teljesen elvarázsolja a lányt. A fiatal pár épp az első romantikus kiruccanását élvezi egy idilli faházban. Mi ronthatná el ezt a tökéletes hétvégét? Például az, hogy kiderül, Isaac egészen másképp képzeli el ezt a kapcsolatot, mint a törődésre vágyó Iris. Ez pedig előhozza az ártatlannak tűnő lány legvadabb oldalát.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 133
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "The Breadwinner",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 282
   },
   {
     "id": "tt36619926",
@@ -294,22 +310,6 @@
     "seeders": 80
   },
   {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "The Breadwinner",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 283
-  },
-  {
     "id": "tt35512802",
     "type": "movie",
     "name": "Les Immortelles",
@@ -322,7 +322,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 81
+    "seeders": 76
   },
   {
     "id": "tt20911974",
@@ -341,21 +341,6 @@
     "seeders": 94
   },
   {
-    "id": "tt32928666",
-    "type": "movie",
-    "name": "Érintés",
-    "poster": "https://image.tmdb.org/t/p/w500/zUKpIGBCiUTyFTEPJxc7nJtLU3P.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy nyolcvanéves nő áttér a támogatott életre, miközben változó memóriája, koridentitása és vágyai közepette megküzd önmagához és gondozóihoz fűződő ellentmondásos kapcsolatával.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 56
-  },
-  {
     "id": "tt38109660",
     "type": "movie",
     "name": "Golden Kamuy: Rajtaütés az abashiri börtönben",
@@ -371,7 +356,37 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 190
+    "seeders": 186
+  },
+  {
+    "id": "tt32928666",
+    "type": "movie",
+    "name": "Érintés",
+    "poster": "https://image.tmdb.org/t/p/w500/zUKpIGBCiUTyFTEPJxc7nJtLU3P.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy nyolcvanéves nő áttér a támogatott életre, miközben változó memóriája, koridentitása és vágyai közepette megküzd önmagához és gondozóihoz fűződő ellentmondásos kapcsolatával.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 58
+  },
+  {
+    "id": "tt36364025",
+    "type": "movie",
+    "name": "Akik látták a medvét",
+    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Két, különböző generációhoz tartozó férfi valószínűtlen barátságot köt, amikor a francia vidéken egy megszökött cirkuszi medvét védelmeznek. Közben rátalálnak a természet iránti közös szenvedélyükre, valamint a bölcsesség értékére is.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 93
   },
   {
     "id": "tt39493069",
@@ -387,22 +402,7 @@
       "Thriller",
       "TV film"
     ],
-    "seeders": 71
-  },
-  {
-    "id": "tt36364025",
-    "type": "movie",
-    "name": "Akik látták a medvét",
-    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Két, különböző generációhoz tartozó férfi valószínűtlen barátságot köt, amikor a francia vidéken egy megszökött cirkuszi medvét védelmeznek. Közben rátalálnak a természet iránti közös szenvedélyükre, valamint a bölcsesség értékére is.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 94
+    "seeders": 67
   },
   {
     "id": "tt34750678",
@@ -434,7 +434,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 238
+    "seeders": 248
   },
   {
     "id": "tt32612507",
@@ -450,7 +450,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 133
+    "seeders": 141
   },
   {
     "id": "tt32430579",
@@ -466,21 +466,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 238
+    "seeders": 243
   },
   {
-    "id": "tt43595399",
+    "id": "tt32538158",
     "type": "movie",
-    "name": "Costa Concordia: Rémálom a tengeren",
-    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
+    "name": "Pumukli és a nagy zűr",
+    "poster": "https://image.tmdb.org/t/p/w500/hEoApLvtrEX5xixNFg81TchJzjB.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
+    "year": 2025,
+    "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
     "imdbRating": 7.5,
-    "releaseInfo": "2026",
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum"
+      "Családi",
+      "Vígjáték"
     ],
-    "seeders": 108
+    "seeders": 111
   }
 ]
