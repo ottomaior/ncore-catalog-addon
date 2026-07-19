@@ -30,7 +30,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999985
+"seeders": 999986
 },
 {
 "id": "tt29567915",
@@ -46,7 +46,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999977
+"seeders": 999981
 },
 {
 "id": "tt20672356",
@@ -62,7 +62,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999958
+"seeders": 999951
 },
 {
 "id": "tt34375721",
@@ -79,7 +79,22 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999948
+"seeders": 999947
+},
+{
+"id": "tt38492476",
+"type": "movie",
+"name": "Legénybúcsú",
+"poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
+"imdbRating": 6.5,
+"releaseInfo": "2025",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999921
 },
 {
 "id": "tt0179955",
@@ -96,7 +111,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999900
+"seeders": 999910
 },
 {
 "id": "tt0065067",
@@ -111,22 +126,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999880
-},
-{
-"id": "tt38508942",
-"type": "movie",
-"name": "Beléd estem",
-"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
-"imdbRating": 3.7,
-"releaseInfo": "2026",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999877
+"seeders": 999883
 },
 {
 "id": "tt27811640",
@@ -141,7 +141,7 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999873
+"seeders": 999864
 },
 {
 "id": "tt35303515",
@@ -157,7 +157,7 @@
 "Dráma",
 "Thriller"
 ],
-"seeders": 999864
+"seeders": 999863
 },
 {
 "id": "tt0142632",
@@ -174,7 +174,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999852
+"seeders": 999846
 },
 {
 "id": "tt31065630",
@@ -190,6 +190,22 @@
 "Dráma"
 ],
 "seeders": 999838
+},
+{
+"id": "tt0131636",
+"type": "movie",
+"name": "Vuk",
+"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
+"posterShape": "poster",
+"year": 1981,
+"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
+"imdbRating": 7.6,
+"releaseInfo": "1981",
+"genres": [
+"Animációs",
+"Családi"
+],
+"seeders": 999826
 },
 {
 "id": "tt0084315",
@@ -209,20 +225,19 @@
 "seeders": 999823
 },
 {
-"id": "tt0131636",
+"id": "tt38508942",
 "type": "movie",
-"name": "Vuk",
-"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
+"name": "Beléd estem",
+"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
 "posterShape": "poster",
-"year": 1981,
-"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
-"imdbRating": 7.6,
-"releaseInfo": "1981",
+"year": 2026,
+"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+"imdbRating": 3.7,
+"releaseInfo": "2026",
 "genres": [
-"Animációs",
-"Családi"
+"Vígjáték"
 ],
-"seeders": 999817
+"seeders": 999820
 },
 {
 "id": "tt23172090",
@@ -304,6 +319,23 @@
 "Vígjáték"
 ],
 "seeders": 999788
+},
+{
+"id": "tt13652286",
+"type": "movie",
+"name": "Légi csapda",
+"poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
+"imdbRating": 6.3,
+"releaseInfo": "2025",
+"genres": [
+"Akció",
+"Vígjáték",
+"Thriller"
+],
+"seeders": 999787
 },
 {
 "id": "tt3117504",
