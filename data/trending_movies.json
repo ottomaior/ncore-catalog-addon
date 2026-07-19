@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt32093575",
+    "type": "movie",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül — és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Horror"
+    ],
+    "seeders": 839
+  },
+  {
     "id": "tt37287335",
     "type": "movie",
     "name": "Megszállottság",
@@ -13,7 +29,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 780
+    "seeders": 852
   },
   {
     "id": "tt13652286",
@@ -30,7 +46,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 442
+    "seeders": 482
   },
   {
     "id": "tt38492476",
@@ -45,23 +61,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 709
-  },
-  {
-    "id": "tt35205649",
-    "type": "movie",
-    "name": "Egykutya",
-    "poster": "https://image.tmdb.org/t/p/w500/fGPouchPqzEiVOTHRi1VdnqpkMe.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film valós időben meséli el egy viharos este történetét, amikor hosszú évek után, egyikük váratlan meghívására találkozik négy kollégiumi jó barát. Bár már azt hitték, sosem állnak szóba egymással újra, ezen az estén élet-halál kérdése lehet, hogy ismét szót értsenek. A nézők a csavaros, csípős humorú szócsatákból lassan összerakhatják a rejtvény megfejtését: azt, hogy miként lehetett négy ennyire különböző ember ekkora hatással egymás életére",
-    "imdbRating": 5.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 2493
+    "seeders": 736
   },
   {
     "id": "tt32304349",
@@ -77,7 +77,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 174
+    "seeders": 162
   },
   {
     "id": "tt34477910",
@@ -87,14 +87,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
       "Fantasy",
       "Családi",
       "TV film"
     ],
-    "seeders": 227
+    "seeders": 234
   },
   {
     "id": "tt33612209",
@@ -110,23 +110,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 109
-  },
-  {
-    "id": "tt33763941",
-    "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 1105
+    "seeders": 125
   },
   {
     "id": "tt31189814",
@@ -144,7 +128,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 939
+    "seeders": 965
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 1097
   },
   {
     "id": "tt43677301",
@@ -159,7 +159,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 306
+    "seeders": 311
   },
   {
     "id": "tt17490712",
@@ -176,7 +176,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 97
+    "seeders": 103
   },
   {
     "id": "tt13518550",
@@ -193,7 +193,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 207
+    "seeders": 204
   },
   {
     "id": "tt32357218",
@@ -210,7 +210,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 167
+    "seeders": 165
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 281
   },
   {
     "id": "tt33292655",
@@ -227,23 +243,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 144
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 287
+    "seeders": 130
   },
   {
     "id": "tt41983440",
@@ -253,12 +253,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Fiatalok egy csoportja útnak indul, hogy segítséget nyújtson a Földközi-tengeren bajba jutott menekülteknek. Ám a jogról és az igazságosságról alkotott elképzeléseik hamarosan komoly próbatétel elé kerülnek. Igaz történet alapján.",
-    "imdbRating": 4.7,
+    "imdbRating": 4.6,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 99
+    "seeders": 106
   },
   {
     "id": "tt33093531",
@@ -274,7 +274,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 63
+    "seeders": 64
   },
   {
     "id": "tt36619926",
@@ -290,7 +290,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 83
+    "seeders": 71
   },
   {
     "id": "tt38109660",
@@ -308,7 +308,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 194
+    "seeders": 188
   },
   {
     "id": "tt35512802",
@@ -323,7 +323,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 78
+    "seeders": 74
   },
   {
     "id": "tt20911974",
@@ -339,7 +339,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 95
   },
   {
     "id": "tt32928666",
@@ -354,54 +354,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 58
-  },
-  {
-    "id": "tt36364025",
-    "type": "movie",
-    "name": "Akik látták a medvét",
-    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 86
-  },
-  {
-    "id": "tt39493069",
-    "type": "movie",
-    "name": "The Woman Before Me",
-    "poster": "https://image.tmdb.org/t/p/w500/d2DWoeMo526sK1ienZu44ccl9O9.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "TV film"
-    ],
-    "seeders": 61
-  },
-  {
-    "id": "tt34750678",
-    "type": "movie",
-    "name": "Apuci újra pácban",
-    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 148
+    "seeders": 60
   },
   {
     "id": "tt11378946",
@@ -417,7 +370,54 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 268
+    "seeders": 284
+  },
+  {
+    "id": "tt36364025",
+    "type": "movie",
+    "name": "Akik látták a medvét",
+    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 83
+  },
+  {
+    "id": "tt34750678",
+    "type": "movie",
+    "name": "Apuci újra pácban",
+    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 140
+  },
+  {
+    "id": "tt39493069",
+    "type": "movie",
+    "name": "The Woman Before Me",
+    "poster": "https://image.tmdb.org/t/p/w500/d2DWoeMo526sK1ienZu44ccl9O9.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "TV film"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt32430579",
@@ -449,7 +449,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 134
+    "seeders": 132
   },
   {
     "id": "tt32538158",
@@ -480,6 +480,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 106
+    "seeders": 107
   }
 ]
