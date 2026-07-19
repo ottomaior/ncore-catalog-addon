@@ -13,7 +13,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 623
+    "seeders": 780
   },
   {
     "id": "tt13652286",
@@ -30,7 +30,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 370
+    "seeders": 442
   },
   {
     "id": "tt38492476",
@@ -45,7 +45,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 630
+    "seeders": 709
   },
   {
     "id": "tt35205649",
@@ -61,7 +61,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 2194
+    "seeders": 2493
   },
   {
     "id": "tt32304349",
@@ -77,7 +77,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 160
+    "seeders": 174
   },
   {
     "id": "tt34477910",
@@ -94,7 +94,7 @@
       "Családi",
       "TV film"
     ],
-    "seeders": 221
+    "seeders": 227
   },
   {
     "id": "tt33612209",
@@ -110,7 +110,56 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 93
+    "seeders": 109
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 1105
+  },
+  {
+    "id": "tt31189814",
+    "type": "movie",
+    "name": "Időzített bomba",
+    "poster": "https://image.tmdb.org/t/p/w500/8aMsMF5rNI4GAmtV9KJqER5kCWV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "London belvárosában 500 kilós II. világháborús bombát találnak. A környéket kiürítik, a mindig zsúfolt, örökké izgatott városban egy egész kerületet zárnak le. Kiszállnak a tűzszerészek és munkához látnak. A tét nagy, a feszültség kézzelfogható, a bomba bármikor robbanhat - de szakemberek dolgoznak az ügyön. Csak éppen semmi sem igaz az egészből. A bomba nem világháborús, nem véletlenül került elő és nem lesz olyan könnyű hatástalanítani. Igazából egy bankrabló banda helyezte el: így akarják elterelni munkájukról a figyelmet és nyugodt körülményeket teremteni maguknak egy földalatti páncélterem feltöréséhez. Vagy ez sem igaz? Ők is csak áldozatok? Rendőrök, katonák, bankrablók és nemzetközi szélhámosok keresik a választ ugyanazokra a kérdésekre. Az időzítőszerkezet közben tovább ketyeg. Mert egyvalami azért biztos: a bomba mindjárt robbanni fog…",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 939
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 306
   },
   {
     "id": "tt17490712",
@@ -130,55 +179,6 @@
     "seeders": 97
   },
   {
-    "id": "tt33763941",
-    "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.  (Szarka Károly)",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 981
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 260
-  },
-  {
-    "id": "tt31189814",
-    "type": "movie",
-    "name": "Időzített bomba",
-    "poster": "https://image.tmdb.org/t/p/w500/8aMsMF5rNI4GAmtV9KJqER5kCWV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "London belvárosában 500 kilós II. világháborús bombát találnak. A környéket kiürítik, a mindig zsúfolt, örökké izgatott városban egy egész kerületet zárnak le. Kiszállnak a tűzszerészek és munkához látnak. A tét nagy, a feszültség kézzelfogható, a bomba bármikor robbanhat - de szakemberek dolgoznak az ügyön. Csak éppen semmi sem igaz az egészből. A bomba nem világháborús, nem véletlenül került elő és nem lesz olyan könnyű hatástalanítani. Igazából egy bankrabló banda helyezte el: így akarják elterelni munkájukról a figyelmet és nyugodt körülményeket teremteni maguknak egy földalatti páncélterem feltöréséhez. Vagy ez sem igaz? Ők is csak áldozatok? Rendőrök, katonák, bankrablók és nemzetközi szélhámosok keresik a választ ugyanazokra a kérdésekre. Az időzítőszerkezet közben tovább ketyeg. Mert egyvalami azért biztos: a bomba mindjárt robbanni fog…",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 817
-  },
-  {
     "id": "tt13518550",
     "type": "movie",
     "name": "Bálnadal",
@@ -193,24 +193,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 191
-  },
-  {
-    "id": "tt33292655",
-    "type": "movie",
-    "name": "Jaj, Szia!",
-    "poster": "https://image.tmdb.org/t/p/w500/gwtl8FqpTZGBkl60U6QYDEzLYev.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Úgy tűnik, Iris (Molly Gordon – A mackó, Éretlenségi) megtalálta a tökéletes pasit: Isaac (Logan Lerman – Shirley, Harag) sármos, intelligens, vicces és szexi, nem csoda, hogy teljesen elvarázsolja a lányt. A fiatal pár épp az első romantikus kiruccanását élvezi egy idilli faházban. Mi ronthatná el ezt a tökéletes hétvégét? Például az, hogy kiderül, Isaac egészen másképp képzeli el ezt a kapcsolatot, mint a törődésre vágyó Iris. Ez pedig előhozza az ártatlannak tűnő lány legvadabb oldalát.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 134
+    "seeders": 207
   },
   {
     "id": "tt32357218",
@@ -227,7 +210,24 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 156
+    "seeders": 167
+  },
+  {
+    "id": "tt33292655",
+    "type": "movie",
+    "name": "Jaj, Szia!",
+    "poster": "https://image.tmdb.org/t/p/w500/gwtl8FqpTZGBkl60U6QYDEzLYev.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Úgy tűnik, Iris (Molly Gordon – A mackó, Éretlenségi) megtalálta a tökéletes pasit: Isaac (Logan Lerman – Shirley, Harag) sármos, intelligens, vicces és szexi, nem csoda, hogy teljesen elvarázsolja a lányt. A fiatal pár épp az első romantikus kiruccanását élvezi egy idilli faházban. Mi ronthatná el ezt a tökéletes hétvégét? Például az, hogy kiderül, Isaac egészen másképp képzeli el ezt a kapcsolatot, mint a törődésre vágyó Iris. Ez pedig előhozza az ártatlannak tűnő lány legvadabb oldalát.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 144
   },
   {
     "id": "tt34459219",
@@ -237,28 +237,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 6.9,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 266
+    "seeders": 287
   },
   {
     "id": "tt41983440",
     "type": "movie",
-    "name": "23.000 Leben",
+    "name": "23 000 élet",
     "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 3.6,
+    "description": "Fiatalok egy csoportja útnak indul, hogy segítséget nyújtson a Földközi-tengeren bajba jutott menekülteknek. Ám a jogról és az igazságosságról alkotott elképzeléseik hamarosan komoly próbatétel elé kerülnek. Igaz történet alapján.",
+    "imdbRating": 4.7,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 97
+    "seeders": 99
   },
   {
     "id": "tt33093531",
@@ -274,7 +274,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 58
+    "seeders": 63
   },
   {
     "id": "tt36619926",
@@ -284,28 +284,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
-    "imdbRating": 6.6,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 74
-  },
-  {
-    "id": "tt35512802",
-    "type": "movie",
-    "name": "Les Immortelles",
-    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 78
+    "seeders": 83
   },
   {
     "id": "tt38109660",
@@ -323,7 +308,22 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 168
+    "seeders": 194
+  },
+  {
+    "id": "tt35512802",
+    "type": "movie",
+    "name": "Les Immortelles",
+    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 78
   },
   {
     "id": "tt20911974",
@@ -339,7 +339,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 85
+    "seeders": 94
   },
   {
     "id": "tt32928666",
@@ -363,13 +363,13 @@
     "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Két, különböző generációhoz tartozó férfi valószínűtlen barátságot köt, amikor a francia vidéken egy megszökött cirkuszi medvét védelmeznek. Közben rátalálnak a természet iránti közös szenvedélyükre, valamint a bölcsesség értékére is.",
+    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
     "imdbRating": 4.9,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 87
+    "seeders": 86
   },
   {
     "id": "tt39493069",
@@ -401,7 +401,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 126
+    "seeders": 148
   },
   {
     "id": "tt11378946",
@@ -417,7 +417,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 229
+    "seeders": 268
   },
   {
     "id": "tt32430579",
@@ -433,7 +433,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 224
+    "seeders": 243
   },
   {
     "id": "tt32612507",
@@ -449,7 +449,23 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 121
+    "seeders": 134
+  },
+  {
+    "id": "tt32538158",
+    "type": "movie",
+    "name": "Pumukli és a nagy zűr",
+    "poster": "https://image.tmdb.org/t/p/w500/hEoApLvtrEX5xixNFg81TchJzjB.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy váratlan vidéki kiruccanás, egy szomszédnál tartott születésnapi ünnepség és egy kíváncsi teknős borítja fel Pumuckl és Florian nyarát. A sok kaland lassan próbára teszi a barátságukat, mert egyre kevesebb idő jut arra, hogy nyugodtan beszélgessenek és megértsék egymást. A félreértések végül olyan nagyra nőnek, hogy a két jóbarát ideiglenesen eltávolodik egymástól, és csak az dönti el a sorsukat, képesek-e újra egymásra találni.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Vígjáték"
+    ],
+    "seeders": 119
   },
   {
     "id": "tt43595399",
@@ -464,21 +480,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 103
-  },
-  {
-    "id": "tt26414209",
-    "type": "movie",
-    "name": "Pofán vágni a világot",
-    "poster": "https://image.tmdb.org/t/p/w500/ykvXkrWn0NTC1JhgKsbL7RhINRZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Philipp és öccse, Tobi Kelet-Németországban nőnek fel a 2000-es évek elején, egy széthulló családban, ahol az apa elveszíti a munkáját, az anya pedig egyre nehezebben tartja egyben a mindennapokat. Miközben a fiúk a természetben keresnek menedéket és kalandot, Philipp lassan egy idősebb, erőszakot és idegengyűlöletet is hordozó társaságba sodródik, amely először kapaszkodót, később súlyos erkölcsi dilemmákat jelent számára. A körülöttük zajló feszültségek végül akkor csúcsosodnak ki, amikor a közelben menekültszálló nyílik.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 60
+    "seeders": 106
   }
 ]
