@@ -13,7 +13,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 1100
+    "seeders": 1439
   },
   {
     "id": "tt37287335",
@@ -29,7 +29,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 712
+    "seeders": 857
   },
   {
     "id": "tt13652286",
@@ -46,7 +46,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 429
+    "seeders": 496
   },
   {
     "id": "tt38492476",
@@ -61,7 +61,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 624
+    "seeders": 685
   },
   {
     "id": "tt32304349",
@@ -77,24 +77,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 150
-  },
-  {
-    "id": "tt34477910",
-    "type": "movie",
-    "name": "Utódok: Gonoszok Csodaországa",
-    "poster": "https://image.tmdb.org/t/p/w500/nKeyLvDBt2TNkDilbQ6yl74Jy2N.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Fantasy",
-      "Családi",
-      "TV film"
-    ],
-    "seeders": 196
+    "seeders": 166
   },
   {
     "id": "tt31189814",
@@ -112,7 +95,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 764
+    "seeders": 856
+  },
+  {
+    "id": "tt34477910",
+    "type": "movie",
+    "name": "Utódok: Gonoszok Csodaországa",
+    "poster": "https://image.tmdb.org/t/p/w500/nKeyLvDBt2TNkDilbQ6yl74Jy2N.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Fantasy",
+      "Családi",
+      "TV film"
+    ],
+    "seeders": 209
   },
   {
     "id": "tt33763941",
@@ -128,7 +128,22 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 862
+    "seeders": 971
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 289
   },
   {
     "id": "tt33612209",
@@ -144,39 +159,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 107
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 253
-  },
-  {
-    "id": "tt13518550",
-    "type": "movie",
-    "name": "Bálnadal",
-    "poster": "https://image.tmdb.org/t/p/w500/1DbsKg04S21Wqv50A12qyI2ZBzG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy félelmetes lény kiszabadul egy olvadó jéghegyről, egy önbizalomhiánnyal küzdő tinédzser púpos bálnának legnagyobb félelmeivel kell szembenéznie. Barátaival együtt le kell merülnie a legsötétebb mélységekbe, hogy megtalálják azt a különleges dalt, amely megmentheti az óceánokat a pusztulástól. (Csillag Lajos)",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 178
+    "seeders": 118
   },
   {
     "id": "tt17490712",
@@ -193,7 +176,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 91
+    "seeders": 105
   },
   {
     "id": "tt34459219",
@@ -209,7 +192,24 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 252
+    "seeders": 279
+  },
+  {
+    "id": "tt13518550",
+    "type": "movie",
+    "name": "Bálnadal",
+    "poster": "https://image.tmdb.org/t/p/w500/1DbsKg04S21Wqv50A12qyI2ZBzG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy félelmetes lény kiszabadul egy olvadó jéghegyről, egy önbizalomhiánnyal küzdő tinédzser púpos bálnának legnagyobb félelmeivel kell szembenéznie. Barátaival együtt le kell merülnie a legsötétebb mélységekbe, hogy megtalálják azt a különleges dalt, amely megmentheti az óceánokat a pusztulástól. (Csillag Lajos)",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 181
   },
   {
     "id": "tt32357218",
@@ -226,7 +226,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 152
+    "seeders": 163
   },
   {
     "id": "tt33292655",
@@ -243,7 +243,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 115
+    "seeders": 126
   },
   {
     "id": "tt41983440",
@@ -253,12 +253,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Fiatalok egy csoportja útnak indul, hogy segítséget nyújtson a Földközi-tengeren bajba jutott menekülteknek. Ám a jogról és az igazságosságról alkotott elképzeléseik hamarosan komoly próbatétel elé kerülnek. Igaz történet alapján.",
-    "imdbRating": 5.6,
+    "imdbRating": 5.3,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 95
+    "seeders": 101
+  },
+  {
+    "id": "tt33093531",
+    "type": "movie",
+    "name": "Saipan",
+    "poster": "https://image.tmdb.org/t/p/w500/5Af6vLWQk8gj5099GhgpgY0jCiu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A 2002-es FIFA-világbajnokság előestéjén az ír csapatkapitány, Roy Keane a csapat saipani felkészülési bázisán lemond a csapatban elfoglalt helyéről, miután heves nézeteltérésbe keveredik az ír menedzserrel, Mick McCarthyval.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 64
   },
   {
     "id": "tt38109660",
@@ -276,23 +292,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 174
-  },
-  {
-    "id": "tt33093531",
-    "type": "movie",
-    "name": "Saipan",
-    "poster": "https://image.tmdb.org/t/p/w500/5Af6vLWQk8gj5099GhgpgY0jCiu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A 2002-es FIFA-világbajnokság előestéjén az ír csapatkapitány, Roy Keane a csapat saipani felkészülési bázisán lemond a csapatban elfoglalt helyéről, miután heves nézeteltérésbe keveredik az ír menedzserrel, Mick McCarthyval.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 55
+    "seeders": 186
   },
   {
     "id": "tt36619926",
@@ -308,7 +308,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 60
+    "seeders": 68
   },
   {
     "id": "tt35512802",
@@ -323,7 +323,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 61
+    "seeders": 69
   },
   {
     "id": "tt20911974",
@@ -339,7 +339,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 72
+    "seeders": 84
   },
   {
     "id": "tt11378946",
@@ -355,7 +355,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 243
+    "seeders": 261
   },
   {
     "id": "tt32928666",
@@ -370,7 +370,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 52
+    "seeders": 53
   },
   {
     "id": "tt36364025",
@@ -388,6 +388,22 @@
     "seeders": 77
   },
   {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 233
+  },
+  {
     "id": "tt34750678",
     "type": "movie",
     "name": "Apuci újra pácban",
@@ -401,7 +417,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 116
+    "seeders": 124
   },
   {
     "id": "tt39493069",
@@ -417,23 +433,7 @@
       "Thriller",
       "TV film"
     ],
-    "seeders": 54
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 205
+    "seeders": 52
   },
   {
     "id": "tt32612507",
@@ -449,7 +449,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 112
+    "seeders": 115
   },
   {
     "id": "tt43595399",
@@ -464,7 +464,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 93
+    "seeders": 95
   },
   {
     "id": "tt32538158",
@@ -480,6 +480,6 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 92
+    "seeders": 98
   }
 ]
