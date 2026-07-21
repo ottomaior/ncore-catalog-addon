@@ -14,7 +14,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 670
+    "seeders": 229
   },
   {
     "id": "tt32093575",
@@ -30,7 +30,55 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 1814
+    "seeders": 2213
+  },
+  {
+    "id": "tt37287335",
+    "type": "movie",
+    "name": "Megszállottság",
+    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 899
+  },
+  {
+    "id": "tt13652286",
+    "type": "movie",
+    "name": "Légi csapda",
+    "poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 512
+  },
+  {
+    "id": "tt38492476",
+    "type": "movie",
+    "name": "Legénybúcsú",
+    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 680
   },
   {
     "id": "tt4900148",
@@ -48,55 +96,7 @@
       "Sci-Fi",
       "Családi"
     ],
-    "seeders": 41
-  },
-  {
-    "id": "tt37287335",
-    "type": "movie",
-    "name": "Megszállottság",
-    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 763
-  },
-  {
-    "id": "tt13652286",
-    "type": "movie",
-    "name": "Légi csapda",
-    "poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 449
-  },
-  {
-    "id": "tt38492476",
-    "type": "movie",
-    "name": "Legénybúcsú",
-    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 609
+    "seeders": 39
   },
   {
     "id": "tt31189814",
@@ -114,7 +114,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 744
+    "seeders": 820
   },
   {
     "id": "tt33763941",
@@ -130,7 +130,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 780
+    "seeders": 929
   },
   {
     "id": "tt34477910",
@@ -147,7 +147,7 @@
       "Családi",
       "TV film"
     ],
-    "seeders": 195
+    "seeders": 208
   },
   {
     "id": "tt32304349",
@@ -163,7 +163,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 155
+    "seeders": 159
   },
   {
     "id": "tt43677301",
@@ -178,7 +178,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 253
+    "seeders": 270
   },
   {
     "id": "tt33612209",
@@ -194,7 +194,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 115
+    "seeders": 117
   },
   {
     "id": "tt34459219",
@@ -210,7 +210,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 245
+    "seeders": 268
   },
   {
     "id": "tt13518550",
@@ -227,7 +227,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 167
+    "seeders": 171
   },
   {
     "id": "tt32357218",
@@ -244,7 +244,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 131
+    "seeders": 145
   },
   {
     "id": "tt17490712",
@@ -261,22 +261,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 85
-  },
-  {
-    "id": "tt41983440",
-    "type": "movie",
-    "name": "23 000 élet",
-    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Fiatalok egy csoportja útnak indul, hogy segítséget nyújtson a Földközi-tengeren bajba jutott menekülteknek. Ám a jogról és az igazságosságról alkotott elképzeléseik hamarosan komoly próbatétel elé kerülnek. Igaz történet alapján.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 98
+    "seeders": 91
   },
   {
     "id": "tt33292655",
@@ -292,6 +277,21 @@
       "Romantikus",
       "Vígjáték",
       "Thriller"
+    ],
+    "seeders": 111
+  },
+  {
+    "id": "tt41983440",
+    "type": "movie",
+    "name": "23 000 élet",
+    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
     ],
     "seeders": 100
   },
@@ -311,7 +311,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 165
+    "seeders": 183
   },
   {
     "id": "tt33093531",
@@ -327,7 +327,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 57
+    "seeders": 59
   },
   {
     "id": "tt11378946",
@@ -343,23 +343,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 247
-  },
-  {
-    "id": "tt20911974",
-    "type": "movie",
-    "name": "My Mother's Wedding",
-    "poster": "https://image.tmdb.org/t/p/w500/feHTwv3BplNlLW3o9LtW2kqZLJg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 76
+    "seeders": 260
   },
   {
     "id": "tt36619926",
@@ -375,22 +359,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 57
-  },
-  {
-    "id": "tt36364025",
-    "type": "movie",
-    "name": "Akik látták a medvét",
-    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 77
+    "seeders": 61
   },
   {
     "id": "tt32430579",
@@ -406,7 +375,38 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 211
+    "seeders": 234
+  },
+  {
+    "id": "tt20911974",
+    "type": "movie",
+    "name": "My Mother's Wedding",
+    "poster": "https://image.tmdb.org/t/p/w500/feHTwv3BplNlLW3o9LtW2kqZLJg.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 74
+  },
+  {
+    "id": "tt36364025",
+    "type": "movie",
+    "name": "Akik látták a medvét",
+    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 75
   },
   {
     "id": "tt35512802",
@@ -421,7 +421,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 51
+    "seeders": 53
   },
   {
     "id": "tt34750678",
@@ -437,7 +437,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 106
+    "seeders": 114
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 112
   },
   {
     "id": "tt32928666",
@@ -469,21 +485,5 @@
       "TV film"
     ],
     "seeders": 51
-  },
-  {
-    "id": "tt32612507",
-    "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély"
-    ],
-    "seeders": 101
   }
 ]
