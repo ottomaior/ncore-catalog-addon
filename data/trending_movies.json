@@ -14,7 +14,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 229
+    "seeders": 1460
   },
   {
     "id": "tt32093575",
@@ -23,14 +23,14 @@
     "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül — és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
     "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 2213
+    "seeders": 2861
   },
   {
     "id": "tt37287335",
@@ -46,7 +46,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 899
+    "seeders": 1062
   },
   {
     "id": "tt13652286",
@@ -63,7 +63,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 512
+    "seeders": 564
   },
   {
     "id": "tt38492476",
@@ -78,7 +78,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 680
+    "seeders": 761
   },
   {
     "id": "tt4900148",
@@ -114,7 +114,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 820
+    "seeders": 933
   },
   {
     "id": "tt33763941",
@@ -130,7 +130,22 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 929
+    "seeders": 1012
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 302
   },
   {
     "id": "tt34477910",
@@ -147,7 +162,7 @@
       "Családi",
       "TV film"
     ],
-    "seeders": 208
+    "seeders": 216
   },
   {
     "id": "tt32304349",
@@ -163,22 +178,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 159
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 270
+    "seeders": 158
   },
   {
     "id": "tt33612209",
@@ -194,7 +194,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 117
+    "seeders": 135
   },
   {
     "id": "tt34459219",
@@ -210,7 +210,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 268
+    "seeders": 288
   },
   {
     "id": "tt13518550",
@@ -227,7 +227,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 171
+    "seeders": 180
   },
   {
     "id": "tt32357218",
@@ -244,7 +244,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 145
+    "seeders": 169
   },
   {
     "id": "tt17490712",
@@ -261,7 +261,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 91
+    "seeders": 97
   },
   {
     "id": "tt33292655",
@@ -278,22 +278,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 111
-  },
-  {
-    "id": "tt41983440",
-    "type": "movie",
-    "name": "23 000 élet",
-    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 100
+    "seeders": 116
   },
   {
     "id": "tt38109660",
@@ -311,23 +296,22 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 183
+    "seeders": 196
   },
   {
-    "id": "tt33093531",
+    "id": "tt41983440",
     "type": "movie",
-    "name": "Saipan",
-    "poster": "https://image.tmdb.org/t/p/w500/5Af6vLWQk8gj5099GhgpgY0jCiu.jpg",
+    "name": "23 000 élet",
+    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A 2002-es FIFA-világbajnokság előestéjén az ír csapatkapitány, Roy Keane a csapat saipani felkészülési bázisán lemond a csapatban elfoglalt helyéről, miután heves nézeteltérésbe keveredik az ír menedzserrel, Mick McCarthyval.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Történelmi"
+      "Dráma"
     ],
-    "seeders": 59
+    "seeders": 100
   },
   {
     "id": "tt11378946",
@@ -343,7 +327,23 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 260
+    "seeders": 289
+  },
+  {
+    "id": "tt33093531",
+    "type": "movie",
+    "name": "Saipan",
+    "poster": "https://image.tmdb.org/t/p/w500/5Af6vLWQk8gj5099GhgpgY0jCiu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A 2002-es FIFA-világbajnokság előestéjén az ír csapatkapitány, Roy Keane a csapat saipani felkészülési bázisán lemond a csapatban elfoglalt helyéről, miután heves nézeteltérésbe keveredik az ír menedzserrel, Mick McCarthyval.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi"
+    ],
+    "seeders": 63
   },
   {
     "id": "tt36619926",
@@ -359,23 +359,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 61
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 234
+    "seeders": 64
   },
   {
     "id": "tt20911974",
@@ -391,7 +375,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 74
+    "seeders": 83
+  },
+  {
+    "id": "tt32430579",
+    "type": "movie",
+    "name": "A bűn útja",
+    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 239
   },
   {
     "id": "tt36364025",
@@ -406,22 +406,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 75
-  },
-  {
-    "id": "tt35512802",
-    "type": "movie",
-    "name": "Les Immortelles",
-    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 53
+    "seeders": 80
   },
   {
     "id": "tt34750678",
@@ -437,7 +422,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 114
+    "seeders": 121
   },
   {
     "id": "tt32612507",
@@ -453,7 +438,22 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 112
+    "seeders": 126
+  },
+  {
+    "id": "tt35512802",
+    "type": "movie",
+    "name": "Les Immortelles",
+    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 54
   },
   {
     "id": "tt32928666",
@@ -468,22 +468,21 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 46
+    "seeders": 48
   },
   {
-    "id": "tt39493069",
+    "id": "tt43595399",
     "type": "movie",
-    "name": "The Woman Before Me",
-    "poster": "https://image.tmdb.org/t/p/w500/d2DWoeMo526sK1ienZu44ccl9O9.jpg",
+    "name": "Costa Concordia: Rémálom a tengeren",
+    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
-      "Thriller",
-      "TV film"
+      "Dokumentum"
     ],
-    "seeders": 51
+    "seeders": 107
   }
 ]
