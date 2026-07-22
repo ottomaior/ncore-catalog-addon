@@ -14,7 +14,7 @@
       "Akció",
       "Kaland"
     ],
-    "seeders": 1460
+    "seeders": 1046
   },
   {
     "id": "tt32093575",
@@ -30,7 +30,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 2861
+    "seeders": 1823
   },
   {
     "id": "tt37287335",
@@ -46,7 +46,22 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1062
+    "seeders": 674
+  },
+  {
+    "id": "tt32283654",
+    "type": "movie",
+    "name": "Rövid nyár",
+    "poster": "https://image.tmdb.org/t/p/w500/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcéves Katya a nagyszüleinél tölti a nyarat az orosz vidéken, miközben a háttérben háború dúl, a felnőttek pedig csendben, egymástól eltávolodva próbálnak együtt élni a széthulló mindennapokkal. A lány gyermeki ártatlansággal figyeli a körülötte zajló eseményeket, és lassan szembesül azzal, hogy a világ sokkal összetettebb és fájdalmasabb, mint amilyennek addig hitte.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 57
   },
   {
     "id": "tt38492476",
@@ -61,7 +76,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 761
+    "seeders": 521
   },
   {
     "id": "tt13652286",
@@ -78,7 +93,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 564
+    "seeders": 393
   },
   {
     "id": "tt31189814",
@@ -96,7 +111,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 933
+    "seeders": 623
   },
   {
     "id": "tt33763941",
@@ -112,22 +127,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1012
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 302
+    "seeders": 666
   },
   {
     "id": "tt34477910",
@@ -144,55 +144,7 @@
       "Családi",
       "TV film"
     ],
-    "seeders": 216
-  },
-  {
-    "id": "tt32304349",
-    "type": "movie",
-    "name": "Az ács fia",
-    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 158
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 288
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 135
+    "seeders": 160
   },
   {
     "id": "tt4900148",
@@ -213,6 +165,69 @@
     "seeders": 39
   },
   {
+    "id": "tt32304349",
+    "type": "movie",
+    "name": "Az ács fia",
+    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 124
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 215
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 180
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 106
+  },
+  {
     "id": "tt13518550",
     "type": "movie",
     "name": "Bálnadal",
@@ -227,24 +242,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 180
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 169
+    "seeders": 144
   },
   {
     "id": "tt17490712",
@@ -261,7 +259,56 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 97
+    "seeders": 84
+  },
+  {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 111
+  },
+  {
+    "id": "tt33292655",
+    "type": "movie",
+    "name": "Jaj, Szia!",
+    "poster": "https://image.tmdb.org/t/p/w500/gwtl8FqpTZGBkl60U6QYDEzLYev.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Úgy tűnik, Iris (Molly Gordon – A mackó, Éretlenségi) megtalálta a tökéletes pasit: Isaac (Logan Lerman – Shirley, Harag) sármos, intelligens, vicces és szexi, nem csoda, hogy teljesen elvarázsolja a lányt. A fiatal pár épp az első romantikus kiruccanását élvezi egy idilli faházban. Mi ronthatná el ezt a tökéletes hétvégét? Például az, hogy kiderül, Isaac egészen másképp képzeli el ezt a kapcsolatot, mint a törődésre vágyó Iris. Ez pedig előhozza az ártatlannak tűnő lány legvadabb oldalát.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 95
+  },
+  {
+    "id": "tt41983440",
+    "type": "movie",
+    "name": "23 000 élet",
+    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
+    "imdbRating": 5.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt38109660",
@@ -279,39 +326,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 196
-  },
-  {
-    "id": "tt33292655",
-    "type": "movie",
-    "name": "Jaj, Szia!",
-    "poster": "https://image.tmdb.org/t/p/w500/gwtl8FqpTZGBkl60U6QYDEzLYev.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Úgy tűnik, Iris (Molly Gordon – A mackó, Éretlenségi) megtalálta a tökéletes pasit: Isaac (Logan Lerman – Shirley, Harag) sármos, intelligens, vicces és szexi, nem csoda, hogy teljesen elvarázsolja a lányt. A fiatal pár épp az első romantikus kiruccanását élvezi egy idilli faházban. Mi ronthatná el ezt a tökéletes hétvégét? Például az, hogy kiderül, Isaac egészen másképp képzeli el ezt a kapcsolatot, mint a törődésre vágyó Iris. Ez pedig előhozza az ártatlannak tűnő lány legvadabb oldalát.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 116
-  },
-  {
-    "id": "tt41983440",
-    "type": "movie",
-    "name": "23 000 élet",
-    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
-    "imdbRating": 5.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 100
+    "seeders": 137
   },
   {
     "id": "tt11378946",
@@ -327,7 +342,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 289
+    "seeders": 207
   },
   {
     "id": "tt33093531",
@@ -343,23 +358,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 63
-  },
-  {
-    "id": "tt32430579",
-    "type": "movie",
-    "name": "A bűn útja",
-    "poster": "https://image.tmdb.org/t/p/w500/7ryVqPv2hKHgSWJPsMLnZlynHij.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A bűn útja egy ékszertolvaj (Chris Hemsworth) története, akinek aprólékosan megtervezett rablásai a napos Los Angelesben, a 101-es autópálya mentén, fejtörést okoznak a rendőrséget. Egy magányos nyomozó (Mark Ruffalo) a nyomába ered. Amikor útjaik keresztezik egy kiábrándult biztosítási ügynökét (Halle Berry), sorsdöntő döntéseket kell hozniuk egy halálos végjátékban, ahol milliók forognak kockán.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 239
+    "seeders": 51
   },
   {
     "id": "tt20911974",
@@ -375,7 +374,22 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 83
+    "seeders": 66
+  },
+  {
+    "id": "tt36364025",
+    "type": "movie",
+    "name": "Akik látták a medvét",
+    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 69
   },
   {
     "id": "tt36619926",
@@ -391,38 +405,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 64
+    "seeders": 47
   },
   {
-    "id": "tt36364025",
+    "id": "tt35512802",
     "type": "movie",
-    "name": "Akik látták a medvét",
-    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
+    "name": "Les Immortelles",
+    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Dráma"
     ],
-    "seeders": 80
-  },
-  {
-    "id": "tt34750678",
-    "type": "movie",
-    "name": "Apuci újra pácban",
-    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 121
+    "seeders": 49
   },
   {
     "id": "tt32612507",
@@ -438,22 +436,39 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 126
+    "seeders": 99
   },
   {
-    "id": "tt35512802",
+    "id": "tt39493069",
     "type": "movie",
-    "name": "Les Immortelles",
-    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
+    "name": "The Woman Before Me",
+    "poster": "https://image.tmdb.org/t/p/w500/d2DWoeMo526sK1ienZu44ccl9O9.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.2,
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Thriller",
+      "TV film"
     ],
-    "seeders": 54
+    "seeders": 48
+  },
+  {
+    "id": "tt34750678",
+    "type": "movie",
+    "name": "Apuci újra pácban",
+    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 83
   },
   {
     "id": "tt32928666",
@@ -468,21 +483,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 48
-  },
-  {
-    "id": "tt43595399",
-    "type": "movie",
-    "name": "Costa Concordia: Rémálom a tengeren",
-    "poster": "https://image.tmdb.org/t/p/w500/z9z9e5HgOTPuFVIVhxnHnbk89U2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy megrázó dokumentumfilm, amely egy 2012-ben elsüllyedt luxus óceánjáró tragédiáját dolgozza fel. Korábban nem látott archív felvételek és a túlélők személyes vallomásai segítségével idézi fel a katasztrófa eseményeit, a mentés kaotikus pillanatait és az emberi sorsokat.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 107
+    "seeders": 40
   }
 ]
