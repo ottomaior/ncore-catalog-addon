@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt0427340",
+    "type": "movie",
+    "name": "Az univerzum védelmezői",
+    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát, hogy He-Man-né, az univerzum leghatalmasabb emberévé váljon.  (Csillag Lajos)R3",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "seeders": 1012
+  },
+  {
     "id": "tt30825738",
     "type": "movie",
     "name": "Star Wars: A Mandalóri és Grogu",
@@ -7,14 +24,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 6.9,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
-      "Fantasy",
       "Akció",
-      "Kaland"
+      "Kaland",
+      "Sci-Fi"
     ],
-    "seeders": 1046
+    "seeders": 1681
   },
   {
     "id": "tt32093575",
@@ -27,10 +44,41 @@
     "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Horror"
+      "Vígjáték"
     ],
-    "seeders": 1823
+    "seeders": 2901
+  },
+  {
+    "id": "tt34375721",
+    "type": "movie",
+    "name": "Sárkányok Kabul felett",
+    "poster": "https://image.tmdb.org/t/p/w500/rHOTaT34vaxzN7TAzgSWHiqCA5p.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 76
+  },
+  {
+    "id": "tt37042085",
+    "type": "movie",
+    "name": "Elize: Egy házasság sötét oldala",
+    "poster": "https://image.tmdb.org/t/p/w500/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A valós eseményeken alapuló feldolgozásban egy volt eszkortlány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi"
+    ],
+    "seeders": 103
   },
   {
     "id": "tt37287335",
@@ -46,7 +94,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 674
+    "seeders": 1059
   },
   {
     "id": "tt32283654",
@@ -61,7 +109,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 57
+    "seeders": 107
   },
   {
     "id": "tt38492476",
@@ -76,7 +124,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 521
+    "seeders": 716
   },
   {
     "id": "tt13652286",
@@ -93,7 +141,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 393
+    "seeders": 547
   },
   {
     "id": "tt31189814",
@@ -111,7 +159,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 623
+    "seeders": 895
   },
   {
     "id": "tt33763941",
@@ -127,7 +175,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 666
+    "seeders": 970
   },
   {
     "id": "tt34477910",
@@ -137,14 +185,128 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
-    "imdbRating": 7.8,
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
       "Fantasy",
       "Családi",
       "TV film"
     ],
-    "seeders": 160
+    "seeders": 215
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 282
+  },
+  {
+    "id": "tt32304349",
+    "type": "movie",
+    "name": "Az ács fia",
+    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 171
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 280
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 131
+  },
+  {
+    "id": "tt13518550",
+    "type": "movie",
+    "name": "Bálnadal",
+    "poster": "https://image.tmdb.org/t/p/w500/1DbsKg04S21Wqv50A12qyI2ZBzG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy félelmetes lény kiszabadul egy olvadó jéghegyről, egy önbizalomhiánnyal küzdő tinédzser púpos bálnának legnagyobb félelmeivel kell szembenéznie. Barátaival együtt le kell merülnie a legsötétebb mélységekbe, hogy megtalálják azt a különleges dalt, amely megmentheti az óceánokat a pusztulástól. (Csillag Lajos)",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 181
+  },
+  {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 170
+  },
+  {
+    "id": "tt17490712",
+    "type": "movie",
+    "name": "Mortal Kombat II.",
+    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Kaland"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt4900148",
@@ -165,120 +327,6 @@
     "seeders": 39
   },
   {
-    "id": "tt32304349",
-    "type": "movie",
-    "name": "Az ács fia",
-    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 124
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 215
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 180
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 106
-  },
-  {
-    "id": "tt13518550",
-    "type": "movie",
-    "name": "Bálnadal",
-    "poster": "https://image.tmdb.org/t/p/w500/1DbsKg04S21Wqv50A12qyI2ZBzG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy félelmetes lény kiszabadul egy olvadó jéghegyről, egy önbizalomhiánnyal küzdő tinédzser púpos bálnának legnagyobb félelmeivel kell szembenéznie. Barátaival együtt le kell merülnie a legsötétebb mélységekbe, hogy megtalálják azt a különleges dalt, amely megmentheti az óceánokat a pusztulástól. (Csillag Lajos)",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 144
-  },
-  {
-    "id": "tt17490712",
-    "type": "movie",
-    "name": "Mortal Kombat II.",
-    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Kaland"
-    ],
-    "seeders": 84
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 111
-  },
-  {
     "id": "tt33292655",
     "type": "movie",
     "name": "Jaj, Szia!",
@@ -293,22 +341,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 95
-  },
-  {
-    "id": "tt41983440",
-    "type": "movie",
-    "name": "23 000 élet",
-    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
-    "imdbRating": 5.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 81
+    "seeders": 125
   },
   {
     "id": "tt38109660",
@@ -326,7 +359,22 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 137
+    "seeders": 195
+  },
+  {
+    "id": "tt41983440",
+    "type": "movie",
+    "name": "23 000 élet",
+    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
+    "imdbRating": 5.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 95
   },
   {
     "id": "tt11378946",
@@ -342,7 +390,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 207
+    "seeders": 263
   },
   {
     "id": "tt33093531",
@@ -358,7 +406,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 51
+    "seeders": 63
   },
   {
     "id": "tt20911974",
@@ -367,60 +415,14 @@
     "poster": "https://image.tmdb.org/t/p/w500/feHTwv3BplNlLW3o9LtW2kqZLJg.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Három nővér visszatér otthonába, özvegy édesanyjuk harmadik esküvőjére. Anya és lányai kénytelenek felidézni a múltat, és szembenézni a jövővel, a váratlan esküvői vendégek színes csoportjának segítségével.",
     "imdbRating": 6.1,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 66
-  },
-  {
-    "id": "tt36364025",
-    "type": "movie",
-    "name": "Akik látták a medvét",
-    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 69
-  },
-  {
-    "id": "tt36619926",
-    "type": "movie",
-    "name": "Fülig beléd zúgtam: Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 47
-  },
-  {
-    "id": "tt35512802",
-    "type": "movie",
-    "name": "Les Immortelles",
-    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 49
+    "seeders": 76
   },
   {
     "id": "tt32612507",
@@ -436,23 +438,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 99
-  },
-  {
-    "id": "tt39493069",
-    "type": "movie",
-    "name": "The Woman Before Me",
-    "poster": "https://image.tmdb.org/t/p/w500/d2DWoeMo526sK1ienZu44ccl9O9.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "TV film"
-    ],
-    "seeders": 48
+    "seeders": 125
   },
   {
     "id": "tt34750678",
@@ -468,21 +454,37 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 83
+    "seeders": 111
   },
   {
-    "id": "tt32928666",
+    "id": "tt36364025",
     "type": "movie",
-    "name": "Érintés",
-    "poster": "https://image.tmdb.org/t/p/w500/zUKpIGBCiUTyFTEPJxc7nJtLU3P.jpg",
+    "name": "Akik látták a medvét",
+    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy nyolcvanéves nő áttér a támogatott életre, miközben változó memóriája, koridentitása és vágyai közepette megküzd önmagához és gondozóihoz fűződő ellentmondásos kapcsolatával.",
-    "imdbRating": 6.3,
+    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
+    "imdbRating": 4.9,
     "releaseInfo": "2025",
     "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 74
+  },
+  {
+    "id": "tt36619926",
+    "type": "movie",
+    "name": "Fülig beléd zúgtam: Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
       "Dráma"
     ],
-    "seeders": 40
+    "seeders": 54
   }
 ]
