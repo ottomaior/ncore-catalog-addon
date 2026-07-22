@@ -17,24 +17,6 @@
     "seeders": 1284
   },
   {
-    "id": "tt29926954",
-    "type": "series",
-    "name": "Anyai örökség (S01E05)",
-    "poster": "https://image.tmdb.org/t/p/w500/sXzTcIgXMWIotuymY6Lt1zdztWC.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S01E05\n\nAz Anyai örökség egy mélyen érzelmes, fordulatokban gazdag családi dráma, amelynek középpontjában az anyaság és az anyai érzelmek különböző aspektusai állnak. A történet főhőse Karsu, aki igyekszik helytállni anyaként és feleségként, ám élete egyik pillanatról a másikra összeomlik.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
-    "genres": [
-      "Családi",
-      "Dráma"
-    ],
-    "latest_season": 1,
-    "latest_episode": 5,
-    "seeders": 27
-  },
-  {
     "id": "tt11198330",
     "type": "series",
     "name": "Sárkányok háza (S03E05)",
@@ -89,23 +71,6 @@
     "seeders": 335
   },
   {
-    "id": "tt43461201",
-    "type": "series",
-    "name": "FIFA World Cup 2026: Preview Series",
-    "poster": "https://artworks.thetvdb.com/banners/images/missing/series.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "FIFA World Cup 2026: Preview Series is a documentary series that looks ahead to the 2026 FIFA World Cup. Each episode highlights national teams, players, and key football stories from around the world. The series explores how countries are preparing for the tournament and the expectations surrounding both favourites and underdog teams.",
-    "imdbRating": 9.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 56
-  },
-  {
     "id": "tt41588086",
     "type": "series",
     "name": "Dino - vägen mot Formel 1",
@@ -154,7 +119,42 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 226
+    "seeders": 374
+  },
+  {
+    "id": "tt43461201",
+    "type": "series",
+    "name": "FIFA World Cup 2026: Preview Series",
+    "poster": "https://artworks.thetvdb.com/banners/images/missing/series.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "FIFA World Cup 2026: Preview Series is a documentary series that looks ahead to the 2026 FIFA World Cup. Each episode highlights national teams, players, and key football stories from around the world. The series explores how countries are preparing for the tournament and the expectations surrounding both favourites and underdog teams.",
+    "imdbRating": 9.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 56
+  },
+  {
+    "id": "tt29926954",
+    "type": "series",
+    "name": "Anyai örökség (S01E05)",
+    "poster": "https://image.tmdb.org/t/p/w500/sXzTcIgXMWIotuymY6Lt1zdztWC.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S01E05\n\nAz Anyai örökség egy mélyen érzelmes, fordulatokban gazdag családi dráma, amelynek középpontjában az anyaság és az anyai érzelmek különböző aspektusai állnak. A történet főhőse Karsu, aki igyekszik helytállni anyaként és feleségként, ám élete egyik pillanatról a másikra összeomlik.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
+    "genres": [
+      "Családi",
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 5,
+    "seeders": 27
   },
   {
     "id": "tt36614693",
@@ -210,6 +210,24 @@
     "seeders": 61
   },
   {
+    "id": "tt35449383",
+    "type": "series",
+    "name": "Motor Valley – Az életed a tét",
+    "poster": "https://image.tmdb.org/t/p/w500/5hXrKfQmzglWMIkFUA2K0MeSjNl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy örökösnő mindenáron át akarja venni a családi autóverseny-birodalom irányítását, ezért felbérel egy vakmerő pilótát és egy zűrös trénert az olasz Gran Turismo bajnokságra.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Action & Adventure"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 300
+  },
+  {
     "id": "tt0118375",
     "type": "series",
     "name": "Texas királyai",
@@ -229,24 +247,6 @@
     "seeders": 41
   },
   {
-    "id": "tt35449383",
-    "type": "series",
-    "name": "Motor Valley – Az életed a tét",
-    "poster": "https://image.tmdb.org/t/p/w500/5hXrKfQmzglWMIkFUA2K0MeSjNl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy örökösnő mindenáron át akarja venni a családi autóverseny-birodalom irányítását, ezért felbérel egy vakmerő pilótát és egy zűrös trénert az olasz Gran Turismo bajnokságra.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Action & Adventure"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 300
-  },
-  {
     "id": "tt30494226",
     "type": "series",
     "name": "Tűzön-vízen át",
@@ -254,7 +254,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Debbie és Judith, legjobb barátnők, akik kénytelenek menekülni, amikor Debbie rájön, hogy Judith nem igazságügyi könyvvizsgáló, hanem nemzetközi bérgyilkos. Versenyt futnak az idővel, hogy kiderítsék az igazságot és életben maradjanak, miközben egy rejtélyes alak üldözi őket, és Debbie férje is belekeveredik egy súlyos korrupciós ügybe.",
-    "imdbRating": 5.0,
+    "imdbRating": 5.2,
     "releaseInfo": "2026",
     "genres": [
       "Action & Adventure"
@@ -425,21 +425,6 @@
     "seeders": 30
   },
   {
-    "id": "tt39394015",
-    "type": "series",
-    "name": "Wer weiß wie wann was war?",
-    "poster": "https://image.tmdb.org/t/p/w500/dBtvC6OI8thncEHL2LTh4Z8AKUv.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Barbara Schöneberger und Stefan Raab, zwei der bekanntesten Gesichter des deutschen Entertainments, stehen jetzt erstmals als Moderationsduo vor der Kamera. In der neuen Samstagabend-Eventshow „Wer weiß wie wann was war?“ schicken sie das Publikum im Studio und vor den TV-Bildschirmen auf eine unterhaltsame Quiz-Reise durch Pop-Kultur, Fernsehen, Musik und Zeitgeschichte. Besondere Überraschungsmomente von und mit Barbara und Stefan inklusive. Das Studio-Publikum ist dabei selbst Teil der Show und stellt gemeinsam mit prominenten Gästen sein Gedächtnis auf die Probe.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 23
-  },
-  {
     "id": "tt4574334",
     "type": "series",
     "name": "Stranger Things",
@@ -459,6 +444,21 @@
     "seeders": 39
   },
   {
+    "id": "tt39394015",
+    "type": "series",
+    "name": "Wer weiß wie wann was war?",
+    "poster": "https://image.tmdb.org/t/p/w500/dBtvC6OI8thncEHL2LTh4Z8AKUv.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Barbara Schöneberger und Stefan Raab, zwei der bekanntesten Gesichter des deutschen Entertainments, stehen jetzt erstmals als Moderationsduo vor der Kamera. In der neuen Samstagabend-Eventshow „Wer weiß wie wann was war?“ schicken sie das Publikum im Studio und vor den TV-Bildschirmen auf eine unterhaltsame Quiz-Reise durch Pop-Kultur, Fernsehen, Musik und Zeitgeschichte. Besondere Überraschungsmomente von und mit Barbara und Stefan inklusive. Das Studio-Publikum ist dabei selbst Teil der Show und stellt gemeinsam mit prominenten Gästen sein Gedächtnis auf die Probe.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 23
+  },
+  {
     "id": "tt10484768",
     "type": "series",
     "name": "The Brigade (S02E07)",
@@ -472,6 +472,23 @@
     "latest_season": 2,
     "latest_episode": 7,
     "seeders": 24
+  },
+  {
+    "id": "tt4597870",
+    "type": "series",
+    "name": "Észak és Dél nővérei",
+    "poster": "https://image.tmdb.org/t/p/w500/v3HNGQnmu9WurwETVAATRSwMXzg.jpg",
+    "posterShape": "poster",
+    "year": 2016,
+    "description": "A sorozat valós eseményeken alapul. A történet 1862 tavaszán az elfoglalt Alexandriában, Virginiában kezdődik és a Mansion House kórházban megforduló nővérek, orvosok, csempészek, északi katonák, déli lojalisták és rabszolgák életét és kaotikus világát mutatja be a polgárháború csataterén túl. A főszereplő, két fiatal önkéntes nővér, akik a polgárháború ellentétes oldalán állnak; a New England-i abolicionista, megbízható Mary Phinney és a fiatal, naiv déli szépség, a konföderációt támogató Emma Green. Az ő életüket követhetjük közelebbről is nyomon, ahogy példátlan kihívásokkal néznek szembe az Egyesült Államok egyik legviharosabb időszakában.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2016",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 52
   },
   {
     "id": "tt38672513",
@@ -492,23 +509,6 @@
     "latest_season": null,
     "latest_episode": null,
     "seeders": 13
-  },
-  {
-    "id": "tt4597870",
-    "type": "series",
-    "name": "Észak és Dél nővérei",
-    "poster": "https://image.tmdb.org/t/p/w500/v3HNGQnmu9WurwETVAATRSwMXzg.jpg",
-    "posterShape": "poster",
-    "year": 2016,
-    "description": "A sorozat valós eseményeken alapul. A történet 1862 tavaszán az elfoglalt Alexandriában, Virginiában kezdődik és a Mansion House kórházban megforduló nővérek, orvosok, csempészek, északi katonák, déli lojalisták és rabszolgák életét és kaotikus világát mutatja be a polgárháború csataterén túl. A főszereplő, két fiatal önkéntes nővér, akik a polgárháború ellentétes oldalán állnak; a New England-i abolicionista, megbízható Mary Phinney és a fiatal, naiv déli szépség, a konföderációt támogató Emma Green. Az ő életüket követhetjük közelebbről is nyomon, ahogy példátlan kihívásokkal néznek szembe az Egyesült Államok egyik legviharosabb időszakában.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2016",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 52
   },
   {
     "id": "tt8041658",
