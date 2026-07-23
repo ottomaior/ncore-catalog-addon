@@ -12,7 +12,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 288
+    "seeders": 532
   },
   {
     "id": "tt0427340",
@@ -29,24 +29,23 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 1955
+    "seeders": 2342
   },
   {
-    "id": "tt39749953",
+    "id": "tt32093575",
     "type": "movie",
-    "name": "A behajtó",
-    "poster": "https://image.tmdb.org/t/p/w500/qADBUb5ybrkRVGZEFF8Z4RuOwys.jpg",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A börtön után bűntudattól gyötörve egy egykori adósságbehajtó, aki halálos betegséggel küzd, versenyt fut az idővel: visszatér régi világába, hogy bosszút álljon az uzsorások áldozataiért.",
-    "imdbRating": null,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller",
-      "Bűnügyi"
+      "Vígjáték",
+      "Horror"
     ],
-    "seeders": 197
+    "seeders": 3385
   },
   {
     "id": "tt30825738",
@@ -63,23 +62,24 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1809
+    "seeders": 1998
   },
   {
-    "id": "tt32093575",
+    "id": "tt39749953",
     "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "name": "A behajtó",
+    "poster": "https://image.tmdb.org/t/p/w500/qADBUb5ybrkRVGZEFF8Z4RuOwys.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
+    "description": "A börtön után bűntudattól gyötörve egy egykori adósságbehajtó, aki halálos betegséggel küzd, versenyt fut az idővel: visszatér régi világába, hogy bosszút álljon az uzsorások áldozataiért.",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Horror"
+      "Akció",
+      "Thriller",
+      "Bűnügyi"
     ],
-    "seeders": 2912
+    "seeders": 278
   },
   {
     "id": "tt43617119",
@@ -95,7 +95,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 95
+    "seeders": 106
   },
   {
     "id": "tt34375721",
@@ -112,7 +112,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 233
+    "seeders": 275
   },
   {
     "id": "tt37287335",
@@ -128,24 +128,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1008
-  },
-  {
-    "id": "tt37042085",
-    "type": "movie",
-    "name": "Elize: Egy házasság sötét oldala",
-    "poster": "https://image.tmdb.org/t/p/w500/e7ofkr5drqphDavMOC1RuOgKqIJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A valós eseményeken alapuló feldolgozásban egy volt eszkortlány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 133
+    "seeders": 1101
   },
   {
     "id": "tt38492476",
@@ -160,7 +143,24 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 695
+    "seeders": 766
+  },
+  {
+    "id": "tt37042085",
+    "type": "movie",
+    "name": "Elize: Egy házasság sötét oldala",
+    "poster": "https://image.tmdb.org/t/p/w500/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A valós eseményeken alapuló feldolgozásban egy volt eszkortlány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 146
   },
   {
     "id": "tt13652286",
@@ -177,7 +177,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 539
+    "seeders": 577
   },
   {
     "id": "tt32283654",
@@ -192,7 +192,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 125
+    "seeders": 123
   },
   {
     "id": "tt31189814",
@@ -210,7 +210,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 826
+    "seeders": 887
   },
   {
     "id": "tt43677301",
@@ -225,7 +225,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 287
+    "seeders": 300
   },
   {
     "id": "tt34477910",
@@ -242,7 +242,7 @@
       "Családi",
       "TV film"
     ],
-    "seeders": 207
+    "seeders": 210
   },
   {
     "id": "tt32304349",
@@ -258,7 +258,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 163
+    "seeders": 161
   },
   {
     "id": "tt34459219",
@@ -274,24 +274,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 256
-  },
-  {
-    "id": "tt13518550",
-    "type": "movie",
-    "name": "Bálnadal",
-    "poster": "https://image.tmdb.org/t/p/w500/1DbsKg04S21Wqv50A12qyI2ZBzG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy félelmetes lény kiszabadul egy olvadó jéghegyről, egy önbizalomhiánnyal küzdő tinédzser púpos bálnának legnagyobb félelmeivel kell szembenéznie. Barátaival együtt le kell merülnie a legsötétebb mélységekbe, hogy megtalálják azt a különleges dalt, amely megmentheti az óceánokat a pusztulástól. (Csillag Lajos)",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 180
+    "seeders": 254
   },
   {
     "id": "tt32357218",
@@ -308,7 +291,24 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 175
+    "seeders": 178
+  },
+  {
+    "id": "tt13518550",
+    "type": "movie",
+    "name": "Bálnadal",
+    "poster": "https://image.tmdb.org/t/p/w500/1DbsKg04S21Wqv50A12qyI2ZBzG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy félelmetes lény kiszabadul egy olvadó jéghegyről, egy önbizalomhiánnyal küzdő tinédzser púpos bálnának legnagyobb félelmeivel kell szembenéznie. Barátaival együtt le kell merülnie a legsötétebb mélységekbe, hogy megtalálják azt a különleges dalt, amely megmentheti az óceánokat a pusztulástól. (Csillag Lajos)",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 181
   },
   {
     "id": "tt33612209",
@@ -324,7 +324,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 122
+    "seeders": 128
   },
   {
     "id": "tt17490712",
@@ -341,7 +341,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 101
+    "seeders": 104
   },
   {
     "id": "tt38109660",
@@ -359,25 +359,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 175
-  },
-  {
-    "id": "tt4900148",
-    "type": "movie",
-    "name": "Elio",
-    "poster": "https://image.tmdb.org/t/p/w500/sIyQU8uDZBjxtjd8lTqm7bt1Fjy.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Évszázadokon át az emberiség válaszok után kutatott a világegyetem felé tekintve – a Disney és a Pixar új filmjében, az Elióban az univerzum most válaszol! Az intergalaktikus kalamajka főhőse a hősszereptől idegenkedő Elio, akinek a képzelőereje nem ismer határokat. A fiút véletlenül felszippantja egy bolygóközi szervezet, amiben minden létező galaxis képviselteti magát. Eliót tévedésből a Föld nagykövetének tekintik, és mivel teljességgel felkészületlenül éri az így ránehezedő nyomás, muszáj lesz barátságot kötnie különc földönkívüli életformákkal, túlélnie néhány félelmetes próbatételt, és valahogyan rájönnie, minek is szánta őt a sors valójában.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Sci-Fi",
-      "Családi"
-    ],
-    "seeders": 40
+    "seeders": 183
   },
   {
     "id": "tt33292655",
@@ -394,7 +376,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 111
+    "seeders": 116
   },
   {
     "id": "tt41983440",
@@ -412,6 +394,24 @@
     "seeders": 93
   },
   {
+    "id": "tt4900148",
+    "type": "movie",
+    "name": "Elio",
+    "poster": "https://image.tmdb.org/t/p/w500/sIyQU8uDZBjxtjd8lTqm7bt1Fjy.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Évszázadokon át az emberiség válaszok után kutatott a világegyetem felé tekintve – a Disney és a Pixar új filmjében, az Elióban az univerzum most válaszol! Az intergalaktikus kalamajka főhőse a hősszereptől idegenkedő Elio, akinek a képzelőereje nem ismer határokat. A fiút véletlenül felszippantja egy bolygóközi szervezet, amiben minden létező galaxis képviselteti magát. Eliót tévedésből a Föld nagykövetének tekintik, és mivel teljességgel felkészületlenül éri az így ránehezedő nyomás, muszáj lesz barátságot kötnie különc földönkívüli életformákkal, túlélnie néhány félelmetes próbatételt, és valahogyan rájönnie, minek is szánta őt a sors valójában.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Sci-Fi",
+      "Családi"
+    ],
+    "seeders": 37
+  },
+  {
     "id": "tt33093531",
     "type": "movie",
     "name": "Saipan",
@@ -425,7 +425,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 64
+    "seeders": 62
   },
   {
     "id": "tt20911974",
@@ -441,7 +441,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 73
+    "seeders": 84
   },
   {
     "id": "tt36619926",
@@ -457,22 +457,23 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 58
+    "seeders": 57
   },
   {
-    "id": "tt36364025",
+    "id": "tt34750678",
     "type": "movie",
-    "name": "Akik látták a medvét",
-    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
+    "name": "Apuci újra pácban",
+    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
-    "imdbRating": 4.9,
+    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
+    "imdbRating": 6.0,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték"
+      "Vígjáték",
+      "Családi"
     ],
-    "seeders": 73
+    "seeders": 106
   },
   {
     "id": "tt32612507",
@@ -488,6 +489,6 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 114
+    "seeders": 113
   }
 ]
