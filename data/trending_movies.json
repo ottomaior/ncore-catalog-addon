@@ -1,5 +1,35 @@
 [
   {
+    "id": "tt36304003",
+    "type": "movie",
+    "name": "72 óra",
+    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
+    "imdbRating": 9.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 103
+  },
+  {
+    "id": "tt43619305",
+    "type": "movie",
+    "name": "A Toxic Love Story",
+    "poster": "https://image.tmdb.org/t/p/w500/bKrqQGLlIM8qjCjWhHTg6AhrlsY.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 60
+  },
+  {
     "id": "tt0427340",
     "type": "movie",
     "name": "Az univerzum védelmezői",
@@ -14,7 +44,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 1641
+    "seeders": 2101
   },
   {
     "id": "tt35672862",
@@ -29,7 +59,22 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 399
+    "seeders": 515
+  },
+  {
+    "id": "tt32093575",
+    "type": "movie",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 2696
   },
   {
     "id": "tt30825738",
@@ -46,22 +91,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1377
-  },
-  {
-    "id": "tt32093575",
-    "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 2166
+    "seeders": 1711
   },
   {
     "id": "tt34375721",
@@ -78,7 +108,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 206
+    "seeders": 253
   },
   {
     "id": "tt37287335",
@@ -94,7 +124,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 695
+    "seeders": 854
   },
   {
     "id": "tt43617119",
@@ -104,13 +134,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
-    "imdbRating": null,
+    "imdbRating": 1.0,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 86
+    "seeders": 98
   },
   {
     "id": "tt38492476",
@@ -125,24 +155,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 528
-  },
-  {
-    "id": "tt37042085",
-    "type": "movie",
-    "name": "Elize: Egy házasság sötét oldala",
-    "poster": "https://image.tmdb.org/t/p/w500/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A valós eseményeken alapuló feldolgozásban egy volt eszkortlány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 119
+    "seeders": 648
   },
   {
     "id": "tt13652286",
@@ -159,7 +172,24 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 388
+    "seeders": 486
+  },
+  {
+    "id": "tt37042085",
+    "type": "movie",
+    "name": "Elize: Egy házasság sötét oldala",
+    "poster": "https://image.tmdb.org/t/p/w500/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A valós eseményeken alapuló feldolgozásban egy volt eszkortlány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 138
   },
   {
     "id": "tt32283654",
@@ -174,7 +204,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 112
+    "seeders": 116
   },
   {
     "id": "tt31189814",
@@ -192,7 +222,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 620
+    "seeders": 759
   },
   {
     "id": "tt34477910",
@@ -209,7 +239,7 @@
       "Családi",
       "TV film"
     ],
-    "seeders": 170
+    "seeders": 193
   },
   {
     "id": "tt43677301",
@@ -224,23 +254,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 176
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 202
+    "seeders": 232
   },
   {
     "id": "tt32304349",
@@ -256,7 +270,23 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 113
+    "seeders": 150
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 235
   },
   {
     "id": "tt13518550",
@@ -273,23 +303,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 142
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 102
+    "seeders": 165
   },
   {
     "id": "tt32357218",
@@ -306,7 +320,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 128
+    "seeders": 161
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt17490712",
@@ -323,7 +353,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 88
+    "seeders": 98
   },
   {
     "id": "tt38109660",
@@ -341,7 +371,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 130
+    "seeders": 153
   },
   {
     "id": "tt33292655",
@@ -358,7 +388,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 86
+    "seeders": 102
   },
   {
     "id": "tt41983440",
@@ -373,7 +403,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 91
   },
   {
     "id": "tt4900148",
@@ -391,7 +421,7 @@
       "Sci-Fi",
       "Családi"
     ],
-    "seeders": 32
+    "seeders": 34
   },
   {
     "id": "tt33093531",
@@ -407,7 +437,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 50
+    "seeders": 63
   },
   {
     "id": "tt20911974",
@@ -423,7 +453,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 60
+    "seeders": 67
   },
   {
     "id": "tt32612507",
@@ -439,23 +469,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 98
-  },
-  {
-    "id": "tt36619926",
-    "type": "movie",
-    "name": "Fülig beléd zúgtam: Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/uKlc5Vrn9k7lnTx2XRcjOm1cgjz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 46
+    "seeders": 102
   },
   {
     "id": "tt36364025",
@@ -470,21 +484,6 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 59
-  },
-  {
-    "id": "tt35512802",
-    "type": "movie",
-    "name": "Les Immortelles",
-    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 48
+    "seeders": 66
   }
 ]
