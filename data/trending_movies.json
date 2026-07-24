@@ -1,20 +1,5 @@
 [
   {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy horroríró felkeres egy ír fogadót, hogy szétszórja szülei hamvait, nem is sejtve, hogy az épületet állítólag egy boszorkány kísérti.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 532
-  },
-  {
     "id": "tt0427340",
     "type": "movie",
     "name": "Az univerzum védelmezői",
@@ -29,7 +14,39 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2342
+    "seeders": 1641
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 399
+  },
+  {
+    "id": "tt30825738",
+    "type": "movie",
+    "name": "Star Wars: A Mandalóri és Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 1377
   },
   {
     "id": "tt32093575",
@@ -42,60 +59,9 @@
     "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Horror"
-    ],
-    "seeders": 3385
-  },
-  {
-    "id": "tt30825738",
-    "type": "movie",
-    "name": "Star Wars: A Mandalóri és Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 1998
-  },
-  {
-    "id": "tt39749953",
-    "type": "movie",
-    "name": "A behajtó",
-    "poster": "https://image.tmdb.org/t/p/w500/qADBUb5ybrkRVGZEFF8Z4RuOwys.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A börtön után bűntudattól gyötörve egy egykori adósságbehajtó, aki halálos betegséggel küzd, versenyt fut az idővel: visszatér régi világába, hogy bosszút álljon az uzsorások áldozataiért.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 278
-  },
-  {
-    "id": "tt43617119",
-    "type": "movie",
-    "name": "Szerelem lassított felvételben",
-    "poster": "https://image.tmdb.org/t/p/w500/cj3uvHPlfEmdy8veYczXs7ibHah.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 106
+    "seeders": 2166
   },
   {
     "id": "tt34375721",
@@ -112,7 +78,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 275
+    "seeders": 206
   },
   {
     "id": "tt37287335",
@@ -128,7 +94,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1101
+    "seeders": 695
+  },
+  {
+    "id": "tt43617119",
+    "type": "movie",
+    "name": "Szerelem lassított felvételben",
+    "poster": "https://image.tmdb.org/t/p/w500/R6jDMJOrChWK598bAJolOTAZ5L.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt38492476",
@@ -143,7 +125,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 766
+    "seeders": 528
   },
   {
     "id": "tt37042085",
@@ -153,14 +135,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A valós eseményeken alapuló feldolgozásban egy volt eszkortlány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
-    "imdbRating": 5.9,
+    "imdbRating": 5.8,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 146
+    "seeders": 119
   },
   {
     "id": "tt13652286",
@@ -177,7 +159,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 577
+    "seeders": 388
   },
   {
     "id": "tt32283654",
@@ -192,7 +174,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 123
+    "seeders": 112
   },
   {
     "id": "tt31189814",
@@ -202,7 +184,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "London belvárosában 500 kilós II. világháborús bombát találnak. A környéket kiürítik, a mindig zsúfolt, örökké izgatott városban egy egész kerületet zárnak le. Kiszállnak a tűzszerészek és munkához látnak. A tét nagy, a feszültség kézzelfogható, a bomba bármikor robbanhat - de szakemberek dolgoznak az ügyön. Csak éppen semmi sem igaz az egészből. A bomba nem világháborús, nem véletlenül került elő és nem lesz olyan könnyű hatástalanítani. Igazából egy bankrabló banda helyezte el: így akarják elterelni munkájukról a figyelmet és nyugodt körülményeket teremteni maguknak egy földalatti páncélterem feltöréséhez. Vagy ez sem igaz? Ők is csak áldozatok? Rendőrök, katonák, bankrablók és nemzetközi szélhámosok keresik a választ ugyanazokra a kérdésekre. Az időzítőszerkezet közben tovább ketyeg. Mert egyvalami azért biztos: a bomba mindjárt robbanni fog…",
-    "imdbRating": 6.5,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
@@ -210,7 +192,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 887
+    "seeders": 620
+  },
+  {
+    "id": "tt34477910",
+    "type": "movie",
+    "name": "Utódok: Gonoszok Csodaországa",
+    "poster": "https://image.tmdb.org/t/p/w500/nKeyLvDBt2TNkDilbQ6yl74Jy2N.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Fantasy",
+      "Családi",
+      "TV film"
+    ],
+    "seeders": 170
   },
   {
     "id": "tt43677301",
@@ -225,24 +224,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 300
+    "seeders": 176
   },
   {
-    "id": "tt34477910",
+    "id": "tt34459219",
     "type": "movie",
-    "name": "Utódok: Gonoszok Csodaországa",
-    "poster": "https://image.tmdb.org/t/p/w500/nKeyLvDBt2TNkDilbQ6yl74Jy2N.jpg",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
-    "imdbRating": 7.7,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
-      "Fantasy",
-      "Családi",
-      "TV film"
+      "Vígjáték",
+      "Családi"
     ],
-    "seeders": 210
+    "seeders": 202
   },
   {
     "id": "tt32304349",
@@ -258,40 +256,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 161
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 254
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 178
+    "seeders": 113
   },
   {
     "id": "tt13518550",
@@ -308,7 +273,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 181
+    "seeders": 142
   },
   {
     "id": "tt33612209",
@@ -323,6 +288,23 @@
     "genres": [
       "Vígjáték",
       "Dráma"
+    ],
+    "seeders": 102
+  },
+  {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
     ],
     "seeders": 128
   },
@@ -341,7 +323,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 104
+    "seeders": 88
   },
   {
     "id": "tt38109660",
@@ -359,7 +341,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 183
+    "seeders": 130
   },
   {
     "id": "tt33292655",
@@ -376,7 +358,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 116
+    "seeders": 86
   },
   {
     "id": "tt41983440",
@@ -386,12 +368,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
-    "imdbRating": 5.3,
+    "imdbRating": 5.2,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
-    "seeders": 93
+    "seeders": 79
   },
   {
     "id": "tt4900148",
@@ -409,7 +391,7 @@
       "Sci-Fi",
       "Családi"
     ],
-    "seeders": 37
+    "seeders": 32
   },
   {
     "id": "tt33093531",
@@ -425,7 +407,7 @@
       "Dráma",
       "Történelmi"
     ],
-    "seeders": 62
+    "seeders": 50
   },
   {
     "id": "tt20911974",
@@ -435,45 +417,13 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Három nővér visszatér otthonába, özvegy édesanyjuk harmadik esküvőjére. Anya és lányai kénytelenek felidézni a múltat, és szembenézni a jövővel, a váratlan esküvői vendégek színes csoportjának segítségével.",
-    "imdbRating": 6.1,
+    "imdbRating": 6.2,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 84
-  },
-  {
-    "id": "tt36619926",
-    "type": "movie",
-    "name": "Fülig beléd zúgtam: Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 57
-  },
-  {
-    "id": "tt34750678",
-    "type": "movie",
-    "name": "Apuci újra pácban",
-    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 106
+    "seeders": 60
   },
   {
     "id": "tt32612507",
@@ -489,6 +439,52 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 113
+    "seeders": 98
+  },
+  {
+    "id": "tt36619926",
+    "type": "movie",
+    "name": "Fülig beléd zúgtam: Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/uKlc5Vrn9k7lnTx2XRcjOm1cgjz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 46
+  },
+  {
+    "id": "tt36364025",
+    "type": "movie",
+    "name": "Akik látták a medvét",
+    "poster": "https://image.tmdb.org/t/p/w500/nVtJKQ034b3blVitW3DIClf2r83.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Grégoire és Michel között több évtizedes a korkülönbség, ennek ellenére nagyon jól megértik egymást, sőt, igazi barátok, együtt élvezik a természet közelségét. De nem csak ez köti össze őket, van egy közös védencük is: egy szökött cirkuszi medve.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 59
+  },
+  {
+    "id": "tt35512802",
+    "type": "movie",
+    "name": "Les Immortelles",
+    "poster": "https://image.tmdb.org/t/p/w500/53Edmay3Wz9yNR3UedwqCUjGtLf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 48
   }
 ]
