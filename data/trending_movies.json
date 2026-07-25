@@ -14,7 +14,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2770
+    "seeders": 1855
   },
   {
     "id": "tt36304003",
@@ -29,7 +29,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 419
+    "seeders": 332
   },
   {
     "id": "tt32093575",
@@ -42,9 +42,10 @@
     "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Vígjáték",
+      "Horror"
     ],
-    "seeders": 3505
+    "seeders": 2328
   },
   {
     "id": "tt30825738",
@@ -61,7 +62,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 2090
+    "seeders": 1450
   },
   {
     "id": "tt35672862",
@@ -76,7 +77,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 754
+    "seeders": 524
   },
   {
     "id": "tt41111628",
@@ -86,14 +87,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ruth (Stéphanie Magnin), a 30 éves nő, aki már jó ideje eltávolodott a családjától, hazatér, miután édesanyja rejtélyes körülmények között meghal. Itt ismét összetalálkozik apjával, Martínnal (Jose Coronado), aki a nyugdíjazása óta mogorva, agresszív férfivá vált, és megszállottan hisz egy baljós összeesküvés-elméletben. Kettejük viszonya annyira feszült, Martín viselkedése pedig olyannyira kiszámíthatatlan, hogy Ruth egy idő után arra kezd gyanakodni: talán az apjának köze lehetett az anyja halálához. Vajon lehetséges, hogy egy gyilkossal él egy fedél alatt?",
-    "imdbRating": 5.5,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 148
+    "seeders": 120
   },
   {
     "id": "tt37287335",
@@ -109,7 +110,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1105
+    "seeders": 734
   },
   {
     "id": "tt43619305",
@@ -119,12 +120,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A fenyegető e-mailek sorozata fokozatosan bosszúhadjárattá fajul, amelynek középpontjában egy frissen házasodott amerikai marsall és volt barátnője áll ebben a valós bűnügyet feldolgozó dokumentumfilmben.",
-    "imdbRating": 7.0,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 79
+    "seeders": 70
   },
   {
     "id": "tt34375721",
@@ -141,7 +142,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 299
+    "seeders": 215
   },
   {
     "id": "tt38492476",
@@ -156,7 +157,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 728
+    "seeders": 523
   },
   {
     "id": "tt13652286",
@@ -173,23 +174,23 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 577
+    "seeders": 408
   },
   {
     "id": "tt43617119",
     "type": "movie",
     "name": "Szerelem lassított felvételben",
-    "poster": "https://image.tmdb.org/t/p/w500/R6jDMJOrChWK598bAJolOTAZ5L.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/cj3uvHPlfEmdy8veYczXs7ibHah.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
-    "imdbRating": 3.0,
+    "imdbRating": 4.4,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 107
+    "seeders": 87
   },
   {
     "id": "tt37042085",
@@ -206,17 +207,17 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 142
+    "seeders": 105
   },
   {
     "id": "tt31189814",
     "type": "movie",
     "name": "Időzített bomba",
-    "poster": "https://image.tmdb.org/t/p/w500/8aMsMF5rNI4GAmtV9KJqER5kCWV.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/lRI7LdfUlRXwewyU0DUZcrAsF9y.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "London belvárosában 500 kilós II. világháborús bombát találnak. A környéket kiürítik, a mindig zsúfolt, örökké izgatott városban egy egész kerületet zárnak le. Kiszállnak a tűzszerészek és munkához látnak. A tét nagy, a feszültség kézzelfogható, a bomba bármikor robbanhat - de szakemberek dolgoznak az ügyön. Csak éppen semmi sem igaz az egészből. A bomba nem világháborús, nem véletlenül került elő és nem lesz olyan könnyű hatástalanítani. Igazából egy bankrabló banda helyezte el: így akarják elterelni munkájukról a figyelmet és nyugodt körülményeket teremteni maguknak egy földalatti páncélterem feltöréséhez. Vagy ez sem igaz? Ők is csak áldozatok? Rendőrök, katonák, bankrablók és nemzetközi szélhámosok keresik a választ ugyanazokra a kérdésekre. Az időzítőszerkezet közben tovább ketyeg. Mert egyvalami azért biztos: a bomba mindjárt robbanni fog…",
-    "imdbRating": 6.6,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
@@ -224,7 +225,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 875
+    "seeders": 618
   },
   {
     "id": "tt32283654",
@@ -239,22 +240,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 104
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 275
+    "seeders": 92
   },
   {
     "id": "tt34477910",
@@ -271,7 +257,22 @@
       "Családi",
       "TV film"
     ],
-    "seeders": 214
+    "seeders": 162
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 194
   },
   {
     "id": "tt34459219",
@@ -287,7 +288,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 260
+    "seeders": 200
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 111
   },
   {
     "id": "tt32304349",
@@ -303,7 +320,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 160
+    "seeders": 116
   },
   {
     "id": "tt13518550",
@@ -320,7 +337,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 182
+    "seeders": 135
   },
   {
     "id": "tt32357218",
@@ -337,23 +354,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 176
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 131
+    "seeders": 128
   },
   {
     "id": "tt17490712",
@@ -370,24 +371,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 110
-  },
-  {
-    "id": "tt33292655",
-    "type": "movie",
-    "name": "Jaj, Szia!",
-    "poster": "https://image.tmdb.org/t/p/w500/gwtl8FqpTZGBkl60U6QYDEzLYev.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Úgy tűnik, Iris (Molly Gordon – A mackó, Éretlenségi) megtalálta a tökéletes pasit: Isaac (Logan Lerman – Shirley, Harag) sármos, intelligens, vicces és szexi, nem csoda, hogy teljesen elvarázsolja a lányt. A fiatal pár épp az első romantikus kiruccanását élvezi egy idilli faházban. Mi ronthatná el ezt a tökéletes hétvégét? Például az, hogy kiderül, Isaac egészen másképp képzeli el ezt a kapcsolatot, mint a törődésre vágyó Iris. Ez pedig előhozza az ártatlannak tűnő lány legvadabb oldalát.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 122
+    "seeders": 93
   },
   {
     "id": "tt38109660",
@@ -405,7 +389,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 162
+    "seeders": 122
   },
   {
     "id": "tt41983440",
@@ -420,7 +404,24 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 87
+    "seeders": 79
+  },
+  {
+    "id": "tt33292655",
+    "type": "movie",
+    "name": "Jaj, Szia!",
+    "poster": "https://image.tmdb.org/t/p/w500/gwtl8FqpTZGBkl60U6QYDEzLYev.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Úgy tűnik, Iris (Molly Gordon – A mackó, Éretlenségi) megtalálta a tökéletes pasit: Isaac (Logan Lerman – Shirley, Harag) sármos, intelligens, vicces és szexi, nem csoda, hogy teljesen elvarázsolja a lányt. A fiatal pár épp az első romantikus kiruccanását élvezi egy idilli faházban. Mi ronthatná el ezt a tökéletes hétvégét? Például az, hogy kiderül, Isaac egészen másképp képzeli el ezt a kapcsolatot, mint a törődésre vágyó Iris. Ez pedig előhozza az ártatlannak tűnő lány legvadabb oldalát.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Romantikus",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 82
   },
   {
     "id": "tt4900148",
@@ -438,7 +439,7 @@
       "Sci-Fi",
       "Családi"
     ],
-    "seeders": 33
+    "seeders": 30
   },
   {
     "id": "tt20911974",
@@ -454,38 +455,38 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 74
+    "seeders": 58
   },
   {
-    "id": "tt34750678",
+    "id": "tt33093531",
     "type": "movie",
-    "name": "Apuci újra pácban",
-    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
+    "name": "Saipan",
+    "poster": "https://image.tmdb.org/t/p/w500/5Af6vLWQk8gj5099GhgpgY0jCiu.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
-    "imdbRating": 6.0,
+    "description": "A 2002-es FIFA-világbajnokság előestéjén az ír csapatkapitány, Roy Keane a csapat saipani felkészülési bázisán lemond a csapatban elfoglalt helyéről, miután heves nézeteltérésbe keveredik az ír menedzserrel, Mick McCarthyval.",
+    "imdbRating": 6.2,
     "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Családi"
+      "Dráma",
+      "Történelmi"
     ],
-    "seeders": 106
+    "seeders": 42
   },
   {
-    "id": "tt32612507",
+    "id": "tt36619926",
     "type": "movie",
-    "name": "Lee Cronin: A múmia",
-    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
+    "name": "Fülig beléd zúgtam: Mindörökké",
+    "poster": "https://image.tmdb.org/t/p/w500/uKlc5Vrn9k7lnTx2XRcjOm1cgjz.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
-    "imdbRating": 8.0,
+    "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Rejtély"
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 111
+    "seeders": 46
   }
 ]
