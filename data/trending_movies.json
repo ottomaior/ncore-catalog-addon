@@ -14,22 +14,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 1855
-  },
-  {
-    "id": "tt36304003",
-    "type": "movie",
-    "name": "72 óra",
-    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 332
+    "seeders": 2415
   },
   {
     "id": "tt32093575",
@@ -45,7 +30,22 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 2328
+    "seeders": 3024
+  },
+  {
+    "id": "tt36304003",
+    "type": "movie",
+    "name": "72 óra",
+    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 461
   },
   {
     "id": "tt30825738",
@@ -55,14 +55,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1450
+    "seeders": 1852
   },
   {
     "id": "tt35672862",
@@ -77,7 +77,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 524
+    "seeders": 696
   },
   {
     "id": "tt41111628",
@@ -87,14 +87,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Ruth (Stéphanie Magnin), a 30 éves nő, aki már jó ideje eltávolodott a családjától, hazatér, miután édesanyja rejtélyes körülmények között meghal. Itt ismét összetalálkozik apjával, Martínnal (Jose Coronado), aki a nyugdíjazása óta mogorva, agresszív férfivá vált, és megszállottan hisz egy baljós összeesküvés-elméletben. Kettejük viszonya annyira feszült, Martín viselkedése pedig olyannyira kiszámíthatatlan, hogy Ruth egy idő után arra kezd gyanakodni: talán az apjának köze lehetett az anyja halálához. Vajon lehetséges, hogy egy gyilkossal él egy fedél alatt?",
-    "imdbRating": 7.0,
+    "imdbRating": 5.0,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 120
+    "seeders": 168
   },
   {
     "id": "tt37287335",
@@ -110,22 +110,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 734
-  },
-  {
-    "id": "tt43619305",
-    "type": "movie",
-    "name": "Toxikus párkapcsolat",
-    "poster": "https://image.tmdb.org/t/p/w500/9CmyFXKqQRVbGGxyJE6kp7fhrHa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A fenyegető e-mailek sorozata fokozatosan bosszúhadjárattá fajul, amelynek középpontjában egy frissen házasodott amerikai marsall és volt barátnője áll ebben a valós bűnügyet feldolgozó dokumentumfilmben.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 70
+    "seeders": 964
   },
   {
     "id": "tt34375721",
@@ -142,7 +127,22 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 215
+    "seeders": 268
+  },
+  {
+    "id": "tt43619305",
+    "type": "movie",
+    "name": "Toxikus párkapcsolat",
+    "poster": "https://image.tmdb.org/t/p/w500/9CmyFXKqQRVbGGxyJE6kp7fhrHa.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A fenyegető e-mailek sorozata fokozatosan bosszúhadjárattá fajul, amelynek középpontjában egy frissen házasodott amerikai marsall és volt barátnője áll ebben a valós bűnügyet feldolgozó dokumentumfilmben.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt38492476",
@@ -157,7 +157,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 523
+    "seeders": 674
   },
   {
     "id": "tt13652286",
@@ -174,7 +174,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 408
+    "seeders": 524
   },
   {
     "id": "tt43617119",
@@ -190,7 +190,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 87
+    "seeders": 105
   },
   {
     "id": "tt37042085",
@@ -207,7 +207,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 105
+    "seeders": 133
   },
   {
     "id": "tt31189814",
@@ -225,7 +225,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 618
+    "seeders": 779
   },
   {
     "id": "tt32283654",
@@ -240,24 +240,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 92
-  },
-  {
-    "id": "tt34477910",
-    "type": "movie",
-    "name": "Utódok: Gonoszok Csodaországa",
-    "poster": "https://image.tmdb.org/t/p/w500/nKeyLvDBt2TNkDilbQ6yl74Jy2N.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Fantasy",
-      "Családi",
-      "TV film"
-    ],
-    "seeders": 162
+    "seeders": 96
   },
   {
     "id": "tt43677301",
@@ -272,39 +255,24 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 194
+    "seeders": 244
   },
   {
-    "id": "tt34459219",
+    "id": "tt34477910",
     "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "name": "Utódok: Gonoszok Csodaországa",
+    "poster": "https://image.tmdb.org/t/p/w500/nKeyLvDBt2TNkDilbQ6yl74Jy2N.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.4,
+    "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Családi"
+      "Fantasy",
+      "Családi",
+      "TV film"
     ],
-    "seeders": 200
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 111
+    "seeders": 197
   },
   {
     "id": "tt32304349",
@@ -320,7 +288,23 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 116
+    "seeders": 155
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 228
   },
   {
     "id": "tt13518550",
@@ -337,7 +321,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 135
+    "seeders": 163
   },
   {
     "id": "tt32357218",
@@ -354,7 +338,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 128
+    "seeders": 154
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 120
   },
   {
     "id": "tt17490712",
@@ -371,7 +371,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 93
+    "seeders": 112
   },
   {
     "id": "tt38109660",
@@ -389,22 +389,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 122
-  },
-  {
-    "id": "tt41983440",
-    "type": "movie",
-    "name": "23 000 élet",
-    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 79
+    "seeders": 155
   },
   {
     "id": "tt33292655",
@@ -421,7 +406,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 82
+    "seeders": 98
+  },
+  {
+    "id": "tt41983440",
+    "type": "movie",
+    "name": "23 000 élet",
+    "poster": "https://image.tmdb.org/t/p/w500/8ZPoxkREjC92rGIOm2jwWMugl3g.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
+    "imdbRating": 5.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt4900148",
@@ -439,7 +439,23 @@
       "Sci-Fi",
       "Családi"
     ],
-    "seeders": 30
+    "seeders": 35
+  },
+  {
+    "id": "tt32612507",
+    "type": "movie",
+    "name": "Lee Cronin: A múmia",
+    "poster": "https://image.tmdb.org/t/p/w500/vMA3nXmjQ5LMAxQWrXigEZaBych.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy újságíró fiatal lánya nyomtalanul eltűnik a sivatagban. Nyolc évvel később a megtört családot váratlan sokk éri, amikor a lány visszatér hozzájuk. Az örömteli viszontlátás helyett azonban egy valóságos rémálom kezdődik.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély"
+    ],
+    "seeders": 104
   },
   {
     "id": "tt20911974",
@@ -455,23 +471,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 58
-  },
-  {
-    "id": "tt33093531",
-    "type": "movie",
-    "name": "Saipan",
-    "poster": "https://image.tmdb.org/t/p/w500/5Af6vLWQk8gj5099GhgpgY0jCiu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A 2002-es FIFA-világbajnokság előestéjén az ír csapatkapitány, Roy Keane a csapat saipani felkészülési bázisán lemond a csapatban elfoglalt helyéről, miután heves nézeteltérésbe keveredik az ír menedzserrel, Mick McCarthyval.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi"
-    ],
-    "seeders": 42
+    "seeders": 66
   },
   {
     "id": "tt36619926",
@@ -487,6 +487,6 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 46
+    "seeders": 54
   }
 ]
