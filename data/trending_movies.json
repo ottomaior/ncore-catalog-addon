@@ -14,7 +14,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2747
+    "seeders": 3049
   },
   {
     "id": "tt32093575",
@@ -30,7 +30,22 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 3414
+    "seeders": 3799
+  },
+  {
+    "id": "tt43683795",
+    "type": "movie",
+    "name": "Eufória: Visszatekintés",
+    "poster": "https://image.tmdb.org/t/p/w500/1us6iYG7P600BgSdwjb6mFYCP97.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Visszatekintés az HBO nagysikerű sorozatára, az Eufóriára, a szereplőkkel és az alkotócsapattal készített interjúk alapján.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 156
   },
   {
     "id": "tt30825738",
@@ -47,22 +62,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 2074
-  },
-  {
-    "id": "tt36304003",
-    "type": "movie",
-    "name": "72 óra",
-    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 512
+    "seeders": 2242
   },
   {
     "id": "tt35672862",
@@ -77,7 +77,38 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 801
+    "seeders": 896
+  },
+  {
+    "id": "tt36304003",
+    "type": "movie",
+    "name": "72 óra",
+    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 527
+  },
+  {
+    "id": "tt37287335",
+    "type": "movie",
+    "name": "Megszállottság",
+    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 1137
   },
   {
     "id": "tt41111628",
@@ -94,23 +125,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 177
-  },
-  {
-    "id": "tt37287335",
-    "type": "movie",
-    "name": "Megszállottság",
-    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 1084
+    "seeders": 180
   },
   {
     "id": "tt34375721",
@@ -127,7 +142,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 292
+    "seeders": 302
   },
   {
     "id": "tt38492476",
@@ -142,7 +157,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 730
+    "seeders": 764
   },
   {
     "id": "tt13652286",
@@ -159,7 +174,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 563
+    "seeders": 571
   },
   {
     "id": "tt43619305",
@@ -174,7 +189,25 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 91
+    "seeders": 94
+  },
+  {
+    "id": "tt31189814",
+    "type": "movie",
+    "name": "Időzített bomba",
+    "poster": "https://image.tmdb.org/t/p/w500/lRI7LdfUlRXwewyU0DUZcrAsF9y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "London belvárosában 500 kilós II. világháborús bombát találnak. A környéket kiürítik, a mindig zsúfolt, örökké izgatott városban egy egész kerületet zárnak le. Kiszállnak a tűzszerészek és munkához látnak. A tét nagy, a feszültség kézzelfogható, a bomba bármikor robbanhat - de szakemberek dolgoznak az ügyön. Csak éppen semmi sem igaz az egészből. A bomba nem világháborús, nem véletlenül került elő és nem lesz olyan könnyű hatástalanítani. Igazából egy bankrabló banda helyezte el: így akarják elterelni munkájukról a figyelmet és nyugodt körülményeket teremteni maguknak egy földalatti páncélterem feltöréséhez. Vagy ez sem igaz? Ők is csak áldozatok? Rendőrök, katonák, bankrablók és nemzetközi szélhámosok keresik a választ ugyanazokra a kérdésekre. Az időzítőszerkezet közben tovább ketyeg. Mert egyvalami azért biztos: a bomba mindjárt robbanni fog…",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 862
   },
   {
     "id": "tt43617119",
@@ -190,7 +223,7 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 103
+    "seeders": 107
   },
   {
     "id": "tt37042085",
@@ -207,40 +240,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 144
-  },
-  {
-    "id": "tt31189814",
-    "type": "movie",
-    "name": "Időzített bomba",
-    "poster": "https://image.tmdb.org/t/p/w500/lRI7LdfUlRXwewyU0DUZcrAsF9y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "London belvárosában 500 kilós II. világháborús bombát találnak. A környéket kiürítik, a mindig zsúfolt, örökké izgatott városban egy egész kerületet zárnak le. Kiszállnak a tűzszerészek és munkához látnak. A tét nagy, a feszültség kézzelfogható, a bomba bármikor robbanhat - de szakemberek dolgoznak az ügyön. Csak éppen semmi sem igaz az egészből. A bomba nem világháborús, nem véletlenül került elő és nem lesz olyan könnyű hatástalanítani. Igazából egy bankrabló banda helyezte el: így akarják elterelni munkájukról a figyelmet és nyugodt körülményeket teremteni maguknak egy földalatti páncélterem feltöréséhez. Vagy ez sem igaz? Ők is csak áldozatok? Rendőrök, katonák, bankrablók és nemzetközi szélhámosok keresik a választ ugyanazokra a kérdésekre. Az időzítőszerkezet közben tovább ketyeg. Mert egyvalami azért biztos: a bomba mindjárt robbanni fog…",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 827
-  },
-  {
-    "id": "tt32283654",
-    "type": "movie",
-    "name": "Rövid nyár",
-    "poster": "https://image.tmdb.org/t/p/w500/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcéves Katya a nagyszüleinél tölti a nyarat az orosz vidéken, miközben a háttérben háború dúl, a felnőttek pedig csendben, egymástól eltávolodva próbálnak együtt élni a széthulló mindennapokkal. A lány gyermeki ártatlansággal figyeli a körülötte zajló eseményeket, és lassan szembesül azzal, hogy a világ sokkal összetettebb és fájdalmasabb, mint amilyennek addig hitte.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 101
+    "seeders": 141
   },
   {
     "id": "tt43677301",
@@ -255,7 +255,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 261
+    "seeders": 276
+  },
+  {
+    "id": "tt32283654",
+    "type": "movie",
+    "name": "Rövid nyár",
+    "poster": "https://image.tmdb.org/t/p/w500/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcéves Katya a nagyszüleinél tölti a nyarat az orosz vidéken, miközben a háttérben háború dúl, a felnőttek pedig csendben, egymástól eltávolodva próbálnak együtt élni a széthulló mindennapokkal. A lány gyermeki ártatlansággal figyeli a körülötte zajló eseményeket, és lassan szembesül azzal, hogy a világ sokkal összetettebb és fájdalmasabb, mint amilyennek addig hitte.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt34477910",
@@ -288,7 +303,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 253
+    "seeders": 247
   },
   {
     "id": "tt32304349",
@@ -304,7 +319,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 155
+    "seeders": 156
   },
   {
     "id": "tt33612209",
@@ -320,7 +335,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 143
+    "seeders": 146
   },
   {
     "id": "tt13518550",
@@ -337,7 +352,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 178
+    "seeders": 180
   },
   {
     "id": "tt32357218",
@@ -354,7 +369,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 163
+    "seeders": 168
   },
   {
     "id": "tt17490712",
@@ -371,7 +386,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 117
+    "seeders": 123
   },
   {
     "id": "tt38109660",
@@ -389,7 +404,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 166
+    "seeders": 167
   },
   {
     "id": "tt33292655",
@@ -406,7 +421,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 110
+    "seeders": 106
   },
   {
     "id": "tt41983440",
@@ -421,7 +436,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 86
   },
   {
     "id": "tt4900148",
@@ -439,7 +454,23 @@
       "Sci-Fi",
       "Családi"
     ],
-    "seeders": 33
+    "seeders": 34
+  },
+  {
+    "id": "tt34750678",
+    "type": "movie",
+    "name": "Apuci újra pácban",
+    "poster": "https://image.tmdb.org/t/p/w500/2OXJHzwRgcSa8G4SrFDp7ZU1Rot.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Carlo (Fabio De Luigi) az a fajta apa, aki hercegnőként neveli lányát, de ebből a rajongásából fakadóan lemondani sem hajlandó róla. Egy nap azonban a már az egyetemre készülő Camilla úgy dönt, hogy barátjával, Antonióval Pugliába költözik. Carlo és Giulia, valamint másik két gyermekük, Bianca és Tito is csatlakoznak hozzájuk Antonio szülei, a Paradiso család farmján. Természetesen Carlo minden alkalmat megragad, hogy kellemetlen vendéggé tegye magát.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 104
   },
   {
     "id": "tt32612507",
@@ -455,38 +486,6 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 110
-  },
-  {
-    "id": "tt20911974",
-    "type": "movie",
-    "name": "My Mother's Wedding",
-    "poster": "https://image.tmdb.org/t/p/w500/feHTwv3BplNlLW3o9LtW2kqZLJg.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Három nővér visszatér otthonába, özvegy édesanyjuk harmadik esküvőjére. Anya és lányai kénytelenek felidézni a múltat, és szembenézni a jövővel, a váratlan esküvői vendégek színes csoportjának segítségével.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 69
-  },
-  {
-    "id": "tt36619926",
-    "type": "movie",
-    "name": "Fülig beléd zúgtam: Mindörökké",
-    "poster": "https://image.tmdb.org/t/p/w500/uKlc5Vrn9k7lnTx2XRcjOm1cgjz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Új tanév kezdődik a Truham–Higgs diákjai számára. Ahogy Nick és Charlie kapcsolata egyre mélyül, gondolataik már az iskola utáni élet körül forognak.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 54
+    "seeders": 108
   }
 ]
