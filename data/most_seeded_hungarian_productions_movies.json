@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999993
+"seeders": 999989
 },
 {
 "id": "tt29344974",
@@ -30,7 +30,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999986
+"seeders": 999985
 },
 {
 "id": "tt29567915",
@@ -46,7 +46,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999981
+"seeders": 999979
 },
 {
 "id": "tt20672356",
@@ -94,7 +94,24 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999921
+"seeders": 999926
+},
+{
+"id": "tt13652286",
+"type": "movie",
+"name": "Légi csapda",
+"poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
+"imdbRating": 6.3,
+"releaseInfo": "2025",
+"genres": [
+"Akció",
+"Vígjáték",
+"Thriller"
+],
+"seeders": 999908
 },
 {
 "id": "tt0179955",
@@ -111,7 +128,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999910
+"seeders": 999904
 },
 {
 "id": "tt0065067",
@@ -126,22 +143,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999883
-},
-{
-"id": "tt27811640",
-"type": "movie",
-"name": "Véletlenül írtam egy könyvet",
-"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
-"imdbRating": 6.6,
-"releaseInfo": "2025",
-"genres": [
-"Családi"
-],
-"seeders": 999864
+"seeders": 999877
 },
 {
 "id": "tt35303515",
@@ -157,7 +159,22 @@
 "Dráma",
 "Thriller"
 ],
-"seeders": 999863
+"seeders": 999868
+},
+{
+"id": "tt27811640",
+"type": "movie",
+"name": "Véletlenül írtam egy könyvet",
+"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
+"imdbRating": 6.6,
+"releaseInfo": "2025",
+"genres": [
+"Családi"
+],
+"seeders": 999856
 },
 {
 "id": "tt0142632",
@@ -174,7 +191,22 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999846
+"seeders": 999848
+},
+{
+"id": "tt38508942",
+"type": "movie",
+"name": "Beléd estem",
+"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
+"imdbRating": 3.7,
+"releaseInfo": "2026",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999841
 },
 {
 "id": "tt31065630",
@@ -205,7 +237,7 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999826
+"seeders": 999829
 },
 {
 "id": "tt0084315",
@@ -223,21 +255,6 @@
 "Kaland"
 ],
 "seeders": 999823
-},
-{
-"id": "tt38508942",
-"type": "movie",
-"name": "Beléd estem",
-"poster": "https://image.tmdb.org/t/p/w500/UBgJSobonODDgbDUoGgEDprnsM.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "Eszter egy '90-es években játszódó romantikus vígjáték főszerepét játssza a nőcsábász Bálint mellett. A való életben azonban a szerelmespárt játszó két színész ki nem állhatja egymást. Eszter a forgatás végén váratlanul balesetet szenved és fejsérülése miatt amnéziába esik.",
-"imdbRating": 3.7,
-"releaseInfo": "2026",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999820
 },
 {
 "id": "tt23172090",
@@ -319,23 +336,6 @@
 "Vígjáték"
 ],
 "seeders": 999788
-},
-{
-"id": "tt13652286",
-"type": "movie",
-"name": "Légi csapda",
-"poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
-"imdbRating": 6.3,
-"releaseInfo": "2025",
-"genres": [
-"Akció",
-"Vígjáték",
-"Thriller"
-],
-"seeders": 999787
 },
 {
 "id": "tt3117504",
