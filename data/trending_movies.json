@@ -14,7 +14,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2029
+    "seeders": 2779
   },
   {
     "id": "tt32093575",
@@ -30,7 +30,7 @@
       "Vígjáték",
       "Horror"
     ],
-    "seeders": 2456
+    "seeders": 3341
   },
   {
     "id": "tt30825738",
@@ -47,7 +47,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1541
+    "seeders": 2075
   },
   {
     "id": "tt35672862",
@@ -62,7 +62,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 613
+    "seeders": 819
   },
   {
     "id": "tt36304003",
@@ -77,7 +77,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 381
+    "seeders": 513
   },
   {
     "id": "tt43683795",
@@ -92,7 +92,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 126
+    "seeders": 171
   },
   {
     "id": "tt37287335",
@@ -108,7 +108,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 763
+    "seeders": 1037
   },
   {
     "id": "tt41111628",
@@ -125,7 +125,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 135
+    "seeders": 176
   },
   {
     "id": "tt34375721",
@@ -142,7 +142,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 214
+    "seeders": 276
   },
   {
     "id": "tt38492476",
@@ -157,7 +157,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 527
+    "seeders": 687
   },
   {
     "id": "tt13652286",
@@ -174,7 +174,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 409
+    "seeders": 534
   },
   {
     "id": "tt43619305",
@@ -189,7 +189,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 79
+    "seeders": 92
   },
   {
     "id": "tt31189814",
@@ -207,7 +207,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 610
+    "seeders": 789
   },
   {
     "id": "tt37042085",
@@ -224,7 +224,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 109
+    "seeders": 137
   },
   {
     "id": "tt43617119",
@@ -240,22 +240,22 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 82
+    "seeders": 102
   },
   {
-    "id": "tt32283654",
+    "id": "tt43677301",
     "type": "movie",
-    "name": "Rövid nyár",
-    "poster": "https://image.tmdb.org/t/p/w500/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcéves Katya a nagyszüleinél tölti a nyarat az orosz vidéken, miközben a háttérben háború dúl, a felnőttek pedig csendben, egymástól eltávolodva próbálnak együtt élni a széthulló mindennapokkal. A lány gyermeki ártatlansággal figyeli a körülötte zajló eseményeket, és lassan szembesül azzal, hogy a világ sokkal összetettebb és fájdalmasabb, mint amilyennek addig hitte.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Dokumentum"
     ],
-    "seeders": 80
+    "seeders": 255
   },
   {
     "id": "tt34477910",
@@ -273,22 +273,22 @@
       "TV film",
       "Kaland"
     ],
-    "seeders": 159
+    "seeders": 206
   },
   {
-    "id": "tt43677301",
+    "id": "tt32283654",
     "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "name": "Rövid nyár",
+    "poster": "https://image.tmdb.org/t/p/w500/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 5.6,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A nyolcéves Katya a nagyszüleinél tölti a nyarat az orosz vidéken, miközben a háttérben háború dúl, a felnőttek pedig csendben, egymástól eltávolodva próbálnak együtt élni a széthulló mindennapokkal. A lány gyermeki ártatlansággal figyeli a körülötte zajló eseményeket, és lassan szembesül azzal, hogy a világ sokkal összetettebb és fájdalmasabb, mint amilyennek addig hitte.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum"
+      "Dráma"
     ],
-    "seeders": 190
+    "seeders": 90
   },
   {
     "id": "tt34459219",
@@ -304,23 +304,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 194
+    "seeders": 231
   },
   {
-    "id": "tt33612209",
+    "id": "tt32304349",
     "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "name": "Az ács fia",
+    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Dráma"
+      "Horror",
+      "Fantasy"
     ],
-    "seeders": 119
+    "seeders": 147
   },
   {
     "id": "tt13518550",
@@ -337,23 +337,23 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 133
+    "seeders": 171
   },
   {
-    "id": "tt32304349",
+    "id": "tt33612209",
     "type": "movie",
-    "name": "Az ács fia",
-    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Fantasy"
+      "Vígjáték",
+      "Dráma"
     ],
-    "seeders": 106
+    "seeders": 135
   },
   {
     "id": "tt32357218",
@@ -370,7 +370,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 120
+    "seeders": 157
   },
   {
     "id": "tt17490712",
@@ -387,7 +387,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 95
+    "seeders": 125
   },
   {
     "id": "tt38109660",
@@ -405,7 +405,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 122
+    "seeders": 164
   },
   {
     "id": "tt33292655",
@@ -422,7 +422,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 75
+    "seeders": 97
   },
   {
     "id": "tt41983440",
@@ -437,7 +437,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 71
+    "seeders": 88
   },
   {
     "id": "tt32612507",
@@ -453,7 +453,7 @@
       "Horror",
       "Rejtély"
     ],
-    "seeders": 90
+    "seeders": 102
   },
   {
     "id": "tt4900148",
@@ -471,7 +471,7 @@
       "Sci-Fi",
       "Családi"
     ],
-    "seeders": 29
+    "seeders": 32
   },
   {
     "id": "tt20911974",
@@ -487,6 +487,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 55
+    "seeders": 63
   }
 ]
