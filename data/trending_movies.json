@@ -14,7 +14,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 2162
+    "seeders": 2629
   },
   {
     "id": "tt0427340",
@@ -31,7 +31,22 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2941
+    "seeders": 3263
+  },
+  {
+    "id": "tt32093575",
+    "type": "movie",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 3867
   },
   {
     "id": "tt30825738",
@@ -48,37 +63,37 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 796
+    "seeders": 899
   },
   {
-    "id": "tt32093575",
+    "id": "tt35672862",
     "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Horror"
     ],
-    "seeders": 3488
+    "seeders": 991
   },
   {
     "id": "tt14064760",
     "type": "movie",
-    "name": "Pietinia Kronikas",
+    "name": "Déli krónikák",
     "poster": "https://image.tmdb.org/t/p/w500/5cS1YMEckoM1pmBzpoEAWTkZU9H.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "A történet Rimantsról szól, akit jobban érdekel a rögbi, a zenehallgatás és a feketepiaci kereskedés, mint a tanulás, de amikor beleszeret Monikába, a szerelembe és a jövőbe vetett hite próbára válik.",
     "imdbRating": 7.2,
     "releaseInfo": "2025",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 119
+    "seeders": 137
   },
   {
     "id": "tt12042730",
@@ -94,22 +109,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 132
-  },
-  {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 894
+    "seeders": 144
   },
   {
     "id": "tt36304003",
@@ -125,7 +125,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 554
+    "seeders": 569
   },
   {
     "id": "tt37287335",
@@ -141,7 +141,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1067
+    "seeders": 1155
   },
   {
     "id": "tt43683795",
@@ -156,7 +156,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 204
+    "seeders": 198
   },
   {
     "id": "tt38492476",
@@ -171,24 +171,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 635
-  },
-  {
-    "id": "tt34375721",
-    "type": "movie",
-    "name": "Sárkányok Kabul felett",
-    "poster": "https://image.tmdb.org/t/p/w500/rHOTaT34vaxzN7TAzgSWHiqCA5p.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 306
+    "seeders": 684
   },
   {
     "id": "tt13652286",
@@ -205,7 +188,24 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 522
+    "seeders": 544
+  },
+  {
+    "id": "tt34375721",
+    "type": "movie",
+    "name": "Sárkányok Kabul felett",
+    "poster": "https://image.tmdb.org/t/p/w500/rHOTaT34vaxzN7TAzgSWHiqCA5p.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 322
   },
   {
     "id": "tt41111628",
@@ -222,7 +222,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 162
+    "seeders": 152
   },
   {
     "id": "tt43619305",
@@ -237,7 +237,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 94
+    "seeders": 96
   },
   {
     "id": "tt37042085",
@@ -247,14 +247,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A valós eseményeken alapuló feldolgozásban, egy volt escort lány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
-    "imdbRating": 6.8,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 130
+    "seeders": 129
   },
   {
     "id": "tt43677301",
@@ -269,23 +269,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 249
-  },
-  {
-    "id": "tt43617119",
-    "type": "movie",
-    "name": "Szerelem lassított felvételben",
-    "poster": "https://image.tmdb.org/t/p/w500/cj3uvHPlfEmdy8veYczXs7ibHah.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
-    "imdbRating": 4.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 88
+    "seeders": 263
   },
   {
     "id": "tt33612209",
@@ -301,7 +285,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 169
+    "seeders": 181
   },
   {
     "id": "tt34477910",
@@ -319,7 +303,23 @@
       "TV film",
       "Kaland"
     ],
-    "seeders": 183
+    "seeders": 194
+  },
+  {
+    "id": "tt43617119",
+    "type": "movie",
+    "name": "Szerelem lassított felvételben",
+    "poster": "https://image.tmdb.org/t/p/w500/cj3uvHPlfEmdy8veYczXs7ibHah.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
+    "imdbRating": 4.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 85
   },
   {
     "id": "tt34459219",
@@ -335,22 +335,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 215
-  },
-  {
-    "id": "tt32283654",
-    "type": "movie",
-    "name": "Rövid nyár",
-    "poster": "https://image.tmdb.org/t/p/w500/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcéves Katya a nagyszüleinél tölti a nyarat az orosz vidéken, miközben a háttérben háború dúl, a felnőttek pedig csendben, egymástól eltávolodva próbálnak együtt élni a széthulló mindennapokkal. A lány gyermeki ártatlansággal figyeli a körülötte zajló eseményeket, és lassan szembesül azzal, hogy a világ sokkal összetettebb és fájdalmasabb, mint amilyennek addig hitte.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 88
+    "seeders": 226
   },
   {
     "id": "tt13518550",
@@ -367,40 +352,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 164
-  },
-  {
-    "id": "tt32304349",
-    "type": "movie",
-    "name": "Az ács fia",
-    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 131
-  },
-  {
-    "id": "tt17490712",
-    "type": "movie",
-    "name": "Mortal Kombat II.",
-    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Kaland"
-    ],
-    "seeders": 129
+    "seeders": 179
   },
   {
     "id": "tt32357218",
@@ -417,7 +369,55 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 140
+    "seeders": 153
+  },
+  {
+    "id": "tt32283654",
+    "type": "movie",
+    "name": "Rövid nyár",
+    "poster": "https://image.tmdb.org/t/p/w500/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcéves Katya a nagyszüleinél tölti a nyarat az orosz vidéken, miközben a háttérben háború dúl, a felnőttek pedig csendben, egymástól eltávolodva próbálnak együtt élni a széthulló mindennapokkal. A lány gyermeki ártatlansággal figyeli a körülötte zajló eseményeket, és lassan szembesül azzal, hogy a világ sokkal összetettebb és fájdalmasabb, mint amilyennek addig hitte.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 80
+  },
+  {
+    "id": "tt32304349",
+    "type": "movie",
+    "name": "Az ács fia",
+    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 125
+  },
+  {
+    "id": "tt17490712",
+    "type": "movie",
+    "name": "Mortal Kombat II.",
+    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Kaland"
+    ],
+    "seeders": 121
   },
   {
     "id": "tt38109660",
@@ -435,7 +435,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 146
+    "seeders": 160
   },
   {
     "id": "tt33292655",
@@ -452,7 +452,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 94
+    "seeders": 98
   },
   {
     "id": "tt41983440",
@@ -467,7 +467,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 74
   },
   {
     "id": "tt43595399",
