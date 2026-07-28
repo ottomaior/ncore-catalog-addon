@@ -14,7 +14,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1697
+    "seeders": 2162
   },
   {
     "id": "tt0427340",
@@ -31,7 +31,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2567
+    "seeders": 2941
   },
   {
     "id": "tt30825738",
@@ -48,7 +48,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 658
+    "seeders": 796
   },
   {
     "id": "tt32093575",
@@ -63,7 +63,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 2969
+    "seeders": 3488
   },
   {
     "id": "tt14064760",
@@ -78,7 +78,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 92
+    "seeders": 119
   },
   {
     "id": "tt12042730",
@@ -94,7 +94,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 119
+    "seeders": 132
   },
   {
     "id": "tt35672862",
@@ -109,7 +109,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 793
+    "seeders": 894
   },
   {
     "id": "tt36304003",
@@ -125,7 +125,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 505
+    "seeders": 554
   },
   {
     "id": "tt37287335",
@@ -141,7 +141,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 905
+    "seeders": 1067
   },
   {
     "id": "tt43683795",
@@ -156,7 +156,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 185
+    "seeders": 204
   },
   {
     "id": "tt38492476",
@@ -171,24 +171,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 591
-  },
-  {
-    "id": "tt13652286",
-    "type": "movie",
-    "name": "Légi csapda",
-    "poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 465
+    "seeders": 635
   },
   {
     "id": "tt34375721",
@@ -205,7 +188,24 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 267
+    "seeders": 306
+  },
+  {
+    "id": "tt13652286",
+    "type": "movie",
+    "name": "Légi csapda",
+    "poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 522
   },
   {
     "id": "tt41111628",
@@ -222,7 +222,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 158
+    "seeders": 162
   },
   {
     "id": "tt43619305",
@@ -237,7 +237,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 90
+    "seeders": 94
   },
   {
     "id": "tt37042085",
@@ -247,14 +247,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A valós eseményeken alapuló feldolgozásban, egy volt escort lány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 118
+    "seeders": 130
   },
   {
     "id": "tt43677301",
@@ -269,7 +269,39 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 214
+    "seeders": 249
+  },
+  {
+    "id": "tt43617119",
+    "type": "movie",
+    "name": "Szerelem lassított felvételben",
+    "poster": "https://image.tmdb.org/t/p/w500/cj3uvHPlfEmdy8veYczXs7ibHah.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
+    "imdbRating": 4.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 88
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 169
   },
   {
     "id": "tt34477910",
@@ -287,39 +319,7 @@
       "TV film",
       "Kaland"
     ],
-    "seeders": 174
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 156
-  },
-  {
-    "id": "tt43617119",
-    "type": "movie",
-    "name": "Szerelem lassított felvételben",
-    "poster": "https://image.tmdb.org/t/p/w500/cj3uvHPlfEmdy8veYczXs7ibHah.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
-    "imdbRating": 4.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 77
+    "seeders": 183
   },
   {
     "id": "tt34459219",
@@ -335,7 +335,22 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 203
+    "seeders": 215
+  },
+  {
+    "id": "tt32283654",
+    "type": "movie",
+    "name": "Rövid nyár",
+    "poster": "https://image.tmdb.org/t/p/w500/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A nyolcéves Katya a nagyszüleinél tölti a nyarat az orosz vidéken, miközben a háttérben háború dúl, a felnőttek pedig csendben, egymástól eltávolodva próbálnak együtt élni a széthulló mindennapokkal. A lány gyermeki ártatlansággal figyeli a körülötte zajló eseményeket, és lassan szembesül azzal, hogy a világ sokkal összetettebb és fájdalmasabb, mint amilyennek addig hitte.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 88
   },
   {
     "id": "tt13518550",
@@ -352,22 +367,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 163
-  },
-  {
-    "id": "tt32283654",
-    "type": "movie",
-    "name": "Rövid nyár",
-    "poster": "https://image.tmdb.org/t/p/w500/8koHNQPJmwgd53S3heLOufS9YUM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A nyolcéves Katya a nagyszüleinél tölti a nyarat az orosz vidéken, miközben a háttérben háború dúl, a felnőttek pedig csendben, egymástól eltávolodva próbálnak együtt élni a széthulló mindennapokkal. A lány gyermeki ártatlansággal figyeli a körülötte zajló eseményeket, és lassan szembesül azzal, hogy a világ sokkal összetettebb és fájdalmasabb, mint amilyennek addig hitte.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 81
+    "seeders": 164
   },
   {
     "id": "tt32304349",
@@ -383,24 +383,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 135
+    "seeders": 131
   },
   {
     "id": "tt17490712",
@@ -417,7 +400,24 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 116
+    "seeders": 129
+  },
+  {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 140
   },
   {
     "id": "tt38109660",
@@ -435,7 +435,7 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 134
+    "seeders": 146
   },
   {
     "id": "tt33292655",
@@ -452,7 +452,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 85
+    "seeders": 94
   },
   {
     "id": "tt41983440",
@@ -467,7 +467,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 73
+    "seeders": 79
   },
   {
     "id": "tt43595399",
@@ -482,6 +482,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 100
+    "seeders": 99
   }
 ]
