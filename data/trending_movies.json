@@ -13,7 +13,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 469
+    "seeders": 715
   },
   {
     "id": "tt8814476",
@@ -30,7 +30,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 2606
+    "seeders": 3014
   },
   {
     "id": "tt0427340",
@@ -47,7 +47,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2891
+    "seeders": 3177
   },
   {
     "id": "tt32093575",
@@ -62,7 +62,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 3369
+    "seeders": 3789
   },
   {
     "id": "tt30825738",
@@ -79,7 +79,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 907
+    "seeders": 1034
   },
   {
     "id": "tt35672862",
@@ -94,7 +94,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 68
+    "seeders": 1012
   },
   {
     "id": "tt36304003",
@@ -110,23 +110,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 544
-  },
-  {
-    "id": "tt12042730",
-    "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Kaland"
-    ],
-    "seeders": 164
+    "seeders": 547
   },
   {
     "id": "tt37287335",
@@ -142,7 +126,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1027
+    "seeders": 1122
+  },
+  {
+    "id": "tt12042730",
+    "type": "movie",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 170
   },
   {
     "id": "tt14064760",
@@ -157,7 +157,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 126
+    "seeders": 131
   },
   {
     "id": "tt38492476",
@@ -172,7 +172,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 656
+    "seeders": 685
   },
   {
     "id": "tt13652286",
@@ -189,7 +189,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 515
+    "seeders": 543
   },
   {
     "id": "tt43683795",
@@ -204,7 +204,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 185
+    "seeders": 199
   },
   {
     "id": "tt34375721",
@@ -221,7 +221,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 278
+    "seeders": 310
   },
   {
     "id": "tt41111628",
@@ -238,7 +238,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 147
+    "seeders": 152
   },
   {
     "id": "tt43677301",
@@ -253,24 +253,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 244
-  },
-  {
-    "id": "tt37042085",
-    "type": "movie",
-    "name": "Elize: Egy házasság sötét oldala",
-    "poster": "https://image.tmdb.org/t/p/w500/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A valós eseményeken alapuló feldolgozásban, egy volt escort lány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 120
+    "seeders": 265
   },
   {
     "id": "tt43619305",
@@ -285,7 +268,24 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 88
+    "seeders": 99
+  },
+  {
+    "id": "tt37042085",
+    "type": "movie",
+    "name": "Elize: Egy házasság sötét oldala",
+    "poster": "https://image.tmdb.org/t/p/w500/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A valós eseményeken alapuló feldolgozásban, egy volt escort lány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 122
   },
   {
     "id": "tt34477910",
@@ -303,23 +303,7 @@
       "TV film",
       "Kaland"
     ],
-    "seeders": 184
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 222
+    "seeders": 195
   },
   {
     "id": "tt33612209",
@@ -335,7 +319,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 156
+    "seeders": 173
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 226
   },
   {
     "id": "tt43617119",
@@ -368,7 +368,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 170
+    "seeders": 167
   },
   {
     "id": "tt32357218",
@@ -385,7 +385,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 144
+    "seeders": 159
   },
   {
     "id": "tt32283654",
@@ -400,7 +400,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 80
+    "seeders": 78
   },
   {
     "id": "tt32304349",
@@ -416,24 +416,7 @@
       "Horror",
       "Fantasy"
     ],
-    "seeders": 121
-  },
-  {
-    "id": "tt17490712",
-    "type": "movie",
-    "name": "Mortal Kombat II.",
-    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Kaland"
-    ],
-    "seeders": 109
+    "seeders": 118
   },
   {
     "id": "tt38109660",
@@ -451,7 +434,24 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 147
+    "seeders": 153
+  },
+  {
+    "id": "tt17490712",
+    "type": "movie",
+    "name": "Mortal Kombat II.",
+    "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Mortal Kombat világában nincs tét nélküli mérkőzés. Aki veszít, meghal. Néha az is, aki nyer. Mégis vannak bajnokok, akik habozás nélkül vállalják a küzdelmet. Hiszen tudják, hogy nem csupán a dicsőségért, vagy a győzelem öröméért kell mindent kockára tenniük: az egész világ jövőjét, a fény vagy a sötétség uralmát dönti el, hogy ki kerekedik felül. Kár, hogy Johnny Cage-nek semmi kedve az egészhez. Ő nem szokott verekedni: kivéve, ha filmezik közben… A hatalmas sikert arató videójáték megfilmesítése új szintre lépett: kegyetlenül, látványosan, megfékezhetetlenül mutatja be az új, mindent eldöntő bajnokságot, ahol pástra lépnek a régi bajnokok - és egy kiöregedett hollywoodi színész, bizonyos Johnny Cage.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Kaland"
+    ],
+    "seeders": 105
   },
   {
     "id": "tt33292655",
@@ -468,7 +468,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 83
+    "seeders": 91
   },
   {
     "id": "tt41983440",
@@ -483,6 +483,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 73
+    "seeders": 70
   }
 ]
