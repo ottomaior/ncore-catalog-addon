@@ -3,7 +3,7 @@
     "id": "tt8814476",
     "type": "movie",
     "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/niSvU02l2BONH9ivubV6K1a5QiK.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/moejGxR2haap29d9NQ7qe8x4eGj.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
@@ -14,7 +14,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 2629
+    "seeders": 1779
   },
   {
     "id": "tt0427340",
@@ -31,22 +31,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 3263
-  },
-  {
-    "id": "tt32093575",
-    "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 3867
+    "seeders": 2075
   },
   {
     "id": "tt30825738",
@@ -63,7 +48,22 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 899
+    "seeders": 642
+  },
+  {
+    "id": "tt32093575",
+    "type": "movie",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 2416
   },
   {
     "id": "tt35672862",
@@ -73,27 +73,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 6.9,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Horror"
     ],
-    "seeders": 991
-  },
-  {
-    "id": "tt14064760",
-    "type": "movie",
-    "name": "Déli krónikák",
-    "poster": "https://image.tmdb.org/t/p/w500/5cS1YMEckoM1pmBzpoEAWTkZU9H.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A történet Rimantsról szól, akit jobban érdekel a rögbi, a zenehallgatás és a feketepiaci kereskedés, mint a tanulás, de amikor beleszeret Monikába, a szerelembe és a jövőbe vetett hite próbára válik.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 137
+    "seeders": 636
   },
   {
     "id": "tt12042730",
@@ -109,7 +94,22 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 144
+    "seeders": 128
+  },
+  {
+    "id": "tt14064760",
+    "type": "movie",
+    "name": "Déli krónikák",
+    "poster": "https://image.tmdb.org/t/p/w500/5cS1YMEckoM1pmBzpoEAWTkZU9H.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A történet Rimantsról szól, akit jobban érdekel a rögbi, a zenehallgatás és a feketepiaci kereskedés, mint a tanulás, de amikor beleszeret Monikába, a szerelembe és a jövőbe vetett hite próbára válik.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 110
   },
   {
     "id": "tt36304003",
@@ -125,7 +125,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 569
+    "seeders": 412
   },
   {
     "id": "tt37287335",
@@ -141,7 +141,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1155
+    "seeders": 703
   },
   {
     "id": "tt43683795",
@@ -156,7 +156,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 198
+    "seeders": 153
   },
   {
     "id": "tt38492476",
@@ -171,7 +171,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 684
+    "seeders": 483
   },
   {
     "id": "tt13652286",
@@ -188,7 +188,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 544
+    "seeders": 383
   },
   {
     "id": "tt34375721",
@@ -205,7 +205,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 322
+    "seeders": 221
   },
   {
     "id": "tt41111628",
@@ -222,7 +222,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 152
+    "seeders": 116
   },
   {
     "id": "tt43619305",
@@ -232,12 +232,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A fenyegető e-mailek sorozata fokozatosan bosszúhadjárattá fajul, amelynek középpontjában egy frissen házasodott amerikai marsall és volt barátnője áll ebben a valós bűnügyet feldolgozó dokumentumfilmben.",
-    "imdbRating": 6.9,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 96
+    "seeders": 79
   },
   {
     "id": "tt37042085",
@@ -247,45 +247,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A valós eseményeken alapuló feldolgozásban, egy volt escort lány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 129
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 263
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 181
+    "seeders": 92
   },
   {
     "id": "tt34477910",
@@ -303,23 +272,38 @@
       "TV film",
       "Kaland"
     ],
-    "seeders": 194
+    "seeders": 152
   },
   {
-    "id": "tt43617119",
+    "id": "tt33612209",
     "type": "movie",
-    "name": "Szerelem lassított felvételben",
-    "poster": "https://image.tmdb.org/t/p/w500/cj3uvHPlfEmdy8veYczXs7ibHah.jpg",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
-    "imdbRating": 4.4,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
-      "Vígjáték"
+      "Vígjáték",
+      "Dráma"
     ],
-    "seeders": 85
+    "seeders": 134
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 168
   },
   {
     "id": "tt34459219",
@@ -335,7 +319,23 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 226
+    "seeders": 171
+  },
+  {
+    "id": "tt43617119",
+    "type": "movie",
+    "name": "Szerelem lassított felvételben",
+    "poster": "https://image.tmdb.org/t/p/w500/cj3uvHPlfEmdy8veYczXs7ibHah.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
+    "imdbRating": 4.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték"
+    ],
+    "seeders": 65
   },
   {
     "id": "tt13518550",
@@ -352,24 +352,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 179
-  },
-  {
-    "id": "tt32357218",
-    "type": "movie",
-    "name": "A megmentő",
-    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 153
+    "seeders": 127
   },
   {
     "id": "tt32283654",
@@ -384,23 +367,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 80
-  },
-  {
-    "id": "tt32304349",
-    "type": "movie",
-    "name": "Az ács fia",
-    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Fantasy"
-    ],
-    "seeders": 125
+    "seeders": 66
   },
   {
     "id": "tt17490712",
@@ -417,7 +384,40 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 121
+    "seeders": 97
+  },
+  {
+    "id": "tt32304349",
+    "type": "movie",
+    "name": "Az ács fia",
+    "poster": "https://image.tmdb.org/t/p/w500/aALn0PlhWafpDevTTrLLtn2YlTq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy család a római kori Egyiptomban bujkál. A „Fiú” néven ismert fiú kételkedik az „Ács” nevű gyámban, és titokzatos erőkkel lázad. Ahogy használja képességeit, természeti és isteni borzalmakkal szembesülnek.  (Szarka Károly)",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Fantasy"
+    ],
+    "seeders": 96
+  },
+  {
+    "id": "tt32357218",
+    "type": "movie",
+    "name": "A megmentő",
+    "poster": "https://image.tmdb.org/t/p/w500/mkXAIsmYA0Dk5UnrkQCr9CJiuNJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy isten háta mögötti skót szigeten él egy titokzatos férfi (Jason Statham). Senkivel sem tart kapcsolatot: a múltjával is szakítani akar.  Egyetlen kapcsolata a világgal egy kislány, aki hetente egyszer ételt visz neki. Az átmeneti harmóniát két veszély is fenyegeti: a közelgő hatalmas vihar, meg azok a deszantosok, akik éppen a bujkáló férfit keresik. A két baj egyszerre csap le, mindent felforgat, és nincs menekvés elölük: a férfi végül nem talál más kiutat, kénytelen áthágni a saját szigorú szabályait. Először csak a lányra akart vigyázni. Aztán már az otthonát kell védenie. Végül pedig a saját élete a tét és mindenkié, akit még szeretni tud.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 103
   },
   {
     "id": "tt38109660",
@@ -435,7 +435,22 @@
       "Történelmi",
       "Kaland"
     ],
-    "seeders": 160
+    "seeders": 109
+  },
+  {
+    "id": "tt41983440",
+    "type": "movie",
+    "name": "23 000 élet",
+    "poster": "https://image.tmdb.org/t/p/w500/fl84ocsxe3Lib5BGUhO0lFjDbDK.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 64
   },
   {
     "id": "tt33292655",
@@ -452,22 +467,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 98
-  },
-  {
-    "id": "tt41983440",
-    "type": "movie",
-    "name": "23 000 élet",
-    "poster": "https://image.tmdb.org/t/p/w500/fl84ocsxe3Lib5BGUhO0lFjDbDK.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy fiatalokból álló csoport vitorlát bont a Földközi-tengeren, hogy menekülteket mentsen – ám a küldetésük próbára teszi a törvénybe és az igazságba vetett hitüket.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 74
+    "seeders": 65
   },
   {
     "id": "tt43595399",
@@ -482,6 +482,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 99
+    "seeders": 76
   }
 ]
