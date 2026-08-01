@@ -2,7 +2,7 @@
   {
     "id": "tt36153493",
     "type": "movie",
-    "name": "Wildcat",
+    "name": "A vadmacska",
     "poster": "https://image.tmdb.org/t/p/w500/h893ImjM6Fsv5DFhKJdlZFZIJno.jpg",
     "posterShape": "poster",
     "year": 2025,
@@ -13,7 +13,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 131
+    "seeders": 233
+  },
+  {
+    "id": "tt39163015",
+    "type": "movie",
+    "name": "Idő és víz: Izland eltűnő gleccserei",
+    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 93
   },
   {
     "id": "tt33029380",
@@ -29,24 +44,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 312
-  },
-  {
-    "id": "tt34477899",
-    "type": "movie",
-    "name": "Engedetlenek",
-    "poster": "https://image.tmdb.org/t/p/w500/nV7h24rrVi5Mr7Z8IIJzrb1TdPA.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az 1990-es évek elején, Dél-Franciaországban játszódik a történet. Katy, Hélène, Laurence és Carole gyerekkoruk óta elválaszthatatlan barátnők. Húszas éveikben szűkös lehetőségekkel és nehézségekkel néznek szembe napsütötte kisvárosukban. Mindezek ellenére megőrzik optimizmusukat és kitartásukat, és egymást támogatva küzdenek meg az élet kihívásaival. Életük nagy fordulatot vesz, amikor Hélène, az egyedülálló, háromgyermekes anya váratlanul értesítést kap arról, hogy csökkentik a jóléti juttatásait, ami veszélyezteti családja megélhetését. Az igazságtalanság és a társadalmi egyenlőtlenségek miatti tehetetlenség érzése fellobbantja bennük a változtatás iránti vágyat. Váratlan lépésre szánják el magukat: kirabolnak egy bankot, majd hamarosan egyre vakmerőbb rablások sorozatába kezdenek.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Thriller",
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "seeders": 170
+    "seeders": 376
   },
   {
     "id": "tt8814476",
@@ -56,45 +54,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.8,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 480
-  },
-  {
-    "id": "tt34890320",
-    "type": "movie",
-    "name": "Preschool",
-    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 141
-  },
-  {
-    "id": "tt36958312",
-    "type": "movie",
-    "name": "ÖRDÖGSZÁJ",
-    "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Öt barát indul el felfedezni a thaiföldi Ördögszáj-barlangrendszert egy utolsó kaland során, mielőtt megkezdődik a nagybetűs élet. De hamarosan kiderül, hogy valami vadászik rájuk a víz alatt... és az a valami gyors, csendes és halálos. A fojtogató sötétségben a bizalom megrendül, a pánik eluralkodik, és minden rossz kanyar küzdelemmé válik a túlélésért.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 942
+    "seeders": 572
   },
   {
     "id": "tt0427340",
@@ -111,7 +78,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 3018
+    "seeders": 3143
   },
   {
     "id": "tt32093575",
@@ -126,7 +93,55 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 3526
+    "seeders": 3663
+  },
+  {
+    "id": "tt36958312",
+    "type": "movie",
+    "name": "ÖRDÖGSZÁJ",
+    "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Öt barát indul el felfedezni a thaiföldi Ördögszáj-barlangrendszert egy utolsó kaland során, mielőtt megkezdődik a nagybetűs élet. De hamarosan kiderül, hogy valami vadászik rájuk a víz alatt... és az a valami gyors, csendes és halálos. A fojtogató sötétségben a bizalom megrendül, a pánik eluralkodik, és minden rossz kanyar küzdelemmé válik a túlélésért.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 955
+  },
+  {
+    "id": "tt34477899",
+    "type": "movie",
+    "name": "Engedetlenek",
+    "poster": "https://image.tmdb.org/t/p/w500/nV7h24rrVi5Mr7Z8IIJzrb1TdPA.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az 1990-es évek elején, Dél-Franciaországban játszódik a történet. Katy, Hélène, Laurence és Carole gyerekkoruk óta elválaszthatatlan barátnők. Húszas éveikben szűkös lehetőségekkel és nehézségekkel néznek szembe napsütötte kisvárosukban. Mindezek ellenére megőrzik optimizmusukat és kitartásukat, és egymást támogatva küzdenek meg az élet kihívásaival. Életük nagy fordulatot vesz, amikor Hélène, az egyedülálló, háromgyermekes anya váratlanul értesítést kap arról, hogy csökkentik a jóléti juttatásait, ami veszélyezteti családja megélhetését. Az igazságtalanság és a társadalmi egyenlőtlenségek miatti tehetetlenség érzése fellobbantja bennük a változtatás iránti vágyat. Váratlan lépésre szánják el magukat: kirabolnak egy bankot, majd hamarosan egyre vakmerőbb rablások sorozatába kezdenek.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Thriller",
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "seeders": 189
+  },
+  {
+    "id": "tt34890320",
+    "type": "movie",
+    "name": "Preschool",
+    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 155
   },
   {
     "id": "tt30825738",
@@ -143,7 +158,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1194
+    "seeders": 1311
   },
   {
     "id": "tt37697399",
@@ -153,12 +168,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 3.5,
+    "imdbRating": 3.3,
     "releaseInfo": "2026",
     "genres": [
       "Horror"
     ],
-    "seeders": 343
+    "seeders": 341
   },
   {
     "id": "tt35672862",
@@ -173,7 +188,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 926
+    "seeders": 936
   },
   {
     "id": "tt37287335",
@@ -189,7 +204,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1073
+    "seeders": 1123
   },
   {
     "id": "tt36304003",
@@ -205,7 +220,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 555
+    "seeders": 542
   },
   {
     "id": "tt1527793",
@@ -222,7 +237,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 82
+    "seeders": 88
+  },
+  {
+    "id": "tt38492476",
+    "type": "movie",
+    "name": "Legénybúcsú",
+    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
+    "imdbRating": 5.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 636
   },
   {
     "id": "tt40815155",
@@ -238,7 +268,7 @@
       "Vígjáték",
       "Zenei"
     ],
-    "seeders": 82
+    "seeders": 78
   },
   {
     "id": "tt33424589",
@@ -253,22 +283,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 66
-  },
-  {
-    "id": "tt38492476",
-    "type": "movie",
-    "name": "Legénybúcsú",
-    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-    "imdbRating": 5.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 629
+    "seeders": 65
   },
   {
     "id": "tt13652286",
@@ -285,7 +300,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 497
+    "seeders": 495
   },
   {
     "id": "tt12042730",
@@ -301,7 +316,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 162
+    "seeders": 164
   },
   {
     "id": "tt34375721",
@@ -318,7 +333,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 299
+    "seeders": 294
   },
   {
     "id": "tt14064760",
@@ -333,7 +348,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 136
+    "seeders": 127
   },
   {
     "id": "tt43683795",
@@ -348,7 +363,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 191
+    "seeders": 190
   },
   {
     "id": "tt41111628",
@@ -365,7 +380,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 151
+    "seeders": 141
   },
   {
     "id": "tt43677301",
@@ -396,7 +411,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 177
+    "seeders": 184
   },
   {
     "id": "tt34477910",
@@ -414,7 +429,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 188
+    "seeders": 189
   },
   {
     "id": "tt34459219",
@@ -430,7 +445,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 219
+    "seeders": 218
   },
   {
     "id": "tt37042085",
@@ -447,7 +462,7 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 115
+    "seeders": 117
   },
   {
     "id": "tt13518550",
@@ -464,21 +479,6 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 182
-  },
-  {
-    "id": "tt43619305",
-    "type": "movie",
-    "name": "Toxikus párkapcsolat",
-    "poster": "https://image.tmdb.org/t/p/w500/9CmyFXKqQRVbGGxyJE6kp7fhrHa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A fenyegető e-mailek sorozata fokozatosan bosszúhadjárattá fajul, amelynek középpontjában egy frissen házasodott amerikai marsall és volt barátnője áll ebben a valós bűnügyet feldolgozó dokumentumfilmben.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 86
+    "seeders": 174
   }
 ]
