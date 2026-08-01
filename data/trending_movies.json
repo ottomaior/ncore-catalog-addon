@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt36153493",
+    "type": "movie",
+    "name": "Wildcat",
+    "poster": "https://image.tmdb.org/t/p/w500/h893ImjM6Fsv5DFhKJdlZFZIJno.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 131
+  },
+  {
     "id": "tt33029380",
     "type": "movie",
     "name": "Marsupilami",
@@ -13,16 +29,16 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 206
+    "seeders": 312
   },
   {
     "id": "tt34477899",
     "type": "movie",
-    "name": "Le Gang des Amazones",
+    "name": "Engedetlenek",
     "poster": "https://image.tmdb.org/t/p/w500/nV7h24rrVi5Mr7Z8IIJzrb1TdPA.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Az 1990-es évek elején, Dél-Franciaországban játszódik a történet. Katy, Hélène, Laurence és Carole gyerekkoruk óta elválaszthatatlan barátnők. Húszas éveikben szűkös lehetőségekkel és nehézségekkel néznek szembe napsütötte kisvárosukban. Mindezek ellenére megőrzik optimizmusukat és kitartásukat, és egymást támogatva küzdenek meg az élet kihívásaival. Életük nagy fordulatot vesz, amikor Hélène, az egyedülálló, háromgyermekes anya váratlanul értesítést kap arról, hogy csökkentik a jóléti juttatásait, ami veszélyezteti családja megélhetését. Az igazságtalanság és a társadalmi egyenlőtlenségek miatti tehetetlenség érzése fellobbantja bennük a változtatás iránti vágyat. Váratlan lépésre szánják el magukat: kirabolnak egy bankot, majd hamarosan egyre vakmerőbb rablások sorozatába kezdenek.",
     "imdbRating": 7.3,
     "releaseInfo": "2025",
     "genres": [
@@ -30,7 +46,24 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 114
+    "seeders": 170
+  },
+  {
+    "id": "tt8814476",
+    "type": "movie",
+    "name": "Supergirl",
+    "poster": "https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 480
   },
   {
     "id": "tt34890320",
@@ -45,24 +78,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 98
-  },
-  {
-    "id": "tt8814476",
-    "type": "movie",
-    "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 385
+    "seeders": 141
   },
   {
     "id": "tt36958312",
@@ -78,7 +94,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 844
+    "seeders": 942
   },
   {
     "id": "tt0427340",
@@ -95,7 +111,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2691
+    "seeders": 3018
   },
   {
     "id": "tt32093575",
@@ -110,7 +126,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 3104
+    "seeders": 3526
   },
   {
     "id": "tt30825738",
@@ -127,7 +143,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1024
+    "seeders": 1194
   },
   {
     "id": "tt37697399",
@@ -142,7 +158,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 312
+    "seeders": 343
   },
   {
     "id": "tt35672862",
@@ -157,7 +173,39 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 830
+    "seeders": 926
+  },
+  {
+    "id": "tt37287335",
+    "type": "movie",
+    "name": "Megszállottság",
+    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 1073
+  },
+  {
+    "id": "tt36304003",
+    "type": "movie",
+    "name": "72 óra",
+    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi"
+    ],
+    "seeders": 555
   },
   {
     "id": "tt1527793",
@@ -174,39 +222,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 79
+    "seeders": 82
   },
   {
-    "id": "tt37287335",
+    "id": "tt40815155",
     "type": "movie",
-    "name": "Megszállottság",
-    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
+    "name": "Féktelen dallamok",
+    "poster": "https://image.tmdb.org/t/p/w500/s4IUDzLZJb4CosgEXcmouY32Jfg.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 963
-  },
-  {
-    "id": "tt36304003",
-    "type": "movie",
-    "name": "72 óra",
-    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.8,
+    "description": "A hajdan ünnepelt, vegyes felállású K-pop együttes, a Triangle egykori tagjai – amelynek karrierje húsz évvel ezelőtt egy botrány következtében összeomlott – most elszántan próbálnak visszakapaszkodni a színpadra.",
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
-      "Bűnügyi"
+      "Zenei"
     ],
-    "seeders": 495
+    "seeders": 82
   },
   {
     "id": "tt33424589",
@@ -224,22 +256,6 @@
     "seeders": 66
   },
   {
-    "id": "tt40815155",
-    "type": "movie",
-    "name": "Féktelen dallamok",
-    "poster": "https://image.tmdb.org/t/p/w500/s4IUDzLZJb4CosgEXcmouY32Jfg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A hajdan ünnepelt, vegyes felállású K-pop együttes, a Triangle egykori tagjai – amelynek karrierje húsz évvel ezelőtt egy botrány következtében összeomlott – most elszántan próbálnak visszakapaszkodni a színpadra.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Zenei"
-    ],
-    "seeders": 76
-  },
-  {
     "id": "tt38492476",
     "type": "movie",
     "name": "Legénybúcsú",
@@ -252,23 +268,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 569
-  },
-  {
-    "id": "tt12042730",
-    "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Kaland"
-    ],
-    "seeders": 149
+    "seeders": 629
   },
   {
     "id": "tt13652286",
@@ -285,7 +285,23 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 461
+    "seeders": 497
+  },
+  {
+    "id": "tt12042730",
+    "type": "movie",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 162
   },
   {
     "id": "tt34375721",
@@ -302,7 +318,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 275
+    "seeders": 299
   },
   {
     "id": "tt14064760",
@@ -317,7 +333,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 119
+    "seeders": 136
   },
   {
     "id": "tt43683795",
@@ -332,7 +348,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 176
+    "seeders": 191
   },
   {
     "id": "tt41111628",
@@ -349,7 +365,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 143
+    "seeders": 151
   },
   {
     "id": "tt43677301",
@@ -364,25 +380,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 219
-  },
-  {
-    "id": "tt34477910",
-    "type": "movie",
-    "name": "Utódok: Gonoszok Csodaországa",
-    "poster": "https://image.tmdb.org/t/p/w500/nKeyLvDBt2TNkDilbQ6yl74Jy2N.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Fantasy",
-      "Családi",
-      "TV film",
-      "Kaland"
-    ],
-    "seeders": 186
+    "seeders": 255
   },
   {
     "id": "tt33612209",
@@ -398,7 +396,25 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 163
+    "seeders": 177
+  },
+  {
+    "id": "tt34477910",
+    "type": "movie",
+    "name": "Utódok: Gonoszok Csodaországa",
+    "poster": "https://image.tmdb.org/t/p/w500/nKeyLvDBt2TNkDilbQ6yl74Jy2N.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "TV film",
+      "Családi",
+      "Fantasy",
+      "Kaland"
+    ],
+    "seeders": 188
   },
   {
     "id": "tt34459219",
@@ -414,7 +430,24 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 204
+    "seeders": 219
+  },
+  {
+    "id": "tt37042085",
+    "type": "movie",
+    "name": "Elize: Egy házasság sötét oldala",
+    "poster": "https://image.tmdb.org/t/p/w500/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A valós eseményeken alapuló feldolgozásban, egy volt escort lány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 115
   },
   {
     "id": "tt13518550",
@@ -431,24 +464,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 175
-  },
-  {
-    "id": "tt37042085",
-    "type": "movie",
-    "name": "Elize: Egy házasság sötét oldala",
-    "poster": "https://image.tmdb.org/t/p/w500/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A valós eseményeken alapuló feldolgozásban, egy volt escort lány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "seeders": 103
+    "seeders": 182
   },
   {
     "id": "tt43619305",
@@ -463,22 +479,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt43617119",
-    "type": "movie",
-    "name": "Szerelem lassított felvételben",
-    "poster": "https://image.tmdb.org/t/p/w500/cj3uvHPlfEmdy8veYczXs7ibHah.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nour életét teljesen felkavarja, amikor legjobb barátját, Jawadot eljegyzik, és hirtelen szembe kell néznie azzal a felismeréssel, hogy a valódi szerelem talán végig ott volt előtte, csak a barátság mögé rejtve. Ahogy a családi elvárások, a bizonytalan érzelmek és a felnőtté válás nyomása egyre inkább összecsúszik, Haya rájön, hogy néha a legfontosabb kapcsolatok lassan, észrevétlenül alakulnak szerelemmé.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték"
-    ],
-    "seeders": 80
+    "seeders": 86
   }
 ]
