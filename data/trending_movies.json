@@ -13,22 +13,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 41
-  },
-  {
-    "id": "tt34890320",
-    "type": "movie",
-    "name": "Preschool",
-    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 57
+    "seeders": 206
   },
   {
     "id": "tt34477899",
@@ -45,7 +30,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 62
+    "seeders": 114
+  },
+  {
+    "id": "tt34890320",
+    "type": "movie",
+    "name": "Preschool",
+    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 98
   },
   {
     "id": "tt8814476",
@@ -62,7 +62,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 264
+    "seeders": 385
   },
   {
     "id": "tt36958312",
@@ -78,7 +78,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 638
+    "seeders": 844
   },
   {
     "id": "tt0427340",
@@ -95,7 +95,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2027
+    "seeders": 2691
   },
   {
     "id": "tt32093575",
@@ -110,7 +110,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 2369
+    "seeders": 3104
   },
   {
     "id": "tt30825738",
@@ -127,7 +127,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 808
+    "seeders": 1024
   },
   {
     "id": "tt37697399",
@@ -142,7 +142,22 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 239
+    "seeders": 312
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 830
   },
   {
     "id": "tt1527793",
@@ -159,22 +174,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 71
-  },
-  {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 640
+    "seeders": 79
   },
   {
     "id": "tt37287335",
@@ -184,28 +184,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
-    "imdbRating": 8.2,
+    "imdbRating": 8.3,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "seeders": 730
-  },
-  {
-    "id": "tt33424589",
-    "type": "movie",
-    "name": "Ragyogó élet",
-    "poster": "https://image.tmdb.org/t/p/w500/cJ6MyiSPiwCdHg4ENeltDgTSdlz.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nicolau 24 évesen még mindig a szüleivel él Lisszabonban, miközben egyre inkább úgy érzi, hogy zenei álma kifulladóban van, és a múltban maradt egykori szerelme emléke is visszatartja. Bár nem találja a helyét, alkalmi munkák és a város nyári-őszi lüktetése lassan új lehetőségeket sodor elé, amelyek arra késztetik, hogy végre maga mögött hagyja a tétovaságot, és elkezdje felépíteni a saját életét.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 55
+    "seeders": 963
   },
   {
     "id": "tt36304003",
@@ -221,7 +206,22 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 389
+    "seeders": 495
+  },
+  {
+    "id": "tt33424589",
+    "type": "movie",
+    "name": "Ragyogó élet",
+    "poster": "https://image.tmdb.org/t/p/w500/cJ6MyiSPiwCdHg4ENeltDgTSdlz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nicolau 24 évesen még mindig a szüleivel él Lisszabonban, miközben egyre inkább úgy érzi, hogy zenei álma kifulladóban van, és a múltban maradt egykori szerelme emléke is visszatartja. Bár nem találja a helyét, alkalmi munkák és a város nyári-őszi lüktetése lassan új lehetőségeket sodor elé, amelyek arra késztetik, hogy végre maga mögött hagyja a tétovaságot, és elkezdje felépíteni a saját életét.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 66
   },
   {
     "id": "tt40815155",
@@ -231,13 +231,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A hajdan ünnepelt, vegyes felállású K-pop együttes, a Triangle egykori tagjai – amelynek karrierje húsz évvel ezelőtt egy botrány következtében összeomlott – most elszántan próbálnak visszakapaszkodni a színpadra.",
-    "imdbRating": 5.7,
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Zenei"
     ],
-    "seeders": 68
+    "seeders": 76
+  },
+  {
+    "id": "tt38492476",
+    "type": "movie",
+    "name": "Legénybúcsú",
+    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
+    "imdbRating": 5.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 569
   },
   {
     "id": "tt12042730",
@@ -253,37 +268,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 128
-  },
-  {
-    "id": "tt38492476",
-    "type": "movie",
-    "name": "Legénybúcsú",
-    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-    "imdbRating": 5.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 437
-  },
-  {
-    "id": "tt14064760",
-    "type": "movie",
-    "name": "Déli krónikák",
-    "poster": "https://image.tmdb.org/t/p/w500/5cS1YMEckoM1pmBzpoEAWTkZU9H.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A történet Rimantsról szól, akit jobban érdekel a rögbi, a zenehallgatás és a feketepiaci kereskedés, mint a tanulás, de amikor beleszeret Monikába, a szerelembe és a jövőbe vetett hite próbára válik.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 109
+    "seeders": 149
   },
   {
     "id": "tt13652286",
@@ -300,7 +285,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 363
+    "seeders": 461
   },
   {
     "id": "tt34375721",
@@ -317,7 +302,22 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 209
+    "seeders": 275
+  },
+  {
+    "id": "tt14064760",
+    "type": "movie",
+    "name": "Déli krónikák",
+    "poster": "https://image.tmdb.org/t/p/w500/5cS1YMEckoM1pmBzpoEAWTkZU9H.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A történet Rimantsról szól, akit jobban érdekel a rögbi, a zenehallgatás és a feketepiaci kereskedés, mint a tanulás, de amikor beleszeret Monikába, a szerelembe és a jövőbe vetett hite próbára válik.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 119
   },
   {
     "id": "tt43683795",
@@ -332,7 +332,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 145
+    "seeders": 176
   },
   {
     "id": "tt41111628",
@@ -349,7 +349,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 107
+    "seeders": 143
   },
   {
     "id": "tt43677301",
@@ -364,39 +364,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 179
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 142
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 174
+    "seeders": 219
   },
   {
     "id": "tt34477910",
@@ -414,39 +382,39 @@
       "TV film",
       "Kaland"
     ],
-    "seeders": 140
+    "seeders": 186
   },
   {
-    "id": "tt37042085",
+    "id": "tt33612209",
     "type": "movie",
-    "name": "Elize: Egy házasság sötét oldala",
-    "poster": "https://image.tmdb.org/t/p/w500/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A valós eseményeken alapuló feldolgozásban, egy volt escort lány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
-    "imdbRating": 7.3,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
-      "Thriller",
-      "Bűnügyi",
+      "Vígjáték",
       "Dráma"
     ],
-    "seeders": 89
+    "seeders": 163
   },
   {
-    "id": "tt43619305",
+    "id": "tt34459219",
     "type": "movie",
-    "name": "Toxikus párkapcsolat",
-    "poster": "https://image.tmdb.org/t/p/w500/9CmyFXKqQRVbGGxyJE6kp7fhrHa.jpg",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A fenyegető e-mailek sorozata fokozatosan bosszúhadjárattá fajul, amelynek középpontjában egy frissen házasodott amerikai marsall és volt barátnője áll ebben a valós bűnügyet feldolgozó dokumentumfilmben.",
-    "imdbRating": 6.6,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Vígjáték",
+      "Családi"
     ],
-    "seeders": 69
+    "seeders": 204
   },
   {
     "id": "tt13518550",
@@ -463,7 +431,39 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 137
+    "seeders": 175
+  },
+  {
+    "id": "tt37042085",
+    "type": "movie",
+    "name": "Elize: Egy házasság sötét oldala",
+    "poster": "https://image.tmdb.org/t/p/w500/hLTKARaZn0fH5zr3j5EkKtJhu1G.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A valós eseményeken alapuló feldolgozásban, egy volt escort lány rájön gazdag férje hűtlenségére, amit igyekszik feldolgozni, miközben az árulás megmérgezi a házasságukat.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 103
+  },
+  {
+    "id": "tt43619305",
+    "type": "movie",
+    "name": "Toxikus párkapcsolat",
+    "poster": "https://image.tmdb.org/t/p/w500/9CmyFXKqQRVbGGxyJE6kp7fhrHa.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A fenyegető e-mailek sorozata fokozatosan bosszúhadjárattá fajul, amelynek középpontjában egy frissen házasodott amerikai marsall és volt barátnője áll ebben a valós bűnügyet feldolgozó dokumentumfilmben.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt43617119",
@@ -479,6 +479,6 @@
       "Romantikus",
       "Vígjáték"
     ],
-    "seeders": 65
+    "seeders": 80
   }
 ]
