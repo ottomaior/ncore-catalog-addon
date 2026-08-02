@@ -2,18 +2,18 @@
   {
     "id": "tt15047880",
     "type": "movie",
-    "name": "A Leleplezés napja",
+    "name": "A leleplezés napja",
     "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban?\r Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A Leleplezés napja.",
+    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
     "imdbRating": 7.4,
     "releaseInfo": "2026",
     "genres": [
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 740
+    "seeders": 1477
   },
   {
     "id": "tt33029380",
@@ -29,23 +29,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 463
-  },
-  {
-    "id": "tt36153493",
-    "type": "movie",
-    "name": "A vadmacska",
-    "poster": "https://image.tmdb.org/t/p/w500/h893ImjM6Fsv5DFhKJdlZFZIJno.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 306
+    "seeders": 483
   },
   {
     "id": "tt0427340",
@@ -62,7 +46,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 3262
+    "seeders": 3287
   },
   {
     "id": "tt32093575",
@@ -77,7 +61,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 3826
+    "seeders": 3911
   },
   {
     "id": "tt8814476",
@@ -94,7 +78,23 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 657
+    "seeders": 728
+  },
+  {
+    "id": "tt36153493",
+    "type": "movie",
+    "name": "A vadmacska",
+    "poster": "https://image.tmdb.org/t/p/w500/h893ImjM6Fsv5DFhKJdlZFZIJno.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 318
   },
   {
     "id": "tt36958312",
@@ -110,7 +110,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 990
+    "seeders": 995
   },
   {
     "id": "tt30825738",
@@ -127,22 +127,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1414
-  },
-  {
-    "id": "tt39163015",
-    "type": "movie",
-    "name": "Idő és víz: Izland eltűnő gleccserei",
-    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 135
+    "seeders": 1501
   },
   {
     "id": "tt34477899",
@@ -159,7 +144,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 213
+    "seeders": 212
+  },
+  {
+    "id": "tt39163015",
+    "type": "movie",
+    "name": "Idő és víz: Izland eltűnő gleccserei",
+    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 134
   },
   {
     "id": "tt34890320",
@@ -174,22 +174,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 169
-  },
-  {
-    "id": "tt37697399",
-    "type": "movie",
-    "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/6evn0A1Mvxe9p5r2CVxFfbOoetw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 3.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 343
+    "seeders": 178
   },
   {
     "id": "tt35672862",
@@ -204,7 +189,22 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 1021
+    "seeders": 1033
+  },
+  {
+    "id": "tt37697399",
+    "type": "movie",
+    "name": "Ismeretlen gonosz",
+    "poster": "https://image.tmdb.org/t/p/w500/6evn0A1Mvxe9p5r2CVxFfbOoetw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
+    "imdbRating": 3.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 336
   },
   {
     "id": "tt37287335",
@@ -220,7 +220,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1164
+    "seeders": 1197
   },
   {
     "id": "tt36304003",
@@ -236,7 +236,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 542
+    "seeders": 566
   },
   {
     "id": "tt1527793",
@@ -253,7 +253,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 97
+    "seeders": 101
   },
   {
     "id": "tt38492476",
@@ -268,7 +268,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 653
+    "seeders": 646
   },
   {
     "id": "tt13652286",
@@ -285,7 +285,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 513
+    "seeders": 503
   },
   {
     "id": "tt12042730",
@@ -301,23 +301,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 177
-  },
-  {
-    "id": "tt40815155",
-    "type": "movie",
-    "name": "Féktelen dallamok",
-    "poster": "https://image.tmdb.org/t/p/w500/s4IUDzLZJb4CosgEXcmouY32Jfg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A hajdan ünnepelt, vegyes felállású K-pop együttes, a Triangle egykori tagjai – amelynek karrierje húsz évvel ezelőtt egy botrány következtében összeomlott – most elszántan próbálnak visszakapaszkodni a színpadra.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Zenei"
-    ],
-    "seeders": 73
+    "seeders": 183
   },
   {
     "id": "tt34375721",
@@ -334,7 +318,23 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 283
+    "seeders": 285
+  },
+  {
+    "id": "tt40815155",
+    "type": "movie",
+    "name": "Féktelen dallamok",
+    "poster": "https://image.tmdb.org/t/p/w500/s4IUDzLZJb4CosgEXcmouY32Jfg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A hajdan ünnepelt, vegyes felállású K-pop együttes, a Triangle egykori tagjai – amelynek karrierje húsz évvel ezelőtt egy botrány következtében összeomlott – most elszántan próbálnak visszakapaszkodni a színpadra.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Zenei"
+    ],
+    "seeders": 76
   },
   {
     "id": "tt43683795",
@@ -349,22 +349,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 195
-  },
-  {
-    "id": "tt14064760",
-    "type": "movie",
-    "name": "Déli krónikák",
-    "poster": "https://image.tmdb.org/t/p/w500/5cS1YMEckoM1pmBzpoEAWTkZU9H.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A történet Rimantsról szól, akit jobban érdekel a rögbi, a zenehallgatás és a feketepiaci kereskedés, mint a tanulás, de amikor beleszeret Monikába, a szerelembe és a jövőbe vetett hite próbára válik.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 126
+    "seeders": 188
   },
   {
     "id": "tt33424589",
@@ -379,7 +364,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 57
+    "seeders": 59
+  },
+  {
+    "id": "tt14064760",
+    "type": "movie",
+    "name": "Déli krónikák",
+    "poster": "https://image.tmdb.org/t/p/w500/5cS1YMEckoM1pmBzpoEAWTkZU9H.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A történet Rimantsról szól, akit jobban érdekel a rögbi, a zenehallgatás és a feketepiaci kereskedés, mint a tanulás, de amikor beleszeret Monikába, a szerelembe és a jövőbe vetett hite próbára válik.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 121
   },
   {
     "id": "tt41111628",
@@ -396,7 +396,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 147
+    "seeders": 139
   },
   {
     "id": "tt43677301",
@@ -411,7 +411,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 264
+    "seeders": 268
   },
   {
     "id": "tt33612209",
@@ -427,7 +427,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 182
+    "seeders": 199
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 218
   },
   {
     "id": "tt34477910",
@@ -445,23 +461,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 183
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 213
+    "seeders": 177
   },
   {
     "id": "tt37042085",
@@ -478,6 +478,6 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 120
+    "seeders": 116
   }
 ]
