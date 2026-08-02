@@ -13,22 +13,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 233
-  },
-  {
-    "id": "tt39163015",
-    "type": "movie",
-    "name": "Idő és víz: Izland eltűnő gleccserei",
-    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 93
+    "seeders": 194
   },
   {
     "id": "tt33029380",
@@ -38,30 +23,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
-    "imdbRating": 6.4,
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 376
-  },
-  {
-    "id": "tt8814476",
-    "type": "movie",
-    "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 572
+    "seeders": 298
   },
   {
     "id": "tt0427340",
@@ -78,7 +46,39 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 3143
+    "seeders": 2058
+  },
+  {
+    "id": "tt39163015",
+    "type": "movie",
+    "name": "Idő és víz: Izland eltűnő gleccserei",
+    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 91
+  },
+  {
+    "id": "tt8814476",
+    "type": "movie",
+    "name": "Supergirl",
+    "poster": "https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 380
   },
   {
     "id": "tt32093575",
@@ -93,7 +93,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 3663
+    "seeders": 2385
   },
   {
     "id": "tt36958312",
@@ -109,7 +109,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 955
+    "seeders": 651
   },
   {
     "id": "tt34477899",
@@ -126,22 +126,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 189
-  },
-  {
-    "id": "tt34890320",
-    "type": "movie",
-    "name": "Preschool",
-    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 155
+    "seeders": 161
   },
   {
     "id": "tt30825738",
@@ -158,7 +143,22 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1311
+    "seeders": 889
+  },
+  {
+    "id": "tt34890320",
+    "type": "movie",
+    "name": "Preschool",
+    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 135
   },
   {
     "id": "tt37697399",
@@ -173,7 +173,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 341
+    "seeders": 250
   },
   {
     "id": "tt35672862",
@@ -188,7 +188,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 936
+    "seeders": 649
   },
   {
     "id": "tt37287335",
@@ -204,7 +204,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1123
+    "seeders": 750
   },
   {
     "id": "tt36304003",
@@ -220,7 +220,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 542
+    "seeders": 378
   },
   {
     "id": "tt1527793",
@@ -237,22 +237,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt38492476",
-    "type": "movie",
-    "name": "Legénybúcsú",
-    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-    "imdbRating": 5.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 636
+    "seeders": 78
   },
   {
     "id": "tt40815155",
@@ -268,39 +253,22 @@
       "Vígjáték",
       "Zenei"
     ],
-    "seeders": 78
+    "seeders": 70
   },
   {
-    "id": "tt33424589",
+    "id": "tt38492476",
     "type": "movie",
-    "name": "Ragyogó élet",
-    "poster": "https://image.tmdb.org/t/p/w500/cJ6MyiSPiwCdHg4ENeltDgTSdlz.jpg",
+    "name": "Legénybúcsú",
+    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Nicolau 24 évesen még mindig a szüleivel él Lisszabonban, miközben egyre inkább úgy érzi, hogy zenei álma kifulladóban van, és a múltban maradt egykori szerelme emléke is visszatartja. Bár nem találja a helyét, alkalmi munkák és a város nyári-őszi lüktetése lassan új lehetőségeket sodor elé, amelyek arra késztetik, hogy végre maga mögött hagyja a tétovaságot, és elkezdje felépíteni a saját életét.",
-    "imdbRating": 6.0,
+    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
+    "imdbRating": 5.2,
     "releaseInfo": "2025",
     "genres": [
-      "Dráma"
+      "Vígjáték"
     ],
-    "seeders": 65
-  },
-  {
-    "id": "tt13652286",
-    "type": "movie",
-    "name": "Légi csapda",
-    "poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 495
+    "seeders": 447
   },
   {
     "id": "tt12042730",
@@ -316,7 +284,39 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 164
+    "seeders": 137
+  },
+  {
+    "id": "tt33424589",
+    "type": "movie",
+    "name": "Ragyogó élet",
+    "poster": "https://image.tmdb.org/t/p/w500/cJ6MyiSPiwCdHg4ENeltDgTSdlz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nicolau 24 évesen még mindig a szüleivel él Lisszabonban, miközben egyre inkább úgy érzi, hogy zenei álma kifulladóban van, és a múltban maradt egykori szerelme emléke is visszatartja. Bár nem találja a helyét, alkalmi munkák és a város nyári-őszi lüktetése lassan új lehetőségeket sodor elé, amelyek arra késztetik, hogy végre maga mögött hagyja a tétovaságot, és elkezdje felépíteni a saját életét.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 52
+  },
+  {
+    "id": "tt13652286",
+    "type": "movie",
+    "name": "Légi csapda",
+    "poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Thriller"
+    ],
+    "seeders": 355
   },
   {
     "id": "tt34375721",
@@ -333,7 +333,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 294
+    "seeders": 211
   },
   {
     "id": "tt14064760",
@@ -348,7 +348,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 127
+    "seeders": 98
   },
   {
     "id": "tt43683795",
@@ -363,7 +363,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 190
+    "seeders": 144
   },
   {
     "id": "tt41111628",
@@ -380,7 +380,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 141
+    "seeders": 115
   },
   {
     "id": "tt43677301",
@@ -395,7 +395,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 255
+    "seeders": 173
   },
   {
     "id": "tt33612209",
@@ -411,7 +411,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 184
+    "seeders": 140
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 172
   },
   {
     "id": "tt34477910",
@@ -429,23 +445,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 189
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 218
+    "seeders": 142
   },
   {
     "id": "tt37042085",
@@ -462,23 +462,21 @@
       "Bűnügyi",
       "Dráma"
     ],
-    "seeders": 117
+    "seeders": 95
   },
   {
-    "id": "tt13518550",
+    "id": "tt43619305",
     "type": "movie",
-    "name": "Bálnadal",
-    "poster": "https://image.tmdb.org/t/p/w500/1DbsKg04S21Wqv50A12qyI2ZBzG.jpg",
+    "name": "Toxikus párkapcsolat",
+    "poster": "https://image.tmdb.org/t/p/w500/9CmyFXKqQRVbGGxyJE6kp7fhrHa.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Amikor egy félelmetes lény kiszabadul egy olvadó jéghegyről, egy önbizalomhiánnyal küzdő tinédzser púpos bálnának legnagyobb félelmeivel kell szembenéznie. Barátaival együtt le kell merülnie a legsötétebb mélységekbe, hogy megtalálják azt a különleges dalt, amely megmentheti az óceánokat a pusztulástól. (Csillag Lajos)",
-    "imdbRating": 7.8,
+    "description": "A fenyegető e-mailek sorozata fokozatosan bosszúhadjárattá fajul, amelynek középpontjában egy frissen házasodott amerikai marsall és volt barátnője áll ebben a valós bűnügyet feldolgozó dokumentumfilmben.",
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
-      "Kaland",
-      "Animációs",
-      "Családi"
+      "Dokumentum"
     ],
-    "seeders": 174
+    "seeders": 72
   }
 ]
