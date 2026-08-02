@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999989
+"seeders": 999991
 },
 {
 "id": "tt29344974",
@@ -46,7 +46,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999979
+"seeders": 999978
 },
 {
 "id": "tt20672356",
@@ -62,7 +62,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999951
+"seeders": 999947
 },
 {
 "id": "tt34375721",
@@ -89,29 +89,12 @@
 "posterShape": "poster",
 "year": 2025,
 "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-"imdbRating": 6.5,
+"imdbRating": 5.2,
 "releaseInfo": "2025",
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999926
-},
-{
-"id": "tt13652286",
-"type": "movie",
-"name": "Légi csapda",
-"poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
-"imdbRating": 6.3,
-"releaseInfo": "2025",
-"genres": [
-"Akció",
-"Vígjáték",
-"Thriller"
-],
-"seeders": 999908
+"seeders": 999910
 },
 {
 "id": "tt0179955",
@@ -128,7 +111,24 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999904
+"seeders": 999901
+},
+{
+"id": "tt13652286",
+"type": "movie",
+"name": "Légi csapda",
+"poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
+"imdbRating": 6.2,
+"releaseInfo": "2025",
+"genres": [
+"Akció",
+"Vígjáték",
+"Thriller"
+],
+"seeders": 999881
 },
 {
 "id": "tt0065067",
@@ -143,7 +143,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999877
+"seeders": 999870
 },
 {
 "id": "tt35303515",
@@ -159,7 +159,7 @@
 "Dráma",
 "Thriller"
 ],
-"seeders": 999868
+"seeders": 999860
 },
 {
 "id": "tt27811640",
@@ -174,24 +174,7 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999856
-},
-{
-"id": "tt0142632",
-"type": "movie",
-"name": "Lúdas Matyi",
-"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
-"posterShape": "poster",
-"year": 1977,
-"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
-"imdbRating": 7.2,
-"releaseInfo": "1977",
-"genres": [
-"Animációs",
-"Kaland",
-"Vígjáték"
-],
-"seeders": 999848
+"seeders": 999846
 },
 {
 "id": "tt38508942",
@@ -209,6 +192,23 @@
 "seeders": 999841
 },
 {
+"id": "tt0142632",
+"type": "movie",
+"name": "Lúdas Matyi",
+"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
+"posterShape": "poster",
+"year": 1977,
+"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
+"imdbRating": 7.2,
+"releaseInfo": "1977",
+"genres": [
+"Animációs",
+"Kaland",
+"Vígjáték"
+],
+"seeders": 999839
+},
+{
 "id": "tt31065630",
 "type": "movie",
 "name": "Árva",
@@ -222,22 +222,6 @@
 "Dráma"
 ],
 "seeders": 999838
-},
-{
-"id": "tt0131636",
-"type": "movie",
-"name": "Vuk",
-"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
-"posterShape": "poster",
-"year": 1981,
-"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
-"imdbRating": 7.6,
-"releaseInfo": "1981",
-"genres": [
-"Animációs",
-"Családi"
-],
-"seeders": 999829
 },
 {
 "id": "tt0084315",
@@ -255,6 +239,22 @@
 "Kaland"
 ],
 "seeders": 999823
+},
+{
+"id": "tt0131636",
+"type": "movie",
+"name": "Vuk",
+"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
+"posterShape": "poster",
+"year": 1981,
+"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
+"imdbRating": 7.6,
+"releaseInfo": "1981",
+"genres": [
+"Animációs",
+"Családi"
+],
+"seeders": 999821
 },
 {
 "id": "tt23172090",
