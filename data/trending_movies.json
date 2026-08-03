@@ -13,7 +13,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1391
+    "seeders": 200
   },
   {
     "id": "tt35091739",
@@ -30,7 +30,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 140
+    "seeders": 189
   },
   {
     "id": "tt0427340",
@@ -47,7 +47,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2587
+    "seeders": 2920
   },
   {
     "id": "tt32093575",
@@ -62,23 +62,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 2946
-  },
-  {
-    "id": "tt33029380",
-    "type": "movie",
-    "name": "Marsupilami",
-    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Vígjáték"
-    ],
-    "seeders": 434
+    "seeders": 3508
   },
   {
     "id": "tt8814476",
@@ -95,7 +79,23 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 598
+    "seeders": 694
+  },
+  {
+    "id": "tt33029380",
+    "type": "movie",
+    "name": "Marsupilami",
+    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 485
   },
   {
     "id": "tt36958312",
@@ -111,7 +111,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 789
+    "seeders": 914
   },
   {
     "id": "tt30825738",
@@ -128,7 +128,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1196
+    "seeders": 1375
   },
   {
     "id": "tt36153493",
@@ -138,13 +138,28 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.2,
+    "imdbRating": 6.1,
     "releaseInfo": "2025",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 278
+    "seeders": 323
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 921
   },
   {
     "id": "tt34477899",
@@ -161,37 +176,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 191
-  },
-  {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 808
-  },
-  {
-    "id": "tt39163015",
-    "type": "movie",
-    "name": "Idő és víz: Izland eltűnő gleccserei",
-    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 123
+    "seeders": 211
   },
   {
     "id": "tt37697399",
@@ -206,7 +191,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 283
+    "seeders": 314
   },
   {
     "id": "tt34890320",
@@ -221,7 +206,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 160
+    "seeders": 178
   },
   {
     "id": "tt37287335",
@@ -237,7 +222,22 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 945
+    "seeders": 1087
+  },
+  {
+    "id": "tt39163015",
+    "type": "movie",
+    "name": "Idő és víz: Izland eltűnő gleccserei",
+    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 125
   },
   {
     "id": "tt36304003",
@@ -253,7 +253,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 440
+    "seeders": 492
   },
   {
     "id": "tt38492476",
@@ -268,24 +268,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 540
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 86
+    "seeders": 610
   },
   {
     "id": "tt13652286",
@@ -302,7 +285,24 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 395
+    "seeders": 458
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 91
   },
   {
     "id": "tt12042730",
@@ -318,7 +318,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 159
+    "seeders": 176
   },
   {
     "id": "tt34375721",
@@ -335,7 +335,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 240
+    "seeders": 272
   },
   {
     "id": "tt43683795",
@@ -350,7 +350,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 169
+    "seeders": 176
   },
   {
     "id": "tt14064760",
@@ -365,7 +365,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 110
+    "seeders": 119
   },
   {
     "id": "tt40815155",
@@ -381,7 +381,7 @@
       "Vígjáték",
       "Zenei"
     ],
-    "seeders": 62
+    "seeders": 68
   },
   {
     "id": "tt33424589",
@@ -396,7 +396,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 50
+    "seeders": 49
   },
   {
     "id": "tt41111628",
@@ -413,7 +413,22 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 132
+    "seeders": 135
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 240
   },
   {
     "id": "tt33612209",
@@ -429,22 +444,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 180
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 211
+    "seeders": 189
   },
   {
     "id": "tt34477910",
@@ -462,7 +462,7 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 154
+    "seeders": 166
   },
   {
     "id": "tt34459219",
@@ -472,12 +472,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 175
+    "seeders": 190
   }
 ]
