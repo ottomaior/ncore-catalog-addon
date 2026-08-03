@@ -13,24 +13,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 200
-  },
-  {
-    "id": "tt35091739",
-    "type": "movie",
-    "name": "Fegyverszünet",
-    "poster": "https://image.tmdb.org/t/p/w500/g1O3wEA0ZaigQG0RHx7zXeuWbSc.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A The Truce (spanyolul: La tregua) egy 2025-ben bemutatott spanyol háborús és történelmi dráma, amelyet Miguel Ángel Vivas rendezett. A valós eseményeken alapuló film a túlélésről, az ellentétek feloldásáról és az emberségről szól egy kegyetlen szovjet munkatáborban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
-    ],
-    "seeders": 189
+    "seeders": 380
   },
   {
     "id": "tt0427340",
@@ -47,7 +30,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2920
+    "seeders": 2975
   },
   {
     "id": "tt32093575",
@@ -62,7 +45,24 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 3508
+    "seeders": 3597
+  },
+  {
+    "id": "tt35091739",
+    "type": "movie",
+    "name": "Fegyverszünet",
+    "poster": "https://image.tmdb.org/t/p/w500/g1O3wEA0ZaigQG0RHx7zXeuWbSc.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A The Truce (spanyolul: La tregua) egy 2025-ben bemutatott spanyol háborús és történelmi dráma, amelyet Miguel Ángel Vivas rendezett. A valós eseményeken alapuló film a túlélésről, az ellentétek feloldásáról és az emberségről szól egy kegyetlen szovjet munkatáborban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Háborús"
+    ],
+    "seeders": 206
   },
   {
     "id": "tt8814476",
@@ -79,7 +79,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 694
+    "seeders": 706
   },
   {
     "id": "tt33029380",
@@ -95,23 +95,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 485
-  },
-  {
-    "id": "tt36958312",
-    "type": "movie",
-    "name": "ÖRDÖGSZÁJ",
-    "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Öt barát indul el felfedezni a thaiföldi Ördögszáj-barlangrendszert egy utolsó kaland során, mielőtt megkezdődik a nagybetűs élet. De hamarosan kiderül, hogy valami vadászik rájuk a víz alatt... és az a valami gyors, csendes és halálos. A fojtogató sötétségben a bizalom megrendül, a pánik eluralkodik, és minden rossz kanyar küzdelemmé válik a túlélésért.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 914
+    "seeders": 488
   },
   {
     "id": "tt30825738",
@@ -128,7 +112,23 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1375
+    "seeders": 1389
+  },
+  {
+    "id": "tt36958312",
+    "type": "movie",
+    "name": "ÖRDÖGSZÁJ",
+    "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Öt barát indul el felfedezni a thaiföldi Ördögszáj-barlangrendszert egy utolsó kaland során, mielőtt megkezdődik a nagybetűs élet. De hamarosan kiderül, hogy valami vadászik rájuk a víz alatt... és az a valami gyors, csendes és halálos. A fojtogató sötétségben a bizalom megrendül, a pánik eluralkodik, és minden rossz kanyar küzdelemmé válik a túlélésért.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 885
   },
   {
     "id": "tt36153493",
@@ -144,7 +144,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 323
+    "seeders": 308
   },
   {
     "id": "tt35672862",
@@ -159,7 +159,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 921
+    "seeders": 940
   },
   {
     "id": "tt34477899",
@@ -176,37 +176,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 211
-  },
-  {
-    "id": "tt37697399",
-    "type": "movie",
-    "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/6evn0A1Mvxe9p5r2CVxFfbOoetw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 3.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 314
-  },
-  {
-    "id": "tt34890320",
-    "type": "movie",
-    "name": "Preschool",
-    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 178
+    "seeders": 199
   },
   {
     "id": "tt37287335",
@@ -222,7 +192,37 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1087
+    "seeders": 1089
+  },
+  {
+    "id": "tt34890320",
+    "type": "movie",
+    "name": "Preschool",
+    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 180
+  },
+  {
+    "id": "tt37697399",
+    "type": "movie",
+    "name": "Ismeretlen gonosz",
+    "poster": "https://image.tmdb.org/t/p/w500/6evn0A1Mvxe9p5r2CVxFfbOoetw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
+    "imdbRating": 3.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 295
   },
   {
     "id": "tt39163015",
@@ -237,7 +237,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 125
+    "seeders": 129
   },
   {
     "id": "tt36304003",
@@ -253,7 +253,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 492
+    "seeders": 473
   },
   {
     "id": "tt38492476",
@@ -268,7 +268,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 610
+    "seeders": 609
   },
   {
     "id": "tt13652286",
@@ -302,7 +302,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 91
+    "seeders": 94
   },
   {
     "id": "tt12042730",
@@ -335,7 +335,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 272
+    "seeders": 273
   },
   {
     "id": "tt43683795",
@@ -350,7 +350,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 176
+    "seeders": 164
   },
   {
     "id": "tt14064760",
@@ -365,7 +365,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 119
+    "seeders": 117
   },
   {
     "id": "tt40815155",
@@ -375,13 +375,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A hajdan ünnepelt, vegyes felállású K-pop együttes, a Triangle egykori tagjai – amelynek karrierje húsz évvel ezelőtt egy botrány következtében összeomlott – most elszántan próbálnak visszakapaszkodni a színpadra.",
-    "imdbRating": 5.5,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Zenei"
     ],
-    "seeders": 68
+    "seeders": 66
   },
   {
     "id": "tt33424589",
@@ -396,7 +396,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 49
+    "seeders": 56
+  },
+  {
+    "id": "tt43677301",
+    "type": "movie",
+    "name": "The Odyssey: The Making of an Epic",
+    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 254
   },
   {
     "id": "tt41111628",
@@ -413,22 +428,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 135
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 240
+    "seeders": 130
   },
   {
     "id": "tt33612209",
@@ -444,7 +444,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 189
+    "seeders": 196
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 193
   },
   {
     "id": "tt34477910",
@@ -462,22 +478,6 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 166
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 190
+    "seeders": 161
   }
 ]
