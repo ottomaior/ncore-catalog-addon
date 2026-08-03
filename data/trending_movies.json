@@ -13,7 +13,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1018
+    "seeders": 1391
   },
   {
     "id": "tt35091739",
@@ -30,23 +30,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 83
-  },
-  {
-    "id": "tt33029380",
-    "type": "movie",
-    "name": "Marsupilami",
-    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Vígjáték"
-    ],
-    "seeders": 372
+    "seeders": 140
   },
   {
     "id": "tt0427340",
@@ -63,7 +47,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2023
+    "seeders": 2587
   },
   {
     "id": "tt32093575",
@@ -78,7 +62,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 2370
+    "seeders": 2946
+  },
+  {
+    "id": "tt33029380",
+    "type": "movie",
+    "name": "Marsupilami",
+    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 434
   },
   {
     "id": "tt8814476",
@@ -95,23 +95,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 477
-  },
-  {
-    "id": "tt36153493",
-    "type": "movie",
-    "name": "A vadmacska",
-    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 231
+    "seeders": 598
   },
   {
     "id": "tt36958312",
@@ -127,7 +111,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 626
+    "seeders": 789
   },
   {
     "id": "tt30825738",
@@ -144,7 +128,23 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 972
+    "seeders": 1196
+  },
+  {
+    "id": "tt36153493",
+    "type": "movie",
+    "name": "A vadmacska",
+    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 278
   },
   {
     "id": "tt34477899",
@@ -161,7 +161,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 165
+    "seeders": 191
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 808
   },
   {
     "id": "tt39163015",
@@ -176,37 +191,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 111
-  },
-  {
-    "id": "tt34890320",
-    "type": "movie",
-    "name": "Preschool",
-    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 148
-  },
-  {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 648
+    "seeders": 123
   },
   {
     "id": "tt37697399",
@@ -221,7 +206,22 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 230
+    "seeders": 283
+  },
+  {
+    "id": "tt34890320",
+    "type": "movie",
+    "name": "Preschool",
+    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 160
   },
   {
     "id": "tt37287335",
@@ -231,13 +231,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
-    "imdbRating": 8.2,
+    "imdbRating": 8.3,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "seeders": 721
+    "seeders": 945
   },
   {
     "id": "tt36304003",
@@ -253,7 +253,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 369
+    "seeders": 440
   },
   {
     "id": "tt38492476",
@@ -268,7 +268,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 459
+    "seeders": 540
   },
   {
     "id": "tt1527793",
@@ -285,23 +285,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 77
-  },
-  {
-    "id": "tt12042730",
-    "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Kaland"
-    ],
-    "seeders": 139
+    "seeders": 86
   },
   {
     "id": "tt13652286",
@@ -318,7 +302,23 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 344
+    "seeders": 395
+  },
+  {
+    "id": "tt12042730",
+    "type": "movie",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 159
   },
   {
     "id": "tt34375721",
@@ -335,7 +335,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 196
+    "seeders": 240
   },
   {
     "id": "tt43683795",
@@ -350,23 +350,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 147
-  },
-  {
-    "id": "tt40815155",
-    "type": "movie",
-    "name": "Féktelen dallamok",
-    "poster": "https://image.tmdb.org/t/p/w500/s4IUDzLZJb4CosgEXcmouY32Jfg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A hajdan ünnepelt, vegyes felállású K-pop együttes, a Triangle egykori tagjai – amelynek karrierje húsz évvel ezelőtt egy botrány következtében összeomlott – most elszántan próbálnak visszakapaszkodni a színpadra.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Zenei"
-    ],
-    "seeders": 56
+    "seeders": 169
   },
   {
     "id": "tt14064760",
@@ -381,7 +365,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 98
+    "seeders": 110
+  },
+  {
+    "id": "tt40815155",
+    "type": "movie",
+    "name": "Féktelen dallamok",
+    "poster": "https://image.tmdb.org/t/p/w500/s4IUDzLZJb4CosgEXcmouY32Jfg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A hajdan ünnepelt, vegyes felállású K-pop együttes, a Triangle egykori tagjai – amelynek karrierje húsz évvel ezelőtt egy botrány következtében összeomlott – most elszántan próbálnak visszakapaszkodni a színpadra.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Zenei"
+    ],
+    "seeders": 62
   },
   {
     "id": "tt33424589",
@@ -396,7 +396,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 48
+    "seeders": 50
   },
   {
     "id": "tt41111628",
@@ -413,7 +413,7 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 110
+    "seeders": 132
   },
   {
     "id": "tt33612209",
@@ -429,7 +429,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 156
+    "seeders": 180
   },
   {
     "id": "tt43677301",
@@ -444,23 +444,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 167
-  },
-  {
-    "id": "tt34459219",
-    "type": "movie",
-    "name": "Apa otthon",
-    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 161
+    "seeders": 211
   },
   {
     "id": "tt34477910",
@@ -478,6 +462,22 @@
       "Fantasy",
       "Kaland"
     ],
-    "seeders": 136
+    "seeders": 154
+  },
+  {
+    "id": "tt34459219",
+    "type": "movie",
+    "name": "Apa otthon",
+    "poster": "https://image.tmdb.org/t/p/w500/7WJEC2Ykyl5MCaIld4DTQhlUjsW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 175
   }
 ]
