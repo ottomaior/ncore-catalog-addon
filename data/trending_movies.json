@@ -13,23 +13,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1256
-  },
-  {
-    "id": "tt43729889",
-    "type": "movie",
-    "name": "Storm on Sesame Street",
-    "poster": "https://image.tmdb.org/t/p/w500/w4GrHRGgRQOYG95f2oVLYzGJ4Md.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Családi",
-      "Animációs"
-    ],
-    "seeders": 61
+    "seeders": 1590
   },
   {
     "id": "tt0427340",
@@ -46,7 +30,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 1951
+    "seeders": 2473
   },
   {
     "id": "tt32093575",
@@ -61,24 +45,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 2308
+    "seeders": 2846
   },
   {
-    "id": "tt35091739",
+    "id": "tt43729889",
     "type": "movie",
-    "name": "Fegyverszünet",
-    "poster": "https://image.tmdb.org/t/p/w500/g1O3wEA0ZaigQG0RHx7zXeuWbSc.jpg",
+    "name": "Storm on Sesame Street",
+    "poster": "https://image.tmdb.org/t/p/w500/w4GrHRGgRQOYG95f2oVLYzGJ4Md.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A The Truce (spanyolul: La tregua) egy 2025-ben bemutatott spanyol háborús és történelmi dráma, amelyet Miguel Ángel Vivas rendezett. A valós eseményeken alapuló film a túlélésről, az ellentétek feloldásáról és az emberségről szól egy kegyetlen szovjet munkatáborban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
+      "Családi",
+      "Animációs"
     ],
-    "seeders": 167
+    "seeders": 73
   },
   {
     "id": "tt8814476",
@@ -95,23 +78,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 495
-  },
-  {
-    "id": "tt33029380",
-    "type": "movie",
-    "name": "Marsupilami",
-    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Vígjáték"
-    ],
-    "seeders": 369
+    "seeders": 615
   },
   {
     "id": "tt30825738",
@@ -128,7 +95,40 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 952
+    "seeders": 1167
+  },
+  {
+    "id": "tt33029380",
+    "type": "movie",
+    "name": "Marsupilami",
+    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 432
+  },
+  {
+    "id": "tt35091739",
+    "type": "movie",
+    "name": "Fegyverszünet",
+    "poster": "https://image.tmdb.org/t/p/w500/g1O3wEA0ZaigQG0RHx7zXeuWbSc.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A The Truce (spanyolul: La tregua) egy 2025-ben bemutatott spanyol háborús és történelmi dráma, amelyet Miguel Ángel Vivas rendezett. A valós eseményeken alapuló film a túlélésről, az ellentétek feloldásáról és az emberségről szól egy kegyetlen szovjet munkatáborban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Háborús"
+    ],
+    "seeders": 193
   },
   {
     "id": "tt36958312",
@@ -144,7 +144,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 618
+    "seeders": 771
   },
   {
     "id": "tt36153493",
@@ -154,13 +154,13 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.1,
+    "imdbRating": 6.2,
     "releaseInfo": "2025",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 212
+    "seeders": 260
   },
   {
     "id": "tt35672862",
@@ -175,7 +175,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 628
+    "seeders": 762
   },
   {
     "id": "tt34477899",
@@ -192,52 +192,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 154
-  },
-  {
-    "id": "tt34890320",
-    "type": "movie",
-    "name": "Preschool",
-    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 148
-  },
-  {
-    "id": "tt37697399",
-    "type": "movie",
-    "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/6evn0A1Mvxe9p5r2CVxFfbOoetw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 3.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 211
-  },
-  {
-    "id": "tt39163015",
-    "type": "movie",
-    "name": "Idő és víz: Izland eltűnő gleccserei",
-    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 107
+    "seeders": 174
   },
   {
     "id": "tt37287335",
@@ -253,7 +208,52 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 696
+    "seeders": 879
+  },
+  {
+    "id": "tt34890320",
+    "type": "movie",
+    "name": "Preschool",
+    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 167
+  },
+  {
+    "id": "tt37697399",
+    "type": "movie",
+    "name": "Ismeretlen gonosz",
+    "poster": "https://image.tmdb.org/t/p/w500/6evn0A1Mvxe9p5r2CVxFfbOoetw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
+    "imdbRating": 3.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 257
+  },
+  {
+    "id": "tt39163015",
+    "type": "movie",
+    "name": "Idő és víz: Izland eltűnő gleccserei",
+    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 111
   },
   {
     "id": "tt36304003",
@@ -269,7 +269,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 348
+    "seeders": 421
   },
   {
     "id": "tt38492476",
@@ -284,7 +284,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 430
+    "seeders": 519
   },
   {
     "id": "tt13652286",
@@ -301,7 +301,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 340
+    "seeders": 383
   },
   {
     "id": "tt12042730",
@@ -317,7 +317,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 137
+    "seeders": 163
   },
   {
     "id": "tt1527793",
@@ -334,7 +334,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 74
+    "seeders": 87
   },
   {
     "id": "tt34375721",
@@ -351,7 +351,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 198
+    "seeders": 226
   },
   {
     "id": "tt43683795",
@@ -366,7 +366,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 129
+    "seeders": 153
   },
   {
     "id": "tt14064760",
@@ -381,7 +381,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 90
+    "seeders": 102
   },
   {
     "id": "tt40815155",
@@ -397,39 +397,7 @@
       "Vígjáték",
       "Zenei"
     ],
-    "seeders": 53
-  },
-  {
-    "id": "tt33424589",
-    "type": "movie",
-    "name": "Ragyogó élet",
-    "poster": "https://image.tmdb.org/t/p/w500/cJ6MyiSPiwCdHg4ENeltDgTSdlz.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nicolau 24 évesen még mindig a szüleivel él Lisszabonban, miközben egyre inkább úgy érzi, hogy zenei álma kifulladóban van, és a múltban maradt egykori szerelme emléke is visszatartja. Bár nem találja a helyét, alkalmi munkák és a város nyári-őszi lüktetése lassan új lehetőségeket sodor elé, amelyek arra késztetik, hogy végre maga mögött hagyja a tétovaságot, és elkezdje felépíteni a saját életét.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 42
-  },
-  {
-    "id": "tt41111628",
-    "type": "movie",
-    "name": "Kétkedők",
-    "poster": "https://image.tmdb.org/t/p/w500/pUvs1iFFMDy3sNp5dNmkRak1oxD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ruth (Stéphanie Magnin), a 30 éves nő, aki már jó ideje eltávolodott a családjától, hazatér, miután édesanyja rejtélyes körülmények között meghal. Itt ismét összetalálkozik apjával, Martínnal (Jose Coronado), aki a nyugdíjazása óta mogorva, agresszív férfivá vált, és megszállottan hisz egy baljós összeesküvés-elméletben. Kettejük viszonya annyira feszült, Martín viselkedése pedig olyannyira kiszámíthatatlan, hogy Ruth egy idő után arra kezd gyanakodni: talán az apjának köze lehetett az anyja halálához. Vajon lehetséges, hogy egy gyilkossal él egy fedél alatt?",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 102
+    "seeders": 60
   },
   {
     "id": "tt33612209",
@@ -445,7 +413,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 154
+    "seeders": 186
   },
   {
     "id": "tt43677301",
@@ -460,7 +428,39 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 170
+    "seeders": 210
+  },
+  {
+    "id": "tt41111628",
+    "type": "movie",
+    "name": "Kétkedők",
+    "poster": "https://image.tmdb.org/t/p/w500/pUvs1iFFMDy3sNp5dNmkRak1oxD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ruth (Stéphanie Magnin), a 30 éves nő, aki már jó ideje eltávolodott a családjától, hazatér, miután édesanyja rejtélyes körülmények között meghal. Itt ismét összetalálkozik apjával, Martínnal (Jose Coronado), aki a nyugdíjazása óta mogorva, agresszív férfivá vált, és megszállottan hisz egy baljós összeesküvés-elméletben. Kettejük viszonya annyira feszült, Martín viselkedése pedig olyannyira kiszámíthatatlan, hogy Ruth egy idő után arra kezd gyanakodni: talán az apjának köze lehetett az anyja halálához. Vajon lehetséges, hogy egy gyilkossal él egy fedél alatt?",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Dráma",
+      "Rejtély"
+    ],
+    "seeders": 116
+  },
+  {
+    "id": "tt33424589",
+    "type": "movie",
+    "name": "Ragyogó élet",
+    "poster": "https://image.tmdb.org/t/p/w500/cJ6MyiSPiwCdHg4ENeltDgTSdlz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nicolau 24 évesen még mindig a szüleivel él Lisszabonban, miközben egyre inkább úgy érzi, hogy zenei álma kifulladóban van, és a múltban maradt egykori szerelme emléke is visszatartja. Bár nem találja a helyét, alkalmi munkák és a város nyári-őszi lüktetése lassan új lehetőségeket sodor elé, amelyek arra késztetik, hogy végre maga mögött hagyja a tétovaságot, és elkezdje felépíteni a saját életét.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 40
   },
   {
     "id": "tt34459219",
@@ -470,12 +470,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy szupermama egy Shark Tank üzletet köt, és szerepet cserél kenyérkereső férjével. A férfi három lányuk otthonmaradó apjaként küzd az alkalmazkodással.",
-    "imdbRating": 7.5,
+    "imdbRating": 7.4,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 161
+    "seeders": 178
   }
 ]
