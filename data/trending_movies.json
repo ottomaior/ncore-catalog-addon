@@ -13,7 +13,22 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1861
+    "seeders": 1948
+  },
+  {
+    "id": "tt32093575",
+    "type": "movie",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 3529
   },
   {
     "id": "tt0427340",
@@ -30,39 +45,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2831
-  },
-  {
-    "id": "tt32093575",
-    "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 3321
-  },
-  {
-    "id": "tt8814476",
-    "type": "movie",
-    "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 704
+    "seeders": 2936
   },
   {
     "id": "tt30825738",
@@ -79,12 +62,29 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1355
+    "seeders": 1444
+  },
+  {
+    "id": "tt8814476",
+    "type": "movie",
+    "name": "Supergirl",
+    "poster": "https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 719
   },
   {
     "id": "tt36958312",
     "type": "movie",
-    "name": "ÖRDÖGSZÁJ",
+    "name": "Ördögszáj",
     "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
     "posterShape": "poster",
     "year": 2026,
@@ -95,7 +95,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 878
+    "seeders": 868
   },
   {
     "id": "tt33029380",
@@ -111,7 +111,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 486
+    "seeders": 473
   },
   {
     "id": "tt35091739",
@@ -128,23 +128,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 216
-  },
-  {
-    "id": "tt43729889",
-    "type": "movie",
-    "name": "Sesame Street – Vihar a Szezám utcában",
-    "poster": "https://image.tmdb.org/t/p/w500/w4GrHRGgRQOYG95f2oVLYzGJ4Md.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Elmo és a barátai segítenek felkészülni a közeledő viharra. Miután a vihar elvonul, az utca egészen másképp néz ki. Elmo és Abby szeretnének egy nagy dolgot tenni, hogy segítsenek. Végül megtanulják, hogy egyetlen apró segítség is hatalmas változást hozhat a környékük számára.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Családi",
-      "Animációs"
-    ],
-    "seeders": 88
+    "seeders": 217
   },
   {
     "id": "tt36153493",
@@ -160,7 +144,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 298
+    "seeders": 271
   },
   {
     "id": "tt35672862",
@@ -175,7 +159,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 863
+    "seeders": 894
   },
   {
     "id": "tt37287335",
@@ -191,13 +175,13 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1004
+    "seeders": 1079
   },
   {
     "id": "tt37697399",
     "type": "movie",
     "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/6evn0A1Mvxe9p5r2CVxFfbOoetw.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
@@ -206,7 +190,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 298
+    "seeders": 289
   },
   {
     "id": "tt34477899",
@@ -238,7 +222,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 177
+    "seeders": 170
+  },
+  {
+    "id": "tt39163015",
+    "type": "movie",
+    "name": "Idő és víz: Izland eltűnő gleccserei",
+    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 130
   },
   {
     "id": "tt36304003",
@@ -254,22 +253,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 472
-  },
-  {
-    "id": "tt39163015",
-    "type": "movie",
-    "name": "Idő és víz: Izland eltűnő gleccserei",
-    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 123
+    "seeders": 455
   },
   {
     "id": "tt38492476",
@@ -284,7 +268,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 602
+    "seeders": 580
   },
   {
     "id": "tt13652286",
@@ -301,7 +285,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 452
+    "seeders": 456
   },
   {
     "id": "tt12042730",
@@ -317,7 +301,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 176
+    "seeders": 171
   },
   {
     "id": "tt1527793",
@@ -334,7 +318,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 92
+    "seeders": 93
   },
   {
     "id": "tt34375721",
@@ -351,7 +335,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 264
+    "seeders": 262
   },
   {
     "id": "tt43683795",
@@ -366,7 +350,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 159
+    "seeders": 162
+  },
+  {
+    "id": "tt14064760",
+    "type": "movie",
+    "name": "Déli krónikák",
+    "poster": "https://image.tmdb.org/t/p/w500/5cS1YMEckoM1pmBzpoEAWTkZU9H.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A történet Rimantsról szól, akit jobban érdekel a rögbi, a zenehallgatás és a feketepiaci kereskedés, mint a tanulás, de amikor beleszeret Monikába, a szerelembe és a jövőbe vetett hite próbára válik.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 106
   },
   {
     "id": "tt40815155",
@@ -382,22 +381,7 @@
       "Vígjáték",
       "Zenei"
     ],
-    "seeders": 71
-  },
-  {
-    "id": "tt14064760",
-    "type": "movie",
-    "name": "Déli krónikák",
-    "poster": "https://image.tmdb.org/t/p/w500/5cS1YMEckoM1pmBzpoEAWTkZU9H.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A történet Rimantsról szól, akit jobban érdekel a rögbi, a zenehallgatás és a feketepiaci kereskedés, mint a tanulás, de amikor beleszeret Monikába, a szerelembe és a jövőbe vetett hite próbára válik.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 108
+    "seeders": 65
   },
   {
     "id": "tt43677301",
@@ -412,23 +396,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 224
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 191
+    "seeders": 236
   },
   {
     "id": "tt41111628",
@@ -445,7 +413,23 @@
       "Dráma",
       "Rejtély"
     ],
-    "seeders": 123
+    "seeders": 126
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 183
   },
   {
     "id": "tt33424589",
@@ -460,7 +444,25 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 41
+    "seeders": 48
+  },
+  {
+    "id": "tt34477910",
+    "type": "movie",
+    "name": "Utódok: Gonoszok Csodaországa",
+    "poster": "https://image.tmdb.org/t/p/w500/nKeyLvDBt2TNkDilbQ6yl74Jy2N.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A fantasy tinisorozat legújabb része. Amikor Csodaországban megrendezik a Királyság Kupa játékokat, Rednek és Chloe Charmingnak meg kell küzdenie, hogy mindenkit megmentsenek egy váratlan gonosztevőtől.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "TV film",
+      "Családi",
+      "Fantasy",
+      "Kaland"
+    ],
+    "seeders": 161
   },
   {
     "id": "tt34459219",
@@ -476,6 +478,6 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 187
+    "seeders": 184
   }
 ]
