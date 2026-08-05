@@ -1,34 +1,51 @@
 [
   {
-    "id": "tt39398162",
+    "id": "tt27047903",
     "type": "movie",
-    "name": "The Loved One",
-    "poster": "https://image.tmdb.org/t/p/w500/rVZQcphJRWVJgQZtWztrauB6Fwe.jpg",
+    "name": "Sikoly 7",
+    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.3,
+    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
-      "Dráma"
+      "Horror",
+      "Rejtély",
+      "Bűnügyi"
     ],
-    "seeders": 78
+    "seeders": 282
   },
   {
     "id": "tt43657327",
     "type": "movie",
-    "name": "Big Chicken: A Fast Food Conspiracy",
+    "name": "A nagy csirke-összeesküvés",
     "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
     "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 76
+    "seeders": 98
+  },
+  {
+    "id": "tt15047880",
+    "type": "movie",
+    "name": "A leleplezés napja",
+    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 1932
   },
   {
     "id": "tt5072334",
@@ -44,7 +61,23 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 61
+    "seeders": 63
+  },
+  {
+    "id": "tt39398162",
+    "type": "movie",
+    "name": "The Loved One",
+    "poster": "https://image.tmdb.org/t/p/w500/rVZQcphJRWVJgQZtWztrauB6Fwe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 98
   },
   {
     "id": "tt1527793",
@@ -61,23 +94,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 32
+    "seeders": 33
   },
   {
-    "id": "tt15047880",
+    "id": "tt32093575",
     "type": "movie",
-    "name": "A leleplezés napja",
-    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
-    "imdbRating": 7.4,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
-      "Sci-Fi",
-      "Thriller"
+      "Vígjáték"
     ],
-    "seeders": 1674
+    "seeders": 3286
   },
   {
     "id": "tt0427340",
@@ -94,22 +126,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2431
-  },
-  {
-    "id": "tt32093575",
-    "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 2808
+    "seeders": 2774
   },
   {
     "id": "tt30825738",
@@ -126,7 +143,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1202
+    "seeders": 1365
   },
   {
     "id": "tt8814476",
@@ -143,7 +160,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 590
+    "seeders": 682
   },
   {
     "id": "tt36958312",
@@ -159,7 +176,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 721
+    "seeders": 840
   },
   {
     "id": "tt33029380",
@@ -175,7 +192,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 429
+    "seeders": 470
   },
   {
     "id": "tt35091739",
@@ -192,7 +209,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 194
+    "seeders": 211
   },
   {
     "id": "tt36153493",
@@ -208,7 +225,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 251
+    "seeders": 273
   },
   {
     "id": "tt35672862",
@@ -223,7 +240,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 735
+    "seeders": 857
   },
   {
     "id": "tt37287335",
@@ -239,7 +256,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 848
+    "seeders": 997
+  },
+  {
+    "id": "tt43729889",
+    "type": "movie",
+    "name": "Sesame Street – Vihar a Szezám utcában",
+    "poster": "https://image.tmdb.org/t/p/w500/w4GrHRGgRQOYG95f2oVLYzGJ4Md.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Elmo és a barátai segítenek felkészülni a közeledő viharra. Miután a vihar elvonul, az utca egészen másképp néz ki. Elmo és Abby szeretnének egy nagy dolgot tenni, hogy segítsenek. Végül megtanulják, hogy egyetlen apró segítség is hatalmas változást hozhat a környékük számára.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Családi",
+      "Animációs"
+    ],
+    "seeders": 85
   },
   {
     "id": "tt37697399",
@@ -254,7 +287,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 245
+    "seeders": 273
   },
   {
     "id": "tt34477899",
@@ -271,22 +304,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 172
-  },
-  {
-    "id": "tt34890320",
-    "type": "movie",
-    "name": "Preschool",
-    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 153
+    "seeders": 190
   },
   {
     "id": "tt36304003",
@@ -302,7 +320,22 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 416
+    "seeders": 467
+  },
+  {
+    "id": "tt34890320",
+    "type": "movie",
+    "name": "Preschool",
+    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 166
   },
   {
     "id": "tt39163015",
@@ -317,7 +350,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 116
+    "seeders": 126
   },
   {
     "id": "tt38492476",
@@ -332,7 +365,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 502
+    "seeders": 566
   },
   {
     "id": "tt13652286",
@@ -349,7 +382,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 379
+    "seeders": 430
   },
   {
     "id": "tt12042730",
@@ -365,7 +398,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 169
+    "seeders": 177
   },
   {
     "id": "tt34375721",
@@ -382,7 +415,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 218
+    "seeders": 233
   },
   {
     "id": "tt43683795",
@@ -397,7 +430,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 145
+    "seeders": 147
   },
   {
     "id": "tt14064760",
@@ -412,23 +445,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 99
-  },
-  {
-    "id": "tt33612209",
-    "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 183
+    "seeders": 103
   },
   {
     "id": "tt40815155",
@@ -444,7 +461,7 @@
       "Vígjáték",
       "Zenei"
     ],
-    "seeders": 57
+    "seeders": 64
   },
   {
     "id": "tt43677301",
@@ -459,23 +476,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 202
-  },
-  {
-    "id": "tt41111628",
-    "type": "movie",
-    "name": "Kétkedők",
-    "poster": "https://image.tmdb.org/t/p/w500/pUvs1iFFMDy3sNp5dNmkRak1oxD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ruth (Stéphanie Magnin), a 30 éves nő, aki már jó ideje eltávolodott a családjától, hazatér, miután édesanyja rejtélyes körülmények között meghal. Itt ismét összetalálkozik apjával, Martínnal (Jose Coronado), aki a nyugdíjazása óta mogorva, agresszív férfivá vált, és megszállottan hisz egy baljós összeesküvés-elméletben. Kettejük viszonya annyira feszült, Martín viselkedése pedig olyannyira kiszámíthatatlan, hogy Ruth egy idő után arra kezd gyanakodni: talán az apjának köze lehetett az anyja halálához. Vajon lehetséges, hogy egy gyilkossal él egy fedél alatt?",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Dráma",
-      "Rejtély"
-    ],
-    "seeders": 109
+    "seeders": 229
   }
 ]
