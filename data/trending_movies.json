@@ -14,22 +14,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 282
-  },
-  {
-    "id": "tt43657327",
-    "type": "movie",
-    "name": "A nagy csirke-összeesküvés",
-    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 98
+    "seeders": 481
   },
   {
     "id": "tt15047880",
@@ -45,7 +30,22 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1932
+    "seeders": 2023
+  },
+  {
+    "id": "tt43657327",
+    "type": "movie",
+    "name": "A nagy csirke-összeesküvés",
+    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 128
   },
   {
     "id": "tt5072334",
@@ -61,7 +61,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 63
+    "seeders": 75
   },
   {
     "id": "tt39398162",
@@ -77,24 +77,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 98
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 33
+    "seeders": 101
   },
   {
     "id": "tt32093575",
@@ -109,7 +92,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 3286
+    "seeders": 3520
   },
   {
     "id": "tt0427340",
@@ -126,7 +109,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2774
+    "seeders": 2914
   },
   {
     "id": "tt30825738",
@@ -143,7 +126,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1365
+    "seeders": 1451
   },
   {
     "id": "tt8814476",
@@ -160,7 +143,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 682
+    "seeders": 736
   },
   {
     "id": "tt36958312",
@@ -176,7 +159,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 840
+    "seeders": 814
   },
   {
     "id": "tt33029380",
@@ -192,7 +175,24 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 470
+    "seeders": 471
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 35
   },
   {
     "id": "tt35091739",
@@ -209,7 +209,22 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 211
+    "seeders": 209
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 925
   },
   {
     "id": "tt36153493",
@@ -225,22 +240,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 273
-  },
-  {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 857
+    "seeders": 254
   },
   {
     "id": "tt37287335",
@@ -256,7 +256,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 997
+    "seeders": 1076
   },
   {
     "id": "tt43729889",
@@ -272,7 +272,7 @@
       "Családi",
       "Animációs"
     ],
-    "seeders": 85
+    "seeders": 81
   },
   {
     "id": "tt37697399",
@@ -304,7 +304,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 190
+    "seeders": 176
   },
   {
     "id": "tt36304003",
@@ -320,7 +320,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 467
+    "seeders": 461
   },
   {
     "id": "tt34890320",
@@ -335,7 +335,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 166
+    "seeders": 164
   },
   {
     "id": "tt39163015",
@@ -350,7 +350,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 126
+    "seeders": 136
   },
   {
     "id": "tt38492476",
@@ -365,7 +365,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 566
+    "seeders": 581
   },
   {
     "id": "tt13652286",
@@ -382,7 +382,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 430
+    "seeders": 440
   },
   {
     "id": "tt12042730",
@@ -398,7 +398,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 177
+    "seeders": 192
   },
   {
     "id": "tt34375721",
@@ -415,7 +415,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 233
+    "seeders": 256
   },
   {
     "id": "tt43683795",
@@ -430,7 +430,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 147
+    "seeders": 160
   },
   {
     "id": "tt14064760",
@@ -445,7 +445,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 103
+    "seeders": 104
+  },
+  {
+    "id": "tt33612209",
+    "type": "movie",
+    "name": "Az ördög Pradát visel 2.",
+    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 192
   },
   {
     "id": "tt40815155",
@@ -461,21 +477,6 @@
       "Vígjáték",
       "Zenei"
     ],
-    "seeders": 64
-  },
-  {
-    "id": "tt43677301",
-    "type": "movie",
-    "name": "The Odyssey: The Making of an Epic",
-    "poster": "https://image.tmdb.org/t/p/w500/nEWsCyE488tG85P8Cg3HbVbMvqQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A stáb bemutatja a mitikus világot, Homérosz történetét és a forgatási munkálatokat.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 229
+    "seeders": 63
   }
 ]
