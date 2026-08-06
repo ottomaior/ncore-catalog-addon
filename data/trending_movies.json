@@ -14,7 +14,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 376
+    "seeders": 474
   },
   {
     "id": "tt15047880",
@@ -30,7 +30,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1390
+    "seeders": 1750
   },
   {
     "id": "tt28549378",
@@ -46,7 +46,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 58
+    "seeders": 68
   },
   {
     "id": "tt43657327",
@@ -61,71 +61,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 107
-  },
-  {
-    "id": "tt32093575",
-    "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 2227
-  },
-  {
-    "id": "tt0427340",
-    "type": "movie",
-    "name": "Az univerzum védelmezői",
-    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát és He-Man-né, az univerzum leghatalmasabb emberévé váljon.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Sci-Fi"
-    ],
-    "seeders": 1893
-  },
-  {
-    "id": "tt39398162",
-    "type": "movie",
-    "name": "The Loved One",
-    "poster": "https://image.tmdb.org/t/p/w500/rVZQcphJRWVJgQZtWztrauB6Fwe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 90
-  },
-  {
-    "id": "tt5072334",
-    "type": "movie",
-    "name": "Trustorhärvan",
-    "poster": "https://image.tmdb.org/t/p/w500/zTKzYt7N7BXlSajkfm8RE2sEsdN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 63
+    "seeders": 133
   },
   {
     "id": "tt30825738",
@@ -142,7 +78,23 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 978
+    "seeders": 1223
+  },
+  {
+    "id": "tt39398162",
+    "type": "movie",
+    "name": "The Loved One",
+    "poster": "https://image.tmdb.org/t/p/w500/rVZQcphJRWVJgQZtWztrauB6Fwe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 106
   },
   {
     "id": "tt8814476",
@@ -159,7 +111,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 504
+    "seeders": 601
   },
   {
     "id": "tt36958312",
@@ -175,7 +127,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 564
+    "seeders": 682
   },
   {
     "id": "tt33029380",
@@ -191,7 +143,23 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 349
+    "seeders": 421
+  },
+  {
+    "id": "tt5072334",
+    "type": "movie",
+    "name": "Trustorhärvan",
+    "poster": "https://image.tmdb.org/t/p/w500/kfRUrP4KlBUilNaptAYDU8kJqeB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 65
   },
   {
     "id": "tt35091739",
@@ -208,7 +176,23 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 174
+    "seeders": 191
+  },
+  {
+    "id": "tt36153493",
+    "type": "movie",
+    "name": "A vadmacska",
+    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 215
   },
   {
     "id": "tt1527793",
@@ -225,70 +209,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 31
+    "seeders": 32
   },
   {
-    "id": "tt35672862",
+    "id": "tt37697399",
     "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "name": "Ismeretlen gonosz",
+    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 6.9,
+    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
+    "imdbRating": 3.0,
     "releaseInfo": "2026",
     "genres": [
       "Horror"
     ],
-    "seeders": 593
-  },
-  {
-    "id": "tt36153493",
-    "type": "movie",
-    "name": "A vadmacska",
-    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 186
-  },
-  {
-    "id": "tt37287335",
-    "type": "movie",
-    "name": "Megszállottság",
-    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 681
-  },
-  {
-    "id": "tt43729889",
-    "type": "movie",
-    "name": "Sesame Street – Vihar a Szezám utcában",
-    "poster": "https://image.tmdb.org/t/p/w500/w4GrHRGgRQOYG95f2oVLYzGJ4Md.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Elmo és a barátai segítenek felkészülni a közeledő viharra. Miután a vihar elvonul, az utca egészen másképp néz ki. Elmo és Abby szeretnének egy nagy dolgot tenni, hogy segítsenek. Végül megtanulják, hogy egyetlen apró segítség is hatalmas változást hozhat a környékük számára.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Családi",
-      "Animációs"
-    ],
-    "seeders": 68
+    "seeders": 227
   },
   {
     "id": "tt34477899",
@@ -305,38 +241,23 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 141
+    "seeders": 168
   },
   {
-    "id": "tt37697399",
+    "id": "tt43729889",
     "type": "movie",
-    "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
+    "name": "Sesame Street – Vihar a Szezám utcában",
+    "poster": "https://image.tmdb.org/t/p/w500/w4GrHRGgRQOYG95f2oVLYzGJ4Md.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 3.0,
+    "description": "Elmo és a barátai segítenek felkészülni a közeledő viharra. Miután a vihar elvonul, az utca egészen másképp néz ki. Elmo és Abby szeretnének egy nagy dolgot tenni, hogy segítsenek. Végül megtanulják, hogy egyetlen apró segítség is hatalmas változást hozhat a környékük számára.",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Horror"
+      "Családi",
+      "Animációs"
     ],
-    "seeders": 186
-  },
-  {
-    "id": "tt36304003",
-    "type": "movie",
-    "name": "72 óra",
-    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi"
-    ],
-    "seeders": 330
+    "seeders": 78
   },
   {
     "id": "tt34890320",
@@ -351,7 +272,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 126
+    "seeders": 147
   },
   {
     "id": "tt39163015",
@@ -366,39 +287,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 107
-  },
-  {
-    "id": "tt38492476",
-    "type": "movie",
-    "name": "Legénybúcsú",
-    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-    "imdbRating": 5.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 426
-  },
-  {
-    "id": "tt13652286",
-    "type": "movie",
-    "name": "Légi csapda",
-    "poster": "https://image.tmdb.org/t/p/w500/cXB0UClnrl6B7J6HSkzwqH39Uxd.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 311
+    "seeders": 115
   },
   {
     "id": "tt12042730",
@@ -414,39 +303,22 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 144
+    "seeders": 158
   },
   {
-    "id": "tt34375721",
+    "id": "tt35672862",
     "type": "movie",
-    "name": "Sárkányok Kabul felett",
-    "poster": "https://image.tmdb.org/t/p/w500/rHOTaT34vaxzN7TAzgSWHiqCA5p.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 188
-  },
-  {
-    "id": "tt43683795",
-    "type": "movie",
-    "name": "Eufória: Visszatekintés",
-    "poster": "https://image.tmdb.org/t/p/w500/1us6iYG7P600BgSdwjb6mFYCP97.jpg",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Visszatekintés az HBO nagysikerű sorozatára, az Eufóriára, a szereplőkkel és az alkotócsapattal készített interjúk alapján.",
-    "imdbRating": 3.2,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Horror"
     ],
-    "seeders": 120
+    "seeders": 116
   },
   {
     "id": "tt14064760",
@@ -461,22 +333,37 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 82
+    "seeders": 93
   },
   {
-    "id": "tt33612209",
+    "id": "tt40815155",
     "type": "movie",
-    "name": "Az ördög Pradát visel 2.",
-    "poster": "https://image.tmdb.org/t/p/w500/jJuZpplX4u7Lr7nCSGiZFGUt5sV.jpg",
+    "name": "Féktelen dallamok",
+    "poster": "https://image.tmdb.org/t/p/w500/s4IUDzLZJb4CosgEXcmouY32Jfg.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Miranda Priestly, a New York-i divatvilág úrnője visszatér. A nagysikerű, 2006-ban megjelent Az ördög Pradát visel folytatása az eredeti szereplőgárdával. Húsz évvel azután, hogy először eljátszották emblematikus szerepeiket, Meryl Streep (Miranda), Anne Hathaway (Andy), Emily Blunt (Emily) és Stanley Tucci (Nigel) visszatérnek New York City divatos utcáira és a Runway Magazin sikkes irodáiba a 2006-os világsiker várva-várt folytatásában.",
-    "imdbRating": 7.1,
+    "description": "A hajdan ünnepelt, vegyes felállású K-pop együttes, a Triangle egykori tagjai – amelynek karrierje húsz évvel ezelőtt egy botrány következtében összeomlott – most elszántan próbálnak visszakapaszkodni a színpadra.",
+    "imdbRating": 5.9,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
+      "Zenei"
+    ],
+    "seeders": 53
+  },
+  {
+    "id": "tt33424589",
+    "type": "movie",
+    "name": "Ragyogó élet",
+    "poster": "https://image.tmdb.org/t/p/w500/cJ6MyiSPiwCdHg4ENeltDgTSdlz.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nicolau 24 évesen még mindig a szüleivel él Lisszabonban, miközben egyre inkább úgy érzi, hogy zenei álma kifulladóban van, és a múltban maradt egykori szerelme emléke is visszatartja. Bár nem találja a helyét, alkalmi munkák és a város nyári-őszi lüktetése lassan új lehetőségeket sodor elé, amelyek arra késztetik, hogy végre maga mögött hagyja a tétovaságot, és elkezdje felépíteni a saját életét.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
       "Dráma"
     ],
-    "seeders": 155
+    "seeders": 39
   }
 ]
