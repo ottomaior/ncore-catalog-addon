@@ -1,5 +1,38 @@
 [
   {
+    "id": "tt35300281",
+    "type": "movie",
+    "name": "Ein Mädchen namens Willow",
+    "poster": "https://image.tmdb.org/t/p/w500/91o854WcptbixlbqybQTzz5BeIv.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 75
+  },
+  {
+    "id": "tt27722524",
+    "type": "movie",
+    "name": "Addition",
+    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 114
+  },
+  {
     "id": "tt27047903",
     "type": "movie",
     "name": "Sikoly 7",
@@ -14,7 +47,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 474
+    "seeders": 560
   },
   {
     "id": "tt15047880",
@@ -30,23 +63,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1750
-  },
-  {
-    "id": "tt28549378",
-    "type": "movie",
-    "name": "植物学家",
-    "poster": "https://image.tmdb.org/t/p/w500/qcTnfHjFULdt2Ze5SAdlj8zkGPQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Fantasy"
-    ],
-    "seeders": 68
+    "seeders": 2001
   },
   {
     "id": "tt43657327",
@@ -56,45 +73,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
-    "imdbRating": null,
+    "imdbRating": 1.0,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 133
+    "seeders": 142
   },
   {
-    "id": "tt30825738",
+    "id": "tt28549378",
     "type": "movie",
-    "name": "Star Wars: A Mandalóri és Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
+    "name": "A botanikus",
+    "poster": "https://image.tmdb.org/t/p/w500/qcTnfHjFULdt2Ze5SAdlj8zkGPQ.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 7.4,
+    "description": "Kína északi határán, Xinjiang tartomány egy távoli völgyében fekvő falujában egy magányos kazah fiú, Arsin a növények társaságában talál menedéket. Meiyu, egy han kínai lány érkezése olyan, mintha egy eddig ismeretlen növényt fedezne fel, amely megnyugvást és furcsa csodálatot ébreszt benne. Egy nap Arsin megtudja, hogy Meiyu a 4792 kilométerre lévő Sanghajba költözik, így egyedül kell megbirkóznia törékeny világuk csendes változásaival. A film a Sanghaji Nemzetközi Filmfesztivál 2025. évi Panorama programjából érkezik.",
+    "imdbRating": 5.0,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
+      "Dráma",
+      "Fantasy"
     ],
-    "seeders": 1223
-  },
-  {
-    "id": "tt39398162",
-    "type": "movie",
-    "name": "The Loved One",
-    "poster": "https://image.tmdb.org/t/p/w500/rVZQcphJRWVJgQZtWztrauB6Fwe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 106
+    "seeders": 80
   },
   {
     "id": "tt8814476",
@@ -111,7 +111,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 601
+    "seeders": 719
   },
   {
     "id": "tt36958312",
@@ -127,7 +127,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 682
+    "seeders": 792
+  },
+  {
+    "id": "tt39398162",
+    "type": "movie",
+    "name": "Akit szeretnek",
+    "poster": "https://image.tmdb.org/t/p/w500/rVZQcphJRWVJgQZtWztrauB6Fwe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "15 évvel később Ellie és Eric, az egykori szerelmesek újra találkoznak, hogy felkutassák egy soha el nem múlt szerelem és bánat emlékeit.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 117
   },
   {
     "id": "tt33029380",
@@ -143,23 +159,23 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 421
+    "seeders": 476
   },
   {
     "id": "tt5072334",
     "type": "movie",
-    "name": "Trustorhärvan",
+    "name": "A Trustor-botrány belülről",
     "poster": "https://image.tmdb.org/t/p/w500/kfRUrP4KlBUilNaptAYDU8kJqeB.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Joachim Posener kulcsfontosságú bennfentesekkel együtt felidézi azt az egyre terebélyesedő pénzügyi botrányt, amely egy svéd befektetési társaság illegális felvásárlását követte a 90-es években – valamint azt, hogy ki leplezte le az ügyet.",
     "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 65
+    "seeders": 68
   },
   {
     "id": "tt35091739",
@@ -176,7 +192,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 191
+    "seeders": 216
   },
   {
     "id": "tt36153493",
@@ -192,24 +208,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 215
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 32
+    "seeders": 242
   },
   {
     "id": "tt37697399",
@@ -224,7 +223,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 227
+    "seeders": 265
   },
   {
     "id": "tt34477899",
@@ -241,7 +240,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 168
+    "seeders": 178
   },
   {
     "id": "tt43729889",
@@ -257,7 +256,7 @@
       "Családi",
       "Animációs"
     ],
-    "seeders": 78
+    "seeders": 80
   },
   {
     "id": "tt34890320",
@@ -272,7 +271,24 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 147
+    "seeders": 152
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 31
   },
   {
     "id": "tt39163015",
@@ -287,7 +303,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 115
+    "seeders": 127
   },
   {
     "id": "tt12042730",
@@ -303,7 +319,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 158
+    "seeders": 168
   },
   {
     "id": "tt35672862",
@@ -318,7 +334,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 116
+    "seeders": 114
   },
   {
     "id": "tt14064760",
@@ -333,7 +349,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 93
+    "seeders": 97
   },
   {
     "id": "tt40815155",
@@ -349,7 +365,7 @@
       "Vígjáték",
       "Zenei"
     ],
-    "seeders": 53
+    "seeders": 56
   },
   {
     "id": "tt33424589",
@@ -364,6 +380,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 39
+    "seeders": 43
   }
 ]
