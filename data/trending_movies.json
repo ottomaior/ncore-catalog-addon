@@ -14,7 +14,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 481
+    "seeders": 376
   },
   {
     "id": "tt15047880",
@@ -30,7 +30,23 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2023
+    "seeders": 1390
+  },
+  {
+    "id": "tt28549378",
+    "type": "movie",
+    "name": "植物学家",
+    "poster": "https://image.tmdb.org/t/p/w500/qcTnfHjFULdt2Ze5SAdlj8zkGPQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Fantasy"
+    ],
+    "seeders": 58
   },
   {
     "id": "tt43657327",
@@ -45,23 +61,39 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 128
+    "seeders": 107
   },
   {
-    "id": "tt5072334",
+    "id": "tt32093575",
     "type": "movie",
-    "name": "Inside the Trustor Scandal",
-    "poster": "https://image.tmdb.org/t/p/w500/zTKzYt7N7BXlSajkfm8RE2sEsdN.jpg",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum",
-      "Bűnügyi"
+      "Vígjáték"
     ],
-    "seeders": 75
+    "seeders": 2227
+  },
+  {
+    "id": "tt0427340",
+    "type": "movie",
+    "name": "Az univerzum védelmezői",
+    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát és He-Man-né, az univerzum leghatalmasabb emberévé váljon.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "seeders": 1893
   },
   {
     "id": "tt39398162",
@@ -77,39 +109,23 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 101
+    "seeders": 90
   },
   {
-    "id": "tt32093575",
+    "id": "tt5072334",
     "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "name": "Trustorhärvan",
+    "poster": "https://image.tmdb.org/t/p/w500/zTKzYt7N7BXlSajkfm8RE2sEsdN.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Dokumentum",
+      "Bűnügyi"
     ],
-    "seeders": 3520
-  },
-  {
-    "id": "tt0427340",
-    "type": "movie",
-    "name": "Az univerzum védelmezői",
-    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát és He-Man-né, az univerzum leghatalmasabb emberévé váljon.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Sci-Fi"
-    ],
-    "seeders": 2914
+    "seeders": 63
   },
   {
     "id": "tt30825738",
@@ -126,7 +142,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1451
+    "seeders": 978
   },
   {
     "id": "tt8814476",
@@ -143,7 +159,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 736
+    "seeders": 504
   },
   {
     "id": "tt36958312",
@@ -159,7 +175,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 814
+    "seeders": 564
   },
   {
     "id": "tt33029380",
@@ -175,24 +191,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 471
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 35
+    "seeders": 349
   },
   {
     "id": "tt35091739",
@@ -209,7 +208,24 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 209
+    "seeders": 174
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 31
   },
   {
     "id": "tt35672862",
@@ -224,7 +240,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 925
+    "seeders": 593
   },
   {
     "id": "tt36153493",
@@ -240,7 +256,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 254
+    "seeders": 186
   },
   {
     "id": "tt37287335",
@@ -256,7 +272,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 1076
+    "seeders": 681
   },
   {
     "id": "tt43729889",
@@ -272,22 +288,7 @@
       "Családi",
       "Animációs"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt37697399",
-    "type": "movie",
-    "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 3.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 273
+    "seeders": 68
   },
   {
     "id": "tt34477899",
@@ -304,7 +305,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 176
+    "seeders": 141
+  },
+  {
+    "id": "tt37697399",
+    "type": "movie",
+    "name": "Ismeretlen gonosz",
+    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
+    "imdbRating": 3.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 186
   },
   {
     "id": "tt36304003",
@@ -320,7 +336,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 461
+    "seeders": 330
   },
   {
     "id": "tt34890320",
@@ -335,7 +351,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 164
+    "seeders": 126
   },
   {
     "id": "tt39163015",
@@ -350,7 +366,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 136
+    "seeders": 107
   },
   {
     "id": "tt38492476",
@@ -365,7 +381,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 581
+    "seeders": 426
   },
   {
     "id": "tt13652286",
@@ -382,7 +398,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 440
+    "seeders": 311
   },
   {
     "id": "tt12042730",
@@ -398,7 +414,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 192
+    "seeders": 144
   },
   {
     "id": "tt34375721",
@@ -415,7 +431,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 256
+    "seeders": 188
   },
   {
     "id": "tt43683795",
@@ -430,7 +446,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 160
+    "seeders": 120
   },
   {
     "id": "tt14064760",
@@ -445,7 +461,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 104
+    "seeders": 82
   },
   {
     "id": "tt33612209",
@@ -461,22 +477,6 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 192
-  },
-  {
-    "id": "tt40815155",
-    "type": "movie",
-    "name": "Féktelen dallamok",
-    "poster": "https://image.tmdb.org/t/p/w500/s4IUDzLZJb4CosgEXcmouY32Jfg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A hajdan ünnepelt, vegyes felállású K-pop együttes, a Triangle egykori tagjai – amelynek karrierje húsz évvel ezelőtt egy botrány következtében összeomlott – most elszántan próbálnak visszakapaszkodni a színpadra.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Zenei"
-    ],
-    "seeders": 63
+    "seeders": 155
   }
 ]
