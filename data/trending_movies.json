@@ -2,35 +2,37 @@
   {
     "id": "tt32268156",
     "type": "movie",
-    "name": "The Last House",
-    "poster": "https://image.tmdb.org/t/p/w500/tz3Afb8yxSrYmbfHGGRsJ6HvwRO.jpg",
+    "name": "Az utolsó ház",
+    "poster": "https://image.tmdb.org/t/p/w500/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "description": "Megmagyarázhatatlan erők egy négyfős családot zárnak be a házukban határozatlan időre. Ahogy mind a modern luxus, mind az élet-halál alapvető dolgok kezdenek kifogyni, a családnak meg kell tanulnia leleményesnek lenni, hogy túléljenek és túljárjanak azon, aki – vagy bármi – csapdába ejti őket.",
+    "imdbRating": 5.2,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 125
+    "seeders": 375
   },
   {
-    "id": "tt32986431",
+    "id": "tt19883490",
     "type": "movie",
-    "name": "Queens of the Dead",
-    "poster": "https://image.tmdb.org/t/p/w500/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
+    "name": "Bori - A mozifilm",
+    "poster": "https://image.tmdb.org/t/p/w500/ufczgbq2tIGxxQloBEomTqJZLXj.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Amíg a szülei utaznak, Conni izgalmas kalandot él át otthon Mau macskával, a barátaival, Willi nagypapával, egy makacs szomszéddal, és egy sérült daruval, akinek sürgősen segítségre van szüksége. Vajon Conni és a barátai időben el tudják érni, hogy Klaus, a daru a vonuló madarakkal együtt délre repüljön? (Csillag Lajos)",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Vígjáték"
+      "Kaland",
+      "Animációs",
+      "Vígjáték",
+      "Fantasy"
     ],
-    "seeders": 100
+    "seeders": 88
   },
   {
     "id": "tt15047880",
@@ -46,24 +48,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1674
-  },
-  {
-    "id": "tt30150769",
-    "type": "movie",
-    "name": "Ennyire futja",
-    "poster": "https://image.tmdb.org/t/p/w500/yJKubH2Fn0XHMy7rqIUS00ucDbw.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Cynthia Rand, New York-i urológus rendezett élete darabokra hullik, amikor férje demenciával küzd. Stan Olszewski biztonsági őr céltalanul tengeti napjait. Ez a szellemes, merész humorú vígjáték két elveszett lélekről szól, akik a legváratlanabb pillanatban találnak egymásra.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 77
+    "seeders": 1967
   },
   {
     "id": "tt27047903",
@@ -80,23 +65,40 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 544
+    "seeders": 630
   },
   {
-    "id": "tt27722524",
+    "id": "tt32986431",
     "type": "movie",
-    "name": "Összeadás",
-    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
+    "name": "Queens of the Dead",
+    "poster": "https://image.tmdb.org/t/p/w500/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Romantikus"
+      "Horror",
+      "Vígjáték"
     ],
-    "seeders": 123
+    "seeders": 147
+  },
+  {
+    "id": "tt30150769",
+    "type": "movie",
+    "name": "Ennyire futja",
+    "poster": "https://image.tmdb.org/t/p/w500/yJKubH2Fn0XHMy7rqIUS00ucDbw.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Cynthia Rand, New York-i urológus rendezett élete darabokra hullik, amikor férje demenciával küzd. Stan Olszewski biztonsági őr céltalanul tengeti napjait. Ez a szellemes, merész humorú vígjáték két elveszett lélekről szól, akik a legváratlanabb pillanatban találnak egymásra.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 91
   },
   {
     "id": "tt32093575",
@@ -111,7 +113,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 2675
+    "seeders": 3128
   },
   {
     "id": "tt0427340",
@@ -128,24 +130,23 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2280
+    "seeders": 2600
   },
   {
-    "id": "tt35300281",
+    "id": "tt27722524",
     "type": "movie",
-    "name": "Willow és a varázserdő",
-    "poster": "https://image.tmdb.org/t/p/w500/91o854WcptbixlbqybQTzz5BeIv.jpg",
+    "name": "Összeadás",
+    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Willow egy magának való kislány, aki váratlanul különös örökséget kap dédnagynénjétől, Alwinától: egy erdőt, egy girbegurba kis házat és vele együtt a boszorkányerőt is. Eleinte maga sem tudja, mit kezdjen ezzel a furcsa hagyatékkal, ám hamar kiderül, hogy az erdő veszélyben van, és csak akkor menthető meg, ha Willow megtalál három másik lányt, akikben szintén ott rejlik a varázserő. A feladat nem könnyű egy visszahúzódó, bizonytalan gyerek számára, de hűséges társa, Rufus, a róka végig mellette marad, miközben Willow lassan megtanul bízni önmagában, új barátokra lel, és felfedezi, milyen felelősséggel és csodával jár az örökölt mágikus képesség.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
     "genres": [
-      "Családi",
-      "Kaland",
-      "Fantasy"
+      "Dráma",
+      "Romantikus"
     ],
-    "seeders": 97
+    "seeders": 131
   },
   {
     "id": "tt30825738",
@@ -162,7 +163,24 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1213
+    "seeders": 1389
+  },
+  {
+    "id": "tt35300281",
+    "type": "movie",
+    "name": "Willow és a varázserdő",
+    "poster": "https://image.tmdb.org/t/p/w500/z3KWyhV18tAb45dCGMSvoY62qte.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Willow egy magának való kislány, aki váratlanul különös örökséget kap dédnagynénjétől, Alwinától: egy erdőt, egy girbegurba kis házat és vele együtt a boszorkányerőt is. Eleinte maga sem tudja, mit kezdjen ezzel a furcsa hagyatékkal, ám hamar kiderül, hogy az erdő veszélyben van, és csak akkor menthető meg, ha Willow megtalál három másik lányt, akikben szintén ott rejlik a varázserő. A feladat nem könnyű egy visszahúzódó, bizonytalan gyerek számára, de hűséges társa, Rufus, a róka végig mellette marad, miközben Willow lassan megtanul bízni önmagában, új barátokra lel, és felfedezi, milyen felelősséggel és csodával jár az örökölt mágikus képesség.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 103
   },
   {
     "id": "tt8814476",
@@ -172,14 +190,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 617
+    "seeders": 704
   },
   {
     "id": "tt36958312",
@@ -195,22 +213,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 677
-  },
-  {
-    "id": "tt43657327",
-    "type": "movie",
-    "name": "A nagy csirke-összeesküvés",
-    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
-    "imdbRating": 4.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 130
+    "seeders": 758
   },
   {
     "id": "tt33029380",
@@ -226,39 +229,22 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 403
+    "seeders": 456
   },
   {
-    "id": "tt28549378",
+    "id": "tt43657327",
     "type": "movie",
-    "name": "A botanikus",
-    "poster": "https://image.tmdb.org/t/p/w500/qcTnfHjFULdt2Ze5SAdlj8zkGPQ.jpg",
+    "name": "A nagy csirke-összeesküvés",
+    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Kína északi határán, Xinjiang tartomány egy távoli völgyében fekvő falujában egy magányos kazah fiú, Arsin a növények társaságában talál menedéket. Meiyu, egy han kínai lány érkezése olyan, mintha egy eddig ismeretlen növényt fedezne fel, amely megnyugvást és furcsa csodálatot ébreszt benne. Egy nap Arsin megtudja, hogy Meiyu a 4792 kilométerre lévő Sanghajba költözik, így egyedül kell megbirkóznia törékeny világuk csendes változásaival. A film a Sanghaji Nemzetközi Filmfesztivál 2025. évi Panorama programjából érkezik.",
-    "imdbRating": 5.0,
+    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
+    "imdbRating": 4.3,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Fantasy"
+      "Dokumentum"
     ],
-    "seeders": 73
-  },
-  {
-    "id": "tt39398162",
-    "type": "movie",
-    "name": "Akit szeretnek",
-    "poster": "https://image.tmdb.org/t/p/w500/rVZQcphJRWVJgQZtWztrauB6Fwe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "15 évvel később Ellie és Eric, az egykori szerelmesek újra találkoznak, hogy felkutassák egy soha el nem múlt szerelem és bánat emlékeit.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 101
+    "seeders": 136
   },
   {
     "id": "tt35672862",
@@ -273,7 +259,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 693
+    "seeders": 793
   },
   {
     "id": "tt37287335",
@@ -289,7 +275,39 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 796
+    "seeders": 954
+  },
+  {
+    "id": "tt39398162",
+    "type": "movie",
+    "name": "Akit szeretnek",
+    "poster": "https://image.tmdb.org/t/p/w500/rVZQcphJRWVJgQZtWztrauB6Fwe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "15 évvel később Ellie és Eric, az egykori szerelmesek újra találkoznak, hogy felkutassák egy soha el nem múlt szerelem és bánat emlékeit.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 99
+  },
+  {
+    "id": "tt28549378",
+    "type": "movie",
+    "name": "A botanikus",
+    "poster": "https://image.tmdb.org/t/p/w500/qcTnfHjFULdt2Ze5SAdlj8zkGPQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Kína északi határán, Xinjiang tartomány egy távoli völgyében fekvő falujában egy magányos kazah fiú, Arsin a növények társaságában talál menedéket. Meiyu, egy han kínai lány érkezése olyan, mintha egy eddig ismeretlen növényt fedezne fel, amely megnyugvást és furcsa csodálatot ébreszt benne. Egy nap Arsin megtudja, hogy Meiyu a 4792 kilométerre lévő Sanghajba költözik, így egyedül kell megbirkóznia törékeny világuk csendes változásaival. A film a Sanghaji Nemzetközi Filmfesztivál 2025. évi Panorama programjából érkezik.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Fantasy"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt35091739",
@@ -306,23 +324,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 175
-  },
-  {
-    "id": "tt5072334",
-    "type": "movie",
-    "name": "A Trustor-botrány belülről",
-    "poster": "https://image.tmdb.org/t/p/w500/fz2rXxC2WAqELf3TGW6ati4Dmuw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Joachim Posener kulcsfontosságú bennfentesekkel együtt felidézi azt az egyre terebélyesedő pénzügyi botrányt, amely egy svéd befektetési társaság illegális felvásárlását követte a 90-es években – valamint azt, hogy ki leplezte le az ügyet.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 66
+    "seeders": 191
   },
   {
     "id": "tt36153493",
@@ -338,22 +340,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 205
+    "seeders": 236
   },
   {
-    "id": "tt37697399",
+    "id": "tt5072334",
     "type": "movie",
-    "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
+    "name": "A Trustor-botrány belülről",
+    "poster": "https://image.tmdb.org/t/p/w500/fz2rXxC2WAqELf3TGW6ati4Dmuw.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 3.0,
+    "description": "Joachim Posener kulcsfontosságú bennfentesekkel együtt felidézi azt az egyre terebélyesedő pénzügyi botrányt, amely egy svéd befektetési társaság illegális felvásárlását követte a 90-es években – valamint azt, hogy ki leplezte le az ügyet.",
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
-      "Horror"
+      "Dokumentum",
+      "Bűnügyi"
     ],
-    "seeders": 216
+    "seeders": 67
   },
   {
     "id": "tt36304003",
@@ -369,7 +372,22 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 368
+    "seeders": 427
+  },
+  {
+    "id": "tt37697399",
+    "type": "movie",
+    "name": "Ismeretlen gonosz",
+    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
+    "imdbRating": 3.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 247
   },
   {
     "id": "tt34477899",
@@ -386,7 +404,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 155
+    "seeders": 171
   },
   {
     "id": "tt34890320",
@@ -401,7 +419,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 128
+    "seeders": 135
   },
   {
     "id": "tt43729889",
@@ -417,22 +435,7 @@
       "Családi",
       "Animációs"
     ],
-    "seeders": 68
-  },
-  {
-    "id": "tt39163015",
-    "type": "movie",
-    "name": "Idő és víz: Izland eltűnő gleccserei",
-    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 105
+    "seeders": 75
   },
   {
     "id": "tt13652286",
@@ -449,24 +452,22 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 354
+    "seeders": 398
   },
   {
-    "id": "tt1527793",
+    "id": "tt39163015",
     "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "name": "Idő és víz: Izland eltűnő gleccserei",
+    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
+      "Dokumentum"
     ],
-    "seeders": 32
+    "seeders": 114
   },
   {
     "id": "tt12042730",
@@ -482,6 +483,6 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 165
+    "seeders": 179
   }
 ]
