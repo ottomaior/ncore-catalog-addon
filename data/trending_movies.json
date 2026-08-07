@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt32268156",
+    "type": "movie",
+    "name": "The Last House",
+    "poster": "https://image.tmdb.org/t/p/w500/tz3Afb8yxSrYmbfHGGRsJ6HvwRO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 125
+  },
+  {
     "id": "tt32986431",
     "type": "movie",
     "name": "Queens of the Dead",
@@ -13,7 +30,23 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 61
+    "seeders": 100
+  },
+  {
+    "id": "tt15047880",
+    "type": "movie",
+    "name": "A leleplezés napja",
+    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 1674
   },
   {
     "id": "tt30150769",
@@ -30,23 +63,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 52
-  },
-  {
-    "id": "tt15047880",
-    "type": "movie",
-    "name": "A leleplezés napja",
-    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "seeders": 1377
+    "seeders": 77
   },
   {
     "id": "tt27047903",
@@ -63,24 +80,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 465
-  },
-  {
-    "id": "tt35300281",
-    "type": "movie",
-    "name": "Willow és a varázserdő",
-    "poster": "https://image.tmdb.org/t/p/w500/91o854WcptbixlbqybQTzz5BeIv.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Willow egy magának való kislány, aki váratlanul különös örökséget kap dédnagynénjétől, Alwinától: egy erdőt, egy girbegurba kis házat és vele együtt a boszorkányerőt is. Eleinte maga sem tudja, mit kezdjen ezzel a furcsa hagyatékkal, ám hamar kiderül, hogy az erdő veszélyben van, és csak akkor menthető meg, ha Willow megtalál három másik lányt, akikben szintén ott rejlik a varázserő. A feladat nem könnyű egy visszahúzódó, bizonytalan gyerek számára, de hűséges társa, Rufus, a róka végig mellette marad, miközben Willow lassan megtanul bízni önmagában, új barátokra lel, és felfedezi, milyen felelősséggel és csodával jár az örökölt mágikus képesség.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 88
+    "seeders": 544
   },
   {
     "id": "tt27722524",
@@ -96,7 +96,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 106
+    "seeders": 123
   },
   {
     "id": "tt32093575",
@@ -111,7 +111,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 2197
+    "seeders": 2675
   },
   {
     "id": "tt0427340",
@@ -128,7 +128,24 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 1867
+    "seeders": 2280
+  },
+  {
+    "id": "tt35300281",
+    "type": "movie",
+    "name": "Willow és a varázserdő",
+    "poster": "https://image.tmdb.org/t/p/w500/91o854WcptbixlbqybQTzz5BeIv.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Willow egy magának való kislány, aki váratlanul különös örökséget kap dédnagynénjétől, Alwinától: egy erdőt, egy girbegurba kis házat és vele együtt a boszorkányerőt is. Eleinte maga sem tudja, mit kezdjen ezzel a furcsa hagyatékkal, ám hamar kiderül, hogy az erdő veszélyben van, és csak akkor menthető meg, ha Willow megtalál három másik lányt, akikben szintén ott rejlik a varázserő. A feladat nem könnyű egy visszahúzódó, bizonytalan gyerek számára, de hűséges társa, Rufus, a róka végig mellette marad, miközben Willow lassan megtanul bízni önmagában, új barátokra lel, és felfedezi, milyen felelősséggel és csodával jár az örökölt mágikus képesség.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 97
   },
   {
     "id": "tt30825738",
@@ -145,7 +162,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1014
+    "seeders": 1213
   },
   {
     "id": "tt8814476",
@@ -162,22 +179,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 521
-  },
-  {
-    "id": "tt43657327",
-    "type": "movie",
-    "name": "A nagy csirke-összeesküvés",
-    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
-    "imdbRating": 4.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 112
+    "seeders": 617
   },
   {
     "id": "tt36958312",
@@ -193,7 +195,38 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 541
+    "seeders": 677
+  },
+  {
+    "id": "tt43657327",
+    "type": "movie",
+    "name": "A nagy csirke-összeesküvés",
+    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
+    "imdbRating": 4.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 130
+  },
+  {
+    "id": "tt33029380",
+    "type": "movie",
+    "name": "Marsupilami",
+    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 403
   },
   {
     "id": "tt28549378",
@@ -212,22 +245,6 @@
     "seeders": 73
   },
   {
-    "id": "tt33029380",
-    "type": "movie",
-    "name": "Marsupilami",
-    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Vígjáték"
-    ],
-    "seeders": 332
-  },
-  {
     "id": "tt39398162",
     "type": "movie",
     "name": "Akit szeretnek",
@@ -241,7 +258,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 92
+    "seeders": 101
   },
   {
     "id": "tt35672862",
@@ -256,7 +273,23 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 564
+    "seeders": 693
+  },
+  {
+    "id": "tt37287335",
+    "type": "movie",
+    "name": "Megszállottság",
+    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 796
   },
   {
     "id": "tt35091739",
@@ -273,7 +306,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 155
+    "seeders": 175
   },
   {
     "id": "tt5072334",
@@ -289,23 +322,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 60
-  },
-  {
-    "id": "tt37287335",
-    "type": "movie",
-    "name": "Megszállottság",
-    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 646
+    "seeders": 66
   },
   {
     "id": "tt36153493",
@@ -321,7 +338,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 173
+    "seeders": 205
   },
   {
     "id": "tt37697399",
@@ -336,7 +353,23 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 184
+    "seeders": 216
+  },
+  {
+    "id": "tt36304003",
+    "type": "movie",
+    "name": "72 óra",
+    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi"
+    ],
+    "seeders": 368
   },
   {
     "id": "tt34477899",
@@ -353,38 +386,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 139
+    "seeders": 155
   },
   {
-    "id": "tt36304003",
+    "id": "tt34890320",
     "type": "movie",
-    "name": "72 óra",
-    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+    "name": "Preschool",
+    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.8,
+    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
+    "imdbRating": 6.1,
     "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi"
-    ],
-    "seeders": 310
-  },
-  {
-    "id": "tt38492476",
-    "type": "movie",
-    "name": "Legénybúcsú",
-    "poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-    "imdbRating": 5.2,
-    "releaseInfo": "2025",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 428
+    "seeders": 128
   },
   {
     "id": "tt43729889",
@@ -400,7 +417,7 @@
       "Családi",
       "Animációs"
     ],
-    "seeders": 59
+    "seeders": 68
   },
   {
     "id": "tt39163015",
@@ -415,39 +432,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 98
-  },
-  {
-    "id": "tt34890320",
-    "type": "movie",
-    "name": "Preschool",
-    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 108
-  },
-  {
-    "id": "tt1527793",
-    "type": "movie",
-    "name": "Nincs más választás",
-    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 29
+    "seeders": 105
   },
   {
     "id": "tt13652286",
@@ -464,7 +449,24 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 309
+    "seeders": 354
+  },
+  {
+    "id": "tt1527793",
+    "type": "movie",
+    "name": "Nincs más választás",
+    "poster": "https://image.tmdb.org/t/p/w500/xtY70UeMQbOHekS6C2ik2CYLXDI.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Man-su évtizedek óta a helyi papírgyár megbecsült dolgozója. A koreai álmot éli: feleségével, két gyerekükkel és két kutyájukkal tágas családi házban élnek, ahol a bonsai fák csinosítgatása tölti ki a szabadidejét. A gyár új tulajdonosa azonban a modernizáció jegyében leépítésbe kezd és kisvártatva Man-su is az utcán találja magát. A kezdeti eltökélt munkakeresést kétségbeesés váltja fel: egy idő után már a háziállatok fenntartása is éppúgy problémát jelent, mint a jelzáloghitel rendszeres törlesztése. Megalázó helyzetek sorozata végül Man-su-t minden határt áthágó lépésekre készteti.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi",
+      "Thriller"
+    ],
+    "seeders": 32
   },
   {
     "id": "tt12042730",
@@ -480,6 +482,6 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 143
+    "seeders": 165
   }
 ]
