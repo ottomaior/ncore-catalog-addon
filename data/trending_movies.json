@@ -1,20 +1,5 @@
 [
   {
-    "id": "tt37436831",
-    "type": "movie",
-    "name": "Ki hitte volna? 2.: Az esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 266
-  },
-  {
     "id": "tt32268156",
     "type": "movie",
     "name": "Az utolsó ház",
@@ -22,14 +7,29 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy négytagú család váratlanul a saját házába zárva találja magát kiút nélkül, és együtt kell működniük, hogy túléljék mind a fogyatkozó készleteiket, mind a rejtélyes, fenyegető erőt, amely csapdában tartja őket.",
-    "imdbRating": 6.1,
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 365
+    "seeders": 505
+  },
+  {
+    "id": "tt37436831",
+    "type": "movie",
+    "name": "Ki hitte volna? 2.: Az esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
+    "imdbRating": 5.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 347
   },
   {
     "id": "tt15047880",
@@ -45,7 +45,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1453
+    "seeders": 1827
   },
   {
     "id": "tt27047903",
@@ -62,7 +62,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 503
+    "seeders": 588
   },
   {
     "id": "tt32986431",
@@ -78,7 +78,39 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 151
+    "seeders": 193
+  },
+  {
+    "id": "tt32093575",
+    "type": "movie",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 2757
+  },
+  {
+    "id": "tt0427340",
+    "type": "movie",
+    "name": "Az univerzum védelmezői",
+    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát és He-Man-né, az univerzum leghatalmasabb emberévé váljon.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "seeders": 2385
   },
   {
     "id": "tt19883490",
@@ -96,56 +128,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 96
-  },
-  {
-    "id": "tt32093575",
-    "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 2274
-  },
-  {
-    "id": "tt0427340",
-    "type": "movie",
-    "name": "Az univerzum védelmezői",
-    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát és He-Man-né, az univerzum leghatalmasabb emberévé váljon.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Sci-Fi"
-    ],
-    "seeders": 1909
-  },
-  {
-    "id": "tt30150769",
-    "type": "movie",
-    "name": "Ennyire futja",
-    "poster": "https://image.tmdb.org/t/p/w500/yJKubH2Fn0XHMy7rqIUS00ucDbw.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Cynthia Rand, New York-i urológus rendezett élete darabokra hullik, amikor férje demenciával küzd. Stan Olszewski biztonsági őr céltalanul tengeti napjait. Ez a szellemes, merész humorú vígjáték két elveszett lélekről szól, akik a legváratlanabb pillanatban találnak egymásra.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 100
+    "seeders": 109
   },
   {
     "id": "tt30825738",
@@ -162,7 +145,24 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1056
+    "seeders": 1281
+  },
+  {
+    "id": "tt30150769",
+    "type": "movie",
+    "name": "Ennyire futja",
+    "poster": "https://image.tmdb.org/t/p/w500/yJKubH2Fn0XHMy7rqIUS00ucDbw.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Cynthia Rand, New York-i urológus rendezett élete darabokra hullik, amikor férje demenciával küzd. Stan Olszewski biztonsági őr céltalanul tengeti napjait. Ez a szellemes, merész humorú vígjáték két elveszett lélekről szól, akik a legváratlanabb pillanatban találnak egymásra.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 114
   },
   {
     "id": "tt8814476",
@@ -179,7 +179,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 545
+    "seeders": 665
   },
   {
     "id": "tt27722524",
@@ -195,7 +195,23 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 108
+    "seeders": 130
+  },
+  {
+    "id": "tt36958312",
+    "type": "movie",
+    "name": "Ördögszáj",
+    "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Öt barát indul el felfedezni a thaiföldi Ördögszáj-barlangrendszert egy utolsó kaland során, mielőtt megkezdődik a nagybetűs élet. De hamarosan kiderül, hogy valami vadászik rájuk a víz alatt... és az a valami gyors, csendes és halálos. A fojtogató sötétségben a bizalom megrendül, a pánik eluralkodik, és minden rossz kanyar küzdelemmé válik a túlélésért.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 687
   },
   {
     "id": "tt35300281",
@@ -212,23 +228,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 94
-  },
-  {
-    "id": "tt36958312",
-    "type": "movie",
-    "name": "Ördögszáj",
-    "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Öt barát indul el felfedezni a thaiföldi Ördögszáj-barlangrendszert egy utolsó kaland során, mielőtt megkezdődik a nagybetűs élet. De hamarosan kiderül, hogy valami vadászik rájuk a víz alatt... és az a valami gyors, csendes és halálos. A fojtogató sötétségben a bizalom megrendül, a pánik eluralkodik, és minden rossz kanyar küzdelemmé válik a túlélésért.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 545
+    "seeders": 104
   },
   {
     "id": "tt33029380",
@@ -244,7 +244,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 337
+    "seeders": 411
   },
   {
     "id": "tt43657327",
@@ -259,7 +259,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 109
+    "seeders": 133
   },
   {
     "id": "tt35672862",
@@ -274,7 +274,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 566
+    "seeders": 701
   },
   {
     "id": "tt37287335",
@@ -290,7 +290,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 689
+    "seeders": 838
+  },
+  {
+    "id": "tt36153493",
+    "type": "movie",
+    "name": "A vadmacska",
+    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 224
   },
   {
     "id": "tt39398162",
@@ -306,23 +322,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 85
-  },
-  {
-    "id": "tt28549378",
-    "type": "movie",
-    "name": "A botanikus",
-    "poster": "https://image.tmdb.org/t/p/w500/qcTnfHjFULdt2Ze5SAdlj8zkGPQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Kína északi határán, Xinjiang tartomány egy távoli völgyében fekvő falujában egy magányos kazah fiú, Arsin a növények társaságában talál menedéket. Meiyu, egy han kínai lány érkezése olyan, mintha egy eddig ismeretlen növényt fedezne fel, amely megnyugvást és furcsa csodálatot ébreszt benne. Egy nap Arsin megtudja, hogy Meiyu a 4792 kilométerre lévő Sanghajba költözik, így egyedül kell megbirkóznia törékeny világuk csendes változásaival. A film a Sanghaji Nemzetközi Filmfesztivál 2025. évi Panorama programjából érkezik.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Fantasy"
-    ],
-    "seeders": 66
+    "seeders": 94
   },
   {
     "id": "tt35091739",
@@ -339,23 +339,23 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 146
+    "seeders": 172
   },
   {
-    "id": "tt36153493",
+    "id": "tt28549378",
     "type": "movie",
-    "name": "A vadmacska",
-    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
+    "name": "A botanikus",
+    "poster": "https://image.tmdb.org/t/p/w500/qcTnfHjFULdt2Ze5SAdlj8zkGPQ.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Kína északi határán, Xinjiang tartomány egy távoli völgyében fekvő falujában egy magányos kazah fiú, Arsin a növények társaságában talál menedéket. Meiyu, egy han kínai lány érkezése olyan, mintha egy eddig ismeretlen növényt fedezne fel, amely megnyugvást és furcsa csodálatot ébreszt benne. Egy nap Arsin megtudja, hogy Meiyu a 4792 kilométerre lévő Sanghajba költözik, így egyedül kell megbirkóznia törékeny világuk csendes változásaival. A film a Sanghaji Nemzetközi Filmfesztivál 2025. évi Panorama programjából érkezik.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Dráma",
+      "Fantasy"
     ],
-    "seeders": 173
+    "seeders": 74
   },
   {
     "id": "tt36304003",
@@ -371,7 +371,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 329
+    "seeders": 383
   },
   {
     "id": "tt37697399",
@@ -386,7 +386,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 182
+    "seeders": 228
   },
   {
     "id": "tt34477899",
@@ -403,7 +403,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 136
+    "seeders": 154
   },
   {
     "id": "tt5072334",
@@ -419,7 +419,7 @@
       "Dokumentum",
       "Bűnügyi"
     ],
-    "seeders": 48
+    "seeders": 53
   },
   {
     "id": "tt13652286",
@@ -436,7 +436,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 310
+    "seeders": 366
   },
   {
     "id": "tt39163015",
@@ -451,7 +451,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 95
+    "seeders": 112
   },
   {
     "id": "tt34890320",
@@ -466,22 +466,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 103
+    "seeders": 120
   },
   {
-    "id": "tt12042730",
+    "id": "tt43729889",
     "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "name": "Sesame Street – Vihar a Szezám utcában",
+    "poster": "https://image.tmdb.org/t/p/w500/w4GrHRGgRQOYG95f2oVLYzGJ4Md.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.7,
+    "description": "Elmo és a barátai segítenek felkészülni a közeledő viharra. Miután a vihar elvonul, az utca egészen másképp néz ki. Elmo és Abby szeretnének egy nagy dolgot tenni, hogy segítsenek. Végül megtanulják, hogy egyetlen apró segítség is hatalmas változást hozhat a környékük számára.",
+    "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Sci-Fi",
-      "Kaland"
+      "Családi",
+      "Animációs"
     ],
-    "seeders": 147
+    "seeders": 67
   }
 ]
