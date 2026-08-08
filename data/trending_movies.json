@@ -1,5 +1,23 @@
 [
   {
+    "id": "tt42186253",
+    "type": "movie",
+    "name": "THE RIBBON HERO リボンヒーロー",
+    "poster": "https://image.tmdb.org/t/p/w500/d1nx0zBp0c513iJbhKj5VhpO76C.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Fantasy",
+      "Dráma",
+      "Akció"
+    ],
+    "seeders": 113
+  },
+  {
     "id": "tt32268156",
     "type": "movie",
     "name": "Az utolsó ház",
@@ -14,7 +32,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 505
+    "seeders": 606
   },
   {
     "id": "tt37436831",
@@ -29,7 +47,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 347
+    "seeders": 427
   },
   {
     "id": "tt15047880",
@@ -45,7 +63,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1827
+    "seeders": 2127
   },
   {
     "id": "tt27047903",
@@ -62,7 +80,39 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 588
+    "seeders": 710
+  },
+  {
+    "id": "tt32093575",
+    "type": "movie",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 3294
+  },
+  {
+    "id": "tt0427340",
+    "type": "movie",
+    "name": "Az univerzum védelmezői",
+    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát és He-Man-né, az univerzum leghatalmasabb emberévé váljon.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "seeders": 2785
   },
   {
     "id": "tt32986431",
@@ -78,39 +128,24 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 193
+    "seeders": 223
   },
   {
-    "id": "tt32093575",
+    "id": "tt30825738",
     "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "name": "Star Wars: A Mandalóri és Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 2757
-  },
-  {
-    "id": "tt0427340",
-    "type": "movie",
-    "name": "Az univerzum védelmezői",
-    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát és He-Man-né, az univerzum leghatalmasabb emberévé váljon.",
-    "imdbRating": 7.3,
+    "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
-      "Fantasy",
+      "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 2385
+    "seeders": 1531
   },
   {
     "id": "tt19883490",
@@ -128,41 +163,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 109
-  },
-  {
-    "id": "tt30825738",
-    "type": "movie",
-    "name": "Star Wars: A Mandalóri és Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 1281
-  },
-  {
-    "id": "tt30150769",
-    "type": "movie",
-    "name": "Ennyire futja",
-    "poster": "https://image.tmdb.org/t/p/w500/yJKubH2Fn0XHMy7rqIUS00ucDbw.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Cynthia Rand, New York-i urológus rendezett élete darabokra hullik, amikor férje demenciával küzd. Stan Olszewski biztonsági őr céltalanul tengeti napjait. Ez a szellemes, merész humorú vígjáték két elveszett lélekről szól, akik a legváratlanabb pillanatban találnak egymásra.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 114
+    "seeders": 128
   },
   {
     "id": "tt8814476",
@@ -179,23 +180,24 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 665
+    "seeders": 777
   },
   {
-    "id": "tt27722524",
+    "id": "tt30150769",
     "type": "movie",
-    "name": "Összeadás",
-    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
+    "name": "Ennyire futja",
+    "poster": "https://image.tmdb.org/t/p/w500/yJKubH2Fn0XHMy7rqIUS00ucDbw.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Cynthia Rand, New York-i urológus rendezett élete darabokra hullik, amikor férje demenciával küzd. Stan Olszewski biztonsági őr céltalanul tengeti napjait. Ez a szellemes, merész humorú vígjáték két elveszett lélekről szól, akik a legváratlanabb pillanatban találnak egymásra.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
     "genres": [
-      "Dráma",
-      "Romantikus"
+      "Vígjáték",
+      "Romantikus",
+      "Dráma"
     ],
-    "seeders": 130
+    "seeders": 127
   },
   {
     "id": "tt36958312",
@@ -211,7 +213,39 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 687
+    "seeders": 804
+  },
+  {
+    "id": "tt27722524",
+    "type": "movie",
+    "name": "Összeadás",
+    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 138
+  },
+  {
+    "id": "tt33029380",
+    "type": "movie",
+    "name": "Marsupilami",
+    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 468
   },
   {
     "id": "tt35300281",
@@ -228,23 +262,38 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 104
+    "seeders": 109
   },
   {
-    "id": "tt33029380",
+    "id": "tt35672862",
     "type": "movie",
-    "name": "Marsupilami",
-    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
-    "imdbRating": 6.4,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
-      "Kaland",
-      "Vígjáték"
+      "Horror"
     ],
-    "seeders": 411
+    "seeders": 816
+  },
+  {
+    "id": "tt37287335",
+    "type": "movie",
+    "name": "Megszállottság",
+    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 975
   },
   {
     "id": "tt43657327",
@@ -262,37 +311,6 @@
     "seeders": 133
   },
   {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 701
-  },
-  {
-    "id": "tt37287335",
-    "type": "movie",
-    "name": "Megszállottság",
-    "poster": "https://image.tmdb.org/t/p/w500/olRkfOHTwsZmkfhDtr0fGgVyzyn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Bear (Michael Johnston) régóta szerelmes a legjobb barátnőjébe, Nikkibe (Inde Navarrette), ám soha nem volt elég bátorsága ahhoz, hogy bevallja az érzéseit. Egy nap azonban elhatározza, hogy változtat ezen, és elindul megkeresni a tökéletes ajándékot, amellyel végre megnyithatja a szívét. Egy helyi kristályboltban különös tárgyra bukkan: az úgynevezett „egykívánságos fűzre”, amely állítólag teljesíti tulajdonosa egyetlen kívánságát – csak félbe kell törni.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 838
-  },
-  {
     "id": "tt36153493",
     "type": "movie",
     "name": "A vadmacska",
@@ -306,7 +324,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 224
+    "seeders": 262
+  },
+  {
+    "id": "tt35091739",
+    "type": "movie",
+    "name": "Fegyverszünet",
+    "poster": "https://image.tmdb.org/t/p/w500/g1O3wEA0ZaigQG0RHx7zXeuWbSc.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A The Truce (spanyolul: La tregua) egy 2025-ben bemutatott spanyol háborús és történelmi dráma, amelyet Miguel Ángel Vivas rendezett. A valós eseményeken alapuló film a túlélésről, az ellentétek feloldásáról és az emberségről szól egy kegyetlen szovjet munkatáborban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Történelmi",
+      "Háborús"
+    ],
+    "seeders": 180
   },
   {
     "id": "tt39398162",
@@ -325,21 +360,20 @@
     "seeders": 94
   },
   {
-    "id": "tt35091739",
+    "id": "tt36304003",
     "type": "movie",
-    "name": "Fegyverszünet",
-    "poster": "https://image.tmdb.org/t/p/w500/g1O3wEA0ZaigQG0RHx7zXeuWbSc.jpg",
+    "name": "72 óra",
+    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A The Truce (spanyolul: La tregua) egy 2025-ben bemutatott spanyol háborús és történelmi dráma, amelyet Miguel Ángel Vivas rendezett. A valós eseményeken alapuló film a túlélésről, az ellentétek feloldásáról és az emberségről szól egy kegyetlen szovjet munkatáborban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
+      "Vígjáték",
+      "Bűnügyi"
     ],
-    "seeders": 172
+    "seeders": 440
   },
   {
     "id": "tt28549378",
@@ -355,23 +389,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 74
-  },
-  {
-    "id": "tt36304003",
-    "type": "movie",
-    "name": "72 óra",
-    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi"
-    ],
-    "seeders": 383
+    "seeders": 75
   },
   {
     "id": "tt37697399",
@@ -386,7 +404,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 228
+    "seeders": 254
   },
   {
     "id": "tt34477899",
@@ -403,23 +421,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 154
-  },
-  {
-    "id": "tt5072334",
-    "type": "movie",
-    "name": "A Trustor-botrány belülről",
-    "poster": "https://image.tmdb.org/t/p/w500/fz2rXxC2WAqELf3TGW6ati4Dmuw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Joachim Posener kulcsfontosságú bennfentesekkel együtt felidézi azt az egyre terebélyesedő pénzügyi botrányt, amely egy svéd befektetési társaság illegális felvásárlását követte a 90-es években – valamint azt, hogy ki leplezte le az ügyet.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 53
+    "seeders": 167
   },
   {
     "id": "tt13652286",
@@ -436,22 +438,7 @@
       "Vígjáték",
       "Thriller"
     ],
-    "seeders": 366
-  },
-  {
-    "id": "tt39163015",
-    "type": "movie",
-    "name": "Idő és víz: Izland eltűnő gleccserei",
-    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 112
+    "seeders": 411
   },
   {
     "id": "tt34890320",
@@ -466,22 +453,37 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 120
+    "seeders": 133
   },
   {
-    "id": "tt43729889",
+    "id": "tt5072334",
     "type": "movie",
-    "name": "Sesame Street – Vihar a Szezám utcában",
-    "poster": "https://image.tmdb.org/t/p/w500/w4GrHRGgRQOYG95f2oVLYzGJ4Md.jpg",
+    "name": "A Trustor-botrány belülről",
+    "poster": "https://image.tmdb.org/t/p/w500/fz2rXxC2WAqELf3TGW6ati4Dmuw.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Elmo és a barátai segítenek felkészülni a közeledő viharra. Miután a vihar elvonul, az utca egészen másképp néz ki. Elmo és Abby szeretnének egy nagy dolgot tenni, hogy segítsenek. Végül megtanulják, hogy egyetlen apró segítség is hatalmas változást hozhat a környékük számára.",
-    "imdbRating": null,
+    "description": "Joachim Posener kulcsfontosságú bennfentesekkel együtt felidézi azt az egyre terebélyesedő pénzügyi botrányt, amely egy svéd befektetési társaság illegális felvásárlását követte a 90-es években – valamint azt, hogy ki leplezte le az ügyet.",
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
-      "Családi",
-      "Animációs"
+      "Dokumentum",
+      "Bűnügyi"
     ],
-    "seeders": 67
+    "seeders": 54
+  },
+  {
+    "id": "tt39163015",
+    "type": "movie",
+    "name": "Idő és víz: Izland eltűnő gleccserei",
+    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 117
   }
 ]
