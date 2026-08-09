@@ -1,20 +1,19 @@
 [
   {
-    "id": "tt32268156",
+    "id": "tt12042730",
     "type": "movie",
-    "name": "Az utolsó ház",
-    "poster": "https://image.tmdb.org/t/p/w500/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy négytagú család váratlanul a saját házába zárva találja magát kiút nélkül, és együtt kell működniük, hogy túléljék mind a fogyatkozó készleteiket, mind a rejtélyes, fenyegető erőt, amely csapdában tartja őket.",
-    "imdbRating": 6.6,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.7,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
       "Sci-Fi",
-      "Thriller"
+      "Kaland"
     ],
-    "seeders": 602
+    "seeders": 89
   },
   {
     "id": "tt15047880",
@@ -30,7 +29,24 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1951
+    "seeders": 2403
+  },
+  {
+    "id": "tt32268156",
+    "type": "movie",
+    "name": "Az utolsó ház",
+    "poster": "https://image.tmdb.org/t/p/w500/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy négytagú család váratlanul a saját házába zárva találja magát kiút nélkül, és együtt kell működniük, hogy túléljék mind a fogyatkozó készleteiket, mind a rejtélyes, fenyegető erőt, amely csapdában tartja őket.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 723
   },
   {
     "id": "tt37436831",
@@ -45,7 +61,24 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 457
+    "seeders": 547
+  },
+  {
+    "id": "tt27047903",
+    "type": "movie",
+    "name": "Sikoly 7.",
+    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 730
   },
   {
     "id": "tt42186253",
@@ -63,24 +96,7 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 180
-  },
-  {
-    "id": "tt27047903",
-    "type": "movie",
-    "name": "Sikoly 7.",
-    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 620
+    "seeders": 211
   },
   {
     "id": "tt32093575",
@@ -95,7 +111,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 2798
+    "seeders": 3527
   },
   {
     "id": "tt0427340",
@@ -112,23 +128,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2436
-  },
-  {
-    "id": "tt32986431",
-    "type": "movie",
-    "name": "Queens of the Dead",
-    "poster": "https://image.tmdb.org/t/p/w500/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 222
+    "seeders": 2978
   },
   {
     "id": "tt30825738",
@@ -145,7 +145,23 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1363
+    "seeders": 1643
+  },
+  {
+    "id": "tt32986431",
+    "type": "movie",
+    "name": "Queens of the Dead",
+    "poster": "https://image.tmdb.org/t/p/w500/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 242
   },
   {
     "id": "tt8814476",
@@ -162,7 +178,23 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 697
+    "seeders": 851
+  },
+  {
+    "id": "tt36958312",
+    "type": "movie",
+    "name": "Ördögszáj",
+    "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Öt barát indul el felfedezni a thaiföldi Ördögszáj-barlangrendszert egy utolsó kaland során, mielőtt megkezdődik a nagybetűs élet. De hamarosan kiderül, hogy valami vadászik rájuk a víz alatt... és az a valami gyors, csendes és halálos. A fojtogató sötétségben a bizalom megrendül, a pánik eluralkodik, és minden rossz kanyar küzdelemmé válik a túlélésért.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 841
   },
   {
     "id": "tt19883490",
@@ -180,23 +212,23 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 133
+    "seeders": 144
   },
   {
-    "id": "tt36958312",
+    "id": "tt33029380",
     "type": "movie",
-    "name": "Ördögszáj",
-    "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
+    "name": "Marsupilami",
+    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Öt barát indul el felfedezni a thaiföldi Ördögszáj-barlangrendszert egy utolsó kaland során, mielőtt megkezdődik a nagybetűs élet. De hamarosan kiderül, hogy valami vadászik rájuk a víz alatt... és az a valami gyors, csendes és halálos. A fojtogató sötétségben a bizalom megrendül, a pánik eluralkodik, és minden rossz kanyar küzdelemmé válik a túlélésért.",
-    "imdbRating": 6.6,
+    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Thriller"
+      "Kaland",
+      "Vígjáték"
     ],
-    "seeders": 702
+    "seeders": 483
   },
   {
     "id": "tt30150769",
@@ -213,39 +245,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 120
-  },
-  {
-    "id": "tt33029380",
-    "type": "movie",
-    "name": "Marsupilami",
-    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Vígjáték"
-    ],
-    "seeders": 430
-  },
-  {
-    "id": "tt27722524",
-    "type": "movie",
-    "name": "Összeadás",
-    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 133
+    "seeders": 130
   },
   {
     "id": "tt35672862",
@@ -260,7 +260,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 728
+    "seeders": 864
   },
   {
     "id": "tt37287335",
@@ -276,7 +276,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 854
+    "seeders": 1066
+  },
+  {
+    "id": "tt27722524",
+    "type": "movie",
+    "name": "Összeadás",
+    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 141
   },
   {
     "id": "tt35300281",
@@ -293,7 +309,23 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 93
+    "seeders": 107
+  },
+  {
+    "id": "tt36153493",
+    "type": "movie",
+    "name": "A vadmacska",
+    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 261
   },
   {
     "id": "tt43657327",
@@ -311,20 +343,20 @@
     "seeders": 130
   },
   {
-    "id": "tt36153493",
+    "id": "tt36304003",
     "type": "movie",
-    "name": "A vadmacska",
-    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
+    "name": "72 óra",
+    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Vígjáték",
+      "Bűnügyi"
     ],
-    "seeders": 235
+    "seeders": 467
   },
   {
     "id": "tt35091739",
@@ -341,7 +373,22 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 164
+    "seeders": 184
+  },
+  {
+    "id": "tt37697399",
+    "type": "movie",
+    "name": "Ismeretlen gonosz",
+    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 256
   },
   {
     "id": "tt39398162",
@@ -357,38 +404,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 97
-  },
-  {
-    "id": "tt36304003",
-    "type": "movie",
-    "name": "72 óra",
-    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi"
-    ],
-    "seeders": 381
-  },
-  {
-    "id": "tt37697399",
-    "type": "movie",
-    "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 225
+    "seeders": 102
   },
   {
     "id": "tt28549378",
@@ -404,7 +420,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 68
+    "seeders": 79
   },
   {
     "id": "tt34477899",
@@ -421,24 +437,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 159
-  },
-  {
-    "id": "tt13652286",
-    "type": "movie",
-    "name": "Légi csapda",
-    "poster": "https://image.tmdb.org/t/p/w500/cXB0UClnrl6B7J6HSkzwqH39Uxd.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Thriller"
-    ],
-    "seeders": 362
+    "seeders": 175
   },
   {
     "id": "tt34890320",
@@ -453,23 +452,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt12042730",
-    "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Kaland"
-    ],
-    "seeders": 178
+    "seeders": 138
   },
   {
     "id": "tt39163015",
@@ -484,6 +467,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 109
+    "seeders": 118
+  },
+  {
+    "id": "tt5072334",
+    "type": "movie",
+    "name": "A Trustor-botrány belülről",
+    "poster": "https://image.tmdb.org/t/p/w500/fz2rXxC2WAqELf3TGW6ati4Dmuw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Joachim Posener kulcsfontosságú bennfentesekkel együtt felidézi azt az egyre terebélyesedő pénzügyi botrányt, amely egy svéd befektetési társaság illegális felvásárlását követte a 90-es években – valamint azt, hogy ki leplezte le az ügyet.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum",
+      "Bűnügyi"
+    ],
+    "seeders": 57
   }
 ]
