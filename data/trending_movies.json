@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt39316472",
+    "type": "movie",
+    "name": "Jackass: Best and Last",
+    "poster": "https://image.tmdb.org/t/p/w500/tfgccePxnswMqhmtxafliLlcCVR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Johnny Knoxville, Steve-O és a Jackass csapata visszatér egy utolsó, őrült menetelésre, amelyben a régi klasszikusok és eddig nem látott jelenetek keverednek vad mutatványokkal, kegyetlen csínyekkel és önpusztító poénokkal. A film egyszerre búcsú a franchise több mint két évtizedes örökségétől és egy utolsó, fájdalmasan vicces összegzése annak, meddig hajlandó elmenni a csapat a nevetés kedvéért.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Vígjáték",
+      "Dokumentum"
+    ],
+    "seeders": 393
+  },
+  {
     "id": "tt15047880",
     "type": "movie",
     "name": "A leleplezés napja",
@@ -13,7 +30,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1889
+    "seeders": 2156
   },
   {
     "id": "tt32268156",
@@ -30,7 +47,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 592
+    "seeders": 681
   },
   {
     "id": "tt37436831",
@@ -45,7 +62,71 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 492
+    "seeders": 534
+  },
+  {
+    "id": "tt32093575",
+    "type": "movie",
+    "name": "Horrorra akadva",
+    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 3093
+  },
+  {
+    "id": "tt0427340",
+    "type": "movie",
+    "name": "Az univerzum védelmezői",
+    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát és He-Man-né, az univerzum leghatalmasabb emberévé váljon.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "seeders": 2560
+  },
+  {
+    "id": "tt27047903",
+    "type": "movie",
+    "name": "Sikoly 7.",
+    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 646
+  },
+  {
+    "id": "tt27766440",
+    "type": "movie",
+    "name": "A tenger útja",
+    "poster": "https://image.tmdb.org/t/p/w500/yELCSMuIDxwrttutpaIV3plG8OM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt12042730",
@@ -64,68 +145,21 @@
     "seeders": 121
   },
   {
-    "id": "tt27766440",
+    "id": "tt30825738",
     "type": "movie",
-    "name": "A tenger útja",
-    "poster": "https://image.tmdb.org/t/p/w500/yELCSMuIDxwrttutpaIV3plG8OM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 68
-  },
-  {
-    "id": "tt32093575",
-    "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
+    "name": "Star Wars: A Mandalóri és Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 2674
-  },
-  {
-    "id": "tt0427340",
-    "type": "movie",
-    "name": "Az univerzum védelmezői",
-    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát és He-Man-né, az univerzum leghatalmasabb emberévé váljon.",
-    "imdbRating": 7.2,
+    "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
-      "Fantasy",
+      "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 2283
-  },
-  {
-    "id": "tt27047903",
-    "type": "movie",
-    "name": "Sikoly 7.",
-    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 571
+    "seeders": 1496
   },
   {
     "id": "tt42186253",
@@ -143,24 +177,7 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 194
-  },
-  {
-    "id": "tt30825738",
-    "type": "movie",
-    "name": "Star Wars: A Mandalóri és Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 1323
+    "seeders": 196
   },
   {
     "id": "tt8814476",
@@ -177,7 +194,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 668
+    "seeders": 745
   },
   {
     "id": "tt32986431",
@@ -193,7 +210,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 204
+    "seeders": 225
   },
   {
     "id": "tt36958312",
@@ -209,7 +226,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 646
+    "seeders": 717
+  },
+  {
+    "id": "tt33029380",
+    "type": "movie",
+    "name": "Marsupilami",
+    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Kaland",
+      "Vígjáték"
+    ],
+    "seeders": 448
   },
   {
     "id": "tt19883490",
@@ -227,23 +260,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 138
-  },
-  {
-    "id": "tt33029380",
-    "type": "movie",
-    "name": "Marsupilami",
-    "poster": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megőrizze állását az állatkertben, David (Philippe Lacheau) elvállal egy kockázatos küldetést: el kell hoznia egy rejtélyes csomagot Dél-Amerikából. Máris egy óceánjárón találja magát exfeleségével, Tess-szel (Élodie Fontan), fiukkal, Leóval, valamint ügyetlen és ostoba kollégájával, Stéphane-nal (Julien Arruti), akit David arra használ, hogy ő cipelje a csomagot. Óriási felfordulás kerekedik, amikor Stéphane véletlenül kinyitja a dobozt, és szabadjára enged egy aranyos kis marsupilami-bébit. Ez a ritka és értékes lény hamarosan teljes káosszá változtatja az utazást. A bolondos kalandok közepette David és családja újra felfedezik a családi kötelék erejét.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Vígjáték"
-    ],
-    "seeders": 400
+    "seeders": 145
   },
   {
     "id": "tt35672862",
@@ -258,7 +275,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 674
+    "seeders": 756
   },
   {
     "id": "tt30150769",
@@ -275,7 +292,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 119
+    "seeders": 136
   },
   {
     "id": "tt27722524",
@@ -291,7 +308,54 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 118
+    "seeders": 115
+  },
+  {
+    "id": "tt36153493",
+    "type": "movie",
+    "name": "A vadmacska",
+    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 226
+  },
+  {
+    "id": "tt36304003",
+    "type": "movie",
+    "name": "72 óra",
+    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Bűnügyi"
+    ],
+    "seeders": 420
+  },
+  {
+    "id": "tt43657327",
+    "type": "movie",
+    "name": "A nagy csirke-összeesküvés",
+    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
+    "imdbRating": 4.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 121
   },
   {
     "id": "tt35300281",
@@ -311,53 +375,6 @@
     "seeders": 94
   },
   {
-    "id": "tt36153493",
-    "type": "movie",
-    "name": "A vadmacska",
-    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 203
-  },
-  {
-    "id": "tt43657327",
-    "type": "movie",
-    "name": "A nagy csirke-összeesküvés",
-    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
-    "imdbRating": 4.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 107
-  },
-  {
-    "id": "tt36304003",
-    "type": "movie",
-    "name": "72 óra",
-    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi"
-    ],
-    "seeders": 373
-  },
-  {
     "id": "tt35091739",
     "type": "movie",
     "name": "Fegyverszünet",
@@ -372,7 +389,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 155
+    "seeders": 168
   },
   {
     "id": "tt37697399",
@@ -387,7 +404,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 204
+    "seeders": 237
   },
   {
     "id": "tt39398162",
@@ -403,7 +420,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 92
+    "seeders": 96
   },
   {
     "id": "tt34477899",
@@ -420,7 +437,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 146
+    "seeders": 154
   },
   {
     "id": "tt28549378",
@@ -436,7 +453,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 64
+    "seeders": 68
   },
   {
     "id": "tt34890320",
@@ -451,7 +468,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 109
+    "seeders": 118
   },
   {
     "id": "tt39163015",
@@ -466,23 +483,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 100
-  },
-  {
-    "id": "tt34375721",
-    "type": "movie",
-    "name": "Sárkányok Kabul felett",
-    "poster": "https://image.tmdb.org/t/p/w500/rHOTaT34vaxzN7TAzgSWHiqCA5p.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 196
+    "seeders": 105
   }
 ]
