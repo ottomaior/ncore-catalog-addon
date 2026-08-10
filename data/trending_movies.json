@@ -12,23 +12,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 39
-  },
-  {
-    "id": "tt12042730",
-    "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Kaland"
-    ],
-    "seeders": 126
+    "seeders": 56
   },
   {
     "id": "tt15047880",
@@ -44,7 +28,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 2554
+    "seeders": 1612
   },
   {
     "id": "tt32268156",
@@ -61,7 +45,23 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 787
+    "seeders": 487
+  },
+  {
+    "id": "tt12042730",
+    "type": "movie",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 101
   },
   {
     "id": "tt37436831",
@@ -71,12 +71,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.5,
+    "imdbRating": 5.3,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 571
+    "seeders": 404
   },
   {
     "id": "tt27047903",
@@ -93,7 +93,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 760
+    "seeders": 497
   },
   {
     "id": "tt32093575",
@@ -108,7 +108,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 3753
+    "seeders": 2238
   },
   {
     "id": "tt0427340",
@@ -125,17 +125,17 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 3107
+    "seeders": 1902
   },
   {
     "id": "tt42186253",
     "type": "movie",
     "name": "A masnis hős",
-    "poster": "https://image.tmdb.org/t/p/w500/d1nx0zBp0c513iJbhKj5VhpO76C.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/sV2HxWbEn4J0Y9CKyZqG4pLmjOP.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor a vérszomjas Nergal elpusztítja királyságát, Zafír hercegnő a masnis hősként ébred újra, és azért harcol, hogy megmentse új otthonát ugyanattól a sötét végzettől.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -143,7 +143,7 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 216
+    "seeders": 171
   },
   {
     "id": "tt30825738",
@@ -160,7 +160,23 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1771
+    "seeders": 1126
+  },
+  {
+    "id": "tt32986431",
+    "type": "movie",
+    "name": "A holtak királynője",
+    "poster": "https://image.tmdb.org/t/p/w500/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor zombiapokalipszis tör ki Brooklynban egy hatalmas partin, egy drag queenekből, partiarcokból és bulizókból álló eklektikus csapatnak a sarkára kell állnia, hogy túléljék az agyvelőre éhes élőhalottak támadását.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 177
   },
   {
     "id": "tt8814476",
@@ -177,23 +193,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 912
-  },
-  {
-    "id": "tt32986431",
-    "type": "movie",
-    "name": "Queens of the Dead",
-    "poster": "https://image.tmdb.org/t/p/w500/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 245
+    "seeders": 572
   },
   {
     "id": "tt36958312",
@@ -209,7 +209,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 860
+    "seeders": 554
   },
   {
     "id": "tt19883490",
@@ -227,7 +227,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 151
+    "seeders": 120
   },
   {
     "id": "tt33029380",
@@ -243,22 +243,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 505
-  },
-  {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 931
+    "seeders": 347
   },
   {
     "id": "tt30150769",
@@ -275,7 +260,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 130
+    "seeders": 107
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 572
   },
   {
     "id": "tt27722524",
@@ -291,7 +291,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 140
+    "seeders": 102
   },
   {
     "id": "tt35300281",
@@ -308,22 +308,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 109
-  },
-  {
-    "id": "tt43657327",
-    "type": "movie",
-    "name": "A nagy csirke-összeesküvés",
-    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
-    "imdbRating": 4.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 134
+    "seeders": 84
   },
   {
     "id": "tt36153493",
@@ -339,23 +324,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 254
+    "seeders": 179
   },
   {
-    "id": "tt36304003",
+    "id": "tt43657327",
     "type": "movie",
-    "name": "72 óra",
-    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+    "name": "A nagy csirke-összeesküvés",
+    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.8,
+    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
+    "imdbRating": 4.8,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Bűnügyi"
+      "Dokumentum"
     ],
-    "seeders": 466
+    "seeders": 96
   },
   {
     "id": "tt35091739",
@@ -372,22 +356,23 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 190
+    "seeders": 139
   },
   {
-    "id": "tt37697399",
+    "id": "tt36304003",
     "type": "movie",
-    "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
+    "name": "72 óra",
+    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 4.0,
+    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
-      "Horror"
+      "Vígjáték",
+      "Bűnügyi"
     ],
-    "seeders": 261
+    "seeders": 320
   },
   {
     "id": "tt39398162",
@@ -403,7 +388,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 98
+    "seeders": 81
+  },
+  {
+    "id": "tt37697399",
+    "type": "movie",
+    "name": "Ismeretlen gonosz",
+    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 168
   },
   {
     "id": "tt28549378",
@@ -419,7 +419,7 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 79
+    "seeders": 63
   },
   {
     "id": "tt34477899",
@@ -436,7 +436,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 167
+    "seeders": 131
+  },
+  {
+    "id": "tt34890320",
+    "type": "movie",
+    "name": "Előkészítő",
+    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 96
   },
   {
     "id": "tt39163015",
@@ -451,37 +466,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 123
+    "seeders": 84
   },
   {
-    "id": "tt34890320",
+    "id": "tt34375721",
     "type": "movie",
-    "name": "Preschool",
-    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
+    "name": "Sárkányok Kabul felett",
+    "poster": "https://image.tmdb.org/t/p/w500/rHOTaT34vaxzN7TAzgSWHiqCA5p.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték"
+      "Akció",
+      "Történelmi",
+      "Dráma"
     ],
-    "seeders": 129
-  },
-  {
-    "id": "tt5072334",
-    "type": "movie",
-    "name": "A Trustor-botrány belülről",
-    "poster": "https://image.tmdb.org/t/p/w500/fz2rXxC2WAqELf3TGW6ati4Dmuw.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Joachim Posener kulcsfontosságú bennfentesekkel együtt felidézi azt az egyre terebélyesedő pénzügyi botrányt, amely egy svéd befektetési társaság illegális felvásárlását követte a 90-es években – valamint azt, hogy ki leplezte le az ügyet.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum",
-      "Bűnügyi"
-    ],
-    "seeders": 61
+    "seeders": 170
   }
 ]
