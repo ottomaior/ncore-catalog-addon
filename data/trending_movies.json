@@ -14,7 +14,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 489
+    "seeders": 619
   },
   {
     "id": "tt34706535",
@@ -32,7 +32,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 271
+    "seeders": 343
   },
   {
     "id": "tt15047880",
@@ -48,7 +48,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1576
+    "seeders": 1847
   },
   {
     "id": "tt32268156",
@@ -58,14 +58,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy négytagú család váratlanul a saját házába zárva találja magát kiút nélkül, és együtt kell működniük, hogy túléljék mind a fogyatkozó készleteiket, mind a rejtélyes, fenyegető erőt, amely csapdában tartja őket.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 445
+    "seeders": 554
   },
   {
     "id": "tt37436831",
@@ -75,12 +75,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.2,
+    "imdbRating": 5.3,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 384
+    "seeders": 449
   },
   {
     "id": "tt32093575",
@@ -95,7 +95,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 2222
+    "seeders": 2547
   },
   {
     "id": "tt0427340",
@@ -112,7 +112,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 1836
+    "seeders": 2206
   },
   {
     "id": "tt27047903",
@@ -129,7 +129,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 473
+    "seeders": 549
   },
   {
     "id": "tt30825738",
@@ -146,23 +146,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1123
-  },
-  {
-    "id": "tt12042730",
-    "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Kaland"
-    ],
-    "seeders": 107
+    "seeders": 1286
   },
   {
     "id": "tt42186253",
@@ -180,7 +164,23 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 163
+    "seeders": 188
+  },
+  {
+    "id": "tt12042730",
+    "type": "movie",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 116
   },
   {
     "id": "tt8814476",
@@ -190,14 +190,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 585
+    "seeders": 676
   },
   {
     "id": "tt27766440",
@@ -212,23 +212,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 64
-  },
-  {
-    "id": "tt32986431",
-    "type": "movie",
-    "name": "A holtak királynője",
-    "poster": "https://image.tmdb.org/t/p/w500/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor zombiapokalipszis tör ki Brooklynban egy hatalmas partin, egy drag queenekből, partiarcokból és bulizókból álló eklektikus csapatnak a sarkára kell állnia, hogy túléljék az agyvelőre éhes élőhalottak támadását.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Horror",
-      "Vígjáték"
-    ],
-    "seeders": 168
+    "seeders": 81
   },
   {
     "id": "tt36958312",
@@ -244,7 +228,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 526
+    "seeders": 605
+  },
+  {
+    "id": "tt32986431",
+    "type": "movie",
+    "name": "A holtak királynője",
+    "poster": "https://image.tmdb.org/t/p/w500/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor zombiapokalipszis tör ki Brooklynban egy hatalmas partin, egy drag queenekből, partiarcokból és bulizókból álló eklektikus csapatnak a sarkára kell állnia, hogy túléljék az agyvelőre éhes élőhalottak támadását.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 189
   },
   {
     "id": "tt33029380",
@@ -260,7 +260,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 335
+    "seeders": 394
   },
   {
     "id": "tt19883490",
@@ -278,7 +278,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 123
+    "seeders": 138
   },
   {
     "id": "tt35672862",
@@ -293,7 +293,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 537
+    "seeders": 637
   },
   {
     "id": "tt30150769",
@@ -310,7 +310,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 102
+    "seeders": 119
   },
   {
     "id": "tt27722524",
@@ -326,23 +326,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 97
-  },
-  {
-    "id": "tt36153493",
-    "type": "movie",
-    "name": "A vadmacska",
-    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 171
+    "seeders": 112
   },
   {
     "id": "tt36304003",
@@ -358,24 +342,23 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 308
+    "seeders": 351
   },
   {
-    "id": "tt35300281",
+    "id": "tt36153493",
     "type": "movie",
-    "name": "Willow és a varázserdő",
-    "poster": "https://image.tmdb.org/t/p/w500/z3KWyhV18tAb45dCGMSvoY62qte.jpg",
+    "name": "A vadmacska",
+    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Willow egy magának való kislány, aki váratlanul különös örökséget kap dédnagynénjétől, Alwinától: egy erdőt, egy girbegurba kis házat és vele együtt a boszorkányerőt is. Eleinte maga sem tudja, mit kezdjen ezzel a furcsa hagyatékkal, ám hamar kiderül, hogy az erdő veszélyben van, és csak akkor menthető meg, ha Willow megtalál három másik lányt, akikben szintén ott rejlik a varázserő. A feladat nem könnyű egy visszahúzódó, bizonytalan gyerek számára, de hűséges társa, Rufus, a róka végig mellette marad, miközben Willow lassan megtanul bízni önmagában, új barátokra lel, és felfedezi, milyen felelősséggel és csodával jár az örökölt mágikus képesség.",
-    "imdbRating": 6.2,
+    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
+    "imdbRating": 6.1,
     "releaseInfo": "2025",
     "genres": [
-      "Családi",
-      "Kaland",
-      "Fantasy"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 78
+    "seeders": 187
   },
   {
     "id": "tt35091739",
@@ -392,7 +375,24 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 131
+    "seeders": 150
+  },
+  {
+    "id": "tt35300281",
+    "type": "movie",
+    "name": "Willow és a varázserdő",
+    "poster": "https://image.tmdb.org/t/p/w500/z3KWyhV18tAb45dCGMSvoY62qte.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Willow egy magának való kislány, aki váratlanul különös örökséget kap dédnagynénjétől, Alwinától: egy erdőt, egy girbegurba kis házat és vele együtt a boszorkányerőt is. Eleinte maga sem tudja, mit kezdjen ezzel a furcsa hagyatékkal, ám hamar kiderül, hogy az erdő veszélyben van, és csak akkor menthető meg, ha Willow megtalál három másik lányt, akikben szintén ott rejlik a varázserő. A feladat nem könnyű egy visszahúzódó, bizonytalan gyerek számára, de hűséges társa, Rufus, a róka végig mellette marad, miközben Willow lassan megtanul bízni önmagában, új barátokra lel, és felfedezi, milyen felelősséggel és csodával jár az örökölt mágikus képesség.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 82
   },
   {
     "id": "tt43657327",
@@ -407,7 +407,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 85
+    "seeders": 101
   },
   {
     "id": "tt37697399",
@@ -422,7 +422,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 167
+    "seeders": 199
   },
   {
     "id": "tt39398162",
@@ -438,7 +438,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 94
   },
   {
     "id": "tt34477899",
@@ -455,7 +455,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 130
+    "seeders": 142
   },
   {
     "id": "tt28549378",
@@ -471,21 +471,21 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 57
+    "seeders": 61
   },
   {
-    "id": "tt39163015",
+    "id": "tt34890320",
     "type": "movie",
-    "name": "Idő és víz: Izland eltűnő gleccserei",
-    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
+    "name": "Előkészítő",
+    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
-    "imdbRating": 6.9,
+    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
+    "imdbRating": 6.1,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Vígjáték"
     ],
-    "seeders": 87
+    "seeders": 105
   }
 ]
