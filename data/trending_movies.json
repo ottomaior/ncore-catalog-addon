@@ -14,7 +14,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 619
+    "seeders": 830
   },
   {
     "id": "tt34706535",
@@ -32,7 +32,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 343
+    "seeders": 430
   },
   {
     "id": "tt15047880",
@@ -48,13 +48,13 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1847
+    "seeders": 2099
   },
   {
     "id": "tt32268156",
     "type": "movie",
     "name": "Az utolsó ház",
-    "poster": "https://image.tmdb.org/t/p/w500/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/aXY6wjJqzsTMUhDk0xpS7SndnDs.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy négytagú család váratlanul a saját házába zárva találja magát kiút nélkül, és együtt kell működniük, hogy túléljék mind a fogyatkozó készleteiket, mind a rejtélyes, fenyegető erőt, amely csapdában tartja őket.",
@@ -65,7 +65,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 554
+    "seeders": 599
   },
   {
     "id": "tt37436831",
@@ -80,22 +80,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 449
-  },
-  {
-    "id": "tt32093575",
-    "type": "movie",
-    "name": "Horrorra akadva",
-    "poster": "https://image.tmdb.org/t/p/w500/osaY5N5dPeuzEg2qN2t6wTL6p4f.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonhat évvel azután, hogy túlélték a kísértetiesen ismerős, maszkos gyilkos támadását, a „Core Four” ismét a gyilkos célkeresztjébe kerül és ezúttal egyetlen horrorfilmes franchise sincs biztonságban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 2547
+    "seeders": 513
   },
   {
     "id": "tt0427340",
@@ -112,7 +97,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 2206
+    "seeders": 2506
   },
   {
     "id": "tt27047903",
@@ -129,7 +114,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 549
+    "seeders": 622
   },
   {
     "id": "tt30825738",
@@ -146,7 +131,24 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1286
+    "seeders": 1493
+  },
+  {
+    "id": "tt8814476",
+    "type": "movie",
+    "name": "Supergirl",
+    "poster": "https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 754
   },
   {
     "id": "tt42186253",
@@ -164,7 +166,7 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 188
+    "seeders": 200
   },
   {
     "id": "tt12042730",
@@ -180,24 +182,23 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 116
+    "seeders": 126
   },
   {
-    "id": "tt8814476",
+    "id": "tt36958312",
     "type": "movie",
-    "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/1QCWdqzTfh2x9UylVpspIU6QTuM.jpg",
+    "name": "Ördögszáj",
+    "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.8,
+    "description": "Öt barát indul el felfedezni a thaiföldi Ördögszáj-barlangrendszert egy utolsó kaland során, mielőtt megkezdődik a nagybetűs élet. De hamarosan kiderül, hogy valami vadászik rájuk a víz alatt... és az a valami gyors, csendes és halálos. A fojtogató sötétségben a bizalom megrendül, a pánik eluralkodik, és minden rossz kanyar küzdelemmé válik a túlélésért.",
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
+      "Horror",
+      "Thriller"
     ],
-    "seeders": 676
+    "seeders": 698
   },
   {
     "id": "tt27766440",
@@ -212,23 +213,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 81
-  },
-  {
-    "id": "tt36958312",
-    "type": "movie",
-    "name": "Ördögszáj",
-    "poster": "https://image.tmdb.org/t/p/w500/37tahkCWk3PZMwPL5DqcjCeDMVA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Öt barát indul el felfedezni a thaiföldi Ördögszáj-barlangrendszert egy utolsó kaland során, mielőtt megkezdődik a nagybetűs élet. De hamarosan kiderül, hogy valami vadászik rájuk a víz alatt... és az a valami gyors, csendes és halálos. A fojtogató sötétségben a bizalom megrendül, a pánik eluralkodik, és minden rossz kanyar küzdelemmé válik a túlélésért.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 605
+    "seeders": 85
   },
   {
     "id": "tt32986431",
@@ -244,7 +229,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 189
+    "seeders": 206
   },
   {
     "id": "tt33029380",
@@ -260,7 +245,22 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 394
+    "seeders": 436
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 722
   },
   {
     "id": "tt19883490",
@@ -278,22 +278,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 138
-  },
-  {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 637
+    "seeders": 148
   },
   {
     "id": "tt30150769",
@@ -310,7 +295,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 119
+    "seeders": 125
   },
   {
     "id": "tt27722524",
@@ -326,7 +311,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 112
+    "seeders": 127
   },
   {
     "id": "tt36304003",
@@ -342,7 +327,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 351
+    "seeders": 392
   },
   {
     "id": "tt36153493",
@@ -358,24 +343,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 187
+    "seeders": 197
   },
   {
-    "id": "tt35091739",
+    "id": "tt43657327",
     "type": "movie",
-    "name": "Fegyverszünet",
-    "poster": "https://image.tmdb.org/t/p/w500/g1O3wEA0ZaigQG0RHx7zXeuWbSc.jpg",
+    "name": "A nagy csirke-összeesküvés",
+    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A The Truce (spanyolul: La tregua) egy 2025-ben bemutatott spanyol háborús és történelmi dráma, amelyet Miguel Ángel Vivas rendezett. A valós eseményeken alapuló film a túlélésről, az ellentétek feloldásáról és az emberségről szól egy kegyetlen szovjet munkatáborban.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
+    "imdbRating": 4.8,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Történelmi",
-      "Háborús"
+      "Dokumentum"
     ],
-    "seeders": 150
+    "seeders": 112
   },
   {
     "id": "tt35300281",
@@ -392,22 +375,24 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 82
+    "seeders": 90
   },
   {
-    "id": "tt43657327",
+    "id": "tt35091739",
     "type": "movie",
-    "name": "A nagy csirke-összeesküvés",
-    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
+    "name": "Fegyverszünet",
+    "poster": "https://image.tmdb.org/t/p/w500/g1O3wEA0ZaigQG0RHx7zXeuWbSc.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
-    "imdbRating": 4.8,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A The Truce (spanyolul: La tregua) egy 2025-ben bemutatott spanyol háborús és történelmi dráma, amelyet Miguel Ángel Vivas rendezett. A valós eseményeken alapuló film a túlélésről, az ellentétek feloldásáról és az emberségről szól egy kegyetlen szovjet munkatáborban.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum"
+      "Dráma",
+      "Történelmi",
+      "Háborús"
     ],
-    "seeders": 101
+    "seeders": 149
   },
   {
     "id": "tt37697399",
@@ -422,7 +407,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 199
+    "seeders": 210
   },
   {
     "id": "tt39398162",
@@ -438,7 +423,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 88
   },
   {
     "id": "tt34477899",
@@ -455,7 +440,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 142
+    "seeders": 148
   },
   {
     "id": "tt28549378",
@@ -471,21 +456,38 @@
       "Dráma",
       "Fantasy"
     ],
-    "seeders": 61
+    "seeders": 68
   },
   {
-    "id": "tt34890320",
+    "id": "tt34375721",
     "type": "movie",
-    "name": "Előkészítő",
-    "poster": "https://image.tmdb.org/t/p/w500/o6JYj1sZDdLgKb6GW39AfGfrGhw.jpg",
+    "name": "Sárkányok Kabul felett",
+    "poster": "https://image.tmdb.org/t/p/w500/rHOTaT34vaxzN7TAzgSWHiqCA5p.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 219
+  },
+  {
+    "id": "tt39163015",
+    "type": "movie",
+    "name": "Idő és víz: Izland eltűnő gleccserei",
+    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Két elszánt apa komikus csatát vív azért, hogy gyermekeiket egy elit óvodába írathassák, ami egy abszurd versengéssé fajul, nem várt eredménnyel.",
-    "imdbRating": 6.1,
+    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Dokumentum"
     ],
-    "seeders": 105
+    "seeders": 107
   }
 ]
