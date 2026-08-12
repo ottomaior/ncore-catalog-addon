@@ -16,7 +16,38 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 721
+    "seeders": 894
+  },
+  {
+    "id": "tt13597298",
+    "type": "movie",
+    "name": "Julian",
+    "poster": "https://image.tmdb.org/t/p/w500/83viwjTeBtJP4KbOmxDCF3Q2cqY.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 8
+  },
+  {
+    "id": "tt43640198",
+    "type": "movie",
+    "name": "Nando Entre Dois Mundos: Um Filme Sintonia",
+    "poster": "https://image.tmdb.org/t/p/w500/nKQKWvHCZEeQEoCQaahJLnXCTAJ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma"
+    ],
+    "seeders": 95
   },
   {
     "id": "tt39316472",
@@ -33,7 +64,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 768
+    "seeders": 889
   },
   {
     "id": "tt34706535",
@@ -51,7 +82,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 419
+    "seeders": 485
   },
   {
     "id": "tt15047880",
@@ -67,7 +98,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1769
+    "seeders": 1991
   },
   {
     "id": "tt32268156",
@@ -84,24 +115,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 504
-  },
-  {
-    "id": "tt0427340",
-    "type": "movie",
-    "name": "Az univerzum védelmezői",
-    "poster": "https://image.tmdb.org/t/p/w500/kYpuxRQIBzaQybgTJwbYAxSLz5y.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "15 év távollét után Adam herceg visszatér Eterniába a Hatalom Kardjával, ahol szembesül otthona romjaival, amelyeket Skeletor gonosz uralma hozott. Hogy megmentse családját és világát, Adamnak össze kell fognia legközelebbi szövetségeseivel, Teelával és Duncannel (Man-At-Arms), hogy elfogadja valódi sorsát és He-Man-né, az univerzum leghatalmasabb emberévé váljon.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Fantasy",
-      "Sci-Fi"
-    ],
-    "seeders": 2122
+    "seeders": 621
   },
   {
     "id": "tt37436831",
@@ -116,7 +130,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 425
+    "seeders": 487
   },
   {
     "id": "tt27047903",
@@ -133,7 +147,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 528
+    "seeders": 622
   },
   {
     "id": "tt30825738",
@@ -150,7 +164,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1277
+    "seeders": 1468
   },
   {
     "id": "tt8814476",
@@ -167,7 +181,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 614
+    "seeders": 718
   },
   {
     "id": "tt36958312",
@@ -183,7 +197,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 578
+    "seeders": 662
   },
   {
     "id": "tt12042730",
@@ -199,7 +213,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 111
+    "seeders": 126
   },
   {
     "id": "tt42186253",
@@ -217,7 +231,7 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 152
+    "seeders": 156
   },
   {
     "id": "tt33029380",
@@ -233,22 +247,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 368
-  },
-  {
-    "id": "tt27766440",
-    "type": "movie",
-    "name": "A tenger útja",
-    "poster": "https://image.tmdb.org/t/p/w500/yELCSMuIDxwrttutpaIV3plG8OM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 78
+    "seeders": 413
   },
   {
     "id": "tt32986431",
@@ -264,7 +263,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 165
+    "seeders": 192
   },
   {
     "id": "tt35672862",
@@ -279,7 +278,22 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 624
+    "seeders": 702
+  },
+  {
+    "id": "tt27766440",
+    "type": "movie",
+    "name": "A tenger útja",
+    "poster": "https://image.tmdb.org/t/p/w500/yELCSMuIDxwrttutpaIV3plG8OM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt19883490",
@@ -297,7 +311,23 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 122
+    "seeders": 139
+  },
+  {
+    "id": "tt27722524",
+    "type": "movie",
+    "name": "Összeadás",
+    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 132
   },
   {
     "id": "tt30150769",
@@ -314,23 +344,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 104
-  },
-  {
-    "id": "tt27722524",
-    "type": "movie",
-    "name": "Összeadás",
-    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 114
+    "seeders": 118
   },
   {
     "id": "tt36304003",
@@ -346,7 +360,7 @@
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 336
+    "seeders": 378
   },
   {
     "id": "tt36153493",
@@ -362,7 +376,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 167
+    "seeders": 202
+  },
+  {
+    "id": "tt37697399",
+    "type": "movie",
+    "name": "Ismeretlen gonosz",
+    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
+    "imdbRating": 4.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 221
   },
   {
     "id": "tt35091739",
@@ -379,22 +408,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 134
-  },
-  {
-    "id": "tt37697399",
-    "type": "movie",
-    "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 183
+    "seeders": 159
   },
   {
     "id": "tt35300281",
@@ -411,7 +425,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 79
+    "seeders": 91
   },
   {
     "id": "tt43657327",
@@ -426,23 +440,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 91
-  },
-  {
-    "id": "tt39398162",
-    "type": "movie",
-    "name": "Akit szeretnek",
-    "poster": "https://image.tmdb.org/t/p/w500/rVZQcphJRWVJgQZtWztrauB6Fwe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "15 évvel később Ellie és Eric, az egykori szerelmesek újra találkoznak, hogy felkutassák egy soha el nem múlt szerelem és bánat emlékeit.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 82
+    "seeders": 103
   },
   {
     "id": "tt34477899",
@@ -459,7 +457,23 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 129
+    "seeders": 144
+  },
+  {
+    "id": "tt39398162",
+    "type": "movie",
+    "name": "Akit szeretnek",
+    "poster": "https://image.tmdb.org/t/p/w500/rVZQcphJRWVJgQZtWztrauB6Fwe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "15 évvel később Ellie és Eric, az egykori szerelmesek újra találkoznak, hogy felkutassák egy soha el nem múlt szerelem és bánat emlékeit.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt34890320",
@@ -474,23 +488,6 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 104
-  },
-  {
-    "id": "tt34375721",
-    "type": "movie",
-    "name": "Sárkányok Kabul felett",
-    "poster": "https://image.tmdb.org/t/p/w500/rHOTaT34vaxzN7TAzgSWHiqCA5p.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 187
+    "seeders": 116
   }
 ]
