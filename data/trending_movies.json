@@ -7,7 +7,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A nagy sikerű Gru franchise új spin-offjában ismét az ikonikus főhős nem kevésbé ikonikus segítői keverednek a korábbiaknál is észvesztőbb és humorosabb kalandokba.  (Gergo Horvath)R3",
-    "imdbRating": 6.8,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Kaland",
@@ -16,7 +16,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 543
+    "seeders": 721
   },
   {
     "id": "tt39316472",
@@ -26,14 +26,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Johnny Knoxville, Steve-O és a Jackass csapata visszatér egy utolsó, őrült menetelésre, amelyben a régi klasszikusok és eddig nem látott jelenetek keverednek vad mutatványokkal, kegyetlen csínyekkel és önpusztító poénokkal. A film egyszerre búcsú a franchise több mint két évtizedes örökségétől és egy utolsó, fájdalmasan vicces összegzése annak, meddig hajlandó elmenni a csapat a nevetés kedvéért.",
-    "imdbRating": 7.2,
+    "imdbRating": 7.4,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 606
+    "seeders": 768
   },
   {
     "id": "tt34706535",
@@ -51,7 +51,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 340
+    "seeders": 419
   },
   {
     "id": "tt15047880",
@@ -61,13 +61,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
-    "imdbRating": 7.4,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1489
+    "seeders": 1769
   },
   {
     "id": "tt32268156",
@@ -84,7 +84,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 416
+    "seeders": 504
   },
   {
     "id": "tt0427340",
@@ -101,7 +101,7 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "seeders": 1745
+    "seeders": 2122
   },
   {
     "id": "tt37436831",
@@ -116,7 +116,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 355
+    "seeders": 425
   },
   {
     "id": "tt27047903",
@@ -133,7 +133,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 456
+    "seeders": 528
   },
   {
     "id": "tt30825738",
@@ -150,7 +150,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1100
+    "seeders": 1277
   },
   {
     "id": "tt8814476",
@@ -167,23 +167,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 531
-  },
-  {
-    "id": "tt12042730",
-    "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Kaland"
-    ],
-    "seeders": 96
+    "seeders": 614
   },
   {
     "id": "tt36958312",
@@ -199,7 +183,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 499
+    "seeders": 578
+  },
+  {
+    "id": "tt12042730",
+    "type": "movie",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 111
   },
   {
     "id": "tt42186253",
@@ -209,7 +209,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor a vérszomjas Nergal elpusztítja királyságát, Zafír hercegnő a masnis hősként ébred újra, és azért harcol, hogy megmentse új otthonát ugyanattól a sötét végzettől.",
-    "imdbRating": 6.4,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -217,7 +217,7 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 132
+    "seeders": 152
   },
   {
     "id": "tt33029380",
@@ -233,7 +233,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 329
+    "seeders": 368
   },
   {
     "id": "tt27766440",
@@ -248,7 +248,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 65
+    "seeders": 78
   },
   {
     "id": "tt32986431",
@@ -264,7 +264,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 143
+    "seeders": 165
   },
   {
     "id": "tt35672862",
@@ -279,7 +279,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 502
+    "seeders": 624
   },
   {
     "id": "tt19883490",
@@ -297,7 +297,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 118
+    "seeders": 122
   },
   {
     "id": "tt30150769",
@@ -314,7 +314,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 93
+    "seeders": 104
   },
   {
     "id": "tt27722524",
@@ -330,7 +330,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 102
+    "seeders": 114
   },
   {
     "id": "tt36304003",
@@ -340,13 +340,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.8,
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Bűnügyi"
     ],
-    "seeders": 282
+    "seeders": 336
   },
   {
     "id": "tt36153493",
@@ -362,24 +362,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 155
-  },
-  {
-    "id": "tt35300281",
-    "type": "movie",
-    "name": "Willow és a varázserdő",
-    "poster": "https://image.tmdb.org/t/p/w500/z3KWyhV18tAb45dCGMSvoY62qte.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Willow egy magának való kislány, aki váratlanul különös örökséget kap dédnagynénjétől, Alwinától: egy erdőt, egy girbegurba kis házat és vele együtt a boszorkányerőt is. Eleinte maga sem tudja, mit kezdjen ezzel a furcsa hagyatékkal, ám hamar kiderül, hogy az erdő veszélyben van, és csak akkor menthető meg, ha Willow megtalál három másik lányt, akikben szintén ott rejlik a varázserő. A feladat nem könnyű egy visszahúzódó, bizonytalan gyerek számára, de hűséges társa, Rufus, a róka végig mellette marad, miközben Willow lassan megtanul bízni önmagában, új barátokra lel, és felfedezi, milyen felelősséggel és csodával jár az örökölt mágikus képesség.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 78
+    "seeders": 167
   },
   {
     "id": "tt35091739",
@@ -396,22 +379,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 114
-  },
-  {
-    "id": "tt43657327",
-    "type": "movie",
-    "name": "A nagy csirke-összeesküvés",
-    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 82
+    "seeders": 134
   },
   {
     "id": "tt37697399",
@@ -426,7 +394,39 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 149
+    "seeders": 183
+  },
+  {
+    "id": "tt35300281",
+    "type": "movie",
+    "name": "Willow és a varázserdő",
+    "poster": "https://image.tmdb.org/t/p/w500/z3KWyhV18tAb45dCGMSvoY62qte.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Willow egy magának való kislány, aki váratlanul különös örökséget kap dédnagynénjétől, Alwinától: egy erdőt, egy girbegurba kis házat és vele együtt a boszorkányerőt is. Eleinte maga sem tudja, mit kezdjen ezzel a furcsa hagyatékkal, ám hamar kiderül, hogy az erdő veszélyben van, és csak akkor menthető meg, ha Willow megtalál három másik lányt, akikben szintén ott rejlik a varázserő. A feladat nem könnyű egy visszahúzódó, bizonytalan gyerek számára, de hűséges társa, Rufus, a róka végig mellette marad, miközben Willow lassan megtanul bízni önmagában, új barátokra lel, és felfedezi, milyen felelősséggel és csodával jár az örökölt mágikus képesség.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 79
+  },
+  {
+    "id": "tt43657327",
+    "type": "movie",
+    "name": "A nagy csirke-összeesküvés",
+    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 91
   },
   {
     "id": "tt39398162",
@@ -442,7 +442,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 74
+    "seeders": 82
   },
   {
     "id": "tt34477899",
@@ -459,22 +459,7 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 111
-  },
-  {
-    "id": "tt39163015",
-    "type": "movie",
-    "name": "Idő és víz: Izland eltűnő gleccserei",
-    "poster": "https://image.tmdb.org/t/p/w500/1hksIYHtsHCG70nZKbnrYBPk600.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy dokumentumfilm, amelyben az izlandi író, Andri Snær Magnason személyes történetén keresztül a jég és a víz sorsát, valamint a klímaváltozás következményeit követjük nyomon. A mű az emlékezet, a családi múlt és a tájhoz fűződő kapcsolat megőrzéséről szól, miközben Magnason archív felvételek, családi emlékek és izlandi mítoszok segítségével próbál kapaszkodót találni abban, ami lassan eltűnik.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 85
+    "seeders": 129
   },
   {
     "id": "tt34890320",
@@ -489,6 +474,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 88
+    "seeders": 104
+  },
+  {
+    "id": "tt34375721",
+    "type": "movie",
+    "name": "Sárkányok Kabul felett",
+    "poster": "https://image.tmdb.org/t/p/w500/rHOTaT34vaxzN7TAzgSWHiqCA5p.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film története a 2021-es Sámán Pajzs nevű katonai művelet eseményeit dolgozza fel. A film középpontjában egy magyar orvosnő áll, aki a magyar katonák önfeláldozó küzdelmével együtt próbálja kimenekíteni a háborús városból a civileket. A történet a káoszba süllyedő kabuli repülőtéren csúcsosodik ki, ahol már nincs se törvény, se rend, csak a magyar katonák kitartása, hősiessége és embersége számít.  (csd)",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 187
   }
 ]
