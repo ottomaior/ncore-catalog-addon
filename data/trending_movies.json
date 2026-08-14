@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt36590417",
+    "type": "movie",
+    "name": "Don't Say Good Luck",
+    "poster": "https://image.tmdb.org/t/p/w500/w3NNwo7kImaJS7fL6YlBsJx0i6R.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 57
+  },
+  {
     "id": "tt32890033",
     "type": "movie",
     "name": "Minyonok és szörnyek",
@@ -16,23 +33,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 1016
-  },
-  {
-    "id": "tt32267711",
-    "type": "movie",
-    "name": "Rufus, a legbátrabb tengeri szörny",
-    "poster": "https://image.tmdb.org/t/p/w500/sgoNvH0yEDonzJpGEzmBo5NlPSO.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Rufus a tengeri kígyók közösségében az egyetlen, aki nem tud úszni. Amikor azonban bekövetkezik a katasztrófa, és titkos szigetük védelemre szorul, Rufusnak szembe kell néznie legmélyebb félelmével, hogy megmentse a családját. (Csillag Lajos)",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 111
+    "seeders": 1208
   },
   {
     "id": "tt39316472",
@@ -49,7 +50,23 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 752
+    "seeders": 875
+  },
+  {
+    "id": "tt32267711",
+    "type": "movie",
+    "name": "Rufus, a legbátrabb tengeri szörny",
+    "poster": "https://image.tmdb.org/t/p/w500/sgoNvH0yEDonzJpGEzmBo5NlPSO.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Rufus a tengeri kígyók közösségében az egyetlen, aki nem tud úszni. Amikor azonban bekövetkezik a katasztrófa, és titkos szigetük védelemre szorul, Rufusnak szembe kell néznie legmélyebb félelmével, hogy megmentse a családját. (Csillag Lajos)",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 144
   },
   {
     "id": "tt22872358",
@@ -64,7 +81,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 157
+    "seeders": 190
   },
   {
     "id": "tt15047880",
@@ -80,7 +97,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1522
+    "seeders": 1791
   },
   {
     "id": "tt34706535",
@@ -98,7 +115,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 360
+    "seeders": 417
   },
   {
     "id": "tt34734841",
@@ -113,7 +130,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 122
+    "seeders": 144
   },
   {
     "id": "tt32268156",
@@ -130,39 +147,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 434
-  },
-  {
-    "id": "tt43640198",
-    "type": "movie",
-    "name": "Kölykök az utcáról: Nando két világ között",
-    "poster": "https://image.tmdb.org/t/p/w500/dwnqhUeXO1vRgXH9zgyeeihpxqo.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy száműzetésben élő egykori maffiavezérnek vissza kell térnie Brazíliába, miután tinédzser lánya eltűnik; így kénytelen szembenézni azzal az erőszakos alvilággal, amelyet korábban maga mögött hagyott, miközben családja védelméért küzd.",
-    "imdbRating": 2.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 105
-  },
-  {
-    "id": "tt37436831",
-    "type": "movie",
-    "name": "Ki hitte volna? 2.: Az esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 387
+    "seeders": 504
   },
   {
     "id": "tt30825738",
@@ -179,7 +164,39 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 1078
+    "seeders": 1309
+  },
+  {
+    "id": "tt37436831",
+    "type": "movie",
+    "name": "Ki hitte volna? 2.: Az esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
+    "imdbRating": 5.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 467
+  },
+  {
+    "id": "tt43640198",
+    "type": "movie",
+    "name": "Kölykök az utcáról: Nando két világ között",
+    "poster": "https://image.tmdb.org/t/p/w500/dwnqhUeXO1vRgXH9zgyeeihpxqo.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy száműzetésben élő egykori maffiavezérnek vissza kell térnie Brazíliába, miután tinédzser lánya eltűnik; így kénytelen szembenézni azzal az erőszakos alvilággal, amelyet korábban maga mögött hagyott, miközben családja védelméért küzd.",
+    "imdbRating": 2.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 126
   },
   {
     "id": "tt27047903",
@@ -196,7 +213,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 455
+    "seeders": 527
   },
   {
     "id": "tt13597298",
@@ -211,7 +228,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 66
+    "seeders": 73
   },
   {
     "id": "tt8814476",
@@ -228,7 +245,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 562
+    "seeders": 657
   },
   {
     "id": "tt36958312",
@@ -244,7 +261,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 491
+    "seeders": 582
   },
   {
     "id": "tt33029380",
@@ -260,7 +277,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 319
+    "seeders": 362
   },
   {
     "id": "tt42186253",
@@ -278,7 +295,7 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 126
+    "seeders": 145
   },
   {
     "id": "tt12042730",
@@ -294,7 +311,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 94
+    "seeders": 109
   },
   {
     "id": "tt32986431",
@@ -310,7 +327,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 143
+    "seeders": 159
   },
   {
     "id": "tt19883490",
@@ -328,7 +345,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 124
+    "seeders": 137
   },
   {
     "id": "tt27766440",
@@ -343,23 +360,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 61
-  },
-  {
-    "id": "tt36304003",
-    "type": "movie",
-    "name": "72 óra",
-    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Bűnügyi"
-    ],
-    "seeders": 285
+    "seeders": 68
   },
   {
     "id": "tt27722524",
@@ -375,7 +376,23 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 96
+    "seeders": 111
+  },
+  {
+    "id": "tt36153493",
+    "type": "movie",
+    "name": "A vadmacska",
+    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 172
   },
   {
     "id": "tt30150769",
@@ -392,23 +409,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 87
-  },
-  {
-    "id": "tt36153493",
-    "type": "movie",
-    "name": "A vadmacska",
-    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 153
+    "seeders": 96
   },
   {
     "id": "tt37697399",
@@ -423,7 +424,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 157
+    "seeders": 185
   },
   {
     "id": "tt35091739",
@@ -440,7 +441,7 @@
       "Történelmi",
       "Háborús"
     ],
-    "seeders": 115
+    "seeders": 129
   },
   {
     "id": "tt35300281",
@@ -457,7 +458,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 70
+    "seeders": 77
   },
   {
     "id": "tt34477899",
@@ -474,21 +475,22 @@
       "Dráma",
       "Bűnügyi"
     ],
-    "seeders": 116
+    "seeders": 132
   },
   {
-    "id": "tt43657327",
+    "id": "tt36304003",
     "type": "movie",
-    "name": "A nagy csirke-összeesküvés",
-    "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
+    "name": "72 óra",
+    "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy merész, 28 napos kísérlet során a humorista Mo Gilligan csak olajban sült csirkét eszik, hogy lerántsa a leplet kedvenc étele egészségügyi hatásairól – és a rá épülő iparágról.",
-    "imdbRating": 5.3,
+    "description": "Hogy megmentse a karrierjét, egy negyvenéves reklámigazgató csatlakozik egy huszonévesekből álló társaság vad legénybúcsújához Miamiban, amire véletlenül meghívták.",
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Vígjáték",
+      "Bűnügyi"
     ],
-    "seeders": 72
+    "seeders": 206
   }
 ]
