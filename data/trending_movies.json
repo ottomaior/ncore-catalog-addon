@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt15047880",
+    "type": "movie",
+    "name": "A leleplezés napja",
+    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 83
+  },
+  {
     "id": "tt27047903",
     "type": "movie",
     "name": "Sikoly 7.",
@@ -14,7 +30,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 49
+    "seeders": 74
   },
   {
     "id": "tt22055080",
@@ -29,38 +45,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 49
-  },
-  {
-    "id": "tt32616813",
-    "type": "movie",
-    "name": "Campamento Garra de Oso",
-    "poster": "https://image.tmdb.org/t/p/w500/9VZSbOxvHTOy8cDpk5YoXItsgIX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 57
-  },
-  {
-    "id": "tt32944883",
-    "type": "movie",
-    "name": "Ne hagyjuk tönkremenni!",
-    "poster": "https://image.tmdb.org/t/p/w500/kTT45uhU38NlQxTUcgsFb62J7nE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A 8 éves Bobo családja rhodéziai farmján él a Bush-háború utolsó szakaszában. A történet bemutatja a kislány afrikai földhöz fűződő kötelékét, illetve a háború hatásait a régióra és annak lakóira.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 50
+    "seeders": 83
   },
   {
     "id": "tt32890033",
@@ -79,25 +64,23 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 1139
+    "seeders": 1334
   },
   {
-    "id": "tt6743524",
+    "id": "tt32616813",
     "type": "movie",
-    "name": "Camp Rock 3",
-    "poster": "https://image.tmdb.org/t/p/w500/8wI9KByZtzBMWOzDFjxHPSOAuOH.jpg",
+    "name": "Campamento Garra de Oso",
+    "poster": "https://image.tmdb.org/t/p/w500/9VZSbOxvHTOy8cDpk5YoXItsgIX.jpg",
     "posterShape": "poster",
-    "year": 2026,
+    "year": 2025,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
+    "imdbRating": 5.4,
+    "releaseInfo": "2025",
     "genres": [
-      "Zenei",
       "Vígjáték",
-      "Dráma",
-      "TV film"
+      "Családi"
     ],
-    "seeders": 155
+    "seeders": 91
   },
   {
     "id": "tt38662472",
@@ -112,7 +95,40 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 135
+    "seeders": 167
+  },
+  {
+    "id": "tt32944883",
+    "type": "movie",
+    "name": "Ne hagyjuk tönkremenni!",
+    "poster": "https://image.tmdb.org/t/p/w500/kTT45uhU38NlQxTUcgsFb62J7nE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A 8 éves Bobo családja rhodéziai farmján él a Bush-háború utolsó szakaszában. A történet bemutatja a kislány afrikai földhöz fűződő kötelékét, illetve a háború hatásait a régióra és annak lakóira.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 64
+  },
+  {
+    "id": "tt6743524",
+    "type": "movie",
+    "name": "Rocktábor 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/8wI9KByZtzBMWOzDFjxHPSOAuOH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Vígjáték",
+      "Dráma",
+      "TV film"
+    ],
+    "seeders": 175
   },
   {
     "id": "tt39316472",
@@ -129,23 +145,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 788
-  },
-  {
-    "id": "tt15047880",
-    "type": "movie",
-    "name": "A leleplezés napja",
-    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "seeders": 1526
+    "seeders": 899
   },
   {
     "id": "tt36590417",
@@ -155,14 +155,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Sophie Birenbaum készen áll a reflektorfényre, mint az iskolai musical főszereplője – egészen addig, mígnem hirtelen több drámával kell szembenéznie otthon, mint a színpadon.",
-    "imdbRating": 7.2,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Zenei",
       "Dráma"
     ],
-    "seeders": 82
+    "seeders": 93
   },
   {
     "id": "tt32267711",
@@ -178,22 +178,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 134
-  },
-  {
-    "id": "tt22872358",
-    "type": "movie",
-    "name": "A hangmester",
-    "poster": "https://image.tmdb.org/t/p/w500/A97kwaAUZZ4HIUX8lMahqYliPdh.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 164
+    "seeders": 154
   },
   {
     "id": "tt34706535",
@@ -211,24 +196,22 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 351
+    "seeders": 433
   },
   {
-    "id": "tt30825738",
+    "id": "tt22872358",
     "type": "movie",
-    "name": "Star Wars: A Mandalóri és Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
+    "name": "A hangmester",
+    "poster": "https://image.tmdb.org/t/p/w500/A97kwaAUZZ4HIUX8lMahqYliPdh.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
     "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
+      "Dráma"
     ],
-    "seeders": 1129
+    "seeders": 201
   },
   {
     "id": "tt32268156",
@@ -245,7 +228,39 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 442
+    "seeders": 541
+  },
+  {
+    "id": "tt30825738",
+    "type": "movie",
+    "name": "Star Wars: A Mandalóri és Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 1320
+  },
+  {
+    "id": "tt36933402",
+    "type": "movie",
+    "name": "Ki hitte volna? 2.: Az esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
+    "imdbRating": 5.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 460
   },
   {
     "id": "tt34734841",
@@ -260,22 +275,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 118
-  },
-  {
-    "id": "tt37436831",
-    "type": "movie",
-    "name": "Ki hitte volna? 2.: Az esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 380
+    "seeders": 141
   },
   {
     "id": "tt8814476",
@@ -292,7 +292,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 576
+    "seeders": 689
   },
   {
     "id": "tt43640198",
@@ -309,7 +309,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 96
+    "seeders": 113
   },
   {
     "id": "tt36958312",
@@ -325,22 +325,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 502
-  },
-  {
-    "id": "tt13597298",
-    "type": "movie",
-    "name": "Julian",
-    "poster": "https://image.tmdb.org/t/p/w500/sxyRAjnkDw2E8BVsd91J6Cnv9OK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Fleur és Julian őrülten egymásba szeretnek, és úgy döntenek, hogy minden olyan országban összeházasodnak, ahol két nőnek ez megengedett. Mindössze négy házasság után utazásuk fájdalmas és váratlan véget ér.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 61
+    "seeders": 609
   },
   {
     "id": "tt33029380",
@@ -356,39 +341,22 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 333
+    "seeders": 378
   },
   {
-    "id": "tt32986431",
+    "id": "tt13597298",
     "type": "movie",
-    "name": "A holtak királynője",
-    "poster": "https://image.tmdb.org/t/p/w500/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
+    "name": "Julian",
+    "poster": "https://image.tmdb.org/t/p/w500/sxyRAjnkDw2E8BVsd91J6Cnv9OK.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Amikor zombiapokalipszis tör ki Brooklynban egy hatalmas partin, egy drag queenekből, partiarcokból és bulizókból álló eklektikus csapatnak a sarkára kell állnia, hogy túléljék az agyvelőre éhes élőhalottak támadását.",
-    "imdbRating": 5.6,
+    "description": "Fleur és Julian őrülten egymásba szeretnek, és úgy döntenek, hogy minden olyan országban összeházasodnak, ahol két nőnek ez megengedett. Mindössze négy házasság után utazásuk fájdalmas és váratlan véget ér.",
+    "imdbRating": 6.7,
     "releaseInfo": "2025",
     "genres": [
-      "Horror",
-      "Vígjáték"
+      "Dráma"
     ],
-    "seeders": 147
-  },
-  {
-    "id": "tt12042730",
-    "type": "movie",
-    "name": "A Hail Mary-küldetés",
-    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Kaland"
-    ],
-    "seeders": 99
+    "seeders": 67
   },
   {
     "id": "tt42186253",
@@ -406,7 +374,39 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 117
+    "seeders": 147
+  },
+  {
+    "id": "tt32986431",
+    "type": "movie",
+    "name": "A holtak királynője",
+    "poster": "https://image.tmdb.org/t/p/w500/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor zombiapokalipszis tör ki Brooklynban egy hatalmas partin, egy drag queenekből, partiarcokból és bulizókból álló eklektikus csapatnak a sarkára kell állnia, hogy túléljék az agyvelőre éhes élőhalottak támadását.",
+    "imdbRating": 5.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Horror",
+      "Vígjáték"
+    ],
+    "seeders": 168
+  },
+  {
+    "id": "tt12042730",
+    "type": "movie",
+    "name": "A Hail Mary-küldetés",
+    "poster": "https://image.tmdb.org/t/p/w500/wD0dkVerZMQu2uv7C9pPKXNB2pm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Ryland Grace, a természettudománytanár egy űrhajón ébred, fényévekre az otthonától és semmire sem emlékszik - sem arra, hogy kicsoda, sem arra, hogyan került oda. Ahogy lassan visszanyeri az emlékeit, feltárul előtte a küldetése: meg kell fejtenie annak a rejtélyes anyagnak a titkát, amely a Nap kihunyását okozza. Tudományos ismereteire és szokatlan ötleteire támaszkodva kell megakadályoznia a Föld teljes kipusztulását… ám egy váratlan barátság révén talán mégsem kell egyedül szembenéznie a lehetetlennel.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Kaland"
+    ],
+    "seeders": 110
   },
   {
     "id": "tt19883490",
@@ -424,7 +424,54 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 118
+    "seeders": 125
+  },
+  {
+    "id": "tt27766440",
+    "type": "movie",
+    "name": "A tenger útja",
+    "poster": "https://image.tmdb.org/t/p/w500/yELCSMuIDxwrttutpaIV3plG8OM.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 73
+  },
+  {
+    "id": "tt36153493",
+    "type": "movie",
+    "name": "A vadmacska",
+    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 182
+  },
+  {
+    "id": "tt27722524",
+    "type": "movie",
+    "name": "Összeadás",
+    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 112
   },
   {
     "id": "tt30150769",
@@ -441,52 +488,6 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 89
-  },
-  {
-    "id": "tt27766440",
-    "type": "movie",
-    "name": "A tenger útja",
-    "poster": "https://image.tmdb.org/t/p/w500/yELCSMuIDxwrttutpaIV3plG8OM.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután elveszítik az otthonukat, Ray (Gillian Anderson) és Moth (Jason Isaacs) csak a legszükségesebb holmikat viszik magukkal, és egy életre szóló útra indulnak: közel ezer kilométeres gyalogtúrára a lélegzetelállító délnyugat-angliai partvidéken. Az időjárás szeszélyeivel és saját fizikai határaikkal folyamatosan megküzdve a múlt fájdalmai helyett inkább a jövőbe vetett reményt választják. Az út nemcsak új barátságokat hoz számukra, hanem több évtizednyi házasság után is még szorosabbra fűzi köztük az érzelmi köteléket.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 56
-  },
-  {
-    "id": "tt36153493",
-    "type": "movie",
-    "name": "A vadmacska",
-    "poster": "https://image.tmdb.org/t/p/w500/m5kmtHOgPPtFlYcEfZixn3fW5to.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy volt titkos ügynökökből álló csapat újra összeáll, hogy végrehajtson egy kétségbeesett rablást és megmentse egy nyolcéves kislány életét.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 145
-  },
-  {
-    "id": "tt37697399",
-    "type": "movie",
-    "name": "Ismeretlen gonosz",
-    "poster": "https://image.tmdb.org/t/p/w500/3OdniYj4P7XbGb8qe2e16JK0hwO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 4.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 162
+    "seeders": 100
   }
 ]
