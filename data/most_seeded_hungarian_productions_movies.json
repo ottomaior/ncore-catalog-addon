@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999991
+"seeders": 999990
 },
 {
 "id": "tt29344974",
@@ -23,14 +23,14 @@
 "posterShape": "poster",
 "year": 2024,
 "description": "Mi köti össze a múltat a jelennel? Természetesen a szerelem. És a zene. De csak ha nagyon jó.  Lili korunk tipikus lánya: magányos, és igyekszik bebeszélni magának, hogy így jó neki. De egyszer a szülei lakásában talál egy régi levélcsomagot, amit az anyja, úgy látszik, egyáltalán nem akart megmutatni neki. Ő persze nem sokat habozik, olvasni kezd, és megelevenedik előtte a múlt…  …a kilencvenes évek elejének egy felejthetetlen nyara, amikor három jó barátnő a Balatonnál vakációzik, és közülük csak Eszter (Törőcsik Franciska) akar hűséges maradni az otthon hagyott, karót nyelt pasijához. De általában mérnöki pontossággal követett terveit kissé összekuszálja, hogy megismerkedik egy sráccal (Ember Márk), aki laza, vicces és van még egy nagyon jó tulajdonsága: egy zenekarban játszik, és esténként a szigligeti strandon lép fel a haverjaival.",
-"imdbRating": 8.1,
+"imdbRating": 8.3,
 "releaseInfo": "2024",
 "genres": [
 "Vígjáték",
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999985
+"seeders": 999983
 },
 {
 "id": "tt29567915",
@@ -62,7 +62,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999947
+"seeders": 999949
 },
 {
 "id": "tt34375721",
@@ -82,21 +82,6 @@
 "seeders": 999947
 },
 {
-"id": "tt38492476",
-"type": "movie",
-"name": "Legénybúcsú",
-"poster": "https://image.tmdb.org/t/p/w500/hvcJ0tAZEJb6WOBR3YzM8qBHVnc.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-"imdbRating": 5.2,
-"releaseInfo": "2025",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999910
-},
-{
 "id": "tt0179955",
 "type": "movie",
 "name": "Macskafogó",
@@ -111,24 +96,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999901
-},
-{
-"id": "tt13652286",
-"type": "movie",
-"name": "Légi csapda",
-"poster": "https://image.tmdb.org/t/p/w500/dNyzZaMDS5hmOzWHFgNlgRRPDB0.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
-"imdbRating": 6.2,
-"releaseInfo": "2025",
-"genres": [
-"Akció",
-"Vígjáték",
-"Thriller"
-],
-"seeders": 999881
+"seeders": 999907
 },
 {
 "id": "tt0065067",
@@ -143,23 +111,22 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999870
+"seeders": 999877
 },
 {
-"id": "tt35303515",
+"id": "tt38492476",
 "type": "movie",
-"name": "Itt érzem magam otthon",
-"poster": "https://image.tmdb.org/t/p/w500/b0ldbmOJQgaqxK5ZSLhfH3VLf8Y.jpg",
+"name": "Legénybúcsú",
+"poster": "https://image.tmdb.org/t/p/w500/dJ1TVVdmGSEB9iSRYhD974gaj6v.jpg",
 "posterShape": "poster",
-"year": 2026,
-"description": "Ritát, a fiatal és magányos nőt egy éjszaka elrabolják az utcáról. A különös Árpád-család lakásában tér magához, akik váltig állítják, hogy ő valójában Szilvi, a család elveszett tagja. Rita tisztában van vele, hogy kicsoda, és azzal is, hogy Árpádéknál az őrület uralkodik. Ugyanakkor belátja, hogy ha valaha is meg akar szabadulni tőlük, kénytelen lesz megszemélyesíteni ezt a bizonyos Szilvit.",
-"imdbRating": 7.2,
-"releaseInfo": "2026",
+"year": 2025,
+"description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
+"imdbRating": 5.2,
+"releaseInfo": "2025",
 "genres": [
-"Dráma",
-"Thriller"
+"Vígjáték"
 ],
-"seeders": 999860
+"seeders": 999873
 },
 {
 "id": "tt27811640",
@@ -177,6 +144,22 @@
 "seeders": 999846
 },
 {
+"id": "tt35303515",
+"type": "movie",
+"name": "Itt érzem magam otthon",
+"poster": "https://image.tmdb.org/t/p/w500/b0ldbmOJQgaqxK5ZSLhfH3VLf8Y.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Ritát, a fiatal és magányos nőt egy éjszaka elrabolják az utcáról. A különös Árpád-család lakásában tér magához, akik váltig állítják, hogy ő valójában Szilvi, a család elveszett tagja. Rita tisztában van vele, hogy kicsoda, és azzal is, hogy Árpádéknál az őrület uralkodik. Ugyanakkor belátja, hogy ha valaha is meg akar szabadulni tőlük, kénytelen lesz megszemélyesíteni ezt a bizonyos Szilvit.",
+"imdbRating": 7.2,
+"releaseInfo": "2026",
+"genres": [
+"Dráma",
+"Thriller"
+],
+"seeders": 999842
+},
+{
 "id": "tt38508942",
 "type": "movie",
 "name": "Beléd estem",
@@ -190,23 +173,6 @@
 "Vígjáték"
 ],
 "seeders": 999841
-},
-{
-"id": "tt0142632",
-"type": "movie",
-"name": "Lúdas Matyi",
-"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
-"posterShape": "poster",
-"year": 1977,
-"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
-"imdbRating": 7.2,
-"releaseInfo": "1977",
-"genres": [
-"Animációs",
-"Kaland",
-"Vígjáték"
-],
-"seeders": 999839
 },
 {
 "id": "tt31065630",
@@ -224,21 +190,21 @@
 "seeders": 999838
 },
 {
-"id": "tt0084315",
+"id": "tt0142632",
 "type": "movie",
-"name": "Az idő urai",
-"poster": "https://image.tmdb.org/t/p/w500/l4Jkx3FxQPsRy4kTxjb2pvQlBYU.jpg",
+"name": "Lúdas Matyi",
+"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
 "posterShape": "poster",
-"year": 1982,
-"description": "1982-ben bemutatott egész estés francia–magyar koprodukcióban készült legendás sci-fi rajzfilm, amely Stefan Wul L’Orphelin de Perdide [„A Perdide bolygó árvája”] című kultikus regénye alapján készült (1958). A forgatókönyvet Jean Giraud írta, a rajzfilmet René Laloux rendezte, a zenéjét Jean-Pierre Bourtayre, Pierre Tardy és Christian Zanesi szerezte, a producerei Jacques Dercourt és Roland Gritti voltak. Franciaországban 1982. március 21-én, Magyarországon 1983. szeptember 29-én mutatták be a mozikban.  A filmet Moebius látványtervei keltették életre, és a Pannónia Filmstúdió művészei népesítették be fantasztikus lényekkel, felejthetetlen kreatúrákkal.  A film főhőse egy kisfiú, akit Piel-nek hívnak, s aki egy végzetes baleset során egyedül marad a titokzatos, félelmetes Perdide bolygón.",
-"imdbRating": "7.3",
-"releaseInfo": "1982",
+"year": 1977,
+"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
+"imdbRating": 7.2,
+"releaseInfo": "1977",
 "genres": [
 "Animációs",
-"Sci-Fi",
-"Kaland"
+"Kaland",
+"Vígjáték"
 ],
-"seeders": 999823
+"seeders": 999836
 },
 {
 "id": "tt0131636",
@@ -254,7 +220,24 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999821
+"seeders": 999834
+},
+{
+"id": "tt0084315",
+"type": "movie",
+"name": "Az idő urai",
+"poster": "https://image.tmdb.org/t/p/w500/l4Jkx3FxQPsRy4kTxjb2pvQlBYU.jpg",
+"posterShape": "poster",
+"year": 1982,
+"description": "1982-ben bemutatott egész estés francia–magyar koprodukcióban készült legendás sci-fi rajzfilm, amely Stefan Wul L’Orphelin de Perdide [„A Perdide bolygó árvája”] című kultikus regénye alapján készült (1958). A forgatókönyvet Jean Giraud írta, a rajzfilmet René Laloux rendezte, a zenéjét Jean-Pierre Bourtayre, Pierre Tardy és Christian Zanesi szerezte, a producerei Jacques Dercourt és Roland Gritti voltak. Franciaországban 1982. március 21-én, Magyarországon 1983. szeptember 29-én mutatták be a mozikban.  A filmet Moebius látványtervei keltették életre, és a Pannónia Filmstúdió művészei népesítették be fantasztikus lényekkel, felejthetetlen kreatúrákkal.  A film főhőse egy kisfiú, akit Piel-nek hívnak, s aki egy végzetes baleset során egyedül marad a titokzatos, félelmetes Perdide bolygón.",
+"imdbRating": "7.3",
+"releaseInfo": "1982",
+"genres": [
+"Animációs",
+"Sci-Fi",
+"Kaland"
+],
+"seeders": 999823
 },
 {
 "id": "tt23172090",
@@ -292,6 +275,23 @@
 "seeders": 999815
 },
 {
+"id": "tt13652286",
+"type": "movie",
+"name": "Légi csapda",
+"poster": "https://image.tmdb.org/t/p/w500/cXB0UClnrl6B7J6HSkzwqH39Uxd.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "Egy légi küldetés közepén egy képzett zsoldos elfogadja a veszélyes feladatot, hogy felkutasson egy célpontot egy repülőgépen, csakhogy halálos szorításban találja magát, amikor meg kell védenie a nőt egy csapat könyörtelen bérgyilkostól.",
+"imdbRating": 6.2,
+"releaseInfo": "2025",
+"genres": [
+"Akció",
+"Vígjáték",
+"Thriller"
+],
+"seeders": 999812
+},
+{
 "id": "tt37357756",
 "type": "movie",
 "name": "Szenvedélyes nők",
@@ -299,13 +299,13 @@
 "posterShape": "poster",
 "year": 2025,
 "description": "A negyvenes Lilla párterapeutaként dolgozik, és egész életét a családjának szentelte. Ezért is éri váratlanul, amikor elhagyja a férje egy fiatal műkörmösért. Lilla lánya, Zsófi és az anyja, az egykor ismert színésznő, Vilma elhatározzák, hogy kirángatják a nőt a depresszióból és az önsajnálatból és ráveszik, hogy kezdjen el újra randizni. Lilla évtizedek óta nem volt szingli, így kezdetben ellenáll, és titokban még mindig abban reménykedik, hogy a férje visszatér hozzá. Ezért az anyja cselhez folyamodik, és elhívja a lányát és az unokáját a vidéki nyaralójukba, ahol bemutat neki egy sármos újságírót, aki Vilma önéletrajzi könyvét írja. A helyzetet bonyolítja, hogy Zsófi barátja is próbálja összehozni Lillát egy nagyszájú kollégájával, aki teljesen váratlanul toppan be és még jobban összekuszálja az eseményeket.",
-"imdbRating": 6.5,
+"imdbRating": 7.2,
 "releaseInfo": "2025",
 "genres": [
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999792
+"seeders": 999795
 },
 {
 "id": "tt40381358",
