@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt31851518",
+    "type": "movie",
+    "name": "A kórus",
+    "poster": "https://image.tmdb.org/t/p/w500/jLe04oGjxRxNFrrHMu96McbCA1U.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy énekkar férfi tagjai bevonulnak az I. világháborúba, így az igényes Dr. Guthrie-nak kell tinédzsereket toboroznia. Együtt tapasztalják meg az éneklés örömét, miközben a fiatal fiúk megküzdenek a közelgő hadseregbe való bevonulással.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Zenei"
+    ],
+    "seeders": 99
+  },
+  {
     "id": "tt32890033",
     "type": "movie",
     "name": "Minyonok és szörnyek",
@@ -16,7 +33,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 1780
+    "seeders": 1939
   },
   {
     "id": "tt39316472",
@@ -26,14 +43,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Johnny Knoxville, Steve-O és a Jackass csapata visszatér egy utolsó, őrült menetelésre, amelyben a régi klasszikusok és eddig nem látott jelenetek keverednek vad mutatványokkal, kegyetlen csínyekkel és önpusztító poénokkal. A film egyszerre búcsú a franchise több mint két évtizedes örökségétől és egy utolsó, fájdalmasan vicces összegzése annak, meddig hajlandó elmenni a csapat a nevetés kedvéért.",
-    "imdbRating": 7.6,
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 1249
+    "seeders": 1398
   },
   {
     "id": "tt15047880",
@@ -49,7 +66,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 124
+    "seeders": 171
   },
   {
     "id": "tt43725831",
@@ -64,7 +81,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 130
+    "seeders": 148
   },
   {
     "id": "tt6743524",
@@ -82,7 +99,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 255
+    "seeders": 271
   },
   {
     "id": "tt27047903",
@@ -99,38 +116,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 159
-  },
-  {
-    "id": "tt32616813",
-    "type": "movie",
-    "name": "Medvekarom tábor",
-    "poster": "https://image.tmdb.org/t/p/w500/9VZSbOxvHTOy8cDpk5YoXItsgIX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A kilencéves Maia, a fantáziadús és örökmozgó kislány, valamint Jan, a városi és félénk fiú váratlanul közös kalandba keverednek, amikor kiderül, hogy szeretett nyári táborukat az excentrikus építési vállalkozó, Sebastián Sebastián fenyegeti. Hogy megmentsék a tábort és a környező völgy élővilágát, versenyt futnak az idővel, és elindulnak megkeresni egy titokzatos medvét, amelyről azt hiszik, még mindig a környéken él, bár senki sem látta. Útjuk során segítségükre siet Fritz, a mogorva, de mulatságos beszélő borz, aki velük tart ebben a fordulatos, családi kalandban, ahol bátorságra, összefogásra és képzelőerőre lesz szükség ahhoz, hogy megóvják mindazt, ami fontos számukra.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 161
-  },
-  {
-    "id": "tt22055080",
-    "type": "movie",
-    "name": "Nyugtalan szív",
-    "poster": "https://image.tmdb.org/t/p/w500/zgy6egvfRmcI9eRkn4EyBCLNHIu.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A fiatal katona, Isaac egy kínos félreértés után egyre mélyebben bonyolódik bele Edith, a kerekesszékes fiatal nő életébe: szégyenből, bűntudatból és részvétből olyan érzelmeket színlel iránta, amelyeket valójában nem képes őszintén vállalni. Edith reményt merít a közeledéséből, és abba is kapaszkodni kezd, hogy egyszer talán újra járhat, miközben Isaac mind megszállottabban próbálja bizonyítani önmagának és a környezetének, hogy segíthet rajta. A kezdetben jószándéknak tűnő figyelem lassan veszélyes önáltatássá válik: a kimondatlan hazugságok, a függőség, a vágy és a bűntudat olyan pusztító érzelmi spirált indítanak el, amely mindkettőjüket a boldogtalanság felé sodorja.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 141
+    "seeders": 185
   },
   {
     "id": "tt34706535",
@@ -148,7 +134,23 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 563
+    "seeders": 572
+  },
+  {
+    "id": "tt32616813",
+    "type": "movie",
+    "name": "Medvekarom tábor",
+    "poster": "https://image.tmdb.org/t/p/w500/4XNFMP4nsu16HNhwVBa6PBEOeeR.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A kilencéves Maia, a fantáziadús és örökmozgó kislány, valamint Jan, a városi és félénk fiú váratlanul közös kalandba keverednek, amikor kiderül, hogy szeretett nyári táborukat az excentrikus építési vállalkozó, Sebastián Sebastián fenyegeti. Hogy megmentsék a tábort és a környező völgy élővilágát, versenyt futnak az idővel, és elindulnak megkeresni egy titokzatos medvét, amelyről azt hiszik, még mindig a környéken él, bár senki sem látta. Útjuk során segítségükre siet Fritz, a mogorva, de mulatságos beszélő borz, aki velük tart ebben a fordulatos, családi kalandban, ahol bátorságra, összefogásra és képzelőerőre lesz szükség ahhoz, hogy megóvják mindazt, ami fontos számukra.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Családi"
+    ],
+    "seeders": 165
   },
   {
     "id": "tt38662472",
@@ -163,7 +165,22 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 190
+    "seeders": 197
+  },
+  {
+    "id": "tt22055080",
+    "type": "movie",
+    "name": "Nyugtalan szív",
+    "poster": "https://image.tmdb.org/t/p/w500/zgy6egvfRmcI9eRkn4EyBCLNHIu.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A fiatal katona, Isaac egy kínos félreértés után egyre mélyebben bonyolódik bele Edith, a kerekesszékes fiatal nő életébe: szégyenből, bűntudatból és részvétből olyan érzelmeket színlel iránta, amelyeket valójában nem képes őszintén vállalni. Edith reményt merít a közeledéséből, és abba is kapaszkodni kezd, hogy egyszer talán újra járhat, miközben Isaac mind megszállottabban próbálja bizonyítani önmagának és a környezetének, hogy segíthet rajta. A kezdetben jószándéknak tűnő figyelem lassan veszélyes önáltatássá válik: a kimondatlan hazugságok, a függőség, a vágy és a bűntudat olyan pusztító érzelmi spirált indítanak el, amely mindkettőjüket a boldogtalanság felé sodorja.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 129
   },
   {
     "id": "tt32268156",
@@ -180,22 +197,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 671
-  },
-  {
-    "id": "tt22872358",
-    "type": "movie",
-    "name": "A hangmester",
-    "poster": "https://image.tmdb.org/t/p/w500/A97kwaAUZZ4HIUX8lMahqYliPdh.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 217
+    "seeders": 693
   },
   {
     "id": "tt32267711",
@@ -211,7 +213,22 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 184
+    "seeders": 192
+  },
+  {
+    "id": "tt22872358",
+    "type": "movie",
+    "name": "A hangmester",
+    "poster": "https://image.tmdb.org/t/p/w500/A97kwaAUZZ4HIUX8lMahqYliPdh.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 218
   },
   {
     "id": "tt36933402",
@@ -226,22 +243,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 536
-  },
-  {
-    "id": "tt32944883",
-    "type": "movie",
-    "name": "Ne hagyjuk tönkremenni!",
-    "poster": "https://image.tmdb.org/t/p/w500/kTT45uhU38NlQxTUcgsFb62J7nE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A 8 éves Bobo családja rhodéziai farmján él a Bush-háború utolsó szakaszában. A történet bemutatja a kislány afrikai földhöz fűződő kötelékét, illetve a háború hatásait a régióra és annak lakóira.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 87
+    "seeders": 543
   },
   {
     "id": "tt8814476",
@@ -258,24 +260,22 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 872
+    "seeders": 933
   },
   {
-    "id": "tt36590417",
+    "id": "tt32944883",
     "type": "movie",
-    "name": "Ne kívánj sok szerencsét!",
-    "poster": "https://image.tmdb.org/t/p/w500/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
+    "name": "Ne hagyjuk tönkremenni!",
+    "poster": "https://image.tmdb.org/t/p/w500/kTT45uhU38NlQxTUcgsFb62J7nE.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Sophie Birenbaum készen áll a reflektorfényre, mint az iskolai musical főszereplője – egészen addig, mígnem hirtelen több drámával kell szembenéznie otthon, mint a színpadon.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A 8 éves Bobo családja rhodéziai farmján él a Bush-háború utolsó szakaszában. A történet bemutatja a kislány afrikai földhöz fűződő kötelékét, illetve a háború hatásait a régióra és annak lakóira.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték",
-      "Zenei",
       "Dráma"
     ],
-    "seeders": 91
+    "seeders": 83
   },
   {
     "id": "tt36958312",
@@ -291,7 +291,24 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 737
+    "seeders": 759
+  },
+  {
+    "id": "tt36590417",
+    "type": "movie",
+    "name": "Ne kívánj sok szerencsét!",
+    "poster": "https://image.tmdb.org/t/p/w500/dgTKahWonzVLeN8Lm22WR2S7D0A.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Sophie Birenbaum készen áll a reflektorfényre, mint az iskolai musical főszereplője – egészen addig, mígnem hirtelen több drámával kell szembenéznie otthon, mint a színpadon.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 95
   },
   {
     "id": "tt34734841",
@@ -306,7 +323,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 152
+    "seeders": 142
   },
   {
     "id": "tt33029380",
@@ -322,7 +339,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 458
+    "seeders": 469
   },
   {
     "id": "tt43640198",
@@ -357,7 +374,7 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 170
+    "seeders": 169
   },
   {
     "id": "tt12042730",
@@ -373,7 +390,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 146
+    "seeders": 145
   },
   {
     "id": "tt32986431",
@@ -389,22 +406,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 186
-  },
-  {
-    "id": "tt13597298",
-    "type": "movie",
-    "name": "Julian",
-    "poster": "https://image.tmdb.org/t/p/w500/sxyRAjnkDw2E8BVsd91J6Cnv9OK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Fleur és Julian őrülten egymásba szeretnek, és úgy döntenek, hogy minden olyan országban összeházasodnak, ahol két nőnek ez megengedett. Mindössze négy házasság után utazásuk fájdalmas és váratlan véget ér.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 67
+    "seeders": 193
   },
   {
     "id": "tt19883490",
@@ -422,7 +424,22 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 148
+    "seeders": 159
+  },
+  {
+    "id": "tt13597298",
+    "type": "movie",
+    "name": "Julian",
+    "poster": "https://image.tmdb.org/t/p/w500/sxyRAjnkDw2E8BVsd91J6Cnv9OK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Fleur és Julian őrülten egymásba szeretnek, és úgy döntenek, hogy minden olyan országban összeházasodnak, ahol két nőnek ez megengedett. Mindössze négy házasság után utazásuk fájdalmas és váratlan véget ér.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt36153493",
@@ -438,7 +455,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 217
+    "seeders": 205
   },
   {
     "id": "tt37697399",
@@ -448,28 +465,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A múlt kísértetjárta apátsági folyosóitól a jelen halloweeni vérengzésén át egészen a jövő szörnyetegek uralta apokalipsziséig – a tizenhetedik rész három rémtörténetet hoz el, amelyek az idő minden korszakán átívelnek. 1775-ben, a spanyol gyarmati időszakban a Fülöp-szigeteken, apácák megpróbálják túlélni az éjszakát, miután egy ismeretlen gonosz szabadul ki a kolostorjukban. Eközben 2025-ben egy baráti csoport részt vesz egy Halloween álarcos bálon, amelyet egy sorozatgyilkos támad. 2050-ben egy posztapokaliptikus Fülöp-szigeteket az aswang uralja.",
-    "imdbRating": 4.9,
+    "imdbRating": 4.6,
     "releaseInfo": "2026",
     "genres": [
       "Horror"
     ],
-    "seeders": 228
-  },
-  {
-    "id": "tt27722524",
-    "type": "movie",
-    "name": "Összeadás",
-    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 113
+    "seeders": 231
   },
   {
     "id": "tt30150769",
@@ -486,6 +487,6 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 103
+    "seeders": 110
   }
 ]
