@@ -14,7 +14,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 75
+    "seeders": 118
   },
   {
     "id": "tt32616813",
@@ -30,7 +30,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 80
+    "seeders": 98
   },
   {
     "id": "tt31851518",
@@ -47,7 +47,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 106
+    "seeders": 109
   },
   {
     "id": "tt15047880",
@@ -63,7 +63,24 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 157
+    "seeders": 172
+  },
+  {
+    "id": "tt27047903",
+    "type": "movie",
+    "name": "Sikoly 7.",
+    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 232
   },
   {
     "id": "tt6743524",
@@ -81,7 +98,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 250
+    "seeders": 281
   },
   {
     "id": "tt43725831",
@@ -96,24 +113,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 149
-  },
-  {
-    "id": "tt27047903",
-    "type": "movie",
-    "name": "Sikoly 7.",
-    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 187
+    "seeders": 172
   },
   {
     "id": "tt38662472",
@@ -128,7 +128,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 165
+    "seeders": 183
   },
   {
     "id": "tt22055080",
@@ -143,7 +143,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 114
+    "seeders": 116
   },
   {
     "id": "tt32267711",
@@ -159,22 +159,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 181
-  },
-  {
-    "id": "tt22872358",
-    "type": "movie",
-    "name": "A hangmester",
-    "poster": "https://image.tmdb.org/t/p/w500/A97kwaAUZZ4HIUX8lMahqYliPdh.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 178
+    "seeders": 174
   },
   {
     "id": "tt32944883",
@@ -206,23 +191,6 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 78
-  },
-  {
-    "id": "tt43640198",
-    "type": "movie",
-    "name": "Kölykök az utcáról: Nando két világ között",
-    "poster": "https://image.tmdb.org/t/p/w500/dwnqhUeXO1vRgXH9zgyeeihpxqo.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy száműzetésben élő egykori maffiavezérnek vissza kell térnie Brazíliába, miután tinédzser lánya eltűnik; így kénytelen szembenézni azzal az erőszakos alvilággal, amelyet korábban maga mögött hagyott, miközben családja védelméért küzd.",
-    "imdbRating": 5.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 62
+    "seeders": 83
   }
 ]
