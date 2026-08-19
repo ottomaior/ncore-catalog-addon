@@ -15,7 +15,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 875
+    "seeders": 1073
   },
   {
     "id": "tt26657236",
@@ -32,7 +32,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 679
+    "seeders": 802
   },
   {
     "id": "tt32890033",
@@ -51,7 +51,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 1303
+    "seeders": 1476
   },
   {
     "id": "tt15047880",
@@ -67,7 +67,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1539
+    "seeders": 1769
   },
   {
     "id": "tt39316472",
@@ -84,7 +84,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 799
+    "seeders": 907
   },
   {
     "id": "tt30825738",
@@ -101,24 +101,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 128
-  },
-  {
-    "id": "tt27047903",
-    "type": "movie",
-    "name": "Sikoly 7.",
-    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 189
+    "seeders": 144
   },
   {
     "id": "tt34706535",
@@ -136,7 +119,24 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 382
+    "seeders": 426
+  },
+  {
+    "id": "tt27047903",
+    "type": "movie",
+    "name": "Sikoly 7.",
+    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 191
   },
   {
     "id": "tt32616813",
@@ -152,22 +152,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 80
-  },
-  {
-    "id": "tt43725831",
-    "type": "movie",
-    "name": "Jurassic cápák",
-    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 130
+    "seeders": 95
   },
   {
     "id": "tt6743524",
@@ -185,7 +170,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 176
+    "seeders": 209
   },
   {
     "id": "tt32268156",
@@ -202,7 +187,22 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 404
+    "seeders": 480
+  },
+  {
+    "id": "tt43725831",
+    "type": "movie",
+    "name": "Jurassic cápák",
+    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 137
   },
   {
     "id": "tt36933402",
@@ -217,24 +217,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 370
-  },
-  {
-    "id": "tt31851518",
-    "type": "movie",
-    "name": "A kórus",
-    "poster": "https://image.tmdb.org/t/p/w500/jLe04oGjxRxNFrrHMu96McbCA1U.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy énekkar férfi tagjai bevonulnak az I. világháborúba, így az igényes Dr. Guthrie-nak kell tinédzsereket toboroznia. Együtt tapasztalják meg az éneklés örömét, miközben a fiatal fiúk megküzdenek a közelgő hadseregbe való bevonulással.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Zenei"
-    ],
-    "seeders": 79
+    "seeders": 432
   },
   {
     "id": "tt8814476",
@@ -251,7 +234,24 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 580
+    "seeders": 665
+  },
+  {
+    "id": "tt31851518",
+    "type": "movie",
+    "name": "A kórus",
+    "poster": "https://image.tmdb.org/t/p/w500/jLe04oGjxRxNFrrHMu96McbCA1U.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy énekkar férfi tagjai bevonulnak az I. világháborúba, így az igényes Dr. Guthrie-nak kell tinédzsereket toboroznia. Együtt tapasztalják meg az éneklés örömét, miközben a fiatal fiúk megküzdenek a közelgő hadseregbe való bevonulással.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Vígjáték",
+      "Dráma",
+      "Zenei"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt38662472",
@@ -266,7 +266,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 117
+    "seeders": 137
   },
   {
     "id": "tt32267711",
@@ -282,7 +282,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 136
+    "seeders": 157
   },
   {
     "id": "tt22872358",
@@ -297,7 +297,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 139
+    "seeders": 156
   },
   {
     "id": "tt22055080",
@@ -312,7 +312,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 91
   },
   {
     "id": "tt33029380",
@@ -328,7 +328,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 320
+    "seeders": 369
   },
   {
     "id": "tt34734841",
@@ -343,7 +343,25 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 86
+    "seeders": 108
+  },
+  {
+    "id": "tt42186253",
+    "type": "movie",
+    "name": "A masnis hős",
+    "poster": "https://image.tmdb.org/t/p/w500/926M4m1fipanLDKWlHboVZRbhKQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor a vérszomjas Nergal elpusztítja királyságát, Zafír hercegnő a masnis hősként ébred újra, és azért harcol, hogy megmentse új otthonát ugyanattól a sötét végzettől.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Fantasy",
+      "Dráma",
+      "Akció"
+    ],
+    "seeders": 154
   },
   {
     "id": "tt36590417",
@@ -353,14 +371,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Sophie Birenbaum készen áll a reflektorfényre, mint az iskolai musical főszereplője – egészen addig, mígnem hirtelen több drámával kell szembenéznie otthon, mint a színpadon.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Zenei",
       "Dráma"
     ],
-    "seeders": 64
+    "seeders": 69
   },
   {
     "id": "tt32944883",
@@ -375,7 +393,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 54
+    "seeders": 60
   },
   {
     "id": "tt43640198",
@@ -385,14 +403,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy száműzetésben élő egykori maffiavezérnek vissza kell térnie Brazíliába, miután tinédzser lánya eltűnik; így kénytelen szembenézni azzal az erőszakos alvilággal, amelyet korábban maga mögött hagyott, miközben családja védelméért küzd.",
-    "imdbRating": 5.2,
+    "imdbRating": 5.3,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 80
+    "seeders": 93
   },
   {
     "id": "tt12042730",
@@ -408,7 +426,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 110
+    "seeders": 123
   },
   {
     "id": "tt19883490",
@@ -426,7 +444,7 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 123
+    "seeders": 132
   },
   {
     "id": "tt32986431",
@@ -442,25 +460,7 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 123
-  },
-  {
-    "id": "tt42186253",
-    "type": "movie",
-    "name": "A masnis hős",
-    "poster": "https://image.tmdb.org/t/p/w500/926M4m1fipanLDKWlHboVZRbhKQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a vérszomjas Nergal elpusztítja királyságát, Zafír hercegnő a masnis hősként ébred újra, és azért harcol, hogy megmentse új otthonát ugyanattól a sötét végzettől.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Fantasy",
-      "Dráma",
-      "Akció"
-    ],
-    "seeders": 108
+    "seeders": 133
   },
   {
     "id": "tt36153493",
@@ -476,23 +476,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 139
+    "seeders": 156
   },
   {
-    "id": "tt30150769",
+    "id": "tt27722524",
     "type": "movie",
-    "name": "Ennyire futja",
-    "poster": "https://image.tmdb.org/t/p/w500/yJKubH2Fn0XHMy7rqIUS00ucDbw.jpg",
+    "name": "Összeadás",
+    "poster": "https://image.tmdb.org/t/p/w500/vGhd37yFzGBX7NLmKxv8LPvRo9c.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Cynthia Rand, New York-i urológus rendezett élete darabokra hullik, amikor férje demenciával küzd. Stan Olszewski biztonsági őr céltalanul tengeti napjait. Ez a szellemes, merész humorú vígjáték két elveszett lélekről szól, akik a legváratlanabb pillanatban találnak egymásra.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy szívmelengető romantikus komédia, amely az önelfogadást és az életben igazán fontos dolgokat ünnepli.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Romantikus",
-      "Dráma"
+      "Dráma",
+      "Romantikus"
     ],
-    "seeders": 88
+    "seeders": 100
   }
 ]
