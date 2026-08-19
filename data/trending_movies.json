@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt31948486",
+    "type": "movie",
+    "name": "La Lucha",
+    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 55
+  },
+  {
     "id": "tt29355505",
     "type": "movie",
     "name": "Toy Story 5",
@@ -15,7 +30,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1303
+    "seeders": 1525
   },
   {
     "id": "tt26657236",
@@ -32,7 +47,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1011
+    "seeders": 1278
   },
   {
     "id": "tt40001699",
@@ -42,37 +57,37 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.2,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 106
+    "seeders": 139
   },
   {
     "id": "tt32889884",
     "type": "movie",
-    "name": "Freefall: A Reckoning for Boeing",
+    "name": "Szabadesés: A Boeing a vádlottak padján",
     "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
     "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 81
+    "seeders": 126
   },
   {
     "id": "tt30825738",
     "type": "movie",
-    "name": "Star Wars: A Mandalóri és Grogu",
+    "name": "Star Wars: A mandalóri és Grogu",
     "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A nagysikerű Star Wars-sorozat, A mandalóri főszereplői a nagyvásznon is bemutatkoznak a Lucasfilm új történetében. A mandalóri és Grogu eddigi legizgalmasabb kalandjukra indulnak. A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
+    "description": "A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
     "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
@@ -80,22 +95,6 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 153
-  },
-  {
-    "id": "tt32616813",
-    "type": "movie",
-    "name": "Medvekarom tábor",
-    "poster": "https://image.tmdb.org/t/p/w500/4XNFMP4nsu16HNhwVBa6PBEOeeR.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A kilencéves Maia, a fantáziadús és örökmozgó kislány, valamint Jan, a városi és félénk fiú váratlanul közös kalandba keverednek, amikor kiderül, hogy szeretett nyári táborukat az excentrikus építési vállalkozó, Sebastián Sebastián fenyegeti. Hogy megmentsék a tábort és a környező völgy élővilágát, versenyt futnak az idővel, és elindulnak megkeresni egy titokzatos medvét, amelyről azt hiszik, még mindig a környéken él, bár senki sem látta. Útjuk során segítségükre siet Fritz, a mogorva, de mulatságos beszélő borz, aki velük tart ebben a fordulatos, családi kalandban, ahol bátorságra, összefogásra és képzelőerőre lesz szükség ahhoz, hogy megóvják mindazt, ami fontos számukra.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Családi"
-    ],
-    "seeders": 102
+    "seeders": 154
   }
 ]
