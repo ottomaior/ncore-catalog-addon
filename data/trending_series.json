@@ -16,7 +16,7 @@
     ],
     "latest_season": 4,
     "latest_episode": 4,
-    "seeders": 706
+    "seeders": 917
   },
   {
     "id": "tt13111078",
@@ -34,7 +34,63 @@
     ],
     "latest_season": 3,
     "latest_episode": 3,
-    "seeders": 533
+    "seeders": 675
+  },
+  {
+    "id": "tt26545992",
+    "type": "series",
+    "name": "Lámpások (S01E01)",
+    "poster": "https://image.tmdb.org/t/p/w500/jqPelP2DrBj9bFMXlholEphhQSR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E01\n\nAz újonc John Stewart és a Lámpás-legenda Hal Jordan, azaz a két intergalaktikus zsaru egy sötét, a Földhöz kötődő rejtély kellős közepén találja magát, amikor nyomozni kezdenek egy, az amerikai szívvidéken elkövetett gyilkosság ügyében.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Rejtély",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": 1,
+    "latest_episode": 1,
+    "seeders": 563
+  },
+  {
+    "id": "tt18546730",
+    "type": "series",
+    "name": "The Walking Dead: Dead City (S03E04)",
+    "poster": "https://image.tmdb.org/t/p/w500/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S03E04\n\nMaggie és Negan a poszt-apokaliptikus Manhattanbe utazik, amely már régen el van vágva a szárazföldtől. A város tele van halottakkal, akik kizsigerelték a várost, és már csak egy maroknyi túlélő tartja a frontot.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2023",
+    "genres": [
+      "Action & Adventure",
+      "Dráma",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": 3,
+    "latest_episode": 4,
+    "seeders": 278
+  },
+  {
+    "id": "tt29926954",
+    "type": "series",
+    "name": "Anyai örökség (S01E26)",
+    "poster": "https://image.tmdb.org/t/p/w500/sXzTcIgXMWIotuymY6Lt1zdztWC.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S01E26\n\nAz Anyai örökség egy mélyen érzelmes, fordulatokban gazdag családi dráma, amelynek középpontjában az anyaság és az anyai érzelmek különböző aspektusai állnak. A történet főhőse Karsu, aki igyekszik helytállni anyaként és feleségként, ám élete egyik pillanatról a másikra összeomlik.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
+    "genres": [
+      "Családi",
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 26,
+    "seeders": 45
   },
   {
     "id": "tt12924420",
@@ -54,100 +110,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 37
-  },
-  {
-    "id": "tt26545992",
-    "type": "series",
-    "name": "Lámpások (S01E01)",
-    "poster": "https://image.tmdb.org/t/p/w500/jqPelP2DrBj9bFMXlholEphhQSR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E01\n\nAz újonc John Stewart és a Lámpás-legenda Hal Jordan, azaz a két intergalaktikus zsaru egy sötét, a Földhöz kötődő rejtély kellős közepén találja magát, amikor nyomozni kezdenek egy, az amerikai szívvidéken elkövetett gyilkosság ügyében.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Rejtély",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": 1,
-    "latest_episode": 1,
-    "seeders": 432
-  },
-  {
-    "id": "tt29926954",
-    "type": "series",
-    "name": "Anyai örökség (S01E26)",
-    "poster": "https://image.tmdb.org/t/p/w500/sXzTcIgXMWIotuymY6Lt1zdztWC.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S01E26\n\nAz Anyai örökség egy mélyen érzelmes, fordulatokban gazdag családi dráma, amelynek középpontjában az anyaság és az anyai érzelmek különböző aspektusai állnak. A történet főhőse Karsu, aki igyekszik helytállni anyaként és feleségként, ám élete egyik pillanatról a másikra összeomlik.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
-    "genres": [
-      "Családi",
-      "Dráma"
-    ],
-    "latest_season": 1,
-    "latest_episode": 26,
-    "seeders": 39
-  },
-  {
-    "id": "tt18546730",
-    "type": "series",
-    "name": "The Walking Dead: Dead City (S03E04)",
-    "poster": "https://image.tmdb.org/t/p/w500/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S03E04\n\nMaggie és Negan a poszt-apokaliptikus Manhattanbe utazik, amely már régen el van vágva a szárazföldtől. A város tele van halottakkal, akik kizsigerelték a várost, és már csak egy maroknyi túlélő tartja a frontot.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2023",
-    "genres": [
-      "Action & Adventure",
-      "Dráma",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": 3,
-    "latest_episode": 4,
-    "seeders": 236
-  },
-  {
-    "id": "tt7772600",
-    "type": "series",
-    "name": "Paddington kalandjai",
-    "poster": "https://image.tmdb.org/t/p/w500/rhWKLCVOIyZfzgqGhmt0fCUo8O7.jpg",
-    "posterShape": "poster",
-    "year": 2019,
-    "description": "A sorozat a fiatal Paddington macit mutatja be, aki levelet ír nénikéjének, Lucy néninek, amiben arról számol be, hogy mit tanult az aznapi kalandjaiból.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2019",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Kids"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 29
-  },
-  {
-    "id": "tt12327578",
-    "type": "series",
-    "name": "Star Trek: Furcsa új világok (S04E04)",
-    "poster": "https://image.tmdb.org/t/p/w500/2IeDotDnEi2pElaVrIHVhmZDksJ.jpg",
-    "posterShape": "poster",
-    "year": 2022,
-    "description": "🆕 Legújabb epizód: S04E04\n\nAz eredeti Star Trek előzményeként szolgáló sorozat, amiben a USS Enterprise legénységének kalandjait ismerhetjük meg Christopher Pike kapitány vezetése alatt.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2022",
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Dráma"
-    ],
-    "latest_season": 4,
-    "latest_episode": 4,
-    "seeders": 397
+    "seeders": 40
   },
   {
     "id": "tt11198330",
@@ -166,7 +129,25 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 683
+    "seeders": 852
+  },
+  {
+    "id": "tt12327578",
+    "type": "series",
+    "name": "Star Trek: Furcsa új világok (S04E04)",
+    "poster": "https://image.tmdb.org/t/p/w500/2IeDotDnEi2pElaVrIHVhmZDksJ.jpg",
+    "posterShape": "poster",
+    "year": 2022,
+    "description": "🆕 Legújabb epizód: S04E04\n\nAz eredeti Star Trek előzményeként szolgáló sorozat, amiben a USS Enterprise legénységének kalandjait ismerhetjük meg Christopher Pike kapitány vezetése alatt.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2022",
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Dráma"
+    ],
+    "latest_season": 4,
+    "latest_episode": 4,
+    "seeders": 498
   },
   {
     "id": "tt43686214",
@@ -183,7 +164,43 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 555
+    "seeders": 660
+  },
+  {
+    "id": "tt27497393",
+    "type": "series",
+    "name": "Stuart az univerzum ellen (S01E04)",
+    "poster": "https://image.tmdb.org/t/p/w500/quXtOybflANIXUHR8MPmx3QLnNG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E04\n\nA képregénybolt tulajdonosára, Stuart Bloomra hárul a feladat, hogy helyreállítsa a valóságot, miután összetöri Sheldon és Leonard szerkezetét, és ezzel véletlenül egy multiverzumos Armageddont indít el. Küldetésében barátnője, Denise, geológus barátja, Bert, valamint a kvantumfizikus, és általában véve is idegesítő, Barry Kripke segíti.\n\n(Csillag Lajos)",
+    "imdbRating": 9.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": 1,
+    "latest_episode": 4,
+    "seeders": 361
+  },
+  {
+    "id": "tt37692332",
+    "type": "series",
+    "name": "Curtis elnök (S01E04)",
+    "poster": "https://image.tmdb.org/t/p/w500/8D4kPcxtVMiYWN3493Bf0EGJsmP.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E04\n\nCurtis elnök és különc stábja olyan kríziseket próbálnak megoldani, amelyekkel Rick Sancheznek soha eszébe nem jutna foglalkozni.",
+    "imdbRating": 5.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Vígjáték"
+    ],
+    "latest_season": 1,
+    "latest_episode": 4,
+    "seeders": 166
   },
   {
     "id": "tt36885662",
@@ -201,7 +218,26 @@
     ],
     "latest_season": 1,
     "latest_episode": 4,
-    "seeders": 39
+    "seeders": 48
+  },
+  {
+    "id": "tt7772600",
+    "type": "series",
+    "name": "Paddington kalandjai",
+    "poster": "https://image.tmdb.org/t/p/w500/rhWKLCVOIyZfzgqGhmt0fCUo8O7.jpg",
+    "posterShape": "poster",
+    "year": 2019,
+    "description": "A sorozat a fiatal Paddington macit mutatja be, aki levelet ír nénikéjének, Lucy néninek, amiben arról számol be, hogy mit tanult az aznapi kalandjaiból.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2019",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Kids"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 32
   },
   {
     "id": "tt0149460",
@@ -220,78 +256,7 @@
     ],
     "latest_season": 11,
     "latest_episode": 4,
-    "seeders": 148
-  },
-  {
-    "id": "tt27497393",
-    "type": "series",
-    "name": "Stuart az univerzum ellen (S01E04)",
-    "poster": "https://image.tmdb.org/t/p/w500/quXtOybflANIXUHR8MPmx3QLnNG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E04\n\nA képregénybolt tulajdonosára, Stuart Bloomra hárul a feladat, hogy helyreállítsa a valóságot, miután összetöri Sheldon és Leonard szerkezetét, és ezzel véletlenül egy multiverzumos Armageddont indít el. Küldetésében barátnője, Denise, geológus barátja, Bert, valamint a kvantumfizikus, és általában véve is idegesítő, Barry Kripke segíti.\n\n(Csillag Lajos)",
-    "imdbRating": 9.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": 1,
-    "latest_episode": 4,
-    "seeders": 298
-  },
-  {
-    "id": "tt37692332",
-    "type": "series",
-    "name": "Curtis elnök (S01E04)",
-    "poster": "https://image.tmdb.org/t/p/w500/8D4kPcxtVMiYWN3493Bf0EGJsmP.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E04\n\nCurtis elnök és különc stábja olyan kríziseket próbálnak megoldani, amelyekkel Rick Sancheznek soha eszébe nem jutna foglalkozni.",
-    "imdbRating": 5.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Vígjáték"
-    ],
-    "latest_season": 1,
-    "latest_episode": 4,
-    "seeders": 139
-  },
-  {
-    "id": "tt26448526",
-    "type": "series",
-    "name": "Briliáns elmék (S02E11)",
-    "poster": "https://image.tmdb.org/t/p/w500/vG6Bw2IwDf1DVkPd7nZwMExp0U5.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "🆕 Legújabb epizód: S02E11\n\nA Brilliant Minds egy orvosi drámasorozat, amely a forradalmian új neurológus, Dr. Oliver Wolf és gyakornokai történetét követi nyomon. Céljuk az emberi elme utolsó nagy határainak feltárása, miközben személyes kapcsolataikkal és lelki egészségükkel is küzdenek. A sorozat nem csak az orvosi esetekre fókuszál, hanem a betegek mély emberi történeteire is, amelyek érzelmileg erős hatással vannak a nézőre.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": 2,
-    "latest_episode": 11,
-    "seeders": 34
-  },
-  {
-    "id": "tt3600266",
-    "type": "series",
-    "name": "A szárnyalók",
-    "poster": "https://image.tmdb.org/t/p/w500/gvHwUZOivDtwCUB48Wdnx5BO2Vp.jpg",
-    "posterShape": "poster",
-    "year": 2014,
-    "description": "A Super Wings – A szárnyalók 2014-ben indult amerikai-dél-koreai-kínai televíziós 3D-s számítógépes animációs sorozat, amelynek alkotója Gil Hoon Jung. A rendezői Gil Hoon Jung, a zeneszerzője Seung Hyuk Yang, a producerei Seong Su Kim, Jong Hyuk (Dane) Lee, Nae Young Kwak, Yong Jun Lee, Doo Ri Park, Sharon Gomes Thomas, Fred Weinberg, Do Uk Kim, Jung Jin Hong, Kelvin Li és Miles Lau. A tévéfilmsorozat a FunnyFlux Entertainment és a Qianqi Animation készült. Műfaját tekintve kalandfilmsorozat és akciófilm-sorozat. Először a sorozatot 2013. december 3-ától adják. Magyarországon 2019. január 11-étől az M2 vetíteni.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2014",
-    "genres": [
-      "Animációs",
-      "Kids"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 20
+    "seeders": 158
   },
   {
     "id": "tt36303968",
@@ -309,20 +274,38 @@
     ],
     "latest_season": 1,
     "latest_episode": 6,
-    "seeders": 115
+    "seeders": 156
   },
   {
-    "id": "tt40618611",
+    "id": "tt26448526",
     "type": "series",
-    "name": "Várzea: A foci bölcsője",
-    "poster": "https://image.tmdb.org/t/p/w500/hw1GzjpTcxhhgaI5Rd4s6EP3gbX.jpg",
+    "name": "Briliáns elmék (S02E11)",
+    "poster": "https://image.tmdb.org/t/p/w500/vG6Bw2IwDf1DVkPd7nZwMExp0U5.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A São Paulo legnagyobb amatőr labdarúgótornáján, a Super Copa Pioneerben szereplő játékosokat és edzőket követi nyomon, miközben arról álmodnak, hogy megváltoztatják az életüket.\n\n(Bolla Eszter)",
-    "imdbRating": 10.0,
-    "releaseInfo": "2026",
+    "year": 2024,
+    "description": "🆕 Legújabb epizód: S02E11\n\nA Brilliant Minds egy orvosi drámasorozat, amely a forradalmian új neurológus, Dr. Oliver Wolf és gyakornokai történetét követi nyomon. Céljuk az emberi elme utolsó nagy határainak feltárása, miközben személyes kapcsolataikkal és lelki egészségükkel is küzdenek. A sorozat nem csak az orvosi esetekre fókuszál, hanem a betegek mély emberi történeteire is, amelyek érzelmileg erős hatással vannak a nézőre.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2024",
     "genres": [
-      "Dokumentum"
+      "Dráma"
+    ],
+    "latest_season": 2,
+    "latest_episode": 11,
+    "seeders": 45
+  },
+  {
+    "id": "tt3600266",
+    "type": "series",
+    "name": "A szárnyalók",
+    "poster": "https://image.tmdb.org/t/p/w500/gvHwUZOivDtwCUB48Wdnx5BO2Vp.jpg",
+    "posterShape": "poster",
+    "year": 2014,
+    "description": "A Super Wings – A szárnyalók 2014-ben indult amerikai-dél-koreai-kínai televíziós 3D-s számítógépes animációs sorozat, amelynek alkotója Gil Hoon Jung. A rendezői Gil Hoon Jung, a zeneszerzője Seung Hyuk Yang, a producerei Seong Su Kim, Jong Hyuk (Dane) Lee, Nae Young Kwak, Yong Jun Lee, Doo Ri Park, Sharon Gomes Thomas, Fred Weinberg, Do Uk Kim, Jung Jin Hong, Kelvin Li és Miles Lau. A tévéfilmsorozat a FunnyFlux Entertainment és a Qianqi Animation készült. Műfaját tekintve kalandfilmsorozat és akciófilm-sorozat. Először a sorozatot 2013. december 3-ától adják. Magyarországon 2019. január 11-étől az M2 vetíteni.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2014",
+    "genres": [
+      "Animációs",
+      "Kids"
     ],
     "latest_season": null,
     "latest_episode": null,
@@ -341,24 +324,24 @@
     "genres": [],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 41
+    "seeders": 45
   },
   {
-    "id": "tt0285332",
+    "id": "tt40618611",
     "type": "series",
-    "name": "The Agency",
-    "poster": "https://image.tmdb.org/t/p/w500/aJXFbRv0WYRcT8cDOLMaKfVYwye.jpg",
+    "name": "Várzea: A foci bölcsője",
+    "poster": "https://image.tmdb.org/t/p/w500/hw1GzjpTcxhhgaI5Rd4s6EP3gbX.jpg",
     "posterShape": "poster",
-    "year": 2001,
-    "description": "The Agency follows the inner-workings of the CIA, as seen through the eyes of its agents, their missions and investigations into terrorist activities inside and outside of the US",
-    "imdbRating": 6.9,
-    "releaseInfo": "2001",
+    "year": 2026,
+    "description": "A São Paulo legnagyobb amatőr labdarúgótornáján, a Super Copa Pioneerben szereplő játékosokat és edzőket követi nyomon, miközben arról álmodnak, hogy megváltoztatják az életüket.\n\n(Bolla Eszter)",
+    "imdbRating": 10.0,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Dokumentum"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 165
+    "seeders": 20
   },
   {
     "id": "tt35449383",
@@ -376,7 +359,24 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 172
+    "seeders": 214
+  },
+  {
+    "id": "tt0285332",
+    "type": "series",
+    "name": "The Agency",
+    "poster": "https://image.tmdb.org/t/p/w500/aJXFbRv0WYRcT8cDOLMaKfVYwye.jpg",
+    "posterShape": "poster",
+    "year": 2001,
+    "description": "The Agency follows the inner-workings of the CIA, as seen through the eyes of its agents, their missions and investigations into terrorist activities inside and outside of the US",
+    "imdbRating": 6.9,
+    "releaseInfo": "2001",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 181
   },
   {
     "id": "tt14060708",
@@ -396,7 +396,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 70
+    "seeders": 79
   },
   {
     "id": "tt27543562",
@@ -414,7 +414,62 @@
     ],
     "latest_season": 1,
     "latest_episode": 4,
-    "seeders": 86
+    "seeders": 110
+  },
+  {
+    "id": "tt9892936",
+    "type": "series",
+    "name": "Száz év magány (S02E07)",
+    "poster": "https://image.tmdb.org/t/p/w500/jB5f2BmwKZ72fGVkRnUD21SEcGl.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "🆕 Legújabb epizód: S02E07\n\nGabriel García Márquez Nobel-díjas író irodalmi remekműve, a Száz év magány a Buendía család történetét meséli el, akiket őrület, lehetetlen szerelem, háború és egy átoktól való félelem gyötör, amely száz évre magányra ítéli őket a mitikus Macondo városában. Isten hozott a mitikus Macondóban, amely egy folyó partján fekvő húsz házból álló közösségből nőtte ki magát. Itt kelt életre a mágikus realizmus, és itt vette kezdetét a Buendía család története. Egy történet a lehetetlen szerelmek viszontagságairól, a lezárhatatlan múlttal való szembenézésről, valamint egy átokról.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": 2,
+    "latest_episode": 7,
+    "seeders": 47
+  },
+  {
+    "id": "tt16026746",
+    "type": "series",
+    "name": "X-Men '97",
+    "poster": "https://image.tmdb.org/t/p/w500/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Az 1992-ben kiadott X-Men animációs sorozat folytatása. X professzor halálát követően Rozsomák és Vihar próbálják összeszedni a csapatot és folytatni vezetőjük örökségét. Eközben Magneto magának követeli a mutánsok vezetésének jogát, Sinister pedig szeretné végleg elpusztítani a szuperhősöket.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2024",
+    "genres": [
+      "Animációs",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 104
+  },
+  {
+    "id": "tt32268630",
+    "type": "series",
+    "name": "Kisvárosi seriff",
+    "poster": "https://image.tmdb.org/t/p/w500/uyJo9eCtDYhMk6HQZ4GEUGXwvIX.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Mickey Fox (Morena Baccarin) Edgewater megye seriffjeként nap mint nap veszélyes ügyekkel néz szembe, miközben saját családi problémáival is küzdelmet folytat. Volt fegyenc apja, Wes, és lázadó lánya, Skye folyamatosan próbára teszik. Az események láncolatát egy rejtélyes haláleset indítja el, amely alapjaiban rázza meg a közösséget.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 125
   },
   {
     "id": "tt38672513",
@@ -434,7 +489,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 16
+    "seeders": 19
   },
   {
     "id": "tt36322743",
@@ -452,62 +507,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 18
-  },
-  {
-    "id": "tt9892936",
-    "type": "series",
-    "name": "Száz év magány (S02E07)",
-    "poster": "https://image.tmdb.org/t/p/w500/jB5f2BmwKZ72fGVkRnUD21SEcGl.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "🆕 Legújabb epizód: S02E07\n\nGabriel García Márquez Nobel-díjas író irodalmi remekműve, a Száz év magány a Buendía család történetét meséli el, akiket őrület, lehetetlen szerelem, háború és egy átoktól való félelem gyötör, amely száz évre magányra ítéli őket a mitikus Macondo városában. Isten hozott a mitikus Macondóban, amely egy folyó partján fekvő húsz házból álló közösségből nőtte ki magát. Itt kelt életre a mágikus realizmus, és itt vette kezdetét a Buendía család története. Egy történet a lehetetlen szerelmek viszontagságairól, a lezárhatatlan múlttal való szembenézésről, valamint egy átokról.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": 2,
-    "latest_episode": 7,
-    "seeders": 36
-  },
-  {
-    "id": "tt32268630",
-    "type": "series",
-    "name": "Kisvárosi seriff",
-    "poster": "https://image.tmdb.org/t/p/w500/uyJo9eCtDYhMk6HQZ4GEUGXwvIX.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Mickey Fox (Morena Baccarin) Edgewater megye seriffjeként nap mint nap veszélyes ügyekkel néz szembe, miközben saját családi problémáival is küzdelmet folytat. Volt fegyenc apja, Wes, és lázadó lánya, Skye folyamatosan próbára teszik. Az események láncolatát egy rejtélyes haláleset indítja el, amely alapjaiban rázza meg a közösséget.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 107
-  },
-  {
-    "id": "tt16026746",
-    "type": "series",
-    "name": "X-Men '97",
-    "poster": "https://image.tmdb.org/t/p/w500/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Az 1992-ben kiadott X-Men animációs sorozat folytatása. X professzor halálát követően Rozsomák és Vihar próbálják összeszedni a csapatot és folytatni vezetőjük örökségét. Eközben Magneto magának követeli a mutánsok vezetésének jogát, Sinister pedig szeretné végleg elpusztítani a szuperhősöket.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2024",
-    "genres": [
-      "Animációs",
-      "Action & Adventure",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 70
+    "seeders": 19
   },
   {
     "id": "tt21064598",
@@ -524,23 +524,24 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 42
+    "seeders": 52
   },
   {
-    "id": "tt43673968",
+    "id": "tt37352716",
     "type": "series",
-    "name": "José Mourinho",
-    "poster": "https://image.tmdb.org/t/p/w500/uUgrxU3Gjl7HeaAlYa4glHWFbO5.jpg",
+    "name": "Ragyogó karrierem",
+    "poster": "https://image.tmdb.org/t/p/w500/nqhM3JoEeo9uoITH6PZ0gXB29uK.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Ez a trófeákkal teli, bennfentes dokumentumfilm José Mourinho ikonikus felemelkedését követi nyomon, ahogyan a világ egyik legelismertebb vezetőedzőjévé vált.",
-    "imdbRating": 7.6,
+    "description": "Nyughatatlan, pengeéles eszű, és nem hajlandó alkalmazkodni a kor elvárásaihoz: Sybylla maga írja meg a történetét, holott azt várják tőle, hogy férjet találjon, és megállapodjon.",
+    "imdbRating": 4.6,
     "releaseInfo": "2026",
     "genres": [
-      "Dokumentum"
+      "Dráma",
+      "Családi"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 60
+    "seeders": 52
   }
 ]

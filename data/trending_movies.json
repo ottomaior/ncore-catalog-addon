@@ -15,7 +15,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1090
+    "seeders": 1351
   },
   {
     "id": "tt26657236",
@@ -32,53 +32,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 876
-  },
-  {
-    "id": "tt31948486",
-    "type": "movie",
-    "name": "Az élők harca",
-    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 60
-  },
-  {
-    "id": "tt32889884",
-    "type": "movie",
-    "name": "Szabadesés: A Boeing a vádlottak padján",
-    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 115
-  },
-  {
-    "id": "tt40001699",
-    "type": "movie",
-    "name": "Quinze Dias",
-    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 109
+    "seeders": 1075
   },
   {
     "id": "tt32890033",
@@ -97,7 +51,53 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 1304
+    "seeders": 1569
+  },
+  {
+    "id": "tt32889884",
+    "type": "movie",
+    "name": "Szabadesés: A Boeing a vádlottak padján",
+    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 138
+  },
+  {
+    "id": "tt40001699",
+    "type": "movie",
+    "name": "Tizenöt nap",
+    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 128
+  },
+  {
+    "id": "tt31948486",
+    "type": "movie",
+    "name": "Az élők harca",
+    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 69
   },
   {
     "id": "tt15047880",
@@ -113,7 +113,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 1520
+    "seeders": 1860
   },
   {
     "id": "tt39316472",
@@ -130,7 +130,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 825
+    "seeders": 986
   },
   {
     "id": "tt30825738",
@@ -147,24 +147,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 130
-  },
-  {
-    "id": "tt27047903",
-    "type": "movie",
-    "name": "Sikoly 7.",
-    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 198
+    "seeders": 148
   },
   {
     "id": "tt34706535",
@@ -182,7 +165,24 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 374
+    "seeders": 460
+  },
+  {
+    "id": "tt27047903",
+    "type": "movie",
+    "name": "Sikoly 7.",
+    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 230
   },
   {
     "id": "tt32268156",
@@ -199,7 +199,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 415
+    "seeders": 519
   },
   {
     "id": "tt6743524",
@@ -217,7 +217,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 174
+    "seeders": 215
   },
   {
     "id": "tt32616813",
@@ -233,7 +233,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 89
+    "seeders": 109
   },
   {
     "id": "tt36933402",
@@ -248,7 +248,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 364
+    "seeders": 430
   },
   {
     "id": "tt43725831",
@@ -263,7 +263,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 122
+    "seeders": 138
   },
   {
     "id": "tt31851518",
@@ -280,7 +280,23 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 81
+    "seeders": 98
+  },
+  {
+    "id": "tt32267711",
+    "type": "movie",
+    "name": "Rufus, a legbátrabb tengeri szörny",
+    "poster": "https://image.tmdb.org/t/p/w500/bDcIyqs5SRtdfvWWoc6TWX14Arh.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Rufus a tengeri kígyók közösségében az egyetlen, aki nem tud úszni. Amikor azonban bekövetkezik a katasztrófa, és titkos szigetük védelemre szorul, Rufusnak szembe kell néznie legmélyebb félelmével, hogy megmentse a családját. (Csillag Lajos)",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 158
   },
   {
     "id": "tt38662472",
@@ -295,23 +311,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 118
-  },
-  {
-    "id": "tt32267711",
-    "type": "movie",
-    "name": "Rufus, a legbátrabb tengeri szörny",
-    "poster": "https://image.tmdb.org/t/p/w500/sgoNvH0yEDonzJpGEzmBo5NlPSO.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Rufus a tengeri kígyók közösségében az egyetlen, aki nem tud úszni. Amikor azonban bekövetkezik a katasztrófa, és titkos szigetük védelemre szorul, Rufusnak szembe kell néznie legmélyebb félelmével, hogy megmentse a családját. (Csillag Lajos)",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 132
+    "seeders": 133
   },
   {
     "id": "tt22872358",
@@ -326,7 +326,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 136
+    "seeders": 154
   },
   {
     "id": "tt33029380",
@@ -342,7 +342,7 @@
       "Kaland",
       "Vígjáték"
     ],
-    "seeders": 327
+    "seeders": 368
   },
   {
     "id": "tt22055080",
@@ -357,7 +357,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 73
+    "seeders": 92
   },
   {
     "id": "tt34734841",
@@ -372,7 +372,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 92
+    "seeders": 109
   },
   {
     "id": "tt42186253",
@@ -390,7 +390,7 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 140
+    "seeders": 169
   },
   {
     "id": "tt36590417",
@@ -400,14 +400,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Sophie Birenbaum készen áll a reflektorfényre, mint az iskolai musical főszereplője – egészen addig, mígnem hirtelen több drámával kell szembenéznie otthon, mint a színpadon.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Zenei",
       "Dráma"
     ],
-    "seeders": 68
+    "seeders": 71
   },
   {
     "id": "tt12042730",
@@ -423,22 +423,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 115
-  },
-  {
-    "id": "tt32944883",
-    "type": "movie",
-    "name": "Ne hagyjuk tönkremenni!",
-    "poster": "https://image.tmdb.org/t/p/w500/kTT45uhU38NlQxTUcgsFb62J7nE.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A 8 éves Bobo családja rhodéziai farmján él a Bush-háború utolsó szakaszában. A történet bemutatja a kislány afrikai földhöz fűződő kötelékét, illetve a háború hatásait a régióra és annak lakóira.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 54
+    "seeders": 129
   },
   {
     "id": "tt43640198",
@@ -455,7 +440,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 77
+    "seeders": 91
   },
   {
     "id": "tt32986431",
@@ -471,7 +456,22 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 128
+    "seeders": 147
+  },
+  {
+    "id": "tt32944883",
+    "type": "movie",
+    "name": "Ne hagyjuk tönkremenni!",
+    "poster": "https://image.tmdb.org/t/p/w500/kTT45uhU38NlQxTUcgsFb62J7nE.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A 8 éves Bobo családja rhodéziai farmján él a Bush-háború utolsó szakaszában. A történet bemutatja a kislány afrikai földhöz fűződő kötelékét, illetve a háború hatásait a régióra és annak lakóira.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 57
   },
   {
     "id": "tt19883490",
@@ -489,6 +489,6 @@
       "Vígjáték",
       "Fantasy"
     ],
-    "seeders": 113
+    "seeders": 130
   }
 ]
