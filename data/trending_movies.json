@@ -1,37 +1,33 @@
 [
   {
-    "id": "tt30343021",
+    "id": "tt43475091",
     "type": "movie",
-    "name": "Song Sung Blue",
-    "poster": "https://image.tmdb.org/t/p/w500/xStmzLprgzqjzfvpBI7uTbcRpwQ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét.\r Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Zenei",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 55
-  },
-  {
-    "id": "tt28942997",
-    "type": "movie",
-    "name": "Mumbo Jumbo hatalmas kalandja",
-    "poster": "https://image.tmdb.org/t/p/w500/ivnoXwbT3dzf28dkfXGgTceucds.jpg",
+    "name": "Amikor anyu nyaralni megy",
+    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Amikor a vidám kis víziló, Mumbo Jumbo véletlenül óriássá változik, az élete gyökeresen, és úgy tűnik, végleg, rossz irányt vesz. Mumbo kénytelen veszélyes útra indulni, hogy felkutasson egy kiszámíthatatlan boszorkányt. Szerencsére a legjobb barátai vele tartanak. A feladat így is szinte megoldhatatlan, de legalább együtt néznek szembe vele. Nem könnyű sem kis vízilónak, sem óriásnak lenni, és ha a visszaváltozás egy szókimondó, csintalan boszorkánnyal való együttműködésen múlik, bárki beláthatja, hogy ez komoly erőfeszítést igényel. Remélhetőleg Mumbo Jumbo az út során erős hitet alakít ki önmagában, különben a küldetés biztosan lehetetlennek bizonyul. (Csillag Lajos)",
-    "imdbRating": 6.5,
+    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
+    "imdbRating": 4.9,
     "releaseInfo": "2026",
     "genres": [
-      "Animációs",
-      "Kaland",
-      "Családi"
+      "Vígjáték"
     ],
-    "seeders": 73
+    "seeders": 49
+  },
+  {
+    "id": "tt8667404",
+    "type": "movie",
+    "name": "A víz kronológiája",
+    "poster": "https://image.tmdb.org/t/p/w500/9diHHw7zPhh2b0Mvocv0uRsPIFq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az erőszak és az alkohol árnyékában nevelkedő fiatal lány, Lidia küzd, hogy megtalálja a saját útját. Sikerül elmenekülnie családja elől, és bejut az egyetemre, ahol az irodalomban talál menedéket. Ahogy telik az idő, a szavak váratlan szabadsággal ajándékozzák meg.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 40
   },
   {
     "id": "tt29355505",
@@ -41,7 +37,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 7.9,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -49,7 +45,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1732
+    "seeders": 1225
   },
   {
     "id": "tt26657236",
@@ -66,7 +62,41 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1485
+    "seeders": 991
+  },
+  {
+    "id": "tt28942997",
+    "type": "movie",
+    "name": "Mumbo Jumbo hatalmas kalandja",
+    "poster": "https://image.tmdb.org/t/p/w500/ivnoXwbT3dzf28dkfXGgTceucds.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor a vidám kis víziló, Mumbo Jumbo véletlenül óriássá változik, az élete gyökeresen, és úgy tűnik, végleg, rossz irányt vesz. Mumbo kénytelen veszélyes útra indulni, hogy felkutasson egy kiszámíthatatlan boszorkányt. Szerencsére a legjobb barátai vele tartanak. A feladat így is szinte megoldhatatlan, de legalább együtt néznek szembe vele. Nem könnyű sem kis vízilónak, sem óriásnak lenni, és ha a visszaváltozás egy szókimondó, csintalan boszorkánnyal való együttműködésen múlik, bárki beláthatja, hogy ez komoly erőfeszítést igényel. Remélhetőleg Mumbo Jumbo az út során erős hitet alakít ki önmagában, különben a küldetés biztosan lehetetlennek bizonyul. (Csillag Lajos)",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Családi"
+    ],
+    "seeders": 77
+  },
+  {
+    "id": "tt30343021",
+    "type": "movie",
+    "name": "Song Sung Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/xStmzLprgzqjzfvpBI7uTbcRpwQ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Song Sung Blue Mike és Claire Sardina, egy milwaukee-i házaspár történetét meséli el. A pár \"Lightning & Thunder\" néven Neil Diamond dalait előadó duóként vált ismertté helyi szinten. Két jobb napokat is látott zenész (Hugh Jackman és Kate Hudson) a félházas haknik kilátástalan világában egymásra találnak, és úgy döntenek, hogy közösen próbálnak szerencsét. Az igaz történet alapján készült romantikus, zenés alkotás létigenlő krónikája annak, hogy sosem késő megtalálni az szerelmet és követni az álmainkat.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Zenei",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 59
   },
   {
     "id": "tt32890033",
@@ -85,23 +115,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 1838
-  },
-  {
-    "id": "tt40001699",
-    "type": "movie",
-    "name": "Tizenöt nap",
-    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 173
+    "seeders": 1289
   },
   {
     "id": "tt32889884",
@@ -116,7 +130,39 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 169
+    "seeders": 143
+  },
+  {
+    "id": "tt15047880",
+    "type": "movie",
+    "name": "A leleplezés napja",
+    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 1488
+  },
+  {
+    "id": "tt40001699",
+    "type": "movie",
+    "name": "Tizenöt nap",
+    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 125
   },
   {
     "id": "tt39316472",
@@ -133,23 +179,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 1241
-  },
-  {
-    "id": "tt15047880",
-    "type": "movie",
-    "name": "A leleplezés napja",
-    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "seeders": 2195
+    "seeders": 776
   },
   {
     "id": "tt31948486",
@@ -164,7 +194,24 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 81
+    "seeders": 73
+  },
+  {
+    "id": "tt30825738",
+    "type": "movie",
+    "name": "Star Wars: A mandalóri és Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 130
   },
   {
     "id": "tt34706535",
@@ -182,24 +229,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 512
-  },
-  {
-    "id": "tt30825738",
-    "type": "movie",
-    "name": "Star Wars: A mandalóri és Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 163
+    "seeders": 374
   },
   {
     "id": "tt27047903",
@@ -216,7 +246,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 284
+    "seeders": 199
   },
   {
     "id": "tt32268156",
@@ -233,7 +263,22 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 615
+    "seeders": 384
+  },
+  {
+    "id": "tt36933402",
+    "type": "movie",
+    "name": "Ki hitte volna? 2.: Az esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
+    "imdbRating": 5.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 341
   },
   {
     "id": "tt6743524",
@@ -251,22 +296,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 241
-  },
-  {
-    "id": "tt36933402",
-    "type": "movie",
-    "name": "Ki hitte volna? 2.: Az esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 490
+    "seeders": 166
   },
   {
     "id": "tt32616813",
@@ -282,7 +312,7 @@
       "Vígjáték",
       "Családi"
     ],
-    "seeders": 119
+    "seeders": 87
   },
   {
     "id": "tt43725831",
@@ -297,7 +327,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 163
+    "seeders": 120
   },
   {
     "id": "tt31851518",
@@ -314,7 +344,7 @@
       "Dráma",
       "Zenei"
     ],
-    "seeders": 105
+    "seeders": 77
   },
   {
     "id": "tt32267711",
@@ -330,7 +360,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 164
+    "seeders": 128
   },
   {
     "id": "tt22872358",
@@ -345,7 +375,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 171
+    "seeders": 132
   },
   {
     "id": "tt38662472",
@@ -355,12 +385,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Olli számára egy dolog világos: legjobb barátja, Matze fejét nyilvánvalóan elcsavarta új barátnője, Rebecca. A lány káros hatása nemcsak a barátságukat veszélyezteti, hanem mindenekelőtt azt a világ körüli utazást is, amelyet Olli és Matze már évek óta, a legapróbb részletekig megterveztek. Így hát csak egyetlen megoldás létezik: Rebeccát meg kell állítani! Olli barátjával, Schmittivel karöltve ellentámadásba lendül. Ám mindenki meglepetésére Rebeccának is vannak trükkjei. A csata kezdetét veszi...",
-    "imdbRating": 3.7,
+    "imdbRating": 4.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 139
+    "seeders": 105
   },
   {
     "id": "tt22055080",
@@ -375,7 +405,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 89
+    "seeders": 73
   },
   {
     "id": "tt42186253",
@@ -393,22 +423,7 @@
       "Dráma",
       "Akció"
     ],
-    "seeders": 178
-  },
-  {
-    "id": "tt34734841",
-    "type": "movie",
-    "name": "Volt egyszer egy Gáza",
-    "poster": "https://image.tmdb.org/t/p/w500/pUaPcVkkO3WZSbCusXhvu4u5bpT.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Gázában 2007-ben egy fiatal diák és gyorsétterem tulajdonosa a falafel mellett drogot kezdenek árulni. Egy korrupt zsaru beleköp a levesükbe.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 103
+    "seeders": 133
   },
   {
     "id": "tt12042730",
@@ -424,7 +439,7 @@
       "Sci-Fi",
       "Kaland"
     ],
-    "seeders": 145
+    "seeders": 117
   },
   {
     "id": "tt36590417",
@@ -441,7 +456,22 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 66
+  },
+  {
+    "id": "tt34734841",
+    "type": "movie",
+    "name": "Volt egyszer egy Gáza",
+    "poster": "https://image.tmdb.org/t/p/w500/pUaPcVkkO3WZSbCusXhvu4u5bpT.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Gázában 2007-ben egy fiatal diák és gyorsétterem tulajdonosa a falafel mellett drogot kezdenek árulni. Egy korrupt zsaru beleköp a levesükbe.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 77
   },
   {
     "id": "tt32986431",
@@ -457,41 +487,6 @@
       "Horror",
       "Vígjáték"
     ],
-    "seeders": 168
-  },
-  {
-    "id": "tt43640198",
-    "type": "movie",
-    "name": "Kölykök az utcáról: Nando két világ között",
-    "poster": "https://image.tmdb.org/t/p/w500/dwnqhUeXO1vRgXH9zgyeeihpxqo.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy száműzetésben élő egykori maffiavezérnek vissza kell térnie Brazíliába, miután tinédzser lánya eltűnik; így kénytelen szembenézni azzal az erőszakos alvilággal, amelyet korábban maga mögött hagyott, miközben családja védelméért küzd.",
-    "imdbRating": 5.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 92
-  },
-  {
-    "id": "tt19883490",
-    "type": "movie",
-    "name": "Bori - A mozifilm",
-    "poster": "https://image.tmdb.org/t/p/w500/ufczgbq2tIGxxQloBEomTqJZLXj.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amíg a szülei utaznak, Conni izgalmas kalandot él át otthon Mau macskával, a barátaival, Willi nagypapával, egy makacs szomszéddal, és egy sérült daruval, akinek sürgősen segítségre van szüksége. Vajon Conni és a barátai időben el tudják érni, hogy Klaus, a daru a vonuló madarakkal együtt délre repüljön? (Csillag Lajos)",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Kaland",
-      "Animációs",
-      "Vígjáték",
-      "Fantasy"
-    ],
-    "seeders": 145
+    "seeders": 121
   }
 ]
