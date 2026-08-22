@@ -1,29 +1,12 @@
 [
   {
-    "id": "tt26657236",
-    "type": "movie",
-    "name": "Backrooms - Hátsó szobák",
-    "poster": "https://image.tmdb.org/t/p/w500/k7jSZKFTeLVHsWoYN14e204dUhM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A kilencvenes évek elején Clark, egy kiégett építészből lett bútoráruház-tulajdonos különös átjárót fedez fel üzlete pincéjében. Az ajtó egy végtelennek tűnő, fluoreszkáló fényekkel megvilágított labirintusba vezet, ahol a valóság törvényei fokozatosan felbomlanak. A nyomasztó folyosók és üres irodaszerű terek között bolyongva Clark megszállottjává válik a helynek, miközben saját múltja és pszichéje is darabokra hullik. Terapeutája, Dr. Mary Kline eleinte mentális összeomlásnak hiszi a férfi történeteit, ám amikor Clark nyomtalanul eltűnik, kénytelen maga is belépni a rejtélyes dimenzióba. A nő egy olyan világban találja magát, ahol az idő, az emlékek és az identitás összemosódnak, és ahol valami ismeretlen figyeli minden lépését.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Sci-Fi"
-    ],
-    "seeders": 36
-  },
-  {
     "id": "tt18259538",
     "type": "movie",
     "name": "Aang legendája: Az utolsó léghajlító",
-    "poster": "https://image.tmdb.org/t/p/w500/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Az új Avatar-film Aang és barátai történetét követi nyomon, immár fiatal felnőttként, évekkel azután, hogy az Avatar: Az utolsó léghajlító című sorozat eseményei után.",
+    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
     "imdbRating": 9.2,
     "releaseInfo": "2026",
     "genres": [
@@ -32,7 +15,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 220
+    "seeders": 338
   },
   {
     "id": "tt34471850",
@@ -48,7 +31,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 366
+    "seeders": 456
+  },
+  {
+    "id": "tt26657236",
+    "type": "movie",
+    "name": "Backrooms - Hátsó szobák",
+    "poster": "https://image.tmdb.org/t/p/w500/k7jSZKFTeLVHsWoYN14e204dUhM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kilencvenes évek elején Clark, egy kiégett építészből lett bútoráruház-tulajdonos különös átjárót fedez fel üzlete pincéjében. Az ajtó egy végtelennek tűnő, fluoreszkáló fényekkel megvilágított labirintusba vezet, ahol a valóság törvényei fokozatosan felbomlanak. A nyomasztó folyosók és üres irodaszerű terek között bolyongva Clark megszállottjává válik a helynek, miközben saját múltja és pszichéje is darabokra hullik. Terapeutája, Dr. Mary Kline eleinte mentális összeomlásnak hiszi a férfi történeteit, ám amikor Clark nyomtalanul eltűnik, kénytelen maga is belépni a rejtélyes dimenzióba. A nő egy olyan világban találja magát, ahol az idő, az emlékek és az identitás összemosódnak, és ahol valami ismeretlen figyeli minden lépését.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Sci-Fi"
+    ],
+    "seeders": 83
   },
   {
     "id": "tt29355505",
@@ -58,7 +58,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 8.1,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -66,7 +66,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1821
+    "seeders": 1998
   },
   {
     "id": "tt39390497",
@@ -76,14 +76,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A történet két rendőrről szól, akik egy rutinellenőrzés során félreállítanak egy lopott autót, de hirtelen szemtől szemben találják magukat a világ egyik legveszélyesebb bűnözőjével.",
-    "imdbRating": 6.9,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Akció",
       "Thriller"
     ],
-    "seeders": 386
+    "seeders": 424
   },
   {
     "id": "tt29028515",
@@ -100,7 +100,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 233
+    "seeders": 275
   },
   {
     "id": "tt32890033",
@@ -119,16 +119,16 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 1808
+    "seeders": 1940
   },
   {
     "id": "tt43689138",
     "type": "movie",
-    "name": "LEGO Disney Princess: Magical Mayhem",
+    "name": "LEGO Disney hercegnők: Mágikus zűrzavar",
     "poster": "https://image.tmdb.org/t/p/w500/xNA3Ub2MsAvbyg1GlDrrUQI2Kru.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Egy heves esővihar idején Ariel, Jasmine, Mulan, Moana, Rapunzel, Hófehérke és Tiana a segítőtársaikkal együtt menedéket adnak a bajba jutott állatoknak a kastélyukban, hogy egy meghitt, biztonságos napot töltsenek velük. A nyugalom azonban hamar káoszba fordul, amikor az állatok elszabadulnak, a kastélyban pedig egyre furcsább dolgok történnek. A hercegnők nyomozni kezdenek, és rájönnek, hogy a zűrzavar mögött egy csintalan gonosztevő áll. Csak összefogással, leleményességgel és egy váratlan szövetséges segítségével állíthatják helyre a rendet, és menthetik meg otthonukat a teljes felfordulástól.",
     "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
@@ -137,7 +137,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 97
+    "seeders": 100
   },
   {
     "id": "tt39316472",
@@ -147,29 +147,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Johnny Knoxville, Steve-O és a Jackass csapata visszatér egy utolsó, őrült menetelésre, amelyben a régi klasszikusok és eddig nem látott jelenetek keverednek vad mutatványokkal, kegyetlen csínyekkel és önpusztító poénokkal. A film egyszerre búcsú a franchise több mint két évtizedes örökségétől és egy utolsó, fájdalmasan vicces összegzése annak, meddig hajlandó elmenni a csapat a nevetés kedvéért.",
-    "imdbRating": 7.5,
+    "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 1145
-  },
-  {
-    "id": "tt10329560",
-    "type": "movie",
-    "name": "H, mint héja",
-    "poster": "https://image.tmdb.org/t/p/w500/eg301AEGyYX4gtc0A8DEXQ0VMhK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 77
+    "seeders": 1211
   },
   {
     "id": "tt43475091",
@@ -184,7 +169,53 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 122
+    "seeders": 134
+  },
+  {
+    "id": "tt10329560",
+    "type": "movie",
+    "name": "H, mint héja",
+    "poster": "https://image.tmdb.org/t/p/w500/eg301AEGyYX4gtc0A8DEXQ0VMhK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 81
+  },
+  {
+    "id": "tt32889884",
+    "type": "movie",
+    "name": "Szabadesés: A Boeing a vádlottak padján",
+    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 167
+  },
+  {
+    "id": "tt40001699",
+    "type": "movie",
+    "name": "Tizenöt nap",
+    "poster": "https://image.tmdb.org/t/p/w500/7INj9G0HjygUlu4caAnh1OkZxXt.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 158
   },
   {
     "id": "tt28942997",
@@ -204,52 +235,6 @@
     "seeders": 94
   },
   {
-    "id": "tt32889884",
-    "type": "movie",
-    "name": "Szabadesés: A Boeing a vádlottak padján",
-    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 161
-  },
-  {
-    "id": "tt40001699",
-    "type": "movie",
-    "name": "Tizenöt nap",
-    "poster": "https://image.tmdb.org/t/p/w500/7INj9G0HjygUlu4caAnh1OkZxXt.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 151
-  },
-  {
-    "id": "tt39750720",
-    "type": "movie",
-    "name": "A Nong Chompoo-ügy: Az elfeledett lány",
-    "poster": "https://image.tmdb.org/t/p/w500/vKMQlsutWlEFt3yK9mPlaMWnwF7.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy fiatal lány nyomtalanul eltűnik egy eldugott faluból, a kétségbeesett rendőrségi hajtóvadászatból országos médiaszenzáció lesz. De vajon ki csinált egy feltételezett bűnözőből ünnepelt hírességet?",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 62
-  },
-  {
     "id": "tt34706535",
     "type": "movie",
     "name": "A vakmerő",
@@ -265,7 +250,56 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 520
+    "seeders": 537
+  },
+  {
+    "id": "tt32268156",
+    "type": "movie",
+    "name": "Az utolsó ház",
+    "poster": "https://image.tmdb.org/t/p/w500/aXY6wjJqzsTMUhDk0xpS7SndnDs.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy négytagú család váratlanul a saját házába zárva találja magát kiút nélkül, és együtt kell működniük, hogy túléljék mind a fogyatkozó készleteiket, mind a rejtélyes, fenyegető erőt, amely csapdában tartja őket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 622
+  },
+  {
+    "id": "tt39750720",
+    "type": "movie",
+    "name": "A Nong Chompoo-ügy: Az elfeledett lány",
+    "poster": "https://image.tmdb.org/t/p/w500/vKMQlsutWlEFt3yK9mPlaMWnwF7.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy fiatal lány nyomtalanul eltűnik egy eldugott faluból, a kétségbeesett rendőrségi hajtóvadászatból országos médiaszenzáció lesz. De vajon ki csinált egy feltételezett bűnözőből ünnepelt hírességet?",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 61
+  },
+  {
+    "id": "tt27047903",
+    "type": "movie",
+    "name": "Sikoly 7.",
+    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 287
   },
   {
     "id": "tt8667404",
@@ -283,23 +317,6 @@
     "seeders": 58
   },
   {
-    "id": "tt32268156",
-    "type": "movie",
-    "name": "Az utolsó ház",
-    "poster": "https://image.tmdb.org/t/p/w500/aXY6wjJqzsTMUhDk0xpS7SndnDs.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy négytagú család váratlanul a saját házába zárva találja magát kiút nélkül, és együtt kell működniük, hogy túléljék mind a fogyatkozó készleteiket, mind a rejtélyes, fenyegető erőt, amely csapdában tartja őket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "seeders": 583
-  },
-  {
     "id": "tt30343021",
     "type": "movie",
     "name": "Song Sung Blue",
@@ -314,24 +331,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 65
+    "seeders": 66
   },
   {
-    "id": "tt27047903",
+    "id": "tt36933402",
     "type": "movie",
-    "name": "Sikoly 7.",
-    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
+    "name": "Ki hitte volna? 2.: Az esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
-    "imdbRating": 6.2,
+    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
+    "imdbRating": 5.1,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Rejtély",
-      "Bűnügyi"
+      "Vígjáték"
     ],
-    "seeders": 259
+    "seeders": 498
   },
   {
     "id": "tt30825738",
@@ -348,22 +363,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 167
-  },
-  {
-    "id": "tt36933402",
-    "type": "movie",
-    "name": "Ki hitte volna? 2.: Az esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 471
+    "seeders": 171
   },
   {
     "id": "tt15047880",
@@ -379,22 +379,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 197
-  },
-  {
-    "id": "tt31948486",
-    "type": "movie",
-    "name": "Az élők harca",
-    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 79
+    "seeders": 207
   },
   {
     "id": "tt6743524",
@@ -413,7 +398,22 @@
       "TV film",
       "Romantikus"
     ],
-    "seeders": 225
+    "seeders": 229
+  },
+  {
+    "id": "tt31948486",
+    "type": "movie",
+    "name": "Az élők harca",
+    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt43725831",
@@ -428,7 +428,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 150
+    "seeders": 166
   },
   {
     "id": "tt32267711",
@@ -444,7 +444,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 173
+    "seeders": 170
   },
   {
     "id": "tt32616813",
@@ -460,7 +460,7 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 95
+    "seeders": 93
   },
   {
     "id": "tt22872358",
@@ -475,7 +475,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 158
+    "seeders": 157
   },
   {
     "id": "tt38662472",
@@ -490,6 +490,6 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 133
+    "seeders": 135
   }
 ]
