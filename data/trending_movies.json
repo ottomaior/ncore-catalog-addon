@@ -1,5 +1,23 @@
 [
   {
+    "id": "tt18259538",
+    "type": "movie",
+    "name": "Aang legendája: Az utolsó léghajlító",
+    "poster": "https://image.tmdb.org/t/p/w500/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az új Avatar-film Aang és barátai történetét követi nyomon, immár fiatal felnőttként, évekkel azután, hogy az Avatar: Az utolsó léghajlító című sorozat eseményei után.",
+    "imdbRating": 9.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 258
+  },
+  {
     "id": "tt34471850",
     "type": "movie",
     "name": "Védelmező",
@@ -13,41 +31,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 79
-  },
-  {
-    "id": "tt26657236",
-    "type": "movie",
-    "name": "Backrooms - Hátsó szobák",
-    "poster": "https://image.tmdb.org/t/p/w500/k7jSZKFTeLVHsWoYN14e204dUhM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A kilencvenes évek elején Clark, egy kiégett építészből lett bútoráruház-tulajdonos különös átjárót fedez fel üzlete pincéjében. Az ajtó egy végtelennek tűnő, fluoreszkáló fényekkel megvilágított labirintusba vezet, ahol a valóság törvényei fokozatosan felbomlanak. A nyomasztó folyosók és üres irodaszerű terek között bolyongva Clark megszállottjává válik a helynek, miközben saját múltja és pszichéje is darabokra hullik. Terapeutája, Dr. Mary Kline eleinte mentális összeomlásnak hiszi a férfi történeteit, ám amikor Clark nyomtalanul eltűnik, kénytelen maga is belépni a rejtélyes dimenzióba. A nő egy olyan világban találja magát, ahol az idő, az emlékek és az identitás összemosódnak, és ahol valami ismeretlen figyeli minden lépését.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Sci-Fi"
-    ],
-    "seeders": 115
-  },
-  {
-    "id": "tt39390497",
-    "type": "movie",
-    "name": "Szemtől szemben El Chapóval",
-    "poster": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet két rendőrről szól, akik egy rutinellenőrzés során félreállítanak egy lopott autót, de hirtelen szemtől szemben találják magukat a világ egyik legveszélyesebb bűnözőjével.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 237
+    "seeders": 196
   },
   {
     "id": "tt29355505",
@@ -65,7 +49,41 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1305
+    "seeders": 1574
+  },
+  {
+    "id": "tt39390497",
+    "type": "movie",
+    "name": "Szemtől szemben El Chapóval",
+    "poster": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A történet két rendőrről szól, akik egy rutinellenőrzés során félreállítanak egy lopott autót, de hirtelen szemtől szemben találják magukat a világ egyik legveszélyesebb bűnözőjével.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 314
+  },
+  {
+    "id": "tt26657236",
+    "type": "movie",
+    "name": "Backrooms - Hátsó szobák",
+    "poster": "https://image.tmdb.org/t/p/w500/k7jSZKFTeLVHsWoYN14e204dUhM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kilencvenes évek elején Clark, egy kiégett építészből lett bútoráruház-tulajdonos különös átjárót fedez fel üzlete pincéjében. Az ajtó egy végtelennek tűnő, fluoreszkáló fényekkel megvilágított labirintusba vezet, ahol a valóság törvényei fokozatosan felbomlanak. A nyomasztó folyosók és üres irodaszerű terek között bolyongva Clark megszállottjává válik a helynek, miközben saját múltja és pszichéje is darabokra hullik. Terapeutája, Dr. Mary Kline eleinte mentális összeomlásnak hiszi a férfi történeteit, ám amikor Clark nyomtalanul eltűnik, kénytelen maga is belépni a rejtélyes dimenzióba. A nő egy olyan világban találja magát, ahol az idő, az emlékek és az identitás összemosódnak, és ahol valami ismeretlen figyeli minden lépését.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Sci-Fi"
+    ],
+    "seeders": 1281
   },
   {
     "id": "tt29028515",
@@ -82,7 +100,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 126
+    "seeders": 165
   },
   {
     "id": "tt43689138",
@@ -100,22 +118,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 70
-  },
-  {
-    "id": "tt10329560",
-    "type": "movie",
-    "name": "H, mint héja",
-    "poster": "https://image.tmdb.org/t/p/w500/eg301AEGyYX4gtc0A8DEXQ0VMhK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 60
+    "seeders": 81
   },
   {
     "id": "tt32890033",
@@ -134,7 +137,22 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 1263
+    "seeders": 1514
+  },
+  {
+    "id": "tt10329560",
+    "type": "movie",
+    "name": "H, mint héja",
+    "poster": "https://image.tmdb.org/t/p/w500/eg301AEGyYX4gtc0A8DEXQ0VMhK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt43475091",
@@ -149,7 +167,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 87
+    "seeders": 106
   },
   {
     "id": "tt39316472",
@@ -166,22 +184,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 779
-  },
-  {
-    "id": "tt39750720",
-    "type": "movie",
-    "name": "A Nong Chompoo-ügy: Az elfeledett lány",
-    "poster": "https://image.tmdb.org/t/p/w500/vKMQlsutWlEFt3yK9mPlaMWnwF7.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy fiatal lány nyomtalanul eltűnik egy eldugott faluból, a kétségbeesett rendőrségi hajtóvadászatból országos médiaszenzáció lesz. De vajon ki csinált egy feltételezett bűnözőből ünnepelt hírességet?",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 53
+    "seeders": 919
   },
   {
     "id": "tt28942997",
@@ -198,22 +201,22 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 77
+    "seeders": 84
   },
   {
-    "id": "tt8667404",
+    "id": "tt39750720",
     "type": "movie",
-    "name": "A víz kronológiája",
-    "poster": "https://image.tmdb.org/t/p/w500/9diHHw7zPhh2b0Mvocv0uRsPIFq.jpg",
+    "name": "A Nong Chompoo-ügy: Az elfeledett lány",
+    "poster": "https://image.tmdb.org/t/p/w500/vKMQlsutWlEFt3yK9mPlaMWnwF7.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Az erőszak és az alkohol árnyékában nevelkedő fiatal lány, Lidia küzd, hogy megtalálja a saját útját. Sikerül elmenekülnie családja elől, és bejut az egyetemre, ahol az irodalomban talál menedéket. Ahogy telik az idő, a szavak váratlan szabadsággal ajándékozzák meg.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Amikor egy fiatal lány nyomtalanul eltűnik egy eldugott faluból, a kétségbeesett rendőrségi hajtóvadászatból országos médiaszenzáció lesz. De vajon ki csinált egy feltételezett bűnözőből ünnepelt hírességet?",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Dokumentum"
     ],
-    "seeders": 51
+    "seeders": 58
   },
   {
     "id": "tt32889884",
@@ -228,7 +231,38 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 134
+    "seeders": 140
+  },
+  {
+    "id": "tt8667404",
+    "type": "movie",
+    "name": "A víz kronológiája",
+    "poster": "https://image.tmdb.org/t/p/w500/9diHHw7zPhh2b0Mvocv0uRsPIFq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az erőszak és az alkohol árnyékában nevelkedő fiatal lány, Lidia küzd, hogy megtalálja a saját útját. Sikerül elmenekülnie családja elől, és bejut az egyetemre, ahol az irodalomban talál menedéket. Ahogy telik az idő, a szavak váratlan szabadsággal ajándékozzák meg.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 55
+  },
+  {
+    "id": "tt40001699",
+    "type": "movie",
+    "name": "Tizenöt nap",
+    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 135
   },
   {
     "id": "tt30343021",
@@ -245,39 +279,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 59
-  },
-  {
-    "id": "tt40001699",
-    "type": "movie",
-    "name": "Tizenöt nap",
-    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 114
-  },
-  {
-    "id": "tt15047880",
-    "type": "movie",
-    "name": "A leleplezés napja",
-    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "seeders": 726
+    "seeders": 63
   },
   {
     "id": "tt34706535",
@@ -295,56 +297,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 371
-  },
-  {
-    "id": "tt31948486",
-    "type": "movie",
-    "name": "Az élők harca",
-    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 68
-  },
-  {
-    "id": "tt30825738",
-    "type": "movie",
-    "name": "Star Wars: A mandalóri és Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 130
-  },
-  {
-    "id": "tt27047903",
-    "type": "movie",
-    "name": "Sikoly 7.",
-    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 193
+    "seeders": 427
   },
   {
     "id": "tt32268156",
@@ -361,7 +314,56 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 387
+    "seeders": 489
+  },
+  {
+    "id": "tt27047903",
+    "type": "movie",
+    "name": "Sikoly 7.",
+    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 233
+  },
+  {
+    "id": "tt30825738",
+    "type": "movie",
+    "name": "Star Wars: A mandalóri és Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 149
+  },
+  {
+    "id": "tt31948486",
+    "type": "movie",
+    "name": "Az élők harca",
+    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 75
   },
   {
     "id": "tt36933402",
@@ -376,7 +378,23 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 333
+    "seeders": 401
+  },
+  {
+    "id": "tt15047880",
+    "type": "movie",
+    "name": "A leleplezés napja",
+    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 167
   },
   {
     "id": "tt6743524",
@@ -395,7 +413,7 @@
       "TV film",
       "Romantikus"
     ],
-    "seeders": 161
+    "seeders": 195
   },
   {
     "id": "tt43725831",
@@ -410,23 +428,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 114
-  },
-  {
-    "id": "tt32616813",
-    "type": "movie",
-    "name": "Medvekarom tábor",
-    "poster": "https://image.tmdb.org/t/p/w500/4XNFMP4nsu16HNhwVBa6PBEOeeR.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A kilencéves Maia, a fantáziadús és örökmozgó kislány, valamint Jan, a városi és félénk fiú váratlanul közös kalandba keverednek, amikor kiderül, hogy szeretett nyári táborukat az excentrikus építési vállalkozó, Sebastián Sebastián fenyegeti. Hogy megmentsék a tábort és a környező völgy élővilágát, versenyt futnak az idővel, és elindulnak megkeresni egy titokzatos medvét, amelyről azt hiszik, még mindig a környéken él, bár senki sem látta. Útjuk során segítségükre siet Fritz, a mogorva, de mulatságos beszélő borz, aki velük tart ebben a fordulatos, családi kalandban, ahol bátorságra, összefogásra és képzelőerőre lesz szükség ahhoz, hogy megóvják mindazt, ami fontos számukra.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Családi",
-      "Vígjáték"
-    ],
-    "seeders": 79
+    "seeders": 126
   },
   {
     "id": "tt32267711",
@@ -442,7 +444,23 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 129
+    "seeders": 159
+  },
+  {
+    "id": "tt32616813",
+    "type": "movie",
+    "name": "Medvekarom tábor",
+    "poster": "https://image.tmdb.org/t/p/w500/4XNFMP4nsu16HNhwVBa6PBEOeeR.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A kilencéves Maia, a fantáziadús és örökmozgó kislány, valamint Jan, a városi és félénk fiú váratlanul közös kalandba keverednek, amikor kiderül, hogy szeretett nyári táborukat az excentrikus építési vállalkozó, Sebastián Sebastián fenyegeti. Hogy megmentsék a tábort és a környező völgy élővilágát, versenyt futnak az idővel, és elindulnak megkeresni egy titokzatos medvét, amelyről azt hiszik, még mindig a környéken él, bár senki sem látta. Útjuk során segítségükre siet Fritz, a mogorva, de mulatságos beszélő borz, aki velük tart ebben a fordulatos, családi kalandban, ahol bátorságra, összefogásra és képzelőerőre lesz szükség ahhoz, hogy megóvják mindazt, ami fontos számukra.",
+    "imdbRating": 5.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Családi",
+      "Vígjáték"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt22872358",
@@ -457,7 +475,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 121
+    "seeders": 145
   },
   {
     "id": "tt38662472",
@@ -472,23 +490,6 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 102
-  },
-  {
-    "id": "tt31851518",
-    "type": "movie",
-    "name": "A kórus",
-    "poster": "https://image.tmdb.org/t/p/w500/jLe04oGjxRxNFrrHMu96McbCA1U.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy énekkar férfi tagjai bevonulnak az I. világháborúba, így az igényes Dr. Guthrie-nak kell tinédzsereket toboroznia. Együtt tapasztalják meg az éneklés örömét, miközben a fiatal fiúk megküzdenek a közelgő hadseregbe való bevonulással.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Vígjáték",
-      "Dráma",
-      "Zenei"
-    ],
-    "seeders": 73
+    "seeders": 121
   }
 ]
