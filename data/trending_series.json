@@ -14,7 +14,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 199
+    "seeders": 174
   },
   {
     "id": "tt12327578",
@@ -32,7 +32,7 @@
     ],
     "latest_season": 4,
     "latest_episode": 5,
-    "seeders": 415
+    "seeders": 297
   },
   {
     "id": "tt27497393",
@@ -50,7 +50,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 5,
-    "seeders": 289
+    "seeders": 212
   },
   {
     "id": "tt9288030",
@@ -68,7 +68,43 @@
     ],
     "latest_season": 4,
     "latest_episode": 4,
-    "seeders": 1352
+    "seeders": 855
+  },
+  {
+    "id": "tt0108827",
+    "type": "series",
+    "name": "Kisváros (S01E01)",
+    "poster": "https://image.tmdb.org/t/p/w500/mrH2yr8feKGpdXpqBeRq3oQlLwc.jpg",
+    "posterShape": "poster",
+    "year": 1993,
+    "description": "🆕 Legújabb epizód: S01E01\n\nA történet középpontjában egy, a valóságban nem létező határmenti kisváros, Végvár áll. Ebbe a városba érkezik Hunyadi főtörzs, hogy a Határőrség akciószázadát kiképezze. A sorozat a rendőrség és a határőrség határmenti bűncselekmények ügyében való nyomozások terén történő együttműködését mutatja be.",
+    "imdbRating": 6.8,
+    "releaseInfo": "1993",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 1,
+    "seeders": 35
+  },
+  {
+    "id": "tt29926954",
+    "type": "series",
+    "name": "Anyai örökség (S01E27)",
+    "poster": "https://image.tmdb.org/t/p/w500/sXzTcIgXMWIotuymY6Lt1zdztWC.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S01E27\n\nAz Anyai örökség egy mélyen érzelmes, fordulatokban gazdag családi dráma, amelynek középpontjában az anyaság és az anyai érzelmek különböző aspektusai állnak. A történet főhőse Karsu, aki igyekszik helytállni anyaként és feleségként, ám élete egyik pillanatról a másikra összeomlik.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
+    "genres": [
+      "Családi",
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 27,
+    "seeders": 27
   },
   {
     "id": "tt13111078",
@@ -86,7 +122,7 @@
     ],
     "latest_season": 3,
     "latest_episode": 3,
-    "seeders": 781
+    "seeders": 510
   },
   {
     "id": "tt26545992",
@@ -105,43 +141,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 1,
-    "seeders": 721
-  },
-  {
-    "id": "tt1091909",
-    "type": "series",
-    "name": "Murdoch nyomozó rejtélyei (S19E04)",
-    "poster": "https://image.tmdb.org/t/p/w500/2j6bqdCHXQmuYYKqX6OZU28devE.jpg",
-    "posterShape": "poster",
-    "year": 2008,
-    "description": "🆕 Legújabb epizód: S19E04\n\nAz 1890-es évek Torontójában nyomozó krimihős, William Murdoch olyan gyilkosságokat fejt meg újításaival, amelyekhez még ötlete sincs a főnökének. Igazságügyi, orvostani módszereinek használata és hihetetlenül pontos következtetései mindig nyomra vezetik a zsarut. Lelkes segítői, Dr. Julia Ogden patológusnő és George Crabtree közrendőr mindenben támogatják őt, habár Murdoch sok kétkedőre és haragosra tesz szert a nyomozási eljárásai során.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2008",
-    "genres": [
-      "Rejtély",
-      "Dráma"
-    ],
-    "latest_season": 19,
-    "latest_episode": 4,
-    "seeders": 44
-  },
-  {
-    "id": "tt0108827",
-    "type": "series",
-    "name": "Kisváros (S01E01)",
-    "poster": "https://image.tmdb.org/t/p/w500/mrH2yr8feKGpdXpqBeRq3oQlLwc.jpg",
-    "posterShape": "poster",
-    "year": 1993,
-    "description": "🆕 Legújabb epizód: S01E01\n\nA történet középpontjában egy, a valóságban nem létező határmenti kisváros, Végvár áll. Ebbe a városba érkezik Hunyadi főtörzs, hogy a Határőrség akciószázadát kiképezze. A sorozat a rendőrség és a határőrség határmenti bűncselekmények ügyében való nyomozások terén történő együttműködését mutatja be.",
-    "imdbRating": 6.8,
-    "releaseInfo": "1993",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "latest_season": 1,
-    "latest_episode": 1,
-    "seeders": 40
+    "seeders": 419
   },
   {
     "id": "tt10293938",
@@ -159,7 +159,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 155
+    "seeders": 117
   },
   {
     "id": "tt5210030",
@@ -176,7 +176,25 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 99
+    "seeders": 81
+  },
+  {
+    "id": "tt1091909",
+    "type": "series",
+    "name": "Murdoch nyomozó rejtélyei (S19E04)",
+    "poster": "https://image.tmdb.org/t/p/w500/2j6bqdCHXQmuYYKqX6OZU28devE.jpg",
+    "posterShape": "poster",
+    "year": 2008,
+    "description": "🆕 Legújabb epizód: S19E04\n\nAz 1890-es évek Torontójában nyomozó krimihős, William Murdoch olyan gyilkosságokat fejt meg újításaival, amelyekhez még ötlete sincs a főnökének. Igazságügyi, orvostani módszereinek használata és hihetetlenül pontos következtetései mindig nyomra vezetik a zsarut. Lelkes segítői, Dr. Julia Ogden patológusnő és George Crabtree közrendőr mindenben támogatják őt, habár Murdoch sok kétkedőre és haragosra tesz szert a nyomozási eljárásai során.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2008",
+    "genres": [
+      "Rejtély",
+      "Dráma"
+    ],
+    "latest_season": 19,
+    "latest_episode": 4,
+    "seeders": 39
   },
   {
     "id": "tt18546730",
@@ -195,24 +213,7 @@
     ],
     "latest_season": 3,
     "latest_episode": 4,
-    "seeders": 323
-  },
-  {
-    "id": "tt43686214",
-    "type": "series",
-    "name": "Meztelen igazság",
-    "poster": "https://image.tmdb.org/t/p/w500/is4JhXR5X18LDz7EvhEL2uwdLFl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Meztelen Igazság ötrészes dokumentumfilm-sorozat, ami olyan emberek történeteit mutatja be, akik maguk is részesei voltak ennek a világnak. Egykori felnőttfilmes sztárok, producerek, rendezők, családtagok, jogászok és szakértők segítségével tárul fel egy iparág, amely évtizedeken át Magyarországot is a nemzetközi felnőttfilmes szektor egyik központjává tette. Emellett pedig a hazánkban dolgozó külföldi felnőttfilmes producerek körüli nemzetközi botrányokkal is foglalkozik a sorozat.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 784
+    "seeders": 209
   },
   {
     "id": "tt27543562",
@@ -230,7 +231,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 5,
-    "seeders": 92
+    "seeders": 69
   },
   {
     "id": "tt23334036",
@@ -248,7 +249,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 74
+    "seeders": 56
   },
   {
     "id": "tt40618611",
@@ -265,7 +266,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 57
+    "seeders": 45
   },
   {
     "id": "tt37692332",
@@ -283,7 +284,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 4,
-    "seeders": 212
+    "seeders": 139
   },
   {
     "id": "tt43661815",
@@ -293,50 +294,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az oroszlánkirály nagysikerű 2019-es adaptációját rendező Jon Favreau és a BBC neves producere, Mike Gunton által készített rendkívüli sorozat egy oroszlánkölyök küzdelmes útját mutatja be a megszületésétől a falkavezéri szerep kivívásáig. A képernyő elé szegező négyrészes széria messze túlterjeszkedik a hagyományos természetfilmek határain: egy megragadó, érzelmekre ható dráma, melyben a család, a bátorság és az összetartozás értékei játsszák a főszerepet – valamint természetesen az eleinte kicsi és védtelen, majd egyre nagyobbra növő és egyre erősebb Kio, akit a történet végére mi is legalább annyira megszeretünk, mint a négy évet a közelében töltő alkotók…",
-    "imdbRating": null,
+    "imdbRating": 8.0,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 55
-  },
-  {
-    "id": "tt36885662",
-    "type": "series",
-    "name": "Dr. Best (S01E06)",
-    "poster": "https://image.tmdb.org/t/p/w500/gRf2g2iR8j2uMlClrNTaiHbrZ6c.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E06\n\nEgy zseniális sebész elhagyja Bostont, hogy orvosként dolgozzon abban a kisvárosban, ahol a gyerekkori nyarait töltötte. Kimagasló orvosi szaktudása ellenére nyers, pokróc stílusával magára haragítja a helyieket, miközben rejtett fóbiáival küzd, és a személyes kapcsolatok kiépítésével viaskodik.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "latest_season": 1,
-    "latest_episode": 6,
-    "seeders": 52
-  },
-  {
-    "id": "tt36303968",
-    "type": "series",
-    "name": "Gyűlölet és csábítás (S01E06)",
-    "poster": "https://image.tmdb.org/t/p/w500/srWmmuaQxV9yPBp9uK1vNNaDPk6.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E06\n\nA sorozatban Alice Black FBI-ügynök egy rejtélyes és ravasz női sorozatgyilkos nyomába ered. Mindketten saját igazságukért küzdenek, ám ahogy sorsuk összefonódik, a jó és a rossz közötti határvonal egyre inkább elmosódik. A Gyűlölet és csábítás középpontjában Alice Black áll, aki korábban a New York-i rendőrség gyilkossági nyomozójaként dolgozott, a történet kezdetén azonban már próbaidős FBI-ügynökként próbálja újjáépíteni a karrierjét. Egy tekintélyes bíró gyanús halála vezeti el Catherine-hez, a több személyazonosság mögé rejtőző nőhöz, aki gondosan kialakított kapcsolatok segítségével férkőzik áldozatai közelébe. Catherine számára a csábítás nem egyszerűen eszköz, hanem egy aprólékosan felépített terv része. Felméri kiszemeltjei gyengeségeit, elnyeri a bizalmukat, majd saját elképzelése szerint szolgáltat igazságot. Alice egyre közelebb kerül hozzá, miközben azt is felismeri, hogy kettejük története és motivációi több ponton hasonlítanak egymásra.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "latest_season": 1,
-    "latest_episode": 6,
-    "seeders": 161
+    "seeders": 44
   },
   {
     "id": "tt0149460",
@@ -355,7 +320,43 @@
     ],
     "latest_season": 11,
     "latest_episode": 4,
-    "seeders": 156
+    "seeders": 122
+  },
+  {
+    "id": "tt36885662",
+    "type": "series",
+    "name": "Dr. Best (S01E06)",
+    "poster": "https://image.tmdb.org/t/p/w500/gRf2g2iR8j2uMlClrNTaiHbrZ6c.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E06\n\nEgy zseniális sebész elhagyja Bostont, hogy orvosként dolgozzon abban a kisvárosban, ahol a gyerekkori nyarait töltötte. Kimagasló orvosi szaktudása ellenére nyers, pokróc stílusával magára haragítja a helyieket, miközben rejtett fóbiáival küzd, és a személyes kapcsolatok kiépítésével viaskodik.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 6,
+    "seeders": 43
+  },
+  {
+    "id": "tt36303968",
+    "type": "series",
+    "name": "Gyűlölet és csábítás (S01E06)",
+    "poster": "https://image.tmdb.org/t/p/w500/srWmmuaQxV9yPBp9uK1vNNaDPk6.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E06\n\nA sorozatban Alice Black FBI-ügynök egy rejtélyes és ravasz női sorozatgyilkos nyomába ered. Mindketten saját igazságukért küzdenek, ám ahogy sorsuk összefonódik, a jó és a rossz közötti határvonal egyre inkább elmosódik. A Gyűlölet és csábítás középpontjában Alice Black áll, aki korábban a New York-i rendőrség gyilkossági nyomozójaként dolgozott, a történet kezdetén azonban már próbaidős FBI-ügynökként próbálja újjáépíteni a karrierjét. Egy tekintélyes bíró gyanús halála vezeti el Catherine-hez, a több személyazonosság mögé rejtőző nőhöz, aki gondosan kialakított kapcsolatok segítségével férkőzik áldozatai közelébe. Catherine számára a csábítás nem egyszerűen eszköz, hanem egy aprólékosan felépített terv része. Felméri kiszemeltjei gyengeségeit, elnyeri a bizalmukat, majd saját elképzelése szerint szolgáltat igazságot. Alice egyre közelebb kerül hozzá, miközben azt is felismeri, hogy kettejük története és motivációi több ponton hasonlítanak egymásra.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "latest_season": 1,
+    "latest_episode": 6,
+    "seeders": 110
   },
   {
     "id": "tt26448526",
@@ -372,7 +373,7 @@
     ],
     "latest_season": 2,
     "latest_episode": 12,
-    "seeders": 48
+    "seeders": 37
   },
   {
     "id": "tt13237158",
@@ -391,7 +392,7 @@
     ],
     "latest_season": 3,
     "latest_episode": 4,
-    "seeders": 27
+    "seeders": 22
   },
   {
     "id": "tt38672513",
@@ -411,25 +412,22 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 24
+    "seeders": 20
   },
   {
-    "id": "tt29926954",
+    "id": "tt0404687",
     "type": "series",
-    "name": "Anyai örökség (S01E26)",
-    "poster": "https://image.tmdb.org/t/p/w500/sXzTcIgXMWIotuymY6Lt1zdztWC.jpg",
+    "name": "Életképek",
+    "poster": "https://image.tmdb.org/t/p/w500/59ruuG13RrQ2Z1cuzHZ7zq3LeIQ.jpg",
     "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S01E26\n\nAz Anyai örökség egy mélyen érzelmes, fordulatokban gazdag családi dráma, amelynek középpontjában az anyaság és az anyai érzelmek különböző aspektusai állnak. A történet főhőse Karsu, aki igyekszik helytállni anyaként és feleségként, ám élete egyik pillanatról a másikra összeomlik.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
-    "genres": [
-      "Családi",
-      "Dráma"
-    ],
-    "latest_season": 1,
-    "latest_episode": 26,
-    "seeders": 35
+    "year": 2004,
+    "description": "Az Életképek egy 2004 és 2009 között forgatott magyar teleregény. Forgatókönyvírója és rendezője Horváth Ádám, míg az operatőre Szalai András volt.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2004",
+    "genres": [],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 42
   },
   {
     "id": "tt12924420",
@@ -449,7 +447,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 32
+    "seeders": 26
   },
   {
     "id": "tt7772600",
@@ -468,41 +466,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 32
-  },
-  {
-    "id": "tt0404687",
-    "type": "series",
-    "name": "Életképek",
-    "poster": "https://image.tmdb.org/t/p/w500/59ruuG13RrQ2Z1cuzHZ7zq3LeIQ.jpg",
-    "posterShape": "poster",
-    "year": 2004,
-    "description": "Az Életképek egy 2004 és 2009 között forgatott magyar teleregény. Forgatókönyvírója és rendezője Horváth Ádám, míg az operatőre Szalai András volt.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2004",
-    "genres": [],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 48
-  },
-  {
-    "id": "tt16026746",
-    "type": "series",
-    "name": "X-Men '97",
-    "poster": "https://image.tmdb.org/t/p/w500/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "Az 1992-ben kiadott X-Men animációs sorozat folytatása. X professzor halálát követően Rozsomák és Vihar próbálják összeszedni a csapatot és folytatni vezetőjük örökségét. Eközben Magneto magának követeli a mutánsok vezetésének jogát, Sinister pedig szeretné végleg elpusztítani a szuperhősöket.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2024",
-    "genres": [
-      "Animációs",
-      "Action & Adventure",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 120
+    "seeders": 27
   },
   {
     "id": "tt14060708",
@@ -522,16 +486,35 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 76
+    "seeders": 64
+  },
+  {
+    "id": "tt16026746",
+    "type": "series",
+    "name": "X-Men '97",
+    "poster": "https://image.tmdb.org/t/p/w500/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "Az 1992-ben kiadott X-Men animációs sorozat folytatása. X professzor halálát követően Rozsomák és Vihar próbálják összeszedni a csapatot és folytatni vezetőjük örökségét. Eközben Magneto magának követeli a mutánsok vezetésének jogát, Sinister pedig szeretné végleg elpusztítani a szuperhősöket.",
+    "imdbRating": 8.7,
+    "releaseInfo": "2024",
+    "genres": [
+      "Animációs",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 70
   },
   {
     "id": "tt9892936",
     "type": "series",
-    "name": "Száz év magány (S02E01)",
+    "name": "Száz év magány (S02E07)",
     "poster": "https://image.tmdb.org/t/p/w500/jB5f2BmwKZ72fGVkRnUD21SEcGl.jpg",
     "posterShape": "poster",
     "year": 2024,
-    "description": "🆕 Legújabb epizód: S02E01\n\nGabriel García Márquez Nobel-díjas író irodalmi remekműve, a Száz év magány a Buendía család történetét meséli el, akiket őrület, lehetetlen szerelem, háború és egy átoktól való félelem gyötör, amely száz évre magányra ítéli őket a mitikus Macondo városában. Isten hozott a mitikus Macondóban, amely egy folyó partján fekvő húsz házból álló közösségből nőtte ki magát. Itt kelt életre a mágikus realizmus, és itt vette kezdetét a Buendía család története. Egy történet a lehetetlen szerelmek viszontagságairól, a lezárhatatlan múlttal való szembenézésről, valamint egy átokról.",
+    "description": "🆕 Legújabb epizód: S02E07\n\nGabriel García Márquez Nobel-díjas író irodalmi remekműve, a Száz év magány a Buendía család történetét meséli el, akiket őrület, lehetetlen szerelem, háború és egy átoktól való félelem gyötör, amely száz évre magányra ítéli őket a mitikus Macondo városában. Isten hozott a mitikus Macondóban, amely egy folyó partján fekvő húsz házból álló közösségből nőtte ki magát. Itt kelt életre a mágikus realizmus, és itt vette kezdetét a Buendía család története. Egy történet a lehetetlen szerelmek viszontagságairól, a lezárhatatlan múlttal való szembenézésről, valamint egy átokról.",
     "imdbRating": 8.0,
     "releaseInfo": "2024",
     "genres": [
@@ -539,7 +522,24 @@
       "Sci-Fi & Fantasy"
     ],
     "latest_season": 2,
-    "latest_episode": 1,
-    "seeders": 71
+    "latest_episode": 7,
+    "seeders": 33
+  },
+  {
+    "id": "tt21064598",
+    "type": "series",
+    "name": "Sullivan's Crossing",
+    "poster": "https://image.tmdb.org/t/p/w500/nYRnuQNR13nEYaXkOZaY0qIWl2K.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "Az idegsebész Maggie Sullivan újra kapcsolatba kerül kisvárosi múltjával, miután egy botrány miatt szakmai és magánéletét otthagyva elköltözik a városból.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2023",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 37
   }
 ]
