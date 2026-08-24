@@ -1,13 +1,30 @@
 [
   {
+    "id": "tt26657236",
+    "type": "movie",
+    "name": "Backrooms - Hátsó szobák",
+    "poster": "https://image.tmdb.org/t/p/w500/k7jSZKFTeLVHsWoYN14e204dUhM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kilencvenes évek elején Clark, egy kiégett építészből lett bútoráruház-tulajdonos különös átjárót fedez fel üzlete pincéjében. Az ajtó egy végtelennek tűnő, fluoreszkáló fényekkel megvilágított labirintusba vezet, ahol a valóság törvényei fokozatosan felbomlanak. A nyomasztó folyosók és üres irodaszerű terek között bolyongva Clark megszállottjává válik a helynek, miközben saját múltja és pszichéje is darabokra hullik. Terapeutája, Dr. Mary Kline eleinte mentális összeomlásnak hiszi a férfi történeteit, ám amikor Clark nyomtalanul eltűnik, kénytelen maga is belépni a rejtélyes dimenzióba. A nő egy olyan világban találja magát, ahol az idő, az emlékek és az identitás összemosódnak, és ahol valami ismeretlen figyeli minden lépését.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Sci-Fi"
+    ],
+    "seeders": 1132
+  },
+  {
     "id": "tt29355505",
     "type": "movie",
-    "name": "Toy Story 5",
+    "name": "Toy Story 5.",
     "poster": "https://image.tmdb.org/t/p/w500/2Dib7rMctmMthKo75lhs3jtvqUo.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 8.1,
+    "imdbRating": 8.2,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -15,7 +32,23 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1989
+    "seeders": 228
+  },
+  {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 402
   },
   {
     "id": "tt18259538",
@@ -33,40 +66,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 515
-  },
-  {
-    "id": "tt26657236",
-    "type": "movie",
-    "name": "Backrooms - Hátsó szobák",
-    "poster": "https://image.tmdb.org/t/p/w500/k7jSZKFTeLVHsWoYN14e204dUhM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A kilencvenes évek elején Clark, egy kiégett építészből lett bútoráruház-tulajdonos különös átjárót fedez fel üzlete pincéjében. Az ajtó egy végtelennek tűnő, fluoreszkáló fényekkel megvilágított labirintusba vezet, ahol a valóság törvényei fokozatosan felbomlanak. A nyomasztó folyosók és üres irodaszerű terek között bolyongva Clark megszállottjává válik a helynek, miközben saját múltja és pszichéje is darabokra hullik. Terapeutája, Dr. Mary Kline eleinte mentális összeomlásnak hiszi a férfi történeteit, ám amikor Clark nyomtalanul eltűnik, kénytelen maga is belépni a rejtélyes dimenzióba. A nő egy olyan világban találja magát, ahol az idő, az emlékek és az identitás összemosódnak, és ahol valami ismeretlen figyeli minden lépését.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Sci-Fi"
-    ],
-    "seeders": 1886
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 583
+    "seeders": 330
   },
   {
     "id": "tt32890033",
@@ -85,7 +85,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 275
+    "seeders": 213
   },
   {
     "id": "tt39390497",
@@ -102,7 +102,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 500
+    "seeders": 339
   },
   {
     "id": "tt29028515",
@@ -119,7 +119,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 310
+    "seeders": 195
   },
   {
     "id": "tt39316472",
@@ -136,7 +136,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 1347
+    "seeders": 792
   },
   {
     "id": "tt27047903",
@@ -153,7 +153,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 89
+    "seeders": 69
   },
   {
     "id": "tt43475091",
@@ -163,12 +163,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
-    "imdbRating": 6.1,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 155
+    "seeders": 113
   },
   {
     "id": "tt43689138",
@@ -178,7 +178,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy heves esővihar idején Ariel, Jasmine, Mulan, Moana, Rapunzel, Hófehérke és Tiana a segítőtársaikkal együtt menedéket adnak a bajba jutott állatoknak a kastélyukban, hogy egy meghitt, biztonságos napot töltsenek velük. A nyugalom azonban hamar káoszba fordul, amikor az állatok elszabadulnak, a kastélyban pedig egyre furcsább dolgok történnek. A hercegnők nyomozni kezdenek, és rájönnek, hogy a zűrzavar mögött egy csintalan gonosztevő áll. Csak összefogással, leleményességgel és egy váratlan szövetséges segítségével állíthatják helyre a rendet, és menthetik meg otthonukat a teljes felfordulástól.",
-    "imdbRating": 8.5,
+    "imdbRating": 9.0,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -186,7 +186,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 105
+    "seeders": 84
   },
   {
     "id": "tt32889884",
@@ -201,7 +201,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 185
+    "seeders": 149
   },
   {
     "id": "tt34706535",
@@ -219,7 +219,38 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 537
+    "seeders": 374
+  },
+  {
+    "id": "tt10329560",
+    "type": "movie",
+    "name": "H, mint héja",
+    "poster": "https://image.tmdb.org/t/p/w500/eg301AEGyYX4gtc0A8DEXQ0VMhK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 66
+  },
+  {
+    "id": "tt40001699",
+    "type": "movie",
+    "name": "Tizenöt nap",
+    "poster": "https://image.tmdb.org/t/p/w500/gmCr40SuuLlTsYG5CbWg7AZhmhm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 112
   },
   {
     "id": "tt32268156",
@@ -236,53 +267,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 667
-  },
-  {
-    "id": "tt10329560",
-    "type": "movie",
-    "name": "H, mint héja",
-    "poster": "https://image.tmdb.org/t/p/w500/eg301AEGyYX4gtc0A8DEXQ0VMhK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 83
-  },
-  {
-    "id": "tt40001699",
-    "type": "movie",
-    "name": "Tizenöt nap",
-    "poster": "https://image.tmdb.org/t/p/w500/gmCr40SuuLlTsYG5CbWg7AZhmhm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 161
-  },
-  {
-    "id": "tt36933402",
-    "type": "movie",
-    "name": "Ki hitte volna? 2.: Az esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 525
+    "seeders": 384
   },
   {
     "id": "tt28942997",
@@ -299,7 +284,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 92
+    "seeders": 72
   },
   {
     "id": "tt30825738",
@@ -316,7 +301,37 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 179
+    "seeders": 140
+  },
+  {
+    "id": "tt36933402",
+    "type": "movie",
+    "name": "Ki hitte volna? 2.: Az esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
+    "imdbRating": 5.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 346
+  },
+  {
+    "id": "tt8667404",
+    "type": "movie",
+    "name": "A víz kronológiája",
+    "poster": "https://image.tmdb.org/t/p/w500/9diHHw7zPhh2b0Mvocv0uRsPIFq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az erőszak és az alkohol árnyékában nevelkedő fiatal lány, Lidia küzd, hogy megtalálja a saját útját. Sikerül elmenekülnie családja elől, és bejut az egyetemre, ahol az irodalomban talál menedéket. Ahogy telik az idő, a szavak váratlan szabadsággal ajándékozzák meg.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 52
   },
   {
     "id": "tt15047880",
@@ -332,41 +347,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 219
-  },
-  {
-    "id": "tt6743524",
-    "type": "movie",
-    "name": "Rocktábor 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/rS7byWK9cfPfdLeFNlRIaJxH9mN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Vígjáték",
-      "Dráma",
-      "TV film",
-      "Romantikus"
-    ],
-    "seeders": 235
-  },
-  {
-    "id": "tt8667404",
-    "type": "movie",
-    "name": "A víz kronológiája",
-    "poster": "https://image.tmdb.org/t/p/w500/9diHHw7zPhh2b0Mvocv0uRsPIFq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az erőszak és az alkohol árnyékában nevelkedő fiatal lány, Lidia küzd, hogy megtalálja a saját útját. Sikerül elmenekülnie családja elől, és bejut az egyetemre, ahol az irodalomban talál menedéket. Ahogy telik az idő, a szavak váratlan szabadsággal ajándékozzák meg.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 59
+    "seeders": 144
   },
   {
     "id": "tt39750720",
@@ -381,7 +362,41 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 55
+    "seeders": 50
+  },
+  {
+    "id": "tt31948486",
+    "type": "movie",
+    "name": "Az élők harca",
+    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 70
+  },
+  {
+    "id": "tt6743524",
+    "type": "movie",
+    "name": "Rocktábor 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/rS7byWK9cfPfdLeFNlRIaJxH9mN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Vígjáték",
+      "Dráma",
+      "TV film",
+      "Romantikus"
+    ],
+    "seeders": 157
   },
   {
     "id": "tt30343021",
@@ -398,22 +413,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 61
-  },
-  {
-    "id": "tt31948486",
-    "type": "movie",
-    "name": "Az élők harca",
-    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 80
+    "seeders": 53
   },
   {
     "id": "tt43725831",
@@ -428,7 +428,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 162
+    "seeders": 113
   },
   {
     "id": "tt32267711",
@@ -444,22 +444,22 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 166
+    "seeders": 125
   },
   {
-    "id": "tt38662472",
+    "id": "tt22872358",
     "type": "movie",
-    "name": "A cimborám, a csaja és én",
-    "poster": "https://image.tmdb.org/t/p/w500/sWFzFNvqpas8y0BFSx0o7dURG8H.jpg",
+    "name": "A hangmester",
+    "poster": "https://image.tmdb.org/t/p/w500/w9ABJjQhV8nuLOerMb1t4hjG9hy.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Olli számára egy dolog világos: legjobb barátja, Matze fejét nyilvánvalóan elcsavarta új barátnője, Rebecca. A lány káros hatása nemcsak a barátságukat veszélyezteti, hanem mindenekelőtt azt a világ körüli utazást is, amelyet Olli és Matze már évek óta, a legapróbb részletekig megterveztek. Így hát csak egyetlen megoldás létezik: Rebeccát meg kell állítani! Olli barátjával, Schmittivel karöltve ellentámadásba lendül. Ám mindenki meglepetésére Rebeccának is vannak trükkjei. A csata kezdetét veszi...",
-    "imdbRating": 5.0,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
     "genres": [
-      "Vígjáték"
+      "Dráma"
     ],
-    "seeders": 141
+    "seeders": 119
   },
   {
     "id": "tt32616813",
@@ -475,21 +475,21 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 99
+    "seeders": 75
   },
   {
-    "id": "tt22872358",
+    "id": "tt38662472",
     "type": "movie",
-    "name": "A hangmester",
-    "poster": "https://image.tmdb.org/t/p/w500/w9ABJjQhV8nuLOerMb1t4hjG9hy.jpg",
+    "name": "A cimborám, a csaja és én",
+    "poster": "https://image.tmdb.org/t/p/w500/sWFzFNvqpas8y0BFSx0o7dURG8H.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Olli számára egy dolog világos: legjobb barátja, Matze fejét nyilvánvalóan elcsavarta új barátnője, Rebecca. A lány káros hatása nemcsak a barátságukat veszélyezteti, hanem mindenekelőtt azt a világ körüli utazást is, amelyet Olli és Matze már évek óta, a legapróbb részletekig megterveztek. Így hát csak egyetlen megoldás létezik: Rebeccát meg kell állítani! Olli barátjával, Schmittivel karöltve ellentámadásba lendül. Ám mindenki meglepetésére Rebeccának is vannak trükkjei. A csata kezdetét veszi...",
+    "imdbRating": 5.6,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Vígjáték"
     ],
-    "seeders": 157
+    "seeders": 99
   }
 ]
