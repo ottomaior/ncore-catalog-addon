@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt31170389",
+    "type": "movie",
+    "name": "Gonosz halott: Égj!",
+    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak. (Csillag Lajos)",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 374
+  },
+  {
     "id": "tt26657236",
     "type": "movie",
     "name": "Backrooms - Hátsó szobák",
@@ -14,7 +29,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1517
+    "seeders": 1799
   },
   {
     "id": "tt18259538",
@@ -32,23 +47,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 440
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 487
+    "seeders": 536
   },
   {
     "id": "tt29355505",
@@ -66,7 +65,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 309
+    "seeders": 412
   },
   {
     "id": "tt32890033",
@@ -85,7 +84,23 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 279
+    "seeders": 375
+  },
+  {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 534
   },
   {
     "id": "tt39390497",
@@ -102,7 +117,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 411
+    "seeders": 484
   },
   {
     "id": "tt29028515",
@@ -119,7 +134,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 256
+    "seeders": 282
   },
   {
     "id": "tt39316472",
@@ -136,7 +151,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 1046
+    "seeders": 1254
   },
   {
     "id": "tt27047903",
@@ -153,22 +168,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 86
-  },
-  {
-    "id": "tt43475091",
-    "type": "movie",
-    "name": "Amikor anyu nyaralni megy",
-    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 124
+    "seeders": 105
   },
   {
     "id": "tt34706535",
@@ -186,22 +186,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 458
-  },
-  {
-    "id": "tt32889884",
-    "type": "movie",
-    "name": "Szabadesés: A Boeing a vádlottak padján",
-    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 166
+    "seeders": 504
   },
   {
     "id": "tt32268156",
@@ -218,7 +203,37 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 522
+    "seeders": 611
+  },
+  {
+    "id": "tt43475091",
+    "type": "movie",
+    "name": "Amikor anyu nyaralni megy",
+    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 126
+  },
+  {
+    "id": "tt32889884",
+    "type": "movie",
+    "name": "Szabadesés: A Boeing a vádlottak padján",
+    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 180
   },
   {
     "id": "tt43689138",
@@ -236,7 +251,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 83
+    "seeders": 93
   },
   {
     "id": "tt36933402",
@@ -251,7 +266,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 451
+    "seeders": 503
   },
   {
     "id": "tt40001699",
@@ -267,7 +282,24 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 137
+    "seeders": 138
+  },
+  {
+    "id": "tt30825738",
+    "type": "movie",
+    "name": "Star Wars: A mandalóri és Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 170
   },
   {
     "id": "tt10329560",
@@ -285,23 +317,6 @@
     "seeders": 70
   },
   {
-    "id": "tt30825738",
-    "type": "movie",
-    "name": "Star Wars: A mandalóri és Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 165
-  },
-  {
     "id": "tt15047880",
     "type": "movie",
     "name": "A leleplezés napja",
@@ -315,24 +330,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 184
-  },
-  {
-    "id": "tt28942997",
-    "type": "movie",
-    "name": "Mumbo Jumbo hatalmas kalandja",
-    "poster": "https://image.tmdb.org/t/p/w500/5F9Au0GRJvzoKHlllNiP4ycx6Th.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a vidám kis víziló, Mumbo Jumbo véletlenül óriássá változik, az élete gyökeresen, és úgy tűnik, végleg, rossz irányt vesz. Mumbo kénytelen veszélyes útra indulni, hogy felkutasson egy kiszámíthatatlan boszorkányt. Szerencsére a legjobb barátai vele tartanak. A feladat így is szinte megoldhatatlan, de legalább együtt néznek szembe vele. Nem könnyű sem kis vízilónak, sem óriásnak lenni, és ha a visszaváltozás egy szókimondó, csintalan boszorkánnyal való együttműködésen múlik, bárki beláthatja, hogy ez komoly erőfeszítést igényel. Remélhetőleg Mumbo Jumbo az út során erős hitet alakít ki önmagában, különben a küldetés biztosan lehetetlennek bizonyul. (Csillag Lajos)",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Családi"
-    ],
-    "seeders": 78
+    "seeders": 199
   },
   {
     "id": "tt6743524",
@@ -351,7 +349,39 @@
       "TV film",
       "Romantikus"
     ],
-    "seeders": 192
+    "seeders": 229
+  },
+  {
+    "id": "tt28942997",
+    "type": "movie",
+    "name": "Mumbo Jumbo hatalmas kalandja",
+    "poster": "https://image.tmdb.org/t/p/w500/5F9Au0GRJvzoKHlllNiP4ycx6Th.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor a vidám kis víziló, Mumbo Jumbo véletlenül óriássá változik, az élete gyökeresen, és úgy tűnik, végleg, rossz irányt vesz. Mumbo kénytelen veszélyes útra indulni, hogy felkutasson egy kiszámíthatatlan boszorkányt. Szerencsére a legjobb barátai vele tartanak. A feladat így is szinte megoldhatatlan, de legalább együtt néznek szembe vele. Nem könnyű sem kis vízilónak, sem óriásnak lenni, és ha a visszaváltozás egy szókimondó, csintalan boszorkánnyal való együttműködésen múlik, bárki beláthatja, hogy ez komoly erőfeszítést igényel. Remélhetőleg Mumbo Jumbo az út során erős hitet alakít ki önmagában, különben a küldetés biztosan lehetetlennek bizonyul. (Csillag Lajos)",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Családi"
+    ],
+    "seeders": 79
+  },
+  {
+    "id": "tt43725831",
+    "type": "movie",
+    "name": "Jurassic cápák",
+    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 144
   },
   {
     "id": "tt8667404",
@@ -366,7 +396,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 59
+    "seeders": 57
   },
   {
     "id": "tt39750720",
@@ -384,21 +414,6 @@
     "seeders": 54
   },
   {
-    "id": "tt31948486",
-    "type": "movie",
-    "name": "Az élők harca",
-    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 74
-  },
-  {
     "id": "tt30343021",
     "type": "movie",
     "name": "Song Sung Blue",
@@ -413,22 +428,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 56
-  },
-  {
-    "id": "tt43725831",
-    "type": "movie",
-    "name": "Jurassic cápák",
-    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 132
+    "seeders": 58
   },
   {
     "id": "tt32267711",
@@ -444,7 +444,22 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 155
+    "seeders": 161
+  },
+  {
+    "id": "tt31948486",
+    "type": "movie",
+    "name": "Az élők harca",
+    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 71
   },
   {
     "id": "tt22872358",
@@ -459,22 +474,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 148
-  },
-  {
-    "id": "tt38662472",
-    "type": "movie",
-    "name": "A cimborám, a csaja és én",
-    "poster": "https://image.tmdb.org/t/p/w500/sWFzFNvqpas8y0BFSx0o7dURG8H.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Olli számára egy dolog világos: legjobb barátja, Matze fejét nyilvánvalóan elcsavarta új barátnője, Rebecca. A lány káros hatása nemcsak a barátságukat veszélyezteti, hanem mindenekelőtt azt a világ körüli utazást is, amelyet Olli és Matze már évek óta, a legapróbb részletekig megterveztek. Így hát csak egyetlen megoldás létezik: Rebeccát meg kell állítani! Olli barátjával, Schmittivel karöltve ellentámadásba lendül. Ám mindenki meglepetésére Rebeccának is vannak trükkjei. A csata kezdetét veszi...",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 119
+    "seeders": 152
   },
   {
     "id": "tt32616813",
@@ -490,6 +490,6 @@
       "Családi",
       "Vígjáték"
     ],
-    "seeders": 84
+    "seeders": 94
   }
 ]
