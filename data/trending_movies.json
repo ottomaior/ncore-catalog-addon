@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt27681354",
+    "type": "movie",
+    "name": "Szürke zóna",
+    "poster": "https://image.tmdb.org/t/p/w500/i0doR7wsRtqDtnXN8kZPOrLNxF8.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film két embermentő szakember körül forog, akiknek ki kell jelölniük a menekülési útvonalat egy vezető női tárgyaló számára.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 206
+  },
+  {
     "id": "tt31170389",
     "type": "movie",
     "name": "Gonosz halott: Égj!",
@@ -12,23 +28,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 383
-  },
-  {
-    "id": "tt28334938",
-    "type": "movie",
-    "name": "Clika",
-    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 73
+    "seeders": 468
   },
   {
     "id": "tt26657236",
@@ -45,7 +45,23 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1310
+    "seeders": 1495
+  },
+  {
+    "id": "tt28334938",
+    "type": "movie",
+    "name": "Clika",
+    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 82
   },
   {
     "id": "tt29355505",
@@ -63,7 +79,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 336
+    "seeders": 396
   },
   {
     "id": "tt18259538",
@@ -81,7 +97,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 395
+    "seeders": 473
   },
   {
     "id": "tt34471850",
@@ -97,7 +113,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 439
+    "seeders": 492
   },
   {
     "id": "tt32890033",
@@ -116,7 +132,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 291
+    "seeders": 351
   },
   {
     "id": "tt39390497",
@@ -126,31 +142,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A történet két rendőrről szól, akik egy rutinellenőrzés során félreállítanak egy lopott autót, de hirtelen szemtől szemben találják magukat a világ egyik legveszélyesebb bűnözőjével.",
-    "imdbRating": 6.7,
+    "imdbRating": 7.9,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Akció",
       "Thriller"
     ],
-    "seeders": 360
-  },
-  {
-    "id": "tt29028515",
-    "type": "movie",
-    "name": "Wasteman",
-    "poster": "https://image.tmdb.org/t/p/w500/lKK9ImwpoTCwDZKgYpjIIJCnlf0.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Taylor feltételes szabadlábra helyezését követően az újrakezdés reménye veszélybe kerül, amikor megérkezik új cellatársa, Dee. Dee pártfogásába veszi Taylort, ami egy kegyetlen támadás során próbára teszi a kapcsolatukat. Taylor nehéz döntés elé kerül: vajon Dee védelmét választja, vagy inkább a saját szabadulási esélyeit tartja szem előtt?",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 222
+    "seeders": 405
   },
   {
     "id": "tt39316472",
@@ -167,7 +166,24 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 870
+    "seeders": 1033
+  },
+  {
+    "id": "tt29028515",
+    "type": "movie",
+    "name": "Wasteman",
+    "poster": "https://image.tmdb.org/t/p/w500/lKK9ImwpoTCwDZKgYpjIIJCnlf0.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Taylor feltételes szabadlábra helyezését követően az újrakezdés reménye veszélybe kerül, amikor megérkezik új cellatársa, Dee. Dee pártfogásába veszi Taylort, ami egy kegyetlen támadás során próbára teszi a kapcsolatukat. Taylor nehéz döntés elé kerül: vajon Dee védelmét választja, vagy inkább a saját szabadulási esélyeit tartja szem előtt?",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 249
   },
   {
     "id": "tt27047903",
@@ -184,7 +200,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 83
+    "seeders": 89
   },
   {
     "id": "tt34706535",
@@ -202,37 +218,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 411
-  },
-  {
-    "id": "tt32889884",
-    "type": "movie",
-    "name": "Szabadesés: A Boeing a vádlottak padján",
-    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 152
-  },
-  {
-    "id": "tt43475091",
-    "type": "movie",
-    "name": "Amikor anyu nyaralni megy",
-    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 105
+    "seeders": 450
   },
   {
     "id": "tt32268156",
@@ -249,7 +235,52 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 447
+    "seeders": 504
+  },
+  {
+    "id": "tt32889884",
+    "type": "movie",
+    "name": "Szabadesés: A Boeing a vádlottak padján",
+    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 159
+  },
+  {
+    "id": "tt43475091",
+    "type": "movie",
+    "name": "Amikor anyu nyaralni megy",
+    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 111
+  },
+  {
+    "id": "tt36933402",
+    "type": "movie",
+    "name": "Ki hitte volna? 2.: Az esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
+    "imdbRating": 5.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 436
   },
   {
     "id": "tt43689138",
@@ -267,22 +298,23 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 79
+    "seeders": 86
   },
   {
-    "id": "tt36933402",
+    "id": "tt40001699",
     "type": "movie",
-    "name": "Ki hitte volna? 2.: Az esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
+    "name": "Tizenöt nap",
+    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.1,
+    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték"
+      "Vígjáték",
+      "Romantikus"
     ],
-    "seeders": 384
+    "seeders": 131
   },
   {
     "id": "tt30825738",
@@ -299,38 +331,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 150
-  },
-  {
-    "id": "tt40001699",
-    "type": "movie",
-    "name": "Tizenöt nap",
-    "poster": "https://image.tmdb.org/t/p/w500/gmCr40SuuLlTsYG5CbWg7AZhmhm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 113
-  },
-  {
-    "id": "tt10329560",
-    "type": "movie",
-    "name": "H, mint héja",
-    "poster": "https://image.tmdb.org/t/p/w500/eg301AEGyYX4gtc0A8DEXQ0VMhK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 65
+    "seeders": 163
   },
   {
     "id": "tt15047880",
@@ -346,7 +347,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 160
+    "seeders": 177
   },
   {
     "id": "tt6743524",
@@ -365,7 +366,22 @@
       "TV film",
       "Romantikus"
     ],
-    "seeders": 175
+    "seeders": 192
+  },
+  {
+    "id": "tt10329560",
+    "type": "movie",
+    "name": "H, mint héja",
+    "poster": "https://image.tmdb.org/t/p/w500/eg301AEGyYX4gtc0A8DEXQ0VMhK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 63
   },
   {
     "id": "tt28942997",
@@ -382,7 +398,22 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 73
+    "seeders": 74
+  },
+  {
+    "id": "tt43725831",
+    "type": "movie",
+    "name": "Jurassic cápák",
+    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 124
   },
   {
     "id": "tt8667404",
@@ -397,7 +428,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 54
+    "seeders": 55
   },
   {
     "id": "tt31948486",
@@ -415,21 +446,6 @@
     "seeders": 70
   },
   {
-    "id": "tt39750720",
-    "type": "movie",
-    "name": "A Nong Chompoo-ügy: Az elfeledett lány",
-    "poster": "https://image.tmdb.org/t/p/w500/vKMQlsutWlEFt3yK9mPlaMWnwF7.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy fiatal lány nyomtalanul eltűnik egy eldugott faluból, a kétségbeesett rendőrségi hajtóvadászatból országos médiaszenzáció lesz. De vajon ki csinált egy feltételezett bűnözőből ünnepelt hírességet?",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 51
-  },
-  {
     "id": "tt32267711",
     "type": "movie",
     "name": "Rufus, a legbátrabb tengeri szörny",
@@ -443,7 +459,22 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 143
+    "seeders": 144
+  },
+  {
+    "id": "tt39750720",
+    "type": "movie",
+    "name": "A Nong Chompoo-ügy: Az elfeledett lány",
+    "poster": "https://image.tmdb.org/t/p/w500/vKMQlsutWlEFt3yK9mPlaMWnwF7.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy fiatal lány nyomtalanul eltűnik egy eldugott faluból, a kétségbeesett rendőrségi hajtóvadászatból országos médiaszenzáció lesz. De vajon ki csinált egy feltételezett bűnözőből ünnepelt hírességet?",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 49
   },
   {
     "id": "tt30343021",
@@ -461,35 +492,5 @@
       "Dráma"
     ],
     "seeders": 52
-  },
-  {
-    "id": "tt43725831",
-    "type": "movie",
-    "name": "Jurassic cápák",
-    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 108
-  },
-  {
-    "id": "tt22872358",
-    "type": "movie",
-    "name": "A hangmester",
-    "poster": "https://image.tmdb.org/t/p/w500/w9ABJjQhV8nuLOerMb1t4hjG9hy.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 129
   }
 ]

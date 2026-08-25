@@ -1,38 +1,22 @@
 [
   {
-    "id": "tt26448526",
+    "id": "tt18546730",
     "type": "series",
-    "name": "Briliáns elmék (S02E13)",
-    "poster": "https://image.tmdb.org/t/p/w500/vG6Bw2IwDf1DVkPd7nZwMExp0U5.jpg",
+    "name": "The Walking Dead: Dead City (S03E05)",
+    "poster": "https://image.tmdb.org/t/p/w500/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
     "posterShape": "poster",
-    "year": 2024,
-    "description": "🆕 Legújabb epizód: S02E13\n\nA Brilliant Minds egy orvosi drámasorozat, amely a forradalmian új neurológus, Dr. Oliver Wolf és gyakornokai történetét követi nyomon. Céljuk az emberi elme utolsó nagy határainak feltárása, miközben személyes kapcsolataikkal és lelki egészségükkel is küzdenek. A sorozat nem csak az orvosi esetekre fókuszál, hanem a betegek mély emberi történeteire is, amelyek érzelmileg erős hatással vannak a nézőre.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2024",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S03E05\n\nMaggie és Negan a poszt-apokaliptikus Manhattanbe utazik, amely már régen el van vágva a szárazföldtől. A város tele van halottakkal, akik kizsigerelték a várost, és már csak egy maroknyi túlélő tartja a frontot.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2023",
     "genres": [
-      "Dráma"
+      "Action & Adventure",
+      "Dráma",
+      "Sci-Fi & Fantasy"
     ],
-    "latest_season": 2,
-    "latest_episode": 13,
-    "seeders": 34
-  },
-  {
-    "id": "tt36885662",
-    "type": "series",
-    "name": "Dr. Best (S01E08)",
-    "poster": "https://image.tmdb.org/t/p/w500/gRf2g2iR8j2uMlClrNTaiHbrZ6c.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E08\n\nEgy zseniális sebész elhagyja Bostont, hogy orvosként dolgozzon abban a kisvárosban, ahol a gyerekkori nyarait töltötte. Kimagasló orvosi szaktudása ellenére nyers, pokróc stílusával magára haragítja a helyieket, miközben rejtett fóbiáival küzd, és a személyes kapcsolatok kiépítésével viaskodik.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "latest_season": 1,
-    "latest_episode": 8,
-    "seeders": 31
+    "latest_season": 3,
+    "latest_episode": 5,
+    "seeders": 222
   },
   {
     "id": "tt26545992",
@@ -42,7 +26,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "🆕 Legújabb epizód: S01E02\n\nAz újonc John Stewart és a Lámpás-legenda Hal Jordan, azaz a két intergalaktikus zsaru egy sötét, a Földhöz kötődő rejtély kellős közepén találja magát, amikor nyomozni kezdenek egy, az amerikai szívvidéken elkövetett gyilkosság ügyében.",
-    "imdbRating": 8.1,
+    "imdbRating": 8.2,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
@@ -51,7 +35,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 2,
-    "seeders": 530
+    "seeders": 650
   },
   {
     "id": "tt13111078",
@@ -69,7 +53,60 @@
     ],
     "latest_season": 3,
     "latest_episode": 4,
-    "seeders": 511
+    "seeders": 616
+  },
+  {
+    "id": "tt26448526",
+    "type": "series",
+    "name": "Briliáns elmék (S02E13)",
+    "poster": "https://image.tmdb.org/t/p/w500/vG6Bw2IwDf1DVkPd7nZwMExp0U5.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "🆕 Legújabb epizód: S02E13\n\nA Brilliant Minds egy orvosi drámasorozat, amely a forradalmian új neurológus, Dr. Oliver Wolf és gyakornokai történetét követi nyomon. Céljuk az emberi elme utolsó nagy határainak feltárása, miközben személyes kapcsolataikkal és lelki egészségükkel is küzdenek. A sorozat nem csak az orvosi esetekre fókuszál, hanem a betegek mély emberi történeteire is, amelyek érzelmileg erős hatással vannak a nézőre.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": 2,
+    "latest_episode": 13,
+    "seeders": 52
+  },
+  {
+    "id": "tt36885662",
+    "type": "series",
+    "name": "Dr. Best (S01E08)",
+    "poster": "https://image.tmdb.org/t/p/w500/gRf2g2iR8j2uMlClrNTaiHbrZ6c.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E08\n\nEgy zseniális sebész elhagyja Bostont, hogy orvosként dolgozzon abban a kisvárosban, ahol a gyerekkori nyarait töltötte. Kimagasló orvosi szaktudása ellenére nyers, pokróc stílusával magára haragítja a helyieket, miközben rejtett fóbiáival küzd, és a személyes kapcsolatok kiépítésével viaskodik.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "latest_season": 1,
+    "latest_episode": 8,
+    "seeders": 49
+  },
+  {
+    "id": "tt9288030",
+    "type": "series",
+    "name": "Reacher (S04E04)",
+    "poster": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+    "posterShape": "poster",
+    "year": 2022,
+    "description": "🆕 Legújabb epizód: S04E04\n\nAmikor a volt katonai rendőrt, Jack Reachert letartóztatják egy gyilkosságért, amit el sem követett, egy korrupt zsarukkal, gyanús üzletemberekkel és cselszövő politikusokkal teli halálos összeesküvés közepébe csöppen. Muszáj neki kiderítenie, mi folyik Margrave-ben.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2022",
+    "genres": [
+      "Action & Adventure",
+      "Bűnügyi"
+    ],
+    "latest_season": 4,
+    "latest_episode": 4,
+    "seeders": 1193
   },
   {
     "id": "tt37692332",
@@ -87,7 +124,25 @@
     ],
     "latest_season": 1,
     "latest_episode": 5,
-    "seeders": 139
+    "seeders": 166
+  },
+  {
+    "id": "tt36303968",
+    "type": "series",
+    "name": "Gyűlölet és csábítás (S01E07)",
+    "poster": "https://image.tmdb.org/t/p/w500/9N45Sl3vcFux725jv6GvHRjPMiA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E07\n\nA sorozatban Alice Black FBI-ügynök egy rejtélyes és ravasz női sorozatgyilkos nyomába ered. Mindketten saját igazságukért küzdenek, ám ahogy sorsuk összefonódik, a jó és a rossz közötti határvonal egyre inkább elmosódik. A Gyűlölet és csábítás középpontjában Alice Black áll, aki korábban a New York-i rendőrség gyilkossági nyomozójaként dolgozott, a történet kezdetén azonban már próbaidős FBI-ügynökként próbálja újjáépíteni a karrierjét. Egy tekintélyes bíró gyanús halála vezeti el Catherine-hez, a több személyazonosság mögé rejtőző nőhöz, aki gondosan kialakított kapcsolatok segítségével férkőzik áldozatai közelébe. Catherine számára a csábítás nem egyszerűen eszköz, hanem egy aprólékosan felépített terv része. Felméri kiszemeltjei gyengeségeit, elnyeri a bizalmukat, majd saját elképzelése szerint szolgáltat igazságot. Alice egyre közelebb kerül hozzá, miközben azt is felismeri, hogy kettejük története és motivációi több ponton hasonlítanak egymásra.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "latest_season": 1,
+    "latest_episode": 7,
+    "seeders": 182
   },
   {
     "id": "tt0149460",
@@ -106,43 +161,7 @@
     ],
     "latest_season": 11,
     "latest_episode": 5,
-    "seeders": 153
-  },
-  {
-    "id": "tt9288030",
-    "type": "series",
-    "name": "Reacher (S04E04)",
-    "poster": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-    "posterShape": "poster",
-    "year": 2022,
-    "description": "🆕 Legújabb epizód: S04E04\n\nAmikor a volt katonai rendőrt, Jack Reachert letartóztatják egy gyilkosságért, amit el sem követett, egy korrupt zsarukkal, gyanús üzletemberekkel és cselszövő politikusokkal teli halálos összeesküvés közepébe csöppen. Muszáj neki kiderítenie, mi folyik Margrave-ben.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2022",
-    "genres": [
-      "Action & Adventure",
-      "Bűnügyi"
-    ],
-    "latest_season": 4,
-    "latest_episode": 4,
-    "seeders": 1034
-  },
-  {
-    "id": "tt36303968",
-    "type": "series",
-    "name": "Gyűlölet és csábítás (S01E07)",
-    "poster": "https://image.tmdb.org/t/p/w500/9N45Sl3vcFux725jv6GvHRjPMiA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E07\n\nA sorozatban Alice Black FBI-ügynök egy rejtélyes és ravasz női sorozatgyilkos nyomába ered. Mindketten saját igazságukért küzdenek, ám ahogy sorsuk összefonódik, a jó és a rossz közötti határvonal egyre inkább elmosódik. A Gyűlölet és csábítás középpontjában Alice Black áll, aki korábban a New York-i rendőrség gyilkossági nyomozójaként dolgozott, a történet kezdetén azonban már próbaidős FBI-ügynökként próbálja újjáépíteni a karrierjét. Egy tekintélyes bíró gyanús halála vezeti el Catherine-hez, a több személyazonosság mögé rejtőző nőhöz, aki gondosan kialakított kapcsolatok segítségével férkőzik áldozatai közelébe. Catherine számára a csábítás nem egyszerűen eszköz, hanem egy aprólékosan felépített terv része. Felméri kiszemeltjei gyengeségeit, elnyeri a bizalmukat, majd saját elképzelése szerint szolgáltat igazságot. Alice egyre közelebb kerül hozzá, miközben azt is felismeri, hogy kettejük története és motivációi több ponton hasonlítanak egymásra.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "latest_season": 1,
-    "latest_episode": 7,
-    "seeders": 147
+    "seeders": 160
   },
   {
     "id": "tt12327578",
@@ -160,7 +179,25 @@
     ],
     "latest_season": 4,
     "latest_episode": 5,
-    "seeders": 439
+    "seeders": 509
+  },
+  {
+    "id": "tt27497393",
+    "type": "series",
+    "name": "Stuart az univerzum ellen (S01E05)",
+    "poster": "https://image.tmdb.org/t/p/w500/quXtOybflANIXUHR8MPmx3QLnNG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E05\n\nA képregénybolt tulajdonosára, Stuart Bloomra hárul a feladat, hogy helyreállítsa a valóságot, miután összetöri Sheldon és Leonard szerkezetét, és ezzel véletlenül egy multiverzumos Armageddont indít el. Küldetésében barátnője, Denise, geológus barátja, Bert, valamint a kvantumfizikus, és általában véve is idegesítő, Barry Kripke segíti.\n\n(Csillag Lajos)",
+    "imdbRating": 9.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": 1,
+    "latest_episode": 5,
+    "seeders": 379
   },
   {
     "id": "tt41588086",
@@ -177,7 +214,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 155
+    "seeders": 161
   },
   {
     "id": "tt29926954",
@@ -195,25 +232,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 28,
-    "seeders": 41
-  },
-  {
-    "id": "tt27497393",
-    "type": "series",
-    "name": "Stuart az univerzum ellen (S01E05)",
-    "poster": "https://image.tmdb.org/t/p/w500/quXtOybflANIXUHR8MPmx3QLnNG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E05\n\nA képregénybolt tulajdonosára, Stuart Bloomra hárul a feladat, hogy helyreállítsa a valóságot, miután összetöri Sheldon és Leonard szerkezetét, és ezzel véletlenül egy multiverzumos Armageddont indít el. Küldetésében barátnője, Denise, geológus barátja, Bert, valamint a kvantumfizikus, és általában véve is idegesítő, Barry Kripke segíti.\n\n(Csillag Lajos)",
-    "imdbRating": 9.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": 1,
-    "latest_episode": 5,
-    "seeders": 331
+    "seeders": 40
   },
   {
     "id": "tt40618611",
@@ -230,7 +249,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 65
+    "seeders": 73
   },
   {
     "id": "tt0118401",
@@ -252,25 +271,6 @@
     "seeders": 38
   },
   {
-    "id": "tt18546730",
-    "type": "series",
-    "name": "The Walking Dead: Dead City (S03E04)",
-    "poster": "https://image.tmdb.org/t/p/w500/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S03E04\n\nMaggie és Negan a poszt-apokaliptikus Manhattanbe utazik, amely már régen el van vágva a szárazföldtől. A város tele van halottakkal, akik kizsigerelték a várost, és már csak egy maroknyi túlélő tartja a frontot.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2023",
-    "genres": [
-      "Action & Adventure",
-      "Dráma",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": 3,
-    "latest_episode": 4,
-    "seeders": 255
-  },
-  {
     "id": "tt0167595",
     "type": "series",
     "name": "Frakk, a macskák réme",
@@ -286,24 +286,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 50
-  },
-  {
-    "id": "tt5210030",
-    "type": "series",
-    "name": "A kelták: vér, vas és áldozat",
-    "poster": "https://image.tmdb.org/t/p/w500/iRsIvqIIGNjFWbU1IXVH29vPRCk.jpg",
-    "posterShape": "poster",
-    "year": 2015,
-    "description": "A kelták hazája egykoron Spanyolországtól, Angliától és FranciaországtólSzlovéniáig és Anatóliáig terjedt. Napjainkban a régészet új eredményei sokkal pontosabb képet festenek a keltákról, akik csaknem ezer éven át nagyban meghatározták Európa történelmét, és folyamatos éberségre kényszerítették a rómaiakat. Az i. e. 1. században Európát vaskézzel uralták a kelták, Caesar pedig Galliába vonult, hogy uralma alá hajtsa a kelta törzseket - Vercingetorix, a kelta azonban egyesítette a keltákat a rómaiak ellen a hét éven át tartó háború idején. Ez és sok más ellencsapás - köztük az, amelyet Boudica királynő vezetett - nemcsak bemutatja a kelták és rómaiak közti harcok örökségét, melyek napjaink világát is formálták, hanem meg is ismerteti velünk Európának ezt a rejtélyes ősi népét.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2015",
-    "genres": [
-      "Dokumentum"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 124
+    "seeders": 55
   },
   {
     "id": "tt10293938",
@@ -321,7 +304,24 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 126
+    "seeders": 145
+  },
+  {
+    "id": "tt5210030",
+    "type": "series",
+    "name": "A kelták: vér, vas és áldozat",
+    "poster": "https://image.tmdb.org/t/p/w500/iRsIvqIIGNjFWbU1IXVH29vPRCk.jpg",
+    "posterShape": "poster",
+    "year": 2015,
+    "description": "A kelták hazája egykoron Spanyolországtól, Angliától és FranciaországtólSzlovéniáig és Anatóliáig terjedt. Napjainkban a régészet új eredményei sokkal pontosabb képet festenek a keltákról, akik csaknem ezer éven át nagyban meghatározták Európa történelmét, és folyamatos éberségre kényszerítették a rómaiakat. Az i. e. 1. században Európát vaskézzel uralták a kelták, Caesar pedig Galliába vonult, hogy uralma alá hajtsa a kelta törzseket - Vercingetorix, a kelta azonban egyesítette a keltákat a rómaiak ellen a hét éven át tartó háború idején. Ez és sok más ellencsapás - köztük az, amelyet Boudica királynő vezetett - nemcsak bemutatja a kelták és rómaiak közti harcok örökségét, melyek napjaink világát is formálták, hanem meg is ismerteti velünk Európának ezt a rejtélyes ősi népét.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2015",
+    "genres": [
+      "Dokumentum"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 133
   },
   {
     "id": "tt3640276",
@@ -340,7 +340,43 @@
     ],
     "latest_season": 11,
     "latest_episode": 1,
-    "seeders": 37
+    "seeders": 38
+  },
+  {
+    "id": "tt0108827",
+    "type": "series",
+    "name": "Kisváros",
+    "poster": "https://image.tmdb.org/t/p/w500/mrH2yr8feKGpdXpqBeRq3oQlLwc.jpg",
+    "posterShape": "poster",
+    "year": 1993,
+    "description": "A történet középpontjában egy, a valóságban nem létező határmenti kisváros, Végvár áll. Ebbe a városba érkezik Hunyadi főtörzs, hogy a Határőrség akciószázadát kiképezze. A sorozat a rendőrség és a határőrség határmenti bűncselekmények ügyében való nyomozások terén történő együttműködését mutatja be.",
+    "imdbRating": 6.8,
+    "releaseInfo": "1993",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 78
+  },
+  {
+    "id": "tt27543562",
+    "type": "series",
+    "name": "A szilánkok (S01E05)",
+    "poster": "https://image.tmdb.org/t/p/w500/lUterQApwdeYPC9AFUN6u5J2XGa.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E05\n\nA sorozat egy elit magángimnázium végzőseinek történetét követi, az 1980-as évek vibráló Los Angelesében, akik az amerikai kamaszkor fenyegető árnyai között az önazonosság, a szexualitás és a féltékenység útvesztőjében próbálnak eligazodni.  A történet az írói ambíciókat dédelgető, megfigyelő természetű Bret (Igby Rigney) körül forog, akinek alapjaiban változik meg a világképe a titokzatos és megnyerő Robert Mallory (Homer Gere) érkezésével. Robert, az új diák a végzős évben csatlakozik az osztályhoz, különös egybeeséssel a kegyetlen, város tinédzsereire vadászó sorozatgyilkos feltűnésével.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Rejtély"
+    ],
+    "latest_season": 1,
+    "latest_episode": 5,
+    "seeders": 94
   },
   {
     "id": "tt38939446",
@@ -359,60 +395,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 8,
-    "seeders": 30
-  },
-  {
-    "id": "tt0108827",
-    "type": "series",
-    "name": "Kisváros",
-    "poster": "https://image.tmdb.org/t/p/w500/mrH2yr8feKGpdXpqBeRq3oQlLwc.jpg",
-    "posterShape": "poster",
-    "year": 1993,
-    "description": "A történet középpontjában egy, a valóságban nem létező határmenti kisváros, Végvár áll. Ebbe a városba érkezik Hunyadi főtörzs, hogy a Határőrség akciószázadát kiképezze. A sorozat a rendőrség és a határőrség határmenti bűncselekmények ügyében való nyomozások terén történő együttműködését mutatja be.",
-    "imdbRating": 6.8,
-    "releaseInfo": "1993",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 70
-  },
-  {
-    "id": "tt27543562",
-    "type": "series",
-    "name": "A szilánkok (S01E05)",
-    "poster": "https://image.tmdb.org/t/p/w500/lUterQApwdeYPC9AFUN6u5J2XGa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E05\n\nA sorozat egy elit magángimnázium végzőseinek történetét követi, az 1980-as évek vibráló Los Angelesében, akik az amerikai kamaszkor fenyegető árnyai között az önazonosság, a szexualitás és a féltékenység útvesztőjében próbálnak eligazodni.  A történet az írói ambíciókat dédelgető, megfigyelő természetű Bret (Igby Rigney) körül forog, akinek alapjaiban változik meg a világképe a titokzatos és megnyerő Robert Mallory (Homer Gere) érkezésével. Robert, az új diák a végzős évben csatlakozik az osztályhoz, különös egybeeséssel a kegyetlen, város tinédzsereire vadászó sorozatgyilkos feltűnésével.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "latest_season": 1,
-    "latest_episode": 5,
-    "seeders": 89
-  },
-  {
-    "id": "tt41991040",
-    "type": "series",
-    "name": "9/11: Sorsok és találkozások",
-    "poster": "https://image.tmdb.org/t/p/w500/gRRbtlz7Lyygch0UOWr5Iso0LVk.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A háromrészes dokumentumsorozat a 2001. szeptember 11-i terrortámadások túlélőinek történeteit idézi fel, középpontba állítva azokat a váratlan, életmentő találkozásokat és mély emberi kötelékeket, amelyek a káosz és pusztítás óráiban születtek idegenek között. Huszonöt évvel később a sorozat újra összehozza ezeket az embereket, sokukat először azóta a nap óta, hogy köszönetet mondjanak egymásnak, választ kapjanak régen őrzött kérdéseikre, és szembenézzenek azzal, hogyan formálta át életüket a tragédia. A jelenkori találkozások és a támadások emberközpontú felidézése együtt rajzolnak meg egy megrendítő, mégis felemelő képet a veszteségről, a túlélésről, az emlékezetről és azokról a kapcsolódásokról, amelyek a történelem egyik legsötétebb napján is reményt adtak.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 44
+    "seeders": 31
   },
   {
     "id": "tt39305428",
@@ -429,7 +412,24 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 49
+    "seeders": 52
+  },
+  {
+    "id": "tt41991040",
+    "type": "series",
+    "name": "9/11: Sorsok és találkozások",
+    "poster": "https://image.tmdb.org/t/p/w500/gRRbtlz7Lyygch0UOWr5Iso0LVk.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A háromrészes dokumentumsorozat a 2001. szeptember 11-i terrortámadások túlélőinek történeteit idézi fel, középpontba állítva azokat a váratlan, életmentő találkozásokat és mély emberi kötelékeket, amelyek a káosz és pusztítás óráiban születtek idegenek között. Huszonöt évvel később a sorozat újra összehozza ezeket az embereket, sokukat először azóta a nap óta, hogy köszönetet mondjanak egymásnak, választ kapjanak régen őrzött kérdéseikre, és szembenézzenek azzal, hogyan formálta át életüket a tragédia. A jelenkori találkozások és a támadások emberközpontú felidézése együtt rajzolnak meg egy megrendítő, mégis felemelő képet a veszteségről, a túlélésről, az emlékezetről és azokról a kapcsolódásokról, amelyek a történelem egyik legsötétebb napján is reményt adtak.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 40
   },
   {
     "id": "tt23334036",
@@ -447,7 +447,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 61
+    "seeders": 66
   },
   {
     "id": "tt38672513",
@@ -467,7 +467,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 17
+    "seeders": 20
   },
   {
     "id": "tt1091909",
@@ -485,7 +485,7 @@
     ],
     "latest_season": 19,
     "latest_episode": 4,
-    "seeders": 33
+    "seeders": 37
   },
   {
     "id": "tt43661815",
@@ -502,27 +502,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 37
-  },
-  {
-    "id": "tt14060708",
-    "type": "series",
-    "name": "A renitens nyomoz",
-    "poster": "https://image.tmdb.org/t/p/w500/3iBKY2r0AEKO8mL77W7yrUacwb8.jpg",
-    "posterShape": "poster",
-    "year": 2021,
-    "description": "Morgane, a 160-as IQ-val rendelkező szingli családanya éjjeli takarítónőből előlép tanácsadóvá, amikor két söprés között könnyűszerrel megold egy rejtélyt a rendőrségen. A nagyszájú, de különleges képességekkel rendelkező Morgane azzal a feltétellel vállalja a rosszkedvű nyomozókkal közös munkát, hogy közben kutathat a gyermekei apja után, aki rejtélyes körülmények között nyomtalanul felszívódott.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2021",
-    "genres": [
-      "Vígjáték",
-      "Rejtély",
-      "Bűnügyi",
-      "Családi"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 62
+    "seeders": 35
   },
   {
     "id": "tt37090886",
@@ -540,6 +520,24 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 18
+    "seeders": 17
+  },
+  {
+    "id": "tt9892936",
+    "type": "series",
+    "name": "Száz év magány (S02E01)",
+    "poster": "https://image.tmdb.org/t/p/w500/jB5f2BmwKZ72fGVkRnUD21SEcGl.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "🆕 Legújabb epizód: S02E01\n\nGabriel García Márquez Nobel-díjas író irodalmi remekműve, a Száz év magány a Buendía család történetét meséli el, akiket őrület, lehetetlen szerelem, háború és egy átoktól való félelem gyötör, amely száz évre magányra ítéli őket a mitikus Macondo városában. Isten hozott a mitikus Macondóban, amely egy folyó partján fekvő húsz házból álló közösségből nőtte ki magát. Itt kelt életre a mágikus realizmus, és itt vette kezdetét a Buendía család története. Egy történet a lehetetlen szerelmek viszontagságairól, a lezárhatatlan múlttal való szembenézésről, valamint egy átokról.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": 2,
+    "latest_episode": 1,
+    "seeders": 53
   }
 ]
