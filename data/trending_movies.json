@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt31170389",
+    "type": "movie",
+    "name": "Gonosz halott: Égj!",
+    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 383
+  },
+  {
     "id": "tt28334938",
     "type": "movie",
     "name": "Clika",
@@ -13,22 +28,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 57
-  },
-  {
-    "id": "tt31170389",
-    "type": "movie",
-    "name": "Gonosz halott: Égj!",
-    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 305
+    "seeders": 73
   },
   {
     "id": "tt26657236",
@@ -45,7 +45,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1097
+    "seeders": 1310
   },
   {
     "id": "tt29355505",
@@ -63,7 +63,41 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 298
+    "seeders": 336
+  },
+  {
+    "id": "tt18259538",
+    "type": "movie",
+    "name": "Aang avatár: Az utolsó léghajlító",
+    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
+    "imdbRating": 9.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 395
+  },
+  {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 439
   },
   {
     "id": "tt32890033",
@@ -82,41 +116,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 290
-  },
-  {
-    "id": "tt18259538",
-    "type": "movie",
-    "name": "Aang avatár: Az utolsó léghajlító",
-    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
-    "imdbRating": 9.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 355
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 372
+    "seeders": 291
   },
   {
     "id": "tt39390497",
@@ -133,7 +133,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 301
+    "seeders": 360
   },
   {
     "id": "tt29028515",
@@ -150,7 +150,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 189
+    "seeders": 222
   },
   {
     "id": "tt39316472",
@@ -167,7 +167,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 737
+    "seeders": 870
   },
   {
     "id": "tt27047903",
@@ -184,7 +184,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 76
+    "seeders": 83
   },
   {
     "id": "tt34706535",
@@ -194,7 +194,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A feltételesen szabadlábra helyezett volt fegyencnek túl kell járnia a rendőrség eszén, hogy megszerezze a részesedését egy régi rablásból.",
-    "imdbRating": 6.6,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
@@ -202,7 +202,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 369
+    "seeders": 411
   },
   {
     "id": "tt32889884",
@@ -217,7 +217,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 138
+    "seeders": 152
   },
   {
     "id": "tt43475091",
@@ -232,7 +232,24 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 95
+    "seeders": 105
+  },
+  {
+    "id": "tt32268156",
+    "type": "movie",
+    "name": "Az utolsó ház",
+    "poster": "https://image.tmdb.org/t/p/w500/aXY6wjJqzsTMUhDk0xpS7SndnDs.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy négytagú család váratlanul a saját házába zárva találja magát kiút nélkül, és együtt kell működniük, hogy túléljék mind a fogyatkozó készleteiket, mind a rejtélyes, fenyegető erőt, amely csapdában tartja őket.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 447
   },
   {
     "id": "tt43689138",
@@ -250,24 +267,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 73
-  },
-  {
-    "id": "tt32268156",
-    "type": "movie",
-    "name": "Az utolsó ház",
-    "poster": "https://image.tmdb.org/t/p/w500/aXY6wjJqzsTMUhDk0xpS7SndnDs.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy négytagú család váratlanul a saját házába zárva találja magát kiút nélkül, és együtt kell működniük, hogy túléljék mind a fogyatkozó készleteiket, mind a rejtélyes, fenyegető erőt, amely csapdában tartja őket.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "seeders": 371
+    "seeders": 79
   },
   {
     "id": "tt36933402",
@@ -282,38 +282,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 333
-  },
-  {
-    "id": "tt40001699",
-    "type": "movie",
-    "name": "Tizenöt nap",
-    "poster": "https://image.tmdb.org/t/p/w500/gmCr40SuuLlTsYG5CbWg7AZhmhm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 100
-  },
-  {
-    "id": "tt10329560",
-    "type": "movie",
-    "name": "H, mint héja",
-    "poster": "https://image.tmdb.org/t/p/w500/eg301AEGyYX4gtc0A8DEXQ0VMhK.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 58
+    "seeders": 384
   },
   {
     "id": "tt30825738",
@@ -330,7 +299,38 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 126
+    "seeders": 150
+  },
+  {
+    "id": "tt40001699",
+    "type": "movie",
+    "name": "Tizenöt nap",
+    "poster": "https://image.tmdb.org/t/p/w500/gmCr40SuuLlTsYG5CbWg7AZhmhm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 113
+  },
+  {
+    "id": "tt10329560",
+    "type": "movie",
+    "name": "H, mint héja",
+    "poster": "https://image.tmdb.org/t/p/w500/eg301AEGyYX4gtc0A8DEXQ0VMhK.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 65
   },
   {
     "id": "tt15047880",
@@ -346,7 +346,26 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 141
+    "seeders": 160
+  },
+  {
+    "id": "tt6743524",
+    "type": "movie",
+    "name": "Rocktábor 3.",
+    "poster": "https://image.tmdb.org/t/p/w500/rS7byWK9cfPfdLeFNlRIaJxH9mN.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Vígjáték",
+      "Dráma",
+      "TV film",
+      "Romantikus"
+    ],
+    "seeders": 175
   },
   {
     "id": "tt28942997",
@@ -363,56 +382,7 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 66
-  },
-  {
-    "id": "tt6743524",
-    "type": "movie",
-    "name": "Rocktábor 3.",
-    "poster": "https://image.tmdb.org/t/p/w500/rS7byWK9cfPfdLeFNlRIaJxH9mN.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Vígjáték",
-      "Dráma",
-      "TV film",
-      "Romantikus"
-    ],
-    "seeders": 143
-  },
-  {
-    "id": "tt31948486",
-    "type": "movie",
-    "name": "Az élők harca",
-    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 65
-  },
-  {
-    "id": "tt39750720",
-    "type": "movie",
-    "name": "A Nong Chompoo-ügy: Az elfeledett lány",
-    "poster": "https://image.tmdb.org/t/p/w500/vKMQlsutWlEFt3yK9mPlaMWnwF7.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy fiatal lány nyomtalanul eltűnik egy eldugott faluból, a kétségbeesett rendőrségi hajtóvadászatból országos médiaszenzáció lesz. De vajon ki csinált egy feltételezett bűnözőből ünnepelt hírességet?",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 47
+    "seeders": 73
   },
   {
     "id": "tt8667404",
@@ -427,22 +397,37 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 47
+    "seeders": 54
   },
   {
-    "id": "tt43725831",
+    "id": "tt31948486",
     "type": "movie",
-    "name": "Jurassic cápák",
-    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+    "name": "Az élők harca",
+    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
-    "imdbRating": 6.5,
+    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 70
+  },
+  {
+    "id": "tt39750720",
+    "type": "movie",
+    "name": "A Nong Chompoo-ügy: Az elfeledett lány",
+    "poster": "https://image.tmdb.org/t/p/w500/vKMQlsutWlEFt3yK9mPlaMWnwF7.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy fiatal lány nyomtalanul eltűnik egy eldugott faluból, a kétségbeesett rendőrségi hajtóvadászatból országos médiaszenzáció lesz. De vajon ki csinált egy feltételezett bűnözőből ünnepelt hírességet?",
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 103
+    "seeders": 51
   },
   {
     "id": "tt32267711",
@@ -458,7 +443,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 123
+    "seeders": 143
   },
   {
     "id": "tt30343021",
@@ -475,7 +460,22 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 46
+    "seeders": 52
+  },
+  {
+    "id": "tt43725831",
+    "type": "movie",
+    "name": "Jurassic cápák",
+    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 108
   },
   {
     "id": "tt22872358",
@@ -490,6 +490,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 113
+    "seeders": 129
   }
 ]
