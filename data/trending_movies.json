@@ -6,14 +6,14 @@
     "poster": "https://image.tmdb.org/t/p/w500/i0doR7wsRtqDtnXN8kZPOrLNxF8.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A film két embermentő szakember körül forog, akiknek ki kell jelölniük a menekülési útvonalat egy vezető női tárgyaló számára.",
+    "description": "Egy elit ügynökökből álló titkos csapat az árnyékban él. Amikor egy könyörtelen zsarnok ellop egymilliárd dolláros vagyont, elküldik őket, hogy visszaszerezzék. Egy lehetetlen rablás, amely halálos stratégiai, megtévesztési és túlélési játszmába torkollik.",
     "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 1120
+    "seeders": 812
   },
   {
     "id": "tt31170389",
@@ -28,22 +28,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 637
-  },
-  {
-    "id": "tt43700434",
-    "type": "movie",
-    "name": "Untold: The Testimony of Vince Young",
-    "poster": "https://image.tmdb.org/t/p/w500/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 64
+    "seeders": 423
   },
   {
     "id": "tt26657236",
@@ -60,25 +45,22 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1783
+    "seeders": 1124
   },
   {
-    "id": "tt18259538",
+    "id": "tt43700434",
     "type": "movie",
-    "name": "Aang avatár: Az utolsó léghajlító",
-    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
+    "name": "Első kézből: Vince Young vallomása",
+    "poster": "https://image.tmdb.org/t/p/w500/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
-    "imdbRating": 9.2,
+    "description": "Miután a Rose Bowl történetének egyik legkiemelkedőbb teljesítményét nyújtotta, a Texas Longhorns legendája, Vince Young lett az NFL következő nagy reménysége – és egy ideig valóban az is volt. Ám a sérülésekkel, konfliktusokkal és váratlan veszteségekkel tarkított pályafutása jóval összetettebb történetet rejt, mint amit a leglátványosabb összefoglalók valaha is megmutattak.",
+    "imdbRating": 7.5,
     "releaseInfo": "2026",
     "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Fantasy"
+      "Dokumentum"
     ],
-    "seeders": 581
+    "seeders": 57
   },
   {
     "id": "tt29355505",
@@ -96,7 +78,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 450
+    "seeders": 345
   },
   {
     "id": "tt32890033",
@@ -115,7 +97,25 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 427
+    "seeders": 313
+  },
+  {
+    "id": "tt18259538",
+    "type": "movie",
+    "name": "Aang avatár: Az utolsó léghajlító",
+    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
+    "imdbRating": 9.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 363
   },
   {
     "id": "tt34471850",
@@ -131,12 +131,12 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 549
+    "seeders": 366
   },
   {
     "id": "tt28334938",
     "type": "movie",
-    "name": "Clika",
+    "name": "Klikk",
     "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
     "posterShape": "poster",
     "year": 2026,
@@ -147,7 +147,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 91
+    "seeders": 78
   },
   {
     "id": "tt39390497",
@@ -157,14 +157,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A történet két rendőrről szól, akik egy rutinellenőrzés során félreállítanak egy lopott autót, de hirtelen szemtől szemben találják magukat a világ egyik legveszélyesebb bűnözőjével.",
-    "imdbRating": 7.9,
+    "imdbRating": 8.3,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Akció",
       "Thriller"
     ],
-    "seeders": 527
+    "seeders": 332
   },
   {
     "id": "tt39316472",
@@ -181,7 +181,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 1269
+    "seeders": 799
   },
   {
     "id": "tt29028515",
@@ -198,7 +198,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 284
+    "seeders": 204
   },
   {
     "id": "tt27047903",
@@ -215,7 +215,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 98
+    "seeders": 79
   },
   {
     "id": "tt34706535",
@@ -233,7 +233,7 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 501
+    "seeders": 367
   },
   {
     "id": "tt32268156",
@@ -250,37 +250,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 609
-  },
-  {
-    "id": "tt36933402",
-    "type": "movie",
-    "name": "Ki hitte volna? 2.: Az esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 494
-  },
-  {
-    "id": "tt43475091",
-    "type": "movie",
-    "name": "Amikor anyu nyaralni megy",
-    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 125
+    "seeders": 371
   },
   {
     "id": "tt32889884",
@@ -295,7 +265,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 171
+    "seeders": 130
+  },
+  {
+    "id": "tt43475091",
+    "type": "movie",
+    "name": "Amikor anyu nyaralni megy",
+    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 95
   },
   {
     "id": "tt43689138",
@@ -313,23 +298,22 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 100
+    "seeders": 77
   },
   {
-    "id": "tt40001699",
+    "id": "tt36933402",
     "type": "movie",
-    "name": "Tizenöt nap",
-    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
+    "name": "Ki hitte volna? 2.: Az esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
-    "imdbRating": 7.1,
+    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
+    "imdbRating": 5.1,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Romantikus"
+      "Vígjáték"
     ],
-    "seeders": 141
+    "seeders": 324
   },
   {
     "id": "tt30825738",
@@ -346,7 +330,23 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 173
+    "seeders": 135
+  },
+  {
+    "id": "tt40001699",
+    "type": "movie",
+    "name": "Tizenöt nap",
+    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 99
   },
   {
     "id": "tt15047880",
@@ -362,7 +362,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 201
+    "seeders": 149
   },
   {
     "id": "tt6743524",
@@ -372,7 +372,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.4,
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Zenei",
@@ -381,7 +381,7 @@
       "TV film",
       "Romantikus"
     ],
-    "seeders": 229
+    "seeders": 146
   },
   {
     "id": "tt10329560",
@@ -393,6 +393,38 @@
     "description": "Édesapja elvesztése után Helent egy makacs héjával, Mabellel kötött szokatlan barátsága menti meg.",
     "imdbRating": 7.1,
     "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 54
+  },
+  {
+    "id": "tt28942997",
+    "type": "movie",
+    "name": "Mumbo Jumbo hatalmas kalandja",
+    "poster": "https://image.tmdb.org/t/p/w500/5F9Au0GRJvzoKHlllNiP4ycx6Th.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor a vidám kis víziló, Mumbo Jumbo véletlenül óriássá változik, az élete gyökeresen, és úgy tűnik, végleg, rossz irányt vesz. Mumbo kénytelen veszélyes útra indulni, hogy felkutasson egy kiszámíthatatlan boszorkányt. Szerencsére a legjobb barátai vele tartanak. A feladat így is szinte megoldhatatlan, de legalább együtt néznek szembe vele. Nem könnyű sem kis vízilónak, sem óriásnak lenni, és ha a visszaváltozás egy szókimondó, csintalan boszorkánnyal való együttműködésen múlik, bárki beláthatja, hogy ez komoly erőfeszítést igényel. Remélhetőleg Mumbo Jumbo az út során erős hitet alakít ki önmagában, különben a küldetés biztosan lehetetlennek bizonyul. (Csillag Lajos)",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Családi"
+    ],
+    "seeders": 61
+  },
+  {
+    "id": "tt31948486",
+    "type": "movie",
+    "name": "Az élők harca",
+    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
@@ -411,24 +443,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 151
-  },
-  {
-    "id": "tt28942997",
-    "type": "movie",
-    "name": "Mumbo Jumbo hatalmas kalandja",
-    "poster": "https://image.tmdb.org/t/p/w500/5F9Au0GRJvzoKHlllNiP4ycx6Th.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a vidám kis víziló, Mumbo Jumbo véletlenül óriássá változik, az élete gyökeresen, és úgy tűnik, végleg, rossz irányt vesz. Mumbo kénytelen veszélyes útra indulni, hogy felkutasson egy kiszámíthatatlan boszorkányt. Szerencsére a legjobb barátai vele tartanak. A feladat így is szinte megoldhatatlan, de legalább együtt néznek szembe vele. Nem könnyű sem kis vízilónak, sem óriásnak lenni, és ha a visszaváltozás egy szókimondó, csintalan boszorkánnyal való együttműködésen múlik, bárki beláthatja, hogy ez komoly erőfeszítést igényel. Remélhetőleg Mumbo Jumbo az út során erős hitet alakít ki önmagában, különben a küldetés biztosan lehetetlennek bizonyul. (Csillag Lajos)",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Családi"
-    ],
-    "seeders": 73
+    "seeders": 103
   },
   {
     "id": "tt32267711",
@@ -444,7 +459,22 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 159
+    "seeders": 122
+  },
+  {
+    "id": "tt8667404",
+    "type": "movie",
+    "name": "A víz kronológiája",
+    "poster": "https://image.tmdb.org/t/p/w500/9diHHw7zPhh2b0Mvocv0uRsPIFq.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Az erőszak és az alkohol árnyékában nevelkedő fiatal lány, Lidia küzd, hogy megtalálja a saját útját. Sikerül elmenekülnie családja elől, és bejut az egyetemre, ahol az irodalomban talál menedéket. Ahogy telik az idő, a szavak váratlan szabadsággal ajándékozzák meg.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 44
   },
   {
     "id": "tt22872358",
@@ -459,36 +489,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 150
-  },
-  {
-    "id": "tt31948486",
-    "type": "movie",
-    "name": "Az élők harca",
-    "poster": "https://image.tmdb.org/t/p/w500/l04B1hsz94w248AiNrnJwAcSFTT.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy vadóc birkózó tinilány álmai szertefoszlanak, amikor megszegi a szabályokat. Veterán, megözvegyült és lesérült birkózó apja az egyetlen segítsége.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 69
-  },
-  {
-    "id": "tt38662472",
-    "type": "movie",
-    "name": "A cimborám, a csaja és én",
-    "poster": "https://image.tmdb.org/t/p/w500/sWFzFNvqpas8y0BFSx0o7dURG8H.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Olli számára egy dolog világos: legjobb barátja, Matze fejét nyilvánvalóan elcsavarta új barátnője, Rebecca. A lány káros hatása nemcsak a barátságukat veszélyezteti, hanem mindenekelőtt azt a világ körüli utazást is, amelyet Olli és Matze már évek óta, a legapróbb részletekig megterveztek. Így hát csak egyetlen megoldás létezik: Rebeccát meg kell állítani! Olli barátjával, Schmittivel karöltve ellentámadásba lendül. Ám mindenki meglepetésére Rebeccának is vannak trükkjei. A csata kezdetét veszi...",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 123
+    "seeders": 115
   }
 ]
