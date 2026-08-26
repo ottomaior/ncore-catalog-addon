@@ -1,19 +1,36 @@
 [
   {
+    "id": "tt32565993",
+    "type": "movie",
+    "name": "Birkakrimi",
+    "poster": "https://image.tmdb.org/t/p/w500/9iBrvdvHV4EmtqtvDCJKX1Asv9Y.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy pásztor minden este hangosan felolvas egy bűnügyi történetet, azt színlelve, hogy a juhai megértik azt. Amikor holtan találják, a birkák azonnal ráébrednek, hogy gyilkosság történt és úgy gondolják, mindent tudnak arról, hogyan kell nekilátni a rejtély megoldásának.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Családi",
+      "Rejtély"
+    ],
+    "seeders": 65
+  },
+  {
     "id": "tt27681354",
     "type": "movie",
     "name": "Szürke zóna",
     "poster": "https://image.tmdb.org/t/p/w500/i0doR7wsRtqDtnXN8kZPOrLNxF8.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy elit ügynökökből álló titkos csapat az árnyékban él. Amikor egy könyörtelen zsarnok ellop egymilliárd dolláros vagyont, elküldik őket, hogy visszaszerezzék. Egy lehetetlen rablás, amely halálos stratégiai, megtévesztési és túlélési játszmába torkollik.",
+    "description": "Egy elit ügynökökből álló, titkos különítmény a háttérből mozgatja a szálakat. Amikor egy könyörtelen diktátor egymilliárd dolláros vagyont kaparint meg, őket vetik be a visszaszerzésére. A lehetetlennek tűnő akció gyorsan a stratégia, a megtévesztés és az életben maradás halálos játszmájává válik.",
     "imdbRating": 7.6,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 812
+    "seeders": 958
   },
   {
     "id": "tt31170389",
@@ -28,7 +45,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 423
+    "seeders": 490
   },
   {
     "id": "tt26657236",
@@ -45,22 +62,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1124
-  },
-  {
-    "id": "tt43700434",
-    "type": "movie",
-    "name": "Első kézből: Vince Young vallomása",
-    "poster": "https://image.tmdb.org/t/p/w500/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután a Rose Bowl történetének egyik legkiemelkedőbb teljesítményét nyújtotta, a Texas Longhorns legendája, Vince Young lett az NFL következő nagy reménysége – és egy ideig valóban az is volt. Ám a sérülésekkel, konfliktusokkal és váratlan veszteségekkel tarkított pályafutása jóval összetettebb történetet rejt, mint amit a leglátványosabb összefoglalók valaha is megmutattak.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 57
+    "seeders": 1302
   },
   {
     "id": "tt29355505",
@@ -78,7 +80,25 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 345
+    "seeders": 373
+  },
+  {
+    "id": "tt18259538",
+    "type": "movie",
+    "name": "Aang avatár: Az utolsó léghajlító",
+    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
+    "imdbRating": 9.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 397
   },
   {
     "id": "tt32890033",
@@ -97,25 +117,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 313
-  },
-  {
-    "id": "tt18259538",
-    "type": "movie",
-    "name": "Aang avatár: Az utolsó léghajlító",
-    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
-    "imdbRating": 9.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 363
+    "seeders": 341
   },
   {
     "id": "tt34471850",
@@ -131,23 +133,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 366
+    "seeders": 431
   },
   {
-    "id": "tt28334938",
+    "id": "tt43700434",
     "type": "movie",
-    "name": "Klikk",
-    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
+    "name": "Első kézből: Vince Young vallomása",
+    "poster": "https://image.tmdb.org/t/p/w500/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
-    "imdbRating": 8.2,
+    "description": "Miután a Rose Bowl történetének egyik legkiemelkedőbb teljesítményét nyújtotta, a Texas Longhorns legendája, Vince Young lett az NFL következő nagy reménysége – és egy ideig valóban az is volt. Ám a sérülésekkel, konfliktusokkal és váratlan veszteségekkel tarkított pályafutása jóval összetettebb történetet rejt, mint amit a leglátványosabb összefoglalók valaha is megmutattak.",
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
-      "Zenei",
-      "Dráma"
+      "Dokumentum"
     ],
-    "seeders": 78
+    "seeders": 63
   },
   {
     "id": "tt39390497",
@@ -164,7 +165,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 332
+    "seeders": 389
+  },
+  {
+    "id": "tt28334938",
+    "type": "movie",
+    "name": "Klikk",
+    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 82
   },
   {
     "id": "tt39316472",
@@ -181,7 +198,7 @@
       "Vígjáték",
       "Dokumentum"
     ],
-    "seeders": 799
+    "seeders": 897
   },
   {
     "id": "tt29028515",
@@ -198,24 +215,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 204
-  },
-  {
-    "id": "tt27047903",
-    "type": "movie",
-    "name": "Sikoly 7.",
-    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Bűnügyi"
-    ],
-    "seeders": 79
+    "seeders": 218
   },
   {
     "id": "tt34706535",
@@ -233,7 +233,24 @@
       "Bűnügyi",
       "Thriller"
     ],
-    "seeders": 367
+    "seeders": 403
+  },
+  {
+    "id": "tt27047903",
+    "type": "movie",
+    "name": "Sikoly 7.",
+    "poster": "https://image.tmdb.org/t/p/w500/9WhnX2bLuVzcYsSDg84SL0KwBTV.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy új Ghostface-jelmezt öltött gyilkos bukkan fel az álmos kisvárosban, ahol Sidney Prescott új életet kezdett, a nő legsötétebb rémálmai válnak valóra: lánya lesz a következő célpont. Sidney bármeddig hajlandó elmenni, hogy megvédje családját, így hát szembenéz a múltjában rejlő borzalmakkal, hogy egyszer s mindenkorra véget vessen a vérontásnak.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Bűnügyi"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt32268156",
@@ -250,22 +267,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 371
-  },
-  {
-    "id": "tt32889884",
-    "type": "movie",
-    "name": "Szabadesés: A Boeing a vádlottak padján",
-    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 130
+    "seeders": 434
   },
   {
     "id": "tt43475091",
@@ -280,7 +282,37 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 95
+    "seeders": 109
+  },
+  {
+    "id": "tt32889884",
+    "type": "movie",
+    "name": "Szabadesés: A Boeing a vádlottak padján",
+    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 140
+  },
+  {
+    "id": "tt36933402",
+    "type": "movie",
+    "name": "Ki hitte volna? 2.: Az esküvő",
+    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
+    "imdbRating": 5.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 374
   },
   {
     "id": "tt43689138",
@@ -298,22 +330,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 77
-  },
-  {
-    "id": "tt36933402",
-    "type": "movie",
-    "name": "Ki hitte volna? 2.: Az esküvő",
-    "poster": "https://image.tmdb.org/t/p/w500/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Az Alice és François esküvője előtt végzett DNS-vizsgálat kideríti, hogy apjuk – egy arisztokrata és egy autókereskedő – nem is olyan francia, mint gondolták. A büszke férfiak szenvedélyesen vállalják váratlan örökségüket.  (Szarka Károly)",
-    "imdbRating": 5.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 324
+    "seeders": 81
   },
   {
     "id": "tt30825738",
@@ -330,7 +347,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 135
+    "seeders": 154
   },
   {
     "id": "tt40001699",
@@ -346,7 +363,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 99
+    "seeders": 113
   },
   {
     "id": "tt15047880",
@@ -362,7 +379,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 149
+    "seeders": 163
   },
   {
     "id": "tt6743524",
@@ -381,7 +398,7 @@
       "TV film",
       "Romantikus"
     ],
-    "seeders": 146
+    "seeders": 165
   },
   {
     "id": "tt10329560",
@@ -413,7 +430,38 @@
       "Kaland",
       "Családi"
     ],
-    "seeders": 61
+    "seeders": 63
+  },
+  {
+    "id": "tt32267711",
+    "type": "movie",
+    "name": "Rufus, a legbátrabb tengeri szörny",
+    "poster": "https://image.tmdb.org/t/p/w500/bDcIyqs5SRtdfvWWoc6TWX14Arh.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Rufus a tengeri kígyók közösségében az egyetlen, aki nem tud úszni. Amikor azonban bekövetkezik a katasztrófa, és titkos szigetük védelemre szorul, Rufusnak szembe kell néznie legmélyebb félelmével, hogy megmentse a családját. (Csillag Lajos)",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 132
+  },
+  {
+    "id": "tt43725831",
+    "type": "movie",
+    "name": "Jurassic cápák",
+    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 108
   },
   {
     "id": "tt31948486",
@@ -431,52 +479,6 @@
     "seeders": 64
   },
   {
-    "id": "tt43725831",
-    "type": "movie",
-    "name": "Jurassic cápák",
-    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 103
-  },
-  {
-    "id": "tt32267711",
-    "type": "movie",
-    "name": "Rufus, a legbátrabb tengeri szörny",
-    "poster": "https://image.tmdb.org/t/p/w500/bDcIyqs5SRtdfvWWoc6TWX14Arh.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Rufus a tengeri kígyók közösségében az egyetlen, aki nem tud úszni. Amikor azonban bekövetkezik a katasztrófa, és titkos szigetük védelemre szorul, Rufusnak szembe kell néznie legmélyebb félelmével, hogy megmentse a családját. (Csillag Lajos)",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 122
-  },
-  {
-    "id": "tt8667404",
-    "type": "movie",
-    "name": "A víz kronológiája",
-    "poster": "https://image.tmdb.org/t/p/w500/9diHHw7zPhh2b0Mvocv0uRsPIFq.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Az erőszak és az alkohol árnyékában nevelkedő fiatal lány, Lidia küzd, hogy megtalálja a saját útját. Sikerül elmenekülnie családja elől, és bejut az egyetemre, ahol az irodalomban talál menedéket. Ahogy telik az idő, a szavak váratlan szabadsággal ajándékozzák meg.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 44
-  },
-  {
     "id": "tt22872358",
     "type": "movie",
     "name": "A hangmester",
@@ -489,6 +491,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 115
+    "seeders": 126
   }
 ]
