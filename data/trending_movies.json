@@ -14,7 +14,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 871
+    "seeders": 1240
   },
   {
     "id": "tt27681354",
@@ -30,7 +30,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1376
+    "seeders": 1862
   },
   {
     "id": "tt19838566",
@@ -47,7 +47,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 590
+    "seeders": 788
   },
   {
     "id": "tt37275992",
@@ -57,14 +57,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
-    "imdbRating": 6.3,
+    "imdbRating": 6.5,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 278
+    "seeders": 335
   },
   {
     "id": "tt31170389",
@@ -79,7 +79,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 560
+    "seeders": 824
   },
   {
     "id": "tt26657236",
@@ -96,7 +96,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1174
+    "seeders": 1606
   },
   {
     "id": "tt37654096",
@@ -112,41 +112,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 297
-  },
-  {
-    "id": "tt32298285",
-    "type": "movie",
-    "name": "Tánc a sivatagban",
-    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 137
-  },
-  {
-    "id": "tt29355505",
-    "type": "movie",
-    "name": "Toy Story 5.",
-    "poster": "https://image.tmdb.org/t/p/w500/2Dib7rMctmMthKo75lhs3jtvqUo.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Vígjáték",
-      "Kaland"
-    ],
-    "seeders": 657
+    "seeders": 372
   },
   {
     "id": "tt18259538",
@@ -164,7 +130,41 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 434
+    "seeders": 631
+  },
+  {
+    "id": "tt29355505",
+    "type": "movie",
+    "name": "Toy Story 5.",
+    "poster": "https://image.tmdb.org/t/p/w500/2Dib7rMctmMthKo75lhs3jtvqUo.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Vígjáték",
+      "Kaland"
+    ],
+    "seeders": 888
+  },
+  {
+    "id": "tt32298285",
+    "type": "movie",
+    "name": "Tánc a sivatagban",
+    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 161
   },
   {
     "id": "tt32890033",
@@ -183,7 +183,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 383
+    "seeders": 482
   },
   {
     "id": "tt34471850",
@@ -199,7 +199,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 416
+    "seeders": 525
+  },
+  {
+    "id": "tt39390497",
+    "type": "movie",
+    "name": "Szemtől szemben El Chapóval",
+    "poster": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A történet két rendőrről szól, akik egy rutinellenőrzés során félreállítanak egy lopott autót, de hirtelen szemtől szemben találják magukat a világ egyik legveszélyesebb bűnözőjével.",
+    "imdbRating": 8.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 491
   },
   {
     "id": "tt32323252",
@@ -215,24 +232,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 110
-  },
-  {
-    "id": "tt39390497",
-    "type": "movie",
-    "name": "Szemtől szemben El Chapóval",
-    "poster": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet két rendőrről szól, akik egy rutinellenőrzés során félreállítanak egy lopott autót, de hirtelen szemtől szemben találják magukat a világ egyik legveszélyesebb bűnözőjével.",
-    "imdbRating": 8.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 363
+    "seeders": 119
   },
   {
     "id": "tt29028515",
@@ -249,7 +249,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 217
+    "seeders": 284
   },
   {
     "id": "tt32565993",
@@ -266,25 +266,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 91
-  },
-  {
-    "id": "tt34706535",
-    "type": "movie",
-    "name": "A vakmerő",
-    "poster": "https://image.tmdb.org/t/p/w500/7rSDbXJHMtonkrSVT2ROWH6Odta.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A feltételesen szabadlábra helyezett volt fegyencnek túl kell járnia a rendőrség eszén, hogy megszerezze a részesedését egy régi rablásból.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Vígjáték",
-      "Bűnügyi",
-      "Thriller"
-    ],
-    "seeders": 372
+    "seeders": 118
   },
   {
     "id": "tt35672862",
@@ -299,7 +281,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 52
+    "seeders": 60
   },
   {
     "id": "tt27047903",
@@ -316,7 +298,23 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 203
+    "seeders": 270
+  },
+  {
+    "id": "tt15047880",
+    "type": "movie",
+    "name": "A leleplezés napja",
+    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "seeders": 201
   },
   {
     "id": "tt30825738",
@@ -333,53 +331,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 137
-  },
-  {
-    "id": "tt15047880",
-    "type": "movie",
-    "name": "A leleplezés napja",
-    "poster": "https://image.tmdb.org/t/p/w500/d7HowAWxG2TOPCkbIjk9gmHz7oC.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Te hogy éreznéd magad, ha kiderülne, hogy nem vagyunk egyedül az univerzumban? Ha megtudnád, hogy nem vagyunk egyedül, ha valaki megmutatná, bebizonyítaná neked, az megrémítene? Nyáron az igazság feltárul hétmilliárd embernek. Közeledik… A leleplezés napja.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Thriller"
-    ],
-    "seeders": 150
-  },
-  {
-    "id": "tt32889884",
-    "type": "movie",
-    "name": "Szabadesés: A Boeing a vádlottak padján",
-    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 111
-  },
-  {
-    "id": "tt43475091",
-    "type": "movie",
-    "name": "Amikor anyu nyaralni megy",
-    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 88
+    "seeders": 167
   },
   {
     "id": "tt6743524",
@@ -397,38 +349,37 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 152
+    "seeders": 203
   },
   {
-    "id": "tt28334938",
+    "id": "tt32889884",
     "type": "movie",
-    "name": "Klikk",
-    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
+    "name": "Szabadesés: A Boeing a vádlottak padján",
+    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 48
-  },
-  {
-    "id": "tt43700434",
-    "type": "movie",
-    "name": "Első kézből: Vince Young vallomása",
-    "poster": "https://image.tmdb.org/t/p/w500/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután a Rose Bowl történetének egyik legkiemelkedőbb teljesítményét nyújtotta, a Texas Longhorns legendája, Vince Young lett az NFL következő nagy reménysége – és egy ideig valóban az is volt. Ám a sérülésekkel, konfliktusokkal és váratlan veszteségekkel tarkított pályafutása jóval összetettebb történetet rejt, mint amit a leglátványosabb összefoglalók valaha is megmutattak.",
-    "imdbRating": 6.8,
+    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 39
+    "seeders": 130
+  },
+  {
+    "id": "tt43475091",
+    "type": "movie",
+    "name": "Amikor anyu nyaralni megy",
+    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 109
   },
   {
     "id": "tt40001699",
@@ -444,7 +395,23 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 90
+    "seeders": 128
+  },
+  {
+    "id": "tt28334938",
+    "type": "movie",
+    "name": "Klikk",
+    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 54
   },
   {
     "id": "tt43689138",
@@ -462,7 +429,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 70
+    "seeders": 86
   },
   {
     "id": "tt32267711",
@@ -478,7 +445,22 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 128
+    "seeders": 158
+  },
+  {
+    "id": "tt43700434",
+    "type": "movie",
+    "name": "Első kézből: Vince Young vallomása",
+    "poster": "https://image.tmdb.org/t/p/w500/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután a Rose Bowl történetének egyik legkiemelkedőbb teljesítményét nyújtotta, a Texas Longhorns legendája, Vince Young lett az NFL következő nagy reménysége – és egy ideig valóban az is volt. Ám a sérülésekkel, konfliktusokkal és váratlan veszteségekkel tarkított pályafutása jóval összetettebb történetet rejt, mint amit a leglátványosabb összefoglalók valaha is megmutattak.",
+    "imdbRating": 6.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 43
   },
   {
     "id": "tt43725831",
@@ -493,6 +475,21 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 105
+    "seeders": 130
+  },
+  {
+    "id": "tt22872358",
+    "type": "movie",
+    "name": "A hangmester",
+    "poster": "https://image.tmdb.org/t/p/w500/w9ABJjQhV8nuLOerMb1t4hjG9hy.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 142
   }
 ]
