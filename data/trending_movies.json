@@ -14,7 +14,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1424
+    "seeders": 1168
   },
   {
     "id": "tt27681354",
@@ -30,7 +30,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2054
+    "seeders": 1683
   },
   {
     "id": "tt19838566",
@@ -47,7 +47,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 864
+    "seeders": 731
   },
   {
     "id": "tt37275992",
@@ -57,29 +57,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
       "Dráma",
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 370
-  },
-  {
-    "id": "tt31170389",
-    "type": "movie",
-    "name": "Gonosz halott: Égj!",
-    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 879
+    "seeders": 300
   },
   {
     "id": "tt26657236",
@@ -96,7 +81,22 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1779
+    "seeders": 1433
+  },
+  {
+    "id": "tt31170389",
+    "type": "movie",
+    "name": "Gonosz halott: Égj!",
+    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 681
   },
   {
     "id": "tt37654096",
@@ -112,25 +112,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 402
-  },
-  {
-    "id": "tt18259538",
-    "type": "movie",
-    "name": "Aang avatár: Az utolsó léghajlító",
-    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
-    "imdbRating": 9.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 688
+    "seeders": 324
   },
   {
     "id": "tt29355505",
@@ -148,7 +130,25 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 989
+    "seeders": 833
+  },
+  {
+    "id": "tt18259538",
+    "type": "movie",
+    "name": "Aang avatár: Az utolsó léghajlító",
+    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
+    "imdbRating": 9.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 540
   },
   {
     "id": "tt32890033",
@@ -167,7 +167,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 542
+    "seeders": 458
   },
   {
     "id": "tt32298285",
@@ -183,7 +183,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 169
+    "seeders": 151
   },
   {
     "id": "tt34471850",
@@ -199,7 +199,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 549
+    "seeders": 439
   },
   {
     "id": "tt39390497",
@@ -216,7 +216,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 525
+    "seeders": 428
   },
   {
     "id": "tt32323252",
@@ -232,7 +232,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 121
+    "seeders": 117
   },
   {
     "id": "tt29028515",
@@ -249,7 +249,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 302
+    "seeders": 247
   },
   {
     "id": "tt32565993",
@@ -266,7 +266,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 117
+    "seeders": 100
   },
   {
     "id": "tt35672862",
@@ -281,7 +281,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 64
+    "seeders": 56
   },
   {
     "id": "tt27047903",
@@ -298,7 +298,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 276
+    "seeders": 224
   },
   {
     "id": "tt15047880",
@@ -314,7 +314,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 218
+    "seeders": 183
   },
   {
     "id": "tt30825738",
@@ -331,7 +331,22 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 174
+    "seeders": 160
+  },
+  {
+    "id": "tt32889884",
+    "type": "movie",
+    "name": "Szabadesés: A Boeing a vádlottak padján",
+    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 122
   },
   {
     "id": "tt6743524",
@@ -349,22 +364,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 209
-  },
-  {
-    "id": "tt32889884",
-    "type": "movie",
-    "name": "Szabadesés: A Boeing a vádlottak padján",
-    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 141
+    "seeders": 169
   },
   {
     "id": "tt43475091",
@@ -379,7 +379,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 119
+    "seeders": 99
   },
   {
     "id": "tt40001699",
@@ -395,7 +395,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 128
+    "seeders": 104
   },
   {
     "id": "tt43689138",
@@ -413,23 +413,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 99
-  },
-  {
-    "id": "tt32267711",
-    "type": "movie",
-    "name": "Rufus, a legbátrabb tengeri szörny",
-    "poster": "https://image.tmdb.org/t/p/w500/bDcIyqs5SRtdfvWWoc6TWX14Arh.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Rufus a tengeri kígyók közösségében az egyetlen, aki nem tud úszni. Amikor azonban bekövetkezik a katasztrófa, és titkos szigetük védelemre szorul, Rufusnak szembe kell néznie legmélyebb félelmével, hogy megmentse a családját. (Csillag Lajos)",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi"
-    ],
-    "seeders": 168
+    "seeders": 80
   },
   {
     "id": "tt28334938",
@@ -445,22 +429,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 55
-  },
-  {
-    "id": "tt43725831",
-    "type": "movie",
-    "name": "Jurassic cápák",
-    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 141
+    "seeders": 51
   },
   {
     "id": "tt43700434",
@@ -475,7 +444,38 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 45
+    "seeders": 44
+  },
+  {
+    "id": "tt32267711",
+    "type": "movie",
+    "name": "Rufus, a legbátrabb tengeri szörny",
+    "poster": "https://image.tmdb.org/t/p/w500/bDcIyqs5SRtdfvWWoc6TWX14Arh.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Rufus a tengeri kígyók közösségében az egyetlen, aki nem tud úszni. Amikor azonban bekövetkezik a katasztrófa, és titkos szigetük védelemre szorul, Rufusnak szembe kell néznie legmélyebb félelmével, hogy megmentse a családját. (Csillag Lajos)",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi"
+    ],
+    "seeders": 140
+  },
+  {
+    "id": "tt43725831",
+    "type": "movie",
+    "name": "Jurassic cápák",
+    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 116
   },
   {
     "id": "tt22872358",
@@ -490,6 +490,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 149
+    "seeders": 130
   }
 ]
