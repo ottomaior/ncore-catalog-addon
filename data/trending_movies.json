@@ -14,7 +14,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 986
+    "seeders": 1303
   },
   {
     "id": "tt27681354",
@@ -30,7 +30,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1401
+    "seeders": 1739
   },
   {
     "id": "tt19838566",
@@ -47,24 +47,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 603
-  },
-  {
-    "id": "tt37275992",
-    "type": "movie",
-    "name": "Kétség",
-    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Rejtély"
-    ],
-    "seeders": 270
+    "seeders": 743
   },
   {
     "id": "tt26657236",
@@ -81,7 +64,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1127
+    "seeders": 1472
   },
   {
     "id": "tt31170389",
@@ -96,7 +79,24 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 569
+    "seeders": 708
+  },
+  {
+    "id": "tt37275992",
+    "type": "movie",
+    "name": "Kétség",
+    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Rejtély"
+    ],
+    "seeders": 313
   },
   {
     "id": "tt37654096",
@@ -112,7 +112,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 272
+    "seeders": 344
   },
   {
     "id": "tt29355505",
@@ -130,7 +130,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 694
+    "seeders": 847
   },
   {
     "id": "tt18259538",
@@ -148,7 +148,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 428
+    "seeders": 577
   },
   {
     "id": "tt32890033",
@@ -167,7 +167,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 383
+    "seeders": 467
   },
   {
     "id": "tt34471850",
@@ -183,23 +183,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 381
-  },
-  {
-    "id": "tt32298285",
-    "type": "movie",
-    "name": "Tánc a sivatagban",
-    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 127
+    "seeders": 457
   },
   {
     "id": "tt39390497",
@@ -216,7 +200,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 342
+    "seeders": 446
+  },
+  {
+    "id": "tt32298285",
+    "type": "movie",
+    "name": "Tánc a sivatagban",
+    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 126
   },
   {
     "id": "tt32323252",
@@ -232,7 +232,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 104
+    "seeders": 106
   },
   {
     "id": "tt29028515",
@@ -249,7 +249,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 189
+    "seeders": 238
   },
   {
     "id": "tt32565993",
@@ -266,22 +266,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 96
-  },
-  {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 51
+    "seeders": 111
   },
   {
     "id": "tt27047903",
@@ -298,7 +283,22 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 195
+    "seeders": 233
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 57
   },
   {
     "id": "tt15047880",
@@ -314,7 +314,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 153
+    "seeders": 185
   },
   {
     "id": "tt30825738",
@@ -331,7 +331,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 133
+    "seeders": 162
   },
   {
     "id": "tt32889884",
@@ -346,7 +346,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 114
+    "seeders": 135
   },
   {
     "id": "tt6743524",
@@ -364,7 +364,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 140
+    "seeders": 180
   },
   {
     "id": "tt43475091",
@@ -379,7 +379,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 82
+    "seeders": 101
   },
   {
     "id": "tt43689138",
@@ -397,7 +397,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 75
+    "seeders": 84
   },
   {
     "id": "tt40001699",
@@ -413,7 +413,7 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 91
+    "seeders": 103
   },
   {
     "id": "tt32267711",
@@ -429,7 +429,7 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 134
+    "seeders": 147
   },
   {
     "id": "tt28334938",
@@ -445,7 +445,7 @@
       "Zenei",
       "Dráma"
     ],
-    "seeders": 47
+    "seeders": 51
   },
   {
     "id": "tt43700434",
@@ -460,22 +460,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 39
-  },
-  {
-    "id": "tt22872358",
-    "type": "movie",
-    "name": "A hangmester",
-    "poster": "https://image.tmdb.org/t/p/w500/w9ABJjQhV8nuLOerMb1t4hjG9hy.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 115
+    "seeders": 45
   },
   {
     "id": "tt43725831",
@@ -490,6 +475,21 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 93
+    "seeders": 118
+  },
+  {
+    "id": "tt22872358",
+    "type": "movie",
+    "name": "A hangmester",
+    "poster": "https://image.tmdb.org/t/p/w500/w9ABJjQhV8nuLOerMb1t4hjG9hy.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1940 májusában, a háború árnyékában, Brüsszel legendás Flagey épületében, a belga nemzeti rádió központjában találkozik Berre, a hangok világába zárkózó, különleges hallású fiatal gyakornok, és Elza, a rádiójátékokban első lépéseit tevő, tehetséges színésznő. Amikor Berre váratlanul lehetőséget kap, hogy élő adásokhoz készítsen hangeffektusokat, kibontakozik rendkívüli érzéke a hangteremtéshez, miközben Elzával egyre mélyebb kapcsolat alakul ki közöttük. Szerelmük a rádió varázslatos, képzelettel teli világában születik meg, de a közelgő német invázió, a növekvő félelem és Elza zsidó származása mind fenyegetik közös jövőjüket. A történet a szerelemről, az alkotás erejéről és az emberség megőrzéséről szól egy olyan korban, amikor a világ épp elveszíteni készül ártatlanságát.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 132
   }
 ]
