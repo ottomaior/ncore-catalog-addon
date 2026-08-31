@@ -14,7 +14,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1168
+    "seeders": 986
   },
   {
     "id": "tt27681354",
@@ -30,7 +30,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1683
+    "seeders": 1401
   },
   {
     "id": "tt19838566",
@@ -47,7 +47,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 731
+    "seeders": 603
   },
   {
     "id": "tt37275992",
@@ -64,7 +64,7 @@
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 300
+    "seeders": 270
   },
   {
     "id": "tt26657236",
@@ -81,7 +81,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1433
+    "seeders": 1127
   },
   {
     "id": "tt31170389",
@@ -96,7 +96,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 681
+    "seeders": 569
   },
   {
     "id": "tt37654096",
@@ -112,7 +112,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 324
+    "seeders": 272
   },
   {
     "id": "tt29355505",
@@ -130,7 +130,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 833
+    "seeders": 694
   },
   {
     "id": "tt18259538",
@@ -148,7 +148,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 540
+    "seeders": 428
   },
   {
     "id": "tt32890033",
@@ -167,23 +167,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 458
-  },
-  {
-    "id": "tt32298285",
-    "type": "movie",
-    "name": "Tánc a sivatagban",
-    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 151
+    "seeders": 383
   },
   {
     "id": "tt34471850",
@@ -199,7 +183,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 439
+    "seeders": 381
+  },
+  {
+    "id": "tt32298285",
+    "type": "movie",
+    "name": "Tánc a sivatagban",
+    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 127
   },
   {
     "id": "tt39390497",
@@ -216,7 +216,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 428
+    "seeders": 342
   },
   {
     "id": "tt32323252",
@@ -232,7 +232,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 117
+    "seeders": 104
   },
   {
     "id": "tt29028515",
@@ -249,7 +249,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 247
+    "seeders": 189
   },
   {
     "id": "tt32565993",
@@ -266,7 +266,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 100
+    "seeders": 96
   },
   {
     "id": "tt35672862",
@@ -281,7 +281,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 56
+    "seeders": 51
   },
   {
     "id": "tt27047903",
@@ -298,7 +298,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 224
+    "seeders": 195
   },
   {
     "id": "tt15047880",
@@ -314,7 +314,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 183
+    "seeders": 153
   },
   {
     "id": "tt30825738",
@@ -331,7 +331,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 160
+    "seeders": 133
   },
   {
     "id": "tt32889884",
@@ -341,12 +341,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 122
+    "seeders": 114
   },
   {
     "id": "tt6743524",
@@ -364,7 +364,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 169
+    "seeders": 140
   },
   {
     "id": "tt43475091",
@@ -379,23 +379,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 99
-  },
-  {
-    "id": "tt40001699",
-    "type": "movie",
-    "name": "Tizenöt nap",
-    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus"
-    ],
-    "seeders": 104
+    "seeders": 82
   },
   {
     "id": "tt43689138",
@@ -413,38 +397,23 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 80
+    "seeders": 75
   },
   {
-    "id": "tt28334938",
+    "id": "tt40001699",
     "type": "movie",
-    "name": "Klikk",
-    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
+    "name": "Tizenöt nap",
+    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
-    "imdbRating": 8.2,
+    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
+    "imdbRating": 7.4,
     "releaseInfo": "2026",
     "genres": [
-      "Zenei",
-      "Dráma"
+      "Vígjáték",
+      "Romantikus"
     ],
-    "seeders": 51
-  },
-  {
-    "id": "tt43700434",
-    "type": "movie",
-    "name": "Első kézből: Vince Young vallomása",
-    "poster": "https://image.tmdb.org/t/p/w500/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután a Rose Bowl történetének egyik legkiemelkedőbb teljesítményét nyújtotta, a Texas Longhorns legendája, Vince Young lett az NFL következő nagy reménysége – és egy ideig valóban az is volt. Ám a sérülésekkel, konfliktusokkal és váratlan veszteségekkel tarkított pályafutása jóval összetettebb történetet rejt, mint amit a leglátványosabb összefoglalók valaha is megmutattak.",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 44
+    "seeders": 91
   },
   {
     "id": "tt32267711",
@@ -460,22 +429,38 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 140
+    "seeders": 134
   },
   {
-    "id": "tt43725831",
+    "id": "tt28334938",
     "type": "movie",
-    "name": "Jurassic cápák",
-    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+    "name": "Klikk",
+    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
-    "imdbRating": 6.5,
+    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 47
+  },
+  {
+    "id": "tt43700434",
+    "type": "movie",
+    "name": "Első kézből: Vince Young vallomása",
+    "poster": "https://image.tmdb.org/t/p/w500/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután a Rose Bowl történetének egyik legkiemelkedőbb teljesítményét nyújtotta, a Texas Longhorns legendája, Vince Young lett az NFL következő nagy reménysége – és egy ideig valóban az is volt. Ám a sérülésekkel, konfliktusokkal és váratlan veszteségekkel tarkított pályafutása jóval összetettebb történetet rejt, mint amit a leglátványosabb összefoglalók valaha is megmutattak.",
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 116
+    "seeders": 39
   },
   {
     "id": "tt22872358",
@@ -490,6 +475,21 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 130
+    "seeders": 115
+  },
+  {
+    "id": "tt43725831",
+    "type": "movie",
+    "name": "Jurassic cápák",
+    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 93
   }
 ]
