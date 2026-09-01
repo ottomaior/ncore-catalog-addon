@@ -1,5 +1,38 @@
 [
   {
+    "id": "tt11561116",
+    "type": "movie",
+    "name": "A Suttogó",
+    "poster": "https://image.tmdb.org/t/p/w500/c8IOnjA3Ihj9beT9s0TupTucORg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor kisfia eltűnik, egy özvegy az ügyben is érintett sorozatgyilkost börtönbe juttató, elhidegült apjához fordul segítségért.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 944
+  },
+  {
+    "id": "tt27681354",
+    "type": "movie",
+    "name": "Szürke zóna",
+    "poster": "https://image.tmdb.org/t/p/w500/i0doR7wsRtqDtnXN8kZPOrLNxF8.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy elit ügynökökből álló, titkos különítmény a háttérből mozgatja a szálakat. Amikor egy könyörtelen diktátor egymilliárd dolláros vagyont kaparint meg, őket vetik be a visszaszerzésére. A lehetetlennek tűnő akció gyorsan a stratégia, a megtévesztés és az életben maradás halálos játszmájává válik.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 1364
+  },
+  {
     "id": "tt32890033",
     "type": "movie",
     "name": "Minyonok és szörnyek",
@@ -16,40 +49,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt11561116",
-    "type": "movie",
-    "name": "A Suttogó",
-    "poster": "https://image.tmdb.org/t/p/w500/c8IOnjA3Ihj9beT9s0TupTucORg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor kisfia eltűnik, egy özvegy az ügyben is érintett sorozatgyilkost börtönbe juttató, elhidegült apjához fordul segítségért.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 967
-  },
-  {
-    "id": "tt27681354",
-    "type": "movie",
-    "name": "Szürke zóna",
-    "poster": "https://image.tmdb.org/t/p/w500/i0doR7wsRtqDtnXN8kZPOrLNxF8.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy elit ügynökökből álló, titkos különítmény a háttérből mozgatja a szálakat. Amikor egy könyörtelen diktátor egymilliárd dolláros vagyont kaparint meg, őket vetik be a visszaszerzésére. A lehetetlennek tűnő akció gyorsan a stratégia, a megtévesztés és az életben maradás halálos játszmájává válik.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 1395
+    "seeders": 82
   },
   {
     "id": "tt19838566",
@@ -66,7 +66,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 613
+    "seeders": 564
   },
   {
     "id": "tt26657236",
@@ -83,7 +83,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1149
+    "seeders": 1091
   },
   {
     "id": "tt31170389",
@@ -98,7 +98,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 550
+    "seeders": 522
   },
   {
     "id": "tt37275992",
@@ -115,7 +115,7 @@
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 246
+    "seeders": 238
   },
   {
     "id": "tt29355505",
@@ -133,7 +133,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 673
+    "seeders": 649
   },
   {
     "id": "tt37654096",
@@ -143,13 +143,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
-    "imdbRating": 6.9,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 267
+    "seeders": 257
   },
   {
     "id": "tt18259538",
@@ -167,7 +167,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 435
+    "seeders": 393
   },
   {
     "id": "tt34471850",
@@ -183,7 +183,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 370
+    "seeders": 342
   },
   {
     "id": "tt39390497",
@@ -193,14 +193,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A történet két rendőrről szól, akik egy rutinellenőrzés során félreállítanak egy lopott autót, de hirtelen szemtől szemben találják magukat a világ egyik legveszélyesebb bűnözőjével.",
-    "imdbRating": 8.8,
+    "imdbRating": 8.9,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Akció",
       "Thriller"
     ],
-    "seeders": 336
+    "seeders": 317
   },
   {
     "id": "tt32298285",
@@ -210,13 +210,13 @@
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
-    "imdbRating": 6.9,
+    "imdbRating": 6.8,
     "releaseInfo": "2025",
     "genres": [
       "Dráma",
       "Thriller"
     ],
-    "seeders": 124
+    "seeders": 116
   },
   {
     "id": "tt32323252",
@@ -232,7 +232,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 87
+    "seeders": 84
   },
   {
     "id": "tt29028515",
@@ -249,7 +249,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 190
+    "seeders": 180
   },
   {
     "id": "tt32565993",
@@ -266,7 +266,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 95
+    "seeders": 85
   },
   {
     "id": "tt27047903",
@@ -283,7 +283,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 195
+    "seeders": 186
   },
   {
     "id": "tt35672862",
@@ -298,7 +298,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 55
+    "seeders": 45
   },
   {
     "id": "tt15047880",
@@ -314,7 +314,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 149
+    "seeders": 143
   },
   {
     "id": "tt30825738",
@@ -331,7 +331,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 129
+    "seeders": 127
   },
   {
     "id": "tt32889884",
@@ -346,7 +346,22 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 110
+    "seeders": 107
+  },
+  {
+    "id": "tt43475091",
+    "type": "movie",
+    "name": "Amikor anyu nyaralni megy",
+    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt6743524",
@@ -364,37 +379,6 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 142
-  },
-  {
-    "id": "tt43475091",
-    "type": "movie",
-    "name": "Amikor anyu nyaralni megy",
-    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 86
-  },
-  {
-    "id": "tt32267711",
-    "type": "movie",
-    "name": "Rufus, a legbátrabb tengeri szörny",
-    "poster": "https://image.tmdb.org/t/p/w500/bDcIyqs5SRtdfvWWoc6TWX14Arh.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Rufus a tengeri kígyók közösségében az egyetlen, aki nem tud úszni. Amikor azonban bekövetkezik a katasztrófa, és titkos szigetük védelemre szorul, Rufusnak szembe kell néznie legmélyebb félelmével, hogy megmentse a családját. (Csillag Lajos)",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi"
-    ],
     "seeders": 127
   },
   {
@@ -411,23 +395,23 @@
       "Vígjáték",
       "Romantikus"
     ],
-    "seeders": 86
+    "seeders": 89
   },
   {
-    "id": "tt28334938",
+    "id": "tt32267711",
     "type": "movie",
-    "name": "Klikk",
-    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
+    "name": "Rufus, a legbátrabb tengeri szörny",
+    "poster": "https://image.tmdb.org/t/p/w500/bDcIyqs5SRtdfvWWoc6TWX14Arh.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Rufus a tengeri kígyók közösségében az egyetlen, aki nem tud úszni. Amikor azonban bekövetkezik a katasztrófa, és titkos szigetük védelemre szorul, Rufusnak szembe kell néznie legmélyebb félelmével, hogy megmentse a családját. (Csillag Lajos)",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
     "genres": [
-      "Zenei",
-      "Dráma"
+      "Animációs",
+      "Családi"
     ],
-    "seeders": 44
+    "seeders": 126
   },
   {
     "id": "tt43689138",
@@ -445,7 +429,23 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 64
+    "seeders": 66
+  },
+  {
+    "id": "tt28334938",
+    "type": "movie",
+    "name": "Klikk",
+    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Zenei",
+      "Dráma"
+    ],
+    "seeders": 41
   },
   {
     "id": "tt43700434",
@@ -460,22 +460,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 39
-  },
-  {
-    "id": "tt43725831",
-    "type": "movie",
-    "name": "Jurassic cápák",
-    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
-    "imdbRating": 6.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 96
+    "seeders": 37
   },
   {
     "id": "tt22872358",
@@ -490,6 +475,21 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 110
+    "seeders": 105
+  },
+  {
+    "id": "tt43725831",
+    "type": "movie",
+    "name": "Jurassic cápák",
+    "poster": "https://image.tmdb.org/t/p/w500/azOwL1nSPA6XSavuoQILaV27Ip4.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A dokumentumfilm a tengerek ősi csúcsragadozóinak világába visz, ahol biológusok és cápakutatók azt vizsgálják, milyen különös, mára kihalt cápafajok uralták az óceánokat a történelem előtti időkben. A világ különböző pontjain végzett expedíciók új bizonyítékokat keresnek ezeknek a különleges tengeri ragadozóknak az életmódjára, erejére és evolúciós szerepére, miközben a ma is élő, ritka cápafajok segítenek kapcsolatot teremteni a múlt és a jelen között. A tudományos kutatást látványos CGI-rekonstrukciók egészítik ki, amelyek életre keltik az óceán egykori legfurcsább és legfélelmetesebb cápáit.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 84
   }
 ]
