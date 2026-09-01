@@ -1,5 +1,22 @@
 [
   {
+    "id": "tt27986457",
+    "type": "movie",
+    "name": "Veszélyes nevelés",
+    "poster": "https://image.tmdb.org/t/p/w500/usI1qDPyL6WpJhkK7f5V0oYFCi.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután évekig ült börtönben, Nate (Taron Egerton) veszélyes ellenségekre tett szert, köztük egy nagy hatalmú bűnbandára, amelynek belülről dolgozott. Hogy új életet kezdjen, szabadulása után megszakítja a kapcsolatot régi társaságával, ám a banda bosszúból célkeresztbe állítja a családját. Nate magához veszi félénk, tízéves lányát, Pollyt, akit alig ismer, és menekül, hogy megóvja őt a veszélytől.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 56
+  },
+  {
     "id": "tt11561116",
     "type": "movie",
     "name": "A Suttogó",
@@ -7,14 +24,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor kisfia eltűnik, egy özvegy az ügyben is érintett sorozatgyilkost börtönbe juttató, elhidegült apjához fordul segítségért.",
-    "imdbRating": 6.3,
+    "imdbRating": 6.4,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Dráma",
       "Thriller"
     ],
-    "seeders": 944
+    "seeders": 1133
   },
   {
     "id": "tt27681354",
@@ -30,7 +47,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1364
+    "seeders": 1616
+  },
+  {
+    "id": "tt19838566",
+    "type": "movie",
+    "name": "Kraken",
+    "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Johanne, a tengerbiológus éppen egy Vangsnes nevű, fjord melletti vidéki közösség halgazdaságában végez kutatásokat, amikor több különös esemény történik. Két helyi tinédzsert brutálisan meggyilkolnak és a nyomok a mély fjord irányába mutatnak. Vajon a mélység több titkot rejt, mint amit elsőre gondolnánk? A legmélyebb fjord alján egy hegy méretű, mitikus szörnyeteg pihen, amely számtalan karjával készen áll arra, hogy mindent összezúzzon és felfaljon, amit elér.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 656
   },
   {
     "id": "tt32890033",
@@ -49,24 +83,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 82
-  },
-  {
-    "id": "tt19838566",
-    "type": "movie",
-    "name": "Kraken",
-    "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Johanne, a tengerbiológus éppen egy Vangsnes nevű, fjord melletti vidéki közösség halgazdaságában végez kutatásokat, amikor több különös esemény történik. Két helyi tinédzsert brutálisan meggyilkolnak és a nyomok a mély fjord irányába mutatnak. Vajon a mélység több titkot rejt, mint amit elsőre gondolnánk? A legmélyebb fjord alján egy hegy méretű, mitikus szörnyeteg pihen, amely számtalan karjával készen áll arra, hogy mindent összezúzzon és felfaljon, amit elér.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 564
+    "seeders": 92
   },
   {
     "id": "tt26657236",
@@ -83,7 +100,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1091
+    "seeders": 1334
   },
   {
     "id": "tt31170389",
@@ -98,7 +115,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 522
+    "seeders": 646
   },
   {
     "id": "tt37275992",
@@ -115,7 +132,7 @@
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 238
+    "seeders": 292
   },
   {
     "id": "tt29355505",
@@ -133,7 +150,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 649
+    "seeders": 767
   },
   {
     "id": "tt37654096",
@@ -149,7 +166,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 257
+    "seeders": 306
   },
   {
     "id": "tt18259538",
@@ -167,7 +184,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 393
+    "seeders": 493
   },
   {
     "id": "tt34471850",
@@ -183,7 +200,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 342
+    "seeders": 414
   },
   {
     "id": "tt39390497",
@@ -200,7 +217,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 317
+    "seeders": 386
   },
   {
     "id": "tt32298285",
@@ -216,23 +233,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 116
-  },
-  {
-    "id": "tt32323252",
-    "type": "movie",
-    "name": "Christy",
-    "poster": "https://image.tmdb.org/t/p/w500/fDsxBOmBFL57QtKM9kTJ3AQU8lD.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Christy Martin sosem gondolta volna, hogy kiszabadulhat a nyugat-virginiai kisvárosi életből, míg fel nem fedezte boksztehetségét. Szenvedélye, nyers kitartása és rendíthetetlen győzni akarása sodorta őt előre a boksz világába, edzője és későbbi férje, Jim irányítása mellett. Bár a ringben tüzes személyiségként lép fel, a legkeményebb küzdelmeit a szorítón kívül vívja: a családjával, identitásával és egy olyan kapcsolattal, amely akár élet-halál kérdéssé is válhat.  (Csillag Lajos)",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 84
+    "seeders": 134
   },
   {
     "id": "tt29028515",
@@ -249,7 +250,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 180
+    "seeders": 217
+  },
+  {
+    "id": "tt32323252",
+    "type": "movie",
+    "name": "Christy",
+    "poster": "https://image.tmdb.org/t/p/w500/fDsxBOmBFL57QtKM9kTJ3AQU8lD.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Christy Martin sosem gondolta volna, hogy kiszabadulhat a nyugat-virginiai kisvárosi életből, míg fel nem fedezte boksztehetségét. Szenvedélye, nyers kitartása és rendíthetetlen győzni akarása sodorta őt előre a boksz világába, edzője és későbbi férje, Jim irányítása mellett. Bár a ringben tüzes személyiségként lép fel, a legkeményebb küzdelmeit a szorítón kívül vívja: a családjával, identitásával és egy olyan kapcsolattal, amely akár élet-halál kérdéssé is válhat.  (Csillag Lajos)",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 93
   },
   {
     "id": "tt32565993",
@@ -266,7 +283,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 85
+    "seeders": 94
   },
   {
     "id": "tt27047903",
@@ -283,7 +300,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 186
+    "seeders": 208
   },
   {
     "id": "tt35672862",
@@ -298,7 +315,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 45
+    "seeders": 53
   },
   {
     "id": "tt15047880",
@@ -314,7 +331,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 143
+    "seeders": 159
   },
   {
     "id": "tt30825738",
@@ -331,7 +348,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 127
+    "seeders": 139
   },
   {
     "id": "tt32889884",
@@ -341,27 +358,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
-    "imdbRating": 6.8,
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 107
-  },
-  {
-    "id": "tt43475091",
-    "type": "movie",
-    "name": "Amikor anyu nyaralni megy",
-    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 81
+    "seeders": 121
   },
   {
     "id": "tt6743524",
@@ -379,23 +381,22 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 127
+    "seeders": 161
   },
   {
-    "id": "tt40001699",
+    "id": "tt43475091",
     "type": "movie",
-    "name": "Tizenöt nap",
-    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
+    "name": "Amikor anyu nyaralni megy",
+    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
-    "imdbRating": 7.4,
+    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
-      "Vígjáték",
-      "Romantikus"
+      "Vígjáték"
     ],
-    "seeders": 89
+    "seeders": 93
   },
   {
     "id": "tt32267711",
@@ -411,7 +412,23 @@
       "Animációs",
       "Családi"
     ],
-    "seeders": 126
+    "seeders": 145
+  },
+  {
+    "id": "tt40001699",
+    "type": "movie",
+    "name": "Tizenöt nap",
+    "poster": "https://image.tmdb.org/t/p/w500/7SkSZOAHPJbks40PQYwIH2bV1f2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Felipe csak békét akart, hogy élvezhesse a júliusi nyaralását, távol az iskolától, az osztálytársaitól és a testsúlyával kapcsolatos kegyetlen gúnyneveiktől. A baj csak az, hogy édesanyja úgy dönt, hogy tizenöt napra befogadja Caiót, a szomszédját és egykori barátját. Caio, aki mára idegesítő tinédzserré vált, felszínre hozza Felipe bizonytalanságait. Az idő múlásával Felipe haragja a szomszédja iránt barátsággá, majd végül valami többé alakul, és mindkettőjüknek meg kell tanulnia megbirkózni a saját problémáival, ha azt akarják, hogy ez a románc működjön.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus"
+    ],
+    "seeders": 94
   },
   {
     "id": "tt43689138",
@@ -429,38 +446,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 66
-  },
-  {
-    "id": "tt28334938",
-    "type": "movie",
-    "name": "Klikk",
-    "poster": "https://image.tmdb.org/t/p/w500/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy kisvárosi zenész azon dolgozik, hogy elismertté váljon a mexikói-amerikai zenei újhullámban, miután az egyik dalának felvétele futótűzként terjedt el.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Zenei",
-      "Dráma"
-    ],
-    "seeders": 41
-  },
-  {
-    "id": "tt43700434",
-    "type": "movie",
-    "name": "Első kézből: Vince Young vallomása",
-    "poster": "https://image.tmdb.org/t/p/w500/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután a Rose Bowl történetének egyik legkiemelkedőbb teljesítményét nyújtotta, a Texas Longhorns legendája, Vince Young lett az NFL következő nagy reménysége – és egy ideig valóban az is volt. Ám a sérülésekkel, konfliktusokkal és váratlan veszteségekkel tarkított pályafutása jóval összetettebb történetet rejt, mint amit a leglátványosabb összefoglalók valaha is megmutattak.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 37
+    "seeders": 76
   },
   {
     "id": "tt22872358",
@@ -475,7 +461,22 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 105
+    "seeders": 122
+  },
+  {
+    "id": "tt43700434",
+    "type": "movie",
+    "name": "Első kézből: Vince Young vallomása",
+    "poster": "https://image.tmdb.org/t/p/w500/A1n4bOedczRdAm3JRBmbg35deCD.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután a Rose Bowl történetének egyik legkiemelkedőbb teljesítményét nyújtotta, a Texas Longhorns legendája, Vince Young lett az NFL következő nagy reménysége – és egy ideig valóban az is volt. Ám a sérülésekkel, konfliktusokkal és váratlan veszteségekkel tarkított pályafutása jóval összetettebb történetet rejt, mint amit a leglátványosabb összefoglalók valaha is megmutattak.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 41
   },
   {
     "id": "tt43725831",
@@ -490,6 +491,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 84
+    "seeders": 100
   }
 ]
