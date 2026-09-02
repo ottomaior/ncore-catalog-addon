@@ -15,24 +15,7 @@
     ],
     "latest_season": 4,
     "latest_episode": 6,
-    "seeders": 479
-  },
-  {
-    "id": "tt4051832",
-    "type": "series",
-    "name": "Lovesick",
-    "poster": "https://image.tmdb.org/t/p/w500/pWXx3zHzIX91VWM0oJGJtisce0Q.jpg",
-    "posterShape": "poster",
-    "year": 2014,
-    "description": "Miközben az igaz szerelmet keresi, Dylannél chlamydiát diagnosztizálnak. Evie és Luke mellette állnak, amikor kapcsolatait újraéli, és értesíti minden korábbi partnerét.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2014",
-    "genres": [
-      "Vígjáték"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 31
+    "seeders": 1009
   },
   {
     "id": "tt38915987",
@@ -49,7 +32,7 @@
     ],
     "latest_season": 2,
     "latest_episode": 3,
-    "seeders": 1127
+    "seeders": 1589
   },
   {
     "id": "tt7587890",
@@ -68,24 +51,7 @@
     ],
     "latest_season": 8,
     "latest_episode": 2,
-    "seeders": 255
-  },
-  {
-    "id": "tt40385200",
-    "type": "series",
-    "name": "Második világháború Tom Hanks-szel (S01E11)",
-    "poster": "https://image.tmdb.org/t/p/w500/kfedegQJ7cvPGOmqvkvVwrshpZy.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E11\n\nA nagyszabású dokumentumfilm-sorozat a 21. század szemszögéből vizsgálja újra a második világháború történetét. A produkció executive producerei Tom Hanks és Gary Goetzman, szakértője pedig a Pulitzer-díjas történész, Jon Meacham. A Nutopia és az A+E Factual Studios közreműködésével készült sorozat ritkán látott archív felvételek, elismert történészek elemzései és lendületes narráció segítségével mutatja be a modern világot formáló konfliktust.",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "latest_season": 1,
-    "latest_episode": 11,
-    "seeders": 66
+    "seeders": 312
   },
   {
     "id": "tt18546730",
@@ -104,25 +70,7 @@
     ],
     "latest_season": 3,
     "latest_episode": 6,
-    "seeders": 272
-  },
-  {
-    "id": "tt22475008",
-    "type": "series",
-    "name": "Watson (S01E02)",
-    "poster": "https://image.tmdb.org/t/p/w500/d21zOq3zFfgQoKOPIvbbZa61pOF.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "🆕 Legújabb epizód: S01E02\n\nEgy évvel barátja és társa, Sherlock Holmes halála után Dr. John Watson egy ritka betegségek kezelésével foglalkozó klinikán folytatja orvosi pályafutását. Hamarosan azonban rájön, hogy a régi élete még nem ért véget.",
-    "imdbRating": 4.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Rejtély"
-    ],
-    "latest_season": 1,
-    "latest_episode": 2,
-    "seeders": 52
+    "seeders": 356
   },
   {
     "id": "tt13111078",
@@ -140,7 +88,7 @@
     ],
     "latest_season": 3,
     "latest_episode": 5,
-    "seeders": 660
+    "seeders": 825
   },
   {
     "id": "tt26545992",
@@ -159,7 +107,59 @@
     ],
     "latest_season": 1,
     "latest_episode": 3,
-    "seeders": 615
+    "seeders": 798
+  },
+  {
+    "id": "tt40385200",
+    "type": "series",
+    "name": "Második világháború Tom Hanks-szel (S01E11)",
+    "poster": "https://image.tmdb.org/t/p/w500/kfedegQJ7cvPGOmqvkvVwrshpZy.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E11\n\nA nagyszabású dokumentumfilm-sorozat a 21. század szemszögéből vizsgálja újra a második világháború történetét. A produkció executive producerei Tom Hanks és Gary Goetzman, szakértője pedig a Pulitzer-díjas történész, Jon Meacham. A Nutopia és az A+E Factual Studios közreműködésével készült sorozat ritkán látott archív felvételek, elismert történészek elemzései és lendületes narráció segítségével mutatja be a modern világot formáló konfliktust.",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "latest_season": 1,
+    "latest_episode": 11,
+    "seeders": 75
+  },
+  {
+    "id": "tt22475008",
+    "type": "series",
+    "name": "Watson (S01E02)",
+    "poster": "https://image.tmdb.org/t/p/w500/d21zOq3zFfgQoKOPIvbbZa61pOF.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "🆕 Legújabb epizód: S01E02\n\nEgy évvel barátja és társa, Sherlock Holmes halála után Dr. John Watson egy ritka betegségek kezelésével foglalkozó klinikán folytatja orvosi pályafutását. Hamarosan azonban rájön, hogy a régi élete még nem ért véget.",
+    "imdbRating": 4.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Rejtély"
+    ],
+    "latest_season": 1,
+    "latest_episode": 2,
+    "seeders": 65
+  },
+  {
+    "id": "tt4051832",
+    "type": "series",
+    "name": "Lovesick",
+    "poster": "https://image.tmdb.org/t/p/w500/pWXx3zHzIX91VWM0oJGJtisce0Q.jpg",
+    "posterShape": "poster",
+    "year": 2014,
+    "description": "Miközben az igaz szerelmet keresi, Dylannél chlamydiát diagnosztizálnak. Evie és Luke mellette állnak, amikor kapcsolatait újraéli, és értesíti minden korábbi partnerét.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2014",
+    "genres": [
+      "Vígjáték"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 41
   },
   {
     "id": "tt13705452",
@@ -168,7 +168,7 @@
     "poster": "https://image.tmdb.org/t/p/w500/lY9fEU4oPlQ6g8zxeRKEGxRkwSQ.jpg",
     "posterShape": "poster",
     "year": 2023,
-    "description": "🆕 Legújabb epizód: S06E01\n\nA Farm VIP a nemzetközileg ismert formátum megújított verziójában, november 15-én első epizódjával kerül képernyőre a TV2 őszi kínálatában. A vadonatúj, nagyszabású kaland-reality műsorban tizennégy híresség, két hétfős csapatra bontva vállalkozik arra, hogy a hétköznapok kényelmét hátrahagyva, áram, csapvíz, nagybevásárlás, telefon és egyéb technikai eszközök nélkül bizonyítsa rátermettségét egy vidéki birtokon. Az egyik csapat egy komfortosabb parasztházban, a másik viszont egy omladozó pajtában éli mindennapjait, ahol gondozzák állataikat és veteményesüket, illetve magukra főznek és mosnak. A műsor azonban korántsem merül ki ennyiben. A két csapat ugyanis folyamatosan versenyez egymással: hol izgalmas játékokon, hol a vidéki élethez kapcsolódó termelési feladatokban mérik össze erejüket és tudásukat. Amelyik csapat gyengébben teljesít az adott feladatban, annak Farmgyűlést kell tartania, ahol az egyik társuktól búcsút kell venniük.",
+    "description": "🆕 Legújabb epizód: S06E01\n\nA Farm VIP nemzetközileg ismert megújított verziójában kerül a TV2 képernyőjére. Nagyszabású kaland-reality műsorban tizennégy híresség, két hétfős csapatra bontva vállalkozik arra, hogy a hétköznapok kényelmét hátrahagyva, áram, csapvíz, nagybevásárlás, telefon és egyéb technikai eszközök nélkül bizonyítsa rátermettségét egy vidéki birtokon. Az egyik csapat egy komfortosabb parasztházban, a másik viszont egy omladozó pajtában éli mindennapjait, ahol gondozzák állataikat és veteményesüket, illetve magukra főznek és mosnak. A műsor azonban korántsem merül ki ennyiben. A két csapat ugyanis folyamatosan versenyez egymással: hol izgalmas játékokon, hol a vidéki élethez kapcsolódó termelési feladatokban mérik össze erejüket és tudásukat. Amelyik csapat gyengébben teljesít az adott feladatban, annak Farmgyűlést kell tartania, ahol az egyik társuktól búcsút kell venniük. A műsor egy pontján a csapatok versenye egyéni küzdelemmé változik, és végül egy valaki megnyeri a Farm VIP főnyereményét.",
     "imdbRating": null,
     "releaseInfo": "2023",
     "genres": [
@@ -176,7 +176,7 @@
     ],
     "latest_season": 6,
     "latest_episode": 1,
-    "seeders": 151
+    "seeders": 185
   },
   {
     "id": "tt35449383",
@@ -194,25 +194,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 326
-  },
-  {
-    "id": "tt36303968",
-    "type": "series",
-    "name": "Gyűlölet és csábítás",
-    "poster": "https://image.tmdb.org/t/p/w500/9N45Sl3vcFux725jv6GvHRjPMiA.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A sorozatban Alice Black FBI-ügynök egy rejtélyes és ravasz női sorozatgyilkos nyomába ered. Mindketten saját igazságukért küzdenek, ám ahogy sorsuk összefonódik, a jó és a rossz közötti határvonal egyre inkább elmosódik. A Gyűlölet és csábítás középpontjában Alice Black áll, aki korábban a New York-i rendőrség gyilkossági nyomozójaként dolgozott, a történet kezdetén azonban már próbaidős FBI-ügynökként próbálja újjáépíteni a karrierjét. Egy tekintélyes bíró gyanús halála vezeti el Catherine-hez, a több személyazonosság mögé rejtőző nőhöz, aki gondosan kialakított kapcsolatok segítségével férkőzik áldozatai közelébe. Catherine számára a csábítás nem egyszerűen eszköz, hanem egy aprólékosan felépített terv része. Felméri kiszemeltjei gyengeségeit, elnyeri a bizalmukat, majd saját elképzelése szerint szolgáltat igazságot. Alice egyre közelebb kerül hozzá, miközben azt is felismeri, hogy kettejük története és motivációi több ponton hasonlítanak egymásra.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Bűnügyi"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 232
+    "seeders": 400
   },
   {
     "id": "tt12327578",
@@ -230,7 +212,25 @@
     ],
     "latest_season": 4,
     "latest_episode": 6,
-    "seeders": 494
+    "seeders": 635
+  },
+  {
+    "id": "tt36303968",
+    "type": "series",
+    "name": "Gyűlölet és csábítás",
+    "poster": "https://image.tmdb.org/t/p/w500/9N45Sl3vcFux725jv6GvHRjPMiA.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A sorozatban Alice Black FBI-ügynök egy rejtélyes és ravasz női sorozatgyilkos nyomába ered. Mindketten saját igazságukért küzdenek, ám ahogy sorsuk összefonódik, a jó és a rossz közötti határvonal egyre inkább elmosódik. A Gyűlölet és csábítás középpontjában Alice Black áll, aki korábban a New York-i rendőrség gyilkossági nyomozójaként dolgozott, a történet kezdetén azonban már próbaidős FBI-ügynökként próbálja újjáépíteni a karrierjét. Egy tekintélyes bíró gyanús halála vezeti el Catherine-hez, a több személyazonosság mögé rejtőző nőhöz, aki gondosan kialakított kapcsolatok segítségével férkőzik áldozatai közelébe. Catherine számára a csábítás nem egyszerűen eszköz, hanem egy aprólékosan felépített terv része. Felméri kiszemeltjei gyengeségeit, elnyeri a bizalmukat, majd saját elképzelése szerint szolgáltat igazságot. Alice egyre közelebb kerül hozzá, miközben azt is felismeri, hogy kettejük története és motivációi több ponton hasonlítanak egymásra.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Bűnügyi"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 264
   },
   {
     "id": "tt37692332",
@@ -248,7 +248,25 @@
     ],
     "latest_season": 1,
     "latest_episode": 6,
-    "seeders": 163
+    "seeders": 199
+  },
+  {
+    "id": "tt27497393",
+    "type": "series",
+    "name": "Stuart az univerzum ellen (S01E06)",
+    "poster": "https://image.tmdb.org/t/p/w500/quXtOybflANIXUHR8MPmx3QLnNG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E06\n\nA képregénybolt tulajdonosára, Stuart Bloomra hárul a feladat, hogy helyreállítsa a valóságot, miután összetöri Sheldon és Leonard szerkezetét, és ezzel véletlenül egy multiverzumos Armageddont indít el. Küldetésében barátnője, Denise, geológus barátja, Bert, valamint a kvantumfizikus, és általában véve is idegesítő, Barry Kripke segíti.\n\n(Csillag Lajos)",
+    "imdbRating": 9.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": 1,
+    "latest_episode": 6,
+    "seeders": 408
   },
   {
     "id": "tt0149460",
@@ -267,25 +285,7 @@
     ],
     "latest_season": 11,
     "latest_episode": 6,
-    "seeders": 157
-  },
-  {
-    "id": "tt27497393",
-    "type": "series",
-    "name": "Stuart az univerzum ellen (S01E06)",
-    "poster": "https://image.tmdb.org/t/p/w500/quXtOybflANIXUHR8MPmx3QLnNG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E06\n\nA képregénybolt tulajdonosára, Stuart Bloomra hárul a feladat, hogy helyreállítsa a valóságot, miután összetöri Sheldon és Leonard szerkezetét, és ezzel véletlenül egy multiverzumos Armageddont indít el. Küldetésében barátnője, Denise, geológus barátja, Bert, valamint a kvantumfizikus, és általában véve is idegesítő, Barry Kripke segíti.\n\n(Csillag Lajos)",
-    "imdbRating": 9.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": 1,
-    "latest_episode": 6,
-    "seeders": 341
+    "seeders": 168
   },
   {
     "id": "tt3640276",
@@ -304,7 +304,7 @@
     ],
     "latest_season": 11,
     "latest_episode": 2,
-    "seeders": 38
+    "seeders": 37
   },
   {
     "id": "tt36885662",
@@ -322,7 +322,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 79
+    "seeders": 85
   },
   {
     "id": "tt27543562",
@@ -340,115 +340,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 7,
-    "seeders": 99
-  },
-  {
-    "id": "tt26448526",
-    "type": "series",
-    "name": "Briliáns elmék",
-    "poster": "https://image.tmdb.org/t/p/w500/vG6Bw2IwDf1DVkPd7nZwMExp0U5.jpg",
-    "posterShape": "poster",
-    "year": 2024,
-    "description": "A Brilliant Minds egy orvosi drámasorozat, amely a forradalmian új neurológus, Dr. Oliver Wolf és gyakornokai történetét követi nyomon. Céljuk az emberi elme utolsó nagy határainak feltárása, miközben személyes kapcsolataikkal és lelki egészségükkel is küzdenek. A sorozat nem csak az orvosi esetekre fókuszál, hanem a betegek mély emberi történeteire is, amelyek érzelmileg erős hatással vannak a nézőre.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2024",
-    "genres": [
-      "Dráma"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 39
-  },
-  {
-    "id": "tt0118401",
-    "type": "series",
-    "name": "Kisvárosi gyilkosságok (S25E02)",
-    "poster": "https://image.tmdb.org/t/p/w500/D2aKlAMxDNxIFow9HPPlDQEzqq.jpg",
-    "posterShape": "poster",
-    "year": 1997,
-    "description": "🆕 Legújabb epizód: S25E02\n\nA Kisvárosi gyilkosságok egy olyan sorozat, amely napjaink Angliájának gyönyörű vidéki környezetében játszódik tele színes egyéniségekkel és intrikával. A város nem éppen átlagos lakói között találhatjuk a nyugodt és összeszedett bűnüldöző, Barnaby főfelügyelőt és fiatalabb, lassabb asszisztensét, Troy őrmestert. Összetett gyilkosságoknak kell a végére járniuk ebben a csipkefüggönyös, tökéletesre nyírt pázsitú kisvárosban, Midsomerben. Úgy tűnik ez a vidék több gyilkos pszichopatának ad otthont, mint a legrosszabb városi gettó.",
-    "imdbRating": 7.5,
-    "releaseInfo": "1997",
-    "genres": [
-      "Bűnügyi",
-      "Dráma",
-      "Rejtély"
-    ],
-    "latest_season": 25,
-    "latest_episode": 2,
-    "seeders": 29
-  },
-  {
-    "id": "tt39305428",
-    "type": "series",
-    "name": "Pandora",
-    "poster": "https://image.tmdb.org/t/p/w500/e7tIOk9k1ykD10njQMC1YBZ6v5E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Twaalf deelnemers wagen zich onder leiding van Ruben Nicolai aan een avontuur vol verleiding, strategie en dilemma's op een mythische locatie aan de Middellandse Zee. Ze leggen hun lot in handen van de Doos van Pandora. Lukt het de deelnemers om hun nieuwsgierigheid te bedwingen en de beroemde doos gesloten te houden? Of is de verleiding toch te sterk, met alle gevolgen van dien?",
-    "imdbRating": 8.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Reality"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 52
-  },
-  {
-    "id": "tt0195443",
-    "type": "series",
-    "name": "Angyalbőrben",
-    "poster": "https://image.tmdb.org/t/p/w500/3sAPisb9A5wQMRMwvD271ESTy1.jpg",
-    "posterShape": "poster",
-    "year": null,
-    "description": "Urbán András honvéd Vasbogdányba érkeztével felpezsdül a laktanya élete: az ügyeskedő és nyughatatlan Urbán minden alkalmat megragad az üzletelésre - és arra, hogy borsot törjön Karády őrmester orra alá. Ehhez jó partnerekre lel szakasztársaiban, a folyton erejét fitogtató Rabóban, az ügyeskezű \"feltalálóban\", Éderben, a szende szűz Klammerben, a nagydarab Mamutban, a művészlélek Poósban és a többi \"Olajbogyóban\", ahogy Karády őrmester becézi a katonáit. A katonák persze a három testőr jeligéjét is magukénak vallják: \"Egy mindenkiért, mindenki egyért!\" - így aztán számtalan nehéz helyzetből húzzák ki egymást...",
-    "imdbRating": 5.4,
-    "releaseInfo": null,
-    "genres": [
-      "Vígjáték"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 93
-  },
-  {
-    "id": "tt18258908",
-    "type": "series",
-    "name": "NCIS: Sydney (S03E02)",
-    "poster": "https://image.tmdb.org/t/p/w500/6dYDa6h1AOZ7iZ1zv3nlw7qhErX.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S03E02\n\nAz indiai-csendes-óceáni térségben növekvő feszültség miatt az amerikai NCIS ügynökeiből és az ausztrál szövetségi rendőrségből álló csapat összefog, hogy kordában tartsa a tengerészettel kapcsolatos bűncselekményeket.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
-    "genres": [
-      "Bűnügyi",
-      "Dráma",
-      "Action & Adventure"
-    ],
-    "latest_season": 3,
-    "latest_episode": 2,
-    "seeders": 52
-  },
-  {
-    "id": "tt36996011",
-    "type": "series",
-    "name": "Egérfogó",
-    "poster": "https://image.tmdb.org/t/p/w500/z1xv9CKt7HmXgS6azNB563mU2FB.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy visszavonultan élő író ráébred, hogy személyazonosságát ellopták – és szövetséget köt egy uzsorással, hogy visszaszerezze életét a Patkányként ismert alaktól.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Dráma",
-      "Rejtély"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 60
+    "seeders": 121
   },
   {
     "id": "tt1643266",
@@ -467,7 +359,113 @@
     ],
     "latest_season": 22,
     "latest_episode": 4,
-    "seeders": 78
+    "seeders": 104
+  },
+  {
+    "id": "tt40618611",
+    "type": "series",
+    "name": "Várzea: A foci bölcsője",
+    "poster": "https://image.tmdb.org/t/p/w500/hw1GzjpTcxhhgaI5Rd4s6EP3gbX.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A São Paulo legnagyobb amatőr labdarúgótornáján, a Super Copa Pioneerben szereplő játékosokat és edzőket követi nyomon, miközben arról álmodnak, hogy megváltoztatják az életüket.\n\n(Bolla Eszter)",
+    "imdbRating": 10.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 64
+  },
+  {
+    "id": "tt39305428",
+    "type": "series",
+    "name": "Pandora",
+    "poster": "https://image.tmdb.org/t/p/w500/e7tIOk9k1ykD10njQMC1YBZ6v5E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Twaalf deelnemers wagen zich onder leiding van Ruben Nicolai aan een avontuur vol verleiding, strategie en dilemma's op een mythische locatie aan de Middellandse Zee. Ze leggen hun lot in handen van de Doos van Pandora. Lukt het de deelnemers om hun nieuwsgierigheid te bedwingen en de beroemde doos gesloten te houden? Of is de verleiding toch te sterk, met alle gevolgen van dien?",
+    "imdbRating": 8.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Reality"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 64
+  },
+  {
+    "id": "tt36996011",
+    "type": "series",
+    "name": "Egérfogó",
+    "poster": "https://image.tmdb.org/t/p/w500/z1xv9CKt7HmXgS6azNB563mU2FB.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy visszavonultan élő író ráébred, hogy személyazonosságát ellopták – és szövetséget köt egy uzsorással, hogy visszaszerezze életét a Patkányként ismert alaktól.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma",
+      "Rejtély"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 69
+  },
+  {
+    "id": "tt26448526",
+    "type": "series",
+    "name": "Briliáns elmék",
+    "poster": "https://image.tmdb.org/t/p/w500/vG6Bw2IwDf1DVkPd7nZwMExp0U5.jpg",
+    "posterShape": "poster",
+    "year": 2024,
+    "description": "A Brilliant Minds egy orvosi drámasorozat, amely a forradalmian új neurológus, Dr. Oliver Wolf és gyakornokai történetét követi nyomon. Céljuk az emberi elme utolsó nagy határainak feltárása, miközben személyes kapcsolataikkal és lelki egészségükkel is küzdenek. A sorozat nem csak az orvosi esetekre fókuszál, hanem a betegek mély emberi történeteire is, amelyek érzelmileg erős hatással vannak a nézőre.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2024",
+    "genres": [
+      "Dráma"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 41
+  },
+  {
+    "id": "tt0195443",
+    "type": "series",
+    "name": "Angyalbőrben",
+    "poster": "https://image.tmdb.org/t/p/w500/3sAPisb9A5wQMRMwvD271ESTy1.jpg",
+    "posterShape": "poster",
+    "year": null,
+    "description": "Urbán András honvéd Vasbogdányba érkeztével felpezsdül a laktanya élete: az ügyeskedő és nyughatatlan Urbán minden alkalmat megragad az üzletelésre - és arra, hogy borsot törjön Karády őrmester orra alá. Ehhez jó partnerekre lel szakasztársaiban, a folyton erejét fitogtató Rabóban, az ügyeskezű \"feltalálóban\", Éderben, a szende szűz Klammerben, a nagydarab Mamutban, a művészlélek Poósban és a többi \"Olajbogyóban\", ahogy Karády őrmester becézi a katonáit. A katonák persze a három testőr jeligéjét is magukénak vallják: \"Egy mindenkiért, mindenki egyért!\" - így aztán számtalan nehéz helyzetből húzzák ki egymást...",
+    "imdbRating": 5.4,
+    "releaseInfo": null,
+    "genres": [
+      "Vígjáték"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 100
+  },
+  {
+    "id": "tt18258908",
+    "type": "series",
+    "name": "NCIS: Sydney (S03E02)",
+    "poster": "https://image.tmdb.org/t/p/w500/6dYDa6h1AOZ7iZ1zv3nlw7qhErX.jpg",
+    "posterShape": "poster",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S03E02\n\nAz indiai-csendes-óceáni térségben növekvő feszültség miatt az amerikai NCIS ügynökeiből és az ausztrál szövetségi rendőrségből álló csapat összefog, hogy kordában tartsa a tengerészettel kapcsolatos bűncselekményeket.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
+    "genres": [
+      "Bűnügyi",
+      "Dráma",
+      "Action & Adventure"
+    ],
+    "latest_season": 3,
+    "latest_episode": 2,
+    "seeders": 53
   },
   {
     "id": "tt30796986",
@@ -485,24 +483,26 @@
     ],
     "latest_season": 1,
     "latest_episode": 2,
-    "seeders": 52
+    "seeders": 58
   },
   {
-    "id": "tt40618611",
+    "id": "tt0118401",
     "type": "series",
-    "name": "Várzea: A foci bölcsője",
-    "poster": "https://image.tmdb.org/t/p/w500/hw1GzjpTcxhhgaI5Rd4s6EP3gbX.jpg",
+    "name": "Kisvárosi gyilkosságok (S25E02)",
+    "poster": "https://image.tmdb.org/t/p/w500/D2aKlAMxDNxIFow9HPPlDQEzqq.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A São Paulo legnagyobb amatőr labdarúgótornáján, a Super Copa Pioneerben szereplő játékosokat és edzőket követi nyomon, miközben arról álmodnak, hogy megváltoztatják az életüket.\n\n(Bolla Eszter)",
-    "imdbRating": 10.0,
-    "releaseInfo": "2026",
+    "year": 1997,
+    "description": "🆕 Legújabb epizód: S25E02\n\nA Kisvárosi gyilkosságok egy olyan sorozat, amely napjaink Angliájának gyönyörű vidéki környezetében játszódik tele színes egyéniségekkel és intrikával. A város nem éppen átlagos lakói között találhatjuk a nyugodt és összeszedett bűnüldöző, Barnaby főfelügyelőt és fiatalabb, lassabb asszisztensét, Troy őrmestert. Összetett gyilkosságoknak kell a végére járniuk ebben a csipkefüggönyös, tökéletesre nyírt pázsitú kisvárosban, Midsomerben. Úgy tűnik ez a vidék több gyilkos pszichopatának ad otthont, mint a legrosszabb városi gettó.",
+    "imdbRating": 7.5,
+    "releaseInfo": "1997",
     "genres": [
-      "Dokumentum"
+      "Bűnügyi",
+      "Dráma",
+      "Rejtély"
     ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 42
+    "latest_season": 25,
+    "latest_episode": 2,
+    "seeders": 26
   },
   {
     "id": "tt27921612",
@@ -519,25 +519,23 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 25
+    "seeders": 26
   },
   {
-    "id": "tt38939446",
+    "id": "tt26675358",
     "type": "series",
-    "name": "A holnap szikrája (S01E09)",
-    "poster": "https://image.tmdb.org/t/p/w500/plIdrypzsCXRGE3xF6A0UH742LY.jpg",
+    "name": "Vak szerelem: Egyesült Királyság",
+    "poster": "https://image.tmdb.org/t/p/w500/rGeMqJbsKBvt7YoAgeNcpnC75ge.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E09\n\nEgy alternatív, múltbéli világban egy különös páros összefog, hogy felkutassanak egy elveszett katalógust, amely elhozná az elektromosság korát Kiotó füstös utcáira.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
+    "year": 2024,
+    "description": "Emma és Matt Willis a házigazdája ennek a műsornak, amelyben szerelemre éhes brit szinglik jegyzik el egymást, mielőtt személyesen találkoznának. De kimondják-e a boldogító igent?",
+    "imdbRating": 6.7,
+    "releaseInfo": "2024",
     "genres": [
-      "Animációs",
-      "Dráma",
-      "Sci-Fi & Fantasy"
+      "Reality"
     ],
-    "latest_season": 1,
-    "latest_episode": 9,
-    "seeders": 21
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 22
   }
 ]
