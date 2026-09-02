@@ -13,7 +13,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 575
+    "seeders": 615
   },
   {
     "id": "tt43679852",
@@ -33,7 +33,7 @@
       "Akció",
       "Vígjáték"
     ],
-    "seeders": 226
+    "seeders": 219
   },
   {
     "id": "tt34470789",
@@ -49,7 +49,24 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 114
+    "seeders": 127
+  },
+  {
+    "id": "tt11561116",
+    "type": "movie",
+    "name": "A Suttogó",
+    "poster": "https://image.tmdb.org/t/p/w500/c8IOnjA3Ihj9beT9s0TupTucORg.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor kisfia eltűnik, egy özvegy az ügyben is érintett sorozatgyilkost börtönbe juttató, elhidegült apjához fordul segítségért.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 1115
   },
   {
     "id": "tt44322266",
@@ -64,24 +81,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 79
-  },
-  {
-    "id": "tt11561116",
-    "type": "movie",
-    "name": "A Suttogó",
-    "poster": "https://image.tmdb.org/t/p/w500/c8IOnjA3Ihj9beT9s0TupTucORg.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor kisfia eltűnik, egy özvegy az ügyben is érintett sorozatgyilkost börtönbe juttató, elhidegült apjához fordul segítségért.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 1370
+    "seeders": 85
   },
   {
     "id": "tt27681354",
@@ -97,7 +97,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1944
+    "seeders": 1578
   },
   {
     "id": "tt27986457",
@@ -114,7 +114,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 87
+    "seeders": 83
   },
   {
     "id": "tt19838566",
@@ -131,7 +131,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 790
+    "seeders": 644
   },
   {
     "id": "tt33366456",
@@ -147,7 +147,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 78
+    "seeders": 77
   },
   {
     "id": "tt26657236",
@@ -164,7 +164,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1613
+    "seeders": 1328
   },
   {
     "id": "tt31170389",
@@ -179,7 +179,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 767
+    "seeders": 592
   },
   {
     "id": "tt43700441",
@@ -194,24 +194,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 61
-  },
-  {
-    "id": "tt37275992",
-    "type": "movie",
-    "name": "Kétség",
-    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Rejtély"
-    ],
-    "seeders": 322
+    "seeders": 60
   },
   {
     "id": "tt29355505",
@@ -229,7 +212,24 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 899
+    "seeders": 769
+  },
+  {
+    "id": "tt37275992",
+    "type": "movie",
+    "name": "Kétség",
+    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Rejtély"
+    ],
+    "seeders": 275
   },
   {
     "id": "tt32890033",
@@ -248,7 +248,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 110
+    "seeders": 106
   },
   {
     "id": "tt18259538",
@@ -266,7 +266,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 621
+    "seeders": 526
   },
   {
     "id": "tt37654096",
@@ -282,7 +282,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 358
+    "seeders": 290
   },
   {
     "id": "tt34471850",
@@ -298,7 +298,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 486
+    "seeders": 408
   },
   {
     "id": "tt39390497",
@@ -315,7 +315,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 455
+    "seeders": 362
   },
   {
     "id": "tt32298285",
@@ -331,7 +331,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 143
+    "seeders": 124
   },
   {
     "id": "tt29028515",
@@ -348,7 +348,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 251
+    "seeders": 214
   },
   {
     "id": "tt32323252",
@@ -364,7 +364,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 86
+    "seeders": 79
   },
   {
     "id": "tt32565993",
@@ -381,7 +381,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 104
+    "seeders": 94
   },
   {
     "id": "tt27047903",
@@ -398,7 +398,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 250
+    "seeders": 217
   },
   {
     "id": "tt15047880",
@@ -414,7 +414,24 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 188
+    "seeders": 167
+  },
+  {
+    "id": "tt30825738",
+    "type": "movie",
+    "name": "Star Wars: A mandalóri és Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 137
   },
   {
     "id": "tt6743524",
@@ -432,24 +449,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 199
-  },
-  {
-    "id": "tt30825738",
-    "type": "movie",
-    "name": "Star Wars: A mandalóri és Grogu",
-    "poster": "https://image.tmdb.org/t/p/w500/szTffgSy8toDfWlwdwySzhqGcpe.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A gonosz Birodalom már a múlté, haduraik pedig szétszéledtek a galaxisban. A szárnyait bontogató Új Köztársaság mindent megtesz azért, hogy megvédje mindazt, amiért a lázadók küzdöttek, s felbérelik a legendás mandalóri fejvadászt, Din Djarint és ifjú tanítványát, Grogut.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 151
+    "seeders": 161
   },
   {
     "id": "tt35672862",
@@ -464,7 +464,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 59
+    "seeders": 54
   },
   {
     "id": "tt32889884",
@@ -479,7 +479,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 128
+    "seeders": 115
   },
   {
     "id": "tt43475091",
@@ -494,6 +494,6 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 102
+    "seeders": 100
   }
 ]
