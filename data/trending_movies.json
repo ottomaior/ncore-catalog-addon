@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt7708226",
+    "type": "movie",
+    "name": "Beast",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Beast in Me Patton James (MacPherson) történetét követi, aki feladja MMA (mixed martial arts) harcművészeti álmait, hogy biztonságot teremtsen családjának, feleségének (Gale) és fiának. Amikor az alvilág felé súlyos tartozásokat felhalmozó bátyja, Malon (Aria) egy végzetes sérülésben meghal, Patton egy ONE Championship küzdelemben akarja megbosszulni őt a veterán edző, Sammy (Crowe) segítségével.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 122
+  },
+  {
     "id": "tt33296751",
     "type": "movie",
     "name": "A zongorahangoló",
@@ -14,7 +30,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 183
+    "seeders": 396
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 60
   },
   {
     "id": "tt34564059",
@@ -24,28 +55,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A Versenyfutás az életért című pszichológiai thrillerben Maia Marten, a kiváló londoni ügyvéd élete darabokra hullik reggeli futása közben: elrabolják a fiát. Ahhoz, hogy visszakapja, kegyetlen utasításokat követve végig kell futnia a városon, és senkiben sem bízhat. Vajon meddig képes elmenni egy anya, hogy megmentse a gyermekét?",
-    "imdbRating": 6.1,
+    "imdbRating": 5.9,
     "releaseInfo": "2026",
     "genres": [
       "Thriller"
     ],
-    "seeders": 692
-  },
-  {
-    "id": "tt32843349",
-    "type": "movie",
-    "name": "Bocsánat, bébi",
-    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 79
+    "seeders": 844
   },
   {
     "id": "tt43679852",
@@ -55,7 +70,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.5,
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -64,7 +79,7 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 225
+    "seeders": 288
   },
   {
     "id": "tt11561116",
@@ -81,7 +96,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1084
+    "seeders": 1344
   },
   {
     "id": "tt27681354",
@@ -97,7 +112,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1551
+    "seeders": 1873
+  },
+  {
+    "id": "tt32843349",
+    "type": "movie",
+    "name": "Bocsánat, bébi",
+    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 91
   },
   {
     "id": "tt34470789",
@@ -113,7 +144,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 152
+    "seeders": 183
   },
   {
     "id": "tt19838566",
@@ -130,22 +161,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 606
-  },
-  {
-    "id": "tt44322266",
-    "type": "movie",
-    "name": "Turning Point: Generation 9/11",
-    "poster": "https://image.tmdb.org/t/p/w500/6DVDbbneXuhFHmqGvTVko2sVz0o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 9.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 93
+    "seeders": 755
   },
   {
     "id": "tt26657236",
@@ -162,7 +178,22 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1289
+    "seeders": 1589
+  },
+  {
+    "id": "tt44322266",
+    "type": "movie",
+    "name": "Fordulópont: A 9/11-es nemzedék",
+    "poster": "https://image.tmdb.org/t/p/w500/6DVDbbneXuhFHmqGvTVko2sVz0o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
+    "imdbRating": 9.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 100
   },
   {
     "id": "tt27986457",
@@ -179,7 +210,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 92
+    "seeders": 102
   },
   {
     "id": "tt31170389",
@@ -194,23 +225,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 553
-  },
-  {
-    "id": "tt33366456",
-    "type": "movie",
-    "name": "Corina",
-    "poster": "https://image.tmdb.org/t/p/w500/nZviAfnhXylrYpjPznmhHCBeKWx.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 81
+    "seeders": 701
   },
   {
     "id": "tt29355505",
@@ -228,7 +243,23 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 733
+    "seeders": 871
+  },
+  {
+    "id": "tt33366456",
+    "type": "movie",
+    "name": "Corina",
+    "poster": "https://image.tmdb.org/t/p/w500/nZviAfnhXylrYpjPznmhHCBeKWx.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy fiatal, agorafóbiás nő súlyos hibát vét a munkahelyén, egy kiadóban, majd egy rejtélyes író keresésére indul, akivel kiköszörülhetné a csorbát.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt37275992",
@@ -245,7 +276,25 @@
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 270
+    "seeders": 314
+  },
+  {
+    "id": "tt18259538",
+    "type": "movie",
+    "name": "Aang avatár: Az utolsó léghajlító",
+    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
+    "imdbRating": 9.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Akció",
+      "Kaland",
+      "Fantasy"
+    ],
+    "seeders": 593
   },
   {
     "id": "tt32890033",
@@ -264,40 +313,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 111
-  },
-  {
-    "id": "tt18259538",
-    "type": "movie",
-    "name": "Aang avatár: Az utolsó léghajlító",
-    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
-    "imdbRating": 9.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Akció",
-      "Kaland",
-      "Fantasy"
-    ],
-    "seeders": 484
-  },
-  {
-    "id": "tt43700441",
-    "type": "movie",
-    "name": "Untold: Raygun: Breaking Badly",
-    "poster": "https://image.tmdb.org/t/p/w500/3pnlJjsGtrUp3cPEOLzkR0sPQAK.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 56
+    "seeders": 523
   },
   {
     "id": "tt37654096",
@@ -313,7 +329,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 277
+    "seeders": 349
   },
   {
     "id": "tt34471850",
@@ -329,7 +345,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 385
+    "seeders": 473
+  },
+  {
+    "id": "tt43700441",
+    "type": "movie",
+    "name": "Első kézből: Rachel Gunn",
+    "poster": "https://image.tmdb.org/t/p/w500/3pnlJjsGtrUp3cPEOLzkR0sPQAK.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor Raygun teljesítménye a 2024-es párizsi olimpián egyik napról a másikra virálissá vált, mémek, félretájékoztatás és összeesküvés-elméletek özöne követte, amelyek mind azt firtatták, hogyan kerülhetett egyáltalán az olimpiai színpadra.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 60
   },
   {
     "id": "tt39390497",
@@ -346,7 +377,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 349
+    "seeders": 443
   },
   {
     "id": "tt32298285",
@@ -362,7 +393,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 119
+    "seeders": 135
   },
   {
     "id": "tt29028515",
@@ -379,7 +410,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 205
+    "seeders": 245
   },
   {
     "id": "tt32323252",
@@ -395,7 +426,7 @@
       "Történelmi",
       "Dráma"
     ],
-    "seeders": 79
+    "seeders": 88
   },
   {
     "id": "tt32565993",
@@ -412,7 +443,7 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 91
+    "seeders": 105
   },
   {
     "id": "tt27047903",
@@ -429,7 +460,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 198
+    "seeders": 237
   },
   {
     "id": "tt15047880",
@@ -445,7 +476,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 164
+    "seeders": 188
   },
   {
     "id": "tt30825738",
@@ -462,36 +493,6 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 135
-  },
-  {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 54
-  },
-  {
-    "id": "tt43475091",
-    "type": "movie",
-    "name": "Amikor anyu nyaralni megy",
-    "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a felesége szabadságra megy, egy apa rájön, hogy a háztartás és négy gyermek irányítása sokkal nagyobb kihívás, mint azt várta. Egyik kaotikus helyzet követi a másikat, miközben megtanulja, valójában mit is jelent szülőnek lenni.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 97
+    "seeders": 149
   }
 ]
