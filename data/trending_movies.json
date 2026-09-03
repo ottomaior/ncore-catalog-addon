@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt32843349",
+    "type": "movie",
+    "name": "Bocsánat, bébi",
+    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 60
+  },
+  {
     "id": "tt34564059",
     "type": "movie",
     "name": "Versenyfutás az életért",
@@ -7,13 +23,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A Versenyfutás az életért című pszichológiai thrillerben Maia Marten, a kiváló londoni ügyvéd élete darabokra hullik reggeli futása közben: elrabolják a fiát. Ahhoz, hogy visszakapja, kegyetlen utasításokat követve végig kell futnia a városon, és senkiben sem bízhat. Vajon meddig képes elmenni egy anya, hogy megmentse a gyermekét?",
-    "imdbRating": null,
+    "imdbRating": 5.7,
     "releaseInfo": "2026",
     "genres": [
       "Akció",
       "Thriller"
     ],
-    "seeders": 615
+    "seeders": 555
   },
   {
     "id": "tt43679852",
@@ -23,33 +39,16 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 10.0,
+    "imdbRating": 8.5,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
       "Sci-Fi",
       "Kaland",
       "Családi",
-      "Akció",
-      "Vígjáték"
+      "Akció"
     ],
-    "seeders": 219
-  },
-  {
-    "id": "tt34470789",
-    "type": "movie",
-    "name": "Reménytelenül - József Attila pszichoanalízise",
-    "poster": "https://image.tmdb.org/t/p/w500/iCUN98OPd7sgJ8ypcqvxVa9vYpi.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film József Attila pszichoanalízisét dolgozza fel,  azt az életszakaszát, amikor a költő, Gyömrői Edit pszichoanalitikus terápiáján vett részt.  József Attila műveiből merít ihletet, szorosan építkezve újságcikkeire, tanulmányaira, leveleire és verseire. Ennek eredményeként a költő szavai elevenednek meg a filmvásznon, hitelesen ábrázolva a korszakot és József Attila belső vívódásait.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 127
+    "seeders": 186
   },
   {
     "id": "tt11561116",
@@ -59,29 +58,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor kisfia eltűnik, egy özvegy az ügyben is érintett sorozatgyilkost börtönbe juttató, elhidegült apjához fordul segítségért.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1115
-  },
-  {
-    "id": "tt44322266",
-    "type": "movie",
-    "name": "Turning Point: Generation 9/11",
-    "poster": "https://image.tmdb.org/t/p/w500/4LbwNKDDRysSYvMlqTsy0uph8zq.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 85
+    "seeders": 920
   },
   {
     "id": "tt27681354",
@@ -97,7 +81,38 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1578
+    "seeders": 1321
+  },
+  {
+    "id": "tt34470789",
+    "type": "movie",
+    "name": "Reménytelenül - József Attila pszichoanalízise",
+    "poster": "https://image.tmdb.org/t/p/w500/iCUN98OPd7sgJ8ypcqvxVa9vYpi.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film József Attila pszichoanalízisét dolgozza fel,  azt az életszakaszát, amikor a költő, Gyömrői Edit pszichoanalitikus terápiáján vett részt.  József Attila műveiből merít ihletet, szorosan építkezve újságcikkeire, tanulmányaira, leveleire és verseire. Ennek eredményeként a költő szavai elevenednek meg a filmvásznon, hitelesen ábrázolva a korszakot és József Attila belső vívódásait.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 114
+  },
+  {
+    "id": "tt44322266",
+    "type": "movie",
+    "name": "Turning Point: Generation 9/11",
+    "poster": "https://image.tmdb.org/t/p/w500/6DVDbbneXuhFHmqGvTVko2sVz0o.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 9.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 83
   },
   {
     "id": "tt27986457",
@@ -114,7 +129,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 83
+    "seeders": 81
   },
   {
     "id": "tt19838566",
@@ -131,23 +146,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 644
-  },
-  {
-    "id": "tt33366456",
-    "type": "movie",
-    "name": "Corina",
-    "poster": "https://image.tmdb.org/t/p/w500/nZviAfnhXylrYpjPznmhHCBeKWx.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 77
+    "seeders": 530
   },
   {
     "id": "tt26657236",
@@ -164,7 +163,23 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1328
+    "seeders": 1030
+  },
+  {
+    "id": "tt33366456",
+    "type": "movie",
+    "name": "Corina",
+    "poster": "https://image.tmdb.org/t/p/w500/nZviAfnhXylrYpjPznmhHCBeKWx.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 72
   },
   {
     "id": "tt31170389",
@@ -174,27 +189,44 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
-    "imdbRating": 7.8,
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
       "Horror"
     ],
-    "seeders": 592
+    "seeders": 455
   },
   {
     "id": "tt43700441",
     "type": "movie",
-    "name": "Untold Raygun: Breaking Badly",
+    "name": "Untold: Raygun: Breaking Badly",
     "poster": "https://image.tmdb.org/t/p/w500/3pnlJjsGtrUp3cPEOLzkR0sPQAK.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.0,
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 60
+    "seeders": 58
+  },
+  {
+    "id": "tt37275992",
+    "type": "movie",
+    "name": "Kétség",
+    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Rejtély"
+    ],
+    "seeders": 238
   },
   {
     "id": "tt29355505",
@@ -212,24 +244,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 769
-  },
-  {
-    "id": "tt37275992",
-    "type": "movie",
-    "name": "Kétség",
-    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Rejtély"
-    ],
-    "seeders": 275
+    "seeders": 621
   },
   {
     "id": "tt32890033",
@@ -248,7 +263,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 106
+    "seeders": 98
   },
   {
     "id": "tt18259538",
@@ -266,7 +281,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 526
+    "seeders": 388
   },
   {
     "id": "tt37654096",
@@ -282,7 +297,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 290
+    "seeders": 238
   },
   {
     "id": "tt34471850",
@@ -298,7 +313,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 408
+    "seeders": 352
   },
   {
     "id": "tt39390497",
@@ -315,7 +330,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 362
+    "seeders": 294
   },
   {
     "id": "tt32298285",
@@ -331,7 +346,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 124
+    "seeders": 107
   },
   {
     "id": "tt29028515",
@@ -348,23 +363,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 214
-  },
-  {
-    "id": "tt32323252",
-    "type": "movie",
-    "name": "Christy",
-    "poster": "https://image.tmdb.org/t/p/w500/fDsxBOmBFL57QtKM9kTJ3AQU8lD.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Christy Martin sosem gondolta volna, hogy kiszabadulhat a nyugat-virginiai kisvárosi életből, míg fel nem fedezte boksztehetségét. Szenvedélye, nyers kitartása és rendíthetetlen győzni akarása sodorta őt előre a boksz világába, edzője és későbbi férje, Jim irányítása mellett. Bár a ringben tüzes személyiségként lép fel, a legkeményebb küzdelmeit a szorítón kívül vívja: a családjával, identitásával és egy olyan kapcsolattal, amely akár élet-halál kérdéssé is válhat.  (Csillag Lajos)",
-    "imdbRating": 7.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Történelmi",
-      "Dráma"
-    ],
-    "seeders": 79
+    "seeders": 175
   },
   {
     "id": "tt32565993",
@@ -381,7 +380,23 @@
       "Családi",
       "Rejtély"
     ],
-    "seeders": 94
+    "seeders": 82
+  },
+  {
+    "id": "tt32323252",
+    "type": "movie",
+    "name": "Christy",
+    "poster": "https://image.tmdb.org/t/p/w500/fDsxBOmBFL57QtKM9kTJ3AQU8lD.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Christy Martin sosem gondolta volna, hogy kiszabadulhat a nyugat-virginiai kisvárosi életből, míg fel nem fedezte boksztehetségét. Szenvedélye, nyers kitartása és rendíthetetlen győzni akarása sodorta őt előre a boksz világába, edzője és későbbi férje, Jim irányítása mellett. Bár a ringben tüzes személyiségként lép fel, a legkeményebb küzdelmeit a szorítón kívül vívja: a családjával, identitásával és egy olyan kapcsolattal, amely akár élet-halál kérdéssé is válhat.  (Csillag Lajos)",
+    "imdbRating": 7.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Történelmi",
+      "Dráma"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt27047903",
@@ -398,7 +413,7 @@
       "Rejtély",
       "Bűnügyi"
     ],
-    "seeders": 217
+    "seeders": 177
   },
   {
     "id": "tt15047880",
@@ -414,7 +429,7 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "seeders": 167
+    "seeders": 137
   },
   {
     "id": "tt30825738",
@@ -431,7 +446,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 137
+    "seeders": 121
   },
   {
     "id": "tt6743524",
@@ -449,37 +464,7 @@
       "Dráma",
       "TV film"
     ],
-    "seeders": 161
-  },
-  {
-    "id": "tt35672862",
-    "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 54
-  },
-  {
-    "id": "tt32889884",
-    "type": "movie",
-    "name": "Szabadesés: A Boeing a vádlottak padján",
-    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 115
+    "seeders": 137
   },
   {
     "id": "tt43475091",
@@ -494,6 +479,21 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 100
+    "seeders": 85
+  },
+  {
+    "id": "tt32889884",
+    "type": "movie",
+    "name": "Szabadesés: A Boeing a vádlottak padján",
+    "poster": "https://image.tmdb.org/t/p/w500/oadqt3V5c8j5ZIbYkdfQLcWzI4C.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy oknyomozó dokumentumfilm, amely a Boeing mélyülő vállalati válságát és rendszerszintű biztonsági hiányosságait vizsgálja a halálos 737 MAX-szerencsétlenségeket és John Barnett, a leleplező tragikus halálát követően.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 96
   }
 ]
