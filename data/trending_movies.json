@@ -13,7 +13,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 516
+    "seeders": 441
   },
   {
     "id": "tt33296751",
@@ -30,24 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 630
-  },
-  {
-    "id": "tt8814476",
-    "type": "movie",
-    "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 93
+    "seeders": 524
   },
   {
     "id": "tt34564059",
@@ -62,7 +45,7 @@
     "genres": [
       "Thriller"
     ],
-    "seeders": 857
+    "seeders": 709
   },
   {
     "id": "tt24850708",
@@ -79,7 +62,24 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 201
+    "seeders": 183
+  },
+  {
+    "id": "tt8814476",
+    "type": "movie",
+    "name": "Supergirl",
+    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 87
   },
   {
     "id": "tt7708226",
@@ -95,7 +95,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 257
+    "seeders": 225
   },
   {
     "id": "tt32123395",
@@ -111,24 +111,7 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 182
-  },
-  {
-    "id": "tt13570066",
-    "type": "movie",
-    "name": "A sivatag harcosa",
-    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Történelmi",
-      "Háborús",
-      "Akció"
-    ],
-    "seeders": 118
+    "seeders": 157
   },
   {
     "id": "tt27681354",
@@ -144,7 +127,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1689
+    "seeders": 1325
   },
   {
     "id": "tt11561116",
@@ -161,7 +144,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1111
+    "seeders": 856
+  },
+  {
+    "id": "tt13570066",
+    "type": "movie",
+    "name": "A sivatag harcosa",
+    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Történelmi",
+      "Háborús",
+      "Akció"
+    ],
+    "seeders": 105
   },
   {
     "id": "tt43679852",
@@ -171,7 +171,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.7,
+    "imdbRating": 7.2,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -180,24 +180,7 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 305
-  },
-  {
-    "id": "tt26657236",
-    "type": "movie",
-    "name": "Backrooms - Hátsó szobák",
-    "poster": "https://image.tmdb.org/t/p/w500/k7jSZKFTeLVHsWoYN14e204dUhM.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A kilencvenes évek elején Clark, egy kiégett építészből lett bútoráruház-tulajdonos különös átjárót fedez fel üzlete pincéjében. Az ajtó egy végtelennek tűnő, fluoreszkáló fényekkel megvilágított labirintusba vezet, ahol a valóság törvényei fokozatosan felbomlanak. A nyomasztó folyosók és üres irodaszerű terek között bolyongva Clark megszállottjává válik a helynek, miközben saját múltja és pszichéje is darabokra hullik. Terapeutája, Dr. Mary Kline eleinte mentális összeomlásnak hiszi a férfi történeteit, ám amikor Clark nyomtalanul eltűnik, kénytelen maga is belépni a rejtélyes dimenzióba. A nő egy olyan világban találja magát, ahol az idő, az emlékek és az identitás összemosódnak, és ahol valami ismeretlen figyeli minden lépését.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Rejtély",
-      "Sci-Fi"
-    ],
-    "seeders": 1430
+    "seeders": 238
   },
   {
     "id": "tt19838566",
@@ -214,7 +197,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 635
+    "seeders": 495
+  },
+  {
+    "id": "tt26657236",
+    "type": "movie",
+    "name": "Backrooms - Hátsó szobák",
+    "poster": "https://image.tmdb.org/t/p/w500/k7jSZKFTeLVHsWoYN14e204dUhM.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A kilencvenes évek elején Clark, egy kiégett építészből lett bútoráruház-tulajdonos különös átjárót fedez fel üzlete pincéjében. Az ajtó egy végtelennek tűnő, fluoreszkáló fényekkel megvilágított labirintusba vezet, ahol a valóság törvényei fokozatosan felbomlanak. A nyomasztó folyosók és üres irodaszerű terek között bolyongva Clark megszállottjává válik a helynek, miközben saját múltja és pszichéje is darabokra hullik. Terapeutája, Dr. Mary Kline eleinte mentális összeomlásnak hiszi a férfi történeteit, ám amikor Clark nyomtalanul eltűnik, kénytelen maga is belépni a rejtélyes dimenzióba. A nő egy olyan világban találja magát, ahol az idő, az emlékek és az identitás összemosódnak, és ahol valami ismeretlen figyeli minden lépését.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Rejtély",
+      "Sci-Fi"
+    ],
+    "seeders": 1045
   },
   {
     "id": "tt27714581",
@@ -230,7 +230,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 72
+    "seeders": 68
   },
   {
     "id": "tt34470789",
@@ -246,7 +246,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 172
+    "seeders": 136
   },
   {
     "id": "tt32843349",
@@ -262,7 +262,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 100
+    "seeders": 89
   },
   {
     "id": "tt31170389",
@@ -277,7 +277,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 620
+    "seeders": 470
   },
   {
     "id": "tt35672862",
@@ -292,7 +292,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 66
+    "seeders": 59
   },
   {
     "id": "tt29355505",
@@ -310,7 +310,22 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 773
+    "seeders": 607
+  },
+  {
+    "id": "tt44322266",
+    "type": "movie",
+    "name": "Fordulópont: A 9/11-es nemzedék",
+    "poster": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 86
   },
   {
     "id": "tt18259538",
@@ -328,39 +343,7 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 591
-  },
-  {
-    "id": "tt44322266",
-    "type": "movie",
-    "name": "Fordulópont: A 9/11-es nemzedék",
-    "poster": "https://image.tmdb.org/t/p/w500/6DVDbbneXuhFHmqGvTVko2sVz0o.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
-    "imdbRating": 9.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 102
-  },
-  {
-    "id": "tt27986457",
-    "type": "movie",
-    "name": "Veszélyes nevelés",
-    "poster": "https://image.tmdb.org/t/p/w500/usI1qDPyL6WpJhkK7f5V0oYFCi.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Miután évekig ült börtönben, Nate (Taron Egerton) veszélyes ellenségekre tett szert, köztük egy nagy hatalmú bűnbandára, amelynek belülről dolgozott. Hogy új életet kezdjen, szabadulása után megszakítja a kapcsolatot régi társaságával, ám a banda bosszúból célkeresztbe állítja a családját. Nate magához veszi félénk, tízéves lányát, Pollyt, akit alig ismer, és menekül, hogy megóvja őt a veszélytől.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Bűnügyi"
-    ],
-    "seeders": 97
+    "seeders": 415
   },
   {
     "id": "tt32890033",
@@ -379,7 +362,24 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 481
+    "seeders": 392
+  },
+  {
+    "id": "tt27986457",
+    "type": "movie",
+    "name": "Veszélyes nevelés",
+    "poster": "https://image.tmdb.org/t/p/w500/usI1qDPyL6WpJhkK7f5V0oYFCi.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Miután évekig ült börtönben, Nate (Taron Egerton) veszélyes ellenségekre tett szert, köztük egy nagy hatalmú bűnbandára, amelynek belülről dolgozott. Hogy új életet kezdjen, szabadulása után megszakítja a kapcsolatot régi társaságával, ám a banda bosszúból célkeresztbe állítja a családját. Nate magához veszi félénk, tízéves lányát, Pollyt, akit alig ismer, és menekül, hogy megóvja őt a veszélytől.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Bűnügyi"
+    ],
+    "seeders": 85
   },
   {
     "id": "tt37275992",
@@ -396,23 +396,7 @@
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 277
-  },
-  {
-    "id": "tt37654096",
-    "type": "movie",
-    "name": "Az Utolsó Napkelte",
-    "poster": "https://image.tmdb.org/t/p/w500/hh5m86jbHMpsuRD52K3Oid6tLXa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 297
+    "seeders": 220
   },
   {
     "id": "tt34471850",
@@ -428,7 +412,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 430
+    "seeders": 339
+  },
+  {
+    "id": "tt37654096",
+    "type": "movie",
+    "name": "Az Utolsó Napkelte",
+    "poster": "https://image.tmdb.org/t/p/w500/hh5m86jbHMpsuRD52K3Oid6tLXa.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 231
   },
   {
     "id": "tt33366456",
@@ -444,7 +444,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 79
+    "seeders": 66
   },
   {
     "id": "tt39390497",
@@ -461,22 +461,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 380
-  },
-  {
-    "id": "tt43700441",
-    "type": "movie",
-    "name": "Első kézből: Rachel Gunn",
-    "poster": "https://image.tmdb.org/t/p/w500/3pnlJjsGtrUp3cPEOLzkR0sPQAK.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor Raygun teljesítménye a 2024-es párizsi olimpián egyik napról a másikra virálissá vált, mémek, félretájékoztatás és összeesküvés-elméletek özöne követte, amelyek mind azt firtatták, hogyan kerülhetett egyáltalán az olimpiai színpadra.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 47
+    "seeders": 288
   },
   {
     "id": "tt32298285",
@@ -492,6 +477,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 124
+    "seeders": 106
+  },
+  {
+    "id": "tt29028515",
+    "type": "movie",
+    "name": "Wasteman",
+    "poster": "https://image.tmdb.org/t/p/w500/lKK9ImwpoTCwDZKgYpjIIJCnlf0.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Taylor feltételes szabadlábra helyezését követően az újrakezdés reménye veszélybe kerül, amikor megérkezik új cellatársa, Dee. Dee pártfogásába veszi Taylort, ami egy kegyetlen támadás során próbára teszi a kapcsolatukat. Taylor nehéz döntés elé kerül: vajon Dee védelmét választja, vagy inkább a saját szabadulási esélyeit tartja szem előtt?",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 174
   }
 ]
