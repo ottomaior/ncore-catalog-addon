@@ -1,5 +1,54 @@
 [
   {
+    "id": "tt8679660",
+    "type": "movie",
+    "name": "Words of War",
+    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 58
+  },
+  {
+    "id": "tt37660486",
+    "type": "movie",
+    "name": "Made in EU",
+    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 106
+  },
+  {
+    "id": "tt10312938",
+    "type": "movie",
+    "name": "A bűvös kert meséi",
+    "poster": "https://image.tmdb.org/t/p/w500/kQ6OfkhWIcxmvdfl0Zn3arseo5p.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Három gyerek a nagyapjuknál tölti az éjszakát. Hogy kitöltsék a csendet, miután elvesztették nagymamájukat, a család mesemondóját, saját történeteket találnak ki, és felfedezik a képzelet erejét.",
+    "imdbRating": 5.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Fantasy",
+      "Vígjáték"
+    ],
+    "seeders": 79
+  },
+  {
     "id": "tt19035928",
     "type": "movie",
     "name": "Menekülés az Ardennekből",
@@ -13,7 +62,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 441
+    "seeders": 632
   },
   {
     "id": "tt33296751",
@@ -30,7 +79,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 524
+    "seeders": 686
   },
   {
     "id": "tt34564059",
@@ -40,12 +89,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A Versenyfutás az életért című pszichológiai thrillerben Maia Marten, a kiváló londoni ügyvéd élete darabokra hullik reggeli futása közben: elrabolják a fiát. Ahhoz, hogy visszakapja, kegyetlen utasításokat követve végig kell futnia a városon, és senkiben sem bízhat. Vajon meddig képes elmenni egy anya, hogy megmentse a gyermekét?",
-    "imdbRating": 6.2,
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Thriller"
     ],
-    "seeders": 709
+    "seeders": 906
   },
   {
     "id": "tt24850708",
@@ -62,56 +111,7 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 183
-  },
-  {
-    "id": "tt8814476",
-    "type": "movie",
-    "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 87
-  },
-  {
-    "id": "tt7708226",
-    "type": "movie",
-    "name": "Harcra született",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Beast Patton James történetét követi, aki feladja MMA harcművészeti álmait, hogy biztonságot teremtsen családjának, feleségének és fiának. Amikor az alvilág felé súlyos tartozásokat felhalmozó bátyja, Malon egy végzetes sérülésben meghal, Patton egy ONE Championship küzdelemben akarja megbosszulni őt a veterán edző, Sammy segítségével.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 225
-  },
-  {
-    "id": "tt32123395",
-    "type": "movie",
-    "name": "Altered",
-    "poster": "https://image.tmdb.org/t/p/w500/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Akció"
-    ],
-    "seeders": 157
+    "seeders": 230
   },
   {
     "id": "tt27681354",
@@ -127,7 +127,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1325
+    "seeders": 1741
+  },
+  {
+    "id": "tt7708226",
+    "type": "movie",
+    "name": "Harcra született",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Beast Patton James történetét követi, aki feladja MMA harcművészeti álmait, hogy biztonságot teremtsen családjának, feleségének és fiának. Amikor az alvilág felé súlyos tartozásokat felhalmozó bátyja, Malon egy végzetes sérülésben meghal, Patton egy ONE Championship küzdelemben akarja megbosszulni őt a veterán edző, Sammy segítségével.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 272
   },
   {
     "id": "tt11561116",
@@ -144,24 +160,40 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 856
+    "seeders": 1159
   },
   {
-    "id": "tt13570066",
+    "id": "tt32123395",
     "type": "movie",
-    "name": "A sivatag harcosa",
-    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
+    "name": "Altered",
+    "poster": "https://image.tmdb.org/t/p/w500/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
     "genres": [
-      "Történelmi",
-      "Háborús",
+      "Sci-Fi",
       "Akció"
     ],
-    "seeders": 105
+    "seeders": 207
+  },
+  {
+    "id": "tt8814476",
+    "type": "movie",
+    "name": "Supergirl",
+    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 112
   },
   {
     "id": "tt43679852",
@@ -180,24 +212,24 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 238
+    "seeders": 309
   },
   {
-    "id": "tt19838566",
+    "id": "tt13570066",
     "type": "movie",
-    "name": "Kraken",
-    "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
+    "name": "A sivatag harcosa",
+    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Johanne, a tengerbiológus éppen egy Vangsnes nevű, fjord melletti vidéki közösség halgazdaságában végez kutatásokat, amikor több különös esemény történik. Két helyi tinédzsert brutálisan meggyilkolnak és a nyomok a mély fjord irányába mutatnak. Vajon a mélység több titkot rejt, mint amit elsőre gondolnánk? A legmélyebb fjord alján egy hegy méretű, mitikus szörnyeteg pihen, amely számtalan karjával készen áll arra, hogy mindent összezúzzon és felfaljon, amit elér.",
-    "imdbRating": 6.3,
+    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
-      "Horror",
-      "Akció",
-      "Thriller"
+      "Történelmi",
+      "Háborús",
+      "Akció"
     ],
-    "seeders": 495
+    "seeders": 123
   },
   {
     "id": "tt26657236",
@@ -214,23 +246,24 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1045
+    "seeders": 1465
   },
   {
-    "id": "tt27714581",
+    "id": "tt19838566",
     "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "name": "Kraken",
+    "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Johanne, a tengerbiológus éppen egy Vangsnes nevű, fjord melletti vidéki közösség halgazdaságában végez kutatásokat, amikor több különös esemény történik. Két helyi tinédzsert brutálisan meggyilkolnak és a nyomok a mély fjord irányába mutatnak. Vajon a mélység több titkot rejt, mint amit elsőre gondolnánk? A legmélyebb fjord alján egy hegy méretű, mitikus szörnyeteg pihen, amely számtalan karjával készen áll arra, hogy mindent összezúzzon és felfaljon, amit elér.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Horror",
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 68
+    "seeders": 670
   },
   {
     "id": "tt34470789",
@@ -246,23 +279,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 136
-  },
-  {
-    "id": "tt32843349",
-    "type": "movie",
-    "name": "Bocsánat, bébi",
-    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 89
+    "seeders": 181
   },
   {
     "id": "tt31170389",
@@ -277,22 +294,23 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 470
+    "seeders": 673
   },
   {
-    "id": "tt35672862",
+    "id": "tt27714581",
     "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
     "genres": [
-      "Horror"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 59
+    "seeders": 72
   },
   {
     "id": "tt29355505",
@@ -310,22 +328,23 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 607
+    "seeders": 786
   },
   {
-    "id": "tt44322266",
+    "id": "tt32843349",
     "type": "movie",
-    "name": "Fordulópont: A 9/11-es nemzedék",
-    "poster": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
+    "name": "Bocsánat, bébi",
+    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
     "genres": [
-      "Dokumentum"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 86
+    "seeders": 99
   },
   {
     "id": "tt18259538",
@@ -343,7 +362,39 @@
       "Kaland",
       "Fantasy"
     ],
-    "seeders": 415
+    "seeders": 571
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 71
+  },
+  {
+    "id": "tt37275992",
+    "type": "movie",
+    "name": "Kétség",
+    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Rejtély"
+    ],
+    "seeders": 297
   },
   {
     "id": "tt32890033",
@@ -362,7 +413,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 392
+    "seeders": 472
   },
   {
     "id": "tt27986457",
@@ -379,24 +430,22 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 85
+    "seeders": 102
   },
   {
-    "id": "tt37275992",
+    "id": "tt44322266",
     "type": "movie",
-    "name": "Kétség",
-    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
+    "name": "Fordulópont: A 9/11-es nemzedék",
+    "poster": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
-    "imdbRating": 6.3,
+    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Thriller",
-      "Rejtély"
+      "Dokumentum"
     ],
-    "seeders": 220
+    "seeders": 96
   },
   {
     "id": "tt34471850",
@@ -412,7 +461,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 339
+    "seeders": 435
   },
   {
     "id": "tt37654096",
@@ -422,29 +471,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 231
-  },
-  {
-    "id": "tt33366456",
-    "type": "movie",
-    "name": "Corina",
-    "poster": "https://image.tmdb.org/t/p/w500/nZviAfnhXylrYpjPznmhHCBeKWx.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy fiatal, agorafóbiás nő súlyos hibát vét a munkahelyén, egy kiadóban, majd egy rejtélyes író keresésére indul, akivel kiköszörülhetné a csorbát.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 66
+    "seeders": 287
   },
   {
     "id": "tt39390497",
@@ -461,39 +494,6 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 288
-  },
-  {
-    "id": "tt32298285",
-    "type": "movie",
-    "name": "Tánc a sivatagban",
-    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 106
-  },
-  {
-    "id": "tt29028515",
-    "type": "movie",
-    "name": "Wasteman",
-    "poster": "https://image.tmdb.org/t/p/w500/lKK9ImwpoTCwDZKgYpjIIJCnlf0.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Taylor feltételes szabadlábra helyezését követően az újrakezdés reménye veszélybe kerül, amikor megérkezik új cellatársa, Dee. Dee pártfogásába veszi Taylort, ami egy kegyetlen támadás során próbára teszi a kapcsolatukat. Taylor nehéz döntés elé kerül: vajon Dee védelmét választja, vagy inkább a saját szabadulási esélyeit tartja szem előtt?",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 174
+    "seeders": 380
   }
 ]
