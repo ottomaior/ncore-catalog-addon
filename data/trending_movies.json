@@ -13,23 +13,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 690
-  },
-  {
-    "id": "tt8679660",
-    "type": "movie",
-    "name": "A háború szavai",
-    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Anna Politkovszkaja újságíró bátor harca a független hangok hallatásának lehetőségéért Putyin Oroszországában.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 130
+    "seeders": 543
   },
   {
     "id": "tt33296751",
@@ -46,22 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 738
-  },
-  {
-    "id": "tt37660486",
-    "type": "movie",
-    "name": "Made in EU",
-    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 128
+    "seeders": 563
   },
   {
     "id": "tt34564059",
@@ -77,7 +46,54 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 911
+    "seeders": 720
+  },
+  {
+    "id": "tt8679660",
+    "type": "movie",
+    "name": "A háború szavai",
+    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Anna Politkovszkaja újságíró bátor harca a független hangok hallatásának lehetőségéért Putyin Oroszországában.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 125
+  },
+  {
+    "id": "tt37660486",
+    "type": "movie",
+    "name": "Made in EU",
+    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 114
+  },
+  {
+    "id": "tt27681354",
+    "type": "movie",
+    "name": "Szürke zóna",
+    "poster": "https://image.tmdb.org/t/p/w500/i0doR7wsRtqDtnXN8kZPOrLNxF8.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy elit ügynökökből álló, titkos különítmény a háttérből mozgatja a szálakat. Amikor egy könyörtelen diktátor egymilliárd dolláros vagyont kaparint meg, őket vetik be a visszaszerzésére. A lehetetlennek tűnő akció gyorsan a stratégia, a megtévesztés és az életben maradás halálos játszmájává válik.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 1324
   },
   {
     "id": "tt10312938",
@@ -95,23 +111,7 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 92
-  },
-  {
-    "id": "tt27681354",
-    "type": "movie",
-    "name": "Szürke zóna",
-    "poster": "https://image.tmdb.org/t/p/w500/i0doR7wsRtqDtnXN8kZPOrLNxF8.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy elit ügynökökből álló, titkos különítmény a háttérből mozgatja a szálakat. Amikor egy könyörtelen diktátor egymilliárd dolláros vagyont kaparint meg, őket vetik be a visszaszerzésére. A lehetetlennek tűnő akció gyorsan a stratégia, a megtévesztés és az életben maradás halálos játszmájává válik.",
-    "imdbRating": 7.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 1772
+    "seeders": 81
   },
   {
     "id": "tt24850708",
@@ -128,7 +128,7 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 238
+    "seeders": 197
   },
   {
     "id": "tt11561116",
@@ -138,14 +138,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Amikor kisfia eltűnik, egy özvegy az ügyben is érintett sorozatgyilkost börtönbe juttató, elhidegült apjához fordul segítségért.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Bűnügyi",
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1154
+    "seeders": 855
   },
   {
     "id": "tt7708226",
@@ -161,7 +161,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 292
+    "seeders": 237
   },
   {
     "id": "tt32123395",
@@ -177,7 +177,7 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 211
+    "seeders": 174
   },
   {
     "id": "tt8814476",
@@ -194,7 +194,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 124
+    "seeders": 113
   },
   {
     "id": "tt43679852",
@@ -204,7 +204,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 7.4,
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -213,7 +213,7 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 327
+    "seeders": 257
   },
   {
     "id": "tt26657236",
@@ -230,24 +230,7 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1517
-  },
-  {
-    "id": "tt13570066",
-    "type": "movie",
-    "name": "A sivatag harcosa",
-    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Történelmi",
-      "Háborús",
-      "Akció"
-    ],
-    "seeders": 124
+    "seeders": 1062
   },
   {
     "id": "tt19838566",
@@ -264,7 +247,24 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 665
+    "seeders": 516
+  },
+  {
+    "id": "tt13570066",
+    "type": "movie",
+    "name": "A sivatag harcosa",
+    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Történelmi",
+      "Háborús",
+      "Akció"
+    ],
+    "seeders": 100
   },
   {
     "id": "tt31170389",
@@ -279,7 +279,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 680
+    "seeders": 489
   },
   {
     "id": "tt34470789",
@@ -295,7 +295,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 171
+    "seeders": 133
   },
   {
     "id": "tt29355505",
@@ -313,7 +313,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 813
+    "seeders": 621
   },
   {
     "id": "tt18259538",
@@ -331,23 +331,7 @@
       "Fantasy",
       "Családi"
     ],
-    "seeders": 608
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 73
+    "seeders": 413
   },
   {
     "id": "tt32890033",
@@ -366,23 +350,23 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 498
+    "seeders": 387
   },
   {
-    "id": "tt32843349",
+    "id": "tt27714581",
     "type": "movie",
-    "name": "Bocsánat, bébi",
-    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
-    "imdbRating": 6.9,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
     "releaseInfo": "2025",
     "genres": [
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 95
+    "seeders": 62
   },
   {
     "id": "tt37275992",
@@ -399,54 +383,23 @@
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 289
+    "seeders": 233
   },
   {
-    "id": "tt35672862",
+    "id": "tt32843349",
     "type": "movie",
-    "name": "Hokum",
-    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "name": "Bocsánat, bébi",
+    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "year": 2025,
+    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
     "imdbRating": 6.9,
-    "releaseInfo": "2026",
+    "releaseInfo": "2025",
     "genres": [
-      "Horror",
-      "Thriller"
+      "Dráma",
+      "Vígjáték"
     ],
-    "seeders": 66
-  },
-  {
-    "id": "tt37654096",
-    "type": "movie",
-    "name": "Az Utolsó Napkelte",
-    "poster": "https://image.tmdb.org/t/p/w500/hh5m86jbHMpsuRD52K3Oid6tLXa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 304
-  },
-  {
-    "id": "tt44322266",
-    "type": "movie",
-    "name": "Fordulópont: A 9/11-es nemzedék",
-    "poster": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 99
+    "seeders": 71
   },
   {
     "id": "tt27986457",
@@ -463,7 +416,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 102
+    "seeders": 89
   },
   {
     "id": "tt34471850",
@@ -479,7 +432,54 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 421
+    "seeders": 334
+  },
+  {
+    "id": "tt37654096",
+    "type": "movie",
+    "name": "Az Utolsó Napkelte",
+    "poster": "https://image.tmdb.org/t/p/w500/hh5m86jbHMpsuRD52K3Oid6tLXa.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 229
+  },
+  {
+    "id": "tt35672862",
+    "type": "movie",
+    "name": "Hokum",
+    "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Hokum című filmben Adam Scott egy horrorírót alakít, aki egy isten háta mögötti ír fogadóba látogat, hogy ott szórja szét szülei hamvait. A férfit a helyiek elkezdik ijesztgetni egy ősi boszorkány történetével, akiről az a hír járja, hogy a nászutas lakosztályban kísért. A sztori hamarosan elárasztja az író elméjét, látomások kezdik kísérteni, emberek tűnnek el körülötte, ezek pedig egy olyan rémálomszerű helyzetbe sodorják, amiben múltjának legsötétebb titkaival kell szembenéznie.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 52
+  },
+  {
+    "id": "tt44322266",
+    "type": "movie",
+    "name": "Fordulópont: A 9/11-es nemzedék",
+    "poster": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 76
   },
   {
     "id": "tt39390497",
@@ -496,6 +496,6 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 391
+    "seeders": 280
   }
 ]
