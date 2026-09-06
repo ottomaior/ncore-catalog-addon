@@ -13,7 +13,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 832
+    "seeders": 756
   },
   {
     "id": "tt33296751",
@@ -30,7 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 803
+    "seeders": 749
   },
   {
     "id": "tt34564059",
@@ -46,7 +46,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 1050
+    "seeders": 922
   },
   {
     "id": "tt27681354",
@@ -62,7 +62,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1954
+    "seeders": 1732
   },
   {
     "id": "tt8679660",
@@ -78,7 +78,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 174
+    "seeders": 166
   },
   {
     "id": "tt11561116",
@@ -95,7 +95,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1283
+    "seeders": 1104
   },
   {
     "id": "tt37660486",
@@ -110,7 +110,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 151
+    "seeders": 134
   },
   {
     "id": "tt7708226",
@@ -126,7 +126,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 296
+    "seeders": 279
   },
   {
     "id": "tt24850708",
@@ -143,7 +143,7 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 244
+    "seeders": 206
   },
   {
     "id": "tt43679852",
@@ -162,7 +162,7 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 357
+    "seeders": 315
   },
   {
     "id": "tt32123395",
@@ -178,7 +178,7 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 225
+    "seeders": 201
   },
   {
     "id": "tt10312938",
@@ -196,7 +196,7 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 104
+    "seeders": 96
   },
   {
     "id": "tt19838566",
@@ -213,7 +213,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 736
+    "seeders": 637
   },
   {
     "id": "tt8814476",
@@ -230,7 +230,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 138
+    "seeders": 126
   },
   {
     "id": "tt31170389",
@@ -245,7 +245,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 772
+    "seeders": 634
   },
   {
     "id": "tt13570066",
@@ -262,23 +262,7 @@
       "Háborús",
       "Akció"
     ],
-    "seeders": 120
-  },
-  {
-    "id": "tt34470789",
-    "type": "movie",
-    "name": "Reménytelenül - József Attila pszichoanalízise",
-    "poster": "https://image.tmdb.org/t/p/w500/iCUN98OPd7sgJ8ypcqvxVa9vYpi.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film József Attila pszichoanalízisét dolgozza fel,  azt az életszakaszát, amikor a költő, Gyömrői Edit pszichoanalitikus terápiáján vett részt.  József Attila műveiből merít ihletet, szorosan építkezve újságcikkeire, tanulmányaira, leveleire és verseire. Ennek eredményeként a költő szavai elevenednek meg a filmvásznon, hitelesen ábrázolva a korszakot és József Attila belső vívódásait.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 203
+    "seeders": 111
   },
   {
     "id": "tt18259538",
@@ -296,7 +280,23 @@
       "Fantasy",
       "Családi"
     ],
-    "seeders": 684
+    "seeders": 608
+  },
+  {
+    "id": "tt34470789",
+    "type": "movie",
+    "name": "Reménytelenül - József Attila pszichoanalízise",
+    "poster": "https://image.tmdb.org/t/p/w500/iCUN98OPd7sgJ8ypcqvxVa9vYpi.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film József Attila pszichoanalízisét dolgozza fel,  azt az életszakaszát, amikor a költő, Gyömrői Edit pszichoanalitikus terápiáján vett részt.  József Attila műveiből merít ihletet, szorosan építkezve újságcikkeire, tanulmányaira, leveleire és verseire. Ennek eredményeként a költő szavai elevenednek meg a filmvásznon, hitelesen ábrázolva a korszakot és József Attila belső vívódásait.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 169
   },
   {
     "id": "tt29355505",
@@ -314,7 +314,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 571
+    "seeders": 499
   },
   {
     "id": "tt32890033",
@@ -333,7 +333,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 541
+    "seeders": 495
   },
   {
     "id": "tt37275992",
@@ -350,23 +350,7 @@
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 304
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 460
+    "seeders": 272
   },
   {
     "id": "tt37654096",
@@ -382,23 +366,23 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 323
+    "seeders": 301
   },
   {
-    "id": "tt32843349",
+    "id": "tt34471850",
     "type": "movie",
-    "name": "Bocsánat, bébi",
-    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Vígjáték"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 89
+    "seeders": 415
   },
   {
     "id": "tt39390497",
@@ -415,7 +399,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 409
+    "seeders": 394
   },
   {
     "id": "tt27714581",
@@ -431,7 +415,38 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 67
+    "seeders": 65
+  },
+  {
+    "id": "tt32843349",
+    "type": "movie",
+    "name": "Bocsánat, bébi",
+    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 82
+  },
+  {
+    "id": "tt44322266",
+    "type": "movie",
+    "name": "Fordulópont: A 9/11-es nemzedék",
+    "poster": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 88
   },
   {
     "id": "tt27986457",
@@ -448,7 +463,7 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 104
+    "seeders": 91
   },
   {
     "id": "tt35672862",
@@ -464,22 +479,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 68
-  },
-  {
-    "id": "tt44322266",
-    "type": "movie",
-    "name": "Fordulópont: A 9/11-es nemzedék",
-    "poster": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 92
+    "seeders": 63
   },
   {
     "id": "tt29028515",
@@ -496,6 +496,6 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 251
+    "seeders": 217
   }
 ]
