@@ -13,7 +13,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 787
+    "seeders": 832
   },
   {
     "id": "tt33296751",
@@ -30,7 +30,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 755
+    "seeders": 803
   },
   {
     "id": "tt34564059",
@@ -40,29 +40,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A Versenyfutás az életért című pszichológiai thrillerben Maia Marten, a kiváló londoni ügyvéd élete darabokra hullik reggeli futása közben: elrabolják a fiát. Ahhoz, hogy visszakapja, kegyetlen utasításokat követve végig kell futnia a városon, és senkiben sem bízhat. Vajon meddig képes elmenni egy anya, hogy megmentse a gyermekét?",
-    "imdbRating": 6.5,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Thriller",
       "Akció"
     ],
-    "seeders": 993
-  },
-  {
-    "id": "tt8679660",
-    "type": "movie",
-    "name": "A háború szavai",
-    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Anna Politkovszkaja újságíró bátor harca a független hangok hallatásának lehetőségéért Putyin Oroszországában.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 169
+    "seeders": 1050
   },
   {
     "id": "tt27681354",
@@ -78,22 +62,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1832
+    "seeders": 1954
   },
   {
-    "id": "tt37660486",
+    "id": "tt8679660",
     "type": "movie",
-    "name": "Made in EU",
-    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
+    "name": "A háború szavai",
+    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Anna Politkovszkaja újságíró bátor harca a független hangok hallatásának lehetőségéért Putyin Oroszországában.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
     "genres": [
-      "Dráma"
+      "Dráma",
+      "Thriller"
     ],
-    "seeders": 147
+    "seeders": 174
   },
   {
     "id": "tt11561116",
@@ -110,24 +95,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1210
+    "seeders": 1283
   },
   {
-    "id": "tt24850708",
+    "id": "tt37660486",
     "type": "movie",
-    "name": "Párbajhősök",
-    "poster": "https://image.tmdb.org/t/p/w500/k9IbQenuJE0JceCysNb3aF1dAIS.jpg",
+    "name": "Made in EU",
+    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Amerika legkeresettebb bűnözője felbukkan egy kentuckyi kisvárosban, az erőszakos múltja és egy bosszúszomjas különítmény is a nyomába ered. Miközben golyózápor szaggatja szét a várost, a keménykezű pisztolyforgató megfogadja, hogy megvédi a pusztulás szélén álló közösséget. Az akciódús westernthriller Nicolas Cage, Stephen Dorff és Heather Graham főszereplésével készült.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller",
-      "Western"
+      "Dráma"
     ],
-    "seeders": 252
+    "seeders": 151
   },
   {
     "id": "tt7708226",
@@ -146,38 +129,21 @@
     "seeders": 296
   },
   {
-    "id": "tt10312938",
+    "id": "tt24850708",
     "type": "movie",
-    "name": "A bűvös kert meséi",
-    "poster": "https://image.tmdb.org/t/p/w500/kQ6OfkhWIcxmvdfl0Zn3arseo5p.jpg",
+    "name": "Párbajhősök",
+    "poster": "https://image.tmdb.org/t/p/w500/k9IbQenuJE0JceCysNb3aF1dAIS.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Három gyerek a nagyapjuknál tölti az éjszakát. Hogy kitöltsék a csendet, miután elvesztették nagymamájukat, a család mesemondóját, saját történeteket találnak ki, és felfedezik a képzelet erejét.",
-    "imdbRating": 5.3,
+    "description": "Amikor Amerika legkeresettebb bűnözője felbukkan egy kentuckyi kisvárosban, az erőszakos múltja és egy bosszúszomjas különítmény is a nyomába ered. Miközben golyózápor szaggatja szét a várost, a keménykezű pisztolyforgató megfogadja, hogy megvédi a pusztulás szélén álló közösséget. Az akciódús westernthriller Nicolas Cage, Stephen Dorff és Heather Graham főszereplésével készült.",
+    "imdbRating": 6.1,
     "releaseInfo": "2025",
     "genres": [
-      "Animációs",
-      "Családi",
-      "Fantasy",
-      "Vígjáték"
+      "Akció",
+      "Thriller",
+      "Western"
     ],
-    "seeders": 96
-  },
-  {
-    "id": "tt32123395",
-    "type": "movie",
-    "name": "Altered",
-    "poster": "https://image.tmdb.org/t/p/w500/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Akció"
-    ],
-    "seeders": 217
+    "seeders": 244
   },
   {
     "id": "tt43679852",
@@ -196,24 +162,58 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 346
+    "seeders": 357
   },
   {
-    "id": "tt26657236",
+    "id": "tt32123395",
     "type": "movie",
-    "name": "Backrooms - Hátsó szobák",
-    "poster": "https://image.tmdb.org/t/p/w500/k7jSZKFTeLVHsWoYN14e204dUhM.jpg",
+    "name": "Módosítva",
+    "poster": "https://image.tmdb.org/t/p/w500/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy alternatív jelenben a genetikailag feljavított emberek uralják a társadalmat. A kitaszított Leon és Chloe az igazságért harcol a genetikai egyenlőtlenségeket kihasználó korrupt politikusok ellen, és mindent kockára tesznek, hogy szembe szálljanak az elnyomó rendszerrel.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Akció"
+    ],
+    "seeders": 225
+  },
+  {
+    "id": "tt10312938",
+    "type": "movie",
+    "name": "A bűvös kert meséi",
+    "poster": "https://image.tmdb.org/t/p/w500/kQ6OfkhWIcxmvdfl0Zn3arseo5p.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Három gyerek a nagyapjuknál tölti az éjszakát. Hogy kitöltsék a csendet, miután elvesztették nagymamájukat, a család mesemondóját, saját történeteket találnak ki, és felfedezik a képzelet erejét.",
+    "imdbRating": 5.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Fantasy",
+      "Vígjáték"
+    ],
+    "seeders": 104
+  },
+  {
+    "id": "tt19838566",
+    "type": "movie",
+    "name": "Kraken",
+    "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "A kilencvenes évek elején Clark, egy kiégett építészből lett bútoráruház-tulajdonos különös átjárót fedez fel üzlete pincéjében. Az ajtó egy végtelennek tűnő, fluoreszkáló fényekkel megvilágított labirintusba vezet, ahol a valóság törvényei fokozatosan felbomlanak. A nyomasztó folyosók és üres irodaszerű terek között bolyongva Clark megszállottjává válik a helynek, miközben saját múltja és pszichéje is darabokra hullik. Terapeutája, Dr. Mary Kline eleinte mentális összeomlásnak hiszi a férfi történeteit, ám amikor Clark nyomtalanul eltűnik, kénytelen maga is belépni a rejtélyes dimenzióba. A nő egy olyan világban találja magát, ahol az idő, az emlékek és az identitás összemosódnak, és ahol valami ismeretlen figyeli minden lépését.",
-    "imdbRating": 7.1,
+    "description": "Johanne, a tengerbiológus éppen egy Vangsnes nevű, fjord melletti vidéki közösség halgazdaságában végez kutatásokat, amikor több különös esemény történik. Két helyi tinédzsert brutálisan meggyilkolnak és a nyomok a mély fjord irányába mutatnak. Vajon a mélység több titkot rejt, mint amit elsőre gondolnánk? A legmélyebb fjord alján egy hegy méretű, mitikus szörnyeteg pihen, amely számtalan karjával készen áll arra, hogy mindent összezúzzon és felfaljon, amit elér.",
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Horror",
-      "Rejtély",
-      "Sci-Fi"
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 1546
+    "seeders": 736
   },
   {
     "id": "tt8814476",
@@ -233,23 +233,6 @@
     "seeders": 138
   },
   {
-    "id": "tt19838566",
-    "type": "movie",
-    "name": "Kraken",
-    "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Johanne, a tengerbiológus éppen egy Vangsnes nevű, fjord melletti vidéki közösség halgazdaságában végez kutatásokat, amikor több különös esemény történik. Két helyi tinédzsert brutálisan meggyilkolnak és a nyomok a mély fjord irányába mutatnak. Vajon a mélység több titkot rejt, mint amit elsőre gondolnánk? A legmélyebb fjord alján egy hegy méretű, mitikus szörnyeteg pihen, amely számtalan karjával készen áll arra, hogy mindent összezúzzon és felfaljon, amit elér.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 689
-  },
-  {
     "id": "tt31170389",
     "type": "movie",
     "name": "Gonosz halott: Égj!",
@@ -262,7 +245,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 695
+    "seeders": 772
   },
   {
     "id": "tt13570066",
@@ -279,25 +262,7 @@
       "Háborús",
       "Akció"
     ],
-    "seeders": 122
-  },
-  {
-    "id": "tt29355505",
-    "type": "movie",
-    "name": "Toy Story 5.",
-    "poster": "https://image.tmdb.org/t/p/w500/2Dib7rMctmMthKo75lhs3jtvqUo.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Vígjáték",
-      "Kaland"
-    ],
-    "seeders": 853
+    "seeders": 120
   },
   {
     "id": "tt34470789",
@@ -313,7 +278,7 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 180
+    "seeders": 203
   },
   {
     "id": "tt18259538",
@@ -331,7 +296,25 @@
       "Fantasy",
       "Családi"
     ],
-    "seeders": 599
+    "seeders": 684
+  },
+  {
+    "id": "tt29355505",
+    "type": "movie",
+    "name": "Toy Story 5.",
+    "poster": "https://image.tmdb.org/t/p/w500/2Dib7rMctmMthKo75lhs3jtvqUo.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Vígjáték",
+      "Kaland"
+    ],
+    "seeders": 571
   },
   {
     "id": "tt32890033",
@@ -350,7 +333,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 519
+    "seeders": 541
   },
   {
     "id": "tt37275992",
@@ -367,7 +350,7 @@
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 295
+    "seeders": 304
   },
   {
     "id": "tt34471850",
@@ -383,23 +366,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 436
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 70
+    "seeders": 460
   },
   {
     "id": "tt37654096",
@@ -415,7 +382,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 301
+    "seeders": 323
   },
   {
     "id": "tt32843349",
@@ -431,7 +398,40 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 88
+    "seeders": 89
+  },
+  {
+    "id": "tt39390497",
+    "type": "movie",
+    "name": "Szemtől szemben El Chapóval",
+    "poster": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A történet két rendőrről szól, akik egy rutinellenőrzés során félreállítanak egy lopott autót, de hirtelen szemtől szemben találják magukat a világ egyik legveszélyesebb bűnözőjével.",
+    "imdbRating": 8.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 409
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 67
   },
   {
     "id": "tt27986457",
@@ -451,23 +451,6 @@
     "seeders": 104
   },
   {
-    "id": "tt39390497",
-    "type": "movie",
-    "name": "Szemtől szemben El Chapóval",
-    "poster": "https://image.tmdb.org/t/p/w500/iwCeOpuBtuTP1kLosqgniey5OvX.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet két rendőrről szól, akik egy rutinellenőrzés során félreállítanak egy lopott autót, de hirtelen szemtől szemben találják magukat a világ egyik legveszélyesebb bűnözőjével.",
-    "imdbRating": 8.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Bűnügyi",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 390
-  },
-  {
     "id": "tt35672862",
     "type": "movie",
     "name": "Hokum",
@@ -481,7 +464,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 64
+    "seeders": 68
   },
   {
     "id": "tt44322266",
@@ -496,6 +479,23 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 90
+    "seeders": 92
+  },
+  {
+    "id": "tt29028515",
+    "type": "movie",
+    "name": "Wasteman",
+    "poster": "https://image.tmdb.org/t/p/w500/lKK9ImwpoTCwDZKgYpjIIJCnlf0.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Taylor feltételes szabadlábra helyezését követően az újrakezdés reménye veszélybe kerül, amikor megérkezik új cellatársa, Dee. Dee pártfogásába veszi Taylort, ami egy kegyetlen támadás során próbára teszi a kapcsolatukat. Taylor nehéz döntés elé kerül: vajon Dee védelmét választja, vagy inkább a saját szabadulási esélyeit tartja szem előtt?",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Bűnügyi",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 251
   }
 ]
