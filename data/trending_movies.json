@@ -13,7 +13,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 99
+    "seeders": 193
   },
   {
     "id": "tt33763941",
@@ -29,7 +29,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 57
+    "seeders": 81
   },
   {
     "id": "tt19035928",
@@ -45,7 +45,23 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 665
+    "seeders": 637
+  },
+  {
+    "id": "tt34564059",
+    "type": "movie",
+    "name": "Versenyfutás az életért",
+    "poster": "https://image.tmdb.org/t/p/w500/efCS2vbfeSeuR8SJTdsqZiCNxFm.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Versenyfutás az életért című pszichológiai thrillerben Maia Marten, a kiváló londoni ügyvéd élete darabokra hullik reggeli futása közben: elrabolják a fiát. Ahhoz, hogy visszakapja, kegyetlen utasításokat követve végig kell futnia a városon, és senkiben sem bízhat. Vajon meddig képes elmenni egy anya, hogy megmentse a gyermekét?",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Thriller",
+      "Akció"
+    ],
+    "seeders": 787
   },
   {
     "id": "tt33296751",
@@ -62,23 +78,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 686
-  },
-  {
-    "id": "tt34564059",
-    "type": "movie",
-    "name": "Versenyfutás az életért",
-    "poster": "https://image.tmdb.org/t/p/w500/efCS2vbfeSeuR8SJTdsqZiCNxFm.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Versenyfutás az életért című pszichológiai thrillerben Maia Marten, a kiváló londoni ügyvéd élete darabokra hullik reggeli futása közben: elrabolják a fiát. Ahhoz, hogy visszakapja, kegyetlen utasításokat követve végig kell futnia a városon, és senkiben sem bízhat. Vajon meddig képes elmenni egy anya, hogy megmentse a gyermekét?",
-    "imdbRating": 6.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Thriller",
-      "Akció"
-    ],
-    "seeders": 854
+    "seeders": 623
   },
   {
     "id": "tt27681354",
@@ -94,7 +94,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1544
+    "seeders": 1479
   },
   {
     "id": "tt11561116",
@@ -111,7 +111,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1024
+    "seeders": 935
   },
   {
     "id": "tt8679660",
@@ -127,22 +127,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 163
-  },
-  {
-    "id": "tt37660486",
-    "type": "movie",
-    "name": "Made in EU",
-    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 140
+    "seeders": 164
   },
   {
     "id": "tt7708226",
@@ -158,24 +143,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 244
-  },
-  {
-    "id": "tt24850708",
-    "type": "movie",
-    "name": "Párbajhősök",
-    "poster": "https://image.tmdb.org/t/p/w500/k9IbQenuJE0JceCysNb3aF1dAIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Amerika legkeresettebb bűnözője felbukkan egy kentuckyi kisvárosban, az erőszakos múltja és egy bosszúszomjas különítmény is a nyomába ered. Miközben golyózápor szaggatja szét a várost, a keménykezű pisztolyforgató megfogadja, hogy megvédi a pusztulás szélén álló közösséget. Az akciódús westernthriller Nicolas Cage, Stephen Dorff és Heather Graham főszereplésével készült.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Western"
-    ],
-    "seeders": 207
+    "seeders": 233
   },
   {
     "id": "tt43679852",
@@ -194,7 +162,7 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 298
+    "seeders": 275
   },
   {
     "id": "tt19838566",
@@ -211,7 +179,39 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 572
+    "seeders": 541
+  },
+  {
+    "id": "tt37660486",
+    "type": "movie",
+    "name": "Made in EU",
+    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 121
+  },
+  {
+    "id": "tt24850708",
+    "type": "movie",
+    "name": "Párbajhősök",
+    "poster": "https://image.tmdb.org/t/p/w500/k9IbQenuJE0JceCysNb3aF1dAIS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Amerika legkeresettebb bűnözője felbukkan egy kentuckyi kisvárosban, az erőszakos múltja és egy bosszúszomjas különítmény is a nyomába ered. Miközben golyózápor szaggatja szét a várost, a keménykezű pisztolyforgató megfogadja, hogy megvédi a pusztulás szélén álló közösséget. Az akciódús westernthriller Nicolas Cage, Stephen Dorff és Heather Graham főszereplésével készült.",
+    "imdbRating": 6.1,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Western"
+    ],
+    "seeders": 177
   },
   {
     "id": "tt32123395",
@@ -227,25 +227,7 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 187
-  },
-  {
-    "id": "tt10312938",
-    "type": "movie",
-    "name": "A bűvös kert meséi",
-    "poster": "https://image.tmdb.org/t/p/w500/osYG7R4OR5ttbrLuvsWITocIdSh.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Három gyerek a nagyapjuknál tölti az éjszakát. Hogy kitöltsék a csendet, miután elvesztették nagymamájukat, a család mesemondóját, saját történeteket találnak ki, és felfedezik a képzelet erejét.",
-    "imdbRating": 5.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Fantasy",
-      "Vígjáték"
-    ],
-    "seeders": 93
+    "seeders": 168
   },
   {
     "id": "tt8814476",
@@ -262,7 +244,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 124
+    "seeders": 122
   },
   {
     "id": "tt31170389",
@@ -277,7 +259,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 552
+    "seeders": 514
   },
   {
     "id": "tt18259538",
@@ -295,24 +277,25 @@
       "Fantasy",
       "Családi"
     ],
-    "seeders": 524
+    "seeders": 500
   },
   {
-    "id": "tt13570066",
+    "id": "tt10312938",
     "type": "movie",
-    "name": "A sivatag harcosa",
-    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
+    "name": "A bűvös kert meséi",
+    "poster": "https://image.tmdb.org/t/p/w500/osYG7R4OR5ttbrLuvsWITocIdSh.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Három gyerek a nagyapjuknál tölti az éjszakát. Hogy kitöltsék a csendet, miután elvesztették nagymamájukat, a család mesemondóját, saját történeteket találnak ki, és felfedezik a képzelet erejét.",
+    "imdbRating": 5.3,
+    "releaseInfo": "2025",
     "genres": [
-      "Történelmi",
-      "Háborús",
-      "Akció"
+      "Animációs",
+      "Családi",
+      "Fantasy",
+      "Vígjáték"
     ],
-    "seeders": 103
+    "seeders": 76
   },
   {
     "id": "tt29355505",
@@ -330,23 +313,24 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 481
+    "seeders": 472
   },
   {
-    "id": "tt34470789",
+    "id": "tt13570066",
     "type": "movie",
-    "name": "Reménytelenül - József Attila pszichoanalízise",
-    "poster": "https://image.tmdb.org/t/p/w500/iCUN98OPd7sgJ8ypcqvxVa9vYpi.jpg",
+    "name": "A sivatag harcosa",
+    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A film József Attila pszichoanalízisét dolgozza fel,  azt az életszakaszát, amikor a költő, Gyömrői Edit pszichoanalitikus terápiáján vett részt.  József Attila műveiből merít ihletet, szorosan építkezve újságcikkeire, tanulmányaira, leveleire és verseire. Ennek eredményeként a költő szavai elevenednek meg a filmvásznon, hitelesen ábrázolva a korszakot és József Attila belső vívódásait.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Romantikus"
+      "Történelmi",
+      "Háborús",
+      "Akció"
     ],
-    "seeders": 157
+    "seeders": 104
   },
   {
     "id": "tt32890033",
@@ -365,7 +349,39 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 450
+    "seeders": 447
+  },
+  {
+    "id": "tt34470789",
+    "type": "movie",
+    "name": "Reménytelenül - József Attila pszichoanalízise",
+    "poster": "https://image.tmdb.org/t/p/w500/iCUN98OPd7sgJ8ypcqvxVa9vYpi.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A film József Attila pszichoanalízisét dolgozza fel,  azt az életszakaszát, amikor a költő, Gyömrői Edit pszichoanalitikus terápiáján vett részt.  József Attila műveiből merít ihletet, szorosan építkezve újságcikkeire, tanulmányaira, leveleire és verseire. Ennek eredményeként a költő szavai elevenednek meg a filmvásznon, hitelesen ábrázolva a korszakot és József Attila belső vívódásait.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus"
+    ],
+    "seeders": 143
+  },
+  {
+    "id": "tt34471850",
+    "type": "movie",
+    "name": "Védelmező",
+    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Thriller"
+    ],
+    "seeders": 354
   },
   {
     "id": "tt37275992",
@@ -382,23 +398,7 @@
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 252
-  },
-  {
-    "id": "tt34471850",
-    "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 369
+    "seeders": 218
   },
   {
     "id": "tt37654096",
@@ -414,7 +414,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 269
+    "seeders": 255
   },
   {
     "id": "tt39390497",
@@ -431,39 +431,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 347
-  },
-  {
-    "id": "tt32843349",
-    "type": "movie",
-    "name": "Bocsánat, bébi",
-    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 80
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 63
+    "seeders": 316
   },
   {
     "id": "tt27986457",
@@ -480,7 +448,39 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 88
+    "seeders": 81
+  },
+  {
+    "id": "tt27714581",
+    "type": "movie",
+    "name": "Érzelmi érték",
+    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 57
+  },
+  {
+    "id": "tt32843349",
+    "type": "movie",
+    "name": "Bocsánat, bébi",
+    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 64
   },
   {
     "id": "tt44322266",
@@ -490,11 +490,11 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
-    "imdbRating": 6.9,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 83
+    "seeders": 73
   }
 ]
