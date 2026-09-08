@@ -1,5 +1,23 @@
 [
   {
+    "id": "tt27419466",
+    "type": "movie",
+    "name": "Vaiana",
+    "poster": "https://image.tmdb.org/t/p/w500/lKbrUpeOBtAGtAjwPJM6BMvM735.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Az ókori Polinéziában, amikor Maui szörnyű átka eléri egy indulatos törzsfőnök szigetét, a makacs lánya válaszol az Óceán hívására, és útnak indul, hogy megkeresse a félistent és helyrehozza a bajt.",
+    "imdbRating": 6.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Családi",
+      "Fantasy",
+      "Vígjáték",
+      "Kaland"
+    ],
+    "seeders": 260
+  },
+  {
     "id": "tt40210247",
     "type": "movie",
     "name": "Good Vibes Only",
@@ -13,7 +31,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 178
+    "seeders": 206
   },
   {
     "id": "tt19035928",
@@ -29,7 +47,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 592
+    "seeders": 674
   },
   {
     "id": "tt34564059",
@@ -45,7 +63,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 707
+    "seeders": 792
   },
   {
     "id": "tt33296751",
@@ -62,23 +80,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 550
-  },
-  {
-    "id": "tt33763941",
-    "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/9gRBaF28FAGYGGn3ebZHy4qAS68.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 73
+    "seeders": 645
   },
   {
     "id": "tt27681354",
@@ -94,7 +96,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1269
+    "seeders": 1502
   },
   {
     "id": "tt11561116",
@@ -111,7 +113,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 830
+    "seeders": 980
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/9gRBaF28FAGYGGn3ebZHy4qAS68.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 84
   },
   {
     "id": "tt8679660",
@@ -127,38 +145,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 154
-  },
-  {
-    "id": "tt7708226",
-    "type": "movie",
-    "name": "Harcra született",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Beast Patton James történetét követi, aki feladja MMA harcművészeti álmait, hogy biztonságot teremtsen családjának, feleségének és fiának. Amikor az alvilág felé súlyos tartozásokat felhalmozó bátyja, Malon egy végzetes sérülésben meghal, Patton egy ONE Championship küzdelemben akarja megbosszulni őt a veterán edző, Sammy segítségével.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 209
-  },
-  {
-    "id": "tt37660486",
-    "type": "movie",
-    "name": "Made in EU",
-    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 116
+    "seeders": 149
   },
   {
     "id": "tt19838566",
@@ -175,7 +162,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 465
+    "seeders": 542
+  },
+  {
+    "id": "tt7708226",
+    "type": "movie",
+    "name": "Harcra született",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Beast Patton James történetét követi, aki feladja MMA harcművészeti álmait, hogy biztonságot teremtsen családjának, feleségének és fiának. Amikor az alvilág felé súlyos tartozásokat felhalmozó bátyja, Malon egy végzetes sérülésben meghal, Patton egy ONE Championship küzdelemben akarja megbosszulni őt a veterán edző, Sammy segítségével.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 218
   },
   {
     "id": "tt43679852",
@@ -194,7 +197,7 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 236
+    "seeders": 275
   },
   {
     "id": "tt24850708",
@@ -211,7 +214,22 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 159
+    "seeders": 178
+  },
+  {
+    "id": "tt37660486",
+    "type": "movie",
+    "name": "Made in EU",
+    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 126
   },
   {
     "id": "tt32123395",
@@ -227,7 +245,7 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 154
+    "seeders": 161
   },
   {
     "id": "tt31170389",
@@ -242,7 +260,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 435
+    "seeders": 519
   },
   {
     "id": "tt8814476",
@@ -259,25 +277,7 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 101
-  },
-  {
-    "id": "tt10312938",
-    "type": "movie",
-    "name": "A bűvös kert meséi",
-    "poster": "https://image.tmdb.org/t/p/w500/osYG7R4OR5ttbrLuvsWITocIdSh.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Három gyerek a nagyapjuknál tölti az éjszakát. Hogy kitöltsék a csendet, miután elvesztették nagymamájukat, a család mesemondóját, saját történeteket találnak ki, és felfedezik a képzelet erejét.",
-    "imdbRating": 5.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Fantasy",
-      "Vígjáték"
-    ],
-    "seeders": 75
+    "seeders": 113
   },
   {
     "id": "tt29355505",
@@ -287,7 +287,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 8.3,
+    "imdbRating": 8.4,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -295,24 +295,25 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 415
+    "seeders": 479
   },
   {
-    "id": "tt13570066",
+    "id": "tt18259538",
     "type": "movie",
-    "name": "A sivatag harcosa",
-    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
+    "name": "Aang avatár: Az utolsó léghajlító",
+    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
-    "imdbRating": 6.2,
+    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
+    "imdbRating": 9.2,
     "releaseInfo": "2026",
     "genres": [
-      "Történelmi",
-      "Háborús",
-      "Akció"
+      "Animációs",
+      "Kaland",
+      "Fantasy",
+      "Családi"
     ],
-    "seeders": 98
+    "seeders": 488
   },
   {
     "id": "tt32890033",
@@ -331,25 +332,25 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 392
+    "seeders": 450
   },
   {
-    "id": "tt18259538",
+    "id": "tt10312938",
     "type": "movie",
-    "name": "Aang avatár: Az utolsó léghajlító",
-    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
+    "name": "A bűvös kert meséi",
+    "poster": "https://image.tmdb.org/t/p/w500/osYG7R4OR5ttbrLuvsWITocIdSh.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
-    "imdbRating": 9.2,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Három gyerek a nagyapjuknál tölti az éjszakát. Hogy kitöltsék a csendet, miután elvesztették nagymamájukat, a család mesemondóját, saját történeteket találnak ki, és felfedezik a képzelet erejét.",
+    "imdbRating": 5.5,
+    "releaseInfo": "2025",
     "genres": [
       "Animációs",
-      "Kaland",
+      "Családi",
       "Fantasy",
-      "Családi"
+      "Vígjáték"
     ],
-    "seeders": 374
+    "seeders": 79
   },
   {
     "id": "tt34470789",
@@ -365,7 +366,24 @@
       "Dráma",
       "Romantikus"
     ],
-    "seeders": 120
+    "seeders": 151
+  },
+  {
+    "id": "tt13570066",
+    "type": "movie",
+    "name": "A sivatag harcosa",
+    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Történelmi",
+      "Háborús",
+      "Akció"
+    ],
+    "seeders": 97
   },
   {
     "id": "tt37654096",
@@ -375,13 +393,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
-    "imdbRating": 6.6,
+    "imdbRating": 6.7,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 239
+    "seeders": 281
   },
   {
     "id": "tt37275992",
@@ -398,7 +416,7 @@
       "Thriller",
       "Rejtély"
     ],
-    "seeders": 198
+    "seeders": 231
   },
   {
     "id": "tt34471850",
@@ -414,7 +432,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 304
+    "seeders": 348
   },
   {
     "id": "tt39390497",
@@ -431,7 +449,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 268
+    "seeders": 315
+  },
+  {
+    "id": "tt44322266",
+    "type": "movie",
+    "name": "Fordulópont: A 9/11-es nemzedék",
+    "poster": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 78
   },
   {
     "id": "tt32843349",
@@ -447,23 +480,7 @@
       "Dráma",
       "Vígjáték"
     ],
-    "seeders": 66
-  },
-  {
-    "id": "tt27714581",
-    "type": "movie",
-    "name": "Érzelmi érték",
-    "poster": "https://image.tmdb.org/t/p/w500/iuIQY4pMngbJvO3UFd6s42izQr9.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Nora és Agnes hosszú idő után újra találkoznak elhidegült apjukkal, Gusztavval. A karizmatikus férfi valaha híres rendező volt, visszatérő filmjének egyik szerepét pedig Norának ajánlja fel. A nő visszautasítja a szerepet, amit végül egy lelkes, fiatal hollywoodi színésznő kap meg. A nővér nehéz helyzet elé került: meg kell oldaniuk az apjukkal való bonyolult kapcsolatukat és azzal is meg kell birkózniuk, hogy egy amerikai filmcsillag csöppen a zűrös családi dinamikájuk kellős közepébe.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 55
+    "seeders": 69
   },
   {
     "id": "tt27986457",
@@ -480,21 +497,6 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 75
-  },
-  {
-    "id": "tt44322266",
-    "type": "movie",
-    "name": "Fordulópont: A 9/11-es nemzedék",
-    "poster": "https://image.tmdb.org/t/p/w500/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Huszonöt évvel szeptember 11. után ez a dokumentumfilm azt mutatja be, hogyan formált egyetlen nap egy egész következő generációt. Azoktól a gyerekektől, akik elvesztették szüleiket a támadásokban, az újságírókig, akik a terror elleni háború első éveiben szerezték meg tapasztalataikat, egészen a fiatal afgánokig és tengerészgyalogosokig, akiknek szembe kellett nézniük az amerikai csapatok kaotikus afganisztáni kivonulásának következményeivel – megrázó történeteik megmutatják, hogy szeptember 11. örökségét nem csupán a történelem, hanem azok az életek is mérik, amelyeket mind a mai napig formál.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 68
+    "seeders": 79
   }
 ]
