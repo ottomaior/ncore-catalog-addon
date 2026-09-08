@@ -6,8 +6,8 @@
     "poster": "https://image.tmdb.org/t/p/w500/lKbrUpeOBtAGtAjwPJM6BMvM735.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Az ókori Polinéziában, amikor Maui szörnyű átka eléri egy indulatos törzsfőnök szigetét, a makacs lánya válaszol az Óceán hívására, és útnak indul, hogy megkeresse a félistent és helyrehozza a bajt.",
-    "imdbRating": 6.5,
+    "description": "Az ókori Polinéziában, amikor Maui szörnyű átka eléri egy indulatos törzsfőnök szigetét, a makacs lánya válaszol az Óceán hívására és útnak indul, hogy megkeresse a félistent és helyrehozza a bajt.",
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Családi",
@@ -15,7 +15,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 707
+    "seeders": 759
   },
   {
     "id": "tt40210247",
@@ -31,7 +31,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 260
+    "seeders": 238
   },
   {
     "id": "tt19035928",
@@ -47,7 +47,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 821
+    "seeders": 666
   },
   {
     "id": "tt34564059",
@@ -63,7 +63,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 988
+    "seeders": 822
   },
   {
     "id": "tt33296751",
@@ -80,7 +80,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 782
+    "seeders": 683
   },
   {
     "id": "tt27681354",
@@ -96,7 +96,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1825
+    "seeders": 1494
   },
   {
     "id": "tt11561116",
@@ -113,7 +113,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1170
+    "seeders": 959
   },
   {
     "id": "tt33763941",
@@ -129,7 +129,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 90
+    "seeders": 86
   },
   {
     "id": "tt19838566",
@@ -146,7 +146,39 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 655
+    "seeders": 529
+  },
+  {
+    "id": "tt7708226",
+    "type": "movie",
+    "name": "Harcra született",
+    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Beast Patton James történetét követi, aki feladja MMA harcművészeti álmait, hogy biztonságot teremtsen családjának, feleségének és fiának. Amikor az alvilág felé súlyos tartozásokat felhalmozó bátyja, Malon egy végzetes sérülésben meghal, Patton egy ONE Championship küzdelemben akarja megbosszulni őt a veterán edző, Sammy segítségével.",
+    "imdbRating": 7.5,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Dráma"
+    ],
+    "seeders": 224
+  },
+  {
+    "id": "tt8679660",
+    "type": "movie",
+    "name": "A háború szavai",
+    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Anna Politkovszkaja újságíró bátor harca a független hangok hallatásának lehetőségéért Putyin Oroszországában.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 144
   },
   {
     "id": "tt43679852",
@@ -165,54 +197,7 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 333
-  },
-  {
-    "id": "tt8679660",
-    "type": "movie",
-    "name": "A háború szavai",
-    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Anna Politkovszkaja újságíró bátor harca a független hangok hallatásának lehetőségéért Putyin Oroszországában.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 164
-  },
-  {
-    "id": "tt7708226",
-    "type": "movie",
-    "name": "Harcra született",
-    "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Beast Patton James történetét követi, aki feladja MMA harcművészeti álmait, hogy biztonságot teremtsen családjának, feleségének és fiának. Amikor az alvilág felé súlyos tartozásokat felhalmozó bátyja, Malon egy végzetes sérülésben meghal, Patton egy ONE Championship küzdelemben akarja megbosszulni őt a veterán edző, Sammy segítségével.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Dráma"
-    ],
-    "seeders": 255
-  },
-  {
-    "id": "tt31170389",
-    "type": "movie",
-    "name": "Gonosz halott: Égj!",
-    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 706
+    "seeders": 261
   },
   {
     "id": "tt24850708",
@@ -229,7 +214,7 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 208
+    "seeders": 168
   },
   {
     "id": "tt32123395",
@@ -245,7 +230,22 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 197
+    "seeders": 165
+  },
+  {
+    "id": "tt31170389",
+    "type": "movie",
+    "name": "Gonosz halott: Égj!",
+    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 506
   },
   {
     "id": "tt37660486",
@@ -260,7 +260,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 129
+    "seeders": 113
   },
   {
     "id": "tt18259538",
@@ -278,24 +278,7 @@
       "Fantasy",
       "Családi"
     ],
-    "seeders": 609
-  },
-  {
-    "id": "tt8814476",
-    "type": "movie",
-    "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 140
+    "seeders": 502
   },
   {
     "id": "tt29355505",
@@ -313,7 +296,24 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 543
+    "seeders": 458
+  },
+  {
+    "id": "tt8814476",
+    "type": "movie",
+    "name": "Supergirl",
+    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 115
   },
   {
     "id": "tt32890033",
@@ -332,23 +332,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 515
-  },
-  {
-    "id": "tt34470789",
-    "type": "movie",
-    "name": "Reménytelenül - József Attila pszichoanalízise",
-    "poster": "https://image.tmdb.org/t/p/w500/iCUN98OPd7sgJ8ypcqvxVa9vYpi.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A film József Attila pszichoanalízisét dolgozza fel,  azt az életszakaszát, amikor a költő, Gyömrői Edit pszichoanalitikus terápiáján vett részt.  József Attila műveiből merít ihletet, szorosan építkezve újságcikkeire, tanulmányaira, leveleire és verseire. Ennek eredményeként a költő szavai elevenednek meg a filmvásznon, hitelesen ábrázolva a korszakot és József Attila belső vívódásait.",
-    "imdbRating": null,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus"
-    ],
-    "seeders": 173
+    "seeders": 452
   },
   {
     "id": "tt13570066",
@@ -365,24 +349,23 @@
       "Háborús",
       "Akció"
     ],
-    "seeders": 118
+    "seeders": 106
   },
   {
-    "id": "tt37275992",
+    "id": "tt34470789",
     "type": "movie",
-    "name": "Kétség",
-    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
+    "name": "Reménytelenül - József Attila pszichoanalízise",
+    "poster": "https://image.tmdb.org/t/p/w500/iCUN98OPd7sgJ8ypcqvxVa9vYpi.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A film József Attila pszichoanalízisét dolgozza fel,  azt az életszakaszát, amikor a költő, Gyömrői Edit pszichoanalitikus terápiáján vett részt.  József Attila műveiből merít ihletet, szorosan építkezve újságcikkeire, tanulmányaira, leveleire és verseire. Ennek eredményeként a költő szavai elevenednek meg a filmvásznon, hitelesen ábrázolva a korszakot és József Attila belső vívódásait.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
     "genres": [
       "Dráma",
-      "Thriller",
-      "Rejtély"
+      "Romantikus"
     ],
-    "seeders": 275
+    "seeders": 137
   },
   {
     "id": "tt34471850",
@@ -398,7 +381,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 430
+    "seeders": 365
   },
   {
     "id": "tt37654096",
@@ -408,13 +391,30 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
-    "imdbRating": 6.7,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 321
+    "seeders": 270
+  },
+  {
+    "id": "tt37275992",
+    "type": "movie",
+    "name": "Kétség",
+    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Rejtély"
+    ],
+    "seeders": 230
   },
   {
     "id": "tt10312938",
@@ -432,7 +432,7 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 78
+    "seeders": 64
   },
   {
     "id": "tt39390497",
@@ -449,23 +449,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 389
-  },
-  {
-    "id": "tt32843349",
-    "type": "movie",
-    "name": "Bocsánat, bébi",
-    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Vígjáték"
-    ],
-    "seeders": 84
+    "seeders": 333
   },
   {
     "id": "tt27986457",
@@ -482,7 +466,23 @@
       "Thriller",
       "Bűnügyi"
     ],
-    "seeders": 93
+    "seeders": 81
+  },
+  {
+    "id": "tt32843349",
+    "type": "movie",
+    "name": "Bocsánat, bébi",
+    "poster": "https://image.tmdb.org/t/p/w500/n8wZEQen5hDNRGzm4fY4sxWe5xe.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Cannes-ban bemutatott film főhőse egy egyetemi professzor, Agnes, akit szexuális abúzus ért. Azonban az élet megy tovább... legalábbis a körülötte élők számára.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Vígjáték"
+    ],
+    "seeders": 70
   },
   {
     "id": "tt44322266",
@@ -497,6 +497,6 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 86
+    "seeders": 77
   }
 ]
