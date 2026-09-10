@@ -12,37 +12,6 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 133
-  },
-  {
-    "id": "tt5179884",
-    "type": "movie",
-    "name": "Il Maestro",
-    "poster": "https://image.tmdb.org/t/p/w500/6tJSUT4sG1b5H1RLfxsv8mMjoCa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 68
-  },
-  {
-    "id": "tt38267923",
-    "type": "movie",
-    "name": "Dix Pour Cent ! Le Film",
-    "poster": "https://image.tmdb.org/t/p/w500/s0NJyZcmuG91MgFwflfGyQFeg41.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
     "seeders": 162
   },
   {
@@ -61,7 +30,22 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1198
+    "seeders": 1097
+  },
+  {
+    "id": "tt5179884",
+    "type": "movie",
+    "name": "Il Maestro",
+    "poster": "https://image.tmdb.org/t/p/w500/6tJSUT4sG1b5H1RLfxsv8mMjoCa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 82
   },
   {
     "id": "tt29356163",
@@ -80,7 +64,23 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 459
+    "seeders": 441
+  },
+  {
+    "id": "tt38267923",
+    "type": "movie",
+    "name": "Hívd az ügynökömet! - A film",
+    "poster": "https://image.tmdb.org/t/p/w500/s0NJyZcmuG91MgFwflfGyQFeg41.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy volt tehetségkutató ügynök történetét követi nyomon, aki rendezőnek készül, és kénytelen újra összehívni régi csapatát, amikor főszereplője a forgatás kezdete előtt néhány nappal visszalép.",
+    "imdbRating": 5.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 159
   },
   {
     "id": "tt36073210",
@@ -90,14 +90,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miután rejtélyes módon elrabolják New Yorkban, a spanyol mágnás lányát, Marfil Cortés testőrt kap Sebastián Moore-tól. Az összeütköző személyiségek ellenére egyre nagyobb vonzalom övezi őket, ahogy egyre nagyobb fenyegetésekkel nézzenek szembe Spanyolországban, ahol a látszat csal.",
-    "imdbRating": 7.1,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Dráma",
       "Thriller"
     ],
-    "seeders": 263
+    "seeders": 242
   },
   {
     "id": "tt19035928",
@@ -113,39 +113,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 830
-  },
-  {
-    "id": "tt13868484",
-    "type": "movie",
-    "name": "Maysoon",
-    "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 107
-  },
-  {
-    "id": "tt38061210",
-    "type": "movie",
-    "name": "Miért is házasodtam meg?",
-    "poster": "https://image.tmdb.org/t/p/w500/bgZN3gniRohjfKdsw1Q7EGBAyqz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 127
+    "seeders": 704
   },
   {
     "id": "tt33296751",
@@ -162,7 +130,22 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 862
+    "seeders": 767
+  },
+  {
+    "id": "tt13868484",
+    "type": "movie",
+    "name": "Maysoon",
+    "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 105
   },
   {
     "id": "tt34564059",
@@ -178,7 +161,24 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 937
+    "seeders": 812
+  },
+  {
+    "id": "tt38061210",
+    "type": "movie",
+    "name": "Miért is házasodtam meg?",
+    "poster": "https://image.tmdb.org/t/p/w500/bgZN3gniRohjfKdsw1Q7EGBAyqz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 115
   },
   {
     "id": "tt27681354",
@@ -194,7 +194,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1720
+    "seeders": 1487
   },
   {
     "id": "tt40210247",
@@ -210,7 +210,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 273
+    "seeders": 233
   },
   {
     "id": "tt11561116",
@@ -227,7 +227,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1081
+    "seeders": 912
   },
   {
     "id": "tt32298285",
@@ -243,24 +243,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 57
-  },
-  {
-    "id": "tt19838566",
-    "type": "movie",
-    "name": "Kraken",
-    "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Johanne, a tengerbiológus éppen egy Vangsnes nevű, fjord melletti vidéki közösség halgazdaságában végez kutatásokat, amikor több különös esemény történik. Két helyi tinédzsert brutálisan meggyilkolnak és a nyomok a mély fjord irányába mutatnak. Vajon a mélység több titkot rejt, mint amit elsőre gondolnánk? A legmélyebb fjord alján egy hegy méretű, mitikus szörnyeteg pihen, amely számtalan karjával készen áll arra, hogy mindent összezúzzon és felfaljon, amit elér.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 592
+    "seeders": 53
   },
   {
     "id": "tt27550504",
@@ -277,7 +260,7 @@
       "Romantikus",
       "Bűnügyi"
     ],
-    "seeders": 70
+    "seeders": 68
   },
   {
     "id": "tt43700444",
@@ -292,22 +275,24 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 66
+    "seeders": 65
   },
   {
-    "id": "tt31170389",
+    "id": "tt19838566",
     "type": "movie",
-    "name": "Gonosz halott: Égj!",
-    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "name": "Kraken",
+    "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
-    "imdbRating": 7.7,
+    "description": "Johanne, a tengerbiológus éppen egy Vangsnes nevű, fjord melletti vidéki közösség halgazdaságában végez kutatásokat, amikor több különös esemény történik. Két helyi tinédzsert brutálisan meggyilkolnak és a nyomok a mély fjord irányába mutatnak. Vajon a mélység több titkot rejt, mint amit elsőre gondolnánk? A legmélyebb fjord alján egy hegy méretű, mitikus szörnyeteg pihen, amely számtalan karjával készen áll arra, hogy mindent összezúzzon és felfaljon, amit elér.",
+    "imdbRating": 6.2,
     "releaseInfo": "2026",
     "genres": [
-      "Horror"
+      "Horror",
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 651
+    "seeders": 497
   },
   {
     "id": "tt15148442",
@@ -322,7 +307,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 62
+    "seeders": 61
   },
   {
     "id": "tt7708226",
@@ -338,7 +323,22 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 262
+    "seeders": 233
+  },
+  {
+    "id": "tt31170389",
+    "type": "movie",
+    "name": "Gonosz halott: Égj!",
+    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 523
   },
   {
     "id": "tt43679852",
@@ -357,7 +357,23 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 295
+    "seeders": 255
+  },
+  {
+    "id": "tt8679660",
+    "type": "movie",
+    "name": "A háború szavai",
+    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Anna Politkovszkaja újságíró bátor harca a független hangok hallatásának lehetőségéért Putyin Oroszországában.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 130
   },
   {
     "id": "tt24850708",
@@ -374,7 +390,7 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 199
+    "seeders": 161
   },
   {
     "id": "tt33763941",
@@ -390,41 +406,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 88
-  },
-  {
-    "id": "tt29355505",
-    "type": "movie",
-    "name": "Toy Story 5.",
-    "poster": "https://image.tmdb.org/t/p/w500/2Dib7rMctmMthKo75lhs3jtvqUo.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Családi",
-      "Vígjáték",
-      "Kaland"
-    ],
-    "seeders": 519
-  },
-  {
-    "id": "tt8679660",
-    "type": "movie",
-    "name": "A háború szavai",
-    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Anna Politkovszkaja újságíró bátor harca a független hangok hallatásának lehetőségéért Putyin Oroszországában.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 141
+    "seeders": 78
   },
   {
     "id": "tt32890033",
@@ -443,7 +425,25 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 482
+    "seeders": 436
+  },
+  {
+    "id": "tt29355505",
+    "type": "movie",
+    "name": "Toy Story 5.",
+    "poster": "https://image.tmdb.org/t/p/w500/2Dib7rMctmMthKo75lhs3jtvqUo.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Vígjáték",
+      "Kaland"
+    ],
+    "seeders": 433
   },
   {
     "id": "tt32123395",
@@ -459,22 +459,7 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 171
-  },
-  {
-    "id": "tt37660486",
-    "type": "movie",
-    "name": "Made in EU",
-    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 111
+    "seeders": 151
   },
   {
     "id": "tt8814476",
@@ -491,6 +476,21 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 126
+    "seeders": 110
+  },
+  {
+    "id": "tt37660486",
+    "type": "movie",
+    "name": "Made in EU",
+    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 96
   }
 ]
