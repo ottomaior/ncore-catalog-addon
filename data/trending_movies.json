@@ -1,5 +1,21 @@
 [
   {
+    "id": "tt38267923",
+    "type": "movie",
+    "name": "Dix Pour Cent ! Le Film",
+    "poster": "https://image.tmdb.org/t/p/w500/s0NJyZcmuG91MgFwflfGyQFeg41.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 108
+  },
+  {
     "id": "tt27419466",
     "type": "movie",
     "name": "Vaiana",
@@ -7,7 +23,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Az ókori Polinéziában, amikor Maui szörnyű átka eléri egy indulatos törzsfőnök szigetét, a makacs lánya válaszol az Óceán hívására és útnak indul, hogy megkeresse a félistent és helyrehozza a bajt. A Vaiana élőszereplős újragondolásában Vaiana válaszol az óceán hívására, és most először életében a Motonui szigetét körülvevő korallzátonyon túlra hajózik, társaságában a hírhedt félistennel, Mauival. Feledhetetlen utazás vár rájuk, s ha sikerrel járnak, a lány népére ismét bőséges idők köszönthetnek.",
-    "imdbRating": 6.8,
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
       "Családi",
@@ -15,7 +31,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 820
+    "seeders": 994
   },
   {
     "id": "tt29356163",
@@ -34,7 +50,24 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 275
+    "seeders": 378
+  },
+  {
+    "id": "tt36073210",
+    "type": "movie",
+    "name": "Kísértő közelség",
+    "poster": "https://image.tmdb.org/t/p/w500/fjpYtxur42DUITBV2ScjUxfZnOH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután rejtélyes módon elrabolják New Yorkban, a spanyol mágnás lányát, Marfil Cortés testőrt kap Sebastián Moore-tól. Az összeütköző személyiségek ellenére egyre nagyobb vonzalom övezi őket, ahogy egyre nagyobb fenyegetésekkel nézzenek szembe Spanyolországban, ahol a látszat csal.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 214
   },
   {
     "id": "tt13868484",
@@ -49,40 +82,24 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 75
+    "seeders": 88
   },
   {
     "id": "tt38061210",
     "type": "movie",
     "name": "Miért is házasodtam meg?",
-    "poster": "https://image.tmdb.org/t/p/w500/rwaxLuOkJ5mMvJU5juNaPcKADOW.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/bgZN3gniRohjfKdsw1Q7EGBAyqz.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
-    "imdbRating": 8.3,
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 103
-  },
-  {
-    "id": "tt32298285",
-    "type": "movie",
-    "name": "Tánc a sivatagban",
-    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 47
+    "seeders": 117
   },
   {
     "id": "tt19035928",
@@ -98,7 +115,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 539
+    "seeders": 651
   },
   {
     "id": "tt33296751",
@@ -115,7 +132,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 569
+    "seeders": 706
   },
   {
     "id": "tt34564059",
@@ -131,23 +148,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 650
-  },
-  {
-    "id": "tt40210247",
-    "type": "movie",
-    "name": "Good Vibes Only",
-    "poster": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Dráma"
-    ],
-    "seeders": 205
+    "seeders": 770
   },
   {
     "id": "tt27681354",
@@ -163,7 +164,39 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1159
+    "seeders": 1391
+  },
+  {
+    "id": "tt32298285",
+    "type": "movie",
+    "name": "Tánc a sivatagban",
+    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 49
+  },
+  {
+    "id": "tt40210247",
+    "type": "movie",
+    "name": "Good Vibes Only",
+    "poster": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Dráma"
+    ],
+    "seeders": 231
   },
   {
     "id": "tt11561116",
@@ -180,7 +213,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 740
+    "seeders": 913
   },
   {
     "id": "tt27550504",
@@ -197,7 +230,7 @@
       "Romantikus",
       "Bűnügyi"
     ],
-    "seeders": 61
+    "seeders": 65
   },
   {
     "id": "tt43700444",
@@ -212,7 +245,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 58
+    "seeders": 63
   },
   {
     "id": "tt15148442",
@@ -227,23 +260,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 50
-  },
-  {
-    "id": "tt33763941",
-    "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/9gRBaF28FAGYGGn3ebZHy4qAS68.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 80
+    "seeders": 58
   },
   {
     "id": "tt19838566",
@@ -260,7 +277,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 395
+    "seeders": 464
   },
   {
     "id": "tt7708226",
@@ -276,7 +293,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 178
+    "seeders": 215
   },
   {
     "id": "tt43679852",
@@ -295,7 +312,38 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 202
+    "seeders": 247
+  },
+  {
+    "id": "tt31170389",
+    "type": "movie",
+    "name": "Gonosz halott: Égj!",
+    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 482
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/9gRBaF28FAGYGGn3ebZHy4qAS68.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt8679660",
@@ -311,22 +359,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 115
-  },
-  {
-    "id": "tt31170389",
-    "type": "movie",
-    "name": "Gonosz halott: Égj!",
-    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 400
+    "seeders": 134
   },
   {
     "id": "tt24850708",
@@ -343,22 +376,24 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 142
+    "seeders": 161
   },
   {
-    "id": "tt37660486",
+    "id": "tt18259538",
     "type": "movie",
-    "name": "Made in EU",
-    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
+    "name": "Aang avatár: Az utolsó léghajlító",
+    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.9,
+    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
+    "imdbRating": 9.2,
     "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Animációs",
+      "Kaland",
+      "Fantasy"
     ],
-    "seeders": 101
+    "seeders": 472
   },
   {
     "id": "tt29355505",
@@ -368,7 +403,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 8.4,
+    "imdbRating": 8.3,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -376,23 +411,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 355
-  },
-  {
-    "id": "tt32123395",
-    "type": "movie",
-    "name": "Módosítva",
-    "poster": "https://image.tmdb.org/t/p/w500/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy alternatív jelenben a genetikailag feljavított emberek uralják a társadalmat. A kitaszított Leon és Chloe az igazságért harcol a genetikai egyenlőtlenségeket kihasználó korrupt politikusok ellen, és mindent kockára tesznek, hogy szembe szálljanak az elnyomó rendszerrel.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Akció"
-    ],
-    "seeders": 120
+    "seeders": 438
   },
   {
     "id": "tt32890033",
@@ -411,24 +430,38 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 350
+    "seeders": 407
   },
   {
-    "id": "tt18259538",
+    "id": "tt32123395",
     "type": "movie",
-    "name": "Aang avatár: Az utolsó léghajlító",
-    "poster": "https://image.tmdb.org/t/p/w500/x67ZK4XeXKio6fj7dWWb07aDk3E.jpg",
+    "name": "Módosítva",
+    "poster": "https://image.tmdb.org/t/p/w500/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy alternatív jelenben a genetikailag feljavított emberek uralják a társadalmat. A kitaszított Leon és Chloe az igazságért harcol a genetikai egyenlőtlenségeket kihasználó korrupt politikusok ellen, és mindent kockára tesznek, hogy szembe szálljanak az elnyomó rendszerrel.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Akció"
+    ],
+    "seeders": 139
+  },
+  {
+    "id": "tt37660486",
+    "type": "movie",
+    "name": "Made in EU",
+    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Aang, a világ utolsó léghajlítója felfedez egy ősi erőt, amely megmentheti kultúráját a kihalástól, és barátaival versenyt fut az idővel, hogy megtalálják, mielőtt rossz kezekbe kerülne.",
-    "imdbRating": 9.2,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
-      "Animációs",
-      "Kaland",
-      "Fantasy"
+      "Dráma"
     ],
-    "seeders": 352
+    "seeders": 105
   },
   {
     "id": "tt8814476",
@@ -445,55 +478,23 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 92
+    "seeders": 106
   },
   {
-    "id": "tt34471850",
+    "id": "tt37275992",
     "type": "movie",
-    "name": "Védelmező",
-    "poster": "https://image.tmdb.org/t/p/w500/1hzyGatzcydIemmGkWnntM80XCh.jpg",
+    "name": "Kétség",
+    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Nikki, az egykori háborús hős nyugodt életét felborítja, amikor lányát elrabolják. Miközben belemerül az árnyékos bűnözői alvilágba, amelyet a bűnüldöző szervek és a hadsereg is üldöz, minden erejét és képességét összeszedve kell megmentenie gyermekét a veszélytől.  (Csillag Lajos)",
-    "imdbRating": 8.4,
+    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
-      "Akció",
-      "Thriller"
+      "Dráma",
+      "Thriller",
+      "Rejtély"
     ],
-    "seeders": 283
-  },
-  {
-    "id": "tt37654096",
-    "type": "movie",
-    "name": "Az Utolsó Napkelte",
-    "poster": "https://image.tmdb.org/t/p/w500/hh5m86jbHMpsuRD52K3Oid6tLXa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 209
-  },
-  {
-    "id": "tt13570066",
-    "type": "movie",
-    "name": "A sivatag harcosa",
-    "poster": "https://image.tmdb.org/t/p/w500/zXmBshAazv0zB1OVZD0EN8BypsQ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy tisztességes, de titokzatos kalandor, Hanzala magára haragítja Kisra császárt, miután a sivatagban segítséget nyújt egy menekülő királynak és egy hercegnőnek.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Történelmi",
-      "Háborús",
-      "Akció"
-    ],
-    "seeders": 82
+    "seeders": 223
   }
 ]
