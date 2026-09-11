@@ -1,5 +1,20 @@
 [
   {
+    "id": "tt38616652",
+    "type": "movie",
+    "name": "Gracias, equipo",
+    "poster": "https://image.tmdb.org/t/p/w500/aVGaBCt8g0Q990jKW85wTJKotev.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 97
+  },
+  {
     "id": "tt27419466",
     "type": "movie",
     "name": "Vaiana",
@@ -15,7 +30,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 915
+    "seeders": 1114
   },
   {
     "id": "tt39314864",
@@ -30,7 +45,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 165
+    "seeders": 216
   },
   {
     "id": "tt29356163",
@@ -49,13 +64,13 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 382
+    "seeders": 483
   },
   {
     "id": "tt38267923",
     "type": "movie",
     "name": "Hívd az ügynökömet! - A film",
-    "poster": "https://image.tmdb.org/t/p/w500/s0NJyZcmuG91MgFwflfGyQFeg41.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/lJUmTDi1ssxcxkHrzVBlwhaB0v8.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "A film egy volt tehetségkutató ügynök történetét követi nyomon, aki rendezőnek készül, és kénytelen újra összehívni régi csapatát, amikor főszereplője a forgatás kezdete előtt néhány nappal visszalép.",
@@ -65,7 +80,23 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 141
+    "seeders": 159
+  },
+  {
+    "id": "tt36073210",
+    "type": "movie",
+    "name": "Kísértő közelség",
+    "poster": "https://image.tmdb.org/t/p/w500/fjpYtxur42DUITBV2ScjUxfZnOH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután rejtélyes módon elrabolják New Yorkban, a spanyol mágnás lányát, Marfil Cortés testőrt kap Sebastián Moore-tól. Az összeütköző személyiségek ellenére egyre nagyobb vonzalom övezi őket, ahogy egyre nagyobb fenyegetésekkel nézzenek szembe Spanyolországban, ahol a látszat csal.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Thriller"
+    ],
+    "seeders": 237
   },
   {
     "id": "tt5179884",
@@ -80,23 +111,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 79
-  },
-  {
-    "id": "tt36073210",
-    "type": "movie",
-    "name": "Kísértő közelség",
-    "poster": "https://image.tmdb.org/t/p/w500/fjpYtxur42DUITBV2ScjUxfZnOH.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután rejtélyes módon elrabolják New Yorkban, a spanyol mágnás lányát, Marfil Cortés testőrt kap Sebastián Moore-tól. Az összeütköző személyiségek ellenére egyre nagyobb vonzalom övezi őket, ahogy egyre nagyobb fenyegetésekkel nézzenek szembe Spanyolországban, ahol a látszat csal.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Thriller"
-    ],
-    "seeders": 189
+    "seeders": 88
   },
   {
     "id": "tt19035928",
@@ -112,7 +127,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 579
+    "seeders": 721
   },
   {
     "id": "tt33296751",
@@ -129,7 +144,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 635
+    "seeders": 790
   },
   {
     "id": "tt34564059",
@@ -145,7 +160,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 667
+    "seeders": 818
   },
   {
     "id": "tt27681354",
@@ -161,39 +176,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1208
-  },
-  {
-    "id": "tt13868484",
-    "type": "movie",
-    "name": "Maysoon",
-    "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 97
-  },
-  {
-    "id": "tt38061210",
-    "type": "movie",
-    "name": "Miért is házasodtam meg?",
-    "poster": "https://image.tmdb.org/t/p/w500/rwaxLuOkJ5mMvJU5juNaPcKADOW.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
-    "imdbRating": 6.6,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 102
+    "seeders": 1501
   },
   {
     "id": "tt11561116",
@@ -210,7 +193,39 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 732
+    "seeders": 917
+  },
+  {
+    "id": "tt13868484",
+    "type": "movie",
+    "name": "Maysoon",
+    "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 106
+  },
+  {
+    "id": "tt38061210",
+    "type": "movie",
+    "name": "Miért is házasodtam meg?",
+    "poster": "https://image.tmdb.org/t/p/w500/rwaxLuOkJ5mMvJU5juNaPcKADOW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 116
   },
   {
     "id": "tt40210247",
@@ -226,55 +241,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 195
-  },
-  {
-    "id": "tt32298285",
-    "type": "movie",
-    "name": "Tánc a sivatagban",
-    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 48
-  },
-  {
-    "id": "tt27550504",
-    "type": "movie",
-    "name": "Civil ruhások",
-    "poster": "https://image.tmdb.org/t/p/w500/bT5QN5QARV5TblAt9jDVQQsnSec.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy ígéretes beépített tisztet azzal bíznak meg, hogy meleg férfiakat csalogasson és tartóztasson le, de szembeszegül a szakmai utasításokkal, amikor beleszeret az egyik célpontba.",
-    "imdbRating": 7.4,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Romantikus",
-      "Bűnügyi"
-    ],
-    "seeders": 60
-  },
-  {
-    "id": "tt43700444",
-    "type": "movie",
-    "name": "Első kézből: Mr. T",
-    "poster": "https://image.tmdb.org/t/p/w500/bUWHsZqPiYl8GwxhXA1nCdKRZbn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Rocky III-ban és a The A-Teamben látható aranyláncok, taraj és hollywoodi hírnév előtt még Laurence Tureaud volt. Ez az egyik legvalószínűtlenebb és legkedveltebb szórakoztatóipari ikon – Mr. T – rendkívüli története.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 59
+    "seeders": 231
   },
   {
     "id": "tt19838566",
@@ -291,7 +258,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 395
+    "seeders": 488
+  },
+  {
+    "id": "tt32298285",
+    "type": "movie",
+    "name": "Tánc a sivatagban",
+    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 52
   },
   {
     "id": "tt7708226",
@@ -307,22 +290,22 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 195
+    "seeders": 230
   },
   {
-    "id": "tt15148442",
+    "id": "tt31170389",
     "type": "movie",
-    "name": "The Garden of Earthly Delights",
-    "poster": "https://image.tmdb.org/t/p/w500/v3djiiX3wLacamXYjk2ZMUIs2we.jpg",
+    "name": "Gonosz halott: Égj!",
+    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Horror"
     ],
-    "seeders": 54
+    "seeders": 517
   },
   {
     "id": "tt43679852",
@@ -341,22 +324,72 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 221
+    "seeders": 251
   },
   {
-    "id": "tt31170389",
+    "id": "tt27550504",
     "type": "movie",
-    "name": "Gonosz halott: Égj!",
-    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "name": "Civil ruhások",
+    "poster": "https://image.tmdb.org/t/p/w500/bT5QN5QARV5TblAt9jDVQQsnSec.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy ígéretes beépített tisztet azzal bíznak meg, hogy meleg férfiakat csalogasson és tartóztasson le, de szembeszegül a szakmai utasításokkal, amikor beleszeret az egyik célpontba.",
+    "imdbRating": 7.4,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Romantikus",
+      "Bűnügyi"
+    ],
+    "seeders": 63
+  },
+  {
+    "id": "tt43700444",
+    "type": "movie",
+    "name": "Első kézből: Mr. T",
+    "poster": "https://image.tmdb.org/t/p/w500/bUWHsZqPiYl8GwxhXA1nCdKRZbn.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
-    "imdbRating": 7.7,
+    "description": "A Rocky III-ban és a The A-Teamben látható aranyláncok, taraj és hollywoodi hírnév előtt még Laurence Tureaud volt. Ez az egyik legvalószínűtlenebb és legkedveltebb szórakoztatóipari ikon – Mr. T – rendkívüli története.",
+    "imdbRating": 7.8,
     "releaseInfo": "2026",
     "genres": [
-      "Horror"
+      "Dokumentum"
     ],
-    "seeders": 416
+    "seeders": 60
+  },
+  {
+    "id": "tt15148442",
+    "type": "movie",
+    "name": "The Garden of Earthly Delights",
+    "poster": "https://image.tmdb.org/t/p/w500/v3djiiX3wLacamXYjk2ZMUIs2we.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 8.5,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 59
+  },
+  {
+    "id": "tt29355505",
+    "type": "movie",
+    "name": "Toy Story 5.",
+    "poster": "https://image.tmdb.org/t/p/w500/2Dib7rMctmMthKo75lhs3jtvqUo.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
+    "imdbRating": 8.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Családi",
+      "Vígjáték",
+      "Kaland"
+    ],
+    "seeders": 450
   },
   {
     "id": "tt8679660",
@@ -372,23 +405,24 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 116
+    "seeders": 132
   },
   {
-    "id": "tt33763941",
+    "id": "tt24850708",
     "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/9gRBaF28FAGYGGn3ebZHy4qAS68.jpg",
+    "name": "Párbajhősök",
+    "poster": "https://image.tmdb.org/t/p/w500/k9IbQenuJE0JceCysNb3aF1dAIS.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Amikor Amerika legkeresettebb bűnözője felbukkan egy kentuckyi kisvárosban, az erőszakos múltja és egy bosszúszomjas különítmény is a nyomába ered. Miközben golyózápor szaggatja szét a várost, a keménykezű pisztolyforgató megfogadja, hogy megvédi a pusztulás szélén álló közösséget. Az akciódús westernthriller Nicolas Cage, Stephen Dorff és Heather Graham főszereplésével készült.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
     "genres": [
-      "Horror",
-      "Thriller"
+      "Akció",
+      "Thriller",
+      "Western"
     ],
-    "seeders": 72
+    "seeders": 159
   },
   {
     "id": "tt32890033",
@@ -407,42 +441,23 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 373
+    "seeders": 426
   },
   {
-    "id": "tt29355505",
+    "id": "tt33763941",
     "type": "movie",
-    "name": "Toy Story 5.",
-    "poster": "https://image.tmdb.org/t/p/w500/2Dib7rMctmMthKo75lhs3jtvqUo.jpg",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/9gRBaF28FAGYGGn3ebZHy4qAS68.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 8.3,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.",
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
-      "Animációs",
-      "Családi",
-      "Vígjáték",
-      "Kaland"
+      "Horror",
+      "Thriller"
     ],
-    "seeders": 369
-  },
-  {
-    "id": "tt24850708",
-    "type": "movie",
-    "name": "Párbajhősök",
-    "poster": "https://image.tmdb.org/t/p/w500/k9IbQenuJE0JceCysNb3aF1dAIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Amerika legkeresettebb bűnözője felbukkan egy kentuckyi kisvárosban, az erőszakos múltja és egy bosszúszomjas különítmény is a nyomába ered. Miközben golyózápor szaggatja szét a várost, a keménykezű pisztolyforgató megfogadja, hogy megvédi a pusztulás szélén álló közösséget. Az akciódús westernthriller Nicolas Cage, Stephen Dorff és Heather Graham főszereplésével készült.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Western"
-    ],
-    "seeders": 132
+    "seeders": 80
   },
   {
     "id": "tt32123395",
@@ -458,7 +473,7 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 119
+    "seeders": 148
   },
   {
     "id": "tt37660486",
@@ -473,23 +488,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 92
-  },
-  {
-    "id": "tt8814476",
-    "type": "movie",
-    "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 90
+    "seeders": 99
   }
 ]
