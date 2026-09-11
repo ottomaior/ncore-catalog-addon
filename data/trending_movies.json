@@ -1,20 +1,5 @@
 [
   {
-    "id": "tt39314864",
-    "type": "movie",
-    "name": "Balszerencse akcióban",
-    "poster": "https://image.tmdb.org/t/p/w500/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Miután véletlenül letartóztatják és Franciaország legkeresettebb emberének nézik, Serge Martin, a békés nyugdíjas a média célpontjává válik. Egy könyörtelen forgószélbe keveredve mindent megtesz, hogy bebizonyítsa ártatlanságát és visszakapja az életét - ha ez egyáltalán lehetséges... (Szarka Károly)",
-    "imdbRating": 5.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 162
-  },
-  {
     "id": "tt27419466",
     "type": "movie",
     "name": "Vaiana",
@@ -30,22 +15,22 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1097
+    "seeders": 915
   },
   {
-    "id": "tt5179884",
+    "id": "tt39314864",
     "type": "movie",
-    "name": "Il Maestro",
-    "poster": "https://image.tmdb.org/t/p/w500/6tJSUT4sG1b5H1RLfxsv8mMjoCa.jpg",
+    "name": "Balszerencse akcióban",
+    "poster": "https://image.tmdb.org/t/p/w500/wRPxSccJw6wckkBUOzM5CHd871w.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Miután véletlenül letartóztatják és Franciaország legkeresettebb emberének nézik, Serge Martin, a békés nyugdíjas a média célpontjává válik. Egy könyörtelen forgószélbe keveredve mindent megtesz, hogy bebizonyítsa ártatlanságát és visszakapja az életét - ha ez egyáltalán lehetséges... (Szarka Károly)",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Vígjáték"
     ],
-    "seeders": 82
+    "seeders": 165
   },
   {
     "id": "tt29356163",
@@ -64,7 +49,7 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 441
+    "seeders": 382
   },
   {
     "id": "tt38267923",
@@ -74,13 +59,28 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A film egy volt tehetségkutató ügynök történetét követi nyomon, aki rendezőnek készül, és kénytelen újra összehívni régi csapatát, amikor főszereplője a forgatás kezdete előtt néhány nappal visszalép.",
-    "imdbRating": 5.3,
+    "imdbRating": 5.2,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 159
+    "seeders": 141
+  },
+  {
+    "id": "tt5179884",
+    "type": "movie",
+    "name": "A teniszedző",
+    "poster": "https://image.tmdb.org/t/p/w500/6tJSUT4sG1b5H1RLfxsv8mMjoCa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1989, Olaszország. Évek kemény edzése után a tizenhárom éves Felice - apja elvárásainak súlya alatt - végre elindul egy országos teniszversenyen. Egyszerű nyári vakációról álmodik, végül azonban az apja által felbérelt egykori teniszbajnok, Raul, egy furcsa edző irányítása alatt találja magát. Meccsről meccsre haladva egy különleges utazásra indulnak: Felice megízleli a szabadságot, Raul pedig egy új kezdet lehetőségét látja meg. Ahogy végigjárják az olasz partvidéket, váratlanul mély és őszinte kötelék alakul ki köztük.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 79
   },
   {
     "id": "tt36073210",
@@ -90,14 +90,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miután rejtélyes módon elrabolják New Yorkban, a spanyol mágnás lányát, Marfil Cortés testőrt kap Sebastián Moore-tól. Az összeütköző személyiségek ellenére egyre nagyobb vonzalom övezi őket, ahogy egyre nagyobb fenyegetésekkel nézzenek szembe Spanyolországban, ahol a látszat csal.",
-    "imdbRating": 7.0,
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
-      "Dráma",
       "Thriller"
     ],
-    "seeders": 242
+    "seeders": 189
   },
   {
     "id": "tt19035928",
@@ -113,7 +112,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 704
+    "seeders": 579
   },
   {
     "id": "tt33296751",
@@ -130,22 +129,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 767
-  },
-  {
-    "id": "tt13868484",
-    "type": "movie",
-    "name": "Maysoon",
-    "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 105
+    "seeders": 635
   },
   {
     "id": "tt34564059",
@@ -161,24 +145,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 812
-  },
-  {
-    "id": "tt38061210",
-    "type": "movie",
-    "name": "Miért is házasodtam meg?",
-    "poster": "https://image.tmdb.org/t/p/w500/bgZN3gniRohjfKdsw1Q7EGBAyqz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
-    "imdbRating": 7.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 115
+    "seeders": 667
   },
   {
     "id": "tt27681354",
@@ -194,23 +161,39 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1487
+    "seeders": 1208
   },
   {
-    "id": "tt40210247",
+    "id": "tt13868484",
     "type": "movie",
-    "name": "Good Vibes Only",
-    "poster": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
+    "name": "Maysoon",
+    "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
     "posterShape": "poster",
     "year": 2026,
     "description": "Trendi magyar HD 1080p – nCore.",
     "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
-      "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 233
+    "seeders": 97
+  },
+  {
+    "id": "tt38061210",
+    "type": "movie",
+    "name": "Miért is házasodtam meg?",
+    "poster": "https://image.tmdb.org/t/p/w500/rwaxLuOkJ5mMvJU5juNaPcKADOW.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 102
   },
   {
     "id": "tt11561116",
@@ -227,7 +210,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 912
+    "seeders": 732
+  },
+  {
+    "id": "tt40210247",
+    "type": "movie",
+    "name": "Good Vibes Only",
+    "poster": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Dráma"
+    ],
+    "seeders": 195
   },
   {
     "id": "tt32298285",
@@ -243,7 +242,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 53
+    "seeders": 48
   },
   {
     "id": "tt27550504",
@@ -260,7 +259,7 @@
       "Romantikus",
       "Bűnügyi"
     ],
-    "seeders": 68
+    "seeders": 60
   },
   {
     "id": "tt43700444",
@@ -275,7 +274,7 @@
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 65
+    "seeders": 59
   },
   {
     "id": "tt19838566",
@@ -292,22 +291,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 497
-  },
-  {
-    "id": "tt15148442",
-    "type": "movie",
-    "name": "The Garden of Earthly Delights",
-    "poster": "https://image.tmdb.org/t/p/w500/v3djiiX3wLacamXYjk2ZMUIs2we.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 61
+    "seeders": 395
   },
   {
     "id": "tt7708226",
@@ -323,22 +307,22 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 233
+    "seeders": 195
   },
   {
-    "id": "tt31170389",
+    "id": "tt15148442",
     "type": "movie",
-    "name": "Gonosz halott: Égj!",
-    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "name": "The Garden of Earthly Delights",
+    "poster": "https://image.tmdb.org/t/p/w500/v3djiiX3wLacamXYjk2ZMUIs2we.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 8.5,
+    "releaseInfo": "2025",
     "genres": [
-      "Horror"
+      "Dráma"
     ],
-    "seeders": 523
+    "seeders": 54
   },
   {
     "id": "tt43679852",
@@ -357,7 +341,22 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 255
+    "seeders": 221
+  },
+  {
+    "id": "tt31170389",
+    "type": "movie",
+    "name": "Gonosz halott: Égj!",
+    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 416
   },
   {
     "id": "tt8679660",
@@ -373,24 +372,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 130
-  },
-  {
-    "id": "tt24850708",
-    "type": "movie",
-    "name": "Párbajhősök",
-    "poster": "https://image.tmdb.org/t/p/w500/k9IbQenuJE0JceCysNb3aF1dAIS.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Amikor Amerika legkeresettebb bűnözője felbukkan egy kentuckyi kisvárosban, az erőszakos múltja és egy bosszúszomjas különítmény is a nyomába ered. Miközben golyózápor szaggatja szét a várost, a keménykezű pisztolyforgató megfogadja, hogy megvédi a pusztulás szélén álló közösséget. Az akciódús westernthriller Nicolas Cage, Stephen Dorff és Heather Graham főszereplésével készült.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Akció",
-      "Thriller",
-      "Western"
-    ],
-    "seeders": 161
+    "seeders": 116
   },
   {
     "id": "tt33763941",
@@ -406,7 +388,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 78
+    "seeders": 72
   },
   {
     "id": "tt32890033",
@@ -425,7 +407,7 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 436
+    "seeders": 373
   },
   {
     "id": "tt29355505",
@@ -443,7 +425,24 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 433
+    "seeders": 369
+  },
+  {
+    "id": "tt24850708",
+    "type": "movie",
+    "name": "Párbajhősök",
+    "poster": "https://image.tmdb.org/t/p/w500/k9IbQenuJE0JceCysNb3aF1dAIS.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Amikor Amerika legkeresettebb bűnözője felbukkan egy kentuckyi kisvárosban, az erőszakos múltja és egy bosszúszomjas különítmény is a nyomába ered. Miközben golyózápor szaggatja szét a várost, a keménykezű pisztolyforgató megfogadja, hogy megvédi a pusztulás szélén álló közösséget. Az akciódús westernthriller Nicolas Cage, Stephen Dorff és Heather Graham főszereplésével készült.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Akció",
+      "Thriller",
+      "Western"
+    ],
+    "seeders": 132
   },
   {
     "id": "tt32123395",
@@ -459,7 +458,22 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 151
+    "seeders": 119
+  },
+  {
+    "id": "tt37660486",
+    "type": "movie",
+    "name": "Made in EU",
+    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 92
   },
   {
     "id": "tt8814476",
@@ -476,21 +490,6 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 110
-  },
-  {
-    "id": "tt37660486",
-    "type": "movie",
-    "name": "Made in EU",
-    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 96
+    "seeders": 90
   }
 ]
