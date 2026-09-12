@@ -15,22 +15,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1234
-  },
-  {
-    "id": "tt38616652",
-    "type": "movie",
-    "name": "Szép munka, csapat!",
-    "poster": "https://image.tmdb.org/t/p/w500/aVGaBCt8g0Q990jKW85wTJKotev.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Tío Mochales egykor a spanyol sajtipar vitathatatlan királynője volt. Ma már kissé megkopott vállalat, amely igyekszik fenntartani a látszatot. Legújabb nagy ötletük: vidéki csapatépítő tréninget szerveznek abban a faluban, ahol a céget alapították. Ám ami eredetileg a „hagyományos értékekhez” való visszatérést és az újrakapcsolódást szolgáló kiruccanásnak indult, csapdává válik, amikor kiderül, hogy leépítések várhatók – méghozzá jónéhány. A motiváló elvonulásnak ígért program hamarosan a hízelgés, az árulás és a kiszivárogtatások csataterévé válik.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 141
+    "seeders": 1006
   },
   {
     "id": "tt29356163",
@@ -49,7 +34,22 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 559
+    "seeders": 474
+  },
+  {
+    "id": "tt38616652",
+    "type": "movie",
+    "name": "Szép munka, csapat!",
+    "poster": "https://image.tmdb.org/t/p/w500/aVGaBCt8g0Q990jKW85wTJKotev.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Tío Mochales egykor a spanyol sajtipar vitathatatlan királynője volt. Ma már kissé megkopott vállalat, amely igyekszik fenntartani a látszatot. Legújabb nagy ötletük: vidéki csapatépítő tréninget szerveznek abban a faluban, ahol a céget alapították. Ám ami eredetileg a „hagyományos értékekhez” való visszatérést és az újrakapcsolódást szolgáló kiruccanásnak indult, csapdává válik, amikor kiderül, hogy leépítések várhatók – méghozzá jónéhány. A motiváló elvonulásnak ígért program hamarosan a hízelgés, az árulás és a kiszivárogtatások csataterévé válik.",
+    "imdbRating": 3.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 125
   },
   {
     "id": "tt39314864",
@@ -64,7 +64,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 244
+    "seeders": 217
   },
   {
     "id": "tt36073210",
@@ -74,29 +74,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miután rejtélyes módon elrabolják New Yorkban, a spanyol mágnás lányát, Marfil Cortés testőrt kap Sebastián Moore-tól. Az összeütköző személyiségek ellenére egyre nagyobb vonzalom övezi őket, ahogy egyre nagyobb fenyegetésekkel nézzenek szembe Spanyolországban, ahol a látszat csal.",
-    "imdbRating": 6.5,
+    "imdbRating": 6.6,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Thriller"
     ],
-    "seeders": 276
-  },
-  {
-    "id": "tt38267923",
-    "type": "movie",
-    "name": "Hívd az ügynökömet! - A film",
-    "poster": "https://image.tmdb.org/t/p/w500/lJUmTDi1ssxcxkHrzVBlwhaB0v8.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy volt tehetségkutató ügynök történetét követi nyomon, aki rendezőnek készül, és kénytelen újra összehívni régi csapatát, amikor főszereplője a forgatás kezdete előtt néhány nappal visszalép.",
-    "imdbRating": 5.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 163
+    "seeders": 235
   },
   {
     "id": "tt33296751",
@@ -113,7 +97,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 878
+    "seeders": 694
   },
   {
     "id": "tt19035928",
@@ -129,7 +113,23 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 784
+    "seeders": 635
+  },
+  {
+    "id": "tt38267923",
+    "type": "movie",
+    "name": "Hívd az ügynökömet! - A film",
+    "poster": "https://image.tmdb.org/t/p/w500/lJUmTDi1ssxcxkHrzVBlwhaB0v8.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy volt tehetségkutató ügynök történetét követi nyomon, aki rendezőnek készül, és kénytelen újra összehívni régi csapatát, amikor főszereplője a forgatás kezdete előtt néhány nappal visszalép.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 142
   },
   {
     "id": "tt27681354",
@@ -145,7 +145,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1572
+    "seeders": 1258
   },
   {
     "id": "tt34564059",
@@ -161,22 +161,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 840
-  },
-  {
-    "id": "tt5179884",
-    "type": "movie",
-    "name": "A teniszedző",
-    "poster": "https://image.tmdb.org/t/p/w500/6tJSUT4sG1b5H1RLfxsv8mMjoCa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "1989, Olaszország. Évek kemény edzése után a tizenhárom éves Felice - apja elvárásainak súlya alatt - végre elindul egy országos teniszversenyen. Egyszerű nyári vakációról álmodik, végül azonban az apja által felbérelt egykori teniszbajnok, Raul, egy furcsa edző irányítása alatt találja magát. Meccsről meccsre haladva egy különleges utazásra indulnak: Felice megízleli a szabadságot, Raul pedig egy új kezdet lehetőségét látja meg. Ahogy végigjárják az olasz partvidéket, váratlanul mély és őszinte kötelék alakul ki köztük.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 91
+    "seeders": 696
   },
   {
     "id": "tt11561116",
@@ -193,7 +178,53 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 942
+    "seeders": 753
+  },
+  {
+    "id": "tt5179884",
+    "type": "movie",
+    "name": "A teniszedző",
+    "poster": "https://image.tmdb.org/t/p/w500/6tJSUT4sG1b5H1RLfxsv8mMjoCa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1989, Olaszország. Évek kemény edzése után a tizenhárom éves Felice - apja elvárásainak súlya alatt - végre elindul egy országos teniszversenyen. Egyszerű nyári vakációról álmodik, végül azonban az apja által felbérelt egykori teniszbajnok, Raul, egy furcsa edző irányítása alatt találja magát. Meccsről meccsre haladva egy különleges utazásra indulnak: Felice megízleli a szabadságot, Raul pedig egy új kezdet lehetőségét látja meg. Ahogy végigjárják az olasz partvidéket, váratlanul mély és őszinte kötelék alakul ki köztük.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 77
+  },
+  {
+    "id": "tt40210247",
+    "type": "movie",
+    "name": "Good Vibes Only",
+    "poster": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Dráma"
+    ],
+    "seeders": 197
+  },
+  {
+    "id": "tt13868484",
+    "type": "movie",
+    "name": "Maysoon",
+    "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Trendi magyar HD 1080p – nCore.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 98
   },
   {
     "id": "tt38061210",
@@ -210,38 +241,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 125
-  },
-  {
-    "id": "tt40210247",
-    "type": "movie",
-    "name": "Good Vibes Only",
-    "poster": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Sci-Fi",
-      "Dráma"
-    ],
-    "seeders": 232
-  },
-  {
-    "id": "tt13868484",
-    "type": "movie",
-    "name": "Maysoon",
-    "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 107
+    "seeders": 104
   },
   {
     "id": "tt19838566",
@@ -258,22 +258,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 519
-  },
-  {
-    "id": "tt31170389",
-    "type": "movie",
-    "name": "Gonosz halott: Égj!",
-    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 572
+    "seeders": 425
   },
   {
     "id": "tt7708226",
@@ -289,23 +274,22 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 237
+    "seeders": 202
   },
   {
-    "id": "tt32298285",
+    "id": "tt31170389",
     "type": "movie",
-    "name": "Tánc a sivatagban",
-    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
+    "name": "Gonosz halott: Égj!",
+    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma",
-      "Thriller"
+      "Horror"
     ],
-    "seeders": 56
+    "seeders": 409
   },
   {
     "id": "tt43679852",
@@ -324,7 +308,23 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 249
+    "seeders": 211
+  },
+  {
+    "id": "tt32298285",
+    "type": "movie",
+    "name": "Tánc a sivatagban",
+    "poster": "https://image.tmdb.org/t/p/w500/vyQaSp0PnGHd5o93OourwsogcfW.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy apa fiával együtt útnak indul, hogy felkutassa eltűnt lányát a marokkói sivatagban. Egy rave-partin találkozik egy különleges baráti társasággal, és velük közösen kezdetét veszi a fájdalmon, csenden és eksztázison át vezető spirituális utazás.",
+    "imdbRating": 6.9,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 44
   },
   {
     "id": "tt29355505",
@@ -334,7 +334,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 8.4,
+    "imdbRating": 8.3,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -342,7 +342,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 464
+    "seeders": 375
   },
   {
     "id": "tt27550504",
@@ -359,7 +359,7 @@
       "Romantikus",
       "Bűnügyi"
     ],
-    "seeders": 64
+    "seeders": 57
   },
   {
     "id": "tt24850708",
@@ -376,22 +376,7 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 163
-  },
-  {
-    "id": "tt43700444",
-    "type": "movie",
-    "name": "Első kézből: Mr. T",
-    "poster": "https://image.tmdb.org/t/p/w500/bUWHsZqPiYl8GwxhXA1nCdKRZbn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Rocky III-ban és a The A-Teamben látható aranyláncok, taraj és hollywoodi hírnév előtt még Laurence Tureaud volt. Ez az egyik legvalószínűtlenebb és legkedveltebb szórakoztatóipari ikon – Mr. T – rendkívüli története.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 58
+    "seeders": 139
   },
   {
     "id": "tt8679660",
@@ -407,13 +392,13 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 121
+    "seeders": 116
   },
   {
     "id": "tt32123395",
     "type": "movie",
     "name": "Módosítva",
-    "poster": "https://image.tmdb.org/t/p/w500/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/jVgLvefoKxVK92bdycXwN2a2Sem.jpg",
     "posterShape": "poster",
     "year": 2025,
     "description": "Egy alternatív jelenben a genetikailag feljavított emberek uralják a társadalmat. A kitaszított Leon és Chloe az igazságért harcol a genetikai egyenlőtlenségeket kihasználó korrupt politikusok ellen, és mindent kockára tesznek, hogy szembe szálljanak az elnyomó rendszerrel.",
@@ -423,7 +408,22 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 148
+    "seeders": 125
+  },
+  {
+    "id": "tt43700444",
+    "type": "movie",
+    "name": "Első kézből: Mr. T",
+    "poster": "https://image.tmdb.org/t/p/w500/bUWHsZqPiYl8GwxhXA1nCdKRZbn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Rocky III-ban és a The A-Teamben látható aranyláncok, taraj és hollywoodi hírnév előtt még Laurence Tureaud volt. Ez az egyik legvalószínűtlenebb és legkedveltebb szórakoztatóipari ikon – Mr. T – rendkívüli története.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 46
   },
   {
     "id": "tt33763941",
@@ -439,7 +439,22 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 78
+    "seeders": 67
+  },
+  {
+    "id": "tt37660486",
+    "type": "movie",
+    "name": "Made in EU",
+    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Egy bolgár kisváros varrodájában dolgozó nő lesz a város első Covid-esete, ami vádaskodások és társadalmi kirekesztés hullámát indítja el. A vírus terjedésével egyre nagyobb üldöztetésnek van kitéve munkaadói, munkatársai, családja és szomszédai részéről.  (Szarka Károly)",
+    "imdbRating": 6.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 89
   },
   {
     "id": "tt15148442",
@@ -454,23 +469,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 48
-  },
-  {
-    "id": "tt37654096",
-    "type": "movie",
-    "name": "Az Utolsó Napkelte",
-    "poster": "https://image.tmdb.org/t/p/w500/hh5m86jbHMpsuRD52K3Oid6tLXa.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 256
+    "seeders": 41
   },
   {
     "id": "tt8814476",
@@ -487,6 +486,6 @@
       "Kaland",
       "Sci-Fi"
     ],
-    "seeders": 109
+    "seeders": 95
   }
 ]
