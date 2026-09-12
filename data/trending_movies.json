@@ -2,17 +2,17 @@
   {
     "id": "tt35354686",
     "type": "movie",
-    "name": "Love Me Tender",
+    "name": "Szeress gyengéden",
     "poster": "https://image.tmdb.org/t/p/w500/4F3lAOngHzNZtXiJ4zSB0CqXOZ.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Clémence, egy ügyvéd elhagyja házastársát, hogy megtalálja önmagát. Volt férje fiuk, Paul felügyeleti jogáért küzd, és manipulálja őt. Ahogy kapcsolatuk megromlik, Clémence azért dolgozik, hogy fenntartsa a kapcsolatot gyermekével.",
     "imdbRating": 6.6,
     "releaseInfo": "2025",
     "genres": [
       "Dráma"
     ],
-    "seeders": 26
+    "seeders": 78
   },
   {
     "id": "tt27419466",
@@ -30,7 +30,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1329
+    "seeders": 1440
   },
   {
     "id": "tt29356163",
@@ -40,7 +40,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Hőseink útja ezúttal a dinoszauruszokhoz vezet, hiszen egy kis probléma adódott a dzsungelben. A nagysikerű Mancs őrjárat harmadik fejezetében ismét újabb kalandokban lehet részük kicsiknek és nagyoknak egyaránt.",
-    "imdbRating": 7.0,
+    "imdbRating": 6.8,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -49,7 +49,7 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 615
+    "seeders": 670
   },
   {
     "id": "tt39314864",
@@ -59,12 +59,12 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miután véletlenül letartóztatják és Franciaország legkeresettebb emberének nézik, Serge Martin, a békés nyugdíjas a média célpontjává válik. Egy könyörtelen forgószélbe keveredve mindent megtesz, hogy bebizonyítsa ártatlanságát és visszakapja az életét - ha ez egyáltalán lehetséges... (Szarka Károly)",
-    "imdbRating": 5.9,
+    "imdbRating": 6.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 304
+    "seeders": 328
   },
   {
     "id": "tt38616652",
@@ -79,7 +79,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 170
+    "seeders": 179
   },
   {
     "id": "tt19035928",
@@ -95,7 +95,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 873
+    "seeders": 903
   },
   {
     "id": "tt33296751",
@@ -112,7 +112,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 913
+    "seeders": 942
   },
   {
     "id": "tt36073210",
@@ -128,7 +128,7 @@
       "Romantikus",
       "Thriller"
     ],
-    "seeders": 289
+    "seeders": 302
   },
   {
     "id": "tt27681354",
@@ -144,23 +144,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1659
-  },
-  {
-    "id": "tt38267923",
-    "type": "movie",
-    "name": "Hívd az ügynökömet! - A film",
-    "poster": "https://image.tmdb.org/t/p/w500/lJUmTDi1ssxcxkHrzVBlwhaB0v8.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy volt tehetségkutató ügynök történetét követi nyomon, aki rendezőnek készül, és kénytelen újra összehívni régi csapatát, amikor főszereplője a forgatás kezdete előtt néhány nappal visszalép.",
-    "imdbRating": 6.1,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 184
+    "seeders": 1715
   },
   {
     "id": "tt34564059",
@@ -176,7 +160,23 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 899
+    "seeders": 918
+  },
+  {
+    "id": "tt38267923",
+    "type": "movie",
+    "name": "Hívd az ügynökömet! - A film",
+    "poster": "https://image.tmdb.org/t/p/w500/lJUmTDi1ssxcxkHrzVBlwhaB0v8.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy volt tehetségkutató ügynök történetét követi nyomon, aki rendezőnek készül, és kénytelen újra összehívni régi csapatát, amikor főszereplője a forgatás kezdete előtt néhány nappal visszalép.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 188
   },
   {
     "id": "tt11561116",
@@ -193,22 +193,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 963
-  },
-  {
-    "id": "tt5179884",
-    "type": "movie",
-    "name": "A teniszedző",
-    "poster": "https://image.tmdb.org/t/p/w500/6tJSUT4sG1b5H1RLfxsv8mMjoCa.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "1989, Olaszország. Évek kemény edzése után a tizenhárom éves Felice - apja elvárásainak súlya alatt - végre elindul egy országos teniszversenyen. Egyszerű nyári vakációról álmodik, végül azonban az apja által felbérelt egykori teniszbajnok, Raul, egy furcsa edző irányítása alatt találja magát. Meccsről meccsre haladva egy különleges utazásra indulnak: Felice megízleli a szabadságot, Raul pedig egy új kezdet lehetőségét látja meg. Ahogy végigjárják az olasz partvidéket, váratlanul mély és őszinte kötelék alakul ki köztük.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 95
+    "seeders": 1015
   },
   {
     "id": "tt40210247",
@@ -224,7 +209,22 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 243
+    "seeders": 247
+  },
+  {
+    "id": "tt5179884",
+    "type": "movie",
+    "name": "A teniszedző",
+    "poster": "https://image.tmdb.org/t/p/w500/6tJSUT4sG1b5H1RLfxsv8mMjoCa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1989, Olaszország. Évek kemény edzése után a tizenhárom éves Felice - apja elvárásainak súlya alatt - végre elindul egy országos teniszversenyen. Egyszerű nyári vakációról álmodik, végül azonban az apja által felbérelt egykori teniszbajnok, Raul, egy furcsa edző irányítása alatt találja magát. Meccsről meccsre haladva egy különleges utazásra indulnak: Felice megízleli a szabadságot, Raul pedig egy új kezdet lehetőségét látja meg. Ahogy végigjárják az olasz partvidéket, váratlanul mély és őszinte kötelék alakul ki köztük.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 94
   },
   {
     "id": "tt38061210",
@@ -234,14 +234,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
-    "imdbRating": 6.8,
+    "imdbRating": 7.0,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 137
+    "seeders": 135
   },
   {
     "id": "tt13868484",
@@ -250,7 +250,7 @@
     "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Trendi magyar HD 1080p – nCore.",
+    "description": "Amikor a Berlinben élő egyiptomi régész kapcsolata felbomlik a partnerével és útlevele lejár, veszélybe kerül az otthona, a gyermekei és a szabadsága.",
     "imdbRating": null,
     "releaseInfo": "2026",
     "genres": [
@@ -273,7 +273,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 542
+    "seeders": 568
   },
   {
     "id": "tt31170389",
@@ -288,7 +288,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 585
+    "seeders": 623
   },
   {
     "id": "tt7708226",
@@ -304,7 +304,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 252
+    "seeders": 257
   },
   {
     "id": "tt43679852",
@@ -323,7 +323,7 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 277
+    "seeders": 268
   },
   {
     "id": "tt24850708",
@@ -340,7 +340,23 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 177
+    "seeders": 197
+  },
+  {
+    "id": "tt32123395",
+    "type": "movie",
+    "name": "Módosítva",
+    "poster": "https://image.tmdb.org/t/p/w500/jVgLvefoKxVK92bdycXwN2a2Sem.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy alternatív jelenben a genetikailag feljavított emberek uralják a társadalmat. A kitaszított Leon és Chloe az igazságért harcol a genetikai egyenlőtlenségeket kihasználó korrupt politikusok ellen, és mindent kockára tesznek, hogy szembe szálljanak az elnyomó rendszerrel.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Akció"
+    ],
+    "seeders": 172
   },
   {
     "id": "tt8679660",
@@ -357,22 +373,6 @@
       "Thriller"
     ],
     "seeders": 138
-  },
-  {
-    "id": "tt32123395",
-    "type": "movie",
-    "name": "Módosítva",
-    "poster": "https://image.tmdb.org/t/p/w500/jVgLvefoKxVK92bdycXwN2a2Sem.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy alternatív jelenben a genetikailag feljavított emberek uralják a társadalmat. A kitaszított Leon és Chloe az igazságért harcol a genetikai egyenlőtlenségeket kihasználó korrupt politikusok ellen, és mindent kockára tesznek, hogy szembe szálljanak az elnyomó rendszerrel.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Sci-Fi",
-      "Akció"
-    ],
-    "seeders": 169
   },
   {
     "id": "tt32298285",
@@ -405,38 +405,7 @@
       "Romantikus",
       "Bűnügyi"
     ],
-    "seeders": 61
-  },
-  {
-    "id": "tt43700444",
-    "type": "movie",
-    "name": "Első kézből: Mr. T",
-    "poster": "https://image.tmdb.org/t/p/w500/bUWHsZqPiYl8GwxhXA1nCdKRZbn.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A Rocky III-ban és a The A-Teamben látható aranyláncok, taraj és hollywoodi hírnév előtt még Laurence Tureaud volt. Ez az egyik legvalószínűtlenebb és legkedveltebb szórakoztatóipari ikon – Mr. T – rendkívüli története.",
-    "imdbRating": 7.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dokumentum"
-    ],
-    "seeders": 58
-  },
-  {
-    "id": "tt33763941",
-    "type": "movie",
-    "name": "Utazó",
-    "poster": "https://image.tmdb.org/t/p/w500/9gRBaF28FAGYGGn3ebZHy4qAS68.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.",
-    "imdbRating": 7.3,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "seeders": 81
+    "seeders": 60
   },
   {
     "id": "tt37654096",
@@ -452,7 +421,55 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 267
+    "seeders": 280
+  },
+  {
+    "id": "tt33763941",
+    "type": "movie",
+    "name": "Utazó",
+    "poster": "https://image.tmdb.org/t/p/w500/9gRBaF28FAGYGGn3ebZHy4qAS68.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Néhány héttel a furgonos életük kezdete után egy fiatal pár szemtanúja lesz egy szörnyű balesetnek, amelyben a sofőr meghal. Hamarosan egy démoni lény veszi üldözőbe őket, akit lehetetlen lehagyni, és bárhová mennek, követi őket.",
+    "imdbRating": 7.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "seeders": 82
+  },
+  {
+    "id": "tt43700444",
+    "type": "movie",
+    "name": "Első kézből: Mr. T",
+    "poster": "https://image.tmdb.org/t/p/w500/bUWHsZqPiYl8GwxhXA1nCdKRZbn.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A Rocky III-ban és a The A-Teamben látható aranyláncok, taraj és hollywoodi hírnév előtt még Laurence Tureaud volt. Ez az egyik legvalószínűtlenebb és legkedveltebb szórakoztatóipari ikon – Mr. T – rendkívüli története.",
+    "imdbRating": 7.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dokumentum"
+    ],
+    "seeders": 55
+  },
+  {
+    "id": "tt37275992",
+    "type": "movie",
+    "name": "Kétség",
+    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
+    "imdbRating": 6.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Rejtély"
+    ],
+    "seeders": 234
   },
   {
     "id": "tt15148442",
@@ -467,23 +484,6 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 53
-  },
-  {
-    "id": "tt8814476",
-    "type": "movie",
-    "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 116
+    "seeders": 55
   }
 ]
