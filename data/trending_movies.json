@@ -1,20 +1,5 @@
 [
   {
-    "id": "tt35354686",
-    "type": "movie",
-    "name": "Szeress gyengéden",
-    "poster": "https://image.tmdb.org/t/p/w500/4F3lAOngHzNZtXiJ4zSB0CqXOZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Clémence, egy ügyvéd elhagyja házastársát, hogy megtalálja önmagát. Volt férje fiuk, Paul felügyeleti jogáért küzd, és manipulálja őt. Ahogy kapcsolatuk megromlik, Clémence azért dolgozik, hogy fenntartsa a kapcsolatot gyermekével.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 78
-  },
-  {
     "id": "tt27419466",
     "type": "movie",
     "name": "Vaiana",
@@ -30,7 +15,22 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1440
+    "seeders": 1355
+  },
+  {
+    "id": "tt35354686",
+    "type": "movie",
+    "name": "Szeress gyengéden",
+    "poster": "https://image.tmdb.org/t/p/w500/4F3lAOngHzNZtXiJ4zSB0CqXOZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Clémence, egy ügyvéd elhagyja házastársát, hogy megtalálja önmagát. Volt férje fiuk, Paul felügyeleti jogáért küzd, és manipulálja őt. Ahogy kapcsolatuk megromlik, Clémence azért dolgozik, hogy fenntartsa a kapcsolatot gyermekével.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 81
   },
   {
     "id": "tt29356163",
@@ -49,7 +49,7 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 670
+    "seeders": 638
   },
   {
     "id": "tt39314864",
@@ -64,7 +64,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 328
+    "seeders": 301
   },
   {
     "id": "tt38616652",
@@ -79,23 +79,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 179
-  },
-  {
-    "id": "tt19035928",
-    "type": "movie",
-    "name": "Menekülés az Ardennekből",
-    "poster": "https://image.tmdb.org/t/p/w500/s1wvW0oqpMgabRlZosfSuEXLhBb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy súlyosan megsebesült amerikai katona a második világháború végének egyik legvéresebb ütközetében, az ardenneki német offenzíva idején az ellenséges vonalak mögött reked Belgiumban és egyetlen rádiójára, valamint találékonyságára támaszkodva próbálja kijátszani a közeledő német erőket, hogy visszajusson saját egységéhez.",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Háborús"
-    ],
-    "seeders": 903
+    "seeders": 171
   },
   {
     "id": "tt33296751",
@@ -112,23 +96,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 942
+    "seeders": 947
   },
   {
-    "id": "tt36073210",
+    "id": "tt19035928",
     "type": "movie",
-    "name": "Kísértő közelség",
-    "poster": "https://image.tmdb.org/t/p/w500/fjpYtxur42DUITBV2ScjUxfZnOH.jpg",
+    "name": "Menekülés az Ardennekből",
+    "poster": "https://image.tmdb.org/t/p/w500/s1wvW0oqpMgabRlZosfSuEXLhBb.jpg",
     "posterShape": "poster",
     "year": 2026,
-    "description": "Miután rejtélyes módon elrabolják New Yorkban, a spanyol mágnás lányát, Marfil Cortés testőrt kap Sebastián Moore-tól. Az összeütköző személyiségek ellenére egyre nagyobb vonzalom övezi őket, ahogy egyre nagyobb fenyegetésekkel nézzenek szembe Spanyolországban, ahol a látszat csal.",
-    "imdbRating": 6.6,
+    "description": "Egy súlyosan megsebesült amerikai katona a második világháború végének egyik legvéresebb ütközetében, az ardenneki német offenzíva idején az ellenséges vonalak mögött reked Belgiumban és egyetlen rádiójára, valamint találékonyságára támaszkodva próbálja kijátszani a közeledő német erőket, hogy visszajusson saját egységéhez.",
+    "imdbRating": 6.9,
     "releaseInfo": "2026",
     "genres": [
-      "Romantikus",
-      "Thriller"
+      "Akció",
+      "Háborús"
     ],
-    "seeders": 302
+    "seeders": 850
   },
   {
     "id": "tt27681354",
@@ -144,7 +128,23 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1715
+    "seeders": 1635
+  },
+  {
+    "id": "tt36073210",
+    "type": "movie",
+    "name": "Kísértő közelség",
+    "poster": "https://image.tmdb.org/t/p/w500/fjpYtxur42DUITBV2ScjUxfZnOH.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Miután rejtélyes módon elrabolják New Yorkban, a spanyol mágnás lányát, Marfil Cortés testőrt kap Sebastián Moore-tól. Az összeütköző személyiségek ellenére egyre nagyobb vonzalom övezi őket, ahogy egyre nagyobb fenyegetésekkel nézzenek szembe Spanyolországban, ahol a látszat csal.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Thriller"
+    ],
+    "seeders": 290
   },
   {
     "id": "tt34564059",
@@ -160,7 +160,7 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 918
+    "seeders": 898
   },
   {
     "id": "tt38267923",
@@ -176,7 +176,7 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 188
+    "seeders": 177
   },
   {
     "id": "tt11561116",
@@ -193,7 +193,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 1015
+    "seeders": 963
   },
   {
     "id": "tt40210247",
@@ -209,7 +209,7 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 247
+    "seeders": 239
   },
   {
     "id": "tt5179884",
@@ -224,7 +224,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 94
+    "seeders": 86
   },
   {
     "id": "tt38061210",
@@ -234,14 +234,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
-    "imdbRating": 7.0,
+    "imdbRating": 7.1,
     "releaseInfo": "2026",
     "genres": [
       "Vígjáték",
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 135
+    "seeders": 117
   },
   {
     "id": "tt13868484",
@@ -256,7 +256,7 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 114
+    "seeders": 108
   },
   {
     "id": "tt19838566",
@@ -273,7 +273,7 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 568
+    "seeders": 535
   },
   {
     "id": "tt31170389",
@@ -288,7 +288,7 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 623
+    "seeders": 586
   },
   {
     "id": "tt7708226",
@@ -304,7 +304,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 257
+    "seeders": 247
   },
   {
     "id": "tt43679852",
@@ -323,7 +323,7 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 268
+    "seeders": 251
   },
   {
     "id": "tt24850708",
@@ -340,7 +340,7 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 197
+    "seeders": 169
   },
   {
     "id": "tt32123395",
@@ -356,23 +356,7 @@
       "Sci-Fi",
       "Akció"
     ],
-    "seeders": 172
-  },
-  {
-    "id": "tt8679660",
-    "type": "movie",
-    "name": "A háború szavai",
-    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Anna Politkovszkaja újságíró bátor harca a független hangok hallatásának lehetőségéért Putyin Oroszországában.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma",
-      "Thriller"
-    ],
-    "seeders": 138
+    "seeders": 153
   },
   {
     "id": "tt32298285",
@@ -388,7 +372,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 49
+    "seeders": 50
+  },
+  {
+    "id": "tt8679660",
+    "type": "movie",
+    "name": "A háború szavai",
+    "poster": "https://image.tmdb.org/t/p/w500/fszN3PSB40FYsFzkHvNZrXLes0M.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Anna Politkovszkaja újságíró bátor harca a független hangok hallatásának lehetőségéért Putyin Oroszországában.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma",
+      "Thriller"
+    ],
+    "seeders": 121
   },
   {
     "id": "tt27550504",
@@ -405,7 +405,7 @@
       "Romantikus",
       "Bűnügyi"
     ],
-    "seeders": 60
+    "seeders": 59
   },
   {
     "id": "tt37654096",
@@ -421,7 +421,41 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 280
+    "seeders": 266
+  },
+  {
+    "id": "tt37275992",
+    "type": "movie",
+    "name": "Kétség",
+    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Thriller",
+      "Rejtély"
+    ],
+    "seeders": 220
+  },
+  {
+    "id": "tt8814476",
+    "type": "movie",
+    "name": "Supergirl",
+    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
+    ],
+    "seeders": 117
   },
   {
     "id": "tt33763941",
@@ -437,7 +471,7 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 82
+    "seeders": 76
   },
   {
     "id": "tt43700444",
@@ -447,43 +481,11 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "A Rocky III-ban és a The A-Teamben látható aranyláncok, taraj és hollywoodi hírnév előtt még Laurence Tureaud volt. Ez az egyik legvalószínűtlenebb és legkedveltebb szórakoztatóipari ikon – Mr. T – rendkívüli története.",
-    "imdbRating": 7.8,
+    "imdbRating": 7.7,
     "releaseInfo": "2026",
     "genres": [
       "Dokumentum"
     ],
-    "seeders": 55
-  },
-  {
-    "id": "tt37275992",
-    "type": "movie",
-    "name": "Kétség",
-    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma",
-      "Thriller",
-      "Rejtély"
-    ],
-    "seeders": 234
-  },
-  {
-    "id": "tt15148442",
-    "type": "movie",
-    "name": "The Garden of Earthly Delights",
-    "poster": "https://image.tmdb.org/t/p/w500/v3djiiX3wLacamXYjk2ZMUIs2we.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Trendi magyar HD 1080p – nCore.",
-    "imdbRating": 8.5,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 55
+    "seeders": 53
   }
 ]
