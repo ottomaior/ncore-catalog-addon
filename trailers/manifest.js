@@ -1,6 +1,8 @@
+const pkg = require('../package.json');
+
 module.exports = {
     id: 'community.ncore.hungarian.trailers',
-    version: '3.2.2',
+    version: pkg.version,
     name: '🎬 Magyar Előzetesek',
     description: 'Magyar szinkronos/feliratos előzetesek angol tartalékkal.',
     logo: 'https://ncore-catalog-addon-production.up.railway.app/logo.png',
