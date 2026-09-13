@@ -14,7 +14,7 @@
     ],
     "latest_season": 14,
     "latest_episode": 3,
-    "seeders": 434
+    "seeders": 432
   },
   {
     "id": "tt0473585",
@@ -29,7 +29,7 @@
     "genres": [],
     "latest_season": 9,
     "latest_episode": 3,
-    "seeders": 92
+    "seeders": 311
   },
   {
     "id": "tt35449383",
@@ -47,7 +47,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 286
+    "seeders": 239
   },
   {
     "id": "tt41588086",
@@ -64,25 +64,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 312
-  },
-  {
-    "id": "tt12234408",
-    "type": "series",
-    "name": "Légikatasztrófák: Speciális esetek (S26E10)",
-    "poster": "https://image.tmdb.org/t/p/w500/u3OWTRIcjRLziLStbrrruLE2hDi.jpg",
-    "posterShape": "poster",
-    "year": 2018,
-    "description": "🆕 Legújabb epizód: S26E10\n\nA visszatekintő epizód három olyan balesetet idéz fel, melyek világszerte a média érdeklődése homlokterébe kerültek. Többek közt megismerhetjük az American Airlines 77-es járata drámáját, melyet 2001. szeptember 11-én terroristák elfoglaltak, eltérítettek és nekivezettek a Pentagonnak.",
-    "imdbRating": 7.1,
-    "releaseInfo": "2018",
-    "genres": [
-      "Dokumentum",
-      "Reality"
-    ],
-    "latest_season": 26,
-    "latest_episode": 10,
-    "seeders": 77
+    "seeders": 230
   },
   {
     "id": "tt7587890",
@@ -101,7 +83,96 @@
     ],
     "latest_season": 8,
     "latest_episode": 10,
-    "seeders": 289
+    "seeders": 250
+  },
+  {
+    "id": "tt9288030",
+    "type": "series",
+    "name": "Reacher (S04E07)",
+    "poster": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+    "posterShape": "poster",
+    "year": 2022,
+    "description": "🆕 Legújabb epizód: S04E07\n\nAmikor a volt katonai rendőrt, Jack Reachert letartóztatják egy gyilkosságért, amit el sem követett, egy korrupt zsarukkal, gyanús üzletemberekkel és cselszövő politikusokkal teli halálos összeesküvés közepébe csöppen. Muszáj neki kiderítenie, mi folyik Margrave-ben.",
+    "imdbRating": 8.1,
+    "releaseInfo": "2022",
+    "genres": [
+      "Action & Adventure",
+      "Bűnügyi"
+    ],
+    "latest_season": 4,
+    "latest_episode": 7,
+    "seeders": 1045
+  },
+  {
+    "id": "tt12327578",
+    "type": "series",
+    "name": "Star Trek: Furcsa új világok (S04E08)",
+    "poster": "https://image.tmdb.org/t/p/w500/2IeDotDnEi2pElaVrIHVhmZDksJ.jpg",
+    "posterShape": "poster",
+    "year": 2022,
+    "description": "🆕 Legújabb epizód: S04E08\n\nAz eredeti Star Trek előzményeként szolgáló sorozat, amiben a USS Enterprise legénységének kalandjait ismerhetjük meg Christopher Pike kapitány vezetése alatt.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2022",
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Dráma"
+    ],
+    "latest_season": 4,
+    "latest_episode": 8,
+    "seeders": 447
+  },
+  {
+    "id": "tt38915987",
+    "type": "series",
+    "name": "Most Wanted - A hajsza",
+    "poster": "https://image.tmdb.org/t/p/w500/8Btb7BId6SGOqIw1FSmtCzOjsHd.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "A Most Wanted – A hajsza az RTL legújabb és az egyik legizgalmasabbnak ígérkező őszi, menekülős reality-je, ahol Sebestyén Balázs és két segítője arra vállalkozik, hogy elkapjon és letartóztasson 24, párban menekülő hazai hírességet, miközben az ország lakossága alakíthatja a hajsza menetét. Sebestyén Balázs üldözőtársai Frohner „Fecó” Ferenc és Pápai „Joci” József a hajsza során. Az ő feladatuk, hogy minden általuk elérhető eszközzel elkapják a 24 párban menekülő celebszökevényt, azaz a 12 párost.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2025",
+    "genres": [
+      "Reality"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 518
+  },
+  {
+    "id": "tt12234408",
+    "type": "series",
+    "name": "Légikatasztrófák: Speciális esetek (S26E10)",
+    "poster": "https://image.tmdb.org/t/p/w500/u3OWTRIcjRLziLStbrrruLE2hDi.jpg",
+    "posterShape": "poster",
+    "year": 2018,
+    "description": "🆕 Legújabb epizód: S26E10\n\nA visszatekintő epizód három olyan balesetet idéz fel, melyek világszerte a média érdeklődése homlokterébe kerültek. Többek közt megismerhetjük az American Airlines 77-es járata drámáját, melyet 2001. szeptember 11-én terroristák elfoglaltak, eltérítettek és nekivezettek a Pentagonnak.",
+    "imdbRating": 7.1,
+    "releaseInfo": "2018",
+    "genres": [
+      "Dokumentum",
+      "Reality"
+    ],
+    "latest_season": 26,
+    "latest_episode": 10,
+    "seeders": 70
+  },
+  {
+    "id": "tt27497393",
+    "type": "series",
+    "name": "Stuart az univerzum ellen (S01E08)",
+    "poster": "https://image.tmdb.org/t/p/w500/quXtOybflANIXUHR8MPmx3QLnNG.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E08\n\nA képregénybolt tulajdonosára, Stuart Bloomra hárul a feladat, hogy helyreállítsa a valóságot, miután összetöri Sheldon és Leonard szerkezetét, és ezzel véletlenül egy multiverzumos Armageddont indít el. Küldetésében barátnője, Denise, geológus barátja, Bert, valamint a kvantumfizikus, és általában véve is idegesítő, Barry Kripke segíti.\n\n(Csillag Lajos)",
+    "imdbRating": 8.8,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": 1,
+    "latest_episode": 8,
+    "seeders": 273
   },
   {
     "id": "tt40618611",
@@ -118,7 +189,45 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 92
+    "seeders": 69
+  },
+  {
+    "id": "tt26545992",
+    "type": "series",
+    "name": "Lámpások (S01E04)",
+    "poster": "https://image.tmdb.org/t/p/w500/jqPelP2DrBj9bFMXlholEphhQSR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "🆕 Legújabb epizód: S01E04\n\nAz újonc John Stewart és a Lámpás-legenda Hal Jordan, azaz a két intergalaktikus zsaru egy sötét, a Földhöz kötődő rejtély kellős közepén találja magát, amikor nyomozni kezdenek egy, az amerikai szívvidéken elkövetett gyilkosság ügyében.",
+    "imdbRating": 8.3,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma",
+      "Rejtély",
+      "Sci-Fi & Fantasy"
+    ],
+    "latest_season": 1,
+    "latest_episode": 4,
+    "seeders": 407
+  },
+  {
+    "id": "tt7491982",
+    "type": "series",
+    "name": "FBI: New York különleges ügynökei (S08E01)",
+    "poster": "https://image.tmdb.org/t/p/w500/rTeLmL7QcNnKeKb0U8CND0ZqWEo.jpg",
+    "posterShape": "poster",
+    "year": 2018,
+    "description": "🆕 Legújabb epizód: S08E01\n\nSodró lendületű dráma az FBI New Yorki-i irodájának belső működéséről, melynek első osztályú ügynökei minden tehetségüket, tudásukat és technikai képzettségüket bevetik annak érdekébe, hogy nagy jelentőségű ügyeket derítsenek fel többek között a terrorizmus, szervezett bűnözés és az elhárítás “témakörében”, így biztosítva New York és az ország biztonságát.",
+    "imdbRating": 7.9,
+    "releaseInfo": "2018",
+    "genres": [
+      "Bűnügyi",
+      "Action & Adventure",
+      "Dráma"
+    ],
+    "latest_season": 8,
+    "latest_episode": 1,
+    "seeders": 90
   },
   {
     "id": "tt18952858",
@@ -139,42 +248,6 @@
     "seeders": 47
   },
   {
-    "id": "tt9288030",
-    "type": "series",
-    "name": "Reacher (S04E07)",
-    "poster": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-    "posterShape": "poster",
-    "year": 2022,
-    "description": "🆕 Legújabb epizód: S04E07\n\nAmikor a volt katonai rendőrt, Jack Reachert letartóztatják egy gyilkosságért, amit el sem követett, egy korrupt zsarukkal, gyanús üzletemberekkel és cselszövő politikusokkal teli halálos összeesküvés közepébe csöppen. Muszáj neki kiderítenie, mi folyik Margrave-ben.",
-    "imdbRating": 8.1,
-    "releaseInfo": "2022",
-    "genres": [
-      "Action & Adventure",
-      "Bűnügyi"
-    ],
-    "latest_season": 4,
-    "latest_episode": 7,
-    "seeders": 1499
-  },
-  {
-    "id": "tt12327578",
-    "type": "series",
-    "name": "Star Trek: Furcsa új világok (S04E08)",
-    "poster": "https://image.tmdb.org/t/p/w500/2IeDotDnEi2pElaVrIHVhmZDksJ.jpg",
-    "posterShape": "poster",
-    "year": 2022,
-    "description": "🆕 Legújabb epizód: S04E08\n\nAz eredeti Star Trek előzményeként szolgáló sorozat, amiben a USS Enterprise legénységének kalandjait ismerhetjük meg Christopher Pike kapitány vezetése alatt.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2022",
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Dráma"
-    ],
-    "latest_season": 4,
-    "latest_episode": 8,
-    "seeders": 574
-  },
-  {
     "id": "tt38518545",
     "type": "series",
     "name": "USS Cole: Az al-Kaida célkeresztjében",
@@ -187,80 +260,25 @@
     "genres": [],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 63
+    "seeders": 53
   },
   {
-    "id": "tt38915987",
+    "id": "tt13111078",
     "type": "series",
-    "name": "Most Wanted - A hajsza",
-    "poster": "https://image.tmdb.org/t/p/w500/8Btb7BId6SGOqIw1FSmtCzOjsHd.jpg",
+    "name": "Lioness (S03E06)",
+    "poster": "https://image.tmdb.org/t/p/w500/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "A Most Wanted – A hajsza az RTL legújabb és az egyik legizgalmasabbnak ígérkező őszi, menekülős reality-je, ahol Sebestyén Balázs és két segítője arra vállalkozik, hogy elkapjon és letartóztasson 24, párban menekülő hazai hírességet, miközben az ország lakossága alakíthatja a hajsza menetét. Sebestyén Balázs üldözőtársai Frohner „Fecó” Ferenc és Pápai „Joci” József a hajsza során. Az ő feladatuk, hogy minden általuk elérhető eszközzel elkapják a 24 párban menekülő celebszökevényt, azaz a 12 párost.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2025",
-    "genres": [
-      "Reality"
-    ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 652
-  },
-  {
-    "id": "tt27497393",
-    "type": "series",
-    "name": "Stuart az univerzum ellen (S01E08)",
-    "poster": "https://image.tmdb.org/t/p/w500/quXtOybflANIXUHR8MPmx3QLnNG.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E08\n\nA képregénybolt tulajdonosára, Stuart Bloomra hárul a feladat, hogy helyreállítsa a valóságot, miután összetöri Sheldon és Leonard szerkezetét, és ezzel véletlenül egy multiverzumos Armageddont indít el. Küldetésében barátnője, Denise, geológus barátja, Bert, valamint a kvantumfizikus, és általában véve is idegesítő, Barry Kripke segíti.\n\n(Csillag Lajos)",
-    "imdbRating": 8.8,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Sci-Fi & Fantasy"
-    ],
-    "latest_season": 1,
-    "latest_episode": 8,
-    "seeders": 340
-  },
-  {
-    "id": "tt7491982",
-    "type": "series",
-    "name": "FBI: New York különleges ügynökei (S08E01)",
-    "poster": "https://image.tmdb.org/t/p/w500/rTeLmL7QcNnKeKb0U8CND0ZqWEo.jpg",
-    "posterShape": "poster",
-    "year": 2018,
-    "description": "🆕 Legújabb epizód: S08E01\n\nSodró lendületű dráma az FBI New Yorki-i irodájának belső működéséről, melynek első osztályú ügynökei minden tehetségüket, tudásukat és technikai képzettségüket bevetik annak érdekébe, hogy nagy jelentőségű ügyeket derítsenek fel többek között a terrorizmus, szervezett bűnözés és az elhárítás “témakörében”, így biztosítva New York és az ország biztonságát.",
-    "imdbRating": 7.9,
-    "releaseInfo": "2018",
-    "genres": [
-      "Bűnügyi",
-      "Action & Adventure",
-      "Dráma"
-    ],
-    "latest_season": 8,
-    "latest_episode": 1,
-    "seeders": 95
-  },
-  {
-    "id": "tt26545992",
-    "type": "series",
-    "name": "Lámpások (S01E04)",
-    "poster": "https://image.tmdb.org/t/p/w500/jqPelP2DrBj9bFMXlholEphhQSR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "🆕 Legújabb epizód: S01E04\n\nAz újonc John Stewart és a Lámpás-legenda Hal Jordan, azaz a két intergalaktikus zsaru egy sötét, a Földhöz kötődő rejtély kellős közepén találja magát, amikor nyomozni kezdenek egy, az amerikai szívvidéken elkövetett gyilkosság ügyében.",
-    "imdbRating": 8.3,
-    "releaseInfo": "2026",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S03E06\n\nEgy valós programon alapul és Cruz Manuelos, egy kemény, de szenvedélyes fiatal tengerészgyalogos mindennapjairól szól, akit azért szerveztek be a Lioness csapatába, hogy segítsen egy terrorista szervezetet belülről felszámolni. Saldaña Joe-t alakítja, a Lioness program vezetőjét, akinek feladata a beépített női ügynökök kiképzése és irányítása.",
+    "imdbRating": 8.2,
+    "releaseInfo": "2023",
     "genres": [
       "Dráma",
-      "Rejtély",
-      "Sci-Fi & Fantasy"
+      "War & Politics"
     ],
-    "latest_season": 1,
-    "latest_episode": 4,
-    "seeders": 558
+    "latest_season": 3,
+    "latest_episode": 6,
+    "seeders": 518
   },
   {
     "id": "tt18258908",
@@ -279,7 +297,7 @@
     ],
     "latest_season": 3,
     "latest_episode": 6,
-    "seeders": 64
+    "seeders": 63
   },
   {
     "id": "tt22475008",
@@ -297,43 +315,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 10,
-    "seeders": 66
-  },
-  {
-    "id": "tt13111078",
-    "type": "series",
-    "name": "Lioness (S03E06)",
-    "poster": "https://image.tmdb.org/t/p/w500/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg",
-    "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S03E06\n\nEgy valós programon alapul és Cruz Manuelos, egy kemény, de szenvedélyes fiatal tengerészgyalogos mindennapjairól szól, akit azért szerveztek be a Lioness csapatába, hogy segítsen egy terrorista szervezetet belülről felszámolni. Saldaña Joe-t alakítja, a Lioness program vezetőjét, akinek feladata a beépített női ügynökök kiképzése és irányítása.",
-    "imdbRating": 8.2,
-    "releaseInfo": "2023",
-    "genres": [
-      "Dráma",
-      "War & Politics"
-    ],
-    "latest_season": 3,
-    "latest_episode": 6,
-    "seeders": 667
-  },
-  {
-    "id": "tt11278600",
-    "type": "series",
-    "name": "Bűntények a pálmák alatt (S05E06)",
-    "poster": "https://image.tmdb.org/t/p/w500/qp4quWTVsx77Yvu7ep7488wAX5y.jpg",
-    "posterShape": "poster",
-    "year": 2019,
-    "description": "🆕 Legújabb epizód: S05E06\n\nClarissa rendőrkapitány egy nyomozóosztagot vezet, akik nehéz esetekkel foglalkoznak, miközben személyes drámáikat is próbálják megoldani, mindezt a festői Új-Kaledónia szigetén.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2019",
-    "genres": [
-      "Bűnügyi",
-      "Dráma"
-    ],
-    "latest_season": 5,
-    "latest_episode": 6,
-    "seeders": 39
+    "seeders": 60
   },
   {
     "id": "tt18546730",
@@ -352,7 +334,7 @@
     ],
     "latest_season": 3,
     "latest_episode": 7,
-    "seeders": 351
+    "seeders": 249
   },
   {
     "id": "tt30796986",
@@ -370,25 +352,25 @@
     ],
     "latest_season": 1,
     "latest_episode": 6,
-    "seeders": 83
+    "seeders": 79
   },
   {
-    "id": "tt29926954",
+    "id": "tt11278600",
     "type": "series",
-    "name": "Anyai örökség (S01E42)",
-    "poster": "https://image.tmdb.org/t/p/w500/sXzTcIgXMWIotuymY6Lt1zdztWC.jpg",
+    "name": "Bűntények a pálmák alatt (S05E06)",
+    "poster": "https://image.tmdb.org/t/p/w500/qp4quWTVsx77Yvu7ep7488wAX5y.jpg",
     "posterShape": "poster",
-    "year": 2023,
-    "description": "🆕 Legújabb epizód: S01E42\n\nAz Anyai örökség egy mélyen érzelmes, fordulatokban gazdag családi dráma, amelynek középpontjában az anyaság és az anyai érzelmek különböző aspektusai állnak. A történet főhőse Karsu, aki igyekszik helytállni anyaként és feleségként, ám élete egyik pillanatról a másikra összeomlik.",
-    "imdbRating": 7.0,
-    "releaseInfo": "2023",
+    "year": 2019,
+    "description": "🆕 Legújabb epizód: S05E06\n\nClarissa rendőrkapitány egy nyomozóosztagot vezet, akik nehéz esetekkel foglalkoznak, miközben személyes drámáikat is próbálják megoldani, mindezt a festői Új-Kaledónia szigetén.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2019",
     "genres": [
-      "Családi",
+      "Bűnügyi",
       "Dráma"
     ],
-    "latest_season": 1,
-    "latest_episode": 42,
-    "seeders": 46
+    "latest_season": 5,
+    "latest_episode": 6,
+    "seeders": 38
   },
   {
     "id": "tt0224887",
@@ -406,25 +388,25 @@
     ],
     "latest_season": 19,
     "latest_episode": 11,
-    "seeders": 313
+    "seeders": 266
   },
   {
-    "id": "tt14986786",
+    "id": "tt29926954",
     "type": "series",
-    "name": "完美世界",
-    "poster": "https://image.tmdb.org/t/p/w500/mNJPCv2dLADVVSgLlzsMJoXdTmb.jpg",
+    "name": "Anyai örökség (S01E42)",
+    "poster": "https://image.tmdb.org/t/p/w500/sXzTcIgXMWIotuymY6Lt1zdztWC.jpg",
     "posterShape": "poster",
-    "year": 2021,
-    "description": "他为修道而生，为应劫而至，他身化亿万血雨，洒落万古岁月，经历无数时空的熬炼，岁月长河的洗礼，他化万古，他化自在。看男主石昊如何一生极致辉煌，造就无尽传说。",
-    "imdbRating": 8.2,
-    "releaseInfo": "2021",
+    "year": 2023,
+    "description": "🆕 Legújabb epizód: S01E42\n\nAz Anyai örökség egy mélyen érzelmes, fordulatokban gazdag családi dráma, amelynek középpontjában az anyaság és az anyai érzelmek különböző aspektusai állnak. A történet főhőse Karsu, aki igyekszik helytállni anyaként és feleségként, ám élete egyik pillanatról a másikra összeomlik.",
+    "imdbRating": 7.0,
+    "releaseInfo": "2023",
     "genres": [
-      "Animációs",
-      "Action & Adventure"
+      "Családi",
+      "Dráma"
     ],
-    "latest_season": null,
-    "latest_episode": null,
-    "seeders": 64
+    "latest_season": 1,
+    "latest_episode": 42,
+    "seeders": 38
   },
   {
     "id": "tt27543562",
@@ -442,7 +424,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 105
+    "seeders": 84
   },
   {
     "id": "tt39305428",
@@ -459,7 +441,7 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 83
+    "seeders": 68
   },
   {
     "id": "tt33253070",
@@ -477,7 +459,25 @@
     ],
     "latest_season": 1,
     "latest_episode": 4,
-    "seeders": 99
+    "seeders": 79
+  },
+  {
+    "id": "tt14986786",
+    "type": "series",
+    "name": "完美世界",
+    "poster": "https://image.tmdb.org/t/p/w500/mNJPCv2dLADVVSgLlzsMJoXdTmb.jpg",
+    "posterShape": "poster",
+    "year": 2021,
+    "description": "他为修道而生，为应劫而至，他身化亿万血雨，洒落万古岁月，经历无数时空的熬炼，岁月长河的洗礼，他化万古，他化自在。看男主石昊如何一生极致辉煌，造就无尽传说。",
+    "imdbRating": 8.2,
+    "releaseInfo": "2021",
+    "genres": [
+      "Animációs",
+      "Action & Adventure"
+    ],
+    "latest_season": null,
+    "latest_episode": null,
+    "seeders": 51
   },
   {
     "id": "tt37692332",
@@ -495,7 +495,7 @@
     ],
     "latest_season": 1,
     "latest_episode": 7,
-    "seeders": 206
+    "seeders": 156
   },
   {
     "id": "tt38218082",
@@ -505,14 +505,14 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Egy családi botrány után Teagan Tao, a fiatal evezős kisvárosba költözik, és csatlakozik egy elit előkészítő iskola fiúcsapatához, rivalizáláshoz és vonzalmakhoz vezetve.",
-    "imdbRating": 7.8,
+    "imdbRating": 7.9,
     "releaseInfo": "2026",
     "genres": [
       "Dráma"
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 52
+    "seeders": 48
   },
   {
     "id": "tt13018148",
@@ -530,6 +530,6 @@
     ],
     "latest_season": null,
     "latest_episode": null,
-    "seeders": 39
+    "seeders": 37
   }
 ]
