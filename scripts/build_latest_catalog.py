@@ -7,14 +7,12 @@ Fetches latest HD releases from nCore, matches to TMDB only (no Trakt).
 Usage: python scripts/build_latest_catalog.py
 Output: data/hd_movies.json, data/hd_series.json
 """
-import re
 import sys
 import time
 import os
 import json
 from pathlib import Path
 from dotenv import load_dotenv
-import requests
 
 try:
     sys.stdout.reconfigure(encoding='utf-8')
@@ -28,7 +26,6 @@ if str(script_dir) not in sys.path:
 from tvdb_client import search_show_on_tvdb
 from omdb_client import OMDbClient
 from catalog_common import (
-    fmt_rating as _fmt_rating,
     parse_movie_title,
     parse_series_title,
     extract_episode_info,
@@ -163,10 +160,10 @@ def fetch_latest_movies(client, max_count=None):
                     print(f"  nCore search error (oldal {page}): {e}")
                     return all_torrents
         if not torrents:
-            print(f"  Nincs több torrent, leállás.")
+            print("  Nincs több torrent, leállás.")
             break
         all_torrents.extend(torrents)
-        print(f"  Oldal {page}: {len(torrents)} torrent (összesen: {len(all_torrents)})")
+        print("  Oldal {page}: {len(torrents)} torrent (összesen: {len(all_torrents)})")
         if len(all_torrents) >= target or len(torrents) == 0:
             break
         page += 1
@@ -206,10 +203,10 @@ def fetch_latest_series(client, max_count=None):
                     print(f"  nCore search error (oldal {page}): {e}")
                     return all_torrents
         if not torrents:
-            print(f"  Nincs több torrent, leállás.")
+            print("  Nincs több torrent, leállás.")
             break
         all_torrents.extend(torrents)
-        print(f"  Oldal {page}: {len(torrents)} torrent (összesen: {len(all_torrents)})")
+        print("  Oldal {page}: {len(torrents)} torrent (összesen: {len(all_torrents)})")
         if len(all_torrents) >= target or len(torrents) == 0:
             break
         page += 1
@@ -414,7 +411,7 @@ def main():
                     if old_season is not None and old_episode is not None:
                         print(f"  ↻ Már létezik ugyanezzel vagy újabb epizóddal (S{old_season:02d}E{old_episode:02d}), kihagyva")
                     else:
-                        print(f"  ↻ Már létezik a katalógusban, kihagyva")
+                        print("  ↻ Már létezik a katalógusban, kihagyva")
                     continue
             else:
                 should_update = True

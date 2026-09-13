@@ -18,7 +18,6 @@ calls for titles you already have): --merge-existing or NCORE_TOP_DOWNLOADED_MER
 Usage: python scripts/build_top_downloaded_1080_catalog.py [--force] [--merge-existing]
 """
 import argparse
-import re
 import sys
 import time
 import os
@@ -26,7 +25,6 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
-import requests
 
 try:
     sys.stdout.reconfigure(encoding='utf-8')

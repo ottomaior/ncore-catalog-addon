@@ -8,7 +8,6 @@ Output: data/trending_movies.json, data/trending_series.json.
 
 Usage: python scripts/build_trending_catalog.py
 """
-import re
 import sys
 import time
 import os
@@ -16,7 +15,6 @@ import json
 from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
-import requests
 
 try:
     sys.stdout.reconfigure(encoding='utf-8')
@@ -30,7 +28,6 @@ if str(script_dir) not in sys.path:
 from tvdb_client import search_show_on_tvdb
 from omdb_client import OMDbClient
 from catalog_common import (
-    fmt_rating as _fmt_rating,
     parse_movie_title,
     parse_series_title,
     extract_episode_info,

@@ -8,16 +8,13 @@ Fetches HD-HUN movies from nCore, matches to TMDB only (no Trakt), gets genres, 
 Usage: python scripts/build_most_seeded_movies_catalog.py
 Output: data/most_seeded_movies.json
 """
-import re
 import time
 import os
 import json
 from pathlib import Path
 from dotenv import load_dotenv
-import requests
 from omdb_client import OMDbClient
 from catalog_common import (
-    fmt_rating as _fmt_rating,
     parse_movie_title,
     is_likely_series,
     search_movie_on_tmdb,

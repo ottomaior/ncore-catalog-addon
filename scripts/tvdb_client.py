@@ -2,7 +2,6 @@
 TVDB API v4 client for series lookup.
 Used by catalog scripts for series only; movies and Hungarian filter stay on TMDB.
 """
-import os
 import time
 import requests
 

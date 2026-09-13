@@ -9,17 +9,14 @@ matches to TVDB (same parse_series_title as build_latest_catalog so TVDB gets cl
 Usage: python scripts/build_most_seeded_series_catalog.py
 Output: data/most_seeded_series.json
 """
-import re
 import sys
 import time
 import os
 import json
 from pathlib import Path
 from dotenv import load_dotenv
-import requests
 from omdb_client import OMDbClient
 from catalog_common import (
-    fmt_rating as _fmt_rating,
     parse_series_title,
     extract_episode_info,
     is_newer_episode,
