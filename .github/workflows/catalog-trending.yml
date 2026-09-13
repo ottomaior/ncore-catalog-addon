@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: catalog-data
+  cancel-in-progress: false
+
 jobs:
   build-trending:
     runs-on: ubuntu-latest
@@ -24,7 +28,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install ncoreparser requests python-dotenv
+        run: pip install -r requirements.txt
 
       - name: Run build_trending_catalog.py
         env:
@@ -40,6 +44,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin ${{ github.ref_name }} || true
           git add data/trending_movies.json data/trending_series.json 2>/dev/null || true
           git status
           if ! git diff --staged --quiet 2>/dev/null; then

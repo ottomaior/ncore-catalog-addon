@@ -27,6 +27,15 @@ if str(script_dir) not in sys.path:
     sys.path.insert(0, str(script_dir))
 from tvdb_client import search_show_on_tvdb
 from omdb_client import OMDbClient
+from catalog_common import (
+    fmt_rating as _fmt_rating,
+    parse_movie_title,
+    parse_series_title,
+    extract_episode_info,
+    is_newer_episode,
+    is_sports_content,
+    search_movie_on_tmdb,
+)
 
 try:
     from ncoreparser import Client, SearchParamType, ParamSort, ParamSeq
@@ -54,9 +63,6 @@ NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 
 omdb = OMDbClient(OMDB_API_KEY)
 
-
-def _fmt_rating(x):
-    return '?' if x is None else f'{x:.1f}'
 
 # Big catalog size (Legfrissebb); streaming catalogs are split from this via split_catalogs_by_provider.py
 TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_LATEST', '2000'))
@@ -95,142 +101,6 @@ def load_existing_series():
         return []
 
 
-def search_movie_on_tmdb(clean_title, year, tmdb_key):
-    """
-    Search for movie on TMDB and return full metadata including IMDB ID.
-    Returns dict with all needed fields or None.
-    """
-    if not tmdb_key:
-        return None
-    
-    # Try multiple title variations
-    variations = [
-        clean_title,
-        clean_title.replace(' and ', ' & '),
-        clean_title.replace(' & ', ' and '),
-    ]
-    
-    for variation in variations:
-        try:
-            time.sleep(TMDB_DELAY)
-            # Search for movie
-            search_url = f'https://api.themoviedb.org/3/search/movie?api_key={tmdb_key}&query={variation}&language=hu-HU'
-            if year:
-                search_url += f'&year={year}'
-            
-            r = requests.get(search_url, timeout=10)
-            if r.status_code != 200:
-                continue
-            
-            results = r.json().get('results', [])
-            if not results:
-                continue
-            
-            # Get first result's full details
-            tmdb_id = results[0]['id']
-            
-            time.sleep(TMDB_DELAY)
-            details_url = f'https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={tmdb_key}&language=hu-HU'
-            r2 = requests.get(details_url, timeout=10)
-            if r2.status_code != 200:
-                continue
-            
-            movie_data = r2.json()
-            imdb_id = movie_data.get('imdb_id')  # ← IMDB ID here!
-            
-            if not imdb_id:
-                continue
-            
-            # Return all data in one go
-            return {
-                'imdb_id': imdb_id,
-                'title': movie_data.get('title'),
-                'poster_path': movie_data.get('poster_path'),
-                'genres': [g['name'] for g in movie_data.get('genres', [])],
-                'description': movie_data.get('overview', ''),
-                'year': int(movie_data.get('release_date', '')[:4]) if movie_data.get('release_date') else None,
-                'rating': movie_data.get('vote_average')
-            }
-        except Exception as e:
-            continue
-    
-    return None
-
-
-def parse_movie_title(title):
-    """
-    Parse movie title, extracting clean name and year.
-    Removes everything after year.
-    """
-    year_match = re.search(r'\.(\d{4})\.', title)
-    year = year_match.group(1) if year_match else None
-    clean = title[:year_match.start()] if year_match else title
-    clean = clean.replace('.', ' ').strip()
-    clean = ' '.join(clean.split())
-    return clean, year
-
-
-def is_sports_content(title):
-    """
-    Check if the title appears to be sports-related content.
-    Returns True if it matches common sports patterns.
-    """
-    title_lower = title.lower()
-    
-    # Common sports keywords (English and Hungarian)
-    sports_keywords = [
-        'football', 'soccer', 'nfl', 'nba', 'nhl', 'mlb', 'ufc', 'wwe', 'f1', 'formula',
-        'cycling', 'tour de france', 'giro', 'vuelta', 'motogp', 'motorsport',
-        'tennis', 'wimbledon', 'us open', 'australian open', 'french open',
-        'olympics', 'olimpia', 'world cup', 'euro ', 'uefa', 'champions league',
-        'boxing', 'wrestling', 'hockey', 'basketball', 'baseball', 'rugby',
-        'golf', 'racing', 'rally', 'superbike', 'moto2', 'moto3',
-        'liverpool', 'manchester', 'barcelona', 'real madrid', 'bayern', 'juventus',
-        'futball', 'labdarúgás', 'kerékpár', 'boksz', 'forma-1', 'forma1'
-    ]
-    
-    # Check if any sports keyword is in the title
-    for keyword in sports_keywords:
-        if keyword in title_lower:
-            return True
-    
-    return False
-
-
-def extract_episode_info(title):
-    """
-    Extract season and episode number from title (e.g., S02E03).
-    Returns tuple: (season, episode, episode_string) or (None, None, None)
-    """
-    # Pattern: S##E## (e.g., S02E03, S1E5)
-    episode_match = re.search(r'S(\d{1,2})E(\d{1,2})', title, re.IGNORECASE)
-    if episode_match:
-        season = int(episode_match.group(1))
-        episode = int(episode_match.group(2))
-        episode_string = f"S{season:02d}E{episode:02d}"
-        return season, episode, episode_string
-    return None, None, None
-
-
-def is_newer_episode(new_season, new_episode, old_season, old_episode):
-    """
-    Compare two episodes to determine if the new one is actually newer.
-    Returns True if new episode is later than old episode.
-    """
-    if new_season is None or new_episode is None:
-        return False
-    if old_season is None or old_episode is None:
-        return True
-    
-    # Compare: first by season, then by episode
-    if new_season > old_season:
-        return True
-    if new_season == old_season and new_episode > old_episode:
-        return True
-    
-    return False
-
-
 def _episode_sort_key(entry):
     """Key for comparing series entries: (season, episode); higher = newer."""
     s = entry.get('latest_season')
@@ -259,37 +129,6 @@ def dedupe_series_keep_newest(series_list):
         seen.add(sid)
         out.append(by_id[sid])
     return out
-
-
-def parse_series_title(title):
-    """
-    Extract clean show name and year from nCore series torrent title.
-    Cuts at: year, season (S01), episode (E01), resolution (1080p), or release type (WEB-DL, etc.)
-    """
-    # First, try to find year
-    year_match = re.search(r'\.(\d{4})\.', title)
-    year = year_match.group(1) if year_match else None
-    
-    # If year found, cut there
-    if year_match:
-        clean = title[:year_match.start()]
-    else:
-        # Otherwise, cut at first occurrence of season/episode/quality markers
-        # Pattern matches: S01, S02, E01, 1080p, 720p, WEB-DL, HDTV, BluRay, etc.
-        # Accepts both space and dot as separator: [\s.]
-        cut_pattern = re.search(
-            r'[\s.](S\d+|E\d+|\d{3,4}[pi]|WEB-?DL|HDTV|BluRay|BRRip|DVDRip|PROPER|REPACK|AAC|DD\+?|DV|HDR|H\.26[45])',
-            title,
-            re.IGNORECASE
-        )
-        if cut_pattern:
-            clean = title[:cut_pattern.start()]
-        else:
-            clean = title
-    
-    clean = clean.replace('.', ' ').strip()
-    clean = ' '.join(clean.split())
-    return clean, year
 
 
 def fetch_latest_movies(client, max_count=None):

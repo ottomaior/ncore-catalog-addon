@@ -18,6 +18,12 @@ from pathlib import Path
 from dotenv import load_dotenv
 import requests
 from omdb_client import OMDbClient
+from catalog_common import (
+    fmt_rating as _fmt_rating,
+    parse_series_title,
+    extract_episode_info,
+    is_newer_episode,
+)
 
 script_dir = Path(__file__).parent.resolve()
 if str(script_dir) not in sys.path:
@@ -50,9 +56,6 @@ NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 omdb = OMDbClient(OMDB_API_KEY)
 
 
-def _fmt_rating(x):
-    return '?' if x is None else f'{x:.1f}'
-
 TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_SERIES', '1000'))
 NCORE_PAGES_PER_RUN = int(os.getenv('NCORE_PAGES_PER_RUN', '15'))
 
@@ -62,52 +65,6 @@ PATTERN_1080 = '.1080'
 NCORE_PAGE_DELAY = float(os.getenv('NCORE_PAGE_DELAY', '3.0'))
 NCORE_PAGE_RETRIES = int(os.getenv('NCORE_PAGE_RETRIES', '4'))
 NCORE_RETRY_WAIT = float(os.getenv('NCORE_RETRY_WAIT', '35.0'))
-
-
-def parse_series_title(title):
-    """
-    Same as build_latest_catalog: extract clean show name and year by cutting at
-    first year, or first S01/E01/1080p/WEB-DL/etc. So TVDB gets "Fallout" not "Fallout S02 AMZN WEB DL".
-    """
-    title = (title or '').strip()
-    year_match = re.search(r'\.(\d{4})\.', title)
-    year = year_match.group(1) if year_match else None
-    if year_match:
-        clean = title[:year_match.start()]
-    else:
-        cut_pattern = re.search(
-            r'[\s.](S\d+|E\d+|\d{3,4}[pi]|WEB-?DL|HDTV|BluRay|BRRip|DVDRip|PROPER|REPACK|AAC|DD\+?|DV|HDR|H\.26[45])',
-            title,
-            re.IGNORECASE,
-        )
-        clean = title[:cut_pattern.start()] if cut_pattern else title
-    clean = clean.replace('.', ' ').strip()
-    clean = ' '.join(clean.split())
-    return clean or title, year
-
-
-def extract_episode_info(title):
-    """Extract S##E## from title; return (season, episode, 'S01E02' string) or (None, None, None)."""
-    ep = re.search(r'S(\d{1,2})E(\d{1,2})', (title or ''), re.IGNORECASE)
-    if ep:
-        s, e = int(ep.group(1)), int(ep.group(2))
-        return s, e, f"S{s:02d}E{e:02d}"
-    return None, None, None
-
-
-def is_newer_episode(new_s, new_e, old_s, old_e):
-    """True if (new_s, new_e) is strictly newer than (old_s, old_e)."""
-    if new_s is None or new_e is None:
-        return False
-    if old_s is None or old_e is None:
-        return True
-    if new_s > old_s:
-        return True
-    if new_s == old_s and new_e > old_e:
-        return True
-    return False
-
-
 
 
 def load_existing_metas():

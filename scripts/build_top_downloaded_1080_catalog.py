@@ -39,6 +39,15 @@ if str(script_dir) not in sys.path:
     sys.path.insert(0, str(script_dir))
 from tvdb_client import search_show_on_tvdb
 from omdb_client import OMDbClient
+from catalog_common import (
+    parse_movie_title,
+    parse_series_title,
+    extract_episode_info,
+    is_newer_episode,
+    is_likely_series,
+    seeders_from_torrent as _seeders_from_torrent,
+    search_movie_on_tmdb,
+)
 
 try:
     from ncoreparser import Client, SearchParamType, ParamSort, ParamSeq
@@ -166,68 +175,6 @@ def renumber_below_existing(existing, new_items):
     return ordered
 
 
-def search_movie_on_tmdb(clean_title, year, tmdb_key):
-    if not tmdb_key:
-        return None
-    variations = [
-        clean_title,
-        clean_title.replace(' and ', ' & '),
-        clean_title.replace(' & ', ' and '),
-    ]
-    for variation in variations:
-        try:
-            time.sleep(TMDB_DELAY)
-            params = {'api_key': tmdb_key, 'query': variation, 'language': 'hu-HU'}
-            if year:
-                params['year'] = year
-            r = requests.get('https://api.themoviedb.org/3/search/movie', params=params, timeout=15)
-            if r.status_code != 200:
-                continue
-            results = r.json().get('results', [])
-            if not results:
-                continue
-            tmdb_id = results[0]['id']
-            time.sleep(TMDB_DELAY)
-            r2 = requests.get(
-                f'https://api.themoviedb.org/3/movie/{tmdb_id}',
-                params={'api_key': tmdb_key, 'language': 'hu-HU'},
-                timeout=15,
-            )
-            if r2.status_code != 200:
-                continue
-            movie_data = r2.json()
-            imdb_id = movie_data.get('imdb_id')
-            if not imdb_id:
-                continue
-            return {
-                'imdb_id': imdb_id,
-                'title': movie_data.get('title'),
-                'poster_path': movie_data.get('poster_path'),
-                'genres': [g['name'] for g in movie_data.get('genres', [])],
-                'description': movie_data.get('overview', ''),
-                'year': int(movie_data.get('release_date', '')[:4]) if movie_data.get('release_date') else None,
-                'rating': movie_data.get('vote_average'),
-            }
-        except Exception:
-            continue
-    return None
-
-
-def parse_movie_title(title):
-    year_match = re.search(r'\.(\d{4})\.', title)
-    year = year_match.group(1) if year_match else None
-    clean = title[:year_match.start()] if year_match else title
-    clean = clean.replace('.', ' ').strip()
-    clean = ' '.join(clean.split())
-    return clean, year
-
-
-def is_likely_series(title):
-    if not title:
-        return False
-    return bool(re.search(r's\d{1,2}(?:e\d{1,2})?', title, re.IGNORECASE))
-
-
 def torrent_title(t):
     """ncoreparser.Torrent exposes fields via __getitem__ only, not .title attribute."""
     if isinstance(t, dict):
@@ -236,27 +183,6 @@ def torrent_title(t):
         return (t['title'] or '').strip()
     except Exception:
         return (getattr(t, 'title', None) or '').strip()
-
-
-def _seeders_from_torrent(t):
-    """Read seed count; ncoreparser list items use key 'seed' (string)."""
-    try:
-        if isinstance(t, dict):
-            v = t.get('seeders') or t.get('seed_count') or t.get('seed') or 0
-        else:
-            v = (
-                getattr(t, 'seeders', None)
-                or getattr(t, 'seed_count', None)
-                or getattr(t, 'seed', None)
-            )
-            if v is None:
-                try:
-                    v = t['seed']
-                except (KeyError, TypeError):
-                    v = 0
-        return int(v)
-    except (TypeError, ValueError):
-        return 0
 
 
 def _search_one_page_movies(client, page):
@@ -355,44 +281,6 @@ def build_movie_metas(client, target, exclude_imdb_ids=None):
         page += 1
         time.sleep(NCORE_PAGE_DELAY)
     return metas[:target]
-
-
-def parse_series_title(title):
-    title = (title or '').strip()
-    year_match = re.search(r'\.(\d{4})\.', title)
-    year = year_match.group(1) if year_match else None
-    if year_match:
-        clean = title[:year_match.start()]
-    else:
-        cut_pattern = re.search(
-            r'[\s.](S\d+|E\d+|\d{3,4}[pi]|WEB-?DL|HDTV|BluRay|BRRip|DVDRip|PROPER|REPACK|AAC|DD\+?|DV|HDR|H\.26[45])',
-            title,
-            re.IGNORECASE,
-        )
-        clean = title[:cut_pattern.start()] if cut_pattern else title
-    clean = clean.replace('.', ' ').strip()
-    clean = ' '.join(clean.split())
-    return clean or title, year
-
-
-def extract_episode_info(title):
-    ep = re.search(r'S(\d{1,2})E(\d{1,2})', (title or ''), re.IGNORECASE)
-    if ep:
-        s, e = int(ep.group(1)), int(ep.group(2))
-        return s, e, f'S{s:02d}E{e:02d}'
-    return None, None, None
-
-
-def is_newer_episode(new_s, new_e, old_s, old_e):
-    if new_s is None or new_e is None:
-        return False
-    if old_s is None or old_e is None:
-        return True
-    if new_s > old_s:
-        return True
-    if new_s == old_s and new_e > old_e:
-        return True
-    return False
 
 
 def _search_one_page_series(client, page):

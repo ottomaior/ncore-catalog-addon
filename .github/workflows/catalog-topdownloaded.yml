@@ -1,0 +1,74 @@
+# Top-downloaded 1080p HD-HU (📥) + its Magyar subsets – monthly, 1st day 04:00 UTC.
+# Full rebuild (--force ignores the script's 60-day cooldown). Pushes data → Railway auto-deploys
+# unless DATA_REMOTE_BASE_URL + watch paths are configured (see README).
+name: Catalog – Top downloaded (monthly)
+
+on:
+  schedule:
+    - cron: '0 4 1 * *'
+  workflow_dispatch:
+    inputs:
+      merge_existing:
+        description: 'Keep existing entries and only fetch missing ids (faster, fewer TMDB calls)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-data
+  cancel-in-progress: false
+
+jobs:
+  build-topdownloaded:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build top-downloaded catalogs
+        env:
+          NCORE_USER: ${{ secrets.NCORE_USER }}
+          NCORE_PASS: ${{ secrets.NCORE_PASS }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TVDB_API_KEY: ${{ secrets.TVDB_API_KEY }}
+          TVDB_PIN: ${{ secrets.TVDB_PIN }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+        run: |
+          EXTRA=""
+          if [ "${{ github.event.inputs.merge_existing }}" = "true" ]; then EXTRA="--merge-existing"; fi
+          python scripts/build_top_downloaded_1080_catalog.py --force $EXTRA
+          python scripts/filter_hungarian_productions.py \
+            --source data/top_downloaded_1080_movies.json \
+            --output data/top_downloaded_1080_hungarian_productions_movies.json
+          python scripts/filter_hungarian_productions_series.py \
+            --source data/top_downloaded_1080_series.json \
+            --output data/top_downloaded_1080_hungarian_productions_series.json
+
+      - name: Commit and push data
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin ${{ github.ref_name }} || true
+          git add data/top_downloaded_1080_movies.json data/top_downloaded_1080_series.json \
+                  data/top_downloaded_1080_hungarian_productions_movies.json \
+                  data/top_downloaded_1080_hungarian_productions_series.json \
+                  data/.top_downloaded_1080_last_run 2>/dev/null || true
+          git status
+          if ! git diff --staged --quiet 2>/dev/null; then
+            git commit -m "chore(data): update top-downloaded 1080p catalogs (+ Magyar subsets)"
+            git push
+          fi

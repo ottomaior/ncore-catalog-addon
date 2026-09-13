@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: catalog-data
+  cancel-in-progress: false
+
 jobs:
   build-streaming:
     runs-on: ubuntu-latest
@@ -25,7 +29,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests python-dotenv
+        run: pip install -r requirements.txt
 
       - name: Run split_catalogs_by_provider.py
         env:
@@ -37,6 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin ${{ github.ref_name }} || true
           git add data/netflix_movies.json data/netflix_series.json \
                   data/disneyplus_movies.json data/disneyplus_series.json \
                   data/hbomax_movies.json data/hbomax_series.json \

@@ -1,5 +1,9 @@
 [build]
 builder = "NIXPACKS"
+# Optional: stop redeploying on every data-only commit from GitHub Actions.
+# Pair this with the DATA_REMOTE_BASE_URL env var (see README → "Serving data without redeploys");
+# without that env var the server reads data/ from the deployed image and DOES need those deploys.
+# watchPatterns = ["*.js", "*.json", "*.toml", "lib/**", "public/**", "subtitles/**", "trailers/**", "scripts/**", "config/**"]
 
 [deploy]
 startCommand = "node server.js"

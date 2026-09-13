@@ -1,0 +1,32 @@
+# Unit tests for the Node server and the Python catalog helpers. No secrets needed.
+name: CI
+
+on:
+  push:
+    branches: ['**']
+    paths-ignore: ['data/**']
+  pull_request:
+    paths-ignore: ['data/**']
+  workflow_dispatch:
+
+jobs:
+  node:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install
+      - run: npm test
+
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt pytest pyflakes
+      - run: python -m pyflakes scripts/*.py
+      - run: python -m pytest scripts/tests -q

@@ -174,7 +174,8 @@
             </a>
         </div>
         <footer>
-            <p>Stremio Hungarian Community · <a href="/health" target="_blank">/health</a></p>
+            <p>Stremio Hungarian Community · <a href="/health" target="_blank">/health</a> · <span id="versionText"></span></p>
+            <p style="font-size:0.8em;opacity:0.7">Metaadatok: <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a> és <a href="https://thetvdb.com/" target="_blank" rel="noopener">TheTVDB</a>. Streaming-katalógusok forrása: <a href="https://www.justwatch.com/" target="_blank" rel="noopener">JustWatch</a> (TMDB watch providers). Ez az oldal nem áll kapcsolatban az nCore-ral.</p>
         </footer>
     </div>
     <script>
@@ -183,6 +184,7 @@
             .then(d => {
                 const total = (d.hdMoviesCount || 0) + (d.hdSeriesCount || 0) + (d.topSeededByGenreCount || 0) + (d.topSeededSeriesCount || 0) + (d.trendingMoviesCount || 0) + (d.trendingSeriesCount || 0) + (d.netflixMoviesCount || 0) + (d.netflixSeriesCount || 0) + (d.disneyplusMoviesCount || 0) + (d.disneyplusSeriesCount || 0) + (d.hbomaxMoviesCount || 0) + (d.hbomaxSeriesCount || 0) + (d.primeMoviesCount || 0) + (d.primeSeriesCount || 0);
                 document.getElementById('statusText').textContent = 'OK · ' + total + ' elem a katalógusokban';
+                if (d.version) document.getElementById('versionText').textContent = 'v' + d.version;
             })
             .catch(() => {
                 document.querySelector('.status-dot').classList.add('off');
