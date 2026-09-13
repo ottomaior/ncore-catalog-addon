@@ -13,7 +13,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999986
+"seeders": 999987
 },
 {
 "id": "tt29344974",
@@ -23,7 +23,7 @@
 "posterShape": "poster",
 "year": 2024,
 "description": "Mi köti össze a múltat a jelennel? Természetesen a szerelem. És a zene. De csak ha nagyon jó.  Lili korunk tipikus lánya: magányos, és igyekszik bebeszélni magának, hogy így jó neki. De egyszer a szülei lakásában talál egy régi levélcsomagot, amit az anyja, úgy látszik, egyáltalán nem akart megmutatni neki. Ő persze nem sokat habozik, olvasni kezd, és megelevenedik előtte a múlt…  …a kilencvenes évek elejének egy felejthetetlen nyara, amikor három jó barátnő a Balatonnál vakációzik, és közülük csak Eszter (Törőcsik Franciska) akar hűséges maradni az otthon hagyott, karót nyelt pasijához. De általában mérnöki pontossággal követett terveit kissé összekuszálja, hogy megismerkedik egy sráccal (Ember Márk), aki laza, vicces és van még egy nagyon jó tulajdonsága: egy zenekarban játszik, és esténként a szigligeti strandon lép fel a haverjaival.",
-"imdbRating": 8.1,
+"imdbRating": 7.9,
 "releaseInfo": "2024",
 "genres": [
 "Vígjáték",
@@ -46,7 +46,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999972
+"seeders": 999974
 },
 {
 "id": "tt34375721",
@@ -79,7 +79,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999940
+"seeders": 999938
 },
 {
 "id": "tt0179955",
@@ -106,12 +106,12 @@
 "posterShape": "poster",
 "year": 2025,
 "description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-"imdbRating": 5.2,
+"imdbRating": 4.1,
 "releaseInfo": "2025",
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999870
+"seeders": 999865
 },
 {
 "id": "tt0065067",
@@ -156,7 +156,7 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999839
+"seeders": 999841
 },
 {
 "id": "tt31065630",
@@ -174,22 +174,6 @@
 "seeders": 999838
 },
 {
-"id": "tt35303515",
-"type": "movie",
-"name": "Itt érzem magam otthon",
-"poster": "https://image.tmdb.org/t/p/w500/b0ldbmOJQgaqxK5ZSLhfH3VLf8Y.jpg",
-"posterShape": "poster",
-"year": 2026,
-"description": "Ritát, a fiatal és magányos nőt egy éjszaka elrabolják az utcáról. A különös Árpád-család lakásában tér magához, akik váltig állítják, hogy ő valójában Szilvi, a család elveszett tagja. Rita tisztában van vele, hogy kicsoda, és azzal is, hogy Árpádéknál az őrület uralkodik. Ugyanakkor belátja, hogy ha valaha is meg akar szabadulni tőlük, kénytelen lesz megszemélyesíteni ezt a bizonyos Szilvit.",
-"imdbRating": 7.2,
-"releaseInfo": "2026",
-"genres": [
-"Dráma",
-"Thriller"
-],
-"seeders": 999835
-},
-{
 "id": "tt0142632",
 "type": "movie",
 "name": "Lúdas Matyi",
@@ -204,7 +188,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999827
+"seeders": 999828
 },
 {
 "id": "tt0084315",
@@ -239,6 +223,22 @@
 "Horror"
 ],
 "seeders": 999817
+},
+{
+"id": "tt35303515",
+"type": "movie",
+"name": "Itt érzem magam otthon",
+"poster": "https://image.tmdb.org/t/p/w500/b0ldbmOJQgaqxK5ZSLhfH3VLf8Y.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Ritát, a fiatal és magányos nőt egy éjszaka elrabolják az utcáról. A különös Árpád-család lakásában tér magához, akik váltig állítják, hogy ő valójában Szilvi, a család elveszett tagja. Rita tisztában van vele, hogy kicsoda, és azzal is, hogy Árpádéknál az őrület uralkodik. Ugyanakkor belátja, hogy ha valaha is meg akar szabadulni tőlük, kénytelen lesz megszemélyesíteni ezt a bizonyos Szilvit.",
+"imdbRating": 7.1,
+"releaseInfo": "2026",
+"genres": [
+"Dráma",
+"Thriller"
+],
+"seeders": 999815
 },
 {
 "id": "tt26678938",
@@ -289,7 +289,7 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999806
+"seeders": 999810
 },
 {
 "id": "tt37357756",
@@ -305,7 +305,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999794
+"seeders": 999800
 },
 {
 "id": "tt40381358",
