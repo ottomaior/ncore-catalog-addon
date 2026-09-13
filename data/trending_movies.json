@@ -15,7 +15,7 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1083
+    "seeders": 1493
   },
   {
     "id": "tt29356163",
@@ -25,7 +25,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Hőseink útja ezúttal a dinoszauruszokhoz vezet, hiszen egy kis probléma adódott a dzsungelben. A nagysikerű Mancs őrjárat harmadik fejezetében ismét újabb kalandokban lehet részük kicsiknek és nagyoknak egyaránt.",
-    "imdbRating": 7.0,
+    "imdbRating": 7.3,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -34,22 +34,7 @@
       "Fantasy",
       "Vígjáték"
     ],
-    "seeders": 512
-  },
-  {
-    "id": "tt35354686",
-    "type": "movie",
-    "name": "Szeress gyengéden",
-    "poster": "https://image.tmdb.org/t/p/w500/4F3lAOngHzNZtXiJ4zSB0CqXOZ.jpg",
-    "posterShape": "poster",
-    "year": 2025,
-    "description": "Clémence, egy ügyvéd elhagyja házastársát, hogy megtalálja önmagát. Volt férje fiuk, Paul felügyeleti jogáért küzd, és manipulálja őt. Ahogy kapcsolatuk megromlik, Clémence azért dolgozik, hogy fenntartsa a kapcsolatot gyermekével.",
-    "imdbRating": 6.6,
-    "releaseInfo": "2025",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 79
+    "seeders": 710
   },
   {
     "id": "tt39314864",
@@ -64,22 +49,7 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 245
-  },
-  {
-    "id": "tt38616652",
-    "type": "movie",
-    "name": "Szép munka, csapat!",
-    "poster": "https://image.tmdb.org/t/p/w500/pa2RSVVS1FLx4NDItIpynjJtgI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Tío Mochales egykor a spanyol sajtipar vitathatatlan királynője volt. Ma már kissé megkopott vállalat, amely igyekszik fenntartani a látszatot. Legújabb nagy ötletük: vidéki csapatépítő tréninget szerveznek abban a faluban, ahol a céget alapították. Ám ami eredetileg a „hagyományos értékekhez” való visszatérést és az újrakapcsolódást szolgáló kiruccanásnak indult, csapdává válik, amikor kiderül, hogy leépítések várhatók – méghozzá jónéhány. A motiváló elvonulásnak ígért program hamarosan a hízelgés, az árulás és a kiszivárogtatások csataterévé válik.",
-    "imdbRating": 6.4,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 148
+    "seeders": 335
   },
   {
     "id": "tt33296751",
@@ -96,7 +66,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 731
+    "seeders": 1012
   },
   {
     "id": "tt19035928",
@@ -112,7 +82,7 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 669
+    "seeders": 933
   },
   {
     "id": "tt27681354",
@@ -128,7 +98,22 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 1267
+    "seeders": 1773
+  },
+  {
+    "id": "tt35354686",
+    "type": "movie",
+    "name": "Szeress gyengéden",
+    "poster": "https://image.tmdb.org/t/p/w500/4F3lAOngHzNZtXiJ4zSB0CqXOZ.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Clémence, egy ügyvéd elhagyja házastársát, hogy megtalálja önmagát. Volt férje fiuk, Paul felügyeleti jogáért küzd, és manipulálja őt. Ahogy kapcsolatuk megromlik, Clémence azért dolgozik, hogy fenntartsa a kapcsolatot gyermekével.",
+    "imdbRating": 6.6,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 90
   },
   {
     "id": "tt34564059",
@@ -144,7 +129,22 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 711
+    "seeders": 981
+  },
+  {
+    "id": "tt38616652",
+    "type": "movie",
+    "name": "Szép munka, csapat!",
+    "poster": "https://image.tmdb.org/t/p/w500/pa2RSVVS1FLx4NDItIpynjJtgI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Tío Mochales egykor a spanyol sajtipar vitathatatlan királynője volt. Ma már kissé megkopott vállalat, amely igyekszik fenntartani a látszatot. Legújabb nagy ötletük: vidéki csapatépítő tréninget szerveznek abban a faluban, ahol a céget alapították. Ám ami eredetileg a „hagyományos értékekhez” való visszatérést és az újrakapcsolódást szolgáló kiruccanásnak indult, csapdává válik, amikor kiderül, hogy leépítések várhatók – méghozzá jónéhány. A motiváló elvonulásnak ígért program hamarosan a hízelgés, az árulás és a kiszivárogtatások csataterévé válik.",
+    "imdbRating": 6.4,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 185
   },
   {
     "id": "tt36073210",
@@ -154,29 +154,13 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Miután rejtélyes módon elrabolják New Yorkban, a spanyol mágnás lányát, Marfil Cortés testőrt kap Sebastián Moore-tól. Az összeütköző személyiségek ellenére egyre nagyobb vonzalom övezi őket, ahogy egyre nagyobb fenyegetésekkel nézzenek szembe Spanyolországban, ahol a látszat csal.",
-    "imdbRating": 6.6,
+    "imdbRating": 6.3,
     "releaseInfo": "2026",
     "genres": [
       "Romantikus",
       "Thriller"
     ],
-    "seeders": 239
-  },
-  {
-    "id": "tt38267923",
-    "type": "movie",
-    "name": "Hívd az ügynökömet! - A film",
-    "poster": "https://image.tmdb.org/t/p/w500/lJUmTDi1ssxcxkHrzVBlwhaB0v8.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A film egy volt tehetségkutató ügynök történetét követi nyomon, aki rendezőnek készül, és kénytelen újra összehívni régi csapatát, amikor főszereplője a forgatás kezdete előtt néhány nappal visszalép.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Dráma"
-    ],
-    "seeders": 150
+    "seeders": 312
   },
   {
     "id": "tt11561116",
@@ -193,7 +177,23 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 751
+    "seeders": 1029
+  },
+  {
+    "id": "tt38267923",
+    "type": "movie",
+    "name": "Hívd az ügynökömet! - A film",
+    "poster": "https://image.tmdb.org/t/p/w500/lJUmTDi1ssxcxkHrzVBlwhaB0v8.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A film egy volt tehetségkutató ügynök történetét követi nyomon, aki rendezőnek készül, és kénytelen újra összehívni régi csapatát, amikor főszereplője a forgatás kezdete előtt néhány nappal visszalép.",
+    "imdbRating": 5.9,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Dráma"
+    ],
+    "seeders": 188
   },
   {
     "id": "tt40210247",
@@ -209,22 +209,24 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 186
+    "seeders": 253
   },
   {
-    "id": "tt5179884",
+    "id": "tt19838566",
     "type": "movie",
-    "name": "A teniszedző",
-    "poster": "https://image.tmdb.org/t/p/w500/6tJSUT4sG1b5H1RLfxsv8mMjoCa.jpg",
+    "name": "Kraken",
+    "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "1989, Olaszország. Évek kemény edzése után a tizenhárom éves Felice - apja elvárásainak súlya alatt - végre elindul egy országos teniszversenyen. Egyszerű nyári vakációról álmodik, végül azonban az apja által felbérelt egykori teniszbajnok, Raul, egy furcsa edző irányítása alatt találja magát. Meccsről meccsre haladva egy különleges utazásra indulnak: Felice megízleli a szabadságot, Raul pedig egy új kezdet lehetőségét látja meg. Ahogy végigjárják az olasz partvidéket, váratlanul mély és őszinte kötelék alakul ki köztük.",
+    "year": 2026,
+    "description": "Johanne, a tengerbiológus éppen egy Vangsnes nevű, fjord melletti vidéki közösség halgazdaságában végez kutatásokat, amikor több különös esemény történik. Két helyi tinédzsert brutálisan meggyilkolnak és a nyomok a mély fjord irányába mutatnak. Vajon a mélység több titkot rejt, mint amit elsőre gondolnánk? A legmélyebb fjord alján egy hegy méretű, mitikus szörnyeteg pihen, amely számtalan karjával készen áll arra, hogy mindent összezúzzon és felfaljon, amit elér.",
     "imdbRating": 6.3,
-    "releaseInfo": "2025",
+    "releaseInfo": "2026",
     "genres": [
-      "Dráma"
+      "Horror",
+      "Akció",
+      "Thriller"
     ],
-    "seeders": 78
+    "seeders": 568
   },
   {
     "id": "tt38061210",
@@ -241,39 +243,7 @@
       "Romantikus",
       "Dráma"
     ],
-    "seeders": 102
-  },
-  {
-    "id": "tt13868484",
-    "type": "movie",
-    "name": "Maysoon",
-    "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor a Berlinben élő egyiptomi régész kapcsolata felbomlik a partnerével és útlevele lejár, veszélybe kerül az otthona, a gyermekei és a szabadsága.",
-    "imdbRating": null,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 93
-  },
-  {
-    "id": "tt19838566",
-    "type": "movie",
-    "name": "Kraken",
-    "poster": "https://image.tmdb.org/t/p/w500/uUCVGVWnBgIf6NV3AqHpJcCBC8T.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Johanne, a tengerbiológus éppen egy Vangsnes nevű, fjord melletti vidéki közösség halgazdaságában végez kutatásokat, amikor több különös esemény történik. Két helyi tinédzsert brutálisan meggyilkolnak és a nyomok a mély fjord irányába mutatnak. Vajon a mélység több titkot rejt, mint amit elsőre gondolnánk? A legmélyebb fjord alján egy hegy méretű, mitikus szörnyeteg pihen, amely számtalan karjával készen áll arra, hogy mindent összezúzzon és felfaljon, amit elér.",
-    "imdbRating": 6.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror",
-      "Akció",
-      "Thriller"
-    ],
-    "seeders": 423
+    "seeders": 127
   },
   {
     "id": "tt31170389",
@@ -288,7 +258,37 @@
     "genres": [
       "Horror"
     ],
-    "seeders": 416
+    "seeders": 649
+  },
+  {
+    "id": "tt5179884",
+    "type": "movie",
+    "name": "A teniszedző",
+    "poster": "https://image.tmdb.org/t/p/w500/6tJSUT4sG1b5H1RLfxsv8mMjoCa.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "1989, Olaszország. Évek kemény edzése után a tizenhárom éves Felice - apja elvárásainak súlya alatt - végre elindul egy országos teniszversenyen. Egyszerű nyári vakációról álmodik, végül azonban az apja által felbérelt egykori teniszbajnok, Raul, egy furcsa edző irányítása alatt találja magát. Meccsről meccsre haladva egy különleges utazásra indulnak: Felice megízleli a szabadságot, Raul pedig egy új kezdet lehetőségét látja meg. Ahogy végigjárják az olasz partvidéket, váratlanul mély és őszinte kötelék alakul ki köztük.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2025",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 90
+  },
+  {
+    "id": "tt13868484",
+    "type": "movie",
+    "name": "Maysoon",
+    "poster": "https://image.tmdb.org/t/p/w500/1RfYLEEurFa0rMQYIQh0lVQuSQr.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor a Berlinben élő egyiptomi régész kapcsolata felbomlik a partnerével és útlevele lejár, veszélybe kerül az otthona, a gyermekei és a szabadsága.",
+    "imdbRating": null,
+    "releaseInfo": "2026",
+    "genres": [
+      "Dráma"
+    ],
+    "seeders": 110
   },
   {
     "id": "tt7708226",
@@ -304,7 +304,7 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 201
+    "seeders": 263
   },
   {
     "id": "tt43679852",
@@ -323,7 +323,23 @@
       "Családi",
       "Akció"
     ],
-    "seeders": 210
+    "seeders": 262
+  },
+  {
+    "id": "tt32123395",
+    "type": "movie",
+    "name": "Módosítva",
+    "poster": "https://image.tmdb.org/t/p/w500/jVgLvefoKxVK92bdycXwN2a2Sem.jpg",
+    "posterShape": "poster",
+    "year": 2025,
+    "description": "Egy alternatív jelenben a genetikailag feljavított emberek uralják a társadalmat. A kitaszított Leon és Chloe az igazságért harcol a genetikai egyenlőtlenségeket kihasználó korrupt politikusok ellen, és mindent kockára tesznek, hogy szembe szálljanak az elnyomó rendszerrel.",
+    "imdbRating": 5.7,
+    "releaseInfo": "2025",
+    "genres": [
+      "Sci-Fi",
+      "Akció"
+    ],
+    "seeders": 177
   },
   {
     "id": "tt24850708",
@@ -340,7 +356,23 @@
       "Thriller",
       "Western"
     ],
-    "seeders": 135
+    "seeders": 171
+  },
+  {
+    "id": "tt37654096",
+    "type": "movie",
+    "name": "Az Utolsó Napkelte",
+    "poster": "https://image.tmdb.org/t/p/w500/hh5m86jbHMpsuRD52K3Oid6tLXa.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 284
   },
   {
     "id": "tt32298285",
@@ -356,7 +388,7 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 48
+    "seeders": 56
   },
   {
     "id": "tt8679660",
@@ -372,21 +404,39 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 108
+    "seeders": 123
   },
   {
-    "id": "tt32123395",
+    "id": "tt37275992",
     "type": "movie",
-    "name": "Módosítva",
-    "poster": "https://image.tmdb.org/t/p/w500/jVgLvefoKxVK92bdycXwN2a2Sem.jpg",
+    "name": "Kétség",
+    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
     "posterShape": "poster",
-    "year": 2025,
-    "description": "Egy alternatív jelenben a genetikailag feljavított emberek uralják a társadalmat. A kitaszított Leon és Chloe az igazságért harcol a genetikai egyenlőtlenségeket kihasználó korrupt politikusok ellen, és mindent kockára tesznek, hogy szembe szálljanak az elnyomó rendszerrel.",
-    "imdbRating": 5.7,
-    "releaseInfo": "2025",
+    "year": 2026,
+    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
+    "imdbRating": 6.3,
+    "releaseInfo": "2026",
     "genres": [
-      "Sci-Fi",
-      "Akció"
+      "Dráma",
+      "Thriller",
+      "Rejtély"
+    ],
+    "seeders": 233
+  },
+  {
+    "id": "tt8814476",
+    "type": "movie",
+    "name": "Supergirl",
+    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
+    "imdbRating": 6.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Akció",
+      "Kaland",
+      "Sci-Fi"
     ],
     "seeders": 122
   },
@@ -404,57 +454,23 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 71
+    "seeders": 80
   },
   {
-    "id": "tt37654096",
+    "id": "tt34470789",
     "type": "movie",
-    "name": "Az Utolsó Napkelte",
-    "poster": "https://image.tmdb.org/t/p/w500/hh5m86jbHMpsuRD52K3Oid6tLXa.jpg",
+    "name": "Reménytelenül - József Attila pszichoanalízise",
+    "poster": "https://image.tmdb.org/t/p/w500/iCUN98OPd7sgJ8ypcqvxVa9vYpi.jpg",
     "posterShape": "poster",
-    "year": 2026,
-    "description": "A népszerű regény alapján készült Az utolsó napkelte című film Ry, a krónikus betegséggel küzdő egyetemista lány történetét meséli el, aki anyjával Mallorcán tölti a nyarat. A vakáción váratlanul beleszeret Juliánba, aki megtanítja a jelenben élni, de romló állapota és a több évtizedes családi titkok mindent veszélybe sodornak, még a nyár vége előtt.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 212
-  },
-  {
-    "id": "tt8814476",
-    "type": "movie",
-    "name": "Supergirl",
-    "poster": "https://image.tmdb.org/t/p/w500/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Amikor egy galaktikus léptékben is könyörtelen ellenfél váratlanul csap le Kara Zor-El otthonának közelében, a sokak által Supergirlként ismert hősnő (Milly Alcock) – bár legszívesebben mással foglalkozna – kénytelen társakat gyűjteni maga mellé. A különc, össze nem illő csapat végül egy lélegzetelállító, a csillagokon átívelő kalandra indul, hogy igazságot szolgáltasson… és talán bosszút is álljon. Vagy éppen fordítva.",
-    "imdbRating": 6.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Akció",
-      "Kaland",
-      "Sci-Fi"
-    ],
-    "seeders": 99
-  },
-  {
-    "id": "tt37275992",
-    "type": "movie",
-    "name": "Kétség",
-    "poster": "https://image.tmdb.org/t/p/w500/kZBd6WJ5U20NJ0WsPm5YpVfHbgb.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A történet középpontjában Louise Andersen áll, aki nyugodt életet él párjával, Joachim­mal a norvégiai Hidra szigetén. Louise egy kis kávézót vezet, és úgy tűnik, semmi sem zavarhatja meg a békés mindennapjaikat. Egy nap azonban egy idegen bukkan fel, aki megdöbbentő állítással áll elő: szerinte Louise valójában Helene Söderberg, egy dán nő, aki három évvel korábban rejtélyes körülmények között eltűnt. Louise kezdetben természetesen nem tud mit kezdeni a férfi állításával, ám hamarosan olyan információk kerülnek napvilágra, amelyek alapjaiban rengetik meg mindazt, amit saját életéről tudni vélt. Kiderül, hogy nemcsak férjnél van, hanem egy fiatal fiú édesanyja is.",
-    "imdbRating": 6.3,
-    "releaseInfo": "2026",
+    "year": 2025,
+    "description": "A film József Attila pszichoanalízisét dolgozza fel,  azt az életszakaszát, amikor a költő, Gyömrői Edit pszichoanalitikus terápiáján vett részt.  József Attila műveiből merít ihletet, szorosan építkezve újságcikkeire, tanulmányaira, leveleire és verseire. Ennek eredményeként a költő szavai elevenednek meg a filmvásznon, hitelesen ábrázolva a korszakot és József Attila belső vívódásait.",
+    "imdbRating": null,
+    "releaseInfo": "2025",
     "genres": [
       "Dráma",
-      "Thriller",
-      "Rejtély"
+      "Romantikus"
     ],
-    "seeders": 173
+    "seeders": 136
   },
   {
     "id": "tt27550504",
@@ -471,21 +487,6 @@
       "Romantikus",
       "Bűnügyi"
     ],
-    "seeders": 45
-  },
-  {
-    "id": "tt37660486",
-    "type": "movie",
-    "name": "Made in EU",
-    "poster": "https://image.tmdb.org/t/p/w500/25YMkUSNzEjS42v3TWgCjF5ejoZ.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Egy bolgár kisváros varrodájában dolgozó nő lesz a város első Covid-esete, ami vádaskodások és társadalmi kirekesztés hullámát indítja el. A vírus terjedésével egyre nagyobb üldöztetésnek van kitéve munkaadói, munkatársai, családja és szomszédai részéről.  (Szarka Károly)",
-    "imdbRating": 6.9,
-    "releaseInfo": "2026",
-    "genres": [
-      "Dráma"
-    ],
-    "seeders": 81
+    "seeders": 53
   }
 ]
