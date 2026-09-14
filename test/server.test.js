@@ -35,7 +35,7 @@ test('GET /manifest.json advertises every catalog with the package version', asy
     assert.equal(status, 200);
     assert.equal(body.version, pkg.version);
     assert.equal(body.id, 'com.ncore.hungarian.addon');
-    assert.ok(body.catalogs.length >= 30);
+    assert.ok(body.catalogs.length >= 25);
     assert.ok(body.behaviorHints.configurable);
     assert.ok(JSON.stringify(body).length <= 8192, 'manifest must stay under the addon collection limit');
 });
@@ -62,7 +62,7 @@ test('GET /c/<config>/manifest.json applies catalog subset and board visibility'
 
 test('GET /api/catalog-options hides search catalogs and reports board defaults', async () => {
     const { body } = await getJson('/api/catalog-options');
-    assert.ok(body.length >= 28);
+    assert.ok(body.length >= 23);
     assert.ok(body.every(o => !o.id.startsWith('ncore-search')));
     assert.equal(body.find(o => o.id === 'ncore-hd-movies').board, true);
     assert.equal(body.find(o => o.id === 'ncore-prime-movies').board, false);

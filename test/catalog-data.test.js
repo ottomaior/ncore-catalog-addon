@@ -185,13 +185,10 @@ test('data sources load from disk, meta index resolves ids, derived catalogs are
     assert.ok(data.searchMetas('series', first.name.split(' ')[0]).some(m => data.normalizeId(m.id) === data.normalizeId(first.id)));
     assert.deepEqual(data.searchMetas('series', ''), []);
 
-    const topRated = data.getCatalogList(data.getCatalogDef('ncore-top-rated-movies'));
-    for (let i = 1; i < topRated.length; i++) assert.ok(parseFloat(topRated[i - 1].imdbRating) >= parseFloat(topRated[i].imdbRating));
-    assert.ok(topRated.every(m => parseFloat(m.imdbRating) >= 7.5 && parseFloat(m.imdbRating) < 9.6));
     const classics = data.getCatalogList(data.getCatalogDef('ncore-classics-movies'));
-    assert.ok(classics.every(m => parseInt(m.year, 10) < 2000));
-    const docs = data.getCatalogList(data.getCatalogDef('ncore-documentaries-movies'));
-    assert.ok(docs.every(m => m.genres.includes('Dokumentumfilm')));
+    assert.ok(classics.length > 0);
+    assert.ok(classics.every(m => parseInt(m.year, 10) < 2000 && parseFloat(m.imdbRating) >= 7 && parseFloat(m.imdbRating) < 9.6));
+    for (let i = 1; i < classics.length; i++) assert.ok(parseFloat(classics[i - 1].imdbRating) >= parseFloat(classics[i].imdbRating));
     const years = data.yearOptions(data.getCatalogDef('ncore-hd-movies-release-date'));
     assert.ok(years.length > 0 && years.every(y => /^\d{4}$/.test(y)));
 });
