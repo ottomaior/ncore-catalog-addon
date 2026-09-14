@@ -87,9 +87,6 @@ test('GET /catalog sends per-catalog cache headers and honours skip/genre', asyn
     assert.ok(all.body.metas.every(m => m.background));
     assert.ok(all.body.metas.every(m => m.latest_season === undefined && m.imdb_id === undefined), 'build-only fields are stripped');
 
-    const rated = await getJson('/catalog/movie/ncore-hd-movies/genre=Legjobbra%20%C3%A9rt%C3%A9kelt.json');
-    assert.ok(rated.body.metas.every(m => m.imdbRating >= 7.5));
-
     const year = await getJson('/catalog/movie/ncore-hd-movies-release-date/genre=2025.json');
     assert.ok(year.body.metas.every(m => parseInt(m.year, 10) === 2025));
 });

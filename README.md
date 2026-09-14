@@ -54,7 +54,7 @@ Top Seed, Netflix, HBO Max per type); everything else is one click away in Disco
 
 - **Genres** are normalized to one Hungarian vocabulary on load (TMDB English, adjective forms and TVDB combos such as
   "Action & Adventure" all map to the same labels), so the dropdown filter and the Discover sidebar agree.
-  The dropdown also offers two pseudo-filters: *Legjobbra értékelt* (IMDb ≥ 7.5, sorted) and *Idei*.
+  The dropdown also offers an *Idei* (current year) pseudo-filter.
   Small lists (streaming, Magyar, derived) offer only the pseudo-filters to keep the manifest under Stremio's 8 KB limit.
 - **Klasszikusok** (pre-2000, IMDb ≥ 7) is computed from the union of all movie data files, no extra pipeline.
 - **Series** names are served without the "(S03E02)" tag (it stays in the description and in the Episode Info addon);

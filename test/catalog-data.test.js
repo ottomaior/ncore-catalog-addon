@@ -45,7 +45,7 @@ test('manifest catalogs: names carry no type word, board flag drives isRequired,
             assert.deepEqual(genre.options, data.PSEUDO_FILTERS.map(p => p.label));
         } else {
             assert.ok(genre.options.includes('Vígjáték'));
-            assert.ok(genre.options.includes('Legjobbra értékelt'));
+            assert.ok(genre.options.includes(`Idei (${new Date().getFullYear()})`));
             if (c.type === 'series') assert.ok(!genre.options.includes('Horror'));
             else assert.ok(genre.options.includes('Horror'));
         }
@@ -86,7 +86,7 @@ test('resolveGenreFilter accepts Hungarian labels, English labels, slugs and pse
     assert.equal(data.resolveGenreSlug('Sci-fi'), 'science-fiction');
     assert.equal(data.resolveGenreSlug('Bűnügyi'), 'crime');
     assert.equal(data.resolveGenreSlug(''), null);
-    assert.deepEqual(data.resolveGenreFilter('Legjobbra értékelt'), { pseudo: 'top-rated' });
+    assert.deepEqual(data.resolveGenreFilter('Legjobbra értékelt'), { slug: 'legjobbra-értékelt' }); // no longer a pseudo-filter
     assert.deepEqual(data.resolveGenreFilter(`Idei (${new Date().getFullYear()})`), { pseudo: 'this-year' });
 });
 
@@ -109,12 +109,8 @@ test('filterMetasByGenre works on normalized metas and supports pseudo-filters',
     assert.deepEqual(ids('Sci-fi'), ['tt5']);
     assert.deepEqual(ids('Fantasy'), ['tt5']);
     assert.deepEqual(ids('Horror'), []);
-    assert.deepEqual(ids('Legjobbra értékelt'), ['tt1', 'tt2']);
     assert.deepEqual(ids('Idei'), ['tt2']);
     assert.equal(data.filterMetasByGenre(list, '').length, 7);
-    assert.equal(data.credibleTopRating({ imdbRating: 9.5 }), 9.5);
-    assert.equal(data.credibleTopRating({ imdbRating: '9.8' }), null);
-    assert.equal(data.credibleTopRating({ imdbRating: 7.4 }), null);
     assert.deepEqual(data.filterMetasByYear(list, '2020').map(m => m.id), ['tt1']);
 });
 
