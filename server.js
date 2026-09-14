@@ -132,19 +132,22 @@ app.get('/api/catalog-options', (req, res) => {
     }
 });
 
-// Dynamic manifest: ?catalogs=id1,id2,... returns manifest with only those catalogs
+// Legacy dynamic manifest: ?catalogs=id1,id2,... (new installs use /c/<config>/manifest.json)
 app.get('/manifest.json', (req, res, next) => {
     const catalogsParam = req.query.catalogs;
     if (catalogsParam && typeof catalogsParam === 'string') {
         const ids = catalogsParam.split(',').map(s => s.trim()).filter(Boolean);
-        if (ids.length > 0 && catalogBuilder.getManifestForCatalogs) {
-            const manifest = catalogBuilder.getManifestForCatalogs(ids);
+        if (ids.length > 0) {
             res.setHeader('Cache-Control', 'public, max-age=3600');
-            return res.json(manifest);
+            return res.json(catalogBuilder.getManifestForCatalogs(ids));
         }
     }
     next();
 });
+
+// Config in the URL path: /c/<base64url json>/manifest.json, /c/<cfg>/catalog/..., /c/<cfg>/meta/...
+app.use('/c/:config', catalogBuilder.createConfigRouter());
+app.get('/c/:config/configure', catalogPage);
 
 // Secured cron webhook: POST /cron/build with Authorization: Bearer <CRON_SECRET>
 // Used by external schedulers to trigger catalog build scripts (requires Python on the host).

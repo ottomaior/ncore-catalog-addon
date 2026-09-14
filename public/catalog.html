@@ -236,6 +236,13 @@
         .provider-toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 0.25rem 0; font-size: 0.8rem; color: var(--text-muted); }
         .section-separator { display: flex; align-items: center; gap: 0.75rem; margin: 0.75rem 0; font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
         .section-separator::before, .section-separator::after { content: ""; flex: 1; height: 1px; background: rgba(255,255,255,0.06); }
+        .toggle-right { display: inline-flex; align-items: center; gap: 0.5rem; }
+        .home-btn { background: none; border: 1px solid rgba(255,255,255,0.12); border-radius: 6px; padding: 0.1rem 0.35rem; cursor: pointer; font-size: 0.85rem; filter: grayscale(1); opacity: 0.45; transition: all 0.2s; }
+        .home-btn.on { filter: none; opacity: 1; border-color: var(--accent); background: rgba(139,92,246,0.15); }
+        .home-btn:hover { opacity: 1; }
+        .option-row { display: flex; align-items: center; gap: 0.75rem; margin: 0.75rem 0 0.25rem; font-size: 0.85rem; flex-wrap: wrap; }
+        .option-row input[type=text] { flex: 1; min-width: 180px; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: var(--text); border-radius: 8px; padding: 0.45rem 0.6rem; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; }
+        .option-row .hint { width: 100%; color: var(--text-muted); font-size: 0.75rem; }
     </style>
 </head>
 <body>
@@ -247,7 +254,7 @@
         </header>
         <div class="addon-card">
             <h2>Katalógusok kiválasztása <span class="tag">FILMEK + SOROZATOK</span></h2>
-            <p class="desc">Válaszd ki, mely katalógusok jelenjenek meg Stremioban. A sorrendet húzással módosíthatod. Ezután telepítsd az addont.</p>
+            <p class="desc">Válaszd ki, mely katalógusok jelenjenek meg Stremioban, és melyek a főoldalon. A sorrendet húzással módosíthatod. Ezután telepítsd az addont.</p>
             <details class="catalog-config" open>
                 <summary>Katalógusok kiválasztása (telepítés előtt)</summary>
                 <div class="catalog-presets">
@@ -258,7 +265,13 @@
                     <button type="button" class="btn btn-secondary" onclick="setPreset('latest')">Csak legfrissebb</button>
                 </div>
                 <p class="catalog-count" id="catalog-count">Betöltés...</p>
+                <p class="desc" style="font-size:0.8rem">🏠 = megjelenik a Stremio főoldalán; a kikapcsoltak csak a Felfedezés (Discover) oldalon érhetők el. Kevesebb főoldali sor = gyorsabb indulás.</p>
                 <div id="catalog-panels">Betöltés...</div>
+                <div class="option-row">
+                    <label for="rpdb-key">RPDB poszterek</label>
+                    <input type="text" id="rpdb-key" placeholder="RatingPosterDB API kulcs (opcionális)" oninput="updateCatalogUrl()" autocomplete="off" spellcheck="false">
+                    <span class="hint">Értékeléssel ellátott poszterek a <a href="https://ratingposterdb.com/" target="_blank" rel="noopener" style="color:var(--accent-light)">ratingposterdb.com</a> kulcsával. Ingyenes kulcs: <code>t0-free-rpdb</code>.</span>
+                </div>
             </details>
             <div class="btn-row">
                 <a class="btn btn-primary" href="#" data-stremio="catalog" onclick="installAddon(event, 'catalog')">Telepítés Stremioval</a>
@@ -279,29 +292,16 @@
         const protocol = window.location.protocol;
         const host = window.location.host;
         const baseUrl = `${protocol}//${host}`;
-        let catalogOptions = [];
+        let catalogOptions = [];   // [{id, name, type, board}] in current order (from server, reordered by drag)
+        let homeState = {};        // id -> shown on Board
         const CATEGORIES = [
-            { key: 'topseed', icon: '🏆', iconClass: 'topseed', title: 'Top Seed', subtitle: 'Legtöbb seederrel rendelkező tartalmak', items: [
-                { id: 'ncore-movies-top-seeded-all', icon: '🎬', label: 'Filmek' },
-                { id: 'ncore-series-top-seeded-all', icon: '📺', label: 'Sorozatok' },
-                { id: 'ncore-movies-top-seeded-magyar-filmek', icon: '🎬', label: '🏆🇭🇺 Magyar filmek' },
-                { id: 'ncore-series-top-seeded-magyar-sorozatok', icon: '📺', label: '🏆🇭🇺 Magyar sorozatok' }
-            ]},
-            { key: 'topdownloaded', icon: '📥', iconClass: 'topseed', title: 'Legtöbbet letöltött', subtitle: '', items: [
-                { id: 'ncore-top-downloaded-1080-movies', icon: '🎬', label: 'Filmek' },
-                { id: 'ncore-top-downloaded-1080-series', icon: '📺', label: 'Sorozatok' },
-                { id: 'ncore-top-downloaded-1080-magyar-filmek', icon: '🎬', label: '🏆🇭🇺 Magyar filmek' },
-                { id: 'ncore-top-downloaded-1080-magyar-sorozatok', icon: '📺', label: '🏆🇭🇺 Magyar sorozatok' }
-            ]},
-            { key: 'trending', icon: '🔥', iconClass: 'latest', title: 'Trendi', subtitle: 'Legtöbb seed az utolsó 200 feltöltésből (1080p)', items: [
-                { id: 'ncore-trending-movies', icon: '🎬', label: 'Filmek' },
-                { id: 'ncore-trending-series', icon: '📺', label: 'Sorozatok' }
-            ]},
             { key: 'latest', icon: '🆕', iconClass: 'latest', title: 'Legfrissebb', subtitle: 'Legutóbb feltöltött tartalmak', items: [
-                { id: 'ncore-hd-movies', icon: '🎬', label: 'Filmek' },
-                { id: 'ncore-hd-series', icon: '📺', label: 'Sorozatok' },
-                { id: 'ncore-hd-movies-release-date', icon: '🎬', label: 'Filmek (év szerint)' },
-                { id: 'ncore-hd-series-release-date', icon: '📺', label: 'Sorozatok (év szerint)' }
+                { id: 'ncore-hd-movies', icon: '🎬', label: 'Legfrissebb filmek' },
+                { id: 'ncore-hd-series', icon: '📺', label: 'Legfrissebb sorozatok' },
+                { id: 'ncore-trending-movies', icon: '🎬', label: 'Felkapott filmek' },
+                { id: 'ncore-trending-series', icon: '📺', label: 'Felkapott sorozatok' },
+                { id: 'ncore-hd-movies-release-date', icon: '🎬', label: 'Filmek megjelenés éve szerint' },
+                { id: 'ncore-hd-series-release-date', icon: '📺', label: 'Sorozatok megjelenés éve szerint' }
             ], providers: [
                 { key: 'netflix', name: 'Netflix', logoClass: 'netflix', logoText: 'N', items: [
                     { id: 'ncore-netflix-movies', icon: '🎬', label: 'Filmek' },
@@ -319,26 +319,118 @@
                     { id: 'ncore-prime-movies', icon: '🎬', label: 'Filmek' },
                     { id: 'ncore-prime-series', icon: '📺', label: 'Sorozatok' }
                 ]}
+            ]},
+            { key: 'topseed', icon: '🏆', iconClass: 'topseed', title: 'Top Seed', subtitle: 'Legtöbb seederrel rendelkező tartalmak', items: [
+                { id: 'ncore-movies-top-seeded-all', icon: '🎬', label: 'Top Seed filmek' },
+                { id: 'ncore-series-top-seeded-all', icon: '📺', label: 'Top Seed sorozatok' },
+                { id: 'ncore-movies-top-seeded-magyar-filmek', icon: '🎬', label: '🇭🇺 Magyar filmek' },
+                { id: 'ncore-series-top-seeded-magyar-sorozatok', icon: '📺', label: '🇭🇺 Magyar sorozatok' }
+            ]},
+            { key: 'topdownloaded', icon: '📥', iconClass: 'topseed', title: 'Legtöbbet letöltött', subtitle: '', items: [
+                { id: 'ncore-top-downloaded-1080-movies', icon: '🎬', label: 'Filmek' },
+                { id: 'ncore-top-downloaded-1080-series', icon: '📺', label: 'Sorozatok' },
+                { id: 'ncore-top-downloaded-1080-magyar-filmek', icon: '🎬', label: '🇭🇺 Magyar filmek' },
+                { id: 'ncore-top-downloaded-1080-magyar-sorozatok', icon: '📺', label: '🇭🇺 Magyar sorozatok' }
+            ]},
+            { key: 'curated', icon: '⭐', iconClass: 'latest', title: 'Válogatások', subtitle: 'Értékelés, műfaj és kor szerinti listák', items: [
+                { id: 'ncore-top-rated-movies', icon: '🎬', label: 'Legjobbra értékelt filmek' },
+                { id: 'ncore-top-rated-series', icon: '📺', label: 'Legjobbra értékelt sorozatok' },
+                { id: 'ncore-documentaries-movies', icon: '🎬', label: 'Dokumentumfilmek' },
+                { id: 'ncore-classics-movies', icon: '🎬', label: 'Klasszikusok (2000 előtt)' },
+                { id: 'ncore-family-movies', icon: '🎬', label: 'Családi filmek' },
+                { id: 'ncore-family-series', icon: '📺', label: 'Családi sorozatok' }
             ]}
         ];
+        const PRESETS = {
+            latest: ['ncore-hd-movies', 'ncore-hd-series', 'ncore-trending-movies', 'ncore-trending-series', 'ncore-netflix-movies', 'ncore-netflix-series', 'ncore-disneyplus-movies', 'ncore-disneyplus-series', 'ncore-hbomax-movies', 'ncore-hbomax-series', 'ncore-prime-movies', 'ncore-prime-series', 'ncore-hd-movies-release-date', 'ncore-hd-series-release-date'],
+            topseed: ['ncore-movies-top-seeded-all', 'ncore-series-top-seeded-all', 'ncore-movies-top-seeded-magyar-filmek', 'ncore-series-top-seeded-magyar-sorozatok'],
+            topdownloaded: ['ncore-top-downloaded-1080-movies', 'ncore-top-downloaded-1080-series', 'ncore-top-downloaded-1080-magyar-filmek', 'ncore-top-downloaded-1080-magyar-sorozatok']
+        };
+
+        // --- config token (mirrors lib/addon-config.js) ---
+        function b64urlEncode(str) {
+            return btoa(unescape(encodeURIComponent(str))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+        }
+        function b64urlDecode(str) {
+            try { return decodeURIComponent(escape(atob(str.replace(/-/g, '+').replace(/_/g, '/')))); } catch (e) { return null; }
+        }
+        const ID_PREFIX = 'ncore-';
+        const shortId = id => id.startsWith(ID_PREFIX) ? id.slice(ID_PREFIX.length) : id;
+        const longId = id => id.startsWith(ID_PREFIX) ? id : ID_PREFIX + id;
+        function configFromUrl() {
+            const m = /^\/c\/([A-Za-z0-9_-]+)\//.exec(window.location.pathname);
+            if (!m) return null;
+            try {
+                const raw = JSON.parse(b64urlDecode(m[1]) || 'null');
+                if (!raw || typeof raw !== 'object') return null;
+                ['x', 'o', 'hp', 'hm', 'c', 'home'].forEach(k => { if (Array.isArray(raw[k])) raw[k] = raw[k].map(longId); });
+                return raw;
+            } catch (e) { return null; }
+        }
+        // Resolve raw token fields against the server defaults (mirrors lib/addon-config.js resolveConfig).
+        function resolveRaw(raw, opts) {
+            const defaultsOrder = opts.map(o => o.id);
+            const known = new Set(defaultsOrder);
+            const defaultHome = new Set(opts.filter(o => o.board).map(o => o.id));
+            let enabled;
+            if (raw.c) enabled = raw.c.filter(id => known.has(id));
+            else {
+                const excluded = new Set(raw.x || []);
+                enabled = (raw.o ? raw.o.filter(id => known.has(id)) : defaultsOrder).filter(id => !excluded.has(id));
+                if (raw.o) defaultsOrder.forEach(id => { if (!excluded.has(id) && !enabled.includes(id)) enabled.push(id); });
+            }
+            if (enabled.length === 0) enabled = defaultsOrder.slice();
+            let home;
+            if (raw.home) home = new Set(raw.home);
+            else {
+                home = new Set(defaultHome);
+                (raw.hp || []).forEach(id => home.add(id));
+                (raw.hm || []).forEach(id => home.delete(id));
+            }
+            return { enabled, home, rpdb: raw.rpdb || '' };
+        }
+
         function getEnabledIds() {
             return catalogOptions.filter(o => document.getElementById('cat-' + o.id)?.checked).map(o => o.id);
         }
-        function getCatalogInstallUrl() {
+        function rpdbKey() {
+            return document.getElementById('rpdb-key').value.trim();
+        }
+        // Token = differences from defaults only (mirrors lib/addon-config.js encodeConfig).
+        function buildRawConfig() {
+            const defaultsOrder = defaultOrder;
+            const defaultHome = new Set(catalogOptions.filter(o => o.board).map(o => o.id));
             const enabled = getEnabledIds();
-            const orderedIds = catalogOptions.map(c => c.id);
-            if (enabled.length === catalogOptions.length) return baseUrl + '/manifest.json';
-            const orderedEnabled = orderedIds.filter(id => enabled.includes(id));
-            if (orderedEnabled.length === 0) return baseUrl + '/manifest.json';
-            return baseUrl + '/manifest.json?catalogs=' + encodeURIComponent(orderedEnabled.join(','));
+            const enabledSet = new Set(enabled);
+            const raw = {};
+            const excluded = defaultsOrder.filter(id => !enabledSet.has(id));
+            if (excluded.length) raw.x = excluded.map(shortId);
+            const defaultEnabledOrder = defaultsOrder.filter(id => enabledSet.has(id));
+            if (enabled.join(',') !== defaultEnabledOrder.join(',')) raw.o = enabled.map(shortId);
+            const hp = enabled.filter(id => homeState[id] && !defaultHome.has(id));
+            const hm = enabled.filter(id => !homeState[id] && defaultHome.has(id));
+            if (hp.length) raw.hp = hp.map(shortId);
+            if (hm.length) raw.hm = hm.map(shortId);
+            if (rpdbKey()) raw.rpdb = rpdbKey();
+            return raw;
+        }
+        function getCatalogInstallUrl() {
+            if (catalogOptions.length === 0) return baseUrl + '/manifest.json';
+            const raw = buildRawConfig();
+            if (Object.keys(raw).length === 0) return baseUrl + '/manifest.json';
+            return baseUrl + '/c/' + b64urlEncode(JSON.stringify(raw)) + '/manifest.json';
+        }
+        function getHomeIds() {
+            return catalogOptions.filter(o => homeState[o.id]).map(o => o.id);
         }
         function updateCount() {
             const enabled = getEnabledIds().length;
             const total = catalogOptions.length;
+            const home = getHomeIds().filter(id => document.getElementById('cat-' + id)?.checked).length;
             const el = document.getElementById('catalog-count');
             if (total === 0) el.textContent = '';
-            else if (enabled === total) el.innerHTML = '<strong>Mind a ' + total + ' katalógus</strong> kiválasztva.';
-            else el.innerHTML = '<strong>' + enabled + '</strong> / ' + total + ' katalógus kiválasztva.';
+            else if (enabled === total) el.innerHTML = '<strong>Mind a ' + total + ' katalógus</strong> kiválasztva, ebből <strong>' + home + '</strong> a főoldalon.';
+            else el.innerHTML = '<strong>' + enabled + '</strong> / ' + total + ' katalógus kiválasztva, ebből <strong>' + home + '</strong> a főoldalon.';
         }
         function updateCatalogUrl() {
             document.getElementById('catalog-url').textContent = getCatalogInstallUrl();
@@ -346,15 +438,10 @@
         }
         function setPreset(preset) {
             const allIds = catalogOptions.map(c => c.id);
-            const latestIds = ['ncore-hd-movies', 'ncore-hd-series', 'ncore-netflix-movies', 'ncore-netflix-series', 'ncore-disneyplus-movies', 'ncore-disneyplus-series', 'ncore-hbomax-movies', 'ncore-hbomax-series', 'ncore-prime-movies', 'ncore-prime-series', 'ncore-hd-movies-release-date', 'ncore-hd-series-release-date'];
-            const topseedIds = ['ncore-movies-top-seeded-all', 'ncore-series-top-seeded-all', 'ncore-movies-top-seeded-magyar-filmek', 'ncore-series-top-seeded-magyar-sorozatok'];
-            const topdownloadedIds = ['ncore-top-downloaded-1080-movies', 'ncore-top-downloaded-1080-series', 'ncore-top-downloaded-1080-magyar-filmek', 'ncore-top-downloaded-1080-magyar-sorozatok'];
             let toCheck = [];
             if (preset === 'all') toCheck = allIds;
             else if (preset === 'none') toCheck = [];
-            else if (preset === 'latest') toCheck = latestIds;
-            else if (preset === 'topseed') toCheck = topseedIds;
-            else if (preset === 'topdownloaded') toCheck = topdownloadedIds;
+            else toCheck = PRESETS[preset] || [];
             catalogOptions.forEach(c => {
                 const cb = document.getElementById('cat-' + c.id);
                 if (cb) cb.checked = toCheck.includes(c.id);
@@ -372,6 +459,15 @@
                 const cb = document.getElementById('cat-' + item.id);
                 if (cb) cb.checked = checked;
             }));
+            updateCatalogUrl();
+        }
+        function homeTitle(on) {
+            return on ? 'Megjelenik a főoldalon (kattints: csak Felfedezés)' : 'Csak a Felfedezés oldalon (kattints: főoldalon is)';
+        }
+        function toggleHome(id, btn) {
+            homeState[id] = !homeState[id];
+            btn.classList.toggle('on', homeState[id]);
+            btn.title = homeTitle(homeState[id]);
             updateCatalogUrl();
         }
         function toggleCategory(catKey) {
@@ -428,11 +524,7 @@
                 const cat = CATEGORIES.find(c => c.key === catKey);
                 if (!cat) return [];
                 let ids = (cat.items || []).map(i => i.id);
-                if (cat.providers) {
-                    cat.providers.forEach(p => {
-                        (p.items || []).forEach(i => ids.push(i.id));
-                    });
-                }
+                if (cat.providers) cat.providers.forEach(p => (p.items || []).forEach(i => ids.push(i.id)));
                 return ids;
             }
 
@@ -440,14 +532,11 @@
                 const draggedIds = getCategoryCatalogIds(fromKey);
                 const targetIds = getCategoryCatalogIds(toKey);
                 if (draggedIds.length === 0 || targetIds.length === 0) return;
-
                 const draggedEntries = catalogOptions.filter(o => draggedIds.includes(o.id));
                 let remaining = catalogOptions.filter(o => !draggedIds.includes(o.id));
-
                 const insertAt = remaining.findIndex(o => targetIds.includes(o.id));
                 if (insertAt === -1) remaining = remaining.concat(draggedEntries);
                 else remaining.splice(insertAt, 0, ...draggedEntries);
-
                 catalogOptions = remaining;
                 updateCatalogUrl();
             }
@@ -458,28 +547,19 @@
                     e.preventDefault();
                     panel.classList.add('category-drag-over');
                 });
-                panel.addEventListener('dragleave', () => {
-                    panel.classList.remove('category-drag-over');
-                });
+                panel.addEventListener('dragleave', () => panel.classList.remove('category-drag-over'));
                 panel.addEventListener('drop', (e) => {
                     e.preventDefault();
                     if (!draggedCategoryKey) return;
-
                     const toKey = panel.dataset.categoryKey;
                     const fromKey = draggedCategoryKey;
                     panel.classList.remove('category-drag-over');
                     draggedCategoryKey = null;
-
                     if (!toKey || fromKey === toKey) return;
-
                     reorderByCategory(fromKey, toKey);
-
                     const draggedPanelEl = document.getElementById('panel-' + fromKey);
                     const targetPanelEl = document.getElementById('panel-' + toKey);
-                    if (draggedPanelEl && targetPanelEl) {
-                        panelsContainer.insertBefore(draggedPanelEl, targetPanelEl);
-                    }
-
+                    if (draggedPanelEl && targetPanelEl) panelsContainer.insertBefore(draggedPanelEl, targetPanelEl);
                     return false;
                 });
             });
@@ -498,16 +578,26 @@
                 });
             });
         }
+        function homeButton(id) {
+            const on = !!homeState[id];
+            return '<button type="button" class="home-btn' + (on ? ' on' : '') + '" title="' + homeTitle(on) + '" onclick="event.stopPropagation();toggleHome(\'' + id + '\', this)">🏠</button>';
+        }
+        function isEnabled(id) {
+            return !initialEnabled || initialEnabled.includes(id);
+        }
+        function checkbox(id) {
+            return '<label class="toggle-switch" onclick="event.stopPropagation()"><input type="checkbox" id="cat-' + id + '"' + (isEnabled(id) ? ' checked' : '') + ' onchange="updateCatalogUrl()"><span class="toggle-slider"></span></label>';
+        }
         function renderToggleRow(item) {
             return '<div class="toggle-row" draggable="true" data-catalog-id="' + item.id + '">' +
                 '<div class="toggle-left"><span class="drag-handle">⋮⋮</span><span class="item-icon">' + item.icon + '</span><span>' + item.label + '</span></div>' +
-                '<label class="toggle-switch" onclick="event.stopPropagation()"><input type="checkbox" id="cat-' + item.id + '" checked onchange="updateCatalogUrl()"><span class="toggle-slider"></span></label>' +
+                '<div class="toggle-right">' + homeButton(item.id) + checkbox(item.id) + '</div>' +
             '</div>';
         }
         function renderProviderCard(provider) {
             const toggles = provider.items.map(item =>
                 '<div class="provider-toggle-row"><span>' + item.icon + ' ' + item.label + '</span>' +
-                '<label class="toggle-switch" onclick="event.stopPropagation()"><input type="checkbox" id="cat-' + item.id + '" checked onchange="updateCatalogUrl()"><span class="toggle-slider"></span></label></div>'
+                '<span class="toggle-right">' + homeButton(item.id) + checkbox(item.id) + '</span></div>'
             ).join('');
             return '<div class="provider-card"><div class="provider-card-header"><span class="provider-logo ' + provider.logoClass + '">' + provider.logoText + '</span><span class="provider-name">' + provider.name + '</span></div>' + toggles + '</div>';
         }
@@ -535,10 +625,23 @@
                     '</div>' + rows + providerSection +
                 '</div></div>';
         }
+        let defaultOrder = [];
+        let initialEnabled = null;
+        const urlConfig = configFromUrl();
         fetch('/api/catalog-options')
             .then(r => r.json())
             .then(opts => {
+                defaultOrder = opts.map(o => o.id);
                 catalogOptions = opts;
+                opts.forEach(o => { homeState[o.id] = !!o.board; });
+                if (urlConfig) {
+                    const resolved = resolveRaw(urlConfig, opts);
+                    initialEnabled = resolved.enabled;
+                    const rest = opts.filter(o => !resolved.enabled.includes(o.id));
+                    catalogOptions = resolved.enabled.map(id => opts.find(o => o.id === id)).filter(Boolean).concat(rest);
+                    opts.forEach(o => { homeState[o.id] = resolved.home.has(o.id); });
+                    if (resolved.rpdb) document.getElementById('rpdb-key').value = resolved.rpdb;
+                }
                 document.getElementById('catalog-panels').innerHTML = CATEGORIES.map(renderCategory).join('');
                 initDragAndDrop();
                 initCategoryDragAndDrop();

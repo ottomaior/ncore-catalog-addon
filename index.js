@@ -1,24 +1,28 @@
 const { addonBuilder } = require('stremio-addon-sdk');
+const express = require('express');
 const axios = require('axios');
 const path = require('path');
+const querystring = require('querystring');
 require('dotenv').config({ path: path.join(__dirname, 'config', 'config.env'), quiet: true });
 
 const pkg = require('./package.json');
 const data = require('./lib/catalog-data');
+const addonConfig = require('./lib/addon-config');
 
 // TMDB API configuration
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 
-// HTTP cache hints (seconds) sent with responses; stremio-addon-sdk turns them into Cache-Control.
-const CATALOG_CACHE_MAX_AGE = 60 * 60;          // 1 h – data files change every 3–6 h
-const CATALOG_STALE_REVALIDATE = 6 * 60 * 60;   // serve stale for up to 6 h while revalidating
-const CATALOG_STALE_ERROR = 24 * 60 * 60;       // serve stale for a day if the server errors
-const META_CACHE_MAX_AGE = 6 * 60 * 60;         // 6 h
-const SEARCH_CACHE_MAX_AGE = 15 * 60;           // 15 min
-
+const META_CACHE = { cacheMaxAge: 6 * 60 * 60, staleRevalidate: 24 * 60 * 60, staleError: 7 * 24 * 60 * 60 };
 const CATALOG_PAGE_SIZE = 100;
 const SEARCH_LIMIT = 50;
+
+/** Public base URL of this deployment (for Discover deep links). */
+function getBaseUrl() {
+    if (process.env.BASE_URL) return process.env.BASE_URL.replace(/\/$/, '');
+    if (process.env.RAILWAY_PUBLIC_DOMAIN) return `https://${process.env.RAILWAY_PUBLIC_DOMAIN}`;
+    return `http://localhost:${process.env.PORT || 7000}`;
+}
 
 // ---------------------------------------------------------------------------
 // Small in-memory TTL cache (used for TMDB lookups)
@@ -40,16 +44,15 @@ class TtlCache {
     }
     set(key, value) {
         if (this.map.size >= this.maxEntries) {
-            // Drop the oldest entry (Map preserves insertion order).
-            const oldest = this.map.keys().next().value;
+            const oldest = this.map.keys().next().value; // Map preserves insertion order
             if (oldest !== undefined) this.map.delete(oldest);
         }
         this.map.set(key, { value, at: Date.now() });
     }
 }
 
-const BACKDROP_CACHE = new TtlCache(24 * 60 * 60 * 1000);       // imdbId:type -> url | null
-const SERIES_VIDEOS_CACHE = new TtlCache(24 * 60 * 60 * 1000);  // imdbId -> videos[] | null
+const BACKDROP_CACHE = new TtlCache(24 * 60 * 60 * 1000);      // imdbId:type -> url | null
+const SERIES_TMDB_CACHE = new TtlCache(24 * 60 * 60 * 1000);   // imdbId -> { videos, releaseInfo } | null
 
 // ---------------------------------------------------------------------------
 // TMDB helpers
@@ -88,25 +91,35 @@ async function getBackdropFromTMDB(imdbId, type = 'movie') {
             if (best && best.file_path) url = `https://image.tmdb.org/t/p/w1280${best.file_path}`;
         }
     } catch (err) {
-        // fall through with null (cached briefly below so a flaky TMDB doesn't hammer us)
+        // cache the miss too, so a flaky TMDB doesn't get hammered
     }
     BACKDROP_CACHE.set(cacheKey, url);
     return url;
 }
 
-/** Episode list (videos) for a series from TMDB so Stremio shows the season/episode picker. */
-async function getSeriesVideosFromTMDB(imdbId) {
+/** "2019-" for a running show, "2019-2023" for an ended one (Stremio's releaseInfo convention). */
+function seriesReleaseInfo(tv) {
+    const first = (tv.first_air_date || '').slice(0, 4);
+    if (!/^\d{4}$/.test(first)) return undefined;
+    const ended = /ended|canceled|cancelled/i.test(tv.status || '');
+    const last = (tv.last_air_date || '').slice(0, 4);
+    if (ended && /^\d{4}$/.test(last)) return last === first ? first : `${first}-${last}`;
+    return `${first}-`;
+}
+
+/** Episode list (videos) + releaseInfo for a series from TMDB (cached). */
+async function getSeriesFromTMDB(imdbId) {
     if (!TMDB_API_KEY || !imdbId) return null;
     const idNorm = String(imdbId).trim();
-    const cached = SERIES_VIDEOS_CACHE.get(idNorm);
+    const cached = SERIES_TMDB_CACHE.get(idNorm);
     if (cached !== undefined) return cached;
-    let videos = null;
+    let result = null;
     try {
         const tmdbId = await findTmdbId(idNorm, 'tv');
         if (tmdbId) {
             const tv = await tmdbGet(`/tv/${tmdbId}`, { language: 'hu-HU' });
             const numSeasons = Math.max(0, parseInt(tv.number_of_seasons, 10) || 0);
-            videos = [];
+            const videos = [];
             for (let s = 1; s <= numSeasons; s++) {
                 const season = await tmdbGet(`/tv/${tmdbId}/season/${s}`, { language: 'hu-HU' });
                 for (const ep of season.episodes || []) {
@@ -121,12 +134,13 @@ async function getSeriesVideosFromTMDB(imdbId) {
                     });
                 }
             }
+            result = { videos, releaseInfo: seriesReleaseInfo(tv) };
         }
     } catch (err) {
-        videos = null;
+        result = null;
     }
-    SERIES_VIDEOS_CACHE.set(idNorm, videos);
-    return videos;
+    SERIES_TMDB_CACHE.set(idNorm, result);
+    return result;
 }
 
 // ---------------------------------------------------------------------------
@@ -136,7 +150,7 @@ const manifest = {
     id: 'com.ncore.hungarian.addon',
     version: pkg.version,
     name: 'nCore Katalógus',
-    description: 'Magyar nyelvű filmek és sorozatok nCore-ról – katalógusok: Top Seed, Top letöltés, Trending, Legfrissebb, Streaming, keresés.',
+    description: 'Magyar filmek és sorozatok nCore-ról: Legfrissebb, Felkapott, Top Seed, streaming, keresés.',
     logo: 'https://ncore-catalog-addon-production.up.railway.app/logo.png',
     resources: [
         'catalog',
@@ -147,6 +161,30 @@ const manifest = {
     idPrefixes: ['tt'],
     behaviorHints: { configurable: true }
 };
+
+/** Resolve raw token fields (or a legacy ?catalogs= list) against the registry defaults. */
+function resolveConfig(raw) {
+    return addonConfig.resolveConfig(raw, data.getCatalogOptions());
+}
+
+/** Manifest for a resolved user config (catalog subset/order, board visibility). */
+function manifestForConfig(cfg) {
+    if (!cfg || cfg.isDefault) return manifest;
+    const catalogs = data.buildManifestCatalogs(cfg.home);
+    const byId = new Map(catalogs.map(c => [c.id, c]));
+    const chosen = cfg.enabled.map(id => byId.get(id)).filter(Boolean);
+    // Search catalogs are always kept so Stremio search keeps working.
+    for (const c of catalogs) {
+        const def = data.getCatalogDef(c.id);
+        if (def && def.search) chosen.push(c);
+    }
+    return { ...manifest, catalogs: chosen };
+}
+
+/** Legacy: manifest with only the given catalog ids (?catalogs=a,b,c). */
+function getManifestForCatalogs(enabledIds) {
+    return manifestForConfig(resolveConfig(addonConfig.configFromCatalogsParam((enabledIds || []).join(','))));
+}
 
 const builder = new addonBuilder(manifest);
 
@@ -185,68 +223,85 @@ function ensureBackground(meta) {
     return { ...meta, background: `https://images.metahub.space/background/medium/${id}/img` };
 }
 
-function catalogMetas(list, skip = 0, limit = CATALOG_PAGE_SIZE) {
-    return list.slice(skip, skip + limit).map(m => ensureBackground(withCoercedImdbRating(m)));
+/** Strip build-time-only fields Stremio has no use for. */
+function publicMeta(meta) {
+    const { latest_season: _s, latest_episode: _e, imdb_id: _i, downloads: _d, ...rest } = meta;
+    return rest;
+}
+
+function applyPoster(meta, cfg) {
+    const url = cfg && cfg.rpdb ? addonConfig.rpdbPosterUrl(cfg.rpdb, meta.id) : null;
+    return url ? { ...meta, poster: url } : meta;
+}
+
+function catalogMetas(list, skip, limit, cfg) {
+    return list.slice(skip, skip + limit).map(m => applyPoster(ensureBackground(withCoercedImdbRating(publicMeta(m))), cfg));
+}
+
+/** Discover deep links (genres) + IMDb link, as the TMDB addon does. */
+function buildLinks(meta, type) {
+    const links = [];
+    const manifestUrl = encodeURIComponent(`${getBaseUrl()}/manifest.json`);
+    const catalogId = data.genreLinkCatalogId(type);
+    for (const g of meta.genres || []) {
+        links.push({ name: g, category: 'Genres', url: `stremio:///discover/${manifestUrl}/${type}/${catalogId}?genre=${encodeURIComponent(g)}` });
+    }
+    const id = String(meta.id || '').split(':')[0];
+    if (/^tt\d+$/.test(id)) {
+        const rating = coerceImdbRatingValue(meta.imdbRating);
+        links.push({ name: rating != null ? String(rating) : 'IMDb', category: 'imdb', url: `https://imdb.com/title/${id}` });
+    }
+    return links;
 }
 
 // ---------------------------------------------------------------------------
-// Catalog handler
+// Catalog + meta logic (shared by the SDK handlers and the /c/:config routes)
 // ---------------------------------------------------------------------------
-builder.defineCatalogHandler(async (args) => {
-    console.log(`Katalógus kérés: ${args.type}/${args.id}`);
-    const def = data.getCatalogDef(args.id);
-    if (!def || def.type !== args.type) return { metas: [] };
+function buildCatalogResponse(type, id, extra = {}, cfg = null) {
+    const def = data.getCatalogDef(id);
+    if (!def || def.type !== type) return { metas: [] };
+    const cache = data.CACHE_PROFILES[def.cache] || data.CACHE_PROFILES.derived;
 
     if (def.search) {
-        const query = args.extra && args.extra.search;
-        const metas = catalogMetas(data.searchMetas(def.type, query, SEARCH_LIMIT), 0, SEARCH_LIMIT);
-        return { metas, cacheMaxAge: SEARCH_CACHE_MAX_AGE };
+        const metas = catalogMetas(data.searchMetas(def.type, extra.search, SEARCH_LIMIT), 0, SEARCH_LIMIT, cfg);
+        return { metas, ...cache };
     }
 
     let list = data.getCatalogList(def);
-    if (def.genre && args.extra && args.extra.genre) list = data.filterMetasByGenre(list, args.extra.genre);
-    const skip = parseInt(args.extra && args.extra.skip, 10) || 0;
-    return {
-        metas: catalogMetas(list, skip, CATALOG_PAGE_SIZE),
-        cacheMaxAge: CATALOG_CACHE_MAX_AGE,
-        staleRevalidate: CATALOG_STALE_REVALIDATE,
-        staleError: CATALOG_STALE_ERROR
-    };
-});
+    if (extra.genre) {
+        list = def.filter === 'year' ? data.filterMetasByYear(list, extra.genre) : data.filterMetasByGenre(list, extra.genre);
+    }
+    const skip = parseInt(extra.skip, 10) || 0;
+    return { metas: catalogMetas(list, skip, CATALOG_PAGE_SIZE, cfg), ...cache };
+}
 
-// ---------------------------------------------------------------------------
-// Meta handler (all catalogs, so the detail view keeps our Hungarian metadata)
-// ---------------------------------------------------------------------------
-builder.defineMetaHandler(async (args) => {
-    const requestId = args.id && String(args.id).trim();
-    console.log(`Meta kérés: ${args.type}/${requestId}`);
+async function buildMetaResponse(type, requestId, cfg = null) {
+    requestId = requestId && String(requestId).trim();
     if (!requestId) return { meta: null };
-
     try {
-        // Ids can be tt12345 or tt12345:1:1; look up by the series/movie part.
-        const idForLookup = requestId.split(':')[0];
-        const found = data.findMetaById(args.type, idForLookup);
+        const idForLookup = requestId.split(':')[0]; // tt12345 or tt12345:1:1
+        const found = data.findMetaById(type, idForLookup);
         if (!found) {
-            console.log(`Meta nem található katalógusban: ${args.type}/${requestId}`);
+            console.log(`Meta nem található katalógusban: ${type}/${requestId}`);
             return { meta: null, cacheMaxAge: 60 * 60 };
         }
 
-        if (args.type === 'movie') {
-            let meta = withCoercedImdbRating({ ...found, id: requestId });
+        if (type === 'movie') {
+            let meta = withCoercedImdbRating({ ...publicMeta(found), id: requestId });
             const tmdbBackdrop = await getBackdropFromTMDB(idForLookup, 'movie');
             meta = tmdbBackdrop ? { ...meta, background: tmdbBackdrop } : ensureBackground(meta);
-            return { meta, cacheMaxAge: META_CACHE_MAX_AGE };
+            meta.links = buildLinks(meta, 'movie');
+            return { meta: applyPoster(meta, cfg), ...META_CACHE };
         }
 
         const sid = found.id || found.imdb_id;
-        if (!sid) {
-            console.log(`Series meta: nincs id, kihagyva: ${requestId}`);
-            return { meta: null };
-        }
-        const [tmdbBackdrop, tmdbVideos] = await Promise.all([
+        if (!sid) return { meta: null };
+        const [tmdbBackdrop, tmdb] = await Promise.all([
             getBackdropFromTMDB(idForLookup, 'series'),
-            (found.videos && found.videos.length) ? Promise.resolve(found.videos) : getSeriesVideosFromTMDB(sid)
+            getSeriesFromTMDB(sid)
         ]);
+        const ownVideos = Array.isArray(found.videos) && found.videos.length ? found.videos : null;
+        const videos = ownVideos || (tmdb && tmdb.videos) || [];
         const meta = {
             id: requestId,
             type: 'series',
@@ -256,18 +311,68 @@ builder.defineMetaHandler(async (args) => {
             year: found.year,
             description: found.description || '',
             imdbRating: coerceImdbRatingValue(found.imdbRating),
-            releaseInfo: found.releaseInfo,
+            releaseInfo: (tmdb && tmdb.releaseInfo) || found.releaseInfo,
             genres: Array.isArray(found.genres) ? found.genres : [],
             background: tmdbBackdrop || ensureBackground(found).background || '',
-            videos: Array.isArray(tmdbVideos) && tmdbVideos.length > 0 ? tmdbVideos : []
+            videos
         };
+        meta.links = buildLinks(meta, 'series');
         console.log(`Series meta küldve: ${meta.name} (${requestId})`);
-        return { meta, cacheMaxAge: META_CACHE_MAX_AGE };
+        return { meta: applyPoster(meta, cfg), ...META_CACHE };
     } catch (err) {
         console.error('Meta handler hiba:', err.message);
     }
     return { meta: null };
+}
+
+builder.defineCatalogHandler(async (args) => {
+    console.log(`Katalógus kérés: ${args.type}/${args.id}`);
+    return buildCatalogResponse(args.type, args.id, args.extra || {});
 });
+
+builder.defineMetaHandler(async (args) => {
+    console.log(`Meta kérés: ${args.type}/${args.id}`);
+    return buildMetaResponse(args.type, args.id);
+});
+
+// ---------------------------------------------------------------------------
+// Config-aware routes: /c/:config/{manifest.json | catalog/... | meta/...}
+// Same handlers as above, but with the user's config (catalog subset, board
+// visibility, RPDB posters) taken from the URL path.
+// ---------------------------------------------------------------------------
+function sendWithCache(res, payload) {
+    const { cacheMaxAge, staleRevalidate, staleError, ...body } = payload;
+    if (cacheMaxAge) {
+        const parts = [`max-age=${cacheMaxAge}`];
+        if (staleRevalidate) parts.push(`stale-while-revalidate=${staleRevalidate}`);
+        if (staleError) parts.push(`stale-if-error=${staleError}`);
+        parts.push('public');
+        res.setHeader('Cache-Control', parts.join(', '));
+    }
+    res.json(body);
+}
+
+function createConfigRouter() {
+    const router = express.Router({ mergeParams: true });
+    const parseExtra = (raw) => (raw ? querystring.parse(raw) : {});
+
+    router.get('/manifest.json', (req, res) => {
+        const cfg = resolveConfig(addonConfig.decodeConfig(req.params.config));
+        res.setHeader('Cache-Control', 'public, max-age=3600');
+        res.json(manifestForConfig(cfg));
+    });
+    router.get(['/catalog/:type/:id.json', '/catalog/:type/:id/:extra.json'], (req, res) => {
+        const cfg = resolveConfig(addonConfig.decodeConfig(req.params.config));
+        console.log(`Katalógus kérés (config): ${req.params.type}/${req.params.id}`);
+        sendWithCache(res, buildCatalogResponse(req.params.type, req.params.id, parseExtra(req.params.extra), cfg));
+    });
+    router.get('/meta/:type/:id.json', async (req, res) => {
+        const cfg = resolveConfig(addonConfig.decodeConfig(req.params.config));
+        console.log(`Meta kérés (config): ${req.params.type}/${req.params.id}`);
+        sendWithCache(res, await buildMetaResponse(req.params.type, req.params.id, cfg));
+    });
+    return router;
+}
 
 // ---------------------------------------------------------------------------
 // Exports (server.js)
@@ -297,34 +402,16 @@ builder.getStats = () => {
     return { ...counts, data: data.getDataStatus() };
 };
 
-/**
- * Manifest with only the given catalog ids, in the given order (configure-before-install).
- * Search catalogs are always kept so Stremio search keeps working.
- */
-function getManifestForCatalogs(enabledIds) {
-    if (!enabledIds || !Array.isArray(enabledIds) || enabledIds.length === 0) return manifest;
-    const catalogMap = new Map(manifest.catalogs.map(c => [c.id, c]));
-    const ids = enabledIds.map(id => String(id).trim()).filter(Boolean);
-    const catalogs = ids.map(id => catalogMap.get(id)).filter(Boolean);
-    const chosen = new Set(catalogs.map(c => c.id));
-    for (const c of manifest.catalogs) {
-        const def = data.getCatalogDef(c.id);
-        if (def && def.search && !chosen.has(c.id)) catalogs.push(c);
-    }
-    return { ...manifest, catalogs };
-}
-
-/** { id, name, type } for each board catalog (configure UI). Search catalogs are implicit. */
-function getCatalogOptions() {
-    return manifest.catalogs
-        .filter(c => !(data.getCatalogDef(c.id) || {}).search)
-        .map(c => ({ id: c.id, name: c.name, type: c.type }));
-}
-
 module.exports = builder;
-module.exports.getManifestForCatalogs = getManifestForCatalogs;
-module.exports.getCatalogOptions = getCatalogOptions;
 module.exports.manifest = manifest;
+module.exports.manifestForConfig = manifestForConfig;
+module.exports.resolveConfig = resolveConfig;
+module.exports.getManifestForCatalogs = getManifestForCatalogs;
+module.exports.getCatalogOptions = data.getCatalogOptions;
+module.exports.createConfigRouter = createConfigRouter;
+module.exports.buildCatalogResponse = buildCatalogResponse;
+module.exports.buildMetaResponse = buildMetaResponse;
+module.exports.seriesReleaseInfo = seriesReleaseInfo;
 
 // Standalone mode for local testing: `node index.js` serves only the catalog addon.
 if (require.main === module) {

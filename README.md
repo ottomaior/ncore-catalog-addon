@@ -12,7 +12,7 @@ One Node/Express server hosts **four addons**; Python scripts run by GitHub Acti
 
 | Addon | Install URL | What it does |
 |---|---|---|
-| **nCore Katalógus** | `/manifest.json` | 22 catalogs (🏆 Top Seed, 📥 Top letöltés, 🔥 Trendi, ⏰ Legfrissebb, 🗓️ év szerint, Netflix / Disney+ / HBO Max / Prime) + search. Own Hungarian metadata, TMDB backdrops, episode lists. Pick and reorder catalogs at `/configure` before installing. |
+| **nCore Katalógus** | `/manifest.json` | 28 catalogs (Legfrissebb, Felkapott, Top Seed, Legjobbra értékelt, Legtöbbet letöltött, Magyar, Megjelenés éve, Netflix / Disney+ / HBO Max / Prime, Dokumentumfilmek, Klasszikusok, Családi) + search. Own Hungarian metadata, TMDB backdrops, episode lists, Discover deep links. Pick catalogs, order, Board visibility and RPDB posters at `/configure`. |
 | **nCore Episode Info** | `/info/manifest.json` | Shows the latest Hungarian episode uploaded to nCore for a series (as a pseudo-stream). |
 | **Magyar Előzetesek** | `/trailers/manifest.json` | Trailers with Hungarian-first fallback: TMDB hu → YouTube HU dubbed → YouTube HU subtitled → TMDB en → YouTube EN. |
 | **Magyar feliratok** | `/subtitles/manifest.json` | Community `.srt`/`.vtt` upload by IMDb id, served back into Stremio. |
@@ -44,6 +44,26 @@ Streaming catalogs are not built from nCore tags: they are derived from the late
 TTL reload, id index, genre filter, search), mounts the four addon routers, serves the hub pages and `/health`.
 Responses carry `Cache-Control` (catalogs 1 h + stale-while-revalidate, meta 6 h) and are gzip-compressed.
 TMDB backdrops, episode lists and trailer lookups are cached in memory.
+
+## Catalog design
+
+Stremio renders a Board row as `{catalog name} - {Type}` and adds the type itself, so catalog names carry no
+"filmek / sorozatok" suffix. Each catalog has a `board` default; a catalog that is not on the Board gets a required
+`genre` extra, which Stremio treats as Discover-only. By default 12 rows are on the Board (Legfrissebb, Felkapott,
+Top Seed, Legjobbra értékelt, Netflix, HBO Max per type); everything else is one click away in Discover.
+
+- **Genres** are normalized to one Hungarian vocabulary on load (TMDB English, adjective forms and TVDB combos such as
+  "Action & Adventure" all map to the same labels), so the dropdown filter and the Discover sidebar agree.
+  The dropdown also offers two pseudo-filters: *Legjobbra értékelt* (IMDb ≥ 7.5, sorted) and *Idei*.
+  Small lists (streaming, Magyar, derived) offer only the pseudo-filters to keep the manifest under Stremio's 8 KB limit.
+- **Derived catalogs** (Legjobbra értékelt, Dokumentumfilmek, Klasszikusok, Családi) are computed from the union of all
+  data files, no extra pipeline.
+- **Series** names are served without the "(S03E02)" tag (it stays in the description and in the Episode Info addon);
+  `releaseInfo` comes from TMDB ("2019-" / "2019-2023").
+- **User config** lives in the install URL path: `/c/<token>/manifest.json`. The token is base64url JSON holding only
+  the differences from the defaults (`x` excluded ids, `o` order, `hp`/`hm` Board changes, `rpdb` key), so it stays short.
+  `/manifest.json?catalogs=…` from older installs still works. `/c/<token>/configure` reopens the picker prefilled.
+- **RPDB**: with a RatingPosterDB key in the config, posters come from `api.ratingposterdb.com` (rating overlay).
 
 ## Running locally
 
@@ -87,7 +107,7 @@ python scripts/build_top_downloaded_1080_catalog.py --force
 Tests:
 
 ```bash
-npm test                 # Node: registry, genres, search, HTTP routes (18 tests)
+npm test                 # Node: registry, genres, config tokens, HTTP routes (25 tests)
 npm run test:py          # Python: title parsing, episode detection, TMDB match scoring
 ```
 
@@ -111,7 +131,8 @@ index.js                Catalog addon (manifest, catalog + meta handlers, TMDB c
 info-addon.js           Episode Info addon (reads latest episode from hd_series.json)
 trailers/               Trailer addon + provider (TMDB / YouTube scraping) with TTL cache
 subtitles/              Subtitle addon + upload service
-lib/catalog-data.js     Data registry: sources, catalogs, genres, search, remote refresh
+lib/catalog-data.js     Data registry: sources, catalogs, genres, derived lists, search, remote refresh
+lib/addon-config.js     Install-URL config token (catalog subset/order, Board visibility, RPDB)
 public/                 Hub pages (index, catalog picker, trailers, subtitles)
 scripts/                Python build scripts; shared helpers in catalog_common.py; tests in scripts/tests
 data/                   Generated catalog JSON (committed, see data/README.md)
