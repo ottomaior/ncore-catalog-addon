@@ -3,290 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katalógus – nCore Stremio Addons</title>
+    <title>Katalógus – nCore Stremio addonok</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg: #0d0d14;
-            --surface: rgba(22, 33, 62, 0.7);
-            --surface-hover: rgba(30, 45, 80, 0.9);
-            --border: rgba(123, 92, 250, 0.4);
-            --accent: #8b5cf6;
-            --accent-light: #a78bfa;
-            --text: #e2e8f0;
-            --text-muted: #94a3b8;
-            --success: #22c55e;
-            --netflix: #E50914;
-            --disney: #113CCF;
-            --hbomax: #B026FF;
-            --prime: #00A8E1;
-            --topseed: #f59e0b;
-            --latest: #22c55e;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
-        body {
-            font-family: 'Outfit', system-ui, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            min-height: 100vh;
-            overflow-x: hidden;
-            background-image:
-                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(123, 92, 250, 0.15), transparent),
-                radial-gradient(ellipse 60% 40% at 100% 100%, rgba(139, 92, 246, 0.08), transparent);
-        }
-        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
-        .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.35rem;
-            color: var(--text-muted);
-            text-decoration: none;
-            font-size: 0.9rem;
-            margin-bottom: 1.5rem;
-        }
-        .back-link:hover { color: var(--accent-light); }
-        header { margin-bottom: 1.5rem; }
-        header h1 {
-            font-size: 1.75rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #fff 0%, var(--accent-light) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.35rem;
-        }
-        header p { color: var(--text-muted); font-size: 0.95rem; }
-        .addon-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 1.5rem 1.75rem;
-            margin-bottom: 1.25rem;
-            transition: all 0.2s ease;
-        }
-        .addon-card:hover { background: var(--surface-hover); border-color: rgba(123, 92, 250, 0.6); }
-        .addon-card h2 { font-size: 1.15rem; font-weight: 600; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.5rem; }
-        .addon-card .desc { color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem; }
-        .addon-card .tag {
-            display: inline-block;
-            background: linear-gradient(135deg, var(--accent), #6366f1);
-            color: white;
-            font-size: 0.65rem;
-            font-weight: 600;
-            padding: 0.2rem 0.5rem;
-            border-radius: 4px;
-            margin-left: 0.25rem;
-        }
-        .btn-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.6rem 1.2rem;
-            border-radius: 10px;
-            font-family: inherit;
-            font-size: 0.9rem;
-            font-weight: 500;
-            cursor: pointer;
-            text-decoration: none;
-            border: none;
-            transition: all 0.2s;
-        }
-        .btn-primary { background: linear-gradient(135deg, var(--accent), #6366f1); color: white; }
-        .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 4px 20px rgba(123, 92, 250, 0.4); }
-        .btn-secondary { background: rgba(255,255,255,0.08); color: var(--text); border: 1px solid var(--border); }
-        .btn-secondary:hover { background: rgba(255,255,255,0.12); }
-        .btn.copied { background: var(--success) !important; }
-        .url-box {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            background: rgba(0,0,0,0.3);
-            padding: 0.6rem 0.8rem;
-            border-radius: 8px;
-            margin-top: 0.75rem;
-            color: var(--text-muted);
-            word-break: break-all;
-        }
-        .instructions { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.06); }
-        .instructions summary { cursor: pointer; font-size: 0.85rem; color: var(--accent-light); }
-        .instructions ol { margin: 0.75rem 0 0 1.25rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.8; }
-        .catalog-config { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.06); }
-        .catalog-config summary { cursor: pointer; font-size: 0.9rem; color: var(--accent-light); margin-bottom: 0.75rem; }
-        .catalog-presets { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
-        .catalog-presets .btn { padding: 0.4rem 0.8rem; font-size: 0.8rem; }
-        .catalog-count { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; }
-        .catalog-count strong { color: var(--text); }
-        .category-panel {
-            background: rgba(0,0,0,0.2);
-            border: 1px solid rgba(255,255,255,0.06);
-            border-radius: 12px;
-            margin-bottom: 0.75rem;
-            overflow: hidden;
-            transition: border-color 0.3s ease;
-        }
-        .category-panel:hover { border-color: rgba(255,255,255,0.12); }
-        .category-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0.75rem 1rem;
-            cursor: pointer;
-            user-select: none;
-            transition: background 0.2s;
-        }
-        .category-header:hover { background: rgba(255,255,255,0.03); }
-        .category-header-left { display: flex; align-items: center; gap: 0.6rem; }
-        .category-card-drag-handle {
-            cursor: grab;
-            user-select: none;
-            font-size: 0.9rem;
-            color: rgba(255,255,255,0.2);
-            padding: 0 0.15rem;
-            flex-shrink: 0;
-        }
-        .category-card-drag-handle:active { cursor: grabbing; }
-        .category-card-drag-handle.dragging { opacity: 0.55; cursor: grabbing; }
-        .category-panel.category-drag-over { border-color: rgba(139, 92, 246, 0.6); }
-        .category-icon {
-            width: 32px; height: 32px;
-            border-radius: 8px;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 1rem;
-            flex-shrink: 0;
-        }
-        .category-icon.topseed { background: rgba(245,158,11,0.15); }
-        .category-icon.latest { background: rgba(34,197,94,0.15); }
-        .category-title { font-size: 0.95rem; font-weight: 600; }
-        .category-badge { font-size: 0.7rem; color: var(--text-muted); background: rgba(255,255,255,0.06); padding: 0.15rem 0.5rem; border-radius: 99px; }
-        .category-chevron { font-size: 0.7rem; color: var(--text-muted); transition: transform 0.3s ease; }
-        .category-panel.open .category-chevron { transform: rotate(180deg); }
-        .category-body { max-height: 0; overflow: hidden; transition: max-height 0.35s ease, padding 0.35s ease; padding: 0 1rem; }
-        .category-panel.open .category-body { max-height: 2000px; padding: 0 1rem 1rem; }
-        @media (max-width: 768px) {
-            .category-panel.open .category-body { max-height: 2800px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
-        }
-        .toggle-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0.5rem 0.5rem;
-            border-radius: 8px;
-            cursor: grab;
-            transition: background 0.2s;
-        }
-        .toggle-row:hover { background: rgba(255,255,255,0.04); }
-        .toggle-row.dragging { opacity: 0.5; cursor: grabbing; }
-        .toggle-row.drag-over { background: rgba(139, 92, 246, 0.15); border-top: 2px solid var(--accent); }
-        .toggle-left { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; }
-        .toggle-left .drag-handle { color: rgba(255,255,255,0.2); font-size: 0.85rem; cursor: grab; user-select: none; }
-        .toggle-left .drag-handle:active { cursor: grabbing; }
-        .toggle-left .item-icon { font-size: 0.85rem; }
-        .toggle-switch {
-            position: relative;
-            width: 40px;
-            height: 22px;
-            flex-shrink: 0;
-        }
-        .toggle-switch input { opacity: 0; width: 0; height: 0; }
-        .toggle-slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(255,255,255,0.1);
-            border-radius: 22px;
-            transition: all 0.3s ease;
-        }
-        .toggle-slider:before {
-            content: "";
-            position: absolute;
-            height: 16px; width: 16px;
-            left: 3px; bottom: 3px;
-            background: white;
-            border-radius: 50%;
-            transition: all 0.3s ease;
-        }
-        .toggle-switch input:checked + .toggle-slider { background: var(--accent); }
-        .toggle-switch input:checked + .toggle-slider:before { transform: translateX(18px); }
-        .provider-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.75rem; }
-        @media (max-width: 480px) { .provider-grid { grid-template-columns: 1fr; } }
-        .provider-card {
-            background: rgba(0,0,0,0.25);
-            border: 1px solid rgba(255,255,255,0.06);
-            border-radius: 10px;
-            padding: 0.75rem;
-            transition: all 0.25s ease;
-        }
-        .provider-card:hover { border-color: rgba(255,255,255,0.15); transform: translateY(-1px); }
-        .provider-card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; padding-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
-        .provider-logo {
-            width: 24px; height: 24px;
-            border-radius: 5px;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 0.75rem; font-weight: 700; color: white;
-            flex-shrink: 0;
-        }
-        .provider-logo.netflix { background: var(--netflix); }
-        .provider-logo.disney { background: var(--disney); }
-        .provider-logo.hbomax { background: var(--hbomax); }
-        .provider-logo.prime { background: var(--prime); }
-        .provider-name { font-size: 0.85rem; font-weight: 600; }
-        .provider-toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 0.25rem 0; font-size: 0.8rem; color: var(--text-muted); }
-        .section-separator { display: flex; align-items: center; gap: 0.75rem; margin: 0.75rem 0; font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
-        .section-separator::before, .section-separator::after { content: ""; flex: 1; height: 1px; background: rgba(255,255,255,0.06); }
-        .toggle-right { display: inline-flex; align-items: center; gap: 0.5rem; }
-        .home-btn { background: none; border: 1px solid rgba(255,255,255,0.12); border-radius: 6px; padding: 0.1rem 0.35rem; cursor: pointer; font-size: 0.85rem; filter: grayscale(1); opacity: 0.45; transition: all 0.2s; }
-        .home-btn.on { filter: none; opacity: 1; border-color: var(--accent); background: rgba(139,92,246,0.15); }
-        .home-btn:hover { opacity: 1; }
-        .option-row { display: flex; align-items: center; gap: 0.75rem; margin: 0.75rem 0 0.25rem; font-size: 0.85rem; flex-wrap: wrap; }
-        .option-row input[type=text] { flex: 1; min-width: 180px; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: var(--text); border-radius: 8px; padding: 0.45rem 0.6rem; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; }
-        .option-row .hint { width: 100%; color: var(--text-muted); font-size: 0.75rem; }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/ui.css">
 </head>
 <body>
-    <div class="container">
-        <a href="/" class="back-link">← Vissza a főoldalra</a>
-        <header>
-            <h1>Katalógus</h1>
-            <p>Magyar nyelvű filmek és sorozatok nCore-ról, magyar címekkel és poszterekkel (TMDB).</p>
-        </header>
-        <div class="addon-card">
-            <h2>Katalógusok kiválasztása <span class="tag">FILMEK + SOROZATOK</span></h2>
-            <p class="desc">Válaszd ki, mely katalógusok jelenjenek meg Stremioban, és melyek a főoldalon. A sorrendet húzással módosíthatod. Ezután telepítsd az addont.</p>
-            <details class="catalog-config" open>
-                <summary>Katalógusok kiválasztása (telepítés előtt)</summary>
-                <div class="catalog-presets">
-                    <button type="button" class="btn btn-secondary" onclick="setPreset('all')">Mind</button>
-                    <button type="button" class="btn btn-secondary" onclick="setPreset('none')">Egyik sem</button>
-                    <button type="button" class="btn btn-secondary" onclick="setPreset('topseed')">Csak Top Seed</button>
-                    <button type="button" class="btn btn-secondary" onclick="setPreset('topdownloaded')">Csak legtöbb letöltés</button>
-                    <button type="button" class="btn btn-secondary" onclick="setPreset('latest')">Csak legfrissebb</button>
-                </div>
-                <p class="catalog-count" id="catalog-count">Betöltés...</p>
-                <p class="desc" style="font-size:0.8rem">🏠 = megjelenik a Stremio főoldalán; a kikapcsoltak csak a Felfedezés (Discover) oldalon érhetők el. Kevesebb főoldali sor = gyorsabb indulás.</p>
-                <div id="catalog-panels">Betöltés...</div>
-                <div class="option-row">
-                    <label for="rpdb-key">RPDB poszterek</label>
-                    <input type="text" id="rpdb-key" placeholder="RatingPosterDB API kulcs (opcionális)" oninput="updateCatalogUrl()" autocomplete="off" spellcheck="false">
-                    <span class="hint">Értékeléssel ellátott poszterek a <a href="https://ratingposterdb.com/" target="_blank" rel="noopener" style="color:var(--accent-light)">ratingposterdb.com</a> kulcsával. Ingyenes kulcs: <code>t0-free-rpdb</code>.</span>
-                </div>
-            </details>
-            <div class="btn-row">
-                <a class="btn btn-primary" href="#" data-stremio="catalog" onclick="installAddon(event, 'catalog')">Telepítés Stremioval</a>
-                <button class="btn btn-secondary" onclick="copyCatalogUrl(this)">URL másolása</button>
+    <div class="site">
+        <nav class="topbar">
+            <a class="wordmark" href="/"><i></i>nCore Stremio</a>
+            <div class="topnav">
+                <a href="/catalog" aria-current="page">Katalógus</a>
+                <a href="/trailers">Előzetesek</a>
+                <a href="/subtitles">Feliratok</a>
             </div>
-            <div class="url-box" id="catalog-url"></div>
-            <details class="instructions" open>
-                <summary>Telepítési lépések</summary>
-                <ol>
-                    <li>Nyisd meg a Stremio alkalmazást</li>
-                    <li>Addons ikon → "+ Add addon"</li>
-                    <li>Illeszd be a fenti URL-t (vagy válaszd ki a katalógusokat, majd Telepítés)</li>
-                </ol>
-            </details>
+        </nav>
+
+        <header class="masthead">
+            <h1>Katalógus</h1>
+            <p>Válaszd ki, mely listák jelenjenek meg a Stremióban, és melyek a főoldalon. A sorrendet húzással állítod. A telepítő link magában hordja a beállításaidat.</p>
+        </header>
+
+        <div class="two-col">
+            <section aria-label="Katalógusok">
+                <div class="presets" role="group" aria-label="Gyors kiválasztás">
+                    <button type="button" class="btn btn-sm" onclick="setPreset('all')">Mind</button>
+                    <button type="button" class="btn btn-sm" onclick="setPreset('none')">Egyik sem</button>
+                    <button type="button" class="btn btn-sm" onclick="setPreset('latest')">Csak legfrissebb</button>
+                    <button type="button" class="btn btn-sm" onclick="setPreset('topseed')">Csak Top Seed</button>
+                    <button type="button" class="btn btn-sm" onclick="setPreset('topdownloaded')">Csak legtöbb letöltés</button>
+                </div>
+                <p class="legend">🏠 bekapcsolva: a lista a Stremio főoldalán is látszik. Kikapcsolva csak a Felfedezés oldalon érhető el. Kevesebb főoldali sor gyorsabb indulást jelent.</p>
+                <div id="catalog-panels">Betöltés…</div>
+            </section>
+
+            <aside class="panel install-panel sticky">
+                <div class="count" id="catalog-count">Betöltés…</div>
+                <div class="btn-row">
+                    <a class="btn btn-primary" href="#" onclick="installAddon(event, 'catalog')">Telepítés Stremióval</a>
+                    <button class="btn" onclick="copyCatalogUrl(this)">URL másolása</button>
+                </div>
+                <div class="url-box" id="catalog-url"></div>
+                <div class="field">
+                    <label for="rpdb-key">RPDB poszterek</label>
+                    <input type="text" id="rpdb-key" placeholder="RatingPosterDB API kulcs" oninput="updateCatalogUrl()" autocomplete="off" spellcheck="false">
+                    <span class="hint">Értékeléssel ellátott poszterek a <a href="https://ratingposterdb.com/" target="_blank" rel="noopener">ratingposterdb.com</a> kulcsával. Nem kötelező.</span>
+                </div>
+                <p class="note">A link módosítás után változik. Ha később állítanál rajta, nyisd meg újra ezt az oldalt a Stremio „Configure” gombjával.</p>
+            </aside>
         </div>
+
+        <footer class="site-footer">
+            <span><a href="/">Vissza a főoldalra</a></span>
+        </footer>
     </div>
     <script>
         const protocol = window.location.protocol;
@@ -429,8 +199,7 @@
             const home = getHomeIds().filter(id => document.getElementById('cat-' + id)?.checked).length;
             const el = document.getElementById('catalog-count');
             if (total === 0) el.textContent = '';
-            else if (enabled === total) el.innerHTML = '<strong>Mind a ' + total + ' katalógus</strong> kiválasztva, ebből <strong>' + home + '</strong> a főoldalon.';
-            else el.innerHTML = '<strong>' + enabled + '</strong> / ' + total + ' katalógus kiválasztva, ebből <strong>' + home + '</strong> a főoldalon.';
+            else el.innerHTML = enabled + ' / ' + total + ' lista<small>' + home + ' sor a főoldalon, a többi a Felfedezésben</small>';
         }
         function updateCatalogUrl() {
             document.getElementById('catalog-url').textContent = getCatalogInstallUrl();
@@ -615,13 +384,12 @@
                         '<div><div class="category-title">' + cat.title + '</div></div>' +
                         '<span class="category-card-drag-handle" draggable="true" data-category-key="' + cat.key + '" onclick="event.stopPropagation()" title="Drag to reorder">⋮⋮</span>' +
                     '</div>' +
-                    '<div style="display:flex;align-items:center;gap:0.75rem"><span class="category-badge">' + itemCount + ' katalógus</span><span class="category-chevron">▼</span></div>' +
+                    '<span class="category-badge">' + itemCount + ' lista <span class="category-chevron">▼</span></span>' +
                 '</div>' +
                 '<div class="category-body">' +
-                    '<div style="display:flex;justify-content:flex-end;gap:0.5rem;margin-bottom:0.25rem;font-size:0.75rem">' +
-                        '<button type="button" style="background:none;border:none;color:var(--accent-light);cursor:pointer;font-family:inherit;padding:0.15rem 0.35rem" onclick="event.stopPropagation();setCategoryAll(\'' + cat.key + '\',true)">Összes</button>' +
-                        '<span style="color:var(--text-muted)">·</span>' +
-                        '<button type="button" style="background:none;border:none;color:var(--accent-light);cursor:pointer;font-family:inherit;padding:0.15rem 0.35rem" onclick="event.stopPropagation();setCategoryAll(\'' + cat.key + '\',false)">Egyik sem</button>' +
+                    '<div class="category-tools">' +
+                        '<button type="button" onclick="event.stopPropagation();setCategoryAll(\'' + cat.key + '\',true)">Összes</button>' +
+                        '<button type="button" onclick="event.stopPropagation();setCategoryAll(\'' + cat.key + '\',false)">Egyik sem</button>' +
                     '</div>' + rows + providerSection +
                 '</div></div>';
         }
@@ -648,7 +416,7 @@
                 updateCatalogUrl();
             })
             .catch(() => {
-                document.getElementById('catalog-panels').textContent = 'Nem sikerült betölteni.';
+                document.getElementById('catalog-panels').textContent = 'A listák nem töltődtek be. Frissítsd az oldalt.';
                 document.getElementById('catalog-count').textContent = '';
                 document.getElementById('catalog-url').textContent = baseUrl + '/manifest.json';
             });
@@ -662,7 +430,7 @@
             const url = getCatalogInstallUrl();
             navigator.clipboard.writeText(url).then(() => {
                 const orig = btn.textContent;
-                btn.textContent = '✓ Másolva!';
+                btn.textContent = 'Másolva';
                 btn.classList.add('copied');
                 setTimeout(() => { btn.textContent = orig; btn.classList.remove('copied'); }, 2000);
             }).catch(() => alert('Másold ki: ' + url));

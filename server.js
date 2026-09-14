@@ -36,7 +36,13 @@ app.use((req, res, next) => {
 });
 
 // Static assets (e.g. logo.png for addon manifest)
-app.use(express.static(path.join(__dirname, 'public'), { maxAge: '1d' }));
+app.use(express.static(path.join(__dirname, 'public'), {
+    setHeaders: (res, filePath) => {
+        // Pages and styles change with deploys; images can be cached for a day.
+        const cacheable = /\.(png|jpg|jpeg|svg|ico|webp|woff2?)$/i.test(filePath);
+        res.setHeader('Cache-Control', cacheable ? 'public, max-age=86400' : 'no-cache');
+    }
+}));
 
 // Subtitles: ensure data dir and load index (must run before subtitle routes).
 // For persistence on Railway: add a Volume, mount it at /data, set env SUBTITLES_DATA_DIR=/data/subtitles.
@@ -85,10 +91,8 @@ app.get('/health', (req, res) => {
     });
 });
 
-// Trailer configure page (before /trailers router)
-app.get('/trailers/configure', (req, res) => {
-    res.sendFile(path.join(__dirname, 'trailers', 'public', 'configure.html'));
-});
+// The old trailer settings page produced URLs the addon never served; the addon has no options.
+app.get('/trailers/configure', (req, res) => res.redirect(301, '/trailers'));
 
 // Homepage (hub)
 app.get('/', (req, res) => {
@@ -271,7 +275,6 @@ if (require.main === module) {
         console.log(`📍 Catalog:    http://localhost:${PORT}/manifest.json`);
         console.log(`📍 Info:       http://localhost:${PORT}/info/manifest.json`);
         console.log(`📍 Trailers:   http://localhost:${PORT}/trailers/manifest.json`);
-        console.log(`📍 Configure:  http://localhost:${PORT}/trailers/configure`);
         console.log(`📍 Subtitles:  http://localhost:${PORT}/subtitles/manifest.json`);
         console.log(`📍 Feliratok:  http://localhost:${PORT}/subtitles.html\n`);
         console.log(`${'='.repeat(60)}\n`);
