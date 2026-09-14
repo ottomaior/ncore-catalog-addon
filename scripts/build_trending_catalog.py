@@ -34,6 +34,8 @@ from catalog_common import (
     is_likely_series,
     seeders_from_torrent as _seeders_from_torrent,
     search_movie_on_tmdb,
+    series_release_info,
+    is_recently_aired,
 )
 
 try:
@@ -70,6 +72,8 @@ TRENDING_MIN_SEEDERS = int(os.getenv('NCORE_TRENDING_MIN_SEEDERS', '5'))  # skip
 # Only include movies with release year in [TRENDING_MIN_YEAR, TRENDING_MAX_YEAR] (e.g. 2025–2026 = recent & actually trending)
 TRENDING_MIN_YEAR = int(os.getenv('NCORE_TRENDING_MIN_YEAR', '2025'))
 TRENDING_MAX_YEAR = int(os.getenv('NCORE_TRENDING_MAX_YEAR', '2026'))
+# Series: only shows that aired an episode within this many days (drops re-uploads of long-ended shows)
+TRENDING_SERIES_MAX_AGE_DAYS = int(os.getenv('NCORE_TRENDING_SERIES_MAX_AGE_DAYS', '365'))
 NCORE_PAGE_DELAY = float(os.getenv('NCORE_PAGE_DELAY', '2.0'))
 NCORE_PAGE_RETRIES = int(os.getenv('NCORE_PAGE_RETRIES', '3'))
 NCORE_RETRY_WAIT = float(os.getenv('NCORE_RETRY_WAIT', '10.0'))
@@ -268,7 +272,7 @@ def main():
     print(f"✓ {len(movie_metas)} trendi film → {out_file_movies.name}\n")
 
     # ---------- SERIES ----------
-    print("Trending series (HDSER_HUN 1080p, seed velocity = seed/day)")
+    print(f"Trending series (HDSER_HUN 1080p, seed velocity = seed/day, csak az elmúlt {TRENDING_SERIES_MAX_AGE_DAYS} napban futó sorozatok)")
     series_torrents = fetch_trending_series(client)
     print(f"  Összesen {len(series_torrents)} torrent")
     series_torrents.sort(key=lambda t: _velocity(t), reverse=True)
@@ -297,6 +301,9 @@ def main():
         metadata = search_show_on_tvdb(clean_title, year, TVDB_API_KEY, TVDB_PIN, TMDB_API_KEY)
         if not metadata or not metadata.get('imdb_id'):
             continue
+        if not is_recently_aired(metadata, TRENDING_SERIES_MAX_AGE_DAYS):
+            print(f"  ⏭ nem aktuális sorozat (utolsó epizód: {metadata.get('last_air_date')}): {metadata.get('title') or clean_title}")
+            continue
         imdb_id = metadata['imdb_id']
         seeders = _seeders_from_torrent(t)
         display_title = metadata['title'] or clean_title
@@ -324,7 +331,7 @@ def main():
             'year': metadata.get('year'),
             'description': description,
             'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
-            'releaseInfo': str(metadata['year']) if metadata.get('year') else None,
+            'releaseInfo': series_release_info(metadata),
             'genres': metadata.get('genres') or [],
             'latest_season': new_season,
             'latest_episode': new_episode,

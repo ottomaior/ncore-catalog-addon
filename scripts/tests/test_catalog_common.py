@@ -139,3 +139,23 @@ def test_search_movie_on_tmdb_uses_scoring_and_returns_metadata():
 def test_search_movie_on_tmdb_without_key_or_title():
     assert cc.search_movie_on_tmdb('X', None, None, delay=0) is None
     assert cc.search_movie_on_tmdb('', None, 'key', delay=0) is None
+
+
+def test_series_release_info():
+    assert cc.series_release_info({'first_air_date': '2019-03-01', 'status': 'Returning Series'}) == '2019-'
+    assert cc.series_release_info({'first_air_date': '2019-03-01', 'last_air_date': '2023-05-05', 'status': 'Ended'}) == '2019-2023'
+    assert cc.series_release_info({'first_air_date': '2019-03-01', 'last_air_date': '2019-12-05', 'status': 'Canceled'}) == '2019'
+    assert cc.series_release_info({'year': 2010, 'last_air_date': '2026-09-01'}) == '2010-'
+    assert cc.series_release_info({'year': 2010}) == '2010'
+    assert cc.series_release_info({}) is None
+
+
+def test_is_recently_aired():
+    from datetime import date
+    today = date(2026, 9, 14)
+    assert cc.is_recently_aired({'last_air_date': '2026-09-01'}, 365, today)
+    assert cc.is_recently_aired({'last_air_date': '2025-10-01'}, 365, today)
+    assert not cc.is_recently_aired({'last_air_date': '2004-06-01'}, 365, today)
+    assert not cc.is_recently_aired({'last_air_date': '2025-09-01'}, 365, today)
+    assert cc.is_recently_aired({}, 365, today)  # unknown -> keep
+    assert cc.is_recently_aired({'last_air_date': 'garbage'}, 365, today)

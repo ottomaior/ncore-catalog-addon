@@ -5,6 +5,7 @@ copy of these; keep behaviour changes here and cover them in scripts/tests.
 """
 import re
 import time
+from datetime import date, datetime
 from difflib import SequenceMatcher
 
 import requests
@@ -233,3 +234,44 @@ def search_movie_on_tmdb(clean_title, year, tmdb_key, delay=DEFAULT_TMDB_DELAY, 
         except Exception:
             continue
     return None
+
+
+# ---------------------------------------------------------------------------
+# Series air-date helpers (metadata dicts from search_show_on_tvdb carry
+# first_air_date / last_air_date / status when TMDB enrichment succeeded)
+# ---------------------------------------------------------------------------
+def _year_of(iso_date):
+    s = str(iso_date or '')[:4]
+    return int(s) if s.isdigit() else None
+
+
+def series_release_info(metadata):
+    """
+    Stremio-style releaseInfo for a series: '2019-' while running, '2019-2023' when ended,
+    plain '2019' when only the start year is known.
+    """
+    first = _year_of(metadata.get('first_air_date')) or metadata.get('year')
+    if not first:
+        return None
+    status = str(metadata.get('status') or '').lower()
+    ended = any(k in status for k in ('ended', 'cancel'))
+    last = _year_of(metadata.get('last_air_date'))
+    if ended and last:
+        return str(first) if last == first else f'{first}-{last}'
+    if metadata.get('last_air_date') or status:
+        return f'{first}-'
+    return str(first)
+
+
+def is_recently_aired(metadata, max_age_days=365, today=None):
+    """
+    True when the show aired an episode within max_age_days (i.e. it is a current show).
+    Unknown air date -> True (do not drop shows TMDB has no data for).
+    """
+    last = str(metadata.get('last_air_date') or '')[:10]
+    try:
+        last_date = datetime.strptime(last, '%Y-%m-%d').date()
+    except ValueError:
+        return True
+    today = today or date.today()
+    return (today - last_date).days <= max_age_days

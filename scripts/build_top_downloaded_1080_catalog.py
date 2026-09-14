@@ -38,6 +38,7 @@ if str(script_dir) not in sys.path:
 from tvdb_client import search_show_on_tvdb
 from omdb_client import OMDbClient
 from catalog_common import (
+    series_release_info,
     parse_movie_title,
     parse_series_title,
     extract_episode_info,
@@ -381,7 +382,7 @@ def build_series_metas(client, target, exclude_imdb_ids=None):
                 'year': year_val,
                 'description': description,
                 'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
-                'releaseInfo': str(year_val) if year_val else None,
+                'releaseInfo': series_release_info(metadata) or (str(year_val) if year_val else None),
                 'genres': genres,
                 'downloads': downloads_rank,
                 'seeders': seeders_new,

@@ -17,6 +17,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from omdb_client import OMDbClient
 from catalog_common import (
+    series_release_info,
     parse_series_title,
     extract_episode_info,
     is_newer_episode,
@@ -260,7 +261,7 @@ def main():
             'year': year_val,
             'description': description,
             'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
-            'releaseInfo': str(year_val) if year_val else None,
+            'releaseInfo': series_release_info(metadata) or (str(year_val) if year_val else None),
             'genres': genres,
             'seeders': seeders_new,
             'latest_season': new_season,
