@@ -57,6 +57,9 @@ jobs:
             --source data/top_downloaded_1080_series.json \
             --output data/top_downloaded_1080_hungarian_productions_series.json
 
+      - name: Check catalog output (fail on empty / shrunken files)
+        run: python scripts/check_catalog_output.py data/top_downloaded_1080_movies.json data/top_downloaded_1080_series.json data/top_downloaded_1080_hungarian_productions_movies.json data/top_downloaded_1080_hungarian_productions_series.json
+
       - name: Commit and push data
         if: success()
         run: |

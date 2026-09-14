@@ -64,6 +64,11 @@ Top Seed, Legjobbra értékelt, Netflix, HBO Max per type); everything else is o
   the differences from the defaults (`x` excluded ids, `o` order, `hp`/`hm` Board changes, `rpdb` key), so it stays short.
   `/manifest.json?catalogs=…` from older installs still works. `/c/<token>/configure` reopens the picker prefilled.
 - **RPDB**: with a RatingPosterDB key in the config, posters come from `api.ratingposterdb.com` (rating overlay).
+- **Images baked at build time**: every build script fills `background` (textless TMDB backdrop) and `logo`
+  (Hungarian, then English) on new titles, reusing values from the previous JSON, at most
+  `TMDB_IMAGES_MAX_PER_RUN` (400) lookups per run. The meta handler only asks TMDB for entries built before this.
+- **Output guard**: every data workflow runs `scripts/check_catalog_output.py` before committing and fails the run
+  (GitHub emails you) if a catalog file is missing, invalid, empty, or lost more than half its items.
 
 ## Running locally
 
@@ -90,6 +95,8 @@ npm start                                         # http://localhost:7000
 | `SUBTITLES_DATA_DIR` | server; point it at a Railway volume to persist uploads |
 | `SUBTITLE_UPLOAD_RATE_LIMIT` (default 10 per 10 min per IP) | server |
 | `DATA_REMOTE_BASE_URL`, `DATA_REMOTE_REFRESH_MINUTES` | server; see below |
+| `TMDB_IMAGES_MAX_PER_RUN` (default 400) | scripts; TMDB image lookups per build run |
+| `NCORE_TRENDING_SERIES_MAX_AGE_DAYS` (365), `NCORE_TRENDING_SMOOTH_DAYS` (1) | trending script |
 | `CRON_SECRET` | server; enables `POST /cron/build` |
 
 Rebuild the data yourself (same order as the workflows):
@@ -134,7 +141,7 @@ subtitles/              Subtitle addon + upload service
 lib/catalog-data.js     Data registry: sources, catalogs, genres, derived lists, search, remote refresh
 lib/addon-config.js     Install-URL config token (catalog subset/order, Board visibility, RPDB)
 public/                 Hub pages (index, catalog picker, trailers, subtitles)
-scripts/                Python build scripts; shared helpers in catalog_common.py; tests in scripts/tests
+scripts/                Python build scripts; shared helpers in catalog_common.py; output guard check_catalog_output.py; tests in scripts/tests
 data/                   Generated catalog JSON (committed, see data/README.md)
 .github/workflows/      Scheduled data builds + CI
 ```

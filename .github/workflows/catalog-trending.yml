@@ -39,6 +39,9 @@ jobs:
           TVDB_PIN: ${{ secrets.TVDB_PIN }}
         run: python scripts/build_trending_catalog.py
 
+      - name: Check catalog output (fail on empty / shrunken files)
+        run: python scripts/check_catalog_output.py data/trending_movies.json data/trending_series.json
+
       - name: Commit and push data
         if: success()
         run: |

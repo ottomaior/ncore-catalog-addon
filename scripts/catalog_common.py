@@ -3,6 +3,7 @@ Helpers shared by the catalog build scripts (title parsing, episode detection,
 seed counts, TMDB movie matching). Previously each build script carried its own
 copy of these; keep behaviour changes here and cover them in scripts/tests.
 """
+import os
 import re
 import time
 from datetime import date, datetime
@@ -275,3 +276,96 @@ def is_recently_aired(metadata, max_age_days=365, today=None):
         return True
     today = today or date.today()
     return (today - last_date).days <= max_age_days
+
+
+# ---------------------------------------------------------------------------
+# TMDB images baked into the catalog JSON (background + logo), so the server's
+# meta handler needs no live TMDB call for titles we built.
+# ---------------------------------------------------------------------------
+TMDB_FIND_URL = 'https://api.themoviedb.org/3/find/{imdb_id}'
+TMDB_IMAGES_URL = 'https://api.themoviedb.org/3/{media_type}/{tmdb_id}/images'
+TMDB_BACKDROP_PREFIX = 'https://image.tmdb.org/t/p/w1280'
+TMDB_LOGO_PREFIX = 'https://image.tmdb.org/t/p/w500'
+# Cap per run so a first enrichment of a big list cannot blow the workflow time budget;
+# the rest is filled in on later runs (existing entries keep their images).
+IMAGES_MAX_PER_RUN = int(os.getenv('TMDB_IMAGES_MAX_PER_RUN', '400'))
+
+
+def _best_image(items, lang_priority):
+    """Pick the best-voted image, preferring languages in lang_priority order."""
+    if not items:
+        return None
+    for lang in lang_priority:
+        candidates = [i for i in items if i.get('iso_639_1') == lang]
+        if candidates:
+            return max(candidates, key=lambda i: i.get('vote_average') or 0)
+    return max(items, key=lambda i: i.get('vote_average') or 0)
+
+
+def fetch_tmdb_images(imdb_id, media_type, tmdb_key, delay=DEFAULT_TMDB_DELAY, timeout=15, session=None):
+    """
+    {background, logo} URLs (either may be None) for an IMDb id; None when TMDB has no match.
+    media_type: 'movie' or 'tv'. Backdrops prefer textless (null language); logos prefer hu, then en.
+    """
+    if not tmdb_key or not imdb_id:
+        return None
+    http = session or requests
+    try:
+        time.sleep(delay)
+        r = http.get(TMDB_FIND_URL.format(imdb_id=imdb_id),
+                     params={'api_key': tmdb_key, 'external_source': 'imdb_id'}, timeout=timeout)
+        if r.status_code != 200:
+            return None
+        results = r.json().get('tv_results' if media_type == 'tv' else 'movie_results') or []
+        if not results:
+            return None
+        tmdb_id = results[0].get('id')
+        time.sleep(delay)
+        r2 = http.get(TMDB_IMAGES_URL.format(media_type=media_type, tmdb_id=tmdb_id),
+                      params={'api_key': tmdb_key, 'include_image_language': 'hu,en,null'}, timeout=timeout)
+        if r2.status_code != 200:
+            return None
+        data = r2.json()
+        backdrop = _best_image(data.get('backdrops') or [], [None, 'hu', 'en'])
+        logo = _best_image(data.get('logos') or [], ['hu', 'en'])
+        return {
+            'background': TMDB_BACKDROP_PREFIX + backdrop['file_path'] if backdrop and backdrop.get('file_path') else None,
+            'logo': TMDB_LOGO_PREFIX + logo['file_path'] if logo and logo.get('file_path') else None,
+        }
+    except Exception:
+        return None
+
+
+def add_images(metas, media_type, tmdb_key, previous=None, max_per_run=None, delay=DEFAULT_TMDB_DELAY, session=None, log=print):
+    """
+    Fill `background` / `logo` on every meta in place. Images already present (or present on
+    the same id in `previous`, the list loaded from the existing JSON) are reused, so only new
+    titles cost TMDB calls; at most max_per_run titles are fetched per invocation.
+    Returns the number of titles fetched.
+    """
+    if max_per_run is None:
+        max_per_run = IMAGES_MAX_PER_RUN
+    cache = {}
+    for m in previous or []:
+        if isinstance(m, dict) and m.get('id') and (m.get('background') or m.get('logo')):
+            cache[m['id']] = {'background': m.get('background'), 'logo': m.get('logo')}
+    fetched = 0
+    for m in metas:
+        if not isinstance(m, dict) or not m.get('id'):
+            continue
+        if m.get('background'):
+            continue
+        hit = cache.get(m['id'])
+        if hit is None and tmdb_key and fetched < max_per_run:
+            hit = fetch_tmdb_images(m['id'], media_type, tmdb_key, delay=delay, session=session)
+            fetched += 1
+            if hit is not None:
+                cache[m['id']] = hit
+        if hit:
+            if hit.get('background'):
+                m['background'] = hit['background']
+            if hit.get('logo'):
+                m['logo'] = hit['logo']
+    if fetched:
+        log(f'  🖼 TMDB képek: {fetched} új cím ({media_type})')
+    return fetched

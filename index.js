@@ -288,7 +288,8 @@ async function buildMetaResponse(type, requestId, cfg = null) {
 
         if (type === 'movie') {
             let meta = withCoercedImdbRating({ ...publicMeta(found), id: requestId });
-            const tmdbBackdrop = await getBackdropFromTMDB(idForLookup, 'movie');
+            // Backdrops are baked into the JSON at build time; TMDB is only asked for older entries.
+            const tmdbBackdrop = found.background ? null : await getBackdropFromTMDB(idForLookup, 'movie');
             meta = tmdbBackdrop ? { ...meta, background: tmdbBackdrop } : ensureBackground(meta);
             meta.links = buildLinks(meta, 'movie');
             return { meta: applyPoster(meta, cfg), ...META_CACHE };
@@ -297,7 +298,7 @@ async function buildMetaResponse(type, requestId, cfg = null) {
         const sid = found.id || found.imdb_id;
         if (!sid) return { meta: null };
         const [tmdbBackdrop, tmdb] = await Promise.all([
-            getBackdropFromTMDB(idForLookup, 'series'),
+            found.background ? Promise.resolve(null) : getBackdropFromTMDB(idForLookup, 'series'),
             getSeriesFromTMDB(sid)
         ]);
         const ownVideos = Array.isArray(found.videos) && found.videos.length ? found.videos : null;
@@ -314,6 +315,7 @@ async function buildMetaResponse(type, requestId, cfg = null) {
             releaseInfo: (tmdb && tmdb.releaseInfo) || found.releaseInfo,
             genres: Array.isArray(found.genres) ? found.genres : [],
             background: tmdbBackdrop || ensureBackground(found).background || '',
+            logo: found.logo || undefined,
             videos
         };
         meta.links = buildLinks(meta, 'series');

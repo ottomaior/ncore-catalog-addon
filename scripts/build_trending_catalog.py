@@ -28,6 +28,7 @@ if str(script_dir) not in sys.path:
 from tvdb_client import search_show_on_tvdb
 from omdb_client import OMDbClient
 from catalog_common import (
+    add_images,
     parse_movie_title,
     parse_series_title,
     extract_episode_info,
@@ -112,6 +113,16 @@ def _velocity(t):
     if days is None or days <= 0:
         return float(seeders)
     return seeders / (days + TRENDING_SMOOTH_DAYS)
+
+
+def _load_previous(path):
+    """Previously written list (image cache source); [] when missing/invalid."""
+    try:
+        with open(path, encoding='utf-8') as f:
+            data = json.load(f)
+        return data if isinstance(data, list) else []
+    except (OSError, ValueError):
+        return []
 
 
 def _uploaded_at(t):
@@ -284,6 +295,7 @@ def main():
         if len(movie_metas) % 10 == 0:
             print(f"  Film: {len(movie_metas)}/{TRENDING_COUNT}")
 
+    add_images(movie_metas, 'movie', TMDB_API_KEY, previous=_load_previous(out_file_movies))
     with open(out_file_movies, 'w', encoding='utf-8') as f:
         json.dump(movie_metas, f, ensure_ascii=False, indent=2)
     print(f"✓ {len(movie_metas)} trendi film → {out_file_movies.name}\n")
@@ -364,6 +376,7 @@ def main():
         if len(series_metas) % 10 == 0:
             print(f"  Sorozat: {len(series_metas)}/{TRENDING_COUNT}")
 
+    add_images(series_metas, 'tv', TMDB_API_KEY, previous=_load_previous(out_file_series))
     with open(out_file_series, 'w', encoding='utf-8') as f:
         json.dump(series_metas, f, ensure_ascii=False, indent=2)
     print(f"✓ {len(series_metas)} trendi sorozat → {out_file_series.name}")

@@ -36,6 +36,9 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python scripts/split_catalogs_by_provider.py
 
+      - name: Check catalog output (fail on empty / shrunken files)
+        run: python scripts/check_catalog_output.py data/netflix_movies.json data/netflix_series.json data/disneyplus_movies.json data/disneyplus_series.json data/hbomax_movies.json data/hbomax_series.json data/prime_movies.json data/prime_series.json
+
       - name: Commit and push data
         if: success()
         run: |

@@ -15,6 +15,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from omdb_client import OMDbClient
 from catalog_common import (
+    add_images,
     parse_movie_title,
     is_likely_series,
     search_movie_on_tmdb,
@@ -252,6 +253,7 @@ def main():
     merged = merged[:TARGET_COUNT]
 
     out_file.parent.mkdir(parents=True, exist_ok=True)
+    add_images(merged, 'movie', TMDB_API_KEY, previous=existing_list)
     with open(out_file, 'w', encoding='utf-8') as f:
         json.dump(merged, f, ensure_ascii=False, indent=0)
     print(f'\n✓ {len(merged)} film mentve: {out_file}' + (f' (+{len(new_metas)} új/frissített)' if incremental else ''))

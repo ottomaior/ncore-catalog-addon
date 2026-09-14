@@ -159,3 +159,50 @@ def test_is_recently_aired():
     assert not cc.is_recently_aired({'last_air_date': '2025-09-01'}, 365, today)
     assert cc.is_recently_aired({}, 365, today)  # unknown -> keep
     assert cc.is_recently_aired({'last_air_date': 'garbage'}, 365, today)
+
+
+class _ImageSession:
+    def __init__(self):
+        self.calls = 0
+
+    def get(self, url, params=None, timeout=None):
+        self.calls += 1
+        if url == cc.TMDB_FIND_URL.format(imdb_id='tt1'):
+            return _Resp(200, {'movie_results': [{'id': 77}], 'tv_results': []})
+        if url == cc.TMDB_IMAGES_URL.format(media_type='movie', tmdb_id=77):
+            return _Resp(200, {
+                'backdrops': [
+                    {'file_path': '/en.jpg', 'iso_639_1': 'en', 'vote_average': 9},
+                    {'file_path': '/textless.jpg', 'iso_639_1': None, 'vote_average': 5},
+                ],
+                'logos': [
+                    {'file_path': '/logo-en.png', 'iso_639_1': 'en', 'vote_average': 9},
+                    {'file_path': '/logo-hu.png', 'iso_639_1': 'hu', 'vote_average': 1},
+                ],
+            })
+        return _Resp(404, {})
+
+
+def test_fetch_tmdb_images_prefers_textless_backdrop_and_hungarian_logo():
+    img = cc.fetch_tmdb_images('tt1', 'movie', 'key', delay=0, session=_ImageSession())
+    assert img == {'background': cc.TMDB_BACKDROP_PREFIX + '/textless.jpg', 'logo': cc.TMDB_LOGO_PREFIX + '/logo-hu.png'}
+    assert cc.fetch_tmdb_images('tt404', 'movie', 'key', delay=0, session=_ImageSession()) is None
+    assert cc.fetch_tmdb_images('tt1', 'movie', None, delay=0) is None
+
+
+def test_add_images_reuses_previous_and_respects_cap():
+    session = _ImageSession()
+    previous = [{'id': 'tt9', 'background': 'https://x/bg.jpg', 'logo': None}]
+    metas = [
+        {'id': 'tt9', 'name': 'cached'},
+        {'id': 'tt1', 'name': 'new'},
+        {'id': 'tt2', 'name': 'over cap'},
+        {'id': 'tt3', 'name': 'already', 'background': 'https://x/own.jpg'},
+    ]
+    fetched = cc.add_images(metas, 'movie', 'key', previous=previous, max_per_run=1, delay=0, session=session, log=lambda *_: None)
+    assert fetched == 1
+    assert metas[0]['background'] == 'https://x/bg.jpg'          # from previous JSON, no call
+    assert metas[1]['background'].endswith('/textless.jpg')     # fetched
+    assert 'background' not in metas[2]                          # cap reached
+    assert metas[3]['background'] == 'https://x/own.jpg'         # untouched
+    assert session.calls == 2                                    # find + images for tt1 only

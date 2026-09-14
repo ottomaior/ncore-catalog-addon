@@ -17,6 +17,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from omdb_client import OMDbClient
 from catalog_common import (
+    add_images,
     series_release_info,
     parse_series_title,
     extract_episode_info,
@@ -298,6 +299,7 @@ def main():
     merged = merged[:TARGET_COUNT]
 
     out_file.parent.mkdir(parents=True, exist_ok=True)
+    add_images(merged, 'tv', TMDB_API_KEY, previous=existing_list)
     with open(out_file, 'w', encoding='utf-8') as f:
         json.dump(merged, f, ensure_ascii=False, indent=0)
     print(f'\n✓ {len(merged)} sorozat mentve: {out_file}' + (f' (+{len(new_metas)} új/frissített)' if incremental else ''))

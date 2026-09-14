@@ -43,6 +43,9 @@ jobs:
           python scripts/build_most_seeded_series_catalog.py
           python scripts/filter_hungarian_productions_series.py
 
+      - name: Check catalog output (fail on empty / shrunken files)
+        run: python scripts/check_catalog_output.py data/most_seeded_movies.json data/most_seeded_series.json data/most_seeded_hungarian_productions_movies.json data/most_seeded_hungarian_productions_series.json
+
       - name: Commit and push data
         if: success()
         run: |

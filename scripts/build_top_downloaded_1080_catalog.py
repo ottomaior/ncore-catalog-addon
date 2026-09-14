@@ -38,6 +38,7 @@ if str(script_dir) not in sys.path:
 from tvdb_client import search_show_on_tvdb
 from omdb_client import OMDbClient
 from catalog_common import (
+    add_images,
     series_release_info,
     parse_movie_title,
     parse_series_title,
@@ -133,6 +134,16 @@ def should_skip_run(force):
 def write_state():
     data_dir.mkdir(parents=True, exist_ok=True)
     state_file.write_text(datetime.now(timezone.utc).isoformat(), encoding='utf-8')
+
+
+def _load_previous(path):
+    """Previously written list (image cache source); [] when missing/invalid."""
+    try:
+        with open(path, encoding='utf-8') as f:
+            data = json.load(f)
+        return data if isinstance(data, list) else []
+    except (OSError, ValueError):
+        return []
 
 
 def normalize_tt_id(imdb_id):
@@ -503,10 +514,12 @@ def main():
     except Exception:
         pass
 
+    add_images(movie_metas, 'movie', TMDB_API_KEY, previous=_load_previous(out_movies))
     with open(out_movies, 'w', encoding='utf-8') as f:
         json.dump(movie_metas, f, ensure_ascii=False, indent=0)
     print(f'\nSaved: {out_movies}')
 
+    add_images(series_metas, 'tv', TMDB_API_KEY, previous=_load_previous(out_series))
     with open(out_series, 'w', encoding='utf-8') as f:
         json.dump(series_metas, f, ensure_ascii=False, indent=0)
     print(f'Saved: {out_series}')

@@ -26,6 +26,7 @@ if str(script_dir) not in sys.path:
 from tvdb_client import search_show_on_tvdb
 from omdb_client import OMDbClient
 from catalog_common import (
+    add_images,
     series_release_info,
     parse_movie_title,
     parse_series_title,
@@ -327,6 +328,7 @@ def main():
     # Merge: new items first (newest uploads), then existing, trim to TARGET_COUNT
     merged_movies = (new_movie_metas + existing_movies)[:TARGET_COUNT]
 
+    add_images(merged_movies, 'movie', TMDB_API_KEY, previous=existing_movies)
     # Write movies JSON
     with open(out_file_movies, 'w', encoding='utf-8') as f:
         json.dump(merged_movies, f, ensure_ascii=False, indent=2)
@@ -466,6 +468,7 @@ def main():
     # Merge: new items first (newest uploads), then existing; dedupe by id (keep newest episode), then trim
     merged_series = dedupe_series_keep_newest(new_series_metas + existing_series)[:TARGET_COUNT]
 
+    add_images(merged_series, 'tv', TMDB_API_KEY, previous=existing_series)
     # Write series JSON
     with open(out_file_series, 'w', encoding='utf-8') as f:
         json.dump(merged_series, f, ensure_ascii=False, indent=2)
