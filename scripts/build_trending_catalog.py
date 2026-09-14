@@ -69,6 +69,8 @@ omdb = OMDbClient(OMDB_API_KEY)
 TORRENT_POOL = int(os.getenv('NCORE_TRENDING_POOL', '200'))
 TRENDING_COUNT = int(os.getenv('NCORE_TRENDING_COUNT', '30'))
 TRENDING_MIN_SEEDERS = int(os.getenv('NCORE_TRENDING_MIN_SEEDERS', '5'))  # skip torrents with fewer seeds
+# Added to the age (days) in the velocity formula; 0 = pure seeds/day as before
+TRENDING_SMOOTH_DAYS = float(os.getenv('NCORE_TRENDING_SMOOTH_DAYS', '1'))
 # Only include movies with release year in [TRENDING_MIN_YEAR, TRENDING_MAX_YEAR] (e.g. 2025–2026 = recent & actually trending)
 TRENDING_MIN_YEAR = int(os.getenv('NCORE_TRENDING_MIN_YEAR', '2025'))
 TRENDING_MAX_YEAR = int(os.getenv('NCORE_TRENDING_MAX_YEAR', '2026'))
@@ -99,12 +101,26 @@ def _days_since_upload(t):
 
 
 def _velocity(t):
-    """Seeds per day (seed velocity). Fallback to raw seeders if date missing."""
+    """
+    Seed velocity = seeders / (days since upload + TRENDING_SMOOTH_DAYS).
+    The smoothing term keeps a torrent uploaded an hour ago with a handful of seeds from
+    outranking a genuinely popular one uploaded yesterday. Falls back to raw seeders
+    when the upload date is missing.
+    """
     seeders = _seeders_from_torrent(t)
     days = _days_since_upload(t)
     if days is None or days <= 0:
         return float(seeders)
-    return seeders / days
+    return seeders / (days + TRENDING_SMOOTH_DAYS)
+
+
+def _uploaded_at(t):
+    """ISO date of the upload (for debugging / display), or None."""
+    try:
+        d = t.get('date') if isinstance(t, dict) else t['date']
+        return d.strftime('%Y-%m-%d') if isinstance(d, datetime) else None
+    except (KeyError, TypeError, AttributeError):
+        return None
 
 
 def fetch_trending_movies(client):
@@ -263,6 +279,7 @@ def main():
             'releaseInfo': str(metadata['year']) if metadata.get('year') else None,
             'genres': metadata.get('genres') or [],
             'seeders': seeders,
+            'uploaded_at': _uploaded_at(t),
         })
         if len(movie_metas) % 10 == 0:
             print(f"  Film: {len(movie_metas)}/{TRENDING_COUNT}")
@@ -336,6 +353,7 @@ def main():
             'latest_season': new_season,
             'latest_episode': new_episode,
             'seeders': seeders,
+            'uploaded_at': _uploaded_at(t),
         }
         idx = next((i for i, s in enumerate(series_metas) if s.get('id') == imdb_id), None)
         if idx is not None:

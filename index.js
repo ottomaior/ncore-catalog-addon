@@ -225,7 +225,7 @@ function ensureBackground(meta) {
 
 /** Strip build-time-only fields Stremio has no use for. */
 function publicMeta(meta) {
-    const { latest_season: _s, latest_episode: _e, imdb_id: _i, downloads: _d, ...rest } = meta;
+    const { latest_season: _s, latest_episode: _e, imdb_id: _i, downloads: _d, seeders: _sd, uploaded_at: _u, ...rest } = meta;
     return rest;
 }
 
