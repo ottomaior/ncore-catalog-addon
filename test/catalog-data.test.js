@@ -97,7 +97,8 @@ test('filterMetasByGenre works on normalized metas and supports pseudo-filters',
         { id: 'tt3', genres: [{ name: 'Háborús' }], imdbRating: 6 },
         { id: 'tt4', genres: ['Action & Adventure'] },
         { id: 'tt5', genres: ['Sci-Fi & Fantasy'] },
-        { id: 'tt6' }
+        { id: 'tt6' },
+        { id: 'tt7', genres: ['Dráma'], imdbRating: 10, year: 2021 } // low-vote artifact, never "top rated"
     ].map(data.normalizeMeta);
     const ids = (genre) => data.filterMetasByGenre(list, genre).map(m => m.id);
     assert.deepEqual(ids('Vígjáték'), ['tt1', 'tt2']);
@@ -110,7 +111,10 @@ test('filterMetasByGenre works on normalized metas and supports pseudo-filters',
     assert.deepEqual(ids('Horror'), []);
     assert.deepEqual(ids('Legjobbra értékelt'), ['tt1', 'tt2']);
     assert.deepEqual(ids('Idei'), ['tt2']);
-    assert.equal(data.filterMetasByGenre(list, '').length, 6);
+    assert.equal(data.filterMetasByGenre(list, '').length, 7);
+    assert.equal(data.credibleTopRating({ imdbRating: 9.5 }), 9.5);
+    assert.equal(data.credibleTopRating({ imdbRating: '9.8' }), null);
+    assert.equal(data.credibleTopRating({ imdbRating: 7.4 }), null);
     assert.deepEqual(data.filterMetasByYear(list, '2020').map(m => m.id), ['tt1']);
 });
 
@@ -183,7 +187,7 @@ test('data sources load from disk, meta index resolves ids, derived catalogs are
 
     const topRated = data.getCatalogList(data.getCatalogDef('ncore-top-rated-movies'));
     for (let i = 1; i < topRated.length; i++) assert.ok(parseFloat(topRated[i - 1].imdbRating) >= parseFloat(topRated[i].imdbRating));
-    assert.ok(topRated.every(m => parseFloat(m.imdbRating) >= 7.5));
+    assert.ok(topRated.every(m => parseFloat(m.imdbRating) >= 7.5 && parseFloat(m.imdbRating) < 9.6));
     const classics = data.getCatalogList(data.getCatalogDef('ncore-classics-movies'));
     assert.ok(classics.every(m => parseInt(m.year, 10) < 2000));
     const docs = data.getCatalogList(data.getCatalogDef('ncore-documentaries-movies'));
