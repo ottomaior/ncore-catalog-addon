@@ -49,8 +49,8 @@ TMDB backdrops, episode lists and trailer lookups are cached in memory.
 
 Stremio renders a Board row as `{catalog name} - {Type}` and adds the type itself, so catalog names carry no
 "filmek / sorozatok" suffix. Each catalog has a `board` default; a catalog that is not on the Board gets a required
-`genre` extra, which Stremio treats as Discover-only. By default 10 rows are on the Board (Legfrissebb, Felkapott,
-Top Seed, Netflix, HBO Max per type); everything else is one click away in Discover.
+`genre` extra, which Stremio treats as Discover-only. By default every catalog is on the Board; users turn rows off in the picker, which keeps them
+available in Discover.
 
 - **Genres** are normalized to one Hungarian vocabulary on load (TMDB English, adjective forms and TVDB combos such as
   "Action & Adventure" all map to the same labels), so the dropdown filter and the Discover sidebar agree.

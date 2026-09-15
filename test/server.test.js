@@ -65,7 +65,7 @@ test('GET /api/catalog-options hides search catalogs and reports board defaults'
     assert.ok(body.length >= 23);
     assert.ok(body.every(o => !o.id.startsWith('ncore-search')));
     assert.equal(body.find(o => o.id === 'ncore-hd-movies').board, true);
-    assert.equal(body.find(o => o.id === 'ncore-prime-movies').board, false);
+    assert.ok(body.every(o => o.board === true), 'every catalog is on the Board by default');
 });
 
 test('GET /catalog sends per-catalog cache headers and honours skip/genre', async () => {
