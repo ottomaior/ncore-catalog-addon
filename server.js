@@ -1,10 +1,14 @@
-require('dotenv').config({ path: require('path').join(__dirname, 'config', 'config.env') });
+require('dotenv').config({ path: require('path').join(__dirname, 'config', 'config.env'), quiet: true });
 const express = require('express');
+const compression = require('compression');
 const { getRouter } = require('stremio-addon-sdk');
 const path = require('path');
+const fs = require('fs');
 const { exec } = require('child_process');
-const cron = require('node-cron');
 const multer = require('multer');
+
+const pkg = require('./package.json');
+const catalogData = require('./lib/catalog-data');
 
 // Import all addon builders
 const catalogBuilder = require('./index.js');
@@ -14,26 +18,41 @@ const subtitleBuilder = require('./subtitles/addon.js');
 const subtitlesService = require('./subtitles/upload-service.js');
 
 const app = express();
+app.disable('x-powered-by');
+app.set('trust proxy', 1); // Railway sits behind a proxy; needed for correct client IPs
+
+// gzip/brotli-less compression of JSON responses (catalog pages are 100 metas each)
+app.use(compression());
 
 // CORS: allow Stremio (and any client) to fetch manifest and addon resources from another origin
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     if (req.method === 'OPTIONS') {
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+        res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
         return res.sendStatus(204);
     }
     next();
 });
 
 // Static assets (e.g. logo.png for addon manifest)
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'), {
+    setHeaders: (res, filePath) => {
+        // Pages and styles change with deploys; images can be cached for a day.
+        const cacheable = /\.(png|jpg|jpeg|svg|ico|webp|woff2?)$/i.test(filePath);
+        res.setHeader('Cache-Control', cacheable ? 'public, max-age=86400' : 'no-cache');
+    }
+}));
 
 // Subtitles: ensure data dir and load index (must run before subtitle routes).
 // For persistence on Railway: add a Volume, mount it at /data, set env SUBTITLES_DATA_DIR=/data/subtitles.
 subtitlesService.ensureDir();
 subtitlesService.loadIndex();
 
-// Cron: run Python sync scripts every 3 hours (production)
+// Optional: refresh catalog JSON from a remote URL (e.g. raw GitHub) instead of redeploying.
+catalogData.startRemoteRefresh();
+
+// Python build scripts (used only by the /cron/build webhook; scheduled builds run in GitHub Actions)
 const isUnix = process.platform !== 'win32';
 const runScript = (scriptName, label, onDone) => {
     const scriptPath = path.join(__dirname, 'scripts', scriptName);
@@ -48,37 +67,6 @@ const runScript = (scriptName, label, onDone) => {
         if (typeof onDone === 'function') onDone();
     });
 };
-// Disabled: catalog builds run only via GitHub Actions. Uncomment to run schedules from this server.
-// if (isUnix) {
-//     cron.schedule('0 */3 * * *', () => {
-//         console.log('[Cron] Building latest movie/series catalogs...');
-//         runScript('build_latest_catalog.py', 'LatestCatalog', () => {
-//             console.log('[Cron] Splitting streaming catalogs by TMDB watch providers...');
-//             runScript('split_catalogs_by_provider.py', 'SplitByProvider');
-//         });
-//     });
-//     cron.schedule('0 3 * * 0', () => {
-//         console.log('[Cron] Building top-seeded movies catalog...');
-//         runScript('build_most_seeded_movies_catalog.py', 'TopSeededMovies', () => {
-//             console.log('[Cron] Filtering Hungarian productions (movies)...');
-//             runScript('filter_hungarian_productions.py', 'HungarianProductionsMovies', () => {
-//                 console.log('[Cron] Building top-seeded series catalog...');
-//                 runScript('build_most_seeded_series_catalog.py', 'TopSeededSeries', () => {
-//                     console.log('[Cron] Filtering Hungarian productions (series)...');
-//                     runScript('filter_hungarian_productions_series.py', 'HungarianProductionsSeries', () => {
-//                         console.log('[Cron] Splitting streaming catalogs by TMDB watch providers...');
-//                         runScript('split_catalogs_by_provider.py', 'SplitByProvider');
-//                     });
-//                 });
-//             });
-//         });
-//     });
-//     cron.schedule('0 */6 * * *', () => {
-//         console.log('[Cron] Building trending catalogs (HD 1080p, top seeded in last N pages)...');
-//         runScript('build_trending_catalog.py', 'TrendingCatalog');
-//     });
-//     console.log('[Cron] Scheduler – latest + split: every 3h; trending: every 6h; top-seeded + Magyar + split: weekly Sunday 03:00');
-// }
 
 // Get routers from all addons
 const catalogRouter = getRouter(catalogBuilder.getInterface());
@@ -86,31 +74,34 @@ const infoRouter = getRouter(infoBuilder.getInterface());
 const trailerRouter = getRouter(trailerBuilder);
 const subtitleRouter = getRouter(subtitleBuilder);
 
-// Health / status endpoint
+const startedAt = new Date();
+
+// Health / status endpoint: counts per catalog + data freshness per source
 app.get('/health', (req, res) => {
-    const catalog = require('./index.js');
-    const stats = catalog.getStats ? catalog.getStats() : {};
+    const stats = catalogBuilder.getStats ? catalogBuilder.getStats() : {};
+    res.setHeader('Cache-Control', 'no-store');
     res.json({
         status: 'ok',
-        addons: { catalog: '3.2.5', info: '3.2.2', trailers: '3.2.2', subtitles: '3.2.2' },
-        cron: isUnix ? 'active' : 'disabled',
+        version: pkg.version,
+        addons: { catalog: pkg.version, info: pkg.version, trailers: pkg.version, subtitles: pkg.version },
+        uptimeSeconds: Math.round(process.uptime()),
+        startedAt: startedAt.toISOString(),
+        builds: 'github-actions',
         ...stats
     });
 });
 
-// Trailer configure page (before /trailers router)
-app.get('/trailers/configure', (req, res) => {
-    res.sendFile(path.join(__dirname, 'trailers', 'public', 'configure.html'));
-});
+// The old trailer settings page produced URLs the addon never served; the addon has no options.
+app.get('/trailers/configure', (req, res) => res.redirect(301, '/trailers'));
 
 // Homepage (hub)
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
-// Addon pages (clean URLs)
-app.get('/catalog', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'catalog.html'));
-});
+// Addon pages (clean URLs). /configure is what Stremio opens for `behaviorHints.configurable`.
+const catalogPage = (req, res) => res.sendFile(path.join(__dirname, 'public', 'catalog.html'));
+app.get('/catalog', catalogPage);
+app.get('/configure', catalogPage);
 app.get('/trailers', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'trailers.html'));
 });
@@ -145,21 +136,25 @@ app.get('/api/catalog-options', (req, res) => {
     }
 });
 
-// Dynamic manifest: ?catalogs=id1,id2,... returns manifest with only those catalogs
+// Legacy dynamic manifest: ?catalogs=id1,id2,... (new installs use /c/<config>/manifest.json)
 app.get('/manifest.json', (req, res, next) => {
     const catalogsParam = req.query.catalogs;
     if (catalogsParam && typeof catalogsParam === 'string') {
         const ids = catalogsParam.split(',').map(s => s.trim()).filter(Boolean);
-        if (ids.length > 0 && catalogBuilder.getManifestForCatalogs) {
-            const manifest = catalogBuilder.getManifestForCatalogs(ids);
-            return res.json(manifest);
+        if (ids.length > 0) {
+            res.setHeader('Cache-Control', 'public, max-age=3600');
+            return res.json(catalogBuilder.getManifestForCatalogs(ids));
         }
     }
     next();
 });
 
+// Config in the URL path: /c/<base64url json>/manifest.json, /c/<cfg>/catalog/..., /c/<cfg>/meta/...
+app.use('/c/:config', catalogBuilder.createConfigRouter());
+app.get('/c/:config/configure', catalogPage);
+
 // Secured cron webhook: POST /cron/build with Authorization: Bearer <CRON_SECRET>
-// Used by external schedulers to trigger catalog build scripts.
+// Used by external schedulers to trigger catalog build scripts (requires Python on the host).
 app.post('/cron/build', (req, res) => {
     const secret = process.env.CRON_SECRET;
     const auth = req.headers.authorization;
@@ -177,10 +172,32 @@ app.post('/cron/build', (req, res) => {
     });
 });
 
-// Subtitles: upload and file serving (before /subtitles addon router)
+// ---------------------------------------------------------------------------
+// Subtitles: upload (rate limited) and file serving (before /subtitles addon router)
+// ---------------------------------------------------------------------------
+const UPLOAD_RATE_LIMIT = parseInt(process.env.SUBTITLE_UPLOAD_RATE_LIMIT || '10', 10); // uploads
+const UPLOAD_RATE_WINDOW_MS = 10 * 60 * 1000;                                            // per 10 min per IP
+const uploadHits = new Map(); // ip -> timestamps[]
+
+function uploadRateLimiter(req, res, next) {
+    const now = Date.now();
+    const ip = req.ip || req.socket.remoteAddress || 'unknown';
+    const recent = (uploadHits.get(ip) || []).filter(t => now - t < UPLOAD_RATE_WINDOW_MS);
+    if (recent.length >= UPLOAD_RATE_LIMIT) {
+        res.setHeader('Retry-After', Math.ceil((UPLOAD_RATE_WINDOW_MS - (now - recent[0])) / 1000));
+        return res.status(429).json({ error: 'Túl sok feltöltés, próbáld később (max 10 / 10 perc).' });
+    }
+    recent.push(now);
+    uploadHits.set(ip, recent);
+    if (uploadHits.size > 10000) {
+        for (const [k, v] of uploadHits) if (!v.some(t => now - t < UPLOAD_RATE_WINDOW_MS)) uploadHits.delete(k);
+    }
+    next();
+}
+
 const uploadSub = multer({
     storage: multer.memoryStorage(),
-    limits: { fileSize: 5 * 1024 * 1024 },
+    limits: { fileSize: 5 * 1024 * 1024, files: 1 },
     fileFilter: (req, file, cb) => {
         const ext = (file.originalname || '').toLowerCase().slice(-4);
         if (ext === '.srt' || ext === '.vtt') return cb(null, true);
@@ -188,7 +205,7 @@ const uploadSub = multer({
     }
 });
 
-app.post('/subtitles/upload', (req, res, next) => {
+app.post('/subtitles/upload', uploadRateLimiter, (req, res, next) => {
     uploadSub.single('subtitle')(req, res, (err) => {
         if (err) {
             if (err.code === 'LIMIT_FILE_SIZE') return res.status(400).json({ error: 'File too large (max 5 MB)' });
@@ -224,12 +241,12 @@ app.post('/subtitles/upload', (req, res, next) => {
 app.get('/subtitles/files/:filename', (req, res) => {
     const filePath = subtitlesService.getFilePath(req.params.filename);
     if (!filePath) return res.status(404).json({ error: 'Not found' });
-    const fs = require('fs');
     if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Not found' });
     const ext = path.extname(filePath).toLowerCase();
     const contentType = ext === '.vtt' ? 'text/vtt' : 'application/x-subrip';
     res.setHeader('Content-Type', contentType);
     res.setHeader('Content-Disposition', 'inline');
+    res.setHeader('Cache-Control', 'public, max-age=86400');
     res.sendFile(path.resolve(filePath));
 });
 
@@ -245,20 +262,23 @@ app.use('/info', infoRouter);
 app.use('/', catalogRouter);
 
 const PORT = process.env.PORT || 7000;
-app.listen(PORT, () => {
-    console.log(`\n${'='.repeat(60)}`);
-    console.log(`🇭🇺 nCore Stremio Addons Server`);
-    console.log(`${'='.repeat(60)}`);
-    console.log(`\n📍 Hub:        http://localhost:${PORT}/`);
-    console.log(`📍 Catalog:    http://localhost:${PORT}/catalog`);
-    console.log(`📍 Trailers:   http://localhost:${PORT}/trailers`);
-    console.log(`📍 Subtitles:  http://localhost:${PORT}/subtitles`);
-    console.log(`📍 Health:     http://localhost:${PORT}/health`);
-    console.log(`📍 Catalog:    http://localhost:${PORT}/manifest.json`);
-    console.log(`📍 Info:       http://localhost:${PORT}/info/manifest.json`);
-    console.log(`📍 Trailers:   http://localhost:${PORT}/trailers/manifest.json`);
-    console.log(`📍 Configure:  http://localhost:${PORT}/trailers/configure`);
-    console.log(`📍 Subtitles:  http://localhost:${PORT}/subtitles/manifest.json`);
-    console.log(`📍 Feliratok:  http://localhost:${PORT}/subtitles.html\n`);
-    console.log(`${'='.repeat(60)}\n`);
-});
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`\n${'='.repeat(60)}`);
+        console.log(`🇭🇺 nCore Stremio Addons Server v${pkg.version}`);
+        console.log(`${'='.repeat(60)}`);
+        console.log(`\n📍 Hub:        http://localhost:${PORT}/`);
+        console.log(`📍 Catalog:    http://localhost:${PORT}/catalog`);
+        console.log(`📍 Trailers:   http://localhost:${PORT}/trailers`);
+        console.log(`📍 Subtitles:  http://localhost:${PORT}/subtitles`);
+        console.log(`📍 Health:     http://localhost:${PORT}/health`);
+        console.log(`📍 Catalog:    http://localhost:${PORT}/manifest.json`);
+        console.log(`📍 Info:       http://localhost:${PORT}/info/manifest.json`);
+        console.log(`📍 Trailers:   http://localhost:${PORT}/trailers/manifest.json`);
+        console.log(`📍 Subtitles:  http://localhost:${PORT}/subtitles/manifest.json`);
+        console.log(`📍 Feliratok:  http://localhost:${PORT}/subtitles.html\n`);
+        console.log(`${'='.repeat(60)}\n`);
+    });
+}
+
+module.exports = app;

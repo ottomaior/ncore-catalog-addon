@@ -3,191 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nCore Stremio Addons – Magyar tartalom</title>
+    <title>nCore Stremio addonok – magyar filmek és sorozatok</title>
+    <meta name="description" content="Magyar filmek és sorozatok Stremióban az nCore trackerről: katalógus, előzetesek, feliratok.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg: #0d0d14;
-            --surface: rgba(22, 33, 62, 0.7);
-            --surface-hover: rgba(30, 45, 80, 0.9);
-            --border: rgba(123, 92, 250, 0.4);
-            --accent: #8b5cf6;
-            --accent-light: #a78bfa;
-            --text: #e2e8f0;
-            --text-muted: #94a3b8;
-            --success: #22c55e;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
-        body {
-            font-family: 'Outfit', system-ui, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            min-height: 100vh;
-            overflow-x: hidden;
-            background-image:
-                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(123, 92, 250, 0.15), transparent),
-                radial-gradient(ellipse 60% 40% at 100% 100%, rgba(139, 92, 246, 0.08), transparent);
-        }
-        .container { max-width: 640px; margin: 0 auto; padding: 2rem 1.5rem; }
-        header { text-align: center; margin-bottom: 2rem; }
-        header h1 {
-            font-size: 2rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #fff 0%, var(--accent-light) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 0.5rem;
-        }
-        header p { color: var(--text-muted); font-size: 1rem; }
-        .status-bar {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-            margin-bottom: 2rem;
-            padding: 0.5rem 1rem;
-            background: var(--surface);
-            border-radius: 999px;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-        .status-dot {
-            width: 8px; height: 8px; border-radius: 50%;
-            background: var(--success);
-            animation: pulse 2s infinite;
-        }
-        .status-dot.off { background: #64748b; animation: none; }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-        .hub-cards { display: flex; flex-direction: column; gap: 1rem; }
-        .hub-card {
-            display: block;
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 1.25rem 1.5rem;
-            text-decoration: none;
-            color: inherit;
-            transition: all 0.2s ease;
-        }
-        .hub-card:hover {
-            background: var(--surface-hover);
-            border-color: rgba(123, 92, 250, 0.6);
-            transform: translateY(-2px);
-        }
-        .hub-card-inner { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
-        .hub-card-icon {
-            width: 48px; height: 48px;
-            border-radius: 12px;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 1.5rem;
-            flex-shrink: 0;
-            background: rgba(123, 92, 250, 0.2);
-        }
-        .hub-card-text { flex: 1; min-width: 0; }
-        .hub-card h2 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 0.25rem;
-            display: flex;
-            align-items: center;
-            gap: 0.35rem;
-        }
-        .hub-card .tag {
-            display: inline-block;
-            background: linear-gradient(135deg, var(--accent), #6366f1);
-            color: white;
-            font-size: 0.6rem;
-            font-weight: 600;
-            padding: 0.15rem 0.4rem;
-            border-radius: 4px;
-        }
-        .hub-card .desc { color: var(--text-muted); font-size: 0.9rem; line-height: 1.5; }
-        .hub-card .cta {
-            flex-shrink: 0;
-            padding: 0.5rem 1rem;
-            border-radius: 10px;
-            font-size: 0.85rem;
-            font-weight: 500;
-            background: linear-gradient(135deg, var(--accent), #6366f1);
-            color: white;
-            transition: all 0.2s;
-        }
-        .hub-card:hover .cta {
-            box-shadow: 0 4px 16px rgba(123, 92, 250, 0.4);
-        }
-        footer {
-            text-align: center;
-            margin-top: 2.5rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid rgba(255,255,255,0.06);
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
-        footer a { color: var(--accent-light); text-decoration: none; }
-        footer a:hover { text-decoration: underline; }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/ui.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>nCore Stremio Addons</h1>
-            <p>Magyar filmek és sorozatok az nCore trackerről – katalógus, előzetesek, feliratok</p>
+    <div class="site">
+        <nav class="topbar">
+            <a class="wordmark" href="/" aria-current="page"><i></i>nCore Stremio</a>
+            <div class="topnav">
+                <a href="/catalog">Katalógus</a>
+                <a href="/trailers">Előzetesek</a>
+                <a href="/subtitles">Feliratok</a>
+            </div>
+        </nav>
+
+        <header class="masthead">
+            <h1>Magyar filmek és sorozatok, Stremióban.</h1>
+            <p>Három addon az nCore trackerre építve: katalógusok magyar címmel és poszterrel, magyar előzetesek, és közösségi feliratok. Telepítés egy kattintás.</p>
+            <div class="status" id="status"><i></i><span id="statusText">Ellenőrzés…</span></div>
         </header>
-        <div class="status-bar" id="statusBar">
-            <span class="status-dot"></span>
-            <span id="statusText">Ellenőrzés...</span>
-        </div>
-        <div class="hub-cards">
-            <a href="/catalog" class="hub-card">
-                <div class="hub-card-inner">
-                    <div class="hub-card-icon">📂</div>
-                    <div class="hub-card-text">
-                        <h2>Katalógus <span class="tag">FILMEK + SOROZATOK</span></h2>
-                        <p class="desc">Magyar nyelvű filmek és sorozatok nCore-ról, TMDB metaadatokkal. Válaszd ki a katalógusokat, majd telepítsd.</p>
-                    </div>
-                    <span class="cta">Részletek &amp; telepítés</span>
-                </div>
-            </a>
-            <a href="/trailers" class="hub-card">
-                <div class="hub-card-inner">
-                    <div class="hub-card-icon">🎬</div>
-                    <div class="hub-card-text">
-                        <h2>Magyar Előzetesek</h2>
-                        <p class="desc">Magyar szinkronos/feliratos előzetesek angol tartalékkal. YouTube magyar → angol keresés.</p>
-                    </div>
-                    <span class="cta">Részletek &amp; telepítés</span>
-                </div>
-            </a>
-            <a href="/subtitles" class="hub-card">
-                <div class="hub-card-inner">
-                    <div class="hub-card-icon">💬</div>
-                    <div class="hub-card-text">
-                        <h2>Magyar feliratok <span class="tag">FELIRATOK</span></h2>
-                        <p class="desc">Feliratok feltöltése IMDB ID alapján – .srt/.vtt megjelenik Stremioban lejátszáskor.</p>
-                    </div>
-                    <span class="cta">Részletek &amp; telepítés</span>
-                </div>
-            </a>
-        </div>
-        <footer>
-            <p>Stremio Hungarian Community · <a href="/health" target="_blank">/health</a></p>
-        </footer>
     </div>
+
+    <div class="strip" id="strip" aria-label="Most felkapott filmek nCore-on">
+        <div class="strip-track" id="stripTrack"></div>
+    </div>
+
+    <main class="site" style="padding-top:0">
+        <section class="addons" aria-label="Addonok">
+            <article class="addon-row">
+                <div>
+                    <h2><a href="/catalog">Katalógus</a></h2>
+                    <p>Legfrissebb, felkapott és top seed filmek és sorozatok, streaming szolgáltatók szerinti listák, keresés. Te döntöd el, mi kerül a főoldalra.</p>
+                    <div class="facts"><span><b id="factCatalogs">23</b> katalógus</span><span><b id="factItems">…</b> cím</span><span>frissül <b>3 óránként</b></span></div>
+                </div>
+                <div class="actions">
+                    <a class="btn btn-primary" href="/catalog">Katalógusok kiválasztása</a>
+                    <a class="btn" href="#" data-install="/manifest.json">Telepítés alapbeállítással</a>
+                </div>
+            </article>
+            <article class="addon-row">
+                <div>
+                    <h2><a href="/trailers">Magyar Előzetesek</a></h2>
+                    <p>Szinkronos vagy feliratos előzetes minden filmhez és sorozathoz, angol tartalékkal, ha magyar nincs.</p>
+                    <div class="facts"><span>forrás: <b>TMDB, YouTube</b></span></div>
+                </div>
+                <div class="actions">
+                    <a class="btn btn-primary" href="#" data-install="/trailers/manifest.json">Telepítés</a>
+                    <a class="btn" href="/trailers">Részletek</a>
+                </div>
+            </article>
+            <article class="addon-row">
+                <div>
+                    <h2><a href="/subtitles">Magyar feliratok</a></h2>
+                    <p>Feltöltöd a feliratot IMDb-azonosítóval, és lejátszáskor megjelenik a felirat választóban. Bárki hozzáadhat.</p>
+                    <div class="facts"><span>formátum: <b>.srt, .vtt</b></span></div>
+                </div>
+                <div class="actions">
+                    <a class="btn btn-primary" href="/subtitles.html">Felirat feltöltése</a>
+                    <a class="btn" href="#" data-install="/subtitles/manifest.json">Telepítés</a>
+                </div>
+            </article>
+        </section>
+
+        <footer class="site-footer">
+            <span>Stremio Hungarian Community · <a href="/health" target="_blank" rel="noopener">állapot</a> · <span id="versionText"></span></span>
+            <span>Metaadatok: <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a> és <a href="https://thetvdb.com/" target="_blank" rel="noopener">TheTVDB</a>. Streaming-listák forrása: <a href="https://www.justwatch.com/" target="_blank" rel="noopener">JustWatch</a>. Az oldal nem áll kapcsolatban az nCore-ral.</span>
+        </footer>
+    </main>
+
     <script>
+        const host = window.location.host;
+        document.querySelectorAll('[data-install]').forEach(a => {
+            a.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.location.href = 'stremio://' + host + a.dataset.install;
+            });
+        });
+
         fetch('/health')
             .then(r => r.json())
             .then(d => {
-                const total = (d.hdMoviesCount || 0) + (d.hdSeriesCount || 0) + (d.topSeededByGenreCount || 0) + (d.topSeededSeriesCount || 0) + (d.trendingMoviesCount || 0) + (d.trendingSeriesCount || 0) + (d.netflixMoviesCount || 0) + (d.netflixSeriesCount || 0) + (d.disneyplusMoviesCount || 0) + (d.disneyplusSeriesCount || 0) + (d.hbomaxMoviesCount || 0) + (d.hbomaxSeriesCount || 0) + (d.primeMoviesCount || 0) + (d.primeSeriesCount || 0);
-                document.getElementById('statusText').textContent = 'OK · ' + total + ' elem a katalógusokban';
+                const s = d.data && d.data.sources ? d.data.sources : {};
+                const total = Object.values(s).reduce((n, x) => n + (x.count || 0), 0);
+                document.getElementById('statusText').textContent = 'Működik, ' + total.toLocaleString('hu-HU') + ' cím a listákban';
+                document.getElementById('factItems').textContent = total.toLocaleString('hu-HU');
+                if (d.version) document.getElementById('versionText').textContent = 'v' + d.version;
             })
             .catch(() => {
-                document.querySelector('.status-dot').classList.add('off');
-                document.getElementById('statusText').textContent = 'Offline';
+                document.getElementById('status').classList.add('off');
+                document.getElementById('statusText').textContent = 'A szerver nem válaszol';
+                document.getElementById('factItems').textContent = '–';
             });
+
+        fetch('/catalog/movie/ncore-trending-movies.json')
+            .then(r => r.json())
+            .then(d => {
+                const metas = (d.metas || []).filter(m => m.poster).slice(0, 16);
+                if (!metas.length) { document.getElementById('strip').hidden = true; return; }
+                const item = (m) => '<a href="stremio://detail/movie/' + m.id + '" title="' + m.name.replace(/"/g, '&quot;') + '">' +
+                    '<img src="' + m.poster + '" alt="" loading="lazy"><span>' + m.name + '</span></a>';
+                // The track is doubled so the loop is seamless.
+                document.getElementById('stripTrack').innerHTML = metas.map(item).join('') + metas.map(item).join('');
+            })
+            .catch(() => { document.getElementById('strip').hidden = true; });
     </script>
 </body>
 </html>

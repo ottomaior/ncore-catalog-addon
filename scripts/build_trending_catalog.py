@@ -8,7 +8,6 @@ Output: data/trending_movies.json, data/trending_series.json.
 
 Usage: python scripts/build_trending_catalog.py
 """
-import re
 import sys
 import time
 import os
@@ -16,7 +15,6 @@ import json
 from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
-import requests
 
 try:
     sys.stdout.reconfigure(encoding='utf-8')
@@ -29,6 +27,17 @@ if str(script_dir) not in sys.path:
     sys.path.insert(0, str(script_dir))
 from tvdb_client import search_show_on_tvdb
 from omdb_client import OMDbClient
+from catalog_common import (
+    add_images,
+    parse_movie_title,
+    parse_series_title,
+    extract_episode_info,
+    is_likely_series,
+    seeders_from_torrent as _seeders_from_torrent,
+    search_movie_on_tmdb,
+    series_release_info,
+    is_recently_aired,
+)
 
 try:
     from ncoreparser import Client, SearchParamType, ParamSort, ParamSeq
@@ -57,16 +66,17 @@ NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 omdb = OMDbClient(OMDB_API_KEY)
 
 
-def _fmt_rating(x):
-    return '?' if x is None else f'{x:.1f}'
-
 # Pool = only consider this many most recent uploads; then rank by velocity, take top TRENDING_COUNT
 TORRENT_POOL = int(os.getenv('NCORE_TRENDING_POOL', '200'))
 TRENDING_COUNT = int(os.getenv('NCORE_TRENDING_COUNT', '30'))
 TRENDING_MIN_SEEDERS = int(os.getenv('NCORE_TRENDING_MIN_SEEDERS', '5'))  # skip torrents with fewer seeds
+# Added to the age (days) in the velocity formula; 0 = pure seeds/day as before
+TRENDING_SMOOTH_DAYS = float(os.getenv('NCORE_TRENDING_SMOOTH_DAYS', '1'))
 # Only include movies with release year in [TRENDING_MIN_YEAR, TRENDING_MAX_YEAR] (e.g. 2025–2026 = recent & actually trending)
 TRENDING_MIN_YEAR = int(os.getenv('NCORE_TRENDING_MIN_YEAR', '2025'))
 TRENDING_MAX_YEAR = int(os.getenv('NCORE_TRENDING_MAX_YEAR', '2026'))
+# Series: only shows that aired an episode within this many days (drops re-uploads of long-ended shows)
+TRENDING_SERIES_MAX_AGE_DAYS = int(os.getenv('NCORE_TRENDING_SERIES_MAX_AGE_DAYS', '365'))
 NCORE_PAGE_DELAY = float(os.getenv('NCORE_PAGE_DELAY', '2.0'))
 NCORE_PAGE_RETRIES = int(os.getenv('NCORE_PAGE_RETRIES', '3'))
 NCORE_RETRY_WAIT = float(os.getenv('NCORE_RETRY_WAIT', '10.0'))
@@ -74,108 +84,6 @@ TMDB_DELAY = 0.4
 
 # 1080p pattern (same as build_latest)
 PATTERN_1080 = '.1080'
-
-
-def search_movie_on_tmdb(clean_title, year, tmdb_key):
-    if not tmdb_key:
-        return None
-    variations = [
-        clean_title,
-        clean_title.replace(' and ', ' & '),
-        clean_title.replace(' & ', ' and '),
-    ]
-    for variation in variations:
-        try:
-            time.sleep(TMDB_DELAY)
-            search_url = f'https://api.themoviedb.org/3/search/movie?api_key={tmdb_key}&query={variation}&language=hu-HU'
-            if year:
-                search_url += f'&year={year}'
-            r = requests.get(search_url, timeout=10)
-            if r.status_code != 200:
-                continue
-            results = r.json().get('results', [])
-            if not results:
-                continue
-            tmdb_id = results[0]['id']
-            time.sleep(TMDB_DELAY)
-            details_url = f'https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={tmdb_key}&language=hu-HU'
-            r2 = requests.get(details_url, timeout=10)
-            if r2.status_code != 200:
-                continue
-            movie_data = r2.json()
-            imdb_id = movie_data.get('imdb_id')
-            if not imdb_id:
-                continue
-            return {
-                'imdb_id': imdb_id,
-                'title': movie_data.get('title'),
-                'poster_path': movie_data.get('poster_path'),
-                'genres': [g['name'] for g in movie_data.get('genres', [])],
-                'description': movie_data.get('overview', ''),
-                'year': int(movie_data.get('release_date', '')[:4]) if movie_data.get('release_date') else None,
-                'rating': movie_data.get('vote_average'),
-            }
-        except Exception:
-            continue
-    return None
-
-
-def parse_movie_title(title):
-    year_match = re.search(r'\.(\d{4})\.', title)
-    year = year_match.group(1) if year_match else None
-    clean = title[:year_match.start()] if year_match else title
-    clean = clean.replace('.', ' ').strip()
-    clean = ' '.join(clean.split())
-    return clean, year
-
-
-def parse_series_title(title):
-    year_match = re.search(r'\.(\d{4})\.', title)
-    year = year_match.group(1) if year_match else None
-    if year_match:
-        clean = title[:year_match.start()]
-    else:
-        cut_pattern = re.search(
-            r'[\s.](S\d+|E\d+|\d{3,4}[pi]|WEB-?DL|HDTV|BluRay|BRRip|DVDRip|PROPER|REPACK|AAC|DD\+?|DV|HDR|H\.26[45])',
-            title,
-            re.IGNORECASE,
-        )
-        clean = title[:cut_pattern.start()] if cut_pattern else title
-    clean = clean.replace('.', ' ').strip()
-    clean = ' '.join(clean.split())
-    return clean, year
-
-
-def extract_episode_info(title):
-    episode_match = re.search(r'S(\d{1,2})E(\d{1,2})', title, re.IGNORECASE)
-    if episode_match:
-        season = int(episode_match.group(1))
-        episode = int(episode_match.group(2))
-        return season, episode, f"S{season:02d}E{episode:02d}"
-    return None, None, None
-
-
-def is_likely_series(title):
-    if not title:
-        return False
-    return bool(re.search(r's\d{1,2}(?:e\d{1,2})?', title, re.IGNORECASE))
-
-
-def _seeders_from_torrent(t):
-    """ncoreparser Torrent exposes seed count via t['seed'] (no .seed attribute)."""
-    try:
-        if isinstance(t, dict):
-            return int(t.get('seeders') or t.get('seed_count') or t.get('seed') or 0)
-        if hasattr(t, '__getitem__'):
-            return int(t['seed'] or 0)
-        return int(
-            getattr(t, 'seeders', None)
-            or getattr(t, 'seed_count', None)
-            or getattr(t, 'seed', None)
-            or 0
-        )
-    except (TypeError, ValueError, KeyError):
-        return 0
 
 
 def _days_since_upload(t):
@@ -194,12 +102,36 @@ def _days_since_upload(t):
 
 
 def _velocity(t):
-    """Seeds per day (seed velocity). Fallback to raw seeders if date missing."""
+    """
+    Seed velocity = seeders / (days since upload + TRENDING_SMOOTH_DAYS).
+    The smoothing term keeps a torrent uploaded an hour ago with a handful of seeds from
+    outranking a genuinely popular one uploaded yesterday. Falls back to raw seeders
+    when the upload date is missing.
+    """
     seeders = _seeders_from_torrent(t)
     days = _days_since_upload(t)
     if days is None or days <= 0:
         return float(seeders)
-    return seeders / days
+    return seeders / (days + TRENDING_SMOOTH_DAYS)
+
+
+def _load_previous(path):
+    """Previously written list (image cache source); [] when missing/invalid."""
+    try:
+        with open(path, encoding='utf-8') as f:
+            data = json.load(f)
+        return data if isinstance(data, list) else []
+    except (OSError, ValueError):
+        return []
+
+
+def _uploaded_at(t):
+    """ISO date of the upload (for debugging / display), or None."""
+    try:
+        d = t.get('date') if isinstance(t, dict) else t['date']
+        return d.strftime('%Y-%m-%d') if isinstance(d, datetime) else None
+    except (KeyError, TypeError, AttributeError):
+        return None
 
 
 def fetch_trending_movies(client):
@@ -358,16 +290,18 @@ def main():
             'releaseInfo': str(metadata['year']) if metadata.get('year') else None,
             'genres': metadata.get('genres') or [],
             'seeders': seeders,
+            'uploaded_at': _uploaded_at(t),
         })
         if len(movie_metas) % 10 == 0:
             print(f"  Film: {len(movie_metas)}/{TRENDING_COUNT}")
 
+    add_images(movie_metas, 'movie', TMDB_API_KEY, previous=_load_previous(out_file_movies))
     with open(out_file_movies, 'w', encoding='utf-8') as f:
         json.dump(movie_metas, f, ensure_ascii=False, indent=2)
     print(f"✓ {len(movie_metas)} trendi film → {out_file_movies.name}\n")
 
     # ---------- SERIES ----------
-    print("Trending series (HDSER_HUN 1080p, seed velocity = seed/day)")
+    print(f"Trending series (HDSER_HUN 1080p, seed velocity = seed/day, csak az elmúlt {TRENDING_SERIES_MAX_AGE_DAYS} napban futó sorozatok)")
     series_torrents = fetch_trending_series(client)
     print(f"  Összesen {len(series_torrents)} torrent")
     series_torrents.sort(key=lambda t: _velocity(t), reverse=True)
@@ -396,6 +330,9 @@ def main():
         metadata = search_show_on_tvdb(clean_title, year, TVDB_API_KEY, TVDB_PIN, TMDB_API_KEY)
         if not metadata or not metadata.get('imdb_id'):
             continue
+        if not is_recently_aired(metadata, TRENDING_SERIES_MAX_AGE_DAYS):
+            print(f"  ⏭ nem aktuális sorozat (utolsó epizód: {metadata.get('last_air_date')}): {metadata.get('title') or clean_title}")
+            continue
         imdb_id = metadata['imdb_id']
         seeders = _seeders_from_torrent(t)
         display_title = metadata['title'] or clean_title
@@ -423,11 +360,12 @@ def main():
             'year': metadata.get('year'),
             'description': description,
             'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
-            'releaseInfo': str(metadata['year']) if metadata.get('year') else None,
+            'releaseInfo': series_release_info(metadata),
             'genres': metadata.get('genres') or [],
             'latest_season': new_season,
             'latest_episode': new_episode,
             'seeders': seeders,
+            'uploaded_at': _uploaded_at(t),
         }
         idx = next((i for i, s in enumerate(series_metas) if s.get('id') == imdb_id), None)
         if idx is not None:
@@ -438,6 +376,7 @@ def main():
         if len(series_metas) % 10 == 0:
             print(f"  Sorozat: {len(series_metas)}/{TRENDING_COUNT}")
 
+    add_images(series_metas, 'tv', TMDB_API_KEY, previous=_load_previous(out_file_series))
     with open(out_file_series, 'w', encoding='utf-8') as f:
         json.dump(series_metas, f, ensure_ascii=False, indent=2)
     print(f"✓ {len(series_metas)} trendi sorozat → {out_file_series.name}")

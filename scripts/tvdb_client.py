@@ -2,7 +2,6 @@
 TVDB API v4 client for series lookup.
 Used by catalog scripts for series only; movies and Hungarian filter stay on TMDB.
 """
-import os
 import time
 import requests
 
@@ -172,6 +171,9 @@ def _enrich_series_from_tmdb(imdb_id, tmdb_key):
             "poster_path": poster_path,
             "rating": float(vote_average) if vote_average is not None else None,
             "genres": genres,
+            "status": tv.get("status") or None,
+            "first_air_date": tv.get("first_air_date") or None,
+            "last_air_date": tv.get("last_air_date") or None,
         }
     except Exception:
         return None
@@ -289,6 +291,9 @@ def search_show_on_tvdb(clean_title, year, apikey, pin=None, tmdb_api_key=None):
                         result["rating"] = tmdb_data["rating"]
                     if tmdb_data.get("genres"):
                         result["genres"] = tmdb_data["genres"]
+                    for key in ("status", "first_air_date", "last_air_date"):
+                        if tmdb_data.get(key):
+                            result[key] = tmdb_data[key]
             return result
         except Exception:
             continue

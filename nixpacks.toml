@@ -1,3 +1,6 @@
+# Railway build. Python is only needed for the optional POST /cron/build webhook
+# (scheduled catalog builds run in GitHub Actions). Remove the python lines if you
+# don't use the webhook.
 [phases.setup]
 nixPkgs = ["nodejs_20", "python311", "python311Packages.pip", "python311Packages.virtualenv"]
 
@@ -5,11 +8,8 @@ nixPkgs = ["nodejs_20", "python311", "python311Packages.pip", "python311Packages
 cmds = [
     "npm install",
     "python -m venv /opt/venv",
-    ". /opt/venv/bin/activate && pip install -r python-requirements.txt"
+    ". /opt/venv/bin/activate && pip install -r requirements.txt"
 ]
-
-[phases.build]
-cmds = ["npm install"]
 
 [start]
 cmd = ". /opt/venv/bin/activate && node server.js"

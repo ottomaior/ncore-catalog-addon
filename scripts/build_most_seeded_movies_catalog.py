@@ -8,14 +8,18 @@ Fetches HD-HUN movies from nCore, matches to TMDB only (no Trakt), gets genres, 
 Usage: python scripts/build_most_seeded_movies_catalog.py
 Output: data/most_seeded_movies.json
 """
-import re
 import time
 import os
 import json
 from pathlib import Path
 from dotenv import load_dotenv
-import requests
 from omdb_client import OMDbClient
+from catalog_common import (
+    add_images,
+    parse_movie_title,
+    is_likely_series,
+    search_movie_on_tmdb,
+)
 
 try:
     from ncoreparser import Client, SearchParamType, ParamSort, ParamSeq
@@ -42,93 +46,11 @@ NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 omdb = OMDbClient(OMDB_API_KEY)
 
 
-def _fmt_rating(x):
-    return '?' if x is None else f'{x:.1f}'
-
 # Aim for this many torrents total; script paginates until TARGET_COUNT or no more pages.
 TARGET_COUNT = int(os.getenv('NCORE_CATALOG_TARGET_MOVIES', '1000'))
 # When extending existing file: fetch only this many nCore pages per run (faster incremental updates).
 NCORE_PAGES_PER_RUN = int(os.getenv('NCORE_PAGES_PER_RUN', '15'))
 TMDB_DELAY = 0.4  # Delay between TMDB API calls
-
-
-def search_movie_on_tmdb(clean_title, year, tmdb_key):
-    """
-    Search for movie on TMDB and return full metadata including IMDB ID.
-    Returns dict with all needed fields or None.
-    """
-    if not tmdb_key:
-        return None
-    
-    # Try multiple title variations
-    variations = [
-        clean_title,
-        clean_title.replace(' and ', ' & '),
-        clean_title.replace(' & ', ' and '),
-    ]
-    
-    for variation in variations:
-        try:
-            time.sleep(TMDB_DELAY)
-            # Search for movie
-            search_url = f'https://api.themoviedb.org/3/search/movie?api_key={tmdb_key}&query={variation}&language=hu-HU'
-            if year:
-                search_url += f'&year={year}'
-            
-            r = requests.get(search_url, timeout=10)
-            if r.status_code != 200:
-                continue
-            
-            results = r.json().get('results', [])
-            if not results:
-                continue
-            
-            # Get first result's full details
-            tmdb_id = results[0]['id']
-            
-            time.sleep(TMDB_DELAY)
-            details_url = f'https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={tmdb_key}&language=hu-HU'
-            r2 = requests.get(details_url, timeout=10)
-            if r2.status_code != 200:
-                continue
-            
-            movie_data = r2.json()
-            imdb_id = movie_data.get('imdb_id')  # ← IMDB ID here!
-            
-            if not imdb_id:
-                continue
-            
-            # Return all data in one go
-            return {
-                'imdb_id': imdb_id,
-                'title': movie_data.get('title'),
-                'poster_path': movie_data.get('poster_path'),
-                'genres': [g['name'] for g in movie_data.get('genres', [])],
-                'description': movie_data.get('overview', ''),
-                'year': int(movie_data.get('release_date', '')[:4]) if movie_data.get('release_date') else None,
-                'rating': movie_data.get('vote_average')
-            }
-        except Exception as e:
-            continue
-    
-    return None
-
-
-def parse_movie_title(title):
-    year_match = re.search(r'\.(\d{4})\.', title)
-    year = year_match.group(1) if year_match else None
-    clean = title[:year_match.start()] if year_match else title
-    clean = clean.replace('.', ' ').strip()
-    clean = ' '.join(clean.split())
-    return clean, year
-
-
-def is_likely_series(title):
-    if not title:
-        return False
-    return bool(re.search(r's\d{1,2}(?:e\d{1,2})?', title, re.IGNORECASE))
-
-
 
 
 # Delay between nCore page requests (seconds) – gentler pacing for 4000+ items
@@ -331,6 +253,7 @@ def main():
     merged = merged[:TARGET_COUNT]
 
     out_file.parent.mkdir(parents=True, exist_ok=True)
+    add_images(merged, 'movie', TMDB_API_KEY, previous=existing_list)
     with open(out_file, 'w', encoding='utf-8') as f:
         json.dump(merged, f, ensure_ascii=False, indent=0)
     print(f'\n✓ {len(merged)} film mentve: {out_file}' + (f' (+{len(new_metas)} új/frissített)' if incremental else ''))

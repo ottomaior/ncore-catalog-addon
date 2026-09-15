@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: catalog-data
+  cancel-in-progress: false
+
 jobs:
   build-topseeded:
     runs-on: ubuntu-latest
@@ -24,7 +28,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install ncoreparser requests python-dotenv
+        run: pip install -r requirements.txt
 
       - name: Build top-seeded and Magyar catalogs
         env:
@@ -39,11 +43,15 @@ jobs:
           python scripts/build_most_seeded_series_catalog.py
           python scripts/filter_hungarian_productions_series.py
 
+      - name: Check catalog output (fail on empty / shrunken files)
+        run: python scripts/check_catalog_output.py data/most_seeded_movies.json data/most_seeded_series.json data/most_seeded_hungarian_productions_movies.json data/most_seeded_hungarian_productions_series.json
+
       - name: Commit and push data
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin ${{ github.ref_name }} || true
           git add data/most_seeded_movies.json data/most_seeded_series.json \
                   data/most_seeded_hungarian_productions_movies.json \
                   data/most_seeded_hungarian_productions_series.json 2>/dev/null || true

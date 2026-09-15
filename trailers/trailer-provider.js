@@ -3,7 +3,7 @@
  * Fallback: HU dubbed (TMDB → YouTube) → HU subtitled (TMDB → YouTube) → EN (TMDB → YouTube)
  */
 
-require('dotenv').config({ path: './config/config.env' });
+require('dotenv').config({ path: './config/config.env', quiet: true });
 const fetch = require('node-fetch');
 
 const TMDB_BASE = 'https://api.themoviedb.org/3';

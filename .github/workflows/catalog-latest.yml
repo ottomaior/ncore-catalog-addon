@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: catalog-data
+  cancel-in-progress: false
+
 jobs:
   build-latest:
     runs-on: ubuntu-latest
@@ -24,7 +28,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install ncoreparser requests python-dotenv
+        run: pip install -r requirements.txt
 
       - name: Run build_latest_catalog.py
         env:
@@ -35,11 +39,15 @@ jobs:
           TVDB_PIN: ${{ secrets.TVDB_PIN }}
         run: python scripts/build_latest_catalog.py
 
+      - name: Check catalog output (fail on empty / shrunken files)
+        run: python scripts/check_catalog_output.py data/hd_movies.json data/hd_series.json
+
       - name: Commit and push data
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin ${{ github.ref_name }} || true
           git add data/hd_movies.json data/hd_series.json 2>/dev/null || true
           git status
           if ! git diff --staged --quiet 2>/dev/null; then
