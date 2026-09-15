@@ -3,7 +3,7 @@ Build the Felkapott (trending) catalogs: HD 1080p titles that are hot on nCore r
 
 Pool
   Every HD_HUN (movies) / HDSER_HUN (series) 1080p torrent uploaded in the last
-  NCORE_TRENDING_POOL_DAYS (14) days, capped at NCORE_TRENDING_POOL_MAX (600) torrents.
+  NCORE_TRENDING_POOL_DAYS (30) days, capped at NCORE_TRENDING_POOL_MAX (600) torrents.
   Pages are fetched newest first and reading stops at the first upload older than the window.
 
 Ranking (scripts/trending_rank.py)
@@ -12,7 +12,8 @@ Ranking (scripts/trending_rank.py)
   upload. Score = (seeds + 2 * leechers) / (age_days + 2) ** 0.7. Series take the best
   scoring episode of each show (no summing across episodes, which would favour daily shows).
   Floors after grouping: movies NCORE_TRENDING_MIN_SEEDERS (40), series
-  NCORE_TRENDING_MIN_SEEDERS_SERIES (30). Movies keep the release-year window
+  NCORE_TRENDING_MIN_SEEDERS_SERIES (30); when fewer than NCORE_TRENDING_COUNT (30) titles
+  reach the floor, the best of the rest fill the list so it is never short. Movies keep the release-year window
   (NCORE_TRENDING_MIN_YEAR..MAX_YEAR), series the recently-aired filter.
 
 Momentum (opt in: NCORE_TRENDING_MOMENTUM=1)
@@ -60,6 +61,7 @@ from trending_rank import (
     momentum_scorer,
     peers_from_torrent,
     rank_groups,
+    select_with_floor,
     upload_datetime,
 )
 
@@ -91,7 +93,7 @@ NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 omdb = OMDbClient(OMDB_API_KEY)
 
 # Pool: uploads from the last POOL_DAYS days, at most POOL_MAX torrents per category
-POOL_DAYS = float(os.getenv('NCORE_TRENDING_POOL_DAYS', '14'))
+POOL_DAYS = float(os.getenv('NCORE_TRENDING_POOL_DAYS', '30'))
 POOL_MAX = int(os.getenv('NCORE_TRENDING_POOL_MAX', '600'))
 TRENDING_COUNT = int(os.getenv('NCORE_TRENDING_COUNT', '30'))
 # Seed floors per title, after grouping releases (nCore median for popular HU 1080p is ~50)
@@ -234,11 +236,12 @@ def build_movies(client, state):
     groups = group_releases(releases)
     for g in groups.values():
         state.record(g['key'], g['seeds'], g['leech'])
-    ranked = rank_groups(groups, min_seeds=TRENDING_MIN_SEEDERS, scorer=_scorer(state))
-    print(f"  {len(groups)} film, {len(ranked)} a seed-küszöb felett")
+    ranked = rank_groups(groups, scorer=_scorer(state))
+    selected, backfilled = select_with_floor(ranked, TRENDING_MIN_SEEDERS, TRENDING_COUNT)
+    print(f"  {len(groups)} film, {len(selected) - backfilled} a seed-küszöb felett, {backfilled} feltöltve alulról")
 
     metas = []
-    for g in ranked[:TRENDING_COUNT]:
+    for g in selected:
         best = g['items'][0]
         metadata = best['metadata']
         imdb_id = g['key']
@@ -314,7 +317,7 @@ def build_series(client, state):
     groups = group_releases(releases)
     for g in groups.values():
         state.record(g['key'], g['seeds'], g['leech'])
-    ranked = rank_groups(groups, min_seeds=TRENDING_MIN_SEEDERS_SERIES, scorer=_scorer(state))
+    ranked = rank_groups(groups, scorer=_scorer(state))
 
     # One entry per show: the best scoring episode ranks it, the newest episode is displayed.
     shows = {}
@@ -328,14 +331,15 @@ def build_series(client, state):
         cand = g['items'][0]
         if is_newer_episode(cand.get('season'), cand.get('episode'), cur.get('season'), cur.get('episode')):
             entry['newest'] = cand
-    print(f"  {len(groups)} epizód, {len(shows)} sorozat a seed-küszöb felett")
+    # Rank shows by their best episode; shows under the seed floor only fill leftover slots.
+    show_rows = [dict(entry['best'], show=show_id, newest=entry['newest']) for show_id, entry in shows.items()]
+    selected, backfilled = select_with_floor(show_rows, TRENDING_MIN_SEEDERS_SERIES, TRENDING_COUNT)
+    print(f"  {len(groups)} epizód, {len(shows)} sorozat, {len(selected) - backfilled} a seed-küszöb felett, {backfilled} feltöltve alulról")
 
     metas = []
-    for show_id, entry in shows.items():
-        if len(metas) >= TRENDING_COUNT:
-            break
-        g = entry['best']
-        newest = entry['newest']
+    for g in selected:
+        show_id = g['show']
+        newest = g['newest']
         metadata = newest['metadata']
         display_title = metadata.get('title') or newest['clean']
         description = metadata.get('description') or 'Felkapott magyar HD 1080p sorozat – nCore.'

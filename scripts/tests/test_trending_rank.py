@@ -113,3 +113,17 @@ def test_momentum_scorer_falls_back_to_hot_score():
     assert scorer({'key': 'tt1', 'seeds': 150, 'leech': 5, 'age_days': 10}) == 60.0
     fallback = {'key': 'tt9', 'seeds': 500, 'leech': 0, 'age_days': 10}
     assert scorer(fallback) == tr.hot_score(500, 0, 10)
+
+
+def test_select_with_floor_backfills_from_below_floor():
+    ranked = [
+        {'key': 'a', 'seeds': 100, 'score': 9}, {'key': 'b', 'seeds': 10, 'score': 8},
+        {'key': 'c', 'seeds': 50, 'score': 7}, {'key': 'd', 'seeds': 5, 'score': 6},
+        {'key': 'e', 'seeds': 1, 'score': 5},
+    ]
+    sel, back = tr.select_with_floor(ranked, min_seeds=40, count=3)
+    assert [g['key'] for g in sel] == ['a', 'c', 'b'] and back == 1
+    sel, back = tr.select_with_floor(ranked, min_seeds=40, count=2)
+    assert [g['key'] for g in sel] == ['a', 'c'] and back == 0
+    sel, back = tr.select_with_floor(ranked, min_seeds=1000, count=10)
+    assert [g['key'] for g in sel] == list('abcde') and back == 5

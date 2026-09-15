@@ -37,7 +37,7 @@ GitHub Actions (cron) ─► scripts/*.py ─► data/*.json (committed) ─► 
 | Top downloaded | monthly (1st, 04:00) | `build_top_downloaded_1080_catalog.py` + filters | `top_downloaded_1080_*.json` |
 | CI | on push / PR | `npm test`, `pytest`, `pyflakes` | – |
 
-**Trending (Felkapott) ranking.** The pool is every 1080p upload of the last 14 days (cap 600 per category). Releases of the same title (WEB-DL, BluRay, x265...) are merged: seeds and leechers are summed and the age is taken from the earliest upload. Score = `(seeds + 2·leechers) / (age_days + 2)^0.7`, so an established 1000-seed title from last week stays above a 150-seed upload from this morning, while a genuinely hot new release still reaches the top. Movies need 40 seeds per title and a release year inside `NCORE_TRENDING_MIN_YEAR..MAX_YEAR`; series need 30 seeds per episode, are ranked by their best episode (never summed across episodes) and must have aired within a year. Every run also stores peer samples per title in `data/trending_state.json`; set the repository variable `NCORE_TRENDING_MOMENTUM=1` to rank by peers gained over the last 48 h instead (titles without history fall back to the score).
+**Trending (Felkapott) ranking.** The pool is every 1080p upload of the last 30 days (cap 600 per category). Releases of the same title (WEB-DL, BluRay, x265...) are merged: seeds and leechers are summed and the age is taken from the earliest upload. Score = `(seeds + 2·leechers) / (age_days + 2)^0.7`, so an established 1000-seed title from last week stays above a 150-seed upload from this morning, while a genuinely hot new release still reaches the top. Movies need 40 seeds per title and a release year inside `NCORE_TRENDING_MIN_YEAR..MAX_YEAR`; series need 30 seeds per episode (when fewer than 30 titles reach a floor, the best of the rest fill the list), are ranked by their best episode (never summed across episodes) and must have aired within a year. Every run also stores peer samples per title in `data/trending_state.json`; set the repository variable `NCORE_TRENDING_MOMENTUM=1` to rank by peers gained over the last 48 h instead (titles without history fall back to the score).
 
 Streaming catalogs are not built from nCore tags: they are derived from the latest catalogs through TMDB "where to watch"
 (Netflix = US region, the others = HU). That data comes from **JustWatch** and must be attributed when shown.
@@ -97,7 +97,7 @@ npm start                                         # http://localhost:7000
 | `SUBTITLE_UPLOAD_RATE_LIMIT` (default 10 per 10 min per IP) | server |
 | `DATA_REMOTE_BASE_URL`, `DATA_REMOTE_REFRESH_MINUTES` | server; see below |
 | `TMDB_IMAGES_MAX_PER_RUN` (default 400) | scripts; TMDB image lookups per build run |
-| `NCORE_TRENDING_POOL_DAYS` (14), `NCORE_TRENDING_POOL_MAX` (600), `NCORE_TRENDING_MIN_SEEDERS` (40), `NCORE_TRENDING_MIN_SEEDERS_SERIES` (30), `NCORE_TRENDING_SERIES_MAX_AGE_DAYS` (365) | trending script |
+| `NCORE_TRENDING_POOL_DAYS` (30), `NCORE_TRENDING_POOL_MAX` (600), `NCORE_TRENDING_MIN_SEEDERS` (40), `NCORE_TRENDING_MIN_SEEDERS_SERIES` (30), `NCORE_TRENDING_SERIES_MAX_AGE_DAYS` (365) | trending script |
 | `NCORE_TRENDING_GRAVITY` (0.7), `NCORE_TRENDING_LEECH_WEIGHT` (2), `NCORE_TRENDING_MOMENTUM` (0) | trending ranking; see below |
 | `CRON_SECRET` | server; enables `POST /cron/build` |
 

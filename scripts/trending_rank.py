@@ -127,6 +127,20 @@ def rank_groups(groups, min_seeds=0, scorer=None):
     return ranked
 
 
+def select_with_floor(ranked, min_seeds, count):
+    """
+    The top `count` groups of a ranked list, preferring those with at least min_seeds seeds.
+    When fewer than `count` titles reach the floor the best of the rest (still in score
+    order) fill the remaining slots, so the catalog never shows a short list in a quiet week.
+    Returns (selected, backfilled_count).
+    """
+    above = [g for g in ranked if g['seeds'] >= min_seeds]
+    below = [g for g in ranked if g['seeds'] < min_seeds]
+    selected = above[:count]
+    backfill = below[:max(count - len(selected), 0)]
+    return selected + backfill, len(backfill)
+
+
 class TrendingState:
     """
     Per-title peer samples from previous runs: {key: [[unix_hours, seeds, leech], ...]}.

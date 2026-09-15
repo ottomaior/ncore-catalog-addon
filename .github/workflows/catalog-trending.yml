@@ -1,4 +1,4 @@
-# Felkapott / trending (top 30 by peer score from the last 14 days of uploads) – every 6 hours.
+# Felkapott / trending (top 30 by peer score from the last 30 days of uploads) – every 6 hours.
 # Also persists data/trending_state.json (peer samples for the momentum ranking). Pushes data → Railway auto-deploys.
 name: Catalog – Trending (6h)
 
@@ -53,6 +53,6 @@ jobs:
           git add data/trending_movies.json data/trending_series.json data/trending_state.json 2>/dev/null || true
           git status
           if ! git diff --staged --quiet 2>/dev/null; then
-            git commit -m "chore(data): update trending catalog (top 30, 14-day pool)"
+            git commit -m "chore(data): update trending catalog (top 30, 30-day pool)"
             git push
           fi
