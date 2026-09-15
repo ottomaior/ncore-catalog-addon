@@ -11,7 +11,13 @@ import catalog_common as cc  # noqa: E402
 @pytest.mark.parametrize('title, expected', [
     ('Dune.Part.Two.2024.1080p.BluRay.x264-HUN', ('Dune Part Two', '2024')),
     ('Oppenheimer.2023.HUN.1080p.WEB-DL.DDP5.1.H.264', ('Oppenheimer', '2023')),
-    ('Some.Movie.Without.Year.1080p', ('Some Movie Without Year 1080p', None)),
+    ('Some.Movie.Without.Year.1080p', ('Some Movie Without Year', None)),
+    ('Alba Vulva 1080p', ('Alba Vulva', None)),
+    ('Tragacsparádé 1080p REMUX', ('Tragacsparádé', None)),
+    ('Szeurum.1080p.WEB-DL.HUN', ('Szeurum', None)),
+    ('Fukusima - Döntés nyomás alatt 1080i', ('Fukusima - Döntés nyomás alatt', None)),
+    ('Hunter.Killer.1080p', ('Hunter Killer', None)),  # 'HUN' inside a word is not a marker
+    ('1080p', ('1080p', None)),  # nothing before the marker -> keep original
     ('', ('', None)),
 ])
 def test_parse_movie_title(title, expected):

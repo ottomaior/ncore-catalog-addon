@@ -225,7 +225,8 @@ def build_movies(client, state):
                 unmatched.add(cache_key)
                 print(f"  ✗ nincs találat: {clean} ({year}, {seeds} seed)")
             continue
-        meta_year = metadata.get('year')
+        # TMDB may have no release date yet (upcoming Hungarian films): trust the release name's year then.
+        meta_year = metadata.get('year') or (int(year) if year else None)
         if meta_year is None or not (TRENDING_MIN_YEAR <= meta_year <= TRENDING_MAX_YEAR):
             continue
         imdb_id = str(metadata['imdb_id'])
@@ -258,10 +259,10 @@ def build_movies(client, state):
             'name': metadata.get('title') or best['clean'],
             'poster': _poster(metadata, imdb_id),
             'posterShape': 'poster',
-            'year': metadata.get('year'),
+            'year': meta_year,
             'description': metadata.get('description') or 'Felkapott magyar HD 1080p – nCore.',
             'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
-            'releaseInfo': str(metadata['year']) if metadata.get('year') else None,
+            'releaseInfo': str(meta_year) if meta_year else None,
             'genres': metadata.get('genres') or [],
             'seeders': g['seeds'],
             'leechers': g['leech'],
