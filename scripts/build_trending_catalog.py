@@ -50,6 +50,7 @@ from catalog_common import (
     extract_episode_info,
     is_newer_episode,
     is_likely_series,
+    is_sports_content,
     search_movie_on_tmdb,
     series_release_info,
     is_recently_aired,
@@ -287,7 +288,7 @@ def build_series(client, state):
         if seeds + leech <= 0:
             continue
         title = _title_of(t)
-        if not title:
+        if not title or is_sports_content(title):
             continue
         clean, year = parse_series_title(title)
         season, episode, episode_string = extract_episode_info(title)

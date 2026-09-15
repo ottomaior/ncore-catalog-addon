@@ -5,6 +5,8 @@ Used by catalog scripts for series only; movies and Hungarian filter stay on TMD
 import time
 import requests
 
+from catalog_common import _title_similarity
+
 BASE_URL = "https://api4.thetvdb.com/v4"
 TVDB_DELAY = 0.4  # Delay between API calls
 ARTWORK_BASE = "https://artworks.thetvdb.com/banners/"
@@ -13,6 +15,8 @@ TMDB_DELAY = 0.35  # Delay for TMDB enrichment calls
 TMDB_POSTER_PREFIX = "https://image.tmdb.org/t/p/w500"
 # TVDB language code for Hungarian (used for translations endpoint)
 LANG_HUN = "hun"
+# A TVDB search hit must be at least this similar to the nCore title to be accepted (0..1)
+MIN_TITLE_SIMILARITY = 0.6
 # Fallback poster artwork type id if /artwork/types is unavailable (TVDB often uses 2 for poster)
 _POSTER_ARTWORK_TYPE_ID = 2
 _artwork_type_cache = None
@@ -127,10 +131,33 @@ def _get_series_translation(headers, tvdb_id, lang=LANG_HUN):
         return None
 
 
+def _translation(tv, lang):
+    """(name, overview) from the appended TMDB translations for an ISO 639-1 code; empty strings when missing."""
+    for tr in ((tv.get("translations") or {}).get("translations") or []):
+        if tr.get("iso_639_1") == lang:
+            data = tr.get("data") or {}
+            return (data.get("name") or "").strip(), (data.get("overview") or "").strip()
+    return "", ""
+
+
+def pick_localized(hu_tmdb, hu_tvdb, en, original):
+    """
+    Display text for a series: TMDB Hungarian, then the TVDB Hungarian translation, then
+    English, then the original-language value. TMDB returns the original name (e.g. Chinese
+    or Swedish) when it has no Hungarian translation, so the caller must pass only a real
+    Hungarian translation as hu_tmdb.
+    """
+    for v in (hu_tmdb, hu_tvdb, en, original):
+        if v and str(v).strip():
+            return str(v).strip()
+    return ""
+
+
 def _enrich_series_from_tmdb(imdb_id, tmdb_key):
     """
-    Fetch TMDB TV details by IMDB id (hu-HU) for Hungarian name, overview, poster, rating, genres.
-    Returns dict with title, description, poster_path, rating, genres or None.
+    Fetch TMDB TV details by IMDB id for Hungarian name/overview, poster, rating, genres.
+    Returns dict with title/description (Hungarian translation only; None when TMDB has none),
+    title_en/description_en (English fallback), original_title, poster_path, rating, genres.
     """
     if not tmdb_key or not imdb_id:
         return None
@@ -152,22 +179,35 @@ def _enrich_series_from_tmdb(imdb_id, tmdb_key):
         time.sleep(TMDB_DELAY)
         r2 = requests.get(
             f"{TMDB_BASE}/tv/{tmdb_id}",
-            params={"api_key": tmdb_key, "language": "hu-HU"},
+            params={"api_key": tmdb_key, "language": "hu-HU", "append_to_response": "translations"},
             timeout=10,
         )
         if r2.status_code != 200:
             return None
         tv = r2.json()
-        name = (tv.get("name") or "").strip()
-        overview = (tv.get("overview") or "").strip()
+        original_name = (tv.get("original_name") or "").strip()
+        hu_name, hu_overview = _translation(tv, "hu")
+        en_name, en_overview = _translation(tv, "en")
+        if tv.get("original_language") == "hu":
+            hu_name = hu_name or original_name
+        if tv.get("original_language") == "en":
+            en_name = en_name or original_name
+        if not tv.get("translations"):
+            # translations not returned: trust the hu-HU name only when it differs from the original
+            name = (tv.get("name") or "").strip()
+            hu_name = name if name and name != original_name else ""
+            hu_overview = (tv.get("overview") or "").strip()
         poster_path = tv.get("poster_path")
         if poster_path and not poster_path.startswith("http"):
             poster_path = TMDB_POSTER_PREFIX + poster_path
         vote_average = tv.get("vote_average")
         genres = [g.get("name", "") for g in (tv.get("genres") or []) if g.get("name")]
         return {
-            "title": name or None,
-            "description": overview or None,
+            "title": hu_name or None,
+            "description": hu_overview or None,
+            "title_en": en_name or None,
+            "description_en": en_overview or None,
+            "original_title": original_name or None,
             "poster_path": poster_path,
             "rating": float(vote_average) if vote_average is not None else None,
             "genres": genres,
@@ -177,6 +217,56 @@ def _enrich_series_from_tmdb(imdb_id, tmdb_key):
         }
     except Exception:
         return None
+
+
+def _candidate_names(candidate):
+    """Every name TVDB search exposes for a candidate: name, aliases, per-language translations."""
+    names = [candidate.get("name") or "", candidate.get("title") or ""]
+    names += [a for a in (candidate.get("aliases") or []) if isinstance(a, str)]
+    trans = candidate.get("translations") or {}
+    if isinstance(trans, dict):
+        names += [v for v in trans.values() if isinstance(v, str)]
+    return [n for n in names if n]
+
+
+def score_tvdb_candidate(candidate, clean_title, year):
+    """
+    Score a TVDB /search result against the parsed nCore title: best title similarity over
+    the candidate's name, aliases and translations, plus a year bonus / penalty. Mirrors
+    score_tmdb_candidate so a Chinese show with a vaguely similar English alias no longer
+    beats the real match just because it was listed first with an IMDb id.
+    """
+    sim = max((_title_similarity(n, clean_title) for n in _candidate_names(candidate)), default=0.0)
+    score = sim
+    cand_year = candidate.get("year")
+    cand_year = int(cand_year) if isinstance(cand_year, (int, str)) and str(cand_year).isdigit() else None
+    if year and cand_year:
+        diff = abs(int(year) - cand_year)
+        if diff == 0:
+            score += 0.30
+        elif diff == 1:
+            score += 0.15
+        else:
+            score -= 0.20
+    return score
+
+
+def rank_tvdb_results(results, clean_title, year, min_similarity=MIN_TITLE_SIMILARITY, slack=0.15):
+    """
+    Candidates worth resolving, best score first. A candidate needs a name at least
+    min_similarity like the query, and no more than `slack` below the best similarity seen:
+    when an exact match exists but cannot be resolved to an IMDb id, a merely similar
+    show (The Perfect Couple for The Perfect Lie) must not be accepted in its place.
+    """
+    sims = [max((_title_similarity(n, clean_title) for n in _candidate_names(c)), default=0.0)
+            for c in results[:10]]
+    if not sims:
+        return []
+    floor = max(min_similarity, max(sims) - slack)
+    scored = [(score_tvdb_candidate(c, clean_title, year), -i, c)
+              for i, (c, sim) in enumerate(zip(results[:10], sims)) if sim >= floor]
+    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    return [c for _, _, c in scored]
 
 
 def search_show_on_tvdb(clean_title, year, apikey, pin=None, tmdb_api_key=None):
@@ -195,13 +285,16 @@ def search_show_on_tvdb(clean_title, year, apikey, pin=None, tmdb_api_key=None):
         clean_title.replace(" and ", " & "),
         clean_title.replace(" & ", " and "),
     ]
+    # Year-restricted searches first; a release year is often the upload year of an
+    # older show, so retry the same names without the year before giving up.
+    attempts = [(v, year) for v in variations] + ([(v, None) for v in variations] if year else [])
 
-    for variation in variations:
+    for variation, search_year in attempts:
         try:
             time.sleep(TVDB_DELAY)
             params = {"query": variation, "type": "series"}
-            if year:
-                params["year"] = int(year)
+            if search_year:
+                params["year"] = int(search_year)
             r = requests.get(
                 f"{BASE_URL}/search",
                 params=params,
@@ -214,24 +307,20 @@ def search_show_on_tvdb(clean_title, year, apikey, pin=None, tmdb_api_key=None):
             if not data:
                 continue
 
-            # Prefer a result that has IMDB in remote_ids (search returns remote_ids)
+            # Best title match first; take the first one we can resolve to an IMDb id.
             item = None
             imdb_id = None
-            for candidate in data:
+            for candidate in rank_tvdb_results(data, clean_title, year):
                 imdb_id = _get_imdb_from_remote_ids(candidate.get("remote_ids") or [])
                 if imdb_id:
                     item = candidate
                     break
-            if not item:
-                item = data[0]
-            if not imdb_id:
-                # Fetch extended to get remoteIds
-                tvdb_id = item.get("tvdb_id") or item.get("id")
-                if not tvdb_id:
+                cand_id = candidate.get("tvdb_id") or candidate.get("id")
+                if not cand_id:
                     continue
                 time.sleep(TVDB_DELAY)
                 r2 = requests.get(
-                    f"{BASE_URL}/series/{tvdb_id}/extended",
+                    f"{BASE_URL}/series/{cand_id}/extended",
                     headers=headers,
                     params={"short": "true"},
                     timeout=10,
@@ -241,18 +330,21 @@ def search_show_on_tvdb(clean_title, year, apikey, pin=None, tmdb_api_key=None):
                 ext = r2.json().get("data") or {}
                 imdb_id = _get_imdb_from_remote_ids(ext.get("remoteIds") or [])
                 if imdb_id:
+                    ext.setdefault("year", candidate.get("year"))
+                    ext.setdefault("image", candidate.get("image_url") or candidate.get("image"))
+                    ext.setdefault("translations", candidate.get("translations"))
                     item = ext
+                    break
             if not imdb_id:
                 continue
 
             tvdb_id = item.get("tvdb_id") or item.get("id")
             trans = _get_series_translation(headers, tvdb_id) if tvdb_id else None
-            if trans and (trans.get("name") or trans.get("overview")):
-                name = trans.get("name") or item.get("name") or item.get("title") or ""
-                overview = trans.get("overview") or item.get("overview") or ""
-            else:
-                name = item.get("name") or item.get("title") or ""
-                overview = item.get("overview") or ""
+            hun_name = (trans or {}).get("name") or ""
+            hun_overview = (trans or {}).get("overview") or ""
+            original_name = item.get("name") or item.get("title") or ""
+            name = hun_name or original_name
+            overview = hun_overview or item.get("overview") or ""
             year_val = item.get("year")
             if isinstance(year_val, str) and year_val.isdigit():
                 year_val = int(year_val)
@@ -281,10 +373,13 @@ def search_show_on_tvdb(clean_title, year, apikey, pin=None, tmdb_api_key=None):
             if tmdb_api_key:
                 tmdb_data = _enrich_series_from_tmdb(imdb_id, tmdb_api_key)
                 if tmdb_data:
-                    if tmdb_data.get("title"):
-                        result["title"] = tmdb_data["title"]
-                    if tmdb_data.get("description") is not None:
-                        result["description"] = tmdb_data["description"]
+                    result["title"] = pick_localized(
+                        tmdb_data.get("title"), hun_name, tmdb_data.get("title_en"),
+                        original_name or tmdb_data.get("original_title"),
+                    ) or name
+                    result["description"] = pick_localized(
+                        tmdb_data.get("description"), hun_overview, tmdb_data.get("description_en"), overview,
+                    )
                     if tmdb_data.get("poster_path"):
                         result["poster_path"] = tmdb_data["poster_path"]
                     if tmdb_data.get("rating") is not None:
