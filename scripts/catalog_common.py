@@ -20,6 +20,11 @@ _SERIES_CUT_PATTERN = re.compile(
     r'[\s.](S\d+|E\d+|\d{3,4}[pi]|WEB-?DL|HDTV|BluRay|BRRip|DVDRip|PROPER|REPACK|AAC|DD\+?|DV|HDR|H\.26[45])',
     re.IGNORECASE,
 )
+# Movie release names without a year ('Alba Vulva 1080p', 'Szeurum.1080p.REMUX'): cut at the first quality marker.
+_MOVIE_CUT_PATTERN = re.compile(
+    r'[\s.](\d{3,4}[pi]|REMUX|WEB-?DL|WEB|HDTV|BluRay|BDRip|BRRip|DVDRip|UHD|HDR|DV|x26[45]|H\.?26[45]|PROPER|REPACK)(?=[\s.\-]|$)',
+    re.IGNORECASE,
+)
 _YEAR_PATTERN = re.compile(r'\.(\d{4})\.')
 _EPISODE_PATTERN = re.compile(r'S(\d{1,2})E(\d{1,2})', re.IGNORECASE)
 _SEASON_MARKER_PATTERN = re.compile(r's\d{1,2}(?:e\d{1,2})?', re.IGNORECASE)
@@ -31,7 +36,7 @@ SPORTS_KEYWORDS = [
     'tennis', 'wimbledon', 'us open', 'australian open', 'french open',
     'olympics', 'olimpia', 'world cup', 'euro ', 'uefa', 'champions league',
     'boxing', 'wrestling', 'hockey', 'basketball', 'baseball', 'rugby',
-    'golf', 'racing', 'rally', 'superbike', 'moto2', 'moto3',
+    'golf', 'racing', 'rally', 'superbike', 'moto2', 'moto3', 'nascar', 'indycar',
     'liverpool', 'manchester', 'barcelona', 'real madrid', 'bayern', 'juventus',
     'futball', 'labdarúgás', 'kerékpár', 'boksz', 'forma-1', 'forma1',
 ]
@@ -50,12 +55,18 @@ def parse_movie_title(title):
     """
     nCore movie release name -> (clean title, year or None).
     Everything after the first ".YYYY." is dropped: 'Dune.Part.Two.2024.1080p.x264' -> ('Dune Part Two', '2024').
+    Without a year the name is cut at the first quality marker: 'Alba Vulva 1080p' -> ('Alba Vulva', None).
     """
-    title = title or ''
+    title = (title or '').strip()
     year_match = _YEAR_PATTERN.search(title)
     year = year_match.group(1) if year_match else None
-    clean = title[:year_match.start()] if year_match else title
-    return _clean_words(clean), year
+    if year_match:
+        clean = title[:year_match.start()]
+    else:
+        cut = _MOVIE_CUT_PATTERN.search(title)
+        clean = title[:cut.start()] if cut else title
+    clean = _clean_words(clean)
+    return (clean or _clean_words(title)), year
 
 
 def parse_series_title(title):
@@ -193,16 +204,19 @@ def search_movie_on_tmdb(clean_title, year, tmdb_key, delay=DEFAULT_TMDB_DELAY, 
         return None
     http = session or requests
     variations = [clean_title, clean_title.replace(' and ', ' & '), clean_title.replace(' & ', ' and ')]
+    # Year-filtered searches first; TMDB drops films with no release date from a year-filtered
+    # search (e.g. an upcoming Hungarian film), so retry without the year before giving up.
+    attempts = [(v, year) for v in variations] + ([(v, None) for v in variations] if year else [])
     seen = set()
-    for variation in variations:
-        if variation in seen:
+    for variation, search_year in attempts:
+        if (variation, search_year) in seen:
             continue
-        seen.add(variation)
+        seen.add((variation, search_year))
         try:
             time.sleep(delay)
             params = {'api_key': tmdb_key, 'query': variation, 'language': 'hu-HU'}
-            if year:
-                params['year'] = year
+            if search_year:
+                params['year'] = search_year
             r = http.get(TMDB_SEARCH_URL, params=params, timeout=timeout)
             if r.status_code != 200:
                 continue

@@ -1,18 +1,34 @@
 """
-Build trending catalogs: "hot" HD 1080p items from the most recent uploads (seed velocity).
-- Fetches the last TORRENT_POOL (200) torrents per category, sorted by upload (newest first).
-- Filters to HD_HUN (movies) / HDSER_HUN (series), pattern .1080 (1080p).
-- Movies: only release year in [TRENDING_MIN_YEAR, TRENDING_MAX_YEAR] (e.g. 2025–2026) so the list shows recently released, actually trending titles.
-- Sorts by seed velocity (seeders / days_since_upload); min TRENDING_MIN_SEEDERS; dedupes by IMDB, top TRENDING_COUNT.
-Output: data/trending_movies.json, data/trending_series.json.
+Build the Felkapott (trending) catalogs: HD 1080p titles that are hot on nCore right now.
 
-Usage: python scripts/build_trending_catalog.py
+Pool
+  Every HD_HUN (movies) / HDSER_HUN (series) 1080p torrent uploaded in the last
+  NCORE_TRENDING_POOL_DAYS (30) days, capped at NCORE_TRENDING_POOL_MAX (600) torrents.
+  Pages are fetched newest first and reading stops at the first upload older than the window.
+
+Ranking (scripts/trending_rank.py)
+  Releases are grouped per title (IMDb id after TMDB / TVDB matching; for series per
+  IMDb id + episode), seeds and leechers are summed and the age is that of the earliest
+  upload. Score = (seeds + 2 * leechers) / (age_days + 2) ** 0.7. Series take the best
+  scoring episode of each show (no summing across episodes, which would favour daily shows).
+  Floors after grouping: movies NCORE_TRENDING_MIN_SEEDERS (40), series
+  NCORE_TRENDING_MIN_SEEDERS_SERIES (30); when fewer than NCORE_TRENDING_COUNT (30) titles
+  reach the floor, the best of the rest fill the list so it is never short. Movies keep the release-year window
+  (NCORE_TRENDING_MIN_YEAR..MAX_YEAR), series the recently-aired filter.
+
+Momentum (opt in: NCORE_TRENDING_MOMENTUM=1)
+  data/trending_state.json keeps peer samples per title from previous runs (always written).
+  When enabled, titles are ranked by peers gained over the last 48 h; titles without usable
+  history use the score above. Turn it on once a few days of samples exist.
+
+Output: data/trending_movies.json, data/trending_series.json, data/trending_state.json.
+Usage:  python scripts/build_trending_catalog.py
 """
 import sys
 import time
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -32,11 +48,22 @@ from catalog_common import (
     parse_movie_title,
     parse_series_title,
     extract_episode_info,
+    is_newer_episode,
     is_likely_series,
-    seeders_from_torrent as _seeders_from_torrent,
+    is_sports_content,
     search_movie_on_tmdb,
     series_release_info,
     is_recently_aired,
+)
+from trending_rank import (
+    TrendingState,
+    days_since,
+    group_releases,
+    momentum_scorer,
+    peers_from_torrent,
+    rank_groups,
+    select_with_floor,
+    upload_datetime,
 )
 
 try:
@@ -50,6 +77,7 @@ config_file = project_root / 'config' / 'config.env'
 data_dir = project_root / 'data'
 out_file_movies = data_dir / 'trending_movies.json'
 out_file_series = data_dir / 'trending_series.json'
+state_file = data_dir / 'trending_state.json'
 
 if config_file.exists():
     load_dotenv(config_file)
@@ -65,54 +93,27 @@ NCORE_PASS = os.getenv('NCORE_PASS', '').strip()
 
 omdb = OMDbClient(OMDB_API_KEY)
 
-
-# Pool = only consider this many most recent uploads; then rank by velocity, take top TRENDING_COUNT
-TORRENT_POOL = int(os.getenv('NCORE_TRENDING_POOL', '200'))
+# Pool: uploads from the last POOL_DAYS days, at most POOL_MAX torrents per category
+POOL_DAYS = float(os.getenv('NCORE_TRENDING_POOL_DAYS', '30'))
+POOL_MAX = int(os.getenv('NCORE_TRENDING_POOL_MAX', '600'))
 TRENDING_COUNT = int(os.getenv('NCORE_TRENDING_COUNT', '30'))
-TRENDING_MIN_SEEDERS = int(os.getenv('NCORE_TRENDING_MIN_SEEDERS', '5'))  # skip torrents with fewer seeds
-# Added to the age (days) in the velocity formula; 0 = pure seeds/day as before
-TRENDING_SMOOTH_DAYS = float(os.getenv('NCORE_TRENDING_SMOOTH_DAYS', '1'))
-# Only include movies with release year in [TRENDING_MIN_YEAR, TRENDING_MAX_YEAR] (e.g. 2025–2026 = recent & actually trending)
+# Seed floors per title, after grouping releases (nCore median for popular HU 1080p is ~50)
+TRENDING_MIN_SEEDERS = int(os.getenv('NCORE_TRENDING_MIN_SEEDERS', '40'))
+TRENDING_MIN_SEEDERS_SERIES = int(os.getenv('NCORE_TRENDING_MIN_SEEDERS_SERIES', '30'))
+# Only include movies with release year in [TRENDING_MIN_YEAR, TRENDING_MAX_YEAR]
 TRENDING_MIN_YEAR = int(os.getenv('NCORE_TRENDING_MIN_YEAR', '2025'))
 TRENDING_MAX_YEAR = int(os.getenv('NCORE_TRENDING_MAX_YEAR', '2026'))
 # Series: only shows that aired an episode within this many days (drops re-uploads of long-ended shows)
 TRENDING_SERIES_MAX_AGE_DAYS = int(os.getenv('NCORE_TRENDING_SERIES_MAX_AGE_DAYS', '365'))
+# Rank by peers gained since the previous runs instead of the plain score (needs history in the state file)
+TRENDING_MOMENTUM = os.getenv('NCORE_TRENDING_MOMENTUM', '0').strip().lower() in ('1', 'true', 'yes')
 NCORE_PAGE_DELAY = float(os.getenv('NCORE_PAGE_DELAY', '2.0'))
 NCORE_PAGE_RETRIES = int(os.getenv('NCORE_PAGE_RETRIES', '3'))
 NCORE_RETRY_WAIT = float(os.getenv('NCORE_RETRY_WAIT', '10.0'))
-TMDB_DELAY = 0.4
+PAGE_SIZE = 25
 
 # 1080p pattern (same as build_latest)
 PATTERN_1080 = '.1080'
-
-
-def _days_since_upload(t):
-    """Return days since torrent upload; ncoreparser stores t['date'] as datetime. None if missing."""
-    try:
-        d = t.get('date') if isinstance(t, dict) else t['date']
-        if d is None:
-            return None
-        if isinstance(d, datetime):
-            now = datetime.now(d.tzinfo) if d.tzinfo else datetime.now()
-            delta = now - d
-            return max(delta.total_seconds() / 86400, 0.01)
-        return None
-    except (KeyError, TypeError, AttributeError):
-        return None
-
-
-def _velocity(t):
-    """
-    Seed velocity = seeders / (days since upload + TRENDING_SMOOTH_DAYS).
-    The smoothing term keeps a torrent uploaded an hour ago with a handful of seeds from
-    outranking a genuinely popular one uploaded yesterday. Falls back to raw seeders
-    when the upload date is missing.
-    """
-    seeders = _seeders_from_torrent(t)
-    days = _days_since_upload(t)
-    if days is None or days <= 0:
-        return float(seeders)
-    return seeders / (days + TRENDING_SMOOTH_DAYS)
 
 
 def _load_previous(path):
@@ -125,29 +126,29 @@ def _load_previous(path):
         return []
 
 
-def _uploaded_at(t):
-    """ISO date of the upload (for debugging / display), or None."""
+def _title_of(t):
     try:
-        d = t.get('date') if isinstance(t, dict) else t['date']
-        return d.strftime('%Y-%m-%d') if isinstance(d, datetime) else None
-    except (KeyError, TypeError, AttributeError):
-        return None
+        return (t['title'] or '').strip()
+    except Exception:
+        return ''
 
 
-def fetch_trending_movies(client):
-    """Fetch the last TORRENT_POOL (200) HD_HUN 1080p movies by upload (newest first)."""
-    if not hasattr(SearchParamType, 'HD_HUN'):
-        return []
-    all_torrents = []
+def fetch_pool(client, search_type, label):
+    """
+    Torrents of `search_type` (1080p) uploaded in the last POOL_DAYS days, newest first,
+    at most POOL_MAX. Stops at the first page whose last item is older than the window.
+    """
+    cutoff = datetime.now() - timedelta(days=POOL_DAYS)
+    pool = []
     page = 1
-    print(f"  Filmek: legutóbbi {TORRENT_POOL} torrent (1080p, feltöltés szerint)...")
-    while len(all_torrents) < TORRENT_POOL:
+    print(f"  {label}: 1080p feltöltések az elmúlt {POOL_DAYS:g} napból (max {POOL_MAX})...")
+    while len(pool) < POOL_MAX:
         torrents = None
         for attempt in range(1, NCORE_PAGE_RETRIES + 1):
             try:
                 result = client.search(
                     pattern=PATTERN_1080,
-                    type=SearchParamType.HD_HUN,
+                    type=search_type,
                     sort_by=ParamSort.UPLOAD,
                     sort_order=ParamSeq.DECREASING,
                     page=page,
@@ -158,58 +159,233 @@ def fetch_trending_movies(client):
                 if attempt < NCORE_PAGE_RETRIES:
                     time.sleep(NCORE_RETRY_WAIT)
                 else:
-                    print(f"  nCore film oldal {page} hiba: {e}")
-                    return all_torrents
+                    print(f"  nCore {label} oldal {page} hiba: {e}")
+                    return pool
         if not torrents:
             break
-        all_torrents.extend(torrents)
-        if len(all_torrents) >= TORRENT_POOL:
-            all_torrents = all_torrents[:TORRENT_POOL]
-            break
-        if len(torrents) < 25:
-            break
-        page += 1
-        time.sleep(NCORE_PAGE_DELAY)
-    return all_torrents
-
-
-def fetch_trending_series(client):
-    """Fetch the last TORRENT_POOL (200) HDSER_HUN 1080p series by upload (newest first)."""
-    if not hasattr(SearchParamType, 'HDSER_HUN'):
-        return []
-    all_torrents = []
-    page = 1
-    print(f"  Sorozatok: legutóbbi {TORRENT_POOL} torrent (1080p, feltöltés szerint)...")
-    while len(all_torrents) < TORRENT_POOL:
-        torrents = None
-        for attempt in range(1, NCORE_PAGE_RETRIES + 1):
-            try:
-                result = client.search(
-                    pattern=PATTERN_1080,
-                    type=SearchParamType.HDSER_HUN,
-                    sort_by=ParamSort.UPLOAD,
-                    sort_order=ParamSeq.DECREASING,
-                    page=page,
-                )
-                torrents = getattr(result, 'torrents', []) or []
+        reached_cutoff = False
+        for t in torrents:
+            uploaded = upload_datetime(t)
+            if uploaded is not None and uploaded < cutoff:
+                reached_cutoff = True
                 break
-            except Exception as e:
-                if attempt < NCORE_PAGE_RETRIES:
-                    time.sleep(NCORE_RETRY_WAIT)
-                else:
-                    print(f"  nCore sorozat oldal {page} hiba: {e}")
-                    return all_torrents
-        if not torrents:
-            break
-        all_torrents.extend(torrents)
-        if len(all_torrents) >= TORRENT_POOL:
-            all_torrents = all_torrents[:TORRENT_POOL]
-            break
-        if len(torrents) < 25:
+            pool.append(t)
+            if len(pool) >= POOL_MAX:
+                break
+        if reached_cutoff or len(pool) >= POOL_MAX or len(torrents) < PAGE_SIZE:
             break
         page += 1
         time.sleep(NCORE_PAGE_DELAY)
-    return all_torrents
+    return pool
+
+
+def _scorer(state):
+    if TRENDING_MOMENTUM:
+        return momentum_scorer(state)
+    return None
+
+
+def _poster(metadata, imdb_id):
+    poster_path = metadata.get('poster_path')
+    if poster_path and str(poster_path).startswith('http'):
+        return poster_path
+    if poster_path:
+        return f'https://image.tmdb.org/t/p/w500{poster_path}'
+    return f'https://images.metahub.space/poster/small/{imdb_id}/img'
+
+
+def _uploaded_at(group):
+    """ISO date of the earliest upload in the group (oldest release is last in items)."""
+    dates = [r.get('uploaded') for r in group['items'] if r.get('uploaded') is not None]
+    return min(dates).strftime('%Y-%m-%d') if dates else None
+
+
+def build_movies(client, state):
+    print(f"🎬 Felkapott filmek (HD_HUN 1080p, év: {TRENDING_MIN_YEAR}–{TRENDING_MAX_YEAR}, min. {TRENDING_MIN_SEEDERS} seed/cím)")
+    pool = fetch_pool(client, SearchParamType.HD_HUN, 'Filmek')
+    print(f"  Összesen {len(pool)} torrent a poolban")
+
+    releases = []
+    match_cache = {}  # (clean title, year) -> metadata or None; releases of one film share the lookup
+    unmatched = set()
+    for t in pool:
+        seeds, leech = peers_from_torrent(t)
+        if seeds + leech <= 0:
+            continue
+        title = _title_of(t)
+        if not title or is_likely_series(title):
+            continue
+        clean, year = parse_movie_title(title)
+        cache_key = (clean.lower(), year)
+        if cache_key not in match_cache:
+            match_cache[cache_key] = search_movie_on_tmdb(clean, year, TMDB_API_KEY)
+        metadata = match_cache[cache_key]
+        if not metadata or not metadata.get('imdb_id'):
+            if cache_key not in unmatched:
+                unmatched.add(cache_key)
+                print(f"  ✗ nincs találat: {clean} ({year}, {seeds} seed)")
+            continue
+        # TMDB may have no release date yet (upcoming Hungarian films): trust the release name's year then.
+        meta_year = metadata.get('year') or (int(year) if year else None)
+        if meta_year is None or not (TRENDING_MIN_YEAR <= meta_year <= TRENDING_MAX_YEAR):
+            continue
+        imdb_id = str(metadata['imdb_id'])
+        imdb_id = imdb_id if imdb_id.startswith('tt') else 'tt' + imdb_id
+        uploaded = upload_datetime(t)
+        releases.append({
+            'key': imdb_id, 'seeds': seeds, 'leech': leech,
+            'age_days': days_since(uploaded), 'uploaded': uploaded,
+            'metadata': metadata, 'clean': clean, 'year': meta_year,
+        })
+    print(f"  {len(releases)} release, {len(match_cache)} TMDB keresés")
+
+    groups = group_releases(releases)
+    for g in groups.values():
+        state.record(g['key'], g['seeds'], g['leech'])
+    ranked = rank_groups(groups, scorer=_scorer(state))
+    selected, backfilled = select_with_floor(ranked, TRENDING_MIN_SEEDERS, TRENDING_COUNT)
+    print(f"  {len(groups)} film, {len(selected) - backfilled} a seed-küszöb felett, {backfilled} feltöltve alulról")
+
+    metas = []
+    for g in selected:
+        best = g['items'][0]
+        metadata = best['metadata']
+        imdb_id = g['key']
+        meta_year = best.get('year')
+        tmdb_rating = round(metadata['rating'], 1) if metadata.get('rating') else None
+        imdb_rating = omdb.get_imdb_rating(imdb_id)
+        metas.append({
+            'id': imdb_id,
+            'type': 'movie',
+            'name': metadata.get('title') or best['clean'],
+            'poster': _poster(metadata, imdb_id),
+            'posterShape': 'poster',
+            'year': meta_year,
+            'description': metadata.get('description') or 'Felkapott magyar HD 1080p – nCore.',
+            'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
+            'releaseInfo': str(meta_year) if meta_year else None,
+            'genres': metadata.get('genres') or [],
+            'seeders': g['seeds'],
+            'leechers': g['leech'],
+            'releases': g['releases'],
+            'score': g['score'],
+            'uploaded_at': _uploaded_at(g),
+        })
+        if len(metas) % 10 == 0:
+            print(f"  Film: {len(metas)}/{TRENDING_COUNT}")
+
+    add_images(metas, 'movie', TMDB_API_KEY, previous=_load_previous(out_file_movies))
+    with open(out_file_movies, 'w', encoding='utf-8') as f:
+        json.dump(metas, f, ensure_ascii=False, indent=2)
+    print(f"✓ {len(metas)} felkapott film → {out_file_movies.name}\n")
+    return metas
+
+
+def build_series(client, state):
+    print(f"📺 Felkapott sorozatok (HDSER_HUN 1080p, az elmúlt {TRENDING_SERIES_MAX_AGE_DAYS} napban futó sorozatok, min. {TRENDING_MIN_SEEDERS_SERIES} seed/epizód)")
+    pool = fetch_pool(client, SearchParamType.HDSER_HUN, 'Sorozatok')
+    print(f"  Összesen {len(pool)} torrent a poolban")
+
+    releases = []
+    match_cache = {}  # (clean title, year) -> metadata / None
+    skipped_stale = set()
+    unmatched = set()
+    for t in pool:
+        seeds, leech = peers_from_torrent(t)
+        if seeds + leech <= 0:
+            continue
+        title = _title_of(t)
+        if not title or is_sports_content(title):
+            continue
+        clean, year = parse_series_title(title)
+        season, episode, episode_string = extract_episode_info(title)
+        cache_key = (clean.lower(), year)
+        if cache_key not in match_cache:
+            match_cache[cache_key] = search_show_on_tvdb(clean, year, TVDB_API_KEY, TVDB_PIN, TMDB_API_KEY)
+        metadata = match_cache[cache_key]
+        if not metadata or not metadata.get('imdb_id'):
+            if cache_key not in unmatched:
+                unmatched.add(cache_key)
+                print(f"  ✗ nincs találat: {clean} ({seeds} seed)")
+            continue
+        imdb_id = metadata['imdb_id']
+        if not is_recently_aired(metadata, TRENDING_SERIES_MAX_AGE_DAYS):
+            if imdb_id not in skipped_stale:
+                skipped_stale.add(imdb_id)
+                print(f"  ⏭ nem aktuális sorozat (utolsó epizód: {metadata.get('last_air_date')}): {metadata.get('title') or clean}")
+            continue
+        uploaded = upload_datetime(t)
+        # Releases of the same episode (WEB-DL, x265, ...) merge; different episodes stay apart.
+        ep_key = f"{imdb_id}:S{season}E{episode}" if season is not None else f"{imdb_id}:{title.lower()}"
+        releases.append({
+            'key': ep_key, 'show': imdb_id, 'seeds': seeds, 'leech': leech,
+            'age_days': days_since(uploaded), 'uploaded': uploaded,
+            'metadata': metadata, 'clean': clean,
+            'season': season, 'episode': episode, 'episode_string': episode_string,
+        })
+    print(f"  {len(releases)} release, {len(match_cache)} TVDB/TMDB keresés")
+
+    groups = group_releases(releases)
+    for g in groups.values():
+        state.record(g['key'], g['seeds'], g['leech'])
+    ranked = rank_groups(groups, scorer=_scorer(state))
+
+    # One entry per show: the best scoring episode ranks it, the newest episode is displayed.
+    shows = {}
+    for g in ranked:
+        show_id = g['items'][0]['show']
+        entry = shows.get(show_id)
+        if entry is None:
+            shows[show_id] = {'best': g, 'newest': g['items'][0]}
+            continue
+        cur = entry['newest']
+        cand = g['items'][0]
+        if is_newer_episode(cand.get('season'), cand.get('episode'), cur.get('season'), cur.get('episode')):
+            entry['newest'] = cand
+    # Rank shows by their best episode; shows under the seed floor only fill leftover slots.
+    show_rows = [dict(entry['best'], show=show_id, newest=entry['newest']) for show_id, entry in shows.items()]
+    selected, backfilled = select_with_floor(show_rows, TRENDING_MIN_SEEDERS_SERIES, TRENDING_COUNT)
+    print(f"  {len(groups)} epizód, {len(shows)} sorozat, {len(selected) - backfilled} a seed-küszöb felett, {backfilled} feltöltve alulról")
+
+    metas = []
+    for g in selected:
+        show_id = g['show']
+        newest = g['newest']
+        metadata = newest['metadata']
+        display_title = metadata.get('title') or newest['clean']
+        description = metadata.get('description') or 'Felkapott magyar HD 1080p sorozat – nCore.'
+        if newest.get('episode_string'):
+            display_title = f"{display_title} ({newest['episode_string']})"
+            description = f"🆕 Legújabb epizód: {newest['episode_string']}\n\n{description}"
+        tmdb_rating = round(metadata['rating'], 1) if metadata.get('rating') else None
+        imdb_rating = omdb.get_imdb_rating(show_id)
+        metas.append({
+            'id': show_id,
+            'type': 'series',
+            'name': display_title,
+            'poster': _poster(metadata, show_id),
+            'posterShape': 'poster',
+            'year': metadata.get('year'),
+            'description': description,
+            'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
+            'releaseInfo': series_release_info(metadata),
+            'genres': metadata.get('genres') or [],
+            'latest_season': newest.get('season'),
+            'latest_episode': newest.get('episode'),
+            'seeders': g['seeds'],
+            'leechers': g['leech'],
+            'releases': g['releases'],
+            'score': g['score'],
+            'uploaded_at': _uploaded_at(g),
+        })
+        if len(metas) % 10 == 0:
+            print(f"  Sorozat: {len(metas)}/{TRENDING_COUNT}")
+
+    add_images(metas, 'tv', TMDB_API_KEY, previous=_load_previous(out_file_series))
+    with open(out_file_series, 'w', encoding='utf-8') as f:
+        json.dump(metas, f, ensure_ascii=False, indent=2)
+    print(f"✓ {len(metas)} felkapott sorozat → {out_file_series.name}")
+    return metas
 
 
 def main():
@@ -221,6 +397,9 @@ def main():
         return 1
     if not TMDB_API_KEY:
         print("ERROR: TMDB_API_KEY missing.")
+        return 1
+    if not hasattr(SearchParamType, 'HD_HUN') or not hasattr(SearchParamType, 'HDSER_HUN'):
+        print("ERROR: ncoreparser has no HD_HUN / HDSER_HUN category.")
         return 1
 
     data_dir.mkdir(parents=True, exist_ok=True)
@@ -237,152 +416,18 @@ def main():
         print(f"❌ nCore login: {e}")
         return 1
 
-    # ---------- MOVIES ----------
-    print(f"🎬 Trendi filmek (HD_HUN 1080p, seed velocity, év: {TRENDING_MIN_YEAR}–{TRENDING_MAX_YEAR})")
-    movie_torrents = fetch_trending_movies(client)
-    print(f"  Összesen {len(movie_torrents)} torrent")
-    movie_torrents.sort(key=lambda t: _velocity(t), reverse=True)
+    state = TrendingState.load(state_file)
+    print(f"Rangsor: {'momentum (peer-növekedés 48 h)' if TRENDING_MOMENTUM else 'pontszám (seed + 2·leech) / (kor + 2)^0.7'}\n")
 
-    seen_imdb = set()
-    movie_metas = []
-    for t in movie_torrents:
-        if len(movie_metas) >= TRENDING_COUNT:
-            break
-        if _seeders_from_torrent(t) < TRENDING_MIN_SEEDERS:
-            continue
-        try:
-            title = (t['title'] or '').strip()
-        except Exception:
-            title = ''
-        if not title or is_likely_series(title):
-            continue
-        clean, year = parse_movie_title(title)
-        metadata = search_movie_on_tmdb(clean, year, TMDB_API_KEY)
-        if not metadata or not metadata.get('imdb_id'):
-            continue
-        meta_year = metadata.get('year')
-        if meta_year is None or not (TRENDING_MIN_YEAR <= meta_year <= TRENDING_MAX_YEAR):
-            continue
-        imdb_id = metadata['imdb_id']
-        imdb_id = imdb_id if str(imdb_id).startswith('tt') else 'tt' + str(imdb_id)
-        if imdb_id in seen_imdb:
-            continue
-        seen_imdb.add(imdb_id)
-        seeders = _seeders_from_torrent(t)
-        name = metadata['title'] or clean
-        poster_path = metadata.get('poster_path')
-        poster = (
-            f'https://image.tmdb.org/t/p/w500{poster_path}' if poster_path
-            else f'https://images.metahub.space/poster/small/{imdb_id}/img'
-        )
-        tmdb_rating = round(metadata['rating'], 1) if metadata.get('rating') else None
-        imdb_rating = omdb.get_imdb_rating(imdb_id)
-        description = metadata.get('description') or 'Trendi magyar HD 1080p – nCore.'
-        movie_metas.append({
-            'id': imdb_id,
-            'type': 'movie',
-            'name': name,
-            'poster': poster,
-            'posterShape': 'poster',
-            'year': metadata.get('year'),
-            'description': description,
-            'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
-            'releaseInfo': str(metadata['year']) if metadata.get('year') else None,
-            'genres': metadata.get('genres') or [],
-            'seeders': seeders,
-            'uploaded_at': _uploaded_at(t),
-        })
-        if len(movie_metas) % 10 == 0:
-            print(f"  Film: {len(movie_metas)}/{TRENDING_COUNT}")
+    build_movies(client, state)
+    build_series(client, state)
 
-    add_images(movie_metas, 'movie', TMDB_API_KEY, previous=_load_previous(out_file_movies))
-    with open(out_file_movies, 'w', encoding='utf-8') as f:
-        json.dump(movie_metas, f, ensure_ascii=False, indent=2)
-    print(f"✓ {len(movie_metas)} trendi film → {out_file_movies.name}\n")
-
-    # ---------- SERIES ----------
-    print(f"Trending series (HDSER_HUN 1080p, seed velocity = seed/day, csak az elmúlt {TRENDING_SERIES_MAX_AGE_DAYS} napban futó sorozatok)")
-    series_torrents = fetch_trending_series(client)
-    print(f"  Összesen {len(series_torrents)} torrent")
-    series_torrents.sort(key=lambda t: _velocity(t), reverse=True)
-
-    def _is_newer_episode(ns, ne, os, oe):
-        if ns is None or ne is None:
-            return False
-        if os is None or oe is None:
-            return True
-        return ns > os or (ns == os and ne > oe)
-
-    series_metas = []  # list to preserve velocity order; one entry per series id (newest episode)
-    for t in series_torrents:
-        if len(series_metas) >= TRENDING_COUNT:
-            break
-        if _seeders_from_torrent(t) < TRENDING_MIN_SEEDERS:
-            continue
-        try:
-            title = (t['title'] or '').strip()
-        except Exception:
-            title = ''
-        if not title:
-            continue
-        clean_title, year = parse_series_title(title)
-        new_season, new_episode, episode_string = extract_episode_info(title)
-        metadata = search_show_on_tvdb(clean_title, year, TVDB_API_KEY, TVDB_PIN, TMDB_API_KEY)
-        if not metadata or not metadata.get('imdb_id'):
-            continue
-        if not is_recently_aired(metadata, TRENDING_SERIES_MAX_AGE_DAYS):
-            print(f"  ⏭ nem aktuális sorozat (utolsó epizód: {metadata.get('last_air_date')}): {metadata.get('title') or clean_title}")
-            continue
-        imdb_id = metadata['imdb_id']
-        seeders = _seeders_from_torrent(t)
-        display_title = metadata['title'] or clean_title
-        if episode_string:
-            display_title = f"{display_title} ({episode_string})"
-        poster_path = metadata.get('poster_path')
-        if poster_path and poster_path.startswith('http'):
-            display_poster = poster_path
-        else:
-            display_poster = (
-                f'https://image.tmdb.org/t/p/w500{poster_path}' if poster_path
-                else f"https://images.metahub.space/poster/small/{imdb_id}/img"
-            )
-        description = metadata.get('description') or 'Trendi magyar HD 1080p sorozat – nCore.'
-        if episode_string:
-            description = f"🆕 Legújabb epizód: {episode_string}\n\n{description}"
-        tmdb_rating = round(metadata['rating'], 1) if metadata.get('rating') else None
-        imdb_rating = omdb.get_imdb_rating(imdb_id)
-        meta = {
-            'id': imdb_id,
-            'type': 'series',
-            'name': display_title,
-            'poster': display_poster,
-            'posterShape': 'poster',
-            'year': metadata.get('year'),
-            'description': description,
-            'imdbRating': imdb_rating if imdb_rating is not None else tmdb_rating,
-            'releaseInfo': series_release_info(metadata),
-            'genres': metadata.get('genres') or [],
-            'latest_season': new_season,
-            'latest_episode': new_episode,
-            'seeders': seeders,
-            'uploaded_at': _uploaded_at(t),
-        }
-        idx = next((i for i, s in enumerate(series_metas) if s.get('id') == imdb_id), None)
-        if idx is not None:
-            if _is_newer_episode(new_season, new_episode, series_metas[idx].get('latest_season'), series_metas[idx].get('latest_episode')):
-                series_metas[idx] = meta
-            continue
-        series_metas.append(meta)
-        if len(series_metas) % 10 == 0:
-            print(f"  Sorozat: {len(series_metas)}/{TRENDING_COUNT}")
-
-    add_images(series_metas, 'tv', TMDB_API_KEY, previous=_load_previous(out_file_series))
-    with open(out_file_series, 'w', encoding='utf-8') as f:
-        json.dump(series_metas, f, ensure_ascii=False, indent=2)
-    print(f"✓ {len(series_metas)} trendi sorozat → {out_file_series.name}")
+    state.prune()
+    state.save(state_file)
+    print(f"✓ {len(state.samples)} cím mintája → {state_file.name}")
 
     client.logout()
-    print("\n✅ Trendi katalógusok kész.")
+    print("\n✅ Felkapott katalógusok kész.")
     return 0
 
 
