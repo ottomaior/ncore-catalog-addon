@@ -235,7 +235,7 @@ def build_movies(client, state):
         releases.append({
             'key': imdb_id, 'seeds': seeds, 'leech': leech,
             'age_days': days_since(uploaded), 'uploaded': uploaded,
-            'metadata': metadata, 'clean': clean,
+            'metadata': metadata, 'clean': clean, 'year': meta_year,
         })
     print(f"  {len(releases)} release, {len(match_cache)} TMDB keresés")
 
@@ -251,6 +251,7 @@ def build_movies(client, state):
         best = g['items'][0]
         metadata = best['metadata']
         imdb_id = g['key']
+        meta_year = best.get('year')
         tmdb_rating = round(metadata['rating'], 1) if metadata.get('rating') else None
         imdb_rating = omdb.get_imdb_rating(imdb_id)
         metas.append({
