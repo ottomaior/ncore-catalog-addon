@@ -207,6 +207,7 @@ def build_movies(client, state):
 
     releases = []
     match_cache = {}  # (clean title, year) -> metadata or None; releases of one film share the lookup
+    unmatched = set()
     for t in pool:
         seeds, leech = peers_from_torrent(t)
         if seeds + leech <= 0:
@@ -220,6 +221,9 @@ def build_movies(client, state):
             match_cache[cache_key] = search_movie_on_tmdb(clean, year, TMDB_API_KEY)
         metadata = match_cache[cache_key]
         if not metadata or not metadata.get('imdb_id'):
+            if cache_key not in unmatched:
+                unmatched.add(cache_key)
+                print(f"  ✗ nincs találat: {clean} ({year}, {seeds} seed)")
             continue
         meta_year = metadata.get('year')
         if meta_year is None or not (TRENDING_MIN_YEAR <= meta_year <= TRENDING_MAX_YEAR):
@@ -283,6 +287,7 @@ def build_series(client, state):
     releases = []
     match_cache = {}  # (clean title, year) -> metadata / None
     skipped_stale = set()
+    unmatched = set()
     for t in pool:
         seeds, leech = peers_from_torrent(t)
         if seeds + leech <= 0:
@@ -297,6 +302,9 @@ def build_series(client, state):
             match_cache[cache_key] = search_show_on_tvdb(clean, year, TVDB_API_KEY, TVDB_PIN, TMDB_API_KEY)
         metadata = match_cache[cache_key]
         if not metadata or not metadata.get('imdb_id'):
+            if cache_key not in unmatched:
+                unmatched.add(cache_key)
+                print(f"  ✗ nincs találat: {clean} ({seeds} seed)")
             continue
         imdb_id = metadata['imdb_id']
         if not is_recently_aired(metadata, TRENDING_SERIES_MAX_AGE_DAYS):

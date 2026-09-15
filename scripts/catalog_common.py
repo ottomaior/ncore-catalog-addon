@@ -31,7 +31,7 @@ SPORTS_KEYWORDS = [
     'tennis', 'wimbledon', 'us open', 'australian open', 'french open',
     'olympics', 'olimpia', 'world cup', 'euro ', 'uefa', 'champions league',
     'boxing', 'wrestling', 'hockey', 'basketball', 'baseball', 'rugby',
-    'golf', 'racing', 'rally', 'superbike', 'moto2', 'moto3',
+    'golf', 'racing', 'rally', 'superbike', 'moto2', 'moto3', 'nascar', 'indycar',
     'liverpool', 'manchester', 'barcelona', 'real madrid', 'bayern', 'juventus',
     'futball', 'labdarúgás', 'kerékpár', 'boksz', 'forma-1', 'forma1',
 ]
