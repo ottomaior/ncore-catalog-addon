@@ -14,10 +14,10 @@
       "Rejtély",
       "Thriller"
     ],
-    "seeders": 1377,
-    "leechers": 236,
+    "seeders": 1522,
+    "leechers": 263,
     "releases": 1,
-    "score": 865.19,
+    "score": 931.453,
     "uploaded_at": "2026-09-14",
     "background": "https://image.tmdb.org/t/p/w1280/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/6vnoVTm4k6Dm1Q2fzSZm3Amb839.png"
@@ -38,10 +38,10 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1530,
-    "leechers": 59,
+    "seeders": 1602,
+    "leechers": 58,
     "releases": 2,
-    "score": 358.266,
+    "score": 369.902,
     "uploaded_at": "2026-09-08",
     "background": "https://image.tmdb.org/t/p/w1280/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/8FolvLu6ezWWihmIiIxf1JZopgZ.png"
@@ -60,10 +60,10 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 2424,
-    "leechers": 311,
+    "seeders": 2515,
+    "leechers": 329,
     "releases": 3,
-    "score": 341.89,
+    "score": 354.807,
     "uploaded_at": "2026-08-25",
     "background": "https://image.tmdb.org/t/p/w1280/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/dpJeRaieQysJAo9D8hv0300O3lf.png"
@@ -83,10 +83,10 @@
       "Rejtély",
       "Sci-Fi"
     ],
-    "seeders": 1285,
-    "leechers": 156,
+    "seeders": 1340,
+    "leechers": 166,
     "releases": 3,
-    "score": 148.214,
+    "score": 154.73,
     "uploaded_at": "2026-08-18",
     "background": "https://image.tmdb.org/t/p/w1280/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/j8iQuFrugLQkWBRbjpsG0QyPkWR.png"
@@ -105,38 +105,13 @@
       "Akció",
       "Háborús"
     ],
-    "seeders": 700,
-    "leechers": 100,
+    "seeders": 719,
+    "leechers": 112,
     "releases": 1,
-    "score": 148.03,
+    "score": 154.1,
     "uploaded_at": "2026-09-04",
     "background": "https://image.tmdb.org/t/p/w1280/1ebY06Gc1eUZcCoO7IoD4tWCFxm.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/dkMoBS0MANG7OtNwaB4w9Sj25o1.png"
-  },
-  {
-    "id": "tt29356163",
-    "type": "movie",
-    "name": "Mancs őrjárat: A dínófilm",
-    "poster": "https://image.tmdb.org/t/p/w500/6lm57GRC75ctSU1fOYapHl7tdby.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Hőseink útja ezúttal a dinoszauruszokhoz vezet, hiszen egy kis probléma adódott a dzsungelben. A nagysikerű Mancs őrjárat harmadik fejezetében ismét újabb kalandokban lehet részük kicsiknek és nagyoknak egyaránt.",
-    "imdbRating": 7.5,
-    "releaseInfo": "2026",
-    "genres": [
-      "Animációs",
-      "Kaland",
-      "Családi",
-      "Fantasy",
-      "Vígjáték"
-    ],
-    "seeders": 614,
-    "leechers": 3,
-    "releases": 1,
-    "score": 147.488,
-    "uploaded_at": "2026-09-09",
-    "background": "https://image.tmdb.org/t/p/w1280/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/hgatJWKssLcMcJNLowBH2GYk6Dx.png"
   },
   {
     "id": "tt34564059",
@@ -152,13 +127,38 @@
       "Thriller",
       "Akció"
     ],
-    "seeders": 776,
-    "leechers": 94,
+    "seeders": 807,
+    "leechers": 93,
     "releases": 1,
-    "score": 145.01,
+    "score": 148.522,
     "uploaded_at": "2026-09-02",
     "background": "https://image.tmdb.org/t/p/w1280/jzBWExXacS33rMQ2zLBrqIVweyG.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/96tqfPdAhH1olRz0VpSEZE3I4Ff.png"
+  },
+  {
+    "id": "tt29356163",
+    "type": "movie",
+    "name": "Mancs őrjárat: A dínófilm",
+    "poster": "https://image.tmdb.org/t/p/w500/6lm57GRC75ctSU1fOYapHl7tdby.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Hőseink útja ezúttal a dinoszauruszokhoz vezet, hiszen egy kis probléma adódott a dzsungelben. A nagysikerű Mancs őrjárat harmadik fejezetében ismét újabb kalandokban lehet részük kicsiknek és nagyoknak egyaránt.",
+    "imdbRating": 7.6,
+    "releaseInfo": "2026",
+    "genres": [
+      "Animációs",
+      "Kaland",
+      "Családi",
+      "Fantasy",
+      "Vígjáték"
+    ],
+    "seeders": 626,
+    "leechers": 2,
+    "releases": 1,
+    "score": 148.234,
+    "uploaded_at": "2026-09-09",
+    "background": "https://image.tmdb.org/t/p/w1280/6TSxLmwT7j1ugtKi8NyMmdzWAGj.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/hgatJWKssLcMcJNLowBH2GYk6Dx.png"
   },
   {
     "id": "tt29355505",
@@ -168,7 +168,7 @@
     "posterShape": "poster",
     "year": 2026,
     "description": "Woody, Buzz, Jessie és a banda többi tagja nehézségekbe ütközik, amikor a játékidőt érintő új fenyegetéssel kell szembenézniük: a technológiával.",
-    "imdbRating": 8.4,
+    "imdbRating": 8.3,
     "releaseInfo": "2026",
     "genres": [
       "Animációs",
@@ -176,10 +176,10 @@
       "Vígjáték",
       "Kaland"
     ],
-    "seeders": 1187,
-    "leechers": 172,
+    "seeders": 1227,
+    "leechers": 170,
     "releases": 3,
-    "score": 142.772,
+    "score": 145.708,
     "uploaded_at": "2026-08-18",
     "background": "https://image.tmdb.org/t/p/w1280/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/dpQ5yGNLRjEPh0mpX5iEYjqGEIJ.png"
@@ -199,10 +199,10 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 801,
-    "leechers": 2,
+    "seeders": 852,
+    "leechers": 5,
     "releases": 1,
-    "score": 127.639,
+    "score": 135.838,
     "uploaded_at": "2026-09-03",
     "background": "https://image.tmdb.org/t/p/w1280/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/j7PIy5Ej6EBzBDjhwkAgqELuUjl.png"
@@ -220,10 +220,10 @@
     "genres": [
       "Vígjáték"
     ],
-    "seeders": 293,
-    "leechers": 37,
+    "seeders": 308,
+    "leechers": 39,
     "releases": 1,
-    "score": 96.975,
+    "score": 100.707,
     "uploaded_at": "2026-09-10",
     "background": "https://image.tmdb.org/t/p/w1280/jJAn1IzFd09BlFDDQep8bDdQsXR.jpg"
   },
@@ -242,10 +242,10 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 761,
+    "seeders": 813,
     "leechers": 2,
     "releases": 1,
-    "score": 94.008,
+    "score": 99.97,
     "uploaded_at": "2026-08-28",
     "background": "https://image.tmdb.org/t/p/w1280/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/g7Xm4HcYoof7bdizGWJ9zLonE1H.png"
@@ -265,34 +265,13 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 584,
-    "leechers": 85,
+    "seeders": 602,
+    "leechers": 92,
     "releases": 2,
-    "score": 91.115,
+    "score": 94.586,
     "uploaded_at": "2026-08-27",
     "background": "https://image.tmdb.org/t/p/w1280/oV472EbPedkc5QzqolGc7sCgCnn.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/cY4p0HWXp3f6JR7nEAavODuoldP.png"
-  },
-  {
-    "id": "tt38616652",
-    "type": "movie",
-    "name": "Szép munka, csapat!",
-    "poster": "https://image.tmdb.org/t/p/w500/pa2RSVVS1FLx4NDItIpynjJtgI2.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Tío Mochales egykor a spanyol sajtipar vitathatatlan királynője volt. Ma már kissé megkopott vállalat, amely igyekszik fenntartani a látszatot. Legújabb nagy ötletük: vidéki csapatépítő tréninget szerveznek abban a faluban, ahol a céget alapították. Ám ami eredetileg a „hagyományos értékekhez” való visszatérést és az újrakapcsolódást szolgáló kiruccanásnak indult, csapdává válik, amikor kiderül, hogy leépítések várhatók – méghozzá jónéhány. A motiváló elvonulásnak ígért program hamarosan a hízelgés, az árulás és a kiszivárogtatások csataterévé válik.",
-    "imdbRating": 6.0,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték"
-    ],
-    "seeders": 244,
-    "leechers": 34,
-    "releases": 2,
-    "score": 89.361,
-    "uploaded_at": "2026-09-11",
-    "background": "https://image.tmdb.org/t/p/w1280/24JmHBUaZVmZRoEMjzejLL3sJc5.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/ivQkigjM2ueqYXgAnNPE34AWFza.png"
   },
   {
     "id": "tt7708226",
@@ -308,13 +287,34 @@
       "Akció",
       "Dráma"
     ],
-    "seeders": 450,
-    "leechers": 51,
+    "seeders": 473,
+    "leechers": 53,
     "releases": 3,
-    "score": 88.54,
+    "score": 92.291,
     "uploaded_at": "2026-09-03",
     "background": "https://image.tmdb.org/t/p/w1280/vmdt6nUXYX4mM0Ahcvh4bgHOjUt.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/ySBBs0KsJT6RwO5HktjXObSEQKL.png"
+  },
+  {
+    "id": "tt38616652",
+    "type": "movie",
+    "name": "Szép munka, csapat!",
+    "poster": "https://image.tmdb.org/t/p/w500/pa2RSVVS1FLx4NDItIpynjJtgI2.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Tío Mochales egykor a spanyol sajtipar vitathatatlan királynője volt. Ma már kissé megkopott vállalat, amely igyekszik fenntartani a látszatot. Legújabb nagy ötletük: vidéki csapatépítő tréninget szerveznek abban a faluban, ahol a céget alapították. Ám ami eredetileg a „hagyományos értékekhez” való visszatérést és az újrakapcsolódást szolgáló kiruccanásnak indult, csapdává válik, amikor kiderül, hogy leépítések várhatók – méghozzá jónéhány. A motiváló elvonulásnak ígért program hamarosan a hízelgés, az árulás és a kiszivárogtatások csataterévé válik.",
+    "imdbRating": 6.0,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték"
+    ],
+    "seeders": 248,
+    "leechers": 35,
+    "releases": 2,
+    "score": 89.792,
+    "uploaded_at": "2026-09-11",
+    "background": "https://image.tmdb.org/t/p/w1280/24JmHBUaZVmZRoEMjzejLL3sJc5.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/ivQkigjM2ueqYXgAnNPE34AWFza.png"
   },
   {
     "id": "tt33292601",
@@ -329,10 +329,10 @@
     "genres": [
       "Dráma"
     ],
-    "seeders": 111,
-    "leechers": 21,
+    "seeders": 115,
+    "leechers": 20,
     "releases": 1,
-    "score": 72.092,
+    "score": 70.968,
     "uploaded_at": "2026-09-14",
     "background": "https://image.tmdb.org/t/p/w1280/u0cRzzNrta1ra8iJVho2z9cJvKP.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/bFJDaQrbO7A0h32WhF4b9W06z2A.png"
@@ -354,13 +354,34 @@
       "Családi",
       "Fantasy"
     ],
-    "seeders": 513,
-    "leechers": 56,
+    "seeders": 538,
+    "leechers": 59,
     "releases": 2,
-    "score": 64.867,
+    "score": 67.855,
     "uploaded_at": "2026-08-22",
     "background": "https://image.tmdb.org/t/p/w1280/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/eNTcWb5xmQKzxqgNt493l30S4Tv.png"
+  },
+  {
+    "id": "tt31170389",
+    "type": "movie",
+    "name": "Gonosz halott: Égj!",
+    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
+    "imdbRating": 7.7,
+    "releaseInfo": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "seeders": 475,
+    "leechers": 58,
+    "releases": 1,
+    "score": 64.327,
+    "uploaded_at": "2026-08-24",
+    "background": "https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/9GjOPNa4QkoL7RiqBF4Uu1VEgjX.png"
   },
   {
     "id": "tt36073210",
@@ -376,34 +397,13 @@
       "Romantikus",
       "Thriller"
     ],
-    "seeders": 250,
-    "leechers": 3,
+    "seeders": 265,
+    "leechers": 1,
     "releases": 1,
-    "score": 60.491,
+    "score": 62.41,
     "uploaded_at": "2026-09-09",
     "background": "https://image.tmdb.org/t/p/w1280/i65y7cMae36K0giN0GRaMjAHUru.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/AbFVWXxZ76enpA1GHCq13CN8xGu.png"
-  },
-  {
-    "id": "tt31170389",
-    "type": "movie",
-    "name": "Gonosz halott: Égj!",
-    "poster": "https://image.tmdb.org/t/p/w500/5qPaPa2n7XQVqtQrhmrIrueKSLR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "Férje halála után egy nő vigaszt keres apósáéknál, távoli otthonukban. Ám amikor sorra Deadite-okká válnak, a családi összejövetel pokoli rémálommá alakul. Hamar ráébred, hogy az életében tett ígéretei még a halálon túl is számítanak.",
-    "imdbRating": 7.7,
-    "releaseInfo": "2026",
-    "genres": [
-      "Horror"
-    ],
-    "seeders": 445,
-    "leechers": 52,
-    "releases": 1,
-    "score": 59.973,
-    "uploaded_at": "2026-08-24",
-    "background": "https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/9GjOPNa4QkoL7RiqBF4Uu1VEgjX.png"
   },
   {
     "id": "tt18259538",
@@ -421,10 +421,10 @@
       "Fantasy",
       "Akció"
     ],
-    "seeders": 431,
-    "leechers": 51,
+    "seeders": 461,
+    "leechers": 55,
     "releases": 1,
-    "score": 54.519,
+    "score": 58.214,
     "uploaded_at": "2026-08-22",
     "background": "https://image.tmdb.org/t/p/w1280/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/n2k7sRagKYiME9i3WPRQ8n5omn8.png"
@@ -443,10 +443,10 @@
       "Sci-Fi",
       "Dráma"
     ],
-    "seeders": 200,
-    "leechers": 25,
+    "seeders": 218,
+    "leechers": 26,
     "releases": 1,
-    "score": 50.428,
+    "score": 53.992,
     "uploaded_at": "2026-09-07"
   },
   {
@@ -463,35 +463,55 @@
       "Vígjáték",
       "Dráma"
     ],
-    "seeders": 151,
+    "seeders": 154,
     "leechers": 2,
     "releases": 1,
-    "score": 39.829,
+    "score": 40.107,
     "uploaded_at": "2026-09-10",
     "background": "https://image.tmdb.org/t/p/w1280/4v8XgcmtUFVXUzGb7noltdjg2Ou.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/r3Njjs8PeIH5MlUKxBPRRJemWJz.png"
   },
   {
-    "id": "tt32123395",
+    "id": "tt40383229",
     "type": "movie",
-    "name": "Módosítva",
-    "poster": "https://image.tmdb.org/t/p/w500/jVgLvefoKxVK92bdycXwN2a2Sem.jpg",
+    "name": "Grace",
+    "poster": "https://image.tmdb.org/t/p/w500/42qz0xggymCZ1UfJs3oaRjZdUpj.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Egy alternatív jelenben a genetikailag feljavított emberek uralják a társadalmat. A kitaszított Leon és Chloe az igazságért harcol a genetikai egyenlőtlenségeket kihasználó korrupt politikusok ellen, és mindent kockára tesznek, hogy szembe szálljanak az elnyomó rendszerrel.",
-    "imdbRating": 5.7,
+    "description": "Felkapott magyar HD 1080p – nCore.",
+    "imdbRating": null,
     "releaseInfo": "2025",
     "genres": [
-      "Sci-Fi",
-      "Akció"
+      "Thriller"
     ],
-    "seeders": 180,
-    "leechers": 27,
+    "seeders": 151,
+    "leechers": 19,
     "releases": 2,
-    "score": 37.992,
-    "uploaded_at": "2026-09-03",
-    "background": "https://image.tmdb.org/t/p/w1280/q9bvjUkpKltPE0S9oxci2pmD1Zx.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/psXa7IHYQDauQvDLep7fJU7f5Se.png"
+    "score": 38.499,
+    "uploaded_at": "2026-09-07"
+  },
+  {
+    "id": "tt38061210",
+    "type": "movie",
+    "name": "Miért is házasodtam meg?",
+    "poster": "https://image.tmdb.org/t/p/w500/AjCXNmkWT7NzW3XmU3DszMHZ4pR.jpg",
+    "posterShape": "poster",
+    "year": 2026,
+    "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
+    "imdbRating": 7.2,
+    "releaseInfo": "2026",
+    "genres": [
+      "Vígjáték",
+      "Romantikus",
+      "Dráma"
+    ],
+    "seeders": 154,
+    "leechers": 2,
+    "releases": 2,
+    "score": 37.342,
+    "uploaded_at": "2026-09-09",
+    "background": "https://image.tmdb.org/t/p/w1280/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/hyqeFrp7vFX5NTJ8lKc8rHvtTMb.png"
   },
   {
     "id": "tt13570066",
@@ -511,29 +531,32 @@
     "seeders": 180,
     "leechers": 24,
     "releases": 3,
-    "score": 37.503,
+    "score": 37.26,
     "uploaded_at": "2026-09-04",
     "background": "https://image.tmdb.org/t/p/w1280/ohlNSR8MsHk5e6fcAxqAJmcz4Sm.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/dCute9CN3aSIYmLDSefJ55dGyhK.png"
   },
   {
-    "id": "tt40383229",
+    "id": "tt32123395",
     "type": "movie",
-    "name": "Grace",
-    "poster": "https://image.tmdb.org/t/p/w500/42qz0xggymCZ1UfJs3oaRjZdUpj.jpg",
+    "name": "Módosítva",
+    "poster": "https://image.tmdb.org/t/p/w500/jVgLvefoKxVK92bdycXwN2a2Sem.jpg",
     "posterShape": "poster",
     "year": 2025,
-    "description": "Felkapott magyar HD 1080p – nCore.",
-    "imdbRating": null,
+    "description": "Egy alternatív jelenben a genetikailag feljavított emberek uralják a társadalmat. A kitaszított Leon és Chloe az igazságért harcol a genetikai egyenlőtlenségeket kihasználó korrupt politikusok ellen, és mindent kockára tesznek, hogy szembe szálljanak az elnyomó rendszerrel.",
+    "imdbRating": 5.7,
     "releaseInfo": "2025",
     "genres": [
-      "Thriller"
+      "Sci-Fi",
+      "Akció"
     ],
-    "seeders": 146,
-    "leechers": 17,
+    "seeders": 173,
+    "leechers": 28,
     "releases": 2,
-    "score": 36.993,
-    "uploaded_at": "2026-09-07"
+    "score": 36.945,
+    "uploaded_at": "2026-09-03",
+    "background": "https://image.tmdb.org/t/p/w1280/q9bvjUkpKltPE0S9oxci2pmD1Zx.jpg",
+    "logo": "https://image.tmdb.org/t/p/w500/psXa7IHYQDauQvDLep7fJU7f5Se.png"
   },
   {
     "id": "tt43746402",
@@ -551,35 +574,12 @@
       "Családi",
       "Dráma"
     ],
-    "seeders": 81,
+    "seeders": 79,
     "leechers": 5,
     "releases": 1,
-    "score": 36.518,
+    "score": 34.906,
     "uploaded_at": "2026-09-13",
     "background": "https://image.tmdb.org/t/p/w1280/c70LToNnRaYAcIWZaRTffWXyKpF.jpg"
-  },
-  {
-    "id": "tt38061210",
-    "type": "movie",
-    "name": "Miért is házasodtam meg?",
-    "poster": "https://image.tmdb.org/t/p/w500/AjCXNmkWT7NzW3XmU3DszMHZ4pR.jpg",
-    "posterShape": "poster",
-    "year": 2026,
-    "description": "A házaspárok újra találkoznak Marcus és Angela lányának egzotikus esküvőjén, de régi és új konfliktusok kerülnek felszínre a kérdéssel együtt: Miért nősültem meg újra?",
-    "imdbRating": 7.2,
-    "releaseInfo": "2026",
-    "genres": [
-      "Vígjáték",
-      "Romantikus",
-      "Dráma"
-    ],
-    "seeders": 148,
-    "leechers": 1,
-    "releases": 2,
-    "score": 35.844,
-    "uploaded_at": "2026-09-09",
-    "background": "https://image.tmdb.org/t/p/w1280/lJYniNRM2i9wXnfWVHOB4PxygFZ.jpg",
-    "logo": "https://image.tmdb.org/t/p/w500/hyqeFrp7vFX5NTJ8lKc8rHvtTMb.png"
   },
   {
     "id": "tt43679852",
@@ -599,9 +599,9 @@
       "Akció"
     ],
     "seeders": 225,
-    "leechers": 2,
+    "leechers": 1,
     "releases": 1,
-    "score": 34.446,
+    "score": 33.951,
     "uploaded_at": "2026-09-02",
     "background": "https://image.tmdb.org/t/p/w1280/sVatzfUXkmPzPaR6iJIYiwp2TR6.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/Aa5zpih0BzJjhb8ev38je2CjFQ3.png"
@@ -620,10 +620,10 @@
       "Dráma",
       "Thriller"
     ],
-    "seeders": 223,
+    "seeders": 225,
     "leechers": 21,
     "releases": 4,
-    "score": 32.181,
+    "score": 32.287,
     "uploaded_at": "2026-08-28",
     "background": "https://image.tmdb.org/t/p/w1280/kOUV5WbisWMg56d8eB45ZHEVxYq.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/vh47ZRcIdcz7BYQGEihfQ0q9jbi.png"
@@ -642,10 +642,10 @@
       "Akció",
       "Thriller"
     ],
-    "seeders": 309,
+    "seeders": 317,
     "leechers": 0,
     "releases": 1,
-    "score": 31.301,
+    "score": 32.007,
     "uploaded_at": "2026-08-22",
     "background": "https://image.tmdb.org/t/p/w1280/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/cOq6SPb6EaXnM5mbLrUq72FRzXE.png"
@@ -664,10 +664,10 @@
       "Horror",
       "Thriller"
     ],
-    "seeders": 198,
-    "leechers": 23,
+    "seeders": 197,
+    "leechers": 26,
     "releases": 3,
-    "score": 28.747,
+    "score": 29.218,
     "uploaded_at": "2026-08-27",
     "background": "https://image.tmdb.org/t/p/w1280/qY7zVZ7liULhfRoXg4c9Xl83LcR.jpg",
     "logo": "https://image.tmdb.org/t/p/w500/kJ6elBOcy6eX7ixeMJncyZr2zlZ.png"
