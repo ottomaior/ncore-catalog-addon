@@ -1,4 +1,5 @@
-# Trending (top 30 by seeders from latest 200 uploads) – every 6 hours. Pushes data → Railway auto-deploys.
+# Felkapott / trending (top 30 by peer score from the last 14 days of uploads) – every 6 hours.
+# Also persists data/trending_state.json (peer samples for the momentum ranking). Pushes data → Railway auto-deploys.
 name: Catalog – Trending (6h)
 
 on:
@@ -37,6 +38,7 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           TVDB_API_KEY: ${{ secrets.TVDB_API_KEY }}
           TVDB_PIN: ${{ secrets.TVDB_PIN }}
+          NCORE_TRENDING_MOMENTUM: ${{ vars.NCORE_TRENDING_MOMENTUM || '0' }}
         run: python scripts/build_trending_catalog.py
 
       - name: Check catalog output (fail on empty / shrunken files)
@@ -48,9 +50,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin ${{ github.ref_name }} || true
-          git add data/trending_movies.json data/trending_series.json 2>/dev/null || true
+          git add data/trending_movies.json data/trending_series.json data/trending_state.json 2>/dev/null || true
           git status
           if ! git diff --staged --quiet 2>/dev/null; then
-            git commit -m "chore(data): update trending catalog (top 30 from latest 200)"
+            git commit -m "chore(data): update trending catalog (top 30, 14-day pool)"
             git push
           fi
