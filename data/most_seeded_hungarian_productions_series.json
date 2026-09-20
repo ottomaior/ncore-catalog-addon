@@ -14,7 +14,9 @@
 ],
 "seeders": 1000000,
 "latest_season": 1,
-"latest_episode": 5
+"latest_episode": 5,
+"background": "https://image.tmdb.org/t/p/w1280/g6o9CSgEXO7qdQYNYsC3JQqL60O.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/fNxwAGQ1wcFR8GShGWRdZTn3kxW.png"
 },
 {
 "id": "tt38915987",
@@ -31,24 +33,44 @@
 ],
 "seeders": 999999,
 "latest_season": 2,
-"latest_episode": 6
+"latest_episode": 6,
+"background": "https://image.tmdb.org/t/p/w1280/y4TfHdvNwpWZXsm2fLHbl0apu0D.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/lVen4cGxaets2ZKuo8tgxJa47tq.png"
+},
+{
+"id": "tt0473585",
+"type": "series",
+"name": "Megasztár (S09E05)",
+"poster": "https://image.tmdb.org/t/p/w500/du0ubghmm9mCXIi3JI3EDoZEjpb.jpg",
+"posterShape": "poster",
+"year": 2003,
+"description": "🆕 Legújabb epizód: S09E05\n\nA Megasztár a TV2 zenei tehetségkutatója.",
+"imdbRating": 7.0,
+"releaseInfo": "2003-",
+"genres": [],
+"seeders": 999996,
+"latest_season": 9,
+"latest_episode": 5,
+"background": "https://image.tmdb.org/t/p/w1280/wvmcrL6tpt2d4kUsDfafCE0GInF.jpg"
 },
 {
 "id": "tt11031984",
 "type": "series",
-"name": "X-Faktor (S14E03)",
+"name": "X-Faktor (S14E04)",
 "poster": "https://image.tmdb.org/t/p/w500/vMUldt0VYCdy7juj8JJqigt3fO6.jpg",
 "posterShape": "poster",
 "year": 2010,
-"description": "🆕 Legújabb epizód: S14E03\n\n2017-ben is folytatódik az RTL Klubon az utóbbi évek legsikeresebb és legnézettebb tehetségkutató show-ja, az X-Faktor. Vastag Csaba, Kocsis Tibor, Oláh Gergő, Danics Dóra, Tóth Andi és Opitz Barbara után valakinek ismét esélye lesz arra, hogy győztesként állhasson az X-Faktor színpadán.",
+"description": "🆕 Legújabb epizód: S14E04\n\n2017-ben is folytatódik az RTL Klubon az utóbbi évek legsikeresebb és legnézettebb tehetségkutató show-ja, az X-Faktor. Vastag Csaba, Kocsis Tibor, Oláh Gergő, Danics Dóra, Tóth Andi és Opitz Barbara után valakinek ismét esélye lesz arra, hogy győztesként állhasson az X-Faktor színpadán.",
 "imdbRating": 0.0,
-"releaseInfo": "2010",
+"releaseInfo": "2010-",
 "genres": [
 "Reality"
 ],
-"seeders": 999993,
+"seeders": 999992,
 "latest_season": 14,
-"latest_episode": 3
+"latest_episode": 4,
+"background": "https://image.tmdb.org/t/p/w1280/89chWgJVG7DA4Gap7VxW9UA1bol.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/i4IJfktLvw4jbVSPJanbkggrS3P.png"
 },
 {
 "id": "tt24577940",
@@ -65,7 +87,9 @@
 ],
 "seeders": 999991,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/rNryz29yO0tRRPsSDFUijgfVBPq.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/xGZsTGmNyl7S7ynBtRdzDPcMBSi.png"
 },
 {
 "id": "tt6445410",
@@ -83,7 +107,9 @@
 ],
 "seeders": 999990,
 "latest_season": 10,
-"latest_episode": 16
+"latest_episode": 16,
+"background": "https://image.tmdb.org/t/p/w1280/mVssCRIxVuKkP19Gz5BIzyL6GIK.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/hUiKgepBLRlgHR5lRk4Qm3esiDa.png"
 },
 {
 "id": "tt35666801",
@@ -101,7 +127,9 @@
 ],
 "seeders": 999989,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/9VMGXUyPKvXMQ8LRXKSTsUHjqL5.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/c7xdNYfF8EToViKZndJOsBpJ6qZ.png"
 },
 {
 "id": "tt12211774",
@@ -120,7 +148,9 @@
 ],
 "seeders": 999989,
 "latest_season": 9,
-"latest_episode": 11
+"latest_episode": 11,
+"background": "https://image.tmdb.org/t/p/w1280/1ZxnrFeO6BsLiBDzmR1FCybbmyE.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/i8FcbnPFbBFOdB4uGjPq4lrptMx.png"
 },
 {
 "id": "tt43686214",
@@ -137,22 +167,29 @@
 ],
 "seeders": 999986,
 "latest_season": 1,
-"latest_episode": 3
+"latest_episode": 3,
+"background": "https://image.tmdb.org/t/p/w1280/zqHCgnCXFZORH358jKyFF8xqkX8.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/dyXQklwKMxECvsW8IO770WZjkuH.png"
 },
 {
-"id": "tt0473585",
+"id": "tt0224887",
 "type": "series",
-"name": "Megasztár (S09E03)",
-"poster": "https://image.tmdb.org/t/p/w500/du0ubghmm9mCXIi3JI3EDoZEjpb.jpg",
+"name": "Heti Hetes (S19E12)",
+"poster": "https://image.tmdb.org/t/p/w500/pwHWUTOhJeqK9oqc7DwAPEndNrW.jpg",
 "posterShape": "poster",
-"year": 2003,
-"description": "🆕 Legújabb epizód: S09E03\n\nA Megasztár a TV2 zenei tehetségkutatója.",
-"imdbRating": 7.0,
-"releaseInfo": "2003",
-"genres": [],
-"seeders": 999979,
-"latest_season": 9,
-"latest_episode": 3
+"year": 1999,
+"description": "🆕 Legújabb epizód: S19E12\n\nIsmét jelentkezik az RTL Klub népszerű Heti Hetes című műsora. Az aktuális híreket, pletykákat, érdekességeket a már megszokott szereplők kommentálják. A talk-show lényege mit sem változik, szerepek nincsenek, vagy ha mégis, az csak a véletlen műve. A Heti Hetes célja továbbra is a szórakoztatás, mely minden bizonnyal sikerül, ha nem veszik komolyan. Mert a műsor valóban egy görbe tükör, ami egy kicsit torzít, de megnevettet.",
+"imdbRating": 8.0,
+"releaseInfo": "1999-",
+"genres": [
+"Talk",
+"Vígjáték"
+],
+"seeders": 999972,
+"latest_season": 19,
+"latest_episode": 12,
+"background": "https://image.tmdb.org/t/p/w1280/rQnBcpQ84AdWXmFGNSawyTCZFd6.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/xZ1SfjHi48lC0tfhJztajlH5s5D.png"
 },
 {
 "id": "tt23752726",
@@ -171,7 +208,9 @@
 ],
 "seeders": 999966,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/drV1OiEsv9JsyL5GZFp0CjtwJsI.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/heAwT82OT5VH2saYoKL5xQ1nEVV.png"
 },
 {
 "id": "tt35114768",
@@ -188,25 +227,9 @@
 ],
 "seeders": 999966,
 "latest_season": 2,
-"latest_episode": 82
-},
-{
-"id": "tt0224887",
-"type": "series",
-"name": "Heti Hetes (S19E11)",
-"poster": "https://image.tmdb.org/t/p/w500/pwHWUTOhJeqK9oqc7DwAPEndNrW.jpg",
-"posterShape": "poster",
-"year": 1999,
-"description": "🆕 Legújabb epizód: S19E11\n\nIsmét jelentkezik az RTL Klub népszerű Heti Hetes című műsora. Az aktuális híreket, pletykákat, érdekességeket a már megszokott szereplők kommentálják. A talk-show lényege mit sem változik, szerepek nincsenek, vagy ha mégis, az csak a véletlen műve. A Heti Hetes célja továbbra is a szórakoztatás, mely minden bizonnyal sikerül, ha nem veszik komolyan. Mert a műsor valóban egy görbe tükör, ami egy kicsit torzít, de megnevettet.",
-"imdbRating": 8.0,
-"releaseInfo": "1999",
-"genres": [
-"Talk",
-"Vígjáték"
-],
-"seeders": 999958,
-"latest_season": 19,
-"latest_episode": 11
+"latest_episode": 82,
+"background": "https://image.tmdb.org/t/p/w1280/hjRQpNk5SP6hqOuh96hirBr5Zrl.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/1DvcdQxJe4iFAQPplnaM7n9vJUD.png"
 },
 {
 "id": "tt5099020",
@@ -224,7 +247,9 @@
 ],
 "seeders": 999953,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/51cdo7Vjhxtlwg2moo2eXDlzAbD.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/6t4FOrnfzxzJPVd0YxyNrz0qnre.png"
 },
 {
 "id": "tt11056626",
@@ -241,7 +266,8 @@
 ],
 "seeders": 999947,
 "latest_season": 7,
-"latest_episode": 8
+"latest_episode": 8,
+"background": "https://image.tmdb.org/t/p/w1280/74J1IcUYQmE0R8obtVUmSW3QBjg.jpg"
 },
 {
 "id": "tt11993736",
@@ -259,7 +285,9 @@
 ],
 "seeders": 999942,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/3djMbUf5DCexrjlfAVE5lXhV0lj.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/yORGNz1ZuTCFnVSSfkHqZmJXhOH.png"
 },
 {
 "id": "tt38794569",
@@ -276,7 +304,9 @@
 ],
 "seeders": 999928,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/7tmbmxwLrFbdQX0rAEde20rfhTf.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/c9fHyLIB4qnGVVjq2Y5AxI0wPlx.png"
 },
 {
 "id": "tt36936691",
@@ -291,7 +321,25 @@
 "genres": [],
 "seeders": 999914,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/73q1VS3kLkuGo23m7mRxW3He5c8.jpg"
+},
+{
+"id": "tt45973671",
+"type": "series",
+"name": "Panelhősök (S01E02)",
+"poster": "https://image.tmdb.org/t/p/w500/mHiccQNqeDBJcQVE0OMoiGAtG1v.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "🆕 Legújabb epizód: S01E02\n\nA Panelhősök egy modern, „szomszédok” típusú produkció, amely egyszerre szórakoztat és reflektál a mindennapi élet kihívásaira. A történet középpontjában öt különböző család áll, akik ugyanazon a lakótelepen élnek. A karakterek különböző élethelyzeteket képviselnek: egyedülálló szülők, fiatal családok, többgenerációs háztartások és klasszikus családmodellek egyaránt megjelennek. Életük folyamatosan keresztezi egymást – konfliktusok, szerelmek, titkok és újrakezdések formájában. A sorozat a humor és a dráma egyensúlyára épít, miközben fontos társadalmi kérdéseket is érint.",
+"imdbRating": 0.0,
+"releaseInfo": "2026-",
+"genres": [],
+"seeders": 999910,
+"latest_season": 1,
+"latest_episode": 2,
+"background": "https://image.tmdb.org/t/p/w1280/1l1Ybh3bgkRTvoy6tgRQT6TGS8K.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/AbOF692mpW9tQS4yoxy1kbo8Gdv.png"
 },
 {
 "id": "tt0159924",
@@ -309,7 +357,8 @@
 ],
 "seeders": 999907,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/maNnNuuTmNqBjMW5IRfPW9L17TJ.jpg"
 },
 {
 "id": "tt2152566",
@@ -326,7 +375,8 @@
 ],
 "seeders": 999904,
 "latest_season": 36,
-"latest_episode": 6
+"latest_episode": 6,
+"background": "https://image.tmdb.org/t/p/w1280/6GT5AjBIJWH3VbszSe6i0bDCGJr.jpg"
 },
 {
 "id": "tt13705452",
@@ -343,7 +393,9 @@
 ],
 "seeders": 999904,
 "latest_season": 6,
-"latest_episode": 1
+"latest_episode": 1,
+"background": "https://image.tmdb.org/t/p/w1280/tSPlGG7byBbOKFi9Cw0BXu0EXqQ.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/d2I8RHPUTJvAwjzQ5pTUNXaeNKy.png"
 },
 {
 "id": "tt0129719",
@@ -361,7 +413,8 @@
 ],
 "seeders": 999897,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/dtDcxarwVUEnrqdQQb2v849SSjO.jpg"
 },
 {
 "id": "tt0195443",
@@ -378,7 +431,8 @@
 ],
 "seeders": 999884,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/cP2l81OcRM9aGVArOTDSQLe4ejO.jpg"
 },
 {
 "id": "tt9776132",
@@ -395,7 +449,8 @@
 ],
 "seeders": 999877,
 "latest_season": 5,
-"latest_episode": 1
+"latest_episode": 1,
+"background": "https://image.tmdb.org/t/p/w1280/qOJfDQqc5auVxvbuJyWsIA6Id4O.jpg"
 },
 {
 "id": "tt0134203",
@@ -412,7 +467,8 @@
 ],
 "seeders": 999867,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/jNqgrZgLiG5ObOatYrJUg3gZNEr.jpg"
 },
 {
 "id": "tt0133312",
@@ -429,7 +485,8 @@
 ],
 "seeders": 999855,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/y7RSl26gxJyQ54Q5VW3vGkiyKqf.jpg"
 },
 {
 "id": "tt2257665",
@@ -446,7 +503,9 @@
 ],
 "seeders": 999850,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/ri7IezKylPugxpfz0osRGLC3MKD.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/hNCUimyT9o5JbtEGv9ulIpJe0wr.png"
 },
 {
 "id": "tt0149410",
@@ -464,7 +523,8 @@
 ],
 "seeders": 999841,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/j7fO0BKQsSJ7qHpB4P8oSxkZA2m.jpg"
 },
 {
 "id": "tt19177348",
@@ -481,7 +541,9 @@
 ],
 "seeders": 999746,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/509gAetxb5jr6HeeBwjlLxeLMpf.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/nmXoFC3p66j9JgAGdSaTYDfPeMK.png"
 },
 {
 "id": "tt8108134",
@@ -499,7 +561,8 @@
 ],
 "seeders": 999716,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/7UvErO71zOu5zgYouiaKKAokTjc.jpg"
 },
 {
 "id": "tt12430156",
@@ -516,7 +579,9 @@
 ],
 "seeders": 999706,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/1Ql7HC2CfuqTAB9zjh8FdSvQY6t.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/ovJ1eXN7RAFlQMlg6nwGoUQU4tG.png"
 },
 {
 "id": "tt27663673",
@@ -533,7 +598,9 @@
 ],
 "seeders": 999696,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/vdrmbzHhqHO7fBu1TGNQcnq3zPC.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/A9yshN9jmx8eJTd4RHQImrgoVu3.png"
 },
 {
 "id": "tt10644236",
@@ -548,6 +615,7 @@
 "genres": [],
 "seeders": 999688,
 "latest_season": null,
-"latest_episode": null
+"latest_episode": null,
+"background": "https://image.tmdb.org/t/p/w1280/kl0nqezVJjddZW7046lrxGPIhso.jpg"
 }
 ]
