@@ -12,7 +12,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999992,
+"seeders": 999991,
 "background": "https://image.tmdb.org/t/p/w1280/5j9Qi7xHdGBWUP3ekm5QY69KU7K.jpg"
 },
 {
@@ -23,7 +23,7 @@
 "posterShape": "poster",
 "year": 2024,
 "description": "A film főszereplője egy anya (Udvaros Dorottya), aki férje halála után elhatározza, hogy teljesíti annak utolsó kívánságát, és lányaival (Lovas Rozi, Tenki Réka, Trill Beatrix) váltóban lefutja a maratont. Apró probléma, hogy egyikük sincs fizikálisan és mentálisan felkészülve a futásra. Az anya és lányai mellett ráadásul a rokonokat és barátokat is váratlanul éri a nők lehetetlennek tűnő vállalkozása.",
-"imdbRating": 7.2,
+"imdbRating": 7.0,
 "releaseInfo": "2024",
 "genres": [
 "Romantikus",
@@ -48,7 +48,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999976,
+"seeders": 999974,
 "background": "https://image.tmdb.org/t/p/w1280/iN8B4f36K9vrbW40EDsVOjdKQ13.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/oYeuWBmtWcrA1L34yXWwIb9Snr9.png"
 },
@@ -66,7 +66,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999968,
+"seeders": 999971,
 "background": "https://image.tmdb.org/t/p/w1280/bf5TG9RODkPXmtJSgf8Iymof1wl.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/yLnP7hpXqrnTDfe78nvIaEdXrEZ.png"
 },
@@ -84,7 +84,7 @@
 "Dráma",
 "Thriller"
 ],
-"seeders": 999961,
+"seeders": 999959,
 "background": "https://image.tmdb.org/t/p/w1280/bJv3cwqJvurMZmO3Km42In4lHyv.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/aTb0Kbh6vxDi5vjbKVSbIDQkt5o.png"
 },
@@ -119,7 +119,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999939
+"seeders": 999942
 },
 {
 "id": "tt20672356",
@@ -135,7 +135,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999936,
+"seeders": 999937,
 "background": "https://image.tmdb.org/t/p/w1280/2tD6lbeSHx0sYDsu0BoS2d1qrbZ.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/uBT5iQBvau6v6n8b6CI3IVB6gpA.png"
 },
@@ -153,7 +153,7 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999925,
+"seeders": 999926,
 "background": "https://image.tmdb.org/t/p/w1280/mbs85hyOdv58hVnqjV491UAbOFl.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/8xVWvLYdj9z8c9lc1Xkj4K8BH9g.png"
 },
@@ -172,7 +172,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999896,
+"seeders": 999918,
 "background": "https://image.tmdb.org/t/p/w1280/hvIKsPloN4QxfHiJSBOSwh09FDQ.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/yHhPbyhngqDaJYcJIn26KaeIHc6.png"
 },
@@ -189,23 +189,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999886
-},
-{
-"id": "tt0121403",
-"type": "movie",
-"name": "Indul a bakterház",
-"poster": "https://image.tmdb.org/t/p/w500/8IeFElRh4MjdFIqhwNWVQXnSycG.jpg",
-"posterShape": "poster",
-"year": 1980,
-"description": "Nehéz az élet a tanyavilágban. Regős Bendegúz, az égetni valóan rossz csemete sokat tudna róla mesélni. Gyerekkorában sokféle dolgot tartottak felőle: hogy csodagyerek, meg, hogy akasztották volna fel kétnapos korában. Most az anyja elszegődteti a bakterházba. A kisfiú szenved a pénzéhes lókupec, a lusta bakter, a fukar paraszt, de legfőképpen a Büdös Banya miatt.",
-"imdbRating": 7.7,
-"releaseInfo": "1980",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999857,
-"background": "https://image.tmdb.org/t/p/w1280/57cCXtmKTR9FnC3Eyqxkdg6vkW.jpg"
+"seeders": 999883
 },
 {
 "id": "tt0065067",
@@ -220,26 +204,25 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999855,
+"seeders": 999852,
 "background": "https://image.tmdb.org/t/p/w1280/dQLrjSyy64FyU8G1YKaDFA9mJEl.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/r2n6P0aFu3kBV5mjoy7HH4tDE8A.png"
 },
 {
-"id": "tt38492476",
+"id": "tt0121403",
 "type": "movie",
-"name": "Legénybúcsú",
-"poster": "https://image.tmdb.org/t/p/w500/dJ1TVVdmGSEB9iSRYhD974gaj6v.jpg",
+"name": "Indul a bakterház",
+"poster": "https://image.tmdb.org/t/p/w500/8IeFElRh4MjdFIqhwNWVQXnSycG.jpg",
 "posterShape": "poster",
-"year": 2025,
-"description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
-"imdbRating": 4.1,
-"releaseInfo": "2025",
+"year": 1980,
+"description": "Nehéz az élet a tanyavilágban. Regős Bendegúz, az égetni valóan rossz csemete sokat tudna róla mesélni. Gyerekkorában sokféle dolgot tartottak felőle: hogy csodagyerek, meg, hogy akasztották volna fel kétnapos korában. Most az anyja elszegődteti a bakterházba. A kisfiú szenved a pénzéhes lókupec, a lusta bakter, a fukar paraszt, de legfőképpen a Büdös Banya miatt.",
+"imdbRating": 7.7,
+"releaseInfo": "1980",
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999850,
-"background": "https://image.tmdb.org/t/p/w1280/l4eO0DmXdoMLFRUO3Xhro39dxTd.jpg",
-"logo": "https://image.tmdb.org/t/p/w500/9urzFBzYsyFqDAzEBJDDpKiK4M5.png"
+"seeders": 999845,
+"background": "https://image.tmdb.org/t/p/w1280/57cCXtmKTR9FnC3Eyqxkdg6vkW.jpg"
 },
 {
 "id": "tt38508942",
@@ -276,6 +259,41 @@
 "logo": "https://image.tmdb.org/t/p/w500/4TaQ2Sy4sWvHK7lwdhh0lbQ5IML.png"
 },
 {
+"id": "tt0142632",
+"type": "movie",
+"name": "Lúdas Matyi",
+"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
+"posterShape": "poster",
+"year": 1977,
+"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
+"imdbRating": 7.2,
+"releaseInfo": "1977",
+"genres": [
+"Animációs",
+"Kaland",
+"Vígjáték"
+],
+"seeders": 999835,
+"background": "https://image.tmdb.org/t/p/w1280/zybudGZitZg5X4xs8xQZrrQeoPo.jpg"
+},
+{
+"id": "tt38492476",
+"type": "movie",
+"name": "Legénybúcsú",
+"poster": "https://image.tmdb.org/t/p/w500/dJ1TVVdmGSEB9iSRYhD974gaj6v.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "Alex és Simon mindketten háziorvosok és huszonegy éve elválaszthatatlanok. Most azonban Simon megnősül, így legjobb barátja egy igazán emlékezetes legénybúcsút szervez számára. A buli azonban minden lesz, csak nem szokványos: a Balaton partjától egy luxus golf resortig, pókerjátszmáktól vadnyugati kocsmákig sodródik a történet, miközben egy titokzatos széf, egy híres színésznő, egy rendőrnő, egy kommandós és Simon menyasszonya is bonyolítja az eseményeket. A kérdés csak az: vajon kibírja-e a barátság ezt a hétvégét – és lesz-e egyáltalán esküvő?",
+"imdbRating": 4.1,
+"releaseInfo": "2025",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999831,
+"background": "https://image.tmdb.org/t/p/w1280/l4eO0DmXdoMLFRUO3Xhro39dxTd.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/9urzFBzYsyFqDAzEBJDDpKiK4M5.png"
+},
+{
 "id": "tt27811640",
 "type": "movie",
 "name": "Véletlenül írtam egy könyvet",
@@ -283,12 +301,12 @@
 "posterShape": "poster",
 "year": 2025,
 "description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
-"imdbRating": 6.6,
+"imdbRating": 6.9,
 "releaseInfo": "2025",
 "genres": [
 "Családi"
 ],
-"seeders": 999834,
+"seeders": 999830,
 "background": "https://image.tmdb.org/t/p/w1280/dMbTVD7ylqa9p7o0QN7bCoPZeGT.jpg"
 },
 {
@@ -348,24 +366,6 @@
 "seeders": 999815,
 "background": "https://image.tmdb.org/t/p/w1280/z3bzhmC0CPikWeerUkLO73YvGrC.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/aXrAdxL0lGxFmbsinr28VOcvMU1.png"
-},
-{
-"id": "tt0142632",
-"type": "movie",
-"name": "Lúdas Matyi",
-"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
-"posterShape": "poster",
-"year": 1977,
-"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
-"imdbRating": 7.2,
-"releaseInfo": "1977",
-"genres": [
-"Animációs",
-"Kaland",
-"Vígjáték"
-],
-"seeders": 999814,
-"background": "https://image.tmdb.org/t/p/w1280/zybudGZitZg5X4xs8xQZrrQeoPo.jpg"
 },
 {
 "id": "tt13652286",
@@ -428,7 +428,7 @@
 "posterShape": "poster",
 "year": 2025,
 "description": "A negyvenes Lilla párterapeutaként dolgozik, és egész életét a családjának szentelte. Ezért is éri váratlanul, amikor elhagyja a férje egy fiatal műkörmösért. Lilla lánya, Zsófi és az anyja, az egykor ismert színésznő, Vilma elhatározzák, hogy kirángatják a nőt a depresszióból és az önsajnálatból és ráveszik, hogy kezdjen el újra randizni. Lilla évtizedek óta nem volt szingli, így kezdetben ellenáll, és titokban még mindig abban reménykedik, hogy a férje visszatér hozzá. Ezért az anyja cselhez folyamodik, és elhívja a lányát és az unokáját a vidéki nyaralójukba, ahol bemutat neki egy sármos újságírót, aki Vilma önéletrajzi könyvét írja. A helyzetet bonyolítja, hogy Zsófi barátja is próbálja összehozni Lillát egy nagyszájú kollégájával, aki teljesen váratlanul toppan be és még jobban összekuszálja az eseményeket.",
-"imdbRating": 7.3,
+"imdbRating": 6.4,
 "releaseInfo": "2025",
 "genres": [
 "Romantikus",
