@@ -12,7 +12,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999991,
+"seeders": 999990,
 "background": "https://image.tmdb.org/t/p/w1280/5j9Qi7xHdGBWUP3ekm5QY69KU7K.jpg"
 },
 {
@@ -29,7 +29,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999985,
+"seeders": 999984,
 "background": "https://image.tmdb.org/t/p/w1280/iNA964wOcIfJzOHeQRw1iZdc56z.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/seQuqPxPBwATGBr6D9FEiCvjB6p.png"
 },
@@ -48,7 +48,7 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999974,
+"seeders": 999973,
 "background": "https://image.tmdb.org/t/p/w1280/iN8B4f36K9vrbW40EDsVOjdKQ13.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/oYeuWBmtWcrA1L34yXWwIb9Snr9.png"
 },
@@ -66,7 +66,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999971,
+"seeders": 999967,
 "background": "https://image.tmdb.org/t/p/w1280/bf5TG9RODkPXmtJSgf8Iymof1wl.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/yLnP7hpXqrnTDfe78nvIaEdXrEZ.png"
 },
@@ -119,7 +119,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999942
+"seeders": 999938
 },
 {
 "id": "tt20672356",
@@ -129,13 +129,13 @@
 "posterShape": "poster",
 "year": 2023,
 "description": "A láthatatlan gyilkos 1847-ben játszódik Bécsben. A szülészeti klinikán titokzatos járvány tombol, tizedeli a gyermekágyas nőket. Egy magyar orvos a hagyományos teóriákkal szembeszállva próbálja meg legyőzni a kórt. Semmelweis egy fiatal osztrák bába személyében talál társra, kapcsolatuk egyre romantikusabbá válik. A küzdelem azonban nemcsak a kór ellen zajlik: a vaskalapos vezetés mindent megtesz, hogy megvédje tekintélyét a megszállott magyar orvos felfedezésének következményeitől. A kórházban a harcot Semmelweis nyeri, az utcán pedig a progresszív erők. Hamarosan Bécsben és Pesten is kitör a forradalom, Semmelweis pedig elindul, hogy felfedezését hazájában is a szülő nők javára fordítsa.",
-"imdbRating": 7.9,
+"imdbRating": 7.8,
 "releaseInfo": "2023",
 "genres": [
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999937,
+"seeders": 999927,
 "background": "https://image.tmdb.org/t/p/w1280/2tD6lbeSHx0sYDsu0BoS2d1qrbZ.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/uBT5iQBvau6v6n8b6CI3IVB6gpA.png"
 },
@@ -189,24 +189,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999883
-},
-{
-"id": "tt0065067",
-"type": "movie",
-"name": "A tanú",
-"poster": "https://image.tmdb.org/t/p/w500/r7u3c4ZEyai4efogsO4xyjKyA9b.jpg",
-"posterShape": "poster",
-"year": 1979,
-"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
-"imdbRating": 8.2,
-"releaseInfo": "1979",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999852,
-"background": "https://image.tmdb.org/t/p/w1280/dQLrjSyy64FyU8G1YKaDFA9mJEl.jpg",
-"logo": "https://image.tmdb.org/t/p/w500/r2n6P0aFu3kBV5mjoy7HH4tDE8A.png"
+"seeders": 999884
 },
 {
 "id": "tt0121403",
@@ -221,8 +204,25 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999845,
+"seeders": 999860,
 "background": "https://image.tmdb.org/t/p/w1280/57cCXtmKTR9FnC3Eyqxkdg6vkW.jpg"
+},
+{
+"id": "tt0065067",
+"type": "movie",
+"name": "A tanú",
+"poster": "https://image.tmdb.org/t/p/w500/r7u3c4ZEyai4efogsO4xyjKyA9b.jpg",
+"posterShape": "poster",
+"year": 1979,
+"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
+"imdbRating": 8.2,
+"releaseInfo": "1979",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999857,
+"background": "https://image.tmdb.org/t/p/w1280/dQLrjSyy64FyU8G1YKaDFA9mJEl.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/r2n6P0aFu3kBV5mjoy7HH4tDE8A.png"
 },
 {
 "id": "tt38508942",
@@ -259,24 +259,6 @@
 "logo": "https://image.tmdb.org/t/p/w500/4TaQ2Sy4sWvHK7lwdhh0lbQ5IML.png"
 },
 {
-"id": "tt0142632",
-"type": "movie",
-"name": "Lúdas Matyi",
-"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
-"posterShape": "poster",
-"year": 1977,
-"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
-"imdbRating": 7.2,
-"releaseInfo": "1977",
-"genres": [
-"Animációs",
-"Kaland",
-"Vígjáték"
-],
-"seeders": 999835,
-"background": "https://image.tmdb.org/t/p/w1280/zybudGZitZg5X4xs8xQZrrQeoPo.jpg"
-},
-{
 "id": "tt38492476",
 "type": "movie",
 "name": "Legénybúcsú",
@@ -289,25 +271,27 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999831,
+"seeders": 999834,
 "background": "https://image.tmdb.org/t/p/w1280/l4eO0DmXdoMLFRUO3Xhro39dxTd.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/9urzFBzYsyFqDAzEBJDDpKiK4M5.png"
 },
 {
-"id": "tt27811640",
+"id": "tt0142632",
 "type": "movie",
-"name": "Véletlenül írtam egy könyvet",
-"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
+"name": "Lúdas Matyi",
+"poster": "https://image.tmdb.org/t/p/w500/AlmnfwBhlknPMW79iHonFfEXekJ.jpg",
 "posterShape": "poster",
-"year": 2025,
-"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
-"imdbRating": 6.9,
-"releaseInfo": "2025",
+"year": 1977,
+"description": "Matyi, a parasztlegény és folyton legelésző, farktollait bőkezűen osztogató lúdja Döbrögi uraság erdejébe téved. Az uraság hajdúi Döbrögi prédájának ítélik a ludat, akit Matyi elkerget, hogy ne lőhessék le. Amikor törvényt követel, az uraság azonnal ítél: huszonöt botütést méret a fiúra. Matyi pedig megesküszik, hogy: háromszor veri ezt Kenden Lúdas Matyi vissza!",
+"imdbRating": 7.1,
+"releaseInfo": "1977",
 "genres": [
-"Családi"
+"Animációs",
+"Kaland",
+"Vígjáték"
 ],
-"seeders": 999830,
-"background": "https://image.tmdb.org/t/p/w1280/dMbTVD7ylqa9p7o0QN7bCoPZeGT.jpg"
+"seeders": 999829,
+"background": "https://image.tmdb.org/t/p/w1280/zybudGZitZg5X4xs8xQZrrQeoPo.jpg"
 },
 {
 "id": "tt0084315",
@@ -327,6 +311,22 @@
 "seeders": 999823,
 "background": "https://image.tmdb.org/t/p/w1280/eOgq3wNremNJ5V3hxapQop7JXvP.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/ccrFcGkjwIUI3iGa86z8FbhTGxM.png"
+},
+{
+"id": "tt27811640",
+"type": "movie",
+"name": "Véletlenül írtam egy könyvet",
+"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
+"imdbRating": 6.9,
+"releaseInfo": "2025",
+"genres": [
+"Családi"
+],
+"seeders": 999817,
+"background": "https://image.tmdb.org/t/p/w1280/dMbTVD7ylqa9p7o0QN7bCoPZeGT.jpg"
 },
 {
 "id": "tt23172090",
