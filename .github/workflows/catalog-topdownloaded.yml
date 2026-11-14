@@ -12,6 +12,10 @@ on:
         description: 'Keep existing entries and only fetch missing ids (faster, fewer TMDB calls)'
         type: boolean
         default: false
+      allow_shrink:
+        description: 'Skip the shrink check for this run (use once after lowering the target size)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -46,6 +50,10 @@ jobs:
           TVDB_API_KEY: ${{ secrets.TVDB_API_KEY }}
           TVDB_PIN: ${{ secrets.TVDB_PIN }}
           OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          # CI target size. A full 300+300 build takes ~35 min; 3000 would exceed the job
+          # timeout and the OMDb daily quota, so larger lists have to be built locally.
+          NCORE_TOP_DOWNLOADED_MOVIES: '300'
+          NCORE_TOP_DOWNLOADED_SERIES: '300'
         run: |
           EXTRA=""
           if [ "${{ github.event.inputs.merge_existing }}" = "true" ]; then EXTRA="--merge-existing"; fi
@@ -58,6 +66,9 @@ jobs:
             --output data/top_downloaded_1080_hungarian_productions_series.json
 
       - name: Check catalog output (fail on empty / shrunken files)
+        env:
+          # allow_shrink=true accepts any non-empty list (still fails on empty / invalid files)
+          CATALOG_GUARD_MAX_SHRINK: ${{ github.event.inputs.allow_shrink == 'true' && '1' || '0.5' }}
         run: python scripts/check_catalog_output.py data/top_downloaded_1080_movies.json data/top_downloaded_1080_series.json data/top_downloaded_1080_hungarian_productions_movies.json data/top_downloaded_1080_hungarian_productions_series.json
 
       - name: Commit and push data
