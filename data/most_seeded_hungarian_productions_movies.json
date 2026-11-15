@@ -12,26 +12,8 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999993,
+"seeders": 999990,
 "background": "https://image.tmdb.org/t/p/w1280/5j9Qi7xHdGBWUP3ekm5QY69KU7K.jpg"
-},
-{
-"id": "tt14466284",
-"type": "movie",
-"name": "Futni mentem",
-"poster": "https://image.tmdb.org/t/p/w500/cSs0BYbP37e7LIUaQ0JjXeaPp0k.jpg",
-"posterShape": "poster",
-"year": 2024,
-"description": "A film főszereplője egy anya (Udvaros Dorottya), aki férje halála után elhatározza, hogy teljesíti annak utolsó kívánságát, és lányaival (Lovas Rozi, Tenki Réka, Trill Beatrix) váltóban lefutja a maratont. Apró probléma, hogy egyikük sincs fizikálisan és mentálisan felkészülve a futásra. Az anya és lányai mellett ráadásul a rokonokat és barátokat is váratlanul éri a nők lehetetlennek tűnő vállalkozása.",
-"imdbRating": 7.0,
-"releaseInfo": "2024",
-"genres": [
-"Romantikus",
-"Vígjáték"
-],
-"seeders": 999984,
-"background": "https://image.tmdb.org/t/p/w1280/iNA964wOcIfJzOHeQRw1iZdc56z.jpg",
-"logo": "https://image.tmdb.org/t/p/w500/seQuqPxPBwATGBr6D9FEiCvjB6p.png"
 },
 {
 "id": "tt29344974",
@@ -48,9 +30,27 @@
 "Zenei",
 "Romantikus"
 ],
-"seeders": 999982,
+"seeders": 999984,
 "background": "https://image.tmdb.org/t/p/w1280/iN8B4f36K9vrbW40EDsVOjdKQ13.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/oYeuWBmtWcrA1L34yXWwIb9Snr9.png"
+},
+{
+"id": "tt14466284",
+"type": "movie",
+"name": "Futni mentem",
+"poster": "https://image.tmdb.org/t/p/w500/cSs0BYbP37e7LIUaQ0JjXeaPp0k.jpg",
+"posterShape": "poster",
+"year": 2024,
+"description": "A film főszereplője egy anya (Udvaros Dorottya), aki férje halála után elhatározza, hogy teljesíti annak utolsó kívánságát, és lányaival (Lovas Rozi, Tenki Réka, Trill Beatrix) váltóban lefutja a maratont. Apró probléma, hogy egyikük sincs fizikálisan és mentálisan felkészülve a futásra. Az anya és lányai mellett ráadásul a rokonokat és barátokat is váratlanul éri a nők lehetetlennek tűnő vállalkozása.",
+"imdbRating": 7.0,
+"releaseInfo": "2024",
+"genres": [
+"Romantikus",
+"Vígjáték"
+],
+"seeders": 999981,
+"background": "https://image.tmdb.org/t/p/w1280/iNA964wOcIfJzOHeQRw1iZdc56z.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/seQuqPxPBwATGBr6D9FEiCvjB6p.png"
 },
 {
 "id": "tt29567915",
@@ -66,7 +66,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999969,
+"seeders": 999963,
 "background": "https://image.tmdb.org/t/p/w1280/bf5TG9RODkPXmtJSgf8Iymof1wl.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/yLnP7hpXqrnTDfe78nvIaEdXrEZ.png"
 },
@@ -84,7 +84,7 @@
 "Dráma",
 "Thriller"
 ],
-"seeders": 999957,
+"seeders": 999955,
 "background": "https://image.tmdb.org/t/p/w1280/bJv3cwqJvurMZmO3Km42In4lHyv.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/aTb0Kbh6vxDi5vjbKVSbIDQkt5o.png"
 },
@@ -135,7 +135,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999936,
+"seeders": 999932,
 "background": "https://image.tmdb.org/t/p/w1280/2tD6lbeSHx0sYDsu0BoS2d1qrbZ.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/uBT5iQBvau6v6n8b6CI3IVB6gpA.png"
 },
@@ -153,7 +153,7 @@
 "Animációs",
 "Családi"
 ],
-"seeders": 999932,
+"seeders": 999930,
 "background": "https://image.tmdb.org/t/p/w1280/mbs85hyOdv58hVnqjV491UAbOFl.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/8xVWvLYdj9z8c9lc1Xkj4K8BH9g.png"
 },
@@ -172,7 +172,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999921,
+"seeders": 999922,
 "background": "https://image.tmdb.org/t/p/w1280/hvIKsPloN4QxfHiJSBOSwh09FDQ.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/yHhPbyhngqDaJYcJIn26KaeIHc6.png"
 },
@@ -189,7 +189,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999882
+"seeders": 999885
 },
 {
 "id": "tt0121403",
@@ -204,7 +204,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999858,
+"seeders": 999850,
 "background": "https://image.tmdb.org/t/p/w1280/57cCXtmKTR9FnC3Eyqxkdg6vkW.jpg"
 },
 {
@@ -222,8 +222,25 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999850,
+"seeders": 999849,
 "background": "https://image.tmdb.org/t/p/w1280/zybudGZitZg5X4xs8xQZrrQeoPo.jpg"
+},
+{
+"id": "tt0065067",
+"type": "movie",
+"name": "A tanú",
+"poster": "https://image.tmdb.org/t/p/w500/r7u3c4ZEyai4efogsO4xyjKyA9b.jpg",
+"posterShape": "poster",
+"year": 1979,
+"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
+"imdbRating": 8.2,
+"releaseInfo": "1979",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999842,
+"background": "https://image.tmdb.org/t/p/w1280/dQLrjSyy64FyU8G1YKaDFA9mJEl.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/r2n6P0aFu3kBV5mjoy7HH4tDE8A.png"
 },
 {
 "id": "tt38508942",
@@ -241,23 +258,6 @@
 "seeders": 999841,
 "background": "https://image.tmdb.org/t/p/w1280/oBQ7OXN0FhFs0nt8hdVIaSnucWP.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/dpwvxKKi4abiWh51ImSvk0Av0G2.png"
-},
-{
-"id": "tt0065067",
-"type": "movie",
-"name": "A tanú",
-"poster": "https://image.tmdb.org/t/p/w500/r7u3c4ZEyai4efogsO4xyjKyA9b.jpg",
-"posterShape": "poster",
-"year": 1979,
-"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
-"imdbRating": 8.2,
-"releaseInfo": "1979",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999840,
-"background": "https://image.tmdb.org/t/p/w1280/dQLrjSyy64FyU8G1YKaDFA9mJEl.jpg",
-"logo": "https://image.tmdb.org/t/p/w500/r2n6P0aFu3kBV5mjoy7HH4tDE8A.png"
 },
 {
 "id": "tt31065630",
@@ -315,22 +315,6 @@
 "logo": "https://image.tmdb.org/t/p/w500/p9QLCY8lyXXhWtkFb4hfrWJWldT.png"
 },
 {
-"id": "tt27811640",
-"type": "movie",
-"name": "Véletlenül írtam egy könyvet",
-"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
-"posterShape": "poster",
-"year": 2025,
-"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
-"imdbRating": 6.9,
-"releaseInfo": "2025",
-"genres": [
-"Családi"
-],
-"seeders": 999815,
-"background": "https://image.tmdb.org/t/p/w1280/dMbTVD7ylqa9p7o0QN7bCoPZeGT.jpg"
-},
-{
 "id": "tt26678938",
 "type": "movie",
 "name": "Halál cukik",
@@ -370,6 +354,22 @@
 "logo": "https://image.tmdb.org/t/p/w500/fa8aT6dTgDzRifUNEzfUWO2jKN2.png"
 },
 {
+"id": "tt27811640",
+"type": "movie",
+"name": "Véletlenül írtam egy könyvet",
+"poster": "https://image.tmdb.org/t/p/w500/fFya2L7H7XK333IISu1Ds8BFFWd.jpg",
+"posterShape": "poster",
+"year": 2025,
+"description": "A családi film főszereplője, Katinka még csak 12 éves, de már tudja, hogy író szeretne lenni, méghozzá híres író. Ebben a szomszédjában élő, épp alkotói válságban szenvedő írónő segít neki, némi kertészkedésért cserébe. Miközben Katinka írni tanul, felfedezi családjának történetét, megismeri önmagát és feldolgozza anyukája elvesztésének traumáját, míg azon veszi észre magát, hogy az életéből egy kalandokkal teli, izgalmas könyv lett.",
+"imdbRating": 7.5,
+"releaseInfo": "2025",
+"genres": [
+"Családi"
+],
+"seeders": 999805,
+"background": "https://image.tmdb.org/t/p/w1280/dMbTVD7ylqa9p7o0QN7bCoPZeGT.jpg"
+},
+{
 "id": "tt38492476",
 "type": "movie",
 "name": "Legénybúcsú",
@@ -382,7 +382,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999797,
+"seeders": 999803,
 "background": "https://image.tmdb.org/t/p/w1280/l4eO0DmXdoMLFRUO3Xhro39dxTd.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/9urzFBzYsyFqDAzEBJDDpKiK4M5.png"
 },
