@@ -12,7 +12,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999990,
+"seeders": 999993,
 "background": "https://image.tmdb.org/t/p/w1280/5j9Qi7xHdGBWUP3ekm5QY69KU7K.jpg"
 },
 {
@@ -22,7 +22,7 @@
 "poster": "https://image.tmdb.org/t/p/w500/8tP38YfXOrQWTrrUSHXWZwWl49k.jpg",
 "posterShape": "poster",
 "year": 2024,
-"description": "Mi köti össze a múltat a jelennel? Természetesen a szerelem. És a zene. De csak ha nagyon jó.  Lili korunk tipikus lánya: magányos, és igyekszik bebeszélni magának, hogy így jó neki. De egyszer a szülei lakásában talál egy régi levélcsomagot, amit az anyja, úgy látszik, egyáltalán nem akart megmutatni neki. Ő persze nem sokat habozik, olvasni kezd, és megelevenedik előtte a múlt…  …a kilencvenes évek elejének egy felejthetetlen nyara, amikor három jó barátnő a Balatonnál vakációzik, és közülük csak Eszter (Törőcsik Franciska) akar hűséges maradni az otthon hagyott, karót nyelt pasijához. De általában mérnöki pontossággal követett terveit kissé összekuszálja, hogy megismerkedik egy sráccal (Ember Márk), aki laza, vicces és van még egy nagyon jó tulajdonsága: egy zenekarban játszik, és esténként a szigligeti strandon lép fel a haverjaival.",
+"description": "Mi köti össze a múltat a jelennel? Természetesen a szerelem és a zene. De csak ha nagyon jó. Lili korunk tipikus lánya: magányos és igyekszik bebeszélni magának, hogy így jó neki. De egyszer a szülei lakásában talál egy régi levélcsomagot, amit az anyja - úgy látszik - egyáltalán nem akart megmutatni neki. Ő persze nem sokat habozik, olvasni kezd és megelevenedik előtte a múlt… A kilencvenes évek elejének egy felejthetetlen nyara, amikor három jó barátnő a Balatonnál vakációzik és közülük csak Eszter akar hűséges maradni az otthon hagyott, karót nyelt pasijához. Általában mérnöki pontossággal követett terveit kissé összekuszálja, hogy megismerkedik egy sráccal, aki laza, vicces és van még egy nagyon jó tulajdonsága: egy zenekarban játszik és esténként a szigligeti strandon lép fel a haverjaival.",
 "imdbRating": 7.7,
 "releaseInfo": "2024",
 "genres": [
@@ -48,7 +48,7 @@
 "Romantikus",
 "Vígjáték"
 ],
-"seeders": 999981,
+"seeders": 999979,
 "background": "https://image.tmdb.org/t/p/w1280/iNA964wOcIfJzOHeQRw1iZdc56z.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/seQuqPxPBwATGBr6D9FEiCvjB6p.png"
 },
@@ -66,7 +66,7 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999963,
+"seeders": 999964,
 "background": "https://image.tmdb.org/t/p/w1280/bf5TG9RODkPXmtJSgf8Iymof1wl.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/yLnP7hpXqrnTDfe78nvIaEdXrEZ.png"
 },
@@ -119,7 +119,43 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999937
+"seeders": 999936
+},
+{
+"id": "tt38267641",
+"type": "movie",
+"name": "Magyar menyegző",
+"poster": "https://image.tmdb.org/t/p/w500/8Hl0D8P75eGa75GiMjRRPKD1UcS.jpg",
+"posterShape": "poster",
+"year": 2026,
+"description": "Két budapesti fiatalember, András és Péter a '70-es évek végén Budapestről Erdélybe utaznak, hogy részt vegyenek András unokatestvérének lakodalmán. Az erdélyi, kalotaszegi faluban életre szóló kalandba keverednek. A két fiatalnak azonban hamarosan olyan döntéseket kell meghoznia, amelyek következményei kiszámíthatatlanok.",
+"imdbRating": 4.0,
+"releaseInfo": "2026",
+"genres": [
+"Zenei",
+"Dráma"
+],
+"seeders": 999935,
+"background": "https://image.tmdb.org/t/p/w1280/jLvc6CYW5dLLtOGP0JhAIGDEY1F.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/oWFF5iAg4I09XJCR8vxttfZa0JJ.png"
+},
+{
+"id": "tt0131636",
+"type": "movie",
+"name": "Vuk",
+"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
+"posterShape": "poster",
+"year": 1981,
+"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
+"imdbRating": 7.6,
+"releaseInfo": "1981",
+"genres": [
+"Animációs",
+"Családi"
+],
+"seeders": 999929,
+"background": "https://image.tmdb.org/t/p/w1280/mbs85hyOdv58hVnqjV491UAbOFl.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/8xVWvLYdj9z8c9lc1Xkj4K8BH9g.png"
 },
 {
 "id": "tt20672356",
@@ -135,27 +171,9 @@
 "Történelmi",
 "Dráma"
 ],
-"seeders": 999932,
+"seeders": 999926,
 "background": "https://image.tmdb.org/t/p/w1280/2tD6lbeSHx0sYDsu0BoS2d1qrbZ.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/uBT5iQBvau6v6n8b6CI3IVB6gpA.png"
-},
-{
-"id": "tt0131636",
-"type": "movie",
-"name": "Vuk",
-"poster": "https://image.tmdb.org/t/p/w500/sgZFOXE0Chi4NcfsmxZ3E6fjAOF.jpg",
-"posterShape": "poster",
-"year": 1981,
-"description": "A rókacsaládban \"gyermekáldás\" van. Mind életrevaló, de egy különösen csintalan. A szülők úgy vélik, nagyapjára ütött és ezért a Vuk nevet adják neki. Amikor árván marad, nagybátyja, a híres Karak veszi pártfogásába. Befogadja barlangjába és vadászni tanítja. Vuk ügyes tanítványnak bizonyul, és Karak legnagyobb örömére ügyes, bátor rókává fejlődik. Okosságát bizonyítja akkor is, amikor a rókalányt kiszabadítja a vadász fogságából. Egy hajtóvadászat során Karak feláldozza életét a fiatalok megmentéséért. Vuk és Iny családot alapítanak, majd sok borsot törtek a vadász és kutyái orra alá.",
-"imdbRating": 7.7,
-"releaseInfo": "1981",
-"genres": [
-"Animációs",
-"Családi"
-],
-"seeders": 999930,
-"background": "https://image.tmdb.org/t/p/w1280/mbs85hyOdv58hVnqjV491UAbOFl.jpg",
-"logo": "https://image.tmdb.org/t/p/w500/8xVWvLYdj9z8c9lc1Xkj4K8BH9g.png"
 },
 {
 "id": "tt0179955",
@@ -172,7 +190,7 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999922,
+"seeders": 999915,
 "background": "https://image.tmdb.org/t/p/w1280/hvIKsPloN4QxfHiJSBOSwh09FDQ.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/yHhPbyhngqDaJYcJIn26KaeIHc6.png"
 },
@@ -189,23 +207,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999885
-},
-{
-"id": "tt0121403",
-"type": "movie",
-"name": "Indul a bakterház",
-"poster": "https://image.tmdb.org/t/p/w500/8IeFElRh4MjdFIqhwNWVQXnSycG.jpg",
-"posterShape": "poster",
-"year": 1980,
-"description": "Nehéz az élet a tanyavilágban. Regős Bendegúz, az égetni valóan rossz csemete sokat tudna róla mesélni. Gyerekkorában sokféle dolgot tartottak felőle: hogy csodagyerek, meg, hogy akasztották volna fel kétnapos korában. Most az anyja elszegődteti a bakterházba. A kisfiú szenved a pénzéhes lókupec, a lusta bakter, a fukar paraszt, de legfőképpen a Büdös Banya miatt.",
-"imdbRating": 7.7,
-"releaseInfo": "1980",
-"genres": [
-"Vígjáték"
-],
-"seeders": 999850,
-"background": "https://image.tmdb.org/t/p/w1280/57cCXtmKTR9FnC3Eyqxkdg6vkW.jpg"
+"seeders": 999882
 },
 {
 "id": "tt0142632",
@@ -222,25 +224,24 @@
 "Kaland",
 "Vígjáték"
 ],
-"seeders": 999849,
+"seeders": 999855,
 "background": "https://image.tmdb.org/t/p/w1280/zybudGZitZg5X4xs8xQZrrQeoPo.jpg"
 },
 {
-"id": "tt0065067",
+"id": "tt0121403",
 "type": "movie",
-"name": "A tanú",
-"poster": "https://image.tmdb.org/t/p/w500/r7u3c4ZEyai4efogsO4xyjKyA9b.jpg",
+"name": "Indul a bakterház",
+"poster": "https://image.tmdb.org/t/p/w500/8IeFElRh4MjdFIqhwNWVQXnSycG.jpg",
 "posterShape": "poster",
-"year": 1979,
-"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
-"imdbRating": 8.2,
-"releaseInfo": "1979",
+"year": 1980,
+"description": "Nehéz az élet a tanyavilágban. Regős Bendegúz, az égetni valóan rossz csemete sokat tudna róla mesélni. Gyerekkorában sokféle dolgot tartottak felőle: hogy csodagyerek, meg, hogy akasztották volna fel kétnapos korában. Most az anyja elszegődteti a bakterházba. A kisfiú szenved a pénzéhes lókupec, a lusta bakter, a fukar paraszt, de legfőképpen a Büdös Banya miatt.",
+"imdbRating": 7.7,
+"releaseInfo": "1980",
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999842,
-"background": "https://image.tmdb.org/t/p/w1280/dQLrjSyy64FyU8G1YKaDFA9mJEl.jpg",
-"logo": "https://image.tmdb.org/t/p/w500/r2n6P0aFu3kBV5mjoy7HH4tDE8A.png"
+"seeders": 999850,
+"background": "https://image.tmdb.org/t/p/w1280/57cCXtmKTR9FnC3Eyqxkdg6vkW.jpg"
 },
 {
 "id": "tt38508942",
@@ -275,6 +276,23 @@
 "seeders": 999838,
 "background": "https://image.tmdb.org/t/p/w1280/o30iuvWcb09UtxW5gDIPVhYkdb7.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/4TaQ2Sy4sWvHK7lwdhh0lbQ5IML.png"
+},
+{
+"id": "tt0065067",
+"type": "movie",
+"name": "A tanú",
+"poster": "https://image.tmdb.org/t/p/w500/r7u3c4ZEyai4efogsO4xyjKyA9b.jpg",
+"posterShape": "poster",
+"year": 1979,
+"description": "Magyarország, 1950-es évek. Pelikán József, aki gátőrként dolgozik a Dunán, véletlenül találkozik Dániel Zoltánnal, régi barátjával, akit évekkel korábban megmentett a haláltól, és aki ma már befolyásos politikus.",
+"imdbRating": 8.2,
+"releaseInfo": "1979",
+"genres": [
+"Vígjáték"
+],
+"seeders": 999833,
+"background": "https://image.tmdb.org/t/p/w1280/dQLrjSyy64FyU8G1YKaDFA9mJEl.jpg",
+"logo": "https://image.tmdb.org/t/p/w500/r2n6P0aFu3kBV5mjoy7HH4tDE8A.png"
 },
 {
 "id": "tt0084315",
@@ -366,7 +384,7 @@
 "genres": [
 "Családi"
 ],
-"seeders": 999805,
+"seeders": 999809,
 "background": "https://image.tmdb.org/t/p/w1280/dMbTVD7ylqa9p7o0QN7bCoPZeGT.jpg"
 },
 {
@@ -382,7 +400,7 @@
 "genres": [
 "Vígjáték"
 ],
-"seeders": 999803,
+"seeders": 999805,
 "background": "https://image.tmdb.org/t/p/w1280/l4eO0DmXdoMLFRUO3Xhro39dxTd.jpg",
 "logo": "https://image.tmdb.org/t/p/w500/9urzFBzYsyFqDAzEBJDDpKiK4M5.png"
 },
